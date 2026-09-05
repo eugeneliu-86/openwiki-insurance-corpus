@@ -1,0 +1,10 @@
+# Staged changes introduced during the demo. Not part of the corpus, and must stay invisible to
+# OpenWiki until deliberately copied into place.
+demo/
+
+# Editor and OS noise. An untracked or unignored stray file makes OpenWiki's no-op check bail to
+# a full model run, so keep this list current.
+.DS_Store
+*.swp
+.vscode/
+.idea/
