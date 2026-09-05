@@ -69,9 +69,17 @@ openwiki visualize   # interactive graph over the generated wiki
 | `forms/HO/MS/HO-3/2011-05.md` | base form, superseded by 2018-09, marker in place |
 | `forms/HO/MS/HO-3/2018-09.md` | base form, current |
 | `forms/HO/MS/HO-04-90/2010-10.md` | water backup endorsement, writes back Section I A.3 |
+| `forms/HO/MS/HO-04-16/2018-09.md` | ordinance or law, writes back Section I D.1 |
+| `forms/HO/MS/HO-04-81/2018-09.md` | limited mold coverage, writes back Section I C.2 |
 | `forms/HO/MS/HO-23-74/2018-09.md` | roof surfacing actual cash value schedule |
-| `bulletins/TX/2021-08-windstorm-deductible.md` | state windstorm deductible requirements |
+| `forms/HO/TX/HO-01-45/2022-01.md` | Texas amendatory; implements bulletin B-2021-08 |
+| `bulletins/TX/2021-08-windstorm-deductible.md` | Texas windstorm deductible requirements |
+| `bulletins/FL/2023-04-roof-age-nonrenewal.md` | Florida roof age and nonrenewal restrictions |
 | `guidelines/appetite/tx-homeowners.md` | internal Texas appetite guide |
+| `guidelines/appetite/fl-homeowners.md` | internal Florida appetite guide |
+| `guidelines/claims/water-loss-handling.md` | adjuster guidance for water losses |
+| `guidelines/claims/roof-claim-handling.md` | adjuster guidance for roof losses |
+| `guidelines/authority/referral-matrix.md` | binding authority and referral triggers |
 
 The documents are deliberately cross-wired: the appetite guide cites `HO-3 Section I A.4`,
 `HO 04 90 W.2` and `W.4`, and `Section I C.2` and `C.3`; HO 23 74 cites `Section I A.3` and
