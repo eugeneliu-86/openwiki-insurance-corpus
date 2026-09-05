@@ -13,6 +13,20 @@ Organize by coverage part first (Coverage A dwelling, B other structures, C pers
 
 Give the carrier's internal underwriting guidance its own top-level area, separate from contract language. Guidance is not part of any policy and must never be presented as though it were. Where guidance depends on a form provision, say so explicitly and cite both.
 
+## Page types
+
+Every page must declare a `type` in its front matter, chosen from exactly this list and written verbatim in lower case. Do not invent new values, do not add qualifiers, and do not describe the page in the type field.
+
+- `coverage` — what the contract covers, excludes, or writes back, and on what settlement basis. Use this for every page derived primarily from a policy form or endorsement.
+- `underwriting-guidance` — the carrier's own rules about which risks it will write, at what limit, and at what authority level.
+- `claims-guidance` — the carrier's own rules about how a loss is investigated, adjudicated, and settled.
+- `state-overlay` — a requirement imposed by a state regulator, and the amendatory form that implements it.
+- `policy-assembly` — how editions, endorsements, and state overlays combine to produce the terms governing a particular policy.
+
+The type carries the distinction between contract language, internal guidance, and regulatory constraint. That distinction is the most important thing a reader needs and the only one the type field is for, so keep it clean. A page that could plausibly take two types takes the one matching the document it is primarily derived from.
+
+Section index pages do not declare a type.
+
 ## What counts as a material proposition
 
 Document what changes an underwriting decision, a claim decision, or an operational expectation. Specifically: what a coverage part covers and excludes; the exact conditions under which an exclusion is written back by an endorsement; sublimits, deductibles, and how they interact; loss settlement basis and when it changes; the edition and state variations that govern a given policy; referral triggers and authority levels; and the notice, proof, and time-limit conditions an insured must satisfy.
