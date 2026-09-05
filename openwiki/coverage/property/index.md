@@ -1,0 +1,7 @@
+# Files
+
+- [Section I Claim Conditions, Payment, and Deductibles](claim-conditions-and-deductibles.md) - Select the issued HO-3 edition and attached state or coverage endorsements before applying Section I notice, preservation, proof-of-loss, suit, payment, and deductible provisions. This reference separates base-form duties from Texas timing and wind-hail rules and from water and roof deductible overlays.
+- [Fungi rot and bacteria](fungi-rot-and-bacteria.md)
+- [Ordinance or Law Coverage and Undamaged Roof Portions](ordinance-or-law.md) - Explains how the HO-3 2018-09 ordinance-or-law exclusion interacts with attached HO 04 16 coverage, including code-required undamaged roof surfacing, limits, exclusions, timing, and payment prerequisites.
+- [Section I Property Perils and General Exclusions](perils-and-general-exclusions.md) - Determines the HO-3 2018-09 direct-physical-loss and named-peril gates, then separates the principal Section I exclusion paths and attached endorsement write-backs. Preserves the distinct 2011-05 wording so later provisions are not read into an older issued policy.
+- [Water Damage Exclusions and Water Backup Write-Back](water-damage-and-backup.md) - Distinguishes the HO-3 water-source exclusions from the limited, attachment-dependent HO 04 90 water-backup write-back. Covers edition-specific causation, sublimit, deductible, maintenance, settlement, underwriting, and claim-file controls.
