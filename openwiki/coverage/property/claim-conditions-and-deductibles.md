@@ -3,9 +3,6 @@ type: property claim conditions reference
 title: Section I Claim Conditions, Payment, and Deductibles
 description: Select the issued HO-3 edition and attached state or coverage endorsements before applying Section I notice, preservation, proof-of-loss, suit, payment, and deductible provisions. This reference separates base-form duties from Texas timing and wind-hail rules and from water and roof deductible overlays.
 tags: [homeowners, property-claims, section-i, deductibles, proof-of-loss, texas]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md

@@ -3,9 +3,6 @@ type: policy assembly reference
 title: Governing Form Editions and Policy Assembly
 description: Determine the HO-3 edition from the policy-written date, then assemble only the endorsements actually attached to that issued policy. This reference highlights edition changes that materially alter property, settlement, deductible, and liability analysis.
 tags: [homeowners, ho-3, policy-editions, endorsements, texas]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md

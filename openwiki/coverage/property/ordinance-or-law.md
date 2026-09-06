@@ -3,9 +3,6 @@ type: property coverage reference
 title: Ordinance or Law Coverage and Undamaged Roof Portions
 description: Explains how the HO-3 2018-09 ordinance-or-law exclusion interacts with attached HO 04 16 coverage, including code-required undamaged roof surfacing, limits, exclusions, timing, and payment prerequisites.
 tags: [homeowners, property-coverage, ordinance-or-law, roof, endorsements, claims]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md

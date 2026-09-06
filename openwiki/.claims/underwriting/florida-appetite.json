@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:0e63cb54ab3385eefbf0b770e2d41b808e6edc1d385ab4874a40266a5fa9636f",
+  "pageVersion": "sha256:fb8a55fa7690345c41cdee94a71ea9dfc0e2d329bfd940da3eeb493bba849499",
   "claims": [
     {
       "id": "claim_4e0cd8e7d1aa4164ae2dbfaecb05ed95",
@@ -241,10 +241,32 @@
           "version": "repo-lines-v1:sha256:0df8a6790406c68a361173da52079f03aeedc27725b8b5e89486e7ed79ca69b2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgyMGY1MDJkYmI0YWNhOGI4MGEzOGJlMmVmOTFlMWE2ZjRmMzUzNjgwODgwNTYyYThkZTZkMGQxY2ZiODdhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmU5NWE3ZTdhNzAzN2NkY2VlNGM5ZDk4MDllYzA5OWI0ZDFmZTNjYzZlYmQ1ZWFmYmM4ODA2ODMyNGQxMTBkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODk5YzA5ZWZhMGRiYWVlZGU3MTQzN2E3MzYyYTczNWRiNTQyMzRmMjk1ZDE1YzRmYWE3YTlhYzI0ZjhiMzQ0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDVkYTgzMDdmNGMyZDNjMWU0M2YwMGQ4NGNkNjZjMDRjY2RhOWUyM2NkY2JmMTNjNzFhZWNhODMzMTUyYTJkOSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_27ff9b854eea49178862f686cf287811",
+      "statement": "For an otherwise in-appetite Florida submission, apply and count each mandatory referral condition in the enterprise matrix in addition to Florida-specific gates. The Florida 15-year roof inspection requirement and the matrix’s 20-year roof referral are independent controls; a senior underwriter may clear only one referral condition, while more than one requires management routing.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L15-L21",
+          "version": "repo-lines-v1:sha256:876bb5bc842b6662c4d3b5246642185a67efb90da4fc09b7ba27ca55fefe2498:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiMmVhOTg4MDNlZjkyZDQyYzRjM2E4MTEyNDgxMmI3MDJiZjg5YWI1YjA3YTZmMTdiMjkyNTY3ODkyMDY1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEyNmZmNThhYzMzNzdjMmI5ZjQ1YjQ5NThjNmU4Y2RkYWMyMjY4NGYwMjM5NjEzOTExMTAwYWUwMTlmODc3YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E1NzViZTdhM2ZmMzBkNTQyMmVkOTVhMzc3ZjRkZjU4ZTYwZDUyYTE1MGU5ODg0NjUxOTg4ZGMwZGUzZjM2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDVhNTU4NTZmNGY5ZDAwMDY3ODEwNTBlNTJiOWZkYjgzNzc4ZjU4ODY0YjUzYjk1ODFlNTQ4YjZhYjIyMWExOCJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L47-L49",
+          "version": "repo-lines-v1:sha256:9ed712a8625e36561c2fd99603a0997788603bfeef97d5d95767823a1c2e2877:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc0NDFiNjVhOGY3N2M3Y2M4MjRlZjZkYTViMTllMmYwZTIyNzljZTA4NmQ1YWQ3MGJmMDUxNGMyZmY3NGI3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIwM2NmZTU4YjA1ZDNkZWVjYjU1ZGFiNjM3YWU0YmJlNTI0NjcxNWIwZWQ3YzBhY2RmOWQwY2IyYWEyNWY1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU1NGZmNTY5MjJkZDFlMjdmYjIwZmVlNjhkZDA1ZGU5MzhlZGE4MTBhNGZkZDFmNDc0ZmVmZjM4NmNiNTlkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L19-L31",
+          "version": "repo-lines-v1:sha256:f2c54f5f8c9cae4acce6aa236f7570546db81b7c70869c5e1da5448b3ea0c195:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ZTc4YjIzYmQyODE2NWY0ZmQwY2U0ODQ0YTUyMDkxODgzMzdhYzg3MTRkYzE4MTViNTc0YWMyMDc0OTBmY2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3M2ZmNzliY2EzZGE4ZGQ4ZjliN2U0MjYzMzFhZGI4YWVkZWJkYjE4NDBkNDE1ZDMxMTc1NjNhODZlNWEyNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNjRjNmMwZjQ0YTgwZjIzZGY0NGI2MTI4YjExMmNkOGU3NDU1YzE5N2U3ODdiNmMwZjIxODk1ZDJlNGI2YzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYzg4MjQ4ZWEyYzcxY2E5MDQxOWY1MDY3ZTRkMGEyNjExZGMyMGQ3YjcyMTdjN2Y5NDRjYTQzNjIxMWE4NDgifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L7-L10",
+          "version": "repo-lines-v1:sha256:ff1901d219d56443d68b3d38a137cfcc497d36520fc8f53a163b1d8012abaaea:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY5OTE5OThhMjE1NmU2ODU5ZDc2NjNmNzE3MjgxYWU0NTQwMDQxMzFlYjJjZDE2MWUxOTJhMGQzMDUxNzQ2MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDllYzg5YzVhNjY2Y2M0MzQ3YWVlYjc0YjU1NmE4N2Y1NGIxOGNmODMwOWJkM2NlYTMxZjNkM2IxZjRiNGRlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMwOGVmNGNiY2I5N2UzZjAyZDY0ZTEwNjUwMjBkNmE0N2U5OGI5ZjNmZmI1YjIzNmI4YjZiNDRiNGI1NzczOCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T20:29:02.779Z"
+    "at": "2026-09-05T21:30:30.144Z"
   }
 }

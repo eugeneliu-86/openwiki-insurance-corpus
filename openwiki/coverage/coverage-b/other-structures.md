@@ -1,10 +1,11 @@
 ---
-type: "Reference"
-title: "Other structures"
-openwiki_generated: true
+type: coverage
+title: Coverage B — Other Structures
+description: Explains Coverage B scope and its additional 10-percent limit under the HO-3 2011-05 and 2018-09 editions. Distinguishes the 2018 rental/private-garage boundary and the limited effects of verified attached endorsements.
+tags: [homeowners, ho-3, coverage-b, other-structures, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
+    at: 2026-09-05T21:30:30.144Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md

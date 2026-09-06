@@ -1,10 +1,11 @@
 ---
-type: "Reference"
-title: "Texas appetite"
-openwiki_generated: true
+type: underwriting-guidance
+title: Texas Homeowners Appetite
+description: Internal Texas homeowners underwriting eligibility, authority, roof, coastal, water-backup, wind/hail, referral, and audit controls. Separates operating decisions from the issued policy, attached forms, and Texas regulatory requirements.
+tags: [underwriting, texas, homeowners, appetite, binding-authority, referrals, roof, water-backup, windstorm-hail, audit]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
+    at: 2026-09-05T21:30:30.144Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
@@ -20,9 +21,8 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
-
 
 ## Purpose, scope, and controlling layers
 
@@ -40,6 +40,8 @@ Apply the layers in this order:
 The bulletin applies to Texas residential property policies delivered or issued for delivery with an effective date on or after **2022-01-01**. HO 01 45 is also effective for policies effective on or after that date, attaches to HO-3, and governs a conflict with the attached form. The effective-date gate does not prove attachment; retain and verify the issued endorsement and Declarations before relying on its contractual result. [Texas Bulletin B-2021-08, applicability](repo://bulletins/TX/2021-08-windstorm-deductible.md#L1-L7) · [HO 01 45, attachment, effective date, and conflict rule](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4)
 
 > **Internal control:** A referral or management route is not automatic approval. It cannot authorize a filed-rule or bulletin violation. Likewise, a risk that is outside the Texas guide's stated appetite is not made eligible merely by attaching an endorsement or using a broader enterprise ceiling. [Underwriting Referral and Authority Matrix, R.1 and R.4](repo://guidelines/authority/referral-matrix.md#L7-L11) [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
+
+For issued-policy form selection and assembly, use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md). That analysis is adjacent to, but does not replace, the internal controls here.
 
 ## Intake and Texas base appetite
 
@@ -87,9 +89,7 @@ A roof-surfacing age of **25 years or more** is outside Texas appetite regardles
 
 The all-state matrix also makes a roof surfacing age of **20 years or more** a mandatory referral. Apply that escalation at 20–24 years in addition to the Texas 15-year schedule requirement, but do not replace Texas's stricter 25-year eligibility rule with the matrix's generic roof referral. [Underwriting Referral and Authority Matrix, R.3](repo://guidelines/authority/referral-matrix.md#L19-L31) · [Texas Homeowners Appetite Guide, G.2](repo://guidelines/appetite/tx-homeowners.md#L15-L21)
 
-<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/roof-settlement] file "/openwiki/coverage/coverage-a/roof-settlement" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/dwelling] file "/openwiki/coverage/coverage-a/dwelling" does not exist. Fix the href or restore the target, then delete this comment. -->
-Attachment is not a coverage representation. For an issued HO-3 2018-09 policy to which HO 23 74 is attached, windstorm- or hail-caused **roof surfacing** is settled under its actual-cash-value schedule; non-surfacing components remain under the base dwelling settlement and a different covered peril remains replacement cost. Use [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement) and [Dwelling](/openwiki/coverage/coverage-a/dwelling) for issued-policy analysis. [HO 23 74, R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L16) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
+Attachment is not a coverage representation. For an issued HO-3 2018-09 policy to which HO 23 74 is attached, windstorm- or hail-caused **roof surfacing** is settled under its actual-cash-value schedule; non-surfacing components remain under the base dwelling settlement and a different covered peril remains replacement cost. Use [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Dwelling](/openwiki/coverage/coverage-a/dwelling.md) for issued-policy analysis. [HO 23 74, R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L16) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
 
 ## Coastal-county controls and wind/hail configuration
 
@@ -111,8 +111,7 @@ Do not make a claim-time coverage or deductible promise from an underwriting fil
 
 In legally defined seacoast territories, the guide permits the operational exclusion path where the insured obtains windstorm and hail through the residual market, and requires a signed exclusion acknowledgment at binding. This is a mandatory referral condition under the matrix. The policy path is narrower: HO 01 45 T.7 requires the Texas Windstorm Insurance Association coverage, the applicable exclusion endorsement, and the signed acknowledgment; then T.1 does not apply. Preserve all three issued/binding artifacts rather than treating the referral or the county list as a substitute. [Texas Homeowners Appetite Guide, G.4](repo://guidelines/appetite/tx-homeowners.md#L31-L35) · [Underwriting Referral and Authority Matrix, R.3](repo://guidelines/authority/referral-matrix.md#L19-L31) · [HO 01 45, T.7](repo://forms/HO/TX/HO-01-45/2022-01.md#L33-L37)
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/texas] file "/openwiki/state-overlays/texas" does not exist. Fix the href or restore the target, then delete this comment. -->
-For the policy and regulatory deductible detail, including named-storm terms and claims routing, see [Texas Windstorm and Hail Requirements](/openwiki/state-overlays/texas). The underwriting decision is separate from whether an issued exclusion or deductible applies to a loss.
+For policy and regulatory deductible detail, including named-storm terms and claims routing, see [Texas Windstorm and Hail Deductible Overlay](/openwiki/state-overlays/texas.md). The underwriting decision is separate from whether an issued exclusion or deductible applies to a loss.
 
 ## Water-backup endorsement controls
 
@@ -124,8 +123,7 @@ For a finished basement below grade, require a sump pump with battery backup bef
 
 The form's default is a **$5,000 per-policy-period** sublimit unless higher limits are shown in the Declarations, and that limit is part of—not additional to—the applicable A/B/C limits. It also applies a separate **$500** deductible. These form terms explain why issued Declarations and attachment must be retained, but do not turn the underwriting approval amount into a promise of coverage. [HO 04 90, W.2-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L15)
 
-<!-- openwiki: broken internal link [/openwiki/coverage/property/water-damage-and-backup] file "/openwiki/coverage/property/water-damage-and-backup" does not exist. Fix the href or restore the target, then delete this comment. -->
-Never describe HO 04 90 as flood coverage. If attached, it responds only to its stated sewer/drain backup or sump-event direct physical loss; flood, surface water, waves, tidal water, storm surge, overflow of a body of water, and subsurface water remain excluded. W.5 also withholds endorsement coverage when the event resulted from a known, unremedied maintenance failure that a reasonable person would have remedied. For source classification and issued-policy terms, use [Water Damage and Backup](/openwiki/coverage/property/water-damage-and-backup). [HO 04 90, W.1 and W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [HO 04 90, W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L25) · [HO-3 2018-09, A.1-A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
+Never describe HO 04 90 as flood coverage. If attached, it responds only to its stated sewer/drain backup or sump-event direct physical loss; flood, surface water, waves, tidal water, storm surge, overflow of a body of water, and subsurface water remain excluded. W.5 also withholds endorsement coverage when the event resulted from a known, unremedied maintenance failure that a reasonable person would have remedied. For source classification and issued-policy terms, use [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md). [HO 04 90, W.1 and W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [HO 04 90, W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L25) · [HO-3 2018-09, A.1-A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 
 ## Prior losses, referrals, and decision records
 
@@ -144,5 +142,4 @@ Every cleared referral must record the triggering condition, clearing authority 
 5. **Claims and authority:** Count every paid-property, specified-cause, liability, roof, water, and residual-market referral. Use $800,000/$1,200,000 Texas Coverage A ceilings rather than the enterprise senior ceiling; route more than one condition to management.
 6. **Decision record:** Retain sources and dates for all material facts, guide/matrix/form/bulletin versions used, authority decision, clearance facts, and issued endorsement/Declarations evidence. Record a no-bind or out-of-appetite disposition instead of characterizing an unresolved condition as approved.
 
-<!-- openwiki: broken internal link [/openwiki/underwriting/referral-and-binding-authority] file "/openwiki/underwriting/referral-and-binding-authority" does not exist. Fix the href or restore the target, then delete this comment. -->
-These are internal issuance and audit controls. Coverage questions must be resolved from the issued contract and applicable Texas requirements, not from this guide. For cross-state routing standards, see [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority).
+These are internal issuance and audit controls. Coverage questions must be resolved from the issued contract and applicable Texas requirements, not from this guide. For cross-state routing standards, see [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md).

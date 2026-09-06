@@ -1,101 +1,86 @@
 ---
-type: "Reference"
-title: "Dwelling"
+type: coverage
+title: Coverage A — Dwelling
+description: Defines the Coverage A dwelling-property boundary and the replacement-cost condition in the HO-3 2011-05 and 2018-09 editions. Use it to select the correct baseline before routing a 2018-09 windstorm or hail roof-surfacing question to the roof-settlement analysis.
+tags: [homeowners, coverage-a, dwelling, replacement-cost, roof-settlement, policy-editions]
 openwiki_generated: true
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
+    at: 2026-09-05T21:30:30.144Z
 sources:
-  - id: openwiki-source-e81c5a85097780cfed50a7a1
-    resource: repo://forms/HO/MS/HO-04-16/2018-09.md
   - id: openwiki-source-a7812317f4b735061e88f5bb
     resource: repo://forms/HO/MS/HO-23-74/2018-09.md
   - id: openwiki-source-e727058d16eee86c951e380a
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-  - id: openwiki-source-ff7de1315ac46ce4dd65d251
-    resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-da67a262bebb42780999bd2a
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
 
+## Purpose and property boundary
 
-## Coverage A property and governing form
+Coverage A covers the dwelling at the residence premises shown in the Declarations, including attached structures. It also covers materials and supplies on or next to the residence premises when used to construct, alter, or repair that dwelling. This property boundary is the same in **HO-3 edition 2011-05** and **HO-3 edition 2018-09**. [HO-3 2011-05, A.1–A.2](repo://forms/HO/MS/HO-3/2011-05.md#L25-L33) · [HO-3 2018-09, A.1–A.2](repo://forms/HO/MS/HO-3/2018-09.md#L23-L33)
 
-Coverage A applies to the dwelling at the residence premises in the Declarations, including attached structures, and to construction, alteration, or repair materials and supplies on or next to the residence premises. This scope is the same in **HO-3 edition 2011-05** and **HO-3 edition 2018-09**. It is not a blanket promise to pay for every condition at the residence: for **HO-3 2018-09**, Coverage A and B insure against *direct physical loss* except as excluded by Section I exclusions. [HO-3 2011-05 § A.1–A.2](repo://forms/HO/MS/HO-3/2011-05.md#L25-L33) · [HO-3 2018-09 § A.1–A.2 and P.1](repo://forms/HO/MS/HO-3/2018-09.md#L23-L33) [§ P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L63)
+For **HO-3 2018-09**, Coverage A and Coverage B insure against direct physical loss to the described property except as excluded in Section I. The property description and the settlement rule therefore do not themselves establish that a reported condition is covered. Establish the applicable cause-of-loss and exclusion analysis before selecting a settlement basis; see [Section I Property Perils and General Exclusions](../property/perils-and-general-exclusions.md). [HO-3 2018-09, P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L63)
 
-Identify the issued base-form edition before deciding settlement. **HO-3 2011-05** was superseded for policies written on or after 2018-09-01, but its own supersession notice says that it remains in force for policies written under it and governs their losses regardless of when reported. **HO-3 2018-09** is the multistate form effective for policies written on or after 2018-09-01. A later form must not be retroactively substituted for a 2011-05 policy. [HO-3 2011-05](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) · [HO-3 2018-09](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4)
+## Select the issued edition first
 
-## Replacement cost: condition and baseline
+The issued base-form edition controls the Coverage A baseline. **HO-3 2011-05** was superseded for policies written on or after 2018-09-01, but remains in force for policies written under it and governs their losses regardless of when reported. **HO-3 2018-09** is the multistate form effective for policies written on or after 2018-09-01. Do not substitute the later roof wording into a 2011-05 policy. [HO-3 2011-05, applicability and continuing-force notice](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) · [HO-3 2018-09, applicability](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4)
 
-Both editions make replacement-cost settlement for the dwelling conditional on insurance to at least 80 percent of replacement cost at the time of loss. The controlling **HO-3 2011-05 A.3** wording is: **“Losses to the dwelling, including roof surfacing, are settled at replacement cost subject to the applicable deductible, provided the dwelling is insured to at least eighty percent of its replacement cost at the time of loss.”** [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L27-L34)
+Use the Declarations and issued policy record to identify the form edition, Coverage A limit, deductible, and endorsements actually attached. The wider assembly rules, including state amendments, are in [Governing Form Editions and Policy Assembly](../policy-editions-and-governing-forms.md).
 
-**HO-3 2018-09 A.3** retains that threshold, but expressly makes its baseline subject to the new roof provision: **“Losses to the dwelling are settled at replacement cost, subject to the roof surfacing provisions in A.4 and to the applicable deductible, provided the dwelling is insured to at least eighty percent of its replacement cost at the time of loss.”** [HO-3 2018-09 § A.3](repo://forms/HO/MS/HO-3/2018-09.md#L25-L33)
+## Replacement-cost baseline and the 80-percent condition
 
-Replacement cost in both editions means repair or replacement with material of like kind and quality **without deduction for depreciation**; the 2018-09 definition adds that it is measured “at the time of loss.” The forms state the 80-percent condition but do not state a separate below-threshold payment formula in A.3, so a handling decision should not invent one from this provision alone. [HO-3 2011-05 Definitions 1–2](repo://forms/HO/MS/HO-3/2011-05.md#L13-L18) · [HO-3 2018-09 Definitions 1–2](repo://forms/HO/MS/HO-3/2018-09.md#L9-L14)
+Both editions condition replacement-cost settlement on the dwelling being insured to at least 80 percent of its replacement cost at the time of loss. The **2011-05 A.3** wording expressly includes roof surfacing: **“Losses to the dwelling, including roof surfacing, are settled at replacement cost subject to the applicable deductible, provided the dwelling is insured to at least eighty percent of its replacement cost at the time of loss.”** [HO-3 2011-05, A.3](repo://forms/HO/MS/HO-3/2011-05.md#L27-L34)
 
-## The 2011-05 to 2018-09 roof change
+The **2018-09 A.3** baseline retains that condition but makes it subject to A.4: **“Losses to the dwelling are settled at replacement cost, subject to the roof surfacing provisions in A.4 and to the applicable deductible, provided the dwelling is insured to at least eighty percent of its replacement cost at the time of loss.”** [HO-3 2018-09, A.3](repo://forms/HO/MS/HO-3/2018-09.md#L25-L33)
 
-| Question | HO-3 edition 2011-05 | HO-3 edition 2018-09 |
+In both editions, replacement cost is the like-kind-and-quality repair or replacement cost without a depreciation deduction. The 2018-09 definition additionally says it is measured at the time of loss. A.3 states the 80-percent condition, but neither edition supplies a separate below-threshold payment formula in that provision; do not create one from A.3 alone. [HO-3 2011-05, Definitions 1–2](repo://forms/HO/MS/HO-3/2011-05.md#L13-L18) · [HO-3 2018-09, Definitions 1–2](repo://forms/HO/MS/HO-3/2018-09.md#L9-L14)
+
+## Edition-specific roof-surfacing routing
+
+| Question | HO-3 2011-05 | HO-3 2018-09 |
 | --- | --- | --- |
-| Base Coverage A settlement | A.3 includes roof surfacing in replacement-cost settlement, subject to the deductible and 80-percent condition. | A.3 provides replacement-cost settlement, subject to A.4, the deductible, and the same 80-percent condition. |
-| Windstorm or hail roof surfacing | There is **no separate roof-surfacing settlement basis**. Roof surfacing remains replacement cost when the A.3 condition is met. | A.4 says windstorm- or hail-caused roof-surfacing loss is replacement cost **unless** an actual-cash-value roof schedule endorsement is attached. |
-| If a roof schedule is attached | This edition supplies no A.4 roof-schedule routing rule. | The attached schedule governs **roof surfacing only**; “all other components of the dwelling continue to be settled under A.3.” |
+| Ordinary Coverage A settlement | A.3 includes roof surfacing in replacement-cost settlement, subject to the deductible and 80-percent condition. | A.3 provides replacement-cost settlement, subject to A.4, the deductible, and the 80-percent condition. |
+| Windstorm or hail roof surfacing | No separate roof-surfacing settlement basis appears in this edition. Do not import A.4 or a roof schedule from a later form. | A.4 routes this narrow question to replacement cost unless an actual-cash-value roof schedule endorsement is attached. |
+| Effect of an attached roof schedule | The supplied 2011-05 form supplies no A.4 roof-schedule route. | The endorsement governs **roof surfacing only**; all other dwelling components continue under A.3. |
 
-For a **HO-3 2011-05** policy, roof surfacing is expressly part of the A.3 replacement-cost treatment; do not import the later roof-schedule result. For a **HO-3 2018-09** policy, A.4 is the routing rule: **“Loss to roof surfacing caused by windstorm or hail is settled at replacement cost unless an actual cash value roof schedule endorsement is attached to this policy, in which case that endorsement governs settlement for the roof surfacing only.”** [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L27-L34) · [HO-3 2018-09 § A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
-
-> **Attachment is an invariant.** HO 23 74 is an endorsement, not an automatic feature of HO-3 2018-09. Apply its actual-cash-value schedule only after confirming that **HO 23 74 edition 2018-09 is attached to the policy**. Absent attachment, A.4 leaves windstorm or hail roof surfacing at replacement cost (subject to A.3 and the applicable deductible). [HO 23 74 2018-09, introductory text](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO-3 2018-09 § A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34)
+The controlling **2018-09 A.4** text is: **“Loss to roof surfacing caused by windstorm or hail is settled at replacement cost unless an actual cash value roof schedule endorsement is attached to this policy, in which case that endorsement governs settlement for the roof surfacing only.”** [HO-3 2018-09, A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
 
 ```mermaid
 flowchart TD
-    Start["Confirm HO-3 2018-09 governs"] --> Covered["Establish covered dwelling loss"]
+    Record["Read issued policy record and declarations"] --> Edition{"Which HO-3 edition governs"}
+    Edition -- "2011-05" --> Older["Use A.3 including roof surfacing"]
+    Edition -- "2018-09" --> Covered["Establish covered dwelling loss"]
     Covered --> Roof{"Windstorm or hail loss to roof surfacing"}
-    Roof -- No --> Baseline["Settle under A.3 replacement cost"]
-    Roof -- Yes --> Attached{"HO 23 74 attached"}
+    Roof -- No --> Baseline["Use A.3 replacement-cost baseline"]
+    Roof -- Yes --> Attached{"ACV roof schedule endorsement attached"}
     Attached -- No --> Baseline
-    Attached -- Yes --> Scope["Separate roof surfacing from other components"]
-    Scope --> Schedule["Apply material and age schedule"]
-    Schedule --> Floor["Apply 25 percent floor"]
-    Floor --> Deduct["Subtract applicable deductible"]
-    Baseline --> Deduct
+    Attached -- Yes --> Route["Use the roof-settlement analysis for surfacing only"]
 ```
 
-This flow shows the **HO-3 2018-09** A.4 decision and the attached **HO 23 74 2018-09** settlement sequence; it does not apply to a HO-3 2011-05 roof-surfacing claim.
+*The routing flow preserves the 2011-05 baseline and sends only a covered 2018-09 windstorm-or-hail roof-surfacing loss with a verified attached ACV schedule to the separate settlement analysis.* [HO-3 2011-05, A.3](repo://forms/HO/MS/HO-3/2011-05.md#L27-L34) · [HO-3 2018-09, A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
 
-## What the attached HO 23 74 changes—and what it leaves alone
+### Attachment is required, not inferred
 
-For a **HO-3 2018-09 policy with HO 23 74 edition 2018-09 attached**, the endorsement defines roof surfacing as shingles, tiles, shakes, metal panels, membrane, and the underlayment and flashing directly beneath them. It excludes roof deck, trusses, rafters, sheathing, and interior finish from that term. Those non-surfacing dwelling components continue to use **HO-3 2018-09 A.3** replacement-cost settlement, not the roof schedule. Estimates must therefore separate surfacing from structural and interior line items. [HO 23 74 2018-09 § R.1](repo://forms/HO/MS/HO-23-74/2018-09.md#L3-L10) · [HO-3 2018-09 § A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34)
+**HO 23 74 edition 2018-09** identifies itself as an endorsement that attaches to HO-3 and modifies Section I A.4. It is not an automatic feature of HO-3 2018-09. Apply its actual-cash-value schedule only after confirming that this edition of the endorsement is attached to the issued policy. Without that attachment, A.4 leaves qualifying windstorm- or hail-caused roof surfacing at replacement cost under the A.3 baseline. [HO 23 74 2018-09, introductory text](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO-3 2018-09, A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34)
 
-The endorsement changes only windstorm- or hail-caused surfacing loss. Its controlling rule is: **“Loss to roof surfacing caused by windstorm or hail is settled at actual cash value, determined by applying the depreciation schedule in R.3 to the replacement cost of the roof surfacing at the time of loss, less the applicable deductible.”** A loss to roof surfacing from any other covered peril remains replacement cost and is outside the endorsement. [HO 23 74 2018-09 § R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L11-L16)
+Underwriting requirements do not prove attachment. For example, the Texas appetite guide calls for HO 23 74 for specified older roofs at new business and renewal, but labels itself internal underwriting guidance rather than policy contract language. The referral matrix similarly describes authority to attach the endorsement as an underwriting control. Those rules may govern binding activity; they do not establish that a particular issued policy includes the endorsement. [Texas Homeowners Appetite Guide, status and G.2](repo://guidelines/appetite/tx-homeowners.md#L1-L3) [Texas Homeowners Appetite Guide, G.2](repo://guidelines/appetite/tx-homeowners.md#L15-L21) · [Underwriting Referral and Authority Matrix, purpose and R.5](repo://guidelines/authority/referral-matrix.md#L1-L4) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L45)
 
-For the qualifying peril and surfacing scope, choose the R.3 payable percentage by material and age at the date of loss:
+## Handoff and focused file review
 
-| Surfacing material | Age bands and payable percentage of replacement cost |
-| --- | --- |
-| Composition shingle | Under 5 years: 100%; 5–9: 80%; 10–14: 60%; 15–19: 40%; 20 or more: 25% |
-| Architectural shingle, metal, or tile | Under 10 years: 100%; 10–19: 80%; 20–29: 60%; 30 or more: 40% |
-| Wood shake | Under 5 years: 100%; 5–9: 70%; 10 or more: 40% |
+For the resulting **2018-09** roof-surfacing route, use [Roof settlement](roof-settlement.md). That page addresses the endorsement's defined surfacing boundary, wind/hail actual-cash-value calculation, material-and-age schedule, 25-percent pre-deductible floor, and ordinance-or-law path. It is not a substitute for the issued-edition and attachment checks on this page.
 
-The age is the documented original-installation date or most recent full-replacement date, whichever is later; without documentation it is presumed to be the dwelling's age. A partial repair does not reset age, while a full replacement of one slope resets age only for that slope. The schedule has a hard floor: **“In no event will the payable amount for roof surfacing be less than twenty-five percent of the replacement cost of that surfacing, before application of the deductible.”** [HO 23 74 2018-09 §§ R.3–R.5](repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L35)
+A focused Coverage A review should record:
 
-## Deductibles and adjoining coverages
+1. The policy-written date and issued HO-3 edition.
+2. The Declarations' Coverage A limit and deductible, plus every attached endorsement and its edition.
+3. The damaged property and the coverage/exclusion conclusion.
+4. Whether the claim is a 2018-09 windstorm-or-hail loss to roof surfacing and whether the ACV roof schedule is actually attached.
+5. The selected settlement path and supporting form language.
 
-The base deductible remains part of Coverage A settlement. For **HO-3 2011-05**, the deductible shown in the Declarations applies to each Section I loss. For **HO-3 2018-09**, that is also the baseline, but a separate windstorm-or-hail deductible applies where required by a state amendatory endorsement; where both apply, **“only the larger is deducted.”** [HO-3 2011-05 § S.4](repo://forms/HO/MS/HO-3/2011-05.md#L83-L92) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L101-L112)
-
-For a qualifying **HO 23 74 2018-09** schedule calculation, apply the percentage and its 25-percent minimum before subtracting the applicable deductible. The endorsement does not create a second deductible; it uses the deductible determined under the policy and applicable state form. For example, where **HO 01 45 edition 2022-01** is attached to an eligible Texas policy, it amends S.5 so that a windstorm-or-hail loss receives only the windstorm-and-hail deductible, not the all-other-perils deductible. Verify the state amendatory endorsement and Declarations rather than assuming a single deductible arrangement. [HO 23 74 2018-09 §§ R.2–R.4](repo://forms/HO/MS/HO-23-74/2018-09.md#L11-L30) · [HO 01 45 2022-01 § T.1](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11)
-
-An ordinance can create a separate boundary. HO 23 74 does not pay for undamaged surfacing that must be replaced to meet code unless an ordinance-or-law endorsement is attached. On a **HO-3 2018-09** policy with **HO 04 16 edition 2018-09** attached, that endorsement covers code-required replacement of undamaged roof surfacing, subject to its limit and only after the damaged-property settlement. [HO 23 74 2018-09 § R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41) · [HO 04 16 2018-09 §§ O.2–O.3 and O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L19) [§ O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
-
-## Handling checklist
-
-1. Read the Declarations and issued policy to identify the governing HO-3 edition, Coverage A limit, deductible, and attached endorsements. Do not infer HO 23 74 from roof age, underwriting guidance, or a claim description.
-2. Establish that the dwelling loss is covered before selecting a settlement basis. For **HO-3 2018-09**, this begins with direct physical loss and the Section I exclusions.
-3. For **HO-3 2011-05**, settle roof surfacing under A.3 when its 80-percent condition is met. For **HO-3 2018-09**, ask in order: is the damaged item roof surfacing, was it caused by windstorm or hail, and is HO 23 74 attached?
-4. If the schedule governs, document material, installation or full-replacement evidence, any slope-specific age, scope separation, schedule percentage, and the deductible applied. Apply the floor before the deductible.
-5. Check for a state amendatory deductible form and for HO 04 16 when code-required undamaged work is claimed. Coverage conditions still apply: under **HO-3 2018-09**, the insured must give prompt notice, protect property from further damage, and provide a signed sworn proof of loss within 60 days after request. [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106)
-
-For detailed roof calculation and documentation guidance, see [Roof settlement](roof-settlement.md). For form-selection rules, see [Policy editions and governing forms](../policy-editions-and-governing-forms.md); for general claim conditions and deductible administration, see [Claim conditions and deductibles](../property/claim-conditions-and-deductibles.md). Internal underwriting requirements may restrict whether an endorsement can be bound, but they are not policy language and do not make an unattached endorsement applicable. [Underwriting Referral and Authority Matrix](repo://guidelines/authority/referral-matrix.md#L1-L4) · [Texas Homeowners Appetite Guide](repo://guidelines/appetite/tx-homeowners.md#L15-L21)
+For deductible selection and Section I notice, preservation, proof-of-loss, and payment conditions, see [Section I Claim Conditions, Payment, and Deductibles](../property/claim-conditions-and-deductibles.md).

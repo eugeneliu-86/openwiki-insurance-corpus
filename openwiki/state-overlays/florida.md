@@ -1,10 +1,11 @@
 ---
-type: "Reference"
-title: "Florida"
-openwiki_generated: true
+type: state-overlay
+title: Florida Roof Age, ACV Schedule, and Nonrenewal Overlay
+description: Florida OIR-2023-04 controls for roof-age underwriting, inspections, roof-deductible and ACV-schedule offers, roof-condition nonrenewals, deductible overlap, and county reporting. Separates those effective-date-gated regulatory controls from internal underwriting guidance and issued-policy terms.
+tags: [florida, homeowners, roof-age, actual-cash-value, nonrenewal, deductibles, regulatory-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
+    at: 2026-09-05T21:30:30.144Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -14,7 +15,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2018-09.md
   - id: openwiki-source-243115596013c4ec281c4a90
     resource: repo://guidelines/appetite/fl-homeowners.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
 
 
@@ -106,7 +107,4 @@ Use the following reviews before binding, issuing a nonrenewal, calculating an a
 5. **Roof-condition nonrenewal:** Verify 120 days' written notice, specific reason, and inclusion of every relied-on inspection report; then complete internal Compliance and management controls without treating them as regulatory substitutes.
 6. **Loss and reporting:** When a hurricane deductible and separate roof deductible both appear applicable to one Florida loss, deduct only the larger. Maintain roof-condition nonrenewal reason and county data for the annual Office-prescribed report.
 
-<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/roof-settlement] file "/openwiki/coverage/coverage-a/roof-settlement" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/property/claim-conditions-and-deductibles] file "/openwiki/coverage/property/claim-conditions-and-deductibles" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/operations/claims-roof-loss-handling] file "/openwiki/operations/claims-roof-loss-handling" does not exist. Fix the href or restore the target, then delete this comment. -->
-For the roof-loss contract analysis and claim-estimate sequence, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement) and [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles). For claims operating controls, see [Claims Roof Loss Handling](/openwiki/operations/claims-roof-loss-handling). The Florida appetite and referral pages are the appropriate home for the internal underwriting controls discussed above.
+For the issued-policy roof-loss analysis and claim-estimate sequence, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md). For internal claims operating controls, see [Roof Loss Claims Handling](/openwiki/operations/claims-roof-loss-handling.md). For the internal underwriting controls discussed above, see [Florida Appetite](/openwiki/underwriting/florida-appetite.md) and [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md).

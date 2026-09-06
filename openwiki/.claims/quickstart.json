@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:6cfb180625ea96d79de3d522fc1aacde5685bdd677b5b17deb2990459d7ff69f",
+  "pageVersion": "sha256:10cf43c510ca8845025af55750933cf846b02dbd9e02558ae10820ee86735404",
   "claims": [
     {
       "id": "claim_788ef05fe28b40b187c09a6c86d56a5b",
@@ -139,10 +139,20 @@
           "version": "repo-lines-v1:sha256:ff1901d219d56443d68b3d38a137cfcc497d36520fc8f53a163b1d8012abaaea:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY5OTE5OThhMjE1NmU2ODU5ZDc2NjNmNzE3MjgxYWU0NTQwMDQxMzFlYjJjZDE2MWUxOTJhMGQzMDUxNzQ2MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDllYzg5YzVhNjY2Y2M0MzQ3YWVlYjc0YjU1NmE4N2Y1NGIxOGNmODMwOWJkM2NlYTMxZjNkM2IxZjRiNGRlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMwOGVmNGNiY2I5N2UzZjAyZDY0ZTEwNjUwMjBkNmE0N2U5OGI5ZjNmZmI1YjIzNmI4YjZiNDRiNGI1NzczOCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_c99f2a24c8e64b88baef916506a21191",
+      "statement": "Under HO-3 2018-09, Coverage A and B property follows the direct-physical-loss grant subject to Section I exclusions, while Coverage C requires direct physical loss caused by one of P.2's listed perils; neither path bypasses applicable exclusions or a verified endorsement's limits.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L59-L77",
+          "version": "repo-lines-v1:sha256:f2e1a12f0170c87394c8dea73c51cf6636193f52b5f7f2c84728406fe4f237ec:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1YzA1ODI1ZDFkZThkY2E2NzFlN2FhNGI1YmE5ODcwN2JmMDI5ZDg5YTJmMDc2NjkzMTZlMTEzOTk4MzkzMjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZjE1Nzg0ZjM0MjE3ZDAxMWFmNDhmMzRkN2E4YmM5OGZjODRlMDYzMzkyN2Q3ZjczYTkwNmM0YTI1ZmIwY2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5OTFmYzI5YjVhY2E0MDI3M2IyYjRkNGE0ZjE1MGUwOGRiOWI5NGY1OWY4NGM2ZTNjNzhjZjg2MzUxYzAzNjEifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T20:29:02.779Z"
+    "at": "2026-09-05T21:30:30.144Z"
   }
 }

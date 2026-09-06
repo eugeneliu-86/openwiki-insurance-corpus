@@ -1,10 +1,11 @@
 ---
-type: "Reference"
-title: "Referral and binding authority"
-openwiki_generated: true
+type: underwriting-guidance
+title: Referral and Binding Authority
+description: Enterprise personal-residential underwriting authority, mandatory referrals, non-clearable hard stops, endorsement routing, state-guide precedence, and auditable decision records. Explains how Florida and Texas controls narrow the enterprise matrix without expanding authority.
+tags: [underwriting, binding-authority, referrals, personal-residential, endorsements, audit, florida, texas]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
+    at: 2026-09-05T21:30:30.144Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -24,7 +25,7 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
 
 
@@ -149,9 +150,4 @@ Run these **internal underwriting guidance** checks before binding and during fi
 6. **Florida roof test:** For an in-scope policy, separately test the 15-year inspection route, the 20-year matrix referral, the under-10-years-at-effective-date schedule prohibition, offer/comparison artifacts, and roof-condition nonrenewal management/Compliance packet. Never collapse those distinct checks into a generic roof-age rule.
 7. **Audit-record test:** Reject a cleared referral that lacks the condition, authority tier, facts, or date; reject a declination note that lacks a specific deficiency where the Florida bulletin dependency applies.
 
-<!-- openwiki: broken internal link [/openwiki/underwriting/florida-appetite] file "/openwiki/underwriting/florida-appetite" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/state-overlays/florida] file "/openwiki/state-overlays/florida" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/state-overlays/texas] file "/openwiki/state-overlays/texas" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/dwelling] file "/openwiki/coverage/coverage-a/dwelling" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/property/water-damage-and-backup] file "/openwiki/coverage/property/water-damage-and-backup" does not exist. Fix the href or restore the target, then delete this comment. -->
-For state-specific operational detail, see [Florida appetite](/openwiki/underwriting/florida-appetite), [Florida overlay](/openwiki/state-overlays/florida), and [Texas overlay](/openwiki/state-overlays/texas). For issued-form analysis rather than underwriting routing, see [Dwelling](/openwiki/coverage/coverage-a/dwelling) and [Water Damage and Backup](/openwiki/coverage/property/water-damage-and-backup).
+For state-specific operational detail, see [Florida Homeowners Appetite](/openwiki/underwriting/florida-appetite.md), [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite.md), [Florida Roof Age, ACV Schedule, and Nonrenewal Overlay](/openwiki/state-overlays/florida.md), and [Texas Windstorm and Hail Deductible Overlay](/openwiki/state-overlays/texas.md). For issued-form analysis rather than underwriting routing, see [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md).

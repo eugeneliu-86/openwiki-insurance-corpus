@@ -1,10 +1,11 @@
 ---
-type: "Reference"
-title: "Claims roof loss handling"
-openwiki_generated: true
+type: claims-guidance
+title: Roof Loss Claims Handling
+description: Internal, non-contractual guidance for roof-loss fact development, issued-form and endorsement verification, calculation review, ordinance handoff, state checks, escalation, and closing records.
+tags: [claims, roof-loss, homeowners, endorsements, deductibles, ordinance-or-law]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T20:29:02.779Z
+    at: 2026-09-05T21:30:30.144Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -22,7 +23,7 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
 
 
@@ -34,10 +35,7 @@ Start a roof file with the loss date, reported cause, state, policy written/effe
 
 **Do not assume an endorsement is attached.** HO 23 74 and HO 04 16 are each described as endorsements that attach to HO-3, with different targets: the roof schedule modifies A.4, while ordinance-or-law coverage modifies Exclusion D.1. Neither document makes the other automatic. [HO 23 74, heading](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO 04 16, heading](repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L4)
 
-<!-- openwiki: broken internal link [/openwiki/coverage/property/claim-conditions-and-deductibles] file "/openwiki/coverage/property/claim-conditions-and-deductibles" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/roof-settlement] file "/openwiki/coverage/coverage-a/roof-settlement" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/property/ordinance-or-law] file "/openwiki/coverage/property/ordinance-or-law" does not exist. Fix the href or restore the target, then delete this comment. -->
-For policy-condition and deductible detail, see [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles). For the contract analysis behind the roof estimate, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement), and use [Ordinance or Law Coverage and Undamaged Roof Portions](/openwiki/coverage/property/ordinance-or-law) for the code-cost path.
+For policy-condition and deductible detail, see [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md). For the contract analysis behind the roof estimate, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement.md), and use [Ordinance or Law Coverage and Undamaged Roof Portions](/openwiki/coverage/property/ordinance-or-law.md) for the code-cost path.
 
 ## Handling sequence
 
@@ -106,11 +104,9 @@ The R.3 percentage is selected by surfacing material and age **at the date of lo
 
 **Texas contractual and regulatory overlay.** Only for a Texas policy with HO 01 45 attached and applicable does that endorsement supersede conflicting base-form wording. T.1 applies only the windstorm/hail deductible to windstorm/hail loss—not also the all-other-perils deductible—and provides allocation rules for mixed-peril occurrences. Its stated percentage range is 1%–5% of Coverage A, up to 10% in its seacoast territories. Texas Bulletin B-2021-08 independently requires the same no-stacking treatment, governs disclosure and filing, and permits a qualifying flat-dollar alternative; the bulletin is a regulatory control and is not evidence that HO 01 45 was issued on a specific claim. [HO 01 45, conflict rule and T.1/T.6](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11) [T.6](repo://forms/HO/TX/HO-01-45/2022-01.md#L29-L31) · [Texas Bulletin B-2021-08, B.2–B.4 and B.7](repo://bulletins/TX/2021-08-windstorm-deductible.md#L9-L25) [B.7](repo://bulletins/TX/2021-08-windstorm-deductible.md#L35-L37)
 
-**Florida regulatory overlay.** For Florida personal residential property policies issued or renewed on or after 2023-07-01, OIR-2023-04 does not attach a roof schedule or deductible, but it constrains their use. An ACV roof schedule may not be applied to a roof that was under ten years old at policy effective date; a separate roof deductible or ACV schedule may be offered only alongside a policy without that provision at a filed and approved rate with written premium-difference disclosure. For one loss, a hurricane deductible and separate roof deductible cannot both be applied; deduct only the larger. [Florida OIR-2023-04, applicability and F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L3) [F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33)
+**Florida regulatory overlay.** For Florida personal residential property policies issued or renewed with an effective date on or after 2023-07-01, OIR-2023-04 does not attach a roof schedule or deductible, but it constrains their use. An ACV roof schedule may not be applied to a roof that was under ten years old at policy effective date; a separate roof deductible or ACV schedule may be offered only alongside a policy without that provision at a filed and approved rate with written premium-difference disclosure. For one loss, a hurricane deductible and separate roof deductible cannot both be applied; deduct only the larger. [Florida OIR-2023-04, applicability and F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L3) [F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33)
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/florida] file "/openwiki/state-overlays/florida" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/state-overlays/texas] file "/openwiki/state-overlays/texas" does not exist. Fix the href or restore the target, then delete this comment. -->
-For state-specific background, see [Florida Roof Requirements](/openwiki/state-overlays/florida) and [Texas Windstorm and Hail Requirements](/openwiki/state-overlays/texas). State overlay review cannot substitute for the issued Declarations and verified endorsements.
+For state-specific background, see [Florida Roof Requirements](/openwiki/state-overlays/florida.md) and [Texas Windstorm and Hail Requirements](/openwiki/state-overlays/texas.md). State overlay review cannot substitute for the issued Declarations and verified endorsements.
 
 ## Time-sensitive conditions and file completion
 
