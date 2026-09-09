@@ -41,6 +41,43 @@ Never paraphrase policy language in a way that changes its legal meaning. Where 
 
 When a proposition depends on more than one document, cite all of them. A coverage position that composes a base form exclusion with an endorsement write-back is one proposition supported by two pieces of evidence, not two propositions.
 
+## Document relationships
+
+Most material propositions in this corpus compose two documents: an exclusion in
+one and an endorsement, amendatory form, bulletin, or internal rule that acts on
+it. When a proposition composes documents this way, state the relationship
+explicitly, with a direction and one of the verbs below used verbatim.
+
+Name the **acting** document first, with its provision, then the verb, then the
+document and provision it acts on. The acting document is always the grammatical
+subject. Write "HO 04 90 W.2 writes back HO-3 Section I A.3", never "HO-3
+Section I A.3 is written back by HO 04 90".
+
+Use exactly one of these verbs, in lower case, spelled as shown:
+
+- `supersedes` — a later edition replaces an earlier one for policies written
+  after its effective date.
+- `writes back` — an endorsement restores coverage that an exclusion in another
+  document removed. Use this only where coverage is actually restored.
+- `preserves` — a document expressly leaves another document's exclusion or limit
+  intact. Use this where a reader might otherwise assume the exclusion was
+  written back.
+- `modifies` — changes a limit, sublimit, deductible, settlement basis, or
+  condition without restoring excluded coverage.
+- `implements` — a state amendatory form carries out a requirement imposed by a
+  regulator's bulletin.
+- `constrains` — internal guidance or a regulatory requirement limits when or how
+  a form may be attached or applied. A constraint never changes what the contract
+  means, only what the carrier may do.
+
+Where one document both writes back an exclusion and preserves a neighbouring
+one, those are two propositions, not one. HO 04 90 writes back Section I A.3 and
+preserves Section I A.1 and A.2; document both, because a reader who knows only
+the first will misread a flood loss.
+
+A proposition that relates two documents must cite both. Cite the acting
+provision and the provision acted on, not one standing for the other.
+
 ## Editions and supersession
 
 Every coverage statement must say which edition it describes. The edition in force when a policy was written governs that policy for its life, so a superseded edition is still live knowledge and must not be deleted or rewritten as though the current edition had always applied.
