@@ -1,5 +1,5 @@
 ---
-type: policy assembly reference
+type: policy-assembly
 title: Governing Form Editions and Policy Assembly
 description: Determine the HO-3 edition from the policy-written date, then assemble only the endorsements actually attached to that issued policy. This reference highlights edition changes that materially alter property, settlement, deductible, and liability analysis.
 tags: [homeowners, ho-3, policy-editions, endorsements, texas]
@@ -22,7 +22,10 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-06T01:11:17.126Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-06T01:11:17.126Z
 ---
 
 ## Purpose and authority boundary
@@ -90,6 +93,10 @@ The following differences are not a reason to apply 2018-09 to an older policy. 
 ## Endorsement effects after attachment is verified
 
 The following forms are not automatic components of every HO-3 policy. Their headings identify them as endorsements that attach to HO-3 and name the base target; use the matrix only after the attachment check and selected-edition cross-reference check.
+
+### Corpus availability is not policy issuance
+
+The repository's “Current contents” list is an inventory of available frozen-authority documents. It does **not** establish that any listed endorsement was issued with a particular policy. For an individual policy, treat a form as part of the assembled contract only when the issued policy record or Declarations verifies its attachment and edition. This matters even where the base form names an endorsement: HO-3 makes the water-backup and roof-schedule paths conditional on an endorsement being attached, while each supplied endorsement identifies itself as attaching to HO-3. [Corpus inventory](repo://README.md#L65-L86) · [HO-3 2018-09, attachment conditions](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34) [A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 16, HO 04 81, HO 04 90, and HO 23 74, attachment statements](repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L4) · [HO 04 81](repo://forms/HO/MS/HO-04-81/2018-09.md#L1-L4) · [HO 04 90](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L4) · [HO 23 74](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4)
 
 | Verified attached form | Effect on the applicable base wording | Key boundaries for analysis |
 | --- | --- | --- |

@@ -1,5 +1,5 @@
 ---
-type: property coverage reference
+type: coverage
 title: Ordinance or Law Coverage and Undamaged Roof Portions
 description: Explains how the HO-3 2018-09 ordinance-or-law exclusion interacts with attached HO 04 16 coverage, including code-required undamaged roof surfacing, limits, exclusions, timing, and payment prerequisites.
 tags: [homeowners, property-coverage, ordinance-or-law, roof, endorsements, claims]
@@ -10,7 +10,10 @@ sources:
     resource: repo://forms/HO/MS/HO-23-74/2018-09.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-06T01:11:17.126Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-06T01:11:17.126Z
 ---
 
 ## Scope and controlling documents
@@ -19,11 +22,7 @@ This reference concerns the multistate **2018-09** forms: HO-3 Homeowners 3 — 
 
 This is a code-driven **increased-cost** path, not an initial grant for physical damage. The underlying loss must be covered under Section I before an attached HO 04 16 can apply. It also does not replace the ordinary damaged-property settlement path; the endorsement conditions payment on that settlement. [HO 04 16 2018-09, O.1 and O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L9) [O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
 
-<!-- openwiki: broken internal link [/openwiki/coverage/property/perils-and-general-exclusions] file "/openwiki/coverage/property/perils-and-general-exclusions" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/roof-settlement] file "/openwiki/coverage/coverage-a/roof-settlement" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/property/claim-conditions-and-deductibles] file "/openwiki/coverage/property/claim-conditions-and-deductibles" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/operations/claims-roof-loss-handling] file "/openwiki/operations/claims-roof-loss-handling" does not exist. Fix the href or restore the target, then delete this comment. -->
-For the base covered-loss and exclusion decision, see [Perils and General Exclusions](/openwiki/coverage/property/perils-and-general-exclusions). For the settlement of damaged roof surfacing, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement); for notice, proof, payment, and deductibles, see [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles). Operational file handling is summarized in [Roof-Loss Handling](/openwiki/operations/claims-roof-loss-handling).
+For the base covered-loss and exclusion decision, see [Perils and General Exclusions](/openwiki/coverage/property/perils-and-general-exclusions.md). For the settlement of damaged roof surfacing, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement.md); for notice, proof, payment, and deductibles, see [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md). Operational file handling is summarized in [Roof-Loss Handling](/openwiki/operations/claims-roof-loss-handling.md).
 
 ## Exclusion first; limited write-back only when attached
 

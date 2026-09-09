@@ -1,7 +1,11 @@
 ---
-type: "Reference"
-title: "Loss of use"
-openwiki_generated: true
+type: coverage
+title: Coverage D — Loss of Use
+description: Coverage D pays a qualifying increase in living expenses after a covered loss makes the residence premises unfit to live in. Select the issued HO-3 edition before applying the 20-percent limit, the 2018-09 duration rule, or the limited fungi-related loss-of-use path.
+tags: [homeowners, ho-3, coverage-d, loss-of-use, additional-living-expenses, fungi]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-06T01:11:17.126Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md

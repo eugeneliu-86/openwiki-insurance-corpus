@@ -1,5 +1,5 @@
 ---
-type: property claim conditions reference
+type: coverage
 title: Section I Claim Conditions, Payment, and Deductibles
 description: Select the issued HO-3 edition and attached state or coverage endorsements before applying Section I notice, preservation, proof-of-loss, suit, payment, and deductible provisions. This reference separates base-form duties from Texas timing and wind-hail rules and from water and roof deductible overlays.
 tags: [homeowners, property-claims, section-i, deductibles, proof-of-loss, texas]
@@ -17,6 +17,9 @@ sources:
   - id: openwiki-source-ff7de1315ac46ce4dd65d251
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-06T01:11:17.126Z
 ---
 
 ## Purpose and control boundary

@@ -1,7 +1,11 @@
 ---
-type: "Reference"
-title: "Personal property"
-openwiki_generated: true
+type: coverage
+title: Coverage C — Personal Property
+description: Edition-specific Coverage C guidance for HO-3 personal property, including worldwide scope, named perils, settlement, special limits, and attached endorsement paths.
+tags: [coverage-c, personal-property, homeowners, ho-3]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-06T01:11:17.126Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md

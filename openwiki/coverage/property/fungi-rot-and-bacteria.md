@@ -1,7 +1,11 @@
 ---
-type: "Reference"
-title: "Fungi rot and bacteria"
-openwiki_generated: true
+type: coverage
+title: Fungi, Wet or Dry Rot, and Bacteria Coverage
+description: Explains the attachment-dependent HO 04 81 Section I property write-back for fungi, wet or dry rot, and bacteria. Covers the underlying-loss gate, aggregate limit, included costs, mitigation condition, and the boundary from Section II liability coverage.
+tags: [homeowners, ho-3, property-coverage, fungi, wet-rot, dry-rot, bacteria, endorsements]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-06T01:11:17.126Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -17,7 +21,7 @@ sources:
     resource: repo://guidelines/authority/referral-matrix.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-06T01:11:17.126Z" }
 ---
 
 
@@ -29,9 +33,9 @@ The edition check is material. HO 04 81's M.2 uses the 2018 form's P.2 and C.3 c
 
 ### What changes—and what does not
 
-Without the attached endorsement, **HO-3 2018-09 C.2** excludes loss caused by deterioration, mold, and wet or dry rot (among other gradual-condition causes). When **HO 04 81 is attached**, M.1 covers direct physical loss to covered **Coverage A, B, or C** property caused by fungi, wet or dry rot, or bacteria *only* when the condition results from a Section I peril insured against that occurred during the policy period; M.1 makes C.2 inapplicable **only to that extent**. The endorsement therefore supplies a narrow write-back, not an erasure of the deterioration exclusion or a coverage grant for all moisture damage. [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81, M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10)
+The base exclusion and the endorsement must be read together, and only after confirming that **HO 04 81 is attached**. **HO-3 2018-09 C.2** says: “We do not cover loss caused by wear and tear, marring, deterioration, inherent vice, latent defect, mechanical breakdown, rust, mold, wet or dry rot, or settling, cracking, shrinking, bulging, or expansion of pavements, patios, foundations, walls, floors, roofs, or ceilings.” **HO 04 81 M.1** then says: “We cover direct physical loss to property covered under Coverage A, Coverage B, and Coverage C caused by fungi, wet or dry rot, or bacteria, but only where that fungi, rot, or bacteria results from a peril insured against under Section I that occurred during the policy period.” It further provides: “To the extent of the coverage provided here, Section I — Exclusions C.2 does not apply.” [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81, M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10)
 
-All other policy provisions remain in force. In particular, attachment does not establish that the property is within Coverage A, B, or C; that there was direct physical loss; or that a different Section I exclusion, condition, settlement rule, deductible, or state amendment has been satisfied. [HO 04 81, M.1 and all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) [HO 04 81, M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37) · [HO-3 2018-09, A/B/C grants and Section I perils](repo://forms/HO/MS/HO-3/2018-09.md#L23-L64)
+Accordingly, attachment supplies a narrow Section I write-back—not an erasure of C.2 or a grant for all moisture damage. It is limited to direct physical loss to covered **Coverage A, B, or C** property from the specified condition, resulting from a Section I insured peril during the policy period. All other policy provisions remain in force: attachment does not establish covered property, direct physical loss, or satisfaction of another Section I exclusion, condition, settlement rule, deductible, or state amendment. [HO 04 81, M.1 and all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) [HO 04 81, M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37) · [HO-3 2018-09, A/B/C grants and Section I perils](repo://forms/HO/MS/HO-3/2018-09.md#L23-L64)
 
 ## Decision flow: establish the cause before the condition
 
