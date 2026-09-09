@@ -8,3 +8,20 @@ demo/
 *.swp
 .vscode/
 .idea/
+
+# Generated compile bookkeeping, written by the refresh workflow. Tracked in git
+# so the agent and the UI can read it from the tree, but excluded from the source
+# fingerprint: a tracked file that changes on every compile would make each
+# compile look like a corpus change and trigger the next one forever.
+.compile-state.json
+.claims-index.json
+
+# Repository machinery, not coverage knowledge. The workflow file in particular
+# is edited throughout phase 04, and every edit would otherwise register as a
+# corpus change and force a full 20-page regeneration.
+.github/
+
+# Instructions addressed to coding agents working ON this repo, as opposed to
+# the policy documents the wiki is built FROM.
+AGENTS.md
+CLAUDE.md
