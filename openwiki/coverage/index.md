@@ -1,6 +1,6 @@
 # Files
 
-- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Determine the HO-3 edition from the policy-written date, then assemble only the endorsements actually attached to that issued policy. This reference highlights edition changes that materially alter property, settlement, deductible, and liability analysis.
+- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Determine the live HO-3 edition from the policy-written date, then assemble only compatible endorsements and Texas amendments verified in the issued policy. This reference keeps contractual write-backs, state constraints, and repository availability separate.
 
 # Directories
 

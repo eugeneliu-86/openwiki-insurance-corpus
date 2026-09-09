@@ -5,7 +5,7 @@ description: Florida OIR-2023-04 controls for roof-age underwriting, inspections
 tags: [florida, homeowners, roof-age, actual-cash-value, nonrenewal, deductibles, regulatory-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -15,7 +15,9 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2018-09.md
   - id: openwiki-source-243115596013c4ec281c4a90
     resource: repo://guidelines/appetite/fl-homeowners.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
+  - id: openwiki-source-c7690df4255f266075cd43d2
+    resource: repo://guidelines/authority/referral-matrix.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 
@@ -46,6 +48,8 @@ F.3 separately protects the insured's qualifying evidence in two ways:
 
 These rules do not say that every inspection is interchangeable for every purpose; they specify acceptance and no-second-insured-paid-inspection limits. Retain the report, inspector qualification, inspection date, stated remaining useful life, and policy effective date so the 12-month and five-year tests can be reviewed. [OIR-2023-04, F.2–F.3](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L9-L19)
 
+**Separate internal workflow.** The Florida appetite guide requires an inspection before binding when the roof is 15 years old or older. The enterprise matrix adds referral triggers for roof surfacing aged 20 years or more and for any roof aged 25 years or more regardless of documentation. These are carrier workflow and escalation controls; they do not expand the bulletin's F.3 inspection right, replace F.2's decision-basis test, or establish a settlement term. Apply each applicable control rather than collapsing them into one roof-age threshold. [Florida Homeowners Appetite Guide, H.2](repo://guidelines/appetite/fl-homeowners.md#L15-L21) · [Underwriting Referral and Authority Matrix, R.3](repo://guidelines/authority/referral-matrix.md#L19-L31)
+
 ```mermaid
 flowchart TD
     Start["Florida issue or renewal review"] --> DateGate{"Effective date on or after 2023-07-01"}
@@ -70,13 +74,17 @@ flowchart TD
 
 The bulletin permits an insurer to offer either a separate roof deductible or an ACV roof settlement schedule only when, **at the time of offer**, it also offers a policy **without that provision** at a filed and approved rate and discloses the premium difference between the two in writing. These are conjunctive offer controls: a product configuration should not be treated as eligible merely because the proposed deductible or schedule is filed. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25)
 
-The bulletin additionally says an insurer may not apply an ACV roof settlement schedule to a roof **less than 10 years old at the policy effective date**. The relevant regulatory age is therefore fixed at the policy effective date. It is distinct from HO 23 74's claim-time schedule input, which uses the roof-surfacing age at the date of loss and documented installation or full-replacement evidence. Do not substitute one age test for the other. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [HO 23 74 2018-09, R.3 and R.5](repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L35)
+The bulletin additionally says an insurer may not apply an ACV roof settlement schedule to a roof **less than 10 years old at the policy effective date**. At issuance, treat this as an F.4 configuration gate: do not attach or apply HO 23 74's ACV schedule when that policy-effective-date test fails. The bulletin constrains the carrier's attachment/application decision; HO 23 74 changes A.4 only if it is actually attached, and F.4 does not modify the endorsement's settlement meaning. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [Florida Homeowners Appetite Guide, H.2](repo://guidelines/appetite/fl-homeowners.md#L15-L21) · [HO-3 2018-09, A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34) · [HO 23 74 2018-09, attachment](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4)
+
+The relevant regulatory age is fixed at the policy effective date. It is distinct from HO 23 74's claim-time schedule input, which uses the roof-surfacing age at the date of loss and documented installation or full-replacement evidence. Do not substitute one age test for the other. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [HO 23 74 2018-09, R.3 and R.5](repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L35)
 
 ### Contract terms after a permitted offer
 
 For an issued HO-3 2018-09 policy with attached **HO 23 74 2018-09**, the endorsement modifies A.4. It applies only to roof surfacing—rather than decking, framing, sheathing, or interior finish—and only to windstorm- or hail-caused loss. It settles that eligible surfacing loss at ACV using its material-and-age schedule, with a 25-percent-of-replacement-cost pre-deductible minimum. Loss to roof surfacing from another covered peril remains replacement cost, and the endorsement does not apply to that loss. Those are contract results from the attached forms, not an effect created by the Florida bulletin. [HO-3 2018-09, A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) · [HO 23 74 2018-09, R.1–R.4](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L30)
 
 **Operational evidence for an offer file.** Preserve the policy effective date and roof age used for the 10-year check; both offered configurations; the filed-and-approved rate for the no-provision alternative; the written premium-difference disclosure; and the acceptance and issued-policy record. The internal Florida appetite guide goes further by directing retention of the comparison quote; that retention direction is internal guidance, while the offer and disclosure requirements above come from F.4. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [Florida Homeowners Appetite Guide, H.2](repo://guidelines/appetite/fl-homeowners.md#L15-L21)
+
+**Authority failure is not an exception path.** The matrix otherwise permits a line underwriter to attach HO 23 74 without a matrix limit condition, subject to state permission, and directs Florida risks to clear the H.2 requirements before binding. Neither referral nor management approval can approve a state filing or bulletin violation. If the F.4 gate or offer evidence fails, correct the configuration or do not bind; do not treat internal authority as a way to cure the regulatory result. This is an internal authority rule layered on the bulletin, not a policy term. [Underwriting Referral and Authority Matrix, R.4-R.5](repo://guidelines/authority/referral-matrix.md#L33-L45) · [Florida Homeowners Appetite Guide, H.2](repo://guidelines/appetite/fl-homeowners.md#L15-L21)
 
 ## Nonrenewal for roof condition
 
@@ -88,7 +96,7 @@ A nonrenewal packet should be checked against this minimum record: the policy ef
 
 ## Hurricane and separate roof deductible overlap
 
-Nothing in the bulletin limits application of a hurricane deductible when it is otherwise permitted by law. But if a hurricane deductible and a separate roof deductible would both apply to the **same loss**, they may not both be applied: only the larger deductible is deducted. This is a Florida regulatory nonstacking rule. It does not establish the dollar or percentage amount of either deductible; obtain those terms from the applicable law, filing, Declarations, and issued policy documents. [OIR-2023-04, F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33)
+Nothing in the bulletin limits application of a hurricane deductible when it is otherwise permitted by law. But if a hurricane deductible and a separate roof deductible would both apply to the **same loss**, they may not both be applied: only the larger deductible is deducted. F.6 is a Florida regulatory deductible-application (nonstacking) control. It does not establish the dollar or percentage amount of either deductible; obtain those terms from the applicable law, filing, Declarations, and issued policy documents. [OIR-2023-04, F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33)
 
 Keep this rule distinct from the HO-3 2018-09 general rule. The base form provides that the Declarations deductible applies to each Section I loss, recognizes a separate windstorm-or-hail deductible where required by a state amendatory endorsement, and says only the larger applies where both apply. The Florida bulletin specifically addresses a **hurricane deductible and separate roof deductible**; neither source by itself proves that either provision was included in a particular policy. [HO-3 2018-09, S.5](repo://forms/HO/MS/HO-3/2018-09.md#L101-L112) · [OIR-2023-04, F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33)
 
@@ -102,8 +110,8 @@ Use the following reviews before binding, issuing a nonrenewal, calculating an a
 
 1. **Applicability:** Is this Florida personal residential property policy being issued or renewed with an effective date on or after 2023-07-01? If not, do not assume OIR-2023-04 supplies the applicable rule.
 2. **Age-based decision:** Does an authorized-inspector report from the 12 months before the effective date establish at least five years of remaining useful life? If so, verify the decision is not a refusal solely due to roof age. If roof condition is the reason, verify the actual specific deficiency is recorded and stated.
-3. **Inspection acceptance:** For a 15-year-or-older roof, confirm any insurer-required inspection is insurer-paid. For an insured-provided F.2 inspection or a Florida-licensed inspector's inspection, test the acceptance rules and ensure no second inspection is charged to the insured within the policy period where F.3 prohibits it.
-4. **Offer and issued-policy separation:** For a roof deductible or ACV schedule, retain the no-provision alternative at a filed and approved rate and written premium comparison at offer; apply the under-10-years-at-effective-date prohibition to the ACV schedule. Separately confirm the Declarations and actual endorsement attachment before using contractual settlement terms.
+3. **Inspection acceptance and workflow:** For a 15-year-or-older roof, confirm any insurer-required inspection is insurer-paid. For an insured-provided F.2 inspection or a Florida-licensed inspector's inspection, test the acceptance rules and ensure no second inspection is charged to the insured within the policy period where F.3 prohibits it. Separately test the internal before-binding inspection at 15 years and the matrix referrals at 20 years and at 25 years regardless of documentation.
+4. **Offer, issuance, and issued-policy separation:** For a roof deductible or ACV schedule, retain the no-provision alternative at a filed and approved rate and written premium comparison at offer. At issuance, block HO 23 74 attachment/application when the roof is under 10 years old at the policy effective date; do not attempt to cure an F.4 failure by referral. Separately confirm the Declarations and actual endorsement attachment before using contractual settlement terms.
 5. **Roof-condition nonrenewal:** Verify 120 days' written notice, specific reason, and inclusion of every relied-on inspection report; then complete internal Compliance and management controls without treating them as regulatory substitutes.
 6. **Loss and reporting:** When a hurricane deductible and separate roof deductible both appear applicable to one Florida loss, deduct only the larger. Maintain roof-condition nonrenewal reason and county data for the annual Office-prescribed report.
 

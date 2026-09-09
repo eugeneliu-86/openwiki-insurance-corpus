@@ -1,11 +1,11 @@
 ---
 type: coverage
 title: Coverage C — Personal Property
-description: Edition-specific Coverage C guidance for HO-3 personal property, including worldwide scope, named perils, settlement, special limits, and attached endorsement paths.
+description: Edition-specific guidance for HO-3 personal property, covering worldwide scope, named-peril and settlement gates, special limits, and the separate water-backup and fungi endorsement paths.
 tags: [coverage-c, personal-property, homeowners, ho-3]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-06T01:11:17.126Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -15,7 +15,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 
@@ -61,17 +61,21 @@ The table follows the exact C.3 categories and amounts in each supplied edition.
 
 ### Water backup is not the ordinary replacement-cost path
 
-For both base-form editions, sewer/drain backup and sump-related backup, overflow, or discharge are excluded unless **HO 04 90 Water Backup and Sump Discharge or Overflow** is attached. The 2018-09 base form additionally states that, when attached, the endorsement provides coverage to its stated sublimit. [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09 §§ A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
+For both base-form editions, Section I Exclusions **A.3** excludes sewer/drain backup and sump-related backup, overflow, or discharge unless **HO 04 90 Water Backup and Sump Discharge or Overflow** is attached. In the 2018-09 wording, that exclusion applies even if mechanical breakdown causes the backup or overflow and directs an attached endorsement to its stated sublimit. [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09 §§ A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 
-For an attached **HO 04 90 edition 2010-10**, review the endorsement—not the ordinary Coverage C replacement-cost exception. It covers the described direct physical loss, subject to a $5,000 all-losses-per-policy-period sublimit unless higher Declarations limit is shown; that limit is part of, not in addition to, Coverage C. It also has a separate $500 deductible per endorsement loss, not the Section I deductible. Most importantly for personal property, W.6 provides: **“Loss to property covered under Coverage C is settled at actual cash value regardless of any replacement cost personal property endorsement, unless the Declarations state otherwise for this endorsement.”** Flood, surface-water, and subsurface-water exclusions remain, and W.5 bars the stated known, unremedied maintenance failure. [HO 04 90 2010-10 §§ W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L31)
+For an attached **HO 04 90 edition 2010-10**, **W.1 writes back that selected HO-3 A.3 exclusion**: it covers the described direct physical loss to Coverage A, B, or C property from backup through a sewer or drain or a sump-related overflow or discharge, including one resulting from mechanical breakdown. It is a bounded backup route, not general water coverage. W.2 caps all endorsement loss in one policy period at $5,000 unless a higher Declarations limit is shown, and that amount is part of—not additional to—the applicable A/B/C limit. [HO-3 2018-09 § A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90 2010-10 §§ W.1–W.2](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L12)
+
+**W.6 separately modifies the base Coverage C C.2 settlement result.** Although base C.2 settles personal property at actual cash value unless a replacement-cost personal-property endorsement is attached, W.6 settles a Coverage C loss under HO 04 90 at actual cash value regardless of that replacement-cost endorsement, unless the Declarations state otherwise for HO 04 90. This does not create a general replacement-cost path. Separately, W.3 applies a $500 deductible to each endorsement loss and says the Section I Declarations deductible does not apply; do not stack or substitute the ordinary deductible. W.4 retains the A.1 flood/surface-water and A.2 subsurface-water exclusions, and W.5 bars the stated known, unremedied maintenance failure. [HO-3 2018-09 § C.2](repo://forms/HO/MS/HO-3/2018-09.md#L43-L49) · [HO 04 90 2010-10 §§ W.3–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L31)
 
 Use [Water damage and backup](../property/water-damage-and-backup.md) for the full write-back, sublimit, deductible, maintenance, and remaining-water-exclusion analysis.
 
 ### Fungi, wet or dry rot, or bacteria is a separate limited write-back
 
-**HO 04 81 edition 2018-09**, when attached, provides direct physical-loss coverage for Coverage C property damaged by fungi, wet or dry rot, or bacteria only when it results from a Section I insured peril that occurred during the policy period; to that extent, the base-form C.2 exclusion does not apply. It does not restore a loss whose underlying water or moisture source is flood, surface water, subsurface water, or the continuous/repeated seepage or leakage excluded by the base form. [HO 04 81 2018-09 §§ M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17) · [HO-3 2018-09 §§ A.1–A.2 and C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L75) [§§ C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89)
+When **HO 04 81 edition 2018-09** is attached, **M.1 writes back HO-3 2018-09 Section I Exclusions C.2**, and only to its stated extent. It provides direct physical-loss coverage for covered Coverage C property damaged by fungi, wet or dry rot, or bacteria only when the condition results from a Section I insured peril that occurred during the policy period. The write-back is not a general replacement-cost path or a general moisture-damage grant. [HO-3 2018-09, Section I Exclusion C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81 2018-09 § M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10)
 
-The HO 04 81 limit is $10,000 for all covered loss in one policy period unless a higher endorsement limit is shown. It is part of, not in addition to, the applicable Coverage C limit, includes the enumerated removal, access, testing, and related Coverage D costs, and is reduced to the extent of failure to take the required reasonable water-intrusion mitigation steps. [HO 04 81 2018-09 §§ M.3–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L31)
+The underlying-event barriers remain distinct. **A.1** continues to exclude flood, surface water, and the other listed surface-water sources; **A.2** continues to exclude water below ground; and **C.3** continues to exclude continuous or repeated seepage or leakage over weeks, months, or years. M.2 expressly identifies each source relationship, so fungi following any of those excluded sources does not qualify for this write-back. In addition, base **C.1 neglect** remains independently relevant: M.5's reasonable-water-intrusion-mitigation condition applies separately whether or not C.1 also applies. [HO-3 2018-09 §§ A.1–A.2](repo://forms/HO/MS/HO-3/2018-09.md#L69-L74) · [HO-3 2018-09 §§ C.1–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO 04 81 2018-09 §§ M.2 and M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L11-L17) [§ M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L29-L31)
+
+The HO 04 81 limit is $10,000 for all covered loss in one policy period unless a higher endorsement limit is shown. It is part of, not in addition to, the applicable Coverage C limit, includes the enumerated removal, access, testing, and related Coverage D costs, and is reduced to the extent of failure to take the required reasonable water-intrusion mitigation steps. After the M.1–M.5 gates, apply the otherwise applicable Coverage C settlement terms and other policy provisions; neither fungi endorsement language itself supplies replacement-cost settlement. [HO 04 81 2018-09 §§ M.3–M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L37)
 
 Use [Fungi, rot, and bacteria](../property/fungi-rot-and-bacteria.md) for the trigger, underlying-water-source, aggregate-limit, included-cost, and mitigation analysis.
 
@@ -87,25 +91,25 @@ flowchart TD
     Edition -- No --> Legacy["Apply issued 2011-05 coverage text and attachments"]
     Legacy --> Exclusions
     Exclusions --> Excluded{"Does an exclusion apply"}
-    Excluded -- No --> RC{"Replacement cost personal property endorsement attached"}
+    Excluded -- No --> Standard{"Replacement cost personal property endorsement attached"}
+    Standard -- Yes --> RCTerms["Apply attached endorsement terms and C.3 limits"]
+    Standard -- No --> ACV["Apply C.2 actual cash value and C.3 limits"]
     Excluded -- Yes --> Writeback{"Water backup or fungi write-back potentially applies"}
     Writeback -- Water backup --> Water{"HO 04 90 attached and terms met"}
     Water -- No --> NoWriteback["No coverage for excluded loss"]
-    Water -- Yes --> WaterACV["Apply W.2 to W.6 and Coverage C actual cash value"]
+    Water -- Yes --> WaterTerms["Apply W.2 sublimit W.3 deductible W.6 C settlement"]
     Writeback -- Fungi --> Fungi{"HO 04 81 attached and terms met"}
     Fungi -- No --> NoWriteback
-    Fungi -- Yes --> RC
+    Fungi -- Yes --> FungiTerms["Apply M.3 to M.5 and remaining Coverage C terms"]
     Writeback -- Neither --> NoWriteback
-    RC -- Yes --> RCTerms["Apply attached endorsement terms"]
-    RC -- No --> ACV["Apply C.2 actual cash value settlement"]
 ```
 
-This working review sequence shows that the worldwide scope, cause-of-loss analysis, special limits, and settlement basis are distinct questions. It depicts the 2018-09 P.2 gate only for that edition, routes water backup to HO 04 90's special actual-cash-value rule, and is not an order of operations prescribed by the forms.
+This working review sequence shows that the worldwide scope, cause-of-loss analysis, special limits, and settlement basis are distinct questions. It depicts the 2018-09 P.2 gate only for that edition. It routes water backup to its W.2–W.6 terms and fungi to its M.1–M.5 gates and remaining Coverage C terms, rather than treating either endorsement as a general replacement-cost path; it is not an order of operations prescribed by the forms.
 
 ## Claim-file checks
 
 1. Preserve the Declarations, issued HO-3 edition, list of attached endorsements, each item's ownership-or-use facts, location, value, and category facts. For special-limit claims, document whether the reported loss is actually theft where C.3 says theft.
-2. For **HO-3 2018-09**, identify the specific P.2 peril and then evaluate applicable exclusions and any attached write-back. For a water-backup or fungi claim, do not stop at ordinary C.2 settlement; retain the endorsement trigger, sublimit, deductible or mitigation analysis, and Declarations amendments.
+2. For **HO-3 2018-09**, identify the specific P.2 peril and then evaluate applicable exclusions and any attached write-back. For water backup, retain the W.1 trigger, W.2 sublimit, W.3 deductible, and W.6 settlement rule. For fungi, retain the M.1–M.5 trigger, source, limit, and mitigation analysis, then apply the otherwise applicable Coverage C settlement terms rather than treating HO 04 81 as a replacement-cost endorsement.
 3. Apply the settlement route after coverage: base C.2 actual cash value unless an attached replacement-cost personal-property endorsement controls, except that attached HO 04 90 uses its own W.6 Coverage C actual-cash-value rule unless its Declarations say otherwise.
 4. Meet the applicable Section I post-loss duties. **HO-3 2011-05 S.1–S.2** requires prompt notice, protection from further damage, and a signed, sworn proof of loss within 60 days after request. **HO-3 2018-09 S.1–S.2** adds preparation of an inventory of damaged personal property. [HO-3 2011-05 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2011-05.md#L83-L88) · [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106)
 5. The Section I deductible shown in the Declarations applies to each loss under **HO-3 2011-05 S.4** and **HO-3 2018-09 S.5**, subject in 2018-09 to the stated state-amendatory windstorm-or-hail rule. Do not apply that general deductible to attached HO 04 90 loss: W.3 replaces it with the endorsement's separate deductible. [HO-3 2011-05 § S.4](repo://forms/HO/MS/HO-3/2011-05.md#L83-L92) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L101-L112) · [HO 04 90 2010-10 § W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L16)

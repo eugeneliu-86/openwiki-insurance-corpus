@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:de63a977a27b2d6b6fdd36a4b058e632057646edd9ce4d51e48f1e99830733b9",
+  "pageVersion": "sha256:c28e139f531112aec5e45f101c2cfab065f39c52ed5464bf86a62bbbaa53ee96",
   "claims": [
     {
       "id": "claim_0026c622cbfc41babd131a81f9eed754",
@@ -133,10 +133,60 @@
           "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_9938c5aa3709499b9f3029bb8395697f",
+      "statement": "When attached, HO 04 90 (2010-10) W.1 writes back the selected HO-3 A.3 water-backup exclusion for the described sewer/drain and sump events, including an event that results from mechanical breakdown of the equipment.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L8",
+          "version": "repo-lines-v1:sha256:45914b45a9b47270a592dc54211bc826e341ea1a4f81095b8ed8b6cf3344960f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkMzY4MzJmYjc5MmIwNzQ0NjY4Y2RlNDUwZWEyNmViYjcwZTdlZGQwMDI3Yjg4NTM2ZjExODE0MTQzZWZiMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTA1NDRmM2ExZGFlZDVjMzYwOTk2OTExODJjNTc0ZmY3YTUwMzY3YWVmODAxMjA2YzY0ODAwZmQ0MmZhYTk2YSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L69-L77",
+          "version": "repo-lines-v1:sha256:aa65b9b1f032191c4ec9c62b7941a3a8ab37dc2373987e4e437ddf102667ecb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTAzM2IwMjdkYmFhOTdmZWM5ZTIzYzU2MDc3ZjJjNmJhN2E4ZTMxOWU3YTNhMzM5YWRjYjc2NjAxYWYyMmZjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmMTU3ODRmMzQyMTdkMDExYWY0OGYzNGQ3YThiYzk4ZmM4NGUwNjMzOTI3ZDdmNzNhOTA2YzRhMjVmYjBjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZjYjVhMWViN2JmN2Y2MDRkMmNkOWIxOTdkMzI5OGIxNGZmYzZiNTRiZjdhYTEzYmEzMjIzZGJhMTdiYThmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTk5MWZjMjliNWFjYTQwMjczYjJiNGQ0YTRmMTUwZTA4ZGI5Yjk0ZjU5Zjg0YzZlM2M3OGNmODYzNTFjMDM2MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ce012ae1f0774546815b56a4bb3fdd84",
+      "statement": "HO 04 81 (2018-09) M.5 imposes its reasonable water-intrusion mitigation condition independently of the HO-3 C.1 neglect exclusion, so the M.5 limitation can apply whether or not C.1 applies.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L29-L31",
+          "version": "repo-lines-v1:sha256:7e8712d6adf3307a9343ee534f7f8fc1659763b427fb6d88b64448e9706d1fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZmMTlkMjFiMGM5MGFkMzA2NjA0MTg1YjY4YzMyYTUwMzU5ZWE4ZDg3YzE2NzVjYTRlYjUyY2U2ZjdkZWU5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjNiNTYxNWQ5OWZhYWI4YjRkMjM4MTAyZTVkNmE2OGU0N2UyMTk2NjQ1YmZmMmY0OTNkOWY1MzdiODhmNTVlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVjZjMyOGQ2ZWEwNTlmZjA3OGRlNmUzYjg3YTIxMGVhNTc0NDFlZjI1NDEwNGJmNzI1Y2FhMjA1OThmMTE0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDVkMWI1MjAxMzFlYTEzZmU0NTE2YTc1YTRkYTU1YzRjMDM5ZTc0MWYxYTFhMDlmYzA2MGMxYTNmM2QzMzFiNCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L83-L89",
+          "version": "repo-lines-v1:sha256:52921f7bf7435b9001747470c61b2d11205069237a3f96ac487adb503f3ef523:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgwODNiMGZmMjIxYTU5YjZmY2ZlMjcwZGJiN2RmMDJjMGJhYmFlN2JjNTA1YWYzYmNlYmQyZDZkYjQwNjY3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk4OTBiMzY3YzBhODE3OGE4NjVkOTdlOWZhOGMzZjlkOGYwNjE1ZmZhZTk4M2JhYjI3ZDNmZGYyY2MyMjM2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBkOGYzYzE0ZWJhYTBjNTBmMzQyMmQ1MmY0YTdhMWNhNGY1OWVlMzE0MjZhNWM3NGIwMjYxMmFjM2E1MzQ0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTUzNjQ1OGVjYTdjOGFjZGZhMGI3MjAxY2QzNjUxZDdmNWQxOGYwMjEwZDU0NTNkZjExMzZiNDQyNDcxNTE0NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a3fda78b27a54e31ad34f57fe3d870c1",
+      "statement": "HO 04 81 is a limited C.2 write-back rather than a replacement-cost personal-property endorsement: after its M.1–M.5 coverage gates, the otherwise applicable Coverage C settlement terms and other policy provisions remain in force.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L29-L37",
+          "version": "repo-lines-v1:sha256:8916f86a97eb26c0a5885864948510aadb8752ffe47c30b55cb7992c09475156:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZmMTlkMjFiMGM5MGFkMzA2NjA0MTg1YjY4YzMyYTUwMzU5ZWE4ZDg3YzE2NzVjYTRlYjUyY2U2ZjdkZWU5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVjZjMyOGQ2ZWEwNTlmZjA3OGRlNmUzYjg3YTIxMGVhNTc0NDFlZjI1NDEwNGJmNzI1Y2FhMjA1OThmMTE0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10",
+          "version": "repo-lines-v1:sha256:4de6f94703c9798ad126362702ddbdaee43ae7cd1870e737b3d2bc679e0b1636:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhiZWQwNTgxYjVlMDdmNmE4YWIxOTBhZGFjNTUyZmY0OTFlMDc2MDEyM2FiZTYxYzg5NzA0ZDc2ZTc5NDBkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzgyZGI1ODM2MjdlODBiYTViZjkwMTAxNWIzMGRlMmQwYjNkMjQwNTM2ZjkyMjdkZWVjNjg1YzI1Y2RjZjY4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjllN2I4YWU5YzgyMzRmYWViYjc3YWI5MjFkNDExOWE4ZTAwMjZkN2QwY2NlOWU0MTE5NGZiMjc2YzUyMGNhZCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L43-L49",
+          "version": "repo-lines-v1:sha256:80734e2ffac24e863ed4e8ee5413b83629bc4e4d10f5d61db8421f5b09e1d41c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGU0ZWFiMDcyZjRhMzlmOTdlOTQ0NjZkZTEwMDY5NjdkYzcwOTJmOWZhNGRkODllOTI2ZDJjNmRlNmI1MTljNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTk3OWY1MzkxMWUzYjUyMjRlOGRiMTYwYmQwNzA3YWI2OTM4NzhjZjY0MGM0MWQ2MTQ0YWMxMzIxYWE3ZjlmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNmODIzZWIxYTAxM2U5YjY1MWRmMDE0YTAxYjQ4ZTZlZDllNjNlMTBmN2Q0NjEyMTM0YWY3ZGQ4YmJlYmIxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDVlMGFjMzljM2JiZWNmZDY2NmVjNGRiODM2YmY4ZWZmZTI0NTExNmRhOTEyNTZiMWNiMWRmZTIyMzllMDljYSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L83-L89",
+          "version": "repo-lines-v1:sha256:52921f7bf7435b9001747470c61b2d11205069237a3f96ac487adb503f3ef523:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgwODNiMGZmMjIxYTU5YjZmY2ZlMjcwZGJiN2RmMDJjMGJhYmFlN2JjNTA1YWYzYmNlYmQyZDZkYjQwNjY3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk4OTBiMzY3YzBhODE3OGE4NjVkOTdlOWZhOGMzZjlkOGYwNjE1ZmZhZTk4M2JhYjI3ZDNmZGYyY2MyMjM2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBkOGYzYzE0ZWJhYTBjNTBmMzQyMmQ1MmY0YTdhMWNhNGY1OWVlMzE0MjZhNWM3NGIwMjYxMmFjM2E1MzQ0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTUzNjQ1OGVjYTdjOGFjZGZhMGI3MjAxY2QzNjUxZDdmNWQxOGYwMjEwZDU0NTNkZjExMzZiNDQyNDcxNTE0NiJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-06T01:11:17.126Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

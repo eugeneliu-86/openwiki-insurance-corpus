@@ -5,7 +5,7 @@ description: Establish the HO-3 Section I cause-of-loss entry gates and the mate
 tags: [homeowners, ho-3, property-coverage, perils, exclusions, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
@@ -17,7 +17,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 ## Scope and controlling-policy check
@@ -73,7 +73,9 @@ In both editions, C.1 excludes loss caused by neglect: an insured's failure to u
 
 ### Deterioration, mold, and rot
 
-Both editions' C.2 excludes loss caused by wear and tear, marring, deterioration, inherent vice, latent defect, mechanical breakdown, rust, mold, wet or dry rot, and specified settling or structural changes. A mold or rot observation alone therefore does not establish Section I coverage. On a **2018-09** policy, attached **HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage** narrowly makes C.2 inapplicable only for direct physical loss to covered A/B/C property where the condition resulted from a Section I insured peril during the policy period; all other provisions remain applicable. [2011-05 C.2](repo://forms/HO/MS/HO-3/2011-05.md#L71-L76) · [2018-09 C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L88) · [HO 04 81 M.1 and M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) · [HO 04 81 all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37)
+Both editions' C.2 excludes loss caused by wear and tear, marring, deterioration, inherent vice, latent defect, mechanical breakdown, rust, mold, wet or dry rot, and specified settling or structural changes. A mold or rot observation alone therefore does not establish Section I coverage. On a **2018-09** policy, attached **HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage M.1** writes back **HO-3 2018-09 Section I — Exclusions C.2** only to the stated extent: direct physical loss to covered A/B/C property caused by fungi, rot, or bacteria where the condition resulted from a Section I insured peril during the policy period. [2011-05 C.2](repo://forms/HO/MS/HO-3/2011-05.md#L71-L76) · [2018-09 C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L88) · [HO 04 81 M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10)
+
+**Preserved barriers:** **HO 04 81 M.2** separately preserves the applicable underlying source and duration barriers: it denies this route when the moisture came from flood or surface water (**HO-3 2018-09 A.1**), subsurface water (**A.2**), or continuous or repeated seepage or leakage over weeks, months, or years (**C.3**). M.1's C.2 write-back does not override those provisions, and M.6 leaves all other policy provisions applicable. [HO 04 81 M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17) · [HO-3 2018-09 A.1–A.2](repo://forms/HO/MS/HO-3/2018-09.md#L69-L75) · [HO-3 2018-09 C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO 04 81 M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37)
 
 **Write-back route:** [Fungi, Rot, and Bacteria](/openwiki/coverage/property/fungi-rot-and-bacteria.md) addresses HO 04 81 attachment, the covered underlying event, source restrictions, mitigation, and its aggregate limit. Do not use that 2018 endorsement's P.2/C.3 references to fill omissions in a 2011-05 policy. [HO 04 81 M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L11-L17) · [2011-05 exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L57-L80)
 
@@ -81,11 +83,13 @@ Both editions' C.2 excludes loss caused by wear and tear, marring, deterioration
 
 C.3 of **HO-3 2018-09** excludes loss caused by **“continuous or repeated seepage or leakage”** of water or steam over weeks, months, or years from the specified internal systems or a household appliance. It preserves loss that is **“sudden and accidental”** as Definition 5 defines that phrase: an event both **“abrupt in onset”** and **“unintended from the standpoint of the insured.”** A gradually developing condition, or one known to an insured and left unremedied, is not **“sudden and accidental”** merely because its effects appear later. Establish source, duration, onset, knowledge, and remediation; do not use discovery date as the event date. [HO-3 2018-09 Definition 5](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) · [HO-3 2018-09 C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90)
 
-This C.3 exclusion and its defined **“sudden and accidental”** exception are not present in the supplied 2011-05 exclusions. For water source, backup, or seepage analysis—and any potential water-backup write-back—use [Water Damage and Backup](/openwiki/coverage/property/water-damage-and-backup.md) with the selected base form and verified attachment. HO 04 90 modifies the sewer/drain-backup and sump-overflow exclusion only when attached, and it retains the base flood/surface-water and subsurface-water exclusions. [2011-05 water exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [2018-09 water exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90 W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) · [HO 04 90 retained exclusions](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
+This C.3 exclusion and its defined **“sudden and accidental”** exception are not present in the supplied 2011-05 exclusions. For water source, backup, or seepage analysis—and any potential water-backup write-back—use [Water Damage and Backup](/openwiki/coverage/property/water-damage-and-backup.md) with the selected base form and verified attachment. When attached, **HO 04 90 W.1 writes back HO-3 Section I — Exclusions A.3** only for its stated sewer/drain-backup and sump overflow/discharge direct-physical-loss route. [2011-05 A.3](repo://forms/HO/MS/HO-3/2011-05.md#L63-L66) · [2018-09 A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) · [HO 04 90 W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8)
+
+**HO 04 90 W.4 separately preserves HO-3 Section I — Exclusions A.1 and A.2:** it does not provide coverage for the flood/surface-water category in A.1 or water below the surface of the ground in A.2. The W.1 A.3 write-back is not an override of either retained exclusion. [2011-05 A.1–A.2](repo://forms/HO/MS/HO-3/2011-05.md#L59-L64) · [2018-09 A.1–A.2](repo://forms/HO/MS/HO-3/2018-09.md#L69-L74) · [HO 04 90 W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
 
 ### Ordinance or law — 2018-09 only
 
-Under **2018-09 D.1**, increased construction, demolition, or repair cost required by an ordinance or law regulating those activities is excluded unless an ordinance-or-law endorsement is attached. This is a cost-category exclusion, not an initial grant for physical damage. When compatible **HO 04 16 Ordinance or Law Coverage (2018-09)** is attached, it supplies a limited path for increased cost caused by an ordinance in force at loss only where the underlying Section I loss is covered. It applies only after damaged property has been settled and only to increased cost actually incurred. [HO-3 2018-09 D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 04 16 O.1](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L9) · [HO 04 16 O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
+Under **2018-09 D.1**, increased construction, demolition, or repair cost required by an ordinance or law regulating those activities is excluded unless an ordinance-or-law endorsement is attached. This is a cost-category exclusion, not an initial grant for physical damage. When compatible **HO 04 16 Ordinance or Law Coverage (2018-09)** is attached, **O.1 writes back HO-3 2018-09 Section I — Exclusions D.1** only for the stated increased cost caused by an ordinance in force at loss where the underlying Section I loss is covered. The O.1 write-back does not cover an excluded underlying loss. Under O.6, it applies only after damaged property has been settled and only to increased cost actually incurred. [HO-3 2018-09 D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 04 16 O.1](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L9) · [HO 04 16 O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
 
 **Write-back route:** [Ordinance or Law Coverage and Undamaged Roof Portions](/openwiki/coverage/property/ordinance-or-law.md) covers attachment, limits, undamaged portions, exclusions, the completion deadline, and settlement/incurred-cost prerequisites. D.1 and HO 04 16 must not be projected backward: there is no separately stated ordinance-or-law exclusion in the supplied 2011-05 text. [HO 04 16 O.2–O.5](repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L31) · [2011-05 exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L57-L80)
 

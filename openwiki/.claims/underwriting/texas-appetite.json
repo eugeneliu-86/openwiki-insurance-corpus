@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:82fa7eedc3253c2f2f3d54ca07513eb2671ff7d9e3b43c20a115435fc480c889",
+  "pageVersion": "sha256:8fd3d6f462a08b6aca82c24d984025fdd6404d290e03b128e10a0ec3fc9d1a6d",
   "claims": [
     {
       "id": "claim_62d1d5fd1a99497e8d506c5942c05c78",
@@ -251,10 +251,68 @@
           "version": "repo-lines-v1:sha256:845f2fc7e1e64a01f6f91d22deb2c90296d62cae2f3500a6516059f087f03e01:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM1OTM1MTU1NWJiOWEzMWI2ZTMzMDZlYjIwMmIyZmZjODMxZmNmYjJhZjc3M2UzODZiMGRmYTM3YmNjNjI3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjhlYmEwYWVhNDNiNTVlYzlhMDBiNDJlMmM0ZGE4NWVlMTFkMDZkMGI2NTczMWM1ZjllNDJlZDYyNTFjNGUxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNjMWRhZDMyNTUyOTgwNjM5NDMzMjllMjFjZDNhNzJhMzBlNzU4ZmQxNzk0ZWNhZGU4NmE1YWE0YTZjODRiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_1c339e8ee44f48a0989173aa35520fdb",
+      "statement": "For an issued, attached, and applicable HO 01 45 endorsement, T.1 implements Texas Bulletin B-2021-08 and amends HO-3 2018-09 S.5 so a windstorm-or-hail loss receives only the separate windstorm/hail deductible rather than the all-other-perils deductible.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L5-L19",
+          "version": "repo-lines-v1:sha256:2c64e69f845051c722f9937952d0661aca73b938060aa3e3b908594adc4935b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYjBlMmNlMTdhODkyYzFiOTJlMjU1MmQyMDM2MWJlOWZiZDc2ODg1ZmE3NTljODgzZWUwZTJjNjg0N2NkMGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2ZmMzYzljMzNjNTg2YWIwZWYzMzJkZmQxOTFmMjgzYmQ3YjZhMjZmYmE2MTAyMzNkN2JiMzQ3YWNhNWYwODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5NDA5MDRiYTIyYTgzOGE1YzFjYzViMTc5YTQyNTNmMWZhNmNiNDIxNzg4YjZlNjVmYjMwYjAwNWRkNDYxNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM3OThlYTdjMmQxOGI1YzNjYmEwYWNlNjViMzUyNmEzYzc5NzYzZDczZmMwNzJkZmIyMGUxYzM3ZDNlZjRhNjIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
+          "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11",
+          "version": "repo-lines-v1:sha256:06998020169142d007a27ab4eb049b43ebd934e26d9891a7e2ef83dc1be31560:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlNTY1YmI3ZWQ1YzM2ZmZkYTFkNWYwZTc4ODk4Y2RjOWY1NDVhYWVhZTdmOTMzODU1Yjc2ODZmOTAxNTMyOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2ZmMzYzljMzNjNTg2YWIwZWYzMzJkZmQxOTFmMjgzYmQ3YjZhMjZmYmE2MTAyMzNkN2JiMzQ3YWNhNWYwODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjYzdkOTE3NDYwMzY4ZGIxYTYzN2VjZTc3NTkzMTZiMTA0MGM4NTkyMjZjZDg5ZTUzMjEyMTllZDZiNzAyMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9cceb66a8eb4e7a88e39f274ec03b92",
+      "statement": "The Texas residual-market wind/hail exclusion route has distinct controls: G.4 requires a signed acknowledgment at binding for the operational seacoast/residual-market path, matrix R.3 requires referral, and issued-form T.7 additionally requires Texas Windstorm Insurance Association coverage and attachment of the applicable exclusion endorsement before T.1 does not apply.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L33-L37",
+          "version": "repo-lines-v1:sha256:3568f95526b2bf8d0b3d633143c3e01db2c7c79d108e00cb45e0846a35d50de8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ3MDNkNjMzNDU0ODc4NzBiY2ZkOWFiNWY4NWE1NTljZjc3ZDljZTdmNTQ0NGI2YzM1ODMxNjdiN2MxOWNjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWNjN2E4MjU1MDdiMmYyYmU2MWU0NjU0NTUyOGM5NzBiMzFkNmQ1Yjk0MTUxNDIzOGFlZDMxM2E1OGNiYWIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L31-L35",
+          "version": "repo-lines-v1:sha256:057ccc9a3d67b14c3541cf9333f0919967c10a5b65f65d8922deee8906ec7134:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWQ2MjUzOTI4MDkzZDFiOTI2NTVlMjE3MTAxNGI4ZTlkNmQ5NjgwZjlmMTg5NDYyMGQ3Y2QxMGIyMWJmZTliOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmM2ExNzE4ZjJlYTljMGEwYWMyNzBlMTUzM2I3YzU2YjIxMTQ3Mjc5YjRjM2JhYjcxNGU2N2Q3ODYxOTA4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQxZWE5NWUzMjFhZTA4YmUwZTYyNmE0YjRhMGZkNTVlODZhNzRjMWU3OTM2ODYzNzA5OTNiYjQyYmNlOTBjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTc3NWFlY2FiZjAwY2QwODY3OWJhNGI1YWFjYzlmOTM2NmMxYzAwZTA1N2I1NDg2MWJjOTY5MTYzZDczNzYxNyJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L19-L31",
+          "version": "repo-lines-v1:sha256:f2c54f5f8c9cae4acce6aa236f7570546db81b7c70869c5e1da5448b3ea0c195:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ZTc4YjIzYmQyODE2NWY0ZmQwY2U0ODQ0YTUyMDkxODgzMzdhYzg3MTRkYzE4MTViNTc0YWMyMDc0OTBmY2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3M2ZmNzliY2EzZGE4ZGQ4ZjliN2U0MjYzMzFhZGI4YWVkZWJkYjE4NDBkNDE1ZDMxMTc1NjNhODZlNWEyNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNjRjNmMwZjQ0YTgwZjIzZGY0NGI2MTI4YjExMmNkOGU3NDU1YzE5N2U3ODdiNmMwZjIxODk1ZDJlNGI2YzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYzg4MjQ4ZWEyYzcxY2E5MDQxOWY1MDY3ZTRkMGEyNjExZGMyMGQ3YjcyMTdjN2Y5NDRjYTQzNjIxMWE4NDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ba39b4039668494fba4a9a703a267e20",
+      "statement": "When compatible HO 04 90 is attached to HO-3, W.1 supplies the limited direct-physical-loss write-back for the A.3 sewer/drain-backup and sump-event category, while W.4 preserves the A.1 flood/surface-water and A.2 subsurface-water exclusions; Texas G.3 binding thresholds remain separate underwriting constraints.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L8",
+          "version": "repo-lines-v1:sha256:45914b45a9b47270a592dc54211bc826e341ea1a4f81095b8ed8b6cf3344960f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkMzY4MzJmYjc5MmIwNzQ0NjY4Y2RlNDUwZWEyNmViYjcwZTdlZGQwMDI3Yjg4NTM2ZjExODE0MTQzZWZiMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTA1NDRmM2ExZGFlZDVjMzYwOTk2OTExODJjNTc0ZmY3YTUwMzY3YWVmODAxMjA2YzY0ODAwZmQ0MmZhYTk2YSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21",
+          "version": "repo-lines-v1:sha256:6352235ca72320bbd8a140d9facacdb5ffd284b021d5ee352fff60d88f445d8c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjBjNWU2ZjExOTgwOTYzMjQ4Mjc5NWExYzcwYzc2N2IwMmVmMGEyNzdhYmRlNmVmNThhOTY3NGM5OWI0MDMyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjViYmE2ZGVmYTlmOWVkOTM3MDI3ZTNhNWVmNzdiMGQyMGZmMTEyMTRlYjRkYjEwMzgzNjExMGU2ZjgwMzA4YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjg0ZTVjZGM3MzQ2ODk3NzBhZmRiMTFjZjJiZWQ1Mzg1NjIxZWM4MThhNmUxZjVhMGIyZTFiNGRiOTlmZmQwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmJjMDE4OGUxNjYxOGZjZDQ4MWNlYTMzMWZkZTIzZTcxYmUxNTUwOGI1NjBmM2JmMGUwN2ZjYjAzYzg0YjljNSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L69-L77",
+          "version": "repo-lines-v1:sha256:aa65b9b1f032191c4ec9c62b7941a3a8ab37dc2373987e4e437ddf102667ecb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTAzM2IwMjdkYmFhOTdmZWM5ZTIzYzU2MDc3ZjJjNmJhN2E4ZTMxOWU3YTNhMzM5YWRjYjc2NjAxYWYyMmZjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmMTU3ODRmMzQyMTdkMDExYWY0OGYzNGQ3YThiYzk4ZmM4NGUwNjMzOTI3ZDdmNzNhOTA2YzRhMjVmYjBjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZjYjVhMWViN2JmN2Y2MDRkMmNkOWIxOTdkMzI5OGIxNGZmYzZiNTRiZjdhYTEzYmEzMjIzZGJhMTdiYThmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTk5MWZjMjliNWFjYTQwMjczYjJiNGQ0YTRmMTUwZTA4ZGI5Yjk0ZjU5Zjg0YzZlM2M3OGNmODYzNTFjMDM2MSJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L23-L29",
+          "version": "repo-lines-v1:sha256:c05973d1b610564f855f8a9d843e7a1860d6ce2d2765bd988003d5f68fd05f80:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDg0ZmI1YWVkZDVlODdiY2M5NzQ4MmIxZjllMTljY2IxYmI5ZmYzNDUyMDhiZWI3NjliZTkzOWZiZTAyNGIyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY2MTg3ZmUyNGY2OTljNWU4Yjg0MmE3ODQ4NjhlYTY2OTBiY2RjNmI2ODljZmE5YzhmM2QyYzM2NzZhZjhiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiNjVmOGRmYzU3N2IxYmJlZTYzNzA4ZDQ0NjU2YmJmZmYyZjJhYzVhZTcwOTU3MDdlMTAzYWIzYTIzZGJlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTk4OTRkY2U5ODc3MzAwODlkOTA2ZmE1NjNjNDM0NzViZGYxZjFlMzM2ZDhiNmUzNTEyMzUxZjMyZmQyNzk5ZCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T21:30:30.144Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

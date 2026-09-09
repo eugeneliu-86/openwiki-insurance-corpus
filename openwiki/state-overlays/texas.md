@@ -5,7 +5,7 @@ description: Texas regulatory and policy-form controls for separate windstorm an
 tags: [texas, homeowners, windstorm, hail, deductible, state-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md

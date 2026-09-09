@@ -1,11 +1,11 @@
 ---
-type: policy-assembly
+type: routing-guide
 title: Coverage Wiki Quickstart
-description: Start here to route a homeowners coverage, regulatory, claims, or underwriting question to the controlling policy assembly or specialized reference. It separates issued contract terms, regulator requirements, and internal guidance so no layer is used as authority for another.
-tags: [homeowners, policy-assembly, coverage-routing, state-overlays, claims, underwriting]
+description: Route homeowners contract, regulatory, claims, and underwriting questions to the correct authority layer and specialist page. Start with the issued-policy record, then keep contractual terms, regulatory controls, and internal guidance separate.
+tags: [homeowners, coverage-routing, policy-assembly, state-overlays, claims, underwriting]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -31,88 +31,94 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
-## Start with the authority layer
+## Choose the authority layer first
 
-This wiki documents a synthetic insurance corpus, not a real carrier product, ISO form, or legal advice. Forms and regulator bulletins are frozen authority; a new edition is a new file and does not revise an already issued policy. Internal guidelines are living operational material. [Corpus scope and source lifecycle](repo://README.md#L3-L18) · [Frozen authority and living guidance](repo://README.md#L28-L36)
+This wiki describes a synthetic insurance corpus, not a real carrier product, ISO form, or legal advice. Forms and regulator bulletins are frozen authority; internal guidelines are living material. A new form edition is a new file, while a policy written under an earlier edition continues to use that edition. [Corpus scope and source lifecycle](repo://README.md#L3-L18) · [Frozen and living authority](repo://README.md#L28-L36)
 
-| Question | Controlling source | Do not use as a substitute |
+| Question being answered | Start with | Keep separate |
 | --- | --- | --- |
-| What does an issued policy cover, exclude, require, or pay? | The policy-specific assembly: selected HO-3 edition, Declarations, and compatible endorsements or state amendments actually attached. | A later form, a repository copy of an unattached form, a bulletin, or an internal workflow. |
-| What constrains issuance, renewal, notice, deductible setup, or other insurer conduct? | The applicable regulator bulletin, with the issued policy retained separately for contractual terms. | An appetite guide or a referral approval. A bulletin does not attach an endorsement. |
-| How should staff investigate, document, refer, reserve rights, or bind? | The relevant internal claims or underwriting guidance after the contract and regulatory layers are identified. | Coverage authority, policy language, an insured duty, or customer-facing coverage wording. |
+| What does this issued policy cover, exclude, require, or pay? | The issued-policy record: selected HO-3 edition, complete Declarations, and verified attached endorsements or amendments. | A repository form that is not proven attached, a bulletin, and internal workflow. |
+| What may the insurer do for issue, renewal, notice, deductible configuration, filing, or reporting? | The applicable state bulletin and its scope/effective-date test. | Contract wording and internal authority. A bulletin does not prove an attachment. |
+| How should staff investigate, reserve rights, refer, document, or bind? | The relevant claims or underwriting guidance after the contract and regulatory layers are identified. | Coverage authority, an insured duty, and customer-facing coverage language. |
 
-**Invariant:** internal guidance cannot grant, restrict, or prove coverage. A state appetite guide may be more restrictive than enterprise guidance but cannot grant broader authority, and referral cannot approve a filing or bulletin violation. [Referral-matrix precedence and hard stop](repo://guidelines/authority/referral-matrix.md#L1-L11) [Referral-matrix regulatory hard stop](repo://guidelines/authority/referral-matrix.md#L33-L40)
+**Operating boundary:** Internal claims guidance is not part of a policy and must not be quoted to an insured or claimant. It directs staff to establish and document a water source before evaluating damage; that operational sequence does not decide coverage. [Water Loss Claim Handling Guidance, status and source-first direction](repo://guidelines/claims/water-loss-handling.md#L1-L11)
 
-## Assemble the issued policy before answering a coverage question
+## Minimum record before a contract answer
 
-Preserve the policy-written date, policy effective date, state, complete Declarations, limits and deductible selections, selected HO-3 edition, and every actually attached endorsement or amendment and its edition. For a claim, also preserve loss date, alleged cause, property, and facts needed to test the relevant provision. The policy-written date selects the base form: HO-3 2011-05 remains in force for policies written under it, including a later-reported loss; HO-3 2018-09 applies prospectively to policies written on or after 2018-09-01. [HO-3 2011-05 continuing force](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) · [HO-3 2018-09 applicability](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4)
+Collect the policy-written date, policy effective date, state, full Declarations, limits, deductible selections, selected HO-3 edition, and every actually attached form and edition. For a claim, also collect the loss date, alleged cause, property involved, and facts needed by the potentially applicable provision. If a required record or attachment is unverified, leave the affected issue unresolved rather than importing a later form or assuming attachment.
 
-Use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) whenever the issued form set is unknown, a form is asserted to be attached, the policy predates 2018-09, or a Texas amendment may apply. The safe order is:
+For base-form selection, **HO-3 2018-09 applicability statement supersedes HO-3 2011-05 supersession statement** for policies written on or after 2018-09-01; HO-3 2011-05 remains in force for policies written under it, regardless of when a loss is reported. [HO-3 2018-09, applicability and supersession](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4) · [HO-3 2011-05, supersession marker and continuing force](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7)
 
-1. Select the HO-3 edition by **policy-written date**.
-2. Verify Declarations and actual attachments; “if attached” is a condition, not evidence of attachment.
-3. Apply an attached state amendment within its own effective-date scope and conflict rule.
-4. Analyze the selected coverage grant and exclusions, then any narrow write-back, settlement, limits, deductible, and conditions.
+Use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) whenever the form set, attachment, edition compatibility, or Texas amendment is uncertain. Its assembly sequence is:
 
-For example, HO 01 45 is a Texas amendment that attaches to HO-3, is effective for policies with an effective date on or after 2022-01-01, and governs when it conflicts with the form to which it attaches. Its effective-date gate does not replace the base HO-3 written-date selection or prove attachment. [HO 01 45 applicability and conflict rule](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) · [Policy-assembly sequence](repo://openwiki/coverage/policy-editions-and-governing-forms.md#L45-L76)
+1. Select the HO-3 edition from the policy-written date.
+2. Verify the Declarations and actual attachments; “if attached” is not proof of attachment.
+3. Apply an attached, in-scope state amendment at the conflict it identifies.
+4. Analyze the applicable grant and exclusions before a narrow write-back, then apply settlement, limits, deductible, and conditions.
 
-## Route a contract question
+For example, HO 01 45 attaches to HO-3, applies to policies effective on or after 2022-01-01, and governs where it conflicts with the attached form. Its effective-date scope does not select the HO-3 edition or establish attachment to an individual policy. [HO 01 45, scope and conflict rule](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4)
 
-Use the assembly page first if any policy-record fact is unresolved. Then use the most specific substantive page below; that page remains subject to the issued form set.
+## Task-routing map
 
-| If the question concerns… | Go to | Routing boundary |
+Use the table as the hierarchy entrypoint. The destination pages hold the detailed analysis; a route does not establish a coverage result or an attachment.
+
+| Domain | Route when the question is about | Specialist page |
 | --- | --- | --- |
-| Governing edition, Declarations, attachments, or a Texas amendment | [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) | Establish the contract before importing a later edition or endorsement. |
-| Dwelling property, ordinary replacement-cost baseline, or 80-percent condition | [Coverage A — Dwelling](/openwiki/coverage/coverage-a/dwelling.md) | Route wind/hail roof surfacing to its distinct settlement path. |
-| Wind/hail roof surfacing, ACV schedule, roof age/material, or deductible sequence | [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) | Separate covered loss, surfacing scope, HO 23 74 attachment, settlement, and code-driven work. |
-| Detached structures, a fence/utility connection, rental use, or the extra Coverage B limit | [Coverage B — Other Structures](/openwiki/coverage/coverage-b/other-structures.md) | Apply the selected edition; the 2018 rental/private-garage boundary is not automatically an older-policy term. |
-| Contents, worldwide property, special limits, or ACV/replacement-cost treatment | [Coverage C — Personal Property](/openwiki/coverage/coverage-c/personal-property.md) | Water and fungi require their own source and attachment analysis. |
-| Additional living expense or uninhabitability after a covered loss | [Coverage D — Loss of Use](/openwiki/coverage/coverage-d/loss-of-use.md) | Test the covered-loss gate, limit, duration, and fungi interaction. |
-| Liability, defense, medical payments, business activity, or insured-owned/rented property | [Coverage E and F — Liability and Medical Payments](/openwiki/coverage/coverage-e-f/liability-and-medical-payments.md) | Use Section II, not a Section I property endorsement, as the starting point. |
-| Section I cause of loss or a general exclusion | [Section I Property Perils and General Exclusions](/openwiki/coverage/property/perils-and-general-exclusions.md) | For 2018-09, distinguish A/B direct-physical-loss and C named-peril gates before exclusions and write-backs. |
-| Notice, protection, inventory, proof of loss, payment timing, action limitation, or an ordinary deductible | [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md) | Apply a controlling attached state amendment or state overlay separately. |
+| **Quickstart** | A question has not yet been classified as contract, regulatory, claims, or underwriting work | [Coverage Wiki Quickstart](/openwiki/quickstart.md) |
+| **Policy assembly** | Written date, governing edition, Declarations, attachment, compatibility, or Texas amendment | [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) |
+| **Coverage A** | Dwelling scope, replacement-cost baseline, or the 80-percent condition | [Coverage A — Dwelling](/openwiki/coverage/coverage-a/dwelling.md) |
+| **Coverage A** | Wind/hail roof surfacing, ACV schedule, roof age/material, or deductible sequence | [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) |
+| **Coverage B** | Detached structures, fence or utility connections, rental use, or the additional limit | [Coverage B — Other Structures](/openwiki/coverage/coverage-b/other-structures.md) |
+| **Coverage C** | Personal property, worldwide scope, special limits, or settlement treatment | [Coverage C — Personal Property](/openwiki/coverage/coverage-c/personal-property.md) |
+| **Coverage D** | Additional living expense, uninhabitability, duration, or a fungi-related loss-of-use question | [Coverage D — Loss of Use](/openwiki/coverage/coverage-d/loss-of-use.md) |
+| **Section II** | Liability, defense, medical payments, business activity, or insured-owned/rented property | [Coverage E and F — Liability and Medical Payments](/openwiki/coverage/coverage-e-f/liability-and-medical-payments.md) |
+| **Section I gates** | Cause of loss, direct physical loss, named peril, or a general exclusion | [Section I Property Perils and General Exclusions](/openwiki/coverage/property/perils-and-general-exclusions.md) |
+| **Claim conditions** | Notice, protection, inventory, proof of loss, payment, action limitation, or ordinary deductible | [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md) |
+| **Water** | Flood, surface water, groundwater, backup, sump event, internal discharge, seepage, or water-backup terms | [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md) |
+| **Fungi** | Mold, fungi, wet/dry rot, bacteria, mitigation, aggregate, or a water-related fungi result | [Fungi, Rot, and Bacteria Limited Coverage](/openwiki/coverage/property/fungi-rot-and-bacteria.md) |
+| **Ordinance** | Code-required repair, demolition, increased construction cost, or undamaged roof portions | [Ordinance or Law Coverage and Undamaged Roof Portions](/openwiki/coverage/property/ordinance-or-law.md) |
+| **Claims operations** | Roof-loss fact development, estimate review, ordinance handoff, state check, escalation, or closure record | [Roof Loss Claims Handling](/openwiki/operations/claims-roof-loss-handling.md) |
+| **Claims operations** | Water-loss intake, source/duration investigation, referral, reservation of rights, accounting, or completion record | [Water Loss Claims Handling](/openwiki/operations/claims-water-loss-handling.md) |
+| **Florida overlay** | Florida roof age, inspection, ACV-schedule offer, nonrenewal, deductible overlap, or reporting | [Florida Roof Age, ACV Schedule, and Nonrenewal Overlay](/openwiki/state-overlays/florida.md) |
+| **Texas overlay** | Texas wind/hail deductible, disclosure, filing, mixed-peril allocation, named storm, residual market, or claim timing | [Texas Windstorm and Hail Deductible Overlay](/openwiki/state-overlays/texas.md) |
+| **Underwriting** | Enterprise authority tier, referral, hard stop, endorsement route, or audit record | [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md) |
+| **Underwriting** | Florida eligibility, roof/nonrenewal workflow, optional endorsement configuration, or authority route | [Florida Homeowners Appetite](/openwiki/underwriting/florida-appetite.md) |
+| **Underwriting** | Texas eligibility, coastal/roof controls, water-backup configuration, wind/hail routing, or authority route | [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite.md) |
 
-### Route a water, fungi, ordinance, or roof write-back correctly
+For HO-3 2018-09, Coverage A and B use the direct-physical-loss grant subject to Section I exclusions; Coverage C also requires a P.2 listed peril. Route a coverage question through those gates before treating a settlement term or endorsement limit as a coverage grant. [HO-3 2018-09, P.1-P.2 and water exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L59-L77)
 
-An endorsement is not a general replacement for the base policy. First establish the base coverage and exclusion result, then apply only the attached endorsement's stated exception, limit, deductible, condition, and settlement terms.
+## Attachment relationship ledger
 
-| Fact pattern | Go to | Critical separation |
-| --- | --- | --- |
-| Flood, surface water, groundwater, backup, sump event, internal discharge, seepage, or water-backup payment terms | [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md) | HO 04 90 modifies A.3 for its stated sewer/drain-backup and sump events when attached; flood/surface-water and subsurface-water exclusions remain. [HO 04 90 W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [HO 04 90 W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21) |
-| Fungi, mold, wet/dry rot, bacteria, mitigation, or the fungi aggregate | [Fungi, Rot, and Bacteria Limited Coverage](/openwiki/coverage/property/fungi-rot-and-bacteria.md) | HO 04 81 is a separate limited Section I write-back: the condition must result from a covered underlying peril during the policy period, and its underlying water restrictions remain. [HO 04 81 M.1-M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17) |
-| Code-required demolition, increased construction cost, or undamaged roof portions | [Ordinance or Law Coverage and Undamaged Roof Portions](/openwiki/coverage/property/ordinance-or-law.md) | HO 04 16 modifies D.1; its ordinance path is distinct from damaged-property and roof-schedule settlement. [HO 04 16 O.1-O.3](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L19) |
-| Wind/hail roof surfacing plus code-required undamaged work | [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Ordinance or Law Coverage and Undamaged Roof Portions](/openwiki/coverage/property/ordinance-or-law.md) | HO 23 74 changes A.4 settlement for roof surfacing only; it does not itself pay ordinance-required undamaged surfacing. [HO 23 74 R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L15) [HO 23 74 R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41) |
+The following statements are directional contract relationships. Apply them only after confirming the selected base edition and the actual attachment in the issued policy.
 
-## Add the state overlay without confusing it with the contract
+| Directed relationship | Routing consequence |
+| --- | --- |
+| **HO 04 90 W.1 writes back HO-3 2018-09 Section I Exclusions A.3.** [HO 04 90 W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) · [HO-3 2018-09 A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) | Route the stated sewer/drain-backup and sump events to the water page. |
+| **HO 04 90 W.4 preserves HO-3 2018-09 Section I Exclusions A.1 and A.2.** [HO 04 90 W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21) · [HO-3 2018-09 A.1-A.2](repo://forms/HO/MS/HO-3/2018-09.md#L69-L74) | Do not treat the backup route as flood, surface-water, or subsurface-water coverage. |
+| **HO 04 81 M.1 writes back HO-3 2018-09 Section I Exclusions C.2.** [HO 04 81 M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) · [HO-3 2018-09 C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) | Route resulting fungi, rot, or bacteria to its separate attachment, underlying-event, aggregate, and mitigation analysis. |
+| **HO 04 16 O.1 writes back HO-3 2018-09 Section I Exclusions D.1.** [HO 04 16 O.1](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L9) · [HO-3 2018-09 D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) | Route eligible ordinance-driven increased cost to the ordinance page; it is distinct from damaged-property settlement. |
+| **HO 23 74 R.1-R.2 modifies HO-3 2018-09 Section I A.4.** [HO 23 74 R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L15) · [HO-3 2018-09 A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34) | Route only windstorm/hail roof-surfacing settlement to the roof page; other components and other covered perils remain on their base-form path. |
+| **HO 23 74 R.6 preserves HO-3 2018-09 Section I Exclusions D.1.** [HO 23 74 R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41) · [HO-3 2018-09 D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) | Route code-required undamaged roof surfacing to the ordinance page, not to the roof schedule as an independent payment path. |
+| **HO 01 45 T.1 modifies HO-3 2018-09 Section I Conditions S.5.** [HO 01 45 T.1](repo://forms/HO/TX/HO-01-45/2022-01.md#L5-L11) · [HO-3 2018-09 S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112) | For an attached, compatible Texas amendment, route wind/hail deductible selection to the Texas overlay. |
+| **HO 01 45 T.1 implements Texas Bulletin B-2021-08 B.3.** [HO 01 45 T.1](repo://forms/HO/TX/HO-01-45/2022-01.md#L7-L11) · [Texas Bulletin B-2021-08 B.3](repo://bulletins/TX/2021-08-windstorm-deductible.md#L15-L19) | Keep the issued amendment's contract result distinct from the bulletin's insurer-conduct requirement. |
 
-Use a state-overlay page whenever state rules may affect issuance, renewal, deductible configuration, notice, claim timing, or a roof decision. Retain the distinction: a bulletin can impose regulatory requirements, but it does not add an amendment or endorsement to a particular policy.
+## State and operational handoffs
 
-- **Florida:** [Florida Roof Age, ACV Schedule, and Nonrenewal Overlay](/openwiki/state-overlays/florida.md) applies OIR-2023-04 to in-scope Florida personal residential policies issued or renewed with an effective date on or after 2023-07-01. It covers roof-age and inspection controls, roof-deductible/ACV-schedule offers, nonrenewal, deductible nonstacking, and county reporting; it does not determine issued roof-settlement terms. [OIR-2023-04 applicability and scope](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L37)
-- **Texas:** [Texas Windstorm and Hail Deductible Overlay](/openwiki/state-overlays/texas.md) separates Bulletin B-2021-08 from HO 01 45. The bulletin applies to Texas residential property policies delivered or issued for delivery with effective dates on or after 2022-01-01 and supplies regulatory deductible, disclosure, nonstacking, and filing controls; contract wording still requires the issued-policy attachment check. [B-2021-08 applicability and loss rule](repo://bulletins/TX/2021-08-windstorm-deductible.md#L1-L7) [B-2021-08 loss rule and filing](repo://bulletins/TX/2021-08-windstorm-deductible.md#L15-L37)
+- **Florida:** OIR-2023-04 applies to Florida personal residential property policies issued or renewed with an effective date on or after 2023-07-01. It controls roof-age, inspection, offer, nonrenewal, deductible-overlap, and reporting requirements; it does not determine an individual policy's issued roof-settlement wording. [OIR-2023-04, scope and controls](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L37)
+- **Texas:** B-2021-08 applies to Texas residential property policies delivered or issued for delivery with an effective date on or after 2022-01-01. It establishes regulatory requirements for separate windstorm/hail deductible configuration, disclosure, loss application, and filing. [B-2021-08, scope and requirements](repo://bulletins/TX/2021-08-windstorm-deductible.md#L1-L37)
+- **Underwriting:** A state appetite guide may impose tighter authority than the enterprise referral matrix but may not grant broader authority. Referral and management approval are escalation mechanisms, while out-of-appetite risks and filing/bulletin conflicts cannot be cleared by referral or bound. [Referral matrix, state-guide boundary and tiers](repo://guidelines/authority/referral-matrix.md#L1-L11) · [Referral matrix, non-clearable conditions](repo://guidelines/authority/referral-matrix.md#L33-L40)
 
-## Use internal guidance only for operations and authority
+## Final controls
 
-These pages make work reproducible; they do not establish coverage or replace a bulletin.
+Before a coverage conclusion, payment calculation, binding decision, referral disposition, or insured-facing communication, confirm:
 
-| Need | Internal guidance page | Use after identifying |
-| --- | --- | --- |
-| Water-loss intake, source/duration investigation, referral, reservation of rights, and closing record | [Water Loss Claims Handling](/openwiki/operations/claims-water-loss-handling.md) | The issued policy and water/write-back paths. The underlying guidance directs staff to establish and document the water source before evaluating damage, but it is not policy language and must not be quoted to an insured or claimant. [Guidance status and source-first direction](repo://guidelines/claims/water-loss-handling.md#L1-L11) |
-| Roof-loss fact development, age/material documentation, calculation review, ordinance handoff, state check, and escalation | [Roof Loss Claims Handling](/openwiki/operations/claims-roof-loss-handling.md) | The contract analysis in roof settlement and ordinance pages, plus the relevant overlay. |
-| Enterprise authority tier, referral, hard stop, endorsement route, and audit record | [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md) | State guide, issued-form dependencies, and applicable bulletin. Referral and management approval are escalation paths; out-of-appetite or filing/bulletin-conflicting risks must not be bound. [Referral outcomes](repo://guidelines/authority/referral-matrix.md#L7-L10) [Non-clearable conditions](repo://guidelines/authority/referral-matrix.md#L33-L40) |
-| Florida eligibility, roof/nonrenewal controls, water-backup/mold configuration, and authority route | [Florida Homeowners Appetite](/openwiki/underwriting/florida-appetite.md) | Florida overlay requirements and issued-policy facts. |
-| Texas eligibility, coastal/roof controls, water-backup configuration, wind/hail routing, and authority route | [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite.md) | Texas overlay requirements and issued-policy facts. |
+1. **Assembly:** the issued record establishes dates, state, Declarations, base edition, and each attachment.
+2. **Authority:** the conclusion is identified as contract, regulatory, or internal guidance.
+3. **Sequence:** the analysis retains the cause/property gate, exclusion, narrow write-back, settlement, limit, deductible, and condition in their stated order.
+4. **State:** the relevant overlay has passed its own scope test and remains separate from issued contract terms.
+5. **Operations:** the file records facts, authority, calculations, notices, referrals, and escalations without converting internal workflow into an insured obligation.
 
-## Final routing controls
-
-Before a coverage conclusion, payment calculation, binding decision, referral disposition, or insured-facing communication, verify these focused controls:
-
-1. **Assembly test:** Can the file show the written date, effective date, state, Declarations, selected base edition, and each actual attachment? If not, obtain the issued-policy record rather than substituting repository text.
-2. **Authority test:** Is the conclusion identified as contract, regulatory, or internal guidance? Do not cite internal guidance as coverage authority or treat a bulletin as proof of attachment.
-3. **Scope test:** Have peril/source, property, exclusion, write-back, settlement, limit, deductible, and condition been kept in their stated order? Do not let a settlement endorsement become the initial coverage grant.
-4. **State test:** Has the relevant state overlay been checked for its own applicability gate and then kept separate from policy terms?
-5. **Operations test:** Does the internal record identify factual evidence, referral/approval, calculation, notice, or escalation without converting the workflow into an insured obligation?
-
-If a gate cannot be established, leave the affected coverage or authority issue unresolved. Do not cure the gap by importing a newer form, assuming an endorsement is attached, or treating an internal instruction as contract language.
+If a gate cannot be established, do not cure the gap with a later form, an assumed endorsement, a bulletin, or an internal instruction.

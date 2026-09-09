@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:74f580e2557e1ac4a8afffef294bf13a3d3e0019b7bc9079ed88ae33bd17e4fb",
+  "pageVersion": "sha256:25d38c8185240e7d6d4e9dc14d73589b67c5f131faabdb0f6065e81d4b5476df",
   "claims": [
     {
       "id": "claim_9bffab9662ff4baa8eec084138f297e7",
@@ -88,8 +88,12 @@
     },
     {
       "id": "claim_d5a42ef3e97d4c6a911821d67f836314",
-      "statement": "HO-3 2018-09 applies the Declarations deductible to each Section I loss, but routes separate windstorm-or-hail deductible treatment to required state amendatory endorsements; attached Texas HO 01 45 2022-01 overrides the base rule so a windstorm/hail loss receives only its separate windstorm-and-hail deductible, with stated treatment for separable and inseparable mixed-peril loss.",
+      "statement": "HO-3 2018-09 S.5 applies the Declarations deductible to each Section I loss and otherwise selects only the larger when a required state windstorm-or-hail deductible also applies; for an attached and applicable Texas HO 01 45 2022-01, T.1 expressly amends S.5, implements Bulletin B-2021-08, and instead selects only the separate windstorm-and-hail deductible for windstorm/hail loss, with allocation rules for separable and inseparable mixed-peril loss.",
       "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L5-L19",
+          "version": "repo-lines-v1:sha256:2c64e69f845051c722f9937952d0661aca73b938060aa3e3b908594adc4935b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYjBlMmNlMTdhODkyYzFiOTJlMjU1MmQyMDM2MWJlOWZiZDc2ODg1ZmE3NTljODgzZWUwZTJjNjg0N2NkMGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2ZmMzYzljMzNjNTg2YWIwZWYzMzJkZmQxOTFmMjgzYmQ3YjZhMjZmYmE2MTAyMzNkN2JiMzQ3YWNhNWYwODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5NDA5MDRiYTIyYTgzOGE1YzFjYzViMTc5YTQyNTNmMWZhNmNiNDIxNzg4YjZlNjVmYjMwYjAwNWRkNDYxNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM3OThlYTdjMmQxOGI1YzNjYmEwYWNlNjViMzUyNmEzYzc5NzYzZDczZmMwNzJkZmIyMGUxYzM3ZDNlZjRhNjIifQ"
+        },
         {
           "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
           "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
@@ -102,15 +106,15 @@
     },
     {
       "id": "claim_d2d4bce3b7904e3d9523251f438147b3",
-      "statement": "Code-required replacement of undamaged roof surfacing is excluded from the HO 23 74 roof schedule under base-form Exclusion D.1 unless an ordinance-or-law endorsement is attached; when HO 04 16 2018-09 is attached, it may cover the additional incurred cost after damaged-property settlement, subject to its separate limit and completion requirements.",
+      "statement": "HO 23 74 R.6 preserves HO-3 2018-09 Exclusion D.1 as the separate boundary for code-required undamaged roof-surfacing replacement, rather than making it a roof-schedule benefit; separately, attached HO 04 16 O.1/O.3 may write back D.1 for the eligible additional incurred cost after damaged-property settlement, subject to its distinct limit and completion conditions.",
       "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L19",
-          "version": "repo-lines-v1:sha256:cd9487dbd37133333ee4213642649478efe3a1507ae75677c8613f4396693522:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDk5NTY0NjEzMTE5MDVmOTdlYjFhMGFiNTFlNmI5OTNiYmY1YTcyNjA1MmRkODg1ODhjN2NjZjlkMzU2ODRhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE0YzhmNDAxMDlmMWZiYTYxMmU2NTE3MDE3OGIzYjVhMWY5ZGQ3ZWI5NDdlZmUyM2YwOTE3NjhjZTdiZDM4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQxZmRkMjhkMTlmOTc5YTBhYjIwYjRhNzRiZWQxOWVjYjc4MmU3MGM0NDgxZDFkMzA5N2NlN2ZlNDczNTY4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjc3NGZhZTIxYzE3ZTM0YTAwNjIxYjA1YjVjMWJjZDFmODYwN2Q5NjZkNDgyM2M3NDk1YjFiNThjZmFmNzZiNCJ9"
-        },
         {
           "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L29-L37",
           "version": "repo-lines-v1:sha256:78946811c0fdce11bc497b571d07b134a29e99f2cf9fce5b3c09cfbfdd5f5ac1:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2E0NjcyYmIyNWEyNWNkZjZiZGY4N2NkZmM0MmViN2I5NmU0NjJjNTQ5NTBlMTZmMGY3YTM2NmNiNTc3MzBhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyOGRkNDE2NTJiZDQ5MDljNGYzYmJhZmM0ZTFlMzA4MWY2YTM4NTgzZGIxMzRhNDY5ZDI0OWI4YjQ2MGU4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L19",
+          "version": "repo-lines-v1:sha256:45c0c9f2f4c0badb845968b502567c9c7a1b7df116ccf1ff2e6f0ea9c86e139d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjMTg1NDA0NDNhYTU2ZTQ0ZjhiODliYWFhZDM5ZWI5N2QyN2VhYmViOTczOTAwMjU3ZGI3ZTg5NmNkMWE4Y2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhNGM4ZjQwMTA5ZjFmYmE2MTJlNjUxNzAxNzhiM2I1YTFmOWRkN2ViOTQ3ZWZlMjNmMDkxNzY4Y2U3YmQzOGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhlNmZiODliNzY3NTI4ZWE3ZjQxODdlNGNmZDQwYWQ5ZTllMGY5YzRhNTExODliMDkyMTYxMzdkNzYzNmYyMzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3NzRmYWUyMWMxN2UzNGEwMDYyMWIwNWI1YzFiY2QxZjg2MDdkOTY2ZDQ4MjNjNzQ5NWIxYjU4Y2ZhZjc2YjQifQ"
         },
         {
           "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41",
@@ -124,11 +128,19 @@
     },
     {
       "id": "claim_0e4ee03f327f49b5a4e53d19c8ed3459",
-      "statement": "Florida OIR-2023-04 separately regulates roof-age underwriting and ACV schedule offers for applicable Florida policies: it restricts age-only declines and inspection practices, requires an alternative policy and written premium-difference disclosure for a roof schedule, and bars applying an ACV roof schedule to a roof under ten years old at the policy effective date.",
+      "statement": "For applicable Florida policies, OIR-2023-04 separately regulates roof-age underwriting and inspection practices and F.4 constrains offers and application of a roof deductible or ACV schedule, including barring an ACV schedule for a roof under ten years old at policy effective date; the bulletin does not itself attach endorsements or change the A.4 and attached HO 23 74 settlement terms of an issued policy.",
       "evidence": [
         {
           "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L25",
           "version": "repo-lines-v1:sha256:a14c2234662590f408998b7a8d8e775f2bb456cbe1dae9097cc25edc7b6172e4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5ZWVjNmFiMjU4NzRkNTcyNWI4NTJhNzFlOGM2YTY2MGU0MDIwZjRiMGNhNDJjYTU5MmJiNDY2ODlkYzBhNDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhMTYzOTEwYzgwMTQzYThhZDdjMzlkMDQ3YzQwMWMzNGE0MjI3ZjgyYmQ4NTJlNmU3NTg1M2E4MmRhYzY3NWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmZWJlN2VlNDE5NmIxYzIzNDQxYTU2ZmRkNDJlZDBiZjliMmJkNTVmM2Q1OTlmOGFjM2EwMGUwMWMwNDUyYTQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L30",
+          "version": "repo-lines-v1:sha256:8af9c47eca8c31dd81f0c5eba6c6557d9c1d0bbd31610a716ee94e9214d8cc0e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0M2I2Njc2YmZlMmQ4ZmQxNDU4NGRjNTQyMTJkYWE3YTM4NmY2NzVkOTBhOTcwMjBkYzVlNmM4MGY4MzYyM2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI4MDc0YmIxYjg5NDJjOWFmMWRmZGVhYmQwOTU5ZWMwN2ViMGIxYTM1Y2Y5ODQ5NGM1NjViYmNhNTAzYWVmMWEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L34",
+          "version": "repo-lines-v1:sha256:dc37099a8b78c0c72333df2131ffe419c4397715770920e8bd8c96534d19dac7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE2ZDViYWFiYjQzMzlmNDVhODVjZGNmZmQ1YzhjZmQ1NzhhYjlhMDk3ODRhYzQ0ZjhlYjU1MzQ3NmFhMTc1NiJ9"
         }
       ]
     },
@@ -169,6 +181,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T21:30:30.144Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

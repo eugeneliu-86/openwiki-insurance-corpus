@@ -5,7 +5,7 @@ description: Explains Coverage B scope and its additional 10-percent limit under
 tags: [homeowners, ho-3, coverage-b, other-structures, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
@@ -17,7 +17,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T20:29:02.779Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 
@@ -56,19 +56,21 @@ An endorsement changes this analysis only when it is attached to the issued poli
 
 ### Water backup: HO 04 90 edition 2010-10
 
-If **HO 04 90 edition 2010-10 is attached** to the HO-3 policy, it restores direct physical-loss coverage for Coverage B property caused by sewer or drain backup or sump-related backup, overflow, or discharge, whether or not equipment mechanical breakdown caused it. The endorsement does not restore flood, surface-water, or subsurface-water losses; the base-form water exclusions for those causes continue to apply. [HO-3 2018-09 § A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90 2010-10 §§ W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L8) [§ W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
+If **HO 04 90 edition 2010-10 is attached** to a compatible HO-3 policy, **W.1 writes back HO-3 A.3** for Coverage B property: it supplies direct physical-loss coverage for the specified sewer/drain backup or sump-related backup, overflow, or discharge, whether or not equipment mechanical breakdown caused it. Both supplied HO-3 editions make their A.3 exception conditional on attachment, so attachment remains a required gate rather than an inference from the reported water damage. [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L63-L66) · [HO-3 2018-09 § A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) · [HO 04 90 2010-10 § W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8)
+
+**W.4 preserves two different base exclusions as separate propositions.** First, it preserves **HO-3 A.1**: flood, surface water, waves, tidal water, storm surge, and overflow of a body of water remain outside the endorsement. Second, it preserves **HO-3 A.2**: water below the surface of the ground, including the stated pressure, seepage, and leakage route, remains outside the endorsement. A sewer or sump label does not collapse those source classifications into the W.1 write-back. [HO-3 2011-05 § A.1](repo://forms/HO/MS/HO-3/2011-05.md#L59-L63) · [HO-3 2018-09 § A.1](repo://forms/HO/MS/HO-3/2018-09.md#L69-L73) · [HO 04 90 2010-10 § W.4, A.1 retained](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L20) · [HO-3 2011-05 § A.2](repo://forms/HO/MS/HO-3/2011-05.md#L61-L64) · [HO-3 2018-09 § A.2](repo://forms/HO/MS/HO-3/2018-09.md#L71-L75) · [HO 04 90 2010-10 § W.4, A.2 retained](repo://forms/HO/MS/HO-04-90/2010-10.md#L19-L21)
 
 The HO 04 90 limit is $5,000 for all loss in one policy period unless the endorsement Declarations state a higher limit; it is part of, not additional to, the Coverage A, B, and C limits. It carries a separate $500 deductible for each endorsement loss rather than the Section I deductible, and it preserves the policy’s settlement basis for Coverage B. The endorsement also excludes a loss resulting from the insured’s known, unremedied failure to maintain the relevant sewer line, drain, sump, or pump where a reasonable person would have remedied it. [HO 04 90 2010-10 §§ W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L15) · [HO 04 90 2010-10 §§ W.5–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L23-L30)
 
 ### Fungi, wet or dry rot, or bacteria: HO 04 81 edition 2018-09
 
-If **HO 04 81 edition 2018-09 is attached**, it provides limited direct physical-loss coverage for Coverage B property damaged by fungi, wet or dry rot, or bacteria only when it results from a peril insured against under Section I that occurred during the policy period. To that extent it displaces **HO-3 2018-09 Exclusion C.2**, but it does not displace the flood, surface-water, subsurface-water, or continuous-seepage exclusions that can remove the underlying event from coverage. [HO-3 2018-09 §§ A.1–A.2 and C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L75) [§§ C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81 2018-09 §§ M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17)
+If **HO 04 81 edition 2018-09 is attached**, **M.1 writes back HO-3 2018-09 Exclusion C.2 only to the stated extent**. It provides limited direct physical-loss coverage for Coverage B property damaged by fungi, wet or dry rot, or bacteria only when the condition results from a peril insured against under Section I that occurred during the policy period. It does not write back the flood, surface-water, subsurface-water, or continuous-seepage exclusions that can remove the underlying event from coverage. [HO-3 2018-09 § C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81 2018-09 § M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) · [HO-3 2018-09 §§ A.1–A.2 and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L75) [§ C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81 2018-09 § M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L11-L17)
 
 The HO 04 81 aggregate is $10,000 for all covered loss in one policy period unless a higher endorsement limit is shown. It is part of, not additional to, the applicable Coverage B limit and includes removal, needed tear-out and replacement for access, post-removal testing, and related Coverage D increase. Separate from the general neglect exclusion, the endorsement also withholds loss to the extent the insured failed to take reasonable steps to dry, clean, or otherwise mitigate known or reasonably knowable water intrusion. [HO 04 81 2018-09 §§ M.3–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L31)
 
 ### Ordinance or law: HO 04 16 edition 2018-09
 
-If **HO 04 16 edition 2018-09 is attached**, it removes the base-form D.1 bar for the eligible benefit and covers the increased cost actually incurred to repair, rebuild, or demolish a damaged other structure because of an ordinance or law in force at the time of loss. The loss itself must be covered under Section I. This is a separate, code-driven cost path; it does not turn an otherwise excluded cause of loss into covered property damage. [HO-3 2018-09 § D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 04 16 2018-09 §§ O.1 and O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L9) [§ O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
+If **HO 04 16 edition 2018-09 is attached**, **O.1 writes back HO-3 2018-09 Exclusion D.1 only for its eligible benefit**. It covers the increased cost actually incurred to repair, rebuild, or demolish a damaged other structure because of an ordinance or law in force at the time of loss, and only when the loss itself is covered under Section I. This is a separate, code-driven cost path; it does not turn an otherwise excluded cause of loss into covered property damage. [HO-3 2018-09 § D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 04 16 2018-09 § O.1](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L9) · [HO 04 16 2018-09 § O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
 
 The HO 04 16 limit is 10% of the Coverage A limit unless a higher percentage is shown for that endorsement. It is additional insurance and does not reduce Coverage A or Coverage B. Payment requires completion of repair, rebuilding, or demolition as soon as reasonably possible and no later than two years after loss unless the insurer agrees in writing to extend the period; it applies only after the damaged-property loss is settled under the applicable Section I provisions. The endorsement retains its stated exclusions, including certain pollution-related compliance cost, value loss to an undamaged portion, and pre-loss compliance obligations. [HO 04 16 2018-09 §§ O.2–O.5](repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L31) · [HO 04 16 2018-09 § O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
 
@@ -83,7 +85,7 @@ flowchart TD
     Rental -- No --> Loss["Establish direct physical loss and check Section I exclusions"]
     Loss --> Excluded{"An exclusion applies"}
     Excluded -- No --> Limit["Apply Coverage B limit and policy settlement terms"]
-    Excluded -- Yes --> Endorsement{"Attached endorsement restores this loss"}
+    Excluded -- Yes --> Endorsement{"Relevant attached endorsement applies to this excluded loss"}
     Endorsement -- No --> Outside
     Endorsement -- Yes --> Terms["Apply endorsement trigger limit deductible and conditions"]
     Terms --> Limit

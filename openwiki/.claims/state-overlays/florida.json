@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d390da57695d7bd99a19edb17309067180593f34a840931b2079fb0234792759",
+  "pageVersion": "sha256:883cdd8a5629e5eddd8d4a18685aebcb990db17e745217b2f0590cbaf667ec63",
   "claims": [
     {
       "id": "claim_8c8809aa32b048de907f9dc8842736b5",
@@ -155,10 +155,60 @@
           "version": "repo-lines-v1:sha256:400da5afbf61c8ed82150c9d6d56c381026de08cef469a7b3df64d6a53a3c397:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgwYzdiYjkwNDE4M2VlZWJiMTFhYzlmZTc2OGQzYzg0NjAxZGM2NThlMTIxZTc5MjAxNjRmM2NlYmM2OTkzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWVkY2Y4ZjhhODFkYWQ3ZWVmZjEyYzQyNTE5ZTRiMDk2MDU5MWEyZjA1Y2UwZTI0MTczMWQxZGJmZjZhMzVjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk0NmRmYThjODdiZGQ0MGEwN2VlZWYwYTk5N2NhNDkzNDM5N2Y2YmNjOTg0ZjkzNTZkMzBlY2UzM2U4MjJhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_06475a643cc64f029ccd665905187788",
+      "statement": "Florida internal underwriting adds roof-age workflow controls separate from OIR-2023-04: the Florida appetite guide requires an inspection before binding for roofs aged 15 years or more, while the enterprise referral matrix independently requires referral for roof surfacing aged 20 years or more and for any roof aged 25 years or more regardless of documentation.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L15-L21",
+          "version": "repo-lines-v1:sha256:876bb5bc842b6662c4d3b5246642185a67efb90da4fc09b7ba27ca55fefe2498:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiMmVhOTg4MDNlZjkyZDQyYzRjM2E4MTEyNDgxMmI3MDJiZjg5YWI1YjA3YTZmMTdiMjkyNTY3ODkyMDY1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEyNmZmNThhYzMzNzdjMmI5ZjQ1YjQ5NThjNmU4Y2RkYWMyMjY4NGYwMjM5NjEzOTExMTAwYWUwMTlmODc3YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E1NzViZTdhM2ZmMzBkNTQyMmVkOTVhMzc3ZjRkZjU4ZTYwZDUyYTE1MGU5ODg0NjUxOTg4ZGMwZGUzZjM2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDVhNTU4NTZmNGY5ZDAwMDY3ODEwNTBlNTJiOWZkYjgzNzc4ZjU4ODY0YjUzYjk1ODFlNTQ4YjZhYjIyMWExOCJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L19-L31",
+          "version": "repo-lines-v1:sha256:f2c54f5f8c9cae4acce6aa236f7570546db81b7c70869c5e1da5448b3ea0c195:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ZTc4YjIzYmQyODE2NWY0ZmQwY2U0ODQ0YTUyMDkxODgzMzdhYzg3MTRkYzE4MTViNTc0YWMyMDc0OTBmY2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3M2ZmNzliY2EzZGE4ZGQ4ZjliN2U0MjYzMzFhZGI4YWVkZWJkYjE4NDBkNDE1ZDMxMTc1NjNhODZlNWEyNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNjRjNmMwZjQ0YTgwZjIzZGY0NGI2MTI4YjExMmNkOGU3NDU1YzE5N2U3ODdiNmMwZjIxODk1ZDJlNGI2YzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYzg4MjQ4ZWEyYzcxY2E5MDQxOWY1MDY3ZTRkMGEyNjExZGMyMGQ3YjcyMTdjN2Y5NDRjYTQzNjIxMWE4NDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_413ce54a24224ae7816277d53ecc41b5",
+      "statement": "For an in-scope Florida issuance, OIR-2023-04 F.4 constrains the carrier's HO 23 74 configuration: an ACV roof schedule cannot be attached or applied when the roof was under 10 years old on the policy effective date; the attached HO-3/HO 23 74 forms, not the bulletin, supply the resulting settlement meaning.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bc2963b59417b018c95a0e2aa1b31f9b55496294853cc5cf5d9212d29d4b1521:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MjRmM2Q0M2RhYWM5MTBiZDZhZTMyYWM0OWEzMTAxNTJhYjY4MzNmYzk4MmJkNTEyMmQyOGNmZjQ1ZThjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNjM5MTBjODAxNDNhOGFkN2MzOWQwNDdjNDAxYzM0YTQyMjdmODJiZDg1MmU2ZTc1ODUzYTgyZGFjNjc1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDUxMGQyZDQzNWIzODRjOWZjYzBmOWUzNjYyMjhjMTFmNThiODU3MDIzYzYyOWI2ZmE3YTAwMWU0NzBjYjcyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlYmU3ZWU0MTk2YjFjMjM0NDFhNTZmZGQ0MmVkMGJmOWIyYmQ1NWYzZDU5OWY4YWMzYTAwZTAxYzA0NTJhNCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4",
+          "version": "repo-lines-v1:sha256:1b39e67da8c2ef771f468d77a51eaab47e55da5726a06ed71df87b75d42095dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQzYjY2NzZiZmUyZDhmZDE0NTg0ZGM1NDIxMmRhYTdhMzg2ZjY3NWQ5MGE5NzAyMGRjNWU2YzgwZjgzNjIzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjQ1OWE5MWExY2M4ZGJlYjE5ZmJiNzNhM2I2NjZkNGMyMjIyMmQxZjU4Y2YxNzdjOGZjOTg5Y2NhZDg4NDBhOSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L34",
+          "version": "repo-lines-v1:sha256:dc37099a8b78c0c72333df2131ffe419c4397715770920e8bd8c96534d19dac7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE2ZDViYWFiYjQzMzlmNDVhODVjZGNmZmQ1YzhjZmQ1NzhhYjlhMDk3ODRhYzQ0ZjhlYjU1MzQ3NmFhMTc1NiJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L15-L21",
+          "version": "repo-lines-v1:sha256:876bb5bc842b6662c4d3b5246642185a67efb90da4fc09b7ba27ca55fefe2498:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiMmVhOTg4MDNlZjkyZDQyYzRjM2E4MTEyNDgxMmI3MDJiZjg5YWI1YjA3YTZmMTdiMjkyNTY3ODkyMDY1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEyNmZmNThhYzMzNzdjMmI5ZjQ1YjQ5NThjNmU4Y2RkYWMyMjY4NGYwMjM5NjEzOTExMTAwYWUwMTlmODc3YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E1NzViZTdhM2ZmMzBkNTQyMmVkOTVhMzc3ZjRkZjU4ZTYwZDUyYTE1MGU5ODg0NjUxOTg4ZGMwZGUzZjM2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDVhNTU4NTZmNGY5ZDAwMDY3ODEwNTBlNTJiOWZkYjgzNzc4ZjU4ODY0YjUzYjk1ODFlNTQ4YjZhYjIyMWExOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_73770f0af30940a6aa0c18923fa48974",
+      "statement": "The internal authority matrix cannot be used to approve a state filing or bulletin violation; for a Florida HO 23 74 request that fails the F.4 gate or offer requirements, the carrier must correct the configuration or not bind rather than cure it through referral or management approval.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bc2963b59417b018c95a0e2aa1b31f9b55496294853cc5cf5d9212d29d4b1521:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MjRmM2Q0M2RhYWM5MTBiZDZhZTMyYWM0OWEzMTAxNTJhYjY4MzNmYzk4MmJkNTEyMmQyOGNmZjQ1ZThjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNjM5MTBjODAxNDNhOGFkN2MzOWQwNDdjNDAxYzM0YTQyMjdmODJiZDg1MmU2ZTc1ODUzYTgyZGFjNjc1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDUxMGQyZDQzNWIzODRjOWZjYzBmOWUzNjYyMjhjMTFmNThiODU3MDIzYzYyOWI2ZmE3YTAwMWU0NzBjYjcyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlYmU3ZWU0MTk2YjFjMjM0NDFhNTZmZGQ0MmVkMGJmOWIyYmQ1NWYzZDU5OWY4YWMzYTAwZTAxYzA0NTJhNCJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L33-L45",
+          "version": "repo-lines-v1:sha256:48ef7043dc3e9b19a39c62e0695c9c997433c4a452fd66b690d7dacf387d6699:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MmI2MDg4ZWVhOTk1NjExMjJiZTQ4ZmI4YmU0NDlmMDkzMmJiYmE2ODFiMGRkN2M5NzY5YTYzNDMyMjQ0ZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNDk3YWNlOTY3OTZhZjU4YTlmYWNhOWI0MDIwOTljNmNmODNkMzBjZDI3ODFiMzYwMmRmZWM5MjUwN2FlOGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgwOWM4NTg4ZDZmOWUyMzVhNDRkMDU5YTc4ZTczYzM3ZThmZjY3NDljYTQzYTEzZDJiYzAzODJlNjc4ODIwMGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjYzFkYWQzMjU1Mjk4MDYzOTQzMzI5ZTIxY2QzYTcyYTMwZTc1OGZkMTc5NGVjYWRlODZhNWFhNGE2Yzg0YjYifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T21:30:30.144Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

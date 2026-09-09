@@ -10,10 +10,10 @@ sources:
     resource: repo://forms/HO/MS/HO-23-74/2018-09.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-06T01:11:17.126Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-06T01:11:17.126Z
+    at: 2026-09-09T17:00:59.484Z
 ---
 
 ## Scope and controlling documents
@@ -59,10 +59,10 @@ O.2 caps payment at **10% of the Coverage A limit of liability shown in the Decl
 
 HO 04 16 O.3 expressly covers the cost to demolish and clear the site of undamaged portions of a dwelling when an ordinance or law requires removal to repair or rebuild the damaged portion. It also expressly covers additional replacement of **undamaged roof surfacing** when an ordinance or law requires that replacement to repair the damaged portion. [HO 04 16 2018-09, O.3](repo://forms/HO/MS/HO-04-16/2018-09.md#L15-L19)
 
-That HO 04 16 benefit must not be conflated with the roof schedule:
+Two separate propositions govern code-required undamaged roof surfacing; do not merge the roof-schedule exclusion boundary with the ordinance endorsement's conditional write-back:
 
-- **HO 23 74 R.6:** If that roof-surfacing schedule is attached, it says code-required replacement of undamaged roof surfacing is subject to HO-3 D.1 and is **not payable under the roof-schedule endorsement** unless an ordinance-or-law endorsement is attached. Thus, the schedule itself does not pay the undamaged surfacing. [HO 23 74 2018-09, R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41)
-- **HO 04 16 O.3:** If HO 04 16 is attached and its conditions are met, it is the potential coverage path for the additional code-required undamaged surfacing. Its O.2 limit, O.4 exclusions, O.5 completion deadline, and O.6 post-settlement/actually-incurred condition still govern. [HO 04 16 2018-09, O.2–O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L37)
+- **HO 23 74 R.6 preserves the HO-3 D.1 boundary.** For this work, R.6 says the additional replacement cost is subject to D.1 and is **not payable under the roof-schedule endorsement** unless an ordinance-or-law endorsement is attached. The roof schedule is therefore not itself a grant for the undamaged surfacing or proof that an ordinance-or-law endorsement is attached. [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74 2018-09, R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41)
+- **HO 04 16 O.3 is the separate, conditional write-back route for the eligible increment.** O.3 covers the additional replacement where an in-force ordinance or law requires undamaged roof surfacing to be replaced to repair the damaged portion; for a loss covered under the endorsement, O.1 provides that D.1 does not apply. This potential path still has every O.2–O.6 control: the additional-insurance limit, O.4 exclusions, timely completion, and post-damaged-property-settlement payment only for increased cost actually incurred. [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 04 16 2018-09, O.1–O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L37)
 
 The roof schedule is not a prerequisite stated by O.3. Conversely, attachment of HO 23 74 does not prove attachment of HO 04 16. When both are attached, price and communicate the damaged roof-surfacing settlement under the roof endorsement separately from the ordinance-driven undamaged-surfacing increased cost under HO 04 16. [HO 04 16 2018-09, O.3](repo://forms/HO/MS/HO-04-16/2018-09.md#L15-L19) · [HO 23 74 2018-09, R.1–R.2 and R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L15) [R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41)
 

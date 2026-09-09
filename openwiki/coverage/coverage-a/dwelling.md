@@ -6,7 +6,7 @@ tags: [homeowners, coverage-a, dwelling, replacement-cost, roof-settlement, poli
 openwiki_generated: true
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-a7812317f4b735061e88f5bb
     resource: repo://forms/HO/MS/HO-23-74/2018-09.md
@@ -18,7 +18,7 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 ## Purpose and property boundary
@@ -67,9 +67,9 @@ flowchart TD
 
 ### Attachment is required, not inferred
 
-**HO 23 74 edition 2018-09** identifies itself as an endorsement that attaches to HO-3 and modifies Section I A.4. It is not an automatic feature of HO-3 2018-09. Apply its actual-cash-value schedule only after confirming that this edition of the endorsement is attached to the issued policy. Without that attachment, A.4 leaves qualifying windstorm- or hail-caused roof surfacing at replacement cost under the A.3 baseline. [HO 23 74 2018-09, introductory text](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO-3 2018-09, A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34)
+For an issued **HO-3 2018-09** policy with **HO 23 74 2018-09** attached, **R.1/R.2 modify the A.4 roof-surfacing branch**: A.4 makes an attached actual-cash-value schedule the exception for windstorm- or hail-caused roof-surfacing loss; R.1 confines that change to roof surfacing and preserves A.3 for every other dwelling component, while R.2 supplies the actual-cash-value settlement basis for the qualifying peril and preserves replacement cost for another covered peril. HO 23 74 identifies itself as an endorsement attaching to HO-3 and modifying Section I A.4; it is not an automatic feature of the base form. Confirm this edition's attachment in the issued policy before applying R.1/R.2. Without it, A.4 leaves qualifying windstorm- or hail-caused roof surfacing at replacement cost under the A.3 baseline. [HO-3 2018-09, A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) · [HO 23 74 2018-09, attachment and R.1–R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15)
 
-Underwriting requirements do not prove attachment. For example, the Texas appetite guide calls for HO 23 74 for specified older roofs at new business and renewal, but labels itself internal underwriting guidance rather than policy contract language. The referral matrix similarly describes authority to attach the endorsement as an underwriting control. Those rules may govern binding activity; they do not establish that a particular issued policy includes the endorsement. [Texas Homeowners Appetite Guide, status and G.2](repo://guidelines/appetite/tx-homeowners.md#L1-L3) [Texas Homeowners Appetite Guide, G.2](repo://guidelines/appetite/tx-homeowners.md#L15-L21) · [Underwriting Referral and Authority Matrix, purpose and R.5](repo://guidelines/authority/referral-matrix.md#L1-L4) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L45)
+Underwriting requirements do not prove attachment. The Texas appetite guide requires HO 23 74 for roof surfacing aged 15 years or more at new business and renewal; the referral matrix sets the authority and state-permission check for attaching it. These Texas guidance provisions constrain the underwriting attachment decision at binding or renewal, **not the meaning of an issued contract**. They neither establish that a particular issued policy includes the endorsement nor alter the settlement result unless the endorsement was actually issued and attached. [Texas Homeowners Appetite Guide, status and G.2](repo://guidelines/appetite/tx-homeowners.md#L1-L3) [Texas Homeowners Appetite Guide, G.2](repo://guidelines/appetite/tx-homeowners.md#L15-L21) · [Underwriting Referral and Authority Matrix, purpose and R.5](repo://guidelines/authority/referral-matrix.md#L1-L4) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L45) · [HO-3 2018-09, A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34)
 
 ## Handoff and focused file review
 

@@ -5,7 +5,7 @@ description: Edition-aware reference for HO-3 Coverage E personal liability and 
 tags: [homeowners, coverage-e, coverage-f, personal-liability, medical-payments, policy-editions]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-06T01:11:17.126Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -17,7 +17,7 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-06T01:11:17.126Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 
@@ -50,14 +50,16 @@ flowchart TD
     Other -- "No" --> NoCover
     Other -- "Yes" --> Time{"Necessary expense incurred or medically ascertained within three years"}
     Time -- "No" --> NoCover
-    Time -- "Yes" --> Scope{"2018-09 location or activity connection if that edition governs"}
+    Time -- "Yes" --> FEdition{"Does 2018-09 govern"}
+    FEdition -- "2011-05" --> FExclusion{"No applicable Section II exclusion"}
+    FEdition -- "2018-09" --> Scope{"Condition on insured location or activity of insured"}
     Scope -- "No" --> NoCover
-    Scope -- "Yes" --> FExclusion{"No applicable Section II exclusion"}
+    Scope -- "Yes" --> FExclusion
     FExclusion -- "Yes" --> FResult["Pay necessary medical expense under Coverage F"]
     FExclusion -- "No" --> NoCover
 ```
 
-*This decision flow keeps the common edition and exclusion analysis separate from Coverage E's legal-liability path and Coverage F's medical-expense requirements.* [HO-3 2011-05, Section II](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09, Section II](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
+*This decision flow keeps the common edition and exclusion analysis separate from Coverage E's legal-liability path and Coverage F's medical-expense requirements. It sends a 2011-05 Coverage F review directly from the three-year requirement to the exclusions, while 2018-09 first requires its location-or-activity connection.* [HO-3 2011-05, Section II](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09, Section II](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
 
 This review flow separates the common edition and exclusion analysis from the different E and F entry requirements. The location-or-activity branch is a **2018-09-only** F.1 qualification; under 2011-05, proceed from the three-year test to the applicable exclusions without inserting that later wording. [HO-3 2011-05 §§ E.1–F.1 and L.1–L.2](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09 §§ E.1–F.1 and L.1–L.3](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
 
@@ -77,7 +79,7 @@ In **both editions, L.2** excludes Coverage E and Coverage F for bodily injury o
 
 ## HO 04 81 is not a Section II extension
 
-**HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)** attaches to HO-3 but expressly supplies only limited **Section I** direct-physical-loss coverage and modifies Section I Exclusions C.2 only to the stated extent. Its M.6 is explicit: the endorsement does **not** provide, extend, or modify Section II liability coverage for bodily injury or property damage arising out of fungi, rot, or bacteria. Therefore, analyze a fungi-related liability demand under the controlling HO-3's Coverage E/F text and Section II exclusions; do not use the existence of HO 04 81 to create a Coverage E defense, liability payment, or Coverage F medical-payment path. [HO 04 81 2018-09 §§ M.1 and M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L3-L10) [§ M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L36)
+**HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)** attaches to HO-3 but supplies only limited **Section I** direct-physical-loss coverage and modifies Section I Exclusion C.2 only to the stated extent. **M.6 expressly preserves the Section II boundary:** the endorsement provides Section I property coverage only and does **not** provide, extend, or modify Section II liability coverage for bodily injury or property damage arising out of fungi, rot, or bacteria. Even when attached, it therefore leaves the issued HO-3's Coverage E and Coverage F grants and Section II exclusions in place. Analyze a fungi-related bodily-injury or third-party-property-damage demand under that controlling Section II text; do not use the Section I fungi write-back to create a Coverage E defense or liability payment, or a Coverage F medical-payment path. [HO 04 81, M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L3-L10) · [HO 04 81, M.6](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L36) · [HO-3 2011-05, Section II grants and exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09, Section II grants and exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
 
 ## Focused claim review
 
@@ -85,7 +87,7 @@ In **both editions, L.2** excludes Coverage E and Coverage F for bodily injury o
 2. Classify the requested benefit. For Coverage E, capture the claim or suit, claimed bodily injury or property damage, alleged occurrence, and potential legal liability. For Coverage F, capture the injured person's status, accident date, necessary medical expenses, and their incurred or medically ascertained dates.
 3. If **2018-09** governs a Coverage F review, document the condition on the insured location or activities-of-an-insured connection. Do not impose that qualification on 2011-05.
 4. Test the exact controlling Section II exclusions: business activity and, only under 2018-09, whether the fewer-than-15-days occasional-residence-premises-rental exception is implicated; vehicle, qualifying watercraft, or aircraft involvement; and, for a 2018-09 Coverage E property-damage claim, insured-owned or insured-rented property.
-5. Treat dog bites, trampolines, and unfenced pools as **underwriting referral and liability-supplement criteria**, not as Section II coverage exclusions. The underwriting guidance is non-contractual and says so; it does not add an exclusion to either HO-3 form. [Texas Homeowners Appetite Guide § G.5](repo://guidelines/appetite/tx-homeowners.md#L37-L41) · [Underwriting Referral and Authority Matrix §§ R.3 and R.6](repo://guidelines/authority/referral-matrix.md#L19-L25) [§ R.6](repo://guidelines/authority/referral-matrix.md#L49-L53)
+5. Treat dog bites, trampolines, and unfenced pools as **internal underwriting-review controls**: a prior liability claim triggers referral and a completed liability supplement before binding. Those non-contractual guidance provisions constrain underwriting review and documentation; they do **not** modify Section II coverage or add an exclusion to either HO-3 form. [Texas Homeowners Appetite Guide, status and G.5](repo://guidelines/appetite/tx-homeowners.md#L1-L4) [Texas Homeowners Appetite Guide, G.5](repo://guidelines/appetite/tx-homeowners.md#L37-L41) · [Underwriting Referral and Authority Matrix, status and R.3](repo://guidelines/authority/referral-matrix.md#L1-L4) [Underwriting Referral and Authority Matrix, R.3](repo://guidelines/authority/referral-matrix.md#L19-L25)
 6. For fungi, rot, or bacteria, keep the analysis in Section II. HO 04 81 may affect the separate Section I property analysis only and expressly leaves Section II unchanged.
 
 For related form-selection context, see [Policy editions and governing forms](../policy-editions-and-governing-forms.md); for the separate Section I fungi benefit, see [Fungi, rot, and bacteria](../property/fungi-rot-and-bacteria.md).

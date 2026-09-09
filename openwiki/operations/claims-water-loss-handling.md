@@ -5,7 +5,7 @@ description: Internal, non-contractual guidance for water-loss intake, source an
 tags: [claims, water-loss, homeowners, investigations, endorsements, reservations-of-rights]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -19,7 +19,7 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 > **Internal claims guidance — not policy authority and not language to quote to an insured or claimant.** This page operationalizes the issued policy record; it neither grants nor restricts coverage, creates an insured duty, nor supplies coverage-letter wording. The underlying water-loss guide has the same status. [Water Loss Claim Handling Guidance, status](repo://guidelines/claims/water-loss-handling.md#L1-L4)
@@ -48,7 +48,10 @@ The first file record should also log notice, protection/mitigation measures, th
 
 ```mermaid
 flowchart TD
-    Intake["Preserve issued policy record and reported loss facts"] --> Source["Develop source and entry-path evidence"]
+    Intake["Preserve issued policy record and reported loss facts"] --> Texas{"Attached compatible Texas HO 01 45 in scope"}
+    Texas -- "Yes" --> Timing["Track T.5 receipt request decision approval and payment dates"]
+    Texas -- "No" --> Source["Develop source and entry-path evidence"]
+    Timing --> Source
     Source --> Classify{"Classify source under issued form"}
     Classify --> Surface["Test A.1 or A.2 and retained exclusions"]
     Classify --> Backup["Verify HO 04 90 then test W.1 through W.6"]
@@ -56,12 +59,12 @@ flowchart TD
     Surface --> Fungi{"Fungi rot or bacteria claimed"}
     Backup --> Fungi
     Internal --> Fungi
-    Fungi -- Yes --> Mold["Verify HO 04 81 then test M.1 through M.5"]
-    Fungi -- No --> Resolve["Document analysis payments authority and communication"]
+    Fungi -- "Yes" --> Mold["Verify HO 04 81 then test M.1 through M.5"]
+    Fungi -- "No" --> Resolve["Document analysis payments authority and communication"]
     Mold --> Resolve
 ```
 
-*The internal flow separates source classification, attachment verification, and resulting fungi. The selected issued form and verified endorsements govern every coverage branch.* [Internal source-first direction](repo://guidelines/claims/water-loss-handling.md#L7-L11) · [HO-3 2018-09, A.1–A.4 and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO 04 90, W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L31) · [HO 04 81, M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31)
+*The internal flow records an in-scope attached Texas amendment at intake, then separates source classification, attachment verification, and resulting fungi. T.5 dates are tracked only for an attached, compatible HO 01 45; they remain distinct from the selected base form’s payment trigger. The selected issued form and verified endorsements govern every coverage branch.* [Internal source-first direction](repo://guidelines/claims/water-loss-handling.md#L7-L11) · [HO-3 2018-09, A.1–A.4, C.3, and S.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) [S.3](repo://forms/HO/MS/HO-3/2018-09.md#L101-L108) · [HO 04 90, W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L31) · [HO 04 81, M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31) · [HO 01 45, scope and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27)
 
 ## Develop source and duration before estimating scope
 
@@ -69,12 +72,12 @@ flowchart TD
 
 | Fact path to develop | Governing contract dependency | File boundary |
 | --- | --- | --- |
-| Water reached property across land, from flood, surface water, waves, tidal water, storm surge, or overflow of a body of water | HO-3 2018-09 A.1 excludes the stated sources; A.4 applies A.1–A.3 regardless of another contributing cause or event concurrently or in sequence. HO 04 90 W.4 retains A.1. | Establish the source and path. Do not treat water-backup coverage as a general flood or surface-water write-back. |
-| Water was below ground, exerted pressure, or seeped/leaked through a building, foundation, pool, or other structure | A.2 excludes the stated subsurface-water category; A.4 supplies the 2018 concurrent/sequential-cause wording. HO 04 90 W.4 retains A.2. | A below-grade location, foundation, or sump does not alone establish A.2 or a W.1 sump event. |
-| Water or waterborne material backed up through a sewer or drain, or overflowed/discharged from a sump, sump pump, or related equipment | A.3 excludes this category unless HO 04 90 is attached; W.1 supplies the limited A/B/C route if attached. | Verify attachment, then separately test W.1 event scope, W.4 retained exclusions, W.5 maintenance, and W.2/W.3/W.6 payment terms. |
+| Water reached property across land, from flood, surface water, waves, tidal water, storm surge, or overflow of a body of water | A.1 excludes the stated sources in both supplied HO-3 forms. Only 2018-09 A.4 applies A.1–A.3 regardless of another contributing cause or event concurrently or in sequence. HO 04 90 W.4 separately preserves A.1. | Establish the source and path. Do not treat water-backup coverage as a general flood or surface-water write-back. |
+| Water was below ground, exerted pressure, or seeped/leaked through a building, foundation, pool, or other structure | A.2 excludes the stated subsurface-water category in both supplied HO-3 forms. Only 2018-09 A.4 supplies the concurrent/sequential-cause wording. HO 04 90 W.4 separately preserves A.2. | A below-grade location, foundation, or sump does not alone establish A.2 or a W.1 sump event. |
+| Water or waterborne material backed up through a sewer or drain, or overflowed/discharged from a sump, sump pump, or related equipment | A.3 excludes this category unless HO 04 90 is attached. When attached to a compatible selected base form, HO 04 90 W.1 writes back A.3 with its limited A/B/C route. | Verify attachment, then separately test W.1 event scope, W.4 retained exclusions, W.5 maintenance, and W.2/W.3/W.6 payment terms. |
 | Internal-system discharge or an alleged leak | P.2 lists accidental discharge or overflow from within plumbing, heating, or air-conditioning systems as a 2018 Coverage C peril. P.2 does **not** list household appliances in that peril; C.3 separately addresses specified systems and household appliances. A/B use P.1’s direct-physical-loss grant subject to exclusions. | Identify the system or equipment, property coverage, onset, and duration. Discovery date, contractor label, or observed damage alone does not establish a P.2 peril or a sudden-and-accidental event. |
 
-The table is a contract map, not an internal handling rule. For the full coverage analysis, use [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md). [HO-3 2018-09, P.1–P.2](repo://forms/HO/MS/HO-3/2018-09.md#L59-L64) · [HO-3 2018-09, A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90, W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
+The table is a contract map, not an internal handling rule. For the full coverage analysis, use [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md). [HO-3 2011-05, A.1–A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09, P.1–P.2 and A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L59-L77) · [HO 04 90, W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) · [HO 04 90, W.4 A.1 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L20) · [HO 04 90, W.4 A.2 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L19-L21)
 
 ### Duration is a distinct finding
 
@@ -84,7 +87,7 @@ For HO-3 2018-09, C.3 excludes continuous or repeated seepage or leakage of wate
 
 ## Attached HO 04 90: handle water backup as a limited route
 
-HO 04 90 is not presumed. When attached, W.1 covers direct physical loss to Coverage A, B, and C property from the described sewer/drain backup or sump-related overflow/discharge, including an event resulting from mechanical breakdown. W.4 nonetheless preserves the A.1 flood/surface-water and A.2 subsurface-water categories. Attachment does not resolve source, retained exclusions, property scope, or other policy conditions. [HO-3 2018-09, A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90, W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
+HO 04 90 is not presumed. When actually attached to a compatible selected base form, **W.1 writes back A.3** with direct-physical-loss coverage for the stated Coverage A, B, and C sewer/drain-backup or sump-related overflow/discharge events, including an event resulting from mechanical breakdown. **Separately, W.4 preserves A.1** for flood and surface-water sources. **W.4 also separately preserves A.2** for subsurface-water sources. Attachment therefore does not resolve source, retained exclusions, property scope, or other policy conditions. [HO-3 2011-05, A.1–A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09, A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90, W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) · [HO 04 90, W.4 A.1 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L20) · [HO 04 90, W.4 A.2 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L19-L21)
 
 ### Maintain distinct W.5 and payment findings
 
@@ -96,9 +99,9 @@ For a verified W.1 loss, W.2 sets a $5,000 policy-period maximum unless the Decl
 
 ## Resulting fungi, wet/dry rot, or bacteria is a separate analysis
 
-HO-3 2018-09 C.2 excludes loss caused by mold, wet/dry rot, or deterioration. Only when **HO 04 81 is attached** does M.1 provide limited direct-physical-loss coverage for covered A/B/C property caused by fungi, wet/dry rot, or bacteria resulting from a Section I insured peril during the policy period. M.1 displaces C.2 only to that extent; all other policy provisions apply. [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81, M.1 and all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) [all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37)
+HO-3 2018-09 C.2 excludes loss caused by mold, wet/dry rot, or deterioration. Only when compatible **HO 04 81 is attached** does **M.1 write back C.2** to its stated extent: limited direct-physical-loss coverage for covered A/B/C property caused by fungi, wet/dry rot, or bacteria resulting from a Section I insured peril during the policy period. All other policy provisions apply. [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81, M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) · [HO 04 81, all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37)
 
-For moisture-related fungi, M.2 requires water or moisture from an event that was itself covered. It identifies sudden-and-accidental plumbing discharge and backup covered by an attached water-backup endorsement as examples. A backup followed by fungi therefore requires independent attachment and coverage determinations for HO 04 90 and HO 04 81. Neither attachment rewrites A.1/A.2 or removes the 2018 C.3 duration issue. [HO 04 81, M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17) · [HO-3 2018-09, A.1–A.4 and C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) [C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90)
+**Separately, M.2 preserves the underlying water-source and duration barriers.** For moisture-related fungi, it requires water or moisture from an event that was itself covered; it identifies sudden-and-accidental plumbing discharge and backup covered by an attached water-backup endorsement as examples. It preserves A.1 for flood/surface water, A.2 for subsurface water, and 2018 C.3 for continuous or repeated seepage or leakage. A backup followed by fungi therefore requires independent attachment and coverage determinations for HO 04 90 and HO 04 81. [HO 04 81, M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17) · [HO-3 2018-09, A.1–A.4 and C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) [C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90)
 
 M.3 is a $10,000 policy-period aggregate unless the Declarations show a higher limit, regardless of occurrences, claims, or locations, and is part of—not additional to—the applicable A/B/C limits. M.4 includes removal, necessary access tear-out/replacement, post-removal testing, and attributable Coverage D loss-of-use increase within that aggregate. M.5 limits loss to the extent it resulted from failure to take reasonable drying, cleaning, or other mitigation measures after the insured knew or reasonably should have known of water intrusion. Track M.3 total, M.4 cost categories, and any M.5 allocation separately from W.2/W.3/W.5. [HO 04 81, M.3–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L31) · [HO 04 90, W.2–W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L25)
 
@@ -125,11 +128,12 @@ The guide directs issuance of a reservation of rights **before investigation** w
 - onset/duration, knowledge, repair, maintenance, and mitigation evidence, including unresolved alternatives;
 - considered source-specific policy sections and endorsement terms, plus referral and reservation records when triggered;
 - property and cost allocation by A/B/C, payment history against every policy-period aggregate or sublimit, and deductible/settlement calculations; and
-- final communication, authority, payment, and evidence supporting resolved and remaining issues.
+- final communication, authority, payment, and evidence supporting resolved and remaining issues; and
+- when an attached, compatible Texas HO 01 45 is in scope, claim receipt, reasonably requested-item receipt, written decision, approval notice, and payment dates.
 
 ### State-overlay handoff
 
-**Internal claims guidance — not contract language.** Record state and check the issued policy for an applicable state amendment before setting a communication or payment timetable. For a Texas HO 01 45 endorsement that is attached and effective for the policy, T.5 adds carrier milestones for acknowledgment, written decision after receipt of reasonably requested items, and payment after approval. It does not establish water-loss coverage or replace the selected form’s coverage analysis. Route that timing review to [Texas Windstorm and Hail Requirements](/openwiki/state-overlays/texas.md). [HO 01 45, attachment, effective date, and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27)
+**Internal claims guidance — not contract language.** Record state and check the issued policy for an applicable state amendment before setting a communication or payment timetable. **Only when Texas HO 01 45 is actually attached, within its effective-date scope, and compatible with the selected base form does T.5 change the claim-handling timetable.** For the compatible 2018-09 base form, record T.5’s 15-day acknowledgement, 15-business-day written approval-or-denial period after all reasonably requested items are received, and five-business-day post-approval payment period **alongside—not in place of—S.3’s proof-of-loss-plus-written-agreement, appraisal-award, or court-judgment payment trigger.** T.5 does not identify itself as a rewrite of S.3. The supplied 2011-05 form has no S.3 payment clause, so do not transpose this relationship onto that edition; resolve compatibility from the issued policy record. This operational timing review does not establish water-loss coverage or replace selected-form coverage analysis. Route it to [Texas Windstorm and Hail Requirements](/openwiki/state-overlays/texas.md). [HO 01 45, attachment, effective date, conflict rule, and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27) · [HO-3 2018-09, S.3](repo://forms/HO/MS/HO-3/2018-09.md#L101-L108) · [HO-3 2011-05, Section I conditions](repo://forms/HO/MS/HO-3/2011-05.md#L83-L92)
 
 Use these focused tests to identify common failures:
 
@@ -138,3 +142,4 @@ Use these focused tests to identify common failures:
 3. **A slow leak is discovered behind a wall.** On 2018-09, develop onset and duration under Definition 5 and C.3; retain competing evidence and follow internal referral/reservation controls if duration could control. Do not assume these provisions govern a 2011-05 policy. [HO-3 2018-09, Definition 5 and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO-3 2011-05, exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L57-L79)
 4. **A prior drain complaint predates a backup.** Do not equate it with a W.5 result. Develop maintenance failure, causation, knowledge, and reasonable-remedy facts, then use internal reservation/referral controls where applicable. [HO 04 90, W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L23-L25) · [Internal referral and reservation controls](repo://guidelines/claims/water-loss-handling.md#L51-L59)
 5. **A backup is followed by mold and remediation costs.** Do not merge the analyses. Verify both HO 04 90 and HO 04 81, and separately maintain W.2/W.3 and M.3/M.4/M.5 records. [HO 04 90, W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L15) · [HO 04 81, M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31)
+6. **A Texas water loss has an attached, in-scope HO 01 45.** Log T.5 receipt, requested-item, written-decision, approval, and payment dates from first notice. On a compatible 2018-09 policy, retain S.3’s separate proof-of-loss and resolution facts; do not substitute either timing path for the water-loss coverage analysis. [HO 01 45, scope and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27) · [HO-3 2018-09, S.3](repo://forms/HO/MS/HO-3/2018-09.md#L101-L108)

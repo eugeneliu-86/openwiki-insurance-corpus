@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d657cd6ef98bb8c38b6975759a17be8af10da0fb32801e86255c478f77ae6022",
+  "pageVersion": "sha256:706cc4083cbac6d54ffc04c5e9b849949251f93499185ea88aaa132a7aaf5a27",
   "claims": [
     {
       "id": "claim_5b349fc172a74f6a8d08c839b24634d8",
@@ -116,7 +116,7 @@
     },
     {
       "id": "claim_0024d4d0b11e4b9baa854e1caae0a16f",
-      "statement": "HO 04 81 2018-09 provides limited Section I fungi, rot, or bacteria property coverage and expressly states in M.6 that it does not provide, extend, or modify Section II liability coverage for related bodily injury or property damage.",
+      "statement": "HO 04 81 2018-09 supplies a limited Section I fungi, rot, or bacteria property write-back, but M.6 does not provide, extend, or modify Section II liability coverage; attachment therefore leaves the governing HO-3 Coverage E/F grants and Section II exclusions in effect for a related bodily-injury or property-damage demand.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L3-L10",
@@ -125,12 +125,20 @@
         {
           "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L36",
           "version": "repo-lines-v1:sha256:13ab9d936aeaad24c3ee4bc45692617fecf56d6ee4ef0e705ea81f152d5e43d6:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRmZWQ5YWU0Y2YxYmU4NGY4NTIxMzE2MWJlMjFlN2ZmOGFjNmU3ZjgwMzFiNDg5ZTRlNmMyYzE4ZDZlYmMyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGFhZDhiODE3MTMwNmU5MWJlOWJjMzEwYjZmMDU4ODIzMTYwNWY1MTEwZjMzNDViODQ1NDIxODVhZWUxNDAyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L95-L111",
+          "version": "repo-lines-v1:sha256:83fe941a55f8c4cbd501a1012d9bc2fa0b8a54c547a7faaa7c951b3a6bd9f1ca:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MjQwZjAyNDhmZGNjZTc1NjZjZjBmN2MxOTc1YjlhZjhjMWY1YTdiYzQ0MGEwN2Y1YmE1YzhhN2Y3ZTMwZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjMDdmYjNlNTYwYzYxMDFiNGE1NjNhM2E2NzQyNzkxYmI5MDc0MzdlYjc0MGI5NDU5ZDQyYzI2NzNhYTFkZTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L115-L133",
+          "version": "repo-lines-v1:sha256:08e73a1bbe67e4e2eaa84dbf401519873c3d4b1db07412c2c0cd4349a7c44170:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MjQwZjAyNDhmZGNjZTc1NjZjZjBmN2MxOTc1YjlhZjhjMWY1YTdiYzQ0MGEwN2Y1YmE1YzhhN2Y3ZTMwZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmZTgxZDdjYmNiY2U4OTVmNjI5NjY3ZGRhZjE0NDJjMDE1NTI0NzRhZDQ4MTdlOTk3MmM2NzYzZmRhNjEwMGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
         }
       ]
     },
     {
       "id": "claim_062d2ef1082f4691955f23a5d3c1e3da",
-      "statement": "The Texas appetite guide and cross-state referral matrix treat prior liability claims involving dog bites, trampolines, or unfenced pools as underwriting referral and liability-supplement requirements; they are internal guidance rather than policy-contract exclusions.",
+      "statement": "The Texas appetite guide and cross-state referral matrix require referral and a completed liability supplement before binding when a prior liability claim involves a dog bite, trampoline, or unfenced pool; as internal guidance, those requirements constrain underwriting review rather than modify issued Section II coverage or add a policy exclusion.",
       "evidence": [
         {
           "resource": "repo://guidelines/appetite/tx-homeowners.md#L1-L4",
@@ -153,6 +161,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-06T01:11:17.126Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

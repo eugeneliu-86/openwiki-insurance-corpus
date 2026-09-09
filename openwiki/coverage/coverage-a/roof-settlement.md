@@ -5,10 +5,12 @@ description: Explains the attached HO 23 74 windstorm-or-hail roof-surfacing set
 tags: [homeowners, coverage-a, roof-surfacing, actual-cash-value, deductibles, ordinance-or-law]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-05T21:30:30.144Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
+  - id: openwiki-source-3624f12a121557db250a950b
+    resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
   - id: openwiki-source-a7812317f4b735061e88f5bb
@@ -19,7 +21,7 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
 
 
@@ -37,6 +39,8 @@ The relevant layers are cumulative only where they are actually part of the issu
 | State amendatory form and Declarations | Can determine the applicable deductible and change the base form where it conflicts. | That the nationwide S.5 default or a prior policy's deductible controls. |
 
 The attachment check is an invariant. A.4 routes windstorm- or hail-caused roof-surfacing loss to a schedule only when that endorsement is attached. HO 23 74 identifies itself as an endorsement that attaches to HO-3 and modifies A.4; HO 04 16 separately identifies itself as an endorsement that attaches to HO-3 and modifies Exclusion D.1. Verify each independently in the issued policy: attachment of one does not establish attachment of the other. [HO-3 2018-09, A.4 and D.1](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34) [D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74 2018-09, attachment](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO 04 16 2018-09, attachment](repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L4)
+
+For adjacent analysis, use [Coverage A — Dwelling](dwelling.md) for the issued-edition and A.3 baseline, [Section I Claim Conditions, Payment, and Deductibles](../property/claim-conditions-and-deductibles.md) for the broader deductible and condition rules, and [Ordinance or Law Coverage and Undamaged Roof Portions](../property/ordinance-or-law.md) for the code-cost path. [Roof Loss Claims Handling](../../operations/claims-roof-loss-handling.md) is the internal operating procedure; it does not replace this issued-form analysis.
 
 ## Settlement control flow
 
@@ -119,15 +123,15 @@ This is an ordering aid, not a substitute for the Declarations, policy limits, c
 
 The HO-3 2018-09 default says that the Declarations deductible applies to each Section I loss. It then recognizes a separate windstorm-or-hail deductible where a state amendatory endorsement requires one and directs that, where both apply, “**only the larger is deducted.**” Apply this deductible after the HO 23 74 R.4 floor when the schedule applies. [HO-3 2018-09, S.5](repo://forms/HO/MS/HO-3/2018-09.md#L101-L112) · [HO 23 74 2018-09, R.2 and R.4](repo://forms/HO/MS/HO-23-74/2018-09.md#L11-L30)
 
-A state endorsement can displace that default. For example, **only if HO 01 45 edition 2022-01 is attached to the Texas policy**, it governs where it conflicts with the base form. Its T.1 requires that a windstorm/hail loss receive only the separately stated windstorm-and-hail deductible, not the all-other-perils deductible. The deductible is a percentage of Coverage A subject to the endorsement's 1%–5% range, except for its stated seacoast maximum; the form also gives rules for mixed-peril losses. [HO-3 2018-09, S.5](repo://forms/HO/MS/HO-3/2018-09.md#L101-L112) · [HO 01 45 2022-01, introductory provision and T.1](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11)
+A state endorsement can replace that default for the conflict it names. For a Texas HO-3 2018-09 policy, **only if HO 01 45 edition 2022-01 is attached and applicable**, T.1 expressly amends S.5 and implements Texas Department of Insurance Bulletin B-2021-08. Its contractual selection rule is more specific than S.5: windstorm- or hail-caused loss receives only the separately stated windstorm-and-hail deductible, not the all-other-perils deductible. T.1 states that deductible as a Coverage A percentage—normally 1%–5%, with its stated seacoast maximum—and supplies the mixed-peril allocation rule. The bulletin independently regulates the same deductible's permissible configuration, application, disclosure, and filing; it does not supply an unissued contract term. [HO-3 2018-09, S.5](repo://forms/HO/MS/HO-3/2018-09.md#L101-L112) · [HO 01 45 2022-01, introductory provision and T.1](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11) · [Texas Bulletin B-2021-08, B.1–B.4 and B.7](repo://bulletins/TX/2021-08-windstorm-deductible.md#L5-L25) [B.7](repo://bulletins/TX/2021-08-windstorm-deductible.md#L35-L37)
 
 The practical entrypoint is the issued Declarations plus all attached state forms, not the roof schedule alone. Confirm the loss peril, state, policy effective date, and endorsement attachment before choosing `D`.
 
 ## Code-required undamaged work: a distinct endorsement path
 
-The base form excludes the increased cost of construction, demolition, or repair required by an ordinance or law unless an ordinance-or-law endorsement is attached. Correspondingly, HO 23 74 R.6 says that undamaged roof surfacing that an ordinance or law requires to be replaced in order to repair the damaged portion is subject to Exclusion D.1 and is not payable under the roof-schedule endorsement unless an ordinance-or-law endorsement is attached. The roof schedule neither creates this benefit nor provides its limit. [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74 2018-09, R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41)
+The base form excludes the increased cost of construction, demolition, or repair required by an ordinance or law unless an ordinance-or-law endorsement is attached. **HO 23 74 R.6 preserves that HO-3 D.1 exclusion as a separate boundary:** code-required replacement of undamaged roof surfacing is subject to D.1 and is not a roof-schedule benefit. Do not use R.6 as an ordinance-or-law write-back, and do not use the schedule to set the limit for this work. [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74 2018-09, R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41)
 
-When **HO 04 16 edition 2018-09 is attached**, it writes back the HO-3 D.1 exclusion for the eligible increased cost: O.1 covers incurred increased cost to repair, rebuild, or demolish damaged dwelling property because of an in-force ordinance or law, provided the underlying loss is covered. O.3 specifically covers code-required replacement of undamaged roof surfacing needed to repair the damaged portion. That benefit is subject to all of these separately controlling constraints:
+**Separately, when HO 04 16 edition 2018-09 is attached**, O.1 writes back HO-3 D.1 for eligible increased cost: it covers incurred increased cost to repair, rebuild, or demolish damaged dwelling property because of an in-force ordinance or law, provided the underlying loss is covered. O.3 specifically covers code-required replacement of undamaged roof surfacing needed to repair the damaged portion. This is the independent potential payment path for the R.6 work, not a revision of the roof schedule. That benefit is subject to all of these separately controlling constraints:
 
 - O.2 limits payment to 10% of the Coverage A limit unless a higher percentage is shown; the amount is additional insurance and does not reduce Coverage A or B.
 - O.5 requires completion as soon as reasonably possible and no later than two years after loss unless the insurer agrees in writing to extend the period.
@@ -136,11 +140,11 @@ When **HO 04 16 edition 2018-09 is attached**, it writes back the HO-3 D.1 exclu
 
 [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 04 16 2018-09, O.1–O.4](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L27) · [HO 04 16 2018-09, O.5–O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L29-L37)
 
-Accordingly, state the combined proposition precisely: **an attached HO 23 74 sends code-required undamaged surfacing outside the roof schedule; an independently attached HO 04 16 may cover that additional incurred cost, within O.2 and after damaged-property settlement.** Do not make this combined conclusion if either endorsement is absent. [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74 2018-09, R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41) · [HO 04 16 2018-09, O.1–O.3 and O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L19) [O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
+Accordingly, state the relationship precisely: **R.6 leaves code-required undamaged surfacing in the HO-3 D.1 exclusion; an independently attached HO 04 16 may then cover the additional incurred cost under O.1/O.3, within O.2 and after damaged-property settlement.** This conclusion requires the separate endorsement and its conditions; R.6 is not itself the write-back. [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74 2018-09, R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41) · [HO 04 16 2018-09, O.1–O.3 and O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L19) [O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L33-L37)
 
 ## Florida bulletin: regulatory and underwriting constraints, not settlement wording
 
-Florida OIR Bulletin OIR-2023-04 applies to Florida personal residential property policies issued or renewed with effective dates on or after 2023-07-01. It regulates roof-age underwriting, inspection, offer, nonrenewal, and certain deductible practices. It is not an HO-3 settlement section and does not itself attach HO 23 74 or HO 04 16 to an individual policy. [OIR-2023-04, applicability and purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L7)
+Florida OIR Bulletin OIR-2023-04 applies to Florida personal residential property policies issued or renewed with effective dates on or after 2023-07-01. F.4 regulates the offer and permitted application of a separate roof deductible or ACV roof schedule; F.6 limits deductible overlap on a loss. Neither provision changes the A.4/R.1–R.4 settlement terms of an issued policy or itself attaches HO 23 74 or HO 04 16. Treat this as a state control alongside—not a substitute for—the issued forms and Declarations. [OIR-2023-04, applicability, F.4, and F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L3) [F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) [F.6](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33) · [HO-3 2018-09, A.4](repo://forms/HO/MS/HO-3/2018-09.md#L31-L34) · [HO 23 74 2018-09, R.1–R.4](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L30)
 
 For policy issuance and renewal, the bulletin provides these controls:
 

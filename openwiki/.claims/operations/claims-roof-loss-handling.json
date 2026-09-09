@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d1e9366a67a24be7077952d2c28f6fe33cc7e3c65276d51de198b8ce2a54b415",
+  "pageVersion": "sha256:614ff5fcbf34d4506eeb704f794230e9d67641382eda918e74b37c75e1943054",
   "claims": [
     {
       "id": "claim_dd73c393282b4904a09838633d1e04e0",
@@ -225,10 +225,122 @@
           "version": "repo-lines-v1:sha256:ea1e86b37f0a2f0e9c6a8d70048d46e67baf80b13d65dce4030d2b72647f05f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmFjNzhjNGI2YjA1ZGU4OWRlYjdlMzI5YmUyMmZhYjZkMzljNjQ4Yjc1MjE1ZmMyMTRhYzZmY2Y0NDY2MmFkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc2NGJiZTAxYjExZmI2ZWMyZjE2OWQ4MWQxZTdiYmI4MDk5MjYzNWIwMjVkMDNkMTVhZWJiNzVmZWMzNTQ2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDcyNGE1ZjllODIzZWIxOWVlNDMwODg4OTczZjUyOTIxNTkzMzBhNDFhYWZkNzYwNjE3MDc3ZDc4Yzc4MjVkNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_ce57855ff73742dbb196abff5e48df77",
+      "statement": "When HO 23 74 is attached, its R.1 scope and R.2 settlement provisions modify HO-3 2018-09 A.4 as a limited route: only windstorm- or hail-caused defined roof surfacing is settled under the endorsement's ACV schedule, while other dwelling components remain on the A.3 path.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15",
+          "version": "repo-lines-v1:sha256:a0ec5ebcb9636f829c326023443b0b9f9bce19b35925417b894b95c538653460:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0M2I2Njc2YmZlMmQ4ZmQxNDU4NGRjNTQyMTJkYWE3YTM4NmY2NzVkOTBhOTcwMjBkYzVlNmM4MGY4MzYyM2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0NWY5Y2RlNjQ3ZmJiMDFiM2MwZjQxNWMzYTc3M2UxMzE4ZGQ2ZjNlNTNjMjNmMTM2OTZiMTUxMmIyODAxZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwN2Q1MzJhM2Q2MzhhMjU4M2JhNzUwODczNmIxODA3YjUzMTc4ZTkxYmVlNDNkOTFkZWVlYzIzZGZiMDIyOTkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L34",
+          "version": "repo-lines-v1:sha256:dc37099a8b78c0c72333df2131ffe419c4397715770920e8bd8c96534d19dac7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE2ZDViYWFiYjQzMzlmNDVhODVjZGNmZmQ1YzhjZmQ1NzhhYjlhMDk3ODRhYzQ0ZjhlYjU1MzQ3NmFhMTc1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b34e02cef321477f92335f7329bb1ce0",
+      "statement": "HO 23 74 R.6 preserves HO-3 D.1's separate ordinance-or-law boundary for code-required replacement of undamaged roof surfacing, while attached HO 04 16 O.1/O.3 supplies the independent conditional write-back for eligible increased cost, including that undamaged surfacing.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L19",
+          "version": "repo-lines-v1:sha256:45c0c9f2f4c0badb845968b502567c9c7a1b7df116ccf1ff2e6f0ea9c86e139d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjMTg1NDA0NDNhYTU2ZTQ0ZjhiODliYWFhZDM5ZWI5N2QyN2VhYmViOTczOTAwMjU3ZGI3ZTg5NmNkMWE4Y2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhNGM4ZjQwMTA5ZjFmYmE2MTJlNjUxNzAxNzhiM2I1YTFmOWRkN2ViOTQ3ZWZlMjNmMDkxNzY4Y2U3YmQzOGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhlNmZiODliNzY3NTI4ZWE3ZjQxODdlNGNmZDQwYWQ5ZTllMGY5YzRhNTExODliMDkyMTYxMzdkNzYzNmYyMzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3NzRmYWUyMWMxN2UzNGEwMDYyMWIwNWI1YzFiY2QxZjg2MDdkOTY2ZDQ4MjNjNzQ5NWIxYjU4Y2ZhZjc2YjQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41",
+          "version": "repo-lines-v1:sha256:126a35914fc0f7324402cc94ee159956fa8b54b1e68eefc01b9deb8450be57a9:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE4NjFkZTk3OGI5NDE1MzdiOTNkZTdlNWUxNGFlYzk0OTQyNGUzNWUzNmFiNDZkZjg0M2U2MTUwYWQ4YTg4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ0NWQzNWQwMWNlZGFiMzMzODk5ZTg5ZjczZTljMmNkMWRhZjM4YTMxOWY5ZTM3ZmMwZTUwOWRiMTBjNmZjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L91-L94",
+          "version": "repo-lines-v1:sha256:ba9fd3cef2cd070e8504914fda85b96660d05cdf02806bb7addccbb08d8cc1ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdiY2VjMDY4NWUwZDE1YzY4ZDg4ZTZmOTA2NzlhZmI2YWVjNWE3OTQyMDkzYTBkODQwZjY2ODE3ZGFjM2Q3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGMwZTEyMDM1ZDM1NWMxZTY4YjU1ODFjYzc5MjQwZmVlNzVmMTk2ZWE5ZTRmMzNkYzY2MTc4ZTA2NDIwZmI5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjJiMjVmMTMwM2IyYzAwOGYzYjMzNDQ5YTgzOGUzZDdhMTI3NGNjZmNiNGI0MTMwZWJmNGYzNTE0MjhlMDY1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a133295ec7f44d2be28224443a34f49",
+      "statement": "For an attached and applicable Texas HO 01 45, T.1 modifies HO-3 2018-09 S.5 and implements Bulletin B-2021-08 by selecting only the windstorm-and-hail deductible for windstorm/hail loss and providing the mixed-peril allocation rule; the bulletin is a regulatory control rather than proof that the endorsement was issued on a particular policy.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L15-L25",
+          "version": "repo-lines-v1:sha256:1e5f8cceeb67f5beb46f00998a893de9a295d71a08ff2e173ccfa1e8297ec699:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmODEyOGRkMmViNDk3OTcxMTljZjkyODQyYWVlYjRmZmY2OWEwOTljNTUzYjU0NjQ3ZTgxMTdjZjczMDkyMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmY2MzMDFmMTliZDExODBhZjhhZGZhNTc3MTgyNDM0OThkZGNhNWZkYjhjOTllNmMzZjdlYzhkZjNhM2JjNTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhiMDVjY2JjNTQ5ZDJkN2I2NmMyMDRiOGY5ZTA4ZDE1ZTA4MTc4MDI5Yjk3YmJhNDhkNjYzZTEzYjlhMTY1ZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzZWFkYzAyMTBiN2QyYTQyYWRmY2NlYWM0NGVjOThmNDhlOWE2Y2YwNjFiYmRmYjU4OGM3NDZhODRlZmUxNWMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
+          "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11",
+          "version": "repo-lines-v1:sha256:06998020169142d007a27ab4eb049b43ebd934e26d9891a7e2ef83dc1be31560:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlNTY1YmI3ZWQ1YzM2ZmZkYTFkNWYwZTc4ODk4Y2RjOWY1NDVhYWVhZTdmOTMzODU1Yjc2ODZmOTAxNTMyOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2ZmMzYzljMzNjNTg2YWIwZWYzMzJkZmQxOTFmMjgzYmQ3YjZhMjZmYmE2MTAyMzNkN2JiMzQ3YWNhNWYwODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjYzdkOTE3NDYwMzY4ZGIxYTYzN2VjZTc3NTkzMTZiMTA0MGM4NTkyMjZjZDg5ZTUzMjEyMTllZDZiNzAyMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f0da0a2b9af4a5bb27037ae4d7f56f5",
+      "statement": "For HO 01 45, a windstorm/hail deductible percentage increase is ineffective for a renewal term without the required 30-day notice, so the prior percentage continues for that term.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L13-L15",
+          "version": "repo-lines-v1:sha256:26f49dc4ecb033ee5c85bb993ed50011cb2b58c4444e90f82f321b08157e4a45:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTlkZDNmOTZlNmVjZmZiMzhlMDFmOGM1YzVjMGM2YzZkZGRjZDFjMmY0MzAxZTI5MTA3YmYzOTVjZWRmZWFmMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZiMWYwMjY4NjdkMjdjZDJjYTdiM2MzM2YzOGJjN2YwMDE0ZmVkODRhYTgzYTMwODIxZjM1ZDk2Y2RiZDk0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2UxNjI0OTJkNzU2MGIyOGI5NmM1YjE4ZGIzNmFmZWU5MzY1MDZmZmQ4YzBhZDRmNDM5M2JiNGVlMWUzZDNhMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjU4NWUwYjFmYTQ2ZjgyYWNmNjkwMDBjNTJkZjAwOTYwZjI2Yzk4OTM3YmE1ZGNlZjlhZThjY2M4NGZmMzMwMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_79ccb601d41541e2b4a040865e20cbc3",
+      "statement": "HO 01 45's named-storm aggregation applies only when the Declarations select it: the period starts at National Hurricane Center naming and ends 72 hours after discontinuation, and all windstorm/hail loss in the period is one occurrence for deductible purposes.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L17-L19",
+          "version": "repo-lines-v1:sha256:3448db841783c06caed2a592535b0361ef3f0f4ab96e1b8031b97f27e4fe056a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjdlMmZjZGJiYzBmMTgyMGQwZTU1NWU4MGIxM2M1Zjk2ZGM3YWQ0ZmM3MTI3YWRkMjhmYjJhNWM2MTUxOGM4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODBiMjVmOGJjNWQ4YTZjZjA5MWNjZDUxODg0M2Y1NGJkYjBlZTAwOWQzMTg3OWFlMjExNzQwMDNjMmFlY2ZiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzBkYTVlODI3NjcyNmZkMDBmMTcyN2JhNTdlNzAwMTQ4ZmExZWJkNzU2YTNmNjRkZTI4ZWZiYTMyYzA3M2I3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJiYWQ4Y2QyMGY0YzVmMGFjMDY1ZDQzM2Y2YTBhNGJkOGQ4NDg3OTRkZmZmOTRiYjIwN2EzOTRmNzRlNjVhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_056cf1a12fd94f5893558378638d4a01",
+      "statement": "Where the insured has Texas Windstorm Insurance Association coverage and the applicable windstorm/hail exclusion endorsement plus signed binding acknowledgment are in place, HO 01 45 T.7 makes T.1 inapplicable.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L33-L37",
+          "version": "repo-lines-v1:sha256:3568f95526b2bf8d0b3d633143c3e01db2c7c79d108e00cb45e0846a35d50de8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ3MDNkNjMzNDU0ODc4NzBiY2ZkOWFiNWY4NWE1NTljZjc3ZDljZTdmNTQ0NGI2YzM1ODMxNjdiN2MxOWNjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWNjN2E4MjU1MDdiMmYyYmU2MWU0NjU0NTUyOGM5NzBiMzFkNmQ1Yjk0MTUxNDIzOGFlZDMxM2E1OGNiYWIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_569a65a15aaa4d9fb4cea1a192219492",
+      "statement": "HO 01 45 T.4's amendment of an S.4 action provision aligns with HO-3 2018-09, whose S.4 is the action condition, but not with HO-3 2011-05, which places the action condition in S.3 and its deductible in S.4.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L87-L92",
+          "version": "repo-lines-v1:sha256:5361a432f2863bd3fc1c379341f5e78e773f5bc733fbc4c341fb699a622420eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWZjZDQ2MmYyOWM2MDlkMTkzNWZlYTkzY2QzNzQzODViNGFmYTVkZDJiOTk1MTQxYjcxNzBkN2Q4MGNkNzBjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTQ3OThlYzRiYzNjOTNkZDIwNjA3NDAxZGE5NDI1NmQ2YWIyZDBhYjllYTA4NDlkM2RiMzFkZTU3MmQ1NTQxNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIwOGY1OWRlYTNkOThkYmI3MThjMTM2NjQ2MWFiYWNlODYwZmM2MDM3YTQwMjNiYWU5NmQ3ODM1YmQ2NjNiMSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L107-L112",
+          "version": "repo-lines-v1:sha256:90af1d53f2572e0ca89b974b90da41045af51588d66c3c5a550fe05173f34842:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ZiODgwMDQ3ZjVkNGE2ODUyZGIzNGJiNDE0MjUwY2VkOTY5ZWExZGZhNjI4NzliYTA5M2VkOGQ0NDA1Njc5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODZlMDNiMzkwYmUwYzUxZDIzMDg4ZDk1YWQ2Y2M0ODExMWRlZTY2YjkxZmFiZjY1MTFhNmU0ZDdhNDBhZDcwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIwOGY1OWRlYTNkOThkYmI3MThjMTM2NjQ2MWFiYWNlODYwZmM2MDM3YTQwMjNiYWU5NmQ3ODM1YmQ2NjNiMSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L21-L23",
+          "version": "repo-lines-v1:sha256:9634f66bfd908c7d2288a0b03883866faf9bd3a19168245796a477137c04d976:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQwNWZkYjg2ZDBkODhhMWI4NWIwMDc2MzU4ODQ1OTNkOGU2N2M2ZjRlZjAwMTM4ZmVlOGU2ODA3NDUyZmQ3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjM1ZmU3ZmNkNjU0YjZhY2E1NTY3ZGRkOTA5ZGMxMjQ3YTdjN2E3OWMxMTc3ZGVlNDU4NWRhYTY5MWYyOTA0ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGQ5YjUzYThkMmNkYTdiMzRlMzFjYmQ4MmVjMzhlZTVmMDJmMWM2ZjVmYTYxOTZjZTczNzk2OGNmZDZiM2MxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2Q1NTRjZTc3NWZmMGY0MjdmMGYzMTQwZWNmMDNhOTQwMzk1YjQzMTc0OTVkY2U1MjQwNzUxNDlkNmVlYzAxMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bc67241803e046d7b9a912a9056240a3",
+      "statement": "Florida Bulletin OIR-2023-04's prohibition on applying an ACV schedule to a roof under ten years old uses the roof's age at policy effective date, which is distinct from HO 23 74's loss-date, installation-or-full-replacement age input for its schedule.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bc2963b59417b018c95a0e2aa1b31f9b55496294853cc5cf5d9212d29d4b1521:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MjRmM2Q0M2RhYWM5MTBiZDZhZTMyYWM0OWEzMTAxNTJhYjY4MzNmYzk4MmJkNTEyMmQyOGNmZjQ1ZThjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNjM5MTBjODAxNDNhOGFkN2MzOWQwNDdjNDAxYzM0YTQyMjdmODJiZDg1MmU2ZTc1ODUzYTgyZGFjNjc1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDUxMGQyZDQzNWIzODRjOWZjYzBmOWUzNjYyMjhjMTFmNThiODU3MDIzYzYyOWI2ZmE3YTAwMWU0NzBjYjcyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlYmU3ZWU0MTk2YjFjMjM0NDFhNTZmZGQ0MmVkMGJmOWIyYmQ1NWYzZDU5OWY4YWMzYTAwZTAxYzA0NTJhNCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L35",
+          "version": "repo-lines-v1:sha256:28eaf89dc987efc8f9e4b2524f1972a743d35c152f890b7e0c8b7f1980b17a22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2YjAwMzdmMmZmN2E1NWMyMjIzNjNkYzNlZDg0MDdkNGY1MGIyOTBjOGNhODAyYjA3NjBmNmU3NGEyMjQxNDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2MTJkNWYxOTllNTViZDc2OThkMTM1MGU0OTc5MmEwYzNjM2NkNTc0MDAxMDY1NWZiZDU4YTJkMGE1Zjc4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZTBiNzU5YmEyNGYxNGU1NTlmZmQwYThhZGFlOGMxZjYyMThkNjUwZTczMjMwYTU2ODhkNDllOTBmNGUxZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3YjcwNmRkNGI5YjE5YTI4MTM0MzNjZGEyZWM5YWVhNjdiOTg1MDhjYjc3MTU0NDUxNDA0YjZjYmUzZjJmODYifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T21:30:30.144Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

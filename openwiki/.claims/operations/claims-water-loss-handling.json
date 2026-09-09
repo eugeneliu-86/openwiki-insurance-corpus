@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:8b3735883aa04e8ee86d8aae156c2e16c98bd5a485907f95d61512c9737ab403",
+  "pageVersion": "sha256:667d76a021b3766f6273a983c9896106751213772835a2570471c1e11090ed5f",
   "claims": [
     {
       "id": "claim_d68bcc784c444fc19c16274ef92ede93",
@@ -201,10 +201,28 @@
           "version": "repo-lines-v1:sha256:9571d4d5ad0048482b2b721ff30e00178fef7f37a33b07921c443dbb31da7b53:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjZmZhNjU4YjA1Y2UwNzQ3N2NkNTIxM2IxNDRhNDJlYTZiODM0YzE2MTEyODM0MWM0N2ViZTU0NmQxOGY2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkyZDU1YzFhZmI3ZWU5MjI3NzEwZjFiNzg3OGQ3MGNmYmNkMmQ3ZTkwZDg4NWVkNDgxYWQ2ZTI0NTcyNGFlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdkYzMzMTVjMzgzOTQ4ZDcxYWVlMzE4MzdiNzU4MmNjZTkzYWQ1YzNhYzFmYTIxMmU1NTc3Zjg4OWRlZmRmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ5OTc1Nzk1OGM3NTcyMGM1MzJlMTk4MTg3YzhhNTk1NzAxNDdlZmFhNzRlZjk4YTRkYzU0MDBkNGJkMjNhNCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_f3a69092aeec4213b9513deb42da89f0",
+      "statement": "For an actually attached, in-scope, and compatible Texas HO 01 45 on the 2018-09 base form, T.5’s 15-day acknowledgement, 15-business-day written-decision, and five-business-day post-approval payment milestones are tracked separately from—not as a replacement for—S.3’s proof-of-loss-plus-resolution payment trigger.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L108",
+          "version": "repo-lines-v1:sha256:b7f7c3d9f36b1766139c7a4dd452fcb1b0716953860968302721c4d5eaef9bb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmQ4YmE0YTk1Yzc2ZTBiYjE3MjA4MmRjZDg4NGI2NDdiNjNmOWRmMDBlOTg1N2UyNDA3NTg5Y2ZlZWJlYzFmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTJmMzE0ZTBiN2E0YzI5ZmE2NDIzZDNkNWJjMzkxNzhlNGVlZmZhYjE5ZGI0NDc5MzBkNTQ1YzE4MzY0ZWYwNyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:85c32034ad5858d06dd010e143e41bd10c21365066c6f88e4b8e54c6f151b750:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmU1NjViYjdlZDVjMzZmZmRhMWQ1ZjBlNzg4OThjZGM5ZjU0NWFhZWFlN2Y5MzM4NTViNzY4NmY5MDE1MzI4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU0ODI0MWMwY2JlOGJmZTVlYWMzYmYyODI0ZDRmNTM5YTQ4NzY3ODdlOGExOWI2MzNhZDI1M2MxNjAyNTBkYiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27",
+          "version": "repo-lines-v1:sha256:9571d4d5ad0048482b2b721ff30e00178fef7f37a33b07921c443dbb31da7b53:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjZmZhNjU4YjA1Y2UwNzQ3N2NkNTIxM2IxNDRhNDJlYTZiODM0YzE2MTEyODM0MWM0N2ViZTU0NmQxOGY2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkyZDU1YzFhZmI3ZWU5MjI3NzEwZjFiNzg3OGQ3MGNmYmNkMmQ3ZTkwZDg4NWVkNDgxYWQ2ZTI0NTcyNGFlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdkYzMzMTVjMzgzOTQ4ZDcxYWVlMzE4MzdiNzU4MmNjZTkzYWQ1YzNhYzFmYTIxMmU1NTc3Zjg4OWRlZmRmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ5OTc1Nzk1OGM3NTcyMGM1MzJlMTk4MTg3YzhhNTk1NzAxNDdlZmFhNzRlZjk4YTRkYzU0MDBkNGJkMjNhNCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-05T21:30:30.144Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

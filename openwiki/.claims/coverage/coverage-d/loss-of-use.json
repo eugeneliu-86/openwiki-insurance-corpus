@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:eeb3bcc5600a216d70966d6bc39bdd3149ae2a5bcb981565613ee4e75cbec2ae",
+  "pageVersion": "sha256:4375cb4c7dfbb80629d7ef9491cce10e99dba000058f2735c051b504ee3c162a",
   "claims": [
     {
       "id": "claim_2c7e5643e51847ef9dfb95ca1802cd63",
-      "statement": "The governing HO-3 edition is determined by the issued policy: HO-3 2011-05 remains controlling for policies written under it regardless of when a loss is reported, while HO-3 2018-09 supersedes it for policies written on or after 2018-09-01.",
+      "statement": "HO-3 2018-09 supersedes HO-3 2011-05 only for policies written on or after 2018-09-01; HO-3 2011-05 remains controlling for policies written under it regardless of when a loss is reported.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L1-L7",
@@ -78,17 +78,21 @@
     },
     {
       "id": "claim_d0f31d6fb8c04b54bf83cd441deada2c",
-      "statement": "When attached, HO 04 81 2018-09 provides limited direct physical-loss coverage for fungi, wet or dry rot, or bacteria only when it results from a Section I insured peril during the policy period, and displaces the base C.2 exclusion only to that extent.",
+      "statement": "When attached, HO 04 81 2018-09 M.1 provides limited direct physical-loss coverage for fungi, wet or dry rot, or bacteria only when it results from a Section I insured peril during the policy period, writing back HO-3 2018-09 Section I Exclusion C.2 only to that extent.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L1-L10",
           "version": "repo-lines-v1:sha256:f1f302eea616f7a7cb6e38fd0be90d13fb9d003c25cc14d1a518637c2f86b291:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZWQ5YjI4ODE3NGVhNjZjZmE1YTdiNjljZWUyODk5MmNmNjQwNDI4NjM1Zjc0MzlkY2I5NTM0Mzg2OWQ0YTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY5ZTdiOGFlOWM4MjM0ZmFlYmI3N2FiOTIxZDQxMTlhOGUwMDI2ZDdkMGNjZTllNDExOTRmYjI3NmM1MjBjYWQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L83-L89",
+          "version": "repo-lines-v1:sha256:52921f7bf7435b9001747470c61b2d11205069237a3f96ac487adb503f3ef523:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgwODNiMGZmMjIxYTU5YjZmY2ZlMjcwZGJiN2RmMDJjMGJhYmFlN2JjNTA1YWYzYmNlYmQyZDZkYjQwNjY3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk4OTBiMzY3YzBhODE3OGE4NjVkOTdlOWZhOGMzZjlkOGYwNjE1ZmZhZTk4M2JhYjI3ZDNmZGYyY2MyMjM2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBkOGYzYzE0ZWJhYTBjNTBmMzQyMmQ1MmY0YTdhMWNhNGY1OWVlMzE0MjZhNWM3NGIwMjYxMmFjM2E1MzQ0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTUzNjQ1OGVjYTdjOGFjZGZhMGI3MjAxY2QzNjUxZDdmNWQxOGYwMjEwZDU0NTNkZjExMzZiNDQyNDcxNTE0NiJ9"
         }
       ]
     },
     {
       "id": "claim_59d7329af1204a318d4174efad7381a7",
-      "statement": "HO 04 81 2018-09 M.4 includes any Coverage D loss-of-use increase attributable to fungi, rot, or bacteria within the endorsement's M.3 aggregate, rather than creating general loss-of-use coverage; that aggregate is $10,000 per policy period unless a higher Declarations limit is shown and is part of the applicable Coverage A, B, and C limits.",
+      "statement": "HO 04 81 2018-09 M.4 modifies accounting for a qualifying Coverage D loss-of-use increase attributable to fungi, rot, or bacteria by including it in the M.3 aggregate; it does not independently grant additional living expenses, so HO-3 2018-09 D.1 prerequisites and D.2's 20% Coverage A limit remain operative. M.3 is $10,000 per policy period unless the Declarations show a higher limit and is part of the applicable Coverage A, B, and C limits.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L27",
@@ -125,6 +129,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-06T01:11:17.126Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }
