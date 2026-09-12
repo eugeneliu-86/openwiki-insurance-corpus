@@ -90,13 +90,17 @@ jobs:
           mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
           case "$mode" in
             deep)   model='gpt-5.6-terra'; effort='high' ;;
-            fast)   model='gpt-5.4-mini';  effort='low'  ;;
+            # gpt-5.4-mini takes no reasoning-effort setting: OpenWiki's
+            # capability table lists only the gpt-5.6 family for OpenAI, and
+            # it exits 1 if OPENWIKI_REASONING_EFFORT is set for any other
+            # model. Empty here means "do not set the variable at all".
+            fast)   model='gpt-5.4-mini';  effort=''     ;;
             *)      mode='normal'; model='gpt-5.6-terra'; effort='medium' ;;
           esac
           echo "mode=$mode"     >> "$GITHUB_OUTPUT"
           echo "model=$model"   >> "$GITHUB_OUTPUT"
           echo "effort=$effort" >> "$GITHUB_OUTPUT"
-          echo "compile mode: $mode → $model @ $effort"
+          echo "compile mode: $mode → $model @ ${effort:-model default}"
 
       - name: Run OpenWiki
         id: openwiki
@@ -105,8 +109,13 @@ jobs:
         # baseline. Only this step tolerates failure — a state file that
         # disagrees with the tree must never be.
         continue-on-error: true
-        run: openwiki code --update --print
+        # OPENWIKI_REASONING_EFFORT must be ABSENT, not empty, when the mode
+        # has no effort: OpenWiki validates any set value against its list.
+        run: |
+          if [ -n "${OW_EFFORT}" ]; then export OPENWIKI_REASONING_EFFORT="${OW_EFFORT}"; fi
+          openwiki code --update --print
         env:
+          OW_EFFORT: ${{ steps.mode.outputs.effort }}
           OPENWIKI_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # The model key is routed through the LangSmith gateway, exactly as
@@ -114,7 +123,6 @@ jobs:
           # gateway key hits api.openai.com and fails.
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENWIKI_MODEL_ID: ${{ steps.mode.outputs.model }}
-          OPENWIKI_REASONING_EFFORT: ${{ steps.mode.outputs.effort }}
           LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
           LANGCHAIN_PROJECT: openwiki
           LANGCHAIN_TRACING_V2: 'true'
