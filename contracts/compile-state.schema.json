@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/eugeneliu-86/openwiki-insurance-poc/contracts/compile-state.schema.json",
+  "title": ".compile-state.json",
+  "description": "Written only by the refresh workflow. Carries what OpenWiki's own state files do not: the claims delta, workflow provenance, and attempt count. additionalProperties is false so a field duplicated from .last-update.json or .page-manifest.json fails validation (C3).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "compiled_from",
+    "status",
+    "compiled_at",
+    "attempts",
+    "workflow_run_url",
+    "claims",
+    "changed_sources"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "compiled_from": {
+      "description": "Mirrored from openwiki/.last-update.json:gitHead. The workflow asserts equality before writing.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "status": {
+      "description": "complete = converged. interrupted = OpenWiki's own status for a partially merged, safely retryable run. failed = exited non-zero before writing .last-update.json; compiled output may not exist.",
+      "enum": ["complete", "interrupted", "failed"]
+    },
+    "compiled_at": { "type": "string", "format": "date-time" },
+    "attempts": { "type": "integer", "minimum": 1, "maximum": 3 },
+    "workflow_run_url": { "type": "string", "format": "uri" },
+    "claims": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "added", "retracted", "carried"],
+      "description": "Computed by set arithmetic over sidecar claim ids before and after the run. Never parsed from stdout. Claim ids are stable across regeneration: measured 234 of 242 ids carried unchanged (97%) across two forced full rebuilds of an unchanged corpus, so `carried` is a real signal.",
+      "properties": {
+        "total": { "type": "integer", "minimum": 0 },
+        "added": { "type": "integer", "minimum": 0 },
+        "retracted": { "type": "integer", "minimum": 0 },
+        "carried": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "changed_sources": {
+      "description": "Source paths whose bytes differed between this compiled_from and the previous one. Drives the UI's 'what triggered this' line.",
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# POST the C9 refresh callback. HMAC-SHA256 over the raw body in
+# X-Refresh-Signature. Fires on EVERY terminal status — a UI that only learns
+# about success shows a spinner forever on exactly the runs a user most needs
+# told about. Wrapped with `|| true` by the caller: this is an optimization,
+# .compile-state.json in git is the mechanism.
+set -uo pipefail
+: "${REFRESH_CALLBACK_URL:?}" "${REFRESH_CALLBACK_SECRET:?}"
+[ -f .compile-state.json ] || { echo "no .compile-state.json; nothing to report" >&2; exit 0; }
+body=$(jq -c --arg head_after "$(git rev-parse HEAD)" '. + {event: "refresh_complete", head_after: $head_after}' .compile-state.json)
+sig=$(printf '%s' "$body" | openssl dgst -sha256 -hmac "$REFRESH_CALLBACK_SECRET" | awk '{print $NF}')
+code=$(curl -sS --max-time 20 -o /dev/null -w '%{http_code}' -X POST "$REFRESH_CALLBACK_URL" \
+  -H 'content-type: application/json' -H "X-Refresh-Signature: sha256=$sig" -d "$body" || echo "000")
+echo "callback -> $REFRESH_CALLBACK_URL : HTTP $code" >&2

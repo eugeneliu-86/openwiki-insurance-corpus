@@ -1,0 +1,20 @@
+# Static contract checks on every push. Cheap, no model, no secrets.
+name: Contract checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - name: Workflow and ignore-file assertions
+        run: python3 scripts/check-workflow.py
+      - name: Committed compile state validates (when present)
+        run: |
+          if [ -f .compile-state.json ]; then python3 scripts/validate-compile-state.py .compile-state.json; else echo "no .compile-state.json yet"; fi
+      - name: Committed claims index is well-formed (when present)
+        run: |
+          if [ -f .claims-index.json ]; then jq -e '.schema_version == 1 and (.claims | length) > 0 and (.sidecar_fingerprint | length) == 64' .claims-index.json >/dev/null; else echo "no .claims-index.json yet"; fi

@@ -25,3 +25,10 @@ demo/
 # the policy documents the wiki is built FROM.
 AGENTS.md
 CLAUDE.md
+
+# Phase 04 workflow machinery: the claims-delta, index-builder and callback
+# scripts, the vendored index code, and the compile-state schema. Not coverage
+# knowledge, and Python in the source fingerprint would make OpenWiki try to
+# document it as code.
+scripts/
+contracts/

@@ -1,76 +1,138 @@
-name: OpenWiki Update
+# The refresh workflow — phase 04 of the poc specs, contracts C4, C5, C6, C9, C11.
+#
+# A source document changed; recompile the wiki. No agent anywhere in here:
+# compiling is procedural, and routing it through a model would add
+# nondeterminism, latency, and a failure mode where the compile silently does
+# not happen.
+name: OpenWiki Refresh
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
+    # ONLY the source directories. This is the loop-breaker, and it is
+    # structural rather than a guard inside the job: this workflow commits to
+    # openwiki/**, so a trigger firing on any push would re-trigger itself on
+    # its own output, forever. A paths filter makes that unrepresentable.
+    paths:
+      - 'forms/**'
+      - 'bulletins/**'
+      - 'guidelines/**'
+  workflow_dispatch:        # manual, and the ingest API's explicit dispatch (C6)
   schedule:
-    - cron: "0 8 * * *"
+    - cron: '17 7 * * *'    # the reconciler — see the job comment
+
+# C6 layer 1. GitHub holds one pending run per group and a third dispatch
+# replaces the pending one; that is correct, not lossy, because `openwiki
+# --update` compiles whatever is at HEAD. Cancelling the IN-PROGRESS run would
+# be lossy (OpenWiki merges pages as it finishes them), hence false.
+concurrency:
+  group: openwiki-refresh
+  cancel-in-progress: false
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
-          # Full history so `openwiki code --update` can diff HEAD against the
-          # commit it last documented; a shallow clone hides that commit and the
-          # update runs against an empty change summary.
+          # Full history. A shallow clone hides the commit OpenWiki last
+          # documented, and the update then runs against an empty change
+          # summary — it recompiles nothing and reports success.
           fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: "22"
+          node-version: '22'
 
       - name: Install OpenWiki
-        # mermaid + jsdom are optional; they add high-fidelity validation of Mermaid diagrams. Remove if your wiki has none.
         run: npm install --global openwiki@0.5.0 mermaid@11.16.0 jsdom@29.1.1
+
+      - name: Record the previous compile
+        id: prev
+        run: |
+          prev=$(jq -r '.compiled_from // empty' .compile-state.json 2>/dev/null || true)
+          echo "compiled_from=$prev" >> "$GITHUB_OUTPUT"
+
+      # C4: the delta is set arithmetic over sidecar claim ids captured BEFORE
+      # the run. Nothing in this workflow parses OpenWiki's stdout.
+      - name: Record claim ids before
+        run: ./scripts/claim-diff.sh snapshot /tmp/claims-before.txt
 
       - name: Run OpenWiki
         id: openwiki
+        # An interrupted run has merged some pages and skipped others. That
+        # output is progress and is committed; the next run treats it as the
+        # baseline. Only this step tolerates failure — a state file that
+        # disagrees with the tree must never be.
         continue-on-error: true
         run: openwiki code --update --print
         env:
           OPENWIKI_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENWIKI_MODEL_ID: "gpt-5.6-terra"
-          # Required for the LangSmith connector's code-mode pull to authenticate.
-          # For extra workspaces, add OPENWIKI_LANGSMITH_API_KEY_2, _3, ... as repo
-          # secrets and env entries here.
-          OPENWIKI_LANGSMITH_API_KEY: ${{ secrets.OPENWIKI_LANGSMITH_API_KEY }}
-          # Optional: also trace this workflow's own OpenWiki run to LangSmith.
+          # The model key is routed through the LangSmith gateway, exactly as
+          # the local runs that compiled this wiki were. Without the base URL a
+          # gateway key hits api.openai.com and fails.
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENWIKI_MODEL_ID: ${{ vars.OPENWIKI_MODEL_ID || 'gpt-5.6-terra' }}
+          # Matches the local runs that compiled this wiki (~/.openwiki/.env).
+          OPENWIKI_REASONING_EFFORT: ${{ vars.OPENWIKI_REASONING_EFFORT || 'high' }}
           LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
           LANGCHAIN_PROJECT: openwiki
-          LANGCHAIN_TRACING_V2: "true"
+          LANGCHAIN_TRACING_V2: 'true'
 
-      - name: Remove transient OpenWiki run state
+      - name: Remove transient run state
         if: ${{ !cancelled() }}
         run: rm -f -- openwiki/.run.json
 
-      - name: Create OpenWiki update pull request
+      - name: Record claim ids after
         if: ${{ !cancelled() }}
-        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
-        with:
-          add-paths: |
-            openwiki
-            AGENTS.md
-            CLAUDE.md
-            .github/workflows/openwiki-update.yml
-          branch: openwiki/update
-          commit-message: "docs: update OpenWiki"
-          title: "docs: update OpenWiki"
-          body: |
-            Automated OpenWiki documentation update.
+        run: ./scripts/claim-diff.sh snapshot /tmp/claims-after.txt
 
-            OpenWiki result: ${{ steps.openwiki.outcome }}
+      # C11. Imports the vendored phase 02 index code; never a reimplementation.
+      - name: Build the claims index
+        if: ${{ !cancelled() }}
+        run: python3 scripts/build-claims-index.py
 
-            When the result is `failure`, this PR intentionally preserves only the
-            pages completed before the failure. Merge it to make that progress the
-            baseline for the next scheduled run.
+      # C4. Asserts compiled_from == .last-update.json gitHead, validates the
+      # schema, and exits non-zero on either — so an invalid file is never pushed.
+      - name: Write and validate the compile state
+        if: ${{ !cancelled() }}
+        run: >
+          ./scripts/claim-diff.sh write-state /tmp/claims-before.txt /tmp/claims-after.txt
+          "${{ steps.openwiki.outcome }}"
+          "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          "${{ github.run_attempt }}"
+          "${{ steps.prev.outputs.compiled_from }}"
+
+      - name: Commit the compiled output
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name  'openwiki-refresh[bot]'
+          git config user.email 'openwiki-refresh@users.noreply.github.com'
+          git add openwiki .compile-state.json .claims-index.json
+          ./scripts/assert-write-domain.sh
+          if git diff --cached --quiet; then
+            echo "nothing to commit: the wiki is already current"
+          else
+            git commit -m "docs: refresh OpenWiki (${{ steps.openwiki.outcome }})" \
+                       -m "compiled_from $(jq -r .compiled_from .compile-state.json)" \
+                       -m "$(jq -c .claims .compile-state.json 2>/dev/null || echo 'claims: n/a')"
+            git push
+          fi
+
+      # C9. Fires on every terminal status. `|| true` because the callback is an
+      # optimization — .compile-state.json in git is the mechanism.
+      - name: Callback
+        if: ${{ always() && !cancelled() }}
+        run: ./scripts/callback.sh || true
+        env:
+          REFRESH_CALLBACK_URL: ${{ secrets.REFRESH_CALLBACK_URL }}
+          REFRESH_CALLBACK_SECRET: ${{ secrets.REFRESH_CALLBACK_SECRET }}
 
       - name: Propagate OpenWiki failure
         if: ${{ steps.openwiki.outcome == 'failure' }}
