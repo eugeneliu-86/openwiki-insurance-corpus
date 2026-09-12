@@ -5,7 +5,7 @@ description: Explains Coverage B scope and its additional 10-percent limit under
 tags: [homeowners, ho-3, coverage-b, other-structures, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
+    at: 2026-09-12T22:04:25.816Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
@@ -15,6 +15,8 @@ sources:
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
   - id: openwiki-source-36bcf8e9754ce8cd9b63db52
     resource: repo://forms/HO/MS/HO-04-90/2026-01.md
+  - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
+    resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-e727058d16eee86c951e380a
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
@@ -23,7 +25,7 @@ sources:
     resource: repo://guidelines/appetite/fl-homeowners.md
   - id: openwiki-source-da67a262bebb42780999bd2a
     resource: repo://guidelines/appetite/tx-homeowners.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T22:04:25.816Z" }
 ---
 
 
@@ -62,28 +64,28 @@ An endorsement changes this analysis only when it is attached to the issued poli
 
 ### Water backup: select the HO 04 90 edition before applying terms
 
-After verifying that HO 04 90 is attached and compatible with the selected HO-3 form, identify its **exact edition** before stating a sublimit, deductible, settlement basis, or condition. **2010-10 remains in force for policies written under it regardless of when loss is reported.** **2026-01 replaces 2010-10 for policies written on or after 2026-01-01.** A later endorsement's terms are not a retrofit for an earlier issued endorsement. [HO 04 90 2010-10, continuing force and applicability](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement scope](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
+After verifying that HO 04 90 is attached and compatible with the selected HO-3 form, identify its **exact edition** before stating a sublimit, deductible, settlement basis, or condition. **2010-10 remains in force for policies written under it regardless of when loss is reported.** **2026-01 replaced 2010-10 for policies written on or after 2026-01-01, and remains in force for policies written under it even after 2027-01 succeeds it for policies written on or after 2027-01-01.** A later endorsement's terms are not a retrofit for an earlier issued endorsement. [HO 04 90 2010-10, continuing force and applicability](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement, continuing force, and applicability](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L8) · [HO 04 90 2027-01, replacement scope](repo://forms/HO/MS/HO-04-90/2027-01.md#L1-L4)
 
-For either verified edition, **W.1 writes back only the selected base form's A.3 exclusion** for direct physical loss to Coverage B property caused by water or waterborne material that backs up through sewers or drains or overflows or is discharged from the stated sump equipment; W.1 includes an event resulting from equipment mechanical breakdown. The selected HO-3 A.3 is the attachment-dependent excluded route: use **2011-05 A.3** for that base form and **2018-09 A.3** for that base form, then apply W.1 from the actually attached HO 04 90 edition. [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L63-L66) · [HO-3 2018-09 § A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) · [HO 04 90 2010-10 § W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L12) · [HO 04 90 2026-01 § W.1](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L11)
+For any verified edition, **HO 04 90 W.1 writes back only the selected base form's A.3 exclusion** for direct physical loss to Coverage B property caused by water or waterborne material that backs up through sewers or drains or overflows or is discharged from the stated sump equipment; W.1 includes an event resulting from equipment mechanical breakdown. Directionally, the selected HO-3's **A.3 exclusion is the barrier**, and the attached HO 04 90's **W.1 is the narrow write-back**: use **2011-05 A.3** for that base form and **2018-09 A.3** for that base form, then apply W.1 from the actually attached 2010-10, 2026-01, or 2027-01 endorsement. [HO-3 2011-05 § A.3](repo://forms/HO/MS/HO-3/2011-05.md#L63-L66) · [HO-3 2018-09 § A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) · [HO 04 90 2010-10 § W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L12) · [HO 04 90 2026-01 § W.1](repo://forms/HO/MS/HO-04-90/2026-01.md#L10-L15) · [HO 04 90 2027-01 § W.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L6-L11)
 
-**W.4 retains each water exclusion separately in both HO 04 90 editions.**
+**W.4 retains each water exclusion separately in all three HO 04 90 editions.**
 
-- **A.1 remains excluded.** Flood, surface water, waves, tidal water, storm surge, and overflow of a body of water remain outside the W.1 route, whether or not wind-driven. Apply A.1 from the selected HO-3 form; W.4 says that A.1 continues in full. [HO-3 2011-05 § A.1](repo://forms/HO/MS/HO-3/2011-05.md#L59-L63) · [HO-3 2018-09 § A.1](repo://forms/HO/MS/HO-3/2018-09.md#L69-L73) · [HO 04 90 2010-10 § W.4, A.1 retained](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L25) · [HO 04 90 2026-01 § W.4, A.1 retained](repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L29)
-- **A.2 remains excluded.** Water below the surface of the ground, including the stated pressure, seepage, or leakage route, remains outside the W.1 route. Apply A.2 from the selected HO-3 form; W.4 says that A.2 continues in full. [HO-3 2011-05 § A.2](repo://forms/HO/MS/HO-3/2011-05.md#L61-L64) · [HO-3 2018-09 § A.2](repo://forms/HO/MS/HO-3/2018-09.md#L71-L75) · [HO 04 90 2010-10 § W.4, A.2 retained](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L25) · [HO 04 90 2026-01 § W.4, A.2 retained](repo://forms/HO/MS/HO-04-90/2026-01.md#L31-L33)
+- **A.1 remains excluded.** Flood, surface water, waves, tidal water, storm surge, and overflow of a body of water remain outside the W.1 route, whether or not wind-driven. Apply A.1 from the selected HO-3 form; W.4 says that A.1 continues in full. [HO-3 2011-05 § A.1](repo://forms/HO/MS/HO-3/2011-05.md#L59-L63) · [HO-3 2018-09 § A.1](repo://forms/HO/MS/HO-3/2018-09.md#L69-L73) · [HO 04 90 2010-10 § W.4, A.1 retained](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L25) · [HO 04 90 2026-01 § W.4, A.1 retained](repo://forms/HO/MS/HO-04-90/2026-01.md#L29-L33) · [HO 04 90 2027-01 § W.4, A.1 retained](repo://forms/HO/MS/HO-04-90/2027-01.md#L25-L29)
+- **A.2 remains excluded.** Water below the surface of the ground, including the stated pressure, seepage, or leakage route, remains outside the W.1 route. Apply A.2 from the selected HO-3 form; W.4 says that A.2 continues in full. [HO-3 2011-05 § A.2](repo://forms/HO/MS/HO-3/2011-05.md#L61-L64) · [HO-3 2018-09 § A.2](repo://forms/HO/MS/HO-3/2018-09.md#L71-L75) · [HO 04 90 2010-10 § W.4, A.2 retained](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L25) · [HO 04 90 2026-01 § W.4, A.2 retained](repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L37) · [HO 04 90 2027-01 § W.4, A.2 retained](repo://forms/HO/MS/HO-04-90/2027-01.md#L31-L33)
 
 A sewer or sump label does not collapse either source classification into the W.1 write-back.
 
-| Term after a covered W.1 event | HO 04 90 2010-10 | HO 04 90 2026-01 |
-| --- | --- | --- |
-| **Policy-period sublimit** | $5,000 for all endorsement loss in one policy period unless the endorsement Declarations show a higher limit; it is part of, not additional to, the A/B/C limits. | $10,000 on the same within-limit, policy-period basis unless the endorsement Declarations show a higher limit. |
-| **Deductible** | A separate $500 deductible applies to each endorsement loss; the Section I deductible does not apply. | A separate $1,000 deductible applies to each endorsement loss; the Section I deductible does not apply. |
-| **Coverage B settlement** | W.6 leaves Coverage B settlement on the basis stated in the attached policy. | W.7 does the same; the section number changes, not the Coverage B settlement basis. |
-| **Known maintenance failure** | W.5 denies endorsement loss if the event resulted from the insured's known pre-loss failure to maintain the serving line, drain, sump, or pump and a reasonable person would have remedied it. | W.5 has the same maintenance condition. |
-| **Finished area below grade** | No backflow-prevention condition appears in this edition; do not impose the later condition. | **W.6 is an additional contract condition:** where the residence premises has a finished area below grade, coverage applies only if a backwater valve or equivalent backflow-prevention device was installed and operable on the serving sewer line at the time of loss. |
+| Term after a covered W.1 event | HO 04 90 2010-10 | HO 04 90 2026-01 | HO 04 90 2027-01 |
+| --- | --- | --- | --- |
+| **Policy-period sublimit** | $5,000 for all endorsement loss in one policy period unless the endorsement Declarations show a higher limit; it is part of, not additional to, the A/B/C limits. | $10,000 on the same within-limit, policy-period basis unless the endorsement Declarations show a higher limit. | $10,000 on the same within-limit, policy-period basis unless the endorsement Declarations show a higher limit. |
+| **Deductible** | A separate $500 deductible applies to each endorsement loss; the Section I deductible does not apply. | A separate $1,000 deductible applies to each endorsement loss; the Section I deductible does not apply. | A separate $1,000 deductible applies to each endorsement loss; the Section I deductible does not apply. |
+| **Coverage B settlement** | W.6 leaves Coverage B settlement on the basis stated in the attached policy. | W.7 does the same. | W.7 does the same. |
+| **Known maintenance failure** | W.5 denies endorsement loss if the event resulted from the insured's known pre-loss failure to maintain the serving line, drain, sump, or pump and a reasonable person would have remedied it. | W.5 has the same maintenance condition. | W.5 has the same maintenance condition. |
+| **Finished area below grade** | No backflow-prevention condition appears in this edition; do not impose the later condition. | **W.6 is an additional contract condition:** where the residence premises has a finished area below grade, coverage applies only if a backwater valve or equivalent backflow-prevention device was installed and operable on the serving sewer line at the time of loss. | **W.6 has the same condition**, which the form says is carried unchanged from 2026-01. |
 
-The edition columns are separate payment and condition paths, not default values that can be mixed. In particular, do not use the 2026-01 $10,000/$1,000 terms or W.6 backflow-prevention condition for a 2010-10 endorsement, and do not omit them from a 2026-01 analysis. [HO 04 90 2010-10 §§ W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L19) · [HO 04 90 2010-10 §§ W.5–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L27-L33) · [HO 04 90 2026-01 §§ W.2–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L23) · [HO 04 90 2026-01 §§ W.5–W.7](repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L54)
+The edition columns are separate payment and condition paths, not default values that can be mixed. Do not use the 2026-01/2027-01 $10,000/$1,000 terms or W.6 backflow-prevention condition for a 2010-10 endorsement. Conversely, do not omit those terms from a 2026-01 or 2027-01 analysis, and do not replace a 2026-01 endorsement with 2027-01 merely because the loss is reported after the later edition takes effect. [HO 04 90 2010-10 §§ W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L19) · [HO 04 90 2010-10 §§ W.5–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L27-L33) · [HO 04 90 2026-01 §§ W.2–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L17-L27) · [HO 04 90 2026-01 §§ W.5–W.7](repo://forms/HO/MS/HO-04-90/2026-01.md#L39-L58) · [HO 04 90 2027-01 §§ W.2–W.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L55)
 
-The 2026-01 W.6 device requirement is contract language, not an underwriting requirement. The Florida and Texas appetite guides are expressly non-contractual and use different binding criteria—battery-backed sump pumps at specified higher-limit/below-grade thresholds. Those guides neither prove attachment nor satisfy, replace, or add the 2026-01 W.6 condition; they must not be imposed on a 2010-10 claim. [Florida appetite status and water-backup criterion](repo://guidelines/appetite/fl-homeowners.md#L1-L4) [§ H.4](repo://guidelines/appetite/fl-homeowners.md#L27-L33) · [Texas appetite status and water-backup criterion](repo://guidelines/appetite/tx-homeowners.md#L1-L4) [§ G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [HO 04 90 2026-01 § W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47)
+The 2026-01 and 2027-01 W.6 device requirements are contract language, not underwriting requirements. The Florida and Texas appetite guides are expressly non-contractual and use different binding criteria—battery-backed sump pumps at specified higher-limit/below-grade thresholds. Those guides neither prove attachment nor satisfy, replace, or add either W.6 condition; they must not be imposed on a 2010-10 claim. [Florida appetite status and water-backup criterion](repo://guidelines/appetite/fl-homeowners.md#L1-L4) [§ H.4](repo://guidelines/appetite/fl-homeowners.md#L27-L33) · [Texas appetite status and water-backup criterion](repo://guidelines/appetite/tx-homeowners.md#L1-L4) [§ G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [HO 04 90 2026-01 § W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L46-L51) · [HO 04 90 2027-01 § W.6](repo://forms/HO/MS/HO-04-90/2027-01.md#L42-L48)
 
 ### Fungi, wet or dry rot, or bacteria: HO 04 81 edition 2018-09
 
@@ -110,8 +112,8 @@ flowchart TD
     Excluded -- No --> Limit["Apply Coverage B limit and policy settlement terms"]
     Excluded -- Yes --> Endorsement{"Relevant attached endorsement applies to this excluded loss"}
     Endorsement -- No --> Outside
-    Endorsement -- Yes --> Water{"HO 04 90 water-backup path"}
-    Water -- "No" --> Terms["Apply verified endorsement terms"]
+    Endorsement -- Yes --> Water{"Is it HO 04 90"}
+    Water -- "No" --> Terms["Apply other verified endorsement terms"]
     Water -- "Yes" --> WaterEdition["Verify HO 04 90 edition"]
     WaterEdition --> Terms
     Terms --> Limit
@@ -121,4 +123,4 @@ This flow shows the **HO-3 2018-09** Coverage B gates and the separate attachmen
 
 ## Claim file review
 
-For a Coverage B loss, retain the issued HO-3 edition, Declarations Coverage A limit, the structure’s location and connection facts, and rental facts. For a 2018-09 claim, document the B.3 tenant and private-garage analysis before evaluating the cause of loss. Then document the direct physical loss, each applicable Section I exclusion, and—only if actually attached—the endorsement form **and edition**, its trigger, limit treatment, deductible, and conditions. For an attached HO 04 90 water-backup claim, record whether 2010-10 or 2026-01 governs; for 2026-01 with a finished area below grade, preserve evidence that the required backwater valve or equivalent device was installed and operable at the time of loss. The ordinary 2018-09 Section I duties still require prompt notice, protection from further damage, and a signed sworn proof of loss within 60 days after request; the Section I deductible generally applies to each loss, subject to the separate windstorm-or-hail rule where required by a state amendatory endorsement. [HO 04 90 2026-01 § W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47) · [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
+For a Coverage B loss, retain the issued HO-3 edition, Declarations Coverage A limit, the structure’s location and connection facts, and rental facts. For a 2018-09 claim, document the B.3 tenant and private-garage analysis before evaluating the cause of loss. Then document the direct physical loss, each applicable Section I exclusion, and—only if actually attached—the endorsement form **and edition**, its trigger, limit treatment, deductible, and conditions. For an attached HO 04 90 water-backup claim, record whether 2010-10, 2026-01, or 2027-01 governs; for a 2026-01 or 2027-01 endorsement with a finished area below grade, preserve evidence that the required backwater valve or equivalent device was installed and operable at the time of loss. The ordinary 2018-09 Section I duties still require prompt notice, protection from further damage, and a signed sworn proof of loss within 60 days after request; the Section I deductible generally applies to each loss, subject to the separate windstorm-or-hail rule where required by a state amendatory endorsement. [HO 04 90 2026-01 § W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L46-L51) · [HO 04 90 2027-01 § W.6](repo://forms/HO/MS/HO-04-90/2027-01.md#L42-L48) · [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
