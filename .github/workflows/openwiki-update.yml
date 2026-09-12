@@ -18,6 +18,12 @@ on:
       - 'bulletins/**'
       - 'guidelines/**'
   workflow_dispatch:        # manual, and the ingest API's explicit dispatch (C6)
+    inputs:
+      mode:
+        description: "Compile mode: deep (terra/high), normal (terra/medium), fast (gpt-5.4-mini/low). Ignored if the head commit carries a Compile-Mode trailer."
+        type: choice
+        options: [deep, normal, fast]
+        default: normal
   schedule:
     - cron: '17 7 * * *'    # the reconciler — see the job comment
 
@@ -72,6 +78,26 @@ jobs:
       - name: Record claim ids before
         run: ./scripts/claim-diff.sh snapshot /tmp/claims-before.txt
 
+      # The compile mode rides on the COMMIT, not the dispatch. The push run fires
+      # the instant the ingest lands and is the one that compiles; the explicit
+      # dispatch queues behind it and no-ops (C6). A dispatch input therefore
+      # cannot carry the mode — a `Compile-Mode:` trailer on the head commit can,
+      # and it also means the choice is recorded in git history.
+      - name: Resolve compile mode
+        id: mode
+        run: |
+          mode=$(git log -1 --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
+          mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
+          case "$mode" in
+            deep)   model='gpt-5.6-terra'; effort='high' ;;
+            fast)   model='gpt-5.4-mini';  effort='low'  ;;
+            *)      mode='normal'; model='gpt-5.6-terra'; effort='medium' ;;
+          esac
+          echo "mode=$mode"     >> "$GITHUB_OUTPUT"
+          echo "model=$model"   >> "$GITHUB_OUTPUT"
+          echo "effort=$effort" >> "$GITHUB_OUTPUT"
+          echo "compile mode: $mode → $model @ $effort"
+
       - name: Run OpenWiki
         id: openwiki
         # An interrupted run has merged some pages and skipped others. That
@@ -87,9 +113,8 @@ jobs:
           # the local runs that compiled this wiki were. Without the base URL a
           # gateway key hits api.openai.com and fails.
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
-          OPENWIKI_MODEL_ID: ${{ vars.OPENWIKI_MODEL_ID || 'gpt-5.6-terra' }}
-          # Matches the local runs that compiled this wiki (~/.openwiki/.env).
-          OPENWIKI_REASONING_EFFORT: ${{ vars.OPENWIKI_REASONING_EFFORT || 'high' }}
+          OPENWIKI_MODEL_ID: ${{ steps.mode.outputs.model }}
+          OPENWIKI_REASONING_EFFORT: ${{ steps.mode.outputs.effort }}
           LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
           LANGCHAIN_PROJECT: openwiki
           LANGCHAIN_TRACING_V2: 'true'
@@ -117,6 +142,7 @@ jobs:
           "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           "${{ github.run_attempt }}"
           "${{ steps.prev.outputs.compiled_from }}"
+          "${{ steps.mode.outputs.mode }}"
 
       - name: Commit the compiled output
         id: commit

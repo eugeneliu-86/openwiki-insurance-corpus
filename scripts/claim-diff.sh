@@ -47,7 +47,7 @@ case "${1:-}" in
 
   write-state)
     before="${2:?before}"; after="${3:?after}"; outcome="${4:?outcome}"
-    run_url="${5:?run-url}"; attempt="${6:?attempt}"; prev="${7:-}"
+    run_url="${5:?run-url}"; attempt="${6:?attempt}"; prev="${7:-}"; mode="${8:-normal}"
     head="$(git rev-parse HEAD)"
 
     if [ ! -f openwiki/.last-update.json ]; then
@@ -91,9 +91,10 @@ case "${1:-}" in
     jq -n --arg head "$head" --arg status "$ow_status" \
           --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --argjson attempts "$attempt" \
           --arg url "$run_url" --argjson claims "$(emit_claims "$before" "$after")" \
-          --argjson changed "$changed" \
+          --argjson changed "$changed" --arg mode "$mode" \
           '{schema_version: 1, compiled_from: $head, status: $status, compiled_at: $at,
-            attempts: $attempts, workflow_run_url: $url, claims: $claims, changed_sources: $changed}' \
+            attempts: $attempts, workflow_run_url: $url, claims: $claims, changed_sources: $changed,
+            compile_mode: $mode}' \
       > .compile-state.json
 
     # C4 tier 2: validate BEFORE the commit, so an invalid file is never pushed.

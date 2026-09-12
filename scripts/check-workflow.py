@@ -35,7 +35,7 @@ print("fetch-depth: 0 (a shallow clone silently no-ops)")
 check("fetch-depth: 0" in WF, "checkout uses fetch-depth: 0")
 
 print("C6 — a queued run must see the CURRENT tip, not the sha frozen at event time")
-check(re.search(r"uses:\s*actions/checkout@[0-9a-f]{40}.*?\n\s+with:\s*\n(?:\s+#.*\n)*\s+ref: main", WF, re.S) is not None,
+check(re.search(r"uses:\s*actions/checkout@[0-9a-f]{40}[^\n]*\n\s+with:[^\n]*\n(?:[ \t]+#[^\n]*\n)*[ \t]+ref: main", WF) is not None,
       "checkout uses ref: main (a dispatch queued behind a push otherwise recompiles an already-compiled tree)")
 check("COMMIT_OUTCOME: ${{ steps.commit.outcome }}" in WF and "id: commit" in WF,
       "the callback knows whether the commit landed (a rejected push must not report complete)")
@@ -70,6 +70,11 @@ print("C10 — the model key reaches only the compile step")
 check(len(re.findall(r"^\s+OPENAI_API_KEY:", WF, re.M)) == 1,
       "OPENAI_API_KEY is assigned into exactly one step's env (the compile)")
 check("OPENAI_BASE_URL" in WF, "OPENAI_BASE_URL is set (a gateway key against api.openai.com fails)")
+
+print("compile mode rides on the commit, not the dispatch")
+check("Compile-Mode:" in WF and "git log -1 --format=%B" in WF, "the workflow reads a Compile-Mode trailer from the head commit")
+check("steps.mode.outputs.model" in WF and "steps.mode.outputs.effort" in WF, "model and effort come from the resolved mode")
+check("gpt-5.4-mini" in WF and "gpt-5.6-terra" in WF, "fast and deep models are both named")
 
 print(".openwikiignore excludes the machinery")
 ignore = (ROOT / ".openwikiignore").read_text().splitlines()
