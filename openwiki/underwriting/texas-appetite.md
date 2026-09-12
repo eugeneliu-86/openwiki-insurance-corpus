@@ -3,14 +3,13 @@ type: underwriting-guidance
 title: Texas Homeowners Appetite
 description: Internal Texas homeowners underwriting eligibility, authority, roof, coastal, water-backup, wind/hail, referral, and audit controls. Separates operating decisions from the issued policy, attached forms, and Texas regulatory requirements.
 tags: [underwriting, texas, homeowners, appetite, binding-authority, referrals, roof, water-backup, windstorm-hail, audit]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
+  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
+    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-a7812317f4b735061e88f5bb
     resource: repo://forms/HO/MS/HO-23-74/2018-09.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
@@ -21,7 +20,10 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T18:38:23.283Z
 ---
 
 ## Purpose, scope, and controlling layers
@@ -57,7 +59,7 @@ flowchart TD
     Base --> Eligible{"Eligible under Texas guide"}
     Eligible -- No --> Disposition["Do not bind or route only for permitted disposition"]
     Eligible -- Yes --> Roof["Apply roof age coastal inspection and schedule controls"]
-    Roof --> Water["Apply water backup history limit and sump controls"]
+    Roof --> Water["Apply water backup history limit sump controls and HO 04 90 edition record check"]
     Water --> Wind["Verify wind hail filing form territory and residual market path"]
     Wind --> Referrals["Identify and count referral conditions"]
     Referrals --> Authority["Use Texas authority ceiling and document clearance"]
@@ -66,7 +68,7 @@ flowchart TD
     Complete -- Yes --> Bind["Bind and retain decision record"]
 ```
 
-*This internal sequence applies Texas risk-selection and routing controls before binding. It does not establish whether an issued policy covers a loss.* [Texas Homeowners Appetite Guide, G.1-G.7](repo://guidelines/appetite/tx-homeowners.md#L7-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53)
+*This internal sequence applies Texas risk-selection and routing controls before binding. The water-backup checkpoint records the HO 04 90 edition/form check separately from G.3's eligibility controls; it does not establish whether an issued policy covers a loss.* [Texas Homeowners Appetite Guide, G.1-G.7](repo://guidelines/appetite/tx-homeowners.md#L7-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53) · [HO 04 90 2010-10, status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
 
 ## Coverage A, roof age, and roof-schedule control
 
@@ -115,17 +117,36 @@ For policy and regulatory deductible detail, including named-storm terms and cla
 
 ## Water-backup endorsement controls
 
-HO 04 90 is optional and must be attached. For an issued compatible HO-3 policy, **W.1 writes back the selected Section I A.3 sewer/drain-backup and sump-event exclusion** for its stated direct-physical-loss route; it does not write back A.1 or A.2. **W.4 separately preserves A.1's flood/surface-water category and A.2's subsurface-water category in full.** This contract relationship is relevant only after verifying attachment and does not make a requested limit a coverage promise. [HO-3 2018-09, A.1-A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90, attachment, W.1, and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L8) [HO 04 90, W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
+### Keep the binding decision separate from the issued contract
 
-The Texas **G.3 binding constraints remain separate from that issued-form effect**. An underwriter may bind up to **$25,000** of water-backup limit without referral only if the dwelling has had **no prior water-backup claim in five years**. A request above $25,000 is a matrix referral; senior endorsement authority reaches $50,000, subject to the Texas claim-history and below-grade controls and the one-referral Texas senior limit. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49)
+HO 04 90 is optional. **Texas G.3 and the referral matrix control the internal request, eligibility, and authority decision; they do not establish attachment, contract coverage, a payment amount, or a claim condition.** Under G.3, an underwriter may bind up to **$25,000** without referral only when the dwelling has had **no prior water-backup claim in five years**. A request above $25,000 is a matrix referral, and matrix senior endorsement authority reaches $50,000, subject to the Texas claim-history and below-grade controls and the one-referral Texas senior limit. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49)
 
 A dwelling with **two or more water-backup claims in five years** is outside appetite for HO 04 90, although the underlying policy may still be written without it. This Texas endorsement result is distinct from the matrix's separate entire-risk hard stop for three or more paid water claims of any type in five years. Do not treat a referral as permission to attach the endorsement contrary to the Texas threshold. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L25-L29) · [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
 
-For a finished basement below grade, require a sump pump with battery backup before binding HO 04 90 at a limit above **$10,000**. This is a pre-bind eligibility/control requirement, not a claim condition contained in the endorsement. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L27-L29)
+For a finished basement below grade, G.3 requires a sump pump with battery backup before binding HO 04 90 at a requested limit above **$10,000**. It is a pre-bind internal eligibility control, not a claim condition in the endorsement. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L27-L29)
 
-The form's default is a **$5,000 per-policy-period** sublimit unless higher limits are shown in the Declarations, and that limit is part of—not additional to—the applicable A/B/C limits. It also applies a separate **$500** deductible. These form terms explain why issued Declarations and attachment must be retained, but do not turn the underwriting approval amount into a promise of coverage. [HO 04 90, W.2-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L15)
+### Verify the issued endorsement edition before stating policy terms
 
-Never describe HO 04 90 as flood coverage. If attached, W.1 responds only to its stated sewer/drain backup or sump-event direct physical loss, and W.5 withholds endorsement coverage when the event resulted from a known, unremedied maintenance failure that a reasonable person would have remedied. For source classification and issued-policy terms, use [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md). [HO 04 90, W.1 and W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [HO 04 90, W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L25)
+For an issued policy, verify HO 04 90 attachment, the exact attached edition, the policy-written date used for its edition rule, and the endorsement Declarations before stating a limit, deductible, settlement result, or condition. Edition **2010-10** remains in force for policies written under it, including later-reported losses. Edition **2026-01** replaces it for policies written on or after **2026-01-01**. The endorsement edition is selected separately from the HO-3 base-form edition; a requested limit, the base-form edition, a current guide, or the repository form alone does not establish the issued contract terms. [HO 04 90 2010-10, status and continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [HO-3 2018-09, A.3 attachment dependency](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
+
+The selected editions have different default payment terms and section numbering. Do not combine their columns.
+
+| Verified attached HO 04 90 edition | Default payment and settlement terms | Finished-below-grade term |
+| --- | --- | --- |
+| **2010-10** | W.2 provides a **$5,000** per-policy-period sublimit unless its Declarations show a higher limit; it is part of, not additional to, applicable A/B/C limits. W.3 applies a separate **$500** deductible to each covered endorsement loss instead of the Section I Declarations deductible. Under W.6, A/B loss uses the attached policy's settlement basis and Coverage C is actual cash value unless the endorsement Declarations say otherwise. | No backflow-prevention condition appears in this edition. |
+| **2026-01** | W.2 provides a **$10,000** per-policy-period sublimit unless its Declarations show a higher limit; it is likewise within A/B/C limits. W.3 applies a separate **$1,000** deductible instead of the Section I Declarations deductible. W.7—not W.6—contains the same stated A/B and Coverage C settlement results. | W.6 is a coverage condition whenever the residence premises has a finished area below grade: at the time of loss, the serving sewer line must have an installed and operable backwater valve or equivalent backflow-prevention device. This requirement is new in 2026-01. |
+
+[HO 04 90 2010-10, W.2-W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L35) · [HO 04 90 2026-01, W.2-W.7](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L56)
+
+G.3's still-stated **$5,000** “base sublimit” reference matches the 2010-10 W.2 default, while 2026-01 W.2 states a $10,000 default. This is an operational guide/form-version discrepancy, not evidence that G.3 changes an issued 2026-01 endorsement, that 2010-10 governs a current policy, or that a particular limit is approved. The supplied guide and matrix do not state a resolution for the discrepancy. Preserve the G.3 version, selected endorsement edition, and issued Declarations as separate records; leave the configuration question unresolved rather than inventing a combined default. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [HO 04 90 2010-10, W.2](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L15) · [HO 04 90 2026-01, replacement rule and W.2](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L18) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L47)
+
+G.3's battery-backed-sump check and 2026-01 W.6 are not substitutes. G.3 is a pre-bind test only above the stated $10,000 requested limit for a finished basement below grade; W.6 is an at-loss policy condition for a selected 2026-01 endorsement whenever the residence premises has a finished area below grade and specifies a backwater valve or equivalent device on the serving sewer line. The underwriting result neither proves nor satisfies W.6, and W.6 must not be applied to a 2010-10 policy. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [HO 04 90 2010-10, W.5-W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L27-L33) · [HO 04 90 2026-01, W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47)
+
+### Scope that both editions share
+
+For an issued compatible HO-3 policy with either edition attached, **W.1 writes back the selected Section I A.3 sewer/drain-backup and sump-event exclusion** for its stated direct-physical-loss route. It does not write back A.1 or A.2. **W.4 separately preserves A.1's flood/surface-water category and A.2's subsurface-water category in full.** W.5 also withholds endorsement coverage where the event resulted from a known, unremedied maintenance failure that a reasonable person would have remedied. Never describe either edition as flood coverage. [HO-3 2018-09, A.1-A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90 2010-10, W.1 and W.4-W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L29) · [HO 04 90 2026-01, W.1 and W.4-W.5](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L40)
+
+For source classification and issued-policy terms, use [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md). For claim intake and at-loss W.6 evidence handling, use [Water-Loss Handling](/openwiki/operations/claims-water-loss-handling.md).
 
 ## Prior losses, referrals, and decision records
 
@@ -140,7 +161,7 @@ Every cleared referral must record the triggering condition, clearing authority 
 1. **Base eligibility:** Verify occupancy/residence type, Coverage A, 80% replacement-cost support, construction, protection class, and the stricter seasonal/secondary-residence conditions.
 2. **Roof:** Preserve roof age evidence; require HO 23 74 at 15+ years, make the 20+ year referral, apply the 25+ Texas rule, and separately obtain a current coastal composition-shingle inspection where required.
 3. **Wind/hail:** Select the governing territory definition, validate filing and Declarations disclosure, verify the effective-date and attachment gates for HO 01 45, and retain renewal-increase notice evidence. For a residual-market exclusion, obtain the required endorsement and signed acknowledgment and route the referral.
-4. **Water backup:** Test five-year backup claims, requested limit, referral/authority ceiling, and battery-backed sump evidence for a finished below-grade basement above $10,000. Verify issuance records before communicating any form feature.
+4. **Water backup:** Test five-year backup claims, requested limit, referral/authority ceiling, and G.3's battery-backed-sump evidence for a finished below-grade basement above $10,000. Separately record verified attachment, policy-written date, exact HO 04 90 edition, and endorsement Declarations. Apply 2010-10's $5,000/$500/W.6-settlement path or 2026-01's $10,000/$1,000/W.6-condition/W.7-settlement path only after selection; for 2026-01 with finished area below grade, hand off the serving-sewer backflow-device installation and at-loss-operability facts to the claim record. Flag G.3's $5,000 reference against a selected 2026-01 endorsement without treating it as a contract amendment or inventing a configuration resolution.
 5. **Claims and authority:** Count every paid-property, specified-cause, liability, roof, water, and residual-market referral. Use $800,000/$1,200,000 Texas Coverage A ceilings rather than the enterprise senior ceiling; route more than one condition to management.
 6. **Decision record:** Retain sources and dates for all material facts, guide/matrix/form/bulletin versions used, authority decision, clearance facts, and issued endorsement/Declarations evidence. Record a no-bind or out-of-appetite disposition instead of characterizing an unresolved condition as approved.
 

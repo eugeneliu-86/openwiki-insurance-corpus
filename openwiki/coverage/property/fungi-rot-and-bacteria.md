@@ -1,16 +1,15 @@
 ---
 type: coverage
 title: Fungi, Wet or Dry Rot, and Bacteria Coverage
-description: Explains the attachment-dependent HO 04 81 Section I property write-back for fungi, wet or dry rot, and bacteria. It covers the underlying-event gate, policy-period aggregate, mitigation condition, water-backup dependency, and the Section II boundary.
+description: Explains the attachment-dependent HO 04 81 Section I property write-back for fungi, wet or dry rot, and bacteria. It covers the underlying-event gate, aggregate, mitigation, and the separately selected legacy or current HO 04 90 water-backup path, including the current backflow-prevention gate.
 tags: [homeowners, ho-3, property-coverage, fungi, wet-rot, dry-rot, bacteria, endorsements]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
+  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
+    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-e727058d16eee86c951e380a
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
@@ -21,7 +20,10 @@ sources:
     resource: repo://guidelines/authority/referral-matrix.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T18:38:23.283Z
 ---
 
 ## Scope and issued-policy check
@@ -44,14 +46,26 @@ flowchart TD
     Condition -- "No" --> OtherPath["Use the applicable policy path"]
     Condition -- "Yes" --> Peril{"Resulted from a Section I insured peril during policy period"}
     Peril -- "No" --> NoPath
-    Peril -- "Yes" --> Moisture{"M.2 covered moisture-producing event"}
+    Peril -- "Yes" --> Backup{"Moisture source is sewer drain or sump backup"}
+    Backup -- "No" --> Moisture{"M.2 other covered moisture event"}
     Moisture -- "No" --> NoPath
     Moisture -- "Yes" --> Mitigate{"Reasonable mitigation after known intrusion"}
+    Backup -- "Yes" --> WaterEdition{"Verify attached HO 04 90 edition"}
+    WaterEdition -- "2010-10" --> LegacyGate{"W.1 W.4 and W.5 requirements met"}
+    WaterEdition -- "2026-01" --> CurrentGate{"W.1 W.4 and W.5 requirements met"}
+    LegacyGate -- "No" --> NoPath
+    LegacyGate -- "Yes" --> Mitigate
+    CurrentGate -- "No" --> NoPath
+    CurrentGate -- "Yes" --> BelowGrade{"Finished area below grade"}
+    BelowGrade -- "No" --> Mitigate
+    BelowGrade -- "Yes" --> Backflow{"W.6 device installed and operable at loss"}
+    Backflow -- "No" --> NoPath
+    Backflow -- "Yes" --> Mitigate
     Mitigate -- "No or partly no" --> Allocate["Withhold resulting loss to that extent"]
     Mitigate -- "Yes" --> Aggregate["Apply M.3 aggregate and M.4 included costs"]
 ```
 
-*The flow applies the limited M.1 write-back, then M.2's underlying-event requirement and M.5's allocation condition before amount accounting.* [HO 04 81 M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31)
+*The flow keeps the HO 04 81 M.1–M.5 fungi path separate from the selected HO 04 90 backup path. The 2026-01 branch applies its W.6 backflow-prevention gate only when there is a finished area below grade; the 2010-10 branch does not contain that requirement.* [HO 04 81 M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31) · [HO 04 90 2010-10 W.1–W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L29) · [HO 04 90 2026-01 W.1–W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L47)
 
 ## M.2: establish the underlying event before the condition
 
@@ -63,9 +77,22 @@ For a 2018-09 continuous-leakage issue, document source, onset, duration, knowle
 
 ## Backup-related fungi: two independent endorsements
 
-A sewer/drain backup or sump-related backup, overflow, or discharge follows a distinct two-endorsement path. **HO 04 90 W.1** supplies the limited water-backup route by writing back **HO-3 A.3** when HO 04 90 is attached; A.3 itself makes that exception attachment-dependent. Separately, **HO 04 81 M.1** writes back **HO-3 2018-09 C.2** for qualifying fungi, rot, or bacteria. M.2 identifies water backup covered by an attached water-backup endorsement as an example of a covered moisture-producing event. A backup-related fungi claim therefore requires both attachment determinations and both coverage analyses. [HO-3 2018-09 A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) · [HO 04 90 attachment and W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L8) · [HO-3 2018-09 C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81 M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17)
+First verify both attachments and **select the exact attached HO 04 90 edition before applying its W.1 backup route or any associated condition or payment term**. **HO 04 90 2010-10** was superseded for policies written on or after 2026-01-01, but remains in force for policies written under it and governs their losses regardless of reporting date. **HO 04 90 2026-01** replaces it for policies written on or after that date. This is an endorsement-specific selection after the issued policy is assembled; it does not change the selected HO-3 edition or establish attachment. [HO 04 90 2010-10 status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01 replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [policy-assembly sequence](/openwiki/coverage/policy-editions-and-governing-forms.md#select-the-ho-04-90-endorsement-edition)
 
-Do **not** merge the endorsements' attachments, limits, deductibles, or mitigation/maintenance conditions. HO 04 90 has its own policy-period W.2 sublimit, W.3 separate deductible, and W.5 known-and-unremedied maintenance condition for the backup loss. HO 04 81 has its separate M.3 policy-period aggregate and M.5 post-intrusion mitigation condition for fungi, rot, or bacteria. W.4 also preserves A.1 and A.2 for the backup endorsement; M.2 independently preserves A.1, A.2, and C.3 for the fungi path. Record payments and costs against the applicable endorsement rather than treating one endorsement's limit or deductible as the other's term. [HO 04 90 W.2–W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L25) · [HO 04 90 W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21) · [HO 04 81 M.2–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L11-L31) · [HO-3 2018-09 A.1–A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
+In either selected HO 04 90 edition, **W.1** supplies the limited water-backup route by writing back **HO-3 A.3** for the stated sewer/drain backup or sump-related overflow/discharge direct physical loss; the base A.3 exception is itself attachment-dependent. Separately, the compatible **HO 04 81 M.1** writes back **HO-3 2018-09 C.2** only to its stated extent for qualifying fungi, rot, or bacteria. M.2 identifies water backup covered by an attached water-backup endorsement as an example of a covered moisture-producing event. A backup-related fungi claim therefore needs two independent attachment determinations and two coverage analyses—one for the water-backup event and one for the resulting condition. [HO-3 2018-09 A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) · [HO 04 90 2010-10 W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L12) · [HO 04 90 2026-01 W.1](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L11) · [HO-3 2018-09 C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81 M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17)
+
+### Keep the source and condition paths independent
+
+Do **not** merge the endorsements' source tests, maintenance/mitigation conditions, limits, deductibles, or settlement provisions. For either HO 04 90 edition, W.4 preserves the HO-3 A.1 flood/surface-water and A.2 subsurface-water exclusions for the backup path, and W.5 independently denies backup loss that resulted from the stated known, unremedied maintenance failure. HO 04 81 M.2 instead requires moisture from an event that was itself covered and separately preserves A.1, A.2, and 2018-09 C.3; its M.5 reduces fungi/rot/bacteria loss only to the extent it resulted from failure to reasonably dry, clean, or otherwise mitigate a known or reasonably knowable intrusion. A W.5 finding is not an M.5 finding, and neither substitutes for the other. [HO 04 90 2010-10 W.4–W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L29) · [HO 04 90 2026-01 W.4–W.5](repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L40) · [HO 04 81 M.2 and M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L11-L17) · [HO 04 81 M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L29-L31)
+
+### Apply the selected HO 04 90 terms only to the water-backup path
+
+| Selected HO 04 90 edition | Water-backup-specific terms | Boundary from HO 04 81 |
+| --- | --- | --- |
+| **2010-10** | W.2 is a $5,000 default policy-period sublimit within the applicable A/B/C limits; W.3 supplies a $500 separate deductible; W.6 keeps A/B settlement under the attached policy and sets Coverage C at actual cash value unless the endorsement Declarations say otherwise. | Use these terms only for loss under HO 04 90. They do not modify HO 04 81 M.3's separate fungi aggregate or M.5's mitigation allocation. |
+| **2026-01** | W.2 is a $10,000 default policy-period sublimit within the applicable A/B/C limits; W.3 supplies a $1,000 separate deductible. **W.6 is a water-backup coverage gate:** if the residence premises has a finished area below grade, an installed, operable backwater valve or equivalent backflow-prevention device on the serving sewer line is required at the time of loss. W.7 contains the same stated A/B and Coverage C settlement results as legacy W.6. | W.6 belongs only to the selected 2026-01 HO 04 90 route. It is not an HO 04 81 term and does not add a device requirement to the M.1/M.2 fungi analysis or to a 2010-10 backup claim. |
+
+The W.2 figures are separate policy-period limits for water-backup loss and are not a replacement for M.3's aggregate for all loss under HO 04 81. Record water-backup payments, its edition-specific deductible, and settlement analysis against HO 04 90; separately record fungi costs and the remaining M.3 aggregate against HO 04 81. [HO 04 90 2010-10 W.2–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L35) · [HO 04 90 2026-01 W.2–W.7](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L56) · [HO 04 81 M.3–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L31)
 
 ## M.3 aggregate and included costs
 
@@ -85,7 +112,7 @@ Apply the stated **“to the extent”** allocation. Document when the intrusion
 
 ## Claim handling and underwriting are operational constraints
 
-The internal water-loss guide directs adjusters to establish and document water source before evaluating damage. For a fungi file, retain the issued form and attachments, claimed property and condition, source/onset/duration evidence, covered-underlying-event analysis, mitigation timing, M.4 cost categories, and prior M.3 payments in the policy period. The guide requires specialist referral when the source cannot be established, multiple source categories are plausible, a foundation is involved, the loss exceeds $25,000, or a denial principally rests on duration; it directs a reservation of rights before investigating where coverage may turn on duration or HO 04 90 maintenance. This is handling guidance, not policy language and must not be quoted to an insured or claimant. [guidance status and source-first rule](repo://guidelines/claims/water-loss-handling.md#L1-L11) · [guidance referral and reservation rules](repo://guidelines/claims/water-loss-handling.md#L51-L59)
+The internal water-loss guide directs adjusters to establish and document water source before evaluating damage. For a fungi file, retain the issued form and attachments; for asserted backup, the verified HO 04 90 edition and its written-date selection facts; claimed property and condition; source/onset/duration evidence; covered-underlying-event analysis; mitigation timing; M.4 cost categories; and prior M.3 payments in the policy period. For a selected 2026-01 HO 04 90 with finished area below grade, also retain the W.6 device type, location, installation, and at-loss operability evidence. The guide requires specialist referral when the source cannot be established, multiple source categories are plausible, a foundation is involved, the loss exceeds $25,000, or a denial principally rests on duration; it directs a reservation of rights before investigating where coverage may turn on duration or HO 04 90 maintenance. This is handling guidance, not policy language and must not be quoted to an insured or claimant. [guidance status and source-first rule](repo://guidelines/claims/water-loss-handling.md#L1-L11) · [guidance referral and reservation rules](repo://guidelines/claims/water-loss-handling.md#L51-L59) · [HO 04 90 edition status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01 W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47)
 
 Underwriting rules constrain whether and at what limit the endorsement may be attached; they do not establish claim coverage, prove that a form was attached, or amend an issued policy. The authority matrix permits line underwriters to attach HO 04 81 at base limits and senior underwriters to bind mold limits up to $25,000. Florida guidance permits the base $10,000 M.3 aggregate without referral, but requires referral and a plumbing-age disclosure for a higher limit. Both guidance sources are operational underwriting controls, not contract terms. [authority matrix R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [Florida guide status](repo://guidelines/appetite/fl-homeowners.md#L1-L5) · [Florida mold rule](repo://guidelines/appetite/fl-homeowners.md#L41-L45)
 
@@ -97,7 +124,7 @@ Underwriting rules constrain whether and at what limit the endorsement may be at
 
 1. **Mold with no verified HO 04 81 attachment:** C.2 remains in force; do not infer the endorsement from a remediation estimate or an underwriting guide.
 2. **Flood, surface water, subsurface water, or long-duration leakage followed by fungi:** apply M.2 with A.1, A.2, or C.3. The M.1 C.2 write-back does not cure the excluded underlying source or duration.
-3. **Backup followed by fungi:** verify HO 04 90 for the A.3 backup path and HO 04 81 for the C.2 fungi path. Apply W.2/W.3/W.5 and M.3/M.5 separately.
+3. **Backup followed by fungi:** verify HO 04 90 for the A.3 backup path and HO 04 81 for the C.2 fungi path. Select the attached HO 04 90 edition before applying W.1 and its associated terms: for 2026-01, test W.6 if there is finished area below grade; do not add that water-backup gate to HO 04 81. Apply the selected W.2/W.3/W.5/W.6-or-W.7 terms and M.3/M.5 separately.
 4. **Multiple fungi claims in one term:** find all prior HO 04 81 payments across occurrences, claims, and locations before calculating the remaining M.3 aggregate.
 5. **Delayed drying after a known intrusion:** determine the incremental loss caused by the failure and apply M.5 only to that extent, while separately considering C.1.
 6. **Relocation or injury demand:** test attributable loss of use under D.1 and M.3/M.4; send bodily-injury and third-party-property-damage demands to the Section II analysis that M.6 leaves unchanged.
