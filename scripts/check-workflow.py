@@ -34,6 +34,12 @@ check("cancel-in-progress: false" in WF, "cancel-in-progress is false (cancellin
 print("fetch-depth: 0 (a shallow clone silently no-ops)")
 check("fetch-depth: 0" in WF, "checkout uses fetch-depth: 0")
 
+print("C6 — a queued run must see the CURRENT tip, not the sha frozen at event time")
+check(re.search(r"uses:\s*actions/checkout@[0-9a-f]{40}.*?\n\s+with:\s*\n(?:\s+#.*\n)*\s+ref: main", WF, re.S) is not None,
+      "checkout uses ref: main (a dispatch queued behind a push otherwise recompiles an already-compiled tree)")
+check("COMMIT_OUTCOME: ${{ steps.commit.outcome }}" in WF and "id: commit" in WF,
+      "the callback knows whether the commit landed (a rejected push must not report complete)")
+
 print("every third-party action is pinned to a full commit SHA")
 for use in re.findall(r"uses:\s*(\S+)", WF):
     check(bool(re.search(r"@[0-9a-f]{40}\b", use)), f"{use} is SHA-pinned")

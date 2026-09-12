@@ -39,6 +39,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
+          # The BRANCH, not github.sha. A run that waited in the concurrency
+          # queue would otherwise check out the commit frozen at event time and
+          # recompile a tree that is already compiled: observed live — the
+          # dispatch queued behind the push run compiled 2736ad8 a second time
+          # (107 model calls), then its push was rejected because main had
+          # moved. Checking out the branch resolves at job start, so the queued
+          # run sees the new head, OpenWiki's no-op check skips, and C6's
+          # "the run that lands sees every document" becomes true.
+          ref: main
           # Full history. A shallow clone hides the commit OpenWiki last
           # documented, and the update then runs against an empty change
           # summary — it recompiles nothing and reports success.
@@ -110,6 +119,7 @@ jobs:
           "${{ steps.prev.outputs.compiled_from }}"
 
       - name: Commit the compiled output
+        id: commit
         if: ${{ !cancelled() }}
         run: |
           git config user.name  'openwiki-refresh[bot]'
@@ -133,6 +143,10 @@ jobs:
         env:
           REFRESH_CALLBACK_URL: ${{ secrets.REFRESH_CALLBACK_URL }}
           REFRESH_CALLBACK_SECRET: ${{ secrets.REFRESH_CALLBACK_SECRET }}
+          # A compile whose commit did not land is a FAILED refresh, whatever
+          # OpenWiki's own status says. Observed: a rejected push followed by a
+          # callback reporting "complete" for output nobody can read.
+          COMMIT_OUTCOME: ${{ steps.commit.outcome }}
 
       - name: Propagate OpenWiki failure
         if: ${{ steps.openwiki.outcome == 'failure' }}

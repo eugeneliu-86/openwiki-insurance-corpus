@@ -7,7 +7,14 @@
 set -uo pipefail
 : "${REFRESH_CALLBACK_URL:?}" "${REFRESH_CALLBACK_SECRET:?}"
 [ -f .compile-state.json ] || { echo "no .compile-state.json; nothing to report" >&2; exit 0; }
-body=$(jq -c --arg head_after "$(git rev-parse HEAD)" '. + {event: "refresh_complete", head_after: $head_after}' .compile-state.json)
+# The commit step's outcome decides what landed. If it did not succeed, the
+# state file describes output that is not on the branch: report failed.
+if [ "${COMMIT_OUTCOME:-success}" != "success" ]; then
+  body=$(jq -c --arg head_after "$(git rev-parse HEAD)" --arg why "compile finished but the commit did not land (${COMMIT_OUTCOME:-unknown}); nothing is on the branch" \
+           '. + {event: "refresh_complete", head_after: $head_after, status: "failed", reason: $why}' .compile-state.json)
+else
+  body=$(jq -c --arg head_after "$(git rev-parse HEAD)" '. + {event: "refresh_complete", head_after: $head_after}' .compile-state.json)
+fi
 sig=$(printf '%s' "$body" | openssl dgst -sha256 -hmac "$REFRESH_CALLBACK_SECRET" | awk '{print $NF}')
 code=$(curl -sS --max-time 20 -o /dev/null -w '%{http_code}' -X POST "$REFRESH_CALLBACK_URL" \
   -H 'content-type: application/json' -H "X-Refresh-Signature: sha256=$sig" -d "$body" || echo "000")
