@@ -141,8 +141,18 @@ async def _get_json(url: str, token: str | None) -> dict:
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
+    # A commit pushed seconds ago can 404 on the API for a few seconds while it
+    # propagates. The ingest run is dispatched right after the push, so this is
+    # the normal case, not a corner: retry briefly before calling it missing.
+    import asyncio
+
     async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
-        response = await client.get(url, headers=headers)
+        for delay in (0, 2, 4, 8):
+            if delay:
+                await asyncio.sleep(delay)
+            response = await client.get(url, headers=headers)
+            if response.status_code != 404:
+                break
 
     if response.status_code == 404:
         raise CorpusIntegrityError(

@@ -97,7 +97,13 @@ async def _download(sha: str) -> bytes:
     # the 60/hour unauthenticated limit. The repo is public, so no credential.
     url = f"https://codeload.github.com/{OWNER}/{REPO}/tar.gz/{sha}"
     async with httpx.AsyncClient(timeout=60.0, follow_redirects=True) as client:
-        response = await client.get(url)
+        # Same propagation window as the tree API: a seconds-old commit can 404.
+        for delay in (0, 2, 4, 8):
+            if delay:
+                await asyncio.sleep(delay)
+            response = await client.get(url)
+            if response.status_code != 404:
+                break
     if response.status_code != 200:
         raise CorpusIntegrityError(
             f"could not fetch the corpus tarball for {sha[:12]}: "
