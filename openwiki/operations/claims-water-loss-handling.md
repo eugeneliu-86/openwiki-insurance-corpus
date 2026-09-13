@@ -1,145 +1,85 @@
 ---
 type: claims-guidance
 title: Water Loss Claims Handling
-description: Internal, non-contractual guidance for water-loss intake, source and duration investigation, evidence preservation, referral, reservation-of-rights, and reproducible file completion. Directs coverage questions to the selected issued form and verified endorsements.
-tags: [claims, water-loss, homeowners, investigations, endorsements, reservations-of-rights]
+description: Internal handling checkpoints for homeowners water losses. Verify the issued HO 04 90 edition before applying its edition-specific water-backup limit, deductible, maintenance condition, and below-grade backflow requirement.
+tags: [claims, water-loss, homeowners, water-backup, endorsements, policy-editions]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
+    at: 2026-09-13T02:16:51.029Z
 sources:
-  - id: openwiki-source-0de2907066d0f023c5c2e68b
-    resource: repo://forms/HO/MS/HO-04-81/2018-09.md
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
+  - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
+    resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-e727058d16eee86c951e380a
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-  - id: openwiki-source-ff7de1315ac46ce4dd65d251
-    resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-13T02:16:51.029Z" }
 ---
 
-> **Internal claims guidance — not policy authority and not language to quote to an insured or claimant.** This page operationalizes the issued policy record; it neither grants nor restricts coverage, creates an insured duty, nor supplies coverage-letter wording. The underlying water-loss guide has the same status. [Water Loss Claim Handling Guidance, status](repo://guidelines/claims/water-loss-handling.md#L1-L4)
+> **Internal claims guidance — not policy authority and not language to quote to an insured or claimant.** This page and the underlying water-loss guide direct file handling only; they do not grant or restrict coverage, add an insured duty, or supply coverage-letter wording. [Water Loss Claim Handling Guidance, status](repo://guidelines/claims/water-loss-handling.md#L1-L4)
 
-## Operating objective: keep separate decisions separate
+## Control objective
 
-A reported water loss is not one coverage decision. Maintain supported, independently reviewable findings for:
+Keep four decisions separate: the water source and entry path, the issued policy and verified attachment, the selected endorsement edition, and the payment/condition analysis under that edition. The internal guide directs adjusters to establish and document source before evaluating damage. [Water Loss Claim Handling Guidance §C.1](repo://guidelines/claims/water-loss-handling.md#L7-L11)
 
-1. **source and entry path** — where water or waterborne material originated and how it reached the property;
-2. **onset and duration** — whether the relevant condition was gradual or involved an abrupt, unintended event under the selected form;
-3. **issued contract and attachment** — the governing HO-3 edition, Declarations, and actual attached endorsements;
-4. **endorsement-specific terms** — including water-backup maintenance, sublimit, deductible, and settlement provisions; and
-5. **resulting fungi, wet/dry rot, or bacteria** — a separate write-back with its own attachment, trigger, mitigation condition, and aggregate.
+**Internal handling checkpoint.** At intake, preserve the policy-written date, full Declarations, HO-3 edition, endorsement schedule, exact HO 04 90 edition, reported cause, loss date, source evidence, and prior endorsement payments in the policy period. A repository form or an underwriting configuration is not evidence that an endorsement was issued; use the issued-policy record. See [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md).
 
-This separation is an internal investigation sequence, not a rule that an insured’s initial description decides the outcome. The guide directs the adjuster to establish and document source before evaluating damage. Coverage remains governed by the selected issued form: in HO-3 2018-09, Coverage A/B begins with direct physical loss subject to exclusions, while Coverage C also has the P.2 named-peril gate. [Internal source-first direction](repo://guidelines/claims/water-loss-handling.md#L7-L11) · [HO-3 2018-09, P.1–P.2](repo://forms/HO/MS/HO-3/2018-09.md#L59-L64)
-
-## Entry control: assemble the issued policy before testing facts
-
-**Internal claims guidance — not contract language.** At first notice, preserve the loss date and reported cause; policy-written and effective dates; state; complete Declarations; Section I limits and deductibles; selected HO-3 edition; and actual attached endorsements and editions. Do not infer attachment from a remediation invoice, a prior claim, underwriting practice, or a form’s presence in the repository.
-
-The issued edition is a gating fact. HO-3 2018-09 applies to policies written on or after 2018-09-01 and supersedes 2011-05; a policy issued under the supplied 2011-05 form remains governed by that edition. Definition 5 and C.3’s continuous/repeated-leakage wording appear in 2018-09, not in the supplied 2011-05 exclusions. Do not import the newer duration rule into an older issued policy without controlling policy support. [HO-3 2018-09, applicability, Definition 5, and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4) [Definition 5](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO-3 2011-05, applicability and exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) [exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L57-L79)
-
-The first file record should also log notice, protection/mitigation measures, the damaged-personal-property inventory where the selected form requires it, any proof-of-loss request, and delivery date. This preserves the policy-condition record; it does **not** turn an internal checklist into additional insured obligations. Under 2018-09, S.1 requires prompt notice, property protection, and an inventory, while S.2 makes the 60-day sworn-proof period run after the insurer requests it. See [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md) for the edition-specific policy analysis. [HO-3 2018-09, S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106)
-
-### Internal fact-development flow
+HO 04 90 edition selection is independent of base-form selection. **HO 04 90 2010-10** remains governing for a policy written under it, including a later-reported loss; **HO 04 90 2027-01** replaces 2026-01 for policies written on or after 2027-01-01. Neither document permits substituting one edition’s terms into a policy issued with the other. [HO 04 90 2010-10, status and scope](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2027-01, scope](repo://forms/HO/MS/HO-04-90/2027-01.md#L1-L4)
 
 ```mermaid
 flowchart TD
-    Intake["Preserve issued policy record and reported loss facts"] --> Texas{"Attached compatible Texas HO 01 45 in scope"}
-    Texas -- "Yes" --> Timing["Track T.5 receipt request decision approval and payment dates"]
-    Texas -- "No" --> Source["Develop source and entry-path evidence"]
-    Timing --> Source
-    Source --> Classify{"Classify source under issued form"}
-    Classify --> Surface["Test A.1 or A.2 and retained exclusions"]
-    Classify --> Backup["Verify HO 04 90 then test W.1 through W.6"]
-    Classify --> Internal["Test property grant onset duration and exclusions"]
-    Surface --> Fungi{"Fungi rot or bacteria claimed"}
-    Backup --> Fungi
-    Internal --> Fungi
-    Fungi -- "Yes" --> Mold["Verify HO 04 81 then test M.1 through M.5"]
-    Fungi -- "No" --> Resolve["Document analysis payments authority and communication"]
-    Mold --> Resolve
+    Intake["Preserve issued policy and loss facts"] --> Attachment{"HO 04 90 attachment and edition verified"}
+    Attachment -- "No" --> Hold["Do not apply endorsement terms"]
+    Attachment -- "Yes" --> Source["Develop source and entry path"]
+    Source --> Event{"W.1 backup or sump event"}
+    Event -- "No" --> Base["Apply selected HO-3 terms"]
+    Event -- "Yes" --> Barriers["Test W.4 retained exclusions and W.5 maintenance"]
+    Barriers --> Grade{"2027-01 and finished area below grade"}
+    Grade -- "Yes" --> Device["Verify operable backflow device at loss"]
+    Grade -- "No" --> Terms["Apply edition limit deductible and settlement"]
+    Device --> Terms
 ```
 
-*The internal flow records an in-scope attached Texas amendment at intake, then separates source classification, attachment verification, and resulting fungi. T.5 dates are tracked only for an attached, compatible HO 01 45; they remain distinct from the selected base form’s payment trigger. The selected issued form and verified endorsements govern every coverage branch.* [Internal source-first direction](repo://guidelines/claims/water-loss-handling.md#L7-L11) · [HO-3 2018-09, A.1–A.4, C.3, and S.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) [S.3](repo://forms/HO/MS/HO-3/2018-09.md#L101-L108) · [HO 04 90, W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L31) · [HO 04 81, M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31) · [HO 01 45, scope and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27)
+*This internal workflow requires attachment and edition verification before the endorsement route, then applies the event, retained-exclusion, condition, and payment checkpoints in order.* [HO 04 90 2010-10 W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L35) · [HO 04 90 2027-01 W.1–W.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L6-L57)
 
-## Develop source and duration before estimating scope
+## Source and base-form checkpoint
 
-**Internal claims guidance — not contract language.** Record the reported source, observed entry path, location of water and damage, inspection photographs, plumbing or drain findings, and relevant weather or exterior conditions. Document the basis for selecting and not selecting each plausible source. Staining patterns, corrosion, and material degradation are examples of physical duration evidence. A label such as “flooded basement,” “backup,” or “pipe leak” is a fact report to investigate, not a contractual conclusion. [Internal source and duration direction](repo://guidelines/claims/water-loss-handling.md#L7-L11) [duration evidence](repo://guidelines/claims/water-loss-handling.md#L35-L41)
+**Internal handling checkpoint.** Record the reported source, observed entry path, location of water and damage, photographs, plumbing/drain findings, and relevant exterior conditions. Develop and retain the basis for selecting or rejecting plausible sources. Staining, corrosion, and material degradation are examples of duration evidence identified by the guide. [Water Loss Claim Handling Guidance §C.1 and §C.5](repo://guidelines/claims/water-loss-handling.md#L7-L11) · [duration evidence](repo://guidelines/claims/water-loss-handling.md#L35-L41)
 
-| Fact path to develop | Governing contract dependency | File boundary |
-| --- | --- | --- |
-| Water reached property across land, from flood, surface water, waves, tidal water, storm surge, or overflow of a body of water | A.1 excludes the stated sources in both supplied HO-3 forms. Only 2018-09 A.4 applies A.1–A.3 regardless of another contributing cause or event concurrently or in sequence. HO 04 90 W.4 separately preserves A.1. | Establish the source and path. Do not treat water-backup coverage as a general flood or surface-water write-back. |
-| Water was below ground, exerted pressure, or seeped/leaked through a building, foundation, pool, or other structure | A.2 excludes the stated subsurface-water category in both supplied HO-3 forms. Only 2018-09 A.4 supplies the concurrent/sequential-cause wording. HO 04 90 W.4 separately preserves A.2. | A below-grade location, foundation, or sump does not alone establish A.2 or a W.1 sump event. |
-| Water or waterborne material backed up through a sewer or drain, or overflowed/discharged from a sump, sump pump, or related equipment | A.3 excludes this category unless HO 04 90 is attached. When attached to a compatible selected base form, HO 04 90 W.1 writes back A.3 with its limited A/B/C route. | Verify attachment, then separately test W.1 event scope, W.4 retained exclusions, W.5 maintenance, and W.2/W.3/W.6 payment terms. |
-| Internal-system discharge or an alleged leak | P.2 lists accidental discharge or overflow from within plumbing, heating, or air-conditioning systems as a 2018 Coverage C peril. P.2 does **not** list household appliances in that peril; C.3 separately addresses specified systems and household appliances. A/B use P.1’s direct-physical-loss grant subject to exclusions. | Identify the system or equipment, property coverage, onset, and duration. Discovery date, contractor label, or observed damage alone does not establish a P.2 peril or a sudden-and-accidental event. |
+For **HO-3 2018-09**, A.1 excludes the stated flood/surface-water category, A.2 excludes the stated subsurface-water category, and A.3 excludes the stated sewer/drain-backup and sump-event category unless HO 04 90 is attached; A.4 applies A.1–A.3 regardless of another concurrent or sequential cause or event. The issued base-form edition, rather than an internal label such as “flooded basement,” controls the coverage analysis. [HO-3 2018-09 A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 
-The table is a contract map, not an internal handling rule. For the full coverage analysis, use [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md). [HO-3 2011-05, A.1–A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09, P.1–P.2 and A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L59-L77) · [HO 04 90, W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) · [HO 04 90, W.4 A.1 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L20) · [HO 04 90, W.4 A.2 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L19-L21)
+For **HO-3 2018-09**, C.3 excludes continuous or repeated leakage over weeks, months, or years from the specified systems or household appliances, except loss that is sudden and accidental. Definition 5 defines that term as abrupt in onset and unintended from the insured’s standpoint and excludes gradually developing or known-unremedied conditions regardless of when effects appear. Do not import those provisions into the supplied **HO-3 2011-05** form, whose exclusions do not contain them. [HO-3 2018-09, Definition 5 and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) · [HO-3 2018-09 C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO-3 2011-05, scope and exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) · [HO-3 2011-05 exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L57-L79)
 
-### Duration is a distinct finding
+## HO 04 90 endorsement checkpoint
 
-For HO-3 2018-09, C.3 excludes continuous or repeated seepage or leakage of water or steam over weeks, months, or years from the specified systems or a household appliance. Its proviso preserves loss that is sudden and accidental as Definition 5 defines it. Definition 5 requires an event both abrupt in onset and unintended from the insured’s standpoint, and rejects a gradually developing or known-unremedied condition merely because effects appeared later. Onset, elapsed duration, awareness, repairs, and physical indicators are therefore distinct facts; they are not resolved solely by when damage was found. [HO-3 2018-09, Definition 5](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) · [HO-3 2018-09, C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90)
+For **HO 04 90 2010-10** and **HO 04 90 2027-01**, W.1 provides the stated direct-physical-loss route for Coverage A, B, and C property damaged by sewer/drain backup or a sump-related overflow/discharge, including one resulting from mechanical breakdown. In both editions, W.4 retains the HO-3 A.1 flood/surface-water and A.2 subsurface-water exclusions. A verified attachment therefore does not replace source analysis. [HO 04 90 2010-10 W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L11) · [HO 04 90 2010-10 W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L25) · [HO 04 90 2027-01 W.1 and W.4](repo://forms/HO/MS/HO-04-90/2027-01.md#L6-L11) · [HO 04 90 2027-01 W.4](repo://forms/HO/MS/HO-04-90/2027-01.md#L25-L33)
 
-**Internal claims guidance — not contract language.** Preserve the factual basis—inspection observations, photographs, material condition, service history, invoices, repair records, and statements—rather than an unsupported duration conclusion. When evidence supports competing source or duration explanations, retain each explanation, supporting and contrary evidence, and its unresolved status; do not force a conclusion merely to complete an estimate or communication. Refer where a denial would rest primarily on duration. [Internal duration and referral direction](repo://guidelines/claims/water-loss-handling.md#L35-L41) · [Internal referral criteria](repo://guidelines/claims/water-loss-handling.md#L51-L55)
+### Apply the correct edition’s condition and payment terms
 
-## Attached HO 04 90: handle water backup as a limited route
+| Verified attached edition | Condition and calculation checkpoints |
+| --- | --- |
+| **HO 04 90 2010-10** | W.5 excludes the endorsement loss when the event resulted from the insured’s known pre-loss failure to maintain the serving sewer line, drain, sump, or sump pump and a reasonable person would have remedied it. W.2 supplies a default $5,000 all-losses-per-policy-period sublimit unless the Declarations show more; it is within, not additional to, A/B/C limits. W.3 supplies a separate $500 deductible per endorsement loss instead of the Section I deductible. W.6 retains the attached policy’s A/B settlement basis and provides Coverage C ACV unless the endorsement Declarations state otherwise. [2010-10 W.2–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L35) |
+| **HO 04 90 2027-01** | W.5 contains the same known pre-loss maintenance condition. W.2 supplies a default $10,000 all-losses-per-policy-period sublimit unless the Declarations show more, within A/B/C limits; W.3 supplies a separate $1,000 deductible per endorsement loss instead of the Section I deductible. W.6 adds a condition only where the residence premises has a finished area below grade: an installed, operable backwater valve or equivalent backflow-prevention device on the serving sewer line at loss. W.7 contains the A/B and Coverage C settlement rule. [2027-01 W.2–W.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L57) |
 
-HO 04 90 is not presumed. When actually attached to a compatible selected base form, **W.1 writes back A.3** with direct-physical-loss coverage for the stated Coverage A, B, and C sewer/drain-backup or sump-related overflow/discharge events, including an event resulting from mechanical breakdown. **Separately, W.4 preserves A.1** for flood and surface-water sources. **W.4 also separately preserves A.2** for subsurface-water sources. Attachment therefore does not resolve source, retained exclusions, property scope, or other policy conditions. [HO-3 2011-05, A.1–A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09, A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90, W.1](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) · [HO 04 90, W.4 A.1 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L20) · [HO 04 90, W.4 A.2 preservation](repo://forms/HO/MS/HO-04-90/2010-10.md#L19-L21)
+**Internal handling checkpoint.** For either verified edition, document the serving equipment, alleged maintenance failure, causation, pre-loss knowledge, reasonable-remedy facts, payment history, A/B/C allocation, selected deductible, and settlement basis. For **2027-01 only**, also document finished-below-grade status and device installation/operability at the time of loss. Do not impose W.6’s below-grade device condition on **2010-10**; that edition’s W.6 is its settlement provision. [HO 04 90 2010-10 W.5–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L27-L35) · [HO 04 90 2027-01 W.5–W.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L35-L57)
 
-### Maintain distinct W.5 and payment findings
+All other policy provisions apply under **HO 04 90 2010-10** and **HO 04 90 2027-01**. The endorsement route does not bypass property scope, other exclusions, Declarations, or applicable policy conditions. [HO 04 90 2010-10, concluding provision](repo://forms/HO/MS/HO-04-90/2010-10.md#L31-L35) · [HO 04 90 2027-01, concluding provision](repo://forms/HO/MS/HO-04-90/2027-01.md#L50-L57)
 
-W.5 applies where the backup, overflow, or discharge resulted from an insured’s failure to maintain the serving sewer line, drain, sump, or sump pump, the failure was known before loss, and a reasonable person would have remedied it. Document the equipment or line, asserted maintenance failure, causation, pre-loss knowledge, and reasonable-remedy facts. This is not the same as HO-3 C.1 neglect, which concerns reasonable means to save and preserve property at and after loss. Do not substitute a generic post-loss mitigation observation for W.5’s stated pre-loss condition. [HO 04 90, W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L23-L25) · [HO-3 2018-09, C.1](repo://forms/HO/MS/HO-3/2018-09.md#L83-L87)
+## Escalation and completion
 
-For a verified W.1 loss, W.2 sets a $5,000 policy-period maximum unless the Declarations show a higher amount; it is part of, not additional to, A/B/C limits. W.3 provides a separate $500 deductible for each endorsement loss and displaces the ordinary Section I deductible. W.6 uses the attached policy’s A/B settlement basis and requires Coverage C actual-cash-value settlement unless the Declarations state otherwise for HO 04 90. Maintain a policy-period payment total and distinct calculation record; do not treat the endorsement as an extra layer or stack deductibles. [HO 04 90, W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L15) · [HO 04 90, W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L27-L31)
+**Internal claims guidance — not contract language.** Refer to a technical claims specialist when physical evidence does not establish source, two or more source categories are plausible, a foundation is involved, the insured has a public adjuster or counsel, loss exceeds $25,000, or denial would rest primarily on duration. Referral does not decide coverage. [Water Loss Claim Handling Guidance §C.7](repo://guidelines/claims/water-loss-handling.md#L51-L55)
 
-**Internal claims guidance — not contract language.** Preserve verified attachment, declared limit, source and maintenance evidence, policy-period payment history, A/B/C allocation, settlement-basis analysis, and selected deductible. A prior service report is investigative evidence, not a coverage conclusion by itself. [Internal water-backup guidance](repo://guidelines/claims/water-loss-handling.md#L25-L33)
+**Internal claims guidance — not contract language.** The guide directs a reservation of rights before investigation where coverage may turn on duration or the HO 04 90 maintenance condition. Use the selected issued form in any coverage analysis and retain the approved communication and delivery record; the instruction is not a coverage defense or letter template. [Water Loss Claim Handling Guidance §C.8](repo://guidelines/claims/water-loss-handling.md#L57-L59)
 
-## Resulting fungi, wet/dry rot, or bacteria is a separate analysis
+Before a coverage-position or payment communication, ensure the file can reproduce: issued base form and HO 04 90 edition; attachment and Declarations evidence; source/duration findings; W.1, W.4, and W.5 analysis; the edition-specific W.2/W.3 calculation; the **2027-01 W.6** device result when applicable; settlement analysis; prior policy-period payments; and any referral or reservation record. For fungi, rot, or bacteria following a water loss, conduct the separate analysis in [Fungi, Rot, and Bacteria](/openwiki/coverage/property/fungi-rot-and-bacteria.md); do not treat water-backup attachment as proof of fungi coverage. [HO 04 90 2010-10 W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L35) · [HO 04 90 2027-01 W.1–W.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L6-L57)
 
-HO-3 2018-09 C.2 excludes loss caused by mold, wet/dry rot, or deterioration. Only when compatible **HO 04 81 is attached** does **M.1 write back C.2** to its stated extent: limited direct-physical-loss coverage for covered A/B/C property caused by fungi, wet/dry rot, or bacteria resulting from a Section I insured peril during the policy period. All other policy provisions apply. [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 81, M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10) · [HO 04 81, all-other-provisions clause](repo://forms/HO/MS/HO-04-81/2018-09.md#L33-L37)
+### Focused file-review tests
 
-**Separately, M.2 preserves the underlying water-source and duration barriers.** For moisture-related fungi, it requires water or moisture from an event that was itself covered; it identifies sudden-and-accidental plumbing discharge and backup covered by an attached water-backup endorsement as examples. It preserves A.1 for flood/surface water, A.2 for subsurface water, and 2018 C.3 for continuous or repeated seepage or leakage. A backup followed by fungi therefore requires independent attachment and coverage determinations for HO 04 90 and HO 04 81. [HO 04 81, M.1–M.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17) · [HO-3 2018-09, A.1–A.4 and C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) [C.2–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90)
-
-M.3 is a $10,000 policy-period aggregate unless the Declarations show a higher limit, regardless of occurrences, claims, or locations, and is part of—not additional to—the applicable A/B/C limits. M.4 includes removal, necessary access tear-out/replacement, post-removal testing, and attributable Coverage D loss-of-use increase within that aggregate. M.5 limits loss to the extent it resulted from failure to take reasonable drying, cleaning, or other mitigation measures after the insured knew or reasonably should have known of water intrusion. Track M.3 total, M.4 cost categories, and any M.5 allocation separately from W.2/W.3/W.5. [HO 04 81, M.3–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L31) · [HO 04 90, W.2–W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L25)
-
-**Internal claims guidance — not contract language.** Verify the covered underlying event before evaluating resulting fungi and check prior fungi payments in the same policy period. These handling controls do not make a water source covered. See [Fungi, Rot, and Bacteria](/openwiki/coverage/property/fungi-rot-and-bacteria.md) for the full contract analysis. [Internal resulting-fungi guidance](repo://guidelines/claims/water-loss-handling.md#L43-L49)
-
-## Escalation and reservation of rights
-
-> **Internal claims guidance — not contract language and not coverage-letter language.** Referral and reservation-of-rights directions are file-management controls. They do not establish a coverage defense or alter a policy condition.
-
-### Refer before collapsing an unresolved issue
-
-The guide directs technical-specialist referral where physical evidence does not establish source; two or more source categories are plausible; a foundation is involved; the insured has retained a public adjuster or counsel; loss exceeds $25,000; or a denial would rest primarily on duration. Record the trigger, competing facts, materials supplied, recipient, response, authority decision, and how the response was used. Referral does not decide coverage. [Internal referral criteria](repo://guidelines/claims/water-loss-handling.md#L51-L55)
-
-### Reservation-of-rights checkpoint
-
-The guide directs issuance of a reservation of rights **before investigation** where coverage may turn on 2018 duration or HO 04 90 W.5 maintenance. Escalate the draft through the applicable approval process, identify unresolved factual and contractual issues from the selected issued policy, and retain approved communication and delivery evidence. Preserve competing source or duration findings in that review record; do not state a final coverage conclusion while material investigation remains unresolved. This procedure is not a letter template. [Internal reservation direction](repo://guidelines/claims/water-loss-handling.md#L57-L59) · [HO-3 2018-09, Definition 5 and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO 04 90, W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L23-L25)
-
-## Completion record and focused file-review tests
-
-**Internal claims guidance — not contract language.** Before a coverage-position or payment communication, the file should let a reviewer reproduce the result from the issued contract and facts. Retain:
-
-- selected HO-3 edition, complete Declarations, and verified attachments/editions;
-- loss and notice chronology, source and entry-path evidence, photos, inspection findings, and causation reasoning;
-- onset/duration, knowledge, repair, maintenance, and mitigation evidence, including unresolved alternatives;
-- considered source-specific policy sections and endorsement terms, plus referral and reservation records when triggered;
-- property and cost allocation by A/B/C, payment history against every policy-period aggregate or sublimit, and deductible/settlement calculations; and
-- final communication, authority, payment, and evidence supporting resolved and remaining issues; and
-- when an attached, compatible Texas HO 01 45 is in scope, claim receipt, reasonably requested-item receipt, written decision, approval notice, and payment dates.
-
-### State-overlay handoff
-
-**Internal claims guidance — not contract language.** Record state and check the issued policy for an applicable state amendment before setting a communication or payment timetable. **Only when Texas HO 01 45 is actually attached, within its effective-date scope, and compatible with the selected base form does T.5 change the claim-handling timetable.** For the compatible 2018-09 base form, record T.5’s 15-day acknowledgement, 15-business-day written approval-or-denial period after all reasonably requested items are received, and five-business-day post-approval payment period **alongside—not in place of—S.3’s proof-of-loss-plus-written-agreement, appraisal-award, or court-judgment payment trigger.** T.5 does not identify itself as a rewrite of S.3. The supplied 2011-05 form has no S.3 payment clause, so do not transpose this relationship onto that edition; resolve compatibility from the issued policy record. This operational timing review does not establish water-loss coverage or replace selected-form coverage analysis. Route it to [Texas Windstorm and Hail Requirements](/openwiki/state-overlays/texas.md). [HO 01 45, attachment, effective date, conflict rule, and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27) · [HO-3 2018-09, S.3](repo://forms/HO/MS/HO-3/2018-09.md#L101-L108) · [HO-3 2011-05, Section I conditions](repo://forms/HO/MS/HO-3/2011-05.md#L83-L92)
-
-Use these focused tests to identify common failures:
-
-1. **Water enters a basement near a sump after heavy rain.** Develop whether the path is across ground, below ground, or a W.1 sump event; do not decide from location or the word “flood.” Apply the selected A.1/A.2 terms and W.4 retained exclusions before an attached W.1 write-back. [HO-3 2018-09, A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90, W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L8) [W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L17-L21)
-2. **A sump pump mechanically fails and water overflows.** Verify HO 04 90 attachment, then test W.1, W.4, W.5, W.2 sublimit, W.3 deductible, and W.6 settlement. [HO 04 90, W.1–W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L5-L31)
-3. **A slow leak is discovered behind a wall.** On 2018-09, develop onset and duration under Definition 5 and C.3; retain competing evidence and follow internal referral/reservation controls if duration could control. Do not assume these provisions govern a 2011-05 policy. [HO-3 2018-09, Definition 5 and C.3](repo://forms/HO/MS/HO-3/2018-09.md#L19-L20) [C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [HO-3 2011-05, exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L57-L79)
-4. **A prior drain complaint predates a backup.** Do not equate it with a W.5 result. Develop maintenance failure, causation, knowledge, and reasonable-remedy facts, then use internal reservation/referral controls where applicable. [HO 04 90, W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L23-L25) · [Internal referral and reservation controls](repo://guidelines/claims/water-loss-handling.md#L51-L59)
-5. **A backup is followed by mold and remediation costs.** Do not merge the analyses. Verify both HO 04 90 and HO 04 81, and separately maintain W.2/W.3 and M.3/M.4/M.5 records. [HO 04 90, W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L15) · [HO 04 81, M.1–M.5](repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L31)
-6. **A Texas water loss has an attached, in-scope HO 01 45.** Log T.5 receipt, requested-item, written-decision, approval, and payment dates from first notice. On a compatible 2018-09 policy, retain S.3’s separate proof-of-loss and resolution facts; do not substitute either timing path for the water-loss coverage analysis. [HO 01 45, scope and T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4) [T.5](repo://forms/HO/TX/HO-01-45/2022-01.md#L25-L27) · [HO-3 2018-09, S.3](repo://forms/HO/MS/HO-3/2018-09.md#L101-L108)
+1. **Edition mismatch:** Fail the review if the file uses the **2010-10** $5,000/$500 terms for a verified **2027-01** attachment, or the **2027-01** $10,000/$1,000 terms or W.6 device condition for a verified **2010-10** attachment. [HO 04 90 2010-10 W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L19) · [HO 04 90 2027-01 W.2–W.3 and W.6](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L23) · [HO 04 90 2027-01 W.6](repo://forms/HO/MS/HO-04-90/2027-01.md#L42-L48)
+2. **Finished below grade:** For **2027-01**, require the W.6 device evidence only if the premises has a finished area below grade; confirm installation and operability at loss. [HO 04 90 2027-01 W.6](repo://forms/HO/MS/HO-04-90/2027-01.md#L42-L48)
+3. **Prior drain complaint:** Do not equate a complaint with a W.5 outcome. Test maintenance failure, causation, pre-loss knowledge, and reasonable-remedy facts under the verified edition. [HO 04 90 2010-10 W.5](repo://forms/HO/MS/HO-04-90/2010-10.md#L27-L29) · [HO 04 90 2027-01 W.5](repo://forms/HO/MS/HO-04-90/2027-01.md#L35-L40)
+4. **Water near a sump after rain:** Develop whether the source is surface water, subsurface water, or the specified backup/sump event; neither the location nor the word “flood” selects the route. [HO-3 2018-09 A.1–A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90 2010-10 W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L11) · [HO 04 90 2010-10 W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L21-L25)
