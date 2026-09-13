@@ -24,10 +24,10 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T23:52:37.758Z
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
+    at: 2026-09-12T18:38:23.283Z
 ---
 
 ## Purpose and authority boundary

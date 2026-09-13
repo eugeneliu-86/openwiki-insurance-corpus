@@ -1,11 +1,11 @@
 ---
 type: state-overlay
 title: Florida Roof Age, ACV Schedule, and Nonrenewal Overlay
-description: Florida OIR-2023-04 controls for roof-age underwriting, inspections, ACV-schedule and roof-deductible offers, roof-condition nonrenewals, deductible overlap, and county reporting. Keeps those state controls separate from issued-form contract meaning.
+description: Florida OIR-2023-04 controls for roof-age underwriting, inspections, roof-deductible and ACV-schedule offers, roof-condition nonrenewals, deductible overlap, and county reporting. Separates those effective-date-gated regulatory controls from internal underwriting guidance and issued-policy terms.
 tags: [florida, homeowners, roof-age, actual-cash-value, nonrenewal, deductibles, regulatory-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T23:52:37.758Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -17,12 +17,13 @@ sources:
     resource: repo://guidelines/appetite/fl-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
 ---
+
 
 ## Scope, effective-date gate, and authority boundary
 
-This is the Florida regulatory overlay for **personal residential property policies issued or renewed in Florida with an effective date on or after 2023-07-01**. Florida Office of Insurance Regulation Bulletin OIR-2023-04 regulates an insurer's use of roof age in issuance and renewal decisions, inspections, roof deductibles, ACV roof schedules, nonrenewal notice, and annual reporting. Apply the effective-date gate before using the bulletin as the governing regulatory overlay. [OIR-2023-04, applicability and purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L7)
+This is the Florida regulatory overlay for **personal residential property policies issued or renewed in Florida with an effective date on or after 2023-07-01**. Florida Office of Insurance Regulation Bulletin OIR-2023-04 regulates an insurer's use of roof age in issuance and renewal decisions, inspections, roof deductibles, and roof settlement schedules; it also prescribes a nonrenewal notice rule and annual reporting. Apply the effective-date gate before using the bulletin as the governing regulatory overlay. [OIR-2023-04, applicability and purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L7)
 
 > **Authority boundary.** The bulletin is a regulatory overlay, not policy contract language. It does not attach a roof endorsement, select a deductible stated in the Declarations, establish coverage for a reported loss, or replace the settlement wording in the issued form. The Florida appetite guide and referral matrix are internal underwriting guidance, not policy language and not material to quote to an insured or claimant. [OIR-2023-04, purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L5-L7) · [Florida Homeowners Appetite Guide, status](repo://guidelines/appetite/fl-homeowners.md#L1-L5) · [Underwriting Referral and Authority Matrix, status](repo://guidelines/authority/referral-matrix.md#L1-L5)
 
@@ -66,6 +67,7 @@ flowchart TD
     Condition -- No --> Record["Record decision basis and applicable policy terms"]
     Deficiency --> Record
 ```
+
 *This issuance and renewal flow applies the bulletin's date gate, 15-year inspection permission, qualifying-inspection restriction, and specific-deficiency requirement; it does not decide contractual coverage or settlement.* [OIR-2023-04, applicability and F.2–F.3](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L3-L19)
 
 ## Optional roof deductible and ACV-schedule offers
@@ -113,4 +115,4 @@ Use the following reviews before binding, issuing a nonrenewal, calculating an a
 5. **Roof-condition nonrenewal:** Verify 120 days' written notice, specific reason, and inclusion of every relied-on inspection report; then complete internal Compliance and management controls without treating them as regulatory substitutes.
 6. **Loss and reporting:** When a hurricane deductible and separate roof deductible both appear applicable to one Florida loss, deduct only the larger. Maintain roof-condition nonrenewal reason and county data for the annual Office-prescribed report.
 
-For the issued-policy roof-loss analysis and claim-estimate sequence, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Roof Loss Claims Handling](/openwiki/operations/claims-roof-loss-handling.md). For internal claims operating controls, see [Roof Loss Claims Handling](/openwiki/operations/claims-roof-loss-handling.md). For the internal underwriting controls discussed above, see [Florida Appetite](/openwiki/underwriting/florida-appetite.md) and [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md).
+For the issued-policy roof-loss analysis and claim-estimate sequence, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles.md). For internal claims operating controls, see [Roof Loss Claims Handling](/openwiki/operations/claims-roof-loss-handling.md). For the internal underwriting controls discussed above, see [Florida Appetite](/openwiki/underwriting/florida-appetite.md) and [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md).

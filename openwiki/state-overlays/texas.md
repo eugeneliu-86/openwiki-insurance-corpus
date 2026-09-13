@@ -1,11 +1,11 @@
 ---
 type: state-overlay
 title: Texas Windstorm and Hail Deductible Overlay
-description: Texas regulatory and contract controls for separate windstorm and hail deductibles. Covers bulletin requirements, HO 01 45 attachment and conflict rules, allocation, named-storm treatment, and residual-market exclusion boundaries.
+description: Texas regulatory and policy-form controls for separate windstorm and hail deductibles. Covers Bulletin B-2021-08, attached HO 01 45 amendments, loss routing, renewal notice, claims timing, and residual-market boundaries.
 tags: [texas, homeowners, windstorm, hail, deductible, state-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T23:52:37.758Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
@@ -19,8 +19,9 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
+
 
 ## Scope and authority boundary
 

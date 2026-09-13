@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d680c006bae32686a2094a367079c966504f0363932ac6d7b32737427e6cb06d",
+  "pageVersion": "sha256:75903c1b3ec2bc3b8934f2e9ec69076d1ba5c69bddbfc12d7d3b8a9ed99c69a4",
   "claims": [
     {
       "id": "claim_32d637364b6a4eab9b1e6214ecef1528",
@@ -131,6 +131,24 @@
       ]
     },
     {
+      "id": "claim_7a72131997dc48058c69968cf0a39137",
+      "statement": "On a verified attached HO 04 90, either the 2010-10 or 2026-01 edition modifies HO-3 Section I Exclusion A.3 and supplies the stated sewer/drain-backup and sump-event loss route; HO-3 makes its A.3 exception attachment-dependent. The 2010-10 edition has a default $5,000 policy-period sublimit, whereas 2026-01 has a default $10,000 sublimit, in each case unless a higher limit is shown in the endorsement Declarations.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L15",
+          "version": "repo-lines-v1:sha256:78c5637f9690fc2439014881f19f4051de51e7e1ddea620019f8f9fda5ab68c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5ZDM2ODMyZmI3OTJiMDc0NDY2OGNkZTQ1MGVhMjZlYmI3MGU3ZWRkMDAyN2I4ODUzNmYxMTgxNDE0M2VmYjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4NTM1MTg4OTc3ZDA5NjdkNTEyZDE0ZTM4YTcyM2UxMGY3NTNlYTUwOTBlMTFlZDEzN2YyMjI4YmRkZTkyMzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyYzM1ZTRlMTgwYjAwNTJhMDFmYjZhZWVlYmQ4YTY0MDRkM2MzMDJhNzg4ODE2Y2U4Yjc1NTFlNjljYjlkY2EifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L18",
+          "version": "repo-lines-v1:sha256:d3fdc8fec937d467f78e9343af85b8bb2f7b1604641db3f3a3940e972dd1b55f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlN2I5N2E0N2JiYTFlYzY4MGU3ZGQxOWZmOGFmYjNlMzg0ZDFhYzViODFlYTI5ZjE2ODU1ZjU3NWZlZDdjODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwZWI5ZmM5MTk4OGJjYjgyZjQxODBhZDFlZjZmYjAzNWE5NTcxZmExOWQ2Yzc2ZmViNzY1OTQ0OTk1ZmM1ZWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyYzM1ZTRlMTgwYjAwNTJhMDFmYjZhZWVlYmQ4YTY0MDRkM2MzMDJhNzg4ODE2Y2U4Yjc1NTFlNjljYjlkY2EifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L69-L77",
+          "version": "repo-lines-v1:sha256:aa65b9b1f032191c4ec9c62b7941a3a8ab37dc2373987e4e437ddf102667ecb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTAzM2IwMjdkYmFhOTdmZWM5ZTIzYzU2MDc3ZjJjNmJhN2E4ZTMxOWU3YTNhMzM5YWRjYjc2NjAxYWYyMmZjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmMTU3ODRmMzQyMTdkMDExYWY0OGYzNGQ3YThiYzk4ZmM4NGUwNjMzOTI3ZDdmNzNhOTA2YzRhMjVmYjBjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZjYjVhMWViN2JmN2Y2MDRkMmNkOWIxOTdkMzI5OGIxNGZmYzZiNTRiZjdhYTEzYmEzMjIzZGJhMTdiYThmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTk5MWZjMjliNWFjYTQwMjczYjJiNGQ0YTRmMTUwZTA4ZGI5Yjk0ZjU5Zjg0YzZlM2M3OGNmODYzNTFjMDM2MSJ9"
+        }
+      ]
+    },
+    {
       "id": "claim_b19d8f36acdf4acf91ed45de1642b546",
       "statement": "On a verified compatible attachment to HO-3 2018-09, HO 04 81 provides limited coverage for fungi, wet/dry rot, or bacteria that would otherwise be excluded by C.2, subject to its stated trigger and $10,000 aggregate unless a higher limit is shown in the Declarations.",
       "evidence": [
@@ -195,6 +213,20 @@
       ]
     },
     {
+      "id": "claim_caddc6d697bc4abab20666e66239c146",
+      "statement": "HO 04 90 2026-01 replaces 2010-10 for policies written on or after 2026-01-01, while 2010-10 remains in force for policies written under it and governs loss adjustment under those policies regardless of reporting date; selection of the endorsement edition is therefore a separate written-date and attachment check.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7",
+          "version": "repo-lines-v1:sha256:889619d9277d24e365d3a141cf6fde55a3d3739591f35d3db851d0445dc07ce5:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkMzY4MzJmYjc5MmIwNzQ0NjY4Y2RlNDUwZWEyNmViYjcwZTdlZGQwMDI3Yjg4NTM2ZjExODE0MTQzZWZiMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzNkN2RiMGNmMjgxYjcyMjY5OTc4OTQ1ZjZmNDdhMDBmYmFkNTRmYmEzZDlhOGNjYjFjNWM4NDI2MGE5ZDczYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
+        }
+      ]
+    },
+    {
       "id": "claim_948146f859794b1a859f5b14df45ee94",
       "statement": "The 2026-01 HO 04 90 adds a finished-below-grade condition requiring an installed and operable backwater valve or equivalent device on the serving sewer line at the time of loss; this contract condition is distinct from the Florida and Texas guides' battery-backed-sump underwriting criteria for higher limits.",
       "evidence": [
@@ -213,118 +245,30 @@
       ]
     },
     {
-      "id": "claim_73e316eb56464871b36dbdbd171195d0",
-      "statement": "This page is internal underwriting guidance for personal residential property that defines the control stack for binding authority, referral escalation, hard stops, and documentation, and it must not be treated as policy coverage or regulatory text.",
+      "id": "claim_7dc489219a8d4619a1abfbdf0a0b9f4e",
+      "statement": "Texas G.3 describes the HO 04 90 W.2 base sublimit as $5,000, while the 2026-01 endorsement sets a $10,000 default and replaces 2010-10 for policies written on or after 2026-01-01; the supplied guide and matrix do not state how to resolve that guide/form version mismatch.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L1-L17",
-          "version": "repo-lines-v1:sha256:f759cd2e8ad282d4514702cd2da693aeb874582c8dc94cd53b3ddc940effad5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlNzA1OWRiM2VlNzJjNGJkODYyNTliOTdiYzUzZmM2ZjM5ZDEyMGZiZjdkNGYwYWM4OWY2ZWZkOGZkNzRmMTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMmU0OTZkZTI2ZDRmNmZhYmJjODc0NWViMGYwNjQ0ODhhNTI5MzM5N2E1MjMxYjI1NDllOWI0NjM2YTIyZDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2MmVkMWQ4ZDM5ZTMzMDhiYTY5ZmM4MTczYTAzMzVhZGMyZjIyZDUyODAyNjk5MTg5M2Y0NmZjNzJiM2E1NjUifQ"
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L15",
+          "version": "repo-lines-v1:sha256:50544f3a1daed5c36099691182c574ff7a50367aef801206c64800fd42faa96a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGJkNDZlYzE4YTEwMGQ5ZDYzYzZmYzNhMmM0MTE1YjRkYzU2OGI5NTI2NDAwZmIwMmY2NGI5NWZmZjFmYWQzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDg1MzUxODg5NzdkMDk2N2Q1MTJkMTRlMzhhNzIzZTEwZjc1M2VhNTA5MGUxMWVkMTM3ZjIyMjhiZGRlOTIzOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjA0MjY3YWExZmNkZmYwY2IxYzVhZmZjZjVjOTAwNTBmNGRhMTEyNjExZjJlY2E3MjdjZjIxNzgyMDRjYTExMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzJjMzVlNGUxODBiMDA1MmEwMWZiNmFlZWViZDhhNjQwNGQzYzMwMmE3ODg4MTZjZThiNzU1MWU2OWNiOWRjYSJ9"
         },
         {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L33-L39",
-          "version": "repo-lines-v1:sha256:84a95dbd97aff0c2a78b3fe3567f76c4a605eca25603b1a9cadd32d2009d32b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQyYjYwODhlZWE5OTU2MTEyMmJlNDhmYjhiZTQ0OWYwOTMyYmJiYTY4MWIwZGQ3Yzk3NjlhNjM0MzIyNDRmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU3NjdlNGQxOTVlYWU4Y2NkYjUwY2NjYmZjOGI5ZDJlYTMyMWI4MDQ5OTlmMzA3ODQ2ZjBkNDMwNzI4MmQyMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODA5Yzg1ODhkNmY5ZTIzNWE0NGQwNTlhNzhlNzNjMzdlOGZmNjc0OWNhNDNhMTNkMmJjMDM4MmU2Nzg4MjAwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTFmZjE2NTgyZjUxYTJjY2U4MzAzYmJiNjE3MzY5NzI1YjVlZjg4Yjk2OGNiYWU2NDk0NDdmOTY0NzU5ODhjYyJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_ba56ff72560e4dc9916a0bba97f3d1cb",
-      "statement": "Referral is an escalation tool that can move a risk to a higher authority tier, but it cannot broaden authority beyond the state guide or enterprise matrix and cannot authorize a binding action that would violate a state filing or bulletin requirement.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L33-L39",
-          "version": "repo-lines-v1:sha256:84a95dbd97aff0c2a78b3fe3567f76c4a605eca25603b1a9cadd32d2009d32b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQyYjYwODhlZWE5OTU2MTEyMmJlNDhmYjhiZTQ0OWYwOTMyYmJiYTY4MWIwZGQ3Yzk3NjlhNjM0MzIyNDRmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU3NjdlNGQxOTVlYWU4Y2NkYjUwY2NjYmZjOGI5ZDJlYTMyMWI4MDQ5OTlmMzA3ODQ2ZjBkNDMwNzI4MmQyMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODA5Yzg1ODhkNmY5ZTIzNWE0NGQwNTlhNzhlNzNjMzdlOGZmNjc0OWNhNDNhMTNkMmJjMDM4MmU2Nzg4MjAwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTFmZjE2NTgyZjUxYTJjY2U4MzAzYmJiNjE3MzY5NzI1YjVlZjg4Yjk2OGNiYWU2NDk0NDdmOTY0NzU5ODhjYyJ9"
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L18",
+          "version": "repo-lines-v1:sha256:d3fdc8fec937d467f78e9343af85b8bb2f7b1604641db3f3a3940e972dd1b55f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlN2I5N2E0N2JiYTFlYzY4MGU3ZGQxOWZmOGFmYjNlMzg0ZDFhYzViODFlYTI5ZjE2ODU1ZjU3NWZlZDdjODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwZWI5ZmM5MTk4OGJjYjgyZjQxODBhZDFlZjZmYjAzNWE5NTcxZmExOWQ2Yzc2ZmViNzY1OTQ0OTk1ZmM1ZWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyYzM1ZTRlMTgwYjAwNTJhMDFmYjZhZWVlYmQ4YTY0MDRkM2MzMDJhNzg4ODE2Y2U4Yjc1NTFlNjljYjlkY2EifQ"
         },
         {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L7-L17",
-          "version": "repo-lines-v1:sha256:37e168ab1ae34f868bf84f57ea8f131d51a043839378ed860901a8dfdce94bff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2OTkxOTk4YTIxNTZlNjg1OWQ3NjYzZjcxNzI4MWFlNDU0MDA0MTMxZWIyY2QxNjFlMTkyYTBkMzA1MTc0NjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMmU0OTZkZTI2ZDRmNmZhYmJjODc0NWViMGYwNjQ0ODhhNTI5MzM5N2E1MjMxYjI1NDllOWI0NjM2YTIyZDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZWM4OWM1YTY2NmNjNDM0N2FlZWI3NGI1NTZhODdmNTRiMThjZjgzMDliZDNjZWEzMWYzZDNiMWY0YjRkZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2MmVkMWQ4ZDM5ZTMzMDhiYTY5ZmM4MTczYTAzMzVhZGMyZjIyZDUyODAyNjk5MTg5M2Y0NmZjNzJiM2E1NjUifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_93ddd051f89849a594599c774fb87e97",
-      "statement": "Florida and Texas appetite guides narrow enterprise binding authority by state-specific Coverage A ceilings and eligibility gates; the state guide governs the narrower internal route when it is more restrictive than the enterprise matrix.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/appetite/fl-homeowners.md#L47-L49",
-          "version": "repo-lines-v1:sha256:9ed712a8625e36561c2fd99603a0997788603bfeef97d5d95767823a1c2e2877:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc0NDFiNjVhOGY3N2M3Y2M4MjRlZjZkYTViMTllMmYwZTIyNzljZTA4NmQ1YWQ3MGJmMDUxNGMyZmY3NGI3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIwM2NmZTU4YjA1ZDNkZWVjYjU1ZGFiNjM3YWU0YmJlNTI0NjcxNWIwZWQ3YzBhY2RmOWQwY2IyYWEyNWY1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU1NGZmNTY5MjJkZDFlMjdmYjIwZmVlNjhkZDA1ZGU5MzhlZGE4MTBhNGZkZDFmNDc0ZmVmZjM4NmNiNTlkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L23-L29",
+          "version": "repo-lines-v1:sha256:c05973d1b610564f855f8a9d843e7a1860d6ce2d2765bd988003d5f68fd05f80:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDg0ZmI1YWVkZDVlODdiY2M5NzQ4MmIxZjllMTljY2IxYmI5ZmYzNDUyMDhiZWI3NjliZTkzOWZiZTAyNGIyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY2MTg3ZmUyNGY2OTljNWU4Yjg0MmE3ODQ4NjhlYTY2OTBiY2RjNmI2ODljZmE5YzhmM2QyYzM2NzZhZjhiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiNjVmOGRmYzU3N2IxYmJlZTYzNzA4ZDQ0NjU2YmJmZmYyZjJhYzVhZTcwOTU3MDdlMTAzYWIzYTIzZGJlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTk4OTRkY2U5ODc3MzAwODlkOTA2ZmE1NjNjNDM0NzViZGYxZjFlMzM2ZDhiNmUzNTEyMzUxZjMyZmQyNzk5ZCJ9"
         },
-        {
-          "resource": "repo://guidelines/appetite/tx-homeowners.md#L47-L49",
-          "version": "repo-lines-v1:sha256:c248609cc70b8d347dedb6e2a4b11aaac06375d61851695f1bcdb1d18a463b74:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NhNDFlNTIzN2ZmY2ZlMzBlNmUxMGU2MWM2YmMwYTdmZmY2OTRlMTYyNWVkN2MyMGExNTI5ODJjNGZiOWJjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTAwNzIxZTc0MjA4ZGU2YjJlODljNGRhZDQ4ZWRiYTNkM2YwZmU0OTgwZmYyZjVjOTRlNDljN2JiZDA2MjlmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODliMWY2Y2I0MzQ5MmRmNGRiZjlmODgxYjc0Mjk2MTc3NmJlMzViMWJhMTM2OTEyYjI0YjkxY2U1MjY3MGFmNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
-        },
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L7-L17",
-          "version": "repo-lines-v1:sha256:37e168ab1ae34f868bf84f57ea8f131d51a043839378ed860901a8dfdce94bff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2OTkxOTk4YTIxNTZlNjg1OWQ3NjYzZjcxNzI4MWFlNDU0MDA0MTMxZWIyY2QxNjFlMTkyYTBkMzA1MTc0NjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMmU0OTZkZTI2ZDRmNmZhYmJjODc0NWViMGYwNjQ0ODhhNTI5MzM5N2E1MjMxYjI1NDllOWI0NjM2YTIyZDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZWM4OWM1YTY2NmNjNDM0N2FlZWI3NGI1NTZhODdmNTRiMThjZjgzMDliZDNjZWEzMWYzZDNiMWY0YjRkZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2MmVkMWQ4ZDM5ZTMzMDhiYTY5ZmM4MTczYTAzMzVhZGMyZjIyZDUyODAyNjk5MTg5M2Y0NmZjNzJiM2E1NjUifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_135cb5e8e72348ec918378f84752cf29",
-      "statement": "The page distinguishes line, senior, and management authority: line underwriters bind only within state and matrix limits, senior underwriters may clear no more than one referral condition per risk, and management is required above senior authority, for more than one referral condition, or for exception routing that cannot override a hard stop.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L33-L39",
-          "version": "repo-lines-v1:sha256:84a95dbd97aff0c2a78b3fe3567f76c4a605eca25603b1a9cadd32d2009d32b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQyYjYwODhlZWE5OTU2MTEyMmJlNDhmYjhiZTQ0OWYwOTMyYmJiYTY4MWIwZGQ3Yzk3NjlhNjM0MzIyNDRmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU3NjdlNGQxOTVlYWU4Y2NkYjUwY2NjYmZjOGI5ZDJlYTMyMWI4MDQ5OTlmMzA3ODQ2ZjBkNDMwNzI4MmQyMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODA5Yzg1ODhkNmY5ZTIzNWE0NGQwNTlhNzhlNzNjMzdlOGZmNjc0OWNhNDNhMTNkMmJjMDM4MmU2Nzg4MjAwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTFmZjE2NTgyZjUxYTJjY2U4MzAzYmJiNjE3MzY5NzI1YjVlZjg4Yjk2OGNiYWU2NDk0NDdmOTY0NzU5ODhjYyJ9"
-        },
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L7-L17",
-          "version": "repo-lines-v1:sha256:37e168ab1ae34f868bf84f57ea8f131d51a043839378ed860901a8dfdce94bff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2OTkxOTk4YTIxNTZlNjg1OWQ3NjYzZjcxNzI4MWFlNDU0MDA0MTMxZWIyY2QxNjFlMTkyYTBkMzA1MTc0NjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMmU0OTZkZTI2ZDRmNmZhYmJjODc0NWViMGYwNjQ0ODhhNTI5MzM5N2E1MjMxYjI1NDllOWI0NjM2YTIyZDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZWM4OWM1YTY2NmNjNDM0N2FlZWI3NGI1NTZhODdmNTRiMThjZjgzMDliZDNjZWEzMWYzZDNiMWY0YjRkZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2MmVkMWQ4ZDM5ZTMzMDhiYTY5ZmM4MTczYTAzMzVhZGMyZjIyZDUyODAyNjk5MTg5M2Y0NmZjNzJiM2E1NjUifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_5c7c7fbe1bfe4be4892f7fcb38e90f7f",
-      "statement": "Mandatory referral triggers include two or more paid property claims in three years, mold/continuous-seepage/foundation-movement claims, certain liability claims, residual-market windstorm-and-hail exclusion, specified higher water-backup requests, and roof surfacing aged 20 years or more or 25 years or more regardless of documentation.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L19-L31",
-          "version": "repo-lines-v1:sha256:f2c54f5f8c9cae4acce6aa236f7570546db81b7c70869c5e1da5448b3ea0c195:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ZTc4YjIzYmQyODE2NWY0ZmQwY2U0ODQ0YTUyMDkxODgzMzdhYzg3MTRkYzE4MTViNTc0YWMyMDc0OTBmY2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3M2ZmNzliY2EzZGE4ZGQ4ZjliN2U0MjYzMzFhZGI4YWVkZWJkYjE4NDBkNDE1ZDMxMTc1NjNhODZlNWEyNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNjRjNmMwZjQ0YTgwZjIzZGY0NGI2MTI4YjExMmNkOGU3NDU1YzE5N2U3ODdiNmMwZjIxODk1ZDJlNGI2YzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYzg4MjQ4ZWEyYzcxY2E5MDQxOWY1MDY3ZTRkMGEyNjExZGMyMGQ3YjcyMTdjN2Y5NDRjYTQzNjIxMWE4NDgifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_f6c39c6201634bffac3fc47ac171fe07",
-      "statement": "The hard-stop rules are non-clearable: three or more paid water claims of any type in five years, known unrepaired structural damage, long vacancy during renovation, and any action that would violate a state filing or bulletin requirement.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L33-L39",
-          "version": "repo-lines-v1:sha256:84a95dbd97aff0c2a78b3fe3567f76c4a605eca25603b1a9cadd32d2009d32b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQyYjYwODhlZWE5OTU2MTEyMmJlNDhmYjhiZTQ0OWYwOTMyYmJiYTY4MWIwZGQ3Yzk3NjlhNjM0MzIyNDRmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU3NjdlNGQxOTVlYWU4Y2NkYjUwY2NjYmZjOGI5ZDJlYTMyMWI4MDQ5OTlmMzA3ODQ2ZjBkNDMwNzI4MmQyMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODA5Yzg1ODhkNmY5ZTIzNWE0NGQwNTlhNzhlNzNjMzdlOGZmNjc0OWNhNDNhMTNkMmJjMDM4MmU2Nzg4MjAwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTFmZjE2NTgyZjUxYTJjY2U4MzAzYmJiNjE3MzY5NzI1YjVlZjg4Yjk2OGNiYWU2NDk0NDdmOTY0NzU5ODhjYyJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_8a1d0f4dee504c9d89390c9f9f9baa9e",
-      "statement": "Endorsement routing is separate from issued-contract meaning: HO 04 90, HO 04 81, HO 23 74, and HO 04 16 have internal routing rules, but attachment, policy-written date, edition, and endorsement Declarations determine the issued contractual result.",
-      "evidence": [
         {
           "resource": "repo://guidelines/authority/referral-matrix.md#L41-L47",
           "version": "repo-lines-v1:sha256:242232cd6c1be2eb877b756224cabfc1a6fd83db0c07545c7cf582c665fa03fa:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ0NjFhMGIxNDVjMWIxNDZkODI1MmQ0MGE2ZDk1NzQ3MGUyN2I3YWIzMGUxODE0MDcwOTRjOGFkYWEyNDRkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZThkODMwMjRhOWIxMmYxYzY0ZDhhZDQwNTMzMGE0NDk5ZjM2OWZkYWQyZDZkNWJiNThiYmY2NGVmYmUzNDlmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjI5MWRjNzFiYTc4ZDdlODI1MzAyZWRlMmM3MDJlOGY1MTk5ZGEwYmY5NGVkZTg1ZjZkOGM3YjZjNTY3MTQxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWYxMmI3YjdkNmJjZmI5NTNjOTA0Y2RlODQ5MDc3ZjNhODNjNzlkNjE0MzIxMjIzNDBlYzQzYWEyYmYzY2E4MSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_a45f68aab6104ebaa2903a04d479b149",
-      "statement": "Every cleared referral must record the triggering condition, the clearing authority level, the specific facts relied on, and the date; a cleared referral without that basis is treated as unbound authority in audit and charged back to the clearing underwriter's file review.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L49-L53",
-          "version": "repo-lines-v1:sha256:845f2fc7e1e64a01f6f91d22deb2c90296d62cae2f3500a6516059f087f03e01:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM1OTM1MTU1NWJiOWEzMWI2ZTMzMDZlYjIwMmIyZmZjODMxZmNmYjJhZjc3M2UzODZiMGRmYTM3YmNjNjI3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjhlYmEwYWVhNDNiNTVlYzlhMDBiNDJlMmM0ZGE4NWVlMTFkMDZkMGI2NTczMWM1ZjllNDJlZDYyNTFjNGUxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNjMWRhZDMyNTUyOTgwNjM5NDMzMjllMjFjZDNhNzJhMzBlNzU4ZmQxNzk0ZWNhZGU4NmE1YWE0YTZjODRiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_e4040d41815e45dc9b18612cd4777a1e",
-      "statement": "The page's focused tests require state-guide precedence, a hard-stop check, referral counting, authority-limit review, endorsement validation, and audit-record verification before binding or during file review.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/referral-matrix.md#L49-L53",
-          "version": "repo-lines-v1:sha256:845f2fc7e1e64a01f6f91d22deb2c90296d62cae2f3500a6516059f087f03e01:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM1OTM1MTU1NWJiOWEzMWI2ZTMzMDZlYjIwMmIyZmZjODMxZmNmYjJhZjc3M2UzODZiMGRmYTM3YmNjNjI3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjhlYmEwYWVhNDNiNTVlYzlhMDBiNDJlMmM0ZGE4NWVlMTFkMDZkMGI2NTczMWM1ZjllNDJlZDYyNTFjNGUxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNjMWRhZDMyNTUyOTgwNjM5NDMzMjllMjFjZDNhNzJhMzBlNzU4ZmQxNzk0ZWNhZGU4NmE1YWE0YTZjODRiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-12T23:52:37.758Z"
+    "at": "2026-09-12T18:38:23.283Z"
   }
 }

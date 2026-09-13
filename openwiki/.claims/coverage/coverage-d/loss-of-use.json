@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:e242df1c186d9c806ef6c89fb53fbbfd6fe1c485311cac9ea6419bb7f9767ca8",
+  "pageVersion": "sha256:4375cb4c7dfbb80629d7ef9491cce10e99dba000058f2735c051b504ee3c162a",
   "claims": [
     {
       "id": "claim_2c7e5643e51847ef9dfb95ca1802cd63",
@@ -125,66 +125,10 @@
           "version": "repo-lines-v1:sha256:52921f7bf7435b9001747470c61b2d11205069237a3f96ac487adb503f3ef523:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgwODNiMGZmMjIxYTU5YjZmY2ZlMjcwZGJiN2RmMDJjMGJhYmFlN2JjNTA1YWYzYmNlYmQyZDZkYjQwNjY3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk4OTBiMzY3YzBhODE3OGE4NjVkOTdlOWZhOGMzZjlkOGYwNjE1ZmZhZTk4M2JhYjI3ZDNmZGYyY2MyMjM2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBkOGYzYzE0ZWJhYTBjNTBmMzQyMmQ1MmY0YTdhMWNhNGY1OWVlMzE0MjZhNWM3NGIwMjYxMmFjM2E1MzQ0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTUzNjQ1OGVjYTdjOGFjZGZhMGI3MjAxY2QzNjUxZDdmNWQxOGYwMjEwZDU0NTNkZjExMzZiNDQyNDcxNTE0NiJ9"
         }
       ]
-    },
-    {
-      "id": "claim_0d3c847efc8340c4a60ca70e6d8facda",
-      "statement": "Coverage D pays only when a covered loss makes the residence premises not fit to live in, and the benefit measures the reasonable increase in living expenses necessary to maintain the insured's normal standard of living.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L49-L53",
-          "version": "repo-lines-v1:sha256:516a819cbc6a795691c0cfe2eb36da09ed5b86813fce9e528e59f0f52547db18:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUxYTE2YmUzMGRiOTg2N2YxNTllYjlmMTk4NWYxOWRhNjhmZTQyMjEzZTM2MWNiODRjYjdkOTNlNTU5MDI4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_2fa7c6b7ed334b4b855eff885a1b531c",
-      "statement": "Coverage D is limited to 20% of the applicable Coverage A limit in both HO-3 2011-05 and HO-3 2018-09.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L49-L53",
-          "version": "repo-lines-v1:sha256:516a819cbc6a795691c0cfe2eb36da09ed5b86813fce9e528e59f0f52547db18:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUxYTE2YmUzMGRiOTg2N2YxNTllYjlmMTk4NWYxOWRhNjhmZTQyMjEzZTM2MWNiODRjYjdkOTNlNTU5MDI4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_1f6b0c0679b8436f8034777b2f4e3403",
-      "statement": "HO-3 2018-09 adds a shortest-time duration qualifier to Coverage D, limiting payment to the shortest time reasonably required to repair or replace the premises, while HO-3 2011-05 does not contain that express sentence.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L49-L53",
-          "version": "repo-lines-v1:sha256:516a819cbc6a795691c0cfe2eb36da09ed5b86813fce9e528e59f0f52547db18:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUxYTE2YmUzMGRiOTg2N2YxNTllYjlmMTk4NWYxOWRhNjhmZTQyMjEzZTM2MWNiODRjYjdkOTNlNTU5MDI4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_869a54cdae8b42059d3328e04562d001",
-      "statement": "HO 04 81 edition 2018-09 includes any increase in Coverage D loss of use attributable to fungi, wet or dry rot, or bacteria within its M.3 aggregate, while M.1 separately writes back Section I Exclusion C.2 for qualifying property loss.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L27",
-          "version": "repo-lines-v1:sha256:c0b12d748e5775d9416c4663df6856ec8d8364d421b3a2acac45e70884b1acb0:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRhNjM4NjMwMzBkMDZhMTAwNjkwOGEyZTVlMmJkYWE2MTEyNzNiZjQwNTNiYTc4YjhiOTQ2OTQzNTBjMWQwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzczMTc3MDg1MTE5YWUyMTMyOWZkMGZkN2NmYTYwMjBlOGMyYjI5NzQ4ZjNkMmUyY2FlM2RmZGFhZDIzZDdkNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTg5MDIxZjUwMTU4MGMyMzU5OWM2MWY4NDFjNGI2MDA2ZmU1NjJjZTdmZWE3NDQ2NzllNTdjM2RjYTllOTExMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2NiMTBiYjFmM2RmOWUxOThjMTU1ZjkzNjQwNWEzMThiM2Y4MTFmODA4MzA2NDZkODFmMDQ1YjVlNDgxMmQ5NSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L10",
-          "version": "repo-lines-v1:sha256:4de6f94703c9798ad126362702ddbdaee43ae7cd1870e737b3d2bc679e0b1636:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhiZWQwNTgxYjVlMDdmNmE4YWIxOTBhZGFjNTUyZmY0OTFlMDc2MDEyM2FiZTYxYzg5NzA0ZDc2ZTc5NDBkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzgyZGI1ODM2MjdlODBiYTViZjkwMTAxNWIzMGRlMmQwYjNkMjQwNTM2ZjkyMjdkZWVjNjg1YzI1Y2RjZjY4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjllN2I4YWU5YzgyMzRmYWViYjc3YWI5MjFkNDExOWE4ZTAwMjZkN2QwY2NlOWU0MTE5NGZiMjc2YzUyMGNhZCJ9"
-        }
-      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-12T23:52:37.758Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

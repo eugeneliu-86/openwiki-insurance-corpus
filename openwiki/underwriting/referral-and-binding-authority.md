@@ -1,11 +1,8 @@
 ---
 type: underwriting-guidance
 title: Referral and Binding Authority
-description: Internal underwriting guidance for personal residential binding authority, mandatory referrals, hard stops, state-guide precedence, endorsement routing, and audit records. Separates escalation controls from issued-policy terms and from state filing or bulletin requirements.
+description: Enterprise personal-residential underwriting authority, mandatory referrals, non-clearable hard stops, endorsement routing, state-guide precedence, and auditable decision records. Separates HO 04 90 edition-specific contract terms from matrix referral thresholds and explains Florida and Texas controls that narrow enterprise authority.
 tags: [underwriting, binding-authority, referrals, personal-residential, endorsements, audit, florida, texas]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -27,119 +24,147 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T18:38:23.283Z
 ---
+
 
 ## Purpose and authority boundary
 
-This page is **internal underwriting guidance** for personal residential property. It operationalizes the all-state referral matrix: who may bind a submission, when to route it, what cannot be approved, and what must be retained. It is not policy coverage, contract language, or regulatory authority, and it must not be quoted as any of those. The issued policy, Declarations, and actually attached endorsements remain the source for policy terms; a state bulletin remains the source for its regulatory requirements.
+This page is **internal underwriting guidance** for personal residential property. It operationalizes the all-state referral matrix: who may bind a submission, when to route it, what cannot be approved, and what must be retained. It is not policy coverage, contract language, or regulatory authority, and it must not be quoted as any of those. The issued policy, Declarations, and actually attached endorsements remain the source for policy terms; a state bulletin remains the source for its regulatory requirements. In particular, an HO 04 90 referral threshold is an internal routing control, not a current or legacy endorsement sublimit, deductible, attachment confirmation, coverage grant, or payment amount. [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L1-L53) · [HO 04 90 2010-10, status and W.2-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L19) · [HO 04 90 2026-01, status and W.2-W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L23) · [OIR-2023-04, purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L3-L7)
 
-Referral is an internal escalation tool, not a cure for an out-of-appetite result or a filing conflict. A referral can move a risk to a higher authority tier, but it cannot broaden authority beyond the state guide or the enterprise matrix, and it cannot authorize a binding action that would violate a state filing or bulletin requirement.
+**Precedence invariant — internal underwriting guidance.** Identify and apply the relevant **state-guide provision first**, then treat that provision as constraining the identified enterprise-matrix provision. Florida H.7 constrains the matrix R.2 Coverage A ceilings to $600,000 for line and $900,000 for senior authority; Texas G.7 constrains R.2 to $800,000 and $1,200,000 respectively. State-guide eligibility gates and routing requirements likewise constrain use of the matrix; no state guide may grant broader authority than the matrix. These are internal controls and do not supersede an issued contract or a bulletin. Separately, the matrix R.4 hard stop means a referral or management approval cannot create an exception to a filed rule or bulletin requirement. [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.2](repo://guidelines/authority/referral-matrix.md#L7-L17) · [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
 
-## Control stack and precedence
+Keep the following outcomes distinct in every file:
 
-Apply the controlling layers in this order:
-
-1. the relevant state appetite guide;
-2. the enterprise referral matrix, as constrained by that guide; and
-3. the issued policy record and any applicable state bulletin.
-
-State-specific appetite can narrow enterprise authority, but it cannot grant broader authority than the matrix. Florida H.7 narrows the matrix's Coverage A ceilings, and Texas G.7 does the same. The state guide also supplies the more restrictive eligibility and routing gate for that state, while the matrix provides the cross-state referral and hard-stop framework.
-
-When a state guide and the matrix both speak to the same topic, the state guide governs the narrower internal route. When a filing or bulletin requirement conflicts with an underwriting request, referral and management approval cannot create an exception.
-
-## Binding authority tiers
-
-| Internal underwriting tier | Binding authority | Notes |
+| Internal underwriting guidance outcome | Meaning | Binding result |
 | --- | --- | --- |
-| Line underwriter | Base binding authority within state and matrix limits | May bind only when all eligibility, filing, bulletin, and documentation conditions are met. |
-| Senior underwriter | Expanded authority within the applicable state ceiling | May clear no more than one referral condition per risk. |
-| Management | Above senior authority, more than one referral condition, or exception routing | Management routing is not automatic approval and cannot override a hard stop. |
+| **Referral** | A listed condition requires review by the authorized next tier. A senior underwriter may clear no more than one referral condition per risk. | Bind only after the required authority clears the condition and the record is complete. |
+| **Management approval** | The risk is above senior authority, has more than one referral condition, or is an exception to a filed rule. | Do not treat management routing as automatic approval; an underlying hard stop still prevents binding. |
+| **Cannot be cleared by referral** | The risk is outside appetite entirely, or binding would breach a filing or bulletin. | Do not bind. Refer only for the permitted operational disposition, not to seek an authority exception. |
 
-The matrix is the cross-state ceiling framework; Florida and Texas each impose tighter Coverage A ceilings than the enterprise ceiling. A dollar amount inside the matrix is not automatically bindable if the state guide is tighter or if a separate filing or bulletin gate fails.
+The first two rows are escalation mechanisms; the third is not. The distinction is an internal control that prevents authority tiers from being used to override eligibility or external requirements. [Underwriting Referral and Authority Matrix, R.1 and R.4](repo://guidelines/authority/referral-matrix.md#L7-L10) [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
 
-## Mandatory referral triggers
+## Intake, decision flow, and authority tiers
 
-The following are mandatory referrals under internal underwriting guidance, regardless of Coverage A limit or state:
-
-- two or more paid property claims in three years;
-- any prior claim involving mold, continuous seepage, or foundation movement;
-- a prior liability claim arising from a dog bite, trampoline, or unfenced pool, with a completed liability supplement required before binding;
-- planned exclusion of windstorm and hail with placement in a residual market;
-- a requested water-backup limit above $25,000, or above $10,000 when there is finished area below grade and no battery-backed sump pump;
-- roof surfacing aged 20 years or more; and
-- roof surfacing aged 25 years or more regardless of documentation.
-
-A senior underwriter may clear only one referral condition per risk. More than one referral condition requires management approval.
+**Internal underwriting guidance intake record.** Before authority is selected, capture the state, policy effective date, requested Coverage A, estimated replacement cost, occupancy and renovation/vacancy facts, construction/protection information required by the state guide, prior property/liability/water/mold claims, roof age and evidence, any residual-market wind/hail placement, requested endorsements and limits, and the applicable form/bulletin versions. For any HO 04 90 request, record the selected endorsement edition, the policy-written date used for its edition check, and the declared requested limit; do not record a matrix threshold as the endorsement's contractual default. These are decision inputs and audit evidence; collecting them does not determine coverage. [HO 04 90 2010-10, status and W.2](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L15) · [HO 04 90 2026-01, status and W.2](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L18) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [R.5](repo://guidelines/authority/referral-matrix.md#L41-L47)
 
 ```mermaid
 flowchart TD
-    Intake["Collect state, form, claims, roof, and endorsement facts"] --> StateGuide["Apply the relevant state appetite guide first"]
+    Intake["Collect risk state limit claims roof and endorsement facts"] --> StateGuide["Apply state appetite guide and external requirement checks"]
     StateGuide --> HardStop{"Outside appetite or filing or bulletin conflict"}
-    HardStop -- Yes --> NoBind["Do not bind; record disposition"]
-    HardStop -- No --> Triggers["Count referral conditions and select authority tier"]
-    Triggers --> Count{"More than one referral condition"}
-    Count -- Yes --> Management["Route to management"]
-    Count -- No --> Authority["Line or senior reviewer may clear as permitted"]
-    Management --> Approval{"Approval and evidence complete"}
-    Authority --> Approval
-    Approval -- No --> Hold["Hold for required facts or documentation"]
-    Approval -- Yes --> Bind["Bind and retain auditable decision record"]
+    HardStop -- Yes --> NoBind["Do not bind and record disposition"]
+    HardStop -- No --> WaterRequest{"HO 04 90 requested"}
+    WaterRequest -- No --> Triggers["Identify referral conditions and requested authority"]
+    WaterRequest -- Yes --> Edition["Verify and record selected HO 04 90 edition"]
+    Edition --> Triggers
+    Triggers --> Limit{"Within applicable state and tier ceiling"}
+    Limit -- No --> Management["Route to management when escalation is permitted"]
+    Limit -- Yes --> Count{"More than one referral condition"}
+    Count -- Yes --> Management
+    Count -- No --> Authority["Line or senior reviewer clears as permitted"]
+    Management --> Complete{"Approval and evidence complete"}
+    Authority --> Complete
+    Complete -- No --> Hold["Hold for required facts approval or documentation"]
+    Complete -- Yes --> Bind["Bind and retain auditable decision record"]
 ```
 
-The first route in the flow is escalation, not cure. A referral or management review does not turn an outside-appetite risk into an in-appetite risk.
+*This internal underwriting guidance flow applies the state-guide provision before the enterprise matrix provision it constrains, verifies and records an HO 04 90 edition when that endorsement is requested, then sequences referral counting, authority routing, and documentation. The edition node verifies the documented edition, not attachment or coverage; the flow does not alter a bulletin requirement.* [HO 04 90 2010-10, status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53)
 
-## Hard stops: conditions that cannot be cleared by referral
+### State-guide ceilings constrain enterprise ceilings
 
-The following conditions cannot be cleared by referral under internal underwriting guidance:
+Start with the state guide for the submission state. The table records the enterprise matrix R.1-R.2 ceilings that a state provision can narrow; it does not authorize binding before the state guide's eligibility and routing controls have been met.
 
-- three or more paid water claims of any type in five years;
-- known unrepaired structural damage;
-- a dwelling under renovation that will be unoccupied for more than 30 consecutive days; and
-- any binding action that would violate a state filing or bulletin requirement.
+| Internal underwriting guidance tier | Enterprise Coverage A authority under matrix R.2 | Additional control |
+| --- | ---: | --- |
+| Line underwriter | Up to $800,000 | Base authority only; all referral, endorsement, and state-guide controls remain applicable. |
+| Senior underwriter | Up to $1,500,000 | May clear **one** referral condition per risk. |
+| Management | Above senior authority or more than one referral condition | A property inspection is mandatory for Coverage A above $1,500,000, regardless of construction or protection class. Management cannot cure a hard stop. |
 
-These are non-clearable hard stops. They require either a different operational path or a no-bind disposition; they are not authority exceptions.
+A Coverage A amount below 80% of estimated replacement cost is outside appetite at every tier. This internal eligibility rule depends on the selected HO-3 form's 80% replacement-cost settlement condition; it is not a statement that a particular policy will or will not pay a claim. [Underwriting Referral and Authority Matrix, R.1-R.2](repo://guidelines/authority/referral-matrix.md#L7-L17) · [HO-3 2018-09, A.3](repo://forms/HO/MS/HO-3/2018-09.md#L25-L33)
 
-## Endorsement routing and authority boundary
+Florida H.7 constrains matrix R.2 line/senior ceilings to $600,000/$900,000; Texas G.7 constrains them to $800,000/$1,200,000. Florida H.1 and Texas G.1 also impose state-specific eligibility, while H.7 and G.7 specify additional state management routes. Thus, a dollar amount within R.2 does not itself make a risk bindable. [Florida Homeowners Appetite Guide, H.1 and H.7](repo://guidelines/appetite/fl-homeowners.md#L7-L13) [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.1 and G.7](repo://guidelines/appetite/tx-homeowners.md#L7-L13) [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.2](repo://guidelines/authority/referral-matrix.md#L7-L17)
 
-Endorsement authority is limited to internal configuration and routing. It does not confirm that an endorsement is attached, and it does not expand coverage beyond the issued policy.
+## Mandatory referrals and non-clearable conditions
 
-- HO 04 90 water backup: line authority may attach at the base limit; referrals apply above the matrix threshold and when the below-grade/battery-backed-sump conditions are present; senior authority extends only within the matrix ceiling. The selected HO 04 90 edition must be recorded separately from the routing decision.
-- HO 04 81 mold: line authority may attach at the base limit; higher limits require referral and the applicable state guide disclosure.
-- HO 23 74 ACV roof schedule: line authority may attach only when the state permits it at the roof's age.
-- HO 04 16 ordinance or law: line authority may attach without a matrix limit condition.
+### Referral triggers
 
-For HO 04 90, the internal request must be kept separate from the contract terms. The selected edition, policy-written date, and endorsement Declarations determine the issued contractual default and deductible, while the matrix threshold only determines internal routing.
+The following are **mandatory referrals under internal underwriting guidance**, regardless of Coverage A limit or state:
 
-## Texas and Florida state-guide controls
+- Two or more paid property claims in three years; or any prior claim involving mold, continuous seepage, or foundation movement.
+- A prior liability claim arising from a dog bite, trampoline, or unfenced pool. Obtain the completed liability supplement before binding.
+- Planned exclusion of windstorm and hail with placement in a residual market.
+- A requested water-backup limit above $25,000, or above $10,000 when there is finished area below grade and no battery-backed sump pump.
+- Roof surfacing aged 20 years or more; at 25 years or more, the referral applies regardless of documentation.
 
-Florida and Texas both narrow the enterprise matrix in different ways:
+The mold/seepage/foundation trigger is internal risk-selection guidance that depends on the HO-3 exclusions identified by the matrix; it is not a coverage determination. Similarly, the residual-market trigger is an underwriting route and does not replace state-specific attachment, acknowledgment, or other external prerequisites. [Underwriting Referral and Authority Matrix, R.3](repo://guidelines/authority/referral-matrix.md#L19-L31) · [HO-3 2018-09, C.2-C.3](repo://forms/HO/MS/HO-3/2018-09.md#L83-L90) · [Texas Homeowners Appetite Guide, G.4](repo://guidelines/appetite/tx-homeowners.md#L31-L35)
 
-- Florida H.1-H.7 control eligibility, roof review, water backup, mold, deductible overlap, and management routing.
-- Texas G.1-G.7 control occupancy, roof/schedule rules, wind/hail deductible handling, residual-market exclusion routing, water backup, and management routing.
+### Hard stops: do not seek an authority exception
 
-In both states, a referral cannot clear a filing conflict, bulletin conflict, or out-of-appetite condition. State-guide limits come first, then the enterprise matrix, then the issued policy record.
+The following conditions **cannot be cleared by referral under internal underwriting guidance**:
 
-## Documentation and audit standard
+- Three or more paid water claims of any type in five years.
+- Known unrepaired structural damage.
+- A dwelling under renovation that will be unoccupied for more than 30 consecutive days; use the appropriate builders-risk or vacancy form path instead.
+- Any binding action that would violate a state filing or bulletin requirement.
 
-Every cleared referral must record:
+For example, Florida H.4 makes two or more water claims in five years outside appetite for the water-backup endorsement and three or more outside appetite for the entire risk. H.4 is the state-guide provision to apply first; it constrains the matrix R.4 hard-stop workflow where it is more restrictive. [Florida Homeowners Appetite Guide, H.4](repo://guidelines/appetite/fl-homeowners.md#L27-L33) · [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
 
-1. the condition that triggered referral;
-2. the authority level that cleared it;
-3. the specific facts relied on; and
-4. the date.
+## Endorsement authority and source dependencies
 
-A referral cleared without a recorded basis is treated as unbound authority in audit and is charged back to the clearing underwriter's file review. Declination notes must state the actual deficiency rather than a generic reason. Where a state bulletin requires a more specific declination basis, that stricter standard controls.
+Endorsement authority below is **internal underwriting guidance for configuration and routing**, not confirmation that an endorsement is attached or that it provides coverage. Verify the issued form edition, compatibility, attachment, and Declarations separately. For HO 04 90, select **2010-10** for a policy written under that continuing edition and **2026-01** for policies written on or after 2026-01-01 only after attachment is verified; the endorsement has its own written-date rule. A higher amount shown in the Declarations is a form-level dependency; it does not enlarge an underwriter's authority. [HO 04 90 2010-10, supersession and continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
 
-## Focused pre-bind and audit tests
+Each form has a separate contract relationship to the HO-3 provision it names. **Either HO 04 90 edition modifies Exclusion A.3; HO 04 81 provides limited coverage for a cause otherwise excluded by C.2; HO 04 16 modifies Exclusion D.1; and HO 23 74 modifies A.4.** These relationships describe the effect of a verified, compatible attachment; the matrix does not select an attachment or decide its coverage result. [HO 04 90 2010-10, attachment and scope](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L12) · [HO 04 90 2026-01, attachment and scope](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L11) · [HO-3 2018-09, A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 81, attachment and M.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L1-L10) · [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) · [HO 04 16, attachment and O.1](repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L9) · [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74, attachment and R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
 
-Run these checks before binding and during file review:
+| Endorsement / request | Internal authority route | Contract relationship and configuration evidence to record |
+| --- | --- | --- |
+| **HO 04 90** water backup | **Matrix control:** line authority is attachment at an unspecified base limit; R.3 requires referral above $25,000 and above $10,000 with finished area below grade and no battery-backed sump pump; R.5 gives senior authority through $50,000. These routing thresholds do not state the endorsement's default contractual limit. Apply stricter state-guide gates first, and record the selected edition, requested limit, and authority route. | **2010-10:** W.2 has a $5,000 default policy-period sublimit and W.3 a $500 separate deductible, unless its Declarations state otherwise. **2026-01:** W.2 has a $10,000 default policy-period sublimit and W.3 a $1,000 separate deductible, unless its Declarations state otherwise; new W.6 adds a finished-below-grade backflow-prevention condition. Both editions attach to HO-3 and modify A.3. Record verified attachment, edition, selected limit, and any applicable condition evidence; do not treat the matrix's $10,000, $25,000, or $50,000 values as contract terms. [Matrix R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [HO 04 90 2010-10, status and W.1-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L19) · [HO 04 90 2026-01, status and W.1-W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L47) · [HO-3 2018-09, A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) |
+| **HO 04 81** limited fungi, wet/dry rot, or bacteria | Line underwriter may attach at the base limit. Senior authority extends to a $25,000 mold limit; above-base limits require referral, and Florida additionally requires a plumbing-age disclosure. | HO 04 81 attaches to HO-3 and provides limited coverage for a cause otherwise excluded by C.2; its $10,000 aggregate applies unless a higher limit is in the Declarations. Record compatibility, attachment, edition, and limit. [HO 04 81, attachment and M.1-M.3](repo://forms/HO/MS/HO-04-81/2018-09.md#L1-L23) · [HO-3 2018-09, C.2](repo://forms/HO/MS/HO-3/2018-09.md#L83-L89) |
+| **HO 23 74** ACV roof-surfacing schedule | Line underwriter may attach without a matrix limit condition, subject to every state guide and bulletin gate. | HO 23 74 attaches to HO-3 and modifies A.4; A.4 sends roof-surfacing settlement to an attached schedule only for the stated windstorm/hail branch. Record the selected HO-3 edition and issued attachment. [HO 23 74, attachment and R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) |
+| **HO 04 16** ordinance or law | Line underwriter may attach without a matrix limit condition. | HO 04 16 attaches to HO-3 and modifies D.1; its 10%-of-Coverage-A limit applies unless a higher percentage is shown in the Declarations. Record compatibility, attachment, edition, and selected percentage. [HO 04 16, attachment and O.1-O.2](repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L13) · [HO-3 2018-09, D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) |
 
-1. **Precedence test:** identify the state-guide provision first, then identify the matrix provision it constrains. Fail the file if a state ceiling or eligibility gate was widened by reference to the enterprise matrix.
-2. **Hard-stop test:** fail any workflow that presents a referral or management approval as a way to bind a hard-stop risk or a filing/bulletin conflict.
-3. **Referral-count test:** count distinct referral conditions. Senior clearance is limited to one condition; management routing occurs for more than one.
-4. **Authority-limit test:** compare requested Coverage A with both the state and enterprise tier ceiling; require inspection evidence above the management inspection threshold where applicable.
-5. **Endorsement test:** validate the selected form/edition, requested limit, and state-specific gate. For HO 04 90, keep the endorsement edition and its issued-default terms separate from matrix referral thresholds.
-6. **Audit-record test:** reject a cleared referral that lacks the condition, authority tier, facts, or date.
+### HO 04 90 edition and guide-alignment control
 
-For state-specific operational detail, see [Florida Homeowners Appetite](/openwiki/underwriting/florida-appetite.md), [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite.md), [Florida Roof Age, ACV Schedule, and Nonrenewal Overlay](/openwiki/state-overlays/florida.md), and [Texas Windstorm and Hail Deductible Overlay](/openwiki/state-overlays/texas.md).
+The HO 04 90 form and the state guides use different kinds of values. The matrix's $10,000/$25,000/$50,000 figures are referral or authority thresholds; they do not revise either edition's W.2 default or W.3 deductible. Florida H.4 permits the base W.2 sublimit without referral and adds a battery-backed-sump requirement for a higher limit where finished area is below grade. That is a state-guide eligibility control, distinct from 2026-01 W.6's at-loss requirement for an installed and operable backwater valve or equivalent device. Neither rule proves attachment, and neither substitutes for the other. [Florida Homeowners Appetite Guide, H.4](repo://guidelines/appetite/fl-homeowners.md#L27-L33) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [HO 04 90 2026-01, W.2-W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L47)
+
+Texas G.3 describes the HO 04 90 W.2 base sublimit as $5,000, while 2026-01 W.2 states a $10,000 default and replaces 2010-10 for policies written on or after 2026-01-01. This is a **guide/form version mismatch**, not evidence that the guide changes the issued form, that the 2010-10 form applies, or that a particular limit may be bound. The supplied matrix and guides do not state a resolution rule for that mismatch. Preserve the selected edition and the guide provision in the decision record and obtain the applicable configuration or underwriting direction before characterizing a current-policy default or binding outcome. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [HO 04 90 2010-10, W.2](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L15) · [HO 04 90 2026-01, replacement rule and W.2](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L18)
+
+Apply a state-guide provision before the matrix route it constrains. Florida H.4/H.6 and Texas G.3 add water-backup or mold eligibility gates, base-limit treatment, claims-history thresholds, or sump requirements that constrain the all-state R.3/R.5 routing; do not use the matrix to relax them. Where G.3's stated $5,000 base treatment meets a selected 2026-01 endorsement, leave the operational configuration question unresolved rather than treating the matrix or guide as a contract amendment. [Florida Homeowners Appetite Guide, H.4 and H.6](repo://guidelines/appetite/fl-homeowners.md#L27-L45) · [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [HO 04 90 2026-01, W.2](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L18) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L47)
+
+### Florida roof-schedule dependency
+
+For Florida policies in the bulletin's stated effective-date scope, **OIR-2023-04 F.4 constrains the HO 23 74 offer/application path**: an insurer may offer a separate roof deductible or ACV roof schedule only with the policy-without-provision offer at a filed and approved rate and written premium-difference disclosure at the time of offer, and it may not apply an ACV schedule to a roof under 10 years old at the policy effective date. Florida H.2 adds the internal requirement to retain the comparison quote. This regulatory and state-guide sequence constrains the matrix R.5 route; neither the matrix route nor the F.4-compliant offer proves that an endorsement was issued. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [Florida Homeowners Appetite Guide, H.2](repo://guidelines/appetite/fl-homeowners.md#L15-L21) · [Underwriting Referral and Authority Matrix, R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [HO 23 74, attachment and R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
+
+F.4 is a regulatory constraint, not contract language. Separately, a verified compatible HO 23 74 attachment modifies HO-3 A.4, which makes the attached schedule govern the stated windstorm/hail roof-surfacing settlement branch. The selected form, Declarations, and attachment record establish that contract relationship; F.4 does not modify A.4 or attach the endorsement. [OIR-2023-04, F.4](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25) · [HO 23 74, attachment and R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
+
+Florida H.2 requires an inspection before binding for a roof aged 15 years or more; that state-guide requirement constrains the matrix R.3 20-year roof-referral workflow by adding a pre-bind gate. It cannot be used to bypass the bulletin's inspection, decision-basis, F.4 offer/application, or nonrenewal controls. For Florida roof-condition nonrenewal, H.3/H.7 require Compliance and management routing before issuance; preserve the notice packet. [Florida Homeowners Appetite Guide, H.2-H.3 and H.7](repo://guidelines/appetite/fl-homeowners.md#L15-L25) [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.3 and R.6](repo://guidelines/authority/referral-matrix.md#L19-L31) [Underwriting Referral and Authority Matrix, R.6](repo://guidelines/authority/referral-matrix.md#L49-L53) · [OIR-2023-04, F.2-F.5](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L9-L29)
+
+## Documentation, audit, and focused controls
+
+**Auditable-decision invariant — internal underwriting guidance.** Every cleared referral must identify the condition, clearing authority level, specific facts relied on, and clearance date. A referral without its recorded basis is treated as unbound authority in audit and is charged back to the clearing underwriter's file review. Declination notes must identify the actual deficiency; where a state bulletin has a more restrictive decision-basis requirement, the state standard controls. [Underwriting Referral and Authority Matrix, R.6](repo://guidelines/authority/referral-matrix.md#L49-L53) · [OIR-2023-04, F.2](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L9-L13)
+
+Use one decision record per submission and append evidence rather than overwriting the initial facts. At a minimum, retain:
+
+1. **Inputs and versioning:** policy effective date, policy-written date for HO 04 90 edition selection, state, estimated replacement cost, requested Coverage A and endorsements/limits, state guide version, matrix version, selected base-form and HO 04 90 endorsement edition, and applicable bulletin identifier. For HO 04 90, identify the form default applicable to the selected edition separately from matrix referral thresholds and the requested/Declarations limit. [HO 04 90 2010-10, status and W.2](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L15) · [HO 04 90 2026-01, status and W.2](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L18) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [R.5](repo://guidelines/authority/referral-matrix.md#L41-L47)
+2. **Eligibility and triggers:** occupancy/renovation facts, claim histories, liability supplement if required, roof-age source, inspection and condition evidence, below-grade/sump evidence, and residual-market acknowledgment path where relevant.
+3. **Authority action:** each referral condition counted, the selected tier, reviewer identity/authority level, management or Compliance routing where required, the precise approval/declination/disposition, facts relied on, and date.
+4. **Endorsement configuration:** requested and approved amount, base-form and endorsement edition, comparison/offer artifacts where a Florida roof schedule or roof deductible is offered, and issued Declarations/attachment confirmation when available.
+5. **Hard-stop or notice record:** the state filing/bulletin conflict or out-of-appetite reason, no-bind disposition, and, for Florida roof-condition nonrenewal, the notice date, specific reason, every relied-on inspection report, management approval, and Compliance completion.
+
+These records support an internal audit trail and state-specific operational checks; they are not extra policy conditions. The Florida nonrenewal fields also support the bulletin's county-disaggregated reporting dependency, while the insured-facing notice standard itself must be checked against the bulletin. [Underwriting Referral and Authority Matrix, R.6](repo://guidelines/authority/referral-matrix.md#L49-L53) · [Florida Homeowners Appetite Guide, H.3](repo://guidelines/appetite/fl-homeowners.md#L23-L25) · [OIR-2023-04, F.5 and F.7](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L27-L37)
+
+### Focused pre-bind and audit tests
+
+Run these **internal underwriting guidance** checks before binding and during file review:
+
+1. **Precedence test:** Identify the state-guide provision first, then identify the matrix provision it constrains. For Florida H.7 and Texas G.7, test the state ceilings against matrix R.2; fail the file if a state ceiling or eligibility gate was widened by reference to the enterprise matrix. [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.2](repo://guidelines/authority/referral-matrix.md#L7-L17)
+2. **Hard-stop test:** Fail any workflow that presents a referral or management approval as a way to bind a three-water-claim risk, unrepaired structural damage, long vacant renovation, or a filing/bulletin conflict.
+3. **Referral-count test:** Count distinct referral conditions. Confirm senior clearance is limited to one condition and management routing occurs for more than one.
+4. **Authority-limit test:** Compare requested Coverage A with both the state and enterprise tier ceiling; require inspection evidence above $1,500,000 even where management is the appropriate route.
+5. **Endorsement test:** Validate each selected form/edition, requested limit, and state-specific gate. For water backup, record 2010-10 or 2026-01 before testing the $25,000 referral threshold and the above-$10,000 finished-below-grade battery-backed-sump evidence. Keep that threshold separate from the selected edition's W.2 default and W.3 deductible; if 2026-01 is selected, separately preserve W.6 backflow-device evidence. In Texas, flag G.3's $5,000 base-limit statement against a selected 2026-01 $10,000 W.2 default and obtain direction rather than inferring an outcome. For mold, test the base-versus-higher-limit route and the Florida plumbing-age disclosure. [Texas Homeowners Appetite Guide, G.3](repo://guidelines/appetite/tx-homeowners.md#L23-L29) · [Underwriting Referral and Authority Matrix, R.3 and R.5](repo://guidelines/authority/referral-matrix.md#L19-L30) [R.5](repo://guidelines/authority/referral-matrix.md#L41-L47) · [HO 04 90 2010-10, W.2-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L19) · [HO 04 90 2026-01, W.2-W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L47)
+6. **Florida roof test:** For an in-scope policy, separately test the H.2 15-year inspection gate, the R.3 20-year matrix referral, and F.4's constraint on the HO 23 74 offer/application path: the under-10-years-at-effective-date prohibition plus the no-provision offer and written premium-difference evidence. Also test the roof-condition nonrenewal management/Compliance packet. Verify the selected HO-3 edition and actual HO 23 74 attachment separately; never collapse these checks into a generic roof-age rule. [Florida Homeowners Appetite Guide, H.2-H.3 and H.7](repo://guidelines/appetite/fl-homeowners.md#L15-L25) [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.3](repo://guidelines/authority/referral-matrix.md#L19-L31) · [OIR-2023-04, F.4-F.5](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L29) · [HO 23 74, attachment and R.1-R.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15) · [HO-3 2018-09, A.3-A.4](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34)
+7. **Audit-record test:** Reject a cleared referral that lacks the condition, authority tier, facts, or date; reject a declination note that lacks a specific deficiency where the Florida bulletin dependency applies.
+
+For state-specific operational detail, see [Florida Homeowners Appetite](/openwiki/underwriting/florida-appetite.md), [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite.md), [Florida Roof Age, ACV Schedule, and Nonrenewal Overlay](/openwiki/state-overlays/florida.md), and [Texas Windstorm and Hail Deductible Overlay](/openwiki/state-overlays/texas.md). For issued-form analysis rather than underwriting routing, see [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) and [Water Damage Exclusions and Water Backup Write-Back](/openwiki/coverage/property/water-damage-and-backup.md).

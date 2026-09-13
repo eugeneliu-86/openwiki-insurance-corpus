@@ -1,11 +1,8 @@
 ---
 type: underwriting-guidance
 title: Florida Homeowners Appetite
-description: Internal Florida homeowners underwriting guidance for eligibility, referral authority, roof controls, and endorsement configuration. Distinguishes appetite controls from issued-policy terms and Florida bulletin requirements.
+description: Internal Florida homeowners underwriting guidance for eligibility, authority routing, roof and nonrenewal controls, and endorsement configuration. Reconciles Florida's water-backup pre-bind controls with the separate contract terms in the issued HO 04 90 edition.
 tags: [florida, homeowners, underwriting, appetite, authority, roof, nonrenewal, water-backup, mold, deductibles]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -23,31 +20,29 @@ sources:
     resource: repo://guidelines/appetite/fl-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T18:38:23.283Z
 ---
+
 
 ## Purpose and authority boundary
 
 This page is **internal underwriting guidance** for Florida personal residential property. It directs risk selection, referral, documentation, and issuance workflow. It is not policy language, does not establish coverage, and must not be quoted to an insured or claimant.
 
-The internal control stack is:
+**Primary internal authority: Florida Homeowners Appetite Guide.** Apply that guide first for Florida-specific eligibility, limits, roof controls, endorsement gates, and management/Compliance routing. The enterprise referral matrix is an **authority dependency**: it can add an equal or stricter escalation and documentation requirement, but cannot broaden Florida authority. The Florida guide is not a policy contract. [Florida Homeowners Appetite Guide, status and H.1-H.7](repo://guidelines/appetite/fl-homeowners.md#L1-L49) · [Underwriting Referral and Authority Matrix, R.1](repo://guidelines/authority/referral-matrix.md#L1-L11)
 
-1. the Florida Homeowners Appetite Guide, which sets Florida-specific eligibility and internal routing;
-2. the enterprise referral matrix, which may add equal or stricter escalation and documentation requirements but cannot broaden Florida authority; and
-3. the controlling Florida bulletin and issued policy forms, which govern regulatory requirements and contract terms after issuance.
-
-Use the Florida guide first for eligibility, roof controls, endorsement gates, and management/Compliance routing. The referral matrix is an authority dependency only: it can tighten the route, but it cannot cure an out-of-appetite result or override a filed rule. The guide is not policy language. [Florida Homeowners Appetite Guide, H.1-H.7](repo://guidelines/appetite/fl-homeowners.md#L7-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53)
-
-Keep the internal guide, bulletin, and issued forms separate:
+Keep the internal guide, regulatory bulletin, and issued forms separate:
 
 | Layer | What it controls | What it does **not** do |
 | --- | --- | --- |
-| **Internal appetite guide** | Florida eligibility, bind/referral authority, required file documentation, and Compliance/management routing. | Change an issued contract or approve an out-of-appetite result. |
-| **Referral matrix** | Enterprise referral triggers, maximum authority, and documentation standards, to the extent they are not less restrictive than the Florida guide. | Broaden Florida authority or approve a filing/bulletin exception. |
-| **Florida bulletin OIR-2023-04** | Binding Florida controls for in-scope policies: roof-age decisions, inspection, offer, nonrenewal, deductible overlap, and annual reporting. | Attach an endorsement, select a deductible amount, or determine claim coverage. |
-| **Issued HO-3, Declarations, and endorsements** | The actual policy coverage, limits, deductibles, and settlement terms. | Supply underwriting authority or replace bulletin issuance/renewal controls. |
+| **Primary internal authority — Florida appetite guide** | Florida eligibility, bind/referral authority, required file documentation, and Compliance/management routing. | Change an issued contract or approve an out-of-appetite result. |
+| **Authority dependency — referral matrix** | Enterprise referral triggers, maximum authority, and documentation standards, to the extent they are not less restrictive than the Florida guide. | Broaden Florida authority or approve a filing/bulletin exception. |
+| **Regulatory dependency — OIR Bulletin OIR-2023-04** | Binding Florida controls for in-scope policies: roof-age decisions, inspection, offer, nonrenewal, deductible overlap, and annual reporting. | Attach an endorsement, select a deductible amount, or determine claim coverage. |
+| **Contract-form dependency — issued HO-3, Declarations, and endorsements** | The actual policy coverage, limits, deductibles, and settlement terms. | Supply underwriting authority or replace bulletin issuance/renewal controls. |
 
-The bulletin applies to Florida personal residential property policies issued or renewed with an effective date on or after 2023-07-01. Forms control only when issued and attached: HO 23 74 attaches to HO-3 and modifies A.4; the selected issued edition of HO 04 90 attaches to HO-3 and modifies Section I Exclusion A.3; and HO 04 81 attaches to HO-3 and provides limited coverage for a cause otherwise excluded by C.2. These contract relationships are separate from internal authority to configure an endorsement. [OIR-2023-04, applicability and purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L7) · [HO-3 2018-09, A.3-A.4 and exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) · [HO-3 2018-09, A.3 and C.2](repo://forms/HO/MS/HO-3/2018-09.md#L75-L89) · [HO 23 74 2018-09, attachment](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO 04 90 2010-10, attachment and continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, attachment and replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [HO 04 81 2018-09, attachment](repo://forms/HO/MS/HO-04-81/2018-09.md#L1-L4)
+The bulletin applies to Florida personal residential property policies issued or renewed with an effective date on or after 2023-07-01. Forms control only when issued and attached: HO 23 74 attaches to HO-3 and modifies A.4; the **selected issued edition** of HO 04 90 attaches to HO-3 and modifies Section I Exclusion A.3; and HO 04 81 attaches to HO-3 and provides limited coverage for a cause otherwise excluded by C.2. These contract relationships are separate from internal authority to configure an endorsement. [OIR-2023-04, applicability and purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L7) · [HO-3 2018-09, A.3-A.4 and exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) · [HO-3 2018-09, A.3 and C.2](repo://forms/HO/MS/HO-3/2018-09.md#L75-L89) · [HO 23 74 2018-09, attachment](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L4) · [HO 04 90 2010-10, attachment and continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, attachment and replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [HO 04 81 2018-09, attachment](repo://forms/HO/MS/HO-04-81/2018-09.md#L1-L4)
 
 > **Do not cure an out-of-appetite result or a bulletin/form constraint with a referral.** Management approval is required in the situations below, but it cannot approve an exception to a filed rule or bind a risk that is outside appetite entirely. [Underwriting Referral and Authority Matrix, R.1 and R.4](repo://guidelines/authority/referral-matrix.md#L7-L10) [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
 
@@ -101,7 +96,7 @@ flowchart TD
     Nonrenewal -- Yes --> Compliance["Management and Compliance before notice issuance"]
 ```
 
-The internal workflow applies the Florida guide first, then the effective-date-gated bulletin controls and matrix authority overlay. A referral never cures an out-of-appetite or regulatory result. When HO 04 90 is issued, the file must separately preserve attachment, policy-written date, endorsement edition, and Declarations; that record identifies the controlling contract terms rather than the internal configuration rule. [Florida Homeowners Appetite Guide, H.1-H.7](repo://guidelines/appetite/fl-homeowners.md#L7-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53) · [OIR-2023-04, applicability and F.2-F.5](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L3-L29) · [HO 04 90 2010-10, continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
+*The internal workflow applies the Florida guide first, then the effective-date-gated bulletin controls and matrix authority overlay. A referral never cures an out-of-appetite or regulatory result. When HO 04 90 is issued, the file must separately preserve attachment, policy-written date, endorsement edition, and Declarations; that record identifies the controlling contract terms rather than the internal configuration rule.* [Florida Homeowners Appetite Guide, H.1-H.7](repo://guidelines/appetite/fl-homeowners.md#L7-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53) · [OIR-2023-04, applicability and F.2-F.5](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L3-L29) · [HO 04 90 2010-10, continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
 
 ## Roof review, inspection, and schedule configuration
 
