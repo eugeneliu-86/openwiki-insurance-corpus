@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:10ac7146163b95425e0871487794b8ea973a42030afc90c5f0906e699caf9e05",
+  "pageVersion": "sha256:0794548532808d09c43b9b3b7779994ba17b97a1944c2f90b861013ccda56c03",
   "claims": [
     {
       "id": "claim_1e6e71fed3474b58a6d8036b82590f19",
@@ -203,10 +203,120 @@
           "version": "repo-lines-v1:sha256:7c4fb71fc3f7a5f0237e60e2c60990412f222832d7f78e45fb43b134f497591e:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmQ4YmE0YTk1Yzc2ZTBiYjE3MjA4MmRjZDg4NGI2NDdiNjNmOWRmMDBlOTg1N2UyNDA3NTg5Y2ZlZWJlYzFmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGNmMTMxZTFmMGQxYjU3OWQ1MmY0NWJjYjczZjYwNDQ0ZDNhY2IzYWRkODliMjQyYTllYTFjNjcxNTEyZmFmZCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_42e628a8de914339b852e34046b593c8",
+      "statement": "Texas Bulletin B-2021-08 and HO 01 45 are separate authorities: the bulletin sets regulatory deductible, disclosure, filing, named-storm, and residual-market requirements for Texas residential property policies, while HO 01 45 is the contract amendment that attaches to HO-3 and controls conflicting base-form deductible language when it is issued and effective.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L1-L7",
+          "version": "repo-lines-v1:sha256:dd8d39ebcea2c85f01271cde7a7532b64fdccb03bd1903598e3ab435f8242575:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhiOTNiMDczMmU2ZjI0ODIzNDQ3MjlhZDE3YzA0NmU4MjdjYWIyZGM0MzU0MmViNzc4YzdmNDQ3ZmE2ZTYzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk2NTUwMjYyMWRlN2I2MWNiYTZmYWIxNWJiYzUyMzk5MDU2NzM2Njk4Nzg5NDBmM2FiYTNkMDc2NjE1NmQ1MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY3NzljMWNjZGQyMmM5ZThlNDQ0ZmZmOGM2NGNlZTMxZTJlYmM5MWIxZjJkMDUxOTcyNzdkMDI2OTdjMTI3YyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:85c32034ad5858d06dd010e143e41bd10c21365066c6f88e4b8e54c6f151b750:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmU1NjViYjdlZDVjMzZmZmRhMWQ1ZjBlNzg4OThjZGM5ZjU0NWFhZWFlN2Y5MzM4NTViNzY4NmY5MDE1MzI4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU0ODI0MWMwY2JlOGJmZTVlYWMzYmYyODI0ZDRmNTM5YTQ4NzY3ODdlOGExOWI2MzNhZDI1M2MxNjAyNTBkYiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L5-L11",
+          "version": "repo-lines-v1:sha256:e48403c6b1a0dc28174ae2d116f5f06364a1e8b4001eb5503ced3c75839bb6a3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFlZTM0M2ZmOTE3NjAwYTVmNTU3N2QxMmZjNzE1MmZiM2E3ZmM1MTY3ZjgxMzZmN2MzZTAzZjE1ODMwMWVlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZmYzNjOWMzM2M1ODZhYjBlZjMzMmRmZDE5MWYyODNiZDdiNmEyNmZiYTYxMDIzM2Q3YmIzNDdhY2E1ZjA4MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDlkNDJmMGIwMGM5ZmYyZDhkYTBkYjUzZTA3YWNhY2ExMjAzZjlmZWQ2OTA2ZTY0ZDExNjYyNWJlMjY2Y2Q3YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGNjN2Q5MTc0NjAzNjhkYjFhNjM3ZWNlNzc1OTMxNmIxMDQwYzg1OTIyNmNkODllNTMyMTIxOWVkNmI3MDIxNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_af69e34ca3da4eb3bf679ba41d310338",
+      "statement": "Operational deductible handling on the page separates three decision layers: confirm bulletin applicability and endorsement attachment from the issued policy record, then apply the windstorm/hail loss rules, then test mixed-peril allocation before computing the net deductible result.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L1-L7",
+          "version": "repo-lines-v1:sha256:dd8d39ebcea2c85f01271cde7a7532b64fdccb03bd1903598e3ab435f8242575:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhiOTNiMDczMmU2ZjI0ODIzNDQ3MjlhZDE3YzA0NmU4MjdjYWIyZGM0MzU0MmViNzc4YzdmNDQ3ZmE2ZTYzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk2NTUwMjYyMWRlN2I2MWNiYTZmYWIxNWJiYzUyMzk5MDU2NzM2Njk4Nzg5NDBmM2FiYTNkMDc2NjE1NmQ1MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY3NzljMWNjZGQyMmM5ZThlNDQ0ZmZmOGM2NGNlZTMxZTJlYmM5MWIxZjJkMDUxOTcyNzdkMDI2OTdjMTI3YyJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L15-L19",
+          "version": "repo-lines-v1:sha256:9714f0936aa961f6f4eabd55b892d8880353d85031a1c434c31da1fce6a1267b:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y4MTI4ZGQyZWI0OTc5NzExOWNmOTI4NDJhZWViNGZmZjY5YTA5OWM1NTNiNTQ2NDdlODExN2NmNzMwOTIzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZmYzNjOWMzM2M1ODZhYjBlZjMzMmRmZDE5MWYyODNiZDdiNmEyNmZiYTYxMDIzM2Q3YmIzNDdhY2E1ZjA4MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGIwNWNjYmM1NDlkMmQ3YjY2YzIwNGI4ZjllMDhkMTVlMDgxNzgwMjliOTdiYmE0OGQ2NjNlMTNiOWExNjVlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc5OGVhN2MyZDE4YjVjM2NiYTBhY2U2NWIzNTI2YTNjNzk3NjNkNzNmYzA3MmRmYjIwZTFjMzdkM2VmNGE2MiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11",
+          "version": "repo-lines-v1:sha256:06998020169142d007a27ab4eb049b43ebd934e26d9891a7e2ef83dc1be31560:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlNTY1YmI3ZWQ1YzM2ZmZkYTFkNWYwZTc4ODk4Y2RjOWY1NDVhYWVhZTdmOTMzODU1Yjc2ODZmOTAxNTMyOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2ZmMzYzljMzNjNTg2YWIwZWYzMzJkZmQxOTFmMjgzYmQ3YjZhMjZmYmE2MTAyMzNkN2JiMzQ3YWNhNWYwODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjYzdkOTE3NDYwMzY4ZGIxYTYzN2VjZTc3NTkzMTZiMTA0MGM4NTkyMjZjZDg5ZTUzMjEyMTllZDZiNzAyMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a4f2721742244366b4a364ad323a216e",
+      "statement": "B-2021-08 and HO 01 45 both preserve the named-storm concept as a Texas deductible topic: the named-storm period starts when the National Hurricane Center names the storm, ends 72 hours after discontinuation, and aggregates windstorm/hail losses in that period into one occurrence when the Declarations select a per-named-storm deductible.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L27-L29",
+          "version": "repo-lines-v1:sha256:40193cb3fc88d6cc42f76d47d619493c9d2fa1a6731c6036f285341f1d539815:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDg0MDFlYTViNDYxYzUzMjJhMmU4ZGUyZTU2NWJmOTc1MDdiMTZiN2ZlNjk0NjMwZjIzZTQwYjk2ODY0Yzg2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU5ZTZkY2I2MDFjMmE2OTAyNzM2YzgxZGYzMDdkYWQzZGYzZGEzOGIwMGRhZmQ3MTY4ODQ3MzdmYjM2ZjQ1MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2ZjY2U2ZGZmMTZhMTc5MTUzMDI1MTQ4M2EwZWU0MGMyNDI4ZjI2ZjMyNmM5ZGQxOWU2ODhmNDkwNzRhZDgyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzY4Y2IwNWFlZTE2ZTg0Mjc4YzliYmU4NGRhMzk0MGY2ZWYzOTE2NDYzOWMxYTQ2NGYxMzhhNDlmMTViNDhkYiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L17-L19",
+          "version": "repo-lines-v1:sha256:3448db841783c06caed2a592535b0361ef3f0f4ab96e1b8031b97f27e4fe056a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjdlMmZjZGJiYzBmMTgyMGQwZTU1NWU4MGIxM2M1Zjk2ZGM3YWQ0ZmM3MTI3YWRkMjhmYjJhNWM2MTUxOGM4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODBiMjVmOGJjNWQ4YTZjZjA5MWNjZDUxODg0M2Y1NGJkYjBlZTAwOWQzMTg3OWFlMjExNzQwMDNjMmFlY2ZiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzBkYTVlODI3NjcyNmZkMDBmMTcyN2JhNTdlNzAwMTQ4ZmExZWJkNzU2YTNmNjRkZTI4ZWZiYTMyYzA3M2I3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJiYWQ4Y2QyMGY0YzVmMGFjMDY1ZDQzM2Y2YTBhNGJkOGQ4NDg3OTRkZmZmOTRiYjIwN2EzOTRmNzRlNjVhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e37308897d1c44cdaa5e472c12393b69",
+      "statement": "The Texas overlay treats seacoast territory as a state-overlay concept with a source-specific reference date: B-2021-08 uses the Department territory definitions in effect on the bulletin date, while HO 01 45 T.6 uses the definitions in effect on the endorsement's effective date.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L31-L33",
+          "version": "repo-lines-v1:sha256:a40639105103be663f2f57de2101a9b74f8f6152ba1b2191eeca3fe731d3556c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGU2NjMwNWI0NTA5MjM3NmFkMjg3MzA0YTMwZGJmZDIyMTRhY2JmNjYyMzRjNzZhNjMyZjBhMDQ3ZmRjNjI0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODgwN2I3MjQyNDE3YmI2NWNhZTE4ZjI0ODBjYmVlNmMyNmM2ZDI5ZDUwOWJkM2M0ZDYzZDI2NTU2YTY0MGIwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZlZjE0ZjdjMDZlZWZhN2JhYzY5Yjc4NzYzOGMwYTYwNDA2YTY2NTRjZjNhZjU2NDYzMWM4ODYwZDRlZjU1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGIxMDVjNDJhZTk5ZThkZGM5NTBhYWQ4MTUxM2EyOGRlYTczYzFhNDJmNWNiNGFhYzQ0ODM3YzAyNTM0YjI0ZiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L29-L31",
+          "version": "repo-lines-v1:sha256:40657a0900bd5589021ebb21d5b83f30fb8d6e68e95df1743f5e1b07f74676a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEwYmEwYTNjYTAxMjhjYjY2Y2JmY2MyYTg5MDEwYWViMDczYTU3NDM2NDMzMDE0ODQzNWYzNWYzYzhlNTY1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWNiZjBmMWY2OTg2NWU5MzhiMjA2NmUyM2FiMDhhZWMwYWMwOTE0MjNhYjY0ODMyYWUwNWViNjUxNDRlMzE2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2FmYTZkYzBiNjhjNTI4Y2EwNzYyZWQxMDZkMGJkMDdlNTkwODJiNzBhMzJmNWU4ZmYzNDk5OWYyN2VjZTQ1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTI4ZmJjNGZhYmJmYmViMGZmNTI2MTYxYWVlMTc2ZGU2MzU4NTE1ZDEwZDY5OTRlOGQ3Yzg5ZGZhODQ1MzEzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2901b8555c7f41f0b54c07853b2729ca",
+      "statement": "HO 01 45 T.7 is the residual-market exclusion branch: if the insured obtains Texas Windstorm Insurance Association coverage and the applicable exclusion endorsement and signed acknowledgment are in place at binding, then windstorm and hail are excluded and T.1 does not apply while other policy provisions continue.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L33-L37",
+          "version": "repo-lines-v1:sha256:3568f95526b2bf8d0b3d633143c3e01db2c7c79d108e00cb45e0846a35d50de8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ3MDNkNjMzNDU0ODc4NzBiY2ZkOWFiNWY4NWE1NTljZjc3ZDljZTdmNTQ0NGI2YzM1ODMxNjdiN2MxOWNjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWNjN2E4MjU1MDdiMmYyYmU2MWU0NjU0NTUyOGM5NzBiMzFkNmQ1Yjk0MTUxNDIzOGFlZDMxM2E1OGNiYWIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_54c8596178314245b8c1f9c709bcbc46",
+      "statement": "The Texas appetite guide and referral matrix are internal operating controls, not policy language; they require a signed exclusion acknowledgment for the residual-market exclusion path and mandatory referral when wind/hail will be excluded and placed in a residual market, but they cannot waive filing, bulletin, attachment, or acknowledgment conditions.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L1-L5",
+          "version": "repo-lines-v1:sha256:b1d4087c53b68d5f3b3fdae71ee78cbd7931d017298210f81e6f62922bb418ad:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ5ZDI4ZTg0OTY0MDYxZmVhYTRiODk4N2M5MzZkNTJmNTIwNTMzNmE3NDcxMTc4Mjg5YjU0ZmIwM2MwYWFjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE5M2YzYTI2N2VjMmM4YzlhMDIxYmI0NmE4MmUzYWIyMGI1NjU1M2Q5M2M2M2JhNGFjYzM3YTUyZDM0M2E0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2E3OTdiZGJlOGQxZWExMWViYmJkNmRjOGMxYjZjZWNkYWVlNmNkYmU1YzQ5Y2E1ODkyZjVmNzU0OGM2ZGE0MyJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L31-L35",
+          "version": "repo-lines-v1:sha256:057ccc9a3d67b14c3541cf9333f0919967c10a5b65f65d8922deee8906ec7134:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWQ2MjUzOTI4MDkzZDFiOTI2NTVlMjE3MTAxNGI4ZTlkNmQ5NjgwZjlmMTg5NDYyMGQ3Y2QxMGIyMWJmZTliOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmM2ExNzE4ZjJlYTljMGEwYWMyNzBlMTUzM2I3YzU2YjIxMTQ3Mjc5YjRjM2JhYjcxNGU2N2Q3ODYxOTA4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQxZWE5NWUzMjFhZTA4YmUwZTYyNmE0YjRhMGZkNTVlODZhNzRjMWU3OTM2ODYzNzA5OTNiYjQyYmNlOTBjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTc3NWFlY2FiZjAwY2QwODY3OWJhNGI1YWFjYzlmOTM2NmMxYzAwZTA1N2I1NDg2MWJjOTY5MTYzZDczNzYxNyJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L19-L31",
+          "version": "repo-lines-v1:sha256:f2c54f5f8c9cae4acce6aa236f7570546db81b7c70869c5e1da5448b3ea0c195:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ZTc4YjIzYmQyODE2NWY0ZmQwY2U0ODQ0YTUyMDkxODgzMzdhYzg3MTRkYzE4MTViNTc0YWMyMDc0OTBmY2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3M2ZmNzliY2EzZGE4ZGQ4ZjliN2U0MjYzMzFhZGI4YWVkZWJkYjE4NDBkNDE1ZDMxMTc1NjNhODZlNWEyNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNjRjNmMwZjQ0YTgwZjIzZGY0NGI2MTI4YjExMmNkOGU3NDU1YzE5N2U3ODdiNmMwZjIxODk1ZDJlNGI2YzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYzg4MjQ4ZWEyYzcxY2E5MDQxOWY1MDY3ZTRkMGEyNjExZGMyMGQ3YjcyMTdjN2Y5NDRjYTQzNjIxMWE4NDgifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L33-L40",
+          "version": "repo-lines-v1:sha256:353ae69041b6a90f65989fe761bc288dc86deb5f26dfdfd2c58b1c6073453691:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQyYjYwODhlZWE5OTU2MTEyMmJlNDhmYjhiZTQ0OWYwOTMyYmJiYTY4MWIwZGQ3Yzk3NjlhNjM0MzIyNDRmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODA5Yzg1ODhkNmY5ZTIzNWE0NGQwNTlhNzhlNzNjMzdlOGZmNjc0OWNhNDNhMTNkMmJjMDM4MmU2Nzg4MjAwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzQ2Y2Y4YzBhNmE5NmNmMWUwZjI4NTNlOTgyZWQwOGM0Nzk0MjMyYjIyY2RkMzZhOWExYjNmOWYxNjQ5MzAxYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8906624fe33a4496a20c6a6f587e3813",
+      "statement": "The page keeps claims-file checkpoints separate from deductible routing by noting that HO-3 2018-09 S.1-S.3 supplies prompt notice, property-protection, inventory, proof-of-loss, and resolution-dependent payment steps, while HO 01 45 adds a two-years-and-one-day action period and separate 15-day, 15-business-day, and 5-business-day prompt-payment milestones.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L108",
+          "version": "repo-lines-v1:sha256:b7f7c3d9f36b1766139c7a4dd452fcb1b0716953860968302721c4d5eaef9bb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmQ4YmE0YTk1Yzc2ZTBiYjE3MjA4MmRjZDg4NGI2NDdiNjNmOWRmMDBlOTg1N2UyNDA3NTg5Y2ZlZWJlYzFmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTJmMzE0ZTBiN2E0YzI5ZmE2NDIzZDNkNWJjMzkxNzhlNGVlZmZhYjE5ZGI0NDc5MzBkNTQ1YzE4MzY0ZWYwNyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L21-L27",
+          "version": "repo-lines-v1:sha256:454cf771a333f8a45112c03e628f7648a99a8de654289b1e08506320e5eb1c1e:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQwNWZkYjg2ZDBkODhhMWI4NWIwMDc2MzU4ODQ1OTNkOGU2N2M2ZjRlZjAwMTM4ZmVlOGU2ODA3NDUyZmQ3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkyZDU1YzFhZmI3ZWU5MjI3NzEwZjFiNzg3OGQ3MGNmYmNkMmQ3ZTkwZDg4NWVkNDgxYWQ2ZTI0NTcyNGFlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGQ5YjUzYThkMmNkYTdiMzRlMzFjYmQ4MmVjMzhlZTVmMDJmMWM2ZjVmYTYxOTZjZTczNzk2OGNmZDZiM2MxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ5OTc1Nzk1OGM3NTcyMGM1MzJlMTk4MTg3YzhhNTk1NzAxNDdlZmFhNzRlZjk4YTRkYzU0MDBkNGJkMjNhNCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-09T17:00:59.484Z"
+    "at": "2026-09-12T23:52:37.758Z"
   }
 }

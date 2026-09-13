@@ -1,8 +1,11 @@
 ---
 type: coverage
-title: Fungi, Wet or Dry Rot, and Bacteria Coverage
-description: Explains the attachment-dependent HO 04 81 Section I property write-back for fungi, wet or dry rot, and bacteria. It covers the underlying-event gate, aggregate, mitigation, and the separately selected legacy or current HO 04 90 water-backup path, including the current backflow-prevention gate.
-tags: [homeowners, ho-3, property-coverage, fungi, wet-rot, dry-rot, bacteria, endorsements]
+title: Fungi, Rot, and Bacteria Limited Coverage
+description: Explains the HO 04 81 Section I property write-back for fungi, wet or dry rot, and bacteria. It keeps the underlying covered-peril gate central, distinguishes the endorsement aggregate from base policy limits, and notes the separate HO 04 90 backup path without affecting liability coverage.
+tags: [homeowners, ho-3, property-coverage, fungi, rot, bacteria, endorsements]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -21,9 +24,6 @@ sources:
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
 ---
 
 ## Scope and issued-policy check

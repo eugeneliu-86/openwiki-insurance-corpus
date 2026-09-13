@@ -1,11 +1,11 @@
 ---
 type: coverage
 title: Section I Property Perils and General Exclusions
-description: Establish the HO-3 Section I cause-of-loss entry gates and the material exclusion boundaries before analyzing water, fungi, or ordinance-or-law write-backs. The governing form edition and verified policy attachments control the analysis.
+description: Map the HO-3 Section I direct-physical-loss entry gates and the exclusions that block a claim before any write-back endorsement is applied. Use the issued form edition and attached endorsements, not later edition text, to decide which gate or exclusion controls.
 tags: [homeowners, ho-3, property-coverage, perils, exclusions, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
+    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md

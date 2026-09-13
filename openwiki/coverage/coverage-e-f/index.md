@@ -1,3 +1,3 @@
 # Files
 
-- [Coverage E and F — Liability and Medical Payments](liability-and-medical-payments.md) - Edition-aware reference for HO-3 Coverage E personal liability and Coverage F medical payments to others. Distinguishes their coverage grants and applies the Section II exclusions in the controlling 2011-05 or 2018-09 form.
+- [Coverage E and F — Liability and Medical Payments](liability-and-medical-payments.md) - Explains HO-3 Section II Coverage E and Coverage F, including the defense and medical-payments grants, edition-specific triggers, and the business-activity and motor-vehicle/watercraft/aircraft exclusions that limit both coverages.

@@ -1,11 +1,11 @@
 ---
 type: claims-guidance
 title: Roof Loss Claims Handling
-description: Internal, non-contractual guidance for roof-loss fact development, settlement calculation review, ordinance handoff, deductible checks, escalation, and closing records. It keeps operating controls distinct from the issued policy and regulatory overlays.
+description: Internal claims guidance for roof-loss fact development, settlement review, ordinance handoff, deductible checks, escalation, and closure records. It separates operating controls from issued policy terms and state overlays.
 tags: [claims, roof-loss, homeowners, endorsements, deductibles, ordinance-or-law]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
+    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -23,9 +23,8 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
 ---
-
 
 > **Internal claims guidance — not policy authority and not language to quote to an insured or claimant.** This procedure constrains investigation, calculation review, escalation, and file documentation. It operationalizes the controlling issued policy and applicable state overlay; it does not grant, restrict, interpret, or alter coverage. [Roof Claim Handling Guidance, status](repo://guidelines/claims/roof-claim-handling.md#L1-L4)
 
@@ -61,7 +60,6 @@ flowchart TD
     Incurred --> Review
     Review --> Close["Retain facts, calculations, authority, and communications"]
 ```
-
 *The internal flow shows the order of decisions: coverage and attachment precede pricing; the selected deductible completes damaged-property settlement; code-driven undamaged work then follows its separate ordinance path before state and referral review.* [HO-3 2018-09, A.3–A.4 and D.1](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) [D.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L94) · [HO 23 74, R.1–R.6](repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L40) · [HO 04 16, O.1–O.6](repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L37)
 
 ### 1. Establish coverage and peril before estimating

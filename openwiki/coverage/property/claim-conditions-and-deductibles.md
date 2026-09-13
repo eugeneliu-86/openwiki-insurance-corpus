@@ -1,8 +1,11 @@
 ---
-type: coverage
+type: coverage terms
 title: Section I Claim Conditions, Payment, and Deductibles
-description: Select the issued HO-3 edition and verified endorsement editions before applying Section I notice, preservation, proof-of-loss, suit, payment, and deductible provisions. This reference separates base-form duties from edition-specific water-backup payment terms, Texas wind-hail and timing, and Florida roof-deductible overlays.
+description: Explains the Section I post-loss duties, proof-of-loss and suit timing, payment checkpoints, and deductible selection for the issued HO-3 form and any attached Texas, Florida, or HO 04 90 overlays.
 tags: [homeowners, property-claims, section-i, deductibles, proof-of-loss, texas, florida]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -21,9 +24,6 @@ sources:
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
 ---
 
 ## Purpose and control boundary

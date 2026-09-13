@@ -3,6 +3,9 @@ type: underwriting-guidance
 title: Texas Homeowners Appetite
 description: Internal Texas homeowners underwriting eligibility, authority, roof, coastal, water-backup, wind/hail, referral, and audit controls. Separates operating decisions from the issued policy, attached forms, and Texas regulatory requirements.
 tags: [underwriting, texas, homeowners, appetite, binding-authority, referrals, roof, water-backup, windstorm-hail, audit]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T23:52:37.758Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
@@ -20,10 +23,7 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T23:52:37.758Z" }
 ---
 
 ## Purpose, scope, and controlling layers

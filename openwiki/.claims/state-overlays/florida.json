@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:883cdd8a5629e5eddd8d4a18685aebcb990db17e745217b2f0590cbaf667ec63",
+  "pageVersion": "sha256:b15d9b5001192906624ef0266995c55c779c15d230ff4bf88f6efb46b6d735cc",
   "claims": [
     {
       "id": "claim_8c8809aa32b048de907f9dc8842736b5",
@@ -205,10 +205,116 @@
           "version": "repo-lines-v1:sha256:48ef7043dc3e9b19a39c62e0695c9c997433c4a452fd66b690d7dacf387d6699:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MmI2MDg4ZWVhOTk1NjExMjJiZTQ4ZmI4YmU0NDlmMDkzMmJiYmE2ODFiMGRkN2M5NzY5YTYzNDMyMjQ0ZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNDk3YWNlOTY3OTZhZjU4YTlmYWNhOWI0MDIwOTljNmNmODNkMzBjZDI3ODFiMzYwMmRmZWM5MjUwN2FlOGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgwOWM4NTg4ZDZmOWUyMzVhNDRkMDU5YTc4ZTczYzM3ZThmZjY3NDljYTQzYTEzZDJiYzAzODJlNjc4ODIwMGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjYzFkYWQzMjU1Mjk4MDYzOTQzMzI5ZTIxY2QzYTcyYTMwZTc1OGZkMTc5NGVjYWRlODZhNWFhNGE2Yzg0YjYifQ"
         }
       ]
+    },
+    {
+      "id": "claim_af4e6327102f49b2baab3a87e362c08f",
+      "statement": "Florida Bulletin OIR-2023-04 applies only to Florida personal residential property policies issued or renewed with an effective date on or after 2023-07-01, and it regulates roof-age underwriting, inspections, roof-deductible/ACV-schedule offers, roof-condition nonrenewals, deductible overlap, and annual reporting as a state overlay rather than contract wording.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L7",
+          "version": "repo-lines-v1:sha256:8d5cd4b24c002ee84444f6ff86b70680f44a0803d81796df785478aa3bccce63:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZWM2YWIyNTg3NGQ1NzI1Yjg1MmE3MWU4YzZhNjYwZTQwMjBmNGIwY2E0MmNhNTkyYmI0NjY4OWRjMGE0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWExYmM0MzFiOWYzMzA4NDc3ZDM1NjZlYmRkYTlkMzRmODllNTc4MzFmNTNmYzI3ODY2MzcyNTg0N2EwOTFlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjNjMjZjNzkwZTUwZjBiODUwMWJiNDBiZmViNmZjYzBkMmU4OThlNTMxOWExZTQ5ZGE0ZTFhODkzODM3MDFhMyJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L37",
+          "version": "repo-lines-v1:sha256:909962a4e6871f8523f0fe90bec2518f261e8590e84e93c3a5cb00cf29aa8d72:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNTI0ZjNkNDNkYWFjOTEwYmQ2YWUzMmFjNDlhMzEwMTUyYWI2ODMzZmM5ODJiZDUxMjJkMjhjZmY0NWU4YzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlZGNmOGY4YTgxZGFkN2VlZmYxMmM0MjUxOWU0YjA5NjA1OTFhMmYwNWNlMGUyNDE3MzFkMWRiZmY2YTM1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ1MTBkMmQ0MzViMzg0YzlmY2MwZjllMzY2MjI4YzExZjU4Yjg1NzAyM2M2MjliNmZhN2EwMDFlNDcwY2I3MjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0a91102b052a47e3be154da8fe367023",
+      "statement": "For roof-age decisions, an insurer may not refuse to issue or renew solely because of roof age when a qualifying inspection within the preceding 12 months shows at least five years of remaining useful life, and any roof-condition declination must state the specific deficiency identified.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L9-L13",
+          "version": "repo-lines-v1:sha256:6411d450a021d5add297ffb3229925cd500035561dbcb32c8d49510251440798:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzg5NWMyN2QzMjYzYzYxZGExZTFjYzIwNzZhZDljMDY2M2NlY2IyZDk2N2M4ZTM1M2RhYWQ1MzA0Y2Y4ZjUzZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY4NDU1YzBmOTg2MmY0YjUxZTc5ZTQ0YTAxNWMxZjRiOGIyMDMxMmU5ODAzMmYxYjMyYTJlZjVmZDY5MzE2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODA4ZTUxMmQ0MTBkN2YzMmE1YzQxNzZmOWY5NTE5ODg0YTg0NGM2OTFlMWZlYzdmZGZkZmE2ZTVhOGMyNDVmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2FhMjljNDA0N2RjMzkzMWM0YjZiYzc4ZTY2M2I4NzdlMThhZmY5NjVjMzNmNmFiZTQ4N2RkNTkyYjU4ZTMwOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_900c2e13cc4949da87531696cd82d38d",
+      "statement": "For roofs aged 15 years or older, Florida Bulletin OIR-2023-04 allows an insurer-required inspection at the insurer's expense; the insurer must accept a qualifying insured-provided inspection meeting F.2 and may not require a second insured-paid inspection in the same policy period, and must accept inspections by Florida-licensed inspectors without limiting acceptance to its own selection.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L15-L19",
+          "version": "repo-lines-v1:sha256:a6259e09079a6e53192af1ed12ee2c0c99bc2f5a5ca811cc74840ec53b3b88bb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg3OGJmOGQzMWRmOGRkZDQyMDIyYzI3NTYwMjk4YzkzOGU0OTViNmE3ZWM4NTQxZjA1MGYzZmM4MmQ4YTNiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODc0NTFhZDdmZGEyODQxOTAyY2RmNGU4MmIzY2MzOTM3ZWYzNjA4ZjM1Mjg5NWZiNjRjNzIwMThhYjg0NzJiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTEyNjIwNTljMWQzMDM5Y2E1OTZhNWQ3MjJlN2RhMDg4NWQ1NjM2ODI4ODdkZDRjM2NkOTNjZGFmYmFmYWJmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjE5MTY4NDgzNWY2NGY4MWMyMjExODFjMDMxMThmNDk0ZDkwZjY1M2NkOGJhYjI3OWVjZDdlODhlYjAzMzczNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_468bed3095e04a10aab86a6fde18d74d",
+      "statement": "Florida Bulletin OIR-2023-04 permits a separate roof deductible or ACV roof settlement schedule only if the insurer also offers a policy without that provision at a filed and approved rate and discloses the premium difference in writing at the time of offer, and it bars application of an ACV roof schedule to roofs less than ten years old at the policy effective date.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bc2963b59417b018c95a0e2aa1b31f9b55496294853cc5cf5d9212d29d4b1521:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MjRmM2Q0M2RhYWM5MTBiZDZhZTMyYWM0OWEzMTAxNTJhYjY4MzNmYzk4MmJkNTEyMmQyOGNmZjQ1ZThjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNjM5MTBjODAxNDNhOGFkN2MzOWQwNDdjNDAxYzM0YTQyMjdmODJiZDg1MmU2ZTc1ODUzYTgyZGFjNjc1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDUxMGQyZDQzNWIzODRjOWZjYzBmOWUzNjYyMjhjMTFmNThiODU3MDIzYzYyOWI2ZmE3YTAwMWU0NzBjYjcyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlYmU3ZWU0MTk2YjFjMjM0NDFhNTZmZGQ0MmVkMGJmOWIyYmQ1NWYzZDU5OWY4YWMzYTAwZTAxYzA0NTJhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5074ee838c504c20b56fae3d6dc7deec",
+      "statement": "When a Florida policy uses HO 23 74 2018-09, the endorsement modifies HO-3 A.4 only if it is actually attached; it applies only to roof surfacing, only when windstorm or hail caused that surfacing loss, and it leaves other dwelling components under A.3.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15",
+          "version": "repo-lines-v1:sha256:a0ec5ebcb9636f829c326023443b0b9f9bce19b35925417b894b95c538653460:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0M2I2Njc2YmZlMmQ4ZmQxNDU4NGRjNTQyMTJkYWE3YTM4NmY2NzVkOTBhOTcwMjBkYzVlNmM4MGY4MzYyM2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0NWY5Y2RlNjQ3ZmJiMDFiM2MwZjQxNWMzYTc3M2UxMzE4ZGQ2ZjNlNTNjMjNmMTM2OTZiMTUxMmIyODAxZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwN2Q1MzJhM2Q2MzhhMjU4M2JhNzUwODczNmIxODA3YjUzMTc4ZTkxYmVlNDNkOTFkZWVlYzIzZGZiMDIyOTkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L25-L34",
+          "version": "repo-lines-v1:sha256:d7efa1f5cff57cce1416fe15886c1670b002c0bd8215030058750a564983093c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NTE3YTY3OWUyMTE4MDU4ODZmMzhlOGZhNzA2ZTVkZmY1NTJjMTZhY2I1YjhjMTEwZmIwNzU4N2U0OTNjMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYzNjk5NTAzMDgzZTMwMjFmMTg3MTYzZDM0Y2YzYTcyOGJiMDMxOWU5NTBhNzlkMzQyOTViYzM3ZmU2YzBlOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcxNmQ1YmFhYmI0MzM5ZjQ1YTg1Y2RjZmZkNWM4Y2ZkNTc4YWI5YTA5Nzg0YWM0NGY4ZWI1NTM0NzZhYTE3NTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6304b85f145344e89e5b8a168baf8a45",
+      "statement": "HO 23 74 2018-09 values roof-surfacing age by the documented original-installation or most recent full-replacement date, uses the age at date of loss, presumes dwelling age if undocumented, does not reset age for partial repairs, and imposes a 25-percent-of-replacement-cost pre-deductible floor.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L35",
+          "version": "repo-lines-v1:sha256:28eaf89dc987efc8f9e4b2524f1972a743d35c152f890b7e0c8b7f1980b17a22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2YjAwMzdmMmZmN2E1NWMyMjIzNjNkYzNlZDg0MDdkNGY1MGIyOTBjOGNhODAyYjA3NjBmNmU3NGEyMjQxNDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2MTJkNWYxOTllNTViZDc2OThkMTM1MGU0OTc5MmEwYzNjM2NkNTc0MDAxMDY1NWZiZDU4YTJkMGE1Zjc4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZTBiNzU5YmEyNGYxNGU1NTlmZmQwYThhZGFlOGMxZjYyMThkNjUwZTczMjMwYTU2ODhkNDllOTBmNGUxZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3YjcwNmRkNGI5YjE5YTI4MTM0MzNjZGEyZWM5YWVhNjdiOTg1MDhjYjc3MTU0NDUxNDA0YjZjYmUzZjJmODYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_daf57915094b45bbbc53770241d0d4fd",
+      "statement": "Florida Bulletin OIR-2023-04 F.6 does not limit a hurricane deductible that is otherwise permitted by law, but when a hurricane deductible and a separate roof deductible would both apply to the same loss, only the larger deductible is deducted.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33",
+          "version": "repo-lines-v1:sha256:fab3e56bc9250dfd64c311e588341aa9ba4c263b5eb35860b21cec70dc117928:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODFiNGFmY2RmOWY4Yjg1OGRhNWU3MzA3MmJiODcxMmQ4MzBhYzg4MDkxOWFmZmY4YmM2OGE0MzVjNmE5NThlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk5ODAwMzc1MmY3MjE3MjZhYTFjZDY5ODBmYmE0YmMwNWQ0MzA0YzAzM2YyMjk2YWYwZTdhYmUyMmI0YzAwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmU4MWUwNjUyNWE5ZjJmYzEyMThiOTJiMjIyODQ2ODRlODAzZDljZGEwYjU5YmQ5NGEzNWY2YmVhYWU3ZWQ4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDEwMzQ4YWIxOGQzNjAwNmQ0OTA4YzZhODc0ZTBjOTFiNjg5ZTAwMzg5NGM3ZTM0ZTIwMTBhMjI5YzcyYmQxZCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
+          "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_895b916c528c4500a09edf83dd9752b8",
+      "statement": "Florida Bulletin OIR-2023-04 requires insurers to annually report the number of roof-condition nonrenewals, disaggregated by county, on the Office-prescribed form.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L35-L37",
+          "version": "repo-lines-v1:sha256:400da5afbf61c8ed82150c9d6d56c381026de08cef469a7b3df64d6a53a3c397:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgwYzdiYjkwNDE4M2VlZWJiMTFhYzlmZTc2OGQzYzg0NjAxZGM2NThlMTIxZTc5MjAxNjRmM2NlYmM2OTkzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWVkY2Y4ZjhhODFkYWQ3ZWVmZjEyYzQyNTE5ZTRiMDk2MDU5MWEyZjA1Y2UwZTI0MTczMWQxZGJmZjZhMzVjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk0NmRmYThjODdiZGQ0MGEwN2VlZWYwYTk5N2NhNDkzNDM5N2Y2YmNjOTg0ZjkzNTZkMzBlY2UzM2U4MjJhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a037fbb189114107a855b4091bc3e354",
+      "statement": "Florida internal underwriting guidance treats roof inspection, roof-age declination, HO 23 74 offer/attachment, and roof-condition nonrenewal as operating controls that must be kept separate from the bulletin and from the issued policy contract; it also routes roof-condition nonrenewals through Compliance and management review and requires retention of the comparison quote for HO 23 74 offers.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L15-L25",
+          "version": "repo-lines-v1:sha256:b197600f6fad8258f6b0fc71ed3a7fec5dfb0e85a5c6cd3ac6d84be82bb7583f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyYjJlYTk4ODAzZWY5MmQ0MmM0YzNhODExMjQ4MTJiNzAyYmY4OWFiNWIwN2E2ZjE3YjI5MjU2Nzg5MjA2NWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlYjc0ZDdjZjBhMDRhMTJhNDIxNzVjNjQxZWRhYjY4OTRlODk4ZThkNWU0MTk1ODQ4OTk5MGI5MWM4YzA4ZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhNTc1YmU3YTNmZjMwZDU0MjJlZDk1YTM3N2Y0ZGY1OGU2MGQ1MmExNTBlOTg4NDY1MTk4OGRjMGRlM2YzNjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZjViNjUxZjhlMTFiNDE3MjY1Njg1Zjk1NGFmMzFjYzczYjk4ZWE0OWJiODYxZGY3OTIzZDZjMGNjY2FhZGUifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L47-L49",
+          "version": "repo-lines-v1:sha256:9ed712a8625e36561c2fd99603a0997788603bfeef97d5d95767823a1c2e2877:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc0NDFiNjVhOGY3N2M3Y2M4MjRlZjZkYTViMTllMmYwZTIyNzljZTA4NmQ1YWQ3MGJmMDUxNGMyZmY3NGI3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIwM2NmZTU4YjA1ZDNkZWVjYjU1ZGFiNjM3YWU0YmJlNTI0NjcxNWIwZWQ3YzBhY2RmOWQwY2IyYWEyNWY1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU1NGZmNTY5MjJkZDFlMjdmYjIwZmVlNjhkZDA1ZGU5MzhlZGE4MTBhNGZkZDFmNDc0ZmVmZjM4NmNiNTlkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-09T17:00:59.484Z"
+    "at": "2026-09-12T23:52:37.758Z"
   }
 }

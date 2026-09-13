@@ -1,21 +1,7 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:66841d6caed84737608cc8787fa3f8e94ce2fd31d9bca5d427298656faf2177f",
+  "pageVersion": "sha256:751da0feac3d65636f904d571ed148159970b66f3337126bd982606203647cbb",
   "claims": [
-    {
-      "id": "claim_919f7d0cf170455da37dd2e54b5c1a7d",
-      "statement": "HO-3 edition 2011-05 remains governing for policies written under it regardless of reporting date, while multistate HO-3 edition 2018-09 supersedes it for policies written on or after 2018-09-01; the later Coverage B changes must not be retroactively applied to a 2011-05 policy.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L1-L7",
-          "version": "repo-lines-v1:sha256:6a0e26999697d68edeefd6d52adfa0e753525300a638b7e1eaac1e0def172c00:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2EzMjc5YzE1MmJkZWQ1OWMxYmRiYTA0NTcxNDcxMWEyM2MxYzE5Mzc5YTllYTQ2Mjk2MWMwOTYwMzdkZDFmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWU4MGJkYjg3OTQwZTA1ZTRhZWViYTVlMzIyYjFkYTY4OTlhNDU4OWE2Y2YwYTIwNjZjYjUwMDVkNWY0NzE0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjlhZWU0ZWUxYWU2NjQzMjc4MjlmMjBkYzllMDYzZTQ4YWY4ZTI5M2E5MzM2ZjRmNDM1M2JiNGQ4YWExYTc4YyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L1-L4",
-          "version": "repo-lines-v1:sha256:57bd534704591d18f61e6e4fdc264b08252f04f2010858dfee3cd2aada5fa32d:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGMzY2RkNzgxYTFmMTY1ZGE1NjM3OWJhMTQyOWM2MGMxNjc0OGVkY2E0YmQ4ZGMwY2VhYjgxZWMxM2Y2NWRhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWViMzUzNzNjYzk0ZWI4MTc5YzVhMDE2MTE1Yjc3YzFmODhlZDVjYzYxYzdmZjg4MjE1NDQ3Mjc1ZjY5MzYzMSJ9"
-        }
-      ]
-    },
     {
       "id": "claim_5180eacc0abc4cb6a7cb51a8e897919d",
       "statement": "Under HO-3 2018-09 Section I B.1, Coverage B includes other structures on the defined residence premises that are separated by clear space or connected to the dwelling only by a fence, utility line, or similar connection; HO-3 2011-05 B.1 contains only the clear-space formulation.",
@@ -230,7 +216,7 @@
         },
         {
           "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
-          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
+          "version": "repo-lines-v1:sha256:5e59cc5578ba32b54e4306462848176ecb58648c6d11dcc2fdadd7de944c90a9:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
         }
       ]
     },
@@ -345,6 +331,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-12T18:38:23.283Z"
+    "at": "2026-09-12T23:52:37.758Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:23d66fa55db0e8e5e5ade5cc078ae312f064508480b79565b0bde8e7971a227f",
+  "pageVersion": "sha256:03d7c8f38546ee6593fb5a43cf2f5f0fd99b1fba2fff55770179c5ec8c579058",
   "claims": [
     {
       "id": "claim_788ef05fe28b40b187c09a6c86d56a5b",
@@ -233,20 +233,6 @@
       ]
     },
     {
-      "id": "claim_ac8de1b6151c45f285de0ce9011d44f8",
-      "statement": "HO 04 90 2010-10 remains in force for policies written under it and governs their adjustment regardless of report date, while edition 2026-01 replaces it for policies written on or after 2026-01-01.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7",
-          "version": "repo-lines-v1:sha256:889619d9277d24e365d3a141cf6fde55a3d3739591f35d3db851d0445dc07ce5:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkMzY4MzJmYjc5MmIwNzQ0NjY4Y2RlNDUwZWEyNmViYjcwZTdlZGQwMDI3Yjg4NTM2ZjExODE0MTQzZWZiMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzNkN2RiMGNmMjgxYjcyMjY5OTc4OTQ1ZjZmNDdhMDBmYmFkNTRmYmEzZDlhOGNjYjFjNWM4NDI2MGE5ZDczYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
-          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
-        }
-      ]
-    },
-    {
       "id": "claim_e8a0a65af95f4e19a91022378bde8a74",
       "statement": "The HO 04 90 editions have distinct default payment mechanics: 2010-10 sets a $5,000 policy-period sublimit and $500 separate deductible, while 2026-01 sets a $10,000 sublimit and $1,000 separate deductible; each sublimit is within A/B/C limits and each separate deductible displaces the Section I deductible for covered endorsement loss.",
       "evidence": [
@@ -335,6 +321,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-12T18:38:23.283Z"
+    "at": "2026-09-12T23:52:37.758Z"
   }
 }

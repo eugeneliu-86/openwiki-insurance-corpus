@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:25d38c8185240e7d6d4e9dc14d73589b67c5f131faabdb0f6065e81d4b5476df",
+  "pageVersion": "sha256:2c6614882b777f44e65f6f7ae2244de0b899a70efcc73ae1423831ccd99bd63c",
   "claims": [
     {
       "id": "claim_9bffab9662ff4baa8eec084138f297e7",
@@ -177,10 +177,168 @@
           "version": "repo-lines-v1:sha256:b7f7c3d9f36b1766139c7a4dd452fcb1b0716953860968302721c4d5eaef9bb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmQ4YmE0YTk1Yzc2ZTBiYjE3MjA4MmRjZDg4NGI2NDdiNjNmOWRmMDBlOTg1N2UyNDA3NTg5Y2ZlZWJlYzFmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTJmMzE0ZTBiN2E0YzI5ZmE2NDIzZDNkNWJjMzkxNzhlNGVlZmZhYjE5ZGI0NDc5MzBkNTQ1YzE4MzY0ZWYwNyJ9"
         }
       ]
+    },
+    {
+      "id": "claim_db22a6ecdc5c4d3d9112987ab7de9443",
+      "statement": "HO-3 Homeowners 3 Special Form edition 2018-09 is multistate, applies to policies written on or after 2018-09-01, and Coverage A dwelling losses are settled at replacement cost subject to A.4 roof-surfacing routing, the applicable deductible, and the 80-percent insurance condition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L1-L3",
+          "version": "repo-lines-v1:sha256:744ed96608a7d7180f2fd48a179d316f3cbb3748f67286f1c9a36019fba463c6:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGMzY2RkNzgxYTFmMTY1ZGE1NjM3OWJhMTQyOWM2MGMxNjc0OGVkY2E0YmQ4ZGMwY2VhYjgxZWMxM2Y2NWRhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYwNDUwOTIzZWU5NWIxMTNjNzNjZmUwNjk4ODVjZTg5YmJjYmFiYzhiZTUxODllYjBjOGFmZDAzZDZjZDU3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjlhZWU0ZWUxYWU2NjQzMjc4MjlmMjBkYzllMDYzZTQ4YWY4ZTI5M2E5MzM2ZjRmNDM1M2JiNGQ4YWExYTc4YyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L33",
+          "version": "repo-lines-v1:sha256:720cbdf56c7b7db7757b4ba414c3d1ad56456becbbd9f1500709fa5846c5c0d3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlMDVmM2RhZmJhNWJlNTQzOGY3OGIyYjBmZWM5ODgyY2MzNGJhNjAwNmJmZGFlNjk1ZTUwNGMyMDEzMzg0NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGMxNWNkMTZmZjc2NDI0MGMxMWY0ZDllNTZiODkxMWMxMjFmODY4OGQyYWQ2ZmIwNTE5MGU4NmJiYzljZmZiMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f859cb02e861429fb3c7e34420fbb677",
+      "statement": "HO-3 A.4 is a limited routing rule: windstorm- or hail-caused loss to roof surfacing is settled at replacement cost unless an attached actual-cash-value roof schedule endorsement governs that surfacing only, while all other dwelling components remain under A.3.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L34",
+          "version": "repo-lines-v1:sha256:dc37099a8b78c0c72333df2131ffe419c4397715770920e8bd8c96534d19dac7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE2ZDViYWFiYjQzMzlmNDVhODVjZGNmZmQ1YzhjZmQ1NzhhYjlhMDk3ODRhYzQ0ZjhlYjU1MzQ3NmFhMTc1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dfb3a965306b46b2b0ac52b020873a4f",
+      "statement": "HO 23 74 edition 2018-09 attaches to HO-3 and changes the loss-settlement basis only for roof surfacing, defining roof surfacing to include shingles, tiles, shakes, metal panels, membrane, and the underlayment and flashing directly beneath them, while excluding deck, trusses, rafters, sheathing, and interior finish.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L10",
+          "version": "repo-lines-v1:sha256:e5bb2257d5f80db926bb5e24df550a28acb7ebc6ad03ede7c3af48d177f04b17:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0M2I2Njc2YmZlMmQ4ZmQxNDU4NGRjNTQyMTJkYWE3YTM4NmY2NzVkOTBhOTcwMjBkYzVlNmM4MGY4MzYyM2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlODhmMmI5NmY4ODVkM2MwOTNjYWVjMGE2ZTliZmNkYWZmMTc2NThmYzUzMGRhZWZlNWMzZDA0YTRlOTJlZWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_52661a97325646d38b5afaf50796053d",
+      "statement": "For attached HO 23 74, windstorm- or hail-caused roof-surfacing loss is settled at actual cash value by applying the R.3 depreciation schedule to the replacement cost of the roof surfacing, then subtracting the applicable deductible; loss to roof surfacing caused by any other covered peril remains replacement cost and outside the endorsement.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L11-L16",
+          "version": "repo-lines-v1:sha256:9b547711332e92c8a096b114118f6bde32911b652c18f0cbf9e6f4758d66f7b9:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTQ3YzFjYzA2NDFiMGNkYTRkZGExMzJlN2EwN2FiM2QyMWFiOTJiZjMzYzA1Yjc4N2E3MzRhZWFiMDRlMDJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzMxZGJiMzg4MzQ1NTRiMzJlZjQ2ZDg5NjVkZTYzOWIwYzM1YjgyYWIwMjRiNjgyMDUzOTgwNzFjMzY5MDFmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmI1MTJlMzlmNjM0Y2JjZWExYzNiZjZjM2I4ZTk2NTljYTU0ZTY2NTZhNTRlNTEzYTdmNjQzMmNhN2VjMTU0MCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L30",
+          "version": "repo-lines-v1:sha256:ddb7d5a1a6bd09b8430f6ca007cc7cbca6adff3eda2b3f106f9ae580b4ca040d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2YjAwMzdmMmZmN2E1NWMyMjIzNjNkYzNlZDg0MDdkNGY1MGIyOTBjOGNhODAyYjA3NjBmNmU3NGEyMjQxNDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZTBiNzU5YmEyNGYxNGU1NTlmZmQwYThhZGFlOGMxZjYyMThkNjUwZTczMjMwYTU2ODhkNDllOTBmNGUxZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI4MDc0YmIxYjg5NDJjOWFmMWRmZGVhYmQwOTU5ZWMwN2ViMGIxYTM1Y2Y5ODQ5NGM1NjViYmNhNTAzYWVmMWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3754bb874ded4a3c9263c22e66e2e3e4",
+      "statement": "HO 23 74 R.3 ties payable percentages to surfacing material and age at date of loss, and R.5 determines age from the documented original installation date or most recent full replacement, whichever is later; if undocumented, age is presumed to be the dwelling's age, partial repair does not reset age, and full replacement of one slope resets age for that slope only.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L35",
+          "version": "repo-lines-v1:sha256:28eaf89dc987efc8f9e4b2524f1972a743d35c152f890b7e0c8b7f1980b17a22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2YjAwMzdmMmZmN2E1NWMyMjIzNjNkYzNlZDg0MDdkNGY1MGIyOTBjOGNhODAyYjA3NjBmNmU3NGEyMjQxNDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2MTJkNWYxOTllNTViZDc2OThkMTM1MGU0OTc5MmEwYzNjM2NkNTc0MDAxMDY1NWZiZDU4YTJkMGE1Zjc4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZTBiNzU5YmEyNGYxNGU1NTlmZmQwYThhZGFlOGMxZjYyMThkNjUwZTczMjMwYTU2ODhkNDllOTBmNGUxZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3YjcwNmRkNGI5YjE5YTI4MTM0MzNjZGEyZWM5YWVhNjdiOTg1MDhjYjc3MTU0NDUxNDA0YjZjYmUzZjJmODYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f941f56725a24388aef6e12ce9bddcee",
+      "statement": "HO 23 74 R.4 imposes a pre-deductible floor that the payable amount for roof surfacing may not be less than 25% of the surfacing replacement cost before deductible application, so the schedule amount is raised to that floor if needed before subtracting the deductible.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L27-L30",
+          "version": "repo-lines-v1:sha256:d351cad1204254cd174eb3e0a9f8f5b8c266a29b973b47b98a7dc8687f133ade:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmJhNmM5M2E3Mjc0ZDI0ODY3YWNiNmIxODcwZDFhYWQ5YTdhNzViYmI4MzY5MTM4ZmEyNjViMmIyNWUzNjBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjM0NjU0ZWYxNTA0ZGI4NDhiZGY2ZDJiMTYxMjY1MTU0ZTFjNDk5MWIxNGNlYzFjOGIwNTg3NTgyNjU4ZTg2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjgwNzRiYjFiODk0MmM5YWYxZGZkZWFiZDA5NTllYzA3ZWIwYjFhMzVjZjk4NDk0YzU2NWJiY2E1MDNhZWYxYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac6ad811dfac48558f028d5e4b89340e",
+      "statement": "Under HO-3 2018-09 S.5, the Declarations deductible applies to each Section I loss, a separate windstorm-or-hail deductible applies where required by a state amendatory endorsement, and where both apply only the larger is deducted.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
+          "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3cdb3c1fce6d44b7b09a69b753eebaba",
+      "statement": "HO 04 16 edition 2018-09 attaches to HO-3 and separately modifies Exclusion D.1; when attached, it covers increased cost incurred to repair, rebuild, or demolish damaged dwelling or other structure because of an ordinance or law in force at the time of loss where the underlying loss is covered under Section I.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L10",
+          "version": "repo-lines-v1:sha256:5fd8582f1e8e40358ce91bb437f371a19b1c6c98b51f0e9ebf7e2e7f507a8569:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1ZjJlZDFjODI2N2FjMTQxOGYyYWRmODU4NTEwYzc2NDA4NzYyYmRiNzk2Njc0NDYwNWY5ZDFhZDliMTdlNzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjMjI3MThmMGU2M2M0ZjgyYmM3YjM2OTEzZGZiNzBhNWU3NjgzMGViNzIyYWFjNjg5MjMzZDQ4MmM4NjQ3ZWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_57f2ad7aa2384c32a02d8c6cb4d71f70",
+      "statement": "HO 04 16 O.3 covers code-required replacement of undamaged roof surfacing needed to repair the damaged portion, while HO 23 74 R.6 keeps that cost subject to HO-3 D.1 and outside the roof-schedule endorsement unless HO 04 16 is attached.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L15-L20",
+          "version": "repo-lines-v1:sha256:71d574bae0bb5b19f1e972d05845652a39f041e28483a8de560be4007a9532b5:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQwNGI3ZmIwODFiNDkzODM4YzhhOGZhZDI0ZTRkNGVkNWYzYWMwMjhhZjRhYzkwYzViMWUzMDk1M2I1YzhmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDI1YzM1M2RjMjFmYTg2MjA5YzQxNTU2ZDc3NmFiZjIwMjU3YWM1NTM5M2MxMGJmMDQzZTE3MDAxOGE3YzcwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTkwODY5NzQ5ODZmMjBkOGI2YTRkMzkwZThkZGVjMWE5YTFhODI0OWM5NWJhYmI3YjFjOGYyZTUyNWQwYjE4ZSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41",
+          "version": "repo-lines-v1:sha256:126a35914fc0f7324402cc94ee159956fa8b54b1e68eefc01b9deb8450be57a9:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE4NjFkZTk3OGI5NDE1MzdiOTNkZTdlNWUxNGFlYzk0OTQyNGUzNWUzNmFiNDZkZjg0M2U2MTUwYWQ4YTg4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ0NWQzNWQwMWNlZGFiMzMzODk5ZTg5ZjczZTljMmNkMWRhZjM4YTMxOWY5ZTM3ZmMwZTUwOWRiMTBjNmZjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L91-L94",
+          "version": "repo-lines-v1:sha256:ba9fd3cef2cd070e8504914fda85b96660d05cdf02806bb7addccbb08d8cc1ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdiY2VjMDY4NWUwZDE1YzY4ZDg4ZTZmOTA2NzlhZmI2YWVjNWE3OTQyMDkzYTBkODQwZjY2ODE3ZGFjM2Q3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGMwZTEyMDM1ZDM1NWMxZTY4YjU1ODFjYzc5MjQwZmVlNzVmMTk2ZWE5ZTRmMzNkYzY2MTc4ZTA2NDIwZmI5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjJiMjVmMTMwM2IyYzAwOGYzYjMzNDQ5YTgzOGUzZDdhMTI3NGNjZmNiNGI0MTMwZWJmNGYzNTE0MjhlMDY1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_28d6cb398cfa486c839fc7bf52cd6e10",
+      "statement": "HO 04 16 O.2 caps payment at 10% of the Coverage A limit shown in the Declarations unless a higher percentage is shown, and that amount is additional insurance that does not reduce Coverage A or Coverage B limits.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L14",
+          "version": "repo-lines-v1:sha256:135667cf3f8787378f95d78696d9da9f32b5f92bdbd05664a5d3eb148a00947f:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDk5NTY0NjEzMTE5MDVmOTdlYjFhMGFiNTFlNmI5OTNiYmY1YTcyNjA1MmRkODg1ODhjN2NjZjlkMzU2ODRhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQxZmRkMjhkMTlmOTc5YTBhYjIwYjRhNzRiZWQxOWVjYjc4MmU3MGM0NDgxZDFkMzA5N2NlN2ZlNDczNTY4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzlmZDE0OTIzNjBkZTFjZTlkNmFjNDdjNzhmYmVjYTU0MDAzNjBlYzViMWU1NjE2YzFkY2VmNDk0MzMzMGQ3YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ca95ff8527b44faa4949a5e1adcd4b9",
+      "statement": "HO 04 16 O.5 requires completion as soon as reasonably possible and no later than two years after loss unless the insurer agrees in writing to extend the period, and O.6 makes coverage available only after the damaged-property loss has been settled under the applicable Section I loss-settlement provisions and only for increased cost actually incurred.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L29-L37",
+          "version": "repo-lines-v1:sha256:78946811c0fdce11bc497b571d07b134a29e99f2cf9fce5b3c09cfbfdd5f5ac1:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2E0NjcyYmIyNWEyNWNkZjZiZGY4N2NkZmM0MmViN2I5NmU0NjJjNTQ5NTBlMTZmMGY3YTM2NmNiNTc3MzBhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyOGRkNDE2NTJiZDQ5MDljNGYzYmJhZmM0ZTFlMzA4MWY2YTM4NTgzZGIxMzRhNDY5ZDI0OWI4YjQ2MGU4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f7ccdd3bce924de08cce995a213c6ae6",
+      "statement": "Florida OIR Bulletin OIR-2023-04 does not change the issued-policy roof-surfacing settlement wording; it instead regulates offer and use of separate roof deductibles or ACV roof schedules, bars ACV roof schedules for roofs under ten years old at policy effective date, and forbids stacking a hurricane deductible with a separate roof deductible on the same loss.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L3",
+          "version": "repo-lines-v1:sha256:ea9efe9ff10132f1e1bee3c37ab75aa7590ee1f9c0ca6e8fbf819c361732b8a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZWM2YWIyNTg3NGQ1NzI1Yjg1MmE3MWU4YzZhNjYwZTQwMjBmNGIwY2E0MmNhNTkyYmI0NjY4OWRjMGE0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVkYzBjMjMwODM4NTQ0YzhkZmRmNzRhZGFhOTk3ZDIwYWI4NmRjNDc1MjBiM2UwMDcxOGNkNjBmOTJiY2M2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2NkZjZmMTdhY2Y1NzliYzVkMjcyZjlmNTk2YjAzY2RjMjY0YjUwNDI4ZTY1OGVjYjA4MTU3YzdkNzg2YWZmZSJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bc2963b59417b018c95a0e2aa1b31f9b55496294853cc5cf5d9212d29d4b1521:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MjRmM2Q0M2RhYWM5MTBiZDZhZTMyYWM0OWEzMTAxNTJhYjY4MzNmYzk4MmJkNTEyMmQyOGNmZjQ1ZThjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNjM5MTBjODAxNDNhOGFkN2MzOWQwNDdjNDAxYzM0YTQyMjdmODJiZDg1MmU2ZTc1ODUzYTgyZGFjNjc1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDUxMGQyZDQzNWIzODRjOWZjYzBmOWUzNjYyMjhjMTFmNThiODU3MDIzYzYyOWI2ZmE3YTAwMWU0NzBjYjcyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlYmU3ZWU0MTk2YjFjMjM0NDFhNTZmZGQ0MmVkMGJmOWIyYmQ1NWYzZDU5OWY4YWMzYTAwZTAxYzA0NTJhNCJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33",
+          "version": "repo-lines-v1:sha256:fab3e56bc9250dfd64c311e588341aa9ba4c263b5eb35860b21cec70dc117928:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODFiNGFmY2RmOWY4Yjg1OGRhNWU3MzA3MmJiODcxMmQ4MzBhYzg4MDkxOWFmZmY4YmM2OGE0MzVjNmE5NThlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk5ODAwMzc1MmY3MjE3MjZhYTFjZDY5ODBmYmE0YmMwNWQ0MzA0YzAzM2YyMjk2YWYwZTdhYmUyMmI0YzAwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmU4MWUwNjUyNWE5ZjJmYzEyMThiOTJiMjIyODQ2ODRlODAzZDljZGEwYjU5YmQ5NGEzNWY2YmVhYWU3ZWQ4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDEwMzQ4YWIxOGQzNjAwNmQ0OTA4YzZhODc0ZTBjOTFiNjg5ZTAwMzg5NGM3ZTM0ZTIwMTBhMjI5YzcyYmQxZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_121c440d364f439499dedf5de4ba8061",
+      "statement": "Internal roof-claim guidance is operational rather than policy language; it requires documenting peril before pricing, splitting surfacing from decking and interior work, retaining the calculation inputs, and referring disputed-age, multiple-slope-age, public-adjuster-or-counsel, and unendorsed code-upgrade situations.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L30-L36",
+          "version": "repo-lines-v1:sha256:5bf25ab54baf002727123a7c8a3a4818476641dd2c2c1203010c56a47fc2b83e:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDcwNmE4NjViYjQyMmNjZmE4Y2U0OWEyMDcyODIzNzA3NGZjZjk3NjFiMmZkYjJiZmU0YWMwYmFlNGRhZjJkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWVmZjhkZDliZmJmMDhiYzIwYTMzMGEwYTlmZjg5NGFlNTZmMmQ3NWQyMzNmZjJjYzVlYmM3ZTUzMjU3ODhhNCJ9"
+        },
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L42-L49",
+          "version": "repo-lines-v1:sha256:5f27f8c909031c440c213f0529a18d89f47b748121d3a6ee9dd2839dcc077724:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc2NGJiZTAxYjExZmI2ZWMyZjE2OWQ4MWQxZTdiYmI4MDk5MjYzNWIwMjVkMDNkMTVhZWJiNzVmZWMzNTQ2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTFmMjliZGE3OGUzYjZmNDJhYjNkOWQwZjBhOTMxZmRhNGU3YzljYmQwOTdmMTBhNDFlMGIyYTNiM2MyMWEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-09T17:00:59.484Z"
+    "at": "2026-09-12T23:52:37.758Z"
   }
 }
