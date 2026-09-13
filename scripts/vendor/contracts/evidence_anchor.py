@@ -42,6 +42,15 @@ from typing import Literal
 
 RESOURCE_RE = re.compile(r"^repo://([^#]+)#L(\d+)-L(\d+)$")
 
+#: The supersession marker (C5), spelled as contracts/corpus_paths.py writes it.
+#: Duplicated rather than imported because this module is vendored into the
+#: corpus repo on its own; tests/test_evidence_anchor.py asserts the two agree.
+#: `mark_superseded` inserts, directly after the title line: one blank line,
+#: then the marker's quote lines. That block is the ONE insertion the corpus
+#: makes inside existing documents, so it is the one insertion the verifier
+#: knows how to see through when it lands inside a cited range.
+SUPERSEDED_MARKER_RE = re.compile(r"^> (?:\*\*)?SUPERSEDED(?:\*\*)? by .+")
+
 Verdict = Literal["clean", "content_changed", "range_missing", "unparseable"]
 
 
@@ -79,6 +88,9 @@ class AnchorCheck:
     #: pointer's own range unless `relocated`. None when the verdict is not clean.
     start: int | None = None
     end: int | None = None
+    #: The supersession marker block now sits INSIDE the cited range: the cited
+    #: language is intact around it, and `start`..`end` spans marker included.
+    marker_inside: bool = False
 
     @property
     def ok(self) -> bool:
@@ -143,6 +155,34 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
             end=new_end,
         )
 
+    # The one insertion this corpus makes inside a document: the supersession
+    # marker under the title. If the cited range straddles it, the cited text
+    # is intact on both sides — the block merely sits between them.
+    marker = _marker_block(file_lines)
+    if marker is not None:
+        m_start, m_len = marker
+        stripped = file_lines[:m_start] + file_lines[m_start + m_len :]
+        span = None
+        if 1 <= start <= end <= len(stripped) and block_hash(stripped[start - 1 : end]) == content_hash:
+            span = (start, end)
+        else:
+            span = relocate(stripped, end - start + 1, content_hash, meta)
+        # The block is inside the span when the insertion index falls strictly
+        # after the span's first line and no later than its last.
+        if span is not None and span[0] - 1 < m_start <= span[1] - 1:
+            new_start, new_end = span[0], span[1] + m_len
+            return AnchorCheck(
+                resource,
+                "clean",
+                f"the supersession marker was inserted inside L{start}-L{end}; the cited text is intact "
+                f"around it at L{new_start}-L{new_end}",
+                context_shifted=_context_shifted(stripped, span[0], span[1], meta),
+                relocated=(new_start, new_end) != (start, end),
+                start=new_start,
+                end=new_end,
+                marker_inside=True,
+            )
+
     if not in_range:
         return AnchorCheck(
             resource,
@@ -156,6 +196,20 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
         f"L{start}-L{end} no longer hashes to the anchor "
         f"(expected {content_hash[:12]}, got {block_hash(selected)[:12]}), and the cited text is nowhere else in the file",
     )
+
+
+def _marker_block(file_lines: list[str]) -> tuple[int, int] | None:
+    """(start index, length) of the supersession marker block as mark_superseded
+    inserts it — the quote lines plus the blank line it places above them —
+    or None when the document carries no marker."""
+    for i, line in enumerate(file_lines):
+        if SUPERSEDED_MARKER_RE.match(line):
+            end = i
+            while end < len(file_lines) and file_lines[end].startswith("> "):
+                end += 1
+            start = i - 1 if i >= 2 and file_lines[i - 1] == "" and file_lines[i - 2].startswith("# ") else i
+            return start, end - start
+    return None
 
 
 def _context_shifted(file_lines: list[str], start: int, end: int, meta: dict) -> bool:
