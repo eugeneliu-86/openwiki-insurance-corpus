@@ -1,16 +1,18 @@
 {
   "schema_version": 1,
-  "compiled_from": "7af74cd26ea65852c198a912867d14f843c82871",
+  "compiled_from": "89307bb4fbeead35bc15d31b946c0bf03a5302d9",
   "status": "complete",
-  "compiled_at": "2026-09-13T00:11:38Z",
+  "compiled_at": "2026-09-13T00:51:01Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/eugeneliu-86/openwiki-insurance-corpus/actions/runs/34727318546",
+  "workflow_run_url": "https://github.com/eugeneliu-86/openwiki-insurance-corpus/actions/runs/34728467844",
   "claims": {
-    "total": 315,
-    "added": 0,
+    "total": 484,
+    "added": 10,
     "retracted": 0,
-    "carried": 315
+    "carried": 474
   },
-  "changed_sources": [],
-  "compile_mode": "fast"
+  "changed_sources": [
+    "forms/HO/MS/HO-04-48/2026-06.md"
+  ],
+  "compile_mode": "normal"
 }

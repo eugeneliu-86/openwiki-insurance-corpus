@@ -1,11 +1,11 @@
 ---
 type: policy-assembly
 title: Coverage Wiki Quickstart
-description: Route homeowners questions to the correct authority layer first, then to the specialist page for coverage, policy assembly, state overlays, claims operations, or underwriting. Start from the issued-policy record and keep contract language, regulatory controls, and internal guidance separate.
+description: Route homeowners questions to the correct authority layer and specialist page. For Coverage B limit increases, verify the issued HO 04 48 attachment and its endorsement Declarations amount rather than assuming the base limit.
 tags: [homeowners, coverage-routing, policy-assembly, state-overlays, claims, underwriting]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-13T00:38:41.860Z
+    at: 2026-09-13T00:48:02.362Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -13,6 +13,8 @@ sources:
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
+  - id: openwiki-source-9c2b05516073c90ea8ebe398
+    resource: repo://forms/HO/MS/HO-04-48/2026-06.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
   - id: openwiki-source-cd26c30cc942869b52618f95
@@ -37,7 +39,7 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:48:02.362Z" }
 ---
 
 ## Start with the authority layer, not the file tree
@@ -62,7 +64,7 @@ If the issued record is incomplete, keep the issue unresolved rather than fillin
 
 ## Minimum record before a contract answer
 
-Before answering a contract question, collect the policy-written date, policy effective date, state, Declarations, limits, deductible selections, selected HO-3 edition, and every actually attached form and edition. For water-backup questions, also collect the exact HO 04 90 edition because 2010-10 and 2026-01 have different payment and condition terms. For a claim, add the loss date, alleged cause, property involved, and the facts needed by the potentially applicable provision.
+Before answering a contract question, collect the policy-written date, policy effective date, state, Declarations, limits, deductible selections, selected HO-3 edition, and every actually attached form and edition. For a Coverage B limit-increase question, obtain the issued HO 04 48 attachment and the amount shown for that endorsement in the Declarations; neither may be inferred from a repository form or premium entry. For water-backup questions, also collect the exact HO 04 90 edition because 2010-10 and 2026-01 have different payment and condition terms. For a claim, add the loss date, alleged cause, property involved, and the facts needed by the potentially applicable provision.
 
 If a required record or attachment is unverified, do not import newer language just because it exists in the repository.
 
@@ -73,7 +75,7 @@ The HO-3 edition is selected from the policy-written date, not the loss date. HO
 Use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) whenever the form set, attachment, compatibility, or Texas amendment is uncertain. Its assembly sequence is:
 
 1. Select the HO-3 edition from the policy-written date.
-2. Verify the Declarations and actual attachments; “if attached” is not proof of attachment.
+2. Verify the Declarations and actual attachments; “if attached” is not proof of attachment. For HO 04 48, obtain the endorsement's declared amount as well as the issued attachment.
 3. Apply an attached, in-scope state amendment only at the conflict it identifies.
 4. Analyze the applicable grant and exclusions before any narrow write-back, then apply settlement, limits, deductible, and conditions.
 
@@ -83,7 +85,7 @@ Use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-edit
 | --- | --- |
 | Dwelling scope, replacement-cost baseline, or the 80-percent condition | [Coverage A — Dwelling](/openwiki/coverage/coverage-a/dwelling.md) |
 | Wind/hail roof surfacing, ACV schedule, roof age/material, or deductible sequence | [Coverage A — Roof Surfacing Settlement](/openwiki/coverage/coverage-a/roof-settlement.md) |
-| Detached structures, fence or utility connections, rental use, or the additional limit | [Coverage B — Other Structures](/openwiki/coverage/coverage-b/other-structures.md) |
+| Detached structures, fence or utility connections, rental use, the base 10% additional limit, or an asserted Coverage B limit increase | [Coverage B — Other Structures](/openwiki/coverage/coverage-b/other-structures.md) |
 | Personal property, worldwide scope, special limits, or settlement treatment | [Coverage C — Personal Property](/openwiki/coverage/coverage-c/personal-property.md) |
 | Additional living expense, uninhabitability, duration, or fungi-related loss of use | [Coverage D — Loss of Use](/openwiki/coverage/coverage-d/loss-of-use.md) |
 | Liability, defense, medical payments, business activity, or insured-owned/rented property | [Coverage E and F — Liability and Medical Payments](/openwiki/coverage/coverage-e-f/liability-and-medical-payments.md) |
@@ -99,6 +101,21 @@ Use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-edit
 | Enterprise authority tier, referral, hard stop, endorsement route, or audit record | [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority.md) |
 | Florida eligibility, roof/nonrenewal workflow, optional endorsement configuration, or authority route | [Florida Homeowners Appetite](/openwiki/underwriting/florida-appetite.md) |
 | Texas eligibility, coastal/roof controls, water-backup configuration, wind/hail routing, or authority route | [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite.md) |
+
+## Coverage B limit-increase routing: HO 04 48
+
+Route any question about an other-structures limit increase to [Coverage B — Other Structures](/openwiki/coverage/coverage-b/other-structures.md), then use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) to assemble the policy. This is a routing and record-collection step, not a coverage determination.
+
+The unendorsed **HO-3 2018-09 B.2** supplies a Coverage B limit equal to 10% of Coverage A and calls it additional insurance. **HO 04 48 (2026-06) OS.1** instead replaces B.2 with the amount shown for that endorsement in the Declarations, with a minimum of 10% of Coverage A; that amount is also additional insurance. The endorsement says it attaches to **HO-3 2018-09** and modifies B.2 only. [HO-3 2018-09 B.2](repo://forms/HO/MS/HO-3/2018-09.md#L35-L41) · [HO 04 48, heading and OS.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L11)
+
+Use this control sequence:
+
+1. Establish the policy-written date and select the base HO-3 edition.
+2. For a 2018-09 base form, verify that the issued-policy record actually attaches HO 04 48 (2026-06); repository availability, an assertion, or an endorsement premium is not proof of attachment.
+3. Obtain the amount shown for HO 04 48 in the issued endorsement Declarations. If the attachment or declared amount is missing, leave the asserted increased-limit issue unresolved; do not assume either the base 10% amount or an increase.
+4. If both controls are satisfied, apply OS.1 only to Coverage B B.2. Retain the property/rental tests in B.1 and B.3, the Section I direct-physical-loss grant and exclusions, and all conditions.
+
+HO 04 48 is neither automatic nor portable to **HO-3 2011-05**: its stated target is HO-3 2018-09. It does not alter B.1 or B.3, another Section I property coverage, an exclusion, or a condition; rental treatment therefore remains under B.3. [HO 04 48 OS.2](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L17) · [HO-3 2018-09 B.1–B.3](repo://forms/HO/MS/HO-3/2018-09.md#L35-L41) · [HO-3 2018-09 P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L63)
 
 ## HO 04 90 water-backup routing
 

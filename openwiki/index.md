@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Files
 
-- [Coverage Wiki Quickstart](quickstart.md) - Route homeowners questions to the correct authority layer first, then to the specialist page for coverage, policy assembly, state overlays, claims operations, or underwriting. Start from the issued-policy record and keep contract language, regulatory controls, and internal guidance separate.
+- [Coverage Wiki Quickstart](quickstart.md) - Route homeowners questions to the correct authority layer and specialist page. For Coverage B limit increases, verify the issued HO 04 48 attachment and its endorsement Declarations amount rather than assuming the base limit.
 
 # Directories
 

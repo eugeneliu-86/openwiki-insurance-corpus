@@ -1,3 +1,3 @@
 # Files
 
-- [Coverage B — Other Structures](other-structures.md) - Coverage B scope, 10-percent limit, and the HO-3 2018-09 rental exclusion for detached structures. Covers the attached HO 04 90 water-backup route, edition-specific payment terms, and claim-file facts that must be verified.
+- [Coverage B — Other Structures](other-structures.md) - Explains the Coverage B other-structures grant and base 10-percent additional limit, and distinguishes it from the attachment-dependent HO 04 48 increased-limit endorsement for HO-3 2018-09. Preserves the rental, exclusion, and condition boundaries that an increased limit does not change.

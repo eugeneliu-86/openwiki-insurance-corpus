@@ -21,6 +21,9 @@ sources:
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-09T17:00:59.484Z
 ---
 
 

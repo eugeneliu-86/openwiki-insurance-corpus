@@ -21,6 +21,9 @@ sources:
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-12T18:38:23.283Z
 ---
 
 ## Purpose, scope, and controlling layers
