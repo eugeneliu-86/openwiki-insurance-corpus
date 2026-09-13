@@ -47,6 +47,17 @@ class CorpusIntegrityError(RuntimeError):
     """
 
 
+class CorpusUnavailableError(CorpusIntegrityError):
+    """The pinned commit could not be FETCHED — nothing was verified either way.
+
+    Distinct from an integrity failure because the right response differs: a
+    mismatch is final, an unreachable tarball is transient (GitHub propagating
+    a seconds-old commit). The guard lets this one end the run so the caller
+    retries, instead of handing the model a corpus it cannot see and getting a
+    fluent "could not verify / missing_document" report back.
+    """
+
+
 def git_blob_sha(content: bytes) -> str:
     """Return the git blob SHA of `content`, matching `git rev-parse <sha>:<path>`."""
     header = b"blob %d\0" % len(content)

@@ -29,7 +29,7 @@ import tempfile
 
 from dataclasses import dataclass, field
 
-from contracts.corpus_manifest import CorpusIntegrityError, git_blob_sha
+from contracts.corpus_manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha  # noqa: F401
 
 logger = logging.getLogger(__name__)
 
@@ -93,19 +93,28 @@ def _lock(sha: str) -> asyncio.Lock:
 async def _download(sha: str) -> bytes:
     import httpx
 
-    # codeload rather than the API tarball endpoint: the latter counts against
-    # the 60/hour unauthenticated limit. The repo is public, so no credential.
-    url = f"https://codeload.github.com/{OWNER}/{REPO}/tar.gz/{sha}"
+    # codeload first (no rate limit), then its `legacy.tar.gz` path (a different
+    # edge cache key — the plain path kept serving a 404 for a fresh commit
+    # after the tree API had it), then the API tarball endpoint (anonymous
+    # 60/hour, so last). Same order as the sandbox fetch in corpus_guard.
+    urls = [
+        f"https://codeload.github.com/{OWNER}/{REPO}/tar.gz/{sha}",
+        f"https://codeload.github.com/{OWNER}/{REPO}/legacy.tar.gz/{sha}",
+        f"https://api.github.com/repos/{OWNER}/{REPO}/tarball/{sha}",
+    ]
     async with httpx.AsyncClient(timeout=60.0, follow_redirects=True) as client:
-        # Same propagation window as the tree API: a seconds-old commit can 404.
-        for delay in (0, 2, 4, 8):
+        response = None
+        for delay in (0, 3, 6, 10):
             if delay:
                 await asyncio.sleep(delay)
-            response = await client.get(url)
-            if response.status_code != 404:
+            for url in urls:
+                response = await client.get(url)
+                if response.status_code == 200:
+                    break
+            if response is not None and response.status_code == 200:
                 break
-    if response.status_code != 200:
-        raise CorpusIntegrityError(
+    if response is None or response.status_code != 200:
+        raise CorpusUnavailableError(
             f"could not fetch the corpus tarball for {sha[:12]}: "
             f"HTTP {response.status_code}. The anonymous path depends on the "
             f"repository staying public (gate G3)."
