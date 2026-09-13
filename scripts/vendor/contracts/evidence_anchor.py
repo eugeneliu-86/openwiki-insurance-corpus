@@ -15,10 +15,20 @@ Note the trailing newline in every case — joining with LF alone does NOT
 reproduce the hash, which is the one detail that makes this worth writing down.
 
 This is the grounding check we can run ourselves, with no model involved.
-OpenWiki's own preflight does more: it uses the line and context hashes to
-RELOCATE text that moved, and that stays OpenWiki's job. What this gives is the
-cheaper and more important half — does the cited text still say what the claim
-was built on?
+
+RELOCATION (phase 02 P5, closed). When the block at the recorded line numbers
+no longer hashes, the text may simply have MOVED — the first live supersession
+prepended a three-line marker to the old edition and every anchor into it
+failed at its recorded lines while the cited language was untouched. So the
+verifier now does what OpenWiki's resolver does for unchanged text
+(`locateUnchangedLineRange` in src/claims/evidence/repository/resolver.ts):
+scan the file for spans of the same length whose first and last line hashes
+and content hash all match; a unique span is the relocation; several are
+disambiguated by the context hashes; still ambiguous means NOT relocated. A
+relocated pointer is `clean` with `relocated=True` and the current lines in
+`start`/`end`. Text that changed BETWEEN unchanged contexts is still
+`content_changed` — that is the staleness signal, and relocation must never
+paper over it.
 """
 
 from __future__ import annotations
@@ -61,10 +71,22 @@ class AnchorCheck:
     #: Selected text is intact but its surroundings changed, so the line numbers
     #: are drifting. Reported, deliberately NOT a failure — see verify_anchor.
     context_shifted: bool = False
+    #: The cited text was found intact at DIFFERENT line numbers than the
+    #: pointer records (see the module docstring). `start`/`end` then hold the
+    #: current location; callers that quote must read from there.
+    relocated: bool = False
+    #: Where the cited text currently is (1-based, inclusive). Equal to the
+    #: pointer's own range unless `relocated`. None when the verdict is not clean.
+    start: int | None = None
+    end: int | None = None
 
     @property
     def ok(self) -> bool:
         return self.verdict == "clean"
+
+    @property
+    def lines(self) -> str | None:
+        return f"L{self.start}-L{self.end}" if self.start and self.end else None
 
 
 def parse_resource(resource: str) -> tuple[str, int, int] | None:
@@ -95,35 +117,95 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
     except Exception as exc:  # noqa: BLE001 - every decode failure is one verdict
         return AnchorCheck(resource, "unparseable", f"metadata undecodable: {exc}")
 
-    if start < 1 or end < start or end > len(file_lines):
+    in_range = 1 <= start <= end <= len(file_lines)
+    if in_range and block_hash(file_lines[start - 1 : end]) == content_hash:
+        # Selected text intact where the pointer says. Context tells us whether
+        # its surroundings MOVED.
+        #
+        # A shift is not staleness. If the text still hashes, the claim is still
+        # grounded in the language it was built on, even at new line numbers.
+        # Treating a shift as a failure would flag every claim in any file where
+        # someone added a heading — the exact false alarm relocation anchors
+        # exist to prevent.
+        return AnchorCheck(resource, "clean", context_shifted=_context_shifted(file_lines, start, end, meta), start=start, end=end)
+
+    # Not where the pointer says. Is it somewhere else, intact?
+    found = relocate(file_lines, end - start + 1, content_hash, meta)
+    if found is not None:
+        new_start, new_end = found
+        return AnchorCheck(
+            resource,
+            "clean",
+            f"cited text moved from L{start}-L{end} to L{new_start}-L{new_end}; intact",
+            context_shifted=_context_shifted(file_lines, new_start, new_end, meta),
+            relocated=True,
+            start=new_start,
+            end=new_end,
+        )
+
+    if not in_range:
         return AnchorCheck(
             resource,
             "range_missing",
-            f"L{start}-L{end} is outside a {len(file_lines)}-line file",
+            f"L{start}-L{end} is outside a {len(file_lines)}-line file, and the cited text is nowhere else in it",
         )
-
     selected = file_lines[start - 1 : end]
-    if block_hash(selected) != content_hash:
-        return AnchorCheck(
-            resource,
-            "content_changed",
-            f"L{start}-L{end} no longer hashes to the anchor "
-            f"(expected {content_hash[:12]}, got {block_hash(selected)[:12]})",
-        )
+    return AnchorCheck(
+        resource,
+        "content_changed",
+        f"L{start}-L{end} no longer hashes to the anchor "
+        f"(expected {content_hash[:12]}, got {block_hash(selected)[:12]}), and the cited text is nowhere else in the file",
+    )
 
-    # Selected text intact. Context tells us whether it MOVED.
-    #
-    # A shift is not staleness. If the text still hashes, the claim is still
-    # grounded in the language it was built on, even at new line numbers.
-    # Treating a shift as a failure would flag every claim in any file where
-    # someone added a heading — the exact false alarm relocation anchors exist
-    # to prevent.
+
+def _context_shifted(file_lines: list[str], start: int, end: int, meta: dict) -> bool:
     pre_n = int(meta.get("precedingContextLineCount", 0) or 0)
     post_n = int(meta.get("followingContextLineCount", 0) or 0)
     pre = file_lines[max(0, start - 1 - pre_n) : start - 1]
     post = file_lines[end : end + post_n]
-    shifted = (
+    return (
         block_hash(pre) != meta.get("precedingContextHash")
         or block_hash(post) != meta.get("followingContextHash")
     )
-    return AnchorCheck(resource, "clean", context_shifted=shifted)
+
+
+def _context_matches(file_lines: list[str], start: int, end: int, meta: dict) -> bool:
+    """OpenWiki's hasMatchingRangeContext: a zero-line context matches only at
+    the file boundary; otherwise the recorded lines must be exactly there."""
+    pre_n = int(meta.get("precedingContextLineCount", 0) or 0)
+    post_n = int(meta.get("followingContextLineCount", 0) or 0)
+    if pre_n == 0:
+        pre_ok = start == 1
+    else:
+        pre_ok = start - 1 >= pre_n and block_hash(file_lines[start - 1 - pre_n : start - 1]) == meta.get("precedingContextHash")
+    if post_n == 0:
+        post_ok = end == len(file_lines)
+    else:
+        post_ok = end + post_n <= len(file_lines) and block_hash(file_lines[end : end + post_n]) == meta.get("followingContextHash")
+    return pre_ok and post_ok
+
+
+def relocate(file_lines: list[str], length: int, content_hash: str, meta: dict) -> tuple[int, int] | None:
+    """Find the cited text intact elsewhere in the file. Mirrors OpenWiki's
+    locateUnchangedLineRange: every span of `length` lines whose first- and
+    last-line hashes match is a candidate; the content hash confirms; one
+    candidate wins outright, several are narrowed by context; anything still
+    ambiguous is NOT a relocation (None). Returns 1-based inclusive (start, end).
+    """
+    if length < 1 or length > len(file_lines):
+        return None
+    first_h = meta.get("firstSelectedLineHash")
+    last_h = meta.get("lastSelectedLineHash")
+    line_hashes = [block_hash([line]) for line in file_lines]
+    matches: list[tuple[int, int]] = []
+    for i in range(0, len(file_lines) - length + 1):
+        if first_h and line_hashes[i] != first_h:
+            continue
+        if last_h and line_hashes[i + length - 1] != last_h:
+            continue
+        if block_hash(file_lines[i : i + length]) == content_hash:
+            matches.append((i + 1, i + length))
+    if len(matches) == 1:
+        return matches[0]
+    with_context = [m for m in matches if _context_matches(file_lines, m[0], m[1], meta)]
+    return with_context[0] if len(with_context) == 1 else None
