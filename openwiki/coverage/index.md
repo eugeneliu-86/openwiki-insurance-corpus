@@ -1,6 +1,6 @@
 # Files
 
-- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Determine the live HO-3 edition from the policy-written date, then assemble only compatible endorsements and Texas amendments verified in the issued policy. This reference keeps contractual write-backs, state constraints, and repository availability separate.
+- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Assemble the governing issued-policy record by selecting the HO-3 base edition from the policy-written date, then verifying attached endorsements and Texas amendments before applying any compatibility or supersession rule.
 
 # Directories
 

@@ -1,11 +1,11 @@
 ---
 type: claims-guidance
 title: Water Loss Claims Handling
-description: Internal, non-contractual workflow for water-loss intake, investigation, endorsement-edition selection, evidence preservation, escalation, and reproducible completion. It routes coverage and payment questions to the issued policy, including the selected HO 04 90 edition.
+description: Internal claims workflow for water-loss intake, source development, endorsement selection, reservation of rights, escalation, and completion records. It keeps source determination and backup endorsement handling separate from coverage analysis.
 tags: [claims, water-loss, homeowners, investigations, endorsements, reservations-of-rights]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
+    at: 2026-09-13T00:38:41.860Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -21,7 +21,7 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
 ---
 
 > **Internal claims guidance — not policy authority and not language to quote to an insured or claimant.** This page operationalizes the issued policy record; it neither grants nor restricts coverage, creates an insured duty, nor supplies coverage-letter wording. The underlying water-loss guide has the same status. [Water Loss Claim Handling Guidance, status](repo://guidelines/claims/water-loss-handling.md#L1-L4)
@@ -98,7 +98,7 @@ For HO-3 2018-09, C.3 excludes continuous or repeated seepage or leakage of wate
 
 ## Attached HO 04 90: select the edition, then handle the limited route
 
-HO 04 90 is not presumed. Verify attachment and preserve the **issued endorsement edition** before applying a backup condition or payment term. The selection is independent of the HO-3 selection: 2010-10 remains in force for policies written under it and governs their losses regardless of report date; 2026-01 replaces it for policies written on or after 2026-01-01. If attachment, edition, or the relevant written-date fact is unverified, obtain the issued endorsement and Declarations rather than substituting the repository’s current form. [HO 04 90 2010-10, status and continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md#select-the-ho-04-90-endorsement-edition)
+HO 04 90 is not presumed. Verify attachment and preserve the **issued endorsement edition** before applying a backup condition or payment term. The selection is independent of the HO-3 selection: 2010-10 remains in force for policies written under it and governs their losses regardless of report date; 2026-01 replaces it for policies written on or after 2026-01-01. If attachment, edition, or the relevant written-date fact is unverified, obtain the issued endorsement and Declarations rather than substituting the repository’s current form. [HO 04 90 2010-10, status and continuing force](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
 
 In either verified attached edition, **W.1 writes back A.3** with direct-physical-loss coverage for the stated Coverage A, B, and C sewer/drain-backup or sump-related overflow/discharge events, including an event resulting from mechanical breakdown. **W.4 separately preserves A.1** for flood and surface-water sources and **A.2** for subsurface-water sources. Attachment therefore does not resolve source, retained exclusions, property scope, or other policy conditions. [HO-3 2011-05, A.1–A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09, A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77) · [HO 04 90 2010-10, W.1 and W.4](repo://forms/HO/MS/HO-04-90/2010-10.md#L9-L25) · [HO 04 90 2026-01, W.1 and W.4](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L33)
 

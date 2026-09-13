@@ -1,8 +1,11 @@
 ---
 type: underwriting-guidance
 title: Referral and Binding Authority
-description: Enterprise personal-residential underwriting authority, mandatory referrals, non-clearable hard stops, endorsement routing, state-guide precedence, and auditable decision records. Separates HO 04 90 edition-specific contract terms from matrix referral thresholds and explains Florida and Texas controls that narrow enterprise authority.
+description: Enterprise personal-residential underwriting authority, mandatory referrals, hard stops, documentation standards, and how Florida and Texas appetite guides narrow binding decisions.
 tags: [underwriting, binding-authority, referrals, personal-residential, endorsements, audit, florida, texas]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-13T00:38:41.860Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -24,18 +27,14 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
+generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
 ---
-
 
 ## Purpose and authority boundary
 
 This page is **internal underwriting guidance** for personal residential property. It operationalizes the all-state referral matrix: who may bind a submission, when to route it, what cannot be approved, and what must be retained. It is not policy coverage, contract language, or regulatory authority, and it must not be quoted as any of those. The issued policy, Declarations, and actually attached endorsements remain the source for policy terms; a state bulletin remains the source for its regulatory requirements. In particular, an HO 04 90 referral threshold is an internal routing control, not a current or legacy endorsement sublimit, deductible, attachment confirmation, coverage grant, or payment amount. [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L1-L53) · [HO 04 90 2010-10, status and W.2-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L19) · [HO 04 90 2026-01, status and W.2-W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L23) · [OIR-2023-04, purpose](repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L3-L7)
 
-**Precedence invariant — internal underwriting guidance.** Identify and apply the relevant **state-guide provision first**, then treat that provision as constraining the identified enterprise-matrix provision. Florida H.7 constrains the matrix R.2 Coverage A ceilings to $600,000 for line and $900,000 for senior authority; Texas G.7 constrains R.2 to $800,000 and $1,200,000 respectively. State-guide eligibility gates and routing requirements likewise constrain use of the matrix; no state guide may grant broader authority than the matrix. These are internal controls and do not supersede an issued contract or a bulletin. Separately, the matrix R.4 hard stop means a referral or management approval cannot create an exception to a filed rule or bulletin requirement. [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.2](repo://guidelines/authority/referral-matrix.md#L7-L17) · [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
+**Precedence invariant — internal underwriting guidance.** Apply the relevant state-guide provision first, then treat that provision as constraining the enterprise-matrix provision it touches. Florida H.7 constrains matrix R.2 Coverage A ceilings to $600,000 for line and $900,000 for senior authority; Texas G.7 constrains R.2 to $800,000 and $1,200,000 respectively. State-guide eligibility gates and routing requirements likewise constrain use of the matrix. No state guide may grant broader authority than the matrix, and where a state guide is narrower, it governs without implying that it broadens authority. These are internal controls and do not supersede an issued contract or a bulletin. Separately, the matrix R.4 hard stop means a referral or management approval cannot create an exception to a filed rule or bulletin requirement. [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.2](repo://guidelines/authority/referral-matrix.md#L7-L17) · [Underwriting Referral and Authority Matrix, R.4](repo://guidelines/authority/referral-matrix.md#L33-L39)
 
 Keep the following outcomes distinct in every file:
 
@@ -71,7 +70,7 @@ flowchart TD
     Complete -- Yes --> Bind["Bind and retain auditable decision record"]
 ```
 
-*This internal underwriting guidance flow applies the state-guide provision before the enterprise matrix provision it constrains, verifies and records an HO 04 90 edition when that endorsement is requested, then sequences referral counting, authority routing, and documentation. The edition node verifies the documented edition, not attachment or coverage; the flow does not alter a bulletin requirement.* [HO 04 90 2010-10, status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53)
+This internal underwriting guidance flow applies the state-guide provision before the enterprise matrix provision it constrains, verifies and records an HO 04 90 edition when that endorsement is requested, then sequences referral counting, authority routing, and documentation. The edition node verifies the documented edition, not attachment or coverage; the flow does not alter a bulletin requirement. [HO 04 90 2010-10, status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) · [HO 04 90 2026-01, replacement rule](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) · [Florida Homeowners Appetite Guide, H.7](repo://guidelines/appetite/fl-homeowners.md#L47-L49) · [Texas Homeowners Appetite Guide, G.7](repo://guidelines/appetite/tx-homeowners.md#L47-L49) · [Underwriting Referral and Authority Matrix, R.1-R.6](repo://guidelines/authority/referral-matrix.md#L7-L53)
 
 ### State-guide ceilings constrain enterprise ceilings
 

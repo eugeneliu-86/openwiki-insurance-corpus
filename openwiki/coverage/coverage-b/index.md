@@ -1,3 +1,3 @@
 # Files
 
-- [Coverage B — Other Structures](other-structures.md) - Explains Coverage B scope and its additional 10-percent limit under the HO-3 2011-05 and 2018-09 editions. Distinguishes the 2018 rental/private-garage boundary and the edition-specific HO 04 90 water-backup route, payment terms, and below-grade condition.
+- [Coverage B — Other Structures](other-structures.md) - Coverage B scope, 10-percent limit, and the HO-3 2018-09 rental exclusion for detached structures. Covers the attached HO 04 90 water-backup route, edition-specific payment terms, and claim-file facts that must be verified.

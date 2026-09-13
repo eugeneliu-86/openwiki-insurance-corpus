@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d5c26d568bd3a7b17451bef42b3ef58aa678f3ac7ed5e503de9862ad5c89c349",
+  "pageVersion": "sha256:9cb68e0f1ae814e935dca5a1bfa840678eeace0d0619806dff2d37fde835cb5c",
   "claims": [
     {
       "id": "claim_acf61d4c6b3e4c949d27a544ceb1562b",
@@ -89,10 +89,100 @@
           "version": "repo-lines-v1:sha256:bf42f1e3f5e0441d6609edf4f8ba86cc23f5ca2a8e9b75d2d0084eba43a20c33:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWU3MDU5ZGIzZWU3MmM0YmQ4NjI1OWI5N2JjNTNmYzZmMzlkMTIwZmJmN2Q0ZjBhYzg5ZjZlZmQ4ZmQ3NGYxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmIxYjU2NGFlN2MzMjhiYjRhMWRhOTc4YjU1NTk5NWRkMGJiMjAxYjUxMjU3YWRiYTY1MDNlMTk3ODYzZGJlNiJ9"
         }
       ]
+    },
+    {
+      "id": "claim_aff10909db3141dfbf0b061acaa4d009",
+      "statement": "Coverage A covers the dwelling on the residence premises shown in the Declarations, including attached structures, and materials and supplies on or next to the premises when used to construct, alter, or repair the dwelling; this boundary is the same in HO-3 2011-05 and HO-3 2018-09.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L27-L31",
+          "version": "repo-lines-v1:sha256:cf23e789ef82cd297ed0903e9865616bd3ce652de22cf1b72ccb97cb816dc5c3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1MTdhNjc5ZTIxMTgwNTg4NmYzOGU4ZmE3MDZlNWRmZjU1MmMxNmFjYjViOGMxMTBmYjA3NTg3ZTQ5M2MwZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVmYWEwMzkzZWU3MjVmNDJiNjQ3ZjIxMTM1YzhlODlhZTdlMGQ4OTAwMWU5ZTdiMjZiY2QwN2Q0MDVhYmE5MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjM2OTk1MDMwODNlMzAyMWYxODcxNjNkMzRjZjNhNzI4YmIwMzE5ZTk1MGE3OWQzNDI5NWJjMzdmZTZjMGU5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTI2NjI5ZGFhYzQwZGZmNGY1NGVhYWMzNDU0YTcwYzVmOThkZDc2ZTkzODNhZmE1NGY4ZTNhYmY5ZGE0MTMyMCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L25-L29",
+          "version": "repo-lines-v1:sha256:cf23e789ef82cd297ed0903e9865616bd3ce652de22cf1b72ccb97cb816dc5c3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1MTdhNjc5ZTIxMTgwNTg4NmYzOGU4ZmE3MDZlNWRmZjU1MmMxNmFjYjViOGMxMTBmYjA3NTg3ZTQ5M2MwZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVmYWEwMzkzZWU3MjVmNDJiNjQ3ZjIxMTM1YzhlODlhZTdlMGQ4OTAwMWU5ZTdiMjZiY2QwN2Q0MDVhYmE5MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjM2OTk1MDMwODNlMzAyMWYxODcxNjNkMzRjZjNhNzI4YmIwMzE5ZTk1MGE3OWQzNDI5NWJjMzdmZTZjMGU5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzYxMjFmZmI1YjljMmJhOWYyYzE4ZTBiODA0MmZlNGYzNTY5YTQ5MzkzYjU0MjQwZTNhYWIxYmQ1MDQzOGQ3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_71303c5895ea45c1ab5d4b964733c0be",
+      "statement": "HO-3 2018-09 states that Coverage A and Coverage B insure against direct physical loss to the described property except as excluded in Section I, so a covered-loss and exclusion analysis is still required before settlement is selected.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L59-L63",
+          "version": "repo-lines-v1:sha256:494e65077f3edd226f87b71cbe41bb3fd517ece89ea4a2685de3c3942f168ed1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVjMDU4MjVkMWRlOGRjYTY3MWU3YWE0YjViYTk4NzA3YmYwMjlkODlhMmYwNzY2OTMxNmUxMTM5OTgzOTMyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFiZmUzNDk1ZGYwYWEzZTc1MzJhOWI2ZmEzYThmYzhhMGQ4N2YyYTY5MmM1NGQwODIyNDEwMjVmNDE5ZmFlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2153e672318d4d718d48a83656d3fd5b",
+      "statement": "The issued base-form edition controls the Coverage A baseline: HO-3 2011-05 is superseded for policies written on or after 2018-09-01 but remains in force for policies written under it, while HO-3 2018-09 applies to policies written on or after 2018-09-01.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L1-L7",
+          "version": "repo-lines-v1:sha256:6a0e26999697d68edeefd6d52adfa0e753525300a638b7e1eaac1e0def172c00:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2EzMjc5YzE1MmJkZWQ1OWMxYmRiYTA0NTcxNDcxMWEyM2MxYzE5Mzc5YTllYTQ2Mjk2MWMwOTYwMzdkZDFmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWU4MGJkYjg3OTQwZTA1ZTRhZWViYTVlMzIyYjFkYTY4OTlhNDU4OWE2Y2YwYTIwNjZjYjUwMDVkNWY0NzE0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjlhZWU0ZWUxYWU2NjQzMjc4MjlmMjBkYzllMDYzZTQ4YWY4ZTI5M2E5MzM2ZjRmNDM1M2JiNGQ4YWExYTc4YyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L1-L4",
+          "version": "repo-lines-v1:sha256:57bd534704591d18f61e6e4fdc264b08252f04f2010858dfee3cd2aada5fa32d:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGMzY2RkNzgxYTFmMTY1ZGE1NjM3OWJhMTQyOWM2MGMxNjc0OGVkY2E0YmQ4ZGMwY2VhYjgxZWMxM2Y2NWRhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWViMzUzNzNjYzk0ZWI4MTc5YzVhMDE2MTE1Yjc3YzFmODhlZDVjYzYxYzdmZjg4MjE1NDQ3Mjc1ZjY5MzYzMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9968754298e24ab6a471457ea316efc4",
+      "statement": "Both HO-3 editions make dwelling settlement subject to an 80-percent replacement-cost condition and use replacement cost as the ordinary dwelling baseline; the 2018-09 definition adds that replacement cost is measured at the time of loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L15-L18",
+          "version": "repo-lines-v1:sha256:e0c90f56bb77bdd5bc630e03530e9f58d9c95af4342da94b035bcfb4a367d2fb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzM0NmQ4NDIyZmUwOGRmZGQxNjAwMDJhMzM1ZGRiMWQwZWU4ZjMyYjg5NDA1MGVkMzNkYjAwZWM1YzA0NjY5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTA0OTYzM2QzNzJlNTViZjQzYjA2ZjBiYjE5MTM4OWExMjVmOTcyNDJhZTk2NmZjODZlMDg2NjZkOWU3ZDE1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzg2YTAyOGVkM2U0Y2I1MTQ3MmJjZWViNDkwZDkzMDE1YWMwYWI3Njk5OTBhMTFjODc0YmRjMWJkMDQ2OTcxMSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L31-L33",
+          "version": "repo-lines-v1:sha256:d8993ddda9f6bc840b40c6b83daa7f8c126c5207c29a5c5f9d1f47d0ffe99074:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVmYWEwMzkzZWU3MjVmNDJiNjQ3ZjIxMTM1YzhlODlhZTdlMGQ4OTAwMWU5ZTdiMjZiY2QwN2Q0MDVhYmE5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE3NzA5MjlkMTdmMWI5MzcwNDg1ODUwNmY0ZjI5YjZjYjlhNDdlYzZhYzAzYWEwMjZkZGJkNTQ5OWExNjUyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2ZkNmI2NjM5NTgzZGY4MzU3NzY0ZmEwMTVkODI5OTA3MTczYTA2NjViNWJmNjFjZDRkY2JhMTcyNTQ5MDkzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGMxNWNkMTZmZjc2NDI0MGMxMWY0ZDllNTZiODkxMWMxMjFmODY4OGQyYWQ2ZmIwNTE5MGU4NmJiYzljZmZiMyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L11-L14",
+          "version": "repo-lines-v1:sha256:9da87ee032d46dec3478881ffb567b0c25d09cda12dae0c30138d8d61f153a16:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODdlZjY4ZGM2YmVkMDk5MDQ5ZmUxMmFhYjJhM2NkMGI1NmRhNTcyZTVkY2Y1NzIxNjY0MDA3MzQ2MWE1NTBmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTA0OTYzM2QzNzJlNTViZjQzYjA2ZjBiYjE5MTM4OWExMjVmOTcyNDJhZTk2NmZjODZlMDg2NjZkOWU3ZDE1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzg2YTAyOGVkM2U0Y2I1MTQ3MmJjZWViNDkwZDkzMDE1YWMwYWI3Njk5OTBhMTFjODc0YmRjMWJkMDQ2OTcxMSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L33",
+          "version": "repo-lines-v1:sha256:720cbdf56c7b7db7757b4ba414c3d1ad56456becbbd9f1500709fa5846c5c0d3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlMDVmM2RhZmJhNWJlNTQzOGY3OGIyYjBmZWM5ODgyY2MzNGJhNjAwNmJmZGFlNjk1ZTUwNGMyMDEzMzg0NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGMxNWNkMTZmZjc2NDI0MGMxMWY0ZDllNTZiODkxMWMxMjFmODY4OGQyYWQ2ZmIwNTE5MGU4NmJiYzljZmZiMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a3450b5a27f84b3a8e5d534e6bda69f4",
+      "statement": "In HO-3 2011-05, Coverage A A.3 includes roof surfacing in replacement-cost settlement and the edition contains no separate roof-surfacing settlement provision.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L31-L33",
+          "version": "repo-lines-v1:sha256:d8993ddda9f6bc840b40c6b83daa7f8c126c5207c29a5c5f9d1f47d0ffe99074:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVmYWEwMzkzZWU3MjVmNDJiNjQ3ZjIxMTM1YzhlODlhZTdlMGQ4OTAwMWU5ZTdiMjZiY2QwN2Q0MDVhYmE5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE3NzA5MjlkMTdmMWI5MzcwNDg1ODUwNmY0ZjI5YjZjYjlhNDdlYzZhYzAzYWEwMjZkZGJkNTQ5OWExNjUyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2ZkNmI2NjM5NTgzZGY4MzU3NzY0ZmEwMTVkODI5OTA3MTczYTA2NjViNWJmNjFjZDRkY2JhMTcyNTQ5MDkzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGMxNWNkMTZmZjc2NDI0MGMxMWY0ZDllNTZiODkxMWMxMjFmODY4OGQyYWQ2ZmIwNTE5MGU4NmJiYzljZmZiMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d01eee3635d144a294f9460ca8c3cd16",
+      "statement": "In HO-3 2018-09, Coverage A A.3 is subject to A.4, and A.4 routes windstorm- or hail-caused roof-surfacing loss to replacement cost unless an actual-cash-value roof schedule endorsement is attached, in which case that endorsement governs roof surfacing only while other dwelling components remain under A.3.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L34",
+          "version": "repo-lines-v1:sha256:dc37099a8b78c0c72333df2131ffe419c4397715770920e8bd8c96534d19dac7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE2ZDViYWFiYjQzMzlmNDVhODVjZGNmZmQ1YzhjZmQ1NzhhYjlhMDk3ODRhYzQ0ZjhlYjU1MzQ3NmFhMTc1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_559b912625794da8a3ddb78d5bfc6010",
+      "statement": "HO-3 Exclusion D.1 keeps ordinance-or-law increased construction, demolition, or repair costs outside Coverage A unless an ordinance-or-law endorsement is attached, so Coverage A should not be used to add those costs to the dwelling grant.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L91-L94",
+          "version": "repo-lines-v1:sha256:ba9fd3cef2cd070e8504914fda85b96660d05cdf02806bb7addccbb08d8cc1ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdiY2VjMDY4NWUwZDE1YzY4ZDg4ZTZmOTA2NzlhZmI2YWVjNWE3OTQyMDkzYTBkODQwZjY2ODE3ZGFjM2Q3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGMwZTEyMDM1ZDM1NWMxZTY4YjU1ODFjYzc5MjQwZmVlNzVmMTk2ZWE5ZTRmMzNkYzY2MTc4ZTA2NDIwZmI5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjJiMjVmMTMwM2IyYzAwOGYzYjMzNDQ5YTgzOGUzZDdhMTI3NGNjZmNiNGI0MTMwZWJmNGYzNTE0MjhlMDY1MyJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-09T17:00:59.484Z"
+    "at": "2026-09-13T00:38:41.860Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:25d38c8185240e7d6d4e9dc14d73589b67c5f131faabdb0f6065e81d4b5476df",
+  "pageVersion": "sha256:016413a621630b42557f08f00b3bd5aac0e9414c367b279c2b32b83d358f2665",
   "claims": [
     {
       "id": "claim_9bffab9662ff4baa8eec084138f297e7",
@@ -177,10 +177,162 @@
           "version": "repo-lines-v1:sha256:b7f7c3d9f36b1766139c7a4dd452fcb1b0716953860968302721c4d5eaef9bb3:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmQ4YmE0YTk1Yzc2ZTBiYjE3MjA4MmRjZDg4NGI2NDdiNjNmOWRmMDBlOTg1N2UyNDA3NTg5Y2ZlZWJlYzFmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTJmMzE0ZTBiN2E0YzI5ZmE2NDIzZDNkNWJjMzkxNzhlNGVlZmZhYjE5ZGI0NDc5MzBkNTQ1YzE4MzY0ZWYwNyJ9"
         }
       ]
+    },
+    {
+      "id": "claim_a5b88f3dcae7434b9c9e2616ee597719",
+      "statement": "HO-3 2018-09 supplies the Coverage A dwelling baseline, and A.4 routes windstorm- or hail-caused loss to roof-surfacing replacement cost unless an attached ACV roof schedule endorsement governs that roof surfacing only.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L25-L34",
+          "version": "repo-lines-v1:sha256:d7efa1f5cff57cce1416fe15886c1670b002c0bd8215030058750a564983093c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NTE3YTY3OWUyMTE4MDU4ODZmMzhlOGZhNzA2ZTVkZmY1NTJjMTZhY2I1YjhjMTEwZmIwNzU4N2U0OTNjMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYzNjk5NTAzMDgzZTMwMjFmMTg3MTYzZDM0Y2YzYTcyOGJiMDMxOWU5NTBhNzlkMzQyOTViYzM3ZmU2YzBlOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcxNmQ1YmFhYmI0MzM5ZjQ1YTg1Y2RjZmZkNWM4Y2ZkNTc4YWI5YTA5Nzg0YWM0NGY4ZWI1NTM0NzZhYTE3NTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_aefc2b46d01a461695749de2d8b31e94",
+      "statement": "HO 23 74 edition 2018-09 attaches to HO-3, modifies A.4, and limits itself to roof surfacing; components other than roof surfacing remain settled under HO-3 A.3.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L15",
+          "version": "repo-lines-v1:sha256:a0ec5ebcb9636f829c326023443b0b9f9bce19b35925417b894b95c538653460:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0M2I2Njc2YmZlMmQ4ZmQxNDU4NGRjNTQyMTJkYWE3YTM4NmY2NzVkOTBhOTcwMjBkYzVlNmM4MGY4MzYyM2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0NWY5Y2RlNjQ3ZmJiMDFiM2MwZjQxNWMzYTc3M2UxMzE4ZGQ2ZjNlNTNjMjNmMTM2OTZiMTUxMmIyODAxZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwN2Q1MzJhM2Q2MzhhMjU4M2JhNzUwODczNmIxODA3YjUzMTc4ZTkxYmVlNDNkOTFkZWVlYzIzZGZiMDIyOTkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L31-L34",
+          "version": "repo-lines-v1:sha256:dc37099a8b78c0c72333df2131ffe419c4397715770920e8bd8c96534d19dac7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY5MTJmMmEzY2M2ZTkwMDIxYjMxYzI3YTJlZjZiOWZmZmYwM2E2ZGU3YWFkYzUwOGU5N2M2ODBhMDBmZWNjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNiNjYwODliYjVhYTdlYmE3YTFmZTk5YmI3M2U3MjczYTllNzE3MTk1ZmRiMzY4MmM2MTdiN2NiMWE4ZjA0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE2ZDViYWFiYjQzMzlmNDVhODVjZGNmZmQ1YzhjZmQ1NzhhYjlhMDk3ODRhYzQ0ZjhlYjU1MzQ3NmFhMTc1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b1d7ef20f9849e5a4c3e952fb189afd",
+      "statement": "Under HO 23 74 R.1, roof surfacing includes shingles, tiles, shakes, metal panels, membrane, and the underlayment and flashing directly beneath them, but excludes deck, trusses, rafters, sheathing, and interior finish.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L5-L10",
+          "version": "repo-lines-v1:sha256:1c1b92e4ea5118e4851973cc6cb2948af5312a4cdae9d4bc35ed303c05dab040:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFiMDY5NmUyZjg3YTgxOGI0MDk3ZTQ2YjQzMGYyMGQ0ZjllYTY5ZjZlMGFmOWM4YTUzYzJjMzEyMjc2YmQzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JiNzRhZTg3ZDQxNDU4MjJlMTg3OTRhMWFkNmEwNDFiZjUxNDM1M2ExOTYxOTFhOWFlNGI4NTdhOWE3MThmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWU4OGYyYjk2Zjg4NWQzYzA5M2NhZWMwYTZlOWJmY2RhZmYxNzY1OGZjNTMwZGFlZmU1YzNkMDRhNGU5MmVlYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6bb5cd38ede844c89c2c3f6e3b91ab93",
+      "statement": "For attached HO 23 74, windstorm- or hail-caused roof-surfacing loss is settled at actual cash value by applying the R.3 depreciation schedule to the roof-surfacing replacement cost, and R.2 expressly leaves other covered-peril surfacing loss at replacement cost.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L11-L25",
+          "version": "repo-lines-v1:sha256:995424ffa75f2e2cd7a2e7cf1f9709eb15071230df95163aa9fed6a850eebe3a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0N2MxY2MwNjQxYjBjZGE0ZGRhMTMyZTdhMDdhYjNkMjFhYjkyYmYzM2MwNWI3ODdhNzM0YWVhYjA0ZTAyZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0YmUyZjcyNTBiYjQ4MDEzNzY5ZTEzMGNhNmNlNTVkNDc4NzhkZGM2NTIyN2QyNTIyNmQ3OWI5MDUxMjBjNjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMWRiYjM4ODM0NTU0YjMyZWY0NmQ4OTY1ZGU2MzliMGMzNWI4MmFiMDI0YjY4MjA1Mzk4MDcxYzM2OTAxZjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlZWZmZGE4NjlkMzdkYzliZTIxNWRmYTY0NzQxMGYzZmU1NjczYjMyMmFiYzk3OWRlOTc5ZGZlMzUzMTNiN2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8595caef9df94ee7b14513cd50f37632",
+      "statement": "HO 23 74 R.3 sets payable percentages by roof-surfacing material and age band: composition shingle, architectural shingle/metal/tile, and wood shake each have distinct schedules.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L17-L25",
+          "version": "repo-lines-v1:sha256:98be9e6d0640614cb19756c69d3853210b796a8ca70e3bb72c09f97f03e14b15:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZiMDAzN2YyZmY3YTU1YzIyMjM2M2RjM2VkODQwN2Q0ZjUwYjI5MGM4Y2E4MDJiMDc2MGY2ZTc0YTIyNDE0NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRiZTJmNzI1MGJiNDgwMTM3NjllMTMwY2E2Y2U1NWQ0Nzg3OGRkYzY1MjI3ZDI1MjI2ZDc5YjkwNTEyMGM2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTNlMGI3NTliYTI0ZjE0ZTU1OWZmZDBhOGFkYWU4YzFmNjIxOGQ2NTBlNzMyMzBhNTY4OGQ0OWU5MGY0ZTFkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGVlZmZkYTg2OWQzN2RjOWJlMjE1ZGZhNjQ3NDEwZjNmZTU2NzNiMzIyYWJjOTc5ZGU5NzlkZmUzNTMxM2I3YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_92f4cc6407404db697f449d88d44ea45",
+      "statement": "HO 23 74 R.5 measures roof-surfacing age from the documented original installation date or the most recent full replacement, whichever is later; if undocumented, the age is presumed to be the dwelling's age, partial repair does not reset age, and a full replacement resets age for that slope only.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L31-L35",
+          "version": "repo-lines-v1:sha256:3da2b46e62b69c638a78ad262441f19de1b44b6c2afeb1e5db30b4ef8a539989:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNmN2JhMTJlNDVkNmFjY2JmMTA5NTgwM2MzMDZhNDE2ZjQ0NzYzZmY1ZmEwMzRlNWRhODA3M2Y4MmFmMWRiZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTYxMmQ1ZjE5OWU1NWJkNzY5OGQxMzUwZTQ5NzkyYTBjM2MzY2Q1NzQwMDEwNjU1ZmJkNThhMmQwYTVmNzhiMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmM2NTUzOWIyYTY2MWU0ZGE4YWM4MDYyZDUwYzZmNGI0ODBiMDdjNDkyMGJlMzU3OGRhMTc2Mzk0ZTg0N2E3MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDdiNzA2ZGQ0YjliMTlhMjgxMzQzM2NkYTJlYzlhZWE2N2I5ODUwOGNiNzcxNTQ0NTE0MDRiNmNiZTNmMmY4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_710a2c02d5784895b668d32674760d4e",
+      "statement": "HO 23 74 R.4 imposes a 25% minimum payment floor for roof surfacing before deductible, so the schedule amount must be raised to that floor if needed and only then reduced by the applicable deductible.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L27-L30",
+          "version": "repo-lines-v1:sha256:d351cad1204254cd174eb3e0a9f8f5b8c266a29b973b47b98a7dc8687f133ade:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmJhNmM5M2E3Mjc0ZDI0ODY3YWNiNmIxODcwZDFhYWQ5YTdhNzViYmI4MzY5MTM4ZmEyNjViMmIyNWUzNjBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjM0NjU0ZWYxNTA0ZGI4NDhiZGY2ZDJiMTYxMjY1MTU0ZTFjNDk5MWIxNGNlYzFjOGIwNTg3NTgyNjU4ZTg2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjgwNzRiYjFiODk0MmM5YWYxZGZkZWFiZDA5NTllYzA3ZWIwYjFhMzVjZjk4NDk0YzU2NWJiY2E1MDNhZWYxYSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
+          "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_44a08725def545148e238bcdeb71a929",
+      "statement": "HO-3 2018-09 S.5 applies the Declarations deductible to each Section I loss and, where a separate windstorm or hail deductible is required by a state amendatory endorsement, directs that only the larger deductible is deducted.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L101-L112",
+          "version": "repo-lines-v1:sha256:d5de007d55c1a826791afbcec54317c7ddd97cf2e98c1b35a5f2c95ccf3cda0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkOGJhNGE5NWM3NmUwYmIxNzIwODJkY2Q4ODRiNjQ3YjYzZjlkZjAwZTk4NTdlMjQwNzU4OWNmZWViZWMxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMWYyZWMxNzU5M2MxMDU0ZWI0NjM2N2Q4NDUzZWYyNGExNzNjZTk2YjcxMTdkOTFmOWE2OGQ0NGZlZjhiMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMDhmNTlkZWEzZDk4ZGJiNzE4YzEzNjY0NjFhYmFjZTg2MGZjNjAzN2E0MDIzYmFlOTZkNzgzNWJkNjYzYjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c5bd38884a584bcf8b90259138d01901",
+      "statement": "HO 01 45 edition 2022-01, when attached and applicable on a Texas HO-3 2018-09 policy, amends S.5 so that windstorm- or hail-caused loss receives only the separately stated windstorm-and-hail deductible, while Texas Bulletin B-2021-08 separately regulates deductible configuration, disclosure, filing, and application.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L35-L37",
+          "version": "repo-lines-v1:sha256:ff45f2c8972eaaa3474b300f0bb2cadf94760a186ae0333871fa9413ee2863b4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2Q0MTk4ZDIxYzBlNDFmZGViYTQ5ZmZlNDg5NThhMTFhNDAzNzQ3ZWY1ZWZlNjJkZjQ4OWI0NDBjNjMxMDU5NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGJlMGIzM2QyODM5MWNkYzY2NmY0MzE3NmRlZmVkZWVkNzRjNjNmMmI0MTdkMmY5Yzc0YjI4ZGRiNTk0ZjQwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkNWVhMWMxMmZiMjJlNGIyMGRmZGNhYTgwNWMzZDEyNGE5ZDc2NzJiYjhlMzUyMzA4ODg0MTMxMjliOWNiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/2021-08-windstorm-deductible.md#L5-L25",
+          "version": "repo-lines-v1:sha256:5dd468ee61d53c663fe96342140bc6aa13c2ae51572bc0dbad64a28b00545e8f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYjBlMmNlMTdhODkyYzFiOTJlMjU1MmQyMDM2MWJlOWZiZDc2ODg1ZmE3NTljODgzZWUwZTJjNjg0N2NkMGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmY2MzMDFmMTliZDExODBhZjhhZGZhNTc3MTgyNDM0OThkZGNhNWZkYjhjOTllNmMzZjdlYzhkZjNhM2JjNTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5NDA5MDRiYTIyYTgzOGE1YzFjYzViMTc5YTQyNTNmMWZhNmNiNDIxNzg4YjZlNjVmYjMwYjAwNWRkNDYxNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzZWFkYzAyMTBiN2QyYTQyYWRmY2NlYWM0NGVjOThmNDhlOWE2Y2YwNjFiYmRmYjU4OGM3NDZhODRlZmUxNWMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11",
+          "version": "repo-lines-v1:sha256:06998020169142d007a27ab4eb049b43ebd934e26d9891a7e2ef83dc1be31560:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlNTY1YmI3ZWQ1YzM2ZmZkYTFkNWYwZTc4ODk4Y2RjOWY1NDVhYWVhZTdmOTMzODU1Yjc2ODZmOTAxNTMyOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2ZmMzYzljMzNjNTg2YWIwZWYzMzJkZmQxOTFmMjgzYmQ3YjZhMjZmYmE2MTAyMzNkN2JiMzQ3YWNhNWYwODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjYzdkOTE3NDYwMzY4ZGIxYTYzN2VjZTc3NTkzMTZiMTA0MGM4NTkyMjZjZDg5ZTUzMjEyMTllZDZiNzAyMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_dd256b7299404f41aa5aa7b6d189a6db",
+      "statement": "Florida Bulletin OIR-2023-04 does not attach or rewrite policy settlement wording, but it constrains offer and use of a separate roof deductible or ACV roof schedule, prohibits applying an ACV roof settlement schedule to roofs under ten years old at policy effective date, and bars stacking a hurricane deductible with a separate roof deductible on the same loss.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L1-L3",
+          "version": "repo-lines-v1:sha256:ea9efe9ff10132f1e1bee3c37ab75aa7590ee1f9c0ca6e8fbf819c361732b8a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZWM2YWIyNTg3NGQ1NzI1Yjg1MmE3MWU4YzZhNjYwZTQwMjBmNGIwY2E0MmNhNTkyYmI0NjY4OWRjMGE0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVkYzBjMjMwODM4NTQ0YzhkZmRmNzRhZGFhOTk3ZDIwYWI4NmRjNDc1MjBiM2UwMDcxOGNkNjBmOTJiY2M2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2NkZjZmMTdhY2Y1NzliYzVkMjcyZjlmNTk2YjAzY2RjMjY0YjUwNDI4ZTY1OGVjYjA4MTU3YzdkNzg2YWZmZSJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bc2963b59417b018c95a0e2aa1b31f9b55496294853cc5cf5d9212d29d4b1521:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MjRmM2Q0M2RhYWM5MTBiZDZhZTMyYWM0OWEzMTAxNTJhYjY4MzNmYzk4MmJkNTEyMmQyOGNmZjQ1ZThjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNjM5MTBjODAxNDNhOGFkN2MzOWQwNDdjNDAxYzM0YTQyMjdmODJiZDg1MmU2ZTc1ODUzYTgyZGFjNjc1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDUxMGQyZDQzNWIzODRjOWZjYzBmOWUzNjYyMjhjMTFmNThiODU3MDIzYzYyOWI2ZmE3YTAwMWU0NzBjYjcyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlYmU3ZWU0MTk2YjFjMjM0NDFhNTZmZGQ0MmVkMGJmOWIyYmQ1NWYzZDU5OWY4YWMzYTAwZTAxYzA0NTJhNCJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/2023-04-roof-age-nonrenewal.md#L31-L33",
+          "version": "repo-lines-v1:sha256:fab3e56bc9250dfd64c311e588341aa9ba4c263b5eb35860b21cec70dc117928:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODFiNGFmY2RmOWY4Yjg1OGRhNWU3MzA3MmJiODcxMmQ4MzBhYzg4MDkxOWFmZmY4YmM2OGE0MzVjNmE5NThlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk5ODAwMzc1MmY3MjE3MjZhYTFjZDY5ODBmYmE0YmMwNWQ0MzA0YzAzM2YyMjk2YWYwZTdhYmUyMmI0YzAwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmU4MWUwNjUyNWE5ZjJmYzEyMThiOTJiMjIyODQ2ODRlODAzZDljZGEwYjU5YmQ5NGEzNWY2YmVhYWU3ZWQ4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDEwMzQ4YWIxOGQzNjAwNmQ0OTA4YzZhODc0ZTBjOTFiNjg5ZTAwMzg5NGM3ZTM0ZTIwMTBhMjI5YzcyYmQxZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9167db03d2c8468dab2fec7cef91af07",
+      "statement": "HO-3 D.1 excludes increased cost required by ordinance or law unless an ordinance-or-law endorsement is attached, and HO 23 74 R.6 preserves that exclusion boundary rather than writing back the cost of code-required replacement of undamaged roof surfacing.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L37-L41",
+          "version": "repo-lines-v1:sha256:126a35914fc0f7324402cc94ee159956fa8b54b1e68eefc01b9deb8450be57a9:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE4NjFkZTk3OGI5NDE1MzdiOTNkZTdlNWUxNGFlYzk0OTQyNGUzNWUzNmFiNDZkZjg0M2U2MTUwYWQ4YTg4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY2NDU5NTJmY2UwOGEzOWFiMGY1MjhkNDhlYjgxOWYyMTY0MzFiMTEzZDgwYTlmMGQ2NDRmZWYyYTA0MTU4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ0NWQzNWQwMWNlZGFiMzMzODk5ZTg5ZjczZTljMmNkMWRhZjM4YTMxOWY5ZTM3ZmMwZTUwOWRiMTBjNmZjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L91-L94",
+          "version": "repo-lines-v1:sha256:ba9fd3cef2cd070e8504914fda85b96660d05cdf02806bb7addccbb08d8cc1ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdiY2VjMDY4NWUwZDE1YzY4ZDg4ZTZmOTA2NzlhZmI2YWVjNWE3OTQyMDkzYTBkODQwZjY2ODE3ZGFjM2Q3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGMwZTEyMDM1ZDM1NWMxZTY4YjU1ODFjYzc5MjQwZmVlNzVmMTk2ZWE5ZTRmMzNkYzY2MTc4ZTA2NDIwZmI5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjJiMjVmMTMwM2IyYzAwOGYzYjMzNDQ5YTgzOGUzZDdhMTI3NGNjZmNiNGI0MTMwZWJmNGYzNTE0MjhlMDY1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cff65e59c01a4ab385fca442ebb7c895",
+      "statement": "HO 04 16 edition 2018-09 separately writes back HO-3 D.1 for eligible incurred increased cost caused by an in-force ordinance or law, covers undamaged roof surfacing replacement when required to repair the damaged portion, limits payment to 10% of Coverage A unless a higher percentage is shown, and applies only after the damaged-property loss is settled under the applicable Section I settlement provisions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L11-L37",
+          "version": "repo-lines-v1:sha256:4a6b3d76511b572ad4853492ee30987c6e57c3402805a24ae43531baf2ffb5dd:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5OTU2NDYxMzExOTA1Zjk3ZWIxYTBhYjUxZTZiOTkzYmJmNWE3MjYwNTJkZDg4NTg4YzdjY2Y5ZDM1Njg0YTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjQ1OTUyZmNlMDhhMzlhYjBmNTI4ZDQ4ZWI4MTlmMjE2NDMxYjExM2Q4MGE5ZjBkNjQ0ZmVmMmEwNDE1ODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFkMWZkZDI4ZDE5Zjk3OWEwYWIyMGI0YTc0YmVkMTllY2I3ODJlNzBjNDQ4MWQxZDMwOTdjZTdmZTQ3MzU2ODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L5-L19",
+          "version": "repo-lines-v1:sha256:45c0c9f2f4c0badb845968b502567c9c7a1b7df116ccf1ff2e6f0ea9c86e139d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjMTg1NDA0NDNhYTU2ZTQ0ZjhiODliYWFhZDM5ZWI5N2QyN2VhYmViOTczOTAwMjU3ZGI3ZTg5NmNkMWE4Y2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhNGM4ZjQwMTA5ZjFmYmE2MTJlNjUxNzAxNzhiM2I1YTFmOWRkN2ViOTQ3ZWZlMjNmMDkxNzY4Y2U3YmQzOGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhlNmZiODliNzY3NTI4ZWE3ZjQxODdlNGNmZDQwYWQ5ZTllMGY5YzRhNTExODliMDkyMTYxMzdkNzYzNmYyMzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3NzRmYWUyMWMxN2UzNGEwMDYyMWIwNWI1YzFiY2QxZjg2MDdkOTY2ZDQ4MjNjNzQ5NWIxYjU4Y2ZhZjc2YjQifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-09T17:00:59.484Z"
+    "at": "2026-09-13T00:38:41.860Z"
   }
 }

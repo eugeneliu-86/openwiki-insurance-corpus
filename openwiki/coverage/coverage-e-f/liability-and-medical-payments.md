@@ -1,11 +1,11 @@
 ---
 type: coverage
 title: Coverage E and F — Liability and Medical Payments
-description: Edition-aware reference for HO-3 Coverage E personal liability and Coverage F medical payments to others. Distinguishes their coverage grants and applies the Section II exclusions in the controlling 2011-05 or 2018-09 form.
-tags: [homeowners, coverage-e, coverage-f, personal-liability, medical-payments, policy-editions]
+description: Edition-aware guide to HO-3 Coverage E personal liability and Coverage F medical payments to others. Separates the Section II grants from the edition-specific exclusions that control defense, indemnity, and payment decisions.
+tags: [homeowners, coverage-e, coverage-f, personal-liability, medical-payments, section-ii]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
+    at: 2026-09-13T00:38:41.860Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -17,9 +17,8 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
 ---
-
 
 ## Start with the issued HO-3 edition
 
@@ -59,9 +58,7 @@ flowchart TD
     FExclusion -- "No" --> NoCover
 ```
 
-*This decision flow keeps the common edition and exclusion analysis separate from Coverage E's legal-liability path and Coverage F's medical-expense requirements. It sends a 2011-05 Coverage F review directly from the three-year requirement to the exclusions, while 2018-09 first requires its location-or-activity connection.* [HO-3 2011-05, Section II](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09, Section II](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
-
-This review flow separates the common edition and exclusion analysis from the different E and F entry requirements. The location-or-activity branch is a **2018-09-only** F.1 qualification; under 2011-05, proceed from the three-year test to the applicable exclusions without inserting that later wording. [HO-3 2011-05 §§ E.1–F.1 and L.1–L.2](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09 §§ E.1–F.1 and L.1–L.3](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
+This decision flow keeps the common edition and exclusion analysis separate from Coverage E's legal-liability path and Coverage F's medical-expense requirements. It sends a 2011-05 Coverage F review directly from the three-year requirement to the exclusions, while 2018-09 first requires its location-or-activity connection. [HO-3 2011-05, Section II](repo://forms/HO/MS/HO-3/2011-05.md#L95-L111) · [HO-3 2018-09, Section II](repo://forms/HO/MS/HO-3/2018-09.md#L115-L133)
 
 ## Section II exclusions: apply the edition-specific text
 
