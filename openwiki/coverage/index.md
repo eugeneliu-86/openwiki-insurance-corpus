@@ -1,6 +1,6 @@
 # Files
 
-- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Determine the live HO-3 edition from the policy-written date and assemble only compatible, issued-policy-verified endorsements and Texas amendments. Includes the HO 04 48 Coverage B limit modification for its stated HO-3 2018-09 target and separates contractual terms from repository availability and state constraints.
+- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Determine the live HO-3 edition from the policy-written date, then assemble only compatible endorsements and Texas amendments verified in the issued policy. This reference keeps contractual write-backs, state constraints, and repository availability separate.
 
 # Directories
 

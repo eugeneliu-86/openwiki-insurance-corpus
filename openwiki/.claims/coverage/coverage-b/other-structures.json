@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:6ea10b181a07be284fb7982c8dff5f4762d91fc2883e2d78c818312436ec1981",
+  "pageVersion": "sha256:66841d6caed84737608cc8787fa3f8e94ce2fd31d9bca5d427298656faf2177f",
   "claims": [
     {
       "id": "claim_919f7d0cf170455da37dd2e54b5c1a7d",
@@ -341,48 +341,10 @@
           "version": "repo-lines-v1:sha256:c05973d1b610564f855f8a9d843e7a1860d6ce2d2765bd988003d5f68fd05f80:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDg0ZmI1YWVkZDVlODdiY2M5NzQ4MmIxZjllMTljY2IxYmI5ZmYzNDUyMDhiZWI3NjliZTkzOWZiZTAyNGIyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY2MTg3ZmUyNGY2OTljNWU4Yjg0MmE3ODQ4NjhlYTY2OTBiY2RjNmI2ODljZmE5YzhmM2QyYzM2NzZhZjhiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiNjVmOGRmYzU3N2IxYmJlZTYzNzA4ZDQ0NjU2YmJmZmYyZjJhYzVhZTcwOTU3MDdlMTAzYWIzYTIzZGJlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTk4OTRkY2U5ODc3MzAwODlkOTA2ZmE1NjNjNDM0NzViZGYxZjFlMzM2ZDhiNmUzNTEyMzUxZjMyZmQyNzk5ZCJ9"
         }
       ]
-    },
-    {
-      "id": "claim_7edaf852a0ef4908bcd8703c49d8bfe6",
-      "statement": "HO 04 48 edition 2026-06 is a net-new multistate endorsement for HO-3 edition 2018-09 that modifies only Coverage B paragraph B.2, so it is not a basis to alter a HO-3 2011-05 policy.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L5",
-          "version": "repo-lines-v1:sha256:d51439f9448a35c7faddae26cb522b0a0c43552dfb8205dc15243d2dd6feb591:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWM0MWJhZjMwMzMxNDhkYzkxODQwODc3NzljMjFkOGIwOGFiYjZmNDhlY2FhM2ZhMDRhMDA1MzE3MjFmY2RiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FkMGZmMDM0YzhhY2MzZjYwNDZiOWYzNzQwNGQzZWMwNTE2NWExNTkwOWQwYzQ3ZTVkODUzNTVhMGU4NDAyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTlmODVhOTcwODNhZDYwMjgwNjA1MGFjNDI5NDc3MTVmOThjZmE5OTVhZjljOGZlMjFkMzI3ODRkN2FiNTA2NyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L35-L40",
-          "version": "repo-lines-v1:sha256:0e611941e27fd88f6d32fdf63f95c0ac8cd5979a47ee6d3a1c1f28f20803dafe:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JjMDc3OGJmN2Q3NWM0MTc3ZDhhZmE2NjY5YjA4NzUzN2JmNjkyODUxNTc5NGYyZTJiMzc0ZjNiYmE3NDRlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjI5ZGFhYzQwZGZmNGY1NGVhYWMzNDU0YTcwYzVmOThkZDc2ZTkzODNhZmE1NGY4ZTNhYmY5ZGE0MTMyMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzNiYWFjOWEzYTAyODZmZGRiNzk1YjRjZWE1ZThkODg4NjAzYjJiMTk5ZDVhMWY1ODNmMjFmNDExMjJjNzA1YSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L35-L41",
-          "version": "repo-lines-v1:sha256:82137355922a07fabbcf9d5d778d60a58c85adf0a01a4aa7f0acc076602ecddc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JjMDc3OGJmN2Q3NWM0MTc3ZDhhZmE2NjY5YjA4NzUzN2JmNjkyODUxNTc5NGYyZTJiMzc0ZjNiYmE3NDRlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA0N2U1ZDRlYTY5MDY0ODY5NGZkMDljNWJkNDBkODU0YmYwNzhkYzVhOTJjYjU3NzA2NmUzYzQ3NWQ0NDY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmMmNhNWI1NDMyZGVlMGI4NmFlNjA2Mzk2MmUyYWYxOGY0Yjg3MDQwZjJlYjBlYjExZTJjODIyZmM2Y2U5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0M2M0MDI5ODk2MzJmNDI0OTVlZmViODYyMDNiNjM1ZTBmOGQ5N2ZmMTI3NmM5YWZkOTA4MTk2MGQzZTcwOCJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_adacd5f130a84f3a978a11813e5d7507",
-      "statement": "When HO 04 48 is verified attached, OS.1 replaces the HO-3 2018-09 Coverage B limit with the endorsement Declarations amount, subject to a minimum of 10% of the Coverage A limit; the amount remains additional insurance.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L11",
-          "version": "repo-lines-v1:sha256:53eaada9a1049f06326bc12396cca988ee35f7b15cc35744bf1a3f7f42a38e70:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyYTk4YTZmOWYxMWZmNTg4MWVlMTBkYjA1OGY2MzYxMDRkZjc1OTVkYWNhNmMzMjY4OGU2Y2VjMDEwZWRjYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQ4MGQ0ZTBjNmJhNjM5NmY4MWRjNTFhNjY2NmM0YjdhZDI1YzNjYjBiOGU2ZjIxMzMyNjMwOTlhMWU1ZGVhMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTQ0ODBhYThkN2FhZTdjOThiYTU1ZDM5NTNjNWYwNjBhZWNjNGJhMmM3MTc2NmZmNWVhNzc2MjBmNWU5NDRkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmNjYWQ2YzRjNzczZDBjYTEzOWYwNDliYmVkZjQ4YzJjODVkN2VhOGIzYjdiNDBmNjQ4MjdiMTBjZTgyZGU2MSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_0980bd49c4ab4629b95b7f6310a4259f",
-      "statement": "HO 04 48 OS.2 preserves Coverage B B.1 and B.3, all other Section I property coverages, and all Section I exclusions and conditions; OS.3 places the additional premium in the Declarations and all other policy provisions continue to apply.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L23",
-          "version": "repo-lines-v1:sha256:894f5f65083238c89a519c7a523c00c5f0abc27ea8bdad9b6a762149f8ac3926:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMWEwYjE0MmE3MDQ0ZGUwZDZhZWYzOWQ3YzlkY2FhY2FkNDgzYjU3MzRmMTc1NzdhMTZiNjA2YzBmZjE1YjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjQ1OTUyZmNlMDhhMzlhYjBmNTI4ZDQ4ZWI4MTlmMjE2NDMxYjExM2Q4MGE5ZjBkNjQ0ZmVmMmEwNDE1ODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwNDgyMjNjY2EzOWYzYzE4MzQ2OGM5OWU0ODBmNWYwMWYzMzg5ZmNhNmM1NDA5MzYxZjQwYzkzZjI3ZDZiY2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
-        }
-      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-13T01:38:59.698Z"
+    "at": "2026-09-12T18:38:23.283Z"
   }
 }

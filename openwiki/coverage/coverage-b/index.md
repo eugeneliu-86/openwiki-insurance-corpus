@@ -1,3 +1,3 @@
 # Files
 
-- [Coverage B — Other Structures](other-structures.md) - Explains edition-specific Coverage B scope and limits, including the attachment-dependent HO 04 48 increased limit for HO-3 2018-09. Distinguishes the rental/private-garage boundary, exclusions, and separate endorsement paths without retrofitting later terms.
+- [Coverage B — Other Structures](other-structures.md) - Explains Coverage B scope and its additional 10-percent limit under the HO-3 2011-05 and 2018-09 editions. Distinguishes the 2018 rental/private-garage boundary and the edition-specific HO 04 90 water-backup route, payment terms, and below-grade condition.
