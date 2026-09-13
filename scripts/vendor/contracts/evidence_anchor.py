@@ -129,8 +129,29 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
     except Exception as exc:  # noqa: BLE001 - every decode failure is one verdict
         return AnchorCheck(resource, "unparseable", f"metadata undecodable: {exc}")
 
+    # The VERSION is authoritative about the block it hashes. OpenWiki keeps the
+    # resource string as the claim's identifier but, when it re-anchors text
+    # that changed between unchanged contexts, records the new block's length
+    # in `selectedLineCount` — the two live title-block pointers into the
+    # superseded HO 04 90 read L1-L4 and L1-L8 while their versions hash the
+    # marked file's 8 and 12 lines. Verifying the resource's range against a
+    # version for a different one can never succeed, so the metadata's length
+    # wins and the resource's end is treated as stale bookkeeping.
+    declared = int(meta.get("selectedLineCount") or 0)
+    if declared > 0 and declared != end - start + 1:
+        end = start + declared - 1
     in_range = 1 <= start <= end <= len(file_lines)
     if in_range and block_hash(file_lines[start - 1 : end]) == content_hash:
+        if (start, end) != parsed[1:]:
+            return AnchorCheck(
+                resource,
+                "clean",
+                f"the anchor describes {declared} lines from L{start} (the resource says L{parsed[1]}-L{parsed[2]}); intact at L{start}-L{end}",
+                context_shifted=_context_shifted(file_lines, start, end, meta),
+                relocated=True,
+                start=start,
+                end=end,
+            )
         # Selected text intact where the pointer says. Context tells us whether
         # its surroundings MOVED.
         #
