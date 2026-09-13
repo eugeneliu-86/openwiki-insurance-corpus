@@ -173,19 +173,38 @@ jobs:
           ./scripts/assert-write-domain.sh
           if git diff --cached --quiet; then
             echo "nothing to commit: the wiki is already current"
-          else
-            git commit -m "docs: refresh OpenWiki ($(jq -r .status .compile-state.json))" \
-                       -m "compiled_from $(jq -r .compiled_from .compile-state.json)" \
-                       -m "$(jq -c .claims .compile-state.json 2>/dev/null || echo 'claims: n/a')"
-            git push
+            echo "landed=unchanged" >> "$GITHUB_OUTPUT"; exit 0
           fi
+          git commit -m "docs: refresh OpenWiki ($(jq -r .status .compile-state.json))" \
+                     -m "compiled_from $(jq -r .compiled_from .compile-state.json)" \
+                     -m "$(jq -c .claims .compile-state.json 2>/dev/null || echo 'claims: n/a')"
+          # The push can lose a race with a commit that landed while OpenWiki
+          # ran. Which commit decides what to do:
+          #   a SOURCE change (forms/bulletins/guidelines) — this compile is
+          #     stale; stop, and let the run that push triggered recompile.
+          #     Not a failure: nothing was lost and nothing is wrong.
+          #   anything else (scripts, workflow, a vendor sync) — the compile is
+          #     still true of the sources; replay our commit on top and push.
+          for attempt in 1 2 3; do
+            if git push; then echo "landed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+            git fetch --quiet origin main
+            if [ -n "$(git diff --name-only HEAD origin/main -- forms bulletins guidelines)" ]; then
+              echo "superseded: a newer push changed source documents; the run it triggered recompiles. Not pushing a stale compile."
+              echo "landed=superseded" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+            echo "push rejected by a non-source commit; replaying on top (attempt $attempt)"
+            git rebase --quiet origin/main || { git rebase --abort; break; }
+          done
+          echo "landed=false" >> "$GITHUB_OUTPUT"
+          echo "could not land the compiled output after 3 attempts" >&2
+          exit 1
 
       # An interrupted run has committed its progress; nothing else re-triggers
       # it (the push trigger ignores openwiki/**), so dispatch the resume here.
       # Bounded: three interrupted compiles in a row means something is wrong
       # with the run, not the schedule.
       - name: Resume an interrupted compile
-        if: ${{ !cancelled() && steps.state.outcome == 'success' && steps.commit.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.state.outcome == 'success' && steps.commit.outcome == 'success' && steps.commit.outputs.landed != 'superseded' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -208,6 +227,9 @@ jobs:
           # OpenWiki's own status says. Observed: a rejected push followed by a
           # callback reporting "complete" for output nobody can read.
           COMMIT_OUTCOME: ${{ steps.commit.outcome }}
+          # true | unchanged | superseded | false. Superseded is reported as
+          # such, not as failed: the run the newer push triggered recompiles.
+          COMMIT_LANDED: ${{ steps.commit.outputs.landed }}
 
       - name: Propagate OpenWiki failure
         if: ${{ steps.openwiki.outcome == 'failure' }}

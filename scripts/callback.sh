@@ -7,9 +7,14 @@
 set -uo pipefail
 : "${REFRESH_CALLBACK_URL:?}" "${REFRESH_CALLBACK_SECRET:?}"
 [ -f .compile-state.json ] || { echo "no .compile-state.json; nothing to report" >&2; exit 0; }
-# The commit step's outcome decides what landed. If it did not succeed, the
-# state file describes output that is not on the branch: report failed.
-if [ "${COMMIT_OUTCOME:-success}" != "success" ]; then
+# The commit step decides what landed. Superseded means a newer source push
+# won the race and the run it triggered recompiles — reported as such, not as
+# failed. Any other non-landing means the state file describes output that is
+# not on the branch: report failed.
+if [ "${COMMIT_LANDED:-}" = "superseded" ]; then
+  body=$(jq -c --arg head_after "$(git rev-parse HEAD)" --arg why "a newer push changed source documents while this compile ran; the run it triggered recompiles" \
+           '. + {event: "refresh_complete", head_after: $head_after, status: "superseded", reason: $why}' .compile-state.json)
+elif [ "${COMMIT_OUTCOME:-success}" != "success" ] || [ "${COMMIT_LANDED:-true}" = "false" ]; then
   body=$(jq -c --arg head_after "$(git rev-parse HEAD)" --arg why "compile finished but the commit did not land (${COMMIT_OUTCOME:-unknown}); nothing is on the branch" \
            '. + {event: "refresh_complete", head_after: $head_after, status: "failed", reason: $why}' .compile-state.json)
 else
