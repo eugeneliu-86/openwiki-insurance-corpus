@@ -1,14 +1,16 @@
 ---
 type: coverage
 title: Coverage B — Other Structures
-description: Explains Coverage B scope and its additional 10-percent limit under the HO-3 2011-05 and 2018-09 editions. Distinguishes the 2018 rental/private-garage boundary and the edition-specific HO 04 90 water-backup route, payment terms, and below-grade condition.
+description: Explains edition-specific Coverage B scope and limits, including the attachment-dependent HO 04 48 increased limit for HO-3 2018-09. Distinguishes the rental/private-garage boundary, exclusions, and separate endorsement paths without retrofitting later terms.
 tags: [homeowners, ho-3, coverage-b, other-structures, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-12T18:38:23.283Z
+    at: 2026-09-13T01:38:59.698Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
+  - id: openwiki-source-9c2b05516073c90ea8ebe398
+    resource: repo://forms/HO/MS/HO-04-48/2026-06.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
   - id: openwiki-source-cd26c30cc942869b52618f95
@@ -23,7 +25,7 @@ sources:
     resource: repo://guidelines/appetite/fl-homeowners.md
   - id: openwiki-source-da67a262bebb42780999bd2a
     resource: repo://guidelines/appetite/tx-homeowners.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-13T01:38:59.698Z" }
 ---
 
 
@@ -37,7 +39,15 @@ Under **HO-3 2018-09 Section I B.1**, Coverage B covers other structures on the 
 
 For a **HO-3 2011-05** policy, B.1 instead says only that covered other structures are on the residence premises and “set apart from the dwelling by clear space.” It does not include the 2018-09 fence, utility-line, or similar-connection wording. [HO-3 2011-05 § B.1](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40)
 
-In **both HO-3 2011-05 B.2 and HO-3 2018-09 B.2**, the Coverage B limit is 10% of the Coverage A limit, and it is **additional insurance**. It therefore does not consume the Coverage A limit. Determine the dollar amount from the applicable Coverage A limit rather than treating 10% as a fixed dollar amount. [HO-3 2011-05 § B.2](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09 § B.2](repo://forms/HO/MS/HO-3/2018-09.md#L35-L41)
+In **both HO-3 2011-05 B.2 and HO-3 2018-09 B.2**, the unmodified base-form Coverage B limit is 10% of the Coverage A limit, and it is **additional insurance**. It therefore does not consume the Coverage A limit. Determine the dollar amount from the applicable Coverage A limit rather than treating 10% as a fixed dollar amount—unless the issued policy verifies the HO 04 48 modification described next. [HO-3 2011-05 § B.2](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09 § B.2](repo://forms/HO/MS/HO-3/2018-09.md#L35-L41)
+
+### HO 04 48 increased limit: a 2018-09 B.2-only modification
+
+**HO 04 48 edition 2026-06 is a multistate endorsement that attaches to HO-3 2018-09 and modifies only Coverage B B.2.** It is a net-new endorsement; it is not an amendment to HO-3 2011-05 and must not be imported into a policy issued on that earlier base form. Its availability in the repository does not establish that it was attached to a particular policy. Confirm the issued endorsement and its Declarations entry before replacing the base B.2 calculation. [HO 04 48 2026-06, header and scope](repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L5) · [HO-3 2011-05 § B.2](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09 § B.2](repo://forms/HO/MS/HO-3/2018-09.md#L35-L41)
+
+When **HO 04 48 is verified attached to a HO-3 2018-09 policy**, OS.1 replaces B.2: the Coverage B limit is the amount shown for the endorsement in the Declarations, cannot be less than 10% of the Coverage A limit, and remains additional insurance. The applicable dollar limit therefore comes from the endorsement Declarations, subject to that floor—not by adding the declared amount to the base 10%, and not by assuming a higher amount without that record. [HO 04 48 2026-06 § OS.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L11)
+
+**OS.2 preserves the surrounding boundaries.** It does not modify B.1 property scope or B.3's rental/private-garage restriction; it does not modify any other Section I property coverage, Section I exclusion, or condition. Thus, a higher Coverage B limit is not a coverage grant for property outside B.1/B.3 or for an excluded loss. OS.3 separately provides that the additional premium is shown in the Declarations, and the endorsement leaves all other policy provisions applicable. [HO 04 48 2026-06 §§ OS.2–OS.3 and all-other-provisions clause](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L23)
 
 ## The HO-3 2018-09 rental boundary
 
@@ -107,7 +117,10 @@ flowchart TD
     Garage -- Yes --> Loss
     Rental -- No --> Loss["Establish direct physical loss and check Section I exclusions"]
     Loss --> Excluded{"An exclusion applies"}
-    Excluded -- No --> Limit["Apply Coverage B limit and policy settlement terms"]
+    Excluded -- No --> LimitCheck{"Verified HO 04 48 on HO-3 2018-09"}
+    LimitCheck -- Yes --> Increased["Use OS.1 endorsement Declarations limit"]
+    LimitCheck -- No --> Limit["Apply selected limit and policy settlement terms"]
+    Increased --> Limit
     Excluded -- Yes --> Endorsement{"Relevant attached endorsement applies to this excluded loss"}
     Endorsement -- No --> Outside
     Endorsement -- Yes --> Water{"HO 04 90 water-backup path"}
@@ -117,8 +130,8 @@ flowchart TD
     Terms --> Limit
 ```
 
-This flow shows the **HO-3 2018-09** Coverage B gates and the separate attachment-dependent endorsement path; a **2011-05** review omits the 2018-09 B.3 rental gate and uses its own B.1 wording. [HO-3 2011-05 § B.1](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09 §§ B.1–B.3 and P.1](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42) [§ P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L63)
+This flow shows the **HO-3 2018-09** Coverage B gates, the separate attachment-dependent endorsement paths, and the HO 04 48 limit check after a qualifying, non-excluded loss. A **2011-05** review omits the 2018-09 B.3 rental gate, uses its own B.1 wording, and cannot use HO 04 48. [HO-3 2011-05 § B.1](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09 §§ B.1–B.3 and P.1](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42) [§ P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L63) · [HO 04 48 2026-06, scope and OS.2](repo://forms/HO/MS/HO-04-48/2026-06.md#L3-L5) [§ OS.2](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L17)
 
 ## Claim file review
 
-For a Coverage B loss, retain the issued HO-3 edition, Declarations Coverage A limit, the structure’s location and connection facts, and rental facts. For a 2018-09 claim, document the B.3 tenant and private-garage analysis before evaluating the cause of loss. Then document the direct physical loss, each applicable Section I exclusion, and—only if actually attached—the endorsement form **and edition**, its trigger, limit treatment, deductible, and conditions. For an attached HO 04 90 water-backup claim, record whether 2010-10 or 2026-01 governs; for 2026-01 with a finished area below grade, preserve evidence that the required backwater valve or equivalent device was installed and operable at the time of loss. The ordinary 2018-09 Section I duties still require prompt notice, protection from further damage, and a signed sworn proof of loss within 60 days after request; the Section I deductible generally applies to each loss, subject to the separate windstorm-or-hail rule where required by a state amendatory endorsement. [HO 04 90 2026-01 § W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47) · [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
+For a Coverage B loss, retain the issued HO-3 edition, Declarations Coverage A limit, the structure’s location and connection facts, and rental facts. For a 2018-09 claim, document the B.3 tenant and private-garage analysis before evaluating the cause of loss. If an increased Coverage B limit is asserted, retain the issued HO 04 48 and its endorsement Declarations amount; verify attachment and the stated amount before applying OS.1, and do not treat the repository form or an additional-premium entry alone as proof of attachment. Then document the direct physical loss, each applicable Section I exclusion, and—only if actually attached—the endorsement form **and edition**, its trigger, limit treatment, deductible, and conditions. [HO 04 48 2026-06 §§ OS.1–OS.3](repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L21) For an attached HO 04 90 water-backup claim, record whether 2010-10 or 2026-01 governs; for 2026-01 with a finished area below grade, preserve evidence that the required backwater valve or equivalent device was installed and operable at the time of loss. The ordinary 2018-09 Section I duties still require prompt notice, protection from further damage, and a signed sworn proof of loss within 60 days after request; the Section I deductible generally applies to each loss, subject to the separate windstorm-or-hail rule where required by a state amendatory endorsement. [HO 04 90 2026-01 § W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47) · [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)

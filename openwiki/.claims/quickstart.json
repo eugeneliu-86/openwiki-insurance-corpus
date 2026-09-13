@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:23d66fa55db0e8e5e5ade5cc078ae312f064508480b79565b0bde8e7971a227f",
+  "pageVersion": "sha256:513792f6a45c7e6fe50019931b111e59ddbcef66567aded94d22c6226eb2aaab",
   "claims": [
     {
       "id": "claim_788ef05fe28b40b187c09a6c86d56a5b",
@@ -331,10 +331,56 @@
           "version": "repo-lines-v1:sha256:c05973d1b610564f855f8a9d843e7a1860d6ce2d2765bd988003d5f68fd05f80:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDg0ZmI1YWVkZDVlODdiY2M5NzQ4MmIxZjllMTljY2IxYmI5ZmYzNDUyMDhiZWI3NjliZTkzOWZiZTAyNGIyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY2MTg3ZmUyNGY2OTljNWU4Yjg0MmE3ODQ4NjhlYTY2OTBiY2RjNmI2ODljZmE5YzhmM2QyYzM2NzZhZjhiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiNjVmOGRmYzU3N2IxYmJlZTYzNzA4ZDQ0NjU2YmJmZmYyZjJhYzVhZTcwOTU3MDdlMTAzYWIzYTIzZGJlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTk4OTRkY2U5ODc3MzAwODlkOTA2ZmE1NjNjNDM0NzViZGYxZjFlMzM2ZDhiNmUzNTEyMzUxZjMyZmQyNzk5ZCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_f5c6eaf8fa85428b9e80b800cbe97b31",
+      "statement": "HO 04 48 edition 2026-06 attaches to HO-3 edition 2018-09 and modifies Coverage B paragraph B.2 only; when verified attached, OS.1 replaces the Coverage B limit with the endorsement Declarations amount, subject to a 10%-of-Coverage-A minimum, as additional insurance.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L11",
+          "version": "repo-lines-v1:sha256:d89b7efa404cf57d7639f0164823e5fac1b159df5bd1478983fe56e91f412d20:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjNDFiYWYzMDMzMTQ4ZGM5MTg0MDg3Nzc5YzIxZDhiMDhhYmI2ZjQ4ZWNhYTNmYTA0YTAwNTMxNzIxZmNkYmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkODBkNGUwYzZiYTYzOTZmODFkYzUxYTY2NjZjNGI3YWQyNWMzY2IwYjhlNmYyMTMzMjYzMDk5YTFlNWRlYTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjY2FkNmM0Yzc3M2QwY2ExMzlmMDQ5YmJlZGY0OGMyYzg1ZDdlYThiM2I3YjQwZjY0ODI3YjEwY2U4MmRlNjEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L35-L41",
+          "version": "repo-lines-v1:sha256:82137355922a07fabbcf9d5d778d60a58c85adf0a01a4aa7f0acc076602ecddc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JjMDc3OGJmN2Q3NWM0MTc3ZDhhZmE2NjY5YjA4NzUzN2JmNjkyODUxNTc5NGYyZTJiMzc0ZjNiYmE3NDRlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA0N2U1ZDRlYTY5MDY0ODY5NGZkMDljNWJkNDBkODU0YmYwNzhkYzVhOTJjYjU3NzA2NmUzYzQ3NWQ0NDY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmMmNhNWI1NDMyZGVlMGI4NmFlNjA2Mzk2MmUyYWYxOGY0Yjg3MDQwZjJlYjBlYjExZTJjODIyZmM2Y2U5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0M2M0MDI5ODk2MzJmNDI0OTVlZmViODYyMDNiNjM1ZTBmOGQ5N2ZmMTI3NmM5YWZkOTA4MTk2MGQzZTcwOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bdb2c1329a8642dd8ec5261e4e889e78",
+      "statement": "HO 04 48 OS.2 preserves Coverage B B.1 and B.3, other Section I property coverages, and all Section I exclusions and conditions, so its increased-limit modification does not restore coverage or bypass those boundaries.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L17",
+          "version": "repo-lines-v1:sha256:49742c62d2bc730620b5e17409ddbcb2b6ab032b50371b04bc4facc129b80476:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWYxYTBiMTQyYTcwNDRkZTBkNmFlZjM5ZDdjOWRjYWFjYWQ0ODNiNTczNGYxNzU3N2ExNmI2MDZjMGZmMTViOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY5OGVlODk1MDAwZWY5ODg2ZmQ0OGYxOGNjMTRiZWZiNTAzZjNiNjBmYWRjMGVjZjcyZmUyNjQwZjkxZTBhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDA0ODIyM2NjYTM5ZjNjMTgzNDY4Yzk5ZTQ4MGY1ZjAxZjMzODlmY2E2YzU0MDkzNjFmNDBjOTNmMjdkNmJjZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjlhZTEyNTQ1ZmQxNmNhNzMwN2MwYzdhMDZjNTdhZWMxZmIyNWI4ZjU1NWYwY2MyMDgxOTdlMDNjMDgxZDYwOCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L35-L42",
+          "version": "repo-lines-v1:sha256:8d05e01c8b722380ca0e0cf2ab49a5046b49e3f895588f3445e1ab13389ae81c:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JjMDc3OGJmN2Q3NWM0MTc3ZDhhZmE2NjY5YjA4NzUzN2JmNjkyODUxNTc5NGYyZTJiMzc0ZjNiYmE3NDRlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmMmNhNWI1NDMyZGVlMGI4NmFlNjA2Mzk2MmUyYWYxOGY0Yjg3MDQwZjJlYjBlYjExZTJjODIyZmM2Y2U5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzNiYWFjOWEzYTAyODZmZGRiNzk1YjRjZWE1ZThkODg4NjAzYjJiMTk5ZDVhMWY1ODNmMjFmNDExMjJjNzA1YSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L59-L63",
+          "version": "repo-lines-v1:sha256:494e65077f3edd226f87b71cbe41bb3fd517ece89ea4a2685de3c3942f168ed1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVjMDU4MjVkMWRlOGRjYTY3MWU3YWE0YjViYTk4NzA3YmYwMjlkODlhMmYwNzY2OTMxNmUxMTM5OTgzOTMyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFiZmUzNDk1ZGYwYWEzZTc1MzJhOWI2ZmEzYThmYzhhMGQ4N2YyYTY5MmM1NGQwODIyNDEwMjVmNDE5ZmFlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_95db347720c8409db1df5433fe710a43",
+      "statement": "An asserted HO 04 48 increased Coverage B limit requires the issued endorsement and the endorsement Declarations amount; without verified attachment and that amount, the limit issue remains unresolved rather than being derived from repository availability.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L24-L26",
+          "version": "repo-lines-v1:sha256:ffeb45e139a80668606a9b2e71592419146a37c690ad5b4e6d0152c3717307ff:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ2OWRjMDFlYWYxYTM0NjE3NTkzYzEzNTNlNjcyYWU3NDhmNzQ2YWI2NTlmNjczNGZmNWIxMzhkZWVmOTVmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjI1ZDcxNzEzNjk4ZDlmNTUzMmU1OTVkNzIyN2FiNmZlZmM1OTlkODk2MGM3MWUzYTM5M2YwNzFhMGNjNmM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjAzMWQzY2E1NDUwZGIwM2FiYjRhZDkzZGM1YjAyNzc2MmIxNzQ1YzYyNjMxYjc4ZmVlMTZhZDgyMzIzY2MyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzM5ZDY2ZjE0Y2ZjMGY0NjcxYTFkN2IxMjA5MjM3ODFjNmZjMjFiZWMzZjViNDY4MjNhYjc0NjQ3ZDliZDI1NiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L21",
+          "version": "repo-lines-v1:sha256:7e077e87bd34ee60150d500823351fbdf68dcf9e49ccdd1460408761cffb8d65:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwMmE5OGE2ZjlmMTFmZjU4ODFlZTEwZGIwNThmNjM2MTA0ZGY3NTk1ZGFjYTZjMzI2ODhlNmNlYzAxMGVkY2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwMTVhZGYwZmI3MDQzODg2Mjk5ZDgzODk1ZjE2M2QwZjYzMDRlNTBmZDdkMWVmOTAwMTdkNmJjZGQwZjkxOTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU0NDgwYWE4ZDdhYWU3Yzk4YmE1NWQzOTUzYzVmMDYwYWVjYzRiYTJjNzE3NjZmZjVlYTc3NjIwZjVlOTQ0ZGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzNTdiNjYyNzkzMjZkYmFkMTA1OTA5MGFjZmZmZTBiNTc0MmQyMzgzNWZlNThmMTQxZTBkODRjZWIyNWViOGUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-12T18:38:23.283Z"
+    "at": "2026-09-13T01:38:59.698Z"
   }
 }
