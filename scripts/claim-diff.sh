@@ -67,15 +67,28 @@ case "${1:-}" in
 
     ow_head="$(jq -r .gitHead openwiki/.last-update.json)"
     ow_status="$(jq -r .status openwiki/.last-update.json)"
-    # C4: compiled_from is ASSERTED equal to what OpenWiki recorded, not copied
-    # hopefully. A mismatch means the compile ran against a different tree than
-    # the one being committed, and every downstream answer would be pinned to a
-    # commit that does not contain what it claims.
-    if [ "$ow_head" != "$head" ]; then
-      echo "FATAL: OpenWiki documented $ow_head but HEAD is $head" >&2
-      exit 1
-    fi
     case "$ow_status" in complete|interrupted) ;; *) ow_status="complete" ;; esac
+    if [ "$ow_status" = "interrupted" ]; then
+      # OpenWiki does NOT advance gitHead on an interrupted run: workers were
+      # abandoned and pages skipped, so the tree is a partial merge and what it
+      # last COMPLETED is still ow_head. compiled_from stays there — that is the
+      # commit whose claims the untouched pages still describe — and status says
+      # interrupted so the next run resumes. Asserting gitHead == HEAD here made
+      # every interrupted run FATAL, and the commit step then pushed the partial
+      # tree under a stale "complete" state file labelled "(success)".
+      state_head="$ow_head"
+      echo "OpenWiki run INTERRUPTED: compiled_from stays at $ow_head; the next run resumes" >&2
+    else
+      # C4: compiled_from is ASSERTED equal to what OpenWiki recorded, not copied
+      # hopefully. A mismatch means the compile ran against a different tree than
+      # the one being committed, and every downstream answer would be pinned to a
+      # commit that does not contain what it claims.
+      if [ "$ow_head" != "$head" ]; then
+        echo "FATAL: OpenWiki documented $ow_head but HEAD is $head" >&2
+        exit 1
+      fi
+      state_head="$head"
+    fi
     # An interrupted OpenWiki run exits non-zero and leaves status=interrupted.
     # A non-zero exit WITH metadata written and status=complete is still a
     # failure of the step — surface it rather than launder it as complete.
@@ -88,7 +101,7 @@ case "${1:-}" in
       changed=$(git diff --name-only "$prev" "$head" -- forms bulletins guidelines | jq -R . | jq -s 'unique')
     fi
 
-    jq -n --arg head "$head" --arg status "$ow_status" \
+    jq -n --arg head "$state_head" --arg status "$ow_status" \
           --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --argjson attempts "$attempt" \
           --arg url "$run_url" --argjson claims "$(emit_claims "$before" "$after")" \
           --argjson changed "$changed" --arg mode "$mode" \

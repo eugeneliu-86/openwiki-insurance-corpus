@@ -37,6 +37,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write     # an interrupted compile re-dispatches itself to resume
 
 jobs:
   refresh:
@@ -86,15 +87,22 @@ jobs:
       - name: Resolve compile mode
         id: mode
         run: |
-          mode=$(git log -1 --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
+          # The trailer rides on the INGEST commit. A refresh commit can land on
+          # top of it before this run checks out (a queued run saw exactly
+          # that), so read every commit since the last compile, newest first.
+          prev='${{ steps.prev.outputs.compiled_from }}'
+          range="HEAD"; if [ -n "$prev" ] && git cat-file -e "$prev^{commit}" 2>/dev/null; then range="$prev..HEAD"; fi
+          mode=$(git log $range --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
           mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
           case "$mode" in
             deep)   model='gpt-5.6-terra'; effort='high' ;;
-            # gpt-5.4-mini takes no reasoning-effort setting: OpenWiki's
-            # capability table lists only the gpt-5.6 family for OpenAI, and
-            # it exits 1 if OPENWIKI_REASONING_EFFORT is set for any other
-            # model. Empty here means "do not set the variable at all".
-            fast)   model='gpt-5.4-mini';  effort=''     ;;
+            # Fast is terra at LOW effort, not gpt-5.4-mini. Mini planned 20 of
+            # 29 pages for a 23-line net-new endorsement and two of its workers
+            # exited without submitting (an interrupted run); terra planned the
+            # 3 pages the document actually touches. Planning quality decides
+            # the wall time here, not per-call latency. (Mini also takes no
+            # effort setting — an empty effort means "do not set the variable".)
+            fast)   model='gpt-5.6-terra'; effort='low'  ;;
             *)      mode='normal'; model='gpt-5.6-terra'; effort='medium' ;;
           esac
           echo "mode=$mode"     >> "$GITHUB_OUTPUT"
@@ -143,6 +151,7 @@ jobs:
       # C4. Asserts compiled_from == .last-update.json gitHead, validates the
       # schema, and exits non-zero on either — so an invalid file is never pushed.
       - name: Write and validate the compile state
+        id: state
         if: ${{ !cancelled() }}
         run: >
           ./scripts/claim-diff.sh write-state /tmp/claims-before.txt /tmp/claims-after.txt
@@ -152,9 +161,11 @@ jobs:
           "${{ steps.prev.outputs.compiled_from }}"
           "${{ steps.mode.outputs.mode }}"
 
+      # Only when the state file was written and validated: a tree pushed under
+      # a state file that disagrees with it is the one thing C4 forbids.
       - name: Commit the compiled output
         id: commit
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.state.outcome == 'success' }}
         run: |
           git config user.name  'openwiki-refresh[bot]'
           git config user.email 'openwiki-refresh@users.noreply.github.com'
@@ -163,11 +174,27 @@ jobs:
           if git diff --cached --quiet; then
             echo "nothing to commit: the wiki is already current"
           else
-            git commit -m "docs: refresh OpenWiki (${{ steps.openwiki.outcome }})" \
+            git commit -m "docs: refresh OpenWiki ($(jq -r .status .compile-state.json))" \
                        -m "compiled_from $(jq -r .compiled_from .compile-state.json)" \
                        -m "$(jq -c .claims .compile-state.json 2>/dev/null || echo 'claims: n/a')"
             git push
           fi
+
+      # An interrupted run has committed its progress; nothing else re-triggers
+      # it (the push trigger ignores openwiki/**), so dispatch the resume here.
+      # Bounded: three interrupted compiles in a row means something is wrong
+      # with the run, not the schedule.
+      - name: Resume an interrupted compile
+        if: ${{ !cancelled() && steps.state.outcome == 'success' && steps.commit.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          status=$(jq -r .status .compile-state.json)
+          [ "$status" = "interrupted" ] || { echo "compile $status; nothing to resume"; exit 0; }
+          streak=$(git log -3 --format=%s -- .compile-state.json | grep -c '(interrupted)' || true)
+          if [ "$streak" -ge 3 ]; then echo "three interrupted compiles in a row; not re-dispatching" >&2; exit 0; fi
+          echo "re-dispatching to resume (interrupted streak $streak, mode ${{ steps.mode.outputs.mode }})"
+          gh workflow run openwiki-update.yml --ref main -f mode='${{ steps.mode.outputs.mode }}'
 
       # C9. Fires on every terminal status. `|| true` because the callback is an
       # optimization — .compile-state.json in git is the mechanism.

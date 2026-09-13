@@ -72,9 +72,12 @@ check(len(re.findall(r"^\s+OPENAI_API_KEY:", WF, re.M)) == 1,
 check("OPENAI_BASE_URL" in WF, "OPENAI_BASE_URL is set (a gateway key against api.openai.com fails)")
 
 print("compile mode rides on the commit, not the dispatch")
-check("Compile-Mode:" in WF and "git log -1 --format=%B" in WF, "the workflow reads a Compile-Mode trailer from the head commit")
+check("Compile-Mode:" in WF and "git log $range --format=%B" in WF and "$prev..HEAD" in WF, "the workflow reads the Compile-Mode trailer from the commits since the last compile (a refresh commit can sit on top of the ingest)")
 check("steps.mode.outputs.model" in WF and "steps.mode.outputs.effort" in WF, "model and effort come from the resolved mode")
-check("gpt-5.4-mini" in WF and "gpt-5.6-terra" in WF, "fast and deep models are both named")
+check("fast)" in WF and "deep)" in WF and "gpt-5.6-terra" in WF, "fast, normal and deep are all resolved")
+check("model='gpt-5.4-mini'" not in WF, "gpt-5.4-mini is not a compile model (it over-plans; see the fast case comment)")
+check("steps.state.outcome == 'success'" in WF, "the commit step runs only when the state file was written and validated")
+check("Resume an interrupted compile" in WF and "actions: write" in WF, "an interrupted compile re-dispatches itself, bounded")
 
 print(".openwikiignore excludes the machinery")
 ignore = (ROOT / ".openwikiignore").read_text().splitlines()
