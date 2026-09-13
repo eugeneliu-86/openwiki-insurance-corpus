@@ -3,6 +3,9 @@ type: claims-guidance
 title: Roof Loss Claims Handling
 description: Internal, non-contractual guidance for roof-loss fact development, settlement calculation review, ordinance handoff, deductible checks, escalation, and closing records. It keeps operating controls distinct from the issued policy and regulatory overlays.
 tags: [claims, roof-loss, homeowners, endorsements, deductibles, ordinance-or-law]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-f8563069b83f765bb32e6be4
     resource: repo://bulletins/FL/2023-04-roof-age-nonrenewal.md
@@ -21,9 +24,6 @@ sources:
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
 ---
 
 

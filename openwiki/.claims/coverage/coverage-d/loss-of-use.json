@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:79c7ef4540973dccaacd3bf4d572ed9fb978b7683a961534ba5bd09c61f2c1ca",
+  "pageVersion": "sha256:4375cb4c7dfbb80629d7ef9491cce10e99dba000058f2735c051b504ee3c162a",
   "claims": [
     {
       "id": "claim_2c7e5643e51847ef9dfb95ca1802cd63",
@@ -125,86 +125,10 @@
           "version": "repo-lines-v1:sha256:52921f7bf7435b9001747470c61b2d11205069237a3f96ac487adb503f3ef523:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgwODNiMGZmMjIxYTU5YjZmY2ZlMjcwZGJiN2RmMDJjMGJhYmFlN2JjNTA1YWYzYmNlYmQyZDZkYjQwNjY3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk4OTBiMzY3YzBhODE3OGE4NjVkOTdlOWZhOGMzZjlkOGYwNjE1ZmZhZTk4M2JhYjI3ZDNmZGYyY2MyMjM2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBkOGYzYzE0ZWJhYTBjNTBmMzQyMmQ1MmY0YTdhMWNhNGY1OWVlMzE0MjZhNWM3NGIwMjYxMmFjM2E1MzQ0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTUzNjQ1OGVjYTdjOGFjZGZhMGI3MjAxY2QzNjUxZDdmNWQxOGYwMjEwZDU0NTNkZjExMzZiNDQyNDcxNTE0NiJ9"
         }
       ]
-    },
-    {
-      "id": "claim_e73436302e864e5a88b1a169b9a44b81",
-      "statement": "Coverage D applies when a covered loss makes the residence premises not fit to live in, and it pays the reasonable increase in living expenses necessary to maintain the insured's normal standard of living.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L51-L55",
-          "version": "repo-lines-v1:sha256:ca24142ace3893c75831c759c088204ecb4f013318b9586c701244b6ba3260b4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYzN2Q1MGZiYmM5MGZiNTFlMzJmODJkYzJhZTJhYWI5MzJhNzQyMGM3MTRiMzBjYmYyNzM5MTY1M2QwOGI4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDVlMGFjMzljM2JiZWNmZDY2NmVjNGRiODM2YmY4ZWZmZTI0NTExNmRhOTEyNTZiMWNiMWRmZTIyMzllMDljYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZjYjVhMWViN2JmN2Y2MDRkMmNkOWIxOTdkMzI5OGIxNGZmYzZiNTRiZjdhYTEzYmEzMjIzZGJhMTdiYThmZiJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_e9aacbcda04c49b180949e6770d3ae4a",
-      "statement": "Under both supplied HO-3 editions, the Coverage D limit of liability is 20% of the Coverage A limit.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L51-L55",
-          "version": "repo-lines-v1:sha256:ca24142ace3893c75831c759c088204ecb4f013318b9586c701244b6ba3260b4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYzN2Q1MGZiYmM5MGZiNTFlMzJmODJkYzJhZTJhYWI5MzJhNzQyMGM3MTRiMzBjYmYyNzM5MTY1M2QwOGI4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDVlMGFjMzljM2JiZWNmZDY2NmVjNGRiODM2YmY4ZWZmZTI0NTExNmRhOTEyNTZiMWNiMWRmZTIyMzllMDljYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZjYjVhMWViN2JmN2Y2MDRkMmNkOWIxOTdkMzI5OGIxNGZmYzZiNTRiZjdhYTEzYmEzMjIzZGJhMTdiYThmZiJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_92d21e8de9224ef09f4c2b5bd9201cbe",
-      "statement": "The supplied HO-3 2018-09 form adds that Coverage D applies for the shortest time reasonably required to repair or replace the premises, while the supplied HO-3 2011-05 form does not include that shortest-time phrase.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2011-05.md#L51-L55",
-          "version": "repo-lines-v1:sha256:ca24142ace3893c75831c759c088204ecb4f013318b9586c701244b6ba3260b4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYzN2Q1MGZiYmM5MGZiNTFlMzJmODJkYzJhZTJhYWI5MzJhNzQyMGM3MTRiMzBjYmYyNzM5MTY1M2QwOGI4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDVlMGFjMzljM2JiZWNmZDY2NmVjNGRiODM2YmY4ZWZmZTI0NTExNmRhOTEyNTZiMWNiMWRmZTIyMzllMDljYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZjYjVhMWViN2JmN2Y2MDRkMmNkOWIxOTdkMzI5OGIxNGZmYzZiNTRiZjdhYTEzYmEzMjIzZGJhMTdiYThmZiJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_05ad1537febc4023ae2a05a0add78339",
-      "statement": "HO 04 81 M.4 includes any increase in Coverage D loss of use attributable to fungi, wet or dry rot, or bacteria within the endorsement limit, so attributable loss of use is counted against the HO 04 81 aggregate rather than paid as a separate grant.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L27",
-          "version": "repo-lines-v1:sha256:c0b12d748e5775d9416c4663df6856ec8d8364d421b3a2acac45e70884b1acb0:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRhNjM4NjMwMzBkMDZhMTAwNjkwOGEyZTVlMmJkYWE2MTEyNzNiZjQwNTNiYTc4YjhiOTQ2OTQzNTBjMWQwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzczMTc3MDg1MTE5YWUyMTMyOWZkMGZkN2NmYTYwMjBlOGMyYjI5NzQ4ZjNkMmUyY2FlM2RmZGFhZDIzZDdkNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTg5MDIxZjUwMTU4MGMyMzU5OWM2MWY4NDFjNGI2MDA2ZmU1NjJjZTdmZWE3NDQ2NzllNTdjM2RjYTllOTExMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2NiMTBiYjFmM2RmOWUxOThjMTU1ZjkzNjQwNWEzMThiM2Y4MTFmODA4MzA2NDZkODFmMDQ1YjVlNDgxMmQ5NSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_ae040da7153d43a0a513e069b649f0d0",
-      "statement": "HO 04 81 M.4 does not replace the ordinary Coverage D requirements; attributable loss of use still must satisfy Coverage D's uninhabitability and reasonable-increase test, and it remains subject to Coverage D's 20% limit.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L19-L27",
-          "version": "repo-lines-v1:sha256:c0b12d748e5775d9416c4663df6856ec8d8364d421b3a2acac45e70884b1acb0:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRhNjM4NjMwMzBkMDZhMTAwNjkwOGEyZTVlMmJkYWE2MTEyNzNiZjQwNTNiYTc4YjhiOTQ2OTQzNTBjMWQwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzczMTc3MDg1MTE5YWUyMTMyOWZkMGZkN2NmYTYwMjBlOGMyYjI5NzQ4ZjNkMmUyY2FlM2RmZGFhZDIzZDdkNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTg5MDIxZjUwMTU4MGMyMzU5OWM2MWY4NDFjNGI2MDA2ZmU1NjJjZTdmZWE3NDQ2NzllNTdjM2RjYTllOTExMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2NiMTBiYjFmM2RmOWUxOThjMTU1ZjkzNjQwNWEzMThiM2Y4MTFmODA4MzA2NDZkODFmMDQ1YjVlNDgxMmQ5NSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L51-L55",
-          "version": "repo-lines-v1:sha256:e2ed4eeffdf5751bc8414e8045eff30af27159b1acedda7eec4b12db38994571:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczYWJlYTlkNWZlYWFiNmVmZDNlYzM4MjYxYWQ4ZTMwMDcxNDI1M2IzZjY3M2IxMTg1YWIzZjkwMzE0MmNjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3YzFhNDFlYmI3NzBhYWM5Mjk5NjFjZWZmMmViNDEzOGQ2YjgwYTA3NGU5M2JiOTYwNDRkNGRkMTkyYTJmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUzZjQ0YTQzMTU2MzRkMzg4NWRlNGM4MDhiYzRjZDg0ODhmOWE0ZmI4NjUwYzE2M2ZiMDYzNWRhYjJjZjU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDAxZjJlYzE3NTkzYzEwNTRlYjQ2MzY3ZDg0NTNlZjI0YTE3M2NlOTZiNzExN2Q5MWY5YTY4ZDQ0ZmVmOGIwMSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_21b9e90532074c248a3f28cf00223475",
-      "statement": "HO 04 81 M.1 and M.2 remain separate from M.4: M.1 is the limited fungi, wet or dry rot, or bacteria write-back for direct physical loss to covered property when the condition results from a Section I insured peril during the policy period, and M.2 requires that the water or moisture producing the condition came from an event that was itself covered while preserving the flood, subsurface-water, and continuous-or-repeated-leakage barriers.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L5-L17",
-          "version": "repo-lines-v1:sha256:010355367754e4b29a12e30f90c81fc881598000a0c216c15fc95238483e0620:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4YmVkMDU4MWI1ZTA3ZjZhOGFiMTkwYWRhYzU1MmZmNDkxZTA3NjAxMjNhYmU2MWM4OTcwNGQ3NmU3OTQwZDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1ZDk3MzIxNzI1ODI4MDUzNGYyYWJhYjAwNDgxMTg4ZGRkNzBkODkxZGNiY2VkOGFlNzI1ZWRjODgwMDAxMDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM4MmRiNTgzNjI3ZTgwYmE1YmY5MDEwMTViMzBkZTJkMGIzZDI0MDUzNmY5MjI3ZGVlYzY4NWMyNWNkY2Y2ODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVhMjYyYWJiZDYyNTJlNmEyMDlkMTA1OGUxM2JjNDRmZDc5Yzk0MDcwMTY0NjhiZTE1Y2Y0ZTU3M2U5MjlkNWEifQ"
-        }
-      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-13T00:38:41.860Z"
+    "at": "2026-09-09T17:00:59.484Z"
   }
 }

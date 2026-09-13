@@ -1,11 +1,11 @@
 ---
 type: coverage
 title: Section I Property Perils and General Exclusions
-description: Explain the HO-3 Section I cause-of-loss gates, named-peril structure, and the broad exclusions that must be tested before any write-back or settlement analysis.
+description: Establish the HO-3 Section I cause-of-loss entry gates and the material exclusion boundaries before analyzing water, fungi, or ordinance-or-law write-backs. The governing form edition and verified policy attachments control the analysis.
 tags: [homeowners, ho-3, property-coverage, perils, exclusions, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-13T00:38:41.860Z
+    at: 2026-09-12T18:38:23.283Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
@@ -19,7 +19,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
 ---
 
 ## Scope and controlling-policy check
@@ -28,42 +28,40 @@ This page is the starting point for a Section I property cause-of-loss review, n
 
 Use [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms.md) to select and assemble the policy, [Dwelling](/openwiki/coverage/coverage-a/dwelling.md) for Coverage A property and settlement, and [Personal Property](/openwiki/coverage/coverage-c/personal-property.md) for Coverage C property, limits, and settlement. A form's “if ... attached” language is a condition, not evidence that the form was attached to a particular policy. [2011-05 water-backup attachment condition](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [2018-09 water and roof attachment conditions](repo://forms/HO/MS/HO-3/2018-09.md#L25-L34) · [2018-09 water exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 
-## Cause-of-loss gates by coverage
+## 2018-09 cause-of-loss gates
 
-The Section I entry gate comes before any exclusion or write-back analysis:
+The 2018-09 form uses two distinct Section I perils-insured-against paths:
 
-| Property coverage | Initial gate | Resulting control |
+| Property coverage | Initial 2018-09 test | Resulting control |
 | --- | --- | --- |
 | **Coverage A — Dwelling** and **Coverage B — Other Structures** | Is there **“direct physical loss”** to property described in A or B? | P.1 insures the loss unless a Section I exclusion applies. This is open-peril treatment subject to exclusions, not an unconditional payment promise. |
-| **Coverage C — Personal Property** | Is **“direct physical loss”** caused by one of P.2's listed perils? | P.2 limits the grant to its named perils: fire or lightning; windstorm or hail; explosion; riot or civil commotion; aircraft; vehicles; smoke; vandalism or malicious mischief; theft; falling objects; weight of ice, snow, or sleet; accidental discharge or overflow of water or steam from within a plumbing, heating, or air conditioning system; and sudden and accidental damage from artificially generated electrical current. Section I exclusions still apply. |
+| **Coverage C — Personal Property** | Is **“direct physical loss”** caused by one of P.2's listed perils? | P.2 limits the grant to its named perils: fire or lightning; windstorm or hail; explosion; riot or civil commotion; aircraft; vehicles; smoke; vandalism or malicious mischief; theft; falling objects; weight of ice, snow, or sleet; accidental discharge or overflow of water or steam from specified internal systems; and sudden and accidental electrical-current damage. Section I exclusions still apply. |
 
 P.1's controlling language is **“direct physical loss to property described in those coverages, except as excluded in Section I — Exclusions.”** P.2 insures Coverage C only for direct physical loss caused by its listed perils. Keep the property grant, applicable cause-of-loss gate, exclusions, and any verified write-back separate: an A/B open-peril result cannot bypass Coverage C's named-peril requirement. [HO-3 2018-09 P.1–P.2](repo://forms/HO/MS/HO-3/2018-09.md#L59-L64) · [2018-09 A/B/C property descriptions](repo://forms/HO/MS/HO-3/2018-09.md#L23-L50)
 
 ```mermaid
 flowchart TD
-    Record["Verify issued form, Declarations, and attachments"] --> Edition{"HO-3 edition governs"}
-    Edition -- "2011-05" --> Older["Apply the issued 2011-05 policy text"]
-    Edition -- "2018-09" --> Coverage{"Property coverage"}
+    Record["Verify issued form, Declarations, and attachments"] --> Edition{"HO-3 2018-09 governs"}
+    Edition -- No --> Earlier["Apply the issued earlier policy text"]
+    Edition -- Yes --> Coverage{"Property coverage"}
     Coverage -- "A or B" --> Physical["Establish direct physical loss"]
     Coverage -- "C" --> Named["Establish direct physical loss from a P.2 peril"]
     Physical --> Exclusions["Apply Section I exclusions"]
     Named --> Exclusions
     Exclusions --> Barred{"Exclusion applies"}
-    Barred -- "No" --> Terms["Apply limits, settlement, deductible, and conditions"]
-    Barred -- "Yes" --> WriteBack{"Compatible write-back attached"}
-    WriteBack -- "Yes" --> Endorsement["Apply that endorsement and remaining policy terms"]
-    WriteBack -- "No" --> NoPath["No coverage on this path"]
+    Barred -- No --> Terms["Apply limits, settlement, deductible, and conditions"]
+    Barred -- Yes --> Attached{"Compatible write-back attached"}
+    Attached -- Yes --> Endorsement["Apply that endorsement and remaining policy terms"]
+    Attached -- No --> NoPath["No coverage on this path"]
 ```
 
-*The flow distinguishes the A/B and C entry gates before exclusions and verified write-backs; it does not resolve disputed facts.* [HO-3 2018-09 P.1–P.2 and exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L59-L97)
+*The flow distinguishes the 2018-09 A/B and C entry gates before exclusions and verified write-backs; it does not resolve disputed facts.* [HO-3 2018-09 P.1–P.2 and exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L59-L97)
 
 ### 2011-05 boundary
 
 The supplied 2011-05 text contains Coverage A–D grants and Section I exclusions, but not a separately numbered perils-insured-against section corresponding to 2018-09 P.1/P.2. It also has no 2018-09 Definition 5, C.3 seepage provision, or D.1 ordinance-or-law exclusion. Resolve an older policy under its issued wording and compatible attached forms; do not label 2011 A/B as P.1 open peril or 2011 C as P.2 named peril merely because those provisions occur in the later edition. [2011-05 property coverages and exclusions](repo://forms/HO/MS/HO-3/2011-05.md#L25-L80) · [2018-09 perils and exclusions](repo://forms/HO/MS/HO-3/2018-09.md#L59-L97)
 
 ## General exclusions and their boundaries
-
-Analyze exclusions in order: water damage, earth movement, neglect and deterioration, ordinance or law, then intentional loss. The water, earth-movement, and intentional-loss clauses are broad gates that can defeat coverage before any later write-back is considered.
 
 The water and earth-movement clauses use the controlling causation phrase **“caused directly or indirectly.”** For 2018-09 water exclusions A.1–A.3, A.4 additionally states that they apply **“regardless of any other cause or event contributing concurrently or in any sequence to the loss.”** That anti-concurrent/sequential-causation direction is not in the supplied 2011-05 water wording. Source classification remains essential; route water-source and backup questions to the dedicated page rather than treating every water-related fact as the same exclusion. [2011-05 A.1–A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [2018-09 A.1–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 

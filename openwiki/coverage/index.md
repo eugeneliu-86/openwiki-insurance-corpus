@@ -1,6 +1,6 @@
 # Files
 
-- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Assemble an issued HO-3 policy by independently selecting its base edition, verifying each attachment, testing the attachment's stated target, and reading declared limits from the issued record. HO 04 48 is a net-new, 2018-09-only Coverage B limit endorsement.
+- [Governing Form Editions and Policy Assembly](policy-editions-and-governing-forms.md) - Determine the live HO-3 edition from the policy-written date, then assemble only compatible endorsements and Texas amendments verified in the issued policy. This reference keeps contractual write-backs, state constraints, and repository availability separate.
 
 # Directories
 

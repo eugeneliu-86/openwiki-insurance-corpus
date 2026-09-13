@@ -1,11 +1,11 @@
 ---
 type: coverage
 title: Water Damage Exclusions and Water Backup Write-Back
-description: Edition-specific analysis of HO 04 90 water-backup coverage, including the 2010-10 legacy terms and the 2026-01 sublimit, deductible, and below-grade backflow-prevention condition. Distinguishes the narrow A.3 write-back from the water exclusions that the endorsement preserves.
+description: Edition-specific analysis of HO 04 90 water-backup coverage, including the 2010-10 legacy terms and the 2026-01 sublimit, deductible, and finished-below-grade backflow-prevention condition. Distinguishes the narrow A.3 write-back from water exclusions that the endorsement preserves.
 tags: [homeowners, ho-3, property-coverage, water-damage, water-backup, exclusions, endorsements]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-13T00:38:41.860Z
+    at: 2026-09-12T18:38:23.283Z
 sources:
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
@@ -23,20 +23,20 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-12T18:38:23.283Z" }
 ---
 
-## Start with the issued policy and the attached endorsement edition
+## Start with the issued policy and endorsement edition
 
-This is Section I property analysis, not flood insurance and not a presumption that water-backup coverage exists. Keep the policy-written date, selected HO-3 edition, Declarations, endorsement schedule, and the exact attached HO 04 90 edition before classifying a loss or stating a deductible, limit, condition, or settlement result.
+This is Section I property analysis, not flood insurance and not a presumption that water-backup coverage exists. Retain the policy-written date, selected HO-3 edition, Declarations, endorsement schedule, and the exact attached HO 04 90 edition before classifying a loss or stating a deductible, limit, condition, or settlement result.
 
-The base form and the endorsement are selected independently. **HO-3 2011-05** remains controlling for policies written under it even if loss is reported later; **HO-3 2018-09** applies to policies written on or after **2018-09-01**. Both base forms exclude the A.3 sewer/drain-backup and sump-event category unless HO 04 90 is attached. A later base form or endorsement does not supply an omitted term for an earlier issued policy. [HO-3 2011-05 status and A.3](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) [A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09 status and A.3](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4) [A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
+The base-form selection is separate from the water-backup-endorsement selection. **HO-3 2011-05** remains controlling for policies written under it even if loss is reported later; **HO-3 2018-09** applies to policies written on or after **2018-09-01**. Both base forms exclude the A.3 sewer/drain-backup and sump-event category unless HO 04 90 is attached. A later base form or endorsement does not supply an omitted term for an earlier issued policy. [HO-3 2011-05 status and A.3](repo://forms/HO/MS/HO-3/2011-05.md#L1-L7) [A.3](repo://forms/HO/MS/HO-3/2011-05.md#L59-L66) · [HO-3 2018-09 status and A.3](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4) [A.3](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 
 Select a verified attached HO 04 90 independently:
 
 | Verified attached endorsement | Governing rule | Do not substitute |
 | --- | --- | --- |
-| **HO 04 90 2010-10** | It was superseded for policies written on or after **2026-01-01**, but remains in force for policies written under it and governs loss adjustment regardless of reporting date. [2010-10 status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) | Do not apply the later $10,000 sublimit, $1,000 deductible, or W.6 backflow-prevention condition. |
+| **HO 04 90 2010-10** | It was superseded for policies written on or after **2026-01-01**, but remains in force for policies written under it and governs loss adjustment regardless of reporting date. [2010-10 status](repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L7) | Do not apply the later $10,000 sublimit, $1,000 deductible, or W.6 device condition. |
 | **HO 04 90 2026-01** | It replaces 2010-10 for policies written on or after **2026-01-01**. [2026-01 status](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4) | Do not use the legacy $5,000, $500, or legacy W.6 settlement numbering. |
 | **Attachment, edition, or written date unverified** | Obtain the issued endorsement and Declarations before reaching an endorsement coverage or payment conclusion. The base A.3 exception itself is attachment-dependent. [HO-3 2011-05 A.3](repo://forms/HO/MS/HO-3/2011-05.md#L63-L66) · [HO-3 2018-09 A.3](repo://forms/HO/MS/HO-3/2018-09.md#L75-L77) | A repository form, current internal guide, reported-loss date, or water-damage label does not prove attachment or select an edition. |
 

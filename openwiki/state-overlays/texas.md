@@ -1,11 +1,11 @@
 ---
 type: state-overlay
 title: Texas Windstorm and Hail Deductible Overlay
-description: Texas regulatory and contract controls for separate windstorm and hail deductibles. Covers Bulletin B-2021-08, HO 01 45 attachment and conflict rules, loss routing, renewal notice, claims timing, filing, and residual-market boundaries.
+description: Texas regulatory and policy-form controls for separate windstorm and hail deductibles. Covers Bulletin B-2021-08, attached HO 01 45 amendments, loss routing, renewal notice, claims timing, and residual-market boundaries.
 tags: [texas, homeowners, windstorm, hail, deductible, state-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-13T00:38:41.860Z
+    at: 2026-09-09T17:00:59.484Z
 sources:
   - id: openwiki-source-3624f12a121557db250a950b
     resource: repo://bulletins/TX/2021-08-windstorm-deductible.md
@@ -19,8 +19,9 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-13T00:38:41.860Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-05T21:30:30.144Z" }
 ---
+
 
 ## Scope and authority boundary
 
@@ -61,7 +62,8 @@ flowchart TD
     Allocated -- Yes --> Split["Apply each deductible to its own portion"]
     Allocated -- No --> Larger["Apply only larger single deductible to entire loss"]
 ```
-This flow keeps the written-date HO-3 selection, the bulletin's delivery/effective-date scope, and HO 01 45's attachment/effective-date gate separate before reaching the deductible rules.
+
+*This claim-routing flow keeps the written-date HO-3 selection, the bulletin's delivery/effective-date scope, and HO 01 45's attachment/effective-date gate separate. It then applies the T.7 exclusion check and T.1 wind/hail and mixed-peril rules; it does not decide whether damage is covered.* [HO-3 edition applicability](repo://forms/HO/MS/HO-3/2011-05.md#L3-L7) · [HO-3 2018-09, applicability](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4) · [B-2021-08, applicability](repo://bulletins/TX/2021-08-windstorm-deductible.md#L1-L7) · [HO 01 45, introductory provision and T.1](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L11) · [HO 01 45, T.7](repo://forms/HO/TX/HO-01-45/2022-01.md#L33-L37)
 
 ## Regulatory deductible configuration and disclosure
 
@@ -118,3 +120,10 @@ Use these focused checks:
 4. **Named storm and exclusion:** Use the per-named-storm aggregation only when declared; record National Hurricane Center naming and discontinuation times. For residual-market exclusion, verify both the exclusion endorsement and signed acknowledgment, then do not apply T.1.
 5. **Claims timing:** Log claim receipt, all reasonably requested items, written decision, approval notice, payment, and loss date. Test the 15-day, 15-business-day, and 5-business-day T.5 milestones separately from base S.3 and from the two-years-and-one-day action deadline.
 6. **Internal controls:** Route a residual-market wind/hail exclusion for mandatory referral, but never use a referral or the appetite guide to waive a filing, bulletin, attachment, or acknowledgment condition.
+
+<!-- openwiki: broken internal link [/openwiki/coverage/policy-editions-and-governing-forms] file "/openwiki/coverage/policy-editions-and-governing-forms" does not exist. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/coverage/property/claim-conditions-and-deductibles] file "/openwiki/coverage/property/claim-conditions-and-deductibles" does not exist. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/coverage/coverage-a/roof-settlement] file "/openwiki/coverage/coverage-a/roof-settlement" does not exist. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/underwriting/texas-appetite] file "/openwiki/underwriting/texas-appetite" does not exist. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/underwriting/referral-and-binding-authority] file "/openwiki/underwriting/referral-and-binding-authority" does not exist. Fix the href or restore the target, then delete this comment. -->
+For broader issued-form selection, see [Governing Form Editions and Policy Assembly](/openwiki/coverage/policy-editions-and-governing-forms). For base Section I handling and deductible sequencing, see [Section I Claim Conditions, Payment, and Deductibles](/openwiki/coverage/property/claim-conditions-and-deductibles). For roof-surfacing settlement after coverage is established, see [Roof Settlement](/openwiki/coverage/coverage-a/roof-settlement). For internal intake, residual-market referral, and authority controls, see [Texas Homeowners Appetite](/openwiki/underwriting/texas-appetite) and [Referral and Binding Authority](/openwiki/underwriting/referral-and-binding-authority).
