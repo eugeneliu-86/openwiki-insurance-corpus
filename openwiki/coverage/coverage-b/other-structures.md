@@ -1,14 +1,16 @@
 ---
 type: coverage
 title: Coverage B — Other Structures
-description: Explains Coverage B scope and its additional 10-percent limit under the HO-3 2011-05 and 2018-09 editions. Distinguishes the 2018 rental/private-garage boundary and the limited effects of verified attached endorsements.
+description: Explains Coverage B scope and its additional 10-percent base limit under the HO-3 2011-05 and 2018-09 editions, including the verified HO 04 48 increased-limit endorsement. Distinguishes the 2018 rental/private-garage boundary, coverage gates, and endorsement limits from unchanged restrictions.
 tags: [homeowners, ho-3, coverage-b, other-structures, endorsements, claims]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-09T17:00:59.484Z
+    at: 2026-09-14T19:23:27.612Z
 sources:
   - id: openwiki-source-e81c5a85097780cfed50a7a1
     resource: repo://forms/HO/MS/HO-04-16/2018-09.md
+  - id: openwiki-source-9c2b05516073c90ea8ebe398
+    resource: repo://forms/HO/MS/HO-04-48/2026-06.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
   - id: openwiki-source-cd26c30cc942869b52618f95
@@ -17,7 +19,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
     resource: repo://forms/HO/MS/HO-3/2018-09.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-09T17:00:59.484Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-14T19:23:27.612Z" }
 ---
 
 
@@ -49,6 +51,22 @@ The relevant **HO-3 2018-09 Section I** exclusions apply to a qualifying Coverag
 - Sewer-or-drain backup and sump-related backup, overflow, or discharge are excluded, including when mechanical breakdown caused the backup or overflow. The water exclusions A.1–A.3 have anti-concurrent-causation language: they apply regardless of another cause or event contributing concurrently or in any sequence. [HO-3 2018-09 §§ A.3–A.4](repo://forms/HO/MS/HO-3/2018-09.md#L69-L77)
 - Earth movement; neglect after a loss; deterioration, wear and tear, rust, mold, wet or dry rot, and the listed gradual-condition losses are excluded. Continuous or repeated water or steam seepage or leakage over weeks, months, or years is excluded, while loss that is “sudden and accidental” as defined is not excluded by that particular seepage provision. [HO-3 2018-09 §§ B.1–C.3 and Definition 5](repo://forms/HO/MS/HO-3/2018-09.md#L15-L19) · [HO-3 2018-09 §§ B.1–C.3](repo://forms/HO/MS/HO-3/2018-09.md#L79-L89)
 - Increased construction, demolition, or repair cost required by ordinance or law is excluded unless an ordinance-or-law endorsement is attached; intentional loss by an insured is also excluded for all insureds, whether or not a particular insured participated. [HO-3 2018-09 §§ D.1–E.1](repo://forms/HO/MS/HO-3/2018-09.md#L91-L97)
+
+## HO 04 48 increased limit: a verified 2018-09 endorsement path
+
+**HO 04 48 OS.1 modifies HO-3 2018-09 Coverage B.2.** This relationship applies only if the issued policy verifies that the endorsement is attached and its endorsement Declarations are available. The endorsement is expressly an HO-3 (2018-09) endorsement and replaces **B.2 only**; a form file in the repository or internal guidance is not evidence of attachment. [HO 04 48 2026-06, header and directed target](repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L5) · [HO 04 48 2026-06, OS.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L11)
+
+For a verified attached **HO 04 48 2026-06**, the Coverage B limit is the amount selected in the endorsement Declarations, may not be less than 10% of the Coverage A limit, and remains **additional insurance**. Thus, the base **HO-3 2018-09** B.2 10-percent amount is the minimum floor under this endorsement—not a fixed replacement dollar amount—and the selected endorsement amount must be verified before calculating the available limit. The endorsement separately identifies its additional premium as an amount shown in the Declarations. [HO 04 48 2026-06, OS.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L11) · [HO 04 48 2026-06, OS.3](repo://forms/HO/MS/HO-04-48/2026-06.md#L19-L21) · [HO-3 2018-09, B.2](repo://forms/HO/MS/HO-3/2018-09.md#L35-L41)
+
+**OS.2 is a limit-only invariant.** It preserves **B.1** property scope, **B.3**'s restriction on structures rented or held for rental to a person who is not a dwelling tenant (subject only to the solely-private-garage exception), every other Section I property coverage, and all Section I exclusions and conditions. The increased limit therefore does not expand eligible structures, eliminate the rental restriction, create a covered cause of loss, change another property coverage, or remove a duty, deductible, exclusion, or condition. The Section I direct-physical-loss and exclusions gates still apply before the selected limit is relevant. [HO 04 48 2026-06, OS.2](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L17) · [HO-3 2018-09, B.1-B.3](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42) · [HO-3 2018-09, P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L62)
+
+HO 04 48 has no stated application to **HO-3 2011-05**: it attaches to HO-3 (2018-09) and targets B.2, while a 2011-05 policy retains its own B.1-B.2 wording and 10-percent additional limit. Do not retrofit the later endorsement's declared-limit mechanism into an older-edition analysis. [HO 04 48 2026-06, header and target](repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L5) · [HO-3 2011-05, B.1-B.2](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40)
+
+### Review controls for the increased-limit path
+
+1. Verify the issued base form is **HO-3 2018-09**, then verify that **HO 04 48 2026-06** is attached; neither repository availability nor internal guidance establishes either fact. [HO 04 48 2026-06, header](repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L5) · [HO-3 2018-09, form status](repo://forms/HO/MS/HO-3/2018-09.md#L1-L4)
+2. Verify the endorsement Declarations amount and test it against the 10% of Coverage A minimum; retain the base Declarations Coverage A limit needed for that test. [HO 04 48 2026-06, OS.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L11)
+3. Independently apply B.1, B.3, direct physical loss, exclusions, conditions, and the applicable deductible. Only then apply the verified additional Coverage B limit; OS.2 leaves those gates and restrictions in place. [HO 04 48 2026-06, OS.2](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L17) · [HO-3 2018-09, B.1-B.3](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42) · [HO-3 2018-09, P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L62) · [HO-3 2018-09, S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
 
 ## Endorsement paths: attachment is required
 
@@ -84,15 +102,21 @@ flowchart TD
     Garage -- Yes --> Loss
     Rental -- No --> Loss["Establish direct physical loss and check Section I exclusions"]
     Loss --> Excluded{"An exclusion applies"}
-    Excluded -- No --> Limit["Apply Coverage B limit and policy settlement terms"]
+    Excluded -- No --> Increased{"Verified HO 04 48 attachment and endorsement Declarations amount"}
     Excluded -- Yes --> Endorsement{"Relevant attached endorsement applies to this excluded loss"}
     Endorsement -- No --> Outside
     Endorsement -- Yes --> Terms["Apply endorsement trigger limit deductible and conditions"]
-    Terms --> Limit
+    Terms --> Increased
+    Increased -- Yes --> Selected["Apply declared Coverage B limit at least 10 percent of Coverage A"]
+    Increased -- No --> Base["Apply base 10 percent Coverage B limit"]
+    Selected --> Limit["Apply policy settlement terms"]
+    Base --> Limit
 ```
 
-This flow shows the **HO-3 2018-09** Coverage B gates and the separate attachment-dependent endorsement path; a **2011-05** review omits the 2018-09 B.3 rental gate and uses its own B.1 wording. [HO-3 2011-05 § B.1](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09 §§ B.1–B.3 and P.1](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42) [§ P.1](repo://forms/HO/MS/HO-3/2018-09.md#L59-L63)
+This flow shows the **HO-3 2018-09** Coverage B gates, the separate attachment-dependent write-back path, and the later limit-selection step. A verified HO 04 48 changes only that final B.2 limit step; it does not bypass the earlier B.1, B.3, covered-loss, exclusion, condition, or deductible analysis. A **2011-05** review omits the 2018-09 B.3 rental gate and uses its own B.1-B.2 wording. [HO 04 48 2026-06, OS.1-OS.2](repo://forms/HO/MS/HO-04-48/2026-06.md#L7-L17) · [HO-3 2011-05, B.1-B.2](repo://forms/HO/MS/HO-3/2011-05.md#L35-L40) · [HO-3 2018-09, B.1-B.3](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42) · [HO-3 2018-09, P.1 and S.5](repo://forms/HO/MS/HO-3/2018-09.md#L59-L62) [S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
 
 ## Claim file review
 
-For a Coverage B loss, retain the issued HO-3 edition, Declarations Coverage A limit, the structure’s location and connection facts, and rental facts. For a 2018-09 claim, document the B.3 tenant and private-garage analysis before evaluating the cause of loss. Then document the direct physical loss, each applicable Section I exclusion, and—only if actually attached—the endorsement form, its trigger, limit treatment, deductible, and conditions. The ordinary 2018-09 Section I duties still require prompt notice, protection from further damage, and a signed sworn proof of loss within 60 days after request; the Section I deductible generally applies to each loss, subject to the separate windstorm-or-hail rule where required by a state amendatory endorsement. [HO-3 2018-09 §§ S.1–S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106) · [HO-3 2018-09 § S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
+For a Coverage B loss, retain the issued HO-3 edition, base Declarations Coverage A limit, the structure’s location and connection facts, and rental facts. For a potential **HO 04 48 2026-06** limit, also retain proof of attachment and the endorsement Declarations amount; do not use the endorsement merely because its form is available in the repository or referenced in guidance. [HO 04 48 2026-06, header and OS.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L1-L11) · [HO-3 2018-09, B.1-B.3](repo://forms/HO/MS/HO-3/2018-09.md#L35-L42)
+
+For a 2018-09 claim, document the B.3 tenant and private-garage analysis before evaluating the cause of loss. Then document the direct physical loss, each applicable Section I exclusion, and—only if actually attached—the endorsement form, its trigger, limit treatment, deductible, and conditions. The ordinary 2018-09 Section I duties still require prompt notice, protection from further damage, and a signed sworn proof of loss within 60 days after request; the Section I deductible generally applies to each loss, subject to the separate windstorm-or-hail rule where required by a state amendatory endorsement. [HO-3 2018-09, S.1-S.2](repo://forms/HO/MS/HO-3/2018-09.md#L101-L106) · [HO-3 2018-09, S.5](repo://forms/HO/MS/HO-3/2018-09.md#L109-L112)
