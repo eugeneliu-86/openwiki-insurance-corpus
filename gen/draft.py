@@ -192,6 +192,10 @@ def draft(job: SectionJob, drafter: Drafter = real_drafter, cache: bool = True) 
             if cache:
                 path.write_text(text)
             return text
+        # keep the rejected text so a rejection rule can be judged against what it rejected
+        rej = CACHE_DIR / "rejected"
+        rej.mkdir(exist_ok=True)
+        (rej / f"{job.document}__{job.section}__{attempt}.md").write_text("<!-- " + "; ".join(problems) + " -->\n" + text)
     raise DraftRejected(f"{job.document}/{job.section}: " + "; ".join(problems))
 
 
