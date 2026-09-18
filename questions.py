@@ -31,7 +31,7 @@ from gen.render import render_value, renderings, value_occurrences  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent
 COUNTS = {"single": 15, "composed": 25, "assembly": 20, "corpus_wide": 10, "disambiguation": 15, "synonym": 15,
-          "chain": 15, "deep": 15, "abstain": 8, "stale": 6, "stale_control": 6}
+          "chain": 15, "deep": 15, "offwiki": 15, "abstain": 8, "stale": 6, "stale_control": 6}
 STATE_NAMES = {"FL": "Florida", "TX": "Texas", "CA": "California", "NY": "New York", "LA": "Louisiana", "NC": "North Carolina",
                "CO": "Colorado", "IL": "Illinois"}
 
@@ -62,6 +62,11 @@ class Ctx:
             for e in c.get("evidence", []):
                 if e.get("document") and e.get("start") is not None:
                     self.claim_ranges[e["document"]].append((e["start"], e["end"]))
+
+    def wiki_cited(self, key: str) -> bool:
+        """Some compiled claim's evidence range covers this placement's line."""
+        pl = self.P[key]
+        return any(s <= pl["line_start"] <= e for s, e in self.claim_ranges.get(pl["path"], []))
 
     # text
     def lines(self, doc: Document) -> list[str]:
@@ -391,6 +396,25 @@ def t_deep(c: Ctx) -> list[dict]:
     return out
 
 
+def t_offwiki(c: Ctx) -> list[dict]:
+    """Facts no compiled claim cites: the wiki can name the document but not the line.
+    The question names the document, so this tests the step after orientation."""
+    cands = [f for f in c.L.facts if f.id in c.P and f.value.kind in NUMERIC and not c.wiki_cited(f.id)
+             and c.doc(f).type not in ("training",)]
+    facts = spread(cands, COUNTS["offwiki"], [lambda f: c.doc(f).type, lambda f: f.document, lambda f: f.concept], "offwiki")
+    out = []
+    for i, f in enumerate(facts, 1):
+        d = c.doc(f); sec = c.sec_label(d, f.section)
+        q = pick(f.id, [
+            f"Under {d.title}, what is the {f.surface_form}?",
+            f"What does {d.title} set as the {c.name(c.concept(f))}? Cite the provision.",
+            f"In {d.title}, {sec} ({c.sec_title(f)}): what {f.surface_form} applies?",
+        ])
+        out.append(example(f"offwiki-{i:02d}", "offwiki", q, position=f"{c.words(f.value).capitalize()} ({d.title}, {sec}); no compiled claim cites this line.",
+                           must_state=[c.prop(f)], must_not=c.neighbours(f, 2), gold=[c.cite(f.id)], guidance=c.guidance([f]), editions=c.editions([f])))
+    return out
+
+
 def t_abstain(c: Ctx) -> list[dict]:
     out = []
     pairs = [(d, s.distractor_concepts[j]) for d in c.L.documents if d.distractor for s in d.sections for j in range(len(s.distractor_concepts))]
@@ -490,10 +514,17 @@ def main() -> int:
     c = Ctx(ledger, placements, corpus, claims_index)
 
     examples: list[dict] = []
-    for t in (t_single, t_composed, t_assembly, t_corpus_wide, t_disambiguation, t_synonym, t_chain, t_deep, t_abstain):
+    for t in (t_single, t_composed, t_assembly, t_corpus_wide, t_disambiguation, t_synonym, t_chain, t_deep, t_offwiki, t_abstain):
         examples += t(c)
     stale_examples, edits = t_stale(c)
     examples += stale_examples
+    # every example says whether the wiki cites all of its gold ranges (None when it has none),
+    # so any split can be filtered by it in LangSmith
+    for e in examples:
+        gold = e["reference"]["gold_citations"]
+        e["wiki_cited"] = None if not gold else all(
+            any(s <= int(g.split("#L")[1].split("-L")[0]) <= t for s, t in c.claim_ranges.get(g.split("repo://")[1].split("#")[0], []))
+            for g in gold)
 
     counts = collections.Counter(e["split"] for e in examples)
     short = {k: (v, counts.get(k, 0)) for k, v in COUNTS.items() if counts.get(k, 0) != v}
