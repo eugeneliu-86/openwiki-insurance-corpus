@@ -49,10 +49,12 @@ for use in re.findall(r"uses:\s*(\S+)", WF):
 
 print("C5 — the commit stages only the write domain")
 staged = re.search(r"git add ([^\n]+)", WF)
-check(staged is not None and staged.group(1).split() == ["openwiki", ".compile-state.json", ".claims-index.json", ".provisions-index.json"],
+check(staged is not None and staged.group(1).split() == ["openwiki", ".compile-state.json", ".claims-index.json", ".provisions-index.json", ".graph-edges.json"],
       f"git add stages exactly openwiki + the three state files: {staged.group(1) if staged else None}")
 check(WF.find("Build the claims index") < WF.find("Build the provisions index") < WF.find("write-state"),
       "the provisions index is built after the claims index and before write-state (graph-expansion ph. 01)")
+check(WF.find("Build the provisions index") < WF.find("Build the edge artifact") < WF.find("write-state"),
+      "the edge artifact is built after the provisions index and before write-state (graph-expansion ph. 02)")
 check("assert-write-domain.sh" in WF, "assert-write-domain.sh runs before the commit")
 for bad in ("AGENTS.md", "CLAUDE.md", ".github/workflows"):
     check(bad not in (staged.group(1) if staged else ""), f"{bad} is not staged")

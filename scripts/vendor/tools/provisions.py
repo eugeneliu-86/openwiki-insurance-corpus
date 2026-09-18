@@ -41,8 +41,9 @@ SCHEMA_VERSION = 1
 FRONT_MATTER_LINES = 12
 WINDOW = 12   # provisions per expand_section call
 
-#: `**B.2**`, `**W.14**`, `**DEF.11**`, `**B.2.6**`, `**L.3.1**`, `**110.A**`, `**4.AB**`, `**210.A.2**`
-OPENER = re.compile(r"^\*\*([A-Z]{1,3}(?:\.\d+)+|[A-Z]+\.\d+(?:\.\d+)*|\d{1,3}\.[A-Z]{1,2}(?:\.\d+)?)\*\*")
+#: `**B.2**`, `**W.14**`, `**DEF.11**`, `**B.2.6**`, `**L.3.1**`, `**110.A**`, `**4.AB**`, `**210.A.2**`,
+#: and the manuals' `**510.1**` / `**8.2**` (graph-expansion ph. 02: 384 numbered paragraphs the ph. 01 pattern missed)
+OPENER = re.compile(r"^\*\*([A-Z]{1,3}(?:\.\d+)+|[A-Z]+\.\d+(?:\.\d+)*|\d{1,3}\.[A-Z]{1,2}(?:\.\d+)?|\d{1,3}\.\d{1,2})\*\*")
 HEADING = re.compile(r"^## (.+?)(?: — (.*))?$")
 SUBHEADING = re.compile(r"^###+ (.+?)\s*$")   # a sub-heading inside a section (the hand-written corpus's "### A. Coverage A")
 HEADER_RE = re.compile(r"^\S.* · Page \d+ of \d+$")

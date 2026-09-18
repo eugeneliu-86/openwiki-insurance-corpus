@@ -177,6 +177,13 @@ jobs:
         if: ${{ !cancelled() }}
         run: python3 scripts/build-provisions-index.py
 
+      # Graph-expansion ph. 02. The edges the corpus states, derived from the tree and
+      # the two indexes above: claim → provision, provision → referenced section, edition
+      # → edition, amendatory → base form, index → page. No model, never stale.
+      - name: Build the edge artifact
+        if: ${{ !cancelled() }}
+        run: python3 scripts/build-graph-edges.py
+
       # C4. Asserts compiled_from == .last-update.json gitHead, validates the
       # schema, and exits non-zero on either — so an invalid file is never pushed.
       - name: Write and validate the compile state
@@ -198,7 +205,7 @@ jobs:
         run: |
           git config user.name  'openwiki-refresh[bot]'
           git config user.email 'openwiki-refresh@users.noreply.github.com'
-          git add openwiki .compile-state.json .claims-index.json .provisions-index.json
+          git add openwiki .compile-state.json .claims-index.json .provisions-index.json .graph-edges.json
           ./scripts/assert-write-domain.sh
           if git diff --cached --quiet; then
             echo "nothing to commit: the wiki is already current"
