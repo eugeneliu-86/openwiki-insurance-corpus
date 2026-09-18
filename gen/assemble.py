@@ -66,7 +66,11 @@ def pdf_text_layout(ledger: Ledger, doc: Document, lines: list[str], placements:
     """Re-lay `lines` (single-line assembly) as pdf-text; re-map `placements`
     (which point at single-line numbers) to paragraph ranges and a `value_line`."""
     fm, body = lines[:FRONT_MATTER_LINES], lines[FRONT_MATTER_LINES:]
-    protect = tuple(v for k, v in renderings_for(ledger, doc).items() if not k.startswith("ref:"))
+    # rendered values, and concept names that carry a number word ("eighty percent
+    # condition"): split across a wrap, the numeral sweep sees a bare "eighty"
+    from .render import NUMBER_WORDS
+    protect = tuple(v for k, v in renderings_for(ledger, doc).items() if not k.startswith("ref:")) + tuple(
+        ph for c in ledger.concepts for ph in [c.canonical, *c.synonyms] if any(w in NUMBER_WORDS for w in ph.lower().split()))
     # 1. wrap, remembering old line -> new (start, end) relative to the body
     wrapped: list[str] = []
     span: dict[int, tuple[int, int]] = {}
