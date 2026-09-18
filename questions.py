@@ -254,15 +254,22 @@ def t_assembly(c: Ctx) -> list[dict]:
     out = []
     for i, k in enumerate(comps, 1):
         facts = [c.L.fact(f) for f in k.facts]
+        # the question names every value the key requires: the first run scored 0.6 at
+        # best for both classes because the scenario implied three of the five facts
+        asked = "; ".join(f"the {c.name(c.concept(f))} ({c.doc(f).title})" for f in facts)
         q = pick(k.id, [
-            f"{k.scenario}. Give the governing value for each point with the provision that sets it.",
-            f"Work this file: {k.scenario}. Which provisions apply and what does each one set?",
-            f"{k.scenario}. Assemble the answer from the form, the endorsement, the state form and our guidance.",
+            f"{k.scenario}. Give, with the provision that sets each: {asked}.",
+            f"Work this file: {k.scenario}. State each of the following and cite its provision: {asked}.",
+            f"{k.scenario}. From the form, the endorsement, the state form and our guidance, give: {asked}.",
         ])
-        relied_values = {f.value.key() for f in facts}
+        # wrong answers are planted misstatements only; another edition's value is a
+        # legitimate thing to mention on a question that spans editions
+        # …and never a value some real provision of the concept sets (a "stale"
+        # misstatement quotes the previous edition, which a thorough answer may mention)
         avoid = [c.wrong_prop(f, c.contra_by_fact[f.id].wrong_value) for f in facts
-                 if f.id in c.contra_by_fact and c.contra_by_fact[f.id].wrong_value.key() not in relied_values]
-        avoid = avoid or c.neighbours(facts[1], 1, relied=facts)
+                 if f.id in c.contra_by_fact
+                 and c.contra_by_fact[f.id].wrong_value.key() not in {g.value.key() for g in c.by_concept[f.concept]}]
+        avoid = avoid or [c.wrong_prop(facts[1], bump(facts[1].value))]
         out.append(example(f"assembly-{i:02d}", "assembly", q,
                            position="; ".join(f"{c.doc(f).title} {f.section}: {c.words(f.value)}" for f in facts) + ".",
                            must_state=[c.prop(f) for f in facts], must_not=avoid, gold=[c.cite(f.id) for f in facts],
@@ -369,9 +376,9 @@ def t_chain(c: Ctx) -> list[dict]:
         # several chains leave the same provision (one per state), so the first hop's
         # destination is named to keep the questions distinct
         q = pick(cid, [
-            f"{src.title}, {hops[0].src_section} ({src_sec}) defers to {via} (\"{hops[0].wording}\"). Follow that chain to its end: what {c.name(c.concept(f_end))} applies, and where is it set?",
-            f"Starting from {src.title} {hops[0].src_section} and its pointer to {via}, follow each cross-reference until you reach the provision that actually sets the {c.name(c.concept(f_end))}. What is it?",
-            f"Trace the reference chain that begins at {src.title} {hops[0].src_section}, passes through {via}, and give the {f_end.surface_form} the final provision sets.",
+            f"{src.title}, {hops[0].src_section} ({src_sec}) defers to {via} (\"{hops[0].wording}\"). Follow that chain to its end: what {c.name(c.concept(f_end))} applies, and where is it set? Cite every hop.",
+            f"Starting from {src.title} {hops[0].src_section} and its pointer to {via}, follow each cross-reference until you reach the provision that actually sets the {c.name(c.concept(f_end))}. What is it? Cite each provision on the way.",
+            f"Trace the reference chain that begins at {src.title} {hops[0].src_section}, passes through {via}, and give the {f_end.surface_form} the final provision sets, citing every hop.",
         ])
         out.append(example(f"chain-{i:02d}", "chain", q,
                            position=f"{len(hops)} hops ending at {d_end.title} {c.sec_label(d_end, f_end.section)}: {c.words(f_end.value)}.",
