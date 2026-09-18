@@ -27,6 +27,11 @@ on:
         type: choice
         options: [deep, normal, fast]
         default: normal
+      model:
+        description: \"Model id for the compile (default: the OPENWIKI_MODEL_ID repo variable, else gpt-5.6-terra)\"
+        type: string
+        required: false
+        default: ''
   schedule:
     - cron: '17 7 * * *'    # the reconciler — see the job comment
 
@@ -108,16 +113,19 @@ jobs:
           mode=$(git log $range --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
           mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
           case "$mode" in
-            deep)   model='gpt-5.6-terra'; effort='high';   workers=4 ;;
+            deep)   effort='high';   workers=4 ;;
             # Fast is terra at LOW effort, not gpt-5.4-mini. Mini planned 20 of
             # 29 pages for a 23-line net-new endorsement and two of its workers
             # exited without submitting (an interrupted run); terra planned the
             # 3 pages the document actually touches. Planning quality decides
             # the wall time here, not per-call latency. (Mini also takes no
             # effort setting — an empty effort means "do not set the variable".)
-            fast)   model='gpt-5.6-terra'; effort='low';    workers=6 ;;
-            *)      mode='normal'; model='gpt-5.6-terra'; effort='medium'; workers=6 ;;
+            fast)   effort='low';    workers=6 ;;
+            *)      mode='normal'; effort='medium'; workers=6 ;;
           esac
+          # the model is orthogonal to the mode: dispatch input, then repo variable, then Terra
+          model='${{ github.event.inputs.model || vars.OPENWIKI_MODEL_ID }}'
+          model=${model:-gpt-5.6-terra}
           echo "mode=$mode"     >> "$GITHUB_OUTPUT"
           echo "workers=$workers" >> "$GITHUB_OUTPUT"
           echo "model=$model"   >> "$GITHUB_OUTPUT"
