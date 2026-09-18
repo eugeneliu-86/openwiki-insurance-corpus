@@ -46,13 +46,15 @@ def renderings(value: FactValue) -> list[str]:
     if k == "percent":
         n = _num(v)
         return [f"{words(n)} percent", f"{n}%", f"{words(n)} ({n}) percent", f"{n} percent"]
-    if k in ("days", "years", "hours", "feet", "count"):
-        unit = {"days": "days", "years": "years", "hours": "hours", "feet": "feet", "count": ""}[k]
+    if k in ("days", "business-days", "years", "hours", "feet", "count"):
+        unit = {"days": "days", "business-days": "business days", "years": "years", "hours": "hours", "feet": "feet", "count": ""}[k]
         n = _num(v)
         w = words(n)
         if k == "count":
             return [w, str(n), f"{w} ({n})"]
         singular = unit[:-1] if n == 1 and unit.endswith("s") else unit
+        if k == "business-days" and n == 1:
+            singular = "business day"
         if k == "feet" and n == 1:
             singular = "foot"
         return [f"{w} {singular}", f"{n} {singular}", f"{w} ({n}) {singular}"]

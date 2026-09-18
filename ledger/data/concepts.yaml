@@ -338,7 +338,7 @@
   - accept or deny deadline
   - coverage decision period
   - claim determination window
-  kind: days
+  kind: business-days
   ambiguous: true
   synonym_target: true
   group: claims-handling
@@ -348,7 +348,7 @@
   - prompt payment period
   - payment after acceptance deadline
   - claim disbursement window
-  kind: days
+  kind: business-days
   synonym_target: true
   group: claims-handling
 - id: medical-payments-years

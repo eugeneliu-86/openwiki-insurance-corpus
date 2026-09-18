@@ -27,7 +27,7 @@ Line = Literal["HO-3", "HO-5", "HO-4", "HO-6", "DP-3"]
 Voice = Literal["iso-form", "regulator", "carrier-manual", "carrier-guide", "filing-memo", "trainer"]
 SectionKind = Literal["prose", "provisions", "definitions", "table", "schedule", "faq"]
 Authority = Literal["contract", "regulation", "guidance", "interpretation"]
-ValueKind = Literal["money", "percent", "days", "years", "hours", "date", "text", "enum", "boolean", "count", "horsepower", "feet"]
+ValueKind = Literal["money", "percent", "days", "business-days", "years", "hours", "date", "text", "enum", "boolean", "count", "horsepower", "feet"]
 
 FRONT_MATTER_LINES = 12   # the assembler's front matter + title + blank; used for depth arithmetic
 

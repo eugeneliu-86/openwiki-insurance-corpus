@@ -138,7 +138,7 @@ def real_drafter(prompt: str) -> str:
 def fake_drafter(prompt: str) -> str:
     """Deterministic filler that satisfies every check: used by tests and by
     dry builds. Reads the slots and refs back out of the prompt."""
-    slots = re.findall(r"^- (\{\{(?:fact|def|contra):[^}]+\}\}) — (?:the defined term |the \w+ value of )\"([^\"]+)\"", prompt, re.M)
+    slots = re.findall(r"^- (\{\{(?:fact|def|contra):[^}]+\}\}) — (?:the defined term |the [\w-]+ value of )\"([^\"]+)\"", prompt, re.M)
     refs = re.findall(r"^- (\{\{ref:[^}]+\}\}) — write the phrase \"([^\"]+)\"", prompt, re.M)
     mentions = re.findall(r"MENTION WITHOUT NUMBERS[^\n]*\n(.*)\n", prompt)
     names = re.findall(r'"([^"]+)"', mentions[0]) if mentions and mentions[0] != "(none)" else []

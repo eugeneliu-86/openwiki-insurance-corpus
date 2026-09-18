@@ -28,6 +28,8 @@ def test_renderings_per_voice():
     assert render.render_value(V(kind="money", value=5000), "carrier-manual") == "$5,000"
     assert render.render_value(V(kind="percent", value=2), "regulator") == "two (2) percent"
     assert render.render_value(V(kind="days", value=1), "iso-form") == "one day"
+    assert render.render_value(V(kind="business-days", value=15), "regulator") == "fifteen (15) business days"
+    assert render.render_value(V(kind="business-days", value=1), "iso-form") == "one business day"
     assert render.render_value(V(kind="boolean", value=False), "trainer") == "is not required"
     assert "September 2018" in render.renderings(V(kind="date", value="2018-09"))
 

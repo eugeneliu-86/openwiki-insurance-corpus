@@ -65,8 +65,8 @@ CONCEPTS = [
     ("appraisal-demand-days", "days", "days to select an appraiser after a demand for appraisal", ["appraiser selection period", "appraisal response time"], "conditions", False),
     ("vacancy-days", "days", "consecutive days of vacancy after which vandalism is excluded", ["unoccupancy limit", "vacant dwelling period", "vacancy exclusion trigger"], "conditions", True),
     ("claim-acknowledgement-days", "days", "days to acknowledge receipt of a claim", ["acknowledgment of claim deadline", "receipt acknowledgement period", "claim contact deadline"], "claims-handling", True),
-    ("claim-decision-business-days", "days", "business days to accept or reject a claim after receiving requested items", ["accept or deny deadline", "coverage decision period", "claim determination window"], "claims-handling", True),
-    ("claim-payment-business-days", "days", "business days to pay an accepted claim", ["prompt payment period", "payment after acceptance deadline", "claim disbursement window"], "claims-handling", False),
+    ("claim-decision-business-days", "business-days", "business days to accept or reject a claim after receiving requested items", ["accept or deny deadline", "coverage decision period", "claim determination window"], "claims-handling", True),
+    ("claim-payment-business-days", "business-days", "business days to pay an accepted claim", ["prompt payment period", "payment after acceptance deadline", "claim disbursement window"], "claims-handling", False),
     # liability
     ("medical-payments-years", "years", "years within which medical expenses must be incurred to be payable", ["medical payments time limit", "Coverage F accrual period", "medical expense window"], "liability", False),
     ("damage-to-property-of-others-limit", "money", "damage to property of others limit", ["property of others limit", "good neighbor coverage limit", "borrowed property limit"], "liability", False),
