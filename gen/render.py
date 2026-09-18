@@ -133,9 +133,9 @@ UNIT_WORDS = {
 }
 _ALLOWED_DIGIT_PATTERNS = [
     re.compile(r"\*\*[A-Z]{1,3}\.\d+(?:\.\d+)?\*\*"),      # **A.1**, **B.2.1**, **210.A** handled below
-    re.compile(r"\*\*\d{3}\.[A-Z]{1,2}\*\*"),                # **210.A**, **120.AI** — manuals number past Z
+    re.compile(r"\*\*\d{1,3}\.[A-Z]{1,2}\*\*"),              # **210.A**, **120.AI**, **4.BL** — manuals number past Z; the claims manual's chapters are C1–C6
     re.compile(r"\*\*\d{1,3}\.\d+(?:\.\d+)?\*\*"),         # **110.1**, **12.3.4** — bold paragraph numbers are structure
-    re.compile(r"\b\d{3}\.[A-Z]{1,2}(?:\.\d+)?\b"),            # 120.C, 120.AI, 210.A.2 — a manual rule cited in running text
+    re.compile(r"\b\d{1,3}\.[A-Z]{1,2}(?:\.\d+)?\b"),          # 120.C, 120.AI, 210.A.2, 4.AB — a manual rule cited in running text
     re.compile(r"\*\*\d+\.\*\*"),                            # **1.**
     re.compile(r"\b(?:Rule|Chapter|Part|Table|Section|Paragraph)s? \d{1,3}(?:\.\d+)?\b"),
     re.compile(r"\b[A-Z]{1,3}\.\d+(?:\.\d+)?\b"),           # A.3, I.S.5, T.1
