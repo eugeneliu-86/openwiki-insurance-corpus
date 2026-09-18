@@ -79,7 +79,7 @@ jobs:
           corepack enable
           (cd /tmp/openwiki && pnpm install --frozen-lockfile && pnpm run build)
           npm install --global /tmp/openwiki mermaid@11.16.0 jsdom@29.1.1
-          openwiki --version
+          command -v openwiki
 
       - name: Record the previous compile
         id: prev
