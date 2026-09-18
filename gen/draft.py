@@ -99,7 +99,9 @@ def check_draft(job: SectionJob, text: str) -> list[str]:
         if nums:
             problems.append(f"unslotted numerals: {sorted(set(nums))[:8]}")
     lines = text.count("\n") + 1
-    lo, hi = int(job.target_lines * 0.7), int(job.target_lines * 1.4)
+    # wide on purpose: section length should vary; the band only catches a drafter
+    # that stopped early or ran away, not one that wrote a long or short section
+    lo, hi = int(job.target_lines * 0.5), int(job.target_lines * 2.0)
     if job.kind == "definitions":
         # a glossary is two lines per term (entry + blank) however long the target says;
         # the floor is the number of terms, and the model is not asked to pad it
