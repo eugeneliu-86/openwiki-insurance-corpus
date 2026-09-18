@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b4eaee27fbdffab258eed1a7590af759ee1f81520921626c143e0e6ed02a0f09",
+  "pageVersion": "sha256:e84af30a6232f2caccc19b275604144de691981f98bf8d098c63a2177aa2f828",
   "claims": [
     {
       "id": "claim_bd259431c340436789189fd1f3a6b070",
@@ -166,7 +166,7 @@
     },
     {
       "id": "claim_425a525244c64768ad1579cfe93b3f74",
-      "statement": "The editions impose different claim-settlement mechanics: the minimum Section I deductible is $500 in 2012-11, $1,000 in 2020-08, and $1,500 in 2026-01; proof of loss is due within 60 days after request in 2012-11 and 90 days after request in 2020-08 and 2026-01; payment follows the stated 60-day, 45-day, and 30-day rules respectively; appraisal determines amount of loss rather than coverage.",
+      "statement": "The editions impose different claim-settlement mechanics: the minimum Section I deductible is $500 in 2012-11, $1,000 in 2020-08, and $1,500 in 2026-01; proof of loss is due within 60 days after request in 2012-11 and 2026-01 and 90 days after request in 2020-08; payment follows the stated 60-day, 45-day, and 30-day rules respectively; appraisal determines amount of loss rather than coverage.",
       "evidence": [
         {
           "resource": "repo://forms/DP/MS/DP-3/2012-11.md#L919-L977",
@@ -181,8 +181,8 @@
           "version": "repo-lines-v1:sha256:cc4051aaca603231abdf56ce8f590282c1b455ba009067341b36979e69d50ec5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhYTQ2ZWEwZDFkYjMxZDgwYjZhZWFkYzEwODY3MGMyNjllNGFjNGUyZWIwNjgwOTQxMDhmYjJkNzdmNmU5NjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjZTI0MWY5ZTg4NGRmYjIwYmJiMzc0MDA4MDNkZTkzMThkOGM4MzI3N2NjYzk5MzdlNGE1MzdhZWQ2MjU3NzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVkOTkwMTJlM2YwODkxYzA3MjMwMGYxYTVmMTExZGQ5Njk0YzJjZTQyNWFmN2YwNjUzZGU0YjgyYWYwYTYwYzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyZjU0YTgzMjgwZmJjZTY5NDk5YTY5YWIyYmU5ZjRkMjQ4ODcxYmUwMGEwMjZjZDc5NDcyMDM1MmY2OWVmOWQifQ"
         },
         {
-          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L899-L951",
-          "version": "repo-lines-v1:sha256:253fa64bb286fb6a3b81af566d93c152467506a36fb3e99caa63a4b4ad741eae:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzYmFiNjdkZWUwZWY3MzgzZjMyMWVhNWZmOTRhODBmZjk3NzQ5OTVkYWE5OGJkODUzZDBjOWYxMGNlODZhNmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkNzgwNTVhMzZiMDAyZTNhZmNkNzFhZjI5OWM3MDhhMTViMjlmMDVjYTI2OTg1NDdjOGU4MzRlYzBkOGY5ZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmNWIzNjhlMzIxOTlkYzk1MmIzODRjNmZmMmE5MjU1OTM5ODczNTRjMDlkNjhkYTc1YTdhNzQ4YzA2OGJhZTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIzNjVkNjdhMzQ5NWIwZTA4MWM3ODY4ODE0ZDExNjg1ODgzZTc2MGY2NjZiMTI3NmFhMWE0ZThjZDU2MWFmYzYifQ"
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L885-L951",
+          "version": "repo-lines-v1:sha256:2f054f64ab480bfdbfcb09e4a7e9701187df9244084644cadde485b0931744fb:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmNTMwOWFiOTkyNGNlM2ZmMjcyZjgyYTBlNzFjYzkwNzRjZjQ1Mzk3YWU1ZThmOGYwZGRhNjYzYzgwMDg1ZjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkNzgwNTVhMzZiMDAyZTNhZmNkNzFhZjI5OWM3MDhhMTViMjlmMDVjYTI2OTg1NDdjOGU4MzRlYzBkOGY5ZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEyOGE2MTY4MTM2YjlhZmUyYzkyODRjNDE4ZGE3OWEyMWZjYTQ0MmI5MGEyZjgwYTdjNzU2ZjhkMWZkMjQyYzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIzNjVkNjdhMzQ5NWIwZTA4MWM3ODY4ODE0ZDExNjg1ODgzZTc2MGY2NjZiMTI3NmFhMWE0ZThjZDU2MWFmYzYifQ"
         }
       ]
     },
@@ -269,20 +269,6 @@
       ]
     },
     {
-      "id": "claim_86c15e0310ec41e4b6f8f4a71970dddb",
-      "statement": "The Texas overlay changes the 2026-01 DP-3 roof settlement rule by requiring actual-cash-value valuation for covered roof damage when the roof is at least ten years old unless another policy provision is broader, whereas DP-3 2026-01 otherwise states replacement cost for roof surfacing unless an ACV roof-schedule endorsement is attached.",
-      "evidence": [
-        {
-          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L109-L125",
-          "version": "repo-lines-v1:sha256:1c061aa2bc61dd3f1ca91d541eeba635f7c24531ce73cf870dda298d3a70fb1c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkMDNlYTNiNTcyNTM5NzRjNGVlNDMxNWJkZGZlM2QzYTAwM2NhMDY4MWUzZGJmMjNlYWYwOGY2MWNkNjEyYmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1ZGE5OWUyOGFlNjk1MTVlM2UyODJlOWM2Yzk4ZGZhYTYwNTUyMzIzZDYwYTY2YzdhZjZjZDk1YTVlMTdiNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMyNTYxZmNkNTM5NWYyOTdlMGNlMDA0NDYwODdiZWVmOWQ1NzA3NTE4N2NhYTM5M2VkMDM2NWQ1YWVjZTJjZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkNDBhYmExODkxMmFjNjM2ZmE2ZWRjODRmNWZlOTExNzAyMjQ5MzgyODAwNjM0NmJiMWE1ZjgzODViYjYyMTAifQ"
-        },
-        {
-          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L587-L609",
-          "version": "repo-lines-v1:sha256:2d72c9f34135371f59018125ff2667dcf76f646b860c620d12ff1715c28327aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjZDUyN2QzMjc5MmFlNzg1ZmExNWYyYTQ3YTdmNjg5OWQ4NmZiMmNkMzMzYzYxYmY4OGZiMTY2OWVkNGVlNDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzMzNiMGI5M2VjZjE5NTc5MTYzMTlkNGFiN2Q2MTUxYTkzYzA0ZDg1MTdhMTdjNmM0NDJjNWVkMGVjZDA4NzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI0MzFmMDc0YWQyZjQ2MmZhM2EzNjBlMTNlOGYxMmM2ZDI4OGRjNmU0MmVhYzRhMmI5YWVlMDhlZGVjNWNmMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyY2JkNDY3ZTVlNmNkZWNlZmVjNDM5NzYwYzQxMjEyZjc0OTYyMmFmODAzYzc3MTk1MmI4Mjc4M2RmOTNiNmQifQ"
-        }
-      ]
-    },
-    {
       "id": "claim_2526a8e2468744fe95134e034e25f79a",
       "statement": "DP-3 claim conditions require notice, mitigation, preservation and inspection of damaged property, records and inventories, cooperation, proof of loss, and preservation of recovery rights; later editions expressly permit denial only to the extent a required-duty failure materially affects the loss or claim, so later material-prejudice wording must not be back-applied to earlier editions.",
       "evidence": [
@@ -303,6 +289,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

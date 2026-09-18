@@ -1,3 +1,3 @@
 # Files
 
-- [Roof Surfacing Settlement and Roof Claims](roof-settlement.md) - Explains when an HO-3 roof claim is settled at replacement cost or actual cash value, how the 2018-09 and 2025-05 HO 23 74 schedules differ, and how age, condition, matching, exclusions, deductibles, and investigation duties interact.
+- [Roof Surfacing Settlement and Roof Claims](roof-settlement.md) - Explains the roof-claim sequence from covered direct physical loss and cause through scope, valuation, deductible, and limits. Compares the 2018-09 and 2025-05 HO 23 74 editions and separates policy terms from claims guidance, bulletins, and underwriting controls.

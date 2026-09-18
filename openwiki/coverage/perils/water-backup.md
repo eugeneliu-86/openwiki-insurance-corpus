@@ -1,10 +1,11 @@
 ---
-type: "Reference"
-title: "Water Backup and Sump Discharge"
-openwiki_generated: true
+type: coverage
+title: Water Backup and Sump Discharge
+description: Edition-specific comparison of water-backup and sump-discharge endorsements across HO-3, HO-4, HO-6, and DP-3 forms. Covers write-backs, limits, deductibles, exclusions, notice duties, attachment boundaries, and the HO 04 90 (2027-01) filing memorandum.
+tags: [water backup, sump discharge, policy endorsements, HO-3, HO-4, HO-6, DP-3]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-6f2e8c6b93df2e40df6addd5
     resource: repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md
@@ -26,9 +27,11 @@ sources:
     resource: repo://forms/HO/MS/HO-4/2021-10.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
+  - id: openwiki-source-d3cc221b966da1c2185d5b2f
+    resource: repo://memoranda/HO-04-90-2027-01.md
   - id: openwiki-source-98a0b702206aa7ec38174d58
     resource: repo://training/water-losses-101.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 
 
@@ -44,6 +47,23 @@ These forms generally cover resulting direct physical loss to property that the 
 
 ## Coverage decision path
 
+```mermaid
+flowchart TD
+  A["Identify water path"] --> B{"What path is established"}
+  B --> C["Sewer or drain reverse flow"]
+  B --> D["Sump discharge or overflow"]
+  B --> E["Other water source"]
+  C --> F["Read base exclusion and attached endorsement"]
+  D --> F
+  E --> G["Test other policy coverage and exclusions"]
+  F --> H{"Direct physical loss to covered property"}
+  H --> I["Apply edition exclusions limit deductible and duties"]
+  H --> J["No endorsement payment"]
+  I --> K["Apply valuation and remaining base policy terms"]
+```
+
+*This flow shows the source, attachment, covered-property, and adjustment sequence grounded in the cited forms.*
+
 1. **Identify the water path.** Document whether water backed up through a sewer or drain, discharged or overflowed from a sump system, escaped from a plumbing fixture or appliance, entered through an opening, or came from flood, surface water, or subsurface water. Water near a drain or sump is not, by itself, proof of backup. Source: repo://training/water-losses-101.md#L61-L71, repo://training/water-losses-101.md#L93-L103
 2. **Identify the property and insured interest.** Confirm whether the claim is for dwelling or building property, unit improvements and betterments, tenant personal property, contents, or another class already insured by the base policy.
 3. **Read the base exclusion and the acting endorsement together.** The base forms exclude backup or sump loss and then point to the applicable endorsement. The endorsement writes back only the coverage it states; it does not turn excluded property, flood, groundwater, or an excluded maintenance condition into covered property.
@@ -55,7 +75,7 @@ These forms generally cover resulting direct physical loss to property that the 
 | Form and acting endorsement | Base-form treatment | What the endorsement writes back | Limit and deductible | Distinctive duty or boundary |
 | --- | --- | --- | --- | --- |
 | **HO-3 — HO 04 90 (2010-10)**, effective 2010-10-01; superseded for policies effective on or after 2027-01-01, but still in force for policies written under it | HO-3 2024-03 excludes sewer/drain backup and sump overflow or discharge in X.8-X.9 | Direct physical loss to covered property caused by water backup or sump discharge/overflow; precipitation and system-repair costs remain excluded | **$5,000** aggregate; **$500** endorsement deductible | Accidental event; repeated seepage/leakage, precipitation, flood/surface water, subsurface water, and failed-equipment repair remain excluded. Source: repo://forms/HO/MS/HO-04-90/2010-10.md#L35-L105, repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L215, repo://forms/HO/MS/HO-3/2024-03.md#L681-L691 |
-| **HO-3 — HO 04 90 (2027-01)**, effective 2027-01-01 | HO-3 2024-03 X.8-X.9 excludes the same causes unless the water-backup endorsement is attached | Separately defines Water Backup and Sump Discharge or Overflow; covers direct physical loss and reasonable protective measures; expressly recognizes accidental sudden or gradual occurrence, subject to exclusions | **$10,000** aggregate; **$1,000** deductible per covered occurrence | Sump-system maintenance and known-obstruction duties; power failure and mechanical/electrical breakdown remain exclusion issues even though W.8 describes them as possible causes of an accidental sump event. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L137, repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L243, repo://forms/HO/MS/HO-04-90/2027-01.md#L245-L365 |
+| **HO-3 — HO 04 90 (2027-01)**, effective 2027-01-01 | HO-3 2024-03 X.8-X.9 excludes the same causes unless the water-backup endorsement is attached | Separately defines Water Backup and Sump Discharge or Overflow; covers direct physical loss and reasonable protective measures; expressly recognizes accidental sudden or gradual occurrence, subject to exclusions | **$10,000** aggregate; **$1,000** deductible per covered occurrence | Sump-system maintenance, known-obstruction, and below-grade backwater-valve duties; power failure and mechanical/electrical breakdown remain exclusion issues even though W.8 describes them as possible causes of an accidental sump event. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L137, repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L243, repo://forms/HO/MS/HO-04-90/2027-01.md#L291-L297, repo://forms/HO/MS/HO-04-90/2027-01.md#L399-L407, repo://forms/HO/MS/HO-04-90/2027-01.md#L497-L519 |
 | **HO-6 — HO 04 91 (2019-03)**, effective 2019-03-01 | HO-6 2023-02 X.3 excludes water or sewage backing up through sewers, drains, sump systems, or related equipment unless the endorsement is attached | Water Backup includes sewer/drain backup and sump, pump, or related-equipment overflow/discharge; applies to covered building property, personal property, improvements and betterments, and listed reasonable water-removal, cleaning, drying, and debris expenses | **$7,500** aggregate; **$750** deductible | Notice must be given within **60 days after discovery**; unit-owner duties include access to common systems and cooperation with a property manager or condominium association. Source: repo://forms/HO/MS/HO-04-91/2019-03.md#L41-L111, repo://forms/HO/MS/HO-04-91/2019-03.md#L113-L203, repo://forms/HO/MS/HO-04-91/2019-03.md#L293-L307, repo://forms/HO/MS/HO-6/2023-02.md#L656-L666 |
 | **HO-4 — HO 04 92 (2019-03)**, effective 2019-03-01 | HO-4 2021-10 X.14 excludes sewer/drain backup and sump overflow unless the endorsement is attached; X.15 says a sublimit alone does not create coverage | Direct physical loss to the tenant's **covered personal property** caused by water backup, including sewer/drain backup and sump discharge/overflow; it does not insure the landlord's building | **$2,500** aggregate; **$250** deductible | Notice must be given within **90 days after discovery**; the endorsement does not itself add a loss-of-use grant. Source: repo://forms/HO/MS/HO-04-92/2019-03.md#L41-L113, repo://forms/HO/MS/HO-04-92/2019-03.md#L115-L215, repo://forms/HO/MS/HO-04-92/2019-03.md#L293-L313, repo://forms/HO/MS/HO-4/2021-10.md#L746-L759 |
 | **DP-3 — DP 04 95 (2021-05)**, effective 2021-05-01 | DP-3 2026-01 X.6 excludes sewer/drain backup and sump overflow unless the endorsement is attached; X.7 separately caps loss subject to a backup-and-sump-overflow limit | Direct physical loss to covered property caused by sewer/drain backup or sump, pump, or related-equipment overflow/discharge; emergency protection is covered when necessary and reasonable | **$5,000** aggregate; **$1,000** deductible per covered water-backup loss | Notice within **30 days after loss**; failed-system repair is excluded, while resulting direct physical loss can be covered. Source: repo://forms/DP/MS/DP-04-95/2021-05.md#L41-L111, repo://forms/DP/MS/DP-04-95/2021-05.md#L113-L215, repo://forms/DP/MS/DP-04-95/2021-05.md#L339-L359, repo://forms/DP/MS/DP-3/2026-01.md#L726-L741 |
@@ -66,7 +86,7 @@ The limit in each row is an aggregate endorsement limit, not a limit per room, i
 
 ### HO 04 90 (2010-10) — legacy HO-3
 
-**HO 04 90 (2010-10) writes back** direct physical loss to covered property caused by water backing up through a sewer or drain, or water discharged or overflowing from a sump, sump pump, or related equipment. The 2010 wording requires the event to be accidental and pays only where the water event causes direct physical loss. It also covers reasonable emergency measures that protect covered property after a covered backup. Source: repo://forms/HO/MS/HO-04-90/2010-10.md#L35-L75, repo://forms/HO/MS/HO-04-90/2010-10.md#L89-L105
+**HO 04 90 (2010-10) writes back** direct physical loss to covered property caused by water backing up through a sewer or drain, or water discharged or overflowing from a sump, sump pump, or related equipment. The 2010 wording requires the event to be accidental and pays only where the water event causes direct physical loss. Necessary, supported expenses to protect covered property from further damage may be included in settlement. Source: repo://forms/HO/MS/HO-04-90/2010-10.md#L35-L75, repo://forms/HO/MS/HO-04-90/2010-10.md#L499-L509
 
 The endorsement **modifies** the base HO-3 exclusion by supplying this limited write-back; it does not replace the base form. The current supplied HO-3 base wording **preserves** the exclusion unless a water-backup endorsement is attached and separately says sump overflow or discharge is excluded. Source: repo://forms/HO/MS/HO-3/2024-03.md#L681-L691
 
@@ -82,9 +102,15 @@ The 2027 endorsement **modifies** the base HO-3 exclusions identified in X.8-X.9
 
 The 2027 edition raises the aggregate limit to **$10,000** and the endorsement deductible to **$1,000**. The limit includes direct physical loss and covered expenses, is reduced by payments, and is not increased by multiple insureds, locations, claims, or types of property. The deductible applies once to damage from the same occurrence and is subtracted from covered direct physical damage before payment. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L179, repo://forms/HO/MS/HO-04-90/2027-01.md#L189-L243
 
-The 2027 edition **preserves** exclusions for flood, surface water that has not backed up through a sewer or drain, subsurface water, openings, runoff, repeated leakage or continuous discharge, pollutants and microbial conditions, failed or inadequately maintained systems, power failure, mechanical or electrical breakdown, and repair or improvement of the failed equipment. A sump event therefore requires a fact-specific separation between the covered water-caused property damage and an excluded failed component or excluded contributing condition. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L71-L137, repo://forms/HO/MS/HO-04-90/2027-01.md#L245-L365
+The 2027 edition **preserves** exclusions for flood, surface water that has not backed up through a sewer or drain, subsurface water, openings, runoff, repeated leakage or continuous discharge, pollutants and microbial conditions, failed or inadequately maintained systems, power failure, mechanical or electrical breakdown, and repair or improvement of the failed equipment. It also requires a backwater valve for finished areas below grade and requires the insured to maintain any required valve in operable condition. A sump event therefore requires a fact-specific separation between the covered water-caused property damage and an excluded failed component or excluded contributing condition. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L71-L137, repo://forms/HO/MS/HO-04-90/2027-01.md#L245-L365, repo://forms/HO/MS/HO-04-90/2027-01.md#L497-L519
 
 This edition is effective **2027-01-01**. The supplied 2010-10 edition is explicitly marked **superseded by the 2027-01 edition for policies effective on or after 2027-01-01**, while remaining in force for policies written under the older edition. Do not apply the 2027 limit or deductible to a policy governed by the 2010-10 endorsement. Source: repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L9, repo://forms/HO/MS/HO-04-90/2027-01.md#L1-L8
+
+### HO 04 90 (2027-01) filing memorandum
+
+The filing memorandum is explanatory filing material, not a substitute for the attached endorsement. It identifies the revised **$10,000** maximum, **$1,000** deductible, and requirement for a backwater valve in finished areas below grade; it also explains revisions clarifying backup or overflow exclusions, sump-discharge wording, notice information, and post-loss duties. Apply the filed form as the contract: the endorsement says it is effective only when attached and controls a conflicting policy provision, while unmodified policy terms remain in effect. Source: repo://memoranda/HO-04-90-2027-01.md#L143-L151, repo://memoranda/HO-04-90-2027-01.md#L463-L465, repo://memoranda/HO-04-90-2027-01.md#L499-L519, repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39
+
+Do not conflate the form's **30-day notice-after-discovery** condition with later proof-of-loss requirements. The memorandum separately describes a signed, sworn proof of loss due within **60 days after loss** and says notice and proof of loss are distinct duties; verify the operative policy definitions and applicable law for the claim. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L367-L379, repo://memoranda/HO-04-90-2027-01.md#L499-L521, repo://memoranda/HO-04-90-2027-01.md#L641-L649
 
 ### HO 04 91 (2019-03) — unit-owner HO-6
 
@@ -106,7 +132,7 @@ The endorsement **modifies** HO-4's exclusion. The HO-4 2021-10 base form **pres
 
 The HO-4 endorsement's aggregate limit is **$2,500**. Its **$250** deductible applies only to covered water-backup loss, after the covered amount is determined, and no payment is made when the covered amount does not exceed the deductible. Source: repo://forms/HO/MS/HO-04-92/2019-03.md#L115-L163, repo://forms/HO/MS/HO-04-92/2019-03.md#L165-L215
 
-The endorsement preserves exclusions for flood and surface water, groundwater, precipitation through openings, plumbing-fixture or appliance water that is not a backup, power interruption, mechanical breakdown, wear and tear, failed maintenance, mold or bacteria, pollutants, contamination, and avoidable additional damage. Source: repo://forms/HO/MS/HO-04-92/2019-03.md#L217-L301
+The endorsement preserves exclusions for flood and surface water, groundwater, precipitation through openings, plumbing-fixture or appliance water that is not a backup, wear and tear, failed maintenance, mold or bacteria, pollutants, contamination, and avoidable additional damage. It expressly allows the backup to result from a blockage, obstruction, or mechanical breakdown, but it does not cover loss consisting solely of wear, deterioration, corrosion, or mechanical failure of equipment, or the cost to repair failed sump equipment. Source: repo://forms/HO/MS/HO-04-92/2019-03.md#L55-L73, repo://forms/HO/MS/HO-04-92/2019-03.md#L217-L301
 
 The tenant must give notice within **90 days after discovery**, protect and preserve property, keep an inventory when requested, provide records and a sworn proof of loss when requested, and preserve recovery rights. The endorsement's grant is personal-property coverage; it does not itself add Coverage D loss-of-use benefits. Any additional living expense or fair-rental-value question must be tested against the base HO-4 Coverage D terms and the definition of covered loss, not assumed from the backup endorsement. Source: repo://forms/HO/MS/HO-04-92/2019-03.md#L303-L395, repo://forms/HO/MS/HO-04-92/2019-03.md#L451-L499, repo://forms/HO/MS/HO-4/2021-10.md#L381-L409
 

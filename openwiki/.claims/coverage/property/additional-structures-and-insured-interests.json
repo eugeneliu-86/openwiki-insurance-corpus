@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:94c5f3353632b4b82918f7ff3d291b73fb15fe730536bead1a5badb74eb2ebed",
+  "pageVersion": "sha256:50aabbafdbad83954fddce62ddfa6c05109167670010bacf84bbff3e9fd73e90",
   "claims": [
     {
       "id": "claim_18db9997e8614733b9325876cc8054ce",
-      "statement": "HO-3 2024-03 Coverage B covers qualifying detached or similarly separated other structures on the residence premises, uses a 10% of Coverage A additional-insurance limit, and excludes business, farming, dwelling, land, and outdoor-property uses stated in the base form.",
+      "statement": "HO-3 2024-03 Coverage B covers qualifying detached or similarly separated other structures on the residence premises, uses a 10% of Coverage A limit, and excludes business, farming, dwelling, land, and outdoor-property uses stated in the base form.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L153-L177",
@@ -24,7 +24,7 @@
     },
     {
       "id": "claim_dac4088edbb343a1b9e455e088590f7a",
-      "statement": "HO 04 48 (2026-06) modifies HO-3 Coverage B by replacing the applicable limit with 20% of Coverage A, while keeping the Coverage B limit collective for an occurrence and subject to the existing property qualifications, exclusions, conditions, and deductible.",
+      "statement": "HO 04 48 (2026-06) modifies HO-3 Coverage B by replacing the otherwise applicable limit with 20% of Coverage A; the limit remains collective for an occurrence, applies only after the property and loss qualify under the endorsement and attached policy, and remains subject to the applicable deductible.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-04-48/2026-06.md#L129-L157",
@@ -213,10 +213,72 @@
           "version": "repo-lines-v1:sha256:decbb6ee7451ef95f3dc5c25f8a0556e6826dd4caf9270a431641cb82fefde17:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3MjZiNjBkMTkzNzhmOGY3MzgzN2IxYzQ5ZTFmMzJkOGUyYjM3NGI0MWQ5MjIyZTE3MjhmMzMwMmY2ZmUyOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxZTE0YzVhNzkzZDFlYWExZTRhNzhkY2YxMDJkNjk2MTk3NGU4Y2Y2NTQ1MDgyZGVlOTRmMjc3MmE0ZTYzZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzMTVlZWM0N2MwZmEyZmM4YmQ2NTMwNGJjYmE0Yjg0Y2IwODBmNzYwMGVmMjIzNTZmOTVhYmUwNDM0MGZlNTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1NjNjZDAxMDU1ZWQxODA0MGJhMDYwOWNkMmM3ZmM2NWNiZTM4MjkxNDliYTNlZjcyOWMxMGQ5YjExZDA5Y2EifQ"
         }
       ]
+    },
+    {
+      "id": "claim_2fd9c35d21d94e438cc89b60551462d5",
+      "statement": "Attached endorsements act within their stated scope: they modify conflicting or expressly changed base-policy terms while preserving nonconflicting provisions, and a base-form cross-reference or topic match does not establish that the endorsement is attached.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-40/2011-05.md#L13-L35",
+          "version": "repo-lines-v1:sha256:e53d4d62ec70055c24773bd6a61aaf17141f4f06ac7e59753433c4e66cc2d418:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlMTUyZDBiOWEyYjE1OTYwNGNmN2U5OGQ1ZjI2OGE5ZDFiZjYzYTk2MDUwYTllOWE4YWZlM2VjYmM5MTBiMDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwNzdmMmIwMGFhMDY5MTcwNmExMzA3ODYzNmQzZGRlODM5YzY5NDYxZGU3YmFmZjQzODIzMDg1MjVlNjcyOTgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md#L13-L33",
+          "version": "repo-lines-v1:sha256:f2bf2433f34b536f15e2b19b9fef3da7afda2c00698f7e3b8191a6e5e204f804:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0ZGFlNTc0NTc3ZDIxOWY4Y2VhMTc1Y2JiMTZkN2VhZWI4N2IzZDZkMDRkMTliMTQ5YTcxOGEzNDg1NmVhODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-17-32/2014-04.md#L13-L39",
+          "version": "repo-lines-v1:sha256:25902840dd9cf7c5213f9870087e7521b775ccf00d5c74e349d262eb18e6fe32:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhMGFmYTQxZWYyMzY0Mzc0MmFmNmUwMTAzZjY2NjVjMjA5NTY0N2NkNmUzMjM5ODIwOWIzZGM1MWMxNmZhMDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-17-33/2014-04.md#L13-L37",
+          "version": "repo-lines-v1:sha256:e0059f7cb439834b496c96aaa3df1830c4f4a91b9d3a6ce5e81794d62b07bb53:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxMTNjNjgyOTgzNzk3ZWVjNjAwYjA2MTA1Y2RiZWRjYjhhYTI1MzE3ODIzZWRjMDZlNzAxMjYyMjc1NGRkODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b4a2677929a14253ace40716843f99c0",
+      "statement": "Condominium master-policy gap triage starts by comparing the association declaration, master policy, and unit-owner policy with the damaged component, ownership or repair responsibility, and cause of loss; the component's visible location or an association repair decision does not by itself establish which policy covers it.",
+      "evidence": [
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L109-L139",
+          "version": "repo-lines-v1:sha256:1dd058f465784e80359ed529b411aa0d53cc2743fcdb4458bd703ff01364e385:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1MDU1NTZmYWY2OTVjMWMwZTllMjM0ODQzNDhkNDJhNDFhNTNkOGY2YTA0NDlkNDRjMzZlNGYzZTk0ZGFiODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0YTNhMmM2ZTVlNDEwNTllMGE2NmU4NTBlNDc1ODRjMTExZWU4NDI3ZWNiMzZhNWY3MzkyMzc3MzVlMjJiMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwYzc1MTM2ZmZhMGM4YTIyZDIyMThmMzIxNTgzMDhlOTE0ZjM0ZmExZWVmOWM0ZWVhOTg2NWUxN2UyYzIyY2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllZWRjNDk0ZGVhODQ3M2ZhZTU3MzJlYWEyOTQ4NTMwOTllNGJjMTc2NTBiYmZjNGQ1NDZiNjU1ZDhiN2I4YzcifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L181-L207",
+          "version": "repo-lines-v1:sha256:7eafb483a7c860d47df58178154ae203d418b6fab56b04b402a5e22610fdd07a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhZWEzZGVmODFhMzQxYzA0YWZlZDU4Yjk1YzNjZjlmNGY1NGY3MTBhZWYzOWRmNmI0MDUyNzNiZTNhZjI4YzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljZWFlYmE4NGI5MDlmOWQ3MjI3MTM1Y2FkMDE4Y2Q1MzhiOTU0OTkzOWNmMDhmN2VhZGIyNDA5ZjUzMDhmMmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxM2YwZmE4NDg1ZDE1NzFmMGU1YzY5OWEzODgxNTMyZDg3YTI1YTFjYzM4MTllZjEzMjJjZjMxOWUwZTQ2N2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVjMzlhNTMwNDVjMTNmOTQzYjI4OTExMWFlY2U5YjRmZDE2MzZmMGM1ZjFiMzVhMzk0MDBiOTkwMTk2NzNmNWIifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L233-L259",
+          "version": "repo-lines-v1:sha256:2c9f951b3c1e3d99fc62faf6b288484577929fe29887f98cb94a136a9b7cce9c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhNTNiZWYxOGEyNzc3ZWM0YTYzNzFjZGJmMTkzZDc1ZDAwNGFmMTg4ZDdiNDhhMDgwNjc2NDhhMTRmNWZiZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxMzY4ZWYxNDhkMjBkZDIyNTM1ODQxYWNlNTk3ZjRkMmYxNmIwN2UzMGNjZThjMTEzNTlhMThjOWM5M2RlODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2OThhNjliOTQwNjE0MjIyMTdjMWY4ZDkzZDQ0N2I2NzliYTQ0MGQ2YWI0MDg4MjQxN2QxM2U5ZDJiMjAwMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NmFhOWY4YzIyYjVkZmIxMTQ5ODFlNWFiMjg4YTE3YTk2ZmJhMjYzMzljYzRlMDExODk4Y2VlYzQ5Nzg5YWMifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L61-L91",
+          "version": "repo-lines-v1:sha256:e308b34ed69f7a97efdf8cc5f69f63c63ad410e939a30d781734e08a6e3308c6:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwZGY1MjIyODhhMDkwMjc2NzJhNDBjZmI4MjcxNTdjNTNhOWE0OWRjZTZmMmVkMWM3Zjk3NzE2YTM3NzM5OGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4NmYwMmEyZDJkZDUzYTA5MDkxOGExZWFkNTgxMWI2OGU5YTY4MDk5ZWE5YmJmOGMyNjY4NmZkYmQwMTE4MzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxNDc3YTczZGExM2U2YjRmZThkZDBiMGI2OGE5ZTRkZWUzNjg3Y2IxNTgxMmVkMzllNDdjNGJkMjk1MmM0MjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3NTI2ZWYzNDU4ZDRjMGRkNzhiODNiYjBhY2I2OTlmODM2ZDgzZWI4ZTI2YjliYjUzODAyOTg0NTc0MTVhMWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3c95271fc2654d92b97a24716d53cf01",
+      "statement": "A condominium loss may involve different policies for the source of damage and the damaged property, so claim review should separate common property, unit building property or improvements, personal property, tenant property, mitigation, and loss of use and obtain supporting declarations, repair, invoice, photograph, association, and assessment records when material.",
+      "evidence": [
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L109-L119",
+          "version": "repo-lines-v1:sha256:af2394e51901f5a464c87f4fb0db5c60a10c46391cb22e30cbbc8bb48dbda0ae:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1MDU1NTZmYWY2OTVjMWMwZTllMjM0ODQzNDhkNDJhNDFhNTNkOGY2YTA0NDlkNDRjMzZlNGYzZTk0ZGFiODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMWJjYWM2ZDczZjFlNjMwYjI3NGRlNjRmYmQ2NzM3ODhjNDVkYmI3MTg2Mzk1YjE0ZmQ2NzY0MGI5ZDRjNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwYzc1MTM2ZmZhMGM4YTIyZDIyMThmMzIxNTgzMDhlOTE0ZjM0ZmExZWVmOWM0ZWVhOTg2NWUxN2UyYzIyY2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjNzZlNTIxMmU2NDYzMWYxYzRkOWMxMjliMjhhNTM1M2RkMDY1NmQzZmI3M2JjMDk3YWUxNGYzZTM1MjZjMGMifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L237-L259",
+          "version": "repo-lines-v1:sha256:0f0ad22d1d1fc7a4d75a451dd6c8ad75fc41edb6f6b18f368ee076f9e87bfd6b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZDkwMTU2YmVmOTNlNGMyYTlhNjJkNjgwMDdlZGFmZWY4MzY1ODkzMjlmOTc3ZDNiMjBjZTYxM2U0ZmJiODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxMzY4ZWYxNDhkMjBkZDIyNTM1ODQxYWNlNTk3ZjRkMmYxNmIwN2UzMGNjZThjMTEzNTlhMThjOWM5M2RlODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyYjA3OGYyNDRjNzc4OTYzMmIxNzU4NDFlOWM1YTg2YzJkMjE0ZTRiMWY2MTJmNWZlMDZjMzI3MWYxYjI4MTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NmFhOWY4YzIyYjVkZmIxMTQ5ODFlNWFiMjg4YTE3YTk2ZmJhMjYzMzljYzRlMDExODk4Y2VlYzQ5Nzg5YWMifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L285-L323",
+          "version": "repo-lines-v1:sha256:2dd3e89dddadf04187d91fb4b539387e8211564542eb708aef3439dd4c7bb206:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZmMDdkYWQ3MTE0YjZiNGNhMTE1YzU5NWQ5ZGUwMTk1NWYyMjk2MDM5ZDJhNmM5YTgwZTYzMTZjNzA4N2U4NWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlYWQ4ZDY4N2EwMmMxMmJhYmZlYjllNzNmMTliMTlmYzAxYmZiNjM3ZDViNDM1ZjI0Yjc3ZTU4M2Q0MDMwOWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFiZGUwNDY0YmE5MzBhZjFlNjJjOTJlOGM2MzExN2U1NmIwMzIzYzdhM2QxODdjODNmMDE4OTgwNzUwMzA0NDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM0MzM4MjlkM2I0ZmZhM2FiYmU3MTJiN2M1MjQ0NzJlZTExZDY2MjY1OTljNDlkZDc2YWRkOGRkNDgxYzg4MWMifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

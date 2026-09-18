@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:ec28a6a305ffd4239314e80e4015bf14e69b786e99945133175a18db60811dcf",
+  "pageVersion": "sha256:81bbab5ca79156d8a5fa06bd29dcf6edff1627952af69bd09399f6fdb6c6a686",
   "claims": [
     {
       "id": "claim_ef21d7707c124cdfad69ba12280ddb25",
@@ -161,10 +161,224 @@
           "version": "repo-lines-v1:sha256:3c87626c19d0ed7f9b0e55a73844864719bbeaa422b669ac5eebe83f74d6aca0:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQ5NTA1Zjg2MjM5NjFlNzE0YzlmYzMyODkzMTY1MDk5ZmYyOTJkMjg5ZjU1YmNhMDBjMmQ0MTM1MzIxOWY0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjI1ZDcxNzEzNjk4ZDlmNTUzMmU1OTVkNzIyN2FiNmZlZmM1OTlkODk2MGM3MWUzYTM5M2YwNzFhMGNjNmM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTIwYTlmYjUxOWU0NjAxNjJmMmMyNzIyMmRmYzRkYWEwZDcxMTJkMDllY2E5NTM2YWZlMDM5ZWU1MzAzMzZiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzM5ZDY2ZjE0Y2ZjMGY0NjcxYTFkN2IxMjA5MjM3ODFjNmZjMjFiZWMzZjViNDY4MjNhYjc0NjQ3ZDliZDI1NiJ9"
         }
       ]
+    },
+    {
+      "id": "claim_b13a397d2cb54d5981eb353a3edcb926",
+      "statement": "The quickstart requires a coverage or operational question to proceed from coverage part to peril or subject, governing edition, state overlay, assembled policy terms, and only then to separate claims, underwriting, or rating controls.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L15-L31",
+          "version": "repo-lines-v1:sha256:f35af7191ac2e711f497cdad0a1feac874a764f968d2a196b90f913955842052:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyNWQ3MTcxMzY5OGQ5ZjU1MzJlNTk1ZDcyMjdhYjZmZWZjNTk5ZDg5NjBjNzFlM2EzOTNmMDcxYTBjYzZjNTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRlYzkwNjg1NjgxYjQxYzI2ZjQ3Yzg1M2RmYzljM2EzMjFhMGI0NDg2MWRmNTE3ZjZkMzQwNDdkZjcyNjVlNTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMzOWQ2NmYxNGNmYzBmNDY3MWExZDdiMTIwOTIzNzgxYzZmYzIxYmVjM2Y1YjQ2ODIzYWI3NDY0N2Q5YmQyNTYifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L61-L83",
+          "version": "repo-lines-v1:sha256:15ac0401c34610d9722cbe96e0c4f7f5dad103ebdc332cbdfbb92f4cb3f54c2e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjYzRjNzk0ZmMyMjI5ZmRhMmEzNDc5YzA3NzdhOGMwMjhmNTAzODJjYzc1MmJlMzQyYzczNzI1OWVmMmQ4ZDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEzOThmZTMwNGQxNjkxNjJlMWRlOTdhMjI2MGM2N2I0ZDNiZDg1ZjYwNDhhZmU5NjJmZTliOTZjNDMzZjMxZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxNDc3YTczZGExM2U2YjRmZThkZDBiMGI2OGE5ZTRkZWUzNjg3Y2IxNTgxMmVkMzllNDdjNGJkMjk1MmM0MjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwMDU4MjQxYzgyNDZjNDE0OTdkMjlhYjlhOGFlN2I5MWZhODY5YTAxNzRmNzM4NTY5ZmQxMTk2MzNkOTFkMjUifQ"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L13-L25",
+          "version": "repo-lines-v1:sha256:dfca4a7b2c617d2daa2cc291153be5f9c18f298bdc56d5d32e5f3be0117df735:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiZGFiY2UyM2QxMDAwYzlkNDcxZTFlZWM0ZTQxZmI4Zjg4NzFkNDVhOGRmNWZhZWQ2OWIzODZhOWNjNGMzZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4NzhjMWMwZGU0MjNlY2ZiNjgwMmYxNmYyMDhlNmVjNmFkM2RlZWQ5NmY4MTM1YjY3MjFmZTRlNjI1OGNlOGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg2ZTM0ZWVjMzI0YTcyMGYxZjE3OTE3MWY4YjdjNmMxZDRhZDZjODBmZDIyNjhiYWE1MjEzNTRlZTI4ZDY2Y2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_88d96ca8dfdf497987b7bee00e310838",
+      "statement": "The property claims manual workflow opens and controls the claim file, verifies policy and role, preserves evidence, develops cause and scope, separates investigation from coverage and valuation, and keeps payment and closure within delegated authority.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/claims/manual.md#L13-L103",
+          "version": "repo-lines-v1:sha256:e47d8112bdb141471d877ffd61b0abfed14f3c45690f999705beb8e3f45ca086:eyJzZWxlY3RlZExpbmVDb3VudCI6OTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiMmRkMzc4MTZkYmI3MjE2Nzg4ZDc1NzkwYThjMmEyYWQyZmM5MDFhZmJhZmJjYTZmZTg2OWY4ZjU3ODg3MjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkYzAxYjI0NGFiNTFiYTc0ZmIxMjNlZDM2Njg5M2Y1YWE5OWIzZDYzYmI0NzQ5ZWYwNjczOTQ3ZWUyODZiYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzMDU5NjA3YmVlY2Q4MDc0MDZlMjgxNWVjYzE4OGFkMDljYjc0MGI5YTI3MDE1MzExYmNkMDYzZWM4YTJlNDUifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L141-L175",
+          "version": "repo-lines-v1:sha256:586dc434a1e883c24118b8d91f9d5a1bb71887ca5e4cadafead67576993d9d61:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhZmJjNDBlMWEyYjEwZTg3ZmIxMzZkMDE5Y2U4ZmM5NzQ1ZWNjN2QzMWU0OTkxY2M3ODJiMThiOTkyZjI0Y2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlMDM2OTg5ZWEwYzM4NDc2NGI4MTBjMTNkNTRkYjAyYjM5YWMyMGY3ZjNhZmI5NTI0Y2I3NzEyZjVlMTBhNjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0ODY1ZjIwYjZiMzU3MmIwY2ZlNTM2MGM1NjUwZmI4MDVkODE3ZmJiN2IzOTk0OThkOGUzY2YwYzhmMTVjYmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ5YmQwMWY0YTg0ZmZmYTRhZTE3NzdjMjJkMWZlNzZjN2IzOTRmOWZhNWQxYjg1ZmQ5NWE2NzgzYmU0Zjg1MzcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_47bf76ff0ba84a579895339a5e4fa58d",
+      "statement": "The claims manual's property-peril workflow routes water, roof, fire, theft, weather, mold, loss-of-use, and dwelling-property claims through cause, evidence, mitigation, scope, valuation, authority, and consultation of the controlling policy or endorsement.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L21-L45",
+          "version": "repo-lines-v1:sha256:791abfde10add6ade9e09f592a44316feca245023c18a3f31474e86031403beb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYyNzA3ZmQ4MTEzMTA1YjU4NDBiMTgyMDQ0NjI3NDVjY2ExNDVjZTdlZjY5Y2VhZmM5NTg3ZmE0MzZmY2ViZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3MmJlMGE0MWUxNjk2NGQwMGEyYTljMmU0NDBiYjkwZDNhNTVjMWJmOWVlN2VmM2Q1ZmIxMjY5ZmVhNDUzOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiNDY4OTg2NzRlMzQ4YWRhZDg1ZDE5NzYzMGE5MjZkYmNmY2E4MjIxNjI1ZGVlMmU3YTcxNmQzMTQ5ODcxYmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/water-loss-handling.md#L13-L57",
+          "version": "repo-lines-v1:sha256:26f9b951a8a4bfe5af3cb7c4bb1d25ed2d091b9a301a9d121bd678ed6f244bcb:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMTcyOTlkYmVjNjA4ODM5MDRiMDJmMTdkYjRmZjg4YzMxNGY2MDRlMjQ4ZDM2NzI5MWY4NTEyMjg4YmI3OTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L5071-L5207",
+          "version": "repo-lines-v1:sha256:68741864945e934b341da8c694df65e04ab44c66ff776b4b31b96fec18792bf2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTM3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI3ZWM5OGJmZDY2NzVlMWYzNmNmZmU5YjM5ZjQ0ZGFkMjY4ZDNjY2JiYmM5NTMyNzM4ZTZlMDk4NWM3MGY5MWUwIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJmOTQxOTkzODhkYmI0ODI4MGExOTM1YmRlOWU0ZjQ0ZGY3ZmJhYjJhMTE1ODM2MjQ2ZWQ5OTdjNTA4NTJiZTkwIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIzZmUxZTYzZmY4ZjU1MzNiN2E4YTIzNDgyMzc3ZDRmYzMyZmJjN2RmM2IwMTY0NWZlNzNlNzQ4YTViZWMyODE3IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJiNTgzNjY4YWRlZjhiODlmYWJhZDc0MTQxMzZkZGVkYjIwYTQxM2E5ZTAxMDJjN2YxYjJhYmM2ZDQ4Y2YzMzU4In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_be661afdb8124574b62f52eb30c3aa87",
+      "statement": "Claims questions about proof of loss, appraisal, suit, prompt payment, catastrophe, ordinance or law, and state operations must use the operative contract and applicable law because contractual deadlines and requirements are not interchangeable across states or editions.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L13-L49",
+          "version": "repo-lines-v1:sha256:609882ff1dc2191c95ba5d0187a541d7536ddbc98c97854622793f3d5ffcab36:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmY2ZWZjY2MyZmI4OTg0Mzk2MzBkMjI0ZWQ1ZjJhMmM3NGQwY2MyZmUzMWRhNWM2NjhmNzI3OTcxNjYzMzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY4Y2Y5NTc1YmYxYTNmZjYxNDA4MjU1Y2UyYjhjMmZjNDQyNWU0YmNlN2U0MzM5Njg3MjYwMmY1ZDM3YTg2ZGUifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L13-L27",
+          "version": "repo-lines-v1:sha256:8b4b332b1d4d2de1ac9206da7e572b3cedcb96b6c7041e2e914c9c434b2144f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NzBmNDY2YzliMmExNGEzYWJlOWU3YmNjZWExN2RjZjQ3OWU5OGRkZTZjZmZjN2VjOWM1YTM5NjFjOWFhMTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwZmQ1M2M2NGUxZWFkODk3YWE2MmM4MTQyMjAyZGQ4NGNkZGRmMWY2NGM2NDZhMzU1ZDk1OWVlMmNmMDFjODIifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L3601-L3715",
+          "version": "repo-lines-v1:sha256:816fc39cad9750dc05b55e41d868b87c71f96be6b6d4d0e2ee8edf2eb53e5ec8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTE1LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI4YmQzNTg5MmU2YzVjOGE5ZmRiZDI2YjFkZTNjNGJlNTY1NmFlNDQwYmQxZjI2ZmY0OGFlYzJkY2U1YWYxNmIyIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJlOTIzOWQzNjk4NWQxOTJiNGMwZjg5M2I0NDkyNzc3NzVlZDFlZDRmYTU5ZDkyYzdiMjU5MTNhZDYwZWI2NWE1IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJkYWU2OWVhNjZlNzE1MzkzZDk2NWIyMDg4YWNjYTUzOTc0ZWNmZWY2OTY1OWU2NzE0MDI0NzJkMGFjMjQ4MzA4IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIzZWI3OGI2MDMzMWIxZjU2YjdhMTA2ZjhhNjJmODE5OTY0NmZlNTU2OGU5ODU0MjA4Yzc0MTM2YzFkZGQ2MDNlIn0"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4321-L4369",
+          "version": "repo-lines-v1:sha256:03447a9c6c80335a0e4ccbe2873e35394b3545bb453b90f19e06f214ab1fb457:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3M2M3OGRjNzE2OTRhN2VmMmQ0ODJhYjJkZmMwNGI3OWQ2NjEzZDkyMzcxZDczODY4ZDY0M2VmMDlkNjIwZTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmODM3Y2VmMGM0MmMxZmJiZjY3ZmI1NjUyZGQ0NjM5Y2E5OTRlZDRkZGExNTg4OTZjYjQyMjc4NmYyNzcwMGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgwZTFjMzc1MzIxNjViOTU4NDIxOTFhYzA1ZGY4Mjc4YTAxNzU4ZGU4ZTNiYmMzMzgzNmYyY2RhMWEyZWM0NjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJiYzk5MzFmODM4YmE0ZGJmMDk0NTFkYzgxNDRmNzViM2ZmZDAyOGUyZjc1ZjlkOGM0YWJmZDlmYjllZmE2ZjUifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L5311-L5395",
+          "version": "repo-lines-v1:sha256:3ddf1afd564ad46c8498ddf575fa9ebd870e9776cb16a8a4c60f432bded311ab:eyJzZWxlY3RlZExpbmVDb3VudCI6ODUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1MmMyNzA2NzE4ZTE5NmVmOGZjYmRkOTBhNDcxZGJkZThmODA0NWZlNjY3ZTgzNDI5NTBhMDA2MTZmYmRkNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1ZjY2YzU3ZTExNDg1MGQ1OTljNDg3MmE4MWRmOTg5OTYwZTE1YzY1NDJmM2RmMDk3NTFkY2YzMTVhOGEzMWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg4ZmVjNDI2N2VhMDI4YmIyYTNiNTVjNzg3MzZmNGMwOTczZGNlYmI4ODViMGM2OWJjZjNjZGYzZGQ0ZDIwMDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3NDY1YzFhMTgwMDk2ZmM0NTFjNmI4NzFhNWUwMDJiODJjZDNjZmNlNzJhY2FlY2UxZjQyMTg0YTZjZWJhMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_27f4c94f1b5a4a4a9c34ea911d2dc827",
+      "statement": "The liability, specialty-property, and recovery workflow keeps liability, condominium or assessment, scheduled-property, recovery, and authority questions distinct and reunites them at coverage, payment, recovery, and controlled closure.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/claims/manual.md#L2525-L2603",
+          "version": "repo-lines-v1:sha256:ae1fc5a7f5cdd5595abf9b69ff1ac2f1ad55cadb7b7ab64d5bf53745170e0d73:eyJzZWxlY3RlZExpbmVDb3VudCI6NzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwMGE4OGJjZTE0NmM2OGI2NDA2OGJiZTQ3ZTIxNzczMjI1NDUxNGM1OWM4ZmU4OWNjMDAyYjY4YzE2ZTMzMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkyNmZjM2M0NmNhNzkxZWJiNzMyM2Y2Yzg1NDA1Yzk5ZjVjZDAzNmYyMzhkZmEzMWI0MTUxZTdiZTQ2NmUxZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2NWQ0M2U1MGI1ZDA5ZTI4N2E2OWJjYjg0MTU5OWNiMTA0NTc5NjczYjU5ODQ2YTJjZTI2Y2Y5YzFlMzA3ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYmNjZDljODJhMWMyNzBiYTliNzljY2UwZDUwMGUyZjE5NDg0MjYzNmEyOTY5NDUyODBkMzJkYmYwODNiMDQifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4719-L4797",
+          "version": "repo-lines-v1:sha256:10ce4a0f031bde488bafd769ec3c6803617040f64935d2e88c5baeff9180e0c0:eyJzZWxlY3RlZExpbmVDb3VudCI6NzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2ZTcxMjc5NGQ4YTc5ZDU4YjZhOWNjODM1ZTlhMjRjZWE4Y2E2NzQ3ODVmYWFiNjc0N2JmOTY0YTQ2M2VlMzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZDA2ZjhhMWUwMTM4NTk2Y2EyNTc3YjBmOTYxYTAyOGZkN2UxMWRhYWRhYTk0Nzk2NzQ5YjI0NjljZjE0NmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg5ZTZhOWE4MDlmYTU3ZjVkN2I0NGI2YWI0ZDZkODg3MzA4ZjM5ODcyNmYzZjdiZTA5ZDBjMTAwOTM0ODdiYmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjMWEzZThjZmNhYjNlMDBmZWE4MTRiYjk1ZDBiOTUwZTA0ZmYxMTBlYzNkNGMwNGJjZmExMGJjMzgyZTJhOGYifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L5781-L5829",
+          "version": "repo-lines-v1:sha256:b6dee53925d5d4c2ce98f0334154e8515dbcc5704eb864ccfdd282c58b5bebfb:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxYjg3MDY0M2Q2MDFmMzcwZDRhMGI3MDY2Yzc3MzQ0NTUxMmI4ZGIyZTc1OGU1YjU0ZTc2MmZkMWJhMzFlNWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzZTQ1ZmNlODIwNTNlODQ2ZTU5MWI4MGY2YTVmN2RmMDM1NmE3OGFiNmUxMTBhNmEwZmRmYWVhMDc4YzI5YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmYzc4ZTlhN2Y0MDY5ZjIwMDY4NjA4ZTk1MDUwODY4ZjFmMjQ0ZTIxNDMzNDVjZmRhODdkNTFiMDcxOWY1ZDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg4NzFjYzJmYzZkYjM2ZTMzNGU2MDEwOTVjMjg1MDJhZjExMDgxMjQ5YmExMmJhNmVlMzA5NWQwNmYzOWY1NzkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L5983-L6031",
+          "version": "repo-lines-v1:sha256:40765c62518105b88c15d007c345467d3732390794e5b43172cdb70d2d7dc29e:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhMDQ0MjI4YmZiYjZlM2ZhNTAwODQ1MmQzYjA0NmMwZTI5MGRkN2FhZDBiNWMxYmZmNzA5YmY2ZDIxYTc1NmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2MWM4MjY3MmQ2OTUyNTk3Y2EwMGUzMmY4NmVjZjNlYzZhNGJiMDFmOGE2ZWUxOTk3ZTM3NjRkODc2Yjc2OGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMxM2RkOWFhNWM5OTA5MjVmMjAyNjA4NGYwZDJjNGM0Mjc4ODMzMmVhMzZlMDhiNDE4YWIxMDNkMTRkNmEwOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIyMzc1MGM3NTllMWNjNmZiZWI0NjdiZjEzZjc3YjhjZmEyNTE1ZGViMTBhMDI0ZTRmOWQ0OTU3MjgzYzkxZDkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L6285-L6369",
+          "version": "repo-lines-v1:sha256:bf4a2008031ff5c6ee4e49f1bdea9fee66d6b6f0b70d041125a3ba22559b6ab9:eyJzZWxlY3RlZExpbmVDb3VudCI6ODUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4YjY4MzljODZkZTc4Y2E4YzJlNzUyMjIzNThlZWNiZDU0YzhjM2NmZTVjNmNhMDYxYjM3YjBiZGNjOWY5MDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwZmM2NDJjYjdhNzI4MDkwNjUwNzUzMDdiZWY3ZDY2ODQzOWQwOTI4YjhlYTVhZWRlMzg1MjI4N2M4YWQ2YTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE4NDQzYTZlNDI1M2ZkYmRjYzZhNzA1NjA4ZTBhOTEyNDY5MjcyMWY2YmYzMWMxMTE1YWI3MTUyNWU0N2RhOTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIyZTViM2U3ZWU3Y2NlNmIxYzJkMWZiZWJiMDFiNDdlY2U2NjhmYjlhYTA1Yjg3YmRmOGRjZWVmOGJkZGM0ZGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_123b63241c704b01ba33dd167310de85",
+      "statement": "The liability, mold, and roof claim guides are internal operational guidance that organizes investigation and escalation while the applicable policy, endorsements, declarations, and law control coverage; the mold guide calls for early microbial identification and the roof guide requires cause, scope, evidence, and policy review.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L13-L41",
+          "version": "repo-lines-v1:sha256:c6cd9b033ccfc2f86ecfe39d7a41011f0c3ea626d7a8fa851880af95b075618b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmZjdmMTBlMjBkY2M3ZTU2ZTJhMDgzZjE1ODlmZGM0ZTBjNDVhYzkwYzcyNWI4NjFhZDI0N2U0YTQyYjQ0YTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L13-L33",
+          "version": "repo-lines-v1:sha256:e2dcb4dcc87c068637cc6338301ad491d0b663d77eaa08f50fc298dfbdaf5a66:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5YjFhNmVkZWI5YzA1NjczZjY1OGYwOWE0MzVmM2QzMTE0NmJiYjk0YmUwMjBiNmQ1YmJjZWFmMzZiNWE4ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUwZjVkYWZmYzJlMmY2OGMxYWJiMGNkNzNiZWU2NDc1OWFiOWMxN2EwNjg3MThjZDFhZmQxMGE2YjkzMjJmOGIifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L13-L45",
+          "version": "repo-lines-v1:sha256:6a1fc0993c36056f5855041db56c82f0955f8e0757be830c7486e8afecc78704:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3MmJlMGE0MWUxNjk2NGQwMGEyYTljMmU0NDBiYjkwZDNhNTVjMWJmOWVlN2VmM2Q1ZmIxMjY5ZmVhNDUzOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b1f2ea647cb94680861fe2c9885b3767",
+      "statement": "Binding Authority and Exceptions is a separate internal control for binding and attachment decisions: it requires complete evidence, referral before action outside delegated authority, documented exceptions, and line and senior Coverage A ceilings of $800,000 and $1,500,000 respectively; these are not policy limits.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/binding-authority.md#L13-L25",
+          "version": "repo-lines-v1:sha256:9b1b8ec26a8bc4f85e55433f422615a53734539343f6d787aa774705cacc049d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhNTQ4MjE5ZTZiMTAxZGVkNzVkYmQ5YjJhNmU3YWYyMmQzNDlkZTY3MDE5NzI1MzkzZTk4YjM3ZTQ3ZTcxZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkwMDIzZmVkMTRlZjEyOTAwZjM0MjljMjU1MDQwZDIzNmUyODkwYmJhMmFhMGNlMmNmZTYzODJiNmRjOTc2MjgifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/binding-authority.md#L37-L57",
+          "version": "repo-lines-v1:sha256:de12d5749e70b339ac528e352c813e77f8c63aa6fad84c7d920f4194974d2a4b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNTliZDZhZjYxODE5MzlkMjk3NmFjMTQyODk3ZDI5YzI3OWYxOWNiMTQxYjcwZTg3MzUxMjIzMzk5MjhhY2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiNzI5ODI2NTJlM2E3N2RjNjk5NzcwN2FiZWI4OWIyZjQ2Yjg1ZDA3OWViNjkzYjg3MTdjYTA0YTBmNDI2OWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJhYTUzNzhmYzU4OGQxYzU0ZjJlNjk1Nzk0Yjc1OTkzYzJkM2FhYzU0NjUyYzhiY2M0ZGI1ZTJhMTA4YTVkOGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/binding-authority.md#L599-L615",
+          "version": "repo-lines-v1:sha256:3e261cbe29a99db58ef23f685b4e202c985415f556c81112ce3d0dfae38e528f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMTJmNGQ5ZTI5ZWMzNWQwY2FhMzRkODA0YzdkN2Q3OWRkNzZhNDc3OWZkOWU2YWY2N2EyYjI3MTIyNjNhODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmYjliZmU2ZWE4MTg4OGMzZTk4NTAzOTA3NjBhODk3YWNhNmFjNDhjN2M5ZjRmNGM1ZDNhMGQzMjlhMTFkOTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgwMmU1YWJjMTk1ODNjM2VmNDAzYzMzYWU3NzQxY2Q0OTA4OTI3MzQyY2U2ZGY0MDdiZmRhZTY4NWUzYjJjZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODk0ZWYzN2ZhODMyZjFiMDI1ZTkzYmRkMDg2NWFiNzMyMmJmMzYzNjEyNTk0NTFlNWY4N2FjZGU1MTNmMjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4a4366ccc6be4ef3b37f89f2ad0389d4",
+      "statement": "California internal appetite guidance uses a $300,000 to $2,000,000 Coverage A appetite, $1,000,000 line authority, a roof inspection gate at 20 years, and wind-mitigation review above $1,000,000, separately from California contract and regulatory requirements.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L44-L66",
+          "version": "repo-lines-v1:sha256:6948ca349411ed4583eba44d58d17788681f9c34efa9a11a7d0338aa303ca4c3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1MmQ1NmE5MDMyNThjMTZiMTQzYmZiZGZmZDhjYTVmNmEwYTA5M2UwZTZjOTQ5MzM3ZDg2OWMxMDliNjBjNGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlY2E5ZjA1MzM5YmZkN2FkYzllZGRjODk4NzIyZjhkZDkyYjgxMjE4Njk4YWNkNTEzYzg3Zjg5NDEwMDQyZDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a9a40fb515a44e9a7935a13020a1c8d",
+      "statement": "Florida internal appetite guidance uses a $200,000 to $900,000 Coverage A appetite, $600,000 line authority, roof inspection at 15 years with no bind at 20 years, and separate OIR and contract controls.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L41-L63",
+          "version": "repo-lines-v1:sha256:6695bacc26edd6d08ab516a22ec3c33afa265933ff98195c0309212a780b395a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1OWE5YTAwZWIyNjI4ZmQwYWE1MGYyMjg5Mzg3MmM2MTM3ZGY0YTMzZWViZjNmOTkwNjViNDUyOGI4OGRhZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyODY3ZmVmYjJlNmI4ZmJhMGM1NmUxZTNlNTJjNGUyYmY2NTlmMTU3YWE2ZGUwOTllMDI2MDcxZWNjYTc5M2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5NThkYjhiZjQ0YzVlNGU4OTNjYzQ1ODk1NjUyMjU5ZTk2ZGUzZGMwMTJhMTg0MGI1NDZhMGE0MmM3OGYxNzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1OGMwZjdiYmNjODdkNTA0MzM1NzBmN2QxYWIyMDg5MWM2NmVhMzA0YjRiMjcwNjYwNTVmMGE2NGIzZTYwNGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1cb2231952db457a8a46993f17ec212e",
+      "statement": "Louisiana internal appetite guidance uses a $125,000 to $750,000 Coverage A appetite, $500,000 line authority, treats roof age of 20 years or more as outside appetite, and routes storm and water exceptions through the guide and Rule 540 rather than treating them as coverage terms.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L49-L73",
+          "version": "repo-lines-v1:sha256:ce4076f56e11bbafb1b9788c02c59cb20b0b5239067b52b6a209dcc13676ab54:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE4NmYzMDFmODVkNzMxOTI2Yjk4YTYyZDRkMjhjZGNhNzljYzE3MGIyYWFiZWVhOTY5MGNhNDljZGYwZTZiOTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIyMjUzMGY4MDllNGEwNGMwM2NkYzgyYzNlNmFiNTNhYzJkYmMxNTE1ZWM4MjI1YmNmZmUwYjhhY2FlYWRmNWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxMjE4ZmZjNmU4MTk0MzVkMTZmYWJlNDkzNmMyNDc4YjVjZjljM2UwYzllYWYyOGQ5NzRlOWZjM2YzYjNlMTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk1YzI0NWEzODEyNjY1NGFjNWZlMjJkMTg4ODI1N2U0NWM2MzMxZDZhN2EwMmEzOGU5ODJkMDNjODMyYjM4MjYifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L75-L97",
+          "version": "repo-lines-v1:sha256:e3335144ff4518135a2384dfc5aa4f5017895cd4a979df49c327db4a1e9a4b63:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhYmYzMDdiY2QxNzQ1OTg3ZTk5OGU0MDU1YmYyMjI0NjJjM2Y5ZjNkNDEyOTdhOWE3MmIwOGJlYzZmNTM3MDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YzFhN2Y0YjU1OTVjMTNhYmEwNzViYzA4MGIwOGNlZTA5MDkyNTBmMTVmNWQ0MDllYWZhMGJmMzVmNjJhZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhZDdiNWFhOGZhYzUyZmMyYjkzOWU4MzQzNGViYmZjOWIyY2MxNTdiNzlmOThiOTMzNTM3YjI2MWNiMjBjM2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTRkMmEwYWVjNjdjMWM4ZDU0YmQxM2U4ZWY5ZGY0M2EyZDk0ZGY4NGQxN2NkODY1ZGRkZWMxZmQyNThjZjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_33555fa7dbd5490bbe80f8b89cce10c3",
+      "statement": "New York internal appetite guidance uses a $200,000 to $1,500,000 Coverage A appetite, $750,000 line authority, and referral for three paid property claims in the preceding three years, separately from the New York overlay and contract.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ny-homeowners.md#L43-L53",
+          "version": "repo-lines-v1:sha256:6e12f8b42562d90175696ebc14159d2ef08b93219f0771019f3c71e6deacaafe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2OTBhZmMxMjg3MjAzMmE4NzM1MWZlN2RlOGY3M2ZiMGZkMmM5NzZkYTYyODk3MDY4Y2E3MDczMTAxZTg4YjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkOGM3MTFiODQyMGQyZDZkZWUwNzQ4NWY5NDIzNmViY2IwNDJhMGI5NDI3YTIyNmNhZjIzYzU5NTQwZmUxYjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmZDJiMjY1NGNlYjBkMDBmNjc2ZTU0YmVmNWNmMjJiZmIyZDRiZWM3MTk0MDY1ZWRmYjZkMjdmNDNiMzdhMGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQxMjk0YzEyZGJlNWRiNWY1NGE1YTI2OGUzY2IyMWY0ZjY2OTc3YTk3MWVmYzI2NDc1Nzg5N2ZmOTliYzlhNjkifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ny-homeowners.md#L83-L89",
+          "version": "repo-lines-v1:sha256:e6959e25fe4feab584f797011935f49dd37f503b2e7a5b0ee553ac1bd03b3047:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTlmMjcxYTZlNTNjYjc5YTYzZTk0ZDRlNmYwZTc4N2RkOGIyYmIyZDJkMjMyMTBmYWZkOGIyZDZjMzkyMjE0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY2ZjhhOTQwN2I1YTM3YTk0NjZiMmJiYjdhMzA2MWZmNTQ0MjdkOTRjNDVhOTNkOGJlMzNjMjM2Y2E1MTFjOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQ4NWYyYWU2YmYwZGNkNWVjMzdjYzFjN2JmZDcwNjhhZDhjY2I4YjVkMmUxZGMxYTg5NzQwMTUwNTgwOTA2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg1NmFjZTMyZDE1YzIwMGQ0MjdiYTZmOGJlYWQ2YmM5ZWVjMmNhMTk3MzcxODIzNjRkOWQ2MGMzZDIyYjY5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8396ee2e7ef04d8585ae03a2104b41bc",
+      "statement": "North Carolina internal appetite guidance uses a $150,000 to $1,000,000 Coverage A appetite, $700,000 delegated authority, a roof inspection gate at 18 years, wind mitigation above $500,000, and referral for two paid property claims in three years, separately from the state contract and bulletins.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/nc-homeowners.md#L50-L64",
+          "version": "repo-lines-v1:sha256:668c418a2d51beb23460015a2c05c17d2e128bbb0a86d295045ed88cca27ea93:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk5OGM0NjIyYzg0MmQxZTc3NjEwNzljOTFhMzIwODQ3MzBjMzRjZTYzODY5ZDE0MjA4NzZjZDNkYWNjZTM1NjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwZjI4NzI2NmJlZTJkOGVlNjg4MWI2ZmQ3NzRjZDNhMmNiMGEwMDgyMjljNTY3MDljNTBiZWRiMjQxOTUyYzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c0b5bcdfbf11420d88f3580f4502669d",
+      "statement": "The rating workflow requires a complete, source-documented submission, classification of occupancy and location, matching form selection, supported valuation and deductible review, approved-system calculation, evidence-based adjustments, state-exception review, and a hold or referral for unsupported or conflicting inputs; rating does not create coverage.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L13-L91",
+          "version": "repo-lines-v1:sha256:3a8b37ee5c42b463090bf70a4db54ad36a54ded63c69804eaed4d390f284601d:eyJzZWxlY3RlZExpbmVDb3VudCI6NzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwMjE3ZjVhY2Y3Njc1Y2U1MGM3OWFmNGU4OWY5NTE2NmNjODRjNmM0YzliMDZiN2VhOWZiMWM4ZjkxZjRmNWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlMDJkZTY3NTYxZmU3ZTUyOTdjYTFmM2U5NWU3YjkwYzVlNjI1NjE3ZDAxNmJiMmMzN2VhYWZiYTM5ZjA0YmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmNDFmMWIxNmYyNWU5MDFlODA4YWI1MDM1MGU3OWE5ZjQ2NjU0OWY0MTJhZWJiZmM0NGU1ZGMxMGVmOTVkODcifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L219-L235",
+          "version": "repo-lines-v1:sha256:618785b9f6281b92f75f7d8c9b2130e2d9b0d457175630fffc85583ed0d8a20f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhOGZlYWEwMjkwNWUwYTg2YmNiYTQwYmNjOTg0MTJlYTUxZjMyYzYwYjJiODZhZGQwNWRkMDY0NjVmN2ExZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzNDFjOGU1Mzk4NmExOGQ3YTMzZDJjMTE3ZmI2Y2IxZDRkMGM5NjAxYjBlYjVlODllMjY4ZDY2MDgyZmQ0NmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU1NDY1MWIzZGU4NDhjYmQ5NmUzNWY5Y2RjMTcxNWQyOTgyZDYzM2ViNzFmOGYzMmU2ZTQ4NGJlYWJhMzE5MmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFmOGU0ZmUwOTMyODM0MDhjNTg4YzM5Y2FiMDgyMjFjYzMwNDE2MGFjYTgzNGJkNzI0YmJhNmI1Y2FhNTZiMGYifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L8155-L8191",
+          "version": "repo-lines-v1:sha256:87477901c8522a61e343af78ac3ab5cbd735977ac36dadf7d97a05013613673a:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhOTllN2I2Yzc5MjNkMWE4MjRhZTA0MWE5OTliZDkwOWI4NmMzNjNkM2Q2NTIwYmYwOGFkYmIzZDMxOTdjYWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkMzk4MDU4NWM1YTQ0YmFhMmUwYjM5NGMxNGY5YWNmNGYzMjYwNjk5M2VjYjM5YmY2MGNiOWRjMzY5N2YwOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwZjI2ZTIzZDBhZTBhNmJmZGM4YWI0NmZhMTQ5YzBhYTI2ODVkZTJkMjQ1M2ZkMDQzNzAxN2YwNjRhNmNkMWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM1MmUyNDQ4NDVhNmI1ZGE1N2U0NGY1OWRhMjc5NjE5MjRlZTk4YjQwNTVmNGJhZDc5ZTgzNDg5OTU1ZjYzMjIifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

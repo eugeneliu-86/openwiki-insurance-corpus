@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:684385935907a130ba40eed9faea5b3162452a6b7b23d7c54f9883433aab93ca",
+  "claims": [
+    {
+      "id": "claim_003ed9e28eb24473a12ea83aacab41ae",
+      "statement": "The rating workflow requires a complete submission before final rating, records the source of each material input, holds incomplete submissions, and performs a final reasonableness review; material changes or unresolved conflicts must be documented and can require re-rating or referral.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L15-L19",
+          "version": "repo-lines-v1:sha256:94dabd75c97220f332f7072dc18d8bea754d0214d3435d77fa6fdfa4a66efa3f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzBkMTcxNTE5OTRmMDc4ZWNjNzFjZmZhYmY1MTBjODUzODRhYWUyZGI1Njg3NjgyZWE5ZWI2NGQwMDdmYWRhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWM4OWM4ZGY0MWMyZmFiNjNjZTdkYTMwOGE5ODQ2YWUyYzRhMmU5ZDBjZGRlM2Y4OTVlMDIyY2M3MDA0ZDUyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRjYjY1YTZhMWYwM2I0ZjE2NmQ5NDE5ODYwN2NhZTVlMjE0ZDE3MDY5ZGZlOGQwZWMzZWE5NWI2MjAzN2FmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWY3MTY1YzAzYWY1ZWNhYWE1YzAyODFmMzIyYmE2ZGFhODMwNTY4Y2U5MDExZjMzNTAxNTE0ZjM4ZjU0YjIxNSJ9"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L243-L271",
+          "version": "repo-lines-v1:sha256:016407cee3b0c76ee1d8dc154442aa18ec5742cdbd646165b1cfe39dc176289e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1NmIxMTU0ZDNmNWM1MTc0Zjk5ODY3OWVmODVkZGM3N2M0ZjZjOTJkZjRmOTYyOTZmMzdmYTJiNjg1MmY2YzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5NmZmMjY5NjczZmQxZTc5YmEyMjBkZGY5NjU2NmE0Y2Q1NzMyMGZmOGFmNTU0MTFjMmViMTYyYzdkODZiZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhNTU2ODE1MTFjZDgyODRkMzljMTIzMTQ1MzBiNjFhNzNjOWM4YmEzNzhjNjcxYTA5YzJjNWJjMjM0MzM3MDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4Mzk0YmIwZTdlMDBjZjY0MjM2ODAwMzNlZDAxODUyYTVhYmE5NGE3OGE2MGRmZjMzMWVjMzNjMWUwY2ZhMWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a177b1bbe1614c6a86eb9bb5708d2328",
+      "statement": "Material rating inputs include occupancy, location and territory, construction, dwelling age, roof information, use, form selection, replacement-cost valuation, dwelling limit, deductibles, catastrophe exposure, prior losses, open claims, and protective devices; the rating file must preserve the supporting facts and decisions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L165-L223",
+          "version": "repo-lines-v1:sha256:69db61588e8de595dab27c57fffd6c1a7791467abddfa5b2f1f2511857a2e1bd:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMDNkMTU2NGFjYTlmZWUyNDA1Y2JkNWUxZDMzYjQzODQxYmNkODUzNDlmODYyNzk1ZmYzZTY0OWZiMDM0MjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2MDIyMzcyYmFmYTliMzViMWQ2OWYyZmFlMzg5ZjgzMmNlNzNmOWUxOTk5NTAyMGY0ZjIzNmRjNjQ0NzkwZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxNTNiZGEwOTkyMjg0MWMwNDY1YjMzMzdjMTgyNTZiZWQ3M2I5YTYyNDUwZWRmOTY4YzYyNTY2OTQwMzAwODQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmM2NkMGQzM2EyNzYzOWQyYzBhYmRjNjNjMTBmMDVhYTI5MWZmMWM4YzU3YmNmZTIzMzIxYjU2NzdmOTljNjIifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L21-L79",
+          "version": "repo-lines-v1:sha256:8ffe07b85e9125b875344ee5e3bafe2b4bb7219b29a02f4dd762abf696411085:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2NDI0ZjY0YjFkMTVlMDA1NmUxMTgzZWFkNmJlNDk5ZWZjNDk3ZDAwMzc3OGZiZWY2OThlODM5YWNlNjZkMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjNmViOTAzZGJjMTQ2N2YzZDYzMzkxZGYxZTg4N2ViOTMzMjU2MTY2NDU5YmE3MjQ1OTY4OGFhNDI1MGQwNjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ0NzM2OWE4YzIwMzE5ZjMyNWY1NjA4NTBiYWZjZGE2NTQxNjFmZWRmNWIyZWU3OTQ0ZTY1YzZkZWZkZDNlZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4OGNlNDBlYWFmY2IwN2VjNTJkNTYwMzc2ZWU1ZWZmNTk2MWRlYWYzYTI1MTMxMGYyY2Q2ZTY1NjQ2YTEwYjkifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L81-L157",
+          "version": "repo-lines-v1:sha256:9261d8adad47348830a6f50ca7649a72dc03615ec4f0be161fa09fbdf8efafbc:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhmYmE5NmNhNjI2YzE0MGRiZmIwZmQ1Njc4OWYxMDYxZGUxYzNmOWEyYjU5ZjM1OWY0MGYzOTNmN2Q3MzVhOTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiMGE1YTYwM2UwN2Q4NWJkOTA2MDA4ZTA3ODA4ODI4ZWRhOGQzNGUxYWE3MGEyYmZhODFlMTIzZTUzM2ZhODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzNmQ1MDdmYjliODA1YmM4MjQ3NTYzZmI2YmE2OTAwMWNkYWU0NzA2ZjZkMDIyOWI2Yzk3NTcxZDg2ZjE1N2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExOWQ1M2FiOTZjYTFkMGM4NGVmMzNhYzY5YTEzNTJkNDhjYTY2YTc5NmU4YWFjZDA4MTZmZmQ4ODg0NjZjZmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7bf19b55402945fcaee0f2cf2082743b",
+      "statement": "The Personal Lines Underwriting Manual is internal acceptance and referral direction within delegated authority; it requires current reliable information and recorded decisions, and it must not be used to alter or interpret contractual coverage.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L141-L169",
+          "version": "repo-lines-v1:sha256:533da09baca91c714b3f9dc8d3f29884965c4d9e953d0bc85f1c2fc506e6a65b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyZDc1N2ZlZTFmYmY1OTM2ZTMyOWMzMWEyMGRkOWYwMzlhZjNkOTdhYjkwZmI3OThlNDc2ZWJmN2FlNTQxZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhNjUxZjBkNmJhODcxYWY0MWRiZjA3NTlmZjI3NmMxM2ZmNWJiNWM0MDIxZTFlM2I2YzMxNzhmNTdlZjU4YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBjMzc3NjExZWRjN2QyODlmOGZkZjY1ZGQ4OTA3ODAzZjZkNjNiMGM3ZDdiNzk4YzgyYTQ0ZjhkYTAwMDE0NGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyYjlhZjcwOGMxZjRmMWZmZDQ4NTFlMjdjNWY4ZWU0Y2VhNjZiNDJlY2UyMTg3NDZmMWZlNThkOTYwNjNjNWIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L15-L43",
+          "version": "repo-lines-v1:sha256:43acc425e362f2c23b94a1e3668e708e687218794937078b0bbd7f4706b475ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmNDEwNDg4ZjAxNzE3OWE2MDFhZjM2N2MzMTAwMzdjZTBlYjk0ZTkyMzBjMmE0MmZhNmYzZGVlZGY0MDc0MTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVlZTJiZjU5MDUxNzYyNjY0NTcxNTkwNTMyYzRhMWEwNmFhNTg1NGJkZmIwZTIwNTUwZTRkZjI3NDMyZjU4MmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L57-L73",
+          "version": "repo-lines-v1:sha256:9f9f8e245ff74778ea9cc00304cf72e2d5fcef54a4016c9770f0d5ec77ea2be9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzMGRhNTVkOGMwY2Q1ZTg4YTY5MmVkMGUzMTNiOTE1NzQzOTJjMGViZDRkNTI5YzQ2MjUxMGIwZGU4MGFjNmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1ZmU0ZjMyYTg4MTc1ZDkzMjJiNjJlMTM0YjViNDgwYjY0ODQwMDA2MmNlNDkwZDI1ODkzZmVlNzNhZjdiZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM5NTFlZDBhNWNkYmQxMWM3NjhiNTc0YTQxZmRmZDk0NTU5YjY3NmEwNGZiOTllYzExOGIyYWRiZmJhZjhjMjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMwODQ0YmYwMTg2ZDdmNDQ0OTY2MjI0ZWJjNjk0ZThmYWVlNjZhYmNlNTVlNzM2YzU2ZmU5YjNkNjMyY2NjN2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8600000a64d344b1a545a67ba2628436",
+      "statement": "Form selection must match property type, occupancy, and requested coverage rather than a preferred premium, and the rating record must identify the selected form; the representative source forms distinguish HO-3, HO-5, HO-6, and DP-3 product lines and editions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L2-L8",
+          "version": "repo-lines-v1:sha256:b6d2940e6c499229357ceea3dc922340d2843f7c2c40407d9da9d009d8bf3e71:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGI5OTZkN2UwNzk0YzA4ZTljNjQ4YWM2OTcyMDU1YzkyMjM2M2ZjMDAyMDAyYWJmMjI2MWViODQ5ZDNjMmM1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L2-L8",
+          "version": "repo-lines-v1:sha256:c22ea1f7484fa7160107fd14e984e46a4ac8a04ed23e524156295b886be31c21:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODJjZDU2ZWE0Y2MxOGRiN2I2NmY0NjA5ODM4MGMwNDIyZDMzMzljNjRlN2NmOTQ0YzQzNWZmM2ZiNDAxOTUzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L2-L8",
+          "version": "repo-lines-v1:sha256:9e1ad2e3aa6aede0d32c5180ef762189651ee43b3c53adabb7c16d8644195b8c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM0NDQ5NGExYzJkNTc2YWZlYjNkNTIzNzcxNjU2MGZkYzliNjA1MmNhODQ5YjNmYzQ5ZjBiMGJmZmM5OWI1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L2-L8",
+          "version": "repo-lines-v1:sha256:65065a992fc089808e9c238e94f1e4378b10e0ed4bd2551851d31551cbf7aef4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M3NGYzOWJkM2U0M2FkZWIxMmQ5NDU2ZDJkNTNhOWUzMDUzZTE0YTJjYmJlZWIwOTgyN2ZlNTBhOTM1ZTI1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L63-L67",
+          "version": "repo-lines-v1:sha256:2cffc659d6667e89eea8686bb97eb90c772c7e9ac5af714b36c268b60bf7bdae:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjlkYjc2NWZlNTBjMzNmMjk4NzUwNWI0OGNhMWZkZTU0NTFiODE0MDY5OWEzMWUzNjFiYTgwYmY2NmE0Y2M2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZkYWM1YzM4NTVhYzEyZmJiYTllNjlkMzg4ODJmYTBiNmYwNjY5NGRiZjc4NTNlNDdmOTVjNGU4NjZmZWI0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2NkY2Y3NjZmYTNiM2VlMTU3N2NlMDllMzQ4YTcyZmJhNjNlMmUxYTVkNWM1M2Q3NWE5MTBhZjY5YjBiMzA5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDFkMTdmMTRjZDE4MjhkNzRhMjFhYjc0MjNhMzdmZjFhMGMyNmVjMjQ2MjcxMzIyMjVjNGMyNTQ4OGVhNjE0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_262f3c25c9cc495db1cdce85ee9bf2b0",
+      "statement": "Replacement-cost valuation must use approved methodology, be compared with the dwelling limit, and support the selected coinsurance and extended-replacement-cost treatment; material variances or uncertain valuation require documentation and referral.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L69-L103",
+          "version": "repo-lines-v1:sha256:9c3cdbaa7dbedf7deb35e356ea27864a52df6a95857bd42fcf48e019183137ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0YzdlMWI2MmRkMTIwNGViZWQ1MmMxNjRmYmU5MjJhYzU2Y2I5ZmI0ZGQzOTMwY2I1YzQwOWZiN2Q3ZmYxMTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4YjA0OTllYmNmYjc5NTgyYjNmNDY0MzhhNDIyM2YwNzllZjMzZDNmZjcyNjM4M2UxMzBhMDkzNDYwYWY3NWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMDA2NjViYzhhN2Y0MjliNDg4ZGFhM2QxNzNmOWQ3MTRiOGY0OWI4ZThlZjI5OWE3NjRhMmRhZDQ4YWQ3MTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0NDY2MTMzNjE2MmFmZTcxYmQ1N2NlNTQwODRjMTcyMzhjY2MzYmJhOWI0OWY5YTMyNmVjM2ZhYTI4MzIwMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_937c46598ca1431eb60058f6e1730750",
+      "statement": "The rating manual sets an internal AOP deductible floor of $500, requires an available system option matched to the coverage package and location, prohibits unauthorized custom deductibles, and requires premium recalculation when the deductible changes.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L4191-L4249",
+          "version": "repo-lines-v1:sha256:952f6613f3e496c5d192bfe49c0d336a351baad8c5500fe33cf4b351640169e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNTkzNmIxMGY2MmE5MjM2ZTcxNTRkZDFkM2RjZTdkNmQ0MzQyZjMwZjA1MDMwNmQ1M2FkNmFlZDE1MjFlNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5OGE4MmI5MDQyZjJjMWNjOWRmYjQxYjMzMmJmNzNhMGEwMGFkNDUwN2M1YWNmNWE2YjYwOTM0NDE0MWJjZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVmZmJiODBjZDNhNGZkZWE3OTE4NjE5YWMzMTI5OTRjZThhMDRiZjMxNjViZjIwNjhjMDczMmY3MDYzMGYyZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5YmU2MTRhOWI5NTJkY2U2OWUwMmE2NzUxMzRjMDk3ZjhjMzQ5MjYzYzliYjExMjk5OGIyZTUyYTdjMWEzOTAifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L4263-L4303",
+          "version": "repo-lines-v1:sha256:133c4b09e9a7b01e6918a72129d7970b9ca2b31ddc9a1cabcf838f11069d2179:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5YWViNDlmNzZlYWYxZjg5MDg2MjQ0ODFkZDYyMWI1MzkxZDhkOTE1OWUwMmU0ZjYxN2QxN2E2ZjU1ZDYyYWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0NTI5YjA5NzdmYzRiNDgxMDc4NzRhZTFmODdmYWU3N2MyNmZkMDM2YmU3NmNmNDkyZGY5NzJkMjJlNzhiM2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3YmQ2NzhjMTc5MmYzN2M0NTFjYWI0YmQzMWVkYWFiY2EzNDI0OWIzNmU5ZjhmZDllMmQ3Mjg0Y2RhOGNhOGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQwYmFlMTdhNGZjZDJjZDRlMWVmMGQ4YjA1NzRkZDVmZTg2M2QwM2M0MDgwNTU1MWQ0YmYwNWRmN2U2NzQ1MDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f3a1dcc6a59c4a029a633bdb3f609017",
+      "statement": "Peril-specific, named-storm, and wind deductible treatment must remain distinct from the AOP deductible and must be supported by approved system and underwriting parameters; unsupported or over-limit requests are referrals.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L4305-L4365",
+          "version": "repo-lines-v1:sha256:3f109c3b3ea5e41f5619e992bc73115d00568449490b744750a87eff4c30872e:eyJzZWxlY3RlZExpbmVDb3VudCI6NjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5ZjM5MzkyMDczZWM3OTdmN2Y5ODM5NTczMmFmNmMyYjIwZTU2YThmNzBkZGM5NmM0NjM5M2M5Y2Y5ZDAwNDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjYzI2NmM4MTQzYmZlZTc3NTkxZTRmYjViYjA5Mzc1OTgyMjU3MzA1NzFjMjQ4ODdjMjk3ZDYwZTM2ODE4NGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc3M2E3MWY3MzEwMGNlMDJhNTIyYjA2Mjk0ZjkyYjdhZmNmMGM4ZTIzMTliMDViNjAzYWI0MTA3MzNiNTNhOTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYmRhMmU3ZmM5ODc1MjYyZDc2OTQ0ZmEyMGNhZWUwYTRiMGU4ZThjMzliMzVmOTcxYmM4ZWI4NjdkMzA4N2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e1b767c0f97435daf40b64a7b99c530",
+      "statement": "The representative current form texts do not share one universal contractual deductible minimum: HO-3 and HO-5 state $1,000, HO-6 states $500, and DP-3 states $1,500, so the rated deductible must be reconciled to the applicable form, Declarations, endorsements, and state wording.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L899-L907",
+          "version": "repo-lines-v1:sha256:50bb334a563a9ef5747ffc6b079d44126cc82e82b42b7f8c63f592d6bb5ad4d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNiYWI2N2RlZTBlZjczODNmMzIxZWE1ZmY5NGE4MGZmOTc3NDk5NWRhYTk4YmQ4NTNkMGM5ZjEwY2U4NmE2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTIzMzIzNThiZTg1YmFkYTdiMzU3OTZjY2UyYTU0OGQxMWUzNWQ5YjMyYWVkYWVmMDQzYzFmOWZkNzcyZThkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGY1YjM2OGUzMjE5OWRjOTUyYjM4NGM2ZmYyYTkyNTU5Mzk4NzM1NGMwOWQ2OGRhNzVhN2E3NDhjMDY4YmFlMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTBiZjA5MzM5MDFhZTlkNDY2ODg0OWQ1OWQwNzFjMTcxZGU5ZDE2ZDI2ZGZiY2RiYzY4MzdmNmIzOTEyNDFlMSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L859-L867",
+          "version": "repo-lines-v1:sha256:3a1d7cc62d9be892b0e3c672903b42d4ac7800ec8f745ae3e31a2392e5cfccae:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDgzZTQ4MjI2ZThmYjFhZmRhYzM4YzlkOTQwZWRlYzczOGQ1Y2Y1NjQ0NmJlODExOGUyNDM2NzJmNDBjYjI3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZiM2JkYmZkMTI0ZWY5NDFhZTM0ZTcxMzNkODkwNTJiODczZGNiOGUzNTEyZTQ5Yzg2ZjFiMjk3OTA0Yzc3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWUzZDJhNzRmZTRkMDY1MGY5YmQxY2VmZGFiNWNiODlhMTBkZGQ3NTMzZTU1N2RlYWU2YzFiNmNhNWM0ZmY3MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjk4MzY4OTFmZTM1NTg0YmJhZWI4MzIwMzZjYzY2OTdhOTBkMzMxOGYxOGFlNzgxZTBkYjU0ODI1MjZiYjU4ZCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L937-L947",
+          "version": "repo-lines-v1:sha256:b34ba9fd94887bfeb6589a8b8fbcc605669968fc74a14e876c7519a03c15f5b1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMjk0NzZkMzZjNjRlODIxMmE1MGI2YmJjZGRiNDIwYTA1NDM0NmIwMDM2MDJiMDJkZjVjNWU5OTQ0YzQzZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxNjUwNzQyODEzYmIzMzAxZDg4ODk2MzUxZGQzMjRjYjZmZWZjOGI4YWZkMzc2ODJmYjVhNTgzMzc1ZTIyMDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3MjA3OGYxNWQyOTkzMmI5ZjY5YmE0YTVjNTQ2MDc5OTYwNmVjMmFkNGVjNGI0ZGIyNzgzOWNlZGU1NTcyYWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzZTEwNDc2NGVhNjJiOTYyNmNhYmY1OTA4ZjFjM2U4Njk0MjZkYmNiMmZlMDRmNmY4MmY5YWJhZGZjMjAyNmEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L900-L910",
+          "version": "repo-lines-v1:sha256:ef4511447360bbd64af5d62200e638cfc9f9b2ead61f5e9dc0f4973c5e296194:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzZjM0Nzc1ZTM2YWNjMGQyZjIyMWZlZDIxNGUyYTJkMTZhMGRmYzQ4ZjMyNGU2MTkxYWY2M2E2MWM5MDg2ZmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxMmUyODAwNTBkMGQ2NzQ5YzI0NDhlODg5Zjg0YmVhY2U0YWM5ZDMxNmZlZDM4ZTU0YTIyNzFmNGE2Yzg1MTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyYzQ0ZWVhNGViMTBmMDYxYmRhOGQyZDhmOTdkOGJmM2UyZjcxNTY5M2U3Zjk5NDYyODkyZTRhNjJlZDc4MGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNDZiZTExMWM2NTA4MWE5ZjQ3OTA5NDU4N2Y3NGYwYTg2OWJlZjNiNDY1MGMwYzI0YWZlZDYxYWMxNDg1OGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b562930f64cf4a56a22e5b2c49ab5776",
+      "statement": "The generic protective-device rating rule grants a 15% central-station discount only after risk-specific evidence verifies the device serves the insured location and rated structure, is installed and operational, remains active, and is not removed, bypassed, disconnected, or impaired.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L4649-L4681",
+          "version": "repo-lines-v1:sha256:b5aa5475f1d6b82cd141380c99cfeeee4bc9a335b7b46c9caa0b8c1d7dc19b31:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NWIwMzYwYzJjM2Q3ZjAyNzU1ZTgwZTY3ZTE3YTViNTIwZmE2YzU3MTg2MTA0MTViZDQyNjgwZTAxN2U5YWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY1ZGFiMzY3ODA1ODgzZTliNWY2Yzc2YTE0YmJkZjJiY2E4MDM2NjY5MGEzZGNhYTc0MjY3NjMxMzA0MmM4ZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzYWIwOGVkMWE0YjU4MmExNDA1ZWE4MjYwZDNjYTM4MTI4NjczNjlhZGI5MjU2NmZkZDAyMjFlOWI1NWI1OWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjYTNmYzVlZDdmNTkzZDZkM2Q4MDkyMWJmZjE5ODU4YThlNWY0ZjNlZjIxZTU4MjY3MGRmOTkzYmIzYjFhNzAifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L4703-L4717",
+          "version": "repo-lines-v1:sha256:ef82e2b7f5c47476b70dd13364f90698fdc20bbe6944cca1fb6a35ba8b9de4d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNjQzOTc3ZDU3NWFhNjk3ZjBiOTAxYWUxYmQxMzc5OGU4Njc4YzBjMDRlNzhmNmRjNGI2Njk0ZTQzYjUwZDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMDBhMjE2YjU0ODllMWJiMTk5YWNkODQyOThkYzdmZWJmYTI5NDAwYzM5YTkxNzAyN2VhMTM0YjFmYjQwYmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2ODQ0ZjA3ZmRiYzUxODc2YmE5YmNjMjg4YTVlMmE2MzE1Njc0NTQyMDNiYmFlNzk5M2IwYzhmYzJkNmM4MzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJhOGMzNzI0ODVkMWMxOTQ2YTEwNGY4MjE2NGE4NWVhMTEwZmE3Y2Y4MzE4ZDI4OWY2ZjU0YWE1ZjIzN2JlOGYifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L4787-L4797",
+          "version": "repo-lines-v1:sha256:41cfa0af8580d7d7617c3c13f2977410a6a64df75316eb142dcac70b56e94f57:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRhNjQ5NjYyN2U1YWYzNDQ5YTA5NGZkNTU5Zjg4ZjlkZmIxNTRjY2YyODMwN2FmMWJiMjgyNjdlMDZjNzBlZjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2ZTUyZGEwNGM3Y2Q0Y2UzNjM4NTcwN2UyNDQzZTU2Y2EyODNkOTRkNTMxNzE0ZDU4OWE1MDczOTI4ZWRiYjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE0Y2JjMjMxYWZmNmE2MTUzZDZlODYyODFjYTJkZmNlYjE2NWViZWQwNTQwMDgxNDExNjc0MzJlMGI4YjM5ZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVmZjI2OTI3MzljZDcwM2FhZjhlZDRkOGVlZTkyY2MxYzNlNGY5MGE3NzFiZjgyYzczY2RjZDk3ODE3ZmRhMDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_98170b7ee25f472d90b6785560914c2e",
+      "statement": "Protective-device evidence must identify the monitoring arrangement, provider, address, communication path, and hazard-specific function; generic product material, brand names, or one protective function cannot establish another, and overlapping credits cannot be stacked unless rating logic permits it.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L4683-L4701",
+          "version": "repo-lines-v1:sha256:262d88d75dcf3205df5a29bcfe2efc91ccb2f59c59bae9fd671b320b7dabc9d8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkNmEzYTQ1MWYzZGMwY2RlOGQ4MjhkMWM1YTk0YmUzZDVlZDRjOWViOGVhNjdkYzhiZjhlODJjMWMzNTdmMWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3NzIyOWE5MzZlNzYzMzgzYjU4MDFkODZkN2EwODc5ODUzNzgwZWI0YjAwMmJhZjllODY2OGU2MDIxNGI5M2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyMTNjNmQzODc0YjcyZjFhZjFmMzliYWY0ODNjODA0ZjFjOGM1OTY4NjEzZDBlMTg0NmRlMDRiNzQ0NGE0MmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJkOTBlYTlmYmUxNzRjYWE0ZTllMGY4Nzg2YWJmY2IxYzQxNjZjMDAyZDlhNzg3YTljMmY4Njk0MDQ5YTYzN2YifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L4723-L4761",
+          "version": "repo-lines-v1:sha256:4d817178bf48f14d4038d5a78091a0f860508a05602ed268d58792c9455b0efd:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllZGZhYzBjZWZlOTcwMzM4NzFhODk4YTEzOGE2ZGE1ODQ0YmU1OGJiMDI5MTNmYzNjZDc1ODNiYmNlYzBhMGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiYjhjYmViYjA4N2JlNmU3Njk1MjAyZDQxMTZmYTVkMzg2NjljMmI3YTc1M2Q1Yzk2MjhiMzJhMmIzNWFiN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NDc1MjVmNTgwNDBjMjg3ZmRkNzdiZmMwNjRhNmFkNTE2Nzk4ODIwZTA4MjQ2Y2UyNzQwNzQ1ZjUxMWJlYTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhOTY0YjNhY2M1MzUxYjI5NmY0MmMwMDNlZGFkMGFhN2I2ZmU0YzY4YWU5MWNmYzU5ZWU4NWMyMjM4NjEzNGUifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L4799-L4805",
+          "version": "repo-lines-v1:sha256:09552398cf54dea2285311dc267841a1e6f93de290331918c0ca6e4dbdc41dc4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODhlNjcyYWZhNjEwZGMxZDA4NGJjMzk1MzlmZjllNDJiYjc3YTczY2ZjOTdkMmE4ZWFhMWQwY2U3ZDFjZThmMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk5MTQxMTlkZmM4NGY1OWVjYmQ5MzQzOTAwZjkwMjAyYjhmZTYwYzg5ZGE0OWYwNDA0NTE3MGUzYTM2NDI3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGRhOGZlODgwYTZlMWRiNWRkMmNkZTkwNTkzYWY1MjQ3ODk1ZGJhYmZkN2YwMzY3ZjdjNWFjZjkxMGM2ODcyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE4YzIzYWUwN2RmYzdmYzQyNTExZjAxMzkzZDU0ZmQ0YzVhODAxOTZjNDgxNzVkMjY5NDc3NDViMjJlMDI5NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_77d4d138f7df4aa8b0c56bc4180bbc16",
+      "statement": "The generic roof rule permits a 20% new-roof credit only for completed, location-specific replacement supported by evidence; proposals, localized patching, cosmetic work, incomplete work, or work on an outbuilding do not establish eligibility.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L4997-L5049",
+          "version": "repo-lines-v1:sha256:bbf27dc3d524f913d7f5118a9e74486321d3d2bb96ee6bc9fa66f5e2285ed022:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxMmEzNjk5NWM4MThhZDBhOWNjN2JkZjY3NTUzZDMxNGIyY2E4YTJiN2NlZjAwYjkyOGQ3MGZkYWE5ZTYyMDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YTI3NGU1ZTJlY2IzZmQyYTA3Yjc4MGYyY2UxOTEzZGU2ODM5YzA1NDg2NjNhOWQ0MmYwZjVkOWE2YWZiNDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZmMDdiZjJiZmNiYzUyMGJhYjAwZjc2NDNkNTRhZmQ4NjBmZDQwYjMxOWVjNzU1ZTAwOWRhZjc3NDVkZGIxN2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlYmZjOGVmNjI4ZjQwZWU4ZDFkNGY4NDc0YmIxNGYzMzRmOWNjY2JhMzRlNjVlZjUwYmEzMWIwNmMxYjBjZjYifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5069-L5073",
+          "version": "repo-lines-v1:sha256:fd6b26bd2ae86d0fc3c268397e7561828c6c253dd075291ae25f68caaadf08a8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBlYzk2MDYwMWJjMTliODllMjg3ZjY2YTkyYjMyZmZhY2M4MTEzMDY4OWY5ZTc1ZGM5ZGE1YTU3ODgwY2FiMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODcxNDY2YTcxNmQ2YzJjNDUzNmMzNDY5ZGMwOGRmNjU2ZjNkZjUwZDk5OGQ4ZWQxODY0NTIyZmViNGMxNzIwMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWVjMTAzM2M0M2U5MmM4YWQ3N2VlOGEwY2Y4OTAyZmNjOTFiNmIwNTI1NzEzZTIwMDg3ZjkxMjJiMDU5MGI5ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTE0MmZkYjk2ZTI4ZGM3Y2VkMzlmM2QxNzI1NDE4YjI0YWNkZjUyZmJjM2ZjNzAwZTg0MGJhMzhhYjIxMzFkNyJ9"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5117-L5157",
+          "version": "repo-lines-v1:sha256:525da01ec30734fc84bac97d5665f171bd9a8fca6a4a1674a17e857324367c1c:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExMzg4NDJkNDg3NWJmYWRhZTBhZTdlMTUxY2ZjZTYyYzcyZTIyOTAzNzMwMTY3MzhkYjRiMTAyNjY2MzQ4YTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxNTY4ZjUwOGFjNDNiZTRmZWMxNWIxNmVkNzZmMzBmNzdmMzUyMmE3ZDFlMmEzYTBjNmY2ZTViZTI4NGM3NmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlMmM1OTdiMjYwZTliOTEyM2MyMjU0YjgzZWNlMjBjZDkwNTk4ZmVkN2RiNTQ0OWRlMTIzNGU4ZGI4NDEwNzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2NThmNjY2NjdjODU4MTE3YWIzNDM2ZDg4ZmZiNTgyODA1OWI2MDgwNzIwMGNiMDNmNGUwMzRkNGM2ZjIyZDYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c12267947c04ecb862aed619bec662b",
+      "statement": "Roof condition is evaluated as a system, with material deterioration, leakage, damaged covering, structural irregularity, unrepaired storm damage, impaired drainage, or failed components potentially requiring surcharge or referral; a surcharge is removed only after evidence supports correction of its cause.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L5027-L5037",
+          "version": "repo-lines-v1:sha256:25c66d55f87766288c561f8b889f464a3bf94bfa7747d4c452c03f486b18a521:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NWM2OWNjNGQzNWU5ZDZiYTg3Yzk2NDRlMzVkMzdkZDMwNzhiOTQ1M2Y3MTM2MTc4MzNkYWJkNGFmM2ViNjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3OGI1YjQ0NTczODY1N2I5M2YzZmYxNTA2N2UxZDI0NWIxMTMxYzBkNmI3YjQ2YTViNGEzMGExMDQzNjQxMjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmZDBmMTA1Yzk5NjRiOTY1YjEyYWY0ZDNhMjMyMGI5ZjU5N2NjNmY0NjU2OGQwOTM4ZTRhMzRlMjU4MWNiZjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjZjE1MTlmMTQzYzdmMjQ4ZDE5MDYyYjZlZTYzODFmODM1NDUzMjJmNmUwOGNmMTBlMDFkYWE2MTRlZWQ3YjcifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5057-L5109",
+          "version": "repo-lines-v1:sha256:610e300c29198e5bc9b9f6e058cb91bceef58e7741aea0fedab32e82ae682d82:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5ZTJlMTk4ZWNmODFkYTgyZjUwMjUyNjZlYjI4M2MwZjBkODJiYzYyMmYyYzgzYWM2Yzk1YjM3MGU5ODMwNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhOTA2Y2Y1MDg3Y2NjM2EyZmQ5NGM1MWUzYWJkMWYwZjM2ODdkNDcxNzBkZjQ4NGUyZWYxMjQ2MTAxMjE1MWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRlYjhiZTM1OTE2YmU0OGM4YmExNzM4NmExYThiOTk5MTU1OGQ1YWRjNDVjMDA2MTJhODU1MDUyMDJiNjNkZjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFlNzZkOTcxZTgxZGJkMmI2YWQ3MDU1NjZjMDc3OTZmNzhhNmRhNmFmMzliYWIzMzc1YzU3Nzg0Y2RhOWViNjAifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5135-L5163",
+          "version": "repo-lines-v1:sha256:edd3f43151b6ae00cafc357736d290ee54ca2bb2dfa7af3ead5f85fad3eb3517:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1OWRiNmMyNTdiNjIzNWY0NTgzNmQwOWUzM2M1ZDQzM2Y0OGIxYmZjZjNhZjk3N2I4YWVjNWYzZGM3OGJhMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlNDY1NzdmYjllNTU2ZjdlOTgxN2I4NTBiY2JlZmQzMTc0MjQ4MTk1YjYyNjQ2ZDU0YmU3ZTQ4YWViYzI4M2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUxYTQ5N2I3OTRhNzNmMjBkZmE3NDJhZDNjZGU1YzE1ZGExZDdmYWRkMTQ4ZDA0MDU4NDVlODZkMWU2NTQyOWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA3NDVhMTI4OGQ5ODgzMThjOTMzNmFhMDAzYTdjOTVjZmNhNzgzNGJlY2FkYzQyZDJmMDBlNWVlNTAxMGUyMTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_efc7fd97cffe424ba22b4071eb1c3b1b",
+      "statement": "The generic windstorm rule permits a 35% opening-protection credit only for complete, current, location-specific protection covering the relevant rated openings and structure; installed, serviceable, accessible, compatible protection must be verified rather than inferred from ordinary glazing, decorative shutters, stored materials, or vague renovation statements.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L5389-L5429",
+          "version": "repo-lines-v1:sha256:33225d8f776dc983bf6330e8cc1b4fc1d02e660a0fccbac7e38169429207cd00:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzYjQ4NjliZGI4M2JmMWRmMjU0NWI2MTQ4NjVlOTFmZDViNzlmNzZkMmVlNjM4NWQzYmEzMjM1YTJjNjRkMjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkOTkyZjIzNTFhMzNiZGFiYzBmMDMyM2E0ODVjZTU0OWMzZDAxYjk3NDI2NmEzNmY1MWI5MDc0MDVlZTRkODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjliODlhZmM0Mjg3ZWEyODk2MTFjMTY0MmFkYWNlZmEwOTMzODU5YWJlNTU5MzY0ODA0MWE0NDgzOGIwMTAxNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5NTVhOGUxNzc2ZmM1NWMxNzhmODhjNDljYTkwMTA5NTI0MTkxOWI5OWYwZTg5YTRhOWJmMjY2ZjJmN2MzNmQifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5431-L5459",
+          "version": "repo-lines-v1:sha256:df592767abd2743263df2ce183785550777f6afea4bf01738b97820c67661c94:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjMGFmMGViYzc3Y2U3ZTUzYWIwNjgyNWRiZTJjODBhOTEzYjBjMzJkMThiMThiMGExNDE4ZjQ4Zjc2NWFiZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMGI4OTQwZWIzZjI1NmQ3OTc5MWZjODI0YzdlZGM3ZWQwZmU5MGMyNmUzZGRmYzM2YmJiMGFhZjRjYTIyYjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2YmZkOGYwNDU0NzE0ODJmNTU4YWE1ZDM1YjlmZDgzNDczY2E4MTA0ZDA3N2FlODQ1YjNlNjk1ODcwYTRkZjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIzODU4ZWRiN2RkMzI0ZTJkYmUzZWZjYjBkNzMyNDViNmY0NWI1YjkyOWYwODAxZTk5NDFmYjVhZWQwODVhMWYifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5473-L5495",
+          "version": "repo-lines-v1:sha256:818244a12f965839c5eaa4073df4616e9960df08d827a45736be159971f0f24c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwMDJlYjFhYzc3N2M1ZGVjZjgyYTBhZGM2ZTM5NjA2YjQyNTM3YTdlOTlkOTQ4M2JmMTQ4MzEzNTY4ZmU5NjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhOGU0NmE2ZGRiMDVhYjA1Y2I0NDdkYTc1NmIxODFmNjY3MTNkZjgxOGJmNWIxY2EyYzcwZmQ2YTZjYjVhNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM2NTk5ZWI0YTE2ZDZiMDI1MTVjOWNlNDc2MDk3NjgwOTIzNGRiYjFlMGI0YmYxZTkxMTU5YTMzZTFiZWQ0ZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk0OGI2NDA1ZDAzOTQ0MjhhM2JlNTZlOGI5Y2JhYTQ3ZTg5NzE1NmY2MjkyYzNhNTU0ZmY2ZGQ0YjQ1MTg0ODMifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5497-L5519",
+          "version": "repo-lines-v1:sha256:984f5cfb3df4b95eb50becc110cbdcab0a72671f9c1d5719e650449353af6b89:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiNTllZGNmZTU3ZGYyMTcwZDVlNWZhMmZkOTUzOTEyNjc3NTc4MzlkZGE1OGZjNDBjOTJmY2JkN2YzMjdmZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3NjM0MzkzOWQ3MWVmZDNjYzZiM2U3YjcxNzJlNzYwYzJiMTg1NzYxMTVkNjExNTMzOGUzN2Q0NDRmMTI0N2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY2OWIwMmEwNDk0ZGFlMWY5ZWUwZjFmNmYxNjMwZTU2MzQ3MzU3M2E3YzNkNjUyNWYwMjNkYmNmYWI0NWQ5MTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzMTg0NDQ1YmQ2ZmUxYzdjNDUwZGU4NzhmNGM1MmM2OGNkNDQwYTFhYjRhNTBhMWZmNGI1OWI3ODc4MDk1Y2IifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5551-L5595",
+          "version": "repo-lines-v1:sha256:37131f8a60e1737e8b536ccaca617092c3fbb73a07d479b777a59ef803d4fe45:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViM2YxMGIyMDBlN2UzYjE0NDk0ZjEzNTQ4NTJkMjU4Nzk0ZWRiNDM1ZmNjNzY3NmViNDg4YzIzNWY5YTczYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkZTNiNmM5MDY3MWM5OTM2NzFhZDI2ZDAwOGVlYTJhNjQ1OWNmMmNjMDVjMTA1MzFiMWIwYmY5NzI3MzYxZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyYzlmYjA5MTI4NGZiYTk1ZTU2NWE0MmU2ZjBkZDZmZmNmYTRiYTQxMTI3ZDE5NTUwN2Q2YWJiMTllN2NmMDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ0MzY2NWQyZWRjNmJlZDk3NDRmNGM3ZDc2M2JhOGZhNmIzZTk3NGRkZTU2NDQyZGViZjVmNjg4YzE3OWFiYjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e7ec8a5f001441199e0fcac3c9676e66",
+      "statement": "Wind mitigation eligibility and wind percentage deductible treatment are independent reviews; a mitigation credit does not change the deductible, and prior credit cannot automatically continue after an opening is altered or replaced.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L5503-L5507",
+          "version": "repo-lines-v1:sha256:ab261181b7f8146eb8a52df502e84f7f88ef3ab1ac7cc081487f56d8de212f0b:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzM0MTBkM2Q2ODM2YjU4NjUxMzFkYWE1ZDFiZGI3OWY3MzMzZDRkMzY1NTc5NjY1ZWE0NjgzZTk2YzZkYmE2MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjJjMDI4ODQzOTdlOTY2Njc2ZjU2Y2FlYjFjOTdmNjg2NWEyMDYyNWU1ZWRjZDllNGI4NTk3YWFlMDE3OGE4ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2Y4NzIzNGQ4NjU1YzI1NDZmZGUxMTZmYTI1OTUyNmU3YTlhNWQ2MGEwMTJmYmE0YmZmNTBmZjQ0OGViZDU1YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWI1OWEzYTg1Yjg5NzdlODYxMjc5YTMyY2FlZGExNjcwN2M2Y2EyZTZiNWJiYTcwNWQ1YzYwOTkzMThmMmQ4YiJ9"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5521-L5525",
+          "version": "repo-lines-v1:sha256:79cd0b853d7e77408401f842b9f244e1a175eb912820707b22cc05d37db7a5d9:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEzZDEwNzNmMTZjYTQ2NWIwYjMxMjIzNjk1ZTU4YjkyOTAwYzU4YmI0NDY1ZTA1MzdjYWY3ZDk2YWQwNDBiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkYjBiYjI3ODg1M2YyZTQzMjE0MDMxZGUzMzk0NGVkOGFiYWI0ZGQ2YzIyNGJjNjE3Nzk1ODU0OTRkZTgzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmYwYmU1ZDUyZmE3ODRkNzJmNDhiM2QxM2QxMTRkNjllYzZjMWY4ZjgyZDBjMzQ1MmIwZDBmNjc2YmVlZTkyMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM4MjFjYTkzNTY1YzhhMjJkN2M5MGUwMjk3MmE2M2I3MjE1YjY2OTdiZDA5MTlhMzFlZDVkYzE0NmY1NjZiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9d224b1ff27f4b8885bbf816d2fdcd8e",
+      "statement": "Endorsement premium selection uses the approved premium table only after matching the eligible endorsement, option, risk characteristics, rating basis, and flat or per-limit premium basis; a limit-based factor is applied to the premium developed before that adjustment and the selection is documented.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L5869-L5885",
+          "version": "repo-lines-v1:sha256:0eddc05ac6536755f4019737222a429f2c54b4f0a9581da9dd7b1086eb6777e6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxMmQzNTVmYmQ4YTY3ODIyNmQxYTkwZWY4MjNlYmI1MzI1NjQxOTM4ZTg3Y2I3MjAwYWMzMGNhYjdhYzMyNDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4ODM4MTg0ZmVlM2EzNTYzMmQ5NTQwZWMzZjI5OWE2Njg2NzBlN2YzNDI1NGZiODMzNzhjOWQ1NTI0MDFmOGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwMzM1MzRlNjUxM2NjOWZlM2UxOGFhOTc0YmY2YjBlNWE3YWFiNTNhODI0MDlmN2MwZGYxODNlYjk3MTlmNWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0N2U2NjRkYTFkMDhkYTgwOGY0ZTY4NWRiZGUyZjQyZDhkNDVhMjY1NzdkZGZiMWJiYjQyYjI1ZGE3NzM3YmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0ab3591c6bc94b05ac6a61a5c49c2565",
+      "statement": "Part 12 state exceptions can replace generic adjustment values and add state-specific checks: the cited exception material includes 45% opening protection, 10% new-roof, and 10% central-station values, and separately requires a 15% earth-movement deductible when earthquake coverage applies; these values must not be universalized.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L8185-L8259",
+          "version": "repo-lines-v1:sha256:9f3245cf70d611b29b62701d0a49c778819be30695f941980e26f72c506669be:eyJzZWxlY3RlZExpbmVDb3VudCI6NzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhZGIwM2IzMDc0YWRjZjI1MjdiMTJhZDRkYmI4ZjA3NDRhMzgyNWU0MjVhNTY3Nzk0YWMxNDk3NDRjNzdkODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1Y2QyZWVjZWJkNjgyODE3ZTdjZjY1MmQ5OThhZmRmMmY5YThhMzM0YjM3MTU2MDYxZjYyMjkwNjZiMmY2MWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2MzM1MjY0NDgwOTJiMjNmNzgwNTg2ZjAyODJmOTRiM2JhOTA3MzU2N2JiNTc2ZTE1ZjNjNzc1NzgxOTQ0OTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE2ZGQ2YjgzMmI1N2ZhM2ZiMGFkZjE5Y2FlMTA4ZDdkMWJjMjE4ZWIyMzk0OGY5Y2NlYTU0NjE0NGJlYzk5YTkifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L8261-L8291",
+          "version": "repo-lines-v1:sha256:b11408a53bd685eeb15089b4459b3c664f0decdca5d051417b2a01c19b6714d1:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJjNWE4ODk3ZGU0M2EzZDNlNTViYjBlNDE5MWM3OWQzNGYwZWUzYjA1OGFhYjRhMjIzYTQ4MzNhMDc2YTg2NTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1MDAxN2FiYmNhMGU4ZGNiMzY3Y2IxZTY4MDcxZGE5NTAwYjdmZjg2ZjU3MmEyOTMwZDE5NzViMTY1OGNlYmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1ODdiMzljYjAxOWI0MzFkMzRjY2Y2ODdiNGU4ODI0NmU4NDQ4YjBjMThhMjcxOTQyNjE0YTVmZDNkY2M4MjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4M2I0MDliMmVkYmU0ZDg2MmMwNDE2NjI5M2QzMjExYmRkZGU1OGYxNjY0NzM0YzAwNTA3OGFlMDdjMTYzYmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9db4dc421578439285e91d463d222d19",
+      "statement": "The final rating file must allow reconstruction of the submission, selected classification and form, valuation and deductibles, every adjustment and endorsement charge, supporting evidence, referral or approval, and final system output; unsupported or conflicting inputs require hold, removal of the adjustment, authorized resolution, or re-rating.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/rating/manual.md#L15-L19",
+          "version": "repo-lines-v1:sha256:94dabd75c97220f332f7072dc18d8bea754d0214d3435d77fa6fdfa4a66efa3f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzBkMTcxNTE5OTRmMDc4ZWNjNzFjZmZhYmY1MTBjODUzODRhYWUyZGI1Njg3NjgyZWE5ZWI2NGQwMDdmYWRhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWM4OWM4ZGY0MWMyZmFiNjNjZTdkYTMwOGE5ODQ2YWUyYzRhMmU5ZDBjZGRlM2Y4OTVlMDIyY2M3MDA0ZDUyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRjYjY1YTZhMWYwM2I0ZjE2NmQ5NDE5ODYwN2NhZTVlMjE0ZDE3MDY5ZGZlOGQwZWMzZWE5NWI2MjAzN2FmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWY3MTY1YzAzYWY1ZWNhYWE1YzAyODFmMzIyYmE2ZGFhODMwNTY4Y2U5MDExZjMzNTAxNTE0ZjM4ZjU0YjIxNSJ9"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L255-L271",
+          "version": "repo-lines-v1:sha256:0bf3bb55068c98ce8beb77b06ba8be3a9b8b63dfa195b6d4dadf1d3f94c5a2f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzODk2MmFhZjk5Y2NjMDRhMjlmNmQyZmIzNDA3MmI0NzdkMGQ2MWE3OTI5MTQyNTFlMWQxZGQ3NzU4ODg3ZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5NmZmMjY5NjczZmQxZTc5YmEyMjBkZGY5NjU2NmE0Y2Q1NzMyMGZmOGFmNTU0MTFjMmViMTYyYzdkODZiZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg1NmI5M2IwNTZiNmQzNjE3ZDJlZjFmZmZhZjJiZTM0YTI1ZGJkYTE5OWQ3YjdiOTE2YjY3ODc3NGFhMmM2ZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4Mzk0YmIwZTdlMDBjZjY0MjM2ODAwMzNlZDAxODUyYTVhYmE5NGE3OGE2MGRmZjMzMWVjMzNjMWUwY2ZhMWMifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L4791-L4797",
+          "version": "repo-lines-v1:sha256:6c779e6aa2b3301ea5936db93ca20d69914baf585e09f6dda458d9908743df6c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzhjNDQ1ZTIxYmVmNjM4ZTYyN2IyNWU1YjEwMmIwMTRjZjk3ZWFjOGJiYTk2MDY0NWZjZjIzNDhjZmU5MDNkOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODZlNTJkYTA0YzdjZDRjZTM2Mzg1NzA3ZTI0NDNlNTZjYTI4M2Q5NGQ1MzE3MTRkNTg5YTUwNzM5MjhlZGJiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExMjU4YmRjNTIyODQ4N2QyZDQ4YjM1NDk2YWEzMDNlYWJiYTc5MTZjMjA5NjUwMTg4YmE5M2RhYThjZDVkNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWZmMjY5MjczOWNkNzAzYWFmOGVkNGQ4ZWVlOTJjYzFjM2U0ZjkwYTc3MWJmODJjNzNjZGNkOTc4MTdmZGEwMCJ9"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5045-L5055",
+          "version": "repo-lines-v1:sha256:1b6e4ff24733c829b9b008aa099be358cbb0f71f2387bbd747037ecf6b07b824:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhYTRmMWVkM2RlOGFjMWExZmEyMzliMDNhYTMyZmFjYWY1YTg2YjU0YmU3NDVkMzUxYWNiNWRhYmJmNTZjMTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjNjQ3ZTU5OTA3MTg5ZTgxMGZlMjNlNTc0ZjM4MGY5NjdmY2U5MjAzNThiYzFmYjlmY2JhZjg2YTJjNTkzNTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3MjVlZmUwYjRhNjcxYjRhNTNjMmUxZTFmMWFhZDc3M2RlYTc5ZTM2NjlhYjJjMDExYTVmYTIyNTJhODM0OGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU2ZWQ5NzBmZGFmYTEwODkyNzlhY2JjOTQyYjc2MzY3ODYyYzZmZWIzZDQzMTVlYzcyYjI4YWFkNzkyNzQ3M2IifQ"
+        },
+        {
+          "resource": "repo://manuals/rating/manual.md#L5407-L5411",
+          "version": "repo-lines-v1:sha256:0c1c1860010cf3562fb398038de129f1fccfb6763eee670d3257e0cd74e2114c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTlmOGM4ODAwMTAyZjQ0ODU5YjUwOGFhZmJkOTFjZThkYzYwNmFkOGE5ODQ1M2UyOGVhYTE1ZmVjNDI0OTQ5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWM0MDJiNjgzYjEwZmIyMDY5YTM0OTQ1YmI3YTZjODFmYmYzYTZhMTZhNTU3ODMxOTI3NGFhYjNiYmMwMjBjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNiZmRlZGYzMzA1MTMyYjljMzkzYWZhODY0MzdlMjFhZTNhMWE4M2FhZjVkZTEwNmRlZTVmYjUxYzVjNDFhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmNmNTQzYmVhYjU5M2U4NzUxMzVkYjk2M2M5OTcxOWZhMGUxODYzMzJjNTNlMGFlOGM0MDAzMzEzMTIwYzczNCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T12:15:46.420Z"
+  }
+}

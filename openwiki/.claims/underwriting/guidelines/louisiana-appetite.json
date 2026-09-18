@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:abf3a1ac769a1eeb364197f40477002cbecf692ec31c8f159ee3b925408e7c38",
+  "claims": [
+    {
+      "id": "claim_bf4c4cd3560442a0bdbb04573088bc51",
+      "statement": "The Louisiana Homeowners Appetite Guide is internal underwriting guidance: it supports selection, referral, and declination but is not a policy, endorsement, binder, or coverage grant, and the insuring agreement and declarations establish the insurance offered.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L13-L21",
+          "version": "repo-lines-v1:sha256:8f27f04d7a6be561f4d8f6f47a4a2de78f587f89f9437182d211a9ce63f69c73:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjVkNzhkN2FlM2Y5MTEyNDhmMTJlM2FhMGQ5YzY0MjRiODVjNGFjZGEzZmM5ZDE0MTM1NzE4N2I4NmIzMWI2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM5N2M2ZGYwM2ZmMDUwYmM3N2Y0MDYyMGU0Mjg1NjE5Yjk5OGMyNjBlMmZjODJlNDg1NDExMjMxMmE0ZGYzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDNhYTVmNzYxMWExNjIyZjgxZjQ5YTNiOGU3MTc4MzE2NzZiNjRlMzcxMjljMjA4MzFjMDA5MDg4NzgwNWVlYyJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L53-L57",
+          "version": "repo-lines-v1:sha256:60fda4ea94c270cb4dc62f1d7aa0d728ae48cd151ef505cc7c09f6c7375b5c2e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzIzZTgxYWVmNzkxYmQxZTA3Y2FhZDI0ZjQ4ZjAwNmYzNTM5NTU3NTQ4MmVhZmNiZTI3MDM5YmY4MjVjMjk5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWI5YTZiYTJjOWMyNDYxNTYzNDA5ZmEwZTFmZmZlNTM3MDRlYTY5ZmE2YzRlMmJhNjY3Zjg2NGNkNzllZWRjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWFmNWVhMDkyNDBmMGViMjYyMWE3NzYwMmM1ZDU4OTlmNjBmYWI2NzdhYmNkMTBkNWQ4ZTQ3YjZlM2E2NTYxYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcxZGQ2NGU3ZGMzYTE0NjJmMTk2NDE5N2IxZjZlMzMyNzA3ZGZiZjAzNjZjMjA3YTUyNjE2MWM2NTk3Y2RjNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2aa7e96db8ab4ab28b8d0878ab167637",
+      "statement": "Louisiana appetite uses a Coverage A range of $125,000 through $750,000, while the Louisiana state exception rule limits line-underwriter binding authority to $500,000 and requires review above that authority; the requested limit must not be reduced merely to avoid referral.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L59-L64",
+          "version": "repo-lines-v1:sha256:216a5417a0d667faa82dad5821a21c193b45659605f78f078a6e0c29544ca5cc:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyNjNjYzExMDMyMmEzOTA2NDRlZmE5ZGM3OTk2NmUyY2IxNGRmYWY0OTVlMDllZjRkM2M2Y2JhNTE3MWUyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjA4ZDlmYzU3ZGZiNGYyMTdiMzQ4YmFiNjE3ZTc5NWI3NzJkODRmMTJiODA2NjI4NTk3YTEyNzRiZGZkNmYyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI2YzZhNTkyYWNmMWM3OTk3ODE2Y2RjZTFkYzc0MWQyMmFiOGJhNjIyMzIyOTAyMjM0ZmJmMTdlYzJmMDEwNiJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L631-L651",
+          "version": "repo-lines-v1:sha256:ced6ca043262d8829b54e672dc3270b745c6a57ff039e6cf9ab632e69aad9273:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMTJmNGQ5ZTI5ZWMzNWQwY2FhMzRkODA0YzdkN2Q3OWRkNzZhNDc3OWZkOWU2YWY2N2EyYjI3MTIyNjNhODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE4YTMxZWEyNWFlZDYyMmY5ZjVlMmZhNzg5NWJlZDYyNmZkNmUzOTlkYzE0NTIwYzM2Y2ZlOTFlYTdjZWY4OTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMzMmE0NjM5MjkzMjVjNjZlMTYzYWE2ZDM4NzBlMTkwOTEwNGE0OTY0MGZiNGNhZjc3MzJmY2ZiYzQ3MTM4OTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhjOWM0OGE3NmMzNmRmNDBkZTRiYzhlYzA4Mjk4MTZkZWNkZjg2ZjdiMDkzOGZlYjFmMzVkYmYwZDQwODdlNjQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7187-L7205",
+          "version": "repo-lines-v1:sha256:4ff25e8acb2b92086a6012a4245c81474786b38472c0425b83f5ecacc53dcc74:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjMDVmZTdiODMzNWY1MGU2YWYwNzAyNzE3MTM3Y2ZmNDg4MTIwYjI2ZDJmNGZiN2UzMDRlYTg4NWY5ZmRlZmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlMjA4NWZlNGNjMWFlMGI2Y2MxODVkOTk4YjI3OWMyYjdkMGFkNzZlMjhmZjY1YTNjNzZhYTE0N2ZmNTA4YTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlY2M0OTczYjA0OTdhMGVlOWIwNWNmZDdkYThhYjFlOTFhNDI3OGNhOWRlN2VmMTc4NjdmMjgxNWE2ZjM2ZTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMwZTliNjg3ZDRlZWI4MGJmMGJmYTM5MDZlMTliNzc1NmU1NTJiYzA3OGMyYWRmNTA5M2E0YWFkYzI4N2MzMTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1926730e06c4422690907434372d46b5",
+      "statement": "Louisiana Rule 540 declines risks with roof age at or above 20 years and requires referral or evidence review for missing or conflicting roof age, unrepaired or deteriorated roofing, active leakage, incomplete repairs, and other material roof-condition defects.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L191-L239",
+          "version": "repo-lines-v1:sha256:b06df1ec0f49e5262d0d0794a65e3cc9f20715d6d5d4e34c57c0033d3317c488:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmMGFjOGNjYTIxNDk3MTA1ZDEzZGVmNjZkYjA0NjNhNzNmZTI4MzdkZDU5ZDRlMDQ5ZTZlMTVkYWMwYzk2YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg5M2U0NzQ2ZjYwZjMzMGFmOGFkZjA2MDNjODc3ZDAzN2EyMTRkOGNjM2FmYTJhOGYwZGU2ZDAyYWJmYTNmMTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1MDgyMDg3MWIyYjE2YWVlNTgyMTkyMzg1YzZhZjA1ZjMyYjMwNjgzMDkyY2I0ZTkyMzFjMjM0YmUyNDcxOTUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7187-L7193",
+          "version": "repo-lines-v1:sha256:bf8760ac9c37106780168843f8310581e404b381087786fb69ea4556001d7481:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwNWZlN2I4MzM1ZjUwZTZhZjA3MDI3MTcxMzdjZmY0ODgxMjBiMjZkMmY0ZmI3ZTMwNGVhODg1ZjlmZGVmZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWUxZTE5ZjA1YWZlMGViMjQ2NTU2YjFlMWNhZjkyMWFjZjJjYzMxM2MyMjEyN2QzMWFlNzc5MzcwYmFlNTExYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGVjYzQ5NzNiMDQ5N2EwZWU5YjA1Y2ZkN2RhOGFiMWU5MWE0Mjc4Y2E5ZGU3ZWYxNzg2N2YyODE1YTZmMzZlNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzY1ZWEzNWZjNTllNGEyMTczZDFjY2I1MDFjODZjNTM1M2MwOGFiNGU5YWZiZjUyYzFjYTg0YjEyOGYyMDM1MSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7207-L7289",
+          "version": "repo-lines-v1:sha256:acf156ace484411341bf37253ff6d3a502f77dfea14a3398d79f0219dc2394e3:eyJzZWxlY3RlZExpbmVDb3VudCI6ODMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzYjI3ZmU1MzI5MGQ0N2FkMDUxMzE3MzQ3NjU3YmQxM2YwZmM4YWQwMjZhMzZmZTA1MDQwNTAzYTcyODJjYmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkyYTliNjAyYzkwZGU2NzMyOWYwOTQ4MThhMzY1OGFjMDkyN2QyYjE4ZGI4MWJjZDM0NGU4YjMwYjRiNjU4NzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA5MTQ5YTNmNDMwNjVlYjg0MjBkMTNjZWQ2OTAwN2QzNTU2YWE4NDRkOWRiNThjM2E3NTc4OTk0MjJhMzZkMzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0YTBiMzU5OTBiZDI3YjdmYTQwMWYxZTBlNDA2NzkwMDU1NGUzYmJkNGEwNTRjM2ZlNGRmYTZiMDYzZDQwMDYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_eb70fcfdbe7c47cfa893c1df12e550bd",
+      "statement": "Louisiana homeowners underwriting requires a wind-mitigation inspection before binding when Coverage A exceeds $500,000 and does not treat an unavailable inspection as satisfactory mitigation evidence.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L279-L293",
+          "version": "repo-lines-v1:sha256:40637caf174ad5acd94ca995287f8a2eab27b7a945e43032c27e5d13f6e0e890:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MjYwNGVlMDEyMThjNGUwZTMwNDBlNjFjYzM0NGVhNzdiYTJiYjc4Njk5MTM0NjRjN2ViYTcxODcwMjcyYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ZThiZGYxYmIwZWZmYzgzYzYxMDgxMjNlNjU5MmIwODZlZThjMjBjOWZmMTE4ZjgxMTcwODcxODM5MGU1OTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyMjk4YzUyOGFlYWU2MTUwYTZmMTk2NWNkZTgyOTIzMTQ5M2ZjYjZiODJlMzYyZTJmYjQ1YzllMjg0Yjc4M2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRhMTI4NzdhMGVjNWFhM2Y2Mzc2MWFhZTBiZTg2OTExNTVkYmQyNzU3ZDE1M2VjY2U0NThjMzgyYWRhOTFmYzIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c016b20b2a34a61817c7b159e6352dd",
+      "statement": "When HO 01 17 is attached and applicable, its contractual windstorm-and-hail deductible applies to covered direct physical loss caused by windstorm or hail, has a 2% to 5% range, applies before payment, and uses its own mixed-cause and occurrence rules; those contract mechanics are distinct from internal appetite controls.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L59-L99",
+          "version": "repo-lines-v1:sha256:430d2b95ca15322532ce2e752be8937626d2fd03d6a8e4dc801145b4a6233500:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNmZjODllMjZjMTQ4NjQ3Mjk4NGIyOWIwY2I3MjljMWRhMmRkNjI4NTVmODM2MDZhMGJjODk4M2FhMzgzNTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhZDg3MmU4MGE2NmI4Nzk4MTFlNTFhNDFmYTQ5ZTJiZDQ2ZTdhYmM4OWVkYzExNTVmOGYwYTA2ZjZlMzg1YTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVhOTQ5ODRiODZlNDIyNGNjMzc4Yjc2M2I1ZjliMDRkNTNiMTA1ZGUyN2E5MjYxZDQ4NmIxMGMzODVkYzkzNTQifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L295-L307",
+          "version": "repo-lines-v1:sha256:d014e34b7c3c5d4638ca7ce42128598420014a625b1b3c4f672f320d4ba6aedb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2YTFlZDFmYzU4OGFhNjkzNzg5Y2VhMGMwZGRiNjZlM2Y4NDMxOWI2NzViNjQxZGUyODI5ZWExYmRmOGZjN2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4YWIxZWVkNDIzNzRhMTU3MDhiMDMxMTU2ZWZlNWNmMzAxYzFhYjYzYWVkZGFmNGQ1NTQxZGY2ZDJkMmExZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwZjkzNGY0ZGQ0ZGYxODE3NjhkNjJhYWY3YjAxZWQ1ZmFkYjg2YTVjMzE0YzVlMmYwMjFhZTczZjljNjI2MzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0NzhmMjcyNGJkMmY3MjdkMjNmZmQ3NjhjZjk5M2RmMjE3YTc2NjgyMDQ1MzNiNmY2MWIzNTVmMDhjMmYxZmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8038879b88c44170bd9855b430ff40f8",
+      "statement": "LDI-2020-07 governs affected Louisiana personal-residential business issued, delivered, renewed, or modified on or after July 15, 2020 for hurricane-deductible and named-storm disclosure and administration, while LDI-2012-05 remains relevant to policies written under its earlier edition and did not prescribe the later fixed 72-hour named-storm period.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md#L1-L9",
+          "version": "repo-lines-v1:sha256:2716db2be795befbccd6efeda925e273fa5d4be9190913939c6d6b06318f8392:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1NDNjYWU2OTY3YTFiNDE3ZGJjMTlhNTliNjA0MmJmNWQzYTdkYWJiNjlmM2QwZDkzMTdlZDZkMDQyMmQ3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md#L55-L65",
+          "version": "repo-lines-v1:sha256:5b3fcc3ebc36685db349d49befdedb7b7355f095d40e30956347b5fffdb7af2b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4YTU2NGYyZWRmMTQ0ZWNkZTE5MDgyMGE5NTQ3NDRmNjU3OTM0ZjkzMzM1YzA4ZjUzNTVlM2I0NGVjOTc3MGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkODJjYzYyMmQwMGFkYWI5Y2FhNmNlYTlkMDE3NTdmMmZmMTU4MDNkYzBmZDAzY2UxNTgwYWMyMDQyYzdmNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhYjQ3MjNhNzA3NGM3ZDQ5MTFiM2IyNTZkZTYzNzUzMzBkZmE3NmRiNGY4NDc3ZmQ0NWE5MWZiYTc5NWI3MmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxY2FmNTQ4OTY4OWI5MGJmMTY0OTZlNmIxM2Y5YjZlZGE1MmVmYzcwNmIyNWU4ZjJiNzQ2MGNhY2Q5YzBiMGMifQ"
+        },
+        {
+          "resource": "repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L51-L63",
+          "version": "repo-lines-v1:sha256:1cb58c866c40236d9cf086cd1117b7d4f8f3c5e551388f1fdf903bda4d3afd69:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyYzllYjIyNWFjY2JlZmVkMGU4MDMwN2E5NThlMjA0YzliZDAyNDQ1NWI4N2VkNzIxZTFmMjc4ZDFlMjNjZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4NGVmNTU4YTY5YzQ1OTBlOTU3YTcyNDNlNjE3YmQ5NmI2YTJhOGQzMTZkOWUzMmU3NjA3ZjM4ZjU4NTI3M2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyYmQ3MGM0ZTEwZjdiNzgyZjY5MzJjMzZmZTE5YjkyMTQzMmIzNThjOTRjNTU2MmY2NmY4NWU0YTA0M2Q2ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg2YmQ1NWY3NzNjZTBmMDMyMTZlMmY2MTZlMzNmYjVkMzdjZDIxYjIyNzcxNGJkMjM4MmM3YjM3ZWY1OWZkMTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec9811533c66483fae85b2788d9f12a2",
+      "statement": "Under HO 01 17, the contractual Named Storm Period begins when the named-storm designation takes effect and continues for 72 hours after it ends; loss timing is determined from the facts and is not established solely by the discovery date or the storm name.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L261-L273",
+          "version": "repo-lines-v1:sha256:ace09fd5b355dc30865b53a021970b0746590f254d82dc759979b898feee6bfa:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJhOTY3ZjNiYTFjODVmYjIyMWJjZWQyMzY2ZDcxMjU4ZDg1MGU3YTZkZDVlNWQyNTMxNzdjNGVhMGYzMGI3YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1MzU2YWRiNDllYjU4Yjc1ZDU2NjAyOTk2ZWU1ZmUzM2Q4M2U4NGE0NmIyOWIyOWExYWZiNTZlYTM0Yjc2ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlYzgxNDE0ODc2NTY2NDA0MGNiYmRlOTQ1MmE5YmFhZmNhNjA2Yjc0ZGYyMTBiNjU3MjJmMTIzNDUxYzJjZWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_da89fe26e8b844b8a3c3dde7140d8ff9",
+      "statement": "Louisiana storm-deductible increases require at least 30 days of advance written notice under both LDI-2020-07 and HO 01 17, and the endorsement applies a deductible change prospectively rather than to a loss that began before its effective date.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L187-L197",
+          "version": "repo-lines-v1:sha256:7b4cdf43a4c7c8f7c65d49ed60dab2d701ea236e3153afa0ae790a306937d5be:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEzODc0YmI4YzRjMTM5ZGYxZDdiZTU5MjAzNzdkNjRjNjIxODE2NGNjNjAzNjMzMzRiOTFiOWZjYzkxN2M2ODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3OWU5ZWUwYzNiNzZjNDViYzc2MGExZDlhZWNhMGYwZDU2ZDllYzg3YjNjNjhiNTYwYmFlNzBiNTIzODI3YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2YzE5Yjg4NTE0M2Y0ZDc3OTVkZWQzMjdmNmJjNDU5NDI3ODJmZDJmZGIyM2Y4NTlmYjhiYjQ5ODNmNTE0OTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiODQ3NWRmMzUwOTE1NTRlMmZkYTg1OTc3NzY5YTc2NzAyNTZjM2M3ZDk3MjFlNDYwMzdjYTBhNThjMjM1OWEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L211-L235",
+          "version": "repo-lines-v1:sha256:9c19d0400fa2419f7c666d08f60e28c61e656ec1dd2f8673249ba8869bcb6868:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjMDdiMmJhMDNlYzE5ZTQyYjg0ZmJmY2Q4Zjk5YzIwZmU4YTcwNDAzOTZhNTY0NDZkZjY1YWUwMjE3YWUyNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwNzQ4NjNlYTY2ZWEwMWI5MmE1ZGQ1ZDdjN2Q2MjMzMDJhNWQ4MzFlNGI0YTUyOTU4ODA2NjFhM2JmNjBkMWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExZGRiZDQ5MGFkY2VlNjE5NTAyYmY3ODBjMjY4OWFiOGVkZjU0YTAyMTYyMWE4NTQzMzc5MjA4N2YwYWJkMTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_438abbf09fb542a182a5a27d62b2c2a6",
+      "statement": "Louisiana internal water controls refer active intrusion, unresolved moisture, adverse drainage, deteriorated plumbing, unsupported repairs, recurring similar water losses, and backup or sump-overflow histories; Manual Rule 220 requires referral for requested water-backup limits above $25,000 and does not itself set the contractual coverage limit or deductible.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L351-L375",
+          "version": "repo-lines-v1:sha256:c473d69892b7759eb93bff113330021af5dd8e7f26e67aafc47243f00e3560a0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZGY5ZmZlMGU5MzkwNzA3Mzg2ODgwYjQ5OTI0YmFmM2E3YThlNmVjOWY1MGI3ZjE5YWJkZmE5NGRhNTdhNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NDNmYTgxOTk2OWJjNmRkOWRlZmViMjRlMTUzNWIzYjQ3NTI4MWRiODI3MTIyNGE2MGUyY2FkODcwZjJkMjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE3NTdkZjg5ZjRlOGUxMGE3NGJkMWY4ZDYzYjhmZGI4NWZkMzg5OGYxZDU5NWVmODY5MjBhNjc1ZmZmNDViZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg5OGQwMmMxNmJmN2IxNWMxMGMwMjdhMzk5ZmZlYjhkOThmNjQ4NzE1MDBiZTQ1MjllYWU4YTBmZGI4MDZjZjUifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L425-L431",
+          "version": "repo-lines-v1:sha256:1b3a0355bbf543bc46b3140c6130c96359e5ec4277107f0fd79fce0c11bef654:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmFjMjAwNDViYTA3NTZkNGE3Yjc1ODY0MmNjMTk5ZjE5MDc5NDFjZjkzYzlhMDRkNmRjZTU4MDIwNDU5YWU5NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTliZjdhZGE5MmUwMWM0NTdhZTAzNjAwMzFmZWMwZTZiMjU1MzhiOWU2ODYzMTlhN2VmMjYxNzQ1MmFhMjM2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODQ3ZTU3MGRjMWY1MDIwMjYyNDNhMDA2NTJlNWJkZDdjM2I4OGU4MmE3MWFhYjA3MTI5OTVhMzgzNzE4YjUzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDFlYmNlMGRiOTRjY2I0Y2VkYjk2YTI4MDZlNWRmYjY3MWUzOGUxM2QwN2U1MDg2MWQ5N2VhNmFlMDA0YTc2YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L2603-L2729",
+          "version": "repo-lines-v1:sha256:a92e66204ed37b479f1b65a5c67daf2bd03fd71590da36734cc5d37b75ccfd61:eyJzZWxlY3RlZExpbmVDb3VudCI6MTI3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI2NjdiYzUwMTg2OTI4YWFmNzcwM2NkNDVjZmIwNGQxOGNkOGFlZTUzMjQwOWM4ZmI3NzhiYmE3ZTE3YWY2NWM4IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJhYWY0OGQ3NTg1NTExMzExZjZlOWFiY2NhMzNlMzhhNGZmMGZhZmQ2MWE1MTMzZjQ3OGQ0MjA4Y2JkMGY0NGQyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJkOGM2N2IyYmIxNDU2MzA2N2I1ODQ1YWFkMDg1NTAzYWE4ZjhhZjEyMmM5YWMyMWIxYTU5YTNmNTZmY2Y2MWViIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJiYWFiMmZhZWQxN2VjY2M2MzQ2NDE3N2RjYTMyNzMwM2I5NTQ0NDAwNzBiOTg4OWRmMWRhZDM5ZGFhMjc4Yjg4In0"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L2731-L2747",
+          "version": "repo-lines-v1:sha256:d7d4b8ec8fab03a102af79a2defc7d50dcce3dbdef66667d0f3091b3eb4f4ada:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzMjMyODIwNjFhMGI1NGFhNTJmODc5ZWI3NWU4NWViMmFiMDg2NTlkOWM1MGZjNjRmNjNiYTViODNkNDEzY2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1OGY3NGMzOTdhMzBiNDA3MWQwZjhkNzVkZWM4NzEzOTczYzkwMTZjNTRiYjMyY2M0YzQ1YjNlYTAxZjg4NWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwNGY1ZThkOWQ4YzIzNzg2NmJmNzg4MzQyOGY4MTFhYTc0MzUwZDA2Njg4ZjZlYTM4ZDZjMWQ0MGU4MDRkNTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMzZjk4OTQ2OTEzMjc4NDAzYTEyZTYzYWYyYmYyMDlkY2E3YjE3NTgyMjQ3MmI3YThmY2FiNmZjNTk1Zjc1YzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b2ef4393f17e4142aa80c1ff2c34b9fc",
+      "statement": "The Louisiana guide's 60-day water-backup reporting instruction and 7-day mitigation instruction are internal handling directions, whereas HO 01 17 supplies contractual claim deadlines of 14 days for acknowledgment, 30 business days after requested items for acceptance or rejection, and 30 business days for payment of an accepted claim.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L427-L439",
+          "version": "repo-lines-v1:sha256:e45f7fc1bf5e0016329ce3b0f86ce7d634cf587c48cb3e011554ed8d2d77abe2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmMzdiOTE2MzJiYzBmYzNiNjdjYjVkN2FjODVhMjk0MWM5MmU1NTgxMzBmYWVhNzcwYWFiNDc3NjQ3ODEwNmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxNTEyNjhiMTk1YmVmYjE2MjU5Mjk3NWVkNjc4YTcyNTY3MDkwN2JiNWU2Y2QyODI5ZTU5ZjliYTlkYzQyMWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE5MzgxMDc3ZTYyMDhmZDFiOTJkMWYyZmNiM2NmZjhkOThlNzFmZGU5MDUwMjcwZDdlOTZkZTk5MzhkM2I4NmEifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L357-L365",
+          "version": "repo-lines-v1:sha256:c5412c5c8a2d51c2137e3d47511321dd339537a054279ee4a84729ede0f61162:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRkYmYwMWRjNTE2NDlmNWFlMzZjNTYwNTk1ZGJiOTcyMzEwNzNhNzhjMDI3NTBkYjc0YzMyY2ZhMjZmYWE3ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I4N2NlNDVjNDk3ZmFkN2Q3NDJkOWIyOGYzNjZiNTA2MTRjNzUyMWI2YjYzYWVjNGFmMGRkNGY1ZjVjNDJhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTYwODhjN2FkMDdlZDM3NWYzMTVmYTJhNTc3NGQzOTdiZmM3NjAyNjI2NGRjNmRhMGRhNjYyYzU1M2ExM2YwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBiZWExY2M4NGFhNWIzNDk1MTFhOTgwMzcyNWY0MTIwMjJkYzEwYTU0M2M3YjFlY2VmYjQyNjg3YTkzOGMwYiJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L521-L557",
+          "version": "repo-lines-v1:sha256:eba48fe9065191f18094c274b9b7eca09598adef8d771651fb83238d4954c5ab:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0ZjdlNjAyMjAxNTg2YjdlZjZjZWY1MjY5NzNmYTI4ODA2ZWVjNWUwN2Q5OThiZTI1NDE4ODNlNTgzMDg3ZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1ZjRhOTY5ZDAwY2YwYmFkYTQyNWZiY2QyMmYxYmVmNDg5MmI0NTlkYmI1MDYwZWE0YzVjZTU0OTYyNjg5YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxYzgxMTY2YjQzNDczNjAzOTEyMDUxNzQ3NDAwMDE1ZmNjMzkxNDcxNjlkNjI4YTI3ZTMyMmE5ODBlNmM3MjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiODZiMGNmZGFkZmZmYjMzYzVjOWUxN2M4ODI0ZTM5YmMwYjhjZjI1OGI2ZWIxMjFjMWY3ZmM2ODVhNTg3MGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0212d874d4d3479fa761571fc5681628",
+      "statement": "Louisiana underwriting requires available prior-loss information before binding and refers an account with 2 paid property claims within the prior 5 years; recurring, unexplained, open, undisclosed, or repair-unverified loss information also requires review, and the threshold is internal rather than a policy limit or law.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L433-L453",
+          "version": "repo-lines-v1:sha256:d5666d31e705f6c5c389c86f34d49f224671d3f974d4a194d9ea731fa0bfe489:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzYTMwZTQzZjE4YmQ0NDQ4ZTkxZmRhMzcxMTVkYTJjNmIyODAxZmEyNjdkY2JkNmMxYjE1YjdhMTk1ZmZkOTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhMWE3M2E0NmZkMjAxZDNhNjE0MmRjMGU1OGIyMjY4OTgyM2Q5MTYwZjUxMTYyMjdhZWU5NzZjMDcwMDAwZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzNWRiYjM1ZDk4NDFmYWJjMDA4NmZkZmI4ZmMwNDk5OWZiOWY0OTdlNzIyYjZhNzdiMGE5NzhlZGI0MzA2ODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhY2NmNzVkZDAxNTliNjc1OTc5OTVkOGEyMGEwMjk3NmFjNGNkMjlkOWY5MmI3MWQzMzJiNjBlM2U4NDZhOTkifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L455-L499",
+          "version": "repo-lines-v1:sha256:2b857b49edbfda2e07862e2ac0c884b2917f90d8c81dc8b6319537297d194873:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmYzhmNmQwYWVkODZjMDk0YjVhMDc3MzFlNzJlNjI2N2U5NWM0MzJjZTgzMjMxMWVmOGY2MWFmYTEzNjNlYmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwZDY2OWZiYjkwMmE0NmY0OGJkOGQ5MzZmNWNkMWVkMmIzMGM3YWM3NzBmM2U0NzgxZmYzZTIyNTBmYzliMDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiZDE3MGY4N2Y4ODNjZDQ5NTI0ZTcxZjc4YTAyNGVhZWQ0MGRlMTBlYjc3MmJmNWExZmJjZjVjZDQ3MDZiN2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiODYzNDkwNmNjNTgwYzIyNzYwNjEzNGQ1M2RhZmE5NzQwYzBkM2JkODkyMGIwMWJiMWExOWQyYjBhODJmYTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c89cc13cc2d434497ae39b962dcfe43",
+      "statement": "Rule 540 requires underwriting support for every Louisiana exception decision, including the requested exception, supporting facts, authority or approval outcome, and final eligibility, rating, and exception decisions.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L507-L519",
+          "version": "repo-lines-v1:sha256:3dfaf76d7951bf8611a74bf28c6fc11823eff6c55834a3dbe0f3c2f873a2a343:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmODE4MTc5YzM2MmM2OGE4ZGIzMTY5MmYwZmYyNDRkMGE5ZTcwNWYxODNjNDcwZDEzMzJhZTgwZDIyZDM2YzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyZGJjNWNkNjhjM2RmMzJmNzc5NTZlZThkODNhNDlhYTE5NjAzZWQ0MzljZTY3ZmYyZjJkMmZmYTcyYzM4ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVjMTkyMjZmNjkwZjI5N2NhYTY0NjU4MmY5OWJmMTJkN2M3ZDU2YWI0OWNjYjIzZTRjM2YyNjE5NTU5OGJkYmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyZjRlMGZlZDVjNjljNDBhMGNiNGVjMGI4ZjY1Y2Q4ZTNiMmQwMTU1NzlhZWIyOWQ4MmQzOTZlZjhmZWFhZWQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7519-L7529",
+          "version": "repo-lines-v1:sha256:a038056963da1402b9213b4b289ca162039811d10c9f125fcff5e9bf97e71989:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRhOWIxZjQxOTNkYTc3ODY5ODA5NTZkYjkyZTE5MWM1NTczODI3NzllMDM4YWU3Yjg1ZTdjY2MxMWM1NzcyMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2MzJmMjg2ZTQ0ODJhYzQ3YWE3NjZhZmYxOWIwYjcwOTFkNWMyNjc2YjQxMmYzNjZhNmM0ODliMGUxNWQzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2NDY3MDhmZjdiNDBhMDY1NTAyYTNhMDMwYjZlZTc2Y2RhMjA3OTZmNGZmZjYzODFmODEwM2ZiOGJhNmY5NTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyN2MxZmFkNDRlZmZiMDJhN2MyNjE5MWJjMjRhMjAxNzExMjFkMjg2MDA4YzI4ZTU3MjI5Y2NhYzI3OWE5MzMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b2dc01564f7404a9214af028ab6bf68",
+      "statement": "Louisiana internal claims direction requires a fact-based file that records the insured and location, reported condition, cause and resulting damage, material evidence, inspection where needed, communications, and payment or denial rationale; LDI-2020-07 separately requires reasonable investigation, named-storm-period documentation, plain-language explanation, and no delay to covered damage solely because deductible applicability is disputed.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L257-L297",
+          "version": "repo-lines-v1:sha256:6bd592ae0f1be893783b91d437bcb4ebd9acfc44466bbbd6dd95e37f79fb25df:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyYzAzN2FhYzNhNGI0YjU2ZTlmMjY2ZDM5YjRkZDc0NTZkMThjYmU0NTAyNWI4OWE2NGM5ZDM1OGViNGUxMWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4ODYwYjU1YmFhZGU1ZGUzZmQ4MTA2NDAwY2FjMTA0YWY4MzY3OTEzYjMyYWFmZGYzNDNhYzBmZTAzYzQ1OTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L521-L557",
+          "version": "repo-lines-v1:sha256:eba48fe9065191f18094c274b9b7eca09598adef8d771651fb83238d4954c5ab:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0ZjdlNjAyMjAxNTg2YjdlZjZjZWY1MjY5NzNmYTI4ODA2ZWVjNWUwN2Q5OThiZTI1NDE4ODNlNTgzMDg3ZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1ZjRhOTY5ZDAwY2YwYmFkYTQyNWZiY2QyMmYxYmVmNDg5MmI0NTlkYmI1MDYwZWE0YzVjZTU0OTYyNjg5YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxYzgxMTY2YjQzNDczNjAzOTEyMDUxNzQ3NDAwMDE1ZmNjMzkxNDcxNjlkNjI4YTI3ZTMyMmE5ODBlNmM3MjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiODZiMGNmZGFkZmZmYjMzYzVjOWUxN2M4ODI0ZTM5YmMwYjhjZjI1OGI2ZWIxMjFjMWY3ZmM2ODVhNTg3MGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b99bdcb578eb4d4187ecc703891df6eb",
+      "statement": "Louisiana renewal underwriting requires review of every renewal for changes in eligibility, exposure, valuation, occupancy, loss potential, unresolved conditions, repair completion, and conflicting information; a current-term renewal with 2 paid property claims is referred under the internal Rule 700 control.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9129-L9165",
+          "version": "repo-lines-v1:sha256:00ae2d8d620522dcec5b99a84815b967bb42ecbc994c3dcd45060176428d30a6:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAwNTQxY2EyMDk3ODI3MjM2YjA1Njg5OGI2MDVmM2FiODk3YWFhMzQ4ZTcxMTVhZjcwNWFjMmNjYTIyOGRkMjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0ZWE1ZTdlMjY4ZjBkZTY5YTViYTkxMzk4OTBlMDA4MDQwODM4ZjI0YTgzYzYzODJiNDQ2ZDM2YzdkZjQ3NTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNjNTQ3MmUwZGRkMTU0YTFlYjg2NGYwNjA2Y2RlNDUxMDRhMGM0Y2JhNTU1YzkyNWM5ZWJjMjA3YTk0OTRkMTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyOGQ0NzE5NDJkNmI1YThkNzMzM2NmYTU1MGYzZGUwOWUwYzNkY2M2MzNkYTJmNDcwODA3N2E3YmY0MGM3YzIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9203-L9243",
+          "version": "repo-lines-v1:sha256:be201f9acef3e8e82239adbd73d101e421faaa8d9923e8d38a54a0f5b1ad2c62:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlNzgyNWY0MDBlZTgzMzZjYzRiNjQ2NWI1NTY3OTEzYTg4OGVlZGMyZmMzY2E4MzQ1ODM1MjZlOTMyMWE2ZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiZGNlOWUwY2ZkNmY1ZTU4MDVjMzVkODkwNTI3NjUzM2E2MzE5MDNjZGFjMGE5ZmEzMjIwZTFiNmQ4NzM5OGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2OGZlZDFmOTgyYzJjZmI0MzA1MTQzZWU2ZGZjNmU1YTE3NzEzYTY1MmVjMzJlNDA2YmFmNDJkMTBiNjQ5NTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1ZDNiMzdiZGI1Yzc1YzYzNzZkMzJiNWE5NTg5YWUyMTdmM2FjOTg2MzA3MjY0NDc2NjY0ZjUxNzM2NjEyNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1eaa971f39744684b685c16f07c04eb5",
+      "statement": "A Louisiana referral is not approval: binding must wait for recorded authority that matches the requested terms and conditions, and internal guidance prohibits treating silence, another account's approval, or an unresolved condition as authorization.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L641-L671",
+          "version": "repo-lines-v1:sha256:d6cef5fb2f45816006f8d7a69a258ed2704c400bf6de36f687643a636f4aadf3:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyN2EyZWU5ZTY4Njc1ZDMxN2Q3MWExZjM1YTMwMDQ2MGZhYTQ3ZmViMmVjNmQ4Yjk3MzkwNjk3YzZmNDY0ZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhOTgwZDU5ZDMzNzZjYzA4N2Q5YmU3YTQ4ZjMxZTI0ZWYzZDYwYjdhNjhhMzE5ZWY4OWZkZGIyMDkzZThmNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiZWVkMTFhNzY3MDQ0ZjljODY3NGU1YjM5NzY4ZGNiNWQ1NzI3YzVkOTlhZDMwN2NmZTZlMDJmZDYyNmRiYjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZjE5NDUwN2M4OTM3OTFjNDE1NTBjM2Y2NDc2ZjVkMjZiMWJhN2NmNjI3NjVmMTlmYmQ2YTAwOTc0NmI3ZjQifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L685-L701",
+          "version": "repo-lines-v1:sha256:3a5ff75d44b6f0ba9b2874c88dedef74177d36d5dd01990b9020aa2a48b53bbc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNzc4MmI4NjgzMjZkNTljNjY0YWNhYjc2M2NlNGJhMWEyMTYxNGE2N2Y4ZTI0YTlhNzI1MmI4NTE2N2YyYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMDdlMDgzMjVlODkzMThiZWJiZmRjY2U2NmNlZmM1MTljYjhmZTdjZWQ2MjM1MDdiODYxMTVmZDVmYzU0YjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQwMWI0NjJiMDJjOTM3YTcwYzQ5ZDIwYzdlOGVkYjJmODdkOGZjNDZjMzQ5ZDAwMGI0NGIyYjViZjk2NDM0ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T12:15:46.420Z"
+  }
+}

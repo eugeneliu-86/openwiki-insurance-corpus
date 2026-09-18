@@ -5,7 +5,7 @@ description: Explains how the base-form fungi, wet rot, dry rot, and bacteria ex
 tags: [property-coverage, fungi, mold, rot, bacteria, remediation, North-Carolina]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -25,7 +25,11 @@ sources:
     resource: repo://forms/HO/MS/HO-6/2023-02.md
   - id: openwiki-source-a18ccaad3bb970c7f28bf589
     resource: repo://forms/HO/NC/HO-01-32/2018-05.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+  - id: openwiki-source-826017f9c17ff1c446a5e4f6
+    resource: repo://guidelines/claims/mold-claim-handling.md
+  - id: openwiki-source-77e27410bda4d59c2b779d5e
+    resource: repo://manuals/claims/manual.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 # Fungi, Wet Rot, Dry Rot, and Bacteria
 
@@ -56,6 +60,18 @@ flowchart TD
 The base form is the starting point. For example, HO-3 2024-03 separately excludes loss caused by fungi, wet rot, dry rot, or bacteria and says that the microbial remediation limit does not create coverage for loss excluded by that provision (**X.28–X.29**). HO-4 2021-10 likewise excludes fungi, wet rot, dry rot, and bacteria, including when the condition is visible or concealed (**X.32**). HO-5 2022-06 excludes fungi except as provided by a limited fungi endorsement, separately excludes fungi testing and remediation costs unless applicable coverage exists, and excludes bacteria, virus, or other microorganism loss (**X.29–X.31**). HO-6 2023-02 excludes fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement (**X.22**). The dwelling-property DP-3 2026-01 excludes loss caused by the presence, growth, proliferation, spread, or removal of fungi, wet rot, dry rot, bacteria, or other microorganisms, regardless of the cause of contributing moisture (**X.9–X.10**).
 
 These provisions are not interchangeable across editions. A fungi, mold, wet-rot, dry-rot, or bacterial condition is not covered merely because a form contains a “microbial remediation limit,” because water caused it, or because a vendor labels the work remediation. Confirm the exact policy form, edition, declarations, and attached endorsement before applying any limit.
+
+### Resulting-loss wording differs by form
+
+The exact resulting-loss language matters and must not be generalized across forms:
+
+- **HO-3 2024-03:** P.19 excludes loss caused by “smog, rust, corrosion, mold, wet rot, dry rot, decay, deterioration, or contamination,” but states, “We cover ensuing direct physical loss caused by a peril that is not otherwise excluded.” X.28–X.29 separately exclude fungi, wet rot, dry rot, and bacteria, with X.29 allowing only the stated limited fungi endorsement and saying the “microbial remediation limit” does not create coverage for the excluded loss (**P.19**, **X.28–X.29**).
+- **HO-4 2021-10:** P.53 says, “We do not cover loss caused by mold, fungus, wet rot, dry rot, or bacteria. We do cover direct physical loss caused by a covered peril that results from mold, fungus, wet rot, dry rot, or bacteria.” X.32 separately excludes fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement, whether visible or concealed (**P.53**, **X.32**). These are competing provisions in the same form; this page states the text and does not resolve their interaction beyond those provisions.
+- **HO-5 2022-06:** P.29 excludes loss caused by “mold, fungus, wet rot, dry rot, bacteria, or other microbial matter” regardless of whether caused by water damage, humidity, condensation, or another source. X.29–X.30 separately provide the limited-endorsement exception and state that the microbial remediation limit does not create coverage without applicable coverage (**P.29**, **X.29–X.30**).
+- **HO-6 2023-02:** X.22 excludes fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement; X.23 says costs exceeding the applicable “fungi and bacteria aggregate” are not covered (**X.22–X.23**).
+- **DP-3 2026-01:** P.27 says, “We do not cover loss caused by fungi, wet rot, dry rot, bacteria, or microbes. We cover resulting direct physical loss caused by a covered peril, unless that peril is otherwise excluded.” X.9 separately excludes loss caused by the presence, growth, proliferation, spread, or removal of those conditions regardless of the cause of contributing moisture (**P.27**, **X.9**). The page does not collapse these competing provisions into a broader write-back.
+
+Read the wording of the policy in force and attached forms together. Do not import HO-3 resulting-loss wording, HO-4 wording, an HO 04 81 limit, or the North Carolina amount into another edition.
 
 ### Composed result with HO 04 81
 
@@ -118,6 +134,19 @@ Those duties preserve the coverage investigation; they do not create coverage. A
 4. What deductible and remaining aggregate apply after prior payments?
 
 For the operational water-loss sequence—notice, mitigation, source/path/duration investigation, evidence preservation, scope separation, valuation, escalation, and payment—see [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md). That guidance is operational and does not replace the form or endorsement.
+
+### Mold claim guidance is a handling boundary, not contract authority
+
+The [Mold Claim Handling Guidance](/openwiki/claims/guidelines/mold-claim-handling.md) and the Property Claims Handling Manual describe internal investigation, authority, documentation, and escalation practice. They do **not** grant coverage, change an exclusion, create a write-back, set a limit, or decide which policy form applies. The policy, attached endorsements, and applicable state form remain the contract sources.
+
+Use the guidance only for the handling work around the contract analysis:
+
+- flag possible fungi involvement when the report includes moisture, water intrusion, concealed damage, odor, staining, or growth; distinguish direct physical loss from fungi-related damage; review the forms and endorsements before communicating a position; and obtain photographs, inspection findings, invoices, remediation records, and estimates when available (**guidelines/claims/mold-claim-handling.md H.0.2–H.0.10**);
+- acknowledge the report, ask for the moisture source and timing, advise reasonable protection from further damage, preserve samples and removed materials when relevant, separate emergency extraction/drying/containment from permanent repair or replacement, and use qualified experts when source, extent, contamination, or repair method cannot be determined reliably (**guidelines/claims/mold-claim-handling.md H.6.1–H.6.18**);
+- keep coverage determination open while cause and policy provisions are evaluated, make targeted information requests, apply the policy deductible only after identifying a covered payment, and explain any limitation or denial using the applicable policy language and material facts (**guidelines/claims/mold-claim-handling.md H.6.23–H.6.35**); and
+- escalate unusual, disputed, technically complex, or authority-limited matters rather than resolving uncertainty through a vendor label, inspection, mitigation authorization, or payment (**guidelines/claims/mold-claim-handling.md H.7.1–H.7.16**, **H.7.19–H.7.28**; **manuals/claims/manual.md 1.F–1.J**, **3.A–3.U**).
+
+These practices help preserve the evidence needed to compare competing contract provisions. They do not answer whether a particular cause, resulting loss, remediation expense, or limit applies.
 
 ## North Carolina disclosure and regulatory overlay
 

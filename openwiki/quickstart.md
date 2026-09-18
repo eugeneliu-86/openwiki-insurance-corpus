@@ -1,12 +1,16 @@
 ---
 type: policy-assembly
 title: Coverage Wiki Quickstart
-description: Route a coverage, underwriting, or claims question from coverage part to peril or subject, state overlay, guidance, and policy assembly. Use the linked page and exact source citation at each decision point.
-tags: [coverage, policy-assembly, claims, underwriting, state-overlays, navigation]
+description: Route coverage, policy-edition, state-overlay, claims, underwriting, rating, and guidance questions through the right contract and operational pages. Use the route to preserve edition, state, attachment, authority, and evidence context without treating this map as a substitute for controlling forms, bulletins, or guidance.
+tags: [coverage, policy-assembly, claims, underwriting, rating, state-overlays, navigation]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
+  - id: openwiki-source-cf3bdf4919dc01656b85cad5
+    resource: repo://bulletins/FL/oir-2022-01-hurricane-deductible.md
+  - id: openwiki-source-d2d0e0eee59ab93741467060
+    resource: repo://bulletins/TX/b-2019-02-prompt-payment.md
   - id: openwiki-source-38049e374f54d1eb9a15f4ef
     resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
@@ -15,181 +19,188 @@ sources:
     resource: repo://forms/HO/MS/HO-23-74/2025-05.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-1a7fd187295c6f9ef57d73cb
+    resource: repo://guidelines/appetite/ca-homeowners.md
+  - id: openwiki-source-243115596013c4ec281c4a90
+    resource: repo://guidelines/appetite/fl-homeowners.md
+  - id: openwiki-source-1a23ac5f105f70e05c6ce688
+    resource: repo://guidelines/appetite/la-homeowners.md
+  - id: openwiki-source-b4a32c6164f88c97824a6cfb
+    resource: repo://guidelines/appetite/nc-homeowners.md
+  - id: openwiki-source-ff8a10adb5aaa9d147aa506d
+    resource: repo://guidelines/appetite/ny-homeowners.md
   - id: openwiki-source-da67a262bebb42780999bd2a
     resource: repo://guidelines/appetite/tx-homeowners.md
+  - id: openwiki-source-e3f8eeadc60c530791e87a00
+    resource: repo://guidelines/authority/binding-authority.md
+  - id: openwiki-source-b835c3d80d50a5ec159c2c2a
+    resource: repo://guidelines/claims/liability-claim-handling.md
+  - id: openwiki-source-826017f9c17ff1c446a5e4f6
+    resource: repo://guidelines/claims/mold-claim-handling.md
+  - id: openwiki-source-98996e9748507677077d5997
+    resource: repo://guidelines/claims/roof-claim-handling.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
+  - id: openwiki-source-77e27410bda4d59c2b779d5e
+    resource: repo://manuals/claims/manual.md
+  - id: openwiki-source-add01ee6690ea277c5253419
+    resource: repo://manuals/rating/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+  - id: openwiki-source-d2ea423343a02d2233c77383
+    resource: repo://training/attaching-endorsements.md
+  - id: openwiki-source-8460fe3c58470ce6ec8d9b51
+    resource: repo://training/choosing-the-governing-edition.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 
 # Coverage Wiki Quickstart
 
-<!-- openwiki: broken internal link [INSTRUCTIONS.md#L10-L14] heading anchor "L10-L14" does not exist in "INSTRUCTIONS.md". Fix the href or restore the target, then delete this comment. -->
-This page is a routing map, not a substitute for the controlling form, bulletin, or a complete claim or underwriting analysis. Start with the coverage part, then narrow to the peril or subject, then check the state overlay; keep internal guidance visibly separate from contract language. That order follows the corpus organization rule ([Coverage Wiki Instructions § What to organize by](INSTRUCTIONS.md#L10-L14)).
+This is a navigation map, not a substitute for the controlling policy form, endorsement, state bulletin, claim workflow, underwriting rule, or rating procedure. Start with the coverage part, narrow to the peril or subject, identify the governing edition, check the state overlay, assemble the issued terms, and only then branch to claims, underwriting, rating, or other internal guidance. Frozen forms and regulator bulletins remain live by edition, while guidelines and manuals are living internal material; a superseded form still governs policies written under it ([corpus layout](repo://README.md#L15-L24), [frozen and living sources](repo://README.md#L33-L41)).
 
-## The route in one view
+## Route in one view
 
 ```mermaid
 flowchart TD
-    start["Coverage question"] --> part["Identify coverage part"]
+    start["Coverage or operational question"] --> part["Identify coverage part"]
     part --> subject["Choose peril or subject"]
-    subject --> overlay["Check state overlay"]
-    overlay --> assemble["Assemble governing policy terms"]
-    assemble --> guidance["Consult separate guidance"]
-    guidance --> cite["Write the narrow cited position"]
+    subject --> edition["Select governing edition"]
+    edition --> state["Check state overlay"]
+    state --> assemble["Assemble issued policy terms"]
+    assemble --> branch{"Separate operational path"}
+    branch --> claims["Claims guidance and claims manual"]
+    branch --> underwrite["Appetite authority and underwriting"]
+    branch --> rating["Rating inputs and adjustments"]
+    claims --> answer["Write narrow cited position"]
+    underwrite --> answer
+    rating --> answer
 ```
+*Caption: Required navigation from coverage part through edition, state, assembly, and the separate operational paths.*
 
-This diagram shows the required navigation sequence; it does not change the order of authority among the documents.
+The map follows the corpus organizing rule: Coverage A dwelling, B other structures, C personal property, D loss of use, E liability, and F medical payments come before a peril or subject and state overlay ([coverage organization](repo://README.md#L15-L24)). The source path is load-bearing because it carries line, state, form, and edition context to retrieval ([repository layout](repo://README.md#L26-L31)).
 
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-3/2024-03.md#L153-L159] heading anchor "L153-L159" does not exist in "../forms/HO/MS/HO-3/2024-03.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-3/2024-03.md#L219-L225] heading anchor "L219-L225" does not exist in "../forms/HO/MS/HO-3/2024-03.md". Fix the href or restore the target, then delete this comment. -->
-1. **Identify the property or liability part.** Decide whether the question concerns Coverage A dwelling, B other structures, C personal property, D loss of use, E personal liability, or F medical payments. The HO-3 2024-03 form, for example, gives Coverage B a ten-percent-of-Coverage-A limit and Coverage C a fifty-percent-of-Coverage-A limit, so do not begin with a peril label alone ([HO-3 2024-03 §§ I.B B.1–B.2, I.C C.1](../forms/HO/MS/HO-3/2024-03.md#L153-L159), [HO-3 2024-03 § I.C C.1](../forms/HO/MS/HO-3/2024-03.md#L219-L225)).
-<!-- openwiki: broken internal link [../training/water-losses-101.md#L59-L107] heading anchor "L59-L107" does not exist in "../training/water-losses-101.md". Fix the href or restore the target, then delete this comment. -->
-2. **Choose the peril or subject.** Route the cause, valuation issue, limit, exclusion, or endorsement interaction to its focused page. Similar-looking water damage is not one category: the training material directs the reader to distinguish plumbing, weather, appliance, drain, and outside sources ([Water Losses 101 § L.2](../training/water-losses-101.md#L59-L107)).
-<!-- openwiki: broken internal link [../bulletins/TX/b-2021-08-windstorm-deductibles.md#L13-L27] heading anchor "L13-L27" does not exist in "../bulletins/TX/b-2021-08-windstorm-deductibles.md". Fix the href or restore the target, then delete this comment. -->
-3. **Check the state overlay.** Confirm the state amendatory form and any regulator bulletin that apply to the risk, policy, or loss. A Texas windstorm question, for example, must be checked against the bulletin's applicability and disclosure requirements, not only the generic deductible wording ([Texas Bulletin B-2021-08 §§ B.1.1–B.1.7](../bulletins/TX/b-2021-08-windstorm-deductibles.md#L13-L27)).
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-04-90/2027-01.md#L13-L23] heading anchor "L13-L23" does not exist in "../forms/HO/MS/HO-04-90/2027-01.md". Fix the href or restore the target, then delete this comment. -->
-4. **Assemble the policy terms.** Identify the line, base-form edition in force for the policy, attached endorsements, state amendatory form, and applicable bulletin. An endorsement applies only when attached; where attached terms conflict, the endorsement controls its modified subject ([HO 04 90 2027-01 §§ W.1–W.5](../forms/HO/MS/HO-04-90/2027-01.md#L13-L23)).
-<!-- openwiki: broken internal link [../guidelines/claims/water-loss-handling.md#L13-L21] heading anchor "L13-L21" does not exist in "../guidelines/claims/water-loss-handling.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../guidelines/appetite/tx-homeowners.md#L13-L18] heading anchor "L13-L18" does not exist in "../guidelines/appetite/tx-homeowners.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L13-L37] heading anchor "L13-L37" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-5. **Consult guidance only after the contract route is clear.** Use claims guidance for investigation and payment workflow, underwriting guidance for appetite and authority, and training for plain-language explanation. Guidance does not create, expand, restrict, or waive coverage ([Water Loss Claim Handling Guidance §§ H.0.1–H.0.2](../guidelines/claims/water-loss-handling.md#L13-L21); [Texas Homeowners Appetite Guide §§ H.0.1–H.0.2](../guidelines/appetite/tx-homeowners.md#L13-L18); [Personal Lines Underwriting Manual Rule 100 §§ 100.A–100.D](../manuals/underwriting/manual.md#L13-L37)).
-<!-- openwiki: broken internal link [INSTRUCTIONS.md#L68-L103] heading anchor "L68-L103" does not exist in "INSTRUCTIONS.md". Fix the href or restore the target, then delete this comment. -->
-6. **State the answer with narrow citations.** Every material proposition needs the exact source section and a narrow line range. If the position composes documents, cite both: name the acting document first and say whether it `supersedes`, `writes back`, `preserves`, `modifies`, `implements`, or `constrains` the other document ([Coverage Wiki Instructions § Document relationships](INSTRUCTIONS.md#L68-L103)).
+## 1. Identify the coverage part
 
-## Start with the coverage part
-
-| Question or damaged interest | Open this page first | Then narrow to |
+| Question | Open first | Continue with |
 | --- | --- | --- |
-| Dwelling, other structures, personal property, or loss of use | [Property Coverages A–D](/openwiki/coverage/parts/property-a-d.md) | The relevant peril, settlement, limit, or endorsement page below |
-| Personal liability or medical payments | [Liability and Medical Payments E–F](/openwiki/coverage/parts/liability-e-f.md) | The liability endorsement or state overlay that changes the result |
-| A line-specific edition question | [HO-3 editions](/openwiki/coverage/forms/ho-3.md), [HO-4 editions](/openwiki/coverage/forms/ho-4.md), [HO-5 editions](/openwiki/coverage/forms/ho-5.md), [HO-6 editions](/openwiki/coverage/forms/ho-6.md), or [DP-3 editions](/openwiki/coverage/forms/dp-3.md) | The applicable peril or endorsement page, then assembly |
+| Dwelling, other structures, personal property, or loss of use | [Property Coverages A–D](/openwiki/coverage/parts/property-a-d.md) | The relevant peril, settlement, limit, or endorsement page |
+| Personal liability or medical payments | [Liability and Medical Payments E–F](/openwiki/coverage/parts/liability-e-f.md) | The liability subject, endorsement, and state overlay |
+| Line-specific form or edition | [HO-3 editions](/openwiki/coverage/forms/ho-3.md), [HO-4 editions](/openwiki/coverage/forms/ho-4.md), [HO-5 editions](/openwiki/coverage/forms/ho-5.md), [HO-6 editions](/openwiki/coverage/forms/ho-6.md), or [DP-3 editions](/openwiki/coverage/forms/dp-3.md) | The subject page and policy assembly |
 
-<!-- openwiki: broken internal link [../README.md#L33-L41] heading anchor "L33-L41" does not exist in "../README.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [INSTRUCTIONS.md#L105-L109] heading anchor "L105-L109" does not exist in "INSTRUCTIONS.md". Fix the href or restore the target, then delete this comment. -->
-Use the form page when the answer depends on the edition, a renumbered provision, or a line-specific coverage grant. Do not silently replace an older edition with the newest one: frozen forms remain live for policies written under that edition ([README.md § The two halves](../README.md#L33-L41); [Coverage Wiki Instructions § Editions and supersession](INSTRUCTIONS.md#L105-L109)).
+Do not begin with a free-floating peril label. For example, the HO-3 2024-03 form places Coverage B at 10% of Coverage A and Coverage C at 50% of Coverage A, so the damaged interest and line matter before the water, roof, or property subject is analyzed ([HO-3 2024-03 Coverage B](repo://forms/HO/MS/HO-3/2024-03.md#L153-L159), [HO-3 2024-03 Coverage C](repo://forms/HO/MS/HO-3/2024-03.md#L219-L225)). The DP-3 line has no Section II E or F liability and medical-payments grants; do not carry an HO-line liability answer into a DP-3 file ([DP-3 2026-01 agreement](repo://forms/DP/MS/DP-3/2026-01.md#L13-L39), [HO line Coverage E/F example](repo://forms/HO/MS/HO-3/2024-03.md#L1023-L1071)).
 
-## Then choose the peril or subject
+## 2. Choose the peril or subject
 
-### Water and moisture
+| Subject | Route |
+| --- | --- |
+| Plumbing discharge, seepage, outside water, freezing, or resulting damage | [Water damage](/openwiki/coverage/perils/water-damage.md) |
+| Sewer, drain, or sump backup | [Water backup and sump discharge](/openwiki/coverage/perils/water-backup.md) |
+| Fungi, wet rot, dry rot, bacteria, or microbial loss | [Fungi, wet rot, dry rot, and bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) |
+| Wind, hail, storm deductibles, or percentage deductibles | [Windstorm, hail, and percentage deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md) |
+| Roof cause, matching, repair scope, or settlement | [Roof surfacing settlement and roof claims](/openwiki/coverage/settlement/roof-settlement.md) |
+| Earthquake or California earthquake offer | [Earthquake coverage](/openwiki/coverage/perils/earthquake.md) |
+| Other structures, occupancy, or additional interests | [Other structures and insured interests](/openwiki/coverage/property/additional-structures-and-insured-interests.md) |
+| Association or condominium assessment | [Loss assessment coverage](/openwiki/coverage/property/loss-assessment.md) |
+| Code-required repair or upgrade | [Ordinance or law coverage](/openwiki/coverage/conditions/ordinance-law.md) |
+| Incidental business or personal-injury liability | [Incidental business and personal-injury liability](/openwiki/coverage/liability/incidental-business-and-personal-injury.md) |
 
-- [Water damage, plumbing discharge, and seepage](/openwiki/coverage/perils/water-damage.md) — accidental plumbing or appliance discharge, resulting damage, seepage, groundwater, flood, roof entry, freezing, maintenance, and fungi boundaries.
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-04-90/2027-01.md#L41-L79] heading anchor "L41-L79" does not exist in "../forms/HO/MS/HO-04-90/2027-01.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-04-90/2027-01.md#L139-L149] heading anchor "L139-L149" does not exist in "../forms/HO/MS/HO-04-90/2027-01.md". Fix the href or restore the target, then delete this comment. -->
-- [Water backup and sump discharge](/openwiki/coverage/perils/water-backup.md) — sewer or drain backup, sump discharge, sublimits, deductibles, duties, and the endorsement write-back. For example, HO 04 90 2027-01 covers direct physical loss caused by water backup or sump discharge, subject to a $10,000 shared limit and a $1,000 water-backup deductible ([HO 04 90 2027-01 §§ W.1–W.3](../forms/HO/MS/HO-04-90/2027-01.md#L41-L79), [§§ W.2–W.3](../forms/HO/MS/HO-04-90/2027-01.md#L139-L149)). The endorsement acts on the base policy; confirm attachment and read its remaining exclusions before treating the loss as covered.
-- [Fungi, wet rot, dry rot, and bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — microbial exclusions, limited write-backs, remediation, and state disclosure.
-- [Ordinance or law coverage](/openwiki/coverage/conditions/ordinance-law.md) — code-related repair or upgrade costs and their interaction with a covered loss.
+Water is source-driven: distinguish plumbing, appliance, weather, drain, outside, and seepage paths before applying a coverage or deductible conclusion ([water-loss training](repo://training/water-losses-101.md#L59-L91)). A focused page narrows the issue; it does not replace the form edition, attached endorsement, declarations, or state wording.
 
-### Storm and earth perils
+## 3. Select the governing edition
 
-- [Windstorm, hail, and percentage deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md) — covered storm damage, wind-driven rain openings, percentage-deductible calculation, and multiple-deductible questions.
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-3/2024-03.md#L135-L145] heading anchor "L135-L145" does not exist in "../forms/HO/MS/HO-3/2024-03.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-23-74/2025-05.md#L57-L77] heading anchor "L57-L77" does not exist in "../forms/HO/MS/HO-23-74/2025-05.md". Fix the href or restore the target, then delete this comment. -->
-- [Roof surfacing settlement and roof claims](/openwiki/coverage/settlement/roof-settlement.md) — cause and direct physical loss first, then roof age, condition, matching, repair scope, and valuation. HO-3 2024-03 ordinarily provides replacement-cost roof settlement unless an ACV roof schedule is attached ([HO-3 2024-03 § I.A A.22](../forms/HO/MS/HO-3/2024-03.md#L135-L145)); HO 23 74 2025-05 changes roof-surfacing settlement to ACV at roof age twelve years or greater and requires evidence of age and condition ([HO 23 74 2025-05 §§ W.1 W.1–W.9](../forms/HO/MS/HO-23-74/2025-05.md#L57-L77)).
-- [Earthquake coverage and California offer requirements](/openwiki/coverage/perils/earthquake.md) — earthquake endorsement terms and California offer or disclosure requirements.
+Use the policy-effective date and issued policy record to select the base form and endorsement editions. Confirm the actual wording, declarations, schedules, and complete attachment package; do not substitute the newest repository file or a specimen, quote, or familiar form title for the wording issued with the policy ([choosing the governing edition](repo://training/choosing-the-governing-edition.md#L13-L25), [edition selection guidance](repo://training/choosing-the-governing-edition.md#L61-L83)). The policy date is a selection rule, not proof that an endorsement is attached.
 
-### Property structure, limits, and settlement
+Use [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md) when the answer composes documents. Its sequence is: identify line, state, effective date, declarations, and issued labels; select the edition whose interval contains the policy date; verify each endorsement is attached and matches; add the state form; apply bulletin requirements to administration; then run internal authority and attachment controls ([choosing the governing edition](repo://training/choosing-the-governing-edition.md#L61-L83), [repository authority model](repo://README.md#L33-L41), [manual pre-bind controls](repo://manuals/underwriting/manual.md#L27-L49)).
 
-- [Other structures, additional interests, and occupancy endorsements](/openwiki/coverage/property/additional-structures-and-insured-interests.md) — Coverage B, rented structures, additional interests, incidental occupancy, and unit-owner arrangements.
-- [Loss assessment coverage](/openwiki/coverage/property/loss-assessment.md) — association assessments, limits, deductibles, triggers, and exclusions.
-- [Personal property limits, special limits, and scheduling](/openwiki/coverage/property/personal-property-limits-and-scheduling.md) — Coverage C special limits, business property, scheduled property, and identity-related items.
+An endorsement changes the policy only when properly attached and only within its stated terms; conflicting modified subject matter follows the endorsement while unmodified policy terms remain applicable ([attaching endorsements](repo://training/attaching-endorsements.md#L59-L87), [HO 04 90 attachment boundary](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L23)). For a representative water-backup question, HO 04 90 2027-01 writes back the applicable HO-3 exclusion for an attached policy and supplies a shared $10,000 limit and $1,000 deductible; do not apply that result to an earlier endorsement edition or an unattached policy ([HO 04 90 2027-01](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L79), [limits and deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L149), [HO-3 2024-03 exclusion](repo://forms/HO/MS/HO-3/2024-03.md#L197-L204)).
 
-## Check the state overlay
+For a roof question, establish covered direct physical loss before settlement. If HO 23 74 2025-05 is attached, it modifies HO-3 2024-03 roof-surfacing settlement to actual cash value at roof age 12 years or greater and requires reliable age and condition evidence ([HO 23 74 2025-05](repo://forms/HO/MS/HO-23-74/2025-05.md#L57-L77), [HO-3 2024-03 settlement](repo://forms/HO/MS/HO-3/2024-03.md#L135-L145)). An ACV schedule is not an underwriting eligibility rule and does not decide whether the loss is covered.
 
-<!-- openwiki: broken internal link [../bulletins/TX/b-2021-08-windstorm-deductibles.md#L47-L71] heading anchor "L47-L71" does not exist in "../bulletins/TX/b-2021-08-windstorm-deductibles.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../bulletins/TX/b-2021-08-windstorm-deductibles.md#L213-L231] heading anchor "L213-L231" does not exist in "../bulletins/TX/b-2021-08-windstorm-deductibles.md". Fix the href or restore the target, then delete this comment. -->
-The state page is the place to reconcile regulator requirements with the amendatory form. A bulletin is not a substitute for the policy: Texas B-2021-08 requires clear identification and consistent administration of a separate windstorm or hail deductible, including a one-percent named-storm minimum, a five-percent hurricane maximum, and a ten-percent seacoast windstorm maximum ([Texas Bulletin B-2021-08 §§ B.2.1–B.2.12](../bulletins/TX/b-2021-08-windstorm-deductibles.md#L47-L71)). Its claims standards also require a factual causation determination and explanation of the deductible applied ([§§ B.4.1–B.4.9](../bulletins/TX/b-2021-08-windstorm-deductibles.md#L213-L231)). Use the [Texas state overlay](/openwiki/state-overlays/texas.md) to connect that bulletin to the Texas amendatory form and the policy in force.
+## 4. Check the state overlay
 
-- [California state overlay](/openwiki/state-overlays/california.md)
-- [Colorado state overlay](/openwiki/state-overlays/colorado.md)
-- [Florida state overlay](/openwiki/state-overlays/florida.md)
-- [Illinois state overlay](/openwiki/state-overlays/illinois.md)
-- [Louisiana state overlay](/openwiki/state-overlays/louisiana.md)
-- [New York state overlay](/openwiki/state-overlays/new-york.md)
-- [North Carolina state overlay](/openwiki/state-overlays/north-carolina.md)
-- [Texas state overlay](/openwiki/state-overlays/texas.md)
+A state overlay joins the applicable amendatory form with regulator requirements. The form supplies state-specific contract wording; the bulletin constrains issuance, disclosure, rating, claims administration, or other carrier conduct. The state form implements the relevant bulletin, but neither layer turns internal appetite guidance into policy language ([document families](repo://README.md#L20-L27), [cross-wired sources](repo://README.md#L89-L92), [guidance versus contract](repo://training/guidance-versus-contract.md#L61-L83)). Use the overlay after the peril or subject and before final assembly.
 
-<!-- openwiki: broken internal link [../README.md#L78-L92] heading anchor "L78-L92" does not exist in "../README.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [INSTRUCTIONS.md#L91-L103] heading anchor "L91-L103" does not exist in "INSTRUCTIONS.md". Fix the href or restore the target, then delete this comment. -->
-When a state bulletin and amendatory form both matter, cite the bulletin for the regulatory requirement and the form for the contract implementation. The state form `implements` the regulator requirement; it does not turn internal appetite guidance into contract language ([README.md § Current contents](../README.md#L78-L92); [Coverage Wiki Instructions § Document relationships](INSTRUCTIONS.md#L91-L103)).
+- [California state overlay](/openwiki/state-overlays/california.md) — earthquake offers and disclosures, form and bulletin periods, deductibles, notice, underwriting, and claims controls.
+- [Colorado state overlay](/openwiki/state-overlays/colorado.md) — hail deductibles, roof settlement disclosures, bulletin supersession, deadlines, and evidence.
+- [Florida state overlay](/openwiki/state-overlays/florida.md) — HO and DP amendatory editions, roof-age and hurricane-deductible bulletins, notices, deductibles, and claims.
+- [Illinois state overlay](/openwiki/state-overlays/illinois.md) — producer licensing, water-backup disclosure, amendatory form, notice, and claims controls.
+- [Louisiana state overlay](/openwiki/state-overlays/louisiana.md) — hurricane and windstorm deductibles, named-storm periods, advance notice, disclosure, and claims deadlines.
+- [New York state overlay](/openwiki/state-overlays/new-york.md) — HO 01 31, DFS nonrenewal and data-call requirements, deductible, and claims duties.
+- [North Carolina state overlay](/openwiki/state-overlays/north-carolina.md) — HO 01 32, fungi disclosure, claims bulletin, wind and seacoast deductibles, and claim deadlines.
+- [Texas state overlay](/openwiki/state-overlays/texas.md) — HO and DP amendatory editions, windstorm-deductible and prompt-payment bulletins, disclosure, notice, and claims duties.
 
-## Keep guidance separate from contract language
+For example, Texas Bulletin B-2021-08 requires clear and consistent administration of a separate windstorm or hail deductible, including a 1% named-storm minimum, a 5% hurricane maximum, and a 10% seacoast windstorm maximum. Apply those regulatory controls with the applicable Texas form and policy record; the bulletin is not a substitute for the contract ([Texas bulletin](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L13-L27), [Texas deductible requirements](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L47-L71)).
 
-### Claims route
+## 5. Separate claims guidance from contract coverage
 
-<!-- openwiki: broken internal link [../guidelines/claims/water-loss-handling.md#L37-L57] heading anchor "L37-L57" does not exist in "../guidelines/claims/water-loss-handling.md". Fix the href or restore the target, then delete this comment. -->
-Use [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md) for the operational sequence: intake and cause investigation, mitigation, evidence preservation, coverage consultation, valuation, limits and deductibles, escalation, payment, and closure. The guide expressly says to apply limits and deductibles only after confirming coverage and to escalate unresolved causation, valuation, or regulatory issues ([Water Loss Claim Handling Guidance §§ H.0.12–H.0.22](../guidelines/claims/water-loss-handling.md#L37-L57)). It is claims guidance, not authority to pay a loss.
+A claims question branches only after the contract route is identified. The claims manual supplies intake, investigation, evidence preservation, mitigation, scope, valuation, authority, payment, recovery, escalation, and closure controls; the issued policy and endorsements decide coverage. Investigation, an estimate, mitigation, or partial payment is not acceptance of the whole claim ([claims manual intake controls](repo://manuals/claims/manual.md#L15-L19), [coverage and valuation boundary](repo://manuals/claims/manual.md#L63-L73)).
 
-<!-- openwiki: broken internal link [../training/water-losses-101.md#L59-L107] heading anchor "L59-L107" does not exist in "../training/water-losses-101.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../training/water-losses-101.md#L177-L219] heading anchor "L177-L219" does not exist in "../training/water-losses-101.md". Fix the href or restore the target, then delete this comment. -->
-For a water claim, collect the reported source and path, timing and duration, damaged property, mitigation records, failed component, photographs, estimates, and any conflicting evidence. Then compare the facts to [Water damage](/openwiki/coverage/perils/water-damage.md) or [water backup](/openwiki/coverage/perils/water-backup.md), and cite any attached endorsement. The training material is useful for the intake vocabulary and evidence checklist, but not for deciding coverage or supplying a limit ([Water Losses 101 § L.2](../training/water-losses-101.md#L59-L107), [§ L.2](../training/water-losses-101.md#L177-L219)).
+### Claims guidelines
 
-<!-- openwiki: broken internal link [../training/roof-claims-and-the-schedule.md#L59-L71] heading anchor "L59-L71" does not exist in "../training/roof-claims-and-the-schedule.md". Fix the href or restore the target, then delete this comment. -->
-For a roof claim, use [Roof surfacing settlement](/openwiki/coverage/settlement/roof-settlement.md) after establishing whether a covered event caused direct physical loss. The roof training module says an ACV schedule values covered roof surfacing after coverage is established; it does not decide coverage ([Roof Claims and the ACV Schedule § L.2](../training/roof-claims-and-the-schedule.md#L59-L71)).
+- [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md) — water source and path, mitigation, evidence, coverage consultation, limits and deductibles, escalation, payment, and closure. Confirm coverage before applying limits or deductibles and escalate unresolved causation, valuation, or regulatory issues ([water guidance](repo://guidelines/claims/water-loss-handling.md#L37-L57)).
+- [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) — occurrence, injury or property damage, insured status, defense, exclusions, communications, and liability escalation. It is operational guidance, not a coverage grant ([liability guidance](repo://guidelines/claims/liability-claim-handling.md#L13-L41)).
+- [Mold Claim Handling Guidance](/openwiki/claims/guidelines/mold-claim-handling.md) — moisture causation, microbial evidence, mitigation, remediation, coverage consultation, and closure. Identify fungi or mold early but do not call testing, cleaning, or remediation covered before contract analysis ([mold guidance](repo://guidelines/claims/mold-claim-handling.md#L13-L33)).
+- [Roof Claim Handling Guidance](/openwiki/claims/guidelines/roof-claim-handling.md) — roof cause, condition, evidence, scope, valuation, matching, communication, and escalation. Use it with the roof settlement contract page, not instead of it ([roof guidance](repo://guidelines/claims/roof-claim-handling.md#L13-L45)).
 
-### Underwriting route
+### Claims manual workflows
 
-<!-- openwiki: broken internal link [../guidelines/appetite/tx-homeowners.md#L153-L173] heading anchor "L153-L173" does not exist in "../guidelines/appetite/tx-homeowners.md". Fix the href or restore the target, then delete this comment. -->
-Use [Texas homeowners appetite guidance](/openwiki/underwriting/guidelines/texas-appetite.md) for current Texas risk-selection direction, including required roof evidence, age and condition referrals, wind and hail review, water exposure, prior losses, and authority. The guide requires roof verification, inspection at age fifteen years or more, and no bind at twenty-five years or more ([Texas Homeowners Appetite Guide §§ H.2.1–H.2.10](../guidelines/appetite/tx-homeowners.md#L153-L173)). These are internal constraints on what the carrier will write; they do not change what an issued policy covers.
+- [Claims Manual: Intake, Investigation, and Mitigation](/openwiki/claims/manual/intake-investigation-and-mitigation.md) — claim creation, prompt contact, policy and role checks, evidence, cause, mitigation, coverage separation, authority, and closure ([manual Chapters 1–3](repo://manuals/claims/manual.md#L13-L103)).
+- [Claims Manual: Property Perils and Loss Types](/openwiki/claims/manual/property-perils-and-loss-types.md) — water, roof, fire, theft, weather, mold, loss of use, and dwelling-property paths joined to evidence, scope, valuation, and policy consultation ([manual property workflow](repo://manuals/claims/manual.md#L5071-L5147)).
+- [Claims Manual: Conditions, Authority, and State Operations](/openwiki/claims/manual/conditions-authority-and-state-operations.md) — proof of loss, appraisal, suit, prompt payment, catastrophe, ordinance or law, state timing, and specialist referral. Contract deadlines are not interchangeable across states or editions ([claims manual conditions](repo://manuals/claims/manual.md#L3601-L3715), [catastrophe controls](repo://manuals/claims/manual.md#L4321-L4369), [ordinance-or-law controls](repo://manuals/claims/manual.md#L5311-L5395)).
+- [Claims Manual: Liability, Specialty Property, and Recovery](/openwiki/claims/manual/liability-specialty-and-recovery.md) — liability, condominium and assessment, scheduled property, subrogation, salvage, recovery, authority, and closure ([specialty workflow](repo://manuals/claims/manual.md#L2527-L2681), [recovery controls](repo://manuals/claims/manual.md#L5983-L6283)).
 
-Use the focused manual pages for broader internal controls:
+At every claim handoff, keep coverage, causation, scope and valuation, and payment authority as distinct work products. Preserve reported facts, observations, opinions, and policy conclusions separately; refer disputed or technically complex issues rather than guessing ([claims manual controls](repo://manuals/claims/manual.md#L87-L103)).
 
-- [Manual eligibility by product line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) for line eligibility and pre-bind controls.
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L1963-L1999] heading anchor "L1963-L1999" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L2211-L2249] heading anchor "L2211-L2249" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-- [Manual property, roof, and water risk controls](/openwiki/underwriting/manual/property-and-water-risk.md) for construction, roof, plumbing, and water exposure. The manual requires a roof survey at fifteen years and refers or declines material roof conditions ([Rules 200–210](../manuals/underwriting/manual.md#L1963-L1999), [Rule 210](../manuals/underwriting/manual.md#L2211-L2249)).
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L3991-L4027] heading anchor "L3991-L4027" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L4413-L4429] heading anchor "L4413-L4429" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-- [Manual binding authority, referrals, and unclearable conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) for delegated limits and mandatory escalation. Rule 300 requires referral outside active delegation and Rule 310 holds action for specified open, disputed, or material risks ([Rules 300–310](../manuals/underwriting/manual.md#L3991-L4027), [Rule 310](../manuals/underwriting/manual.md#L4413-L4429)).
-- [Manual endorsement attachment and deductible controls](/openwiki/underwriting/manual/endorsements-and-deductibles.md) for internal selection and approval of endorsements and deductibles.
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L8501-L8513] heading anchor "L8501-L8513" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../manuals/underwriting/manual.md#L8803-L8845] heading anchor "L8803-L8845" does not exist in "../manuals/underwriting/manual.md". Fix the href or restore the target, then delete this comment. -->
-- [Manual inspections and documentation standards](/openwiki/underwriting/manual/inspection-and-records.md) for inspection triggers, reliable evidence, referral, and file records. Rule 600 requires inspection when information is incomplete or unreliable and requires a roof survey at fifteen years ([Rule 600](../manuals/underwriting/manual.md#L8501-L8513)); Rule 610 requires source, discrepancy, decision, and referral documentation ([Rule 610](../manuals/underwriting/manual.md#L8803-L8845)).
-- [Manual liability, loss history, and occupancy controls](/openwiki/underwriting/manual/liability-losses-and-occupancy.md) for hazards, prior losses, occupancy, vacancy, rental, and business use.
-- [Manual state exception controls](/openwiki/underwriting/manual/state-exceptions.md) for the eight state-specific underwriting chapters.
-- [Manual renewal, cancellation, and nonrenewal procedures](/openwiki/underwriting/manual/renewal-and-adverse-action.md) for post-bind risk changes and adverse action.
-- [Underwriting referral and authority guidance](/openwiki/underwriting/guidelines/referral-authority.md) when the question is an authority boundary rather than a coverage interpretation.
+## 6. Separate underwriting appetite and authority from coverage
 
-## Assemble the answer without mixing authorities
+Underwriting guidance controls whether the carrier will write, attach, renew, refer, or require evidence. It does not create, restrict, or waive coverage. Use [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) for the referral matrix and delegated-authority boundary, and [Binding Authority Guidance](/openwiki/underwriting/guidelines/binding-authority.md) for binding ceilings, required approvals, exception handling, evidence, and file controls. Binding Authority and Exceptions allows line binding through $800,000 Coverage A and senior binding through $1,500,000, with referral before a binder above the handler’s delegation; those are internal controls, not policy limits ([binding authority guidance](repo://guidelines/authority/binding-authority.md#L13-L25), [authority ceilings](repo://guidelines/authority/binding-authority.md#L44-L54)).
 
-Use [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md) as the final assembly page. Before stating a position, record:
+### State appetite pages
 
-- the policy line and state;
-- the policy or endorsement effective date and the base-form edition in force;
-- every attached endorsement and its edition;
-- the state amendatory form and regulator bulletin, if applicable;
-- the coverage part and damaged property or liability interest;
-- the reported cause, timing, and relevant facts; and
-- the applicable guidance source, clearly labeled as guidance rather than authority.
+Use the state-specific appetite page for pre-bind eligibility, evidence, risk triggers, claims handoff, and state-specific authority. Each remains separate from the matching state overlay and from contract coverage.
 
-<!-- openwiki: broken internal link [../README.md#L33-L41] heading anchor "L33-L41" does not exist in "../README.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../README.md#L15-L23] heading anchor "L15-L23" does not exist in "../README.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [INSTRUCTIONS.md#L16-L27] heading anchor "L16-L27" does not exist in "INSTRUCTIONS.md". Fix the href or restore the target, then delete this comment. -->
-The corpus has two authority layers that must remain live: frozen forms and bulletins are not edited in place and older editions continue to govern policies written under them, while guidelines and manuals are living internal guidance revised in place ([README.md § The two halves](../README.md#L33-L41)). Memoranda explain edition changes but are interpretation, and training explains operational expectations but is not contract authority ([README.md § Layout](../README.md#L15-L23), [Coverage Wiki Instructions § Lines, states and document families](INSTRUCTIONS.md#L16-L27)). When an internal statement differs from a form or bulletin, the controlling form or bulletin governs.
+| Internal appetite route | High-value routing cue |
+| --- | --- |
+| [California Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/california-appetite.md) | Coverage A $300,000–$2,000,000 appetite, $1,000,000 line authority, roof inspection at 20 years, and wind mitigation above $1,000,000 ([California guide](repo://guidelines/appetite/ca-homeowners.md#L44-L66)). |
+| [Florida Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/florida-appetite.md) | Coverage A $200,000–$900,000, line authority through $600,000, roof inspection at 15 years and no bind at 20 years; keep OIR and contract rules separate ([Florida guide](repo://guidelines/appetite/fl-homeowners.md#L41-L63)). |
+| [Louisiana Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/louisiana-appetite.md) | Coverage A $125,000–$750,000, line authority through $500,000, roof age 20 years outside appetite, and storm or water referrals under the guide and Rule 540 ([Louisiana guide](repo://guidelines/appetite/la-homeowners.md#L49-L73)). |
+| [New York Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/new-york-appetite.md) | Coverage A $200,000–$1,500,000, line authority through $750,000, and referral for 3 paid property claims in the preceding 3 years ([New York guide](repo://guidelines/appetite/ny-homeowners.md#L43-L53), [loss trigger](repo://guidelines/appetite/ny-homeowners.md#L83-L89)). |
+| [North Carolina Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/north-carolina-appetite.md) | Coverage A $150,000–$1,000,000, line authority through $700,000, roof inspection at 18 years, wind mitigation above $500,000, and referral for 2 paid property claims in 3 years ([North Carolina guide](repo://guidelines/appetite/nc-homeowners.md#L50-L64)). |
+| [Texas Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/texas-appetite.md) | Coverage A $150,000–$1,200,000, line authority through $800,000, inspection at 15 years, no bind at 25 years, wind mitigation above $500,000, and water-backup referral above $25,000 ([Texas guide](repo://guidelines/appetite/tx-homeowners.md#L61-L74)). |
 
-### A compact composition example
+These numbers are routing cues for internal appetite and authority only. Do not turn an eligibility threshold, inspection trigger, or prior-loss referral into a coverage exclusion, deductible, or claim deadline. If facts are incomplete or conflicting, hold the affected action and obtain recorded direction ([guidance-versus-contract training](repo://training/guidance-versus-contract.md#L15-L23), [underwriting manual controls](repo://manuals/underwriting/manual.md#L13-L43)).
 
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-3/2024-03.md#L197-L204] heading anchor "L197-L204" does not exist in "../forms/HO/MS/HO-3/2024-03.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-04-90/2027-01.md#L41-L79] heading anchor "L41-L79" does not exist in "../forms/HO/MS/HO-04-90/2027-01.md". Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [../forms/HO/MS/HO-04-90/2027-01.md#L139-L149] heading anchor "L139-L149" does not exist in "../forms/HO/MS/HO-04-90/2027-01.md". Fix the href or restore the target, then delete this comment. -->
-For a 2024-03 HO-3 water-backup question in Texas, route to [Property Coverages A–D](/openwiki/coverage/parts/property-a-d.md), then [Water damage](/openwiki/coverage/perils/water-damage.md) and [Water backup](/openwiki/coverage/perils/water-backup.md), then [Texas](/openwiki/state-overlays/texas.md), and finally [Policy Assembly](/openwiki/policy-assembly/editions-and-state-attachments.md). Check whether HO 04 90 is attached: the base HO-3 excludes sewer, drain, and sump backup under Coverage B ([HO-3 2024-03 § I.B B.23–B.25](../forms/HO/MS/HO-3/2024-03.md#L197-L204)), while HO 04 90 provides a distinct attached endorsement grant, limit, deductible, and remaining exclusions ([HO 04 90 2027-01 §§ W.1–W.4](../forms/HO/MS/HO-04-90/2027-01.md#L41-L79), [§§ W.2–W.4](../forms/HO/MS/HO-04-90/2027-01.md#L139-L149)). Use the claims guide for investigation and documentation, and the Texas appetite or manual only for internal handling and eligibility. The final position must cite both the base provision and the attached endorsement, plus the state document when it changes the result.
+### Underwriting manual routes
 
-## Citation and authority checklist
+- [Manual eligibility by product line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product, occupancy, and pre-bind eligibility.
+- [Manual property, roof, and water risk controls](/openwiki/underwriting/manual/property-and-water-risk.md) — construction, roof, plumbing, drainage, and water exposure.
+- [Manual binding authority, referrals, and unclearable conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — delegated limits, mandatory referral, holds, and clearance.
+- [Manual endorsement attachment and deductible controls](/openwiki/underwriting/manual/endorsements-and-deductibles.md) — internal attachment and deductible selection under Rules 400 and 410, separate from the contractual endorsement.
+- [Manual inspections and documentation standards](/openwiki/underwriting/manual/inspection-and-records.md) — inspection triggers, reliable evidence, referral, and file records.
+- [Manual liability, loss history, and occupancy controls](/openwiki/underwriting/manual/liability-losses-and-occupancy.md) — hazards, prior losses, occupancy, vacancy, rental, and business use.
+- [Manual state exception controls](/openwiki/underwriting/manual/state-exceptions.md) — state-specific underwriting exceptions.
+- [Manual renewal, cancellation, and nonrenewal procedures](/openwiki/underwriting/manual/renewal-and-adverse-action.md) — post-bind changes and adverse action.
 
-Before publishing an answer, verify that:
+## 7. Route rating questions to controls, not tables
 
-- the route began with A–F rather than a free-floating peril label;
-- the policy edition and attached endorsement were checked, including superseded editions still governing older policies;
-- the state overlay was checked after the peril or subject;
-- each material proposition cites the exact source section and a narrow line range;
-- a composed position cites both the acting document and the document it acts on;
-- forms and bulletins are identified as contract or regulatory authority;
-- guidelines, manuals, memoranda, and training are labeled as internal guidance or interpretation; and
-- unresolved causation, valuation, authority, or regulatory issues are escalated rather than guessed.
+Use [Rating Inputs and Non-Table Adjustments](/openwiki/underwriting/rating/inputs-and-adjustments.md) for complete submissions, occupancy and use, location, construction, form selection, valuation, deductibles, protective-device credits, roof and wind adjustments, endorsement premiums, state exceptions, re-rating, and file controls. The rating manual requires a complete submission, recorded input sources, matching form selection, supported valuation, deductible review, and a hold or referral for incomplete or conflicting inputs ([rating procedure](repo://manuals/rating/manual.md#L13-L91)).
 
-<!-- openwiki: broken internal link [../README.md#L13-L31] heading anchor "L13-L31" does not exist in "../README.md". Fix the href or restore the target, then delete this comment. -->
-This separation is mandatory because the repository states that the path carries line, state, form, and edition context, while claims themselves do not; a bare or broad citation loses the facts needed for retrieval ([README.md § Layout](../README.md#L13-L31)). There is no single “general homeowners answer”: the controlling edition, attachments, state overlay, and documented facts determine which route and which citations apply.
+The rating page intentionally routes table lookups to the approved rating system rather than reproducing generated tables. Keep rating, underwriting acceptance, and contract assembly separate: a rating adjustment does not create coverage, an underwriting approval does not interpret coverage, and an issued form or endorsement must match the rated package ([rating boundary](repo://manuals/rating/manual.md#L13-L25)). State exceptions can replace generic adjustment treatment, so verify the state instruction before releasing the result ([rating state controls](repo://manuals/rating/manual.md#L8155-L8191)).
+
+## 8. Final assembly and citation checklist
+
+Use [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md) for the final composition. Record the line and state, effective date, governing base edition, attached endorsement editions, declarations and selected limits or deductibles, state form and bulletin, coverage part and damaged interest, reported cause and facts, and the separate guidance or authority source used.
+
+Before publishing a position, verify that:
+
+- the route began with Coverage A–F and then narrowed to the subject or peril;
+- the policy-effective date and issued wording were checked, including superseded editions that still govern older policies;
+- every endorsement was confirmed attached, complete, and matched to the policy and subject;
+- the state amendatory form and applicable bulletin were checked without treating them as interchangeable;
+- claims guidance, underwriting appetite, authority, rating, memoranda, and training are labeled as operational or interpretive sources rather than contract authority;
+- coverage, causation, scope, valuation, payment, eligibility, authority, and rating questions are not collapsed into one conclusion; and
+- unresolved causation, valuation, attachment, authority, regulatory, or evidence issues are escalated rather than guessed.
+
+Cite each material proposition to the exact source section with a narrow line range. Prefer a canonical `repo://` citation because its path preserves line, state, form, and edition context; when documents compose, name the acting document first and say whether it `supersedes`, `writes back`, `preserves`, `modifies`, `implements`, or `constrains` the other document ([repository citation rules](repo://README.md#L26-L31), [document relationships](repo://README.md#L89-L92), [guidance boundary](repo://training/guidance-versus-contract.md#L73-L83)). There is no single general homeowners answer: the governing edition, attachments, state overlay, internal route, and documented facts determine the defensible position.

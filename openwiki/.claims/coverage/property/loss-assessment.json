@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:6607e8b3c4fb382a0f42001016d99599bc0ee628ba127e31522a1030afa0b903",
+  "pageVersion": "sha256:8997f0fda2345a8fbc0a7cb9b69bd3743a3b4d9fd4c96f356a025251716b0652",
   "claims": [
     {
       "id": "claim_adacb86d3f2640fba98f4dd96cfe7b96",
@@ -289,10 +289,68 @@
           "version": "repo-lines-v1:sha256:bad5eeae39c18c681a2af97ca4497489c144c25560d314e2be6ede8c99862010:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTlkZmQwZGRhNzdkODBmMGRhMTkwYmZiODJkZjhlY2IyMTU0ZjE4ZjExZTFkMGFlN2VlYzQyMDBhODY5ZTI1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1YjgwNmYxZmE4MDUzMDE2N2FkZGZlZWE2ODk4ODc2YTI3NzUxMDY3YWUyOGY1OWI4ZjNlMTgxNWZkODQzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzIyODZiNjEwNjNiODEwNmIzMmZkOTdmNzExZDNkOWI1NDk3ZjBlNGY0NWIzNjJjNThkMGZlODAzNTI5MmY2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTIyZTY3NGYzMWQ0MWFlYmI1YzEwODJjMzVmZTMwMDcwOTQ5MGQ4ODA5ZjhiMWE4Y2I5YWYwYTg3ZjNiNWQ1ZSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_82bf64c2422d45bfa60a2cbc563469a7",
+      "statement": "A condominium master-policy gap requires separate review of association responsibility, unit-owner property, covered cause or liability, and the owner's legally allocated assessment obligation because the declaration, master policy, and unit-owner policy may assign different responsibility for the same loss; an assessment notice or master-policy response does not itself establish unit-owner coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L41-L77",
+          "version": "repo-lines-v1:sha256:09fa538da4622486fbef084562e03cebff75b3a8f45fac28412e1835cc85b2d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkZDkwYTBmNmM1YzM5ODc5ZDgwNWE0ZDg5YzI5MTRiMzA3MmE5ZDI4ZGI5YWUwOWY1MzJmNGZjNDY4ZWM3YTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlNjIwMjQ0MmJmOGU1YzBlN2JlNWM0ODI4MjVhYjlhNTQxMzcyZDFjYmI3MzE0MDMwM2IzZjhlMjg2NDE3M2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwYTI5ZTAzMTY2ZTAwM2EwYWRkZTA4MDYwNjY5NjNkNWU3YTBjMGUzMjI4MDEwMWI4NzkxN2Y4NzA5MDc1ZDkifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L141-L159",
+          "version": "repo-lines-v1:sha256:9237fbccb063336dc17f5e026f6ccebcccc6c206047e81b4307f2345c7389432:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzOWFhYzBlNDVhMTczYWM3N2QzYWIzMmVkY2M3NjlmYzIzMTM5YTIxN2UxZWQ4YTU2N2IwNWU3ZWZkMTRhODgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1YTlmZmVkYTgyMTIwMTI2NjZhN2MyOGZmMTcwOWRlMWY5NjFmYTUxYTE2MjI1N2E0OGI3OTBjZGNiYmU3ZmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmNjMzOGJhNTY0MzY5NWJhM2JlNjNhZmQ1YmYzOGJkMGYwYzJlMTA5OGIxNWQ2MWZiYWExYjhmMmExYmJkNjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3MmVjM2MyMWNmZGJhMmFmODAzNGRiYWI5ZGY3NTVmYzczNWEzZjRiYjdiNTI1NTQxMmM2YjY5MDY1ZGI0MGUifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L61-L71",
+          "version": "repo-lines-v1:sha256:cc2df77698c3610da8209b340fba94dcf2de30a6fd36a2b3a5830844b4660efc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwZGY1MjIyODhhMDkwMjc2NzJhNDBjZmI4MjcxNTdjNTNhOWE0OWRjZTZmMmVkMWM3Zjk3NzE2YTM3NzM5OGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzOTM2YTY1ZDNhMmMxYjZlYzg2Zjg4NGMyOGYxNjI1ZjRiMGZkZDQzYzdiZjRkYjQzMDViYzVmYTU3MDA2M2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxNDc3YTczZGExM2U2YjRmZThkZDBiMGI2OGE5ZTRkZWUzNjg3Y2IxNTgxMmVkMzllNDdjNGJkMjk1MmM0MjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiYjZhYTQzZmY2ODE5NWJlYjVlZTRiYTI5OTI4NDA4OGZkN2I1ZTI2NDAwYjhlYTIwMmMxYjQ3ZDk4ZjMyOGQifQ"
+        },
+        {
+          "resource": "repo://training/condo-master-policy-gap.md#L914-L924",
+          "version": "repo-lines-v1:sha256:26a432f431dc27543c6b677a7bd632b0028747a9cfb18c4fa7ae776984c9d1b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzY2E0ZGQ2ZDYzODVmMDlmYTgzMGY5YWQ5MjI2NzI4MGEyY2JmMTgyMjMxMDhlNzZjNjhiZjk1NWI4NTRiOTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYyNjk5N2ViNjU5YmYzYmMwYTk3ZTIxNmY4MmNiMTMzYmY1MzViZjE2Y2MyZDdkZmU5N2U0MGNiMzAzYjE1ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmYmE5MjFmMDZhYTIxNWVhNGZlMDA3Yzk5ODc1ODFkMzhkNWNiNWFiZDliNTNkMTVhM2RmZGU3NTQzNGMxNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2ZDM5MzIwMzExZjkwM2YwOGUxMTI3N2I5NzliMDM1YjUxYjJmZjhhMGQyMmQyNWFmODg0ZWNlZTBkMWUyMWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ef9c923a4fb749c28e233aeeb4966bc8",
+      "statement": "Training and other guidance may organize fact gathering and identify coverage questions, but cannot add, remove, or revise coverage; the applicable policy and attached endorsement language controls the coverage position and assessment limit.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L13-L39",
+          "version": "repo-lines-v1:sha256:a5c3110798ac17ed93095b454c61306a2be1ef9b0b41978df56ffa095cce474c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlODgyMjMwYTcyZjc1YmEyNThkZDM3NjIzZTdjNDVmYjAwZWM0YTA0MTAzNmI5YzQ0NWVmMDExMWFhZWNhZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://training/guidance-versus-contract.md#L15-L23",
+          "version": "repo-lines-v1:sha256:3b2a66e8e45f161214ddd2ff811b976dda5d8a25158afa0bb94703ad3ca371fe:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGNkMmEwN2RiMTBlNTlkODJiZGU4ODA4YmY5Nzk3YjU0MTdlYzQ3M2I0YmRjYjRhNGM1MGM2MDRkNWY1MmMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM4OWJlZDMyYzRmZjZjYzc2OTZiMjJlMWJiNjBjNzIzZWE2ZGJhZDVmYzQ2NTJjOTE2ZWM5MzFlNzJjZDk0ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y3MDE1MTBiNWY3YjIwNWUzNzUxMWMzNjg5MjMzZjllOWNmYjc2NDQ5NTAwNDZjZjMzNmYwYjg4MWMwMTQzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyZjAyMjA2ZjAwOGU0YjgxNDkwOTdhZmE2YTAzODBmZjY3MGI4ZjYxNzIzY2ZjYmNmN2VjZmQ5NTk2YjRiMCJ9"
+        },
+        {
+          "resource": "repo://training/guidance-versus-contract.md#L685-L691",
+          "version": "repo-lines-v1:sha256:399e6c6405698860eba590f09d55d2fc0232d7977b37fceb3eccf10387db0644:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDI1OGVhNGVhYWQ0NTI1MmFjYjMzYTdkYWYyOTg4YjljMDIzNGE0Y2Q3YjgyODhiZWFhMGJiNzc4ZjJiMGM2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4MTkyYjlmMTA1MWE5NDNhZTVkNTY3MDQ4OThlNTgwMzk2NjJhMDBiZjM2NTIwY2FlMWY4YjI0YTA0OTBkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmY5MmMwYmY1MGMwZGNlMmJiZWUzNGNlYjlmNjYzNzVmMWFlYmYwYzI5YTE0YWIwNmI4NjkzZTg1ZTEyODI1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTI3NzQyYmRjMWJjNGY3ZDU0Y2RkNGI2MzAzMjM0Y2VjOGRkNzYzZTJmY2ZlNThkNmI1MGZhZDJjZjI2YmM2YSJ9"
+        },
+        {
+          "resource": "repo://training/guidance-versus-contract.md#L73-L103",
+          "version": "repo-lines-v1:sha256:3b95e245d60092f9f58b97337a284178fea5fcd5b751d8f383492c37707c52b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMTllYzg4YWEwODY3NWM2NDdmNWEyOGI4MWI1ZmJiOGRlZDgzMWQyZDg0MjIxOTYyMTE1ZGQyYWVkMTlhZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMxNjRkNDhhMmJkNDQyNjkwNzViZDA4ZWQyZWVhMTZjOTQ0MzQwMWJlMmEwNTgxNmU2Nzc2ZGU1N2QxYjg5MmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhiMzRmNGU3ZWFhNWE2OWU2Nzc4NWQwNmVhN2NkOWY0ZWU2ZTJiMjFmN2FmNmFiZTY2ZjZkNWQ1ZDZiYzFiZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhlNTJjYzA5OWQyNWE3MzdiZmViZDdkNGNkNGEwY2U4ZDZiNWM5ZDkxYzMwZDNjMjM2MDI1ODI1YWZiMDQ3ZDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_40239f2f2ee345c49f662dbbbed52023",
+      "statement": "Under HO 04 35 (2023-02), an association Master Policy deductible can be a covered assessment component only when the Association charges it to the insured for covered Direct Physical Loss to Collective Property, while the applicable policy deductible is separately applied to the covered Loss Assessment amount before payment.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L203-L231",
+          "version": "repo-lines-v1:sha256:e2d4914b217089b7a2fa10c55728bb79aa78e4b0f4220b6ef86b03a9bfd9ede7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwMjQwMWUwNzQzMTUyNTAwYWJjMDExNTRlOGQ3ZDBkZjhmZGU5ODcyNzgzNmE5ZWFjNDY5MzdiYmJlNmZhMzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFiODAzZTdiYmQxMjRlZjNiM2IyYzg1MTk2NDA5OTBiNTBjYWE4OGVlMzdkNWNjYjAwNDg1YTRhYzVhZGNhYzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzOGIwNjVkODRiYThmYTM4MGZiYmRjMGQxYTAwZDIzMTc2ODlmZTUwY2FkMTY2NzE2Yzg0ZDE5NjE4ZjZkYTkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L49-L61",
+          "version": "repo-lines-v1:sha256:01c998d799e75abd3172482a0f41189db9f5acd0db8f9c8e68eb563946a478f4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlNTEyODA5NmZjOTVjYWQwYjkxYjYxMzU1ZDliNWI3NDAwMGM1NTVmMDA4ZGVmZGIyNGExODExOGQ5NDZjODIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0OWJmMzAwYTcyZmViMzEyNzhjMjM5ZmExY2ZiYTRkMzkxYjUzOTg4MDA4NWRkMWMxYzg2ZWQyOTk4OWQ4NjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjExZmY2MDBkNjI2MzU3Y2IzYzBkZGZjNWU0NTM2MzNiNTllZmYyZWUwYTQ1YWJlMGQ1NDQ1YmJlOWUzMWJmMzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmNDI3MDMzNmZiNzYzNmZjMjdhNWY0ZDRlZjA0YjE0OWRjZmM5MzVjN2Q0YjlmNjYwYThlZmE5NzdlMjA3OWUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

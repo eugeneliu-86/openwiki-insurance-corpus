@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:42de11f0b23c0dd8dcbb20a4cfffd32e37c7e3fcb3539ae39f54dbdf04391904",
+  "pageVersion": "sha256:075b2788a5a3875896628be7715acdffa2f42384b4e5712b9cbe8d883748f7bc",
   "claims": [
     {
       "id": "claim_ba0afb72df08460f9367983397a38012",
@@ -245,10 +245,98 @@
           "version": "repo-lines-v1:sha256:a8b2bc0536468a62bbc5f2dbcb8f228255b0f2befa4a61967cf3d07406a52675:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ODMyM2M2Mjc2YzI5OWUwZjNiZTA4NjA1N2U2YzI4ZGNkZjllZDE1ZDA5Yjc4YTJhN2JjOGQxYWFmMDJhZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3ZWQwNGE1YzY3OWI3YTE1ZmRjOWM5MTE2NWVjNDc1YTM1Yzk4YTY0YTI4ZjgyYzNhMjUzYzM1ZGY5OTM3YmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxYjYxNGNjZTgzZGM0OWQ2ZDhhMDM5YTVkMzBhOWUwYTIyMjZlYWRlYjYwMzRhNmQ5YzM0MmNhNzY3YzMyZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlMmQ3MWRkYWQ2NDAzNWNhYjQ2MDg2MjFlZmJlNzExMTVmODA5YzhiMWNmNzQzMDdiY2NjY2MzOTAxZDUzNTYifQ"
         }
       ]
+    },
+    {
+      "id": "claim_7f689b524f744216aaf38d84242fab8d",
+      "statement": "Edition selection requires both date matching and issued-package verification: the policy-effective date identifies the candidate base and endorsement interval, but an endorsement’s contract language is used only when the issued package shows that it was attached; a listed or requested endorsement without the attached wording requires clarification rather than an assumed coverage result.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L35-L37",
+          "version": "repo-lines-v1:sha256:4caff3c45906fdbdfc924e297f83468e6c6c26ec71ec885137d8d52b15fb595c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGRhNTZhZWQwNDgxMjRhMmMwNTI2YTM3ZDA5MWMxZGQ4N2YxYjVlOWUyNTVhYzYxNGM1MTVmZDBkN2U5MmYyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM2ZDRkZmE0ODhlZDRjZTk5ZWM3ZDBlN2QzNzBlNTRiMjZmMGYyOTkwMjgyNzQ1NjVlNzhiMmEyZWEwNjgzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzM5ZDY2ZjE0Y2ZjMGY0NjcxYTFkN2IxMjA5MjM3ODFjNmZjMjFiZWMzZjViNDY4MjNhYjc0NjQ3ZDliZDI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJmNTE5YzUxYjA4NTNhNGJiZmM2ZmZhODZmZDVmODM2MjE2Mzg2OGU4MTg5ODVlYjEwYzg2NzFmYTg1ZTUxOCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L15-L39",
+          "version": "repo-lines-v1:sha256:14ef81afde2773586474fbd2f0ec9d75168dc4f72a1009e984a7ae30ac3ce4a4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkZWUxMjM0MDRiZDVhYzlmZDc0ZTkyYzFkNTZjZTg3MTI1YjY2MzAxMjhlNTk5ODhhMGNlMjBiYzM5MjJlOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyZjZlOTNmMjY5MDU2ZTRlYzQ5NTRjNDliYjM5NjM4NTBmNmVkZmFhNWIzZmU1YTQyZTJlOGRhYTUzYTE0MjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L65-L87",
+          "version": "repo-lines-v1:sha256:20557c37b933bd0559a5720fea9a06dc18617f8efd324274f2495697ea62bd5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0N2RhZmY5ZDZlN2QyMzIyZDQ2NzAxYjUxMGY0YmNmNDA2MjJmYzJhZDNmYmI5NDBjYTE1YzA0ODczNDg3Y2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmNTk0NmNlMDdhMWU4YzQxNWY5MjRhMDk1NzFmMTMxNDQ4MmM4M2EyZWE4ZmU0MGQ1OGI4MDk0NzYyOWZjYzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4ZmVjMzg5M2I1MTEwMzFjYTI1MWViNGU0NjEyZTMxMjlkNGY4N2YzNzZmZjMxMGIzOGMwMjRjMDg5YWMwODgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE4NDdjOTEyZjBmMGNkNDJhM2Q1YmY5MzE4ZDFkNTVkNDU3OTVhZmZmNmM5N2M4ODMxZTE5MTk4MDcyOTYxNjkifQ"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L69-L79",
+          "version": "repo-lines-v1:sha256:8c8aa0787112bf6cc25a9c8aee920938072a49c14ea7e755cbd0f1e28d8f5aeb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhMTZkYjc5MzhlZDMxMmZkYzJiNzYyZTU4ODY5Y2M0YzUzMmQ1MGNjYmRkNTljZmIyZWU2ZDZlMDM1MzZhZDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxY2I5NzYwNTIxNWE2YmQ5YjM5NjIzYjFlNzYyYzk5OGY0NGU0YTI5ZjA2MWNmOWI1YmQxNmEzZTc2ZTdjODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5OTM2Yzc5YTA1OGYwNzNiMDJlNWRiZGE3OWI2OGQzMGIxZDdlNjE0MDkwMmYwNjcyMzIzOGRiNWFlMzhmZTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFjMTI1ZDhlNDg2Mzg4YzI5YTQyNTlmMTNkNDJkOTFlZTYwOWE1ZjA0Nzg4MDI2Y2U5NDk1NWQ0NDQ4OTdkYzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_909c9ce2c9da4ca7822a039ca2b280d1",
+      "statement": "The HO-3 2018-09 and HO 04 90 2027-01 filing memoranda explain revision rationale and terminology, while the filed forms remain contract authority for coverage, limits, deductibles, exclusions, and conditions.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L15-L21",
+          "version": "repo-lines-v1:sha256:7b5d83d94d47c9e8cb4c828980917f4f4ae895901ef68ddec1f847f11c9311a9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ZlYTk5OTdjYjgyMjg0ZjcwNjU0YTI4MjhhNWM5ZjcyMDNjMzljMjdkNDhlYWEzMDg3NmZhMTUzZjQ0YTZjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGVjOTA2ODU2ODFiNDFjMjZmNDdjODUzZGZjOWMzYTMyMWEwYjQ0ODYxZGY1MTdmNmQzNDA0N2RmNzI2NWU1NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2VjYjI2ZTA4YjdjNTI2NGI3NDNiMDQ4MTZmNTVhNDIzNWM0YzE1YTgwYWViYWM4YjljMjI2MWQ0ZGI2NDQ4ZSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L15-L39",
+          "version": "repo-lines-v1:sha256:14ef81afde2773586474fbd2f0ec9d75168dc4f72a1009e984a7ae30ac3ce4a4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkZWUxMjM0MDRiZDVhYzlmZDc0ZTkyYzFkNTZjZTg3MTI1YjY2MzAxMjhlNTk5ODhhMGNlMjBiYzM5MjJlOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyZjZlOTNmMjY5MDU2ZTRlYzQ5NTRjNDliYjM5NjM4NTBmNmVkZmFhNWIzZmU1YTQyZTJlOGRhYTUzYTE0MjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L13-L39",
+          "version": "repo-lines-v1:sha256:902a19d0ffa53714f8b47eed665331e56b0d7b03632bca476f7d2b14625732ed:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYTNmMTBkYzkwZjIwZWI1MzgwNTE0MjRmZDk3ZjhiNTEzMzZmNDE5MTIwOGQ2YzQ3OTM4M2IyYWVjMDcyMTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1MzE4Mzk2OWJkMmE0YTk2NzM3NzFmODdjMjVjZjAzYTY4NmFmMWY3ZDY5Mjc0ZTliNzkxYTMwYzhmNjliMjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2NzMzNGY1ZTRlODA4MzY4M2FlNmJlYWM0YTFjOGUwZjNmMmRkNzI0NTMzNmNhZTEzMzI3OTg4OTExM2I2N2QifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L13-L31",
+          "version": "repo-lines-v1:sha256:b67abba9953bda573506c9752d97db12aa367d47ac52f86fa9e1be2959c89194:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2UwMmMyNmNiMGQyZGQ2MjMyZDE0ODI5ZGZkNzgwZmJjNDY5ZDM4ZDJkY2NiMjcyMjRiMjcyMzUzMDBhZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhOTM5OGZlOTM1MjY3NmFhNDZiOTA2ZWEyN2Y4ZTQ4NTE2MzU5NDA0NTljZDRjNDQ2NDE0ZTkyOGU3MGRmMzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNjMzFkZDhhYWY1ODFhNjBkMjExYTk3MDkzNDA5ZGFkZTU5YTQwMjFlMmIxYTM3NzVmN2Y3MmMxMjYwMzIyNDAifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L13-L99",
+          "version": "repo-lines-v1:sha256:dce4c54cf8aaed198f9a0bc5cda9ea23fbf0814b81d391f93b974cb5ccdf358c:eyJzZWxlY3RlZExpbmVDb3VudCI6ODcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2UwMmMyNmNiMGQyZGQ2MjMyZDE0ODI5ZGZkNzgwZmJjNDY5ZDM4ZDJkY2NiMjcyMjRiMjcyMzUzMDBhZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhYmZmMjIyZmY5NTc2OTFkMGI0ZmUyYjMxZjhhYTM5MzNmZTgwOGM0YzVhMGE3NjE0MjkxNWRlZDU1NGNiMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGQ3M2FjOTMxN2UxOThiMzVjN2Q5YjUwZGZmYzU3MjdhMDc0MmM0ZjJjN2U0YWM4ZTU2YTQ4OWM0ODAwYWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f789aa6b179548fcafd920bb7c3c1397",
+      "statement": "Training material supports edition and attachment review but does not establish coverage for a live policy; the applicable issued form and attached endorsement provide the contract conclusion.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L15-L39",
+          "version": "repo-lines-v1:sha256:14ef81afde2773586474fbd2f0ec9d75168dc4f72a1009e984a7ae30ac3ce4a4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkZWUxMjM0MDRiZDVhYzlmZDc0ZTkyYzFkNTZjZTg3MTI1YjY2MzAxMjhlNTk5ODhhMGNlMjBiYzM5MjJlOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyZjZlOTNmMjY5MDU2ZTRlYzQ5NTRjNDliYjM5NjM4NTBmNmVkZmFhNWIzZmU1YTQyZTJlOGRhYTUzYTE0MjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L15-L23",
+          "version": "repo-lines-v1:sha256:4f222f51fb0c00223e86abbb67bbee18c88bad31035ca65ce36a1788405686e2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQwNDE3ZDllZDVlYjQ5Mzk0OWFjY2Y0NDY0YmYzZWIzNDc2MjFmN2I5MTY4MjExNGEwNzIyMDZlYmE2OWNkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjkxYzU0NDg1ODA5NGRjZDZkZTJhNTIxZjJlMmFmNDcwYTA4ZWE5YmVhOThlOWExZjg2NjJkMjQxNmVmMTk2YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y3MDE1MTBiNWY3YjIwNWUzNzUxMWMzNjg5MjMzZjllOWNmYjc2NDQ5NTAwNDZjZjMzNmYwYjg4MWMwMTQzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGZhZTJmYjhjNWM2MTMzMjU4NmQ3MzFjZWFlMzk4YzEyNGY1ODk0Njc1MzM3Y2JkODgwMmQ5Njk1MmI1NzkzNiJ9"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L101-L107",
+          "version": "repo-lines-v1:sha256:c52aec495838a6b1088e15c6a97057a926e844491d7f076c099d3f10dde26f77:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRjYmM3ODA1MWE3NTE2ZTVmM2VkYTk0ZjE1YzEwMDJhOGEwOWQzNDU3OGM3MDY0OGJmZThjNDRkZDY3OWIzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzZmMDljN2QyNmFkZjQyNTFkNzMyNTNiOTVhMDQxYzY5NzgzMWRkM2EwMWRmMjg4M2YzMDljMTU2ZDRiZGRmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTcyNmQ3OWY1MzcxNDRhN2VjNzc0ZTc4ZmQwODg1ZGIyNzY1MjMzMWQwOTgxMzZiZjc4NzE3ZmY5MzkxNmQ0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzI4YTI2NWI1NzU2ZTFjYjJiNjMxNTY4NTNkMTE3MzI2NjI0MzUzNTI1Yjc0ZTMyNWFmZTc3OWNiODU0ZmNjOCJ9"
+        },
+        {
+          "resource": "repo://training/guidance-versus-contract.md#L73-L83",
+          "version": "repo-lines-v1:sha256:a31988500b80354d421ae48b83e7d6902273665557d65219e908bcb61f0cd9bc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMTllYzg4YWEwODY3NWM2NDdmNWEyOGI4MWI1ZmJiOGRlZDgzMWQyZDg0MjIxOTYyMTE1ZGQyYWVkMTlhZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhYTEwM2I3YmU2NjJiZDg4ODU2YTc0ZjE1ZWJkZGNhMTY5OWRiOTI1MDkzYWVmY2E4NGRkZTZjMjljYzNjNGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhiMzRmNGU3ZWFhNWE2OWU2Nzc4NWQwNmVhN2NkOWY0ZWU2ZTJiMjFmN2FmNmFiZTY2ZjZkNWQ1ZDZiYzFiZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhhNmU0MzA0MzlkZGU4YjcyOTUyYTkzY2QzNjUxOTc3NDU1YjUwMDFiMTgxZDQxMGMwMzkwNzQ5NzQ0NGQ3YjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f89378b489d14bd281dccc6766bd118f",
+      "statement": "Texas Rule 510 is internal underwriting guidance that constrains authority and referral rather than coverage: it permits line-underwriter binding for Coverage A up to $800,000, requires senior referral through $1,200,000, requires referral for water-backup limits over $25,000, requires a roof inspection at 15 years or more, and requires Texas address verification before quoting or binding.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L15-L35",
+          "version": "repo-lines-v1:sha256:d12531df7789c5f42ca076dec461570772be5ae53178270bfc6b31ba3339fec2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4OTFiMDYxZDEyY2YwZWIzYWZmYjE1ODQ0MTU0MGJjMzAxYzQxNzE0YjJlYzc5MTBkN2NjOTFhMGEzNDFmYzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE1NGJhYTM4ZGExNTc3MjVmZmI1NjIzYjhjOTgxMTY0ZjBjMjI3M2JmZjU3NGVjOTVkMmYzOWJiYjgxYmZmZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5YzJiZGY1NjUxOTY1MjFlMzcxMjRiZjMwNGM4NmNlMzA4Zjc2MjU1YzJmNDQwODMzNTczMjE2Y2QxZjk3NGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2MmRiM2QxM2M5NDY1NGJjN2I1ODEzNzk2ODM0MzM2OGFmYjc3NTJhODg4NGZhZGM4NWUxMjI2NzI2YmMxMTcifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
+          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6227-L6263",
+          "version": "repo-lines-v1:sha256:8eb2c748ae5f5812c8140036b685b04806b1f8066639cea7d2a79b15957f69b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTkxYjY4NmFmMGJiYzYzZjk4N2UzOTk0ZGMyZmMyZTQ3ODg2MDFkYTgyNDQ3YzZlZjAxYzIwMGU5ZTVmNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3ZWQwNGE1YzY3OWI3YTE1ZmRjOWM5MTE2NWVjNDc1YTM1Yzk4YTY0YTI4ZjgyYzNhMjUzYzM1ZGY5OTM3YmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiZDZlYTJkZDA5ZGJiODRiZDlhNWViNTI4YmY3NTZiNDFjZjllYmFiZjZjYTU2YTJlNGIxMTgzZDY2OTMwNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlMmQ3MWRkYWQ2NDAzNWNhYjQ2MDg2MjFlZmJlNzExMTVmODA5YzhiMWNmNzQzMDdiY2NjY2MzOTAxZDUzNTYifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

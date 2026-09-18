@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:a8937df043f63ca7aeeb703ce94a1d0008cc81362a2614ecda4e0c66b4d0846f",
+  "pageVersion": "sha256:bb6d1bb8dc33fd04bb4d5b3b279fd6790c8948ea11e7a3baa9f5f848b3debf4a",
   "claims": [
     {
       "id": "claim_324609de2d014e5682a87ba708c53b66",
@@ -209,10 +209,84 @@
           "version": "repo-lines-v1:sha256:662f0fab5556a79c325db76887acd790019b1ca19197d266818f2f2a7e213c9f:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllM2RmNTBhYzQxMTgxNTRiNzdjYTg4YWRjYzg4NGZlMTg0ODA4ZWZjMWUyZDU1NGRhZTc1NDNmNmY4MWNiYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhNmU1MGVjNzQwMDlhZjU4NWQzNzEwZWEyMDEyZjlhNDA4NWMyYTYwNWM1MWZhNTkyYmU0MTkyNmZlZjU2OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4NWNhNzU4NzZkYWI1YmRlODhhMzY1MTVhOGE1YTRhODcwMzRhNDRlY2ExNDUxZDQ4MWY5ZWE2MjQ0MGFkYjkifQ"
         }
       ]
+    },
+    {
+      "id": "claim_c2954cb02fd84ac8b8306632dcf4760f",
+      "statement": "The fungi and mold claim-handling guidance is internal operational material rather than part of a policy contract; policy language, endorsements, and applicable law govern the coverage scope, and claim handlers must review applicable forms and endorsements before communicating a coverage position.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L13-L27",
+          "version": "repo-lines-v1:sha256:81f0c731b25bb9cb0940c8824f0a6b54f70ec33f398bda5f6987005dff6d332c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzZmJjYWZhNjhiYTZiYTgzMGNkZjVhZDYxZjkxMzBlYWVjNmQ3MmJiMDY5NTVkMGE3MDVhMWNlNWJlMDVlYmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBmMmE1NjQ0N2ExZGVmOWI0NjY5ODBlNTFjMjM3MmY2NjExNjhmM2JiOTc1MTNiYjQ0OWRjMTJmN2JiZjAwZTkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L13-L19",
+          "version": "repo-lines-v1:sha256:19cab75035eda145d42ba9bed3783e6f8fe371fbdb6b167fb1d11820fb422a9b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyZGQzNzgxNmRiYjcyMTY3ODhkNzU3OTBhOGMyYTJhZDJmYzkwMWFmYmFmYmNhNmZlODY5ZjhmNTc4ODcyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhmMTBhNWM4NGY2ODM4MDI1Yzc1MjAwNDk3M2E2ZGZhMTUxMmY2MDc2ZTRlNGU0Zjk4OWI2MTY2NWFmMmRiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBiY2M0MDE2MjA3ZjhmNWI1YTE0NTgxMTcxMTEwZWNiOGNlYzJlNGEwMzJiN2MwNTg1MjcxN2IyYzhhMWY3NyJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L45-L55",
+          "version": "repo-lines-v1:sha256:14ff55c6d4889232a9b7f7421acf771e6d9c999d886b3f40ddf94fa7611ef000:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1ZjE4ZDJkODFlYTVmYzZhZjNjMmVmMDYxNjI1M2E4NGM0MTc0NTNlYTkzYmQ4MTI1ODg1MWYwZTdhOGIyYmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2ZDFlYzg5YzEwNGZhZDc5MjZiOWVmNmU5Y2Q1MDUzMmRhYjU4NmQ0YWRiNjFiMzU0MTBmMWI1OTkzNTM0M2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM1ZGQzNDA2MjA4MDVmYWYzYjhiMWE5ZjVmMmQ0OTkyOTA0N2M5ZWRlOTBiNjcyZjgxNTdlOTRhOGYzMDhjYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0MWRhZWNiYzE2NGJkNWFiYzFjMjllZDI0YWI0NTJlMWQ0N2ZhMmJlNGNlYzYzYjZmYjlkOTVjZjYyZTU3MWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a659067fd20b4b7b9ed5a58f03f71326",
+      "statement": "Fungi and mold handling requires early identification of moisture, water intrusion, concealed damage, odor, staining, or growth; separation of direct physical loss from fungi-related damage; and collection of source, timing, inspection, photographic, invoice, remediation, and estimate evidence before characterizing claimed work as covered.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L15-L33",
+          "version": "repo-lines-v1:sha256:a1808bf22e5e9b0926de7e5ad680b5d3350aabef5704bd8f62dbd54ab2c70104:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5NjJkYzI4MGI1YTg1OTlmODFjZjhlMjA0YmEwNTA2MzAyMWY5OGI1ZmFjYjQ5MGI4MzQxZjJkYWIwN2E3MDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5YjFhNmVkZWI5YzA1NjczZjY1OGYwOWE0MzVmM2QzMTE0NmJiYjk0YmUwMjBiNmQ1YmJjZWFmMzZiNWE4ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5YzJiZGY1NjUxOTY1MjFlMzcxMjRiZjMwNGM4NmNlMzA4Zjc2MjU1YzJmNDQwODMzNTczMjE2Y2QxZjk3NGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUwZjVkYWZmYzJlMmY2OGMxYWJiMGNkNzNiZWU2NDc1OWFiOWMxN2EwNjg3MThjZDFhZmQxMGE2YjkzMjJmOGIifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L601-L635",
+          "version": "repo-lines-v1:sha256:bc971152f8f4ff3341b7a5967ba7b36ff61b1ff4da61faa1ea31b2fe7cf62e75:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxYzMxZDZhZWE2MGM0OWViZWRkYTZjMjY4ZTc0YmRlNzY0MjIwYTY0MjA5ODBmMTdmYWEwM2NmNDNkZmQ4MTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyZDkwOTkyOWMwMmM3Y2QxZmRkMjI1ZDg4NDNiZjc1ZTY1ZmZkYTkyYzkxMGU2ZGMzMGRmNzI0Nzc3NTM5YTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyZjRlMGZlZDVjNjljNDBhMGNiNGVjMGI4ZjY1Y2Q4ZTNiMmQwMTU1NzlhZWIyOWQ4MmQzOTZlZjhmZWFhZWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1MmViMDJiYTc2N2Q1ZDQ2NTIzMGVkOGI1ZmQ0NWNlMTA3NDE3NDcxNDFlYzI1MDg4ZTZhMDkyZGU3MjU1NDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_244e3189137e4c24bad1f1bb4d98a1f3",
+      "statement": "The handling workflow separates prompt acknowledgment and reasonable protection from permanent repair or replacement, preserves samples and removed materials when relevant, and uses qualified experts when source, extent, contamination, or repair method cannot be reliably determined.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L601-L635",
+          "version": "repo-lines-v1:sha256:bc971152f8f4ff3341b7a5967ba7b36ff61b1ff4da61faa1ea31b2fe7cf62e75:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxYzMxZDZhZWE2MGM0OWViZWRkYTZjMjY4ZTc0YmRlNzY0MjIwYTY0MjA5ODBmMTdmYWEwM2NmNDNkZmQ4MTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyZDkwOTkyOWMwMmM3Y2QxZmRkMjI1ZDg4NDNiZjc1ZTY1ZmZkYTkyYzkxMGU2ZGMzMGRmNzI0Nzc3NTM5YTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyZjRlMGZlZDVjNjljNDBhMGNiNGVjMGI4ZjY1Y2Q4ZTNiMmQwMTU1NzlhZWIyOWQ4MmQzOTZlZjhmZWFhZWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1MmViMDJiYTc2N2Q1ZDQ2NTIzMGVkOGI1ZmQ0NWNlMTA3NDE3NDcxNDFlYzI1MDg4ZTZhMDkyZGU3MjU1NDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_737cf32e72a14fcf9c4201de39cf4e22",
+      "statement": "Coverage determination for a fungi or mold report remains reserved until cause and applicable policy provisions are evaluated; handlers should make targeted requests, preserve communications, explain limitations or denials using policy language and material facts, and distinguish covered direct physical loss from maintenance, deterioration, humidity-control, preexisting, or other noncovered costs.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L645-L669",
+          "version": "repo-lines-v1:sha256:92351b861833a57435af7f2c62aeb6ba20ac58acaa2ca9221e8696ac955be2f3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlYjNlNGU0MTdhODUwYzkzOTkwOTFjYWJiMzk0Y2UwMDczMmQ5ZDdjZGNjZjEwN2FhZjU3NzVjNmZjZTJmNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlOWRmYTA4MjZlZDMwNDAyNjdhYWY4NGFjOWE0Y2E4NGVkNWI4OTA4OWI0Yjg1MTFkNmRkZWU3NzA0MzJjZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwNmU5ODM2ZjVhZWExMzk0NzQ1OGNjZjA0ZWNjMDk0YjE0MmMwYTQ1ZTA4M2MwOWQwOThlNDhiYjdhYmQ1ZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzZDUxMDM4YTMxZmFiNTgwNzIxMzFiMmU0N2Y3NDZhZjJjOTBlOGQ1NTc0MTBhZmViODBlMTZiZGM3YjAyMzEifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L651-L665",
+          "version": "repo-lines-v1:sha256:9db0fbda4c3970c32ee645c17e469c3a95baedc88c21239df774ca9f958e5afe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhNjc3ZTg1YWUzYTMyNmJmNDM4OWEzMWVlZjdkMWQ3ZGJlNTNlMDQ2ODhmMGY1ZTAyN2I4N2U4MjU2Y2U4MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1YmU3ZjVmNjAwMjIwMzI4ZGUyZTQwMzRmYzYyZWM1ZmExNTYzZjRmOTlmNGMwZThiZDY3MjM5Mjg4NTQ2NjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmYTE5OTQzZmZiZDA5OWQ4OWM0OGYwZjA1MjgzNDNhYmMxOTgyMGEzNDQ4MzI1Y2M3ODI1Njg5YjJiMDg1MWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUyNTdlODg4ODFjZDI3YzQzZTFlNTdmMjdmN2Y2NTc5Mjk4NDE3NGNkMmUzZGJhNmM3NzJkODJiOGZkNGUzNmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b92614cd8f7844be959a61f5ae97bcd4",
+      "statement": "Fungi and mold matters must stay within assigned authority: investigation, inspection, mitigation, vendor activity, remediation, specialized testing, denials, reservations of rights, and settlements require the stated authority or referral, and an inspection, mitigation effort, vendor assignment, or payment does not itself establish coverage or resolve a formal coverage dispute.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L679-L709",
+          "version": "repo-lines-v1:sha256:1761bfef589105bdb95662cee916b5c2e574ef98039d7a78fafdeef7942d6b67:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMGQyYzQ3MjIyN2E0MDMwZjEwMmU2ZWMxMzk3NWU4ZDA0MTNmZDNmODQ3Y2VmYmU4OWVmNTBjODkxYjFlMjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkOGIwMjY3Y2U1ODQyYjNhNGVkNDE4N2VkYWY0YTU5NDliYzhhMDRiMTE3ODExNDYyNDQzYjE2MDZjMTA5N2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4NTM3MzdkMmMzZjBkMjRmN2FkYzc2MDIyZjgzM2MyNTJmMTNjNjA3MjQyMDk2MmUxNWViYzRjNmM0OTZlNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU4MzU3ZDAwYWVmMTAyMjlhYTFjNWI2OWIxZDU0NmQwMzUyZTgxYzRiODcwNzlhZDk4N2U1MWFhOTkwYmM1NjUifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/mold-claim-handling.md#L715-L733",
+          "version": "repo-lines-v1:sha256:10b664fc7bf0501ee8f16686a3063608f085bbeb6d504082071a6462b531029a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4NzdmM2ZjZGZjNDA0ZTFkZmQ4ODFmZTE4MGJjYjlmNzI0Y2FkMDkzM2NhNWFkMmFhNzUwMWY5MzZjZmVhODAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhNTg1M2RjZjUyZmNmMDY2MjQ1NmZiZWUyM2JiYWRmMDU4YTNjZGZkZDkwZjc1YzczZjhlZjE0NDIxYjZlNWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyMTE4NTJkYjI2MzExOGVjYWMwYzFhMzViZmQ1MjA4NmRmMTQwYjVlMzUyYmVkMjIzYjZlNDMxYTM1ZTU5NTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhhY2VjNGU5MmE1YjU0MmNiMzE2NDgyMGY4MTY4MDc0NjY2YTI3YjY4ZWZiM2E3MzZmYmE3ZWE3MzY1YjAwMTUifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L45-L73",
+          "version": "repo-lines-v1:sha256:9c916f909d7f598b9cbb505cfa000874ce90a30b5f84cbc98bddd980609c33e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1ZjE4ZDJkODFlYTVmYzZhZjNjMmVmMDYxNjI1M2E4NGM0MTc0NTNlYTkzYmQ4MTI1ODg1MWYwZTdhOGIyYmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YmJjM2MyMjg2YjVlNmQ4MjcyNGY5YzZkODY5YWY3ZTNjM2ZlOGM2OGZmNmJkNjlhNDljZDEwNGRhOTkxYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM1ZGQzNDA2MjA4MDVmYWYzYjhiMWE5ZjVmMmQ0OTkyOTA0N2M5ZWRlOTBiNjcyZjgxNTdlOTRhOGYzMDhjYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM0NTFhZmI5YjdhZTc1OTg0YWVhMjVlNDE5YzFlNmE3MjJiMTBjYmIwYjJkYzIxOWVkOTlkMDEzNzg4NTI0N2MifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

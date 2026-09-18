@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:0e387d306022a4aa92f487f63b9ddc088630c3f55b7b5e906469f30c7b08b878",
+  "pageVersion": "sha256:68ae0894d51d095544c147e345255d9a541a4984e84ee4fc971e44fd89f6fc13",
   "claims": [
     {
       "id": "claim_1465bb7f531242ab877ec65837f031d4",
@@ -22,7 +22,7 @@
     },
     {
       "id": "claim_b9fa21c779524e74ba83c9fd8d5e2186",
-      "statement": "HO 04 90 (2010-10), effective 2010-10-01, writes back accidental direct physical loss to covered property caused by sewer/drain backup or sump discharge/overflow and reasonable emergency measures, subject to a $5,000 aggregate limit and a $500 endorsement deductible; the edition is superseded for policies effective on or after 2027-01-01 but remains in force for policies written under it.",
+      "statement": "HO 04 90 (2010-10), effective 2010-10-01, writes back accidental direct physical loss to covered property caused by sewer/drain backup or sump discharge/overflow and allows reasonable, supported protective expenses in settlement; subject to a $5,000 aggregate limit and a $500 endorsement deductible, the edition is superseded for policies effective on or after 2027-01-01 but remains in force for policies written under it.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L9",
@@ -39,6 +39,10 @@
         {
           "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L35-L105",
           "version": "repo-lines-v1:sha256:b7a96d126b554ffdcdc91875e0677154fe1d4e8d06bf327634a61d30e943ab3b:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3ZjY3ZTQ5ZTAzNjcwZTEzNzE3MzU4ODM4NWNmZmQzZjJmNTM2Njg0Y2E5Y2Y5N2I3MmYzYzA5OTkzOTc0MGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjczNWY0NTM0OTlkM2U1NzBiMWFlZDFlZjliOTNmMmJhY2RmZjc5Y2VhYWU1MmJiZmI4MThkYmZmODRmYjEwNWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L499-L509",
+          "version": "repo-lines-v1:sha256:127827086cb05031edff198e33cf70a17b922c6450e1a004931d1be125846e19:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlZGRiOGE0MGM0YWM1NGZhYTc0YjcyODE5OWUxMTFiOTMwMGRkMThjNWE4YTc0ZWYxYzVjOGJhMmJjZWU4ZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllZDIyNjAxZjY0MGNhNGVhNzhmMDcyODMzMzZhNDZkOGE2OTEyMjNmNTRlNGRjY2RkMWUyNzI1ZDg3YmQzYTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM1MDcwNjJjMTBjMDg3ZmQxYzUwYzA3YzdhZDA1MmI3ZTNlOTJmYTgzMzEwZDM3NmVmYTlkNDg5YTA1OWRjMjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExNGJmYzEwNTYxNmIxYTFjMjkxZTJhMmUzNTAyYjFkZTBlZjgyYTE1ZjI2YmQ1MjQ0Y2I5M2RhOWViMDdlNWEifQ"
         }
       ]
     },
@@ -305,10 +309,90 @@
           "version": "repo-lines-v1:sha256:e1fcf10a43246e96ccf2f8859c75b84353da7acf8af3f0fc0791723245767393:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiOGM0NjhiYmVjNTQ0OGQ5YjVmNjRiZDc1MWMzNTIyZTU3NDEwYzIxMzNiYzk2ODkyNjllZTY1ZmNkMDE5YjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUwMjIwN2Q2OWNkMDBlZDM4MWQ0YzVmZDI1YzdiYTZjNGJmN2RjZTZiNzQ3ZTEwZjJhNGQzMTdkYWQ5ZGQzMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_76d9154ad41a4dc88772b3989d4442ac",
+      "statement": "HO 04 90 (2027-01) imposes edition-specific sump and drainage controls: an insured must maintain the sump system, disclose the presence and records of a backwater valve when requested, and comply with a requirement for an operable backwater valve in finished areas below grade.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L399-L407",
+          "version": "repo-lines-v1:sha256:f06a53a33dce053d734e8381fd76c49a3e7b1a3da76510ca2cc4e009b9f5ed42:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGZjZmIzYmJmMGE1NjJhYWJlMTU4MjkwZWE5NDE1YjA3NzlmMDc4ZjY2OTg2MWM5MTg0ZDg0NzZiYmE0YzNhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDVhN2M2NmZkZjc4ZmNlZmViN2E4MzEzMmU1ZjAyNmFmYWVhZTdlOTAzOTBlZDUxYjNkOTYxNmFmMjE5YjlkNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYThiNTIyZTgwNTVlMDBiYjg5MWJhOTZjYWRiOWVhYjlhMzMzYzNhMmEwM2NhMGZjY2Y0M2U1NDE2NTk1ZDIzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ5M2FjOTM4MTVjOGM0M2E3OWUwYWQ0Y2E2NTU1YTIyMWM0M2VkODIyMWQyNmFkYjdkYmM3MWZiMWYwNmQyNyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L497-L519",
+          "version": "repo-lines-v1:sha256:c8f903d1a8c53aada372c9da4b8cec80bbea86a6c4ee2e9adac61681dd33bb11:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3MTQ4MmFlY2UyMTk2ZDQ3OWMzMTk3NzhiZGVkZmQ3MTMyNzNmZjExMzA0N2E1NzcxZjU1MzIwMTdkNmNlYjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMzcwOWMwZTA2OTc5ZGVmZjU0MTc1NmRjMDQ5MzVhOTQwMjYwMzZhYWVmMzc2ZTc4YzNiZmI5YmM4OGM3MzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0ZDA5OTE0MWFkZDBmYjRjYTEyNmU0ZGI0NDIzNzA5NDdlNzkwOGU5Mjg1ZDdhZWJiNjExNDVkOWMyOGFiMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIzNzMwOWYwMzIwMWY5Mjk4NjYzMTAzNTgzYzJjN2M3ZWJmNmFkMmY2ZDBhM2ZmYmM4NjAwM2M0OTQ4MzgxNDQifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L143-L151",
+          "version": "repo-lines-v1:sha256:4df7635686f53ab0aec7d883b049f4eb5810792ba500b40d336e7878b565a644:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGNkMjQyMGQ3OTM0YzI5MGM4NjRhMzk2NjAzZjJjODRkYmNkNmE5OTA5ODk2M2U4YjQzNTc4Y2M1NDkxZGExYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDYwM2E4MzQyZTM1N2E0MTJhOTg0MTcwYzIxZTY1MjQ2YzAzOGVmODRjMzQyMDkxOWFhM2YzZTNmN2M1ZTVhZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDBlNzMyZjI3MzMyNjgxMzdiOTk1OGRmY2NkM2E3Mjg4MWZlMDYwM2QwMTYyZDJlNDI0MDQxNmRmM2JiOWQzNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzE2YWUwOGMzMGU1YTRmOTRkZDYyYTQ3NTJiZWVkOTZjMzU4NzcxNWI2NjUzOTcxOGVjMGFmM2FhNTZlOTk2ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a86fa63dfe5a47b897834f2009235255",
+      "statement": "The HO 04 90 (2027-01) filing memorandum is explanatory filing material rather than the contract; it identifies the revised $10,000 maximum, $1,000 deductible, below-grade backwater-valve requirement, and clarifications to sump-discharge exclusions, notice information, and post-loss duties, while the attached endorsement controls conflicts and leaves unmodified policy terms in effect.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39",
+          "version": "repo-lines-v1:sha256:dd39a1c66b09a0cd6c63ab7f1a89c723f71b4ead39a7c37eeee66f0e48e1d1cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyZjZlOTNmMjY5MDU2ZTRlYzQ5NTRjNDliYjM5NjM4NTBmNmVkZmFhNWIzZmU1YTQyZTJlOGRhYTUzYTE0MjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L13-L75",
+          "version": "repo-lines-v1:sha256:067ad893d63095a248c07c4242a6e5129c5efe127265afda08a978ff1a4a7a36:eyJzZWxlY3RlZExpbmVDb3VudCI6NjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2UwMmMyNmNiMGQyZGQ2MjMyZDE0ODI5ZGZkNzgwZmJjNDY5ZDM4ZDJkY2NiMjcyMjRiMjcyMzUzMDBhZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzNWE5NGEyYTU0MmJkMjU2MjY1NTEyMDM2ZDAzNTg1MjZkMDczNzI4ZmM0ZjcyYjFiNDU2MjdiZjA1OGNkMjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGQ3M2FjOTMxN2UxOThiMzVjN2Q5YjUwZGZmYzU3MjdhMDc0MmM0ZjJjN2U0YWM4ZTU2YTQ4OWM0ODAwYWMifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L143-L151",
+          "version": "repo-lines-v1:sha256:4df7635686f53ab0aec7d883b049f4eb5810792ba500b40d336e7878b565a644:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGNkMjQyMGQ3OTM0YzI5MGM4NjRhMzk2NjAzZjJjODRkYmNkNmE5OTA5ODk2M2U4YjQzNTc4Y2M1NDkxZGExYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDYwM2E4MzQyZTM1N2E0MTJhOTg0MTcwYzIxZTY1MjQ2YzAzOGVmODRjMzQyMDkxOWFhM2YzZTNmN2M1ZTVhZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDBlNzMyZjI3MzMyNjgxMzdiOTk1OGRmY2NkM2E3Mjg4MWZlMDYwM2QwMTYyZDJlNDI0MDQxNmRmM2JiOWQzNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzE2YWUwOGMzMGU1YTRmOTRkZDYyYTQ3NTJiZWVkOTZjMzU4NzcxNWI2NjUzOTcxOGVjMGFmM2FhNTZlOTk2ZiJ9"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L463-L465",
+          "version": "repo-lines-v1:sha256:74d58ac1a44920a3cda4f6e8294c0687798dfb984e336a03d36839a96065a5bf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWYzNDFiMjMzZWEwNGE1YzlmN2VmMzk3ODIyZTMwZTQxNGE2Zjg4YjNlNjgyMzcxYTlmNzE4Y2I0YTc1ZTIyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUzYjY1ZDMxYTc5MjJkZTgzMTMyMTBiYjBkYTJlOWNiOTQxYzAwNjA2MzFkMzU4MGRmZWVkMTU0ZThmNTA1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQ0MDk2ZTQ3YTRiODNmNDY4YjI4NWViZDk3ZTdiMmUzNDFmZGVkOTNiMDg2MTNjNDZjYWUyMTIwMmM0OGZkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGMxZDJjMWYzMTQwODdmMjhmN2UxOWRiMGVmMGQwMzMxZWI1Y2NmNGJlOWMyMjA2MjA4YTdmYzAzZDc3OGM0OSJ9"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L499-L519",
+          "version": "repo-lines-v1:sha256:b7e818213cd50312afe3824b438cb12250e6e964efd571d168e2b049c9cb5c16:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEzNjAxM2FjZTlhY2YyYmJkY2FiYzQ5NzgyNWUzOGM0MzMwNDhlYTkzNGRmMjllMGFiNWEyZmVkODYxOWI2MDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4MjdhYmMzMzRkMzJhYWE2NDgzZDc4ZWE4ZTllMTM1YWE5MWY5MjdmMjE4YTE2MWJkZmU4YmI0NmVlNmY1YWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdkYjQ0NjM0Yjg5ODU3M2EzM2M0MjZkN2Y1Zjg4NjA5Yjk4MWI1MzY0ZWRlYzZiNjZlMDZkNzQ3YWFjZGI5YmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZmZmUxYjdkZWRlMTYxNTQ1YmE0MDc4YzRmNDNmZTQ0ODJlODA3ZjVkMjA4OWVlZjJmZGE2MzZiM2UxZTViZTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6a7498fe26d1466db4f3a93c5bccd0cf",
+      "statement": "For HO 04 90 (2027-01), the form requires notice within 30 days after discovery, while the filing memorandum separately describes a signed, sworn proof of loss due within 60 days after loss and distinguishes notice from proof of loss; these are separate duties that must be checked against the operative policy definitions and applicable law.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L367-L379",
+          "version": "repo-lines-v1:sha256:fbc7e93530f057aaa5b7b5c5e044a960eedbc6dda6618a4cb97ebce67859303f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3MWNhNTViZGMxZDU4Y2EzOTVmMzllMzVhMWZiM2YyMDM2NzY3OTBlZWM2ODdlODRjNzljZThkYmNmZmFiNGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhmZmRjMDhjNWY2MDc4YjBhMzNmOWQzZmRhOWYyZTJmZDdjNDhjYmRmNmExMWU1NjQ5MTVjOTRmOTkyODMxNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI0MzE4ZDgzZDUwNTI4MzUzZTgwODY3MDI3MTQ2OWJlYjdiODViYmJiYzAzMjkwNDc2YmEzMGQ0Mzg0ZTE4MDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4YjUyZjMxZjk5ZDM1MzRiNWMxZjk4OGViNzc0ZDhmYWE4M2JjYzA1MTRjZTQ4ZGVjODFkY2FlZmVkMjU2ODUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L423-L433",
+          "version": "repo-lines-v1:sha256:a7f7fbb402381c789b1c02f81686ddff973ff1b9149ec2d97723aa0cd463b54d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1YWM4NDE5ZGNmYjI1MmMxNWYzOGU4ZGMyZjliMWY3NjhkMDEwZDBhYmUwMDM3N2FhOWE4YTZkZWM4NzhlZDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2MWMzYWRhN2FmMTYzNTdmZWQwMmQyOTA4OGQ5YjMyMGM0MWYxOWE2YzhjZWE2OGVmNzc4MWJlMmZlYzYxZjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRhZTk4MTk3YjA3YTVlMDhkYmVjYTYzMGU3YzVkZjIyMzIyZTI3MjE3MmI3ZmNkNTI3OGYwMzYyZWY5MzY5YjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ2NTI3NTZiMzlmMjlhODBmNmQ5ZGQyMjk0MTk5YTU3YTY2Y2NlOThlNzk1ZjVlNGFjZWJlNzQyYjNhMmIzZTEifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L499-L521",
+          "version": "repo-lines-v1:sha256:8f08e1bf5e95db53e00ca29d842fa397840c175cd5fb6e7775bbeb29a221d4c3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEzNjAxM2FjZTlhY2YyYmJkY2FiYzQ5NzgyNWUzOGM0MzMwNDhlYTkzNGRmMjllMGFiNWEyZmVkODYxOWI2MDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkMWFkNTVhN2VhY2M4M2U4NGM4ODBhNmRkZWE3OGIwMjhlNjIwZTY0Njk5YWZkY2Q0MDVhNWU0MzFmMTFmNjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdkYjQ0NjM0Yjg5ODU3M2EzM2M0MjZkN2Y1Zjg4NjA5Yjk4MWI1MzY0ZWRlYzZiNjZlMDZkNzQ3YWFjZGI5YmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0NWM0MmJiZTgyMGRhYTdkMGMwMjJlMGFiN2Q1MWJkNDViYmI0NDI0ZGUyYTRkOGM4ZTAwMjM2NzRmZTM4MWMifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L641-L649",
+          "version": "repo-lines-v1:sha256:85992244fb927e02d0c0241ec0039b07de4e51821508d0c35c2191caac3dd047:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWNhMGI4MWIwNzU0YzlhZTJmZGNkNmEwNDczYTI2ODkxZDYxYzRmODAxNjI2NjkxOTlhMTIzMzI0ZDkxOWUyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY4ODBiNTI3ZjgxZDQ1YzJiZWJjNWE4ZTQzODc1YzhhN2I0MGMyNDVmNjA1NTY0NGU1YThiZGViOTUxYzUyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzEzODY5OWY0MTg4ZDY2NjczYjgzMTI4NzMzYzQyMmVjMDUzZGM3ZWI5MjEwYmVkNTFjZmI0NTNjY2E2MzY4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2I0NDkxMzdlMjU2MWFlNTQ3ZWU3MWIyMTg0ZDI1NWY0MDA0NTE4ZGUwMDYzM2YxYmI5Y2RhYmQ0NDUyODYyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_944714bdcc92429b9710b50d43f76757",
+      "statement": "HO 04 92 (2019-03) permits the water backup to result from a blockage, obstruction, or mechanical breakdown, but does not cover loss consisting solely of equipment wear, deterioration, corrosion, or mechanical failure, or the cost to repair failed sump equipment.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-92/2019-03.md#L217-L301",
+          "version": "repo-lines-v1:sha256:f230ecf386ec82e53e6448be65fee6c3594e7c4a39ebc56d768a7f3fb0b45d72:eyJzZWxlY3RlZExpbmVDb3VudCI6ODUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiMDM1ZDFkOTNiZjQyNDg0YWI5MTE5ZTBlNTE0NmM5MzU4OTA1N2MxMTg4M2JjOGVjNjQzZGQ3ZTBmMGEwODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1NjMxNDhhYTI2OTg1YzU2NGY1ZmY2ZWJkMDAzMWYwZWM1ZTkzZmRkOWY5OWI0OThiYzdlN2EwODFkNzljMWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImExYWYzZDA4ODJmMTVmN2U3MTk5ZjU3YTUyM2EwYWUwYjVjYzVlYmQ2YmQ3MGU4YmFkN2E5NjJhZTJkYWNlMTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ2MGYyYTA4ODgyMTQzNjljYzYxNmRmODVlNjY3YjZiOWU3MDYxZmQ5OGVlM2QyOWY1YTc4NDRhMWJlMzUyYzcifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-92/2019-03.md#L51-L73",
+          "version": "repo-lines-v1:sha256:bc1fbd14424ba818e1c38b194e758b549a1b057240c1463d1f74916c57d0022e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc2ZTg0MTRhNWFkYjlmZjZhOWM3OTZhNDhjOTU3MTNjMGMwZmIzY2M3YzJlMWZkYWVkZTI1NTExODc0ODlmMTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0Mzk0NzMwY2I1NTkwYzU1ZTYyMzU1NDZhMTBkZDQwNmE0YTVhMzdhNzU3MjJlZjA5OTAxNDQ1ZDY1ZDNkNDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3NDRjZTA5NWIxNmIzYjI2NTA1MmFmMTFhMzQ3MDFiODA1MDdlYzQzYzRlM2QxODgzY2M2NTRhMTUzMjI3ZmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3Mzg3MTBkYTUyODYwMDkyYTZjZDI4ODYyN2E0ZmE4Y2I3YzIyZjEwODJhMjBjNjZkYmI1OTJmZTI3Zjc5OGUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

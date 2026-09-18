@@ -1,11 +1,11 @@
 ---
-type: coverage form edition reference
+type: coverage
 title: DP-3 Dwelling Property Special Form Editions
-description: Edition-aware reference for the DP-3 Dwelling Property Special Form, covering the 2012-11, 2020-08, and 2026-01 forms, their supersession chain, Coverages A–E, perils, settlement, exclusions, conditions, endorsements, and state overlays.
+description: Edition-aware reference for the DP-3 Dwelling Property Special Form, covering the 2012-11, 2020-08, and 2026-01 forms, their supersession chain, Coverages A–E, perils, settlement, exclusions, claim duties, endorsements, and state overlays.
 tags: [dwelling property, DP-3, special form, property coverage, state amendments]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-3c9f3e7c3b76f6a61601b18d
     resource: repo://forms/DP/FL/DP-01-09/2021-03.md
@@ -19,7 +19,7 @@ sources:
     resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-94a64462d39a6acab87c2fe5
     resource: repo://forms/DP/TX/DP-01-45/2022-01.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 # DP-3 Dwelling Property Special Form Editions
 
@@ -33,20 +33,21 @@ The editions form this chain:
 flowchart LR
   old["DP-3 2012-11\neffective 2012-11-01"] --> mid["DP-3 2020-08\neffective 2020-08-01"]
   mid --> current["DP-3 2026-01\neffective 2026-01-01"]
-  state["State amendment"] --> assembled["Policy assembly"]
+  overlay["State amendment"] --> assembled["Policy assembly"]
   endorsement["DP endorsement"] --> assembled
   current --> assembled
   mid --> assembled
   old --> assembled
 ```
-
 *The diagram shows edition selection and attachment assembly; the effective edition is not silently replaced by a later form.* The 2012-11 form expressly says it is superseded by 2020-08 for policies effective on or after August 1, 2020, while remaining in force for policies written under it. The 2020-08 form similarly identifies 2026-01 as its successor for policies effective on or after January 1, 2026. ([2012-11, Agreement](repo://forms/DP/MS/DP-3/2012-11.md#L1-L9); [2020-08, Agreement](repo://forms/DP/MS/DP-3/2020-08.md#L1-L9))
 
-| Edition | Effective date | Status | Operational reading |
-|---|---:|---|---|
-| **2012-11** | 2012-11-01 | Superseded | Keep applying it to policies written under this edition. It uses open-peril building coverage, named perils for Coverage C, an 80% Coverage A replacement-cost threshold, and the smallest listed Coverage B, D, and additional-coverage limits. |
-| **2020-08** | 2020-08-01 | Superseded | Keep applying it to policies written under this edition. It changes several limits and settlement rules, including a 90% Coverage A replacement-cost threshold, 25% fair-rental-value limit, and more detailed claim duties. |
-| **2026-01** | 2026-01-01 | Current edition in this repository | Use for policies effective on or after the edition date unless the policy assembly specifies otherwise. It returns Coverage A to an 80% replacement-cost threshold, raises Coverage B and Coverage D percentages, and materially expands the explicit Coverage C peril and exclusion structure. |
+The two filing memoranda are **interpretation** aids for the editions they explain, not contract language. They describe the filing rationale and drafting changes; the filed DP-3 form in the issued policy controls if a memorandum and form appear to differ. ([interpretation: DP-3 2020-08 filing memorandum](repo://memoranda/DP-3-2020-08.md#L13-L21); [interpretation: DP-3 2026-01 filing memorandum](repo://memoranda/DP-3-2026-01.md#L13-L43))
+
+| Edition | Effective-date interval | Status | Operational reading |
+|---|---|---|---|
+| **2012-11** | 2012-11-01 through 2020-07-31 | Superseded | Keep applying it to policies effective in this interval and written under this edition. It uses open-peril building coverage, named perils for Coverage C, an 80% Coverage A replacement-cost threshold, and the smallest listed Coverage B, D, and additional-coverage limits. |
+| **2020-08** | 2020-08-01 through 2025-12-31 | Superseded | Keep applying it to policies effective in this interval and written under this edition. It changes several limits and settlement rules, including a 90% Coverage A replacement-cost threshold, 25% fair-rental-value limit, and more detailed claim duties. |
+| **2026-01** | 2026-01-01 onward | Current edition in this repository | Use for policies effective in this interval unless the policy assembly specifies otherwise. It returns Coverage A to an 80% replacement-cost threshold, raises Coverage B and Coverage D percentages, and materially expands the explicit Coverage C peril and exclusion structure. |
 
 ## How to read a DP-3 loss
 
@@ -64,8 +65,7 @@ flowchart TD
   duties --> value["Apply valuation settlement limit and deductible"]
   value --> pay["Pay covered direct physical loss within the applicable limit"]
 ```
-
-*This flow summarizes the common decision order; it does not replace an edition's wording or a state amendment.*
+*This flow summarizes the common decision order; its property, peril, exclusion, duty, and settlement branches are grounded in the cited DP-3 wording above and below; it does not replace an edition's wording or a state amendment. ([2012-11 conditions and settlement](repo://forms/DP/MS/DP-3/2012-11.md#L877-L977); [2020-08 perils and conditions](repo://forms/DP/MS/DP-3/2020-08.md#L613-L665); [2026-01 perils and settlement](repo://forms/DP/MS/DP-3/2026-01.md#L621-L675))*
 
 ## Coverage map and limits
 
@@ -87,7 +87,7 @@ All three editions distinguish **actual cash value (ACV)** from **replacement co
 * **2020-08:** the threshold rises to 90%; the form expressly disallows consequential loss, delay, loss of use, and loss of income under Coverage A. ([2020-08](repo://forms/DP/MS/DP-3/2020-08.md#L139-L149); [A.36](repo://forms/DP/MS/DP-3/2020-08.md#L169-L181))
 * **2026-01:** the threshold returns to 80%, but RC also requires reasonably prompt repair or replacement. If the RC conditions are not met, the form settles at ACV; roof surfacing is RC unless an actual-cash-value roof schedule endorsement is attached. ([2026-01](repo://forms/DP/MS/DP-3/2026-01.md#L109-L127))
 
-The 2026 form's roof-surfacing rule is a DP-3 provision, not an HO rule: it is in Coverage A and points to a roof-schedule endorsement only as the mechanism that can change the stated settlement. A state attachment can further modify it; for example, the Texas amendatory endorsement applies ACV to covered roof damage when the roof is ten years old or older unless another policy provision is broader. ([2026-01, A.21–A.25](repo://forms/DP/MS/DP-3/2026-01.md#L109-L125); [Texas T.8–T.9](repo://forms/DP/TX/DP-01-45/2022-01.md#L587-L609))
+The 2026 form's roof-surfacing rule is a DP-3 provision, not an HO rule: it is in Coverage A and points to a roof-schedule endorsement only as the mechanism that can change the stated settlement. A state attachment can further modify it; for example, the **Florida DP 01 09** endorsement values covered roof damage on an actual-cash-value basis when the roof is at least ten years old, unless another policy provision provides broader settlement. ([2026-01, A.21–A.25](repo://forms/DP/MS/DP-3/2026-01.md#L109-L125); [Florida T.8–T.9](repo://forms/DP/FL/DP-01-09/2021-03.md#L587-L609))
 
 ## Perils and recurring exclusions
 
@@ -127,7 +127,7 @@ The forms require prompt notice, protection from further damage, preservation an
 |---|---|---|
 | **2012-11** | Prompt notice, law-enforcement notice for theft, repair-expense records, inspection, inventory, documents, and a signed sworn proof of loss within **60 days after request**. Appraisal selects appraisers within **20 days**; appraisal determines amount of loss. ([conditions](repo://forms/DP/MS/DP-3/2012-11.md#L877-L977)) | Deductible is at least **$500**; payment is within **60 days** after agreement, final judgment, or appraisal award; other insurance is pro rata. ([2012-11 settlement conditions](repo://forms/DP/MS/DP-3/2012-11.md#L947-L977); [payment](repo://forms/DP/MS/DP-3/2012-11.md#L1007-L1025)) |
 | **2020-08** | Temporary repairs and preservation are mandatory when needed; permanent repair can wait for inspection when reasonably necessary. The minimum Section I deductible is **$1,000**; proof of loss is due within **90 days after request**; appraisal appraisers are selected within **30 days**. ([conditions](repo://forms/DP/MS/DP-3/2020-08.md#L896-L997)) | Payment is within **45 days** after agreement on amount; appraisal remains limited to amount of loss. The form adds detailed other-insurance, salvage, repair-election, and mortgage-interest mechanics. ([2020-08](repo://forms/DP/MS/DP-3/2020-08.md#L999-L1019)) |
-| **2026-01** | The minimum deductible is **$1,500**; the form applies the most specific deductible and normally not more than one to the same loss. Proof of loss is due within **90 days after request**; appraisal appraisers are selected within **20 days**. ([conditions](repo://forms/DP/MS/DP-3/2026-01.md#L896-L949)) | Payment is within **30 days** after agreement or a final appraisal award. Appraisal expressly does not decide coverage, policy interpretation, compliance, cause, or liability. ([2026-01](repo://forms/DP/MS/DP-3/2026-01.md#L937-L979)) |
+| **2026-01** | The minimum deductible is **$1,500**; the form applies the most specific deductible and normally not more than one to the same loss. Proof of loss is due within **60 days after request**; appraisal appraisers are selected within **20 days**. ([conditions](repo://forms/DP/MS/DP-3/2026-01.md#L885-L949)) | Payment is within **30 days** after agreement or a final appraisal award. Appraisal expressly does not decide coverage, policy interpretation, compliance, cause, or liability. ([2026-01](repo://forms/DP/MS/DP-3/2026-01.md#L937-L979)) |
 
 The 2026 edition also adds a material-prejudice failure rule: it may deny a loss only to the extent a required duty failure is material to the loss or claim. ([2026-01, AGR and settlement](repo://forms/DP/MS/DP-3/2026-01.md#L25-L39); [A–C duties](repo://forms/DP/MS/DP-3/2026-01.md#L309-L361)) This should not be substituted for the 2012 or 2020 wording, which has different concealment, cooperation, deductible, appraisal, and payment provisions.
 
@@ -147,20 +147,20 @@ A state amendment is an **overlay in the policy assembly**. It does not turn DP-
 
 The Florida endorsement applies to the attached policy and controls a conflict, while leaving unaffected policy language in force. ([Florida scope and precedence](repo://forms/DP/FL/DP-01-09/2021-03.md#L13-L57)) Its principal DP-3 overlays are:
 
-* **Windstorm and hail deductible:** it modifies the base DP-3 windstorm/hail loss treatment by imposing a selected deductible of at least **2% and no more than 10%**, applied to the total covered loss from the same occurrence and separately from other deductibles. Read it with the DP-3 windstorm/hail peril grant and the applicable base deductible, not as a new peril grant. ([Florida T.1](repo://forms/DP/FL/DP-01-09/2021-03.md#L59-L79); [DP-3 wind/hail peril](repo://forms/DP/MS/DP-3/2020-08.md#L151-L159))
-* **Notice of deductible change:** an increase in the windstorm deductible requires at least **45 days' notice** before its effective date. This modifies the base policy's deductible-change administration, not the amount of covered property or the wind/hail peril. ([Florida T.2](repo://forms/DP/FL/DP-01-09/2021-03.md#L169-L187); [DP-3 condition framework](repo://forms/DP/MS/DP-3/2020-08.md#L896-L923))
-* **Named Storm Period:** it begins when the official designation takes effect and ends **72 hours after** the designation ends. The overlay changes how the claim's timing and storm-period facts are evaluated; it does not make excluded flood or surface water covered. ([Florida T.3](repo://forms/DP/FL/DP-01-09/2021-03.md#L237-L283); [DP-3 named-storm definition](repo://forms/DP/MS/DP-3/2020-08.md#L97-L105))
-* **Cancellation/nonrenewal and claims handling:** the endorsement supplies Florida notice periods and claim deadlines, including 10 days for nonpayment cancellation, 45 days for other permitted cancellation, 120 days for nonrenewal, acknowledgment within 14 days, decision within 90 business days after requested items, and payment within 20 business days after acceptance. These provisions modify the corresponding DP-3 administration and conditions. ([Florida cancellation](repo://forms/DP/FL/DP-01-09/2021-03.md#L285-L345); [Florida claims handling](repo://forms/DP/FL/DP-01-09/2021-03.md#L407-L467); [DP-3 base conditions](repo://forms/DP/MS/DP-3/2020-08.md#L889-L895))
+* **Windstorm and hail deductible:** it imposes a selected deductible of at least **2% and no more than 10%**, applied to the total covered loss from the same occurrence and separately from other deductibles. Read this state provision with the attached DP-3 edition; it is not a new peril grant. ([Florida T.1](repo://forms/DP/FL/DP-01-09/2021-03.md#L59-L79))
+* **Notice of deductible change:** an increase in the windstorm deductible requires at least **45 days' notice** before its effective date. This changes deductible-change administration, not the amount of covered property or the wind/hail peril. ([Florida T.2](repo://forms/DP/FL/DP-01-09/2021-03.md#L169-L187))
+* **Named Storm Period:** it begins when the official designation takes effect and ends **72 hours after** the designation ends. The overlay changes how claim timing and storm-period facts are evaluated; it does not make excluded flood or surface water covered. ([Florida T.3](repo://forms/DP/FL/DP-01-09/2021-03.md#L237-L283))
+* **Roof settlement and seacoast duties:** for covered roof damage, the endorsement uses actual cash value when the roof is at least **10 years** old unless another policy provision is broader; it also imposes maintenance and protective duties for covered property in a Seacoast Territory. ([Florida T.8–T.9](repo://forms/DP/FL/DP-01-09/2021-03.md#L587-L609); [Florida T.6](repo://forms/DP/FL/DP-01-09/2021-03.md#L509-L543))
+* **Cancellation/nonrenewal and claims handling:** the endorsement supplies Florida notice periods and claim deadlines, including 10 days for nonpayment cancellation, 45 days for other permitted cancellation, 120 days for nonrenewal, acknowledgment within 14 days, decision within 90 business days after requested items, and payment within 20 business days after acceptance. These provisions modify the corresponding policy administration and conditions. ([Florida cancellation](repo://forms/DP/FL/DP-01-09/2021-03.md#L285-L345); [Florida claims handling](repo://forms/DP/FL/DP-01-09/2021-03.md#L407-L467))
 
 ### Texas — DP 01 45 (2022-01)
 
 The Texas endorsement applies to Texas property and losses subject to Texas law, expressly amends only provisions it identifies, and controls conflicts. ([Texas scope and precedence](repo://forms/DP/TX/DP-01-45/2022-01.md#L13-L59)) Its principal DP-3 overlays are:
 
-* **Windstorm or hail deductible:** it modifies the DP-3 wind/hail deductible treatment with a separate deductible of at least **1% and no more than 5%**, applied before payment to covered direct physical loss. It does not create coverage for otherwise excluded wind or hail loss. ([Texas T.1](repo://forms/DP/TX/DP-01-45/2022-01.md#L61-L89); [DP-3 wind/hail grant](repo://forms/DP/MS/DP-3/2026-01.md#L219-L225))
-* **Notice of deductible change:** a windstorm-deductible increase requires at least **30 days' written notice**. This changes the notice requirement that would otherwise govern the DP-3 deductible; the deductible in effect on the date of loss controls. ([Texas T.2](repo://forms/DP/TX/DP-01-45/2022-01.md#L215-L265); [DP-3 deductible conditions](repo://forms/DP/MS/DP-3/2026-01.md#L896-L911))
-* **Named Storm Period:** the period begins at official designation and continues until 72 hours after the designation ends. The overlay changes storm-period timing and evidence handling; it does not override DP-3 flood, surface-water, or other exclusions. ([Texas T.3](repo://forms/DP/TX/DP-01-45/2022-01.md#L281-L329); [DP-3 water exclusions](repo://forms/DP/MS/DP-3/2026-01.md#L255-L261))
-* **Roof settlement:** for a roof at least ten years old, the endorsement sets covered roof damage to ACV unless another policy provision is broader. This directly modifies the 2026-01 Coverage A rule that otherwise settles roof surfacing at RC unless an ACV roof-schedule endorsement is attached. ([Texas T.8–T.9](repo://forms/DP/TX/DP-01-45/2022-01.md#L587-L609); [DP-3 A.21–A.25](repo://forms/DP/MS/DP-3/2026-01.md#L109-L125))
-* **Cancellation/nonrenewal and claims handling:** Texas supplies 10 days for nonpayment cancellation, 30 days for other permitted cancellation, 30 days for nonrenewal, acknowledgment no later than 15 days, a decision within 15 business days after requested items, and payment within five business days after acceptance. Those are state-overlay changes to the corresponding base-form administration. ([Texas cancellation](repo://forms/DP/TX/DP-01-45/2022-01.md#L331-L399); [Texas claims handling](repo://forms/DP/TX/DP-01-45/2022-01.md#L495-L587); [DP-3 base conditions](repo://forms/DP/MS/DP-3/2026-01.md#L981-L1001))
+* **Windstorm or hail deductible:** it imposes a separate deductible of at least **1% and no more than 5%**, applied before payment to covered direct physical loss. It does not create coverage for otherwise excluded wind or hail loss. ([Texas T.1](repo://forms/DP/TX/DP-01-45/2022-01.md#L61-L89))
+* **Notice of deductible change:** a windstorm-deductible increase requires at least **30 days' written notice**. The deductible in effect when the covered loss occurs controls. ([Texas T.2](repo://forms/DP/TX/DP-01-45/2022-01.md#L215-L265))
+* **Named Storm Period:** the period begins at official designation and continues until **72 hours after** the designation ends. The overlay changes storm-period timing and evidence handling; it does not override base-form flood, surface-water, or other exclusions. ([Texas T.3](repo://forms/DP/TX/DP-01-45/2022-01.md#L281-L329))
+* **Cancellation/nonrenewal and claims handling:** Texas supplies 10 days for nonpayment cancellation, 30 days for other permitted cancellation, 30 days for nonrenewal, acknowledgment no later than 15 days, a decision within 15 business days after requested items, and payment within five business days after acceptance. Those are state-overlay changes to the corresponding policy administration. ([Texas cancellation](repo://forms/DP/TX/DP-01-45/2022-01.md#L331-L399); [Texas nonrenewal](repo://forms/DP/TX/DP-01-45/2022-01.md#L449-L459); [Texas claims handling](repo://forms/DP/TX/DP-01-45/2022-01.md#L495-L587))
 
 ## Edition-safe implementation checklist
 
@@ -169,13 +169,15 @@ The Texas endorsement applies to Texas property and losses subject to Texas law,
 3. Determine whether the loss is to A, B, C, D, or an E additional coverage. A building open-peril grant does not make Coverage C open peril, and Coverage C's listed limit is 0% in all three supplied editions.
 4. Apply the applicable edition's peril wording, then exclusions, then any attached DP endorsement and state overlay that expressly modifies the provision. For sewer/drain/sump backup, check DP 04 95 before denying, but only if it is attached.
 5. Apply the edition-specific valuation threshold, deductible, proof-of-loss and appraisal deadlines, and payment rule. A later edition's limit or deadline is not retroactive.
-6. Record the exact state amendment provision and the DP-3 provision it modifies. Florida and Texas deductible, named-storm, cancellation, claims, and roof rules are overlays, not general DP-3 text.
+6. Record the exact state amendment provision and the DP-3 provision it modifies. Florida and Texas deductible, named-storm, cancellation, and claims rules—and Florida's roof rule—are overlays, not general DP-3 text.
 
 ## Source set
 
 * [DP-3 2012-11](repo://forms/DP/MS/DP-3/2012-11.md)
 * [DP-3 2020-08](repo://forms/DP/MS/DP-3/2020-08.md)
 * [DP-3 2026-01](repo://forms/DP/MS/DP-3/2026-01.md)
+* [Interpretation: DP-3 2020-08 filing memorandum](repo://memoranda/DP-3-2020-08.md)
+* [Interpretation: DP-3 2026-01 filing memorandum](repo://memoranda/DP-3-2026-01.md)
 * [DP 04 95 Water Backup — Dwelling Property](repo://forms/DP/MS/DP-04-95/2021-05.md)
 * [DP 01 09 Florida Amendatory Endorsement](repo://forms/DP/FL/DP-01-09/2021-03.md)
 * [DP 01 45 Texas Amendatory Endorsement](repo://forms/DP/TX/DP-01-45/2022-01.md)

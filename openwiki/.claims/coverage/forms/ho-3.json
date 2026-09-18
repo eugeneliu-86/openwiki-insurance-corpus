@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:f46cd8d6910da351efd87c8730cf59a3fdf133ba2c54987cca8634f53856f9e1",
+  "pageVersion": "sha256:af267a65d668de199a12f9358e6372b1d544c3418047bc14fdb1cf632c0c7d24",
   "claims": [
     {
       "id": "claim_e0f1623dd3794d2f9da207f7bef7c401",
@@ -411,10 +411,86 @@
           "version": "repo-lines-v1:sha256:314640a371489897179c330550737384565f9d5464615d4f487b4842436d5d47:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5N2I1MjZmNWM2ZDAxOTAxMDc5YWYyMGRkNjVjMGNmOTk0NmY0MmRlODMyYjhiNzY3NDJjYWQxN2QwNWEwYjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhOWRhZGJmOTBhYTg5MzliZGZlYjJkY2MwN2I5YjQxM2Q4MDVhN2UwMWVlNzE0NjUxNmEyMGY0OThiZWZlNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjExMDhhMmJkMmUyYzAxY2RiNGM4NzJhNzg1M2UyZDc0ODNjMjIzMzUwM2UyMTlhOWEzMjMwMzhlZTYwNzg4NGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmODA5ODY3MDUxMDg1MWQ5NjU4YTk0YTFkMzdjNjA1ZmEwOWZiNmYzNTg4Nzk1YmU0YzI0OGRjNmI5ODJlNjQifQ"
         }
       ]
+    },
+    {
+      "id": "claim_2ee34b3c262e42daa82fc014d9178158",
+      "statement": "The 2018-09 filing memorandum is explanatory filing material rather than an additional policy form: it attributes the revision to clarification and alignment of the insuring agreement, definitions, Section I property and limits, exclusions and conditions, Section II liability and medical payments, and editorial organization, while the filed 2018-09 form supplies the operative contract terms.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L15-L25",
+          "version": "repo-lines-v1:sha256:de9cda1b5b3e3bb7a7b924b13ce64df42d1d227bbcb3ad5fd1cc9c82bdb801f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4YzAxMmVmNjlmZDJjY2NjMzAyNDgxMDRhMjUyNmI1OWU1MzUyYzM0OWUyZWRmYTkxY2QxNDljZWM2NTU3MjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlMDk1YmE0YTk0ODVkNDMyN2M2NmE1MThmNmI1YTBhNDY3MmY2NzA2YzU4ZmQ0NWIxY2VhY2JiY2Q0MTQ1YTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiMDNiYTMxNWZkN2VmZTM0NWQxZWE5YjJkNGNmZDNkMzViNDliNjUzNGZhYzA4NmRmZjZlMWY4ZjQxYjY2Y2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZTQzOTY2NjE3YzcxYjhkNzRlOWFhYTMzZjU0ZGY5YmJhMTBiZmM2YjA0YzE2NTVlODkxYTBkYjMyNDNjZWYifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L101-L147",
+          "version": "repo-lines-v1:sha256:36f9f74e408244522bdd07bad8cdfb7701db2f32a937ce496ae8af7e9d542068:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxNDQ4ZDZlZTJiZjJkYjhiMjEwMmZkNzFiN2RkZDQzOTBmYTZiYTM0ZGI4NGQ2M2YyNTBlNGM2OGNmMmViMzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwYmE3YzMxMjRmNzJlMDMxM2Y1ZTk1NjkxMTlkM2FmOGNmNmMzYTZiZjhhOWMyNTZjMGM2YTk4MThlN2ZlYmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2NWNmMWQzODY2ZjQwMmZkOTg1MmU4OWFlNTNiMTRlYWEyMjljNGJlNjM2YWRlYzA1Yzg4ZTJiNjQyZjZmODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYzYmRlNDkwODFlMTRkNWMxOTQwZTMyY2Q5YTkyMmNlMzQ0YmI2ZjZmZGMyNTc3YmE2YTgyNjZkNjAyMzY2OTgifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L13-L99",
+          "version": "repo-lines-v1:sha256:dce4c54cf8aaed198f9a0bc5cda9ea23fbf0814b81d391f93b974cb5ccdf358c:eyJzZWxlY3RlZExpbmVDb3VudCI6ODcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2UwMmMyNmNiMGQyZGQ2MjMyZDE0ODI5ZGZkNzgwZmJjNDY5ZDM4ZDJkY2NiMjcyMjRiMjcyMzUzMDBhZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhYmZmMjIyZmY5NTc2OTFkMGI0ZmUyYjMxZjhhYTM5MzNmZTgwOGM0YzVhMGE3NjE0MjkxNWRlZDU1NGNiMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGQ3M2FjOTMxN2UxOThiMzVjN2Q5YjUwZGZmYzU3MjdhMDc0MmM0ZjJjN2U0YWM4ZTU2YTQ4OWM0ODAwYWMifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L149-L377",
+          "version": "repo-lines-v1:sha256:88b20d2b3e60152a2d0a0aa8c7ac98cbef1c67b778789cd7be8465f0e8ee0b06:eyJzZWxlY3RlZExpbmVDb3VudCI6MjI5LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI4Y2QyNDIwZDc5MzRjMjkwYzg2NGEzOTY2MDNmMmM4NGRiY2Q2YTk5MDk4OTYzZThiNDM1NzhjYzU0OTFkYTFjIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI0NjFhNGNhMzBhYjI0YjJmY2VhYjczNzBjNmY3ZjE4ZGMzNjA2ZTNjMzQwYTk5NTdiOWM1OWZiMjUxNTM1ZDAxIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI3NTBhMTA3NWRkZmE3ZjA2YzYxOWNlNzRhZGQ3NDg4MWNmMWY5NGM5ZWYzMTJiOWM4ZjVkMmM0OGEyMGY0YzNkIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlOTI5MjY5YWQzY2U1Y2IzMDQ3OGEwZTk4NDFmMTg4NTJkYmNkMjZkY2VmZjNmNDg2N2QyNzRjYTY5MDlkMTgyIn0"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L379-L619",
+          "version": "repo-lines-v1:sha256:d30a8a81a07436887b1135d15e981a1e7e01327e5bf6bd78e7ebf56e3b07eca4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJiMzE0YmRiYjFmMmY2NDE2ZWVhOTRiNDExOTg0NThhMWZmOWIwYzk3NTI1YTdmZDFmN2FjNTkyZDExZTliYzE3IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI1YzBlYTVjNWJlYzQ4ZWI1ZmZkNzhlNzdiNjQ1MGJjNzdlZDVlMDM1OWViODhlNGM5ZDljYzI3NmQyYjQwNWU1IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIzODJkOWM1NmZmMDA0NWMwZmUwNWRkOTY3OThmYThmMDQxNjJhMmZjZTM1YzY3YWYyZmM5YjQ2MzUyMzdmZDQ3IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlYzcxMTVjNDU2NjBmM2Q5ZDE3N2IzMjFjZWI5MjgyYzRlNjMxZGZiMDI0MjBlMjRkNTA1MjliYmZhMzczMzBiIn0"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L621-L719",
+          "version": "repo-lines-v1:sha256:1bc5c8f1302fe9c95e7dc844a671a0b80e5590da49b3af894ba8a876331ae27f:eyJzZWxlY3RlZExpbmVDb3VudCI6OTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxNWQzMjcyMTU3OTBjMTI2YmMzYTJjZTgyYjVlODBjMDQ1MDYzODQ4ZjdiY2U3ZDkwOTE5ZjJhZWZiODcwMWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4MzdmMzZiM2E0MWIzN2Q4OTg5MmQ3MDZkYjJhMWJhOWY0OGM3YmZlMWZhMDU3ZTFlMGMzOWVhYzk1ZTAwNDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVjMTE1NmI0NDgxOTMzNmQ3NWFlZmE0M2JlYmZmYWZhNTY3OGU2ZWE0YmMyNGE5NTVlMTMyODc3NGI0NjA0ODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM0MzJlZjg3NDgzYTQxOWJmOWZlZWIyOTk3MjFkNGViY2JiN2E1YTI2M2M3NWE2ZWZjNjc4MGVhZGQzZTg5OGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6f291cde2d2241f4b9a7f1fe100bc6a8",
+      "statement": "The 2018-09 filing memorandum says revised Coverage D provides 25% of Coverage A, but the filed 2018-09 form states in D.2 that the Coverage D limit is twenty percent of Coverage A; the filed form therefore controls the applicable limit.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L349-L355",
+          "version": "repo-lines-v1:sha256:10ddef010de317755310b6457415deb60d85d5cf97f11a0d639dafb280ad384c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM1NjRkYmZjOTU5OWY2MzBjNmQ3ZjgzYTc5ZmI3ZmFiZjc0ZjYzMTE5NTFlN2ExOWJkY2ZkODcxOGExM2MxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQ2MzIwZmQ2MzRiMzQ2NjFhZGY5MDBiZDYyMDIyMjNkZTUyNzVkNWU0OGEyOWI3M2M1ODJmOGZiMGM3ZDBkZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFmMjc0M2NkZTE4Y2QyMGJkNzgwZjZhNWE0YzI2MDdjYWJiOWVkZjM0MDYwMjIxODUzMGY3YzgwYmMxNmM1ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjc2N2E4ODZjZWRmOGMyOWJhYmViMThkZDcxN2MwMzQ4NjVlNzhkZWZkNmVhY2ExOWI1Zjg3MTIwZmUyMTE1YiJ9"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L225-L231",
+          "version": "repo-lines-v1:sha256:574d5140ea006a19be1ca40b730a44a443bcfe7e150b6cb3e4a955925eacd89c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmMWM4ZjM5NmRkNmIyNTdjZTNhMTU4YTk4ZmQ5OGY2MmFlMTAwZWYxOTcyODc5OGNmZTM4MTUzYzUxNmVlMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDgxZmY2M2QwMjI4NmUzMzNhMzE3MGQ5YjA5NjBiN2RjMmRhMTFiZjUzZTNkYzhlZTBiMWNiMDgxNmNjNDAwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVjODc5ZDNmNWI1ZDdhYjhiZTZhMjIxY2NiNTU1MWJhOTRhZGQ4OTFiY2QxNTEzNjQ0OTc1ZGU0NzEyMWQ1ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTgzMDMyYjUyNTBkNWRmZTNhNzU5NmRhYmE4OTNlMDExZmM2NzU1ZGMyNjU0YzA3ZjUwYWRkM2VlNGEyM2Q5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f5f5633aadc549c1a99426cbc25c76a5",
+      "statement": "For the 2018-09 edition, the filed form requires a signed, sworn proof of loss within sixty days after the insurer’s request and limits appraisal to determining the amount of loss rather than coverage or policy interpretation; the memorandum describes those changes as claim-administration clarifications.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L1005-L1017",
+          "version": "repo-lines-v1:sha256:f27aba9bf5d1f872534dc71fd7c1bcd4143f55351d3d17ec62e735907a7d559b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxODY5NGFjZWUzZTIxODUzZTgzNDJjOWRkOTA2NDJmZDgyYTJhMDEyMTY2ODBmZDQ2MDgzMTE0YWIzM2MyNjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2OTgyY2FjMGI1NzJhOGRiMGM3OWI2MGI2ZTZkYzg5MDQ3OTc3MTdlOTg1MDE0M2Y2YzRmYzI2ZGI2YjE5OGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0ZTBmOWIxMjIyNjRmZjE2ODg5MTEzNzI3ZDA2NzAwZjEwMDEzNjMzYjdhMzgxY2RiZmFmNDk0NjAyMmE4OWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMxZjY5YTQzNDk5MjFmMGI5ZmI5OTRiN2NlNjc4YzkyZDkwZTEyYTYxNTg3ZTUwZWM0YzliN2FjZGU4MzU3YzIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L967-L975",
+          "version": "repo-lines-v1:sha256:decfc0478d178483d92a7e38ec1347f46bf7a84ce6199613dd2a3e10c57e1ebc:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk3MzhjZTA2MmJiY2QwNThmMjJmZmRhYjIwYTM3N2M4ZjZhODMxMDc4MzhiNTNiMTQzNzk5OWE3ODIzM2E2MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjYzZGRjYmI4Mjg1YzIyNjBjNjUyOTA1ZGYzM2I2NGVjOWRjYmQwNmRiYzEyMTBlMmI3ZjhkMTQwODlkYTdiOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjYzZTJjM2M2YjgwOGE0NmQ2MzczOWMxYTZjOWZlNWU0NWEwMWQyYmJlZGFkMjE5OWNjYmIzMmU0Y2NkZjkzNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFhYjFmNDMwMmU1MmQ2MmQ0ODIwNGYyNTFjZjgxNGIzNTBiZGVjZDljY2QwNGMwN2U1NDY5NGEwMDgxNGRiMiJ9"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L421-L437",
+          "version": "repo-lines-v1:sha256:097a21dfbe51114e3d2816f40020022fb6dfd0c2efe59a8d75a29f00db9b893c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MGMwMGQzNzdkNzM4MTJkMjdkODY1NDFmNWZhOTU2MDM5YTQ1ZjBhNDcxOWU4NjkwNDAzYTgwZDk3NzA5ZDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhMjY4ODFkZjVkMTliMWFmYTc4YjMzMzZlZGQ4NWFhNmY2YzI4NjFkMTFkMzVjM2U2MzAyZGFhNjA3NzgyMWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyNDFiMWJkNDliYTMwODRmNzU3Y2I0MGZhYWUyNmYxZmQ2MmQ0YzhjZGIwMzA3NTk1ZjM4ZTZiZmFhNTVkYTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc2NGFiYTU0ZDk5OGJmYzFjNDllYmZhZTI1MGNkZDY3N2VkNTFkOTg5ZTY0NTQ0YmFmNjFjNzliNjY5YzFiZDIifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L469-L481",
+          "version": "repo-lines-v1:sha256:5526b7c862a6e0c94e27f129bbd96a28fa1750d32f4c2db9f7a5e28bd56d0c01:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YTM3ZmFiNTA2ZWE1MmM0OTczN2IyMzM1ZDhlYWZkYzRiNjAzODI4YWZiZGFiZjg0NTQzNGZiYTI5ZmRlYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2YWI4ODk2MjExODdjM2ZiMjY0Njk1MmJlYzlmZmYzZjI1YTA3MTIwNjE4MTcxY2Q4MTNmYzk1NzdhNmZjMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1ZWM2ZjBjZjM1Yjg5MmFlNjg1YmQzN2I2OWZmNGViOTFiMjhlNTk2NDc0ZDI0ODA1YWEzODliNTk5ZWIwNjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAwZTJmZTJlNGMyMzRhYjViNzA4Yjg3MGM5Mjc3NTNiZjMxNzRjNjQ5ZTFjYjNhNDhjY2YxN2VlNzY2MWYyMjIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0116599089d64e9e8522e459bc5f2f2d",
+      "statement": "The 2018-09 filing memorandum reports a three percent filed rate change and describes renumbering and formatting changes as filing context; those statements do not themselves create Coverage A–F limits, deductibles, exclusions, conditions, or payment obligations.",
+      "evidence": [
+        {
+          "resource": "repo://memoranda/HO-3-2018-09.md#L721-L783",
+          "version": "repo-lines-v1:sha256:b3e2266e14d1c0e585920216637322704386a2921982f0c1b1944175e8fbb10b:eyJzZWxlY3RlZExpbmVDb3VudCI6NjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5N2I1MjZmNWM2ZDAxOTAxMDc5YWYyMGRkNjVjMGNmOTk0NmY0MmRlODMyYjhiNzY3NDJjYWQxN2QwNWEwYjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzk2M2Y2ZDg5MTM2YjhlNTRlNmRmMGY2M2QyNzNhNzIxZWY4YTA3MjRmYTU1Mjc1NmU5NWVmMDY3MzcyNjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5ODNmZTIwNWQ0NmM3OWY2ZDdkNDg4MzhhMDAzNGRjNGM4Yjk1ZjdmZDllMzZkMmUzODhhNTllZmM3MTk2MGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MWQ1NTVhMTQ4N2U0YzY3NzJhMjFmMGNkYzNmOGM1MmJiMDZiZjFmYjVjMDNhNWMyMWFiMDY2NjUzZDk3ZDcifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }

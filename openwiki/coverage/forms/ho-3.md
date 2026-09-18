@@ -1,11 +1,11 @@
 ---
 type: coverage
 title: HO-3 Special Form Editions
-description: Edition-by-edition reference for the HO-3 2011-05, 2018-09, and 2024-03 Special Forms, including policy-effective-date rules, Coverages A–F, Section II, exclusions, settlement, endorsements, and the 2024 filing memorandum.
+description: Edition-aware reference for the HO-3 2011-05, 2018-09, and 2024-03 Special Forms, their policy-effective intervals, contract differences, attached endorsements, and the stated reasons in the 2018-09 and 2024-03 filing memoranda.
 tags: [homeowners insurance, HO-3, special form, policy editions, coverage comparison]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
@@ -25,9 +25,11 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2018-09.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-7433017bf6321ec1bc9e4bb0
+    resource: repo://memoranda/HO-3-2018-09.md
   - id: openwiki-source-9a9291b2de270f91ca242ea5
     resource: repo://memoranda/HO-3-2024-03.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 
 # HO-3 Special Form Editions
@@ -54,6 +56,20 @@ flowchart TD
 *The diagram shows the edition-selection and policy-assembly path; it does not replace the effective-date or endorsement text.*
 
 The 2024 filing memorandum is useful evidence of the drafter’s stated reasons for changes, including limits, water wording, roof settlement, and post-loss duties. It is explanatory filing material, not a substitute for the contract. If the memorandum’s explanation and the filed form differ, the controlling form text governs; an attached endorsement controls over inconsistent base-form language only within the endorsement’s stated scope. The 2024 form itself says coverage is determined from the facts, policy terms, and applicable law and that policy terms change only by authorized written action. [2024 form agreement](repo://forms/HO/MS/HO-3/2024-03.md#L15-L39) · [2024 memorandum summary](repo://memoranda/HO-3-2024-03.md#L13-L75) · [endorsement hierarchy example](repo://forms/HO/MS/HO-04-90/2027-01.md#L15-L39)
+
+### 2018-09 filing memorandum: rationale, then contract check
+
+The 2018-09 filing memorandum is a rationale document, not an additional policy form. It says the revision was intended to clarify and align the insuring agreement, definitions, coverage conditions, valuation, exclusions, exceptions, and insured responsibilities. Its topic groups cover definitions such as “residence premises,” “insured,” “business,” “insured location,” “occurrence,” vacancy, collapse, fungi, pollutants, rebuilding cost, the 80% condition, and storm terminology; Section I property, limits, and Additional Coverages; Section I exclusions and conditions; and Section II liability and medical payments. [2018 memorandum summary](repo://memoranda/HO-3-2018-09.md#L13-L99) · [2018 definitions rationale](repo://memoranda/HO-3-2018-09.md#L101-L147) · [2018 Section I rationale](repo://memoranda/HO-3-2018-09.md#L149-L377) · [2018 exclusions and conditions rationale](repo://memoranda/HO-3-2018-09.md#L379-L619) · [2018 Section II rationale](repo://memoranda/HO-3-2018-09.md#L621-L719)
+
+The memorandum’s stated reasons correspond to several filed-form checkpoints, but those checkpoints—not the memorandum—decide coverage. The 2018 form expressly makes Coverage B 10% of Coverage A and additional insurance, Coverage C 50% of Coverage A, and the listed special limits internal to Coverage C; it uses an 80% replacement-cost condition for Coverage A; and it sets Coverage D at 20%. [2018 form Coverages A–D](repo://forms/HO/MS/HO-3/2018-09.md#L85-L139) · [2018 Coverage B and C limits](repo://forms/HO/MS/HO-3/2018-09.md#L163-L169) · [2018 special limits](repo://forms/HO/MS/HO-3/2018-09.md#L231-L255) · [2018 Coverage D limit](repo://forms/HO/MS/HO-3/2018-09.md#L349-L355)
+
+One reconciliation is especially important: memorandum item M.3.32 says the revised Coverage D provision provides **25% of Coverage A**, but the filed 2018 form’s operative D.2 says **“twenty percent”**. The form therefore governs that limit; the memorandum cannot turn the filed 20% limit into 25%. [2018 memorandum Coverage D rationale](repo://memoranda/HO-3-2018-09.md#L225-L231) · [2018 form D.1–D.3](repo://forms/HO/MS/HO-3/2018-09.md#L349-L355)
+
+The memorandum also identifies the 2018 special-limit amounts, higher Additional Coverage caps, a more organized duties-after-loss structure, valuation and appraisal clarifications, and water wording as filing reasons. The form supplies the operative amounts and duties: for example, cash is $250, jewelry theft $1,500, firearms theft $2,500, watercraft $1,500, silverware theft $2,500, business property $3,000, and electronic apparatus $1,500; debris removal is 5%, the vegetation cap is $750 per item, and the fire-department cap is $750. [2018 memorandum limits rationale](repo://memoranda/HO-3-2018-09.md#L171-L185) · [2018 memorandum Additional Coverages rationale](repo://memoranda/HO-3-2018-09.md#L227-L259) · [2018 form special limits](repo://forms/HO/MS/HO-3/2018-09.md#L241-L255) · [2018 form Additional Coverages](repo://forms/HO/MS/HO-3/2018-09.md#L419-L457)
+
+For claim administration, the filed 2018 form requires a signed, sworn proof of loss within **sixty days after our request**, while the memorandum describes that deadline and the information to include. The form also limits appraisal to disagreement over the amount of loss, and its water provisions distinguish sudden and accidental system discharge from repeated seepage, backup, subsurface water, and flood. [2018 form post-loss conditions](repo://forms/HO/MS/HO-3/2018-09.md#L967-L975) · [2018 form appraisal condition](repo://forms/HO/MS/HO-3/2018-09.md#L1005-L1017) · [2018 memorandum proof-of-loss rationale](repo://memoranda/HO-3-2018-09.md#L421-L437) · [2018 memorandum appraisal rationale](repo://memoranda/HO-3-2018-09.md#L469-L481) · [2018 form water provisions](repo://forms/HO/MS/HO-3/2018-09.md#L657-L669)
+
+Finally, the memorandum reports a **three percent filed rate change** and describes editorial renumbering and formatting. That is filing and rating context, not a Coverage A–F limit, deductible, exclusion, condition, or promise of payment. [2018 memorandum editorial changes](repo://memoranda/HO-3-2018-09.md#L721-L775) · [2018 memorandum rate impact](repo://memoranda/HO-3-2018-09.md#L777-L783)
 
 ## What stays common across the editions
 
@@ -126,4 +142,4 @@ The repository’s 2024 source contains apparent duplicated or malformed phrases
 
 ### Decision rule
 
-For a claim, first use the policy effective date to select 2011-05, 2018-09, or 2024-03; then read the declarations and endorsements attached to that policy; then apply the exact edition’s grant, definitions, perils, exclusions, limits, conditions, and Section II text. Use the 2024 filing memorandum to understand the stated rationale and intended interpretation of 2024 changes, but if it differs from the form, the form controls; if an attached endorsement differs from the base form, the endorsement controls only to the extent its attachment and text provide.
+For a claim, first use the policy effective date to select 2011-05, 2018-09, or 2024-03; then read the declarations and endorsements attached to that policy; then apply the exact edition’s grant, definitions, perils, exclusions, limits, conditions, and Section II text. Use the 2018-09 and 2024-03 filing memoranda only to understand the stated rationale for their respective changes; if either memorandum differs from the form, the form controls. If an attached endorsement differs from the base form, the endorsement controls only to the extent its attachment and text provide.

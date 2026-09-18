@@ -1,16 +1,26 @@
 {
   "schema_version": 1,
-  "compiled_from": "70bdb4c478de872fc385952da7dc91a58a292bf4",
+  "compiled_from": "9250ead49089c998bceb8cee0d65b1d836239bc1",
   "status": "complete",
-  "compiled_at": "2026-09-18T07:31:20Z",
+  "compiled_at": "2026-09-18T12:38:55Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/eugeneliu-86/openwiki-insurance-corpus/actions/runs/35319763371",
+  "workflow_run_url": "https://github.com/eugeneliu-86/openwiki-insurance-corpus/actions/runs/35343689264",
   "claims": {
-    "total": 589,
-    "added": 0,
-    "retracted": 0,
-    "carried": 589
+    "total": 868,
+    "added": 280,
+    "retracted": 1,
+    "carried": 588
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "guidelines/appetite/ca-homeowners.md",
+    "guidelines/appetite/fl-homeowners.md",
+    "guidelines/appetite/la-homeowners.md",
+    "guidelines/appetite/nc-homeowners.md",
+    "guidelines/appetite/ny-homeowners.md",
+    "guidelines/authority/binding-authority.md",
+    "guidelines/claims/liability-claim-handling.md",
+    "guidelines/claims/mold-claim-handling.md",
+    "guidelines/claims/roof-claim-handling.md"
+  ],
   "compile_mode": "deep"
 }

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:404fef36ced1ef7bb8f740a4c98f66f9be47ce38d86c750e2c48b52ec8778ded",
+  "claims": [
+    {
+      "id": "claim_6813cbef0d6c4afaa8623b92fcf9c8d0",
+      "statement": "California homeowners appetite guidance is internal carrier underwriting guidance for eligibility, evidence, referral, binding, and authority decisions; it must not be used to expand, restrict, waive, or interpret policy coverage, and a referral is not itself a declination, approval, coverage grant, or claim settlement position.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L13-L25",
+          "version": "repo-lines-v1:sha256:6fa52fe6f4c556977fbaae8fd5a141fdc87e76de50cf7077f416ab3c1a5cb34b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5OTdkMGM5NTNiYzc4MWJmMzE3OTY3YzlkMmM2ODRhMWQ3OWQ4OGFiMTQzNmMwZmRmMWRkZDBiMDQ3NmQwNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1MmEwZDA4YzhlZWY2NTdiZDc3MTBlZTdiNjI1MGU0MjZiOGQxZDA2NjRlYjUwZjU4MmFjZGVlOWJjNDU3NDMifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L33-L45",
+          "version": "repo-lines-v1:sha256:6b982718d97a9513e72972d9f37a4a40aff304ccc5de8cd6a270cd8f8f6a0205:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZmFiZGIxOTM2OTYwNDU3MDA5MWMxMmI2YWUxMmVjNTBiYjU1YjRkZWJhN2ZhOTVlMTZlNjEwOGU3M2JiOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1ODFjOTk0YjYyNDllYjE5NGRmOTAyZWUzZWZkYjZkZmU2YmI2ZDhhNmMzNmMxNTYyNWZiZmZmZTBkZTRjNmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY1NTAxNGNiZTU0YmZhYjFkOTQ1NDgyNzllZDM1ZTcwMmRmYzVkM2EyNWVlMDEwOTYwODU5Yzg4OWU1NDBiYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
+          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e399f12e1ca64a64990c54c329d47d77",
+      "statement": "The California routine appetite positions Coverage A from $300,000 through $2,000,000 and protection class 7 or better, while the California Guide separately limits line binding authority to Coverage A not exceeding $1,000,000; appetite eligibility and delegated authority are separate gates.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L47-L55",
+          "version": "repo-lines-v1:sha256:2fbaf15b1958f933eba7272aee6f72b01a7042cff1e2b9969ed8dcde70520286:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyNjNjYzExMDMyMmEzOTA2NDRlZmE5ZGM3OTk2NmUyY2IxNGRmYWY0OTVlMDllZjRkM2M2Y2JhNTE3MWUyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjhiNDNmNDkzMjM3OTJkMjFlN2YzYTZjNDBkMTBkZDc3ODJhNzk5YzEzY2NjZWJiZDViYTU0ZDBjMGQ2NTUwOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjcxMGQyNjM4OGFlMmE5YjdmNjg0MWVlNjVlZjM1ZTRkOWQyMWMzZGVhYjI4ZjFlZjAzODMyNTM3MWVkNjU2ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2NhMzM0NGU0OWVkYzU2YzZhY2U0YjQ2ODQ0MzJkMTRkZTI2Y2I3Y2JiYmRlZDdmNTJiNmE2ZGE0OTZmYmZlYSJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L581-L593",
+          "version": "repo-lines-v1:sha256:c6df97e62931d2cef67974f8c84e797daff24162aa371f32e74d9884e0c8963a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMTJmNGQ5ZTI5ZWMzNWQwY2FhMzRkODA0YzdkN2Q3OWRkNzZhNDc3OWZkOWU2YWY2N2EyYjI3MTIyNjNhODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjMzZkMmFiMjg2NGQxODAzMDIzMjUzMTkwMGZhOTlkMTE1YzMyYTI5ZDA5YjdkYjRkMjg4ZWVkYWJhYjQ1ZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyYzJlOGZlODFkZDRiODRiYmVkNmEyZDQ0MTRjYzdkNzkyMmExN2RmMzY3Y2ExNzRhNjc2M2MwNDkyOWJkYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYwY2M0YjU2ZWI4NmI2MWZjOWZlODQ0ODVhMDFiYjBjYTZhZWY0YjdhN2JlNzIzZGMyNGUxNWE2MjJjOTdlZWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5dfc4a32a9034541a2386fd91e91137a",
+      "statement": "Before binding, California underwriting must verify material occupancy, ownership, location, valuation, construction, protection, condition, coverage, and authority information, and must refer or decline when material facts are missing, conflicting, adverse, or unverifiable rather than relying on assumptions.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L115-L145",
+          "version": "repo-lines-v1:sha256:abfe38e5e31e3f57f00c691359a21e68264077db41005a31875dc29144f019f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU5MGE4ZmUzNjE4NTMxMTdmMjM5MDdlNTg3ZGNhNWFiNTA4MjBjYjU3YzhkZTY3NWVkOGI3ZmJjOTFhNGI4NGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4OTljM2RhNTQzMDNkOTc2OTBiYzM4Mzk4NDg5YWQ5ZjNhN2YwODVkNjYyZmM2YTRkMGNjZjdjMzAxMDZmNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVmN2IxMTEzMmVhOTA3MjUxY2QyN2ZjODlkMzVhNjRjYzQ4YzgzODU4NGZkYWZmYjI4ZjE3YTU0ZmQ3YTJkYTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4NDkyNmRiMzZmNmFiNjU4YmNhNzQ1MWUzYWY4M2JmYzU0MTg2ZDhkZWM0M2NlNzEyNzNiNzJmNTVhNjkxY2YifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6603-L6673",
+          "version": "repo-lines-v1:sha256:d202c4d0d49e751ee0264a84fca9fb6a90393bd3050805989d9a665e0cbc72e8:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiMmU0OTYyNWQyZTMxODY5N2ZiOWE2MjRiMjVlOTViOTgzYjg5ZTZmY2UyNWU3OWM1ODcxNTZlNzNlNWQ2NmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzODQxZWNiN2JhMzc1OTFhOGI0NWNlNGJmNzNmOTUyODEzNjBlMDRkNThjMTgwZGMxMWNjYmM0OWQwMzcxNzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2MjRmYWJlNjRmODY1YTBlNDY2MTllNDZkZDY5ODEzNTI3N2FmNmVkZmNiZDM3Zjc3ZTQ3OWRlZDAzZWIyMTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzNzg3ZWZmNmRjODNmNGQ0ZGVhYmUyYzFlYTJlODVlY2FiMTk1ZjEyYmY0MDZmNTY2NjY3M2VlYjE2YmJlNDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e3d93f6f93ba43adbaa1e5b1a3c851be",
+      "statement": "A California roof aged 20 years or more requires an acceptable inspection before binding; active leakage generally requires completed documented repairs before binding, and roof deterioration, unresolved repairs, inadequate evidence, conflicting information, or inaccessible areas trigger referral or hold controls.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L149-L197",
+          "version": "repo-lines-v1:sha256:68683f1efd33d8c9661c6cc501d12d13285a8f3097d3ba61cb7101348dd0aabc:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1YzY5MjY3YjA2MDg0NzdjNzM5ODY5YTkzN2NlNzZjYzc1ODYyNWQ2MTFhNmYyMWI0ZjU4MmU4NWVjYzJjY2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4NDkyNmRiMzZmNmFiNjU4YmNhNzQ1MWUzYWY4M2JmYzU0MTg2ZDhkZWM0M2NlNzEyNzNiNzJmNTVhNjkxY2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4ZDY3ZWZiY2Q0NmZiMjZmZjIxMzU2YmFkM2FmNjc4YTA1MmFkMmRhMTg5MmFlOGQwMWMyYTNhNjcxZGQyZTEifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L199-L233",
+          "version": "repo-lines-v1:sha256:88c484105fa2ea30b35a782eae74e8658a00d2770dca3640d820e3430f70644c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxZmY1MjMyNDFjMzZlMDI1MTIzN2E5NGVkYzIyN2E5ZDllZWU1YTZkZmQ5MDJmYThkNmU1NDNkZTI1NjIxNTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwYjQwMDljNDdkNDJmYjQ4ZGI2MGY1NThiNzAxYWE5ZWFjZWFjZWVjYjk5YzhiZmY5ZjA1ZGY0NGFkZWJmNWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk0NDkwNTc0NzFiMDVjNjA2ZDI1MmMyNzlhOGY5MTFmZjExNmQ1Nzk2NDdmMmU0OWVjMWQzZTdjZmU3ZDE3MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzMDgzMzRiZWJkOTBhZjM4N2FhNjdmYjAyNTY2MDRiNTBiYzk4ZTNhZGJlYThmNzMxMmY4ZDJlNzQxMTAwZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e437edee3807414c9b5de77afcddde1a",
+      "statement": "California wind and hail underwriting requires acceptable maintenance, verified mitigation evidence, and a wind mitigation inspection when Coverage A exceeds $1,000,000; prior unrepaired storm damage, vulnerable structures or equipment, recurring losses, and unsupported mitigation claims require referral, while deductible handling remains subject to approved authority.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L235-L275",
+          "version": "repo-lines-v1:sha256:02063cfc80713bae53cf478596d3201bac02eba792c9433ffdb22c67fa9395ae:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MjYwNGVlMDEyMThjNGUwZTMwNDBlNjFjYzM0NGVhNzdiYTJiYjc4Njk5MTM0NjRjN2ViYTcxODcwMjcyYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwMWEyODBiYjVjZDA3OWM3ZjQ5ZTA3ZjJmNzljMTM2ZmM2MmJlNjQyMTJjNDEzYzM3YjI5ZDAxNTJmM2VhMzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUyMzU3YWQzYTU3NjFlYTk0ZGZjYjFmMGI5OTg1NGJhMDJiMDk4ODlmYzJhNjE1MTMxNjQ4MjUyMGFhNjE5N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzYzAyZjFmMzUzYjYyOThhOGM3M2I2NDU5YmViMTc2OGY3ZjE4ZjczY2JmNjhjMzUyYjBhYjBlYzE3Y2I4ODQifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L281-L331",
+          "version": "repo-lines-v1:sha256:908c4fbc1ff779841e32d0b02aa095e8cef3a4f0de60565b1a72baeaf008808f:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzZDIzYTFmN2M1YmMzMWMwOTZmOTcyYWM5OTcyMDU1Y2Y5NDRhNWM0YTE4NzM1MzJjZTU4MmE2YTdlNDM1MmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyM2IxYmFkYzlhNWQzODE0NzM4ZjBhODQyNjAxZTY1ZjViYTUyZTYzZjFmODQwNDM2YTVkZmY4YTdmMGI4MzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2NmNlMjdkMTEyN2IwZWRkYzQ2ZGNhZjZjMmUyNzg2NjI4MDlmMGFhZTJhNWU1NTAzMTAyMjRmOTk2Y2RjNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZmQ4MjliNjE0Zjg1ODlhMjk4YWY3NDFjZTJiNDU0N2QzMWQ5ZWJiMDhhNmNlMmI0NjVlZDExODk4ZDlkZDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1fd52c48963b4bbe84067dc3b2ed60e0",
+      "statement": "California water-risk review begins with the physical water path and drainage arrangement, distinguishes sewer, drain, sump, envelope, surface-water, flood, seepage, and maintenance causes, and refers recurring backup, sump malfunction, unresolved drainage, unusual plumbing, or unsupported repair conditions; below-grade protections and requested backup limits require evidence and review.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L333-L389",
+          "version": "repo-lines-v1:sha256:ad61b7f5193bb368565346fd26ffcba3efb45679317fe258b2edef486a6f09a2:eyJzZWxlY3RlZExpbmVDb3VudCI6NTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZGY5ZmZlMGU5MzkwNzA3Mzg2ODgwYjQ5OTI0YmFmM2E3YThlNmVjOWY1MGI3ZjE5YWJkZmE5NGRhNTdhNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhZjBlNjYwYzA0Mjk4MmNjNzkxOGY0MzY2YWEzNDMwNGQ2OWM2MTliNmMyZmE5NjZlOTYxZjcxMGEzN2M3NzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0ZDFkMTBjYTc5ZDU3MTBlMGM2OWQ2ZDA5ZGY5NjUzYWVlN2Y1M2I3OTc5NTBkNzA0YTA4MGYxNzM2ZjRlMGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3MGI4NDU1NTI4ODA1ODMyNTFkN2M1Y2ZjZjlhNTdjZjdhZWI4NzdiZGJmOWFiMDYwNzU2ZmU3NzMzYTI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6ce8d3d74dde47e287483668fb1f3d6d",
+      "statement": "The California Guide directs review of the preceding five years of loss history and referral when paid property claims reach two, with paid claims classified by property coverage and inquiries, unpaid reports, or withdrawn notices excluded unless payment is confirmed; cause, repairs, recurrence, and current condition remain relevant even below the count trigger.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L415-L455",
+          "version": "repo-lines-v1:sha256:47e27f2c8741f7f89879820854f9927ad1b458d18469e201913cc2ed25982561:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzYTMwZTQzZjE4YmQ0NDQ4ZTkxZmRhMzcxMTVkYTJjNmIyODAxZmEyNjdkY2JkNmMxYjE1YjdhMTk1ZmZkOTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhZjlkMGFiYmVhZjA0OTkwM2Q5NDgyNWI3NGE0MGQ5OWUwYTUxZmI3ZjQ5YWIxNjM3YzMwZDU2NzNlZTdkMWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlkMDg4ODc2NDY5M2RmNmExYTk5NzZmNjgyNDBmMDkwMjgxNDdlODQ0OTBkMmZmMjkxMWFhN2U0YWE5OWRlOWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4ZGE2ZjBjNzdiZDEzOTI4MTU0MDdmN2Q4MGE1YThkMjUwMWQ2YjZmMDBkMjlkMjU4YmViMGYxZDBmNmQwZTMifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L457-L499",
+          "version": "repo-lines-v1:sha256:57a3aead35563f1912d611714cac0f8ae12744a1bfe20069ea14f8a2f696d692:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiYjc2NmY0ZjdhMzhkMmEwMzc3ZTNlNzk1ZjM4NzFkM2JmMDQzODI5NTBmNjM0NmM4YmYwMWVlNzUyOGU4MzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwNGE2YjRkM2ZhMDcyY2ZlMzhkNjZhYzkzNTVlYzZjMDg5MTQ1N2FlNzRmODdjYzE2N2FmOWEwZGZlMTA3NWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIwM2JkNWM3ZDE4NzY0ZDBiMTQ4YzhiODYzMzQxYTAzMDE0NDFjMGIyNzczZDljMzVmZmNiNjVlZWU0MjZmN2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyZjRlMGZlZDVjNjljNDBhMGNiNGVjMGI4ZjY1Y2Q4ZTNiMmQwMTU1NzlhZWIyOWQ4MmQzOTZlZjhmZWFhZWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_aaee1084719640f8b28f2542afe21ac7",
+      "statement": "The California internal claims-handling procedure requires prompt claim intake, recording of loss facts, verification of the policy and applicable coverages before coverage direction, mitigation within seven days after discovery under the Guide, evidence preservation, qualified investigation, documented communications, diary controls, and documented final disposition; these procedures do not decide coverage.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L501-L579",
+          "version": "repo-lines-v1:sha256:20ebd564629f3f0926b4656843d434d6a5175baf71aced65609f826b048009fb:eyJzZWxlY3RlZExpbmVDb3VudCI6NzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0ZjdlNjAyMjAxNTg2YjdlZjZjZWY1MjY5NzNmYTI4ODA2ZWVjNWUwN2Q5OThiZTI1NDE4ODNlNTgzMDg3ZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhYmE1ZDI4NjYxNmM1OGMxNzUwOTEwNjEzZjM2ZjFjYTM5ZGM1YTA3NDYyYTVhYzcyNWQzOWQ3Y2FkZDA2NDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRiMTA2ZjRlNzMzZGRmNjhhN2FkMzY4ZTUxMDhhYjk3N2UxNjRmZDVhNDIyZDkxNjNlZWRjMTZlMTZiODE4OWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4NTM3MzdkMmMzZjBkMjRmN2FkYzc2MDIyZjgzM2MyNTJmMTNjNjA3MjQyMDk2MmUxNWViYzRjNmM0OTZlNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_090a88da2f2e4752b05c8ff142c707b2",
+      "statement": "When HO 01 04 California Amendatory Endorsement is attached, its separate contract terms state claim acknowledgment within 15 days, a decision within 40 business days after requested items are received or a written explanation if unresolved, and payment of an accepted claim within 30 business days; these are form terms rather than appetite thresholds.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/CA/HO-01-04/2021-06.md#L471-L483",
+          "version": "repo-lines-v1:sha256:af208dfd13eb285046d2cbc0c5c02ed0a4efa5c8d6559444dc16b6d8d0a90710:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljZjcwZjgwZmJhZTEwYTQ0Njk4YTk2ZGNlNmYwOTUwY2JjMTdkMzhlNjY0ZDk1Y2Y3NWI2NWNkOTZkY2Q1ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM5NjFhN2I3ODA5NjMzNmY2NWQ1NzgyNDU0ZTlmZmMyMDNlNTBlOTBkYmUzN2E1NjVjM2RjOTc0ZWFjNWRiMDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA0MzM3ZTkzNmI0Njg2MDRjMjkyZjk2MWJjN2Q1ODAzNjVmNDNlYTlhODVmZjVmYjQzMWNkM2Q2NTA3YTU5YjcifQ"
+        },
+        {
+          "resource": "repo://forms/HO/CA/HO-01-04/2021-06.md#L529-L547",
+          "version": "repo-lines-v1:sha256:21f68771a701b12f799250b55cd21cd312cf11b8bd3847f78870b02a8fff3360:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjNTIxN2FkYjM2MjY1ODhjMDQ4NTBlMTg1MjZhYTg3ZDMwNTVjM2M1ZDhiODFjODY3MGFhZThhMDExMGM4YzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyMjk0Njk0NjFhM2U2ZjE2MDY3MDkzZmYyNDlhM2U0M2NkMjc4YWExOTBkYjdiNzJjZmE4YTg0ZTVlYzAzNjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI4YmI3NDc3Njg0NGY5NGMxOGU0ZGM1NmU5NzdmYjUyMWFkMDViOGQ5MTRiNTkxYWJhMjU0ZGQzYWE4NTU1OGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxNzU3OWZjZWViZTAyOWM5ODg5Y2ZlYzgyYWVlZjk0MGE5YWI1NTk5MzdkZDVlYWM3NDU4NWJhYTQwZDA0MjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d8c511eb0791452182b2e3c6816c4541",
+      "statement": "For the applicable CDI-2022-03 transaction position, the earthquake offer is separate from the homeowners policy, is written or lawfully electronic, states material terms including a 15% seismic deductible, requires affirmative acceptance before issuing separate earthquake coverage, and requires retained acceptance, declination, delivery, and eligibility records; CDI-2014-06 remains relevant only to transactions written under its superseded position.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L1-L9",
+          "version": "repo-lines-v1:sha256:cddb7783f2f45d8dd619db5429aeaa373c52527f40844f98eb6d125bd4b6a453:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM3MDY3NDdiZjg2MGVhYWU4ODQ1ZDYyNGRjYWFhOGIwZDNmM2Y0YTY0MGY4ZjhkZjNhZDk2NWIxODQxNjhkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L25-L37",
+          "version": "repo-lines-v1:sha256:0026a06896e5a3304f572005802f1c7a5ef93b823f3df8ef84b9b3fc12d3ce56:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmNGEzOWRlNzA2MzhkZjJiYzg3MjUyNGIxN2U5MjFiN2E3ZDJjMGFmNDczYzE0NzZjNjg2YTZmZDk3ZjhmZDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyMjZmYTNjYmJiNjc3ZjU4NmVkNDMzZDBjZjE4NzBiNzc1YTAyY2IwMTE3YWEwYzVhYjMxYzQ5OWZlM2EwNGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMzA0NTY4ZGUzMjc1OTExNDM2ZDc0NTU4MDczMWQ2ZTcyMDk3ZmIzZTkzZDEwNTZhYmM0YWE2NmJjMTU1NmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmZjkxMWUxYWE5N2E0NDhiMzZlZmZhNWYxNmU4MGU1MzIyNzVhYWU2NzdhMDdhZTA2ZmQ5ZjJmZDliOWU5YjAifQ"
+        },
+        {
+          "resource": "repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L59-L117",
+          "version": "repo-lines-v1:sha256:e70a506d75f75c44645d5e5d425ab099f76a9645c13ac5c76b125154b5898399:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExYTQ3ZGJjMzEzMWVkMjBlMjg3NzYwMzNiODNlNDU4YmY2NTc2OGQzYmVlYWNhNGVkYzk1ODBhNTIwN2Q5MDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4N2M4Njk3ODAwYWYwMDJjMDlkYjU5ZWIwNDk0N2E3NjgyN2Y3NWY4YmE2MmU5ZjUzYzU1NDdlYjk1ODljOGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5MDEwODAzMWViYjRiZTVkODM1MTA4OGJiYjk5MzJhMmYzYWI2NzU2ZmQ2N2MyZWUzMmJhZmExZjVlNmE1ODQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_47340b49127d495cbd2a887199863a57",
+      "statement": "California referral and authority control requires clarification of missing information, referral of exceptions and unusual occupancy, construction, or loss concerns, aggregation of related interests rather than splitting to avoid referral, renewed review when material facts change before issuance, recorded approval before representing acceptance, and binding only after conditions and approved terms are confirmed.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L609-L649",
+          "version": "repo-lines-v1:sha256:c6f164e976a94cd3df39ba00aed11bed08d4f480acce1cd1ccbd321990ddd4a5:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExNTRlM2YxNjkxNzRiNjkzZTUyZDBkYTY0MzE1MTlhNGQwZDM4YjhlMWRhNWQ1NTBlOTE5NmY3YjQ4OGYyYjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjYmY2ZjdkNzY1ZGYxYjMzYjc2ZDE4ZDZjMzMxY2Y4OTc1YzZiNGUzZjgxMmFkYTMzMTJkMmQwNGI1ODBlYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzNTg4M2YzODhmZDY3NzI2YjYzNjUxMGMyZDUwZjE0NTc4MDRhNjE1ODgxZjhhNzVlOTI5ZjdkZDk3NjZmMzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L3991-L4027",
+          "version": "repo-lines-v1:sha256:c10e670fec2d769cf74a9831b4f453083aaa7d034e3d1bffd6287f523d3ceeaa:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkYWE2MzVkOWI4Y2IyNjA3NjQyZjk2ODFlOTRmY2JiMWM3M2UwZjZjNGQ4NDU5Njg0YjMyMjhmY2ExOTlhYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxNmIxZDAzZDg3OGFmZGU4MDQ2NjM2NGZjODJjZWExOGU3MWZlYTVmYTE1YWQyZDMyZGE5MTg1ZTEwMDQ3ZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNzExN2Q4M2Q0ZDMxMWVkZTFlN2JkZDdhNTBjODkwN2MzNTFjNjIyNjFkNDAzNTUwMjllY2NmZGM4ZWI4MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg3YjQ0ZWU5NzUwNWM5ZjQ1ZTExMDg1MDU5YjU4ZjU4ZDJiMDEyNGQ1OGQ3MDljYzY0Y2Y5ODU2NjY3M2JjOTAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4131-L4165",
+          "version": "repo-lines-v1:sha256:ae41217425da87eca8e0494b6109906efa90cbb64738daeaccfd30f12512b79e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkYWFkM2I5ZTlkN2NkNGI0ODE2YjM1Zjk0MzQ2NzI0MzIxYzhlN2U2NmE5MTI0NTkxZTdjNzk2ZTRiMzdmZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NWI1MzRiMzYzNWU1ODFkYmE3MGQ2YjE3YmE5MmZlOTdjYjdhYTc1NGQzMWU5ZWFhOGRmZDQ2NWRhMzk3OTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMTJmMmU2ZWJmOGM2YjMzODRjZWRkYTczNTFmZjA5Mjk5OTMxNTQyN2UzNjgyZGMzNmI3YWQ1NjMyNzY1OGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiOGViOTBlMTBjNWE3YjZkMDI3NmViNGNkMDk1N2M5OGY0ZTQ0MWE3MDVlMWY1ZDY0MjZkOGUwOTAxNTc5ZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d1cba7010870421887a97a16fc2dcb02",
+      "statement": "The underwriting file must preserve the source and verification status of material facts, discrepancies and their resolution, eligibility and referral rationale, imposed conditions, authority level, communications, corrective-action evidence, and final disposition, including adverse information even when the risk is accepted.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6837-L6853",
+          "version": "repo-lines-v1:sha256:4b0124e7ccb826612d8d36c6a3cd8c6d2ace7e3af59befb2270d2881f3aa6b0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAwODRiNmQ0MjlkODJiN2EzMjA0NDM4MDIwMGY3MGFiYjljNzY0MzM3OTQwYTk2MWIyMzM0ZmM4ZmEyYjFiOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZTkzYzRlMzFmMzFmMDEzNzA1MTg3YjdmYjM2ODU1N2FiMDYxOTliMjM1ZGQxZTFiNmM1ZDkwNGNlZGI3M2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhOTc1YjMzNGMxNjZmOTAyNDI2YTcxMTQ4MjM2YmI5YTY1ZWZmYmRhNTc0NGU0ZDc4ZThkYTBkOTBlMzM1YWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUyOWY4MGQ4ODE5Zjg3Y2UzYjVlYWYwYTU4NjcwZjA4MzU0OTc4MDQ5OWYyM2UwYzgwZGY3NmY4MTg4ZWFjYzAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8805-L8857",
+          "version": "repo-lines-v1:sha256:075719126ac9e1fb0df8c3323d998e4c7ab52bfb9e64129fa6ecdc6201c2709e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5Zjc4NTdlYmI1OGJlMjYwOWVjY2RkMWNjMzQ0OGE4NjhiMjg4MTZmZjdlYjk0OWZmYmQzYjEzZGM4MjYwNzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYTRmZDU4NTc3NGM4ZTQ2MDllNDhjMTU0YWQxZmZiNDYzNTE3ZGNmZDM4ZWIzMTM4Yjk4OTI4ZmVmMzA3ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmODlkZTExNDhiNGMwZjhjY2RhZGZkYTVmNWU2YWM3MWJhNjUxZjcyMzAyNmI1YTQ2NWFkYTc1ODAyZDgzZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxNGEzNjI0ZjM1YzE1ZjcxMWMzMDIwMTNiMmY3NmY1M2Q1OWE3MTNjNWFiZjZjOGRhZGU1MTVlNjM4ZjI0NjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8883-L8953",
+          "version": "repo-lines-v1:sha256:f8c6cdb88ea432b8246e9564002e4df2daf62d1308d94e6ee8906a525be79d7a:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwNzBiYjRmMzcwNTljZGRjOGRlNTY4OGRiZjE5ZmE1YmJjOGNlOTI5YTNjZDNiZTU5Njg2YzEyOTUxM2I2ZDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyMzAxMGNjZTY4OWNjYTQ4M2I3ZjNlOGRhNzQyZDZiNGFjZDE5YjFkMTBmZGNlMThjZjQyMzZkZGNiMTAyNmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyODExZTZlODExMjc4NWM1NTIyMWEyODljYTNkMzlkMjQ5ZTY1NGYwYWFjYjQ2YmMzYjgwYWQ5MWEwMGMyMTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE5NDliYmNmYWE4N2UzZTdjNWJkOGVhMWExZGI3MTVjMzNkMjUwZDZjNTY4ODkxMzE2M2FkMzdjZTAxOTZlZjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8997-L9013",
+          "version": "repo-lines-v1:sha256:814624b7b0405bc2839fbd4480efd1cf496fdda312a97cbf36c2dd3690622055:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5MjAyNjVmYmU1MTVmODI1NDEwZmVlZWRjM2UyOTVjYjQ3OTEwZDQ4NDFlNjQwZWUzODE3NTdkNWY2MDRkMGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmMmZhNzFhY2E0YzZmYjc2ZDQ3MTc2MDllNDAwMmRiY2MxMTVmNDk4OWE0YWI4YzIyZmZjZGExMDM0MzAzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE1NDNiZjlkOWNlODQyZDljNWVmNmEwMDU1ODZlZDVmZjE0MDlkODk2ZGUzNmI3ZTU3YWNkZDY3MGZlYWJjNTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE1OWVmMzJiNzkzOWIwYWMxOTdhNzcwNGMzMTczM2Y4Zjk5ZGE4NjRjMzQ2ZmUyNGFkZTM4YzFjMzE5ZWM3ZGIifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T12:15:46.420Z"
+  }
+}

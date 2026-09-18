@@ -5,7 +5,7 @@ description: How homeowners and dwelling policies determine whether a covered wi
 tags: [windstorm, hail, deductibles, percentage-deductible, wind-driven-rain, state-overlays]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-18e62e3e0cc23c448e9a7a88
     resource: repo://bulletins/CO/doi-2013-01-hail-deductibles.md
@@ -37,7 +37,9 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-ff7de1315ac46ce4dd65d251
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+  - id: openwiki-source-a4c7b640218374da69fe20e4
+    resource: repo://training/state-deductibles-explained.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 
 # Windstorm, Hail, and Percentage Deductibles
@@ -118,8 +120,8 @@ These are contractual terms from the identified editions, not a universal indust
 | HO 23 77, 2022-07 | Selected percentage is **2% to 10%**. Applicable limit is the limit for damaged property immediately before loss. | Same occurrence or related weather event controls; separate limits are not combined solely to reduce the deduction ([W.3-W.12](repo://forms/HO/MS/HO-23-77/2022-07.md#L305-L323)). |
 | Florida DP 01 09, 2021-03 | Windstorm and hail deductible is **2% to 10%** and uses the amount of insurance applicable to damaged property. | Applied to the total covered loss from the same occurrence, not separately to each item. The form requires at least **45 days' notice** before an increase ([DP 01 09 Florida 2021-03, T.1-T.10](repo://forms/DP/FL/DP-01-09/2021-03.md#L61-L85), [T.2 notice](repo://forms/DP/FL/DP-01-09/2021-03.md#L167-L175)). |
 | Florida HO 01 09, 2023-07 | Windstorm and hail deductible is **2% to 15%**. | Applies to covered loss and is separate from another deductible; wind-driven rain requires an opening caused by wind. This edition requires **60 days' written notice** before an increase ([HO 01 09 Florida 2023-07, T.1-T.10](repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L77), [T.2 notice](repo://forms/HO/FL/HO-01-09/2023-07.md#L167-L175)). |
-| Texas HO 01 45, 2022-01 | Windstorm and hail deductible is **1% to 5%**. | Applies to covered direct physical loss, including resulting covered damage, and uses the applicable amount of insurance; the form requires **45 days' notice** before an increase ([HO 01 45 Texas 2022-01, T.1-T.21](repo://forms/HO/TX/HO-01-45/2022-01.md#L61-L103), [T.2 notice](repo://forms/HO/TX/HO-01-45/2022-01.md#L169-L183)). |
-| Texas DP 01 45, 2022-01 | Windstorm and hail deductible shown in the Declarations is **1% to 10%**. | Uses the applicable limit for damaged property and applies to the total covered loss from the same occurrence; the form requires **30 days' notice** before an increase ([DP 01 45 Texas 2022-01, T.1-T.10](repo://forms/DP/TX/DP-01-45/2022-01.md#L59-L81), [T.2 notice](repo://forms/DP/TX/DP-01-45/2022-01.md#L215-L229)). |
+| Texas HO 01 45, 2022-01 | Windstorm and hail deductible is **1% to 10%**. | Applies to covered direct physical loss, including resulting covered damage, and uses the applicable limit of liability for the damaged property; the form requires **45 days' notice** before an increase ([HO 01 45 Texas 2022-01, T.1-T.21](repo://forms/HO/TX/HO-01-45/2022-01.md#L61-L103), [T.2 notice](repo://forms/HO/TX/HO-01-45/2022-01.md#L169-L183)). |
+| Texas DP 01 45, 2022-01 | Windstorm and hail deductible shown in the Declarations is **1% to 5%**. | Uses the applicable amount of insurance and applies to the total covered loss from the same occurrence; the form requires **30 days' notice** before an increase ([DP 01 45 Texas 2022-01, T.1-T.10](repo://forms/DP/TX/DP-01-45/2022-01.md#L59-L81), [T.2 notice](repo://forms/DP/TX/DP-01-45/2022-01.md#L215-L229)). |
 | Colorado HO 01 05, 2022-10 | Windstorm and hail deductible is **1% to 5%**. | HO 01 05 **implements** Colorado Bulletin DOI-2019-05 for the deductible range and applies the deduction to covered loss, including a loss with another cause; its notice provision requires **30 days** before an increase ([HO 01 05 Colorado 2022-10, T.1-T.8](repo://forms/HO/CO/HO-01-05/2022-10.md#L59-L75), [T.2 notice](repo://forms/HO/CO/HO-01-05/2022-10.md#L211-L225)). |
 | Louisiana HO 01 17, 2020-09 | Windstorm and hail deductible is **2% to 5%**. | Applies to covered direct physical loss, including covered wind-driven rain through a storm-created opening; related damage is one occurrence. The form requires **30 days' notice** before an increase and defines a named-storm period continuing **72 hours** after designation ends ([HO 01 17 Louisiana 2020-09, T.1-T.20](repo://forms/HO/LA/HO-01-17/2020-09.md#L59-L99), [notice and named storm](repo://forms/HO/LA/HO-01-17/2020-09.md#L211-L273)). |
 
@@ -168,5 +170,9 @@ Before applying a windstorm or hail deductible, preserve these decisions in the 
 6. **Other deductibles:** whether another deductible applies to a separate cause, whether the contract prevents duplication, and whether a state overlay requires a specific disclosure.
 7. **Covered expenses:** emergency measures, temporary repairs, debris removal, loss of use, and supplemental payments only to the extent the policy covers them and the form subjects them to the deductible.
 8. **Notice and evidence:** applicable advance-notice period for a deductible increase, storm designation or named-storm period, prompt loss notice, photographs, weather information, inspection access, estimates, and records.
+
+### Training context, not contract authority
+
+The state-deductibles training supplies a plain-language workflow aid: identify the policy, declarations, endorsements, location, cause, timing, and supporting evidence; keep coverage analysis separate from payment calculation; explain the result clearly; and escalate when the record does not support a clear answer ([training objectives](repo://training/state-deductibles-explained.md#L13-L53), [training workflow and escalation](repo://training/state-deductibles-explained.md#L79-L109), [training uncertainty guidance](repo://training/state-deductibles-explained.md#L814-L828)). Use that material to organize intake, file notes, and communications only. It does not establish a percentage, deductible basis, notice period, occurrence rule, or coverage outcome; those come from the governing form, bulletin, and edition identified for the loss.
 
 The final payment explanation should identify the controlling form provision, the covered amount before the deductible, the selected percentage and limit basis, the deductible arithmetic, any occurrence allocation, and any other deductible or limit that affected payment. Regulatory bulletins require clear, consistent explanations and records supporting the factual and contractual basis for applying a storm or hail deductible ([Colorado DOI-2019-05, B.2.9-B.2.10](repo://bulletins/CO/doi-2019-05-hail-deductibles.md#L75-L79), [Texas B-2021-08, B.4.1-B.4.6](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L213-L225), [Louisiana LDI-2020-07, B.2.21-B.2.24](repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L99-L107)).

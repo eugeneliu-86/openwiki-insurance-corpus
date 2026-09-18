@@ -5,7 +5,7 @@ description: Rules 400 and 410 govern pre-bind and renewal review of endorsement
 tags: [underwriting, endorsements, deductibles, attachment-controls, referrals, delegated-authority]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
+    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
@@ -13,11 +13,17 @@ sources:
     resource: repo://forms/HO/MS/HO-23-74/2025-05.md
   - id: openwiki-source-a831e6cf8f75394917fb0dc8
     resource: repo://forms/HO/MS/HO-23-77/2022-07.md
+  - id: openwiki-source-7176aead92778c93cb0441d2
+    resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-ff7de1315ac46ce4dd65d251
+    resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-c7690df4255f266075cd43d2
     resource: repo://guidelines/authority/referral-matrix.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+  - id: openwiki-source-d2ea423343a02d2233c77383
+    resource: repo://training/attaching-endorsements.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
 ---
 # Manual Endorsement Attachment and Deductible Controls
 
@@ -54,6 +60,16 @@ flowchart TD
 ```
 
 *This flow shows the Rules 400 and 410 underwriting path; it is not a coverage or claim-payment decision.*
+
+## Refreshed attachment-training checks
+
+The refreshed training makes the attachment entrypoint a wording-and-package review, not a title lookup. Before selecting or attaching a form, read the complete endorsement, identify what it changes and leaves unchanged, compare its grant, restrictions, exclusions, conditions, and deductible treatment with the request, and review the existing endorsement set for overlap or conflict. [Attaching Endorsements Correctly, learning objectives](repo://training/attaching-endorsements.md#L15-L23) [Attaching Endorsements Correctly, key concepts](repo://training/attaching-endorsements.md#L121-L151) [Attaching Endorsements Correctly, interaction and duplication](repo://training/attaching-endorsements.md#L173-L199)
+
+The package check must tie the form to the correct named insured, policy term, location, operation, property, effective date, completed schedule, and all referenced pages. A schedule entry without the form does not supply the operative coverage language; an attached but unlisted form must be reconciled with the policy record. If the schedule is blank or unclear, wording is missing, system text differs from the issued form, or the request and available endorsement do not match, stop and clarify rather than infer. [Attaching Endorsements Correctly, package checks](repo://training/attaching-endorsements.md#L65-L111) [Attaching Endorsements Correctly, schedules and correction](repo://training/attaching-endorsements.md#L193-L215) [Attaching Endorsements Correctly, common attachment mistakes](repo://training/attaching-endorsements.md#L579-L639)
+
+For a deductible request, identify the loss cause and property to which the deductible applies and read any special deductible with the base policy’s deductible provisions. The Declarations show the insured-specific selection when applicable, but a declaration summary alone may not show every condition or restriction; the governing endorsement and policy wording must be reviewed together. The training’s final check is to confirm current risk facts, eligibility, selected wording, schedule details, and effective application before issuance. [Attaching Endorsements Correctly, deductible review](repo://training/attaching-endorsements.md#L133-L139) [Attaching Endorsements Correctly, final review](repo://training/attaching-endorsements.md#L501-L513) [Attaching Endorsements Correctly, issuance checklist](repo://training/attaching-endorsements.md#L539-L577) [Attaching Endorsements Correctly, deductible and effective-date checks](repo://training/attaching-endorsements.md#L920-L934)
+
+After issue, preserve the exact issued wording and use the approved correction process for an error or omission; do not edit an issued endorsement informally or use a verbal explanation to repair contract language. Communicate what changed without promising a broader result than the form supports. These are training process expectations. Rules 400 and 410 still **constrain** whether the attachment or deductible selection may proceed, while the attached form and Declarations remain the contract sources. [Attaching Endorsements Correctly, issued wording and corrective endorsements](repo://training/attaching-endorsements.md#L201-L215) [Attaching Endorsements Correctly, communication and final review](repo://training/attaching-endorsements.md#L329-L359) [Manual Rule 400.B, 400.G, and 400.BG–400.BI](repo://manuals/underwriting/manual.md#L5097-L5107) [Manual Rule 410.C, 410.K, and 410.BI](repo://manuals/underwriting/manual.md#L5471-L5481)
 
 ## Rule 400 — when an endorsement may attach
 
@@ -96,6 +112,8 @@ The authority/referral matrix adds a specific water-backup threshold: a requeste
 
 Rule 410.A sets the **Section I all-other-perils deductible at no less than $500**. This is an internal selection floor for underwriting; it is not a universal contractual deductible and does not replace the deductible shown in the Declarations or an attached form. Document the selected option and the risk characteristics supporting it. [Rule 410.A–410.B](repo://manuals/underwriting/manual.md#L5459-L5469) [Rule 400.BD and 400.BH](repo://manuals/underwriting/manual.md#L5421-L5425)
 
+The governing contract can impose a different floor or special treatment. For example, the HO-3 2024-03 base form requires the Section I deductible to be at least **$1,000** and says the deductible applies unless modified by endorsement. That contractual floor comes from the form, not from Rule 410; the insured-specific amount still must be verified in the issued Declarations and applicable endorsements. [HO-3 2024-03, S.29–S.34](repo://forms/HO/MS/HO-3/2024-03.md#L859-L869)
+
 Apply only an available option for the coverage part being underwritten. The submission must show a clear deductible; do not infer one, combine options from separate proposals, or retain a legacy option that is no longer available without referral. [Rule 410.C–410.H and 410.AL](repo://manuals/underwriting/manual.md#L5471-L5505) [Rule 400.D, 400.G, and 400.BD](repo://manuals/underwriting/manual.md#L5109-L5129)
 
 The named-storm minimum and wind-deductible ceiling in Rules 410.M and 410.N are instructions to apply the available underwriting parameters; those rules do not state a number. The number, calculation basis, trigger, and notice requirements must come from the applicable contract and state overlay. A requested option outside those parameters is a referral, not an invitation to invent a value. [Rule 410.M–410.P](repo://manuals/underwriting/manual.md#L5531-L5553) [Rule 400.BD and 400.BI](repo://manuals/underwriting/manual.md#L5421-L5455)
@@ -114,17 +132,17 @@ If a bound risk has an unresolved deductible discrepancy, correct it promptly an
 
 ## Internal selection versus contract deductible
 
-The Manual selection is a gate before issuance; the contractual deductible is applied under the governing policy after a covered loss is established. A deductible does not create coverage for excluded property or causes, and an internal floor does not authorize the carrier to subtract a different amount from a claim. The forms below illustrate why the exact attached edition must be checked.
+The Manual selection is a gate before issuance; the contractual deductible is applied under the governing policy after a covered loss is established. A deductible does not create coverage for excluded property or causes, and an internal floor does not authorize the carrier to subtract a different amount from a claim. Read the Declarations for the selected insured-specific value, then read the attached form for the covered cause, property, limit, deductible, trigger, and order of application. The forms below illustrate why the exact attached edition must be checked.
 
 ### Water backup: HO 04 90 (2027-01)
 
-HO 04 90 (2027-01) is effective only when attached, forms part of the policy, and preserves policy terms not modified by its wording. It provides its own water-backup deductible: $1,000 applies to a covered water-backup loss and is applied to covered damage from the same occurrence. [HO 04 90 2027-01, W.0 attachment](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39) [HO 04 90 2027-01, W.3 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L189-L243)
+HO 04 90 (2027-01) is effective only when attached, forms part of the policy, and preserves policy terms not modified by its wording. It provides direct-physical-loss coverage for Water Backup and Sump Discharge or Overflow, with a **$10,000 limit** for the section and its own **$1,000 deductible**. [HO 04 90 2027-01, W.0 attachment and W.1 coverage](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39) [HO 04 90 2027-01, W.2 limit](repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L169) [HO 04 90 2027-01, W.3 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L189-L205)
 
-Rules 400.M, 400.N, 400.O, and 400.BD **constrain** whether the water-related endorsement or sublimit may attach and whether an unusual deductible treatment needs authority; they do not change HO 04 90’s $1,000 contractual deductible. The endorsement’s water path, exclusions, limit, and deductible must be read from the attached form, not inferred from the Manual. [Rule 400.M–400.O and 400.BD](repo://manuals/underwriting/manual.md#L5163-L5179) [Rule 410.O, 410.P, and 410.BA](repo://manuals/underwriting/manual.md#L5543-L5559) [HO 04 90 2027-01, coverage and exclusions](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L81)
+Rules 400.M, 400.N, 400.O, and 400.BD **constrain** whether the water-related endorsement or sublimit may attach and whether an unusual deductible treatment needs authority; they do not change HO 04 90’s $1,000 contractual deductible or $10,000 limit. The endorsement’s water path, exclusions, limit, and deductible must be read from the attached form, not inferred from the Manual. [Rule 400.M–400.O and 400.BD](repo://manuals/underwriting/manual.md#L5163-L5179) [Rule 410.O, 410.P, and 410.BA](repo://manuals/underwriting/manual.md#L5543-L5559) [HO 04 90 2027-01, coverage and exclusions](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L81)
 
 ### Roof settlement: HO 23 74 (2025-05)
 
-HO 23 74 (2025-05) is an attached roof-surfacing settlement endorsement. It says the applicable policy deductible remains in force and is applied to the covered loss after the stated roof-surfacing adjustment. It does not itself turn an internal deductible selection into a new contract amount. [HO 23 74 2025-05, attachment and unchanged deductible](repo://forms/HO/MS/HO-23-74/2025-05.md#L13-L55) [HO 23 74 2025-05, deductible provisions](repo://forms/HO/MS/HO-23-74/2025-05.md#L327-L367)
+HO 23 74 (2025-05) is an attached roof-surfacing settlement endorsement. It says the applicable policy deductible remains in force and is applied to the covered loss after the stated roof-surfacing adjustment. For composition shingle subject to its age-based adjustment, the form states a **20% payable percentage when Roof Age is twelve years or greater**; the adjustment is applied before the deductible. These are contractual settlement mechanics, not Rule 410 selection instructions. [HO 23 74 2025-05, attachment and unchanged deductible](repo://forms/HO/MS/HO-23-74/2025-05.md#L13-L55) [HO 23 74 2025-05, roof age and adjustment](repo://forms/HO/MS/HO-23-74/2025-05.md#L57-L77) [HO 23 74 2025-05, deductible provisions](repo://forms/HO/MS/HO-23-74/2025-05.md#L327-L367)
 
 Rules 400.P, 400.AJ, 400.BD, and 410.O **constrain** attachment and deductible selection for a roof-related risk; they do not replace the policy’s applicable deductible or the endorsement’s settlement sequence. Roof age or condition guidance must likewise not be presented as a claim valuation rule unless the attached contract says so. [Rule 400.P, 400.AJ, and 400.BD](repo://manuals/underwriting/manual.md#L5181-L5185) [Rule 410.O, 410.S, and 410.AI](repo://manuals/underwriting/manual.md#L5543-L5547) [HO 23 74 2025-05, roof age and deductible order](repo://forms/HO/MS/HO-23-74/2025-05.md#L59-L77) [HO 23 74 2025-05, W.3.3–W.3.5](repo://forms/HO/MS/HO-23-74/2025-05.md#L327-L337)
 
@@ -132,7 +150,7 @@ Rules 400.P, 400.AJ, 400.BD, and 410.O **constrain** attachment and deductible s
 
 HO 23 77 (2022-07) applies only to covered windstorm or hail loss. Its contractual percentage deductible must be between **2% and 10%**, is calculated from the applicable limit, and applies before payment under the endorsement. That is an edition-specific contract range, not the Manual’s general deductible floor. [HO 23 77 2022-07, attachment and scope](repo://forms/HO/MS/HO-23-77/2022-07.md#L13-L53) [HO 23 77 2022-07, percentage deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L55-L75) [HO 23 77 2022-07, W.3 deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L299-L325)
 
-Rule 410.N **constrains** internal wind-deductible selection by requiring the applicable underwriting ceiling to be used, while HO 23 77 supplies the cited edition’s 2%–10% contractual range. Rule 400.P and 400.BD additionally constrain weather-related attachment and unusual deductible requests. Neither rule changes the percentage that the attached endorsement states. [Rule 410.N, 410.P, and 410.BI](repo://manuals/underwriting/manual.md#L5537-L5553) [Rule 400.P, 400.BD, and 400.BI](repo://manuals/underwriting/manual.md#L5181-L5185) [HO 23 77 2022-07, W.3–W.6](repo://forms/HO/MS/HO-23-77/2022-07.md#L301-L319)
+Rule 410.N **constrains** internal wind-deductible selection by requiring the applicable underwriting ceiling to be used, while HO 23 77 supplies the cited edition’s 2%–10% contractual range. If a state amendatory form is also attached, its Declarations-based terms must be checked rather than assuming HO 23 77 controls every policy. For example, Texas HO 01 45 requires the Windstorm and Hail Deductible shown in the Declarations to be **1%–10%** and applies it separately from another deductible. Rule 400.P and 400.BD additionally constrain weather-related attachment and unusual deductible requests; neither rule changes the percentage that the attached contract states. [Rule 410.N, 410.P, and 410.BI](repo://manuals/underwriting/manual.md#L5537-L5553) [Rule 400.P, 400.BD, and 400.BI](repo://manuals/underwriting/manual.md#L5181-L5185) [HO 23 77 2022-07, W.3–W.6](repo://forms/HO/MS/HO-23-77/2022-07.md#L301-L319) [HO 01 45 2022-01, T.1–T.7](repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L73)
 
 ## File checklist and failure checks
 

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6369f305b4d5e099239ec14e0072cef62d7f318f4437016fc0bf3db8dd43b51b",
+  "claims": [
+    {
+      "id": "claim_b9e350b762204f9db730bbd40f7f9e62",
+      "statement": "Liability Claim Handling Guidance is internal operational direction: it organizes claim work but does not create, expand, restrict, or amend coverage; the applicable declarations, homeowners form, endorsements, facts, and law control contractual rights and obligations.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L13-L27",
+          "version": "repo-lines-v1:sha256:7b60b63a82933fb51135c046e77f093a9425b7bd5454d70bd1ab844ac7ccbc20:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiZmEzZDVjMmUzNDYyODAwNmY4ZmNkMzM1OTgzNDU2MDUzYTUwNDQ3OWEyZDBhNWNmMTE2M2MxN2MxZGM2OTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3MzViM2E0NTRjNjJmMGY1MThjNDgyM2M4Y2MzYzk5N2ZhNmZlYjEyM2FiY2FlZDg4M2JkNjA4YzI1NjU5MjcifQ"
+        },
+        {
+          "resource": "repo://training/guidance-versus-contract.md#L15-L23",
+          "version": "repo-lines-v1:sha256:3b2a66e8e45f161214ddd2ff811b976dda5d8a25158afa0bb94703ad3ca371fe:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGNkMmEwN2RiMTBlNTlkODJiZGU4ODA4YmY5Nzk3YjU0MTdlYzQ3M2I0YmRjYjRhNGM1MGM2MDRkNWY1MmMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM4OWJlZDMyYzRmZjZjYzc2OTZiMjJlMWJiNjBjNzIzZWE2ZGJhZDVmYzQ2NTJjOTE2ZWM5MzFlNzJjZDk0ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y3MDE1MTBiNWY3YjIwNWUzNzUxMWMzNjg5MjMzZjllOWNmYjc2NDQ5NTAwNDZjZjMzNmYwYjg4MWMwMTQzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyZjAyMjA2ZjAwOGU0YjgxNDkwOTdhZmE2YTAzODBmZjY3MGI4ZjYxNzIzY2ZjYmNmN2VjZmQ5NTk2YjRiMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_874c59c38f82457e8e4df804c2b20d78",
+      "statement": "A liability claim file must be opened on notice of an occurrence, offense, claim, or suit, with parties, occurrence details, allegations, service information, and supporting materials recorded and original evidence preserved.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L541-L549",
+          "version": "repo-lines-v1:sha256:5d20c61dd40ff709e10307e4a91344020716c1fcb5bde8309b27ef0859a6cf6a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTllNjdiY2Q1MjBmYmFhNzYxMmExODQ1ZWUwMmM1MTYyZDQ3YzBhY2RiMmU5Y2E3MzFlMzY2NDBhYWFkZTQwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODBlMTA4OGQxNDI4ZWY3OTdkNGUwZjY4ZmFlMDIzMWVkNWI0NDlhN2Q4ZTY1YzQwYWRjOWU2ZGE3ODM1NDZlMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTJmNGUwZmVkNWM2OWM0MGEwY2I0ZWMwYjhmNjVjZDhlM2IyZDAxNTU3OWFlYjI5ZDgyZDM5NmVmOGZlYWFlZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWFkZGFjZTM4YTVmNmFiY2RmMzg3MjRmYzk4YWEwYTY5ZGY4MGFmMzQxMjI0Y2YyODI3ODg2NTc0OTFkMzQyMyJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2525-L2585",
+          "version": "repo-lines-v1:sha256:d63841bc75ea652360e2160f65cb205c29c7836a39bdf0d8b1299c989de65eeb:eyJzZWxlY3RlZExpbmVDb3VudCI6NjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwMGE4OGJjZTE0NmM2OGI2NDA2OGJiZTQ3ZTIxNzczMjI1NDUxNGM1OWM4ZmU4OWNjMDAyYjY4YzE2ZTMzMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyNjQwMzllNzQzZGIxNjJkNTliZDFiMmI5MDEwZjVjNmVlY2FkODgyM2RhNDgyNmI2MGRlNjc0NjhmMTE0NjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2NWQ0M2U1MGI1ZDA5ZTI4N2E2OWJjYjg0MTU5OWNiMTA0NTc5NjczYjU5ODQ2YTJjZTI2Y2Y5YzFlMzA3ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyMjk3NzNlMjMyMzg5NDNhMDgzNDE2ZGVjOTljYjRkMjgzODU1YzQ0Y2Y0NmQxNTA3YzU5Mjc1NjUwMzJiM2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c786c83ece6b4882b499141d4df45c4f",
+      "statement": "The claims manual requires claim receipt acknowledgment within 15 days, treats liability notice received within 30 days as timely for internal triage, and requires escalation of delayed or time-sensitive matters; the liability guideline and general manual contain different internal reservation intervals that must be referred for an approved applicable standard rather than silently reconciled.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L551-L557",
+          "version": "repo-lines-v1:sha256:5f84a00c4deb8c866d571f682ebab8891d9a8ac4ef540e0413f05db4a495f317:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGZiZDQ2M2Q4ZDFiODBlMWNlNDJkNTM2ZmM1MDk1ODlkMmNlOGY1MTc0OTliOGUxNzFjNWQ4NGNjM2NhYzcxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjM2E2NTBjNTZjYzdhN2RkZmY5NDQ3ZGRkNzUwN2Q3ZWUwYmNkMDIxZDNjMDY4OTM4YzZjMDFhOGQyY2ZiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDc3NTVmMmJiZDdhMDE4NDA1MzgyOWQ0ZTBmNjFmNWRlNTgxNTgyYzA0YTRiYzBhZTBlMTcyZjI3YjNjNDFmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzUxMzJmNGMxNjgzOGQ3ODdhZTYyY2Y1YWRmY2JiN2M5MTNhOTI5M2MyY2JmNjRiMjUzMjRkMzJmMzhjMGVmNyJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2525-L2567",
+          "version": "repo-lines-v1:sha256:2619e61233bf85571d9f3934b42f5539096fe0e3ed773f7882ea48fb1b64b53a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwMGE4OGJjZTE0NmM2OGI2NDA2OGJiZTQ3ZTIxNzczMjI1NDUxNGM1OWM4ZmU4OWNjMDAyYjY4YzE2ZTMzMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmMzgxNWMzYWI2MTExZTcwNjExOGUzZjVlZDIyMjYwYzYxM2QxZGY4ZjkzNGExYjg4NzE2YzBiMzdlNWQ5Y2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2NWQ0M2U1MGI1ZDA5ZTI4N2E2OWJjYjg0MTU5OWNiMTA0NTc5NjczYjU5ODQ2YTJjZTI2Y2Y5YzFlMzA3ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxNWY4MzYzNjQzNjY4ODcwNGU4NTI0NzgwYWEzNTlkYzBlZjg5YTUyODYzNTM5NDU4NjBhMjhjZTFkZDM3YTcifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L3951-L3971",
+          "version": "repo-lines-v1:sha256:2a3dce80812bd4669ccd2cbb3befed20508ade8e2be699b33004bdcc00eb9bbd:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYxOTAyNzcwMmNjOGM4YjQ5MjJjYWI4MzkwZWFjOGJlMDcyNmYyZTFhMGUwMTFlNzA3NDgyN2E5ZDBhOWUyY2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5YzdlMGEzYjk4NzA0OTY5ZjRjMzgxOTdkMzBlOThmNjI5NzY2NmY2MjkxMjQ1YzgwOWVkMzY2YjQzYjgxODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzZmZjNmM3ZmMxNmY0ODdmYjQyOWU0MWNmYmU1MjZmY2E5NTA1Y2E5NjA4MDZkODQ4YjI1YTA3NzJhYzFhMDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4ZDUyMDA0NjIxNDQwY2E5YzdhNWVjNWQxZmY2M2JmOWU2Mjc1ZjFjNjcwY2VhYzA2NDgyNTc4OGQ3N2U4MjUifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L481-L491",
+          "version": "repo-lines-v1:sha256:86aed764f97793478e2ef3ec9ee98288ebb029c45ecb2430c16e68f9ae7585fb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNGI2M2VmZTM3NWNlOGUwOGIzZTU2NjRkMmQ0OGZlYjExM2Y5Yjk4MzhhNGFmMDczZDk0YjFmZjY1NjUzNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NGMxZGMwZTdlMjQ3YTk5MTliNjYzODk1M2JmM2FkNzRhMWViY2EyODkzNzViZTJkMGQ1YzJhYTNlOWVkZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyYWUxODQ4OWExNDczNDEwNjE1MzA3Y2JiNWI1NGQ4YjdlODI0NmYwNzQxOWNlZTA2NDUyNGU0NzBhNzlhYWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE5ZTEwYmJhZDk4OTE4OWZmOTM1N2RmNmNhMzVkMjk2NTZiNDBlMjhjOTQxOTA3YTAzMTU5YjhhNWE1MWVlNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d63641e5f4384e36a8d8e145e032a595",
+      "statement": "Coverage review must use the policy in force for the alleged occurrence, declarations, endorsements, definitions, limits, exclusions, conditions, and other insurance before a coverage position or counsel assignment.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L545-L553",
+          "version": "repo-lines-v1:sha256:3f35529e31be716ef572b99d2eb526a4e3e32700f2573ab6a746305a916143e8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTc5Njk1YzM1Mjk0NWRlNDRjYzBkOTE5MWU4ZjM5MWQ5MDczYWJhYjExNWYzMmJiM2NjN2YyMWVlMDNjMzJiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA3MDVjN2ZjZTQwOWZkMzc3YmQ5YzVmNmM4ZDU5ZmZiODQzZjA5MDBiYTgzYWYxMzQ1MmZhZTk1NWY4NGJkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTM1ZjZlODFjMmJiN2FkOGE5ZjY0MWZjOWE5ZTNmYjE3YTYyNDhmNGFmMjEwMzY3ZThmYjlkNmEwZTBmM2EwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDViNGE5ZTU4MTcxMjMxZTAxNzhlYWRlZGFjYmE3ODM4NGIxYWQ4MzMwOWY2ZjY3YzY2OTc3ZWYwNmIyYzc5OSJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L39-L55",
+          "version": "repo-lines-v1:sha256:2ba0bca992b6aaad02878ae26294ed400ba983262c338788064b10146afa321f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4MTM1MDIxNjVhZjRjZDZjYzE2ODMzNmZhZTdkNjI4MjMxNmM4NmMwNGEwMmEyMDc1Y2EyNzllZWYwZTlmNWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2ZDFlYzg5YzEwNGZhZDc5MjZiOWVmNmU5Y2Q1MDUzMmRhYjU4NmQ0YWRiNjFiMzU0MTBmMWI1OTkzNTM0M2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk1ODdlYjZmNjIxZTQxMGViMDY1YmJlYmQxYmFiOWQ3Zjc1MTdhMDQzNTQ2NDA2ZjIwYzVhZjRkNGM3OTUzNmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0MWRhZWNiYzE2NGJkNWFiYzFjMjllZDI0YWI0NTJlMWQ0N2ZhMmJlNGNlYzYzYjZmYjlkOTVjZjYyZTU3MWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5e1cf92ca3ee45588efc1bad0ba16657",
+      "statement": "HO-3, HO-4, and HO-6 each provide a Coverage E structure for covered damages arising from bodily injury or property damage caused by an occurrence and an insurer-paid defense, but their defense wording, exclusions, additional coverages, and conditions differ, so one form's result cannot be generalized to another.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1023-L1071",
+          "version": "repo-lines-v1:sha256:a8961c6b2ee200dec68d5d9a0dbca79940416bd365477d1e7e1aca91544719ae:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MjhhYjFmODRmNWFmZjY3ZWI1NjMxODI1MmYyMWUxZDdjNTY3N2JhYjEyNTFmZmQ1MmE1Mzg3ZjEwODI4MzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYxMzMwYTgxOTJlN2VhM2Q1NjkzM2IwOGI3ZjA1NjQyY2UyNTMyNTBiZGRmMTcxZjE3OTk1MDQ4YWE5ZTc4MGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDI2NzdkMmNhNzAwMmZjZmYwNGQ4MzJkMzdmZGNhOGM3YTRiY2MyNzE1Nzk5MDdjMzkxYTY2ODUyNjIxMDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L1087-L1153",
+          "version": "repo-lines-v1:sha256:d093df199e694f59bb13301f0390efee8c85eee036d252b7355a97cd1db6c4f4:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZmNWEzZDhkMGJjMTZiYWNlNGIzZDdlMmJkZmIzMmQyOTVjN2Y3MmViNjIzZDNhNjVmZWRkMjE2ZDRlMjIwNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY2MDA0ZTM3ZmJhMzcyZTg5NzFhODU0MWY5MzBjNDhkYjU5YjJmODg0NWE2OGY1MzA1Zjc4Njg3Y2E1MzQ1YjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDI2NzdkMmNhNzAwMmZjZmYwNGQ4MzJkMzdmZGNhOGM3YTRiY2MyNzE1Nzk5MDdjMzkxYTY2ODUyNjIxMDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1004-L1050",
+          "version": "repo-lines-v1:sha256:2b0b9d5d60e2e25dd52931a1fcc3c85d39779db74f126a416f53bdb3b040e14b:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljMTY0ZDFmMzE4OWUzYWNkODhkYTEwNWM5MDhjYTNhNmM4MzRkYzljMzExZjI2NzQwYWMwZDBkNTM0NzVhNDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4MmM1MmMzODRmZGUwYzA0YjljNzJmYzAzMDlhZTBkNGFmZjcxMTFhZWI3NTYxNWJmOTdmM2U0M2NmZGQ0NDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDI2NzdkMmNhNzAwMmZjZmYwNGQ4MzJkMzdmZGNhOGM3YTRiY2MyNzE1Nzk5MDdjMzkxYTY2ODUyNjIxMDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1210-L1282",
+          "version": "repo-lines-v1:sha256:9ac0625a6cbc98885a300ce8cc0411029e013b5f260a7e42602fc7b783f89f30:eyJzZWxlY3RlZExpbmVDb3VudCI6NzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzNjhkYjI5NjQ4MjkxNTcxMzZjMDUwYmNiODMwZDAxMjcxN2M4Y2I5YmZkNDlkZmM3NGE5OGM2MDM1Y2UxZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZGQyNjVmM2EyNmJiOWM1YTk1NmFmNjdmMjZjY2FjOWY2MzM0ZWYxNWJmNmQ2MTQ0MmM2YWIzYmNjZjFkNDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwZjk3ZWZhYzA2YzgzMGZmMzJlYjhlZTAzMWQyNWEzYzI0ZTFlM2FkZDdkYTc1NTRhN2YyODliN2IzMjM5NmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg5MjhhZGQwNjk3Mjk1MTdiZGM2ZTBlM2NiNWIwYTY1Zjk0NjA0OGRmOTZhMjIzNmM1ZTg1ODNjZDVlOWNhMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7df4a0e0a21847e0a2bd3a708baef25b",
+      "statement": "Coverage F medical payments is a separate coverage analysis from Coverage E: the reviewed forms describe necessary medical expenses caused by an accident without making payment dependent on legal liability, while eligibility, limits, exclusions, time periods, and duties vary by form.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1073-L1113",
+          "version": "repo-lines-v1:sha256:e1b02c8b60dfa07030ac4be1d563b0c5cb52057c536dc429e8cf9fedcde70fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3OWY2YzQ4NTM3MDMzYzlkNTNmY2Q0MWEyZTg0Y2NjNGM3MWQ4MGRjYzg2MjVkZGFhM2ZkOGVmYThiZWM0OTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk5ZWI3NDUxZDdmZDg3MzU4MDFlMzY1NTBhMWNhN2Q5ZmMxNTQ0ZGMxNzY0OGQ3MWMxOWU0NDc3MjQ3MzY2MzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyMGUzODVkYTRmZjQxYTYwZGVlODBlNzFmMzVlOWFmMWQ3MmQ1OTQzMTQxN2Q5N2I3OGEwNTc2NGYzYjk1YTEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L1155-L1195",
+          "version": "repo-lines-v1:sha256:ebe8520e3f87b8bb7bf3e8071a800ca8d5f15333868c6b7649b85e06ba3b881a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NzgzZDYyYjhiYTFhNTViMDM3NWM0OWYzOTY4Yjc3ODk4NWQ2Y2FlZWMwMmQyOTI2MTVhNDYyMWI3ZWQ4MWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxMGUwYTdmYjNiNmQ5NjIwMWQzNmE3MTY2MzBiMDU3YmJlNzJkMzE5YTgxZTgyOTdiZDllMzFlMGRlZThlM2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyMGUzODVkYTRmZjQxYTYwZGVlODBlNzFmMzVlOWFmMWQ3MmQ1OTQzMTQxN2Q5N2I3OGEwNTc2NGYzYjk1YTEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1052-L1106",
+          "version": "repo-lines-v1:sha256:00bad3c78b83a5379306aa21b8b8b851cb884e7403fbdcbe9e93046cd2d45cf9:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwMTQ0NjY1Y2Q2ZDAxYjNlNzI0MjdiOTg3YWM2ZWViZTQ0MTg1ZWE5YjNhNWM1YzhiY2RmMGNjYTk1OGUzOGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllZGU5MDk3ZDQyOTMyMzlkMjE5NTE1MWU4MGY2M2Q2ODVlYTBhY2U0YzI2NmJjNWI2N2RkMzAxMjExZGQwMzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyMGUzODVkYTRmZjQxYTYwZGVlODBlNzFmMzVlOWFmMWQ3MmQ1OTQzMTQxN2Q5N2I3OGEwNTc2NGYzYjk1YTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e9d682c7e668423aaa2024717c2fa068",
+      "statement": "When a potential coverage defense is identified, the liability guideline calls for a reservation of rights within 15 days, while the general claims manual states 10 days; the reservation must be fact-specific, is not a final coverage decision, and investigation should continue unless the coverage resource directs otherwise.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L551-L559",
+          "version": "repo-lines-v1:sha256:ffee7beec6141d77cafd0c35bdc12d8788f6d9a2b604dd17cf5857f8e8bdbf5e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGZiZDQ2M2Q4ZDFiODBlMWNlNDJkNTM2ZmM1MDk1ODlkMmNlOGY1MTc0OTliOGUxNzFjNWQ4NGNjM2NhYzcxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDc1MTAzODhmNTBkODcyYzVkZDljN2I4ZDBhODFmNmFlODE2NDM2YjllNTM5YjVmMmUzOTY1M2JiNWRmYWQxYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDc3NTVmMmJiZDdhMDE4NDA1MzgyOWQ0ZTBmNjFmNWRlNTgxNTgyYzA0YTRiYzBhZTBlMTcyZjI3YjNjNDFmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTBmMjUxNmI0MzFlYjdhMzk5YjliNTFjOGFhZDg0YWQ0ODA1NjU0N2UyZjgxYjZmMWFlZmJiNzllYzE3ZTVmNiJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L481-L503",
+          "version": "repo-lines-v1:sha256:af38f782a8f1d772e5b78f3f623c4fc44de1bd8f5daa0ebcf19c0d2d20f706bd:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNGI2M2VmZTM3NWNlOGUwOGIzZTU2NjRkMmQ0OGZlYjExM2Y5Yjk4MzhhNGFmMDczZDk0YjFmZjY1NjUzNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExYTcwNzIxMjZkZTc5MDU1NDM1NWZkMzJiNWFhYWZhNmE3NGE3MzYxNTYwYmM5MGQzZWEzNDFmMWNjOWUxNDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyYWUxODQ4OWExNDczNDEwNjE1MzA3Y2JiNWI1NGQ4YjdlODI0NmYwNzQxOWNlZTA2NDUyNGU0NzBhNzlhYWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxMGIxMDc1MjM1ZTYzNmU4ZmYzOTBiNzgzYTU2YzVlYTYyZGE5NmM1NzcwMGMyZDRiNGI3YjdmMDc1ZDhhMTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8a619b1db4e04e0880fc38b40700e891",
+      "statement": "Liability investigation requires neutral fact development from insureds, claimants, witnesses, records, inspections, experts, and physical evidence; handlers must distinguish allegations from confirmed fault, identify serious or specialized exposures, and preserve evidence before irreversible mitigation or repair when practical.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L567-L571",
+          "version": "repo-lines-v1:sha256:c819d855ef7f5c0e4343587fc6e075583f15ec2eaf111942e77c80803c23f583:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWUyZTg1YWIzODg1N2M0Mjk1MTk4NDE1NzFjNjUwYWI0YWJmNzA4MWM0NjAwYTE2NzVmZWIzMzc4NDUzNGNmNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmYzNjFjZmM4YjUyNDg5NTJmMGRiM2EyMjQ3OWUyOWIyZTdiYjdkNTg4MjVjNDg4ZTczNjczNDU4MDI1MWM4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTUxYjQ1MzAzYWJhOTdmOGZiMzA0MjllZDc0MzgzNWM3YjdkOGYwNTM1YjcwNjBmZjQ5Mzg1NmQzNjlhNjYxNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQzNTQ2ZGY4OTM5YmU3MDYwODE1YjFjMDJmNjc0MDRiZDhmODUxYTE4NjViYmE0MWYxZmQ2MmQ3MTU3YmU1YSJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2569-L2621",
+          "version": "repo-lines-v1:sha256:221f5e81e3e4948968e05d7e931c078afc4110bb6bb69dac2559de3719a8fda6:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjN2JiN2U4NDk5NjE0ZWIwMjRiOTA4OWMxZDI2OTc3YzM5MWVlMDg2ZDVkZDJkMGRjZWE3MmE4Njk4YTY2MDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyMTkyNjU4ZGVhNTUxNWViY2MwNTQ1YTlhYzBlY2I1NjhhNDcyNTc3Y2JiYzRlMWFiNjk4MjZkYTI4NzlhY2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzY2M3YTg3ZjQxMDM4YTgxOWZlYjY5MWViMmM2MmI3MDQxYTliYzY0YjEzZmE4NmI2NzdmY2I1MWQ2MjA5ODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGMyZjBhMGQ5ZjA4ZjIzYmNjYjU3ZDlhZTFhNTc5MjZkYWEzMWIzMDZkZDBiOWUxYTVhMDExY2ZmMTk1NTkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2623-L2675",
+          "version": "repo-lines-v1:sha256:53d7cdb5484d15d4ca8d8c465e9c642e885dfd99beaf1adf50ff7f2cf5e067ba:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNGRlZTY4ZTA3YmZmZWRjNzBmNTg4ZjE2MWUzZWY5YzI3OTNjZWRjZTJjYmViYmQ1OGFhODgwZTUzMzRiMGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3OWI0YWY3NDFkYTgzNzRmNGNiMGYzNjlkMzNhZThiMjI4MTYyN2Q2MTY0YWZjYWE0ZmQwM2YxMWQzNzU5OTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhZWZmMTE3NTcxNDEwYzY0ZWRlNTVjZTk0OTQ1MjMwZjAzZjRmMDA4NTczNTcyODFiMmMxYTUzZmUzMDRmOTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1M2VkZTgwOTNhY2QzNDllNDBhYjdmNDliNTVjYTlkZWNlMzU4YTVkN2RlYmU5MTU1MmUyNDlmYThiYjU5ZDAifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2797-L2813",
+          "version": "repo-lines-v1:sha256:82ccc783d9255a1eb3c48c1894c436115a91c514349a809df3b442a3dd7397a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkYTUxMWIyYTBmNDM4ZTUwZGJlYTdkODRmMWIxMTUzN2UyZWM2MGI2YTdkY2ViMDI2MDhmNDRlYjE5OTZjNDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5NDIzMTk1MGIyNDY3Mjg3NWM1NzFjOWQxMmVkZDI5OWVjYTE0ZTNjODBiNDM0YjUzM2NiZjAyYzdhMWY4NzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxYWQyNjMzMmUxN2FmMDkyMWQ3ZWRhYmMxYzIyMzM5ZWFmZmEwYzU2YTY2ZjVhZTJiOTVjODcxNDI3ZDVmYWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE4ZTQ5MmQ3NTM4ZmUzMGI5MDczNjVjMTdhYjRkMDU4OTgwNGZlZWM3YTBlOWMyNWMwODIyN2QzZjZmYzViNGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_db281d18c3054d45b1f06ce1256809c8",
+      "statement": "Potential other insurers, employers, contractors, indemnitors, additional insureds, manufacturers, vendors, or other responsible parties must be identified and contribution, indemnity, subrogation, and recovery opportunities protected before release or settlement.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L573-L575",
+          "version": "repo-lines-v1:sha256:346fc2a4c7a892f367618d4b5e8f21a931582ba16af967462ab5166e20d1150f:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjFlNjA4MGJlZjMxYzhlYzYwYTk5ZGNjN2Q2NDMyMDUxYzk3MWU5OTBhMmU5YTE3NGQ4YjFlNjdlMTFhMTlmMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRmN2ViNTk3MzMyYjI1NmVjYWFjZTNhYTIyYzhmNmNkYzFmZTZlM2M0NzI3ZDkwYzc0MzZkNGY2NmY3OTU0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjNlODQ4NzI5Nzk0YTBmMjc3NzI2NTI5NzQwMGFkNDFlZDZkZGRmZDI4MzhhZDE2NmJkNTc1ZDY2ZTA3YzYxNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzJiZDM2OWYxYzQ4YzZiYjliOGEwZTJhNTc2ZWExZDkxNTNiNmZkZWQ5YWIwODZiMWY1M2Q2YmZmZDQyYzcyYyJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2689-L2693",
+          "version": "repo-lines-v1:sha256:8b2e1435d48eae615b1322d6543863377a85cefb6d300c13b44acde18d4fc0e2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTUwYzUwMTZjZWRlNzg5YjcxOGEwMmI5OTcwMGNiZjI1NjcyNWE0YjcxMGIyOWZkMjgyYjU1YThmZTVlZWY3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDY1ZGIyNjRjMDViMjA1MDNjNmRhMDk4MWM4N2QyMjdiMzg5NzNmOTNhYTE1NDQ4YjIzMDA3MTgwYmViOTU5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFjZmVjYTU1OGMwNTRkYzZiNjE1ODQyZmZmM2QxN2Y3Y2IwYzc0MTBlMGQzZGMyNTk1MWRiYTlmYmIyODU3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTcwYmExMmMxNWZmMzcyZGM5NTc0MmUxNmZkODkwMWVmN2Y0ZmQyODlkOTU1NmYyZWJmNmQ2OGIwMmU2NTdjOSJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L3013-L3023",
+          "version": "repo-lines-v1:sha256:7b6cc99f6d1d131d5ec0eaf7517637c91c6e8460e576a54ae6a93a31a33b8f25:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc2NjY1ZmZmZDM5YTM4MDU2NzE2YzAyNWQ5MmZhYzZjZjBmZDZhODFjYWI2ZmMwMjZiMzFiZWZmMGI4M2IxMTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MTQwYjhjOWJiYmI5OGIxM2QwYmY2ZWEzYzI5NzI3MTFlYTVmZmQ3MjM5OTg4ZjhkZjBhZDRkOGExMDE3Y2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFkZDYyNzQ5M2EyODM5NzRjMTFiMjI0ZDU0MWMwYmZjNjc1MDkxNTA0NGRlMjgyZjc3M2Y5ZWYwMWUxYzQ1ZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU5ZGEzZjdhZDFmMTJhOWRmZjcwMDY1NDcyMDNlMTFkMzQ5YjdkZjIyYzJlNGE3YjdmY2Q2MTNjYTFmZTkyOWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_35d17e31307748758933b2b58b5fbc87",
+      "statement": "When allegations potentially fall within the liability grant and no exclusion clearly eliminates a defense obligation, counsel may be appointed through approved procedures; counsel receives the pleadings, service details, coverage correspondence, known facts, evidence, deadlines, and instructions, while defense activity and spending are monitored.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L559-L565",
+          "version": "repo-lines-v1:sha256:7012eb9eeb99a20e0d1abe8f815bd956235c76a4c6fc8241e2711cdb37d02f1c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDc1MTAzODhmNTBkODcyYzVkZDljN2I4ZDBhODFmNmFlODE2NDM2YjllNTM5YjVmMmUzOTY1M2JiNWRmYWQxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgxZmIxZGVlMTRjMzAxY2E2NzU5NGQ5MGJlNDY5YjYzZWI2MWE2Nzk3YjkxZTFlMWE0OWQwYjA0ZGU4Nzc5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzcwOWM5Zjc1NGJlNGI4MGExMDQ3YzdkNTVlYTBiZjYxMTYxNzg0ZjUwNzc5ODJhMTRhNDNkOWI2NzZkMDI2OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUwYzUxMWNmNWIyOTFhOGJlMDQxZTNhZDg1MzVmY2UwODdlMWZjYTQ2ZjhlZGI4MzRlNzNjY2NjYTFkZjdkNiJ9"
+        },
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L587-L589",
+          "version": "repo-lines-v1:sha256:f3dbe7bf6e1e3cac384e510c7ad4545f2440fa75d30aea2a8b84dc81693d42a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgzZTA3YjNlYjJlODM4MGU5MmM4YjM3YTZiYmVjZTY5YTFmMGU4MDlkNDM5NmE0NmIxYjg2MjMxNzkzZmY4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhZmQwZDc1MDFhZGNmZjRhNmIzZDRjN2U4NjVhODA2NDExMTkwNWFkNjA4ZTc2NWRhZjVkMTQ0N2ExZjkwNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDA0MTYyYWQyNzQwMjM0ZDlhYTcyYmE5YThjN2RmMzg2MGU0MThlZTZkNTEzMTE1YWM4MDUwNmFlMjZjYzA2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGU5MTlkNDNlNGRiYjNiNjc1NGM2ZWU4YzdkNjIzY2ZiNzA0OGY2M2Y2NTI5YTMzMDZhYjI1ZWY2ODYzN2Q1YiJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2995-L3011",
+          "version": "repo-lines-v1:sha256:6a301c8d074672779e2407226ce652729010869c03397902aef8e60d2a03f73d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMzEzMWUxMzVmMTUyZjMxZDdjYzc1YjYyNjc0NWI4ODgxNjYxNGE5ZGE0YmU5Y2YwODg2MThlODdiZTk0MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4N2FjMTViNWVjNDQxODc5NGFjNDdmNjg5MzBmNzQ5ZDgwOTgxNWUxZTNkMGVhYWM2MmRjYzc1YTM2ZjExZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwNmM3NWQ4NmVmZTFmMzFjNjlhMzUzOGJhZmE3YzUwYjczMWVlYmI5NjMwNjlmMGNiYTRjMGU3MDVkNWU1ZjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwOTAwMjM2Yjk0ZGFmNWE0OGE3MGViZGU2NjA1Y2U0Y2JiOWNjN2NlMzA2OGExMzliMGE4OTYyMGE1NTZkOGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d63d2b94df61455f926099cc70a9d443",
+      "statement": "Settlement and expense authority applies to total known exposure, including indemnity, allocated expense, anticipated defense cost, contribution, and related obligations; handlers must obtain authority before material commitments and may not split payments or approvals to evade referral.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L619-L633",
+          "version": "repo-lines-v1:sha256:4cd8760184e7987d8b74b5a73bd5f2daa3b7d8b798e0a9c7c8031a532b33a847:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxM2ZkZDZkYjI1ZTA1MTY0OWZlNWNmZDliYmJlMGZmOGMxMDRiMTVkMThjMmE2YWI0YjgyOGYzZDJjOTVjNDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwMTEzMjMyZjE4M2E3MGQ1ZDI0ZmU4NTI0NWYzMjY1OGI5YmI1OWI2NDZlZjZhOTczMDE3Yzc0NGU0M2I3MzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4NTM3MzdkMmMzZjBkMjRmN2FkYzc2MDIyZjgzM2MyNTJmMTNjNjA3MjQyMDk2MmUxNWViYzRjNmM0OTZlNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjMTgxYTU3MzQzZjI5MWU1NDVkMmNkMzRiYjlmMzYxMDhhNTc5MjZhMTY1NGIwYjFlZjAxYzY2NzkzMmIxYzEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_97cfb316ba15498198740fbb22847af0",
+      "statement": "Claims must be escalated for authority or coordinated review when they involve excess or disputed limits, severe or fatal injury, sensitive or public allegations, unusual coverage, nonstandard settlement terms, fraud or intentional conduct, specialized liability categories, material defense-strategy changes, or time-sensitive proceedings.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L635-L671",
+          "version": "repo-lines-v1:sha256:17704f3ebf582205bd13c0ba67c418222ecc266af670db85f6210f28f4fc8daf:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwZWYzNWRhNGYyYzRkMzg4NzA5YzVmNDJlYTM5ZDVlNjc1OTk5YzgwZWJjMDNhNWQ1ZGJkOTIwZDQzYTY1ZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0YzFlZWM4YWY0YTA5NjJiM2JlOTg2MTkwYTVkYTU0NDM3YjQzNGMzMDk4ZGE2MzU0OTQ3ZTIwODFmOGE5YmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI0MTI0ZTUyODJmZjBiMGZkNWNiNjA2NmM5ODVkZTAwNGY1OWFhM2NiNDQ4MmNiNGI2Y2NkZjY1ZWQ0MDBiMTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxOWM4YTAwNmVjNjkxOThkNjhkMjkwNTQzOTY4MmY3ZGM3NjNmMTg4MDc3MWUyZDhkYjFiNWM4MWJiYTE0MTgifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2623-L2675",
+          "version": "repo-lines-v1:sha256:53d7cdb5484d15d4ca8d8c465e9c642e885dfd99beaf1adf50ff7f2cf5e067ba:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNGRlZTY4ZTA3YmZmZWRjNzBmNTg4ZjE2MWUzZWY5YzI3OTNjZWRjZTJjYmViYmQ1OGFhODgwZTUzMzRiMGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3OWI0YWY3NDFkYTgzNzRmNGNiMGYzNjlkMzNhZThiMjI4MTYyN2Q2MTY0YWZjYWE0ZmQwM2YxMWQzNzU5OTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhZWZmMTE3NTcxNDEwYzY0ZWRlNTVjZTk0OTQ1MjMwZjAzZjRmMDA4NTczNTcyODFiMmMxYTUzZmUzMDRmOTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1M2VkZTgwOTNhY2QzNDllNDBhYjdmNDliNTVjYTlkZWNlMzU4YTVkN2RlYmU5MTU1MmUyNDlmYThiYjU5ZDAifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2965-L2993",
+          "version": "repo-lines-v1:sha256:a6c7932ffba8de92413c717489df41d1b584cc5da467c401175b921bdcd47cf6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiMzJmZTFmMWQ2OTA5ODgzNTM5N2Y5OGNiMWZmNzQ1YTMwMmZmN2JmNDNkNzUzY2ViZjc5MmEzYWZhZWE5OWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzOGU2ODY5ZDY5YzcwMTk3ZWRlN2ZiNzk2MTI2YTBmMGM2YzU0YzQyY2JkNTVlZjU0ZmY0YmRiYjVjMGFmMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIwZDJiZjc0ZjFlNTBiZGIwOGU5MDdiMzcxZjkzYjViYjE4YWU4OThiODE2ZWI1ODI2M2JkZTQ2MGRhMGQwNDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdkYWIxNGI2YzFhNGQ2MDY0NDE3NWQzOGJmYmExOWUwOTVhMjk4MzY4Y2Y5YTk2YzM3OWM2MWViMzg2Y2Y1MzIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f59678225183427f9970298a0c661ba6",
+      "statement": "Before settlement or payment, the handler must review allegations, damages, coverage allocation, release terms, payees, other insurance, and recovery effects; a complete release is required unless counsel approves another resolution, and revised material terms require renewed authority.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L579-L587",
+          "version": "repo-lines-v1:sha256:1c176bbf0063d411a2ffd2a2def8042203e06e655b3f513b13925db4a93551e0:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRiMTMyMjFhNzJlNzZiMmU1MmRiYjgwNzY0OWJiMmMwNjBlNWU4YjFkNzlhZTBhNTgzOTdjZTBhZTQ5NzEyMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgzZTA3YjNlYjJlODM4MGU5MmM4YjM3YTZiYmVjZTY5YTFmMGU4MDlkNDM5NmE0NmIxYjg2MjMxNzkzZmY4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzJiZDM2OWYxYzQ4YzZiYjliOGEwZTJhNTc2ZWExZDkxNTNiNmZkZWQ5YWIwODZiMWY1M2Q2YmZmZDQyYzcyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmFhODFiYWM5OTRmMWE5MTc3ODY2YjU2MTc1OTYyNmFiM2I0YmVlMzNhNGI4MGM2ZDU2Y2I2MDI5ZjcyYWY0OSJ9"
+        },
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L643-L685",
+          "version": "repo-lines-v1:sha256:2b131a07b4f24e48f1d1136d09126ec2bacb193284115e2db61da1102e29395e:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1NGU4MDA5MjZjZGE2NDAxMzVjYzE2NmI4YTFlZDU0Mzg1MzlkZjAyZWQ2OWQ4M2Q3MDQwNjRmMjNmZmEwYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2NDc2MmNhYzA2YmE5ZTQ3ZGE1MmY1MGEyMWMwMzcwYzJlYmIxYzJjY2Y5NjVhZTYxMTc2YmRiZTFkNjhhYjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4Y2YyOThiMDg2YTMzN2JhN2E2MWEwNjU0OTIzOWFhOGVhODhkZmQ0NDM4N2QyM2M1OTdmMzY4MzQzODM1OGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzODdmMTA0ZDZjZjQ1NzVjNzBkM2M4YmMzNDhjOTA1ZWM4M2Y1ODI4OGY5Zjk0NzUwMjBhNjJiZTdlOGE3MzMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_13ac7925706a4791935bc91c60889336",
+      "statement": "The HO-3, HO-4, and HO-6 liability conditions restrict an insured from voluntarily paying, assuming an obligation, or incurring expense without the insurer's consent and require cooperation and prompt forwarding of claim or suit papers, subject to each form's precise exceptions and surrounding terms.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1065-L1071",
+          "version": "repo-lines-v1:sha256:8e9e599e5e2efbbc3263492c32d318b3e362f10900b75b26dbcd19642204c166:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjM1YjQ0NTI2Yjc2OTlkMDFlMDViY2JmMWFmNzEwY2Y4MTI2OTE1MzA1ZjYxNDM3ZmE5MmViNjJiNmMyODhhMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzUyOGFiMWY4NGY1YWZmNjdlYjU2MzE4MjUyZjIxZTFkN2M1Njc3YmFiMTI1MWZmZDUyYTUzODdmMTA4MjgzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTcyNWM3MTNjNTQwZWJkZTliYjgyNDE0MDk4ZGI3MzUwYWM4M2E1NWY0ZDU0MjIwYTNmZDNlNDQ3ZTE2NjBlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2YwMjY3N2QyY2E3MDAyZmNmZjA0ZDgzMmQzN2ZkY2E4YzdhNGJjYzI3MTU3OTkwN2MzOTFhNjY4NTI2MjEwMiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L1099-L1101",
+          "version": "repo-lines-v1:sha256:1da13fc22c518248485639a197b725b458f81a357507949cc05ff7b74be19486:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmM3NjFmMGFlYWI4ZmEyNmJjYTU1NWZjOGYwNDlmODNhODg1Nzg0ZTE4MmIzNzZjMGFkODQzYWEzZDE5MWJmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYxZjcyNzMyNTNiNGM3MTI5ZjQ2YmU4Njg3MjJjYzllZmVkNThmNzNiMzRjOWIxOTRkMmZhZTlkZDU4NDcyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVjYzZjODBhODI0OTMxODFkOTg3YjkwZDU2YjQ4OTg1Y2FlMjRlZDcwY2M3YTBkYmZmZDg0NmE1Yjc1NjFkYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWI0ZDdlYmMwNjZmY2MzZTdjMTAxNWFiYThhYjljMWUyY2IwN2JjYTUzNjJiNDFlZjUyY2IzOTg1MTU0NjE5MSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1012-L1018",
+          "version": "repo-lines-v1:sha256:eacff174ae1672b6af7d2b3b858f3c0408e6c3fb02a50e0832252c1e47c20b93:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjc2MDdmYjlhYWY4YTE5MzU3ZjkzYTVjZTA4ZWY3Nzg5ZTkyMzRmZWRmM2YwOTUyN2M5NTM0NTdiN2IyZGVjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg0MGFiNTkwOGQ3ZjlhN2ZjNDNlZmVhNzhhODgwZjRkZjg2ZTQwZDM0MGZjMmMyNzU5MWIxMWZmZjdjMGY5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjY2UxYWQ0NWRiYmExM2JlM2M4Y2Y3NThjNjI3ZGRmYWZjYWZlZTY0ZmJmZjA0NmIwMTRjMmJhOGZkMDExYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWI0ZDdlYmMwNjZmY2MzZTdjMTAxNWFiYThhYjljMWUyY2IwN2JjYTUzNjJiNDFlZjUyY2IzOTg1MTU0NjE5MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e32d6cf7f43947eaaeaca6fb433733d9",
+      "statement": "A liability claim may be closed only after material defense, indemnity, expense, payment, recovery, reporting, communication, and dispute obligations are resolved or transferred; the file must retain the coverage analysis, approvals, evidence, litigation and payment records, release or alternative resolution, chronology, and closure rationale, and credible new material information requires reopening review.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L609-L615",
+          "version": "repo-lines-v1:sha256:c76f564d9f9f02d73a7937ab29d53826f82a613d4dde941d3cc51d07c93bf206:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2I2YzgwNDQ3NGIyZmE1NDdhYmNlMmJiZGNlOWQ4YzQ5ZGJjMDYxMjU4NjgxMjZmYTRmZWM1N2NmZTBjMDc1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdmY2QyMjgyZDlmY2JhMGE0YzQzNTA4NDcxNjlhZTM2MDRiY2MyZGFmM2M4NTg5ZWQzNzU5Y2M5ZWMwYmFiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTBlMzM4M2M2ZGYzMDY0MWEwZDM4Y2JkMzlkODAxZWYwYWUxNzA1M2EwYTVmN2I4ZTZlOWQxMjYzNTE5N2E2NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTg1MzczN2QyYzNmMGQyNGY3YWRjNzYwMjJmODMzYzI1MmYxM2M2MDcyNDIwOTYyZTE1ZWJjNGM2YzQ5NmU2NiJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2947-L2963",
+          "version": "repo-lines-v1:sha256:2b99856c7138f2f1ac20d14eedd0ecc42cf25c879046799ec4fe90d84add85c5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMjRmYWQ4MThmNTg5ZTZjZWFhYjYxZTQ4NWU3ZjRkNGIzNDQ1M2VmMWM1MDAwMzgyNzE1ZTZhYzAyYjNjNzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmODI2Njk1MDI5NmJjYzVhNTM1MDZjZWMyZWY0YWY2MmJjNGZjNWMwNmY0NjkyNzQwMjg2NjBkNjBiNzU1ZjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2MjlhMjhlMjk0MGJjOGQyNDUyMzc5MzYyOTAzNzNlYzg0Mjk4MTQ0MDkzYmZlODI0MzRjYmI2YmFlNmUzOWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiZTlhMDZhYmZjYmY5NTk5YWEyMjhkOWNhNGQ3MDE2MjU1ZjFiMWU3ZDFhOTI1YmNjZDUyOWMwZWFkMWM1ZjkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L3025-L3041",
+          "version": "repo-lines-v1:sha256:544759c1412b48d80cdfd54ac3d5ad3d4674cb40c81f702a9d5a97e8a65ba406:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4NWY3NjFmOGQ0ZmE4YzI3OThjOGJjOGIyN2I3MDhhOTlmZmQwNTJhN2EwNGZlMWFmM2MwYzlhOTkxYTJmZmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5ZmQ5ZDMyYjViNDhkMzk2MzlmZGVmYjA3NDI4MzUxMGE0ZDQ5NjFmYjU0OGViODMyNjQ4ZTU0OTExZjEzZWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk4MDFhOTY5MGJlOTE4ZmZkNzFkYTg5NmUxMDExN2ZhZGZiNDJmMTk1ZmUxZDMyMzZmNzQ0NTA4MzlhNzhhYjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY0NDIyNTgwZDFhMmQzZGI4NzY3MGNiY2RiMjgyNDY4NzY0ZWViMjkwZDczM2ZiODA5M2E1ZmQ0YTlmNjFhNjkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4229-L4271",
+          "version": "repo-lines-v1:sha256:0ce47216a0c57eb63e29cbb332767889efef3122614917156a338a7e7968a265:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzZmJhMTlhNWJjZThkMTMzZDFlZjhlMWEyNTE5MTlhMjJlMmIzOWNhZmU2ZmVmMzQyZWQ5MmNlZDBkZDk5NTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5Mzg3ZGQ4NGM4YmI4YjQ3ZDBlNDA3MTIxMTNjMmE1MjQ4YmNmMWM4YWNlMzFmY2YzOTczYjc3NzMyOGE0MWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZTFmYTc5ZjU1MmY0Y2ZkMDAyOWQ3MmM5OTU1N2M4NjVkZmNmZmM0ZTdkMDczYTc1NjI0NDJkM2ZhMTQ5NzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVhMWQ5NzY3ZjU1MDYzMzNjNTgzNjM5ZTAzNTAzMGEyZTQwOTQzM2MwMjZjMGEzZDM4ZTIwZTU1ZGZhNDRlMzAifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T12:15:46.420Z"
+  }
+}

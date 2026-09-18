@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:7de060535a3f44d573ddceb5723be1b47c6e300607a87538ffec6c4aea9cf242",
+  "pageVersion": "sha256:89c7a5554bff4caa5b4190fa92ee35c98a85109e2ee790acb8b10e48e0bc5ba8",
   "claims": [
     {
       "id": "claim_93a801195927400e8e71ca12f4efe5e0",
-      "statement": "Roof claim handling must separate coverage and cause, supported damage scope, and valuation: the HO-3 grant requires direct physical loss caused by a covered peril, while claims guidance says to establish covered loss before applying settlement restrictions, deductibles, and limits.",
+      "statement": "Roof claim handling must separate coverage and cause, supported damage scope, and valuation: the HO-3 grant requires direct physical loss caused by a covered peril, while roof-claim guidance and the claims manual direct the reviewer to establish covered damage and scope before applying valuation, deductibles, and limits.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L15-L20",
@@ -15,8 +15,12 @@
           "version": "repo-lines-v1:sha256:2b6de0359e4f6bb56f4e9d9e726435e77dc8037d554cbfd6fa80556f0af3c692:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGVmM2I4MjY1MTJiYzZjYWYxZTMwYTFkYjcwNDc4OTdlNjBhYzkyNzYxNTcwOGM1Y2YwMDRlNzQ2Y2E0NTU2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGFkMTUwNjExZTQ3MWY1ZTk3OGFjM2UyYjI1ODU0NWJmZmEzYTM1YjA1ZTlhZjBmOWZlMjM5YTg5YjAyOTVhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzJiODU3OGUwZjg2NGY4OTk1NDVkYzIxZmZhM2YwYzhhNmViZDM0YjFjNTBlNjQxYmY3MmI2YmQ2YzVjMGJiMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDRiOGNiZWQzZTI1OTNiOGZlYzcxODYxMWNkNTc2MGFiNmVmYTQ2YWQ0NjI5ZWMzOGRlZmNhODU3MDRiNzY2ZCJ9"
         },
         {
-          "resource": "repo://guidelines/claims/water-loss-handling.md#L35-L43",
-          "version": "repo-lines-v1:sha256:e0e7392d1b72020b2e736e96ab4101f90ec2afb3cc51717719e071db5fb628e3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTYzMzQ2MmE1ZTA4YTZkNzAwMGQ3YWJiNWNkOWJhMzM2ZDA5MWY4MzI1YTkyOTk5ZTYzM2QxNWEyZTQ1ZWU0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFkYjNmYzMzYjFlMDUzYmRjMmE3NTQ5NjMxODAzMDZlYTY4NzE5ZGYyYWQ5ZTYzNDE2ZDUzMTZmMzdlN2NjYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2UxYTljNTlkOTE3YjlhNjNkZWJiNWEzNjdiMGRlNzNiOTY0MWJlNTBlOTQwOWUyNjcwY2U1YzA2NzI0MGNlMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjExNjE1OTM2OGY5YjgwMzgyZWQ3NjExOTA0OTNiYzMxODE0NDU4ZWE2YWYyYzQ2NDlkMzYxMTBhMTNkNTQ3OSJ9"
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L13-L31",
+          "version": "repo-lines-v1:sha256:2edd3054bb79ecc13b8e539d067867cfd510092611cc1c167ba34af5d8a4fe66:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0YzI2MjFiOTc2ZGM3NzNhY2RkMzExYjZiYTMzMWNhNzc3ODhhMzBmMjBiNTkzMmIyNDQ1ODM0Mzg2MTg2YWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExMzY0Y2IyM2UyNTFlNTQ0YmZhZjc4Mjg3MGI5MWQ1NTc5ZDJmNWUxOTdkOGQ1NmU4NTJiNDkyYzc4NzY0MmMifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L1199-L1281",
+          "version": "repo-lines-v1:sha256:8ca63a8f6a0596276d3fe713a17cfa25891b955a27d1ad265d6dab7fce737e59:eyJzZWxlY3RlZExpbmVDb3VudCI6ODMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNjVmODI0ZGYzNGU5MmRhZjcwZmY2MTUwZGI1M2Y5OTJmOWQwZDFlNjdmMTNhYWJlMjIxMTYyNzY1YmUyYzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0NzkwNDBjOGU4ZjhjY2M0ZjI2YmFkNjNhMjY0ZDgwYWY0YWI4MDVmN2I4YzFiYzkyOGU1MGVjMmVjMzJjMWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg2MzkwMzBhZTkyYWViMjIxZjg0OTA0ZTU1MTI3OWJjOWZjNmYzM2Q2MzEwM2FhZjQ4N2JiMzQwOGUzNmQ3N2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYjYwMzRlNjEyY2QyMDg2OWM3MzYyYmU1YmJjNGQwOTU0MGM3MzdhNzM5NzdjOTUwYmQwYTJmZjViZGU0NGYifQ"
         }
       ]
     },
@@ -186,7 +190,7 @@
     },
     {
       "id": "claim_83272d49ae6646d292daaf70bf88c245",
-      "statement": "Roof investigation may use inspections, photographs, samples, records, estimates, weather information, and qualified opinions to establish cause, scope, age, condition, and value, but investigation evidence does not itself create coverage.",
+      "statement": "Roof investigation may use safe inspections, photographs, samples, records, estimates, weather information, prior-loss evidence, and qualified opinions to establish cause, scope, age, condition, and value, but investigation evidence does not itself create coverage.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L137-L147",
@@ -197,8 +201,12 @@
           "version": "repo-lines-v1:sha256:9019b17f75e0e2403035359b90d6be8e22137961fffeb3235836ce9b93fab5d4:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmI2ZDVhYmJhMDIzOTY3OWZjNDEzODljNTAzNzYwMDhkZjNhODM2YmY0MjQyNWFmMjZhMTcwYTI1ODFhYTRlMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhNGZiYWQ4ZGIxNzUwMDQ3MGM3NzczZjAwYWRiMzk2ZGZkZDA2MTYyZTc3NWU5ZmY3ODVkNTAzOWNmNzQ0MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWNiYmY5ZmQ0ODNkMTUxZTQ3YWZkNGE1NmJkNDMwZTUwMGJkYzk4MjFkYWMyNGZlODk2MTFmM2ViMjkyYjFkYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTdmMDViNGFiNTdkYTMwN2UwMTJjNjU2NWRmOWM0NDQwOWEwODdlMTU4Y2UzODBhZmIyYTMwZDg1ZjFmMjQ1NCJ9"
         },
         {
-          "resource": "repo://guidelines/claims/water-loss-handling.md#L19-L33",
-          "version": "repo-lines-v1:sha256:105a74516a5736fac92238e0230ccaa310a99e2203756c753edb3549565fe6ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzNGRlODFhNjJiYzRhYjgxYjhmODhmMDcwMjM0ZWEwMGQxNzNiYzAwYTQwN2U3MWFhZjAwMTJmMzliYTAwZWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNTI1MDg4YTA4MzU4NTBmYjlkOTJhMDY1MjBiNzgzNzgyMWQxOTNiNWZmYmEwZGRlYzZkMjk0NWQxYjlhMWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdjM2I3YWIxYjczN2Q3MTg4MGNhYzhiYmJlNTIwMjNhM2FiYzc2MzAzZTljYzUzZjBlMTQ4MjUwNGI4ODliMGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2YWVlZjM1ZTdhNzJiODM0NGMwNzA2Mjg2Y2FkM2UyNmYyMmNiZTVmNmNkNTdjYTQ0MDNkMDU4OWI1Yjk3YzcifQ"
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L141-L179",
+          "version": "repo-lines-v1:sha256:6ef1d4afa55d0692a8dbdccad42682de4e6ea4246a0d28c5e1eac070ae9eb06e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1YzNiYWE5Nzc2MjUyNDdjNDhmMmM1ODRkZjI1MTlkOTE5MWRjYTdlZmZiYmEwNTc2OGQwN2VkNGYwZWNmMGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjNGJlNzVkZjIwM2M2MzBlMmMzNDFiNGMxN2ZlMWJiM2M4M2U5YjcyZjQ0Yjc4MTc3NDBjYjlmODMzZTE1MGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdkYWRjMWJhZTQzMGQyN2YyMmMzNWQ0ZDYwZTM5ZmU1Y2ZjOGZjNzM5ZTk4NGJhNzg3MWZkZDM2NzE0ZWM2NWUifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L1289-L1311",
+          "version": "repo-lines-v1:sha256:d2ccb78fc8b032729d3e338f00b50e518f093938764fdb2b1637eaa0cbc30bb3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2OTQwYzg1YmNlMjIxOGNjNmM2MjBmYzNmZDI5Zjg0NDRmNDY5ZmVlMDNhNWJmYjM3Yjc1ZjRiM2M0YjBhOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzA5YTlmNDc1MWEyMjU0M2EwOGM5MzA5ZjZjMTgwMzI4ZmNiZTE3NTk1YTFmYWNhZGUwNDYyMDJjYTY4M2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2NjFkYzU5Nzc5M2NjM2Q4MzIzMmE1NDM4NGFmMGQ4MmE2OTNjNjI4NzFmMzE1MzVmMDk3MDI4NTZhMzBjNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExMDhmMDk3M2M4NDFlYjRmZDUzNDhmYzdhMTg4OWZkZDllNGFjOWFiMjhmYzk5MzNiNGVkYTU4MDA2NWNmYWEifQ"
         }
       ]
     },
@@ -258,21 +266,43 @@
     },
     {
       "id": "claim_d0982138bf27440480ea962e019aa44d",
-      "statement": "A defensible roof claim record should identify the governing form editions, covered peril and physical damage, damaged materials and components, age and condition evidence, supported scope, matching analysis, labor-depreciation rule, schedule calculation, deductible, limits, exclusions, and unresolved issues; claims guidance supports documenting the reported event, observed conditions, evidence, and reasoning without creating coverage.",
+      "statement": "A defensible roof claim record should identify the governing form editions, covered peril and physical damage, damaged materials and components, age and condition evidence, supported scope, matching analysis, labor-depreciation rule, schedule calculation, deductible, limits, exclusions, communications, and unresolved issues; the roof guidance and claims manual are operational directions and do not create coverage.",
       "evidence": [
         {
-          "resource": "repo://guidelines/claims/water-loss-handling.md#L15-L33",
-          "version": "repo-lines-v1:sha256:dea2afa13a8b04942d7eb7d053ad243868d02fc16c143dd7dce3adb2c6711655:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4YzRkYzZhMTE3YmU4OTU0YjFhMmI1OGZiNTJiNWNlNGQyZDVjMDAxZmRiNGVjOTViYTU3MGUzMmZhZjM3ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNTI1MDg4YTA4MzU4NTBmYjlkOTJhMDY1MjBiNzgzNzgyMWQxOTNiNWZmYmEwZGRlYzZkMjk0NWQxYjlhMWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5YzJiZGY1NjUxOTY1MjFlMzcxMjRiZjMwNGM4NmNlMzA4Zjc2MjU1YzJmNDQwODMzNTczMjE2Y2QxZjk3NGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2YWVlZjM1ZTdhNzJiODM0NGMwNzA2Mjg2Y2FkM2UyNmYyMmNiZTVmNmNkNTdjYTQ0MDNkMDU4OWI1Yjk3YzcifQ"
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L13-L45",
+          "version": "repo-lines-v1:sha256:6a1fc0993c36056f5855041db56c82f0955f8e0757be830c7486e8afecc78704:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3MmJlMGE0MWUxNjk2NGQwMGEyYTljMmU0NDBiYjkwZDNhNTVjMWJmOWVlN2VmM2Q1ZmIxMjY5ZmVhNDUzOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3MWRkNjRlN2RjM2ExNDYyZjE5NjQxOTdiMWY2ZTMzMjcwN2RmYmYwMzY2YzIwN2E1MjYxNjFjNjU5N2NkYzYifQ"
         },
         {
-          "resource": "repo://guidelines/claims/water-loss-handling.md#L53-L57",
-          "version": "repo-lines-v1:sha256:520fe910d739f7e515dba2e4f6433bad5b94df4d45e965ae8168c58ea4278674:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU0MDdiODQ0NWMyZjA0ZTFmZmI5OWRlMDQwMTM2MzZlYWE2ZDdjMWNjOWFjNzRmMWEwNzczMTllZTYxZGUwYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWYxNzI5OWRiZWM2MDg4MzkwNGIwMmYxN2RiNGZmODhjMzE0ZjYwNGUyNDhkMzY3MjkxZjg1MTIyODhiYjc5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjYWIzZTU0ZWVlYjY5NzliNGNlZDU1YjIyNzI4ZmU3Yzk3YWQ3MTBlMGRlMDQwYmQ1MzBiNWM0YTUzNDk0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcxZGQ2NGU3ZGMzYTE0NjJmMTk2NDE5N2IxZjZlMzMyNzA3ZGZiZjAzNjZjMjA3YTUyNjE2MWM2NTk3Y2RjNiJ9"
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L141-L221",
+          "version": "repo-lines-v1:sha256:8dc4c1604c3210d459996c0d6e7dd598b7250bde7566eef667ac7e2f77b47ecc:eyJzZWxlY3RlZExpbmVDb3VudCI6ODEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIwYzVjZjE1YWZhMzk1ODBhNWNiMzBmMTE1NzY1OTI5Y2M2OWZmMzdlYjRjMmEwOGU3ODU5MjI0ZjQ0MWYyODQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjNGJlNzVkZjIwM2M2MzBlMmMzNDFiNGMxN2ZlMWJiM2M4M2U5YjcyZjQ0Yjc4MTc3NDBjYjlmODMzZTE1MGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NTJiMWVjMmRkNDI2NjNjNGQ0MTRhYTg4MGFmZDk1NDUxMWI5Yzg2MzQ3MWQ1YzQ4MTkxNDhkOWY4NjFiOWYifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L1403-L1497",
+          "version": "repo-lines-v1:sha256:2f326269609ecb4dbabf66eec878105bf1e87525cfc5c844277cab9c014bfb99:eyJzZWxlY3RlZExpbmVDb3VudCI6OTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmMjhjZjJlZTY4ZWQ0YzkyYzNkY2IxMTRiOGRhMjI5OTAwYjg4YTg0MDZjMDExMWU1MGJjMDg0N2FiOTMxNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNTVmMjQ5ZjQ4NzU1NDc5OGM5YjQ5YWMyYTg4NGU5Y2YwMGUzYjcyMDFlMTM3ZDQ4ZjIwYWU2ZTRkN2E4NzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1ZGEwYTg4ODlkMmJlZjlmNjVjZDkyY2Q5NjU1MmE4MDQzMGU5ZWRlMjk1MmMzM2FmYzI2ZDYwNjFlZTg5ZGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ0MzQxNTQ4YTBhMzRkMjdiM2JmZGNkYTQ2NTMzYmMyN2JhZDU0NGJhOTFhMGJhNmYwODY5MDIzNGE1MjgzZDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2a4d50f384384a7da2c916309dd5d5df",
+      "statement": "Internal roof-claim controls remain separate from contract settlement terms: the claims manual allows emergency repair expense up to $5,000 without prior approval when immediate protection of covered property requires it, while roof guidance calls for referral before final payment above $10,000 and prompt payment of established undisputed amounts.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L425-L437",
+          "version": "repo-lines-v1:sha256:e720873d63584ea5eecb60823c40d9810a1390340144a1c3106be854fc4e3700:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjZjQxZTY2ZDAyY2U3NjJmYTczMTc3OWI4YWJkY2Q5MGUzMGEyYjcyMWI3OTc3YjBkMzY4MTI1YjBkZWY1M2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzZmE1ZmQ2ZTNjNjE5NWRhMTY2ZmU2OGZhN2IwMGQ4NjM2MGVmNGRhZTY4ZWU5MmQ5OGIzMTExOWYzOGM1NzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzNDFiY2VhZGViODFlMTliYTlkZjgyNzJiNTZjOTliYzdlN2NhMWE2MTc3Yjc1MmMzMTU4ZTMwOTIyYTY5MzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA5YTkwMzE3NWViMGUwMzY5MDY4MTZkMzY3NTFiZmNlMWViM2VhYWI0ODRhZTFiYmNlMTBlYWUwMDRkNWE4MzMifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L1157-L1179",
+          "version": "repo-lines-v1:sha256:8853dd7d989ca1d84dc3a61cff4a1568c0a6b7a668c52e27d4196b9e506031f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0ODU3Y2Q5Y2EyMTc1MGMzYzg1NWFhZjJkN2FkZmQyNjJkYTI0YTc3M2MzN2IxMzliNTVlMDAyYzdjZmM3ZjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlZjFkMjc1OWNmZDIzZDZjOGQwM2NmYWExZTVlYzliYWNhOGRhNDQ0NmY5NGI2NDJlOTA0ZGIzZGRhNDU4MDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg2N2EzMWVlODVhODA4Yzc0OGJlZWUwMWMyNWFlNTI4YzU3OGRjYTY1ZWVmMjVmNjhlOGQ0MzE3MDNhMWFlZWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkMDMwODBmMGIzZmYxYjJmM2VjZmEwYzY4MDEzMWY2YzUwN2M3ZjQ4YzFjM2QyMjNkYjhhMTIzZjM3OWNlMjAifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L1469-L1497",
+          "version": "repo-lines-v1:sha256:6f942a4e6df48039f64e9bf7a688238b55960b33fa63bc31905ddb7a358e0461:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzNTU3ZGIyNjFhMTAwMTc2MzdhYmQ3YThhMmU0YWUxZGIyYTA0YjM0ZTYzNDgyYzFlZmFjY2FmMmFlOTkzMzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNTVmMjQ5ZjQ4NzU1NDc5OGM5YjQ5YWMyYTg4NGU5Y2YwMGUzYjcyMDFlMTM3ZDQ4ZjIwYWU2ZTRkN2E4NzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1YmU4ZTA2ZGU3MDJjZmI0NjBhYTIxZDhhNjVjOTg0MDQ2ZDlkNDRjNTZiZjFiOTg4NDFjOTY0MGQ4ZjBhODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ0MzQxNTQ4YTBhMzRkMjdiM2JmZGNkYTQ2NTMzYmMyN2JhZDU0NGJhOTFhMGJhNmYwODY5MDIzNGE1MjgzZDgifQ"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T12:15:46.420Z"
   }
 }
