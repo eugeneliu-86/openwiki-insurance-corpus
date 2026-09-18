@@ -56,6 +56,8 @@ class SectionJob:
     def hash(self) -> str:
         d = asdict(self)
         d.pop("previous_tail", None)
+        if d.get("prose") == "plain":
+            d.pop("prose")   # the ph. 02 shape, so every Terra draft of an unchanged section still matches its key
         payload = json.dumps(d, sort_keys=True) + "\n" + PROMPT_VERSION
         return hashlib.sha256(payload.encode()).hexdigest()
 
