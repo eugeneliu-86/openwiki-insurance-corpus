@@ -23,6 +23,58 @@ OUT = pathlib.Path(__file__).resolve().parent / "data"
 # ---------------------------------------------------------------------------
 # Concepts. (id, kind, canonical, synonyms, group, ambiguous)
 # ---------------------------------------------------------------------------
+
+#: Short names for questions and propositions where the canonical form reads as a
+#: definition ("consecutive days of vacancy after which vandalism is excluded"). Not a
+#: surface form: never written into a document, so no draft depends on it.
+LABELS = {'named-storm-period-hours': 'named storm period',
+ 'claim-decision-business-days': 'claim decision deadline',
+ 'roof-inspection-age-years': 'roof inspection trigger age',
+ 'trees-shrubs-limit-pct': 'trees and shrubs limit percentage',
+ 'suit-limitation-years': 'suit limitation period',
+ 'medical-payments-years': 'medical payments time limit',
+ 'roof-acv-age-threshold-years': 'roof ACV schedule trigger age',
+ 'roof-max-age-years': 'maximum roof age in appetite',
+ 'special-limit-jewelry': 'jewelry theft special limit',
+ 'ordinance-law-pct': 'ordinance or law percentage',
+ 'appraisal-demand-days': 'appraiser selection period',
+ 'rental-days-exception': 'occasional rental allowance',
+ 'roof-comp-shingle-20yr-pct': 'twenty-year composition shingle percentage',
+ 'reservation-of-rights-days': 'reservation of rights deadline',
+ 'emergency-repair-authority': 'emergency repair allowance',
+ 'subrogation-notice-days': 'subrogation notice period',
+ 'wind-mitigation-inspection-cov-a': 'wind mitigation inspection threshold',
+ 'appraisal-umpire-days': 'umpire selection period',
+ 'cov-b-limit-pct': 'Coverage B percentage',
+ 'cov-c-limit-pct': 'Coverage C percentage',
+ 'cov-d-limit-pct': 'Coverage D percentage',
+ 'special-limit-business-property': 'business property special limit',
+ 'special-limit-electronics-vehicle': 'in-vehicle electronics special limit',
+ 'proof-of-loss-days': 'proof of loss deadline',
+ 'vacancy-days': 'vacancy period before vandalism is excluded',
+ 'fungi-limit': 'fungi and bacteria aggregate limit',
+ 'contents-inventory-days': 'contents inventory deadline',
+ 'settlement-basis-contents': 'personal property settlement basis',
+ 'flood-excluded': 'flood exclusion status',
+ 'binding-suspension-hours': 'binding suspension window',
+ 'backflow-requirement': 'backwater valve requirement',
+ 'roof-min-payment-pct': 'minimum roof payment percentage',
+ 'extended-replacement-pct': 'extended replacement cost percentage',
+ 'prior-claims-referral-count': 'paid claims referral count',
+ 'water-backup-referral-limit': 'water backup referral threshold',
+ 'watercraft-hp-threshold': 'watercraft horsepower threshold',
+ 'watercraft-length-threshold': 'sailing vessel length threshold',
+ 'wind-deductible-notice-days': 'windstorm deductible increase notice period',
+ 'loss-payment-days': 'loss payment period after agreement',
+ 'cancellation-notice-other-days': 'cancellation notice period for reasons other than nonpayment',
+ 'cancellation-notice-nonpay-days': 'nonpayment cancellation notice period',
+ 'loss-notice-days': 'loss reporting deadline',
+ 'mitigation-duty-days': 'mitigation start deadline',
+ 'claim-acknowledgement-days': 'claim acknowledgement deadline',
+ 'claim-payment-business-days': 'claim payment deadline',
+ 'referral-loss-threshold': 'loss referral threshold',
+ 'large-loss-report-threshold': 'large loss report threshold'}
+
 CONCEPTS = [
     # coverage limits
     ("cov-b-limit-pct", "percent", "Coverage B limit as a percentage of Coverage A", ["other structures limit", "appurtenant structures percentage", "Coverage B percentage"], "limits", True),
@@ -945,7 +997,7 @@ def author() -> Ledger:
     docs_by_id = {d.id: d for d in b.documents}
     for f in b.facts:
         voices_by_concept.setdefault(f.concept, set()).add(docs_by_id[f.document].voice)
-    concepts = [Concept(id=i, kind=k, canonical=c, synonyms=s, group=g, ambiguous=a,
+    concepts = [Concept(id=i, kind=k, canonical=c, synonyms=s, group=g, ambiguous=a, label=LABELS.get(i),
                         synonym_target=(len(s) >= 3 and len(voices_by_concept.get(i, ())) >= 2)) for i, k, c, s, g, a in CONCEPTS]
     # every R2 concept is mentioned in several trainer and guide sections so at
     # least three of its forms occur somewhere in the corpus (V2)

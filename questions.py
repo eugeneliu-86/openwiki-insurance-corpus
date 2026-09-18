@@ -88,12 +88,16 @@ class Ctx:
     def doc(self, f: Fact) -> Document:
         return self.L.doc(f.document)
 
+    @staticmethod
+    def name(con: Concept) -> str:
+        return con.label or con.canonical
+
     def prop(self, f: Fact, value: FactValue | None = None) -> str:
         v = value or f.value
-        return f"under {self.doc(f).title}, the {self.concept(f).canonical} is {self.words(v)}"
+        return f"under {self.doc(f).title}, the {self.name(self.concept(f))} is {self.words(v)}"
 
     def wrong_prop(self, f: Fact, value: FactValue) -> str:
-        return f"the {self.concept(f).canonical} is {self.words(value)}"
+        return f"the {self.name(self.concept(f))} is {self.words(value)}"
 
     def sec_title(self, f: Fact) -> str:
         return self.section_title.get((f.document, f.section), f.section)
@@ -186,7 +190,7 @@ def t_single(c: Ctx) -> list[dict]:
         d, con = c.doc(f), c.concept(f)
         q = pick(f.id, [
             f"Under {d.title}, what is the {f.surface_form}?",
-            f"What does {d.title} set as the {con.canonical}?",
+            f"What does {d.title} set as the {c.name(con)}?",
             f"In {d.title}, section {f.section} ({c.sec_title(f)}): what is the {f.surface_form}?",
             f"Tell me the {f.surface_form} under {d.title}, with the provision that sets it.",
         ])
@@ -204,7 +208,7 @@ def t_composed(c: Ctx) -> list[dict]:
         fo, fn = c.L.fact(o), c.L.fact(n)
         do, dn = c.doc(fo), c.doc(fn)
         q = pick(o, [
-            f"How did the {c.concept(fn).canonical} change between {do.title} and {dn.title}?",
+            f"How did the {c.name(c.concept(fn))} change between {do.title} and {dn.title}?",
             f"Compare the {fn.surface_form} under {do.title} with the {dn.title} edition. Which governs a policy written today?",
             f"A policy was written under {do.title} and renewed onto {dn.title}. What was the {fn.surface_form} before and after?",
         ])
@@ -226,8 +230,8 @@ def t_composed(c: Ctx) -> list[dict]:
         f = c.L.fact(k.fact); d, dk = c.doc(f), c.L.doc(k.document)
         q = pick(k.id, [
             f"{dk.title} says the {f.surface_form} is {c.words(k.wrong_value)}. What does {d.title} actually provide, and which controls?",
-            f"An adjuster relying on {dk.title} quotes {c.words(k.wrong_value)} for the {c.concept(f).canonical}. Is that right under {d.title}?",
-            f"Reconcile {dk.title} with {d.title} on the {c.concept(f).canonical}.",
+            f"An adjuster relying on {dk.title} quotes {c.words(k.wrong_value)} for the {c.name(c.concept(f))}. Is that right under {d.title}?",
+            f"Reconcile {dk.title} with {d.title} on the {c.name(c.concept(f))}.",
         ])
         out.append(example(f"composed-{i:02d}", "composed", q,
                            position=f"{d.title} controls: {c.words(f.value)}. {dk.title} misstates it as {c.words(k.wrong_value)}.",
@@ -272,15 +276,15 @@ def t_corpus_wide(c: Ctx) -> list[dict]:
             if key not in seen:
                 seen.add(key); gold_list.append({"document": d.path, "provision": c.sec_label(d, f.section)})
         mention = [d for d in distractor_docs if any(con.id in s.distractor_concepts for s in d.sections)]
-        avoid = [f"{d.title} sets a value for the {con.canonical}" for d in mention[:2]]
-        avoid = avoid or [f"the {con.canonical} is the same in every document that sets it"]
+        avoid = [f"{d.title} sets a value for the {c.name(con)}" for d in mention[:2]]
+        avoid = avoid or [f"the {c.name(con)} is the same in every document that sets it"]
         q = pick(con.id, [
-            f"List every document and provision in the corpus that sets a {con.canonical}, with the value each gives.",
-            f"Where in the corpus is the {con.canonical} set? Name each document and provision and its value.",
-            f"Enumerate all provisions across forms, endorsements, state forms, bulletins and guidance that state the {con.canonical}.",
+            f"List every document and provision in the corpus that sets a {c.name(con)}, with the value each gives.",
+            f"Where in the corpus is the {c.name(con)} set? Name each document and provision and its value.",
+            f"Enumerate all provisions across forms, endorsements, state forms, bulletins and guidance that state the {c.name(con)}.",
         ])
         out.append(example(f"corpus-wide-{i:02d}", "corpus_wide", q,
-                           position=f"{len(gold_list)} provisions in {len({c.doc(f).id for f in facts})} documents set the {con.canonical}.",
+                           position=f"{len(gold_list)} provisions in {len({c.doc(f).id for f in facts})} documents set the {c.name(con)}.",
                            must_state=[], must_not=avoid, gold=[], gold_list=gold_list))
     return out
 
@@ -295,7 +299,7 @@ def t_disambiguation(c: Ctx) -> list[dict]:
         q = pick(f.id, [
             f"Under {d.title}, what is the {f.surface_form}?",
             f"What does {d.title} set as the {f.surface_form}? Other documents set their own; I want this one.",
-            f"For a policy governed by {d.title}, what {con.canonical} applies?",
+            f"For a policy governed by {d.title}, what {c.name(con)} applies?",
         ])
         out.append(example(f"disambiguation-{i:02d}", "disambiguation", q,
                            position=f"{c.words(f.value).capitalize()} ({d.title}, {f.section}); {others} documents set this concept and most give a different value.",
@@ -357,8 +361,8 @@ def t_chain(c: Ctx) -> list[dict]:
         # several chains leave the same provision (one per state), so the first hop's
         # destination is named to keep the questions distinct
         q = pick(cid, [
-            f"{src.title}, {hops[0].src_section} ({src_sec}) defers to {via} (\"{hops[0].wording}\"). Follow that chain to its end: what {c.concept(f_end).canonical} applies, and where is it set?",
-            f"Starting from {src.title} {hops[0].src_section} and its pointer to {via}, follow each cross-reference until you reach the provision that actually sets the {c.concept(f_end).canonical}. What is it?",
+            f"{src.title}, {hops[0].src_section} ({src_sec}) defers to {via} (\"{hops[0].wording}\"). Follow that chain to its end: what {c.name(c.concept(f_end))} applies, and where is it set?",
+            f"Starting from {src.title} {hops[0].src_section} and its pointer to {via}, follow each cross-reference until you reach the provision that actually sets the {c.name(c.concept(f_end))}. What is it?",
             f"Trace the reference chain that begins at {src.title} {hops[0].src_section}, passes through {via}, and give the {f_end.surface_form} the final provision sets.",
         ])
         out.append(example(f"chain-{i:02d}", "chain", q,
@@ -375,7 +379,7 @@ def t_deep(c: Ctx) -> list[dict]:
     for i, f in enumerate(facts, 1):
         d = c.doc(f); rule = c.sec_label(d, f.section)
         q = pick(f.id, [
-            f"In the {d.title}, what {c.concept(f).canonical} does {rule} ({c.sec_title(f)}) set?",
+            f"In the {d.title}, what {c.name(c.concept(f))} does {rule} ({c.sec_title(f)}) set?",
             f"Under {rule} of the {d.title}, what is the {f.surface_form}?",
             f"The {d.title} addresses {c.sec_title(f).lower()} in {rule}. What {f.surface_form} does it state?",
         ])
@@ -391,13 +395,13 @@ def t_abstain(c: Ctx) -> list[dict]:
     for i, (d, cid) in enumerate(pairs, 1):
         con = c.L.concept(cid); real = sorted(c.by_concept[cid], key=lambda f: h(d.id, f.id))[0]
         q = pick(d.id + cid, [
-            f"What {con.canonical} does {d.title} set?",
-            f"According to {d.title}, what is the {con.canonical}?",
-            f"Quote the {con.canonical} from {d.title}.",
+            f"What {c.name(con)} does {d.title} set?",
+            f"According to {d.title}, what is the {c.name(con)}?",
+            f"Quote the {c.name(con)} from {d.title}.",
         ])
         out.append(example(f"abstain-{i:02d}", "abstain", q,
                            position=f"{d.title} discusses the concept but sets no value; the value is set elsewhere and must not be attributed to it.",
-                           must_state=[], must_not=[f"{d.title} sets the {con.canonical} at {c.words(real.value)}"], gold=[],
+                           must_state=[], must_not=[f"{d.title} sets the {c.name(con)} at {c.words(real.value)}"], gold=[],
                            unresolved={"reason": ["no_governing_provision", "outside_corpus", "missing_document"], "document": d.path}))
     # a (line, state) amendatory form the corpus does not hold
     have = {(d.line, d.state) for d in c.L.documents if d.type == "amendatory"}
@@ -406,7 +410,7 @@ def t_abstain(c: Ctx) -> list[dict]:
     for i, (ln, st) in enumerate(spread(missing, 2, [lambda p: p[0], lambda p: p[1]], "abstain-missing"), 7):
         con = c.L.concept("cancellation-notice-other-days")
         other = sorted([f for f in c.by_concept[con.id] if c.doc(f).type == "amendatory"], key=lambda f: h(ln, st, f.id))[0]
-        q = f"What {con.canonical} does the {STATE_NAMES[st]} amendatory endorsement to {ln} require?"
+        q = f"What {c.name(con)} does the {STATE_NAMES[st]} amendatory endorsement to {ln} require?"
         out.append(example(f"abstain-{i:02d}", "abstain", q,
                            position=f"The corpus holds no {STATE_NAMES[st]} amendatory endorsement for {ln}.",
                            must_state=[], must_not=[f"the {STATE_NAMES[st]} amendatory endorsement to {ln} sets {c.words(other.value)}"], gold=[],
@@ -445,7 +449,7 @@ def t_stale(c: Ctx) -> tuple[list[dict], list[dict]]:
         old_text, new_text = render_value(f.value, d.voice), render_value(new, d.voice)
         q = pick(f.id, [
             f"Under {d.title}, what is the {f.surface_form}?",
-            f"What {c.concept(f).canonical} does {d.title} set in {f.section}?",
+            f"What {c.name(c.concept(f))} does {d.title} set in {f.section}?",
         ])
         lines_ = f"L{pl['line_start']}-L{pl['line_end']}"
         stale.append(example(f"stale-{i:02d}", "stale", q, sha_ref="stale",

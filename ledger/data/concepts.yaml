@@ -8,6 +8,7 @@
   ambiguous: true
   synonym_target: true
   group: limits
+  label: Coverage B percentage
 - id: cov-c-limit-pct
   canonical: Coverage C limit as a percentage of Coverage A
   synonyms:
@@ -17,6 +18,7 @@
   kind: percent
   ambiguous: true
   group: limits
+  label: Coverage C percentage
 - id: cov-d-limit-pct
   canonical: Coverage D limit as a percentage of Coverage A
   synonyms:
@@ -27,6 +29,7 @@
   ambiguous: true
   synonym_target: true
   group: limits
+  label: Coverage D percentage
 - id: cov-a-unit-owner-default
   canonical: default Coverage A limit for a unit owner
   synonyms:
@@ -53,6 +56,7 @@
   ambiguous: true
   synonym_target: true
   group: special-limits
+  label: jewelry theft special limit
 - id: special-limit-firearms
   canonical: special limit on theft of firearms
   synonyms:
@@ -88,6 +92,7 @@
   ambiguous: true
   synonym_target: true
   group: special-limits
+  label: business property special limit
 - id: special-limit-electronics-vehicle
   canonical: special limit on electronic apparatus in a motor vehicle
   synonyms:
@@ -95,6 +100,7 @@
   - car electronics sublimit
   kind: money
   group: special-limits
+  label: in-vehicle electronics special limit
 - id: debris-removal-pct
   canonical: debris removal additional percentage
   synonyms:
@@ -112,6 +118,7 @@
   - plants and shrubs percentage
   kind: percent
   group: additional
+  label: trees and shrubs limit percentage
 - id: trees-per-item-limit
   canonical: limit for any one tree, shrub or plant
   synonyms:
@@ -158,6 +165,7 @@
   ambiguous: true
   synonym_target: true
   group: additional
+  label: ordinance or law percentage
 - id: landlord-furnishings-limit
   canonical: landlord's furnishings limit
   synonyms:
@@ -238,6 +246,7 @@
   ambiguous: true
   synonym_target: true
   group: deductibles
+  label: windstorm deductible increase notice period
 - id: named-storm-period-hours
   canonical: hours after a named storm designation ends that the named storm period lasts
   synonyms:
@@ -247,6 +256,7 @@
   kind: hours
   synonym_target: true
   group: deductibles
+  label: named storm period
 - id: proof-of-loss-days
   canonical: days to submit a signed, sworn proof of loss
   synonyms:
@@ -257,6 +267,7 @@
   ambiguous: true
   synonym_target: true
   group: conditions
+  label: proof of loss deadline
 - id: suit-limitation-years
   canonical: years within which an action against the insurer must be brought
   synonyms:
@@ -266,6 +277,7 @@
   kind: years
   ambiguous: true
   group: conditions
+  label: suit limitation period
 - id: loss-payment-days
   canonical: days after agreement within which loss is payable
   synonyms:
@@ -275,6 +287,7 @@
   kind: days
   synonym_target: true
   group: conditions
+  label: loss payment period after agreement
 - id: cancellation-notice-nonpay-days
   canonical: notice of cancellation for nonpayment of premium
   synonyms:
@@ -285,6 +298,7 @@
   ambiguous: true
   synonym_target: true
   group: conditions
+  label: nonpayment cancellation notice period
 - id: cancellation-notice-other-days
   canonical: notice of cancellation for reasons other than nonpayment
   synonyms:
@@ -295,6 +309,7 @@
   ambiguous: true
   synonym_target: true
   group: conditions
+  label: cancellation notice period for reasons other than nonpayment
 - id: nonrenewal-notice-days
   canonical: notice of nonrenewal
   synonyms:
@@ -312,6 +327,7 @@
   - appraisal response time
   kind: days
   group: conditions
+  label: appraiser selection period
 - id: vacancy-days
   canonical: consecutive days of vacancy after which vandalism is excluded
   synonyms:
@@ -322,6 +338,7 @@
   ambiguous: true
   synonym_target: true
   group: conditions
+  label: vacancy period before vandalism is excluded
 - id: claim-acknowledgement-days
   canonical: days to acknowledge receipt of a claim
   synonyms:
@@ -332,6 +349,7 @@
   ambiguous: true
   synonym_target: true
   group: claims-handling
+  label: claim acknowledgement deadline
 - id: claim-decision-business-days
   canonical: business days to accept or reject a claim after receiving requested items
   synonyms:
@@ -342,6 +360,7 @@
   ambiguous: true
   synonym_target: true
   group: claims-handling
+  label: claim decision deadline
 - id: claim-payment-business-days
   canonical: business days to pay an accepted claim
   synonyms:
@@ -351,6 +370,7 @@
   kind: business-days
   synonym_target: true
   group: claims-handling
+  label: claim payment deadline
 - id: medical-payments-years
   canonical: years within which medical expenses must be incurred to be payable
   synonyms:
@@ -359,6 +379,7 @@
   - medical expense window
   kind: years
   group: liability
+  label: medical payments time limit
 - id: damage-to-property-of-others-limit
   canonical: damage to property of others limit
   synonyms:
@@ -376,6 +397,7 @@
   kind: horsepower
   ambiguous: true
   group: liability
+  label: watercraft horsepower threshold
 - id: watercraft-length-threshold
   canonical: sailing vessel length above which liability is excluded
   synonyms:
@@ -383,6 +405,7 @@
   - sailing vessel size limit
   kind: feet
   group: liability
+  label: sailing vessel length threshold
 - id: rental-days-exception
   canonical: days of occasional rental permitted without the business exclusion applying
   synonyms:
@@ -391,6 +414,7 @@
   - rental day allowance
   kind: days
   group: liability
+  label: occasional rental allowance
 - id: water-backup-sublimit
   canonical: water backup and sump overflow sublimit
   synonyms:
@@ -419,6 +443,7 @@
   kind: boolean
   synonym_target: true
   group: endorsements
+  label: backwater valve requirement
 - id: roof-acv-age-threshold-years
   canonical: roof age from which the actual cash value roof schedule applies
   synonyms:
@@ -429,6 +454,7 @@
   ambiguous: true
   synonym_target: true
   group: roof
+  label: roof ACV schedule trigger age
 - id: roof-min-payment-pct
   canonical: minimum payable percentage of roof surfacing replacement cost
   synonyms:
@@ -438,6 +464,7 @@
   kind: percent
   synonym_target: true
   group: roof
+  label: minimum roof payment percentage
 - id: roof-comp-shingle-20yr-pct
   canonical: payable percentage for composition shingle aged twenty years or more
   synonyms:
@@ -445,6 +472,7 @@
   - twenty-year shingle percentage
   kind: percent
   group: roof
+  label: twenty-year composition shingle percentage
 - id: fungi-limit
   canonical: fungi, wet or dry rot, or bacteria aggregate limit
   synonyms:
@@ -455,6 +483,7 @@
   ambiguous: true
   synonym_target: true
   group: endorsements
+  label: fungi and bacteria aggregate limit
 - id: earthquake-deductible-pct
   canonical: earthquake deductible percentage
   synonyms:
@@ -487,6 +516,7 @@
   kind: percent
   synonym_target: true
   group: endorsements
+  label: extended replacement cost percentage
 - id: loss-assessment-endorsement-limit
   canonical: loss assessment endorsement limit
   synonyms:
@@ -510,6 +540,7 @@
   ambiguous: true
   synonym_target: true
   group: underwriting
+  label: roof inspection trigger age
 - id: roof-max-age-years
   canonical: roof age at or above which the risk is outside appetite
   synonyms:
@@ -520,6 +551,7 @@
   ambiguous: true
   synonym_target: true
   group: underwriting
+  label: maximum roof age in appetite
 - id: prior-claims-referral-count
   canonical: number of paid property claims that triggers referral
   synonyms:
@@ -531,6 +563,7 @@
   ambiguous: true
   synonym_target: true
   group: underwriting
+  label: paid claims referral count
 - id: prior-claims-lookback-years
   canonical: years of loss history considered
   synonyms:
@@ -564,6 +597,7 @@
   - backup referral threshold
   kind: money
   group: underwriting
+  label: water backup referral threshold
 - id: protection-class-max
   canonical: maximum protection class written
   synonyms:
@@ -597,6 +631,7 @@
   ambiguous: true
   synonym_target: true
   group: claims-handling
+  label: loss referral threshold
 - id: reservation-of-rights-days
   canonical: days within which a reservation of rights letter must issue
   synonyms:
@@ -604,6 +639,7 @@
   - rights reservation period
   kind: days
   group: claims-handling
+  label: reservation of rights deadline
 - id: roof-credit-pct
   canonical: new roof premium credit
   synonyms:
@@ -647,6 +683,7 @@
   ambiguous: true
   synonym_target: true
   group: conditions
+  label: loss reporting deadline
 - id: mitigation-duty-days
   canonical: days after discovery within which mitigation must begin
   synonyms:
@@ -656,6 +693,7 @@
   kind: days
   synonym_target: true
   group: claims-handling
+  label: mitigation start deadline
 - id: contents-inventory-days
   canonical: days to submit an inventory of damaged personal property
   synonyms:
@@ -663,6 +701,7 @@
   - contents list period
   kind: days
   group: claims-handling
+  label: contents inventory deadline
 - id: ale-max-months
   canonical: maximum months of additional living expense payable
   synonyms:
@@ -678,6 +717,7 @@
   - pre-approval repair threshold
   kind: money
   group: claims-handling
+  label: emergency repair allowance
 - id: salvage-retention-days
   canonical: days salvage must be retained for inspection
   synonyms:
@@ -692,6 +732,7 @@
   - subrogation referral window
   kind: days
   group: claims-handling
+  label: subrogation notice period
 - id: settlement-basis-contents
   canonical: loss settlement basis for personal property under the endorsement
   synonyms:
@@ -701,6 +742,7 @@
   kind: enum
   ambiguous: true
   group: endorsements
+  label: personal property settlement basis
 - id: flood-excluded
   canonical: flood and surface water remain excluded under the endorsement
   synonyms:
@@ -709,6 +751,7 @@
   - no flood write-back
   kind: enum
   group: endorsements
+  label: flood exclusion status
 - id: premium-impact-pct
   canonical: overall rate impact of the filing
   synonyms:
@@ -734,6 +777,7 @@
   kind: hours
   ambiguous: true
   group: underwriting
+  label: binding suspension window
 - id: wind-mitigation-inspection-cov-a
   canonical: Coverage A above which a wind mitigation inspection is required
   synonyms:
@@ -741,6 +785,7 @@
   - wind survey limit trigger
   kind: money
   group: underwriting
+  label: wind mitigation inspection threshold
 - id: large-loss-report-threshold
   canonical: loss amount requiring a large loss report
   synonyms:
@@ -749,6 +794,7 @@
   - severity report trigger
   kind: money
   group: claims-handling
+  label: large loss report threshold
 - id: appraisal-umpire-days
   canonical: days for the two appraisers to agree on an umpire
   synonyms:
@@ -756,3 +802,4 @@
   - appraisal umpire deadline
   kind: days
   group: conditions
+  label: umpire selection period

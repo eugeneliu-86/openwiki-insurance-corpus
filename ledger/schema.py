@@ -90,6 +90,7 @@ class Concept(Strict):
     ambiguous: bool = False               # R1
     synonym_target: bool = False          # R2: questioned in the synonym split; set by author from voice spread
     group: str
+    label: str | None = None              # a short name for questions and propositions when the canonical reads as a definition
 
 
 class Fact(Strict):
