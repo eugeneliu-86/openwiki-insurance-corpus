@@ -705,7 +705,7 @@
   - flood carve-out
   - surface water exclusion preserved
   - no flood write-back
-  kind: boolean
+  kind: enum
   group: endorsements
 - id: premium-impact-pct
   canonical: overall rate impact of the filing

@@ -113,7 +113,7 @@ CONCEPTS = [
     ("salvage-retention-days", "days", "days salvage must be retained for inspection", ["salvage hold period", "retain damaged property days"], "claims-handling", False),
     ("subrogation-notice-days", "days", "days to notify the subrogation unit of a recoverable loss", ["recovery referral deadline", "subrogation referral window"], "claims-handling", False),
     ("settlement-basis-contents", "enum", "loss settlement basis for personal property under the endorsement", ["contents settlement method", "personal property valuation basis", "contents loss valuation"], "endorsements", True),
-    ("flood-excluded", "boolean", "flood and surface water remain excluded under the endorsement", ["flood carve-out", "surface water exclusion preserved", "no flood write-back"], "endorsements", False),
+    ("flood-excluded", "enum", "flood and surface water remain excluded under the endorsement", ["flood carve-out", "surface water exclusion preserved", "no flood write-back"], "endorsements", False),
     ("premium-impact-pct", "percent", "overall rate impact of the filing", ["filed rate change", "premium effect of the revision", "rate level change"], "rating", False),
     ("inspection-validity-months", "count", "months an inspection report remains valid", ["inspection age limit", "report validity period", "inspection shelf life"], "underwriting", False),
     ("binding-suspension-hours", "hours", "hours before forecast landfall at which binding is suspended", ["binding moratorium window", "storm binding suspension", "pre-landfall binding cutoff"], "underwriting", True),
@@ -437,7 +437,7 @@ def build_endorsements(b: Build, forms: dict[str, list[Document]]) -> dict[str, 
                 fam = [e[0] for e in ENDORSEMENTS].index(number)
                 b.plant(doc, "W.5", "loss-notice-days", (30, 60, 90)[fam % 3])
                 b.plant(doc, "W.7", "settlement-basis-contents", "actual cash value" if "Water" in title or "Roof" in title else "replacement cost")
-                b.plant(doc, "W.4", "flood-excluded", True)
+                b.plant(doc, "W.4", "flood-excluded", "remains excluded", phrasing="write it as the predicate of a sentence whose subject is flood or surface water, e.g. \"Flood and surface water {{fact}}.\"")
             # every endorsement talks about the base deductible and the insured-to-value condition without stating them (R1)
             b.distract(doc, "W.5", "section-i-deductible-min", "insured-to-value-pct", "proof-of-loss-days", "suit-limitation-years")
             b.distract(doc, "W.4", "wind-hail-deductible-min-pct", "cov-b-limit-pct", "cov-c-limit-pct", "cov-d-limit-pct", "debris-removal-pct")

@@ -53,6 +53,8 @@ def v1_facts_at_recorded_lines(ledger: Ledger, out: pathlib.Path, placements: di
         line = lines[pl["line_start"] - 1] if pl["line_start"] <= len(lines) else ""
         if not value_occurrences(line, f.value):
             errs.append(f"V1 {f.id}: value not at {pl['path']}:{pl['line_start']}")
+        if f.value.kind in ("text", "enum", "boolean"):
+            continue  # a phrase value ("replacement cost", "is required") recurs in prose legitimately; the line check above is the rule
         spans = _section_spans(ledger, out, f.document)
         a, b = spans.get(f.section, (1, len(lines)))
         # exactly one line in the section carries THIS fact's rendering (another fact of the same value in the same section is allowed only if it is a different concept)
