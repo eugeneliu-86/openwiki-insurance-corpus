@@ -1,0 +1,4 @@
+# Files
+
+- [Underwriting Guidance — Endorsement Attachment, Deductibles, and Issuance](endorsement-attachment-and-issuance-controls.md) - Internal controls for reviewing, referring, attaching, changing, and verifying homeowners endorsements and deductibles. Covers water backup, roof ACV, ordinance, fungi, Texas-specific deductible controls, and post-issuance reconciliation without treating underwriting guidance as contract language.
+- [Underwriting Guidance — Risk Selection, Inspection, and Referral](risk-selection-inspection-and-referral.md) - Internal controls for homeowners risk selection, property-condition review, inspection, loss-history referral, delegated authority, and underwriting-file documentation. Separates these carrier controls from policy terms and Florida regulatory constraints.
