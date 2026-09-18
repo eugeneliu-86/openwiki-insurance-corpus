@@ -1,0 +1,13 @@
+[project]
+name = "openwiki-insurance-corpus-gen"
+version = "0.1.0"
+description = "Fact ledger, hybrid generator and validators for the large evaluation corpus (docs/specs/corpus-expansion)."
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2", "pyyaml>=6"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "vendor"]

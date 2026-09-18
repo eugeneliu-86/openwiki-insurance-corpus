@@ -1,0 +1,756 @@
+- id: cov-b-limit-pct
+  canonical: Coverage B limit as a percentage of Coverage A
+  synonyms:
+  - other structures limit
+  - appurtenant structures percentage
+  - Coverage B percentage
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: limits
+- id: cov-c-limit-pct
+  canonical: Coverage C limit as a percentage of Coverage A
+  synonyms:
+  - personal property limit percentage
+  - contents limit percentage
+  - Coverage C percentage
+  kind: percent
+  ambiguous: true
+  group: limits
+- id: cov-d-limit-pct
+  canonical: Coverage D limit as a percentage of Coverage A
+  synonyms:
+  - loss of use limit
+  - additional living expense limit
+  - ALE percentage
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: limits
+- id: cov-a-unit-owner-default
+  canonical: default Coverage A limit for a unit owner
+  synonyms:
+  - built-in unit coverage
+  - condominium dwelling default limit
+  kind: money
+  group: limits
+- id: special-limit-money
+  canonical: special limit on money and precious metals
+  synonyms:
+  - cash sublimit
+  - currency and bullion limit
+  - money limit
+  kind: money
+  synonym_target: true
+  group: special-limits
+- id: special-limit-jewelry
+  canonical: special limit on theft of jewelry, watches and precious stones
+  synonyms:
+  - jewelry theft sublimit
+  - jewelry and watches limit
+  - precious stones theft limit
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: special-limits
+- id: special-limit-firearms
+  canonical: special limit on theft of firearms
+  synonyms:
+  - firearms theft sublimit
+  - guns limit
+  - firearm theft cap
+  kind: money
+  synonym_target: true
+  group: special-limits
+- id: special-limit-watercraft
+  canonical: special limit on watercraft including trailers
+  synonyms:
+  - boats and trailers limit
+  - watercraft sublimit
+  - small craft limit
+  kind: money
+  synonym_target: true
+  group: special-limits
+- id: special-limit-silverware
+  canonical: special limit on theft of silverware
+  synonyms:
+  - silverware theft sublimit
+  - flatware and goldware limit
+  kind: money
+  group: special-limits
+- id: special-limit-business-property
+  canonical: special limit on business property on the residence premises
+  synonyms:
+  - home business contents limit
+  - business property sublimit
+  - on-premises business property cap
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: special-limits
+- id: special-limit-electronics-vehicle
+  canonical: special limit on electronic apparatus in a motor vehicle
+  synonyms:
+  - in-vehicle electronics limit
+  - car electronics sublimit
+  kind: money
+  group: special-limits
+- id: debris-removal-pct
+  canonical: debris removal additional percentage
+  synonyms:
+  - rubble removal percentage
+  - debris removal additional amount
+  - clean-up allowance percentage
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: additional
+- id: trees-shrubs-limit-pct
+  canonical: trees, shrubs and plants limit as a percentage of Coverage A
+  synonyms:
+  - landscaping limit percentage
+  - plants and shrubs percentage
+  kind: percent
+  group: additional
+- id: trees-per-item-limit
+  canonical: limit for any one tree, shrub or plant
+  synonyms:
+  - per-tree limit
+  - single plant limit
+  - per-item landscaping limit
+  kind: money
+  synonym_target: true
+  group: additional
+- id: fire-department-charge
+  canonical: fire department service charge limit
+  synonyms:
+  - fire service charge coverage
+  - fire department call fee
+  - fire response charge
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: additional
+- id: credit-card-forgery-limit
+  canonical: credit card, fund transfer card and forgery limit
+  synonyms:
+  - card and forgery limit
+  - counterfeit money coverage limit
+  kind: money
+  group: additional
+- id: loss-assessment-limit
+  canonical: loss assessment additional coverage limit
+  synonyms:
+  - association assessment limit
+  - assessment coverage limit
+  - special assessment limit
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: additional
+- id: ordinance-law-pct
+  canonical: ordinance or law coverage as a percentage of Coverage A
+  synonyms:
+  - code upgrade percentage
+  - building code coverage percentage
+  - ordinance or law additional amount
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: additional
+- id: landlord-furnishings-limit
+  canonical: landlord's furnishings limit
+  synonyms:
+  - rented unit furnishings limit
+  - landlord contents sublimit
+  kind: money
+  group: additional
+- id: grave-markers-limit
+  canonical: grave markers limit
+  synonyms:
+  - mausoleum and marker limit
+  - headstone coverage limit
+  kind: money
+  group: additional
+- id: refrigerated-property-limit
+  canonical: refrigerated property limit
+  synonyms:
+  - food spoilage limit
+  - frozen food coverage limit
+  kind: money
+  group: additional
+- id: insured-to-value-pct
+  canonical: insured-to-value threshold for replacement cost settlement
+  synonyms:
+  - eighty percent condition
+  - coinsurance threshold
+  - replacement cost threshold percentage
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: settlement
+- id: section-i-deductible-min
+  canonical: minimum Section I deductible
+  synonyms:
+  - all-other-perils deductible minimum
+  - AOP deductible floor
+  - base deductible minimum
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: deductibles
+- id: wind-hail-deductible-min-pct
+  canonical: minimum windstorm and hail deductible percentage
+  synonyms:
+  - named storm deductible minimum
+  - hurricane deductible floor
+  - wind percentage deductible minimum
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: deductibles
+- id: wind-hail-deductible-max-pct
+  canonical: maximum windstorm and hail deductible percentage
+  synonyms:
+  - hurricane deductible cap
+  - wind deductible ceiling
+  - maximum named storm deductible
+  kind: percent
+  ambiguous: true
+  synonym_target: true
+  group: deductibles
+- id: wind-seacoast-max-pct
+  canonical: maximum windstorm deductible in seacoast territories
+  synonyms:
+  - coastal territory wind maximum
+  - tier one county wind cap
+  - seacoast deductible ceiling
+  kind: percent
+  synonym_target: true
+  group: deductibles
+- id: wind-deductible-notice-days
+  canonical: notice before a windstorm deductible increase takes effect
+  synonyms:
+  - deductible increase notice period
+  - advance notice of deductible change
+  - renewal deductible notice
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: deductibles
+- id: named-storm-period-hours
+  canonical: hours after a named storm designation ends that the named storm period lasts
+  synonyms:
+  - named storm window
+  - hurricane occurrence tail
+  - storm period duration
+  kind: hours
+  synonym_target: true
+  group: deductibles
+- id: proof-of-loss-days
+  canonical: days to submit a signed, sworn proof of loss
+  synonyms:
+  - sworn statement deadline
+  - proof of loss period
+  - sworn proof deadline
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: conditions
+- id: suit-limitation-years
+  canonical: years within which an action against the insurer must be brought
+  synonyms:
+  - time to bring action
+  - suit against us period
+  - legal action deadline
+  kind: years
+  ambiguous: true
+  group: conditions
+- id: loss-payment-days
+  canonical: days after agreement within which loss is payable
+  synonyms:
+  - payment after agreement period
+  - claim payment deadline
+  - loss payable period
+  kind: days
+  synonym_target: true
+  group: conditions
+- id: cancellation-notice-nonpay-days
+  canonical: notice of cancellation for nonpayment of premium
+  synonyms:
+  - nonpayment cancellation notice
+  - premium default notice period
+  - notice for nonpayment
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: conditions
+- id: cancellation-notice-other-days
+  canonical: notice of cancellation for reasons other than nonpayment
+  synonyms:
+  - cancellation notice period
+  - notice of cancellation for other reasons
+  - general cancellation notice
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: conditions
+- id: nonrenewal-notice-days
+  canonical: notice of nonrenewal
+  synonyms:
+  - nonrenewal notice period
+  - notice of intent not to renew
+  - renewal refusal notice
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: conditions
+- id: appraisal-demand-days
+  canonical: days to select an appraiser after a demand for appraisal
+  synonyms:
+  - appraiser selection period
+  - appraisal response time
+  kind: days
+  group: conditions
+- id: vacancy-days
+  canonical: consecutive days of vacancy after which vandalism is excluded
+  synonyms:
+  - unoccupancy limit
+  - vacant dwelling period
+  - vacancy exclusion trigger
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: conditions
+- id: claim-acknowledgement-days
+  canonical: days to acknowledge receipt of a claim
+  synonyms:
+  - acknowledgment of claim deadline
+  - receipt acknowledgement period
+  - claim contact deadline
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: claims-handling
+- id: claim-decision-business-days
+  canonical: business days to accept or reject a claim after receiving requested items
+  synonyms:
+  - accept or deny deadline
+  - coverage decision period
+  - claim determination window
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: claims-handling
+- id: claim-payment-business-days
+  canonical: business days to pay an accepted claim
+  synonyms:
+  - prompt payment period
+  - payment after acceptance deadline
+  - claim disbursement window
+  kind: days
+  synonym_target: true
+  group: claims-handling
+- id: medical-payments-years
+  canonical: years within which medical expenses must be incurred to be payable
+  synonyms:
+  - medical payments time limit
+  - Coverage F accrual period
+  - medical expense window
+  kind: years
+  group: liability
+- id: damage-to-property-of-others-limit
+  canonical: damage to property of others limit
+  synonyms:
+  - property of others limit
+  - good neighbor coverage limit
+  - borrowed property limit
+  kind: money
+  group: liability
+- id: watercraft-hp-threshold
+  canonical: outboard horsepower above which watercraft liability is excluded
+  synonyms:
+  - outboard horsepower exclusion threshold
+  - motor size limit for watercraft
+  - outboard motor threshold
+  kind: horsepower
+  ambiguous: true
+  group: liability
+- id: watercraft-length-threshold
+  canonical: sailing vessel length above which liability is excluded
+  synonyms:
+  - sailboat length threshold
+  - sailing vessel size limit
+  kind: feet
+  group: liability
+- id: rental-days-exception
+  canonical: days of occasional rental permitted without the business exclusion applying
+  synonyms:
+  - short-term rental allowance
+  - occasional rental exception
+  - rental day allowance
+  kind: days
+  group: liability
+- id: water-backup-sublimit
+  canonical: water backup and sump overflow sublimit
+  synonyms:
+  - sewer backup limit
+  - backup and sump overflow limit
+  - drain backup sublimit
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: endorsements
+- id: water-backup-deductible
+  canonical: water backup endorsement deductible
+  synonyms:
+  - backup endorsement deductible
+  - sump overflow deductible
+  - sewer backup deductible
+  kind: money
+  synonym_target: true
+  group: endorsements
+- id: backflow-requirement
+  canonical: backwater valve requirement for finished areas below grade
+  synonyms:
+  - backflow preventer condition
+  - check valve requirement
+  - backwater device condition
+  kind: boolean
+  synonym_target: true
+  group: endorsements
+- id: roof-acv-age-threshold-years
+  canonical: roof age from which the actual cash value roof schedule applies
+  synonyms:
+  - roof schedule trigger age
+  - roof surfacing age threshold
+  - ACV roof age
+  kind: years
+  ambiguous: true
+  synonym_target: true
+  group: roof
+- id: roof-min-payment-pct
+  canonical: minimum payable percentage of roof surfacing replacement cost
+  synonyms:
+  - roof settlement floor
+  - minimum roof payment percentage
+  - roof payment floor
+  kind: percent
+  synonym_target: true
+  group: roof
+- id: roof-comp-shingle-20yr-pct
+  canonical: payable percentage for composition shingle aged twenty years or more
+  synonyms:
+  - asphalt shingle depreciation floor
+  - twenty-year shingle percentage
+  kind: percent
+  group: roof
+- id: fungi-limit
+  canonical: fungi, wet or dry rot, or bacteria aggregate limit
+  synonyms:
+  - mold coverage limit
+  - fungi and bacteria aggregate
+  - microbial remediation limit
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: endorsements
+- id: earthquake-deductible-pct
+  canonical: earthquake deductible percentage
+  synonyms:
+  - seismic deductible
+  - earth movement deductible percentage
+  - quake deductible
+  kind: percent
+  synonym_target: true
+  group: endorsements
+- id: identity-fraud-limit
+  canonical: identity fraud expense limit
+  synonyms:
+  - identity theft expense limit
+  - identity recovery coverage limit
+  kind: money
+  group: endorsements
+- id: scheduled-property-deductible
+  canonical: deductible applying to scheduled personal property
+  synonyms:
+  - scheduled items deductible
+  - floater deductible
+  kind: money
+  group: endorsements
+- id: extended-replacement-pct
+  canonical: specified additional amount of insurance for Coverage A
+  synonyms:
+  - extended replacement cost percentage
+  - additional amount percentage
+  - dwelling extension percentage
+  kind: percent
+  synonym_target: true
+  group: endorsements
+- id: loss-assessment-endorsement-limit
+  canonical: loss assessment endorsement limit
+  synonyms:
+  - increased assessment limit
+  - assessment endorsement amount
+  kind: money
+  group: endorsements
+- id: business-pursuits-limit
+  canonical: business pursuits liability sublimit
+  synonyms:
+  - incidental business liability limit
+  kind: money
+  group: endorsements
+- id: roof-inspection-age-years
+  canonical: roof age at or above which an inspection is required before binding
+  synonyms:
+  - inspection trigger roof age
+  - roof survey age
+  - roof inspection threshold
+  kind: years
+  ambiguous: true
+  synonym_target: true
+  group: underwriting
+- id: roof-max-age-years
+  canonical: roof age at or above which the risk is outside appetite
+  synonyms:
+  - maximum insurable roof age
+  - roof age declination point
+  - roof age ceiling
+  kind: years
+  ambiguous: true
+  synonym_target: true
+  group: underwriting
+- id: prior-claims-referral-count
+  canonical: number of paid property claims that triggers referral
+  synonyms:
+  - claims frequency referral trigger
+  - loss count threshold
+  - prior loss referral count
+  kind: count
+  ambiguous: true
+  synonym_target: true
+  group: underwriting
+- id: prior-claims-lookback-years
+  canonical: years of loss history considered
+  synonyms:
+  - loss history window
+  - claims lookback
+  - prior loss period
+  kind: years
+  synonym_target: true
+  group: underwriting
+- id: line-authority-cov-a
+  canonical: line underwriter Coverage A binding authority
+  synonyms:
+  - binding authority limit
+  - underwriter authority ceiling
+  - line authority
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: underwriting
+- id: senior-authority-cov-a
+  canonical: senior underwriter Coverage A binding authority
+  synonyms:
+  - senior binding authority
+  - senior underwriter ceiling
+  kind: money
+  group: underwriting
+- id: water-backup-referral-limit
+  canonical: water backup limit above which referral is required
+  synonyms:
+  - backup limit needing referral
+  - backup referral threshold
+  kind: money
+  group: underwriting
+- id: protection-class-max
+  canonical: maximum protection class written
+  synonyms:
+  - maximum protection class
+  - PPC eligibility limit
+  - protection class cutoff
+  kind: count
+  synonym_target: true
+  group: underwriting
+- id: min-cov-a
+  canonical: minimum Coverage A limit written
+  synonyms:
+  - minimum dwelling limit
+  - Coverage A floor
+  kind: money
+  group: underwriting
+- id: max-cov-a
+  canonical: maximum Coverage A limit written
+  synonyms:
+  - maximum dwelling limit
+  - Coverage A ceiling
+  kind: money
+  group: underwriting
+- id: referral-loss-threshold
+  canonical: claim amount above which a loss is referred
+  synonyms:
+  - large loss referral threshold
+  - adjuster authority limit
+  - loss referral amount
+  kind: money
+  ambiguous: true
+  synonym_target: true
+  group: claims-handling
+- id: reservation-of-rights-days
+  canonical: days within which a reservation of rights letter must issue
+  synonyms:
+  - ROR letter deadline
+  - rights reservation period
+  kind: days
+  group: claims-handling
+- id: roof-credit-pct
+  canonical: new roof premium credit
+  synonyms:
+  - roof age credit
+  - new roof discount
+  - roof replacement credit
+  kind: percent
+  group: rating
+- id: protective-device-credit-pct
+  canonical: protective device premium credit
+  synonyms:
+  - alarm credit
+  - central station discount
+  - burglar and fire alarm credit
+  kind: percent
+  group: rating
+- id: wind-mitigation-credit-pct
+  canonical: windstorm mitigation premium credit
+  synonyms:
+  - hurricane mitigation discount
+  - opening protection credit
+  - wind loss mitigation credit
+  kind: percent
+  group: rating
+- id: pool-fence-height-feet
+  canonical: minimum swimming pool fence height
+  synonyms:
+  - pool enclosure height
+  - pool barrier minimum
+  - swimming pool fence requirement
+  kind: feet
+  group: underwriting
+- id: loss-notice-days
+  canonical: days within which a loss must be reported
+  synonyms:
+  - notice of loss deadline
+  - claim reporting period
+  - prompt notice window
+  kind: days
+  ambiguous: true
+  synonym_target: true
+  group: conditions
+- id: mitigation-duty-days
+  canonical: days after discovery within which mitigation must begin
+  synonyms:
+  - dry-out deadline
+  - mitigation start period
+  - duty to mitigate window
+  kind: days
+  synonym_target: true
+  group: claims-handling
+- id: contents-inventory-days
+  canonical: days to submit an inventory of damaged personal property
+  synonyms:
+  - inventory submission deadline
+  - contents list period
+  kind: days
+  group: claims-handling
+- id: ale-max-months
+  canonical: maximum months of additional living expense payable
+  synonyms:
+  - ALE duration cap
+  - loss of use time limit
+  - living expense months
+  kind: count
+  group: claims-handling
+- id: emergency-repair-authority
+  canonical: emergency repair amount an insured may incur without prior approval
+  synonyms:
+  - emergency repair allowance
+  - pre-approval repair threshold
+  kind: money
+  group: claims-handling
+- id: salvage-retention-days
+  canonical: days salvage must be retained for inspection
+  synonyms:
+  - salvage hold period
+  - retain damaged property days
+  kind: days
+  group: claims-handling
+- id: subrogation-notice-days
+  canonical: days to notify the subrogation unit of a recoverable loss
+  synonyms:
+  - recovery referral deadline
+  - subrogation referral window
+  kind: days
+  group: claims-handling
+- id: settlement-basis-contents
+  canonical: loss settlement basis for personal property under the endorsement
+  synonyms:
+  - contents settlement method
+  - personal property valuation basis
+  - contents loss valuation
+  kind: enum
+  ambiguous: true
+  group: endorsements
+- id: flood-excluded
+  canonical: flood and surface water remain excluded under the endorsement
+  synonyms:
+  - flood carve-out
+  - surface water exclusion preserved
+  - no flood write-back
+  kind: boolean
+  group: endorsements
+- id: premium-impact-pct
+  canonical: overall rate impact of the filing
+  synonyms:
+  - filed rate change
+  - premium effect of the revision
+  - rate level change
+  kind: percent
+  group: rating
+- id: inspection-validity-months
+  canonical: months an inspection report remains valid
+  synonyms:
+  - inspection age limit
+  - report validity period
+  - inspection shelf life
+  kind: count
+  group: underwriting
+- id: binding-suspension-hours
+  canonical: hours before forecast landfall at which binding is suspended
+  synonyms:
+  - binding moratorium window
+  - storm binding suspension
+  - pre-landfall binding cutoff
+  kind: hours
+  ambiguous: true
+  group: underwriting
+- id: wind-mitigation-inspection-cov-a
+  canonical: Coverage A above which a wind mitigation inspection is required
+  synonyms:
+  - mitigation inspection threshold
+  - wind survey limit trigger
+  kind: money
+  group: underwriting
+- id: large-loss-report-threshold
+  canonical: loss amount requiring a large loss report
+  synonyms:
+  - large loss notice threshold
+  - major loss reporting amount
+  - severity report trigger
+  kind: money
+  group: claims-handling
+- id: appraisal-umpire-days
+  canonical: days for the two appraisers to agree on an umpire
+  synonyms:
+  - umpire selection period
+  - appraisal umpire deadline
+  kind: days
+  group: conditions

@@ -1,0 +1,194 @@
+- id: comp.water.fl
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.fl.dp-01-09.2021-03.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  - guide.appetite.fl-homeowners.H.4.water-backup-referral-limit
+  scenario: 'Florida HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.tx
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.tx.dp-01-45.2022-01.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  - guide.appetite.tx-homeowners.H.4.water-backup-referral-limit
+  scenario: 'Texas HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.ca
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.ca.ho-01-04.2021-06.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  scenario: 'California HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.ny
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.ny.ho-01-31.2016-04.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  scenario: 'New York HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.la
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.la.ho-01-17.2020-09.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  scenario: 'Louisiana HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.nc
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.nc.ho-01-32.2018-05.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  scenario: 'North Carolina HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.co
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.co.ho-01-05.2022-10.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  scenario: 'Colorado HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.water.il
+  facts:
+  - form.ho3.2024-03.I.S.section-i-deductible-min
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - amend.il.ho-01-12.2015-02.T.4.cancellation-notice-other-days
+  - manual.underwriting.R900.water-backup-referral-limit
+  scenario: 'Illinois HO-3 policy with water backup: sewer backup in a finished basement; what is payable, which deductible,
+    who must approve the limit'
+- id: comp.roof-wind.fl
+  facts:
+  - form.ho3.2024-03.I.A.insured-to-value-pct
+  - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  - amend.fl.dp-01-09.2021-03.T.1.wind-hail-deductible-min-pct
+  - manual.underwriting.R600.roof-inspection-age-years
+  scenario: 'Florida hail loss to an aged roof: schedule, floor, and which deductible'
+- id: comp.roof-wind.tx
+  facts:
+  - form.ho3.2024-03.I.A.insured-to-value-pct
+  - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  - amend.tx.dp-01-45.2022-01.T.1.wind-hail-deductible-min-pct
+  - manual.underwriting.R600.roof-inspection-age-years
+  scenario: 'Texas hail loss to an aged roof: schedule, floor, and which deductible'
+- id: comp.roof-wind.la
+  facts:
+  - form.ho3.2024-03.I.A.insured-to-value-pct
+  - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  - amend.la.ho-01-17.2020-09.T.1.wind-hail-deductible-min-pct
+  - manual.underwriting.R600.roof-inspection-age-years
+  scenario: 'Louisiana hail loss to an aged roof: schedule, floor, and which deductible'
+- id: comp.roof-wind.nc
+  facts:
+  - form.ho3.2024-03.I.A.insured-to-value-pct
+  - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  - amend.nc.ho-01-32.2018-05.T.1.wind-hail-deductible-min-pct
+  - manual.underwriting.R600.roof-inspection-age-years
+  scenario: 'North Carolina hail loss to an aged roof: schedule, floor, and which deductible'
+- id: comp.roof-wind.co
+  facts:
+  - form.ho3.2024-03.I.A.insured-to-value-pct
+  - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  - amend.co.ho-01-05.2022-10.T.1.wind-hail-deductible-min-pct
+  - manual.underwriting.R600.roof-inspection-age-years
+  scenario: 'Colorado hail loss to an aged roof: schedule, floor, and which deductible'
+- id: comp.condo.2014-04
+  facts:
+  - form.ho6.2014-04.I.E.loss-assessment-limit
+  - form.ho6.2014-04.I.A.cov-a-unit-owner-default
+  - end.ho-04-35.2023-02.W.2.loss-assessment-endorsement-limit
+  - end.ho-04-91.2019-03.W.2.water-backup-sublimit
+  - manual.claims.C19.referral-loss-threshold
+  scenario: HO-6 unit owner assessed by the association after a hurricane
+- id: comp.condo.2023-02
+  facts:
+  - form.ho6.2023-02.I.E.loss-assessment-limit
+  - form.ho6.2023-02.I.A.cov-a-unit-owner-default
+  - end.ho-04-35.2023-02.W.2.loss-assessment-endorsement-limit
+  - end.ho-04-91.2019-03.W.2.water-backup-sublimit
+  - manual.claims.C19.referral-loss-threshold
+  scenario: HO-6 unit owner assessed by the association after a hurricane
+- id: comp.dwelling.2020-08
+  facts:
+  - form.dp3.2020-08.I.X.vacancy-days
+  - form.dp3.2020-08.I.E.ordinance-law-pct
+  - end.dp-04-95.2021-05.W.2.water-backup-sublimit
+  - amend.fl.dp-01-09.2021-03.T.1.wind-hail-deductible-max-pct
+  - manual.underwriting.R250.vacancy-days
+  scenario: DP-3 vacant rental dwelling, vandalism after a tenant leaves, then a code upgrade
+- id: comp.dwelling.2026-01
+  facts:
+  - form.dp3.2026-01.I.X.vacancy-days
+  - form.dp3.2026-01.I.E.ordinance-law-pct
+  - end.dp-04-95.2021-05.W.2.water-backup-sublimit
+  - amend.fl.dp-01-09.2021-03.T.1.wind-hail-deductible-max-pct
+  - manual.underwriting.R250.vacancy-days
+  scenario: DP-3 vacant rental dwelling, vandalism after a tenant leaves, then a code upgrade
+- id: comp.mold.ho3
+  facts:
+  - form.ho3.2024-03.I.S.proof-of-loss-days
+  - end.ho-04-81.2018-09.W.2.fungi-limit
+  - amend.nc.ho-01-32.2018-05.T.8.fungi-limit
+  - guide.claims.mold-claim-handling.H.5.referral-loss-threshold
+  - bulletin.nc.ncdoi-2018-03-fungi-disclosure.B.2.fungi-limit
+  scenario: burst pipe then mold under HO-3 with HO 04 81
+- id: comp.mold.ho4
+  facts:
+  - form.ho4.2021-10.I.D.cov-d-limit-pct
+  - end.ho-04-27.2016-05.W.2.fungi-limit
+  - end.ho-04-27.2016-05.W.2.water-backup-sublimit
+  - manual.claims.C19.reservation-of-rights-days
+  - guide.claims.water-loss-handling.H.5.referral-loss-threshold
+  scenario: tenant's mold claim under HO-4 with HO 04 27
+- id: comp.authority.tx
+  facts:
+  - guide.appetite.tx-homeowners.H.7.line-authority-cov-a
+  - guide.appetite.tx-homeowners.H.5.prior-claims-referral-count
+  - guide.authority.referral-matrix.H.4.water-backup-referral-limit
+  - manual.underwriting.R900.senior-authority-cov-a
+  - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  scenario: Texas $950k dwelling with two prior claims requesting a $30k backup limit
+- id: comp.authority.fl
+  facts:
+  - bulletin.fl.oir-2023-04-roof-age-nonrenewal.B.2.roof-acv-age-threshold-years
+  - guide.appetite.fl-homeowners.H.2.roof-inspection-age-years
+  - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - manual.underwriting.R900.roof-max-age-years
+  - guide.authority.referral-matrix.H.2.roof-max-age-years
+  scenario: Florida new business, eight-year roof, HO 23 74 requested
+- id: comp.edition.ho3
+  facts:
+  - form.ho3.2011-05.I.C.special-limit-jewelry
+  - form.ho3.2018-09.I.C.special-limit-jewelry
+  - form.ho3.2024-03.I.C.special-limit-jewelry
+  - memo.ho-3.2024-03.M.3.special-limit-jewelry
+  - training.choosing-the-governing-edition.L.2.special-limit-jewelry
+  scenario: which HO-3 edition governs a 2016 policy's jewelry theft and its proof-of-loss deadline, and what the memo says
+- id: comp.edition.dp3
+  facts:
+  - form.dp3.2012-11.I.A.insured-to-value-pct
+  - form.dp3.2020-08.I.A.insured-to-value-pct
+  - form.dp3.2026-01.I.A.insured-to-value-pct
+  - manual.underwriting.R500.min-cov-a
+  - guide.authority.binding-authority.H.7.line-authority-cov-a
+  scenario: DP-3 insured-to-value threshold across three editions and the manual's eligibility rule

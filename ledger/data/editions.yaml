@@ -1,0 +1,356 @@
+- form: HO-3
+  older: form.ho3.2011-05
+  newer: form.ho3.2018-09
+  changed:
+  - - form.ho3.2011-05.I.C.special-limit-money
+    - form.ho3.2018-09.I.C.special-limit-money
+  - - form.ho3.2011-05.I.C.special-limit-jewelry
+    - form.ho3.2018-09.I.C.special-limit-jewelry
+  - - form.ho3.2011-05.I.C.special-limit-firearms
+    - form.ho3.2018-09.I.C.special-limit-firearms
+  - - form.ho3.2011-05.I.C.special-limit-watercraft
+    - form.ho3.2018-09.I.C.special-limit-watercraft
+  - - form.ho3.2011-05.I.C.special-limit-business-property
+    - form.ho3.2018-09.I.C.special-limit-business-property
+  - - form.ho3.2011-05.I.C.special-limit-electronics-vehicle
+    - form.ho3.2018-09.I.C.special-limit-electronics-vehicle
+  - - form.ho3.2011-05.I.E.trees-per-item-limit
+    - form.ho3.2018-09.I.E.trees-per-item-limit
+  - - form.ho3.2011-05.I.E.fire-department-charge
+    - form.ho3.2018-09.I.E.fire-department-charge
+  - - form.ho3.2011-05.I.E.credit-card-forgery-limit
+    - form.ho3.2018-09.I.E.credit-card-forgery-limit
+  - - form.ho3.2011-05.I.E.loss-assessment-limit
+    - form.ho3.2018-09.I.E.loss-assessment-limit
+  - - form.ho3.2011-05.I.E.landlord-furnishings-limit
+    - form.ho3.2018-09.I.E.landlord-furnishings-limit
+  - - form.ho3.2011-05.I.E.refrigerated-property-limit
+    - form.ho3.2018-09.I.E.refrigerated-property-limit
+  - - form.ho3.2011-05.G.cancellation-notice-other-days
+    - form.ho3.2018-09.G.cancellation-notice-other-days
+  - - form.ho3.2011-05.G.nonrenewal-notice-days
+    - form.ho3.2018-09.G.nonrenewal-notice-days
+  - - form.ho3.2011-05.I.X.vacancy-days
+    - form.ho3.2018-09.I.X.vacancy-days
+  - - form.ho3.2011-05.II.X.watercraft-length-threshold
+    - form.ho3.2018-09.II.X.watercraft-length-threshold
+  - - form.ho3.2011-05.II.X.rental-days-exception
+    - form.ho3.2018-09.II.X.rental-days-exception
+  renumbered:
+  - - I.X.D
+    - I.X.E
+  - - I.S.4
+    - I.S.5
+- form: HO-3
+  older: form.ho3.2018-09
+  newer: form.ho3.2024-03
+  changed:
+  - - form.ho3.2018-09.I.C.special-limit-money
+    - form.ho3.2024-03.I.C.special-limit-money
+  - - form.ho3.2018-09.I.C.special-limit-jewelry
+    - form.ho3.2024-03.I.C.special-limit-jewelry
+  - - form.ho3.2018-09.I.C.special-limit-firearms
+    - form.ho3.2024-03.I.C.special-limit-firearms
+  - - form.ho3.2018-09.I.C.special-limit-silverware
+    - form.ho3.2024-03.I.C.special-limit-silverware
+  - - form.ho3.2018-09.I.E.debris-removal-pct
+    - form.ho3.2024-03.I.E.debris-removal-pct
+  - - form.ho3.2018-09.I.E.trees-shrubs-limit-pct
+    - form.ho3.2024-03.I.E.trees-shrubs-limit-pct
+  - - form.ho3.2018-09.I.E.trees-per-item-limit
+    - form.ho3.2024-03.I.E.trees-per-item-limit
+  - - form.ho3.2018-09.I.E.fire-department-charge
+    - form.ho3.2024-03.I.E.fire-department-charge
+  - - form.ho3.2018-09.I.E.credit-card-forgery-limit
+    - form.ho3.2024-03.I.E.credit-card-forgery-limit
+  - - form.ho3.2018-09.I.E.loss-assessment-limit
+    - form.ho3.2024-03.I.E.loss-assessment-limit
+  - - form.ho3.2018-09.I.E.ordinance-law-pct
+    - form.ho3.2024-03.I.E.ordinance-law-pct
+  - - form.ho3.2018-09.I.E.grave-markers-limit
+    - form.ho3.2024-03.I.E.grave-markers-limit
+  - - form.ho3.2018-09.I.E.refrigerated-property-limit
+    - form.ho3.2024-03.I.E.refrigerated-property-limit
+  - - form.ho3.2018-09.I.S.section-i-deductible-min
+    - form.ho3.2024-03.I.S.section-i-deductible-min
+  - - form.ho3.2018-09.I.S.proof-of-loss-days
+    - form.ho3.2024-03.I.S.proof-of-loss-days
+  - - form.ho3.2018-09.I.S.appraisal-demand-days
+    - form.ho3.2024-03.I.S.appraisal-demand-days
+  - - form.ho3.2018-09.II.E2.damage-to-property-of-others-limit
+    - form.ho3.2024-03.II.E2.damage-to-property-of-others-limit
+  - - form.ho3.2018-09.II.X.watercraft-hp-threshold
+    - form.ho3.2024-03.II.X.watercraft-hp-threshold
+  renumbered:
+  - - I.X.E
+    - I.X.F
+- form: HO-5
+  older: form.ho5.2015-01
+  newer: form.ho5.2022-06
+  changed:
+  - - form.ho5.2015-01.I.C.special-limit-jewelry
+    - form.ho5.2022-06.I.C.special-limit-jewelry
+  - - form.ho5.2015-01.I.C.special-limit-firearms
+    - form.ho5.2022-06.I.C.special-limit-firearms
+  - - form.ho5.2015-01.I.C.special-limit-watercraft
+    - form.ho5.2022-06.I.C.special-limit-watercraft
+  - - form.ho5.2015-01.I.C.special-limit-business-property
+    - form.ho5.2022-06.I.C.special-limit-business-property
+  - - form.ho5.2015-01.I.C.special-limit-electronics-vehicle
+    - form.ho5.2022-06.I.C.special-limit-electronics-vehicle
+  - - form.ho5.2015-01.I.E.trees-per-item-limit
+    - form.ho5.2022-06.I.E.trees-per-item-limit
+  - - form.ho5.2015-01.I.E.fire-department-charge
+    - form.ho5.2022-06.I.E.fire-department-charge
+  - - form.ho5.2015-01.I.E.credit-card-forgery-limit
+    - form.ho5.2022-06.I.E.credit-card-forgery-limit
+  - - form.ho5.2015-01.I.E.loss-assessment-limit
+    - form.ho5.2022-06.I.E.loss-assessment-limit
+  - - form.ho5.2015-01.I.E.ordinance-law-pct
+    - form.ho5.2022-06.I.E.ordinance-law-pct
+  - - form.ho5.2015-01.I.E.grave-markers-limit
+    - form.ho5.2022-06.I.E.grave-markers-limit
+  - - form.ho5.2015-01.I.E.refrigerated-property-limit
+    - form.ho5.2022-06.I.E.refrigerated-property-limit
+  - - form.ho5.2015-01.G.cancellation-notice-other-days
+    - form.ho5.2022-06.G.cancellation-notice-other-days
+  - - form.ho5.2015-01.G.nonrenewal-notice-days
+    - form.ho5.2022-06.G.nonrenewal-notice-days
+  - - form.ho5.2015-01.I.X.vacancy-days
+    - form.ho5.2022-06.I.X.vacancy-days
+  - - form.ho5.2015-01.II.E2.damage-to-property-of-others-limit
+    - form.ho5.2022-06.II.E2.damage-to-property-of-others-limit
+  - - form.ho5.2015-01.II.X.rental-days-exception
+    - form.ho5.2022-06.II.X.rental-days-exception
+  renumbered:
+  - - I.X.C
+    - I.X.D
+- form: HO-4
+  older: form.ho4.2013-07
+  newer: form.ho4.2021-10
+  changed:
+  - - form.ho4.2013-07.I.D.cov-d-limit-pct
+    - form.ho4.2021-10.I.D.cov-d-limit-pct
+  - - form.ho4.2013-07.I.C.special-limit-money
+    - form.ho4.2021-10.I.C.special-limit-money
+  - - form.ho4.2013-07.I.C.special-limit-jewelry
+    - form.ho4.2021-10.I.C.special-limit-jewelry
+  - - form.ho4.2013-07.I.C.special-limit-firearms
+    - form.ho4.2021-10.I.C.special-limit-firearms
+  - - form.ho4.2013-07.I.C.special-limit-watercraft
+    - form.ho4.2021-10.I.C.special-limit-watercraft
+  - - form.ho4.2013-07.I.C.special-limit-business-property
+    - form.ho4.2021-10.I.C.special-limit-business-property
+  - - form.ho4.2013-07.I.C.special-limit-electronics-vehicle
+    - form.ho4.2021-10.I.C.special-limit-electronics-vehicle
+  - - form.ho4.2013-07.I.E.fire-department-charge
+    - form.ho4.2021-10.I.E.fire-department-charge
+  - - form.ho4.2013-07.I.E.credit-card-forgery-limit
+    - form.ho4.2021-10.I.E.credit-card-forgery-limit
+  - - form.ho4.2013-07.I.E.loss-assessment-limit
+    - form.ho4.2021-10.I.E.loss-assessment-limit
+  - - form.ho4.2013-07.I.E.refrigerated-property-limit
+    - form.ho4.2021-10.I.E.refrigerated-property-limit
+  - - form.ho4.2013-07.G.cancellation-notice-other-days
+    - form.ho4.2021-10.G.cancellation-notice-other-days
+  - - form.ho4.2013-07.G.nonrenewal-notice-days
+    - form.ho4.2021-10.G.nonrenewal-notice-days
+  - - form.ho4.2013-07.I.X.vacancy-days
+    - form.ho4.2021-10.I.X.vacancy-days
+  - - form.ho4.2013-07.II.E2.damage-to-property-of-others-limit
+    - form.ho4.2021-10.II.E2.damage-to-property-of-others-limit
+  - - form.ho4.2013-07.II.X.rental-days-exception
+    - form.ho4.2021-10.II.X.rental-days-exception
+- form: HO-6
+  older: form.ho6.2014-04
+  newer: form.ho6.2023-02
+  changed:
+  - - form.ho6.2014-04.I.C.special-limit-money
+    - form.ho6.2023-02.I.C.special-limit-money
+  - - form.ho6.2014-04.I.C.special-limit-jewelry
+    - form.ho6.2023-02.I.C.special-limit-jewelry
+  - - form.ho6.2014-04.I.C.special-limit-firearms
+    - form.ho6.2023-02.I.C.special-limit-firearms
+  - - form.ho6.2014-04.I.C.special-limit-watercraft
+    - form.ho6.2023-02.I.C.special-limit-watercraft
+  - - form.ho6.2014-04.I.C.special-limit-business-property
+    - form.ho6.2023-02.I.C.special-limit-business-property
+  - - form.ho6.2014-04.I.C.special-limit-electronics-vehicle
+    - form.ho6.2023-02.I.C.special-limit-electronics-vehicle
+  - - form.ho6.2014-04.I.E.fire-department-charge
+    - form.ho6.2023-02.I.E.fire-department-charge
+  - - form.ho6.2014-04.I.E.credit-card-forgery-limit
+    - form.ho6.2023-02.I.E.credit-card-forgery-limit
+  - - form.ho6.2014-04.I.E.loss-assessment-limit
+    - form.ho6.2023-02.I.E.loss-assessment-limit
+  - - form.ho6.2014-04.I.E.ordinance-law-pct
+    - form.ho6.2023-02.I.E.ordinance-law-pct
+  - - form.ho6.2014-04.I.E.landlord-furnishings-limit
+    - form.ho6.2023-02.I.E.landlord-furnishings-limit
+  - - form.ho6.2014-04.I.E.refrigerated-property-limit
+    - form.ho6.2023-02.I.E.refrigerated-property-limit
+  - - form.ho6.2014-04.G.cancellation-notice-other-days
+    - form.ho6.2023-02.G.cancellation-notice-other-days
+  - - form.ho6.2014-04.G.nonrenewal-notice-days
+    - form.ho6.2023-02.G.nonrenewal-notice-days
+  - - form.ho6.2014-04.I.X.vacancy-days
+    - form.ho6.2023-02.I.X.vacancy-days
+  - - form.ho6.2014-04.II.X.rental-days-exception
+    - form.ho6.2023-02.II.X.rental-days-exception
+  - - form.ho6.2014-04.I.A.cov-a-unit-owner-default
+    - form.ho6.2023-02.I.A.cov-a-unit-owner-default
+  renumbered:
+  - - I.A.3
+    - I.A.4
+- form: DP-3
+  older: form.dp3.2012-11
+  newer: form.dp3.2020-08
+  changed:
+  - - form.dp3.2012-11.I.D.cov-d-limit-pct
+    - form.dp3.2020-08.I.D.cov-d-limit-pct
+  - - form.dp3.2012-11.I.E.debris-removal-pct
+    - form.dp3.2020-08.I.E.debris-removal-pct
+  - - form.dp3.2012-11.I.E.trees-shrubs-limit-pct
+    - form.dp3.2020-08.I.E.trees-shrubs-limit-pct
+  - - form.dp3.2012-11.I.E.trees-per-item-limit
+    - form.dp3.2020-08.I.E.trees-per-item-limit
+  - - form.dp3.2012-11.I.E.fire-department-charge
+    - form.dp3.2020-08.I.E.fire-department-charge
+  - - form.dp3.2012-11.I.E.ordinance-law-pct
+    - form.dp3.2020-08.I.E.ordinance-law-pct
+  - - form.dp3.2012-11.I.A.insured-to-value-pct
+    - form.dp3.2020-08.I.A.insured-to-value-pct
+  - - form.dp3.2012-11.I.S.section-i-deductible-min
+    - form.dp3.2020-08.I.S.section-i-deductible-min
+  - - form.dp3.2012-11.I.S.proof-of-loss-days
+    - form.dp3.2020-08.I.S.proof-of-loss-days
+  - - form.dp3.2012-11.I.S.loss-payment-days
+    - form.dp3.2020-08.I.S.loss-payment-days
+  - - form.dp3.2012-11.G.cancellation-notice-nonpay-days
+    - form.dp3.2020-08.G.cancellation-notice-nonpay-days
+  - - form.dp3.2012-11.G.cancellation-notice-other-days
+    - form.dp3.2020-08.G.cancellation-notice-other-days
+  - - form.dp3.2012-11.G.nonrenewal-notice-days
+    - form.dp3.2020-08.G.nonrenewal-notice-days
+  - - form.dp3.2012-11.I.S.appraisal-demand-days
+    - form.dp3.2020-08.I.S.appraisal-demand-days
+  - - form.dp3.2012-11.I.X.vacancy-days
+    - form.dp3.2020-08.I.X.vacancy-days
+  renumbered:
+  - - I.S.3
+    - I.S.4
+- form: DP-3
+  older: form.dp3.2020-08
+  newer: form.dp3.2026-01
+  changed:
+  - - form.dp3.2020-08.I.B.cov-b-limit-pct
+    - form.dp3.2026-01.I.B.cov-b-limit-pct
+  - - form.dp3.2020-08.I.D.cov-d-limit-pct
+    - form.dp3.2026-01.I.D.cov-d-limit-pct
+  - - form.dp3.2020-08.I.E.debris-removal-pct
+    - form.dp3.2026-01.I.E.debris-removal-pct
+  - - form.dp3.2020-08.I.E.trees-per-item-limit
+    - form.dp3.2026-01.I.E.trees-per-item-limit
+  - - form.dp3.2020-08.I.E.fire-department-charge
+    - form.dp3.2026-01.I.E.fire-department-charge
+  - - form.dp3.2020-08.I.E.ordinance-law-pct
+    - form.dp3.2026-01.I.E.ordinance-law-pct
+  - - form.dp3.2020-08.I.A.insured-to-value-pct
+    - form.dp3.2026-01.I.A.insured-to-value-pct
+  - - form.dp3.2020-08.I.S.section-i-deductible-min
+    - form.dp3.2026-01.I.S.section-i-deductible-min
+  - - form.dp3.2020-08.I.S.proof-of-loss-days
+    - form.dp3.2026-01.I.S.proof-of-loss-days
+  - - form.dp3.2020-08.I.S.loss-payment-days
+    - form.dp3.2026-01.I.S.loss-payment-days
+  - - form.dp3.2020-08.G.cancellation-notice-nonpay-days
+    - form.dp3.2026-01.G.cancellation-notice-nonpay-days
+  - - form.dp3.2020-08.G.cancellation-notice-other-days
+    - form.dp3.2026-01.G.cancellation-notice-other-days
+  - - form.dp3.2020-08.G.nonrenewal-notice-days
+    - form.dp3.2026-01.G.nonrenewal-notice-days
+  - - form.dp3.2020-08.I.S.appraisal-demand-days
+    - form.dp3.2026-01.I.S.appraisal-demand-days
+  - - form.dp3.2020-08.I.X.vacancy-days
+    - form.dp3.2026-01.I.X.vacancy-days
+  renumbered:
+  - - I.X.B
+    - I.X.C
+- form: HO 04 90
+  older: end.ho-04-90.2010-10
+  newer: end.ho-04-90.2027-01
+  changed:
+  - - end.ho-04-90.2010-10.W.2.water-backup-sublimit
+    - end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  - - end.ho-04-90.2010-10.W.3.water-backup-deductible
+    - end.ho-04-90.2027-01.W.3.water-backup-deductible
+  - - end.ho-04-90.2010-10.W.6.backflow-requirement
+    - end.ho-04-90.2027-01.W.6.backflow-requirement
+- form: HO 23 74
+  older: end.ho-23-74.2018-09
+  newer: end.ho-23-74.2025-05
+  changed:
+  - - end.ho-23-74.2018-09.W.1.roof-acv-age-threshold-years
+    - end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  - - end.ho-23-74.2018-09.W.4.roof-min-payment-pct
+    - end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  - - end.ho-23-74.2018-09.W.3.roof-comp-shingle-20yr-pct
+    - end.ho-23-74.2025-05.W.3.roof-comp-shingle-20yr-pct
+- form: HO 04 16
+  older: end.ho-04-16.2018-09
+  newer: end.ho-04-16.2023-11
+  changed:
+  - - end.ho-04-16.2018-09.W.2.ordinance-law-pct
+    - end.ho-04-16.2023-11.W.2.ordinance-law-pct
+- form: HO 04 61
+  older: end.ho-04-61.2012-02
+  newer: end.ho-04-61.2020-11
+  changed:
+  - - end.ho-04-61.2012-02.W.3.scheduled-property-deductible
+    - end.ho-04-61.2020-11.W.3.scheduled-property-deductible
+- form: HO 04 54
+  older: end.ho-04-54.2009-04
+  newer: end.ho-04-54.2021-12
+  changed:
+  - - end.ho-04-54.2009-04.W.3.earthquake-deductible-pct
+    - end.ho-04-54.2021-12.W.3.earthquake-deductible-pct
+- form: HO 23 77
+  older: end.ho-23-77.2014-02
+  newer: end.ho-23-77.2022-07
+  changed:
+  - - end.ho-23-77.2014-02.W.3.wind-hail-deductible-min-pct
+    - end.ho-23-77.2022-07.W.3.wind-hail-deductible-min-pct
+  - - end.ho-23-77.2014-02.W.3.wind-hail-deductible-max-pct
+    - end.ho-23-77.2022-07.W.3.wind-hail-deductible-max-pct
+  - - end.ho-23-77.2014-02.W.6.named-storm-period-hours
+    - end.ho-23-77.2022-07.W.6.named-storm-period-hours
+- form: HO 04 35
+  older: end.ho-04-35.2014-04
+  newer: end.ho-04-35.2023-02
+  changed:
+  - - end.ho-04-35.2014-04.W.2.loss-assessment-endorsement-limit
+    - end.ho-04-35.2023-02.W.2.loss-assessment-endorsement-limit
+- form: HO 01 09
+  older: amend.fl.ho-01-09.2019-01
+  newer: amend.fl.ho-01-09.2023-07
+  changed:
+  - - amend.fl.ho-01-09.2019-01.T.1.wind-hail-deductible-max-pct
+    - amend.fl.ho-01-09.2023-07.T.1.wind-hail-deductible-max-pct
+  - - amend.fl.ho-01-09.2019-01.T.2.wind-deductible-notice-days
+    - amend.fl.ho-01-09.2023-07.T.2.wind-deductible-notice-days
+  - - amend.fl.ho-01-09.2019-01.T.4.nonrenewal-notice-days
+    - amend.fl.ho-01-09.2023-07.T.4.nonrenewal-notice-days
+  - - amend.fl.ho-01-09.2019-01.T.5.claim-decision-business-days
+    - amend.fl.ho-01-09.2023-07.T.5.claim-decision-business-days
+- form: HO 01 45
+  older: amend.tx.ho-01-45.2019-01
+  newer: amend.tx.ho-01-45.2022-01
+  changed:
+  - - amend.tx.ho-01-45.2019-01.T.1.wind-hail-deductible-max-pct
+    - amend.tx.ho-01-45.2022-01.T.1.wind-hail-deductible-max-pct
+  - - amend.tx.ho-01-45.2019-01.T.2.wind-deductible-notice-days
+    - amend.tx.ho-01-45.2022-01.T.2.wind-deductible-notice-days
+  - - amend.tx.ho-01-45.2019-01.T.4.nonrenewal-notice-days
+    - amend.tx.ho-01-45.2022-01.T.4.nonrenewal-notice-days
+  - - amend.tx.ho-01-45.2019-01.T.5.claim-decision-business-days
+    - amend.tx.ho-01-45.2022-01.T.5.claim-decision-business-days

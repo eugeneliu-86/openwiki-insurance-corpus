@@ -1,0 +1,532 @@
+- id: chain.state-overlay.fl.1
+  chain: chain.state-overlay.fl
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.fl.dp-01-09.2021-03
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.fl.2
+  chain: chain.state-overlay.fl
+  src_document: amend.fl.dp-01-09.2021-03
+  src_section: T.1
+  dst_document: bulletin.fl.oir-2022-01-hurricane-deductible
+  dst_section: B.2
+  wording: as required by Florida bulletin
+- id: chain.state-overlay.fl.3
+  chain: chain.state-overlay.fl
+  src_document: bulletin.fl.oir-2022-01-hurricane-deductible
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R500
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.tx.1
+  chain: chain.state-overlay.tx
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.tx.dp-01-45.2022-01
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.tx.2
+  chain: chain.state-overlay.tx
+  src_document: amend.tx.dp-01-45.2022-01
+  src_section: T.1
+  dst_document: bulletin.tx.b-2021-08-windstorm-deductibles
+  dst_section: B.2
+  wording: as required by Texas bulletin
+- id: chain.state-overlay.tx.3
+  chain: chain.state-overlay.tx
+  src_document: bulletin.tx.b-2021-08-windstorm-deductibles
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R510
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.ca.1
+  chain: chain.state-overlay.ca
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.ca.ho-01-04.2021-06
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.ca.2
+  chain: chain.state-overlay.ca
+  src_document: amend.ca.ho-01-04.2021-06
+  src_section: T.1
+  dst_document: bulletin.ca.cdi-2022-03-earthquake-offer
+  dst_section: B.2
+  wording: as required by California bulletin
+- id: chain.state-overlay.ca.3
+  chain: chain.state-overlay.ca
+  src_document: bulletin.ca.cdi-2022-03-earthquake-offer
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R520
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.ny.1
+  chain: chain.state-overlay.ny
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.ny.ho-01-31.2016-04
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.ny.2
+  chain: chain.state-overlay.ny
+  src_document: amend.ny.ho-01-31.2016-04
+  src_section: T.1
+  dst_document: bulletin.ny.dfs-2016-02-nonrenewal
+  dst_section: B.2
+  wording: as required by New York bulletin
+- id: chain.state-overlay.ny.3
+  chain: chain.state-overlay.ny
+  src_document: bulletin.ny.dfs-2016-02-nonrenewal
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R530
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.la.1
+  chain: chain.state-overlay.la
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.la.ho-01-17.2020-09
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.la.2
+  chain: chain.state-overlay.la
+  src_document: amend.la.ho-01-17.2020-09
+  src_section: T.1
+  dst_document: bulletin.la.ldi-2020-07-hurricane-deductible
+  dst_section: B.2
+  wording: as required by Louisiana bulletin
+- id: chain.state-overlay.la.3
+  chain: chain.state-overlay.la
+  src_document: bulletin.la.ldi-2020-07-hurricane-deductible
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R540
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.nc.1
+  chain: chain.state-overlay.nc
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.nc.ho-01-32.2018-05
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.nc.2
+  chain: chain.state-overlay.nc
+  src_document: amend.nc.ho-01-32.2018-05
+  src_section: T.1
+  dst_document: bulletin.nc.ncdoi-2021-06-claims-handling
+  dst_section: B.2
+  wording: as required by North Carolina bulletin
+- id: chain.state-overlay.nc.3
+  chain: chain.state-overlay.nc
+  src_document: bulletin.nc.ncdoi-2021-06-claims-handling
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R550
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.co.1
+  chain: chain.state-overlay.co
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.co.ho-01-05.2022-10
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.co.2
+  chain: chain.state-overlay.co
+  src_document: amend.co.ho-01-05.2022-10
+  src_section: T.1
+  dst_document: bulletin.co.doi-2019-05-hail-deductibles
+  dst_section: B.2
+  wording: as required by Colorado bulletin
+- id: chain.state-overlay.co.3
+  chain: chain.state-overlay.co
+  src_document: bulletin.co.doi-2019-05-hail-deductibles
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R560
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.state-overlay.il.1
+  chain: chain.state-overlay.il
+  src_document: form.ho3.2024-03
+  src_section: I.S
+  dst_document: amend.il.ho-01-12.2015-02
+  dst_section: T.1
+  wording: where required by a state amendatory endorsement
+- id: chain.state-overlay.il.2
+  chain: chain.state-overlay.il
+  src_document: amend.il.ho-01-12.2015-02
+  src_section: T.1
+  dst_document: bulletin.il.idoi-2017-10-water-backup-disclosure
+  dst_section: B.2
+  wording: as required by Illinois bulletin
+- id: chain.state-overlay.il.3
+  chain: chain.state-overlay.il
+  src_document: bulletin.il.idoi-2017-10-water-backup-disclosure
+  src_section: B.2
+  dst_document: manual.underwriting
+  dst_section: R570
+  wording: carrier implementation in the underwriting manual state exception
+- id: chain.water-backup.ho-3.1
+  chain: chain.water-backup.ho-3
+  src_document: form.ho3.2024-03
+  src_section: I.X
+  dst_document: end.ho-04-90.2027-01
+  dst_section: W.1
+  wording: unless a water backup endorsement is attached
+- id: chain.water-backup.ho-3.2
+  chain: chain.water-backup.ho-3
+  src_document: end.ho-04-90.2027-01
+  src_section: W.1
+  dst_document: end.ho-04-90.2027-01
+  dst_section: W.2
+  wording: subject to the limit in
+- id: chain.water-backup.ho-5.1
+  chain: chain.water-backup.ho-5
+  src_document: form.ho5.2022-06
+  src_section: I.X
+  dst_document: end.ho-04-90.2027-01
+  dst_section: W.1
+  wording: unless a water backup endorsement is attached
+- id: chain.water-backup.ho-5.2
+  chain: chain.water-backup.ho-5
+  src_document: end.ho-04-90.2027-01
+  src_section: W.1
+  dst_document: end.ho-04-90.2027-01
+  dst_section: W.2
+  wording: subject to the limit in
+- id: chain.water-backup.ho-6.1
+  chain: chain.water-backup.ho-6
+  src_document: form.ho6.2023-02
+  src_section: I.X
+  dst_document: end.ho-04-91.2019-03
+  dst_section: W.1
+  wording: unless a water backup endorsement is attached
+- id: chain.water-backup.ho-6.2
+  chain: chain.water-backup.ho-6
+  src_document: end.ho-04-91.2019-03
+  src_section: W.1
+  dst_document: end.ho-04-91.2019-03
+  dst_section: W.2
+  wording: subject to the limit in
+- id: chain.water-backup.ho-4.1
+  chain: chain.water-backup.ho-4
+  src_document: form.ho4.2021-10
+  src_section: I.X
+  dst_document: end.ho-04-92.2019-03
+  dst_section: W.1
+  wording: unless a water backup endorsement is attached
+- id: chain.water-backup.ho-4.2
+  chain: chain.water-backup.ho-4
+  src_document: end.ho-04-92.2019-03
+  src_section: W.1
+  dst_document: end.ho-04-92.2019-03
+  dst_section: W.2
+  wording: subject to the limit in
+- id: chain.water-backup.dp-3.1
+  chain: chain.water-backup.dp-3
+  src_document: form.dp3.2026-01
+  src_section: I.X
+  dst_document: end.dp-04-95.2021-05
+  dst_section: W.1
+  wording: unless a water backup endorsement is attached
+- id: chain.water-backup.dp-3.2
+  chain: chain.water-backup.dp-3
+  src_document: end.dp-04-95.2021-05
+  src_section: W.1
+  dst_document: end.dp-04-95.2021-05
+  dst_section: W.2
+  wording: subject to the limit in
+- id: chain.roof.ho-3.1
+  chain: chain.roof.ho-3
+  src_document: form.ho3.2024-03
+  src_section: I.A
+  dst_document: end.ho-23-74.2025-05
+  dst_section: W.1
+  wording: unless an actual cash value roof schedule endorsement is attached
+- id: chain.roof.ho-3.2
+  chain: chain.roof.ho-3
+  src_document: end.ho-23-74.2025-05
+  src_section: W.1
+  dst_document: end.ho-23-74.2025-05
+  dst_section: W.4
+  wording: never less than the floor in
+- id: chain.roof.ho-5.1
+  chain: chain.roof.ho-5
+  src_document: form.ho5.2022-06
+  src_section: I.A
+  dst_document: end.ho-23-74.2025-05
+  dst_section: W.1
+  wording: unless an actual cash value roof schedule endorsement is attached
+- id: chain.roof.ho-5.2
+  chain: chain.roof.ho-5
+  src_document: end.ho-23-74.2025-05
+  src_section: W.1
+  dst_document: end.ho-23-74.2025-05
+  dst_section: W.4
+  wording: never less than the floor in
+- id: chain.roof.dp-3.1
+  chain: chain.roof.dp-3
+  src_document: form.dp3.2026-01
+  src_section: I.A
+  dst_document: end.ho-23-74.2025-05
+  dst_section: W.1
+  wording: unless an actual cash value roof schedule endorsement is attached
+- id: chain.roof.dp-3.2
+  chain: chain.roof.dp-3
+  src_document: end.ho-23-74.2025-05
+  src_section: W.1
+  dst_document: end.ho-23-74.2025-05
+  dst_section: W.4
+  wording: never less than the floor in
+- id: chain.ordinance.ho-3.1
+  chain: chain.ordinance.ho-3
+  src_document: form.ho3.2024-03
+  src_section: I.X
+  dst_document: end.ho-04-16.2023-11
+  dst_section: W.1
+  wording: unless an ordinance or law endorsement is attached
+- id: chain.ordinance.ho-3.2
+  chain: chain.ordinance.ho-3
+  src_document: end.ho-04-16.2023-11
+  src_section: W.1
+  dst_document: end.ho-04-16.2023-11
+  dst_section: W.2
+  wording: the most we will pay is stated in
+- id: chain.ordinance.ho-5.1
+  chain: chain.ordinance.ho-5
+  src_document: form.ho5.2022-06
+  src_section: I.X
+  dst_document: end.ho-04-16.2023-11
+  dst_section: W.1
+  wording: unless an ordinance or law endorsement is attached
+- id: chain.ordinance.ho-5.2
+  chain: chain.ordinance.ho-5
+  src_document: end.ho-04-16.2023-11
+  src_section: W.1
+  dst_document: end.ho-04-16.2023-11
+  dst_section: W.2
+  wording: the most we will pay is stated in
+- id: chain.ordinance.ho-6.1
+  chain: chain.ordinance.ho-6
+  src_document: form.ho6.2023-02
+  src_section: I.X
+  dst_document: end.ho-04-16.2023-11
+  dst_section: W.1
+  wording: unless an ordinance or law endorsement is attached
+- id: chain.ordinance.ho-6.2
+  chain: chain.ordinance.ho-6
+  src_document: end.ho-04-16.2023-11
+  src_section: W.1
+  dst_document: end.ho-04-16.2023-11
+  dst_section: W.2
+  wording: the most we will pay is stated in
+- id: chain.fungi.ho-3.1
+  chain: chain.fungi.ho-3
+  src_document: form.ho3.2024-03
+  src_section: I.X
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.1
+  wording: except as provided by a limited fungi endorsement
+- id: chain.fungi.ho-3.2
+  chain: chain.fungi.ho-3
+  src_document: end.ho-04-81.2018-09
+  src_section: W.1
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.2
+  wording: up to the aggregate in
+- id: chain.fungi.ho-5.1
+  chain: chain.fungi.ho-5
+  src_document: form.ho5.2022-06
+  src_section: I.X
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.1
+  wording: except as provided by a limited fungi endorsement
+- id: chain.fungi.ho-5.2
+  chain: chain.fungi.ho-5
+  src_document: end.ho-04-81.2018-09
+  src_section: W.1
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.2
+  wording: up to the aggregate in
+- id: chain.fungi.ho-4.1
+  chain: chain.fungi.ho-4
+  src_document: form.ho4.2021-10
+  src_section: I.X
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.1
+  wording: except as provided by a limited fungi endorsement
+- id: chain.fungi.ho-4.2
+  chain: chain.fungi.ho-4
+  src_document: end.ho-04-81.2018-09
+  src_section: W.1
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.2
+  wording: up to the aggregate in
+- id: chain.fungi.ho-6.1
+  chain: chain.fungi.ho-6
+  src_document: form.ho6.2023-02
+  src_section: I.X
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.1
+  wording: except as provided by a limited fungi endorsement
+- id: chain.fungi.ho-6.2
+  chain: chain.fungi.ho-6
+  src_document: end.ho-04-81.2018-09
+  src_section: W.1
+  dst_document: end.ho-04-81.2018-09
+  dst_section: W.2
+  wording: up to the aggregate in
+- id: chain.appetite.fl.1
+  chain: chain.appetite.fl
+  src_document: guide.appetite.fl-homeowners
+  src_section: H.7
+  dst_document: manual.underwriting
+  dst_section: R500
+  wording: ceilings are set by the state exception rule
+- id: chain.appetite.fl.2
+  chain: chain.appetite.fl
+  src_document: manual.underwriting
+  src_section: R500
+  dst_document: manual.rating
+  dst_section: P12
+  wording: credits on the state exception pages of the rating manual
+- id: chain.appetite.tx.1
+  chain: chain.appetite.tx
+  src_document: guide.appetite.tx-homeowners
+  src_section: H.7
+  dst_document: manual.underwriting
+  dst_section: R510
+  wording: ceilings are set by the state exception rule
+- id: chain.appetite.tx.2
+  chain: chain.appetite.tx
+  src_document: manual.underwriting
+  src_section: R510
+  dst_document: manual.rating
+  dst_section: P12
+  wording: credits on the state exception pages of the rating manual
+- id: chain.appetite.ca.1
+  chain: chain.appetite.ca
+  src_document: guide.appetite.ca-homeowners
+  src_section: H.7
+  dst_document: manual.underwriting
+  dst_section: R520
+  wording: ceilings are set by the state exception rule
+- id: chain.appetite.ca.2
+  chain: chain.appetite.ca
+  src_document: manual.underwriting
+  src_section: R520
+  dst_document: manual.rating
+  dst_section: P12
+  wording: credits on the state exception pages of the rating manual
+- id: chain.appetite.ny.1
+  chain: chain.appetite.ny
+  src_document: guide.appetite.ny-homeowners
+  src_section: H.7
+  dst_document: manual.underwriting
+  dst_section: R530
+  wording: ceilings are set by the state exception rule
+- id: chain.appetite.ny.2
+  chain: chain.appetite.ny
+  src_document: manual.underwriting
+  src_section: R530
+  dst_document: manual.rating
+  dst_section: P12
+  wording: credits on the state exception pages of the rating manual
+- id: chain.appetite.la.1
+  chain: chain.appetite.la
+  src_document: guide.appetite.la-homeowners
+  src_section: H.7
+  dst_document: manual.underwriting
+  dst_section: R540
+  wording: ceilings are set by the state exception rule
+- id: chain.appetite.la.2
+  chain: chain.appetite.la
+  src_document: manual.underwriting
+  src_section: R540
+  dst_document: manual.rating
+  dst_section: P12
+  wording: credits on the state exception pages of the rating manual
+- id: chain.appetite.nc.1
+  chain: chain.appetite.nc
+  src_document: guide.appetite.nc-homeowners
+  src_section: H.7
+  dst_document: manual.underwriting
+  dst_section: R550
+  wording: ceilings are set by the state exception rule
+- id: chain.appetite.nc.2
+  chain: chain.appetite.nc
+  src_document: manual.underwriting
+  src_section: R550
+  dst_document: manual.rating
+  dst_section: P12
+  wording: credits on the state exception pages of the rating manual
+- id: chain.definition.ho-3.1
+  chain: chain.definition.ho-3
+  src_document: form.ho3.2024-03
+  src_section: I.X
+  dst_document: form.ho3.2024-03
+  dst_definition: form.ho3.2024-03.def.sudden-and-accidental
+  wording: as defined in Definitions
+- id: chain.definition.ho-3.2
+  chain: chain.definition.ho-3
+  src_document: form.ho3.2024-03
+  src_section: DEF
+  dst_document: manual.claims
+  dst_section: C3
+  wording: the claims manual's duration test applies the definition
+- id: chain.definition.ho-5.1
+  chain: chain.definition.ho-5
+  src_document: form.ho5.2022-06
+  src_section: I.X
+  dst_document: form.ho5.2022-06
+  dst_definition: form.ho5.2022-06.def.sudden-and-accidental
+  wording: as defined in Definitions
+- id: chain.definition.ho-5.2
+  chain: chain.definition.ho-5
+  src_document: form.ho5.2022-06
+  src_section: DEF
+  dst_document: manual.claims
+  dst_section: C3
+  wording: the claims manual's duration test applies the definition
+- id: chain.definition.ho-4.1
+  chain: chain.definition.ho-4
+  src_document: form.ho4.2021-10
+  src_section: I.X
+  dst_document: form.ho4.2021-10
+  dst_definition: form.ho4.2021-10.def.sudden-and-accidental
+  wording: as defined in Definitions
+- id: chain.definition.ho-4.2
+  chain: chain.definition.ho-4
+  src_document: form.ho4.2021-10
+  src_section: DEF
+  dst_document: manual.claims
+  dst_section: C3
+  wording: the claims manual's duration test applies the definition
+- id: chain.definition.ho-6.1
+  chain: chain.definition.ho-6
+  src_document: form.ho6.2023-02
+  src_section: I.X
+  dst_document: form.ho6.2023-02
+  dst_definition: form.ho6.2023-02.def.sudden-and-accidental
+  wording: as defined in Definitions
+- id: chain.definition.ho-6.2
+  chain: chain.definition.ho-6
+  src_document: form.ho6.2023-02
+  src_section: DEF
+  dst_document: manual.claims
+  dst_section: C3
+  wording: the claims manual's duration test applies the definition
+- id: chain.definition.dp-3.1
+  chain: chain.definition.dp-3
+  src_document: form.dp3.2026-01
+  src_section: I.X
+  dst_document: form.dp3.2026-01
+  dst_definition: form.dp3.2026-01.def.sudden-and-accidental
+  wording: as defined in Definitions
+- id: chain.definition.dp-3.2
+  chain: chain.definition.dp-3
+  src_document: form.dp3.2026-01
+  src_section: DEF
+  dst_document: manual.claims
+  dst_section: C3
+  wording: the claims manual's duration test applies the definition

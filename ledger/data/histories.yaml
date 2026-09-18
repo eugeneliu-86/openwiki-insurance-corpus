@@ -1,0 +1,305 @@
+- id: hist.ho-3.special-limit-jewelry
+  concept: special-limit-jewelry
+  entries:
+  - date: '2011-05-01'
+    value:
+      kind: money
+      value: 1000
+    document: form.ho3.2011-05
+  - date: '2018-09-01'
+    value:
+      kind: money
+      value: 1500
+    document: form.ho3.2018-09
+  - date: '2024-03-01'
+    value:
+      kind: money
+      value: 2000
+    document: form.ho3.2024-03
+  current: 2
+- id: hist.ho-3.fire-department-charge
+  concept: fire-department-charge
+  entries:
+  - date: '2011-05-01'
+    value:
+      kind: money
+      value: 500
+    document: form.ho3.2011-05
+  - date: '2018-09-01'
+    value:
+      kind: money
+      value: 750
+    document: form.ho3.2018-09
+  - date: '2024-03-01'
+    value:
+      kind: money
+      value: 1000
+    document: form.ho3.2024-03
+  current: 2
+- id: hist.ho-3.nonrenewal-notice-days
+  concept: nonrenewal-notice-days
+  entries:
+  - date: '2011-05-01'
+    value:
+      kind: days
+      value: 30
+    document: form.ho3.2011-05
+  - date: '2018-09-01'
+    value:
+      kind: days
+      value: 45
+    document: form.ho3.2018-09
+  - date: '2024-03-01'
+    value:
+      kind: days
+      value: 45
+    document: form.ho3.2024-03
+  current: 2
+- id: hist.ho-5.special-limit-jewelry
+  concept: special-limit-jewelry
+  entries:
+  - date: '2015-01-01'
+    value:
+      kind: money
+      value: 2500
+    document: form.ho5.2015-01
+  - date: '2022-06-01'
+    value:
+      kind: money
+      value: 3000
+    document: form.ho5.2022-06
+  current: 1
+- id: hist.ho-5.fire-department-charge
+  concept: fire-department-charge
+  entries:
+  - date: '2015-01-01'
+    value:
+      kind: money
+      value: 500
+    document: form.ho5.2015-01
+  - date: '2022-06-01'
+    value:
+      kind: money
+      value: 1000
+    document: form.ho5.2022-06
+  current: 1
+- id: hist.ho-5.nonrenewal-notice-days
+  concept: nonrenewal-notice-days
+  entries:
+  - date: '2015-01-01'
+    value:
+      kind: days
+      value: 30
+    document: form.ho5.2015-01
+  - date: '2022-06-01'
+    value:
+      kind: days
+      value: 60
+    document: form.ho5.2022-06
+  current: 1
+- id: hist.ho-4.special-limit-jewelry
+  concept: special-limit-jewelry
+  entries:
+  - date: '2013-07-01'
+    value:
+      kind: money
+      value: 1500
+    document: form.ho4.2013-07
+  - date: '2021-10-01'
+    value:
+      kind: money
+      value: 2000
+    document: form.ho4.2021-10
+  current: 1
+- id: hist.ho-4.fire-department-charge
+  concept: fire-department-charge
+  entries:
+  - date: '2013-07-01'
+    value:
+      kind: money
+      value: 500
+    document: form.ho4.2013-07
+  - date: '2021-10-01'
+    value:
+      kind: money
+      value: 750
+    document: form.ho4.2021-10
+  current: 1
+- id: hist.ho-4.nonrenewal-notice-days
+  concept: nonrenewal-notice-days
+  entries:
+  - date: '2013-07-01'
+    value:
+      kind: days
+      value: 30
+    document: form.ho4.2013-07
+  - date: '2021-10-01'
+    value:
+      kind: days
+      value: 45
+    document: form.ho4.2021-10
+  current: 1
+- id: hist.ho-6.special-limit-jewelry
+  concept: special-limit-jewelry
+  entries:
+  - date: '2014-04-01'
+    value:
+      kind: money
+      value: 1500
+    document: form.ho6.2014-04
+  - date: '2023-02-01'
+    value:
+      kind: money
+      value: 2000
+    document: form.ho6.2023-02
+  current: 1
+- id: hist.ho-6.fire-department-charge
+  concept: fire-department-charge
+  entries:
+  - date: '2014-04-01'
+    value:
+      kind: money
+      value: 500
+    document: form.ho6.2014-04
+  - date: '2023-02-01'
+    value:
+      kind: money
+      value: 750
+    document: form.ho6.2023-02
+  current: 1
+- id: hist.ho-6.nonrenewal-notice-days
+  concept: nonrenewal-notice-days
+  entries:
+  - date: '2014-04-01'
+    value:
+      kind: days
+      value: 30
+    document: form.ho6.2014-04
+  - date: '2023-02-01'
+    value:
+      kind: days
+      value: 45
+    document: form.ho6.2023-02
+  current: 1
+- id: hist.dp-3.fire-department-charge
+  concept: fire-department-charge
+  entries:
+  - date: '2012-11-01'
+    value:
+      kind: money
+      value: 500
+    document: form.dp3.2012-11
+  - date: '2020-08-01'
+    value:
+      kind: money
+      value: 750
+    document: form.dp3.2020-08
+  - date: '2026-01-01'
+    value:
+      kind: money
+      value: 1000
+    document: form.dp3.2026-01
+  current: 2
+- id: hist.dp-3.nonrenewal-notice-days
+  concept: nonrenewal-notice-days
+  entries:
+  - date: '2012-11-01'
+    value:
+      kind: days
+      value: 30
+    document: form.dp3.2012-11
+  - date: '2020-08-01'
+    value:
+      kind: days
+      value: 45
+    document: form.dp3.2020-08
+  - date: '2026-01-01'
+    value:
+      kind: days
+      value: 60
+    document: form.dp3.2026-01
+  current: 2
+- id: hist.tx.wind-max
+  concept: wind-hail-deductible-max-pct
+  entries:
+  - date: '2016-08-19'
+    value:
+      kind: percent
+      value: 3
+    document: bulletin.tx.b-2016-04-windstorm-deductibles
+  - date: '2021-08-19'
+    value:
+      kind: percent
+      value: 5
+    document: bulletin.tx.b-2021-08-windstorm-deductibles
+  current: 1
+- id: hist.fl.roof-threshold
+  concept: roof-acv-age-threshold-years
+  entries:
+  - date: '2019-11-05'
+    value:
+      kind: years
+      value: 15
+    document: bulletin.fl.oir-2019-11-roof-age
+  - date: '2023-04-11'
+    value:
+      kind: years
+      value: 10
+    document: bulletin.fl.oir-2023-04-roof-age-nonrenewal
+  current: 1
+- id: hist.ca.eq-ded
+  concept: earthquake-deductible-pct
+  entries:
+  - date: '2014-06-30'
+    value:
+      kind: percent
+      value: 10
+    document: bulletin.ca.cdi-2014-06-earthquake-offer
+  - date: '2022-03-14'
+    value:
+      kind: percent
+      value: 15
+    document: bulletin.ca.cdi-2022-03-earthquake-offer
+  current: 1
+- id: hist.ny.nonrenewal
+  concept: nonrenewal-notice-days
+  entries:
+  - date: '2010-09-01'
+    value:
+      kind: days
+      value: 45
+    document: bulletin.ny.dfs-2010-09-nonrenewal
+  - date: '2016-02-22'
+    value:
+      kind: days
+      value: 60
+    document: bulletin.ny.dfs-2016-02-nonrenewal
+  current: 1
+- id: hist.co.hail-max
+  concept: wind-hail-deductible-max-pct
+  entries:
+  - date: '2013-01-15'
+    value:
+      kind: percent
+      value: 3
+    document: bulletin.co.doi-2013-01-hail-deductibles
+  - date: '2019-05-20'
+    value:
+      kind: percent
+      value: 5
+    document: bulletin.co.doi-2019-05-hail-deductibles
+  current: 1
+- id: hist.ho0490.sublimit
+  concept: water-backup-sublimit
+  entries:
+  - date: '2010-10-01'
+    value:
+      kind: money
+      value: 5000
+    document: end.ho-04-90.2010-10
+  - date: '2027-01-01'
+    value:
+      kind: money
+      value: 10000
+    document: end.ho-04-90.2027-01
+  current: 1

@@ -1,0 +1,112 @@
+- id: contra.01
+  fact: end.ho-04-90.2027-01.W.2.water-backup-sublimit
+  document: training.water-losses-101
+  section: L.4
+  wrong_value:
+    kind: money
+    value: 5000
+  kind: stale
+- id: contra.02
+  fact: end.ho-23-74.2025-05.W.4.roof-min-payment-pct
+  document: training.roof-claims-and-the-schedule
+  section: L.4
+  wrong_value:
+    kind: percent
+    value: 25
+  kind: stale
+- id: contra.03
+  fact: form.ho3.2018-09.I.C.special-limit-jewelry
+  document: training.choosing-the-governing-edition
+  section: L.4
+  wrong_value:
+    kind: money
+    value: 2000
+  kind: wrong-edition
+- id: contra.04
+  fact: form.ho3.2024-03.I.E.fire-department-charge
+  document: training.customer-faq-homeowners
+  section: L.2
+  wrong_value:
+    kind: money
+    value: 500
+  kind: stale
+- id: contra.05
+  fact: end.ho-04-90.2027-01.W.3.water-backup-deductible
+  document: training.customer-faq-homeowners
+  section: L.3
+  wrong_value:
+    kind: money
+    value: 500
+  kind: stale
+- id: contra.06
+  fact: form.ho3.2024-03.I.S.proof-of-loss-days
+  document: training.guidance-versus-contract
+  section: L.3
+  wrong_value:
+    kind: days
+    value: 60
+  kind: stale
+- id: contra.07
+  fact: guide.appetite.fl-homeowners.H.2.roof-max-age-years
+  document: training.guidance-versus-contract
+  section: L.4
+  wrong_value:
+    kind: years
+    value: 25
+  kind: misattributed
+- id: contra.08
+  fact: amend.tx.ho-01-45.2022-01.T.5.claim-decision-business-days
+  document: manual.claims
+  section: C12
+  wrong_value:
+    kind: days
+    value: 30
+  kind: stale
+- id: contra.09
+  fact: end.ho-23-74.2025-05.W.1.roof-acv-age-threshold-years
+  document: manual.claims
+  section: C4
+  wrong_value:
+    kind: years
+    value: 15
+  kind: stale
+- id: contra.10
+  fact: bulletin.fl.oir-2023-04-roof-age-nonrenewal.B.2.roof-acv-age-threshold-years
+  document: guide.appetite.fl-homeowners
+  section: H.2
+  wrong_value:
+    kind: years
+    value: 15
+  kind: stale
+- id: contra.11
+  fact: form.ho3.2024-03.I.C.special-limit-firearms
+  document: memo.ho-3.2024-03
+  section: M.3
+  wrong_value:
+    kind: money
+    value: 2500
+  kind: overstated
+- id: contra.12
+  fact: end.ho-04-90.2027-01.W.6.backflow-requirement
+  document: guide.claims.water-loss-handling
+  section: H.6
+  wrong_value:
+    kind: boolean
+    value: false
+  kind: stale
+- id: contra.13
+  fact: end.ho-04-54.2021-12.W.3.earthquake-deductible-pct
+  document: training.attaching-endorsements
+  section: L.4
+  wrong_value:
+    kind: percent
+    value: 5
+  kind: wrong-edition
+- id: contra.14
+  fact: amend.tx.ho-01-45.2022-01.T.6.wind-seacoast-max-pct
+  document: training.state-deductibles-explained
+  section: L.4
+  wrong_value:
+    kind: percent
+    value: 5
+  kind: misattributed
