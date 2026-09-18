@@ -19,16 +19,19 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho3.2011-05.I.A.insured-to-value-pct
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho3.2011-05.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho3.2011-05.I.C.cov-c-limit-pct
     - form.ho3.2011-05.I.C.special-limit-money
@@ -41,11 +44,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho3.2011-05.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho3.2011-05.I.E.debris-removal-pct
     - form.ho3.2011-05.I.E.trees-shrubs-limit-pct
@@ -137,16 +142,19 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho3.2018-09.I.A.insured-to-value-pct
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho3.2018-09.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho3.2018-09.I.C.cov-c-limit-pct
     - form.ho3.2018-09.I.C.special-limit-money
@@ -159,11 +167,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho3.2018-09.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho3.2018-09.I.E.debris-removal-pct
     - form.ho3.2018-09.I.E.trees-shrubs-limit-pct
@@ -256,6 +266,7 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho3.2024-03.I.A.insured-to-value-pct
     references_out:
@@ -263,11 +274,13 @@
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho3.2024-03.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho3.2024-03.I.C.cov-c-limit-pct
     - form.ho3.2024-03.I.C.special-limit-money
@@ -280,11 +293,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho3.2024-03.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho3.2024-03.I.E.debris-removal-pct
     - form.ho3.2024-03.I.E.trees-shrubs-limit-pct
@@ -389,16 +404,19 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho5.2015-01.I.A.insured-to-value-pct
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho5.2015-01.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho5.2015-01.I.C.cov-c-limit-pct
     - form.ho5.2015-01.I.C.special-limit-money
@@ -411,11 +429,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho5.2015-01.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho5.2015-01.I.E.debris-removal-pct
     - form.ho5.2015-01.I.E.trees-shrubs-limit-pct
@@ -508,6 +528,7 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho5.2022-06.I.A.insured-to-value-pct
     references_out:
@@ -515,11 +536,13 @@
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho5.2022-06.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho5.2022-06.I.C.cov-c-limit-pct
     - form.ho5.2022-06.I.C.special-limit-money
@@ -532,11 +555,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho5.2022-06.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho5.2022-06.I.E.debris-removal-pct
     - form.ho5.2022-06.I.E.trees-shrubs-limit-pct
@@ -632,12 +657,15 @@
   - id: I.A
     title: Coverage A — Not Provided
     target_lines: 76
+    prose: qualified
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho4.2013-07.I.C.special-limit-money
     - form.ho4.2013-07.I.C.special-limit-jewelry
@@ -649,11 +677,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho4.2013-07.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho4.2013-07.I.E.debris-removal-pct
     - form.ho4.2013-07.I.E.fire-department-charge
@@ -743,12 +773,15 @@
   - id: I.A
     title: Coverage A — Not Provided
     target_lines: 76
+    prose: qualified
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho4.2021-10.I.C.special-limit-money
     - form.ho4.2021-10.I.C.special-limit-jewelry
@@ -760,11 +793,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho4.2021-10.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho4.2021-10.I.E.debris-removal-pct
     - form.ho4.2021-10.I.E.fire-department-charge
@@ -856,15 +891,18 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho6.2014-04.I.A.insured-to-value-pct
     - form.ho6.2014-04.I.A.cov-a-unit-owner-default
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho6.2014-04.I.C.special-limit-money
     - form.ho6.2014-04.I.C.special-limit-jewelry
@@ -876,11 +914,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho6.2014-04.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho6.2014-04.I.E.debris-removal-pct
     - form.ho6.2014-04.I.E.fire-department-charge
@@ -970,15 +1010,18 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.ho6.2023-02.I.A.insured-to-value-pct
     - form.ho6.2023-02.I.A.cov-a-unit-owner-default
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.ho6.2023-02.I.C.special-limit-money
     - form.ho6.2023-02.I.C.special-limit-jewelry
@@ -990,11 +1033,13 @@
   - id: I.D
     title: Coverage D — Loss of Use
     target_lines: 65
+    prose: qualified
     facts:
     - form.ho6.2023-02.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.ho6.2023-02.I.E.debris-removal-pct
     - form.ho6.2023-02.I.E.fire-department-charge
@@ -1075,6 +1120,7 @@
   effective: '2012-11-01'
   superseded_by: form.dp3.2020-08
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: AGR
     title: Agreement
@@ -1087,26 +1133,31 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.dp3.2012-11.I.A.insured-to-value-pct
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.dp3.2012-11.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.dp3.2012-11.I.C.cov-c-limit-pct
   - id: I.D
     title: Coverage D — Fair Rental Value and E — Additional Living Expense
     target_lines: 65
+    prose: qualified
     facts:
     - form.dp3.2012-11.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.dp3.2012-11.I.E.debris-removal-pct
     - form.dp3.2012-11.I.E.trees-shrubs-limit-pct
@@ -1158,6 +1209,7 @@
   supersedes: form.dp3.2012-11
   superseded_by: form.dp3.2026-01
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: AGR
     title: Agreement
@@ -1170,26 +1222,31 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.dp3.2020-08.I.A.insured-to-value-pct
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.dp3.2020-08.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.dp3.2020-08.I.C.cov-c-limit-pct
   - id: I.D
     title: Coverage D — Fair Rental Value and E — Additional Living Expense
     target_lines: 65
+    prose: qualified
     facts:
     - form.dp3.2020-08.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.dp3.2020-08.I.E.debris-removal-pct
     - form.dp3.2020-08.I.E.trees-shrubs-limit-pct
@@ -1240,6 +1297,7 @@
   effective: '2026-01-01'
   supersedes: form.dp3.2020-08
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: AGR
     title: Agreement
@@ -1254,6 +1312,7 @@
   - id: I.A
     title: Coverage A — Dwelling
     target_lines: 76
+    prose: qualified
     facts:
     - form.dp3.2026-01.I.A.insured-to-value-pct
     references_out:
@@ -1261,21 +1320,25 @@
   - id: I.B
     title: Coverage B — Other Structures
     target_lines: 65
+    prose: qualified
     facts:
     - form.dp3.2026-01.I.B.cov-b-limit-pct
   - id: I.C
     title: Coverage C — Personal Property
     target_lines: 162
+    prose: qualified
     facts:
     - form.dp3.2026-01.I.C.cov-c-limit-pct
   - id: I.D
     title: Coverage D — Fair Rental Value and E — Additional Living Expense
     target_lines: 65
+    prose: qualified
     facts:
     - form.dp3.2026-01.I.D.cov-d-limit-pct
   - id: I.E
     title: Additional Coverages
     target_lines: 205
+    prose: qualified
     facts:
     - form.dp3.2026-01.I.E.debris-removal-pct
     - form.dp3.2026-01.I.E.trees-shrubs-limit-pct
@@ -1340,11 +1403,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-90.2010-10.W.2.water-backup-sublimit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
     facts:
     - end.ho-04-90.2010-10.W.3.water-backup-deductible
   - id: W.4
@@ -1396,6 +1461,7 @@
   effective: '2027-01-01'
   supersedes: end.ho-04-90.2010-10
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -1410,11 +1476,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-90.2027-01.W.2.water-backup-sublimit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
     facts:
     - end.ho-04-90.2027-01.W.3.water-backup-deductible
   - id: W.4
@@ -1478,11 +1546,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-91.2019-03.W.2.water-backup-sublimit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
     facts:
     - end.ho-04-91.2019-03.W.3.water-backup-deductible
   - id: W.4
@@ -1546,11 +1616,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-92.2019-03.W.2.water-backup-sublimit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
     facts:
     - end.ho-04-92.2019-03.W.3.water-backup-deductible
   - id: W.4
@@ -1614,11 +1686,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.dp-04-95.2021-05.W.2.water-backup-sublimit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
     facts:
     - end.dp-04-95.2021-05.W.3.water-backup-deductible
   - id: W.4
@@ -1683,9 +1757,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-23-74.2018-09.W.3.roof-comp-shingle-20yr-pct
   - id: W.4
@@ -1736,6 +1812,7 @@
   effective: '2025-05-01'
   supersedes: end.ho-23-74.2018-09
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -1753,9 +1830,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-23-74.2025-05.W.3.roof-comp-shingle-20yr-pct
   - id: W.4
@@ -1817,11 +1896,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-16.2018-09.W.2.ordinance-law-pct
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -1869,6 +1950,7 @@
   effective: '2023-11-01'
   supersedes: end.ho-04-16.2018-09
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -1884,11 +1966,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-16.2023-11.W.2.ordinance-law-pct
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -1951,11 +2035,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-81.2018-09.W.2.fungi-limit
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2013,11 +2099,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-48.2026-06.W.2.cov-b-limit-pct
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -2075,9 +2163,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-04-61.2012-02.W.3.scheduled-property-deductible
   - id: W.4
@@ -2127,6 +2217,7 @@
   effective: '2020-11-01'
   supersedes: end.ho-04-61.2012-02
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -2138,9 +2229,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-04-61.2020-11.W.3.scheduled-property-deductible
   - id: W.4
@@ -2200,6 +2293,7 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-65.2018-09.W.2.special-limit-jewelry
     - end.ho-04-65.2018-09.W.2.special-limit-firearms
@@ -2207,6 +2301,7 @@
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2263,11 +2358,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-20.2016-08.W.2.extended-replacement-pct
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -2325,11 +2422,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-12.2018-09.W.2.special-limit-business-property
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2387,9 +2486,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -2441,11 +2542,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-53.2013-06.W.2.credit-card-forgery-limit
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2504,9 +2607,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-04-54.2009-04.W.3.earthquake-deductible-pct
   - id: W.4
@@ -2556,6 +2661,7 @@
   effective: '2021-12-01'
   supersedes: end.ho-04-54.2009-04
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -2567,9 +2673,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-04-54.2021-12.W.3.earthquake-deductible-pct
   - id: W.4
@@ -2629,11 +2737,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-04-55.2017-01.W.2.identity-fraud-limit
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2692,9 +2802,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2747,9 +2859,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2801,11 +2915,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
     facts:
     - end.ho-24-71.2011-05.W.2.business-pursuits-limit
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -2864,9 +2980,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -2918,11 +3036,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-05-24.2018-09.W.2.special-limit-jewelry
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -2979,11 +3099,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-17-32.2014-04.W.2.landlord-furnishings-limit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -3041,11 +3163,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-17-33.2014-04.W.2.cov-a-unit-owner-default
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -3103,11 +3227,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-40.2011-05.W.2.landlord-furnishings-limit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -3166,9 +3292,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -3221,9 +3349,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 190
@@ -3276,9 +3406,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-23-77.2014-02.W.3.wind-hail-deductible-min-pct
     - end.ho-23-77.2014-02.W.3.wind-hail-deductible-max-pct
@@ -3330,6 +3462,7 @@
   effective: '2022-07-01'
   supersedes: end.ho-23-77.2014-02
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -3341,9 +3474,11 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 104
+    prose: qualified
   - id: W.3
     title: Deductible
     target_lines: 86
+    prose: qualified
     facts:
     - end.ho-23-77.2022-07.W.3.wind-hail-deductible-min-pct
     - end.ho-23-77.2022-07.W.3.wind-hail-deductible-max-pct
@@ -3405,12 +3540,14 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-27.2016-05.W.2.water-backup-sublimit
     - end.ho-04-27.2016-05.W.2.fungi-limit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -3469,11 +3606,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-35.2014-04.W.2.loss-assessment-endorsement-limit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -3521,6 +3660,7 @@
   effective: '2023-02-01'
   supersedes: end.ho-04-35.2014-04
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: W.0
     title: Preamble and Attachment
@@ -3532,11 +3672,13 @@
   - id: W.2
     title: Limit of Liability
     target_lines: 65
+    prose: qualified
     facts:
     - end.ho-04-35.2023-02.W.2.loss-assessment-endorsement-limit
   - id: W.3
     title: Deductible
     target_lines: 54
+    prose: qualified
   - id: W.4
     title: What Remains Excluded
     target_lines: 119
@@ -4276,6 +4418,7 @@
   edition: 2021-03
   effective: '2021-03-01'
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: T.0
     title: Scope and Precedence
@@ -4348,6 +4491,7 @@
   edition: 2022-01
   effective: '2022-01-01'
   voice: iso-form
+  layout: pdf-text
   sections:
   - id: T.0
     title: Scope and Precedence
@@ -4639,6 +4783,7 @@
   effective: '2014-06-30'
   superseded_by: bulletin.ca.cdi-2022-03-earthquake-offer
   voice: regulator
+  layout: pdf-text
   sections:
   - id: B.1
     title: Purpose and Applicability
@@ -4672,6 +4817,7 @@
   effective: '2022-03-14'
   supersedes: bulletin.ca.cdi-2014-06-earthquake-offer
   voice: regulator
+  layout: pdf-text
   sections:
   - id: B.1
     title: Purpose and Applicability
@@ -4919,6 +5065,7 @@
   edition: '2022-08-09'
   effective: '2022-08-09'
   voice: regulator
+  layout: pdf-text
   sections:
   - id: B.1
     title: Purpose and Applicability
@@ -4953,6 +5100,7 @@
   effective: '2013-01-15'
   superseded_by: bulletin.co.doi-2019-05-hail-deductibles
   voice: regulator
+  layout: pdf-text
   sections:
   - id: B.1
     title: Purpose and Applicability
@@ -4986,6 +5134,7 @@
   effective: '2019-05-20'
   supersedes: bulletin.co.doi-2013-01-hail-deductibles
   voice: regulator
+  layout: pdf-text
   sections:
   - id: B.1
     title: Purpose and Applicability
@@ -5677,6 +5826,7 @@
   title: Florida Homeowners Appetite Guide
   state: FL
   voice: carrier-guide
+  layout: pdf-text
   sections:
   - id: H.0
     title: Purpose and Status
@@ -5832,6 +5982,7 @@
   title: California Homeowners Appetite Guide
   state: CA
   voice: carrier-guide
+  layout: pdf-text
   sections:
   - id: H.0
     title: Purpose and Status
@@ -5907,6 +6058,7 @@
   title: New York Homeowners Appetite Guide
   state: NY
   voice: carrier-guide
+  layout: pdf-text
   sections:
   - id: H.0
     title: Purpose and Status
@@ -5980,6 +6132,7 @@
   title: Louisiana Homeowners Appetite Guide
   state: LA
   voice: carrier-guide
+  layout: pdf-text
   sections:
   - id: H.0
     title: Purpose and Status
@@ -6054,6 +6207,7 @@
   title: North Carolina Homeowners Appetite Guide
   state: NC
   voice: carrier-guide
+  layout: pdf-text
   sections:
   - id: H.0
     title: Purpose and Status
@@ -6825,6 +6979,7 @@
   title: Filing Memorandum — DP-3 Edition 2020-08
   edition: 2020-08
   voice: filing-memo
+  layout: pdf-text
   sections:
   - id: M.1
     title: Summary of Filing
@@ -6883,6 +7038,7 @@
   title: Filing Memorandum — DP-3 Edition 2026-01
   edition: 2026-01
   voice: filing-memo
+  layout: pdf-text
   sections:
   - id: M.1
     title: Summary of Filing

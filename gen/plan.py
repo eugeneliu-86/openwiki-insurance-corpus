@@ -50,6 +50,7 @@ class SectionJob:
     distractors: list[str] = field(default_factory=list)
     document_title: str = ""
     document_context: str = ""
+    prose: str = "plain"        # ph. 05 E2: "qualified" = 3–6 sentence provisions with a qualifying clause
     previous_tail: str = ""     # a few lines of the previous section, filled at draft time
 
     def hash(self) -> str:
@@ -88,7 +89,7 @@ def jobs_for(ledger: Ledger, doc: Document) -> list[SectionJob]:
     out = []
     for sec in doc.sections:
         job = SectionJob(document=doc.id, section=sec.id, title=sec.title, kind=sec.kind, voice=doc.voice, target_lines=sec.target_lines,
-                         numbering_prefix=numbering_prefix(doc, sec), document_title=doc.title, document_context=context)
+                         numbering_prefix=numbering_prefix(doc, sec), document_title=doc.title, document_context=context, prose=sec.prose)
         if sec.kind in ("table", "schedule"):
             # tables.py emits the fact markers itself; the drafter writes only the introduction
             out.append(job)

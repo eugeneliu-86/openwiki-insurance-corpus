@@ -14,6 +14,7 @@ import _paths  # noqa: F401
 from contracts.corpus_paths import CORPUS_PATH_RE
 from ledger.schema import Ledger
 
+from .assemble import FOOTER_RE, HEADER_RE
 from .render import renderings, unslotted_numerals, value_occurrences
 
 
@@ -50,9 +51,10 @@ def v1_facts_at_recorded_lines(ledger: Ledger, out: pathlib.Path, placements: di
         if not pl:
             errs.append(f"V1 {f.id}: no placement"); continue
         lines = _read(out, f.document if False else ledger.doc(f.document).path)
-        line = lines[pl["line_start"] - 1] if pl["line_start"] <= len(lines) else ""
+        vl = pl.get("value_line", pl["line_start"])
+        line = lines[vl - 1] if vl <= len(lines) else ""
         if not value_occurrences(line, f.value):
-            errs.append(f"V1 {f.id}: value not at {pl['path']}:{pl['line_start']}")
+            errs.append(f"V1 {f.id}: value not at {pl['path']}:{vl}")
         if f.value.kind in ("text", "enum", "boolean"):
             continue  # a phrase value ("replacement cost", "is required") recurs in prose legitimately; the line check above is the rule
         spans = _section_spans(ledger, out, f.document)
@@ -184,7 +186,7 @@ def v7_distractors(ledger: Ledger, out: pathlib.Path) -> list[str]:
                 a, b = spans[s.id]; skip.update(range(a, b + 1))
         for c in ledger.contradictions:
             if c.document == d.id:
-                skip.add(_placement_line(c.id))
+                skip.update(_placement_lines(c.id))
         body = "\n".join(l for i, l in enumerate(lines, 1) if i > 12 and i not in skip and not l.startswith("## "))
         vocab = [ledger.concept(c) for s in d.sections for c in s.distractor_concepts]
         for c in vocab:
@@ -238,15 +240,17 @@ def v9_inventory(ledger: Ledger, out: pathlib.Path) -> list[str]:
                 a, b = spans[s.id]; allowed_lines.update(range(a, b + 1))
         for f in ledger.facts:
             if f.document == d.id:
-                allowed_lines.add(_placement_line(f.id))
+                allowed_lines.update(_placement_lines(f.id))
         for c in ledger.contradictions:
             if c.document == d.id:
-                allowed_lines.add(_placement_line(c.id))
+                allowed_lines.update(_placement_lines(c.id))
         for key, pl in _PLACEMENTS.items():  # code-rendered references may carry an edition date
             if key.startswith("ref:") and pl["path"] == d.path:
-                allowed_lines.add(pl["line_start"])
+                allowed_lines.update(range(pl["line_start"], pl["line_end"] + 1))
         for i, l in enumerate(lines, 1):
             if i <= 12 or i in allowed_lines or l.startswith("## ") or l.startswith("> SUPERSEDED"):
+                continue
+            if d.layout == "pdf-text" and (HEADER_RE.match(l) or FOOTER_RE.match(l)):
                 continue
             hits = unslotted_numerals(l, phrases)
             if hits:
@@ -288,6 +292,15 @@ _PLACEMENTS: dict = {}
 
 def _placement_line(ident: str) -> int:
     return _PLACEMENTS.get(ident, {}).get("line_start", -1)
+
+
+def _placement_lines(ident: str) -> range:
+    """Every line of the placement: one on a single-line document, the wrapped
+    paragraph on a pdf-text one."""
+    pl = _PLACEMENTS.get(ident)
+    if not pl:
+        return range(0)
+    return range(pl["line_start"], pl["line_end"] + 1)
 
 
 def run_all(ledger: Ledger, out: pathlib.Path, placements: dict, only_documents: set[str] | None = None) -> dict[str, list[str]]:

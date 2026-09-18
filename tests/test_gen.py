@@ -153,3 +153,13 @@ def test_placements_serialise(built, tmp_path):
     assemble.write_placements(placements, tmp_path / "p.json")
     back = json.loads((tmp_path / "p.json").read_text())
     assert set(back) == set(placements)
+
+
+def test_pdf_text_wrap_keeps_a_rendered_value_on_one_line():
+    from gen.assemble import WRAP, wrap_paragraph
+    para = ("**W.2** " + "word " * 14 + "is ten thousand dollars, including any covered expenses, " + "word " * 20
+            + "The following are not covered: a. loss caused by flood; b. loss to property of others; (1) unless in custody.")
+    lines = wrap_paragraph(para, ("ten thousand dollars",))
+    assert all(len(l) <= WRAP for l in lines)
+    assert sum("ten thousand dollars" in l for l in lines) == 1
+    assert any(l.startswith("  a. ") for l in lines) and any(l.startswith("  (1) ") for l in lines)

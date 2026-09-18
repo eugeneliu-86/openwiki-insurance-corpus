@@ -1013,6 +1013,23 @@ def author() -> Ledger:
     for d in b.documents:
         for sec in d.sections:
             sec.target_lines = round(sec.target_lines * 1.08)
+    # ph. 05 realism extensions. E1: a quarter of the documents are laid out as PDF-extracted
+    # text (wrapped, sub-items on their own lines, running header/footer). E2: Section I coverage
+    # sections and the endorsements' limit/deductible sections are drafted as qualified provisions.
+    pdf_text = {d.id for d in b.documents if d.id.startswith(("form.dp3.", "memo.dp-3.")) or ".dp-01-" in d.id}
+    newer = [d for d in b.documents if d.type == "endorsement" and d.supersedes]
+    pdf_text |= {d.id for d in sorted(newer, key=lambda d: d.id)[:10]}
+    pdf_text |= {d.id for d in sorted((d for d in b.documents if d.type == "bulletin"), key=lambda d: d.id)[:5]}
+    pdf_text |= {d.id for d in sorted((d for d in b.documents if d.type == "guide"), key=lambda d: d.id)[:5]}
+    for d in b.documents:
+        if d.id in pdf_text:
+            d.layout = "pdf-text"
+        for sec in d.sections:
+            if d.type == "form" and sec.id in ("I.A", "I.B", "I.C", "I.D", "I.E") and sec.kind == "provisions":
+                sec.prose = "qualified"
+            if d.type == "endorsement" and sec.id in ("W.2", "W.3") and sec.kind == "provisions":
+                sec.prose = "qualified"
+    
     return Ledger(documents=b.documents, concepts=concepts, facts=b.facts, definitions=b.definitions, references=b.references,
                   editions=b.editions, contradictions=b.contradictions, histories=b.histories, compositions=b.compositions)
 

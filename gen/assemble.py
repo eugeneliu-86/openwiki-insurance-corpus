@@ -15,10 +15,99 @@ import _paths  # noqa: F401
 from ledger.schema import FRONT_MATTER_LINES, Document, Ledger
 
 from .plan import SectionJob, jobs_for
-from .render import render_reference, render_value
+from .render import render_reference, render_value, value_occurrences
 from .tables import table_for
 
 MARKER = re.compile(r"\{\{(fact|def|contra|ref):([^}]+)\}\}")
+
+# ph. 05 E1 — `pdf-text` layout: the text a PDF extractor produces. Wrapped at
+# WRAP columns, sub-items on their own lines, a running header and footer every
+# PAGE lines. Applied to the assembled single-line document, so drafts and the
+# marker-recording pass are untouched; placements are re-mapped to the new lines.
+WRAP = 88
+PAGE = 55
+SUBITEM = re.compile(r"\s(?=(?:[a-z]\.|\(\d{1,2}\)|\([ivx]+\))\s)")
+HEADER_RE = re.compile(r"^\S.* · Page \d+ of \d+$")
+FOOTER_RE = re.compile(r"^© \d{4} .*permission\.$")
+
+
+def form_code(doc: Document) -> str:
+    parts = doc.path.split("/")
+    if doc.type in ("form", "endorsement", "amendatory") and len(parts) >= 5:
+        return parts[3]
+    return doc.title.split(" — ")[0][:40]
+
+
+_GLUE = "\ue000"   # private-use stand-in for a space inside a rendered value while wrapping
+
+
+def wrap_paragraph(text: str, protect: tuple[str, ...] = ()) -> list[str]:
+    """One assembled paragraph -> the lines a PDF extractor would give. Phrases in
+    `protect` (the document's rendered values) are never split across lines: a
+    citation and its anchor need the value on one line."""
+    import textwrap
+    if not text.strip() or text.startswith(("#", "|", ">", "---")):
+        return [text]
+    for phrase in sorted(protect, key=len, reverse=True):
+        if " " in phrase and phrase in text:
+            text = text.replace(phrase, phrase.replace(" ", _GLUE))
+    parts = SUBITEM.split(text)
+    if len(parts) < 3:
+        parts = [text]
+    out: list[str] = []
+    for i, part in enumerate(parts):
+        indent = "  " if i else ""
+        out += textwrap.wrap(part.strip(), width=WRAP - len(indent), break_long_words=False, break_on_hyphens=False,
+                             initial_indent=indent, subsequent_indent=indent) or [indent.rstrip()]
+    return [l.replace(_GLUE, " ") for l in out]
+
+
+def pdf_text_layout(ledger: Ledger, doc: Document, lines: list[str], placements: dict[str, dict]) -> tuple[list[str], dict[str, dict]]:
+    """Re-lay `lines` (single-line assembly) as pdf-text; re-map `placements`
+    (which point at single-line numbers) to paragraph ranges and a `value_line`."""
+    fm, body = lines[:FRONT_MATTER_LINES], lines[FRONT_MATTER_LINES:]
+    protect = tuple(v for k, v in renderings_for(ledger, doc).items() if not k.startswith("ref:"))
+    # 1. wrap, remembering old line -> new (start, end) relative to the body
+    wrapped: list[str] = []
+    span: dict[int, tuple[int, int]] = {}
+    for i, raw in enumerate(body, start=FRONT_MATTER_LINES + 1):
+        new = wrap_paragraph(raw, protect)
+        span[i] = (len(wrapped), len(wrapped) + len(new) - 1)
+        wrapped += new
+    # 2. paginate: a header opens and a footer closes every PAGE lines of the body
+    code = form_code(doc)
+    edition = doc.edition or doc.effective or ""
+    year = (doc.effective or doc.edition or "2024")[:4]
+    footer = f"© {year} Sample Mutual Insurance Company. Includes copyrighted material of Insurance Services Office, Inc., with its permission."
+    per_page = PAGE - 2
+    n_pages = max(1, -(-len(wrapped) // per_page))
+    paged: list[str] = []
+    pos: dict[int, int] = {}   # wrapped index -> final body index
+    for page in range(n_pages):
+        paged.append(f"{code}" + (f" · Edition {edition}" if edition else "") + f" · Page {page + 1} of {n_pages}")
+        chunk = wrapped[page * per_page:(page + 1) * per_page]
+        for j, l in enumerate(chunk):
+            pos[page * per_page + j] = len(paged)
+            paged.append(l)
+        paged.append(footer)
+    final = fm + paged
+    # 3. placements: old single line -> the paragraph's new range and the line carrying the value
+    facts = {f.id: f for f in ledger.facts}
+    contras = {c.id: c for c in ledger.contradictions}
+    remapped: dict[str, dict] = {}
+    for key, pl in placements.items():
+        if pl["path"] != doc.path:
+            remapped[key] = pl; continue
+        a, b = span[pl["line_start"]]
+        start, end = FRONT_MATTER_LINES + pos[a] + 1, FRONT_MATTER_LINES + pos[b] + 1
+        value_line = start
+        val = facts[key].value if key in facts else (contras[key].wrong_value if key in contras else None)
+        if val is not None:
+            for ln in range(start, end + 1):
+                if value_occurrences(final[ln - 1], val):
+                    value_line = ln; break
+        remapped[key] = {**pl, "line_start": start, "line_end": end, "value_line": value_line}
+    return final, remapped
 
 
 def front_matter(ledger: Ledger, doc: Document) -> list[str]:
@@ -100,6 +189,8 @@ def assemble(ledger: Ledger, doc: Document, drafts: dict[tuple[str, str], str]) 
         filled = fill(ledger, doc, sec.id, body, renders)
         lines += filled.split("\n")
         lines.append("")
+    if doc.layout == "pdf-text":
+        lines, placements = pdf_text_layout(ledger, doc, lines, placements)
     text = "\n".join(lines).rstrip("\n") + "\n"
     if "{{" in text:
         raise ValueError(f"{doc.id}: a marker survived assembly")

@@ -44,11 +44,16 @@ class FactValue(Strict):
         return f"{self.kind}:{self.value}"
 
 
+Layout = Literal["single-line", "pdf-text"]      # ph. 05 E1: how the assembler lays the text out
+Prose = Literal["plain", "qualified"]            # ph. 05 E2: provisions of 3–6 sentences with a qualifying clause
+
+
 class Section(Strict):
     id: str
     title: str
     target_lines: int = Field(ge=4)
     kind: SectionKind = "provisions"
+    prose: Prose = "plain"
     facts: list[str] = []
     references_out: list[str] = []
     distractor_concepts: list[str] = []
@@ -67,6 +72,7 @@ class Document(Strict):
     superseded_by: str | None = None      # document id
     voice: Voice
     distractor: bool = False              # R5: carries vocabulary, no facts
+    layout: Layout = "single-line"
     sections: list[Section]
 
     @property

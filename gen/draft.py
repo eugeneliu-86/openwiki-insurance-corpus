@@ -22,7 +22,8 @@ from .render import unslotted_numerals
 from .voices import CARDS
 
 CACHE_DIR = pathlib.Path(os.environ.get("DRAFT_CACHE_DIR", pathlib.Path(__file__).resolve().parent.parent / ".draft-cache"))
-MODEL = "gpt-5.6-terra"
+MODEL = os.environ.get("DRAFT_MODEL", "gpt-5.6-luna")   # ph. 05 §3: Luna drafts; Terra drafts stay cached under the legacy key
+QUALIFIERS = ("except that", "except when", "subject to", "unless", "provided that", "but only if", "other than")
 DEFAULT_BASE_URL = "https://gateway.smith.langchain.com/openai/v1"
 MAX_ATTEMPTS = 3
 
@@ -34,6 +35,14 @@ KIND_GUIDANCE = {
     "table": "Do not write a table. Write two or three short paragraphs introducing what the table (which will be generated separately) contains.",
     "schedule": "Write two or three short paragraphs introducing the schedule; the schedule itself is generated separately.",
 }
+
+
+QUALIFIED_GUIDANCE = (
+    "PROVISION STYLE — qualified. Each numbered provision is three to six sentences in one paragraph. "
+    "The sentence that carries a slot marker is followed, in the same paragraph, by at least one qualification "
+    "that begins with \"except that\", \"subject to\", \"unless\" or \"provided that\" and narrows when or how "
+    "the provision applies. A qualification introduces no number and does not restate the value."
+)
 
 
 def build_prompt(job: SectionJob) -> str:
@@ -56,7 +65,7 @@ Title: {job.title}
 Kind: {job.kind}. {KIND_GUIDANCE[job.kind]}
 Numbering prefix for paragraphs: {job.numbering_prefix}
 Target length: about {job.target_lines} lines of Markdown (a line is a paragraph or a blank line; aim for paragraphs of two to five sentences). Stay within 70% to 140% of the target.
-{('Previous section ended with:\n' + job.previous_tail) if job.previous_tail else ''}
+{QUALIFIED_GUIDANCE if job.prose == "qualified" else ""}{('Previous section ended with:\n' + job.previous_tail) if job.previous_tail else ''}
 
 SLOTS — use EVERY marker below EXACTLY ONCE, verbatim, where the value belongs in the sentence. The marker will be replaced by the actual value. Write the sentence so the value reads naturally in that position (for a money value: "The most we will pay is {{{{…}}}}."; for a boolean written as "is required"/"is not required": "A backwater valve {{{{…}}}} where …").
 {slots}
@@ -102,6 +111,11 @@ def check_draft(job: SectionJob, text: str) -> list[str]:
     missing = [d for d in job.distractors if d.lower() not in text.lower()]
     if missing:
         problems.append(f"concepts not mentioned: {missing[:4]}")
+    if job.prose == "qualified":
+        for para in text.split("\n"):
+            if re.search(r"\{\{(?:fact|contra):", para) and not any(q in para.lower() for q in QUALIFIERS):
+                problems.append("qualified provisions: a paragraph with a value has no qualifying clause (except that / subject to / unless / provided that)")
+                break
     # a value marker glued to a word renders badly ("{{fact}}-year" became "3 years-year");
     # reference markers are meant to sit flush against the phrase they follow
     if re.search(r"\{\{(?:fact|def|contra):[^}]*\}\}[\w-]", text) or re.search(r"[\w-]\{\{(?:fact|def|contra):", text):
@@ -167,6 +181,7 @@ def real_drafter(prompt: str) -> str:
 def fake_drafter(prompt: str) -> str:
     """Deterministic filler that satisfies every check: used by tests and by
     dry builds. Reads the slots and refs back out of the prompt."""
+    job_prose = "qualified" if "PROVISION STYLE — qualified" in prompt else "plain"
     slots = re.findall(r"^- (\{\{(?:fact|def|contra):[^}]+\}\}) — (?:the defined term |the [\w-]+ value of )\"([^\"]+)\"", prompt, re.M)
     refs = re.findall(r"^- (\{\{ref:[^}]+\}\}) — write the phrase \"([^\"]+)\"", prompt, re.M)
     mentions = re.findall(r"MENTION WITHOUT NUMBERS[^\n]*\n(.*)\n", prompt)
@@ -182,7 +197,8 @@ def fake_drafter(prompt: str) -> str:
         if s.startswith("{{def:"):
             paras.append(f"**{i}.** \"{s}\" means the thing this document uses that term for, as applied throughout this section and read together with the other defined terms.")
         else:
-            paras.append(f"**{prefix}.{i}** Under this provision the {name} is {s}, and it applies as stated here regardless of any other provision of this section.")
+            paras.append(f"**{prefix}.{i}** Under this provision the {name} is {s}, and it applies as stated here regardless of any other provision of this section."
+                         + (" This applies except that it does not enlarge any other limit, and it is subject to the conditions of this section." if job_prose == "qualified" else ""))
         i += 1
     for r, wording in refs:
         paras.append(f"**{prefix}.{i}** This provision applies {wording} {r}, and nothing here enlarges what is provided there.")
@@ -199,10 +215,15 @@ def fake_drafter(prompt: str) -> str:
 def draft(job: SectionJob, drafter: Drafter = real_drafter, cache: bool = True) -> str:
     """A checked draft for the job, from cache when available."""
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    # the model is part of the key so drafts from different models never mix; a job whose
+    # prompt is unchanged since the Terra build still reads its Terra draft (legacy key)
     key = job.hash() + ("" if drafter is real_drafter else "-fake")
-    path = CACHE_DIR / f"{key}.md"
-    if cache and path.exists():
-        return path.read_text()
+    path = CACHE_DIR / (f"{key}-{MODEL}.md" if drafter is real_drafter else f"{key}.md")
+    legacy = CACHE_DIR / f"{key}.md"
+    if cache:
+        for candidate in (path, legacy):
+            if candidate.exists():
+                return candidate.read_text()
     prompt = build_prompt(job)
     problems: list[str] = []
     for attempt in range(MAX_ATTEMPTS):
