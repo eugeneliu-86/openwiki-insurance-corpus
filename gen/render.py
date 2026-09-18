@@ -125,6 +125,12 @@ def value_occurrences(text: str, value: FactValue) -> int:
 
 # --- the unslotted-numeral sweep ---------------------------------------------------
 NUMBER_WORDS = set(ONES[1:] + [t for t in TENS if t] + ["hundred", "thousand", "million"])
+SMALL_COUNT_WORDS = set(ONES[1:11])  # one … ten
+UNIT_WORDS = {
+    "percent", "dollar", "day", "business", "calendar", "month", "year", "hour", "week",
+    "foot", "feet", "mile", "story", "storie", "unit", "family", "familie", "time", "occurrence",
+    "claim", "loss", "losse", "acre", "square", "inch", "mph", "hundred", "thousand", "million",
+}
 _ALLOWED_DIGIT_PATTERNS = [
     re.compile(r"\*\*[A-Z]{1,3}\.\d+(?:\.\d+)?\*\*"),      # **A.1**, **B.2.1**, **210.A** handled below
     re.compile(r"\*\*\d{3}\.[A-Z]{1,2}\*\*"),                # **210.A**, **120.AI** — manuals number past Z
@@ -154,8 +160,18 @@ def unslotted_numerals(text: str, allowed_phrases: tuple[str, ...] | list[str] =
     hits += re.findall(r"\$\s?\d[\d,]*(?:\.\d+)?", scrub)
     hits += re.findall(r"\b\d[\d,]*(?:\.\d+)?\s?%", scrub)
     hits += re.findall(r"\b\d[\d,]*(?:\.\d+)?\b", scrub)
-    for w in re.findall(r"[A-Za-z\-]+", scrub):
+    toks = re.findall(r"[A-Za-z\-]+", scrub)
+    for i, w in enumerate(toks):
         low = w.lower()
-        if low in NUMBER_WORDS or (("-" in low) and all(p in NUMBER_WORDS for p in low.split("-"))):
-            hits.append(w)
+        is_num = low in NUMBER_WORDS or (("-" in low) and all(p in NUMBER_WORDS for p in low.split("-")))
+        if not is_num:
+            continue
+        if low in SMALL_COUNT_WORDS:
+            # "one or more", "two of the following": a bare small count word is prose,
+            # not a value. It is a value when it joins another number word or a unit.
+            prev = toks[i - 1].lower() if i else ""
+            nxt = toks[i + 1].lower() if i + 1 < len(toks) else ""
+            if prev not in NUMBER_WORDS and nxt not in NUMBER_WORDS and nxt.rstrip("s") not in UNIT_WORDS:
+                continue
+        hits.append(w)
     return hits

@@ -68,7 +68,7 @@ MENTION WITHOUT NUMBERS — refer to these concepts by these exact names somewhe
 
 RULES
 1. Every slot marker exactly once. No marker you were not given.
-2. Invent no numbers: no digits, dollar amounts, percentages, dates, periods, form numbers, or number words (one, two, ten, twenty, hundred, thousand …) anywhere outside the markers. Paragraph numbering with the given prefix (e.g. **{job.numbering_prefix}.1**) is the only exception.
+2. Invent no numbers: no digits, dollar amounts, percentages, dates, periods, form numbers, or number words (twenty, hundred, thousand …) anywhere outside the markers. Small count words used as prose ("one or more", "two of the following") are fine; never attach them to a unit. Paragraph numbering with the given prefix (e.g. **{job.numbering_prefix}.1**) is the only exception.
 3. Do not state any slot's fact in other words elsewhere in the section.
 4. Do not refer to other sections or documents except through the reference markers given.
 5. Output only the section body in Markdown. No section heading, no title, no preamble, no closing remarks.

@@ -48,6 +48,11 @@ def test_unslotted_numerals():
     assert "twenty" in render.unslotted_numerals("within twenty days")
     assert render.unslotted_numerals("the eighty percent condition applies", ["eighty percent condition"]) == []
     assert render.unslotted_numerals("**110.3** applies; see Rule 210 and Section I.S.5") == []
+    # a bare small count word is prose; joined to a unit or another number word it is a value
+    assert render.unslotted_numerals("if one or more of the following apply to two dwellings") == []
+    assert render.unslotted_numerals("within ten days") == ["ten"]
+    assert render.unslotted_numerals("twenty one percent") == ["twenty", "one"]
+    assert "one" in render.unslotted_numerals("one hundred dollars")
 
 
 # --- slot checks ----------------------------------------------------------------
