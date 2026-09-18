@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7f4edfff5c1fb85994da5f81dc813b0bf3580330f27b00049f2fd196bac51a48",
+  "claims": [
+    {
+      "id": "claim_dee62b1515ba4a91b5ab746f0a4f0d94",
+      "statement": "North Carolina policy administration separates the attached HO 01 32 contract layer, NCDOI-2018-03 fungi-limit disclosure layer, NCDOI-2021-06 claims-administration layer, and internal Rule 550 underwriting layer; Rule 550 is not customer-facing coverage language, and HO 01 32 expressly references only NCDOI-2021-06 B.2 for claim adjustment and consistent deductible application.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L1-L29",
+          "version": "repo-lines-v1:sha256:fed4acc3f3ee7a0b47273d97b17de9c7d6a3771ec24a3833d5bf588c253dc761:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhY2NiNWY2YWM4YzkzZmNiMWQzN2VmMjYyZjdlOTliOWU5ZDFhOGZhYTQ5NDdmOGJkZWU4ZDU5MGI5NjA3ZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYTAwNmU3YTRmYjEzYjExY2ZjNWY5NDIxNDI3OTA5ZTEzOTNjNjdjMzU0MDg0NDYwNWEwMmIzNzU4MWUyNGYifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L1-L25",
+          "version": "repo-lines-v1:sha256:bd7c0a369d3538aead5e5b9c2c872585c3c12a17e35e904deea3c825e76974a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwOGI4MzQ0N2I0MjdjM2EyNDU4NDAwYTEyMDc1ZWJhYjE3OWFkMzRjOWI5ODQ5YjgwZGVlM2QwZTZlNmIyOWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2OWE5Yzg0NTUxMzA3ZDk0ZTMzYmQ2NTI3NDQzN2Q4ZTIwMTc4ZWFjZDJmZDUwN2I0ZGI2ZDBmM2JmZTM5YWMifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L49-L165",
+          "version": "repo-lines-v1:sha256:b14be095d0025a47bbc2fa07b2aa53c5fad4680dc53d14dca6f25011c14167b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTE3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIyNjJiMDgzMWY3OTRhMWUxZWFhYTE1ZjgzZDlmMmE0ZDEzYWJkMDFkMWEzYTE2NzA2MWNmNTQ3NGVjMzY3M2JmIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3NjBhM2MxMWI1YzRhZDI5NTg2ZDBlNTc4MjU1ZWRjNWIyYzY3YjIyZmY5YjM2OGVmMDM4MmFkNTM4NzFiNjRiIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJmZGFmNDIzN2I4NzA4Y2Y2MGZjYzU2MjVhNDMwNWZmOTY3NDJjZTI3NWYwMmYyMGYyZTA0OTc2YzU0ODFmM2I5IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIxM2I2ZjUyMzg1NTRjNTE3NDZhOTI3YTdiYWVmZGMwODhjNDc3YjA2ZDI3ZWY4MjNmYjZiMDYxZjg5ZGQzYmU0In0"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L1-L31",
+          "version": "repo-lines-v1:sha256:5a1dfa1500c7a561cee9292c17ab583cb867bf6683d1f720c36dc4f5d70d1b0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNTc4M2Y0NDZjNDVmNzMwNmM0ZjFjZDQzYTZmZWYwNDYwN2EwYTYxY2VkZTU1YTBlZDgxNzI4NGQ1N2JlMDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMDdlZjljNTdmOTI5NGFiNDcxZTEyODBmNTM3OWM0ZjNlMGJhMDAwODEzNTg0YTE5ZTFmZTE1MzMwOTQzZmEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L59-L81",
+          "version": "repo-lines-v1:sha256:3ddc97fe841f44189fd57a63de01e54a2c04d808c7922157d15534288b05611f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlNTA4NTIxNDU3ZDhhZDI3YTNhMTE5NGViYjk1ZDU0ZTAwNTQwODI3ZmQyNTgwNDFkMzRmMTM4YTk2MGVlYjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzNDU0NTFlZWU4Nzg5Y2JlNWQ1YTYyNjI2Y2RkOGRjMjNmZDdhYmQ2ZmM5ZDVmZTRmMzg4Y2EwYzUwMmYzYjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRkNThhZDY3MjUwYmQ3YmYyODQzNWEzZjE0ZmFkYTZlNzgyNDMzMWY3MmQ2NTFjMmZmMzgxOWVlNjM2NGNmMjgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L13-L55",
+          "version": "repo-lines-v1:sha256:037c7a3d59542bef4332d9bf6280da4582c8d14acc75969ead56d10c144e1d69:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzNTNjYTMzN2Q2YjQxY2RiZDc4ZjBmZjg3NTc0ZjBiMTg1YWQ3MmY3ZmVlNTNmMmM0MDhiOTI2YjNmNmQxODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ1M2Q5OTMzZjNjNTY3MmU2ZWY5NmZmMmYyZjNkMTgzYTM5NWQ3MjE5Yjk5NGM4NzAzYjUzNDFjMTk3MjQyOGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e9b32f5fe6f493381c5d8bdb0ceced6",
+      "statement": "The source set dates HO 01 32 to 2018-05-01, NCDOI-2018-03 to 2018-03-12 with prospective application to coverage issued, renewed, amended, or replaced after issuance, and NCDOI-2021-06 to 2021-06-01 with prospective application to subsequent claims-handling conduct.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L1-L7",
+          "version": "repo-lines-v1:sha256:134e4f9fc3bc509e955415c0da407db646fe006270c28955369902284c798bf5:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODhlMjc0NjVkMDBmYmE1MjdiOWZhYzExMjE5ZjcwOTc3YTY4NDAyYWEyMTQ2YmZjNGNjNGNjMjBiZjQ0MzJmNiJ9"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L13-L29",
+          "version": "repo-lines-v1:sha256:095330273e37f837cc8f6846f210f5eaf94779d8965668dd1165ff4cce51cbdb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhY2NiNWY2YWM4YzkzZmNiMWQzN2VmMjYyZjdlOTliOWU5ZDFhOGZhYTQ5NDdmOGJkZWU4ZDU5MGI5NjA3ZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiYTAwNmU3YTRmYjEzYjExY2ZjNWY5NDIxNDI3OTA5ZTEzOTNjNjdjMzU0MDg0NDYwNWEwMmIzNzU4MWUyNGYifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L1-L7",
+          "version": "repo-lines-v1:sha256:a7bebea35981e0ffaf40c09fffca08984460d94ac4c1f501ff9a22b025a271dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjA3NWRkYjczYTFjZWJlMmEyZWZhMGZmZDJjODE3NzZjOTRhZWY3NTdlZTI3OGEzMGE0YTExM2I0YWQ4ZGQyYyJ9"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L13-L25",
+          "version": "repo-lines-v1:sha256:03f368b63f4c14f5e39a21152772078d90502d598e46a067fab6f57066c218b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwOGI4MzQ0N2I0MjdjM2EyNDU4NDAwYTEyMDc1ZWJhYjE3OWFkMzRjOWI5ODQ5YjgwZGVlM2QwZTZlNmIyOWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2OWE5Yzg0NTUxMzA3ZDk0ZTMzYmQ2NTI3NDQzN2Q4ZTIwMTc4ZWFjZDJmZDUwN2I0ZGI2ZDBmM2JmZTM5YWMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L1-L9",
+          "version": "repo-lines-v1:sha256:a05cf571495415a495beaad20549fdd1232e68e23088511e34570dda3b326eac:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDUzMTA0Mzc5NjNhMmE0YmMwZDhmNDgwMzk1NjhiYTYzMjZiOTIzMGNiMzEwZDVhYWYxODU3YmE1YjI0Zjk0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_085ea254f71045f19cbb193c1f66d570",
+      "statement": "When attached to the HO-3 policy, HO 01 32 changes only its stated provisions, controls over conflicting policy language for those provisions, leaves unchanged terms applicable, and does not extend coverage beyond its express terms.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L35-L57",
+          "version": "repo-lines-v1:sha256:b4a9d008370ac01a27f8474e160d39e8e46b9a68577491f53d7a052bbcff24ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0M2Q3ZDhiNzcxZjNlZTAyM2Q2ZjFkMjE4NTdiN2FjMzMwM2FlYmJjZjMwOThmZTljNWFkMjNiMmZjODhmZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MWFlNzYxZTc3MzJiNGYyZTJhMzQzMDJjMDM5NzNiNzUzZTc1OWRhNjA0NTU4ZGVjMTI5NzJhYmE4ODJhMjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhM2FhOWY3OTVjZjFlZTEzNjllY2ZiYWYwOTYyMTNiMjQyN2JlMGFjODUyYTM3ZTI4ZjA2ZWY4MGNjZDU5NTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlZDdhYTE2Y2U0ZDhkNzFhZjc5NzY0M2EyMDdkZjEwZGRiNjc2ZTRkMGUxYTQ3MjQ2N2E3YTkzYjkyODhiNjQifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L41",
+          "version": "repo-lines-v1:sha256:2189aafceee016098ca5032ee38ec8a0cea68dca8afe417e32f59a3c3160349f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ODdlY2UzOWY5OWYxYmM4MTczYmY4ZDFiYTY4ZWYyNzhlM2ExYmI1Mzc2OGU4NTNlYzUxZWViMDRjYzZkZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlM2Y3ZDI2NzlkYjZkZTA3MDM2OTlmOTA2NGQxNzI0MThhNWU4ZWE5MTY4OGYyNGI2ZDQ2ZTYzZDExY2Q1YjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L13-L57",
+          "version": "repo-lines-v1:sha256:0b64ccadf8ce26d405fd97af0603387af3b4b45211f5b873016b0978f90ffea5:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4YWYxOWQ2N2ZhY2YwMDFkMGZiYzVkOWFhMWJkYjRjY2VjZTQyZTc3YjI0ZmQ2YjM5NjgxNzFlMGQzZjkyMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlYmQ0MDY2NTVlM2Q0Yjk2NmI4NTAzMGFkNmI0YjBkODgwNWFlMWZkZTlkMjdlYTZmMGZlMWE3MjZhYzUyMDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9998cfd5ab144bd392e839cc332136c0",
+      "statement": "HO 01 32 sets a $5,000 maximum for all loss caused by fungi, wet or dry rot, or bacteria regardless of the number of insureds, claims, damaged properties, or occurrences, while providing no coverage for such loss unless coverage is expressly provided; its definitions include mold, mildew, mycotoxins, and moisture-caused wet rot involving fungi.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L59-L89",
+          "version": "repo-lines-v1:sha256:724fabda399f78f9b2a24ff32a0a1d1c66860bb1b9e0a3543f8aa1616a1e8a93:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjOWVlM2E3MzdjOGQxMDk4ZWQ2MWZmZDkzOGM0ZjVjMDRlOWU2NGUzYjM1MjFmMGJlMDc0ODI5NGRmYzgzZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhZWRhYzBjY2Y0MzgwYTM1MTU2ZWUzMDA2Y2JmZmVkOTY2NDU1MmJlOGE1NzE4MTU5YWNmODZlZDJjZjQwOGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNjZmJjMmI1ZDI0ODA5YjI1ODQ2YTU0ZjYxYTBkMDRiMjg3MzUxMGNmZDFmNGVkNzI2YTA2NmYxNjk1NTIyZDcifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L41",
+          "version": "repo-lines-v1:sha256:2189aafceee016098ca5032ee38ec8a0cea68dca8afe417e32f59a3c3160349f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ODdlY2UzOWY5OWYxYmM4MTczYmY4ZDFiYTY4ZWYyNzhlM2ExYmI1Mzc2OGU4NTNlYzUxZWViMDRjYzZkZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlM2Y3ZDI2NzlkYjZkZTA3MDM2OTlmOTA2NGQxNzI0MThhNWU4ZWE5MTY4OGYyNGI2ZDQ2ZTYzZDExY2Q1YjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L667-L687",
+          "version": "repo-lines-v1:sha256:82992793fb5439e358254c04e027e10835743e5da46de9d03852e45b49cbc294:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxZDkxNzYwOTE5ZGM0ZTFkN2RlYzQxZDI4YzZmOTdjNDNiZDY3ZTUxNzg3NTRjMDI3NmI1OTJkZjNmZjhlNWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwNDJiZTRlMzc4YzFiZmVjNjUwNGJkOGNiMGM2YThhNWRkMWRkYjcxYWQ1ODYyNzAzMTRjZDRkNjcwNzJhN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNWZkOTJlM2Q0ODhmODg3YzIxYTUwNWIzNWU3MmZhMGI0MWRhZmQ1ZDRhZWI0Nzc3NDVkODA0MjdjMzAyNzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmYjUyOWVjNzJiODhkZmRmOGU1MjIwYmU4ZGY1YmU3MmI2OTdlZjc3ZWY1NjhlM2ZkZTIxYjg5ZWM5NmE3MzgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L761-L823",
+          "version": "repo-lines-v1:sha256:4ce85ebb681b278c90f0b2a63350c75751230cb999b2bb80266e326eab371dc2:eyJzZWxlY3RlZExpbmVDb3VudCI6NjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjMjNjNmUwNTdmNDZkNjBkYjM2OWI5MDRkNWQwMTQ1Y2NiOGQ5ZjBkOGJmZjUxMjg4Zjg3NjdkODY5NjY2YzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5NDM5OTVjOGNmNjNkMmU5Y2RiM2I4Mjg3NDljYjI5ZjYwZWU0NjczOGFiYTE3NDI2NTdiZThiODFlZWU0ZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM5NDA5MmJjOThlMDc0NzRjNTM3ZTg1MDNkNmJkOTYyNTJlZTRmOGMzMjZkYzc1MjYyNzQ5YjFjMjQ4OGQwZTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlMDVjY2UwYzFlZGU2MGVlOTQ1ZDZmOWExMmEwM2YwYTRiZTkzZjRmMTE0M2EzY2VlYjJkMmRjYzk0NjNkM2UifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9dc5fcbc30a64048adbaa8c4f2cf1c79",
+      "statement": "The HO 01 32 $5,000 contract term is distinct from the base fungi exclusion, any separately attached HO 04 81 write-back, and NCDOI-2018-03 disclosure; neither a disclosure nor HO 01 32 itself creates fungi coverage that must be expressly provided by the composed policy.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L181-L209",
+          "version": "repo-lines-v1:sha256:1e5e7e5fdb3728ac8b5e6f15985607e898293cf146206ef2c07a8474afd3fbca:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZWU1MWRiZmYxNjVmNTI3YjhjY2RkMGE3ZTI3NTYyOThmNzdjNDk1MTEwZWUyOTlkOGZkMjBmNzJiOGQ4YTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQyZDI3MzMzNTFkNTNjYmYyY2FjYjhkMjM2YWMyZjlmOWQyMTUzMzg3NmY4NzRkMmFkZDEwMzlhNTVkYWQ0ODYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjZDRiZmEzZTZkNjM5MjYzZGE4NWNiZTNjN2RkYjllNThlNzU4ZmIzZDhjMWJlZmI3NjczNjI2NzVlYmIyOWMifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L41",
+          "version": "repo-lines-v1:sha256:2189aafceee016098ca5032ee38ec8a0cea68dca8afe417e32f59a3c3160349f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ODdlY2UzOWY5OWYxYmM4MTczYmY4ZDFiYTY4ZWYyNzhlM2ExYmI1Mzc2OGU4NTNlYzUxZWViMDRjYzZkZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlM2Y3ZDI2NzlkYjZkZTA3MDM2OTlmOTA2NGQxNzI0MThhNWU4ZWE5MTY4OGYyNGI2ZDQ2ZTYzZDExY2Q1YjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L13-L31",
+          "version": "repo-lines-v1:sha256:7ef4d55d7963146383e9d8caeb97da1b4db8dcd5f9ff176c96eaa5256498f821:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNTc4M2Y0NDZjNDVmNzMwNmM0ZjFjZDQzYTZmZWYwNDYwN2EwYTYxY2VkZTU1YTBlZDgxNzI4NGQ1N2JlMDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMDdlZjljNTdmOTI5NGFiNDcxZTEyODBmNTM3OWM0ZjNlMGJhMDAwODEzNTg0YTE5ZTFmZTE1MzMwOTQzZmEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L667-L687",
+          "version": "repo-lines-v1:sha256:82992793fb5439e358254c04e027e10835743e5da46de9d03852e45b49cbc294:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxZDkxNzYwOTE5ZGM0ZTFkN2RlYzQxZDI4YzZmOTdjNDNiZDY3ZTUxNzg3NTRjMDI3NmI1OTJkZjNmZjhlNWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwNDJiZTRlMzc4YzFiZmVjNjUwNGJkOGNiMGM2YThhNWRkMWRkYjcxYWQ1ODYyNzAzMTRjZDRkNjcwNzJhN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNWZkOTJlM2Q0ODhmODg3YzIxYTUwNWIzNWU3MmZhMGI0MWRhZmQ1ZDRhZWI0Nzc3NDVkODA0MjdjMzAyNzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmYjUyOWVjNzJiODhkZmRmOGU1MjIwYmU4ZGY1YmU3MmI2OTdlZjc3ZWY1NjhlM2ZkZTIxYjg5ZWM5NmE3MzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_647cada1257b4983990c34918bedbb32",
+      "statement": "For a policy containing a fungi, wet-rot, or bacteria limitation, NCDOI-2018-03 requires a conspicuous, understandable, accurate, retainable disclosure that identifies the limitation and affected coverage, distinguishes it from other restrictions, and states that the most the insurer will pay is $5,000; the disclosure must not broaden, waive, or contradict the contract.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L13-L89",
+          "version": "repo-lines-v1:sha256:4cdef099c267606fc7bbab416dd7c05fb470bf25b50ce809080e114ae853ef91:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjOWVlM2E3MzdjOGQxMDk4ZWQ2MWZmZDkzOGM0ZjVjMDRlOWU2NGUzYjM1MjFmMGJlMDc0ODI5NGRmYzgzZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNjZmJjMmI1ZDI0ODA5YjI1ODQ2YTU0ZjYxYTBkMDRiMjg3MzUxMGNmZDFmNGVkNzI2YTA2NmYxNjk1NTIyZDcifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L91-L179",
+          "version": "repo-lines-v1:sha256:131aa23633275ee96ab485b1814872a9fc8773e45014512811d3b0ecbc1f6aad:eyJzZWxlY3RlZExpbmVDb3VudCI6ODksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlMmVkYjBkZDViZTM2M2IzNmUwNTFhZTU5MjdhMTJkMzk2NWI0Y2VlMWVjYWJlNDE5Yzk5YjA5OWI5OThmMzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExZjFmM2Q0ZGZkYjJkZTdmOGIyYWM4OWRlYTYzODk4OWRhNzM5ZTQ3ZGFkYzgyODgzMTgxOGQzNjJmNDlkZDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzNWNkM2U5NzUzMjY0NmEyYjY4YTQzOWFiMmEyYzc5Y2NmY2Y3NTdlZjE1MGQ4MjlmOGNhMjk4NWFiNjMxNjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzYjZmNTIzODU1NGM1MTc0NmE5MjdhN2JhZWZkYzA4OGM0NzdiMDZkMjdlZjgyM2ZiNmIwNjFmODlkZDNiZTQifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L167-L209",
+          "version": "repo-lines-v1:sha256:4f1a5ba7f45491e8db8af212eb79e289be4d6e64d80d31a1ec1c3c2bca960488:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNTc3NTM3ZTAxMjFjOWUyYWI2ZjBhM2E1YTFjNjkwZDdlNmFlMjM5NGMzNzY0NzEzOGNmMmE2Y2IyZTRhMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzM2JmNTJiMDAxYjAwZTYxZTUwMzgxNmExMGU2OTY2MmQ0MjNhNTBmMzk5MDBhZjZlZDIzNmIzYzRjYzQzNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjMGY4ODNlOGJiOTJkNjNkMzk0MzU4YWU4NTAyZDIzODM0ZGFkZGI3ZDkxZGZhZTc5M2JiMzZjNjRkMDBlNTYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L667-L687",
+          "version": "repo-lines-v1:sha256:82992793fb5439e358254c04e027e10835743e5da46de9d03852e45b49cbc294:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxZDkxNzYwOTE5ZGM0ZTFkN2RlYzQxZDI4YzZmOTdjNDNiZDY3ZTUxNzg3NTRjMDI3NmI1OTJkZjNmZjhlNWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwNDJiZTRlMzc4YzFiZmVjNjUwNGJkOGNiMGM2YThhNWRkMWRkYjcxYWQ1ODYyNzAzMTRjZDRkNjcwNzJhN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNWZkOTJlM2Q0ODhmODg3YzIxYTUwNWIzNWU3MmZhMGI0MWRhZmQ1ZDRhZWI0Nzc3NDVkODA0MjdjMzAyNzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmYjUyOWVjNzJiODhkZmRmOGU1MjIwYmU4ZGY1YmU3MmI2OTdlZjc3ZWY1NjhlM2ZkZTIxYjg5ZWM5NmE3MzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bf48919b119f46f586b0b214a3aebe4a",
+      "statement": "The fungi disclosure must be delivered before acceptance of new coverage and with applicable coverage information for new business, renewal, replacement coverage, and an endorsement or policy change that adds or changes the limitation; material renewal changes require clear notice, oral disclosure alone is insufficient, and permitted electronic delivery must be accessible and retainable.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L181-L247",
+          "version": "repo-lines-v1:sha256:80907f0d358b6bee59e81b420b44bebe3f434c4e56d63aa3c7feba8cd1c1ec35:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmYTFkMGMwNWFjMzM2ZGVhZDY5MTliOTA5OTNhYjFjYWU4YTYyOTM5ZDM3MDIxZWJhOGYxYjhiNzIxMGRjMzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQyZDI3MzMzNTFkNTNjYmYyY2FjYjhkMjM2YWMyZjlmOWQyMTUzMzg3NmY4NzRkMmFkZDEwMzlhNTVkYWQ0ODYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUyODM1YzQ4YTI0Y2I0NTU2NGE1ZWU4MDU5Y2IwZmM4MmFmNTA5YTBhMjJiMWIwZTI5M2E0ZWQxNWFjZTk3MWYifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L247-L257",
+          "version": "repo-lines-v1:sha256:4c7bed608fe06b2bc02f5c8d0fdf10c4d9b3ba20ba5d1eec8e58b985cdc64851:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmYTFkMGMwNWFjMzM2ZGVhZDY5MTliOTA5OTNhYjFjYWU4YTYyOTM5ZDM3MDIxZWJhOGYxYjhiNzIxMGRjMzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiZDc0MDM3YmI1N2I2ZjI4YTI1MTdlNTIzNjZlYzJjN2JjN2UzNWQ5MzljZDFkYTU3NGI4NTM0ZmNmNTExNWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmMDlmNmFmZTg1Y2FmOTcxYTUzNDk0NWUwN2ZkNzFhYjA1OTFjYjJkMzJkZDI0MTM1ZmY3YzA2ZDQ3YWY5NjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L167-L191",
+          "version": "repo-lines-v1:sha256:c6d0dbbaff9a96bea2e26f8bb45cf3992e5a08d9562fea51093a094fbf7cf7fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5OTQ1YjhlZTA5MTQ4MzczZDg1NmE0NTNhZWU3NzM0MmRjMjczZDIwM2M5ZjI5ODM4MmY0YmU0NmMwM2Q1N2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzM2JmNTJiMDAxYjAwZTYxZTUwMzgxNmExMGU2OTY2MmQ0MjNhNTBmMzk5MDBhZjZlZDIzNmIzYzRjYzQzNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAzOTNlZjU0Mjk4NTA3MWZiZmRlNGI1M2UzNjY3NGI5OGY3NTEwMWIwNzM0Zjg5ZDMyZmM0YzBhOWU4NGQwY2IifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L229-L243",
+          "version": "repo-lines-v1:sha256:9cf8dff65e5fcf4773f303ec4c4cddb91667b0875669855569bdfa4d4a3bc80a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4OTEzNWNiOGU3NTUxY2JkNDZhN2VkODgyZTc2MWM1NTU5Y2JkNjc5ODNjYTAxMmE5NjgyNDJlNDI5YmQ2N2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkOWFmZjQ2YjQ5Njg2NmJlMjhkMWQ1MTk2M2I4MjBiNzU3NWU4YWVkNTQ2ZGZmM2Y4YjdjMzE1MGUyM2YzOTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmYTllMjU4OTU4NmQ2M2MyZGJiMDFiNTYxN2RjNTVhZGNjMTU2NTdkOTgyZDcwMDIwMDBiNzk2NDAwODcyZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L13-L31",
+          "version": "repo-lines-v1:sha256:7ef4d55d7963146383e9d8caeb97da1b4db8dcd5f9ff176c96eaa5256498f821:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNTc4M2Y0NDZjNDVmNzMwNmM0ZjFjZDQzYTZmZWYwNDYwN2EwYTYxY2VkZTU1YTBlZDgxNzI4NGQ1N2JlMDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMDdlZjljNTdmOTI5NGFiNDcxZTEyODBmNTM3OWM0ZjNlMGJhMDAwODEzNTg0YTE5ZTFmZTE1MzMwOTQzZmEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_00bd574a15fb44f69e453d86f9fe228c",
+      "statement": "The insurer must retain the delivered fungi-disclosure version and delivery evidence, remain responsible when producers, agents, administrators, or systems deliver it, and obtain Department approval before using filed fungi disclosure materials or revisions; superseded materials must be withdrawn.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L315-L347",
+          "version": "repo-lines-v1:sha256:f46edf2c19c860f172924611145a583c0de0edf9baec2c1902014c7d7aa1ded2:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2MDBmMTkyYjg4ZjQwOWQzZjdkMWM3ZWUwOWZkM2VhZGViZmNhMjFiNzBhNTU4OWQ5Y2ZmYjBhNjc5YTVjNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgzNWE0NmEzY2FlMjZhNjg3MTBiODg3YzJmYzBjN2FjNzk4NWUzOTcwMGUyNDNkYmU3ODU0ZjAxZjBhMjZhMjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L91-L179",
+          "version": "repo-lines-v1:sha256:131aa23633275ee96ab485b1814872a9fc8773e45014512811d3b0ecbc1f6aad:eyJzZWxlY3RlZExpbmVDb3VudCI6ODksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlMmVkYjBkZDViZTM2M2IzNmUwNTFhZTU5MjdhMTJkMzk2NWI0Y2VlMWVjYWJlNDE5Yzk5YjA5OWI5OThmMzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExZjFmM2Q0ZGZkYjJkZTdmOGIyYWM4OWRlYTYzODk4OWRhNzM5ZTQ3ZGFkYzgyODgzMTgxOGQzNjJmNDlkZDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzNWNkM2U5NzUzMjY0NmEyYjY4YTQzOWFiMmEyYzc5Y2NmY2Y3NTdlZjE1MGQ4MjlmOGNhMjk4NWFiNjMxNjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzYjZmNTIzODU1NGM1MTc0NmE5MjdhN2JhZWZkYzA4OGM0NzdiMDZkMjdlZjgyM2ZiNmIwNjFmODlkZDNiZTQifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L49-L61",
+          "version": "repo-lines-v1:sha256:7c79e55499f1ba97b48ef8e367058b1393d53dce22546ebf800302687aeab662:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZjlhZTVlY2JkNmNkMmQ3MDdkOTEzNDE5ODA2OTJhNDc1NzZmOGZjZWRjZWM2NDg3MGYwZGVlNGU2MDg5NTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZkYWY0MjM3Yjg3MDhjZjYwZmNjNTYyNWE0MzA1ZmY5Njc0MmNlMjc1ZjAyZjIwZjJlMDQ5NzZjNTQ4MWYzYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1NTEwNDIxMWEzYWZlNTY4ZjFlOWVkODY3MGFiNDlhNWU3NzI3YTg1ZjcwOGQ0ZjA2MGUyZWFhYTMxZDBjYzQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L1-L9",
+          "version": "repo-lines-v1:sha256:a05cf571495415a495beaad20549fdd1232e68e23088511e34570dda3b326eac:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDUzMTA0Mzc5NjNhMmE0YmMwZDhmNDgwMzk1NjhiYTYzMjZiOTIzMGNiMzEwZDVhYWYxODU3YmE1YjI0Zjk0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8ed3beddf104a7e8a05fda0335f88d6",
+      "statement": "A fungi allegation or observation alone cannot support denial or limitation; the insurer must investigate the reported facts, determine whether a covered cause produced the condition, distinguish fungi damage from other covered damage, identify the relied-on policy provision, and give a written factual and policy explanation for a partial denial or limitation.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L259-L313",
+          "version": "repo-lines-v1:sha256:1c7668eb7a985348c3aead44fad143e2fa8bd4ddae4938b7a9a4000a63860fbe:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhNmU1MGVjNzQwMDlhZjU4NWQzNzEwZWEyMDEyZjlhNDA4NWMyYTYwNWM1MWZhNTkyYmU0MTkyNmZlZjU2OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L245-L285",
+          "version": "repo-lines-v1:sha256:4eb28c2b10e82848aed003f753e8abf7e2a409f0b305e5bf7d0049e621e92cdc:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwZWQyYzZlNGU4OTAzOTU3OTE3YTg3MDdjZjlkY2RmMGU2M2JhMzQwYWViZTU1MmRjOWExZDgxYzAwMWU2YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4N2FjNTljMmY0YWJkYjM0MDkzMDQ2Zjc5YzQzOTZhY2E3NTcyODkyYjIzNTk5ZGEwNjFkZTVmNjQ3MjY0ZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L49-L81",
+          "version": "repo-lines-v1:sha256:404946af9ef5eb17fbe55765f8aea0543b97e2880607c522a545f3ed46069e97:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5M2RjMDdmNmRiMTgwOTlhMzk3YjViOWViNTBjZTZmODljYzFiYWU0NzQ5ZWJjOGQzZmFjNzZiM2FmNDI0ZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZkYWY0MjM3Yjg3MDhjZjYwZmNjNTYyNWE0MzA1ZmY5Njc0MmNlMjc1ZjAyZjIwZjJlMDQ5NzZjNTQ4MWYzYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjOWU2ZmY3YmY3OTc3ZmNjMGM4MWM5NTM4NWFhMjIzZjlmY2I2NGVjOWMyZDkzZDQ5OWI1ZWYxNDYyZjZkOGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L455-L555",
+          "version": "repo-lines-v1:sha256:397047c1325081854bc1be50ad4755cb2f4240d00374ab54a0822b04ca38b53e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5NzBlMTIzYWVkZWQxZmY5ZTRmNTdmYzA5NDUxZGRmMWZiNWY4NTc1ZmQyY2I4ZjI2ODI5OTVmYjk5YzU1YThhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJlMGU2OTMyNWI2MGViNWNlYzJkMTkxM2MxNmJjNTkxODRhZTM2N2EwY2ExNzJkNTYyNmMxYzBkY2VkMzBhZDlkIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIxODAzMjYzNGZkMmU5NzY1OTlmY2Q3MDFhZjA4OGExNTUxYjlkYmVjNzE5YmQ2NzFmOWQyM2I0ZGRlZjdkZjUzIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI5OGUyYWUzODAzYWY4ZmUxNmY3NGYyMDBmNDUyYjM3Y2U3Mzg0NjFiODgyZDYwZGEwMDA2YWUzYzcyNzkxMzg1In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_6557bde634cf4b34916f5b2c9e7b2a15",
+      "statement": "Fungi-related claim files must preserve the policy provisions considered, communications, requested information, investigation and evidence, valuation, and decision basis; the insurer must consider later material information, avoid unrelated requests and unreasonable delay, and keep claims communications consistent with the policy and disclosure without expanding the $5,000 contract limit.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L275-L313",
+          "version": "repo-lines-v1:sha256:70a67472917a7dd88962994fa826119b77c0a0bd83ccc2c933875e7fbe8315a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyNTYzYjM0MDljMmIxZTZiNmU2YTlmNDgzYzJlMzgxMDVmMmNkZTRiMjcyYjljYjU3Njc4NTU5YzQ3ZDgyNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjYzJhMDMzYWI4ZTgzZWJhY2EzZWZiYjJhOTZjMTNmOWY5ODc3ODg2OTIyNGExMWM4NDExYmYyZDJjYTk5YWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L135-L163",
+          "version": "repo-lines-v1:sha256:a7e5eb6ca411cded458c4e87ab0141a7155cb431a6a600e171e672a1caf48811:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhMTg0YzZjMTViNjU1YjQwZDczNzMyZTlkNjI0NTFiNzAyNDNiYTMyMWMxODQ4OWUwYzMwM2VjZGU0ODMxYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3MGU0NzA3YjUyMTk3NmJjODVlNTI2YmQ5YjkxNmQ4MWQ3Yzg4OTQ3ZTZkNTRhYWQ1YWJkNTZkOWE5NTc5MGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxZGFhOGY3ZjZmMzk0MmQ5NGUwNGUxMTFjZTBkZTQ5NDdmMjQ3OWM0MGEzZTA0NWUxNjJhZmNiYzdlMWQ2N2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAzM2JmNTJiMDAxYjAwZTYxZTUwMzgxNmExMGU2OTY2MmQ0MjNhNTBmMzk5MDBhZjZlZDIzNmIzYzRjYzQzNDUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L57-L81",
+          "version": "repo-lines-v1:sha256:594ff7a897337fc5addf2ea6bad84c5693e1fd903e265d2bc3bb9034e3030f90:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0ZGJlYzk3YmNjNzQxMjgyYjIzNmE5ODlmY2M4NjE3ZTQzYjg0ZDAyOWY0MDM1NWE0N2ZkZTI3Y2M5ZTNkZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5M2RjMDdmNmRiMTgwOTlhMzk3YjViOWViNTBjZTZmODljYzFiYWU0NzQ5ZWJjOGQzZmFjNzZiM2FmNDI0ZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMyZDM3NGUxNDVmYjIyMjdmMTZlN2RjYmZmZWM3Yjk1MmQ3MzYyYjc3NmRkZTI2NDRiMGRhYWY5NDI2NmZkZmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjOWU2ZmY3YmY3OTc3ZmNjMGM4MWM5NTM4NWFhMjIzZjlmY2I2NGVjOWMyZDkzZDQ5OWI1ZWYxNDYyZjZkOGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L503-L555",
+          "version": "repo-lines-v1:sha256:2408713ae751b7d8bef7f28105bff7fadb0ba351f6cf84fb022d9296bfe0d498:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMmUxZDBmYzZiZjg1Y2RlMGYyOWVkMzc4MGMyZjcwYjIwMTM2YTI5Mjk1OTRmZWQ4NmNkMGUwZjFjNjZlNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwZTY5MzI1YjYwZWI1Y2VjMmQxOTEzYzE2YmM1OTE4NGFlMzY3YTBjYTE3MmQ1NjI2YzFjMGRjZWQzMGFkOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEwMTc5OTdkMTc1ZWFiOWU5YmFhYmRiODM5NjJkOTVkZGY2Y2JjZjc3MDdmMTZkOGJkMjdiZDAwNThmMDYxY2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4ZTJhZTM4MDNhZjhmZTE2Zjc0ZjIwMGY0NTJiMzdjZTczODQ2MWI4ODJkNjBkYTAwMDZhZTNjNzI3OTEzODUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d2e10f5194f04f8b92fd84fd2c5e8079",
+      "statement": "HO 01 32 applies a Windstorm and Hail Deductible of 1% to 5% to covered direct loss caused by windstorm or hail, including when another covered cause contributes; it applies before payment, treats loss from the same general weather conditions as one occurrence, and does not create coverage for excluded or noncovered property.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L25-L45",
+          "version": "repo-lines-v1:sha256:afbd4d5f2b4cebc3bb5c25cb4bd3ce3670332cc091dd94ef04aece408faf471b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5OGRlNzE4YjBhOGQzMmY2OTk1NzE3OTZkYmQxNmQ4YTBlNDg2MmZiNjUyOTYyMWFkZDExZjYwNmNiZTdjNzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzOTRhYjU5Mzc5Yzg1MWYzM2I1Y2IyYTFmNzg5MTg0Y2RkZWU2MDQ0OWNjOTI2ZjkzOTNmMTQ1YmI5OTgwMGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlY2FmNWZlNDk2NDVjZWUzMjc4NGQ5ZjEzYmUyOWI2MmI1OWVkN2ZjZDBhMzZiMjg4NjY3MjM3MTgzNjY2ZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZiNjQ4YWY4ZGU0ZGMzZDgyZTNmNjkyZGZkNjViZDg4NDhjZjAzNDBjYzU2NmE2NzgzMTMxMjUwMWIyZDY0MzIifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L41",
+          "version": "repo-lines-v1:sha256:2189aafceee016098ca5032ee38ec8a0cea68dca8afe417e32f59a3c3160349f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ODdlY2UzOWY5OWYxYmM4MTczYmY4ZDFiYTY4ZWYyNzhlM2ExYmI1Mzc2OGU4NTNlYzUxZWViMDRjYzZkZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlM2Y3ZDI2NzlkYjZkZTA3MDM2OTlmOTA2NGQxNzI0MThhNWU4ZWE5MTY4OGYyNGI2ZDQ2ZTYzZDExY2Q1YjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L59-L109",
+          "version": "repo-lines-v1:sha256:1cf3f1f232ceee573ebaf368e7464c76d91b58a414277d7e0d34c4a17a612a6b:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyNmZjZWZjYzY2N2Q5YmQ0ZmUxMTgzYTA4MWM5NTM0ZWNlYjEwNWUzZTFiYzE3ZDNmNzRiYTcwODkxZGUwZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzNDU0NTFlZWU4Nzg5Y2JlNWQ1YTYyNjI2Y2RkOGRjMjNmZDdhYmQ2ZmM5ZDVmZTRmMzg4Y2EwYzUwMmYzYjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiOTdiZDNhYWYzZGQ1ODFjNmU0NzlmM2E1N2I4MTI2M2M4MGViMzYxYjlkNjQ2NTdiZTQ4ZjA5NDhlNThkNGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_acfca8fdfe7f466a898e1cc25b4ba1cc",
+      "statement": "For an increase in the windstorm deductible, HO 01 32 requires written notice to the named insured at least 30 days before the increase takes effect; the notice must identify the increase and effective date, the increase applies only to a covered loss on or after that date, and a reduction does not require this advance notice.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L181-L257",
+          "version": "repo-lines-v1:sha256:6b7e37d2f33f29cbc3e8a7db26438a92504b8b0d08b034a27fbf574256bb94c5:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiZDc0MDM3YmI1N2I2ZjI4YTI1MTdlNTIzNjZlYzJjN2JjN2UzNWQ5MzljZDFkYTU3NGI4NTM0ZmNmNTExNWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQyZDI3MzMzNTFkNTNjYmYyY2FjYjhkMjM2YWMyZjlmOWQyMTUzMzg3NmY4NzRkMmFkZDEwMzlhNTVkYWQ0ODYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L167-L191",
+          "version": "repo-lines-v1:sha256:c6d0dbbaff9a96bea2e26f8bb45cf3992e5a08d9562fea51093a094fbf7cf7fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5OTQ1YjhlZTA5MTQ4MzczZDg1NmE0NTNhZWU3NzM0MmRjMjczZDIwM2M5ZjI5ODM4MmY0YmU0NmMwM2Q1N2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzM2JmNTJiMDAxYjAwZTYxZTUwMzgxNmExMGU2OTY2MmQ0MjNhNTBmMzk5MDBhZjZlZDIzNmIzYzRjYzQzNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAzOTNlZjU0Mjk4NTA3MWZiZmRlNGI1M2UzNjY3NGI5OGY3NTEwMWIwNzM0Zjg5ZDMyZmM0YzBhOWU4NGQwY2IifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L211-L277",
+          "version": "repo-lines-v1:sha256:9b8399734c32a58cc73e89e15ec12ad6d0360d9e8ddb0fce35984efdb9a5e091:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhNzExNDFkM2ViNzI4Y2MxMTQxNzMzYjc1Zjk3ODRiMTU3ZmYzYmIxYmRmOTE0ZmM3NGI5YWJkYjBiYjlhNWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyYWQwYzUxOWY2OTU5MWY2ZTRmN2Q3ZWU5MzQyYzNiZjgzNWFkOTgyMmFjOGYwNmMzYzI1YjI4NTY5ZjFhNGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM2ZDE2YjQyYWI3MTRlMmIxYWZlZTExOWEwMjdhMmVkMjdmOWUwZDc4NTM2MDEyNzgwZTQwYzVlMWQ0NDM0NGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bdc58582229c404aa778aeebe0cb8b7c",
+      "statement": "The HO 01 32 Named Storm Period runs while a governmental Weather Authority watch or warning for a Named Storm affects any part of North Carolina and ends when that watch or warning is withdrawn or expires; causation must be determined from loss facts and reliable evidence, not from a storm occurrence or damage-discovery time alone.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L19-L45",
+          "version": "repo-lines-v1:sha256:7d72948aec00c59d5fc9a1b0e69d228ccb4c2670f56f49704d7d6891f1d36174:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFkMzc1MWY5YzQ4YjQ0OGQ4MzdiNDc3ODNiNDhlOWJkMWNiMGZlYzliZWM3NTU1YzZlYjc1YmI4Yzg1ZjM0YWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzOTRhYjU5Mzc5Yzg1MWYzM2I1Y2IyYTFmNzg5MTg0Y2RkZWU2MDQ0OWNjOTI2ZjkzOTNmMTQ1YmI5OTgwMGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxZDllZDJhYmFhNTJjNWI2NTg4YzhlNzljNDczZTNiMDIxMTc0Y2ZiMTkxNmFlZjJkZjU0Y2JiNjgwMmY1OGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZiNjQ4YWY4ZGU0ZGMzZDgyZTNmNjkyZGZkNjViZDg4NDhjZjAzNDBjYzU2NmE2NzgzMTMxMjUwMWIyZDY0MzIifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L81",
+          "version": "repo-lines-v1:sha256:a89510577bbdeda780b73097687fe5559d01c7a5a0d97817d18a53a9f9641204:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5M2RjMDdmNmRiMTgwOTlhMzk3YjViOWViNTBjZTZmODljYzFiYWU0NzQ5ZWJjOGQzZmFjNzZiM2FmNDI0ZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjOWU2ZmY3YmY3OTc3ZmNjMGM4MWM5NTM4NWFhMjIzZjlmY2I2NGVjOWMyZDkzZDQ5OWI1ZWYxNDYyZjZkOGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L279-L307",
+          "version": "repo-lines-v1:sha256:0004efad6bb1a380511bfb015258018c020a69b0a9018aceef4c50e417df0012:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlNDRiNDlkMDhlZDM0MTI1NDIxOGRkM2Q4YWQ5ZWQwNDQzN2Y2M2IwZDE0NmVjZmY0ZDdmYzdjOTRmZGI5NjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRjZmM4Yzk5ZmEzYjZlYjJiMmM3NmI2ZmQ0ZjljYmYzNjQzMDc2YzEzMGM5MGNhMWZjOThjNWQ3MWU0YzI0NjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlZTE5MWZkOGQ4ZTQyMjdlOGU2NjI1YjYzMGUxZjE5YTc1NjI0MWNiMDg1NzcxMzllMDRkMTM2NTEwZDhlODYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1e8d67c36c5a49d9be4942a63da8d0c1",
+      "statement": "A Named Storm Period does not create coverage or make unrelated damage deductible-subject; when the Named Storm Deductible applies, the insurer reduces covered loss under its terms, and the insured must promptly report the loss, protect and preserve property, permit inspection, retain records, cooperate, and provide available cause evidence.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L259-L313",
+          "version": "repo-lines-v1:sha256:1c7668eb7a985348c3aead44fad143e2fa8bd4ddae4938b7a9a4000a63860fbe:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhNmU1MGVjNzQwMDlhZjU4NWQzNzEwZWEyMDEyZjlhNDA4NWMyYTYwNWM1MWZhNTkyYmU0MTkyNmZlZjU2OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L245-L285",
+          "version": "repo-lines-v1:sha256:4eb28c2b10e82848aed003f753e8abf7e2a409f0b305e5bf7d0049e621e92cdc:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwZWQyYzZlNGU4OTAzOTU3OTE3YTg3MDdjZjlkY2RmMGU2M2JhMzQwYWViZTU1MmRjOWExZDgxYzAwMWU2YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4N2FjNTljMmY0YWJkYjM0MDkzMDQ2Zjc5YzQzOTZhY2E3NTcyODkyYjIzNTk5ZGEwNjFkZTVmNjQ3MjY0ZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L287-L335",
+          "version": "repo-lines-v1:sha256:12fd978a2a3d2ca36deb24431adc645b337724cc6f5ed78f0a555a4513c8e228:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlZjllZDE0NjI1YmQwODY3YjgyM2JiNGQ4YjJiY2Y4OWE4NjU1MzMxOGU3MWI5ZmEzZjI3ZWM0MTMwN2I4NTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkYWYwMGU2MTI4MGFkYjE4OTA5NjY1YWY2M2ViYTcwYjEzMGQ2NmU3ZjE2MzBiNjA2ODllYjMxNmIxNTU0ZmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmODIzNmZjNTZhN2NiMjhkY2E1OTYwNjc1ODc1YmVlOWYxMGYwN2MzNWYxNTI1OTMyM2Y0MGIyZDI5NmVmOTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDkzNTk0YTRlZjkzZTUwNzlmNTMyMzM0ZWQ5MWU3MGU5ODEyNzI5YjgzZGQyZWRhMTFlNTE3NzI3NGZhZmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_073ae9b670db4594a86983011da23a14",
+      "statement": "For covered property in a designated Seacoast Territory, HO 01 32 defines Windstorm to include wind, hail, and wind-driven rain, applies a separate Windstorm Deductible to Windstorm Loss, and caps that deductible at 10% of Coverage A without reducing the limit of liability.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L59-L89",
+          "version": "repo-lines-v1:sha256:724fabda399f78f9b2a24ff32a0a1d1c66860bb1b9e0a3543f8aa1616a1e8a93:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjOWVlM2E3MzdjOGQxMDk4ZWQ2MWZmZDkzOGM0ZjVjMDRlOWU2NGUzYjM1MjFmMGJlMDc0ODI5NGRmYzgzZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhZWRhYzBjY2Y0MzgwYTM1MTU2ZWUzMDA2Y2JmZmVkOTY2NDU1MmJlOGE1NzE4MTU5YWNmODZlZDJjZjQwOGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNjZmJjMmI1ZDI0ODA5YjI1ODQ2YTU0ZjYxYTBkMDRiMjg3MzUxMGNmZDFmNGVkNzI2YTA2NmYxNjk1NTIyZDcifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L41",
+          "version": "repo-lines-v1:sha256:2189aafceee016098ca5032ee38ec8a0cea68dca8afe417e32f59a3c3160349f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ODdlY2UzOWY5OWYxYmM4MTczYmY4ZDFiYTY4ZWYyNzhlM2ExYmI1Mzc2OGU4NTNlYzUxZWViMDRjYzZkZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlM2Y3ZDI2NzlkYjZkZTA3MDM2OTlmOTA2NGQxNzI0MThhNWU4ZWE5MTY4OGYyNGI2ZDQ2ZTYzZDExY2Q1YjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L557-L577",
+          "version": "repo-lines-v1:sha256:6698faf5caa2ec2426744664d60463e617d707b21bc0dfea29755350892b5e18:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjMGIwYzc2NTllOGYyNGVkODI2MTQwNzFiOWRmZWQ5ZWMzOTE5ZDUwYjY0MDhkNWVhYzFkNjNmMmRhOGU1ZGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxOTNlZWJkNjU1YTczZmI0N2U5NTI3MmU1NTQ1OTBmOWNjZjI3MDg4ZTc3M2MxMjEwZDkwYTJjYWM2YzI5YTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlZTlhMDBmMWVkNDAzYWMwZTg4OGUyMzE5OGM4OTg5YzRlN2UxNjQyMDAwNjU5OGY0MmQxNDU1OTViOTE4ZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2Yzg0NWZmOGUzZDA3YzgzNjkxZjhlNTA1OTVjNDMwMDViNzM4ODdiNTU3NGJhMGQ4YTU5NmFlYTMwMjZmMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_12b3cd1069c3415482a077a162461388",
+      "statement": "HO 01 32 requires at least 15 days' written notice before cancellation for nonpayment, at least 30 days' written notice before cancellation for another permitted reason with the reason stated, and at least 45 days' written notice before nonrenewal with the coverage-end date stated.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L181-L257",
+          "version": "repo-lines-v1:sha256:6b7e37d2f33f29cbc3e8a7db26438a92504b8b0d08b034a27fbf574256bb94c5:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiZDc0MDM3YmI1N2I2ZjI4YTI1MTdlNTIzNjZlYzJjN2JjN2UzNWQ5MzljZDFkYTU3NGI4NTM0ZmNmNTExNWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQyZDI3MzMzNTFkNTNjYmYyY2FjYjhkMjM2YWMyZjlmOWQyMTUzMzg3NmY4NzRkMmFkZDEwMzlhNTVkYWQ0ODYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L167-L243",
+          "version": "repo-lines-v1:sha256:90bdb0737e5ce9e40f3e3aba619547dd5679ed7f668289e438a0296499f558ed:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkOWFmZjQ2YjQ5Njg2NmJlMjhkMWQ1MTk2M2I4MjBiNzU3NWU4YWVkNTQ2ZGZmM2Y4YjdjMzE1MGUyM2YzOTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzM2JmNTJiMDAxYjAwZTYxZTUwMzgxNmExMGU2OTY2MmQ0MjNhNTBmMzk5MDBhZjZlZDIzNmIzYzRjYzQzNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L337-L369",
+          "version": "repo-lines-v1:sha256:67b02275b72ac5aa6f8d4be7483c2a8df01ac177779d3835ad7e90c3df003108:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5NzJjZDRkNWIxMzlhOTYwYWMyZDRjZDJmM2Y4MzA3YzAyYzNkMTA5MWRlYjRjYmYxMDYxMmRiZjc2ZTBkNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3NjZlODQ4MmVmZWU4MmM4ODJhZjczZGIyOGRjN2Y3NzgwMzAyYjZhNzcxMzkyZWJlZjIwMjU0OGQzOTVjOGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1OTNhYWFhMGJlN2NlZjRhNzhiN2I2MWY0NDYyMTFhNzhiYWI2YTJhZDhmNjcyYTliNjc0NzM5MzAxNTgyMzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzNjIyZjRiZGZiYmVhNDI1YWNlOGUyZDUzNDhkNWFlY2Y0YTYzOTAwNjJiYjU1YWI1ZjEwZWRjNzdhOTAyMGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a368cf0a186448948323f280f5a2ec0f",
+      "statement": "The insured's North Carolina claim duties include prompt notice, mitigation and protective repairs, preservation of damaged property and evidence, inspection access, cooperation, reasonably available records and estimates, signed or sworn proof of loss when requested, examination under oath when reasonably requested, forwarding legal process, truthful information, and preservation of recovery rights.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L261-L313",
+          "version": "repo-lines-v1:sha256:7cc8fce830a4f476beed13f8db3564e1e3a4c7250cf8cdf8c33243d04762b863:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2MjI0NDlmZDA5MmI3OGZmYjZlNjA4ZGQ3MWM0MjAyYjZjYmMxNWYxNjVmNzQ2MmRiN2NjYjVkNmEyYzgyMzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L49-L81",
+          "version": "repo-lines-v1:sha256:404946af9ef5eb17fbe55765f8aea0543b97e2880607c522a545f3ed46069e97:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5M2RjMDdmNmRiMTgwOTlhMzk3YjViOWViNTBjZTZmODljYzFiYWU0NzQ5ZWJjOGQzZmFjNzZiM2FmNDI0ZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZkYWY0MjM3Yjg3MDhjZjYwZmNjNTYyNWE0MzA1ZmY5Njc0MmNlMjc1ZjAyZjIwZjJlMDQ5NzZjNTQ4MWYzYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjOWU2ZmY3YmY3OTc3ZmNjMGM4MWM5NTM4NWFhMjIzZjlmY2I2NGVjOWMyZDkzZDQ5OWI1ZWYxNDYyZjZkOGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L455-L555",
+          "version": "repo-lines-v1:sha256:397047c1325081854bc1be50ad4755cb2f4240d00374ab54a0822b04ca38b53e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5NzBlMTIzYWVkZWQxZmY5ZTRmNTdmYzA5NDUxZGRmMWZiNWY4NTc1ZmQyY2I4ZjI2ODI5OTVmYjk5YzU1YThhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJlMGU2OTMyNWI2MGViNWNlYzJkMTkxM2MxNmJjNTkxODRhZTM2N2EwY2ExNzJkNTYyNmMxYzBkY2VkMzBhZDlkIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIxODAzMjYzNGZkMmU5NzY1OTlmY2Q3MDFhZjA4OGExNTUxYjlkYmVjNzE5YmQ2NzFmOWQyM2I0ZGRlZjdkZjUzIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI5OGUyYWUzODAzYWY4ZmUxNmY3NGYyMDBmNDUyYjM3Y2U3Mzg0NjFiODgyZDYwZGEwMDA2YWUzYzcyNzkxMzg1In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_ea768ef15af047d49067d13e92d363f8",
+      "statement": "The insurer must handle claims in good faith with qualified and supervised personnel, acknowledge communications, investigate reasonably before denial or refusal to pay, use relevant reliable information, identify relied-on policy provisions, pay undisputed amounts when due, and give clear written explanations for denials, limitations, reservations, partial payments, or partial denials; delegation does not transfer insurer responsibility.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L259-L313",
+          "version": "repo-lines-v1:sha256:1c7668eb7a985348c3aead44fad143e2fa8bd4ddae4938b7a9a4000a63860fbe:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhNmU1MGVjNzQwMDlhZjU4NWQzNzEwZWEyMDEyZjlhNDA4NWMyYTYwNWM1MWZhNTkyYmU0MTkyNmZlZjU2OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L13-L285",
+          "version": "repo-lines-v1:sha256:0425361cc8596ee050e008b47ea7816c6d84e46d811d2ba173ed778a40bb1d18:eyJzZWxlY3RlZExpbmVDb3VudCI6MjczLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI2ZjBmZGMzNTNhMWZjZjI3MDc5NjQzZDU0NDI1ZGJkZDQyNjJmN2VkMTkwMThiNGM0NDdhN2U4YTcwMTM0M2EyIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJmMGVkMmM2ZTRlODkwMzk1NzkxN2E4NzA3Y2Y5ZGNkZjBlNjNiYTM0MGFlYmU1NTJkYzlhMWQ4MWMwMDFlNmIwIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI2YTNjZjUxOTIzNTRmNzE2MTVhYzUxMDM0YjNlOTdjMjBlZGE5OTY0M2ZjYWY1YmJlNmQ0MWFkNTliZDEyMTY3IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI1N2RmZTQxYjAwZThiYWFhYjQyOGJjNTRhMWYxZDhhYjM3MDlhZDUxNTU5NmY3OTc2MDMwZWNkM2YyNDUxZTBhIn0"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L455-L555",
+          "version": "repo-lines-v1:sha256:397047c1325081854bc1be50ad4755cb2f4240d00374ab54a0822b04ca38b53e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5NzBlMTIzYWVkZWQxZmY5ZTRmNTdmYzA5NDUxZGRmMWZiNWY4NTc1ZmQyY2I4ZjI2ODI5OTVmYjk5YzU1YThhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJlMGU2OTMyNWI2MGViNWNlYzJkMTkxM2MxNmJjNTkxODRhZTM2N2EwY2ExNzJkNTYyNmMxYzBkY2VkMzBhZDlkIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIxODAzMjYzNGZkMmU5NzY1OTlmY2Q3MDFhZjA4OGExNTUxYjlkYmVjNzE5YmQ2NzFmOWQyM2I0ZGRlZjdkZjUzIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI5OGUyYWUzODAzYWY4ZmUxNmY3NGYyMDBmNDUyYjM3Y2U3Mzg0NjFiODgyZDYwZGEwMDA2YWUzYzcyNzkxMzg1In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_2fd30ad788124572ac6e64ab8ff04042",
+      "statement": "For an HO 01 32 claim, the insurer must acknowledge receipt within 30 days, accept or reject within 30 business days after receiving requested items needed for the decision, and pay an accepted claim within 30 business days after payment becomes due; an action against the insurer must be brought within three years after the date of loss after policy compliance and subject to applicable law.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L259-L313",
+          "version": "repo-lines-v1:sha256:1c7668eb7a985348c3aead44fad143e2fa8bd4ddae4938b7a9a4000a63860fbe:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhNmU1MGVjNzQwMDlhZjU4NWQzNzEwZWEyMDEyZjlhNDA4NWMyYTYwNWM1MWZhNTkyYmU0MTkyNmZlZjU2OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L245-L285",
+          "version": "repo-lines-v1:sha256:4eb28c2b10e82848aed003f753e8abf7e2a409f0b305e5bf7d0049e621e92cdc:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwZWQyYzZlNGU4OTAzOTU3OTE3YTg3MDdjZjlkY2RmMGU2M2JhMzQwYWViZTU1MmRjOWExZDgxYzAwMWU2YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4N2FjNTljMmY0YWJkYjM0MDkzMDQ2Zjc5YzQzOTZhY2E3NTcyODkyYjIzNTk5ZGEwNjFkZTVmNjQ3MjY0ZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L455-L519",
+          "version": "repo-lines-v1:sha256:d926522b34693c900f20f3f060bd448ae1e431f48c439ad9e71980a2124110b8:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3OWZhZjg3ZWYyYTQ1MTE2ZGE1MjRiNzQzZmEyNmYxYTI3ZmM4NGM5NjQ3ZGM4M2U3MmJmMGRjNmFlNTRkNDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4MDMyNjM0ZmQyZTk3NjU5OWZjZDcwMWFmMDg4YTE1NTFiOWRiZWM3MTliZDY3MWY5ZDIzYjRkZGVmN2RmNTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjMGQyYTIxZGUxMGZjOTkxM2Q1MDAzNTBiODVmOTVjMzA4YTczYTkxNjYxNzdlMmM3Y2MyMmE0MTYxMjUwMmQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L625-L665",
+          "version": "repo-lines-v1:sha256:4204fefcdb207e29c602cc3626864aecadd2d77acfad47bb417ff58343b7d21b:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzYzhiODQ1NWJkNzMzMGMxZWYxZDYzYjdiMmE2M2Q4YTg3ZjdjNGQ1OWNmMGEyMGYyNzgxZWNmODZiYjZhOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmOTAyZDEzZmY2NjA2OWZkYzRlMjNkM2E4NjVlN2E2YzEwNTgxMmQ2MGZlYjFlNmRhYzAyZjc2ZTZhM2Q4NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4MDliYTg3ZWNlYjA3ODA2NjY0MWM5MzNkMzFlNzJmNGI4ZWJmYWQ1Y2U2YzJlMjRmYTAzYTBmY2ZiNmU1YzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bcfb6b863c2148a2988aa08603d2cd5e",
+      "statement": "North Carolina claim-related notices must ordinarily be written or lawfully electronic, understandable, identify the insurer and contact method, explain relied-on policy provisions and material facts, distinguish accepted and disputed portions, state the basis for the claim position, and preserve recipient, delivery, investigation, evaluation, payment, and decision records; later material information must be considered and undisputed amounts cannot be withheld solely because another portion remains under review.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L271-L313",
+          "version": "repo-lines-v1:sha256:377232df8947ca108c4b9e4d009b4cad379fdc55c8f638a5520c8f1fed80f573:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwYmYyZGRmZDVlMzNkMzU5YjVmZTk5OGYwN2JlYjBhN2M5NzIzYjQyYWZhNDE4M2EyMjc0ZDgwZGZhMzNhMjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5MTIwMjRkMGU5OGNiZWJjMTVhOTFkN2FhMzg1ODZiNjI2ZmQwNjlmZjE0YjU4YTk4YzA4OTBmYzU1NDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFjODE5MDJhN2JmYzc1YzI1ODA0NmRiOTc0OGJiODAwZjQwNzQ1MzgyOGI4NzFkNGU4OGE2YzI4NDU0NDYwZjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L167-L243",
+          "version": "repo-lines-v1:sha256:90bdb0737e5ce9e40f3e3aba619547dd5679ed7f668289e438a0296499f558ed:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkOWFmZjQ2YjQ5Njg2NmJlMjhkMWQ1MTk2M2I4MjBiNzU3NWU4YWVkNTQ2ZGZmM2Y4YjdjMzE1MGUyM2YzOTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzM2JmNTJiMDAxYjAwZTYxZTUwMzgxNmExMGU2OTY2MmQ0MjNhNTBmMzk5MDBhZjZlZDIzNmIzYzRjYzQzNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L197-L231",
+          "version": "repo-lines-v1:sha256:d9aa0eecfb807d38180386bf9466b262c2fd208f922066e493aef3cb57239995:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5NjEwOGU0NGMxYTRiOTAxMzJhYzBjNzQ5NmRhYTQ4ZmQ1ZjAyZWY2Nzk4YWY1ZDA0MTJiNWFiMzY0Mjk2MjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0NzZkYTRkM2M2MDllZDk0OWQ2MTRhMDA2MDZhZDcyN2Y5ZmQ1Y2ZiODgxYWVkNzNhZWQ4MjMzMDIxYzk1MDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3NGQzMTEzMTQ3NzAwZjBmYmQxODJjYWExMzUyNTc2ZWYzYjhiMWIwOGRkOWYwOTAzYzA3ZGMxODVmNzViYWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg1YTllMmEwYzg4NmI0OWJlNDkxM2IxNTNmMzIyNDY4M2ZjZDcwNWMzYzAxYTVlZGMwNTQxYjExYTQ3ZjRiYTkifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L69-L81",
+          "version": "repo-lines-v1:sha256:2991fac9b8eb60718737a80cbef2a08a62a0c7d19012d14650526061a4da0609:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzNjQ4MzM5YzZmMmUyNTRlNzAwZGE0ZWU4ZWZkZmE4MzgzMjJhZmMyZDJiMDZlOTQ5OTg3ZDUzOTU4OGNhMDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5M2RjMDdmNmRiMTgwOTlhMzk3YjViOWViNTBjZTZmODljYzFiYWU0NzQ5ZWJjOGQzZmFjNzZiM2FmNDI0ZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA5Y2UzYzlmYzgyZTk4YWM0Yzg5Y2FjNWJlOWEwMjM4Y2I1MGNlZmY0MGVlMDQyMzc4NGNlZjBhZWFkNGU0YzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjOWU2ZmY3YmY3OTc3ZmNjMGM4MWM5NTM4NWFhMjIzZjlmY2I2NGVjOWMyZDkzZDQ5OWI1ZWYxNDYyZjZkOGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L503-L555",
+          "version": "repo-lines-v1:sha256:2408713ae751b7d8bef7f28105bff7fadb0ba351f6cf84fb022d9296bfe0d498:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMmUxZDBmYzZiZjg1Y2RlMGYyOWVkMzc4MGMyZjcwYjIwMTM2YTI5Mjk1OTRmZWQ4NmNkMGUwZjFjNjZlNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwZTY5MzI1YjYwZWI1Y2VjMmQxOTEzYzE2YmM1OTE4NGFlMzY3YTBjYTE3MmQ1NjI2YzFjMGRjZWQzMGFkOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEwMTc5OTdkMTc1ZWFiOWU5YmFhYmRiODM5NjJkOTVkZGY2Y2JjZjc3MDdmMTZkOGJkMjdiZDAwNThmMDYxY2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4ZTJhZTM4MDNhZjhmZTE2Zjc0ZjIwMGY0NTJiMzdjZTczODQ2MWI4ODJkNjBkYTAwMDZhZTNjNzI3OTEzODUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c9a3b59764564112a1b439324a337b4b",
+      "statement": "NCDOI-2021-06 requires written claims-handling procedures and, when the Department requires a filing, disclosure of the insurer's acknowledgment, investigation, evaluation, payment, and written-decision standards; material procedure changes must be filed before use unless directed otherwise, and records must show compliance by delegated personnel.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L315-L347",
+          "version": "repo-lines-v1:sha256:f46edf2c19c860f172924611145a583c0de0edf9baec2c1902014c7d7aa1ded2:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2MDBmMTkyYjg4ZjQwOWQzZjdkMWM3ZWUwOWZkM2VhZGViZmNhMjFiNzBhNTU4OWQ5Y2ZmYjBhNjc5YTVjNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgzNWE0NmEzY2FlMjZhNjg3MTBiODg3YzJmYzBjN2FjNzk4NWUzOTcwMGUyNDNkYmU3ODU0ZjAxZjBhMjZhMjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L287-L311",
+          "version": "repo-lines-v1:sha256:96d958c906985282361795ab6a99ef8e9f9bad0f648317e426eeaddee0547ca4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkM2U3NWI5YWVhMTA1NjVkZGJhM2ZkNzdkOTY1ZmNjMTliYmY5YTM5MDAzOGMzMDZjYjk5YzE2NDg4MDE0YTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyYjllZWJjNTE5YzdhZTBiMWQwNzQyYjNkZDc5M2VmYWIxN2IzZjRhNzkxZTI5NzY2MWUxODI1M2RlOWMyYzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L543-L555",
+          "version": "repo-lines-v1:sha256:2c1e549a3d6ecd639caebfaac2e72519cec9a72c534141c4175cc631d5c758d1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2OWYwYjMyYTU2OTRhZWY3OTQ5ZjAzM2E2M2NkZjAwYmVkZDI2NGI4ZjViODQxMjdhMTY3ZGJiZDNhY2I3MTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwZTY5MzI1YjYwZWI1Y2VjMmQxOTEzYzE2YmM1OTE4NGFlMzY3YTBjYTE3MmQ1NjI2YzFjMGRjZWQzMGFkOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU5MDlmNjk3YTE2MmQwOWVmZDViN2FiY2FiYTZlMWM2ZDI3Nzg2MWI4Y2JlN2YwNWNmNTQ5OTlmMTE2MzgyYTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4ZTJhZTM4MDNhZjhmZTE2Zjc0ZjIwMGY0NTJiMzdjZTczODQ2MWI4ODJkNjBkYTAwMDZhZTNjNzI3OTEzODUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a3b5f1cc617b4760b8fac0df31ed36fb",
+      "statement": "Rule 550 requires pre-bind delegated-authority review and referral or documentation for North Carolina risks including Coverage A above $700,000, roof age at least 18 years, unresolved ownership or occupancy, business or rental activity, water and moisture conditions, unrepaired losses, fungi-aggregate changes, requests exceeding the seacoast deductible ceiling, incomplete or conflicting material information, and exceptions; these are internal underwriting controls and cannot alter coverage.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L35-L57",
+          "version": "repo-lines-v1:sha256:b4a9d008370ac01a27f8474e160d39e8e46b9a68577491f53d7a052bbcff24ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0M2Q3ZDhiNzcxZjNlZTAyM2Q2ZjFkMjE4NTdiN2FjMzMwM2FlYmJjZjMwOThmZTljNWFkMjNiMmZjODhmZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MWFlNzYxZTc3MzJiNGYyZTJhMzQzMDJjMDM5NzNiNzUzZTc1OWRhNjA0NTU4ZGVjMTI5NzJhYmE4ODJhMjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhM2FhOWY3OTVjZjFlZTEzNjllY2ZiYWYwOTYyMTNiMjQyN2JlMGFjODUyYTM3ZTI4ZjA2ZWY4MGNjZDU5NTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlZDdhYTE2Y2U0ZDhkNzFhZjc5NzY0M2EyMDdkZjEwZGRiNjc2ZTRkMGUxYTQ3MjQ2N2E3YTkzYjkyODhiNjQifQ"
+        },
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L27-L41",
+          "version": "repo-lines-v1:sha256:2189aafceee016098ca5032ee38ec8a0cea68dca8afe417e32f59a3c3160349f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjE5NjkyYzQyODQxZGE3ZTk3ZTU3ZDg5MjE3NTM1MmEyNWFlOWE2MmQ3Y2M1MjMyYTE0MjljZjk3OWZiNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ODdlY2UzOWY5OWYxYmM4MTczYmY4ZDFiYTY4ZWYyNzhlM2ExYmI1Mzc2OGU4NTNlYzUxZWViMDRjYzZkZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiYjBmOWMwYzExZDRhM2MxZmJmNmRkZmExOGI1NzY4MjM5MWNkOTA5MjhjNzE3YjRiNjQzYjA0Y2ZkOTA3ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlM2Y3ZDI2NzlkYjZkZTA3MDM2OTlmOTA2NGQxNzI0MThhNWU4ZWE5MTY4OGYyNGI2ZDQ2ZTYzZDExY2Q1YjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L13-L57",
+          "version": "repo-lines-v1:sha256:0b64ccadf8ce26d405fd97af0603387af3b4b45211f5b873016b0978f90ffea5:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4YWYxOWQ2N2ZhY2YwMDFkMGZiYzVkOWFhMWJkYjRjY2VjZTQyZTc3YjI0ZmQ2YjM5NjgxNzFlMGQzZjkyMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlYmQ0MDY2NTVlM2Q0Yjk2NmI4NTAzMGFkNmI0YjBkODgwNWFlMWZkZTlkMjdlYTZmMGZlMWE3MjZhYzUyMDQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L13-L61",
+          "version": "repo-lines-v1:sha256:7b528e9273a5fbf016493283d72edbe81d85a502133c1c4281362e6b830b4cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmMmVjZGFkMGUxODc1NDU2N2I1ODU1MDVjNTAzODM2ZDQxN2M2YzFhMDdiMTFlMGE0MDVkZDA3MDY1YjI4Y2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM3MWM3YjllNzcxZWE1YjJiOTRjMzg4ZTA2Y2I4ZGNiNGZkNGM5N2JhZjUyZGU4ZmJlMmQzZTIxZTgzNDM2ZTkifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7531-L7583",
+          "version": "repo-lines-v1:sha256:fb9ba0aea236268801f358b7e4dcffbecd866320fe5a4e8bda1b471a85057bcb:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZmZDM4MDUwOGYwMWEzYmFjMWYwNTVmNTRlN2ZkZjllMWEyY2QxMmE3MTliOGUxNGIzZGMyZTJhZTIwY2VlZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0N2ViZTNiOTc0YjY0NTQ2ZGQyNjE4OWU3YmZhM2ZmNGU1ZjhkYWU1ZmE1MTYyZTMzZDY4ZDBmODdlNWYzZmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVlNGU1Zjk5ZTQyMzY3YzdkNDJiNGM2ZWYzZjViNGUxNTZhNTI3ZGI0MDVhMDhhZTcwM2EwN2YwMzhiNjlhMzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJmZDE0ZWYzMWRkMzNjMTgxNzU3Zjc1YzZhNmI3NzhmZGJjNjA2MGZjNDc5YWFkNzFhNmI1ODA4ZTkyZTE5ZmIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7681-L7699",
+          "version": "repo-lines-v1:sha256:9b59916243a34402922579bd212587172e45ae858d2c312286a11d1da81c2585:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliNjY4ZjRjNDg5ZDRiZjkwNjMxNDk3NmE1YzgwZmU2NjA4MDIwYTU5YTUyMmRlMDlkOWE4YTUwY2Y2ZjZiZTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzZjM3NDcxMjA0MjczNWVmZjFiYzkzOWRjMzZiZmY1MWM5NGE0MWViZTMzYWFlMmM4YjcxYWY0ODcxZDIyOTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjZTQxYThhM2RjMmM4N2JhOTEzOGNjOTQyYjE1NGRjYWUxMzFjNjFmODliNTk4YWZmOTVlOTQ3ZmEzYzM1N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjMWVhMWMxMWNjY2MxMTBiZDNhMTk3YTM3MTg5MjEyMjVhNzJlOTJhZDdiMTEwN2ZhOWNhYjFhNzEyNWFhZTAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7705-L7855",
+          "version": "repo-lines-v1:sha256:cf1437f28a131562332b1b8a7d6559596e6b7667f4e7effc2c2c52d1f473be55:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJiNDAyOThkY2NjMTRkNTE3YzRiYjdmNTcxMGU1ZDg0OGFiYWNiZjk2ZDBlMmYzYzI1ZDU2MDRhNjk4NGU0YTkxIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIwY2FiZDg1OWY3YTU0OWZkZDZmZjJkNGQ1NmVkZDc3YTA1NmRhMWNlYzJlYjc1MWM0ZjQ4ZWU5NWE2NzNhOTVmIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJmNDhiNjU3ZTcyZDI0M2Q5ZDgxMTQyMzZiMjA4YzhjMWFjYTZkZGRmZDUzNWVkYjBjMThmNzRiMWNhYmVlMjYzIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIzYjVjYjE0MWFhYTE0YzZlZWM0YjI3ODVhYTU3NzhkZjQ3OTY5N2U5YWE3OWYyYTc4YTlmMmMxM2ZlM2Y3ZDFmIn0"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

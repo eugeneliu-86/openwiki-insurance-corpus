@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7629503556ae65233b5f846b145a21024cc1e9035038004a84f9508801faddc2",
+  "claims": [
+    {
+      "id": "claim_da922bdee1c747e78cd09da4d7744918",
+      "statement": "Texas policy handling separates the attached amendatory form as contract authority, Texas bulletins as regulatory constraints on offering, disclosure, filing, and administration, and Manual Rule 510 as internal underwriting guidance that must not alter coverage.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L19-L25",
+          "version": "repo-lines-v1:sha256:c9934aaa272fa4b3b22bd14aff8dbb9ac432aa5ae6276f6785b0251a4099be7b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIzZTEzNmMzODAzZTRiNjJhODJlYzhhNWQxMDA4OWQzOTI0N2EyZWZlNjdjZTA5MTI3NTI5NTg2NmIzOTdlYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDM5ODhlNjkyMzQ5NWM2OWFjOTZiNGY1NmJkNzFhM2YxODYyYjg2ODIxYjFhNWFkNWZjYTllNjE3NDVkNjY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk5YTFlYmM4YTg0MmY4MzQyZWZmMGQ1NWEzOTI0MTM3OGM4NmU1NTE4YTZkNTczNGIzOWViY2Y5MGRiNzNhNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODE5NThlMjk0Yzc2YmY1NTJkM2E2MTdkMzFlNWVkYTA4YzIyOGEzNGRjZmM5YjRlNjg4NGY3M2M1ZGI4NDk4YyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L13-L57",
+          "version": "repo-lines-v1:sha256:3a64f9e7a1fe988fa5da4ae447cb4d2b757093f240417802a65c6c305e332043:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwMzk4MjQxYzkwNDRlMDM4NWI0OTEwYmMwY2U0MDY4NGIwN2Y0NzlmMzZkOWQ4YWJmY2FhYjZjMWRhYjkxYTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlYmQ0MDY2NTVlM2Q0Yjk2NmI4NTAzMGFkNmI0YjBkODgwNWFlMWZkZTlkMjdlYTZmMGZlMWE3MjZhYzUyMDQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L37",
+          "version": "repo-lines-v1:sha256:3c1146fcffb84e45f209bc9eed99ffc7e9fa8d1c91e5443e0a5497cc3cecf6df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ba4416e4d9f458ab7c6f83a0e85823e",
+      "statement": "HO 01 45 Texas 2019-01 is effective 2019-01-01 and is superseded by HO 01 45 Texas 2022-01 for policies effective on or after 2022-01-01, while remaining in force for policies written under the earlier edition; the 2022-01 HO and DP editions are effective 2022-01-01.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L1-L7",
+          "version": "repo-lines-v1:sha256:b55f79287f48bb7622addd1627c574f0578b279d3068bccc98c6a03ae6ca8665:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlZDI2Nzg4MWRlNjA0ZTI5Y2Q4NTQzYTc4NmM1MWM2ODVmYTJlNzg1YzExY2QzZjNlYzFlMDA3NzNhZjk4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGQ1ODJmOGFmM2FkNjRkYTYxZDkwYjJmMTQ2YjAzMmJlNjA3NTY4OWUyNTk2ZjI4YzVlNGYyYzIzNzY2YTMwZiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L1-L10",
+          "version": "repo-lines-v1:sha256:043167eaa643e7f040321d545fdfbdd484f50b7d250bcdc09972ebf254e6b6a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjMWMxYTZiMTAzNTFkNDE5MzlhZDRkODFkOTI2M2RhYjAxMTVjMmY4YjdhYjEyZWQ4YTFmNzRmMmFiMzNjNWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3YTdiMWIwNTNlZTQxZjg2NzExOGI4ZDBlMzcwNGEwNWY1OTM0MWZmZjM2YTcxNzU5NzY0ZDk0ZjhiZDk0MmUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L7",
+          "version": "repo-lines-v1:sha256:762334225fbe45941a43563717d525714e68ec2fac097e08b834f57c12895bd2:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlZDI2Nzg4MWRlNjA0ZTI5Y2Q4NTQzYTc4NmM1MWM2ODVmYTJlNzg1YzExY2QzZjNlYzFlMDA3NzNhZjk4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWM0MWRhNGFmOTU2NDcwYzhlYmQxNjY0MjBkNTMzYWRlYTk0ODg2ZGUyYjI0MTQzNGNlZTZiMDY2MDg3MzgzYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9f45e455490f4968a93f929ebe2f0e7c",
+      "statement": "HO 01 45 Texas 2019-01 sets a 1% minimum and 5% maximum Windstorm and Hail Deductible for covered direct physical loss caused directly or indirectly by windstorm or hail, including concurrent causes; the deductible is calculated from the deductible basis and applied before payment.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L59-L83",
+          "version": "repo-lines-v1:sha256:a977485e26af83b779274899a1f2c58c631aa45b6b39f52748772e72c3cd14b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3ODNhZjVkMmFkYmQ1MTVlOTA5ODc3MDEyYjdjMGRiY2NhYmFmY2M4NzliOWJiYmZlMTdjOGY5NDBlZGQ3OTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIwZTEwNmNjNjJiMTJiNGUzODQ3OTM3MGI0YjJiNjlkYjAzZmZiYjdkOWY2NGMyNzc0NDlhZTYxMjU2NGRhMTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJiNjgwODRkYjhkYWIyMTA4MGNmNGYzMDVlMWRhMGM1ZWIyMGY3MzgyMGM4YzIxNDc0ZDk2NDM1NzVhOGU1ZjcifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L99-L107",
+          "version": "repo-lines-v1:sha256:3a3e189982de0227e3362809a7652c8b1f33570b62a8bfffcb90795d0e598e4e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRmNGZhYThlOTJhZDY3YzdlNjAzNmYwZmRmNTBiZWZmZTRlMjY0MTkwZDgzNDJkN2ZmOGRlZDk4ODAzZTA0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThiZDA0YTdkZmM5OGM2OGRhMTAzZjlkMTFjNWM5ZDdhNTJmZWEwMmVlZDY5MTkyYjdhMDlmMGY4ZDhlMTVkOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2VkYzM3OTA1NWU5MGQwMzMxMDJkNWQ0NGIxMGViNTU2MTc3MWE0ZGQyMWQ0Zjk2OGQ1OTNjNTUzYTZiMzQzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2VkNzJmYjUzMTcwYmM0ZjExOWFkZGEwMGY5YTE2NTY2ZjJmMDczYTcwMDBlMzFiMmEwNWM3NDFlYmUzMGQ3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_257ee201927e49939d2e0baf3f766f8b",
+      "statement": "HO 01 45 Texas 2022-01 sets the Declarations-listed Windstorm and Hail Deductible at 1% to 10%, calculated from the applicable limit of liability for the damaged property and applied separately from other deductibles before payment.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L73",
+          "version": "repo-lines-v1:sha256:33f461092191cc67db48f0edbd3692be0f105e5bade3bf4aa717d0c1717fe827:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0YWI2ZGI3ZDQ5YTdiNDQ3Nzg5YmYxMDM3YzA2OGVlZWVlNWI5MGUzYzc0YmJkODQzNGRkNTJjZmZmNDYwNDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmMTRiMGZkZDIxZDcyMjZhZjBmNWI4MmFkMjAzMzY2ZTc4NzBkZGM3YWY1Y2M3MmQ0MDk5Mzc4NWUzMjg4ZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4ODlkYjVmMThmYzE1Mzc3NmI1NmQ5MmQ2ZmI1MDEyZWQ0ZTA0NmZmMDc3ZTUzZWI5NzYxZDkxZTQ4YjM2ZTkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e4189b173b1947a8aebbf401374512ef",
+      "statement": "DP 01 45 Texas 2022-01 sets the Declarations-listed Windstorm or Hail Deductible at 1% to 5%, calculated from the applicable amount of insurance and applied to the covered loss from the occurrence after coverage and valuation terms determine the covered amount.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L143-L161",
+          "version": "repo-lines-v1:sha256:3b80fe1ccef4922c4029167f39dd69f267022642e9f5593cbf486840eeeb343c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxMmMxYWVlNWVhYjlmNDZiZmVjOWY4MjY2MmZhNDVlZDNlMzRmMjZmZTYxYTEyYmY3MjU0MTJhNGUxZTI5ZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczYTgzNTdlZTU1YWZkN2Q2OGYzZDkyMGU2OGM5NDA2ZDdlODVjZTYyYmRmMzdkMGQxZjY0YTgwZmJlOGI0NjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQzNDA5MjMxMmI5YTM4NWU1NTNiNmU1YmQwNTA3ZTQ5N2UyMDU5ZWFhYWFiY2E0N2QyNmMyZWE0MThiNDhlNmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxYzc4ZjMyOTlhNzE1OTg2OTg2MWY1YzAzZmQxMjYzZDA1NWI0YTMzOGNjZWQ4MmRjMTI2NzliZTU0MjlhYjMifQ"
+        },
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L61-L95",
+          "version": "repo-lines-v1:sha256:8b62871a148ddb88afd5b0ded38af94abaf11526b67275bd93baf7c0e696d05b:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4ZjhlNjExMDUwY2U2M2E3NTYxNGVhMzU2MTFmMGQxZGQ3MTcyZDY0MjRlY2Q0ZjZmZmIxMWRkOGQwMTZhOWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUyZGMwMjUyMTYyYjY3YTEwY2RjOGYyYWQzZDAyNmU2Y2U3NzM5ZTA1YjA3ZTMzOTJhYTE5ODEwZDNmMWY1YzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjMWY4MDM5MmM2YWEyOWY1YTkxMmY2YWM5OThiZDhiNTJjZDhjZWJiNjUzNzVjODZjOWE5YWZjMTkxOGVkNjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_255f2cab0a984382b5b8cc291fe621fe",
+      "statement": "The Texas HO 01 45 2019-01 and 2022-01 forms and DP 01 45 2022-01 each define a Named Storm Period beginning at the applicable official or governmental designation and continuing 72 hours after the designation ends; the period does not itself create coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L281-L299",
+          "version": "repo-lines-v1:sha256:8f6eb2673aa8b4df8e149fe57c2b91ffc6af07ccb7e550e56424176a1c7d6e9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4NzNkMmQwNDY1M2JkMWE5ZGQ1MzlkZmM2NDk2ZmUwMWNkY2M4ZGJhOTc3NTdkODI2ZGJlZDVmZjVkZmUxMzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAyZTYxYjNlMzFmZTZjNDNmNWEwNWZmNDhlMzIwOTEzODkwYzNiZDg5NDE5NmE2OWE2ODdlNjYxY2FmZjVkMzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmOGIzZWE3OTkzNjM2ZGQyYzVlY2UyNjk4ZTcxOTYyZDBiYjJmYjY3OTVjNTgyMTAxNTZlMDMyNzZmOTI5YmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L237-L253",
+          "version": "repo-lines-v1:sha256:9410f075694b40532a2c36ab150f547f2be8966d7096497619aeb9723d3ce24b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkODM4YWJhNjBhMDViMmYxYjkyNGNkMDM1MTczMjZjOWRkMDAwMWZhNTdiNjE1MjQ4YWY1ZDkzMjY3ZjMzMTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5NDA0YmM0YzM3MWZiNDY3NmJlYWU5YmZkYTNmNzU3ZGZjOWY4MGQ1MmQyYTFiMjZkODZmZThhYmU0YTU2MmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM0NGRlYzExMWE4YjBhYzdlNjczZTQ3NzEwOWY0MTZkZDc1ZmFkNzNjMTk3YjkzZjI0Mzg4MjEwZWRhYjkyZjUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L217-L253",
+          "version": "repo-lines-v1:sha256:7556d491da654fd1d7f106d7b21f745bfe96a7f683bd57174606fbfd7b1a67b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3ZmQxZjgxODFmYjAyZWZlY2FhY2M0MzJiMTdmYWEwOTBlNDcwYzllMTg5ODY3YjBiNzFiZWZjMzczMDU1OTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlNTRmMGExMTE1Yzg4MjJhYzBkNWEwMGIxYTZkMTZkZjhjNjE3OGNiMGM5MGIzZjBkYzg1NTE4OWY3OWY4NTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU5MTNiZTU4YWViMmYyNmZlMzM5OWY1NDUwNjdmNDYzYzg4ZWJjYzEwODVjMDc4YWIwMzc4NjcwNzI5YTkyNzQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f865cb1d3df443a09c9ad001f3142887",
+      "statement": "HO 01 45 2019-01 requires 30 days' written notice before an increase in the windstorm deductible, HO 01 45 2022-01 requires 45 days' written notice, and DP 01 45 2022-01 requires 30 days' notice; the applicable deductible for a loss is determined by the policy or change effective on the date of loss rather than the report or payment date.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L215-L245",
+          "version": "repo-lines-v1:sha256:55ac1ebfb82bb6e534534c13f13472c2126bb942066846968d33cc8819f4b2a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwYTE1ODhmYTNkZjA3NWQwNGU3NWU2OGY2NTE1ODM2NmRkMGY1NDY2MjAxNzk3ODEwNmUyMTBlM2U1ZTMzNDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRiNWY5OWM5ODFmMzU3NGY5MTcxOGE2MjcxMmU1YzE2NTBkZWQzODE4NjJlNmRlMzQ4NGI3YmRiZTE3M2Q0YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjZjQwZTBiNWQzODdlODEzYTJiYmVjZTZhMTJjZjYyMWI4NTg3NDk2YzMzN2JkZjY3NTNlMzNlMzJkZGUyYzUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L169-L189",
+          "version": "repo-lines-v1:sha256:4075ef53832cc4106361cf4e23a10896111030a08815e5b2a7c7a9fb6943fa58:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlN2ZjYWZhNmM2ZTFiNmVkZmE1MTg1YjQwODk2N2JjZTBkYzJlNTM2MmFjNjg5ZDQ4ZGEzMjk2M2ZkZmQwOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUxZjNlYTVjOWRlODQ1YzZkZTJmYjJlYmQ2OTA5ZWI4N2FjNTIwZTQxNzUzODFjN2NlNDU1M2U1Y2VkMTYwNWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI2YTUxNmU2YjljZmNiOWMwYzg0OWM4NmZiZGU2NzVlNTE2MmFhNDZlNTIzNGI5Yzc2MjRjZTA0MzI1YjZkMjEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L167-L199",
+          "version": "repo-lines-v1:sha256:04bea52abd73ab14d5daf35726fabad3ba1b77302384d75c333e872fffe9eb17:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4NjUyNWNkZjlmODE5M2Y1N2NiMzYzYzJkOWM1YzVlNDk4YTc3ODZjNzNkZmEwYjhjMDQwZDJiOGNiNmVkYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjExYzZlZTJjZmFkMGY5N2RjNzkxMzE4OGU4NzM4YjU3ZTk0NmVmZTZlMzZmYzNlM2E3ODExNGY3ODlmNDMxZDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiZGE2YWU1OGM4MWMyZTI3YWZkOWQ5ZDU3MmM3YjFmOGExODkzMjZkMTcwNmY0MjY5YTVkODZlMWY5NmQ4OTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_eeb01301fabd48668af5b07d6ab6e3f4",
+      "statement": "The HO 01 45 2019-01, HO 01 45 2022-01, and DP 01 45 2022-01 forms require prompt claim notice, cooperation, preservation and inspection of damaged property, relevant records or proof of loss when requested, and truthful claim information; the forms also preserve a two-year-after-accrual suit deadline.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L495-L527",
+          "version": "repo-lines-v1:sha256:4134187907a658d4b0bd5fbd263d7a5a47503afcdd20a04fb053067023ea7f76:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjNGUwODgwZTM5NjllYjUwZDEwOWEwYTAxNWNkYjA3YzYxZmVkNzAyMWY0YTllMGU5NjFjZGUxNDJjMDBmNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1OWMxODRhMWEwMjAxMDI0ZjIwZWQ4ZGQ4YzNkOTkzODhkMzc4Njg5ZDAwOWIzOTVhNWZkYTkwZThlODI4MWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY5ODliMDc3OTNlZDU1YTliZThlNGZjZjEzYzI0MDcwNGViOTAwOGQ1YzFiZGEwZWY5MTNkNTg0ODZiNDM5NzkifQ"
+        },
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L687-L699",
+          "version": "repo-lines-v1:sha256:6b60eaf0dd4f7737baba555654fe9f58a7e248f4b6d289a848590bed27839b4f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiNjVjM2YyZThmOTZmNWFiMGU0MjQ4NDk3MmEzYjY2YjkxNjMwMWU1Nzc3MzAxMWU1MjZhMzRhM2I1NTU0NjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2OTI0YmVlNjMyYzE5MDY3NTM3YzY0YmUzMTUyNjMyNjEyMWE0NWJmNTBhMjZlMmY2OTg2NTc1OWE0YTU0ZjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjYmM1ZWZmODc2Y2EwYWQ4YjY3NDRkMDRhZGUxNDY5NWI5ODZkZjNmNjdhMDE0NGI2MWU0NGE5YzEyOTQ1ODMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L403-L451",
+          "version": "repo-lines-v1:sha256:9944d2a11e1d19a2e3b38f68a25e45bd3d5472d922744774193b98fb9d103341:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxN2RjNTYyMTA4OGNlZjE2ZmU1NGZjN2YwNWJiMWIzYzIyZDgzZTEyMGM2OWVhYzllZjExN2RkY2E0MjkzNTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0YmVkOTVlZGY2MjNiZjI0YzFmMmJiYzQwZTEyOTI2NmRkYjZhYzI2NDgxOTEyNzE5YzJlOWY2NTE4ZGUxMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5YzlkYWRjODYzMjg0ODFiZmY1MzE2MjA5MzJkOTBkOTcxMWU5Yzg2NGEzYTAxZTEyZjRjMmY1ODQyNTE2OGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L573-L591",
+          "version": "repo-lines-v1:sha256:f28d392dbdb71dad279a8ab9b6abe5c5b38ee3858e66dfaa99ea4c5bf2411650:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYxMjY5YTE2MTdiNWM3NzI2NDE2ZmYyNzUyYTk2OWYzMzg2NTVjNTdjMWE0NDZjZmNmMjFiZTM5NDVjZmEzOTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZmNGU3ZTU0ZWE1MGQxOWRiYTE0ODE4MmVhNzE5ODc5ZjkyZGI1N2E5ZDE3ZmU5YzA4MjBhNGI0YzY2ZjJiY2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmMjk1NGU2YjllMGRmMGE3NmU4Mjc0NzQ3MTIwOTZkMzZlMzQyYWFmMDRkMmQzNDdlOTNlNmJkMzgzMDYzZDUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L391-L429",
+          "version": "repo-lines-v1:sha256:cb146afd1aa26ec37029dd0e7349bc6c4d1a3cd2c5c8f88577e3a2c3a5816152:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlN2I0Y2UzYzdmYTYzMGRmYzM4MjAzMTdjMTdiZDZlMjM1NTQ5Zjg1ZDE5YzI2MWRlMTljZGE2NDI3OTk0YTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5YTY1MmEwMjk1ZDBkM2U0YWZiOTBmZjg3NzBhNzVmOTg3Y2E5Nzc1NDEzYTVkOTYwMGIzMmRhOTk1MjY0OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjMzZlNTM3MWVmOWRmZGM0YTk0ZDgwNWY3Njc2NGRkODJkZTY1MGUzYTFmNGQwNWYyYmZmMmZhNDM4NDA5NGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L601-L613",
+          "version": "repo-lines-v1:sha256:64d8e1143a54cf585604f3d6581ae8e21fc2877ef89eb557486058bd9684441c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlODdmODA1YjQyMWIwYzhhZWFlYzczY2EwN2EyOWZkZDBhNjk4MTY4NjA0NzQzMGVmNjQwNTdlMDUxNzFiMGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmZmY1YmMzZmVhYWM5MTU0ZGYzMTg0Y2EwNzdiZTRhOTZhZDAyYTgwNjY4ODNhODNhZDEwNDc0YTQ4OTlmMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjNzM3MjgxNDNjYTUzYTdjZWQ0NTgwNzRjMjJiNDBjNzg3MDc3NDBhZGQ3OGRjYTRlNDY1MmEwN2Y4YzllYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_08010ffc646a44c880975bdacdaea8cd",
+      "statement": "The contractual claim clocks differ by edition: HO 01 45 2019-01 acknowledges within 15 days, decides within 15 business days after requested items, and pays an accepted claim within 5 business days; HO 01 45 2022-01 changes the decision period to 10 business days while retaining 15-day acknowledgment and 5-business-day payment; DP 01 45 2022-01 uses 15 days, 15 business days, and 5 business days.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L495-L507",
+          "version": "repo-lines-v1:sha256:522418794908c066d8dc3f80dc0b271397c4239c576272cf901b10cebfd8d26d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiYTUxMDgyYWUwMjRkNjNhNzg4NzIzMjk0NmU2MjYwNzY0ZWZiMzNiM2VhMmViNWNhZGM2ZDViYmE3ZmYzZTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1OWMxODRhMWEwMjAxMDI0ZjIwZWQ4ZGQ4YzNkOTkzODhkMzc4Njg5ZDAwOWIzOTVhNWZkYTkwZThlODI4MWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEwZDE4NjY0ZDE2OGMyYmE2MTZlZGYzODQ5ZTAyZGJiOWNkZDdiZTA1MDUzZjlhOGMyYWRkNDc1MjdiMzFiNzIifQ"
+        },
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L563-L589",
+          "version": "repo-lines-v1:sha256:a0436abe3d3082f0fb17e1fb5a9a69fa781c4751c7d9940dab1a9dba1ee4c628:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjZDllYzlhOGI3MWFlMzg4NjBiZDY5MDE3OGQ2ZjU0NDk2ODcxOTEyNzNkYWI5ZjQxMDc4ZTU5MmUzYWE5MjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5M2E4ODVmMDE1MzJjMDg4OTc5ZjhkOTAxYjBmNTA2OTNkNTczN2Y5OGVmNGU2YjVhZWEwMDdlY2Q0NTRlNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNGM0ZThhYjgxN2VlNzE2MmZhMmQzZDcwYmZlZTY4MzA3ZGI1N2RkZTI4ZGRiN2Q1NjI2YzE2NGQ3YjU4MTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk0ZWI0YjVkMzdlMDA3ZWU1NjM3OGYzMWZjNWY3ZGMwYTViNmZlNGFlNWZhNzhmYzM2NzIxOTA4NzRhODMyOTIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2019-01.md#L403-L417",
+          "version": "repo-lines-v1:sha256:cbe1d2bcf03a44d0ba0a155625928a09bd913ed3b0f853aadf2b44eef3b44ddf:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkyMzlhODIzNmU2OTU0ZmI0M2MwMWU3ZmJkOGY4ODU1ZGUxMzVmYzgyMDNlMDk2NTY2MzZjYTg1MGVlOGIxZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0YmVkOTVlZGY2MjNiZjI0YzFmMmJiYzQwZTEyOTI2NmRkYjZhYzI2NDgxOTEyNzE5YzJlOWY2NTE4ZGUxMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxNGM4ZGI5ZjUzNWU3YzQxZTllOGYzMWE5ZDU0YWJjMTI4YzM0ZDZlNDM3MTc4MzUwMjQ0NmUwYmVjOTY3YmUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L391-L407",
+          "version": "repo-lines-v1:sha256:b8ededde24af704427d19db1006f9055de61491e7e04fae9c068c3c901ca78b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzNzFiNzdiYzczMWI4NWJlYzZkYzQ5M2VjODg3YzU4NWI2ZDU3YzFhZDk4MTJiYzk1MGYwOTI0Mjg4M2ViYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5YTY1MmEwMjk1ZDBkM2U0YWZiOTBmZjg3NzBhNzVmOTg3Y2E5Nzc1NDEzYTVkOTYwMGIzMmRhOTk1MjY0OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlNDg1MzJjZWVhYjU5NDNhNDJjNzM1NmI1YWU5NzQ1ZDA0Mjg4M2U3YjY1MWQzYWFiZTdhZjUxMDhlZmQ2Y2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bdafb79180754ab58e09a5fe450e224d",
+      "statement": "B-2016-04, effective 2016-08-19, is superseded by B-2021-08 for policies effective on or after 2021-08-19 but remains relevant to policies written under it; B-2016-04 required a 1% minimum windstorm-and-hail deductible and capped a hurricane deductible at 3% of applicable insured value.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L1-L9",
+          "version": "repo-lines-v1:sha256:844e60a26d8d0f416523ec82056a1c87cf92617492b93ed1e85b1c09c7577f06:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGYzYjU0ZDJkM2M5ODY2Y2Q5NTE4ZDQxMGQzN2M3YTc0ZmQ3MmRmOWYxMmUyYjUwNTE3MzljYjRmZTRlZjFmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L63-L79",
+          "version": "repo-lines-v1:sha256:d77f1caf11190d8ea9a98b2fc6029ec936091a6b2c3a0cf21e5344ba61407c1f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMTI2ZmUwZGJjM2U5NmRkMzQ1NmQ5ZGEzNzA4ZTczZjcyNzIzMzMxZjU0YmM2NjFmZDk0ZDI5YzM4M2MxNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlNTU2Njk3YjU5YmZhZDUyOGFiZWM1MjBlNjQ3MDU2MmM4YTU0NGI1OGEwYTE1ZmJhYjVkMTA1YmJiYjAyNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzMTkwYzBjNmI0OTYzYWU1Nzg2ODcyM2I2MDg0ZWRhM2NhNjYyYWVlNmVmZjIyNThhOGZlNDNmZTdlNjExNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyZjcxODBkNTUwM2QxZTgyOTVjMzY5ZTNhZTc3MDYzZjRhOWU2MGUxOGQ0MDc2OGUxYzY0N2U5YTliMjhmMjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_77345aa287d74d0b98005b62e63ede80",
+      "statement": "B-2016-04 required clear, distinguishable deductible disclosures before binding and at issuance or renewal, required at least 30 days' notice before an increase in a windstorm deductible, and required claim-specific causation support, a clear deductible explanation, claim records, and handling of undisputed amounts without delay.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L13-L33",
+          "version": "repo-lines-v1:sha256:b5e9851e4dcd46b2a8d90e908bb77c294993c9152ac317396643c31198c963b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwYjBhOGNjMDNmMzE5YjM1NzkyMjQwNWRjODRjYzVhMzMwZjgyZmMxMDYxY2I3ZDE3NmQ2ZmM4YTM3ODA2NDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5MjhjNWQyZjVmYWYwMzRhZTc4ZDcyYTEzYzVlMjNiN2FhZDU5YTYwOGZkZTI3MDY5NDVlNjQ0MzdjOTY2MTAifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L147-L167",
+          "version": "repo-lines-v1:sha256:536781c3e5b0a8fb81dbbd026a3736022fb93508234c9e43a08d32b224649fe1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNDA2MGRkMmJkYWNhYTY0NjMzM2ZkMTUwODYyYTExMTFlOTYzZWE5ZGU5ZmE0YjVhMjVkODk0ZDFhZTgxZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViZWY3YTFlYjcxZGI4MjU2MWEwODk4MmNhMjZjMDg5MDM5NGNhNjZmMTAzZTg0NGQ2YTczZTIzNTNkNjE0ZTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1YzIwMWY5NTY2Mjc0NzlhMGUxZTNmOGYzZDkxYzM0MzU0NmRjNWY1OTg1YzBiNzM1YTBkMzljMDAxNzA0NTcifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L205-L245",
+          "version": "repo-lines-v1:sha256:5ca44b35f3c703ec8f5b9080bed96609c2e5d13aee226ea7845f16ca66ff4ce3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiZTMyMTA4YmFlMzM1NjczZTYzYzM2ZmVjOTU5NzY2YjZjYjI0YTk2MGM4ZmY4NTg0Y2VkN2QxMzdmZGZkZDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRjZTAwZTMxYTJjYmQzYjdiYjZhMmI2MjljZTVlNmI3ZjFiNjY2ZTc5NzAzYzdjYjVkZGMwYWMxNDNmZmJjZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9cc3b58502664f488c800a88150c4838",
+      "statement": "B-2021-08, effective 2021-08-19, requires a named-storm windstorm-and-hail deductible of at least 1%, caps a hurricane deductible at 5%, and caps a seacoast-territory windstorm deductible at 10%; these regulatory categories are distinct from the contractual deductible maximum in a particular Texas form.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L1-L7",
+          "version": "repo-lines-v1:sha256:bfdc2223ac2f33874102c555cfe2b1266eff78aba47f2cf704a3bb4dc387acf6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdlNWQwMmE1YjAwYmU1MGI3YzNiYTczODAwYWM4ZDJmY2UwNTE5ZTUzZTg0MGE2Mzk1ODk5ZGNiMzFkNDBmNCJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L47-L59",
+          "version": "repo-lines-v1:sha256:d07ff55f4fa84188bb754e31e3fc7a6d34fc385d5f546e9b857f4c7556e6b643:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIzNDYzYTEwZDhjYjkzODFhYWVjNWVjMWY1Y2NmYzA4NGNkMWUwOThhOGI5MTU2NjQ4Y2EzZDRjY2EzNTdiNWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkYTY4Njg4NGUwYTM4ZTM2N2VkMjk5ZTQ1Mjc2MDM3ODE2ZWY0NDE4ZDcyMGNjOGY2NDQ5MjIzYzYyYTI4YzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5ZjE4ZjJhMzUyNTFjMjM3NWYzZDAzN2I0ZWFmMzI3YmVlODZjMmZhNmZhZmI2MzdiNGY1ODg2NzczYzczNzMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L73",
+          "version": "repo-lines-v1:sha256:33f461092191cc67db48f0edbd3692be0f105e5bade3bf4aa717d0c1717fe827:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0YWI2ZGI3ZDQ5YTdiNDQ3Nzg5YmYxMDM3YzA2OGVlZWVlNWI5MGUzYzc0YmJkODQzNGRkNTJjZmZmNDYwNDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmMTRiMGZkZDIxZDcyMjZhZjBmNWI4MmFkMjAzMzY2ZTc4NzBkZGM3YWY1Y2M3MmQ0MDk5Mzc4NWUzMjg4ZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4ODlkYjVmMThmYzE1Mzc3NmI1NmQ5MmQ2ZmI1MDEyZWQ0ZTA0NmZmMDc3ZTUzZWI5NzYxZDkxZTQ4YjM2ZTkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6a168c1ac3f24f03acfc78f41b92b42d",
+      "statement": "B-2021-08 requires separate-deductible disclosure at application, issuance, and renewal, at least 30 days' written notice before a windstorm-deductible increase, and disclosure of a 72-hour continuation after a named-storm designation ends when the policy uses a named-storm period.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L135-L181",
+          "version": "repo-lines-v1:sha256:f87a8394912ee8908e21c0123dd2850a2cb777f9e3f861051818250e77b36801:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5MDAzYWNhNjAyNTZkZmQ5ODkyZGJjOTE1Y2M3ZjcxMTE5NTNlNmY4MWE4NzA0ZTRmN2E1NzUxNDQyNjlkMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlOGY0MGM1MTk2ZmNhYWNmNThjNGU1ZjQyMzE4ZGViZDY0Mjc2MDFhOTE4NzUwNjdkYzFkOWZiMjc1NGE4MTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjNTM5NjkxZWJmODRiMTA2MjE4NmUwNTFjNGYwODQ2ZTljZjYwNGU4MzI1MDA4YzdlMjMwNDM5MDBlYzA3YjIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6cb15adac2ba404f9e967266163ebb68",
+      "statement": "B-2021-08 requires prompt, good-faith, claim-specific investigation of windstorm or hail losses, factual support for causation and mixed-peril allocation, identification of the policy provision relied on, clear deductible and payment explanations, preservation of claim records, and review when material new information arrives; it does not replace form-specific numeric claim deadlines.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L213-L267",
+          "version": "repo-lines-v1:sha256:02d81a8115db8c962ee71ba0a90b9f467fa160d39a94413db837a319b3c522a6:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5MWRlN2I3ZDNjM2VmYjBhNzlmODVmOTI0OGJkNDM2ZDcxNDJjZDFkODlkNzdlYTkwNzMxZDFiYmQyMjQwMDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdjNzgxM2JjNzQzZjg3ODgxZWY1YjA1MTA5ZjVjOGJhZWZhNGU1ZDgzNTgwYThkYTYzODY0NGJkOGVjZjg1NmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a96c9e3ca90c4a6babb3c03e0a136e16",
+      "statement": "B-2019-02 is a separate prompt-payment bulletin that applies to admitted insurers and delegated claim handlers without transferring responsibility from the insurer; it requires claim-file creation and receipt-date recording, reasonable information requests, investigation before denial, explanations of decisions, and payment of undisputed amounts without conditioning them on unrelated disputes.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L105-L113",
+          "version": "repo-lines-v1:sha256:74ee6c1ce2f6e4839fd16940f917174d845bc8f10198e351513bc2bcde0ccd3f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNkMWE5YjA1NTg1ODc3YmNkNWM4YmQ2ZjZjNDQyNDk3NDcyMjM3NjcwNjExMjI3OTU3MDQzN2YxNDFhYzI5NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlMTdhMjY4M2RkN2YyOWEzYjkzYzU4ZDkyMDk2OTIxNWExNjQ3OWI2ZWI4N2IyYjQwZjZiYTJjN2VlYWZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmM4NTc1YzMzMDAxYzIyMmI1MWE3Y2Y1NTRkOTMxYWQ1NzYwNTUyYzI2ZTczZGUwOWNiNGJlNTc3YzQ1MGU5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmFhYzU2ODViYWU5ZjFjNjNiYmY1ZmYxNDc2YmQ0NWY2MjZkMjQwNTNiNzA4Y2FkZDg3NDg1ODYzZTNjOTRmNCJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L13-L35",
+          "version": "repo-lines-v1:sha256:8b7ea1e9d9aad6b391619692069ce58257ce83f2761455283383ea7cdcbd0b7a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiN2YyNmMxYjlhMmNjYjVkNzAxZDIxNjZhMWU5MmZhM2MxMTYxZjMzMjFmMWUwY2RlMzc0Mjc3MDE1YTIzZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM4N2U3MzNhMWE3ZjdmMjFlNjg4NWExZDlkZWIyNzU0ZTZlZTAyZDJmYmFlNDU3ZjZkMTAzZjYwZTAxMDFkM2QifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L51-L101",
+          "version": "repo-lines-v1:sha256:150304d4a9507ce1bbc86aa7356be9b0dea2a067800c9f275c176801e4574457:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNTM1OGZiNTYwN2I3Y2JiNzk5M2Y3NmVmOWU2MGY1NzVlMGEyMWYwZDIxOTdlOTY1NzMwOTVjYmY2NzNlOGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQzOTU0NWQxMWFjNjNhZmNlMmJkNmY3ODdkNDQxYjEzMDI2NDA1NWNkMTIxMDczYjljOWJjZWYzZDNmZjNlNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjODU3NWMzMzAwMWMyMjJiNTFhN2NmNTU0ZDkzMWFkNTc2MDU1MmMyNmU3M2RlMDljYjRiZTU3N2M0NTBlOWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f207388b63154f8698444dd65485ad14",
+      "statement": "B-2019-02 requires acknowledgment no later than 15 days after claim receipt, acceptance or rejection within 15 business days after receiving all reasonably requested items, and payment of an accepted claim within 5 business days after acceptance; it applies to claims received on or after the bulletin's effective date.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L1-L7",
+          "version": "repo-lines-v1:sha256:8fbdae8d314be38313721967730e59a6c3b8d4237822286b0117d48c50db5e7e:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTdmYzBmYTc2MWVmOTZlMWIwNzRmZDgxNWE5N2ZlNTRhMGRjMzg0NGFkMTMzNmE3ZTkzYTVlNGZhZjNmNDU4NiJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L215-L255",
+          "version": "repo-lines-v1:sha256:5c160ca37576d32867c88f29bead8ddb33e62943bb4a46cae1f4fc291c5b1125:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NTNiMGMyNmY3NGY4OTNlMjE3MmNmZjc5YzYyNDkxYmM3OGY2YWE0MGExMWE5MjNkNmM4ZGYyNWY2YmRjZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQyMzQxZGZhOGZlZjU1OTc5ZTE5MWY4ZTFjYTQ5MTc2ZTNlYTExMTg4OTQzOWI0ODRjMmNmODZiYzA2NzllZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

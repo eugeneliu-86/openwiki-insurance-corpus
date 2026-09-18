@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:befe485cff7ace3675c57e114760cf7e609796d40fdc1a562189d43c6b0a1ea6",
+  "claims": [
+    {
+      "id": "claim_75e40ca7fa814076a9adebd45d457e4d",
+      "statement": "The HO-6 2014-04 form is effective April 1, 2014 and is superseded by HO-6 2023-02 for policies effective on or after February 1, 2023, while remaining applicable to policies written under the earlier edition; HO-6 2023-02 is effective February 1, 2023.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L2-L9",
+          "version": "repo-lines-v1:sha256:2945cb850eb7b5fba53aa3c1e81efa04b0a808d73ff10867964bbd2acabacb30:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDA0OWViNTZjNmVhZjVhMWVhZDIyNWViNDFhMWNiZWIwM2ZkNjE3NTlkZjllOTQyN2JiODc4OTZjYzhiNTYzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L2-L8",
+          "version": "repo-lines-v1:sha256:65065a992fc089808e9c238e94f1e4378b10e0ed4bd2551851d31551cbf7aef4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M3NGYzOWJkM2U0M2FkZWIxMmQ5NDU2ZDJkNTNhOWUzMDUzZTE0YTJjYmJlZWIwOTgyN2ZlNTBhOTM1ZTI1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_84bf323158214482b52db4009fd4b0c4",
+      "statement": "HO 04 35 and HO 04 91 apply only when attached, and an attached endorsement controls over conflicting base-policy language within its stated scope.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L13-L39",
+          "version": "repo-lines-v1:sha256:a5c3110798ac17ed93095b454c61306a2be1ef9b0b41978df56ffa095cce474c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlODgyMjMwYTcyZjc1YmEyNThkZDM3NjIzZTdjNDVmYjAwZWM0YTA0MTAzNmI5YzQ0NWVmMDExMWFhZWNhZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-91/2019-03.md#L13-L39",
+          "version": "repo-lines-v1:sha256:74c6a7ff5b18ce7b000f132238d71018210d69ff79de8b6a07dc338b1ba18bf6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMTA3NTE0OGI5OTU5Yjg4YTQ1MTJjNmZmMDM2NGY3MTljMmVlMmRmN2FiYmRhNzdiODAwM2ZjZjQ3MDAxNTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6011f1c93e0640608e9ad65e143556c0",
+      "statement": "HO-6 separates unit-owner property coverages A through D from Section I Additional Coverages and Section II liability coverages E and F; Section II Coverage E is Personal Liability and Section II Coverage F is Medical Payments to Others.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L1133-L1201",
+          "version": "repo-lines-v1:sha256:838a1ef5d76c37cf4fbb437170321ef5c841f2cfb191058961a7921aa66e31d0:eyJzZWxlY3RlZExpbmVDb3VudCI6NjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiY2MyZTg1Zjk4MmNiNWQzMDFkMjM2YzEyNmVkZDZlODM4ZDAzMWY2ZDQyNmQyNTc3MzJjMTAwMzRkM2E1M2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdiODlhN2Y0MmFlNTMxZmYzMDA0NWM4ZTA2MTAwZDNmNzM1MTdkNDllZGQzODllOGEzZmRjODU0Y2E5NGQ1ZjEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L199-L249",
+          "version": "repo-lines-v1:sha256:fb332bf76c5802616fc603717ebc0179d5937c36331233a0ffa7119bbcf65714:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjMGQwMGRhNDMxZGY0Yzg3ZDc5MTYyYTJiMWMwNDY3MjU4MDQyMjM5MGRkMThjMDlhOGYyZGY0ZmJlYzAyODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhMWI1YWI1MWZkZDA5NmZhNTA4OTY5OGUyZGE1OTM5YzRlYzgyMjYwZmM4NzFkODFlOGZmZTVkODE4OTliM2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcxZjFiYTY4MTI3MjBhNjZiYTRlZTk2MDE5MmFiMjM1ZWU4NjZjYmM1MDRiMzhjOTRiODU3ZmNkYzZkOGZiYzEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1004-L1052",
+          "version": "repo-lines-v1:sha256:023403d5f1b7596d3bb59bac859eaecbf43fc950c11027a284f14d2f0f15eb99:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4MmM1MmMzODRmZGUwYzA0YjljNzJmYzAzMDlhZTBkNGFmZjcxMTFhZWI3NTYxNWJmOTdmM2U0M2NmZGQ0NDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk0MjU3ZmQ0OWU4YjY0MWZjY2IyYTAyNWZmYjY0Njg5MTdhYzFlYmE5NTRiNDQ5YjY4YjI2MDBjYzAyNTQxNDUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L78-L134",
+          "version": "repo-lines-v1:sha256:f36113a6327746d872ef2c6a96a9a80ed0193286bb2fe2a81256e1cf7bff902b:eyJzZWxlY3RlZExpbmVDb3VudCI6NTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNDBiM2ZhMTZjZDdmMmExODk1NzBjNjgzMTU2MWIzY2I2ZGM1ZTQxYmUzYmYxMTljMDljZDE0NGQ2ODRiMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViM2YyN2JlYzllNTJlY2Y1ZTBmMjc3ZjZlM2JiYmM1Mzc4NTQzZmViNDM5OTRiMTgzNDdlNDhjMGIzNDkzZmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNjMzc5MDUxZTJjZWFhN2FmY2UzYzRmMjgwMWYwNDk3NzFmZDgwMDIxNzJhZDE5NzhmZTUyMjk5N2NiODkyODEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_153dd4720c29446f836223d896180463",
+      "statement": "Under HO-6 2014-04, Coverage A covers unit building items and certain exclusively used or commonly owned property only to the extent of the insured's ownership interest or legal responsibility, has a default $5,000 limit, and uses an 80% Coverage A replacement-cost threshold with actual-cash-value treatment when the threshold or repair condition is not met.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L121-L143",
+          "version": "repo-lines-v1:sha256:3388c11c270afc9607197fb1d3ac33e7f97ad3eea8c599728ef6903e0ceccef4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNDBiM2ZhMTZjZDdmMmExODk1NzBjNjgzMTU2MWIzY2I2ZGM1ZTQxYmUzYmYxMTljMDljZDE0NGQ2ODRiMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwODU3MDJiYTczNzExZTlkMmYxNTY0Y2IxZTY5NDM4MGVhMzg1MTI2MWJiZWFhYTE0OGJjZjg4ZGJjNTIxZjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJjN2NmYjdhMmQ5NTEwYmI3ODAyYjg4NDUyYWQwNWUzYTI2OGUyNTVjMzM5NjM1OGE0ZGRlZDY1Y2NhOWFhNTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwOGRjNTJkYjI1M2VlODNjNWJhNzdhYzc1OTgyMGM4OGI0N2I1MzI5MTljMDkzNjYwZGRjODE3MzBjMmMxN2UifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L159-L169",
+          "version": "repo-lines-v1:sha256:9c8cf79aadc9b8e9442069749a3c38c33d1f08c0fc5d581a94de864016a4c8a8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxZDUzOGIxYzNkM2MzOWMzNzM1NWY4N2Y1ZDhiYTljNWVlY2MzMWE4ZjYzODk3MTg1NmY3NGYyZWZlNmM5YWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1ZDdjM2Q0ZTVlZDhhMDc5MDgzNTEyZmM1MGRjMDRjNjNmZDg0M2FlZjg2N2JmZGY0Y2UyY2M2NGI3YWQ0MjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJkMWU1ZjE5ZDgwMDMxYjM4ODQ1NTY4ODQ1MDViYTRmNTIyNTgxM2U1MjUwZDc5NjM2ODZhOTYyNDVkOTY0MzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg2ZTM0ZGFjOTNhYTkxYTg4Zjc0M2M1YTc1OGY2YTZhNDI1NmQ5MmFlOTVkOWJhZmFhNDczZjdiYTE4M2QyOTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L187-L193",
+          "version": "repo-lines-v1:sha256:2c428d7bba6ecb950aa225850887692ce736e750384f987ac1555e2b26f3ef34:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJhMWVkZGQxNWRiOWUzNGRkY2M0MmNjZDlmMmZmY2UwYjZlYjZlNzg4MTI2MWVhMjU4MjUzYTk0MzIxMzIyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWY2YWIxYTEyMDRiNWYwMjFiMGMxNmZhNDg2NWUyN2QyNDlkNGNlM2MyNmJhZGE1YzM0NjhjZmI3MTJkMTc0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNmYjMwMDhkMGU3NDc3ZThkNDAwYWVlYTM2MTM0NGRhMDlmYjMzYjJmZTA4YWFlY2JjMTJhYzQ3ZTQ5NDQ5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjliMjZmNDU0YTdmMjUzMDQxYWJhMTM3NzY4ZTU0ZTFlZGJmYjUxZDcxZDNmY2Y4ZWIzMjM0ZDdmYTYzNDA1MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b0b70a89e8d341b88f52f1e862b38f55",
+      "statement": "Under HO-6 2023-02, Coverage A covers unit property, attached property, improvements, materials, and building property the insured is required to insure by agreement, has a default $10,000 limit, excludes land and listed exterior or association property absent contractual repair responsibility, and retains the 80% replacement-cost threshold with actual-cash-value treatment for unrepaired property.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L78-L128",
+          "version": "repo-lines-v1:sha256:9a5a9dceaea5218db79c81e42d097f6601ead09d7c834dfc17d1887011e4e3ac:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNDBiM2ZhMTZjZDdmMmExODk1NzBjNjgzMTU2MWIzY2I2ZGM1ZTQxYmUzYmYxMTljMDljZDE0NGQ2ODRiMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2NzExZmU3M2IzNmVkOTA4ZjQwNDc5NDg5NDE5NDc0MzQyZjQwMTNlYmVlMWVlNGQzNWU4ODNjNjY5MzU4YTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViM2YyN2JlYzllNTJlY2Y1ZTBmMjc3ZjZlM2JiYmM1Mzc4NTQzZmViNDM5OTRiMTgzNDdlNDhjMGIzNDkzZmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlYjY2ODQwNGI4ZTMzZGVlMWRlYmI1ZTljYWIwYTk2MzE2OGQ0ZWQxYmUyMWE3NGFiZWRkNTRkNTIwYzY4OGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e80c086624a046babd7b0d26789be052",
+      "statement": "Coverage B is separate from the unit building layer: 2014-04 covers the insured's interest in qualifying separate structures, including a jointly owned interest, while 2023-02 requires sole ownership and excludes an attached structure from Other Structures coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L199-L221",
+          "version": "repo-lines-v1:sha256:df80a553b674db09213cbde38fd3538ddf6305e82085e8845a4f24a5afc7a5eb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjZmU1MjYyMDRhODcyNTMzN2RkM2Q2MjJiOTIxOGU3ZTI5NzkyNGU5MmQ0OGMwNDEyMzAwMzQ1OTZmYzg0MDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhMWI1YWI1MWZkZDA5NmZhNTA4OTY5OGUyZGE1OTM5YzRlYzgyMjYwZmM4NzFkODFlOGZmZTVkODE4OTliM2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxNmI1ZTJhNGYxMWVkYjQ0NTRlMjAwMjU2ZDllMDk5NmZlZTk2ZWE5OWM4OGIwNjU1Nzk2NDhhNmMwYWQyZWQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L134-L152",
+          "version": "repo-lines-v1:sha256:07f27629725e10b4c4dcac3bb42ab38d50db460bd8920370c8027301795fb929:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzYWEzNmYxNTlkOTJjODM0MDczYjJiNmMzNWM4ZTU3ZmM0Y2VkYjY3ZWFkZDA0NDczODg1Yzg3Njc2OWUwZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkMTZiODBjOWM2N2QwZGNlMjgwMWMwZjlmMDBjYzU3MDIxYmNmM2YxNmM4OTEyMDI0Yzg2NmY1MDQ2ZDNiOWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3YjkyOWZjNDc3Nzk0YzJmYTEyY2VjMzk5NmQ3MGMyZGJhOTNmNWY5ZTU2NGMyMjM1MTJmMTRmOGQyYmE2YjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c70ab0ea01f647c7a0fd13a05836d9e0",
+      "statement": "Both HO-6 editions provide worldwide Coverage C personal-property treatment, but 2023-02 raises the stated special limits for money, jewelry, firearms, watercraft, business property, and electronic apparatus over the 2014-04 amounts while leaving the silverware limit at $2,500; these limits remain within Coverage C.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L249-L309",
+          "version": "repo-lines-v1:sha256:8a1e49df21aabc3522ebfffd4d98e4d03dc1495777a967738dd36666ceb0265c:eyJzZWxlY3RlZExpbmVDb3VudCI6NjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjMGQwMGRhNDMxZGY0Yzg3ZDc5MTYyYTJiMWMwNDY3MjU4MDQyMjM5MGRkMThjMDlhOGYyZGY0ZmJlYzAyODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlNDY4YWJkZmQ2MWFjODNmNGNjODE3ZTI0YzZiNDA4NTc5ZTFkYzNmY2VlMDNiODlhMDg5OTJiNWY0Y2FjN2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBjYjczODk3NjZjMzdhNzdkNjViYmNmNDcyNzhjMjU4NTIyZTZiYTgwMDU3NGIzNTU0NzUxMDQwNjk1MTNkOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyMjBiMDZjNGJjYWE1MGUxYzQxYTY0ODllODI4NmFjZTIwNGM3YmM5MDgxNjExMzE3ZTMxNTc4ZjYxNWUzMTkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L184-L204",
+          "version": "repo-lines-v1:sha256:6df46978f6ca115cc6a1a4526e99e60dda2deebdb9b5f504e8f2989583c7d1b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjMGQwMGRhNDMxZGY0Yzg3ZDc5MTYyYTJiMWMwNDY3MjU4MDQyMjM5MGRkMThjMDlhOGYyZGY0ZmJlYzAyODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY4YTU1OTZmYmM3NWI4MGYzYTc2NzcxZTVjMjhiNWNmOGU3MzM1YmFmNjJhMmQ1MjUzYzlhMWZjYzZhNWE0YjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRkNzE2NzBkZmY1ZThlYjhjMDJmMTA1ZjljYWZhMWZjMmQ5ODE2OGY1ZjVhN2VkMjVhODcyMzQwZmU0MmI2MDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg1NTVmNGI3NTk3MTc2YjJmNDc2MjliZmM1ZDFiNTllNWNmNWJhZDJjYjgyZWFmZGRiNmIxYjg1MjQ1YWEzNTAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L236-L254",
+          "version": "repo-lines-v1:sha256:ac822cf35fd1933349bc95bde23ec7cdb45905c15f6599ff2b6178d292acaa66:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0MzI0N2MzNzI4OWNkODFiMThhODNmMTU4ZjQ4MWY5Y2UxNzBjODMzOWY3MjcyMjgxMzgzNjFmZjcwOGY0ZGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwODM5NDA2MDY5ZDUzNjVkYWU5MTllZWQ3ZTQyMGM1ODEwM2FlYzZjNGExNjg4MTIxODFjYjNkZDYzZThmOGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY4ZGVkZjI3N2Y1NjA2ZDRkYzA4OWU1YTVkYjFmNjE2NDhlMTI1MzhlYjg4MWNkYjY2ZGZiNGY0ODI4MTYyZWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjNGRiNWE0M2I0MWU4NmRjYmUyMzVmNzc3NzljODRjZjVhZjk3MmFiYjA5N2Y4OTc2YWJlNDdlYWQwODMwZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9fff68773d4e408783e02ff91c2d4094",
+      "statement": "Both editions set Coverage D at 50% of the Coverage A limit and cover qualifying additional living expense, fair rental value, and civil-authority loss of use; 2023-02 expressly ends payment when the premises becomes fit or the insured permanently relocates and requires due diligence in repair or replacement.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L365-L431",
+          "version": "repo-lines-v1:sha256:32e58d8829e4f78c7a742b217b06fd3c2e75bb0cbef01b3b43358ad8b0ae8c73:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNTY0ZGJmYzk1OTlmNjMwYzZkN2Y4M2E3OWZiN2ZhYmY3NGY2MzExOTUxZTdhMTliZGNmZDg3MThhMTNjMTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNTVlN2Q4ZDg2NWI3NzQ3ZWQyMGE1NDc1YmI4N2RmNzhlZGIwZTdlNDFkNTdmYmRjYjY0NmE3MWQwOWEwMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE3ZmEyMWM0OWU4NWI2NWQ0MGM0YTA0ZDJiNjkyNWE1MzRjN2U0ZGU3MWExYWQzNGQ4ZTg0NzcyODBhZWQzNmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE3ODZlY2RmNWViMjY4MWE2MzI4NGVmNTRjODNjMDIzNGRlMjE1ZTcwNWU3NzkxNjQzMjUxYjEzYTUyYmI0MTcifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L300-L366",
+          "version": "repo-lines-v1:sha256:a29b99e7fb64694b329f686baa12dc959221096e461f090b0b876d909cf13fd3:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNTY0ZGJmYzk1OTlmNjMwYzZkN2Y4M2E3OWZiN2ZhYmY3NGY2MzExOTUxZTdhMTliZGNmZDg3MThhMTNjMTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2NDIyMTFmNzkzMjBkOTc0ODhhY2U3N2Y2YmU5OWEwMDRmODJiYzRhNTU0NmM3NzI1NjJkZmJmZGYxMmQyYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjExYzVhNzEwYmYyMzY1ZWZiMmRhZWIwNGU4MjlhZTM2ZjJhZjZkMWU2YTZlOTI2OTlkNTg1MWFlNGZkZDQ3N2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE3ODZlY2RmNWViMjY4MWE2MzI4NGVmNTRjODNjMDIzNGRlMjE1ZTcwNWU3NzkxNjQzMjUxYjEzYTUyYmI0MTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e5e7ec4452f4903819b0739937f107c",
+      "statement": "HO-6 2014-04 lists named property perils and separately excludes flood, surface water, subsurface water, sewer or drain backup, sump overflow, earth movement, gradual seepage, defective conditions, pollutants, and intentional loss; HO-6 2023-02 retains the named-peril structure and adds detailed boundaries for water, vacancy, theft, collapse, roof surfacing, cosmetic damage, and utility failures.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L579-L687",
+          "version": "repo-lines-v1:sha256:3b1671aabdfd0f4d05c4822be52e2a3d097c8ad59b57dbd2e9a0f689268b9b57:eyJzZWxlY3RlZExpbmVDb3VudCI6MTA5LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJkY2ExNmEyNjBhNWJjYjM1ODgxZDNmMTlmZmYyNmU1NzgyNjBiNDRkYmQ5ZGNmZjQzOGM2ZjY2NmRiY2RjOTgwIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJlNmU5MTBhNDAyMzdjYmY3Y2EwNzY4Zjg4MjlmN2ZjYzE0NzkxOWE0NDUzZjcyZDE0ZTA2ZGZiYzhhODBlNWE4IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlZGE0MTM2ZjFmOTdmZDljYThlNmM1NDk5MDY2NWNkMjBmZTE2NjQ2ZTBkMTc0MmExM2I3MTRkODk5MDNjYjNmIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIwNzAwYzcyOWM4NTZhZmU4NzcyYzUzYWJiNDI2ODliZmZhOWMxYmNkM2IwY2NmNGVmOWQ5ZmIzNDc5Njc0MGI2In0"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L514-L644",
+          "version": "repo-lines-v1:sha256:3502fbdf79a924bede1607ede6da770b425b0700080e891fdac3e9629f321260:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJkY2ExNmEyNjBhNWJjYjM1ODgxZDNmMTlmZmYyNmU1NzgyNjBiNDRkYmQ5ZGNmZjQzOGM2ZjY2NmRiY2RjOTgwIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3MzJmODczYTcyODdlN2NjYjkxZDI0NzdhN2JlYWVhNTA5ODEyNWNiZTI0ZjE5MmY4MTMzYmI0YzY5YjgxMzhiIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIyNmZlN2FiOGY2NzVhMzI3MTI0MmRlMTEyN2RlZmFkMjY1NWFkMjU3MTQ1MDZiYWZjN2MwNjI5ZWVjNDRkN2QyIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJhMTFmYjY3ZjFmMjZjMDcyNzEzZjVmZDA0MTQxMTYzMTdmYjVkN2VkZjM4NWUyZjc4Njk1N2U2NzU4N2RiY2RhIn0"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L656-L745",
+          "version": "repo-lines-v1:sha256:8e6a565e3b688077b5212a805f0b024fa7f9fad13c3685b972bcede4e8a04480:eyJzZWxlY3RlZExpbmVDb3VudCI6OTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0N2JkZDkyZTJjOGE5MTNjOTI4ZWMxYzJmNTdkYjkwNjY2NzIzMzk0OWFmM2YxZWQyZWRjZDgyZTIwYTNlYWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyMmVmNDA5YmFhMjVkOWI1Zjk4OTUyZTcyZTFhYTk3ZmI1OTlmYjg2YjhkZmVkNjZiZGFlN2NiZjBlNzc3NzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBmMTBjNjdkMjQwZjQ1ZTNhM2ZjOGRiNDE1MTU1YWNiODI2Y2E1ZGQyOTVjOWZjMzE1MjNkM2I1YTYyNDJmNGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_389c85cbcdef4a86a5d7b1c80ba1766e",
+      "statement": "Both HO-6 editions require prompt notice, protection and preservation of damaged property, inspection access, records, cooperation, and recovery-right preservation; both state a $500 minimum Section I deductible, require a sworn proof of loss within 60 days after request, and provide payment within 60 days after agreement on the covered loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L903-L929",
+          "version": "repo-lines-v1:sha256:47529c3c12b227174aa229288bd8dde0c2250908ed6cdf103759efe82953b515:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMjk0NzZkMzZjNjRlODIxMmE1MGI2YmJjZGRiNDIwYTA1NDM0NmIwMDM2MDJiMDJkZjVjNWU5OTQ0YzQzZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwNDQ2ZGY2Y2YxOWJmOTVkZmJmYTZhZjNiMGNjZDY5OTY5ZDhmODdhNjVhY2NhMTBiZWFhYjEyZjViNTMyZmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJjNmZiODRlOTg5OTcwM2I3YTU2YWRmYjA2MDZlNjMzOGJhZjhmYWRlZmJhYTQwMjE1NDZlMWY5MTMzYzAyMzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzNDRiMmI4Zjc1MjI2ODFiN2FiNTI5MDkwMDE5ZGYzMDkxOTdmNzVkZmUxNGM4NTQyODJmNTczZmMxZDY2Y2EifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L963-L1045",
+          "version": "repo-lines-v1:sha256:ba59b993c2b918065908494b88a87590c7087128f725df6bec4329d34ffc4335:eyJzZWxlY3RlZExpbmVDb3VudCI6ODMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyOWFkZGE3ZGRmMmIyOGExMThiMTcwZjI4M2U0ZTFhOTVmMDAxNGY0YTEwZDgxMjA5NWUwMzA5Nzc1OTdmNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwMTcyYmFmMGZmMDg1MGNhZTg1NjYzMWNlZWZlMGI2Mjg0ODBjOTkxNTcxMGM5Y2FlYjQyMzU1N2VjZWFiYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjliMDllZDJjMTRjODg3ZDdkY2VjM2QyNDdhMTVkYzAyNzJkNGEyNjRmYWJjYTg3MGRkMDczNmVlYzZlOTQwYzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwMGEyZTViZGMzOTZiMDFmMzM5MGU0YzU0ZjJiNmI3MTRjMDdlMDQzNjlhOTMyODA0NjIzZTk1NmNlZDZlNGMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L842-L906",
+          "version": "repo-lines-v1:sha256:06295785b7543a7fbb6ad907012220780daa22c86d1cfe943cd5b4f63ea862ef:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMjk0NzZkMzZjNjRlODIxMmE1MGI2YmJjZGRiNDIwYTA1NDM0NmIwMDM2MDJiMDJkZjVjNWU5OTQ0YzQzZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwMTBiZTljMTZiMjU0NWUzMDIwZWNiNjQ1NDZkMWE1YzgwYmY5ZDZmZGJkOTMxZjkwOTkwMWE3MDBmNzBlZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwZWZkMmJjNDY3MWE4ZTQxMmRiZjllMmQ0NTM5Y2JkYmFmODJjY2I4N2M2NTJlNDljNjA0N2VmMWFjN2Q0ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkMWY1MDQ0ZGJmZGM3MTA5MTY0MTI3MjcxMWZmYTg5ZmZlMDZkYWE1NjQ2OGYxOTAyODU4NzQ5ODhjMDY5ZmUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L870-L952",
+          "version": "repo-lines-v1:sha256:042d85a8a66d77a45b2459bc108b81864fa40acb38e4753be7f8dca43e5871d1:eyJzZWxlY3RlZExpbmVDb3VudCI6ODMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwMDRlMDhhNDgwZWFjMWZlY2ZjZDgzNGZjYTViMGI0YjllOGU0MWRkYzBlYmQ2MTljN2I3N2VkY2FhMDFhNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiMjQ1Yjk5YmVmMjg0MTVmMDUyMjM0ZDFmYzA4MTg0NjA4MmU0ZWRkN2EyMGVmZmZmZTZlM2I3YzBkOTk3ODgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkOTdlOGFmNzgyMDg3YjY3OGQ3Y2JmMTM3N2IyMzE5ODBmOWI0MWQ4MWY2NDFhYzY2YWUxMTFiMjljMmI5NTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxOThlNTdkM2YwY2IwZjljMGU0YjRhYTAyZWVlZmVlOWQzMWM5YTIxZTBhYjllZDZjNjJhMGJhMWZjZDQwYzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a9881158c2e4afb901fdc7936c60061",
+      "statement": "Section II Coverage E in both editions pays legally owed damages for bodily injury or property damage caused by an occurrence and provides a defense for a covered suit; 2023-02 states a more granular exclusion set than 2014-04, including business, rental, care-custody-control, communicable-disease, abuse, cyber or data, water, and animal risks.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L1133-L1199",
+          "version": "repo-lines-v1:sha256:9a82c2d8ed93c4dfebb14091a14c7b96456b64ee4d12e3f046f4742450e120cc:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjNDg1YjA1N2ZhN2UzMDhiZGY1MTc4ZjgxMWM2NjIwODgzOTJlMWQ4Nzc1YzFiYmY3NTNmNDNiZWZjZjE3YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiY2MyZTg1Zjk4MmNiNWQzMDFkMjM2YzEyNmVkZDZlODM4ZDAzMWY2ZDQyNmQyNTc3MzJjMTAwMzRkM2E1M2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDI2NzdkMmNhNzAwMmZjZmYwNGQ4MzJkMzdmZGNhOGM3YTRiY2MyNzE1Nzk5MDdjMzkxYTY2ODUyNjIxMDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1004-L1050",
+          "version": "repo-lines-v1:sha256:2b0b9d5d60e2e25dd52931a1fcc3c85d39779db74f126a416f53bdb3b040e14b:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMzdmNWMyN2JmN2VkZGY4Njk4MTUxYTNlYjM1ZjhmYzliNzUyZTRmMDFhYWY0MTYxMDU1OWVkMTcwOTVhMGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljMTY0ZDFmMzE4OWUzYWNkODhkYTEwNWM5MDhjYTNhNmM4MzRkYzljMzExZjI2NzQwYWMwZDBkNTM0NzVhNDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4MmM1MmMzODRmZGUwYzA0YjljNzJmYzAzMDlhZTBkNGFmZjcxMTFhZWI3NTYxNWJmOTdmM2U0M2NmZGQ0NDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDI2NzdkMmNhNzAwMmZjZmYwNGQ4MzJkMzdmZGNhOGM3YTRiY2MyNzE1Nzk5MDdjMzkxYTY2ODUyNjIxMDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1108-L1208",
+          "version": "repo-lines-v1:sha256:4525e70c80916658ceddeaf125767cca2e8c0d82e5c5ffa722f2d270cc98ac2a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJlZThlYmM5ODY5YWYzZGIwNjQ1NDk1ODE4MjhkZmEyODcyNmZiZTQxNGM2NWZlMzZmNzVmNzdkY2MzZjE3YzJkIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJiNmVlN2M0YmFlNTg2NDIyNTQ2ODg3ZjAwMzBmNjBmYmQzOGNkOTExYjkyNjNhOTg4N2Q2N2JiMWE5OWE5ZjFjIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI2MzY2YWVkOGFjMTFlZTc5NWMwN2RmZTdiMzJjZDE4YWM2MmFiNDMxZWQ5OWM0ZmQwYjBiOWU4MDM2MjA1ODlkIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIxNWYwNzE4ZTUzMzI3MTkxNjZiNTFjN2U3MzQ3MDU5YWMyY2FiY2VmMTExNWNkNWU5Yzg2YmY5YWNlMjRlMDU3In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_2a1c905785d74eceac51072335237d53",
+      "statement": "Section II Coverage F is no-fault Medical Payments to Others coverage for qualifying third-party injury; the editions cover injury on an insured location and specified off-premises pathways, and 2023-02 expressly measures medical expenses within three years after the accident.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L1201-L1255",
+          "version": "repo-lines-v1:sha256:eaa982e69f3513efec9c5c1bf565a18ac1417c92937a500302bf3154fedb19fa:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjMGNjYzJkMGMzZWRmMDQ4YTdmYjNiYmI2NTUyYzg1MWI3MTU2ZWU3MTI3OTViOGNjZGQ1Zjg2YTYwMmI0MDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2NTY2MzAyNTdiYTc2MWNiNGY0ZWNjOWIzYjUyZGFhMjIzMGFhOTA5MzEyNWMyOGQ5MTEyNGNiOGIzOTE2NjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyMGUzODVkYTRmZjQxYTYwZGVlODBlNzFmMzVlOWFmMWQ3MmQ1OTQzMTQxN2Q5N2I3OGEwNTc2NGYzYjk1YTEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1052-L1106",
+          "version": "repo-lines-v1:sha256:00bad3c78b83a5379306aa21b8b8b851cb884e7403fbdcbe9e93046cd2d45cf9:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZjhlZTczM2YxNTZjNWJiNmYxNDI2NDM1YWQwMTA2OTg1NDE0OTZjN2M5MTgwMTVkNjNmNjUxNGRkNzgwYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwMTQ0NjY1Y2Q2ZDAxYjNlNzI0MjdiOTg3YWM2ZWViZTQ0MTg1ZWE5YjNhNWM1YzhiY2RmMGNjYTk1OGUzOGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllZGU5MDk3ZDQyOTMyMzlkMjE5NTE1MWU4MGY2M2Q2ODVlYTBhY2U0YzI2NmJjNWI2N2RkMzAxMjExZGQwMzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyMGUzODVkYTRmZjQxYTYwZGVlODBlNzFmMzVlOWFmMWQ3MmQ1OTQzMTQxN2Q5N2I3OGEwNTc2NGYzYjk1YTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_511d433f6b334eddaf1125291ce83542",
+      "statement": "Attached HO 04 35 modifies loss-assessment treatment: its 2014-04 edition covers an insured's share of covered association property-loss or liability assessments up to $10,000, while its 2023-02 edition covers collective-property loss, a covered master-policy deductible, or covered association liability up to $25,000 and excludes ordinary maintenance, betterment, fines, business, contractual, and speculative assessments.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2014-04.md#L135-L151",
+          "version": "repo-lines-v1:sha256:e2f19f4c4f82185225cf4c9f79cb04aa720565a807724f797f79adec0905f89a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiNGI3NzdkODUxY2RjYmNmMTY3ODUyMGU0ZmQ2NjUxNWZlYzQ5MDZhNTU3OWJhY2RkOGI0MTFhMjA4MmZmNGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmODJlMmE3MDE1MWVkYThmN2U5MGM2ZjIxOGE5OWJkYmRkNDBhODlkYmY4OTM1YmY5ZjFlMDM3MDY5YWM5ZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVhN2RkZTc5M2EzZDY5YmI5ZjNlNWJhNTNiNjgwYjA3YWRhYjBmNjZlMGU5MjBiODI4YWFlNDRjOWMwNThhZTAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2014-04.md#L35-L69",
+          "version": "repo-lines-v1:sha256:51318cb866d5043f200ae6cbf24abb61159d809f9d8f44255b951b59e7919612:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0OTQ0OTg4NTI3MDQ1MjcyNGI2NWRhMGQ5YTIyYWU5NDJiOGY2MzI5NzU4YTJhM2VkZWE5NzhmODNmNzhkM2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3YTRkOWM4Zjk4YmNiYzZlOWJlNjFlMTA3MzFjNzMxOWFkMmUyZTg1ODJhNmQwZjFhYjJkNzI5ZDllOWExNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4MWFiNWE3OTg3YTNjNWVjZDhiMTY4MDBkNTg4NGY3NDM2NzljMmQ1MzhlZmM0NmY5MWMwODMyZWRlYWEwNWEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L141-L159",
+          "version": "repo-lines-v1:sha256:9c48d4cf50466d6a26307905c471496c79e8a1d9931732ed676dfb9c29077fd5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM2MTNlZDMyMDQ3ZTlmNWJmOTEwZGZkNzQ0Yjc2NmMyZTNlYWMyNTE2YWI2ZTBkMTBjNzQxNTU5YjRmODVjODEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjMjczNmE4NDlhZDI2NzVlMzA3ODllMjc3Zjc4OTI1MTdhNzU4ZDdmOWZhMTRmNDBjYzZhNGJmMGE5YzFjMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk5ZWIzOWRhNzdkNDMyMGRiY2I0OWQ1ZWQ1OWRiZjhkZGU3MjEwYjlhZmJiY2I4OWRiYTJlMTA0NTVkN2JmYTAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L41-L77",
+          "version": "repo-lines-v1:sha256:09fa538da4622486fbef084562e03cebff75b3a8f45fac28412e1835cc85b2d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkZDkwYTBmNmM1YzM5ODc5ZDgwNWE0ZDg5YzI5MTRiMzA3MmE5ZDI4ZGI5YWUwOWY1MzJmNGZjNDY4ZWM3YTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlNjIwMjQ0MmJmOGU1YzBlN2JlNWM0ODI4MjVhYjlhNTQxMzcyZDFjYmI3MzE0MDMwM2IzZjhlMjg2NDE3M2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwYTI5ZTAzMTY2ZTAwM2EwYWRkZTA4MDYwNjY5NjNkNWU3YTBjMGUzMjI4MDEwMWI4NzkxN2Y4NzA5MDc1ZDkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L77-L103",
+          "version": "repo-lines-v1:sha256:962bbdb31c0556476855fecf2c497cbb495ea83b2fb5cce1de874b4f4b9e20ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkZDkwYTBmNmM1YzM5ODc5ZDgwNWE0ZDg5YzI5MTRiMzA3MmE5ZDI4ZGI5YWUwOWY1MzJmNGZjNDY4ZWM3YTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViNzgxNjMwMGQ5M2I2YmZhYjQyZGY4ZmVmOGMwOTkzNzY3ZjY4ZDJiNzk1YmRjNmE2ZTc1MmVkODIyMGFlY2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhMTlhZjJhYzRjZmRmMjNmMDgzY2FlNWNiOGU1ZTg5NGY2MTRlMWE5NjNkN2QyZWFkZmYxMTNjNWYyNjZjYTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJkNGVhNjkyOTFiNTE0YzBiMzQxMmY2OTg2OGU3MmQzNzExOWViNzMyMDYyZTA1ZjdlNWVhNTljZjVhMDllOTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_51fbe6f843f64036a99f185704c6aaba",
+      "statement": "The HO-6 base form's loss-assessment additional coverage is $1,000 in 2014-04 and $2,000 in 2023-02, so those base limits must be distinguished from the higher HO 04 35 limit when that endorsement is attached.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L483-L493",
+          "version": "repo-lines-v1:sha256:8a6428e680486ad4863628d99e865eee5b8490a6279927862e0a72f85f38d1c0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1ZTlhMzUzYmY3MTkyNTJlZjRhNzMyMjJjZDE1MTU4ZDcxNTY0YmRlYTY2N2I3Y2I0NDJiMzNlY2MwOWUzMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3YWQyOGQ2OGM0MzkzZDJmZmFjM2VjZTNkZTJhMjMzMzcyYTYwNTFhYTFmNzM4NDAwNTY3ODZmNGFkNmY5NzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMWYxNjg5ZjBiODI5MTViYzNhYzliNWZkZDZlYTYxZGY4ZDFjYTczYjFjMGVkODAwZGVmNzRmOGU1YjQ3OTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhkZjJiZmQ4OTNiYjZmNWU4ZWI1MWNhYTZlZWUyODU1YWUyNmQ1MWI3NGIxZjZjNGQ4OWI3MTNkYWVkYTBhMzEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L410-L432",
+          "version": "repo-lines-v1:sha256:50f741c981fe465a781f0ef849e50032c6deae381f40d547fa4bc3ee9741f845:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlYTliN2QwZjdhMDY5Yjg2NTk4OWVmZGRmMWYxNzJiNzliMjc0MjdhZDkxM2UzYjQ3YjQyM2FjOTQ3MDMwNDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3OWE4M2MzYTJjNGQxMmVkN2IyNDBmNmU2ZWRiOTIzMTVhMDBjNTJmMGJhOGQ4Y2U3NDEwMjVmMWJiODQ0OGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUxZDE0ZTlhNTEzNjEzMzhjMGE3MGE4OThhMmE0ZjMxYWU3YjM0ZGMxYmMxMjI2NGI2ZmYwNjY2YzY2NTI3ZTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRjNzE3MjI4ODE4OTBmNmY1Njk2MTNiYTk2NDQxOTc2MThmZDNkMTVlZWYyYmMwNTkwZjExN2YxZjQwZjYzN2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_74af6d7535784211b33385c2673f3851",
+      "statement": "HO 04 91 writes back unit-owner coverage for direct physical loss caused by sewer or drain backup and sump overflow or discharge to covered building and personal property, while preserving exclusions for flood, surface water, groundwater, gradual leakage, and repair of the failed system; it supplies a $7,500 limit and a $750 deductible.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-91/2019-03.md#L113-L181",
+          "version": "repo-lines-v1:sha256:0e1d2932153102ee224a7baaf31be212c58536ebba7b5c51e7ee240d71e51d3d:eyJzZWxlY3RlZExpbmVDb3VudCI6NjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3ZDU0N2Y1NWNjMjI0ZDMwZjBmM2I3YTU5OTM5ZGM2YjZlMTkyMjEzZWMyOThlMmNhZjY4NDU3YjJkOGQ3MGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhZDFhNzFiMjRiMjY5Y2Q1YjQxMWY5ZmMxMDg2MzU2ZWMwYTFlY2VjNzIyODdhZGJlYWI4YzRlZjc2N2RmMTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMwZDMxYTQ5ZjM0Yzg5YThjNjAzYjRiMjE1NGFjNDMxYjAxZjlkYjdkNjEwNzUwODNhYmM2MjhjYzQ0NjY0MDkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-91/2019-03.md#L41-L79",
+          "version": "repo-lines-v1:sha256:786a33463d06cd429f465d08b54830c6880f23fc4403551fcfdd0d626bc5f6cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4NjcwZDZkNTJmMGQ0NGU4ZTdkZDk3NWI4NjZkZDlhZDUyYjliMTk4NmI1MzhhMTc4MmIzNzIxZGIyNzg0YWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmNzEyOTlkNTA4NGYyMTdhODg0YmU4NjNhZGI5MTI5NWEyNTQ4MGRlZjIwODMxZWJlZjEyMDcyMDNkMDVmYzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkYWM1Yjg2NWJkZjI3NTZiYjdmMjEzM2RmZDEwOTQ0YjAzODdkYzViOGFjNjllZjE0MThjZjZmYTBkM2E3N2IifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-91/2019-03.md#L81-L111",
+          "version": "repo-lines-v1:sha256:f40a289ac58307d2b800ca3058619333d66df5925cc7adbd708b11eb93697d8a:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiNTJjMzU1OTVkNzhlNWRiNjYyZmU3ZjY0YjFjNjg4NDgxZDNhY2QwZGI2YzAzNTZhN2ZiOWIxZjQyY2Q0MjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjOTkxMzI1OTNkYzAwYmZkYjQ5M2IyYjYzZTFkMDZmMTdlNmQyZTA2ZjU1OWUxODM2NTYyNmUwZTIzODcxODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY0MjE3ZmJmMmZlYjY5MzFhOWViZDg1ZGM4MDMxNDI0M2JmMjgyYjNlODhhMWEyMDE0MDg0MDQwYjIwMTk5MjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L660-L664",
+          "version": "repo-lines-v1:sha256:34a0feca94c5a4513d43fb8868589cf6c7add18dad0365c678d6ad6a41231c89:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQ0NjQ3ZGI0Y2NhMmRkYjY1ZWNhOTAwMTIxMmYzZTA4MmQ4NGM5ZTFlNzY3ZmJiNTRkZGMyNzU3MGY4OGUyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTVhZGZiNzUzYzlkMWQyMDY3MWY3YmRmM2U5ZTljOWMxOTZiZjQ5ZDVkNWRlOGRhM2U3MDc1NDQzZmFiMzUwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmQxZjQ1NjcwMGFkY2Q4NTBiODE0YjJmMTQ5M2NkZWFjY2UwZGUwNjg1Y2Q0MWJmNThhZTk3MjFiNGY0MzliMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTg5ZTMxODQwNDI0YzYwYzc5ZDAyMGQ0OTg1NjBjODRkNGVhMWE3N2I2ZDc1ZDM1NzA2OTM5NGNkM2E0MWUwYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c7c9a344a73a4a348f48746a889f29a7",
+      "statement": "Attached HO 17 32 is the repository's 2014-04 unit-owner rental endorsement: it applies while a unit is rented or held available, covers specified landlord-owned tenant-use property and loss of rent after a covered loss makes the unit unfit, excludes a tenant's personal property merely because it is present, and limits landlord's furnishings to $5,000.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-17-32/2014-04.md#L13-L39",
+          "version": "repo-lines-v1:sha256:25902840dd9cf7c5213f9870087e7521b775ccf00d5c74e349d262eb18e6fe32:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhMGFmYTQxZWYyMzY0Mzc0MmFmNmUwMTAzZjY2NjVjMjA5NTY0N2NkNmUzMjM5ODIwOWIzZGM1MWMxNmZhMDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-17-32/2014-04.md#L139-L159",
+          "version": "repo-lines-v1:sha256:21da98725e5e77617c22e04ec36d77dd5424f168a2cea21ae93c45dc4defb80f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1N2Y3YTRlMDhhODhiNGFkMjVhM2Q1ZWI2NTcyYWY0OTQwZDg4NWFkMDIzZjA2MDViZTM2ZWEyNjVmYzYyZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZkYTgwYzZhYWIzNDRiMGIzMzAxY2M5OGEwN2Y2Nzk0NGI0ZTNjNjdlNzg3M2NhYmFlYWQ4ZDBhNzliNDVjYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4YWU1OTY0Y2VjMDEzY2E2NTg5MWZjYTAxZGY1OWM0MTAzMjIyNDkwNmZjMjlmYjNmODg3ODAyNTAxOWFlYjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-17-32/2014-04.md#L41-L85",
+          "version": "repo-lines-v1:sha256:722d5edf5cc0b0552389a72b1b6f4c389956a3ac6c3eb2e2c5ee20dcf1c47399:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3MzgyY2FlMTAzOGY3NzUyMWJjYzFhNmMwMDA0ZDc3YmMxZmIwZDMyNDZhZmU5ZTg2OWZmZmQ4YjA3MThhOWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU1YTEzN2UxMDcxNDQxOWRkMzRmYmViZTU1YzNiNTdkN2YzOWE2Nzc4NWNhOTg5YmEzMGM3OWNjZWJhM2FlYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5NzA1MjMxOWU3MjA1NjIzYmZlM2MyODM5YzVlZDk4OTU2ODk2NDgyZDQ1ZTFjZmNiNzA1NWZlNmEwMWRjYjIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3c0da96c23564f0ba7e00e4441aa6220",
+      "statement": "HO-6 2023-02 separately provides $3,000 landlord's-furnishings coverage and fair-rental-value Coverage D language, so the 2014-04 HO 17 32 terms must not be applied to a 2023-02 policy without checking the policy schedule and attached endorsements.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-17-32/2014-04.md#L139-L159",
+          "version": "repo-lines-v1:sha256:21da98725e5e77617c22e04ec36d77dd5424f168a2cea21ae93c45dc4defb80f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1N2Y3YTRlMDhhODhiNGFkMjVhM2Q1ZWI2NTcyYWY0OTQwZDg4NWFkMDIzZjA2MDViZTM2ZWEyNjVmYzYyZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZkYTgwYzZhYWIzNDRiMGIzMzAxY2M5OGEwN2Y2Nzk0NGI0ZTNjNjdlNzg3M2NhYmFlYWQ4ZDBhNzliNDVjYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4YWU1OTY0Y2VjMDEzY2E2NTg5MWZjYTAxZGY1OWM0MTAzMjIyNDkwNmZjMjlmYjNmODg3ODAyNTAxOWFlYjgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L316-L324",
+          "version": "repo-lines-v1:sha256:faa450b38ebe9c41b7fce6e4ee8bf15cfea06413b181018f2f01d50d952a9b25:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2I4NmUwNjJmOGI1M2U5NGI5Y2JlNDRjOWEwYjlhMDAxN2MzMzQyOGIzZmQ1MDBhOWFmZGY1YjlmMTNiODE3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ5NzA5YWYxMGE0ZWY4YjMwODU1NzNmZTc2ODMzZjExMTIwMmM3YjFiNjZlNzVjNGU2ODY2OGRmN2JhOTZjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWQ3OTlmZmUwZGQ1NjJhOTkzYmQ5YmJlYzZkZWM0Mjk2MWNmNWYxMGQzMTM0NWU0MzliNTA4MWIyNTFkY2FmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTczNmZjOTgyZGNkMWFlMmMxZDhjMjIwOGU4MGQ2YzlkZWM2NDQ2ODMxNzMzNTZmZDc3ZTQwYmU1OTgyNWQ0MSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L454-L464",
+          "version": "repo-lines-v1:sha256:123d9fa590aac44834bf62982de0e1e37bf7fa4b4da9f36e53a7632b5cb4dbad:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0ODE5OThiYTUwNTE0MDQ0MDJjODlkZjQ2YWRkYTE0Zjk3ZjA5Mzk2NzQ1OTM0MTk1MWMyZmYzODE0ZGIwZGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwYTI0MWZhMTk3ODM0NDY1MDRkZTNhNmZkZTRmNzc2N2Q3YmU2NDg4NjE0ZmYxOTdiNzJhOTlkZGVkYzMyNTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBmMzM3YzE5MTU4NjU0MDcyOWU2MmQ3NWJkZDhhY2Q3YWJkYWIyNzM3YjE5YmZiZGI1ZDNhYjYwMDkxMGY3OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNhMWRlMjc4NTcxNjc3NGMyOTc5OGM0ZmIwNmVkZGRmZGI1MDA2ZjQ2OTY2NjkyYWI0NDM5MmU4YjI3NDRmODMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_82081c3e25314a4c875418cf99c62354",
+      "statement": "Attached HO 17 33 modifies 2014-04 Coverage A by using a risk-of-direct-physical-loss grant for unit building property and setting a $25,000 Coverage A limit, while preserving its stated exclusions for flood, surface water, groundwater, sewer or sump backup, and other excluded causes.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-17-33/2014-04.md#L13-L49",
+          "version": "repo-lines-v1:sha256:cabe46d7ed0309de9b6fe9a7dd8329e77bc5092873e5052fcbf78f210dc771d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1Yjk4MTU0ZDMyMTQ2YzAwNjgxYmZmZjEyNDc1NjY3YWRjOWY4MmE3N2JiN2E4NGFkYzkyY2ZjMjE5NzhiYTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYwNDViYTM0YzUxYzE3YjI1MTk5YmQ0YjIwOGI3MWM4MTEyYTllYTgwODNmYjAxYjZlMWNjNzhkYzlmYzFlODAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-17-33/2014-04.md#L137-L153",
+          "version": "repo-lines-v1:sha256:ed79271eeeb692c7d6cd6e6456ec18bb318528faeec87d684373c6819e7b73b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmODdmMDEyMmFiNDJkOGU3NjcxMTJkODc2MjQ5NjQ5NGFmZDM0NjU4NjZkZmE1ZGE1NDg4YzE0OGNiOTM5ZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlMzhmYzUyZjJkYTg3MmZhZjJlOTdiMWQ3ODBmMGJmZWIwODJlYWIwM2IxZTdiZDk1OTY1MzlkMWNlNjc2NzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NjJiOGIxM2IxOTk0YjNmOTFmZDIzZjVmYjE4MmVmZTExYmY0ZWY2MWVhMzY4YWZlYzJlNTYzNDk5YmFjNDcifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-17-33/2014-04.md#L51-L65",
+          "version": "repo-lines-v1:sha256:d2de52938e3797332e867153713f8a29716460fc19fb16484e89a043fcc7e90e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNDRkZDAwY2UzOGM5ZGEwYTI4YmNjZjM3ZmQwOTRiNGJjMjQzYTRlNmRkYjgxYzRjMDBjMjlhYmUxZmUwNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlYjEzYmJmZjYwODdlYTExODQyMGM2Mjk1NzQ0NmEyZDMzOWQ0NTgyOTA4ZTQ5MjA5NjY0MGFjY2IzN2ZjMjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5OWQwZDgwNDQyZDZjZGM0MDNkZDYzMTM4M2Y1MGNiOTM0NDI3NjQzZjAwMjY1MTdhNzYxZjcxNWY0YzQzNWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcxZDMyZTQ3M2ViNjlhOTM3NmY1MzU3MTBjMTkxYWU0ZTE5OWY1YTM3NGMyZjc5MjZlOWZiZjdlNDE2NmZjNGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_957745fed6d442f1ab3ce101aad1c51c",
+      "statement": "The 2023-02 HO-6 source contains apparent drafting defects, including repeated wording in the vacancy definition and repeated words in endorsement cross-references, so those phrases should be flagged rather than silently normalized.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L656-L664",
+          "version": "repo-lines-v1:sha256:3cf7a55040f638cca1556a095314ffe92d4b38fb93f873eaf69ef9487479d4e2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQ3YmRkOTJlMmM4YTkxM2M5MjhlYzFjMmY1N2RiOTA2NjY3MjMzOTQ5YWYzZjFlZDJlZGNkODJlMjBhM2VhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTVhZGZiNzUzYzlkMWQyMDY3MWY3YmRmM2U5ZTljOWMxOTZiZjQ5ZDVkNWRlOGRhM2U3MDc1NDQzZmFiMzUwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzIyZWY0MDliYWEyNWQ5YjVmOTg5NTJlNzJlMWFhOTdmYjU5OWZiODZiOGRmZWQ2NmJkYWU3Y2JmMGU3Nzc3NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTg5ZTMxODQwNDI0YzYwYzc5ZDAyMGQ0OTg1NjBjODRkNGVhMWE3N2I2ZDc1ZDM1NzA2OTM5NGNkM2E0MWUwYSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L70-L76",
+          "version": "repo-lines-v1:sha256:16de70d3b988fc5aa9a0bea607088b527794c67b3bc818d76a7202afd54c8c33:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2I0MTY0OWQyNmViOTNiMDUyOTk3NTUxYWI2ZjZlZjhmM2RiY2FlYzM1NWY0ZTc0NGRjYjAyNzc0ZmQ1NmM3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGRlNjhlNmMzZjJjMjM1NmYwZGYzODBlMmE4ZjBmNWY0MjIwNjNmMzFhZjRiYTQ5ZDg0MzA5MGU4NjcxMDNmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjc2MDcwYTdlZWIwMDExOWJlNjFjZWQ1MDlhZTFiODBkMWQxZTc4N2E2NzNiYWIwNTljZmEwMDFkNTg1ZDU1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkYjE0NTdmNjk4MzE3MmIxZWNkMmZkMzI5MTNjMDJjMjM0NGY0M2EyZTUxOGNjNzM5Y2U4NjNiZmRjMjRkMiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6ef3329b3c610cae0294b189b9606785b3a348b46fa24a840c9b4bf59f3348a8",
+  "claims": [
+    {
+      "id": "claim_af692fd918c94790b21a044acf6f4e7b",
+      "statement": "Coverage C claim handling must identify the form edition, classify the property and cause of loss, apply the base limit and any category limit, then apply an attached endorsement or schedule and the applicable deductible; a limit alone does not make excluded property or an excluded cause of loss covered.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-65/2018-09.md#L45-L75",
+          "version": "repo-lines-v1:sha256:22fc188d15972ede87edbbcffb22d72d2ef8544cb89e4fb7768a734a12c578af:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwYzRiMmEyZDRjODA1NjIxZjQ4YjIyZjFjYjdiZDM5NTRkYzQ2NDFiZDhjYzA0YjAwMzVhMDEwZmIyMTUxN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhZjg2NzQ4ZTIzOGViZGZjM2FlZmFhMGIwYjU1MGJmOTk0ZDI5NDljODI4ZWI4Y2FkZTQ3YWY4N2Y5YTY2ZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0YTgzZTZiOGFjOTI1NDQyMjgzODY5YzRjNTU5NmIzMmFhYmM5OTk4NTAxNWI0ZDk3MjBlYmQ0YWRhYTdhZWIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L221-L255",
+          "version": "repo-lines-v1:sha256:609a4e52c1f5e36aa83a3587189ea01d8f0c1a174a7b57f428d8ed86267a23e5:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1NTQ3NmRhOTNlNmI0YTkzMzY1ODJlZGJiOGI4N2FmMTMwOGU4OTgwNDE4NDYwNzUwMDkwMzVhMWIzODc2MjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzNWFlZWNhYmI4NDY2MmM5MGI0NmM0Y2Q2NjlkNDgyMTJlNmYwMTQ4NjU1MThhYzlhYjQwM2QwZWI2MGM3ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5ZTdjMTVmYTQwYzI3N2M3Y2NlYTRjMjZmZGMzY2M0YjJmNDhiNzRhZjg1YWM2MTM4MTU0ZDU1MWY1YjQ4ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5OTVkYWFhNzA4NjliNGJlMDU2ZjlhNmZjNjNkMmU0MTg2MWQ3YzVmZjA5ZTlkNWVjMzQ5MzIzYzA3OTYwM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_308f79e6371a406192aed1db186479dc",
+      "statement": "HO-3 2024-03 Coverage C covers personal property owned or used by an insured anywhere in the world, sets Coverage C at 50% of Coverage A, and permits requested coverage for guest or residence-employee property without increasing Coverage C.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L221-L235",
+          "version": "repo-lines-v1:sha256:4bbbb1ac3f2b511d35557715bb0d1b36e410e86a4681950b30ca109d047b45ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1NTQ3NmRhOTNlNmI0YTkzMzY1ODJlZGJiOGI4N2FmMTMwOGU4OTgwNDE4NDYwNzUwMDkwMzVhMWIzODc2MjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwZDNkODE3MjE4NGNmNmRhYmM1YjY5MWM4YmUyMjFhNDk4MWZjYzMxMTk4NDc5Y2Y5NzIxZjY0YjczZTZjZmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5ZTdjMTVmYTQwYzI3N2M3Y2NlYTRjMjZmZGMzY2M0YjJmNDhiNzRhZjg1YWM2MTM4MTU0ZDU1MWY1YjQ4ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjYThhOTI5NDBjZTY0YmJmMWE2NjU3YWE3MTljYzVmNzY1ZWJhMWExY2EzZjY2Y2VmNDVhNGM1ZjRjYzk5NGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_79ad712b7db74c5dbcd41d8b48581422",
+      "statement": "HO-3 2024-03 special limits are $300 for money and similar property, $2,000 for theft of jewelry, watches, and precious stones, $3,000 for theft of firearms, $1,500 for watercraft, $3,000 for theft of silverware, $3,000 for business property on the residence premises, and $1,500 for electronic apparatus in a motor vehicle; these limits are within Coverage C.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L237-L255",
+          "version": "repo-lines-v1:sha256:7a016ffdfe70e237acd6699e3613f584c9dca5cc329b52b72d4b8bbad1a958f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjOTE5MDAyYWY2MGUyMTI1N2YwYzNmYTBlMTZmNDU2NjdhODE3ZmI2MTJjMTkzYTNlMTFiMDFhYWYxOTI3ZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzNWFlZWNhYmI4NDY2MmM5MGI0NmM0Y2Q2NjlkNDgyMTJlNmYwMTQ4NjU1MThhYzlhYjQwM2QwZWI2MGM3ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhiM2JkMTQyMGEwYzNkYjIyMTcwYzFjZWZjMjhiNjdhZTg4MTA1NWU0MmFiOTdlZDMzYTkwYjNiZDJjZmMwNGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5OTVkYWFhNzA4NjliNGJlMDU2ZjlhNmZjNjNkMmU0MTg2MWQ3YzVmZjA5ZTlkNWVjMzQ5MzIzYzA3OTYwM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d92165602378439da31e91934beefe78",
+      "statement": "HO-3 2024-03 provides separate additional-insurance coverage of $1,500 for credit-card, fund-transfer-card, and forgery loss, subject to exclusions for specified resident-relative, entrusted-person, and business-activity losses.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L445-L455",
+          "version": "repo-lines-v1:sha256:1f641f85f12388fc787db01adde9691bf44caa36e47c759ec19e7735de1b97dd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0MWVjNTA5OTg0ZGU3ZGZiNGI0MzJhMDZlMTVjYTg5ZjQxZjlhZmRiODU2NDNjMzgwMTQ0YjRjZGUwYjAxYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzZGUwZGY4YTNmMGEwMmRhZWIwYjZkNGUzZmIyYzIxNmYzNjgzN2JiZGNiNmZmMjEyM2NjMWZlYWMzMzUxNzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM2M2ZjMGY4NDJhMzgyNGM3MWNmOTY5YmEyZDBmMTVmYWUxMWM0ZjdkMDliMDExZDY3NjNjMTRhZjdlMDc1NTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0YjY3YzRjNDQ2YWVjNGZhMDU2YTljYzM4OTIzNzE5OGQ5ZDViZjgwNDA1MWIzNDljZGNjMTVjZjM4Zjk3ZjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a17d390433e04582b8185c3b7c656166",
+      "statement": "HO-4 2021-10 covers personal property at and away from the residence premises and excludes business property away from the residence premises unless another Coverage C provision supplies coverage; its supplied Coverage C text does not state a percentage or dollar amount for the overall Coverage C limit.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L219-L245",
+          "version": "repo-lines-v1:sha256:0d92c0559f04c129da411b5322a6d034497f93035f107a869f6d826aa7da66f4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwY2Y4NDZlNjQ3OWViYTAyYjg1NDVkYjhjN2Q1MGU1Y2E3NTM3ZDdjMmFhNTkwY2JlOTU1MzY2YWJiZWQ3MzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0ZTk0YzQzYzQzMjFkNTk3ZWNmZmE1OTIxMmIwNTZkYWM1NDEzNjU5MTc3ZjAxMzA5ZTExYzA3MzFjY2QzNTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5ZTdjMTVmYTQwYzI3N2M3Y2NlYTRjMjZmZGMzY2M0YjJmNDhiNzRhZjg1YWM2MTM4MTU0ZDU1MWY1YjQ4ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyZWYzZWUyMzJkYjM4NWVmZjMzNjk2NjdmNDY5OGZmNzE4NTIxMWY2ZDk0Y2ZlYWEwNmE4N2MzNmUwZWYwZTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_32baf66ec8ca4db29c2f1d6a0a7dbb3c",
+      "statement": "HO-4 2021-10 special limits are $1,500 for electronic apparatus in a motor vehicle, $250 for money and precious metals, $2,000 for theft of jewelry, watches, and precious stones, $2,500 for theft of firearms, $1,500 for watercraft, $2,500 for theft of silverware, and $3,000 for business property on the residence premises; the special limits are part of the applicable Coverage C limit.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L245-L263",
+          "version": "repo-lines-v1:sha256:297c040b5e10e7345e6f5fcdd94108e40a7ea69e4edcbd3dee89a05327e2baa7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0ZTk0YzQzYzQzMjFkNTk3ZWNmZmE1OTIxMmIwNTZkYWM1NDEzNjU5MTc3ZjAxMzA5ZTExYzA3MzFjY2QzNTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNDcwNWM0NzQ1OThlNjQ5NDlmMTFlOWRhM2VmZDcyNDE4ODExYzQ4YjRkMjQzM2RmODBkNDQ0Y2JhZmRjYzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI1MDBhYWRiYzllOTVkMTdhMzUzOGIwMzkyNjk2M2I3N2UwYmI4MWQ2NTBhNDM5ZTRhMGI2NmQxYzdlMDlhNzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzODNhZGM5MjlkOWUzNDVmY2MyZTJhMjI2M2VlMjMyMmE1MWQ5ZDBhZDYyNTI0MWI0YjRjNThiNTQ1YWE0NmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cf3f4f53dc714d0d9e545d1eccb6b9eb",
+      "statement": "HO-4 2021-10 provides separate additional-insurance coverage of $1,000 for credit-card, fund-transfer-card, and forgery loss, with exclusions for specified uninformed or voluntary use, business use, and dishonesty.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L465-L477",
+          "version": "repo-lines-v1:sha256:11ef0c3b37b93c4ba1c87b2f8591ebf299b312953b7e10ca19703f2c6be28140:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmY2M0ZDljN2NiMjE4YmM3YmUzYTVlZGYxZTRkZTE4NDZkNjAyMzg0ZmQwNDM4MmQ1OWVkNTZhNDJiY2QyYzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0NzZlMzVmY2IyZDE5NDg1ODkyNTliYzNiYzVjMzE2NjVlMjY0NTNiMTI2MjQwMWQ5MTczM2E3MThjY2VlYjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY4NjhlNmI3ODNjNTA5ZDU5NWYwZTE5YmI0NmQ2NjA3Njg4NzFkMjA1YTY4MmYyYjA3ZDM0MmU2NjFmNzUzM2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiMjM0MGRhNzZiNGM2NTFhOTkyMDZkZDczYTJlZTgxYWU0NTZiNmI3OGU5OWFkY2MwZDgwNGUxZWE3YWVhNzQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_86e92d31b3564496b96210c4a91a8988",
+      "statement": "HO-5 2022-06 Coverage C covers personal property anywhere in the world, sets Coverage C at 50% of Coverage A, applies that limit regardless of the number of insureds, locations, items, or claims, and reduces the remaining limit by payment.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L253-L271",
+          "version": "repo-lines-v1:sha256:ec620faa47a47327a8464431946ef38ec7f7be1d20a7ce6973c97d97925c461d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxM2JlMGZhOWQ3YjU5OWUyYWIwYmQzZGVkZGEzMjhkN2ZlZDE1NDA1YzBkNTE4NjZkMjRkM2NhM2QwOWYwMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhODhiMzViYTVhNGI4OTM4MmRkNWFmZWNmZTkyYTc2OTY5NzYwMzc0MmU2NzgyNmZiYzVkNWQwZjdlMWZlNzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5ZTdjMTVmYTQwYzI3N2M3Y2NlYTRjMjZmZGMzY2M0YjJmNDhiNzRhZjg1YWM2MTM4MTU0ZDU1MWY1YjQ4ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlY2M1ODhjYTg3OGU1Zjg3MmRiMGEzYWY3YjNjZTdmYjZiYTFjYTU5OWMyNTE2MmYyZmY1OTc1ZjEzNDE5OTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_640d1eea85f7488e9d1dea068561571c",
+      "statement": "HO-5 2022-06 special limits are $300 for money and similar property, $3,000 for theft of jewelry, watches, and precious or semiprecious stones, $3,500 for theft of firearms, $2,000 for watercraft, $5,000 for theft of silverware and specified plated articles, $5,000 for business property on the residence premises, and $2,000 for electronic apparatus in a motor vehicle.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L267-L287",
+          "version": "repo-lines-v1:sha256:f4a3e3414bb0dabb76829f8cb744198576c25a0b3484e4c86cb96aca4acca1e4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxNzRmN2VkODkyYjA1ZGI0N2U2MzEzMjlhYjdjNThmYTM5ZGFjYTM0MzhhODYwNThlMDA1YjRiYjE4ZWIwODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0MjcwNWM2ZDI3NmUxOTkzNzk2MmY2ODRhZjQ4NTdlMjUwODI0ZjlhNjMwMmNjOGVjN2ZiZGQ4Mzg2MWIxOWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNjYzdjNDg0YTY0MDMzNDAzNGQyMmRmNWUzNGUzNDBkMjRlNjYxNTFlMDU2MTNlOWU0YjJkNTU3ZTNiNDUzM2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIxYTc5ODM1ZGFjZGEwODdkYjBkY2IxYTcxZGNhYTUxNTA0ZmFjNmY5YzI5NzA5NTgxNWMxOTEyZDQ2YjFlMWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_65d4011358df4b00a48e940477f5b465",
+      "statement": "HO-5 2022-06 separately provides $2,500 of additional-insurance coverage for credit-card, fund-transfer-card, forgery, and counterfeit-paper-currency loss, while retaining stated resident-relative, entrusted-person, and business-use exclusions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L509-L521",
+          "version": "repo-lines-v1:sha256:edb158a78ac863b0aae675873eeb375176e275b659760cfa3a17434c7ec9bc19:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwYTBiMjY4MmRjNTEyYTBhODI2NWI5NWM5NGU5NTkwNDA2MmI5ZmU3NTk5NzM3ZDg5ZTk3MDkxOTE4Y2IwZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3ZmJmYjE4YWUyYmVlNzI3ZTk3ODM4MTMwMzQyOWRmNmRmNWZiM2MwOGRkNjgzNDU1NzJmNjk1ZDBjNTBjMWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0MzY3MzlkZDUzNDkxMTE4NWRjMTM0MzRjZDU1ZjBjODU5ZDk4YjM4ZDliYWQ1MmFmZDQ4MzI1YzM2OTQyNmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3NDc1ZTZhZmJiMWUwYzIyZWU0YTNlYjZhMDNmNGZmMDAzYjkzMzlmMDdmZDA2NmUyODUwYjZhNzFmZTkwOWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e9413387a2b94e63b879076bf85650c9",
+      "statement": "HO-6 2023-02 covers personal property at and away from the residence premises and says acquired property is subject to the applicable Coverage C limit, but the supplied Coverage C text states no overall percentage or dollar amount for that limit.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L186-L204",
+          "version": "repo-lines-v1:sha256:0c968187d027f06d2972d125f808cf1cd760ce263e46c64bc987a70c5fa83416:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFkMTc0MjgyNzBlYmFmMDg1MjRmMmVhN2YzOWQ3YjVhODJjNjMyN2FlYzFkYThlMjNmZTE4MzI4Y2Y4NTU2ZTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY4YTU1OTZmYmM3NWI4MGYzYTc2NzcxZTVjMjhiNWNmOGU3MzM1YmFmNjJhMmQ1MjUzYzlhMWZjYzZhNWE0YjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5ZTdjMTVmYTQwYzI3N2M3Y2NlYTRjMjZmZGMzY2M0YjJmNDhiNzRhZjg1YWM2MTM4MTU0ZDU1MWY1YjQ4ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg1NTVmNGI3NTk3MTc2YjJmNDc2MjliZmM1ZDFiNTllNWNmNWJhZDJjYjgyZWFmZGRiNmIxYjg1MjQ1YWEzNTAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ca26de5d136b43e78b02983d4395f433",
+      "statement": "HO-6 2023-02 special limits are $250 for money and listed precious metals, $2,000 for theft of jewelry, watches, and precious or semiprecious stones, $2,500 for theft of firearms, $1,500 for watercraft, $2,500 for theft of silverware and specified plated ware, $3,000 for business property on the residence premises, and $1,500 for electronic apparatus in a motor vehicle; the special limits apply before the deductible and do not increase Coverage C.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L236-L256",
+          "version": "repo-lines-v1:sha256:7391e9bb4eec7fe946382c58ca19a6b22d407c53f0dd883c87a1617d0cba79fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0MzI0N2MzNzI4OWNkODFiMThhODNmMTU4ZjQ4MWY5Y2UxNzBjODMzOWY3MjcyMjgxMzgzNjFmZjcwOGY0ZGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwNzI3OTY5MTExMjFjYmQwN2I1YjRjMTQ5MTUwYjk3OGI5YTgxNDc2MGMxODVmOTM5ZjJmNWVmYjI5MWI4NGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY4ZGVkZjI3N2Y1NjA2ZDRkYzA4OWU1YTVkYjFmNjE2NDhlMTI1MzhlYjg4MWNkYjY2ZGZiNGY0ODI4MTYyZWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM5MDNmNjdhMjg2NjgxZTg4M2UyNjg1OGVkMDg3NzAzYzhjNjc2YzkyMmNiM2IzOWNiODJiZDFjYzU0YmQ3MmEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b4597c7f96a47fdb22b12f2fae8b7e6",
+      "statement": "HO-6 2023-02 provides separate Coverage E coverage of $1,000 for credit-card, fund-transfer-card, forgery, and counterfeit-money loss, and that coverage does not reduce Coverage C.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L390-L408",
+          "version": "repo-lines-v1:sha256:96e188450b30ed0520c34c65ee13252a4d7c41db488cfd723ae43e80790ff5a8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkNzA5NDgzN2M0NGYwOTNjZWY1Y2MyM2ViZjMxNzFiYjZlZWYxZTlkNTJhYTQxZmVjNzVmODE1MjI1NGYxYTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMzQwMzgxOGY4ZWQ1ZDQ5NmU0ZjEyYjQyZTkxMWUyZTVmMTQ2ZjI2ZTkxZGE5YjQ1ZGQwNjc1NjI2MmQzOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjczNTFlMjI5YjVkNjIzYjNhZmE3Mjg2NzMxN2MyYWRjMmRiYzkwNzIwZjQ5NDhkMjA0MGFmN2QyNzI2ODZkMzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2MGMxNDg1YWQ4MWM1ZTkzOWQxZDdiMTYzMWMyYmIzZTIwNWNkZjFmODcxYjI5ZTE5ZTUzYjg1ZWVmOGViMDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7ac35b0cb34c40cda1c22f5616224f67",
+      "statement": "HO 04 12 2018-09 modifies business-property coverage and sets a collective $10,000 maximum for all business property on the Residence Premises; the limit is not increased by separate items, ownership, buildings, or storage areas, and the endorsement does not state a separate dollar limit for property away from the residence premises.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-12/2018-09.md#L171-L213",
+          "version": "repo-lines-v1:sha256:290a6a283278b2be0c312c825ad3787aaff48b170e8802e25405e9ef30d9ba3a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0YmE5MWEyZjc1NDM1ZmUzYTBiYjkxZDYxNTkyYTI0NDE4NWYzOTk3ZmE4NDNlODE5YWYzZDY3ZmZkNWU4ZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2OGI5YTZlNDg5NzcyODdhYTY4ZmExNmYyNTAyOWNmNDk3ZjZhMTI4NjA3YzBmY2NkZGJlMDc1MmRjZjMzZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4ODdjZTAyMWEyOGE0ODVlOTQxZGRiNWNiNzFmZWJjNzA4NTI4MjU0NmJlMGI5OGI1MjU2NTlkYWI4ZTdmOTIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-12/2018-09.md#L57-L81",
+          "version": "repo-lines-v1:sha256:e4ce741570955c629c176fa0f1c06a24983d97a4ca920c1ff7de8548c3bc8479:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxZDliZDBiYjM4YWRiZTQ1MzIzNmY4ZDUwMDU5MDBlZWNiZDMzN2RhMTQ2YTAxNzYwNzEzMWQxYWIwMjkyY2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY4NGM0NGY0YzhmYzgwYTAyYTUwZTc4MjFmOTZiMDQ0OTI1MzI1NzcwNmU3Y2Y5OTdjNWVkYTA4NTczNjRkMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxZDgwNzNlMWU1M2UwYzFkYjFjNzlhMTc5ZWI1OTAyYjUxODhhZDM1ZTYxYzM0ZDI3MGE1NmE4MmIxYjI3OTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_10e5d9af82c245c589181bfb75e2756b",
+      "statement": "HO 04 12 2018-09 applies the policy deductible to the total covered business-property loss from an occurrence, including covered emergency measures and losses settled on actual cash value or replacement cost; it states no numeric deductible.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-12/2018-09.md#L269-L309",
+          "version": "repo-lines-v1:sha256:4a50e710163419da85002fe8f97d6bff35aaee353700633e6b10e63e39dce96c:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1NmY0YzNjMjQxMTM4YTNjZjkwZjhlNDNjZjk2MjZkMDM3NWRhYjMxN2EzYjM3NWJlNjU5YjIzNDNmMDk0N2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4NzlmYmE2YmFjMGNhYmU1ZjIyOGU4NDMwZDViNWQ3MmQ1MmRiM2E1YzUzOGIyMGI0ZTJlNmFkNDc0ZDBlODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyNmYyYWQ1ZjBlMmJjMTg1MTU3ZDIyM2FkNTk3ODE0NzJjMmRkNDE1NzllMjI3MTBmOTJiOWQzYmVkNDA4YWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_81ef492c933c4479abac0a263ea97b17",
+      "statement": "HO 04 65 2018-09 modifies only expressly increased Coverage C special limits, replacing the otherwise applicable category limit after coverage is established without changing exclusions, causes of loss, valuation, or the required property interest.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-65/2018-09.md#L45-L75",
+          "version": "repo-lines-v1:sha256:22fc188d15972ede87edbbcffb22d72d2ef8544cb89e4fb7768a734a12c578af:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwYzRiMmEyZDRjODA1NjIxZjQ4YjIyZjFjYjdiZDM5NTRkYzQ2NDFiZDhjYzA0YjAwMzVhMDEwZmIyMTUxN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhZjg2NzQ4ZTIzOGViZGZjM2FlZmFhMGIwYjU1MGJmOTk0ZDI5NDljODI4ZWI4Y2FkZTQ3YWY4N2Y5YTY2ZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0YTgzZTZiOGFjOTI1NDQyMjgzODY5YzRjNTU5NmIzMmFhYmM5OTk4NTAxNWI0ZDk3MjBlYmQ0YWRhYTdhZWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0d60a5155c4444058821d7b2e044c247",
+      "statement": "HO 04 65 2018-09 increases theft limits to $5,000 for jewelry, watches, and precious stones, $6,500 for firearms, and $10,000 for silverware; each is collective for covered theft loss in its category from the same occurrence, and the applicable policy deductible remains in force without a numeric amount stated in the endorsement.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-65/2018-09.md#L157-L177",
+          "version": "repo-lines-v1:sha256:f8e0c3beef0b49a29d365f177b116797add46505111031a3a1eacd0a2019606f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiM2FhMjk4MTZiNGZjYTI5OWJjYjNjYzMyOTZjMDEyNTVmOWZmMWY5MjkzMTVhZDg1ZjlhM2Y0YjMxNmFlZDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ1NTA4ODJiMmI4NzE4MzJjYmJlOGE2OGI3NzFlZjlkMTc4YzVlNWY3MTI4YjY3MGUwNjUwM2ZmNTU0NWMxNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY0YmViZDI5ODQzYWNiMDZmZjU3YWY3NzVkMThlMzcwZGMxYmFiMTFkMTM1YTM5MTkzZWNhNThiMTA2YTNkZWUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-65/2018-09.md#L183-L193",
+          "version": "repo-lines-v1:sha256:6ad297d6fee7204f60c459036aeb7fa75c1b17ac23d9467f6abe62c59c870905:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmODhmMDNjOGY0ZGQ4MDhlOWNhZjNjM2Q0MDhmZDQ2MzcwMzBiNDhiYTdiZWRmNmYxZjJkM2U3OTcwYTAyNTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRhYzQxYTliNzVjZTljYjYxNjA1OWQ2OTFmODMyYjA4OGJmNTVhYmU2ODVlYjkxZTY4Yjc4ZTkzMTM5ZjhlNzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRjYzczYmFlYWY3NTQwMTZhZGIxNjNkMjQzZDNiMmFhMmVlOThlMzRmNmY4ZmIxOWZkMTkwNjU3MjQ1OTE2ZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ZGJjZDdjYzIzNDIyZGYwNjBhNWU0Mzg0MTkwNGUyN2E4ZGY1ZDY5ODk1MDJkYzVjNjg0NGRjNDFmYzFmZjMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-65/2018-09.md#L263-L283",
+          "version": "repo-lines-v1:sha256:d4e3c9552a56e07df53db71d05ac5dd1749c956ab725d091e6a713d2bc8e348f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNjk1YzBlMDhjZjliMmIxNGUyODRhZTlkOWFmYjBkZDc0ZTBkY2E0MWViYmRiNzdjZmY0NmM5MWZjOWJjZmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmZDA0NzAxNzNkZGYxYThhYmVmNzJkODUzMzEyZWJkODk3NmI3NmMyZThjNzljMzA4Y2FkZjVhZWYxOTBjNzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU0OGJjMGQxNmQ3OTU4NmIzZTM5NGJiM2RiYzI1ZTlmZTUzOTUxZWI3YjIxMWYxOWI5NjRiYTJiNjA4YmU2NmQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-65/2018-09.md#L323-L327",
+          "version": "repo-lines-v1:sha256:27545a927adc70fafbf72ad73270b9f8b3c9e621a8bf7c336abdf8c12b1e114a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGU5MTdkOTcwNmI2OWU1NWQxODM3YjU0YzQwZGU0OTJjODAzM2IyZGY4NWYxMWMxZWQxMmYxN2RlYjEzMjBlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzdhN2VkOWE2ZmJiMDA1Njg0NTExZTkwOTNlNjM5YjI1NTMyYWRmYTBmOGFjMDMyZjgyNWQ3MGE0YWI4MDEyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWMyYjkxYjk5M2JkMjVlOTI3NjJmYTM0NWFmMGFiNmU3ZDZiMmQyNGRlZTA3NDU2ZWZiOWE4NjM3ZjRlOWY2YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2Q2NDZjM2UzNGQ1NzdiOWNjZGVmNjU0OThjYTY1YzI5NjAwNDk1OTU0NmZhMDI5MzFmNGVmZjNkODllMTBhNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_735347149560417f91ada2a1a7b8f955",
+      "statement": "HO 04 61 scheduled-property coverage applies only to property identified in the attached Schedule, with the scheduled description and limit controlling; changes are effective only when made part of the Schedule by the insurer, so similar unscheduled property is not brought into coverage by resemblance.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L13-L49",
+          "version": "repo-lines-v1:sha256:b58696f429c24fd4fdf0a4b7efd9c499f1d47a9675e11d70e9e94166deafa920:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxMjA1ZGUzNmU4NTViYTk2YWUwOTM0ZWMyMGZkNzhhMTNlYTllZTQ5ZDM4NjIzZTk5OTg5ZTUzZmM5ZGU3MGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2020-11.md#L13-L35",
+          "version": "repo-lines-v1:sha256:b65222bb320c640aa4dfbbce178622cc9332c1093132ff2c4235163927d4bec9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwMjMyZmQ1OGIyMTY3YWEyZGMyZGQ4Y2IwMjRhMjM5N2IzYThhZGY0ZGI1NTkwZTgzYjEyOTRhYzVlOWIyMmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmOWFjNDAzMTIxNzU5N2Q3ZTVhNGQxY2RhYWVhMDRlM2E5ODY0OTc2NWM0MWZhYjRlYzg2MTNlOTI2Y2UzYmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f62e008d20604e5f827f35d38ae5db21",
+      "statement": "HO 04 61 2012-02 remains in force for policies written under that edition despite being superseded for policies effective on or after 2020-11-01; it covers described scheduled property worldwide for theft, disappearance, accidental breakage, and accidental damage, with a $0 deductible and an item or group limit that is not additional insurance.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L225",
+          "version": "repo-lines-v1:sha256:df35888cd60ef82607fd4f22eda8987d4514f99577685c22882d454b8af1c52b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1NWYyM2E4YTNkNDcwZmE4M2YyZGM3ZThhMmMxZmMxYTRjNWY1ZWRhY2QzMmY1ZTdhYWQ1NWIyNzI3OTgwOWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzNDY2MzRmZmZkNzI5NjBkMWQyNWJlNWI1ZDFjYjgyNWE2MWY3M2M4NmQ2ZDBjY2I2YWRmOGY5ZjhkN2VkZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwYzdmMWI0YjQzOTI2NWVmMzg1NzVhMWJiMzBlMmI5NjAxMGExZmQ0MWI2YjZkMjQ0ZjMxYjIwYmI3NzgxYjQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L315-L339",
+          "version": "repo-lines-v1:sha256:14c168f9fe40e0775c2d43ffacd904c3dac41923a8419e2a2c4233c3b015b8cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxYmU4ZGQ1YTc4ODU5MDM1ZWNjOTFiOWEyYzIxNjZlMzA5YTViYThkOGI3MTJhNzQxOWVkMTRlNDhiMGE5MjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkzMmJiZWM1YzNkMTM0ZGVlNTIyN2ZiMGIxYmQwOWU1MjU3OWRlZjhmNTEyNTdiMDYyN2YzMTAwNWVkMzMyYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2ODhkNjFiZDQ4ZTY2ZjZkYzVlY2UxZGNlNGZmOWE0ODA2MmNjOGRjN2RiYzdjMzU1NDI0ODJmMWVjMjEwZTgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L51-L75",
+          "version": "repo-lines-v1:sha256:e48f14c0d9711b5f7f6a9d48bac3f73046dcc0e528ad3cb2c7bca79a280435ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMjlkYmIyMmRhN2M0N2QyNGViNDRmMTlmNzlmNWZhZmEzNjAxOWI0NTcyZGJmYTUyNmQzOGYzOTJhZTVkMjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlNWIyNDQ0NGM4ZjEyMzE0MjhiOTRlYmUzM2QxZTY5MjU4ZjNkYmU4NjllMWU1Mjk5ZGRiMDliN2NmNDQzYWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ5MmY5MGI5MGQzZDkxZDI1MjdhY2NhMzU3OGEyMzY3NTRkNGQxZjY2ZmQ2YmVhYzZlMjdhNmJiNzM0ODQxZDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L8-L9",
+          "version": "repo-lines-v1:sha256:3f679cd72df4a9fddc48252e8c9c38ce467661c18a96ca9e4058cc87f3d27260:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY3MjkzZWI2NjMwY2JjNDgwOTc2NGZkOWRhMGViMDM5N2FmN2I4NGEwNGYzYTdjOGVlMTFlMTJlOTE2ZjA5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc3MzZlMDZmNTQ0NDVmM2VkNmNjYThlYzcyNjc0MGNlNTI4MDc0MDlhNzZmMmM1NmVjNzhlOTlhOTcyMGE0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGYwN2I1NjMyZWU4NzY4YTFkMWNlYTE0MWJlNDA3OGE1OTc1NDAxM2M2YTllYjJhZGE3Y2ZkZjg3ZTdkMjkwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e1bab8852a5472c967c382c750da574",
+      "statement": "HO 04 61 2020-11 covers described scheduled property at or away from the residence, including theft, mysterious disappearance, breakage, and accidental damage when its requirements are met; property acquired after the Schedule is issued is not covered unless added by agreement.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2020-11.md#L13-L53",
+          "version": "repo-lines-v1:sha256:c9232b1074fe12a8d57b9c5fb432fd9c073215eae23641c436dc55ef92ea09f9:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2OTVmYjk4ZTE1ZDAyYzEwNTk5YmI0NzM3Mzk5YmU4ZDkxOTEyMmM4NDYzN2YzZWMxODQwNTA5ODRlNTdjNjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2020-11.md#L55-L75",
+          "version": "repo-lines-v1:sha256:00184a1623a8e774f94bc082666eebc91fd909b71ad062e4b3f13882974d49a8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwNzE5ZmY3MDU1ZjMxMmNhYzFjMzgxNTZiYjNlMTRmYjA0NTc2ZmZlNmJkZThiZDA0MjdhMmRjNjdlNTg4YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmZmRjM2Q5NWYxOWZhNWMwM2MzYWI5ODc0NzA0NjI5NWYxMjFjZTQ4NTI5MDU4MWZmMzJiMmMxODM0ZWQ4Y2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBlYzhlYzI4YWUxN2ZmOWI5N2Y3Nzc5NzcxNDk4MGE5YzdkNTYwY2Y5OGJmYTNjYTE2NDJkZjUzNGM3NDg0NjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_abd72078d2814cf1aeb50a9a9ddc0d3c",
+      "statement": "HO 04 61 2020-11 applies a $250 deductible per covered loss to the total scheduled-property loss from the same event rather than separately merely because items are separately described, and requires notice of material changes while additions or removals take effect only when recorded in the Schedule.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2020-11.md#L291-L319",
+          "version": "repo-lines-v1:sha256:2aa80e9e5e5a42e84b5412a6f86a26919fa0f45ad8e32984dec6a960c440fc2e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjNDdiYjZhY2M2MjBiN2E5MTdkYjI3OTZhZWEzMDZkNjAxYTFhMzVkOWRiOTJhYTYzNDUyNjI1OWYxMTUxMjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkMjYyZjQ1ZGM5NmYzNzU4MGQyNWMzOTg3Nzc0NTZmNDA0MWNhMDcwNWEyZGZkOGM4ZDRkNTZkYTExN2M5ZWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIwZjY1MzMwOTNiZjVjZTZhOWZiOTY4MDdhMjljMjQ5ZDVmMmEzMjYyMGJlMGQ1NWIzMGZjY2UxMzczZjJlMWUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2020-11.md#L31-L49",
+          "version": "repo-lines-v1:sha256:f3a71b089a8c60704ba83ab8bd1372170fc7924592eaacf52daff815ae6a64f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3OTY4ZTgzZjk5OWY5MjBiNTc1NmFkNjgwMDk1ZDA1ZGZiMWI3NTMyZWUyNDAxNTU0OWFlZGQ4N2I0ZWI1YTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYxN2MyY2UwYjU1YjM1ZGZmOThhM2ViYmZmOThkMjE3MjZmZmY4YjVmYzA1NmE5YzFmMjc5Y2I2NmRiYjAzN2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkYzYwMGRkYTIxZmE4Y2M3YmM5ZTIwNWNmZTFkMjgzNTExZGFlMzI5OGJjOTJiYzU4MDZlNjEyYjYxYWEzNDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNkNzU1ZDQyZDkyZDY5ZTNhNmM5OTc1NThhMzBjZWZhYTQ2NTExYzQwM2U0ZTk3ZDA0MzNlNjRiYTVjZTQ1ZmUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2020-11.md#L343-L353",
+          "version": "repo-lines-v1:sha256:f91ce6be4a177aa0517fb32ee4dff889114e6ca683562218f972344c470d10c3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjZTlhN2UxZWVmOTBhODk2ODVjMzcyZDVmZDY4YjQ2YjhkYjEyMzU1YzMzNDE3ZmE4ZjU0NGUwOThmYzBhYjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwODc2OGQzZmUwY2FkNDliZDBjYmUwOTMzYjA4ZWU0NzM5MDgzYmYzZjJlNjgwN2IyMGQ1MjMxYjc5YjIxZGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZjODJlZjAxYTcyODljOThhYjMwOGJmODM5YTczNjA2ZmYzYjg0NDJkNzA1Y2E1OWRlZDc0ZDc3MGRhNDQ5Y2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNkNjQ2YzNlMzRkNTc3YjljY2RlZjY1NDk4Y2E2NWMyOTYwMDQ5NTk1NDZmYTAyOTMxZjRlZmYzZDg5ZTEwYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1369b32e8ab341c6b857c943cd1e7892",
+      "statement": "HO 05 24 2018-09 modifies the peril treatment for eligible personal property to cover direct physical loss caused by a peril not otherwise excluded or limited, while retaining policy exclusions and conditions; it is not scheduled-property coverage and its applicable Coverage C limit and policy deductible continue to govern unless expressly changed.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-05-24/2018-09.md#L13-L35",
+          "version": "repo-lines-v1:sha256:9e68707c197fb580186520a7d7c6be627fb64511ec1f33fae92f6bc5c7ff4387:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjY2I1ZWRjNmYxOGQxODU1ZGI5NjcyOThhMjVkZmYyN2Q4NGY3YWZkM2MyOTVmMzczMzkwZmQ1YTQzOGFmYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0YTJlZjQ2NTQzYTBlMDYyYmViMTAzYmU1Njg1YWVmNDhjMWY4OTc0OGU4M2JjMTExNDQyMmU2ODcxMGZhZWUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-05-24/2018-09.md#L209-L229",
+          "version": "repo-lines-v1:sha256:85d80ee664f133a873705c38e5ace589ee9dacc983ca1986230190d4acd5c793:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhODNiNTM4NDhhMjUwZjI5YTQ3MDAyMzgxNTc4NjE4MGE0ZTkwZmE3MTgzMDRiMzg2NWUyMzc3NDk2MDhiMDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZjYmQ4NmVkNmU3MzBmNjg5M2M3YWNmNTc3YzI0NDg2ZGU2ODNlNjMxMDVlNzJmZDMzZTMwYTExZTkwNTdkNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJmMDcxNjlmMGQ3M2M3ZGJiNmRjZmVjMjM3M2U5M2EwNGZjODc5ZTMwNGFlZGUxOGJlNzNjYWFlYzBhYmIxMTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-05-24/2018-09.md#L41-L73",
+          "version": "repo-lines-v1:sha256:7439d15acf369608caf3eb1ef1f5106d68126c848163dce05950caf9c5433bef:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4MjA4YzNiNWMzYzFkOWExN2M2YWNlMTAxNWY1ZTg4MjliZGY3M2I4ZmJiYTMyMzg0YjZkNmI3ZjYzNGMzNTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwMTA1ZjAxYjI4MDBmYTMzYzU0M2ZiMDkxNmJhOGMxZWUyYjAwMGI2ODJiZGUzYWZhOWVmZGNjNDU5YzJlYTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjliMDhmMTM5N2MxNWJjZjg2OGQwODVlNTU3OWI2Yzk3ZjkyNWI5YmYyMjczMjg1MDVhYmI2ZjRmYTE2Y2QyYTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e43f03958814300b6d2d82ab53702ca",
+      "statement": "HO 05 24 2018-09 retains a $2,500 theft limit for jewelry, watches, and precious stones and excludes property held for sale, buildings and construction materials, and most business property away from the residence premises except property an insured personally carries or uses.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-05-24/2018-09.md#L141-L177",
+          "version": "repo-lines-v1:sha256:90d2c857c1948209690cad29d53eba9ba9bc2a84e05b01be985894f0e0ea66ed:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNWFmNTc1ODdmYzk4MTI1YjhkMDczYmYzM2Y1M2JmOTMwNzQ3YzgxY2RmZDg2N2VjMzZmZTBiODlkOWIyYWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk1YjVlOGYxNDUyMTllMDU1MTRmYTk5Njk0NDBjNjViZjI3MmMzMzllOTQxNDdmMzEyOWQxMjBjNjdhMzFhODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjZmIxNzE2NDBmYWI5MGYwNjdjZWNiNjdmYjM5ZjZlN2E3Y2JhNGRkYzliMWY1ZDY2MTQ0YTdhMjA5ZDczNDEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-05-24/2018-09.md#L75-L97",
+          "version": "repo-lines-v1:sha256:f3d54120a31a749bd5350d945ab45317d7dea4f15dc4680918208332e0db5f68:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFkYzhlMmEzNWNmMDkyYWIwYzUwY2E5NmY5YTEwZGY1Y2ZiMjFkODk4YTlmNGFmZDIwMjIxOWQ5YWM5Nzk2OGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2ZjEyMDRlMzYzMjMxOGUzNzI1NWVkMmIwMzI3Y2I0ZmM4ZjYwMTYyNTgzMTdjYjlmMzg5NmM3ZThiNzE0MDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY1ZWRiNWE4NjBkNDk3OTA5ZmEwMTY3NTU5ZTM5NjM5MGYzMzljMjUzZjlmNzJmZDZjMGVhNjUzZjZkNWVhOWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwM2Y1YWM2OTI4NmQ4MTMyODlkNDhlYjY5ZGNjOGFjODI1N2Y2ODNiZmVkYmYyNmI0NDMwMWM4ZDU4MWQxYzcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_86eca5df5a7d40d9902e4dcba14cafce",
+      "statement": "HO 04 53 2013-06 modifies separate credit-card, fund-transfer-card, forgery, and counterfeit-money coverage, with a collective $10,000 limit for all insureds, cards, accounts, instruments, transactions, and related acts; its deductible provision expressly makes the deductible inapplicable to covered loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-53/2013-06.md#L171-L203",
+          "version": "repo-lines-v1:sha256:b985a0aa5cdd799c05186a7abf9c77b9cd66d82c948187d20e8147e4ca6d645f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1NDAyZWQ5YjIxZGQwZWY0ZWVkMWY1YzgyNDBmN2Q3ZGNhMzA0ZmJmMjI3NWQ1MTVkZTFkNDMxYTBkMDkxM2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ4NTQ0ZDZlOTdkN2M4NDYzOWM4Y2UwNjllY2RhYTE3NzBkYmJiNWFlYTdmODJkMjlmZDg0YTk3MjkwZDYyNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIwYzBkZTc3M2U2OTkxM2QzZjgzZTVjZWQ3Y2ZkMDkyNTRkMDIyNGRhOTAxYjg3NWNkY2YyMmQxMWYyNDg5MmEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-53/2013-06.md#L249-L271",
+          "version": "repo-lines-v1:sha256:5266d616a9d5f09c4cfa68a54237f82b4a88853c868d5bded2b6b0a8909cfaa6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3YjQ0OWY1MWE0OWE2MzA5NjIzMGNlZDAyN2IxYzQ3OGM2ZTYxMjMwZTI4NzBjZmJiNmU5ZGJjNWYzZWJhNTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiMTA1NWEzZTRiNThlZWM0MGRlZjM3MmRiNjUwMGIyYjg4ODBkOTBlYTlmYmRiNWZkOGIxY2MzMzUzZGU2NWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVmZDZkOWU2ZDQ5NjM5YjM0YTI0YzlkNzM5NTkyMWY5ZmE5Njk2ODcwYjBhMGZlODE1MjViNmExYzM0NDYwYTMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-53/2013-06.md#L57-L121",
+          "version": "repo-lines-v1:sha256:eb569a774c49e8dd09ef64dc526cb8aa4f45c12dbcc54aa273ef46af53c3e8bc:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM0ZjhmYTIxMDI0YWQwN2Y0ZGRiNjAxNDM4ZTM0MmM0M2E5N2M1YTU2ZWYyZWY3YzhkYTBjODI2M2RkNWNmYmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhZjBkYTI5NTc2OTVmZDU4OWJkNzdkYzVkYmUxM2Y3Y2MxMTNkZWQwYmQ0MmJjM2JmMTkxNDUyMTkwZTJiOGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3MjYwNzYyZDdjZDRhZGUzNmZjNzkwZjFmNGQzYmJhMDhmOTBiNGM0MjRhZTcyODE5NDFkNTRiMWM0NmViNmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4d475a87dd264240aacef75aa69204b5",
+      "statement": "HO 04 53 2013-06 does not convert Coverage C into card or forgery coverage and excludes specified insured or entrusted-person acts, business activity, voluntary parting after deceit, and loss reimbursed by an issuer or another source.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-53/2013-06.md#L137-L161",
+          "version": "repo-lines-v1:sha256:43ab51c8272b059db3590c5d9dc37f504295a06559c54a7204cdc31c453738e3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkODk2MmI0Y2M4ZTM1YjdjYjEzODI5YTUwOTQyNGNhMWRkN2MxYTFiODI3ZmFkM2UyZTgwYjJmOTBkZDNjNjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkZTY5NjViMTFmZDdmZDUwZTIzNTE2ZDdkZGUzMTgxODlkMmI2ZWY4ODE4NTA4YjExN2E2ODliZTNmN2Y0MjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiNjY3Mjg4ZTc1OGYyNmNkYWE0YzljYWViMTJlN2NhOTcxY2U4ZTNhMDg2ZjUyNDYxZDdiOTBjMGJkNjQwN2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmNjc3OTRhZDM4ZTczZGRkOTYxODM2ZTRiMTFhZjdiYjYwN2JjNTBiYWU4NDRjYTVjZjUzYzJlOTU4NjdjNWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_609b6478cf554f15a6c9e166f022cea8",
+      "statement": "HO 04 55 2017-01 provides separate identity-fraud-expense coverage for reasonable, necessary, actually incurred expenses directly caused by identity fraud, not for the stolen money, property, securities, income, unauthorized charges, or debt itself; the identity-fraud event must occur during the policy period, although qualifying expense may be incurred afterward.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-55/2017-01.md#L13-L53",
+          "version": "repo-lines-v1:sha256:bddae59155cb307020a9ac3db1d227e8c6c4e808db62c658d090b4a35f00c429:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkZmJhNzdhZWVkNTdhMWEwZjkzOTIyODRjMDNiY2ExNzMzN2ZlMGRmMGRiY2Y2MmQyMjFlNDgzOTQxMjQwMTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-55/2017-01.md#L55-L119",
+          "version": "repo-lines-v1:sha256:2cd5ee9f98954a2159e0fadd5eeff2bf38b7ed97fe274cf7aa1874e60d90e61e:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjYzVjZTBhMmEzNGU0ZjMxNGI0MWIxYjI1MGI5NzdiYTI4YzNlNGIxMGE1YzU0ZGMzMjMyNDNmYWViYzU5ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMxZTg1ODI1YmFhNGY3M2FmNmU2NGMxZDE4YzIzMTI1Mzc0ODRiMjZjMjc1MzI3YTdjNTYzZWJkMGMzNWUxNjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmYTBiMGFiYjgzYjAxNTVjMThlYjY3OTM3NjUzZmNlODVjMjVlMTk0OTJlZDQ1N2Y1OWIyODA2MmMzN2MxNDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9080cf43a3094a8e82980639c2079f51",
+      "statement": "HO 04 55 2017-01 has a $15,000 identity-fraud-expense limit; its deductible section supplies no numeric deductible and requires the applicable policy deductible, while claimants must give prompt notice, preserve records, mitigate expense, pursue available reimbursement, and obtain consent for reimbursable legal fees or court costs.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-55/2017-01.md#L153-L175",
+          "version": "repo-lines-v1:sha256:996e4a1ebb9c7a2d0e4b1c5cb5cdea779708b7251f5729d907e4642bd986e413:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwN2JjMTUxMDM3MWE1MDBmMDVlYjg3YjI2NTEzYjgxZjlhNDk2NjZhYTAyN2MwMGFjMmI3ODliMzZjZWQ5NTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjYzVmY2I4ZDNlNmQxZmY3MTMzNjRhYWJiZGM0YTQzN2IyN2MyYTk2ZjhhNTBiNzdjY2IwYmNkZTgyNGM0YjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRkZWYxM2RkYTBmZGEwOTFiYTY4MDRhYWI5OWJhZmM3YmEzYjdjNWJhZjUzMTAxOTNjMjZkNWQ5ZDEwMWQ2YzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE3MGI3NWUwOWM3NmM5ZjQ1MWE4YWZkYjhmMmVjMzBlMjQ3ZDNlY2NkMDQwNmFmOGVmMGM4YmY2MzljNGNlN2UifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-55/2017-01.md#L213-L237",
+          "version": "repo-lines-v1:sha256:338980e5d78dc226146f4f9411944f509aaa8c4775230fc8bc00390b70c98928:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM0MThhNGJhZjdjYzU0ZjE5MzM3ZWI2ODU2ZjcyNzkxZTYxY2NmZDdlNjdmZjNiNTUyNjViOTExNGRkNmUyZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZmZjUyMmIxMmJjZjkxMmViZTVmYzE0MzNmMWNmMjM1OTdjM2ZiOTYwZGZlZTY3YjZmNjEyNjFmMzA0MGEwNmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYzY2Q1YWRiMmZkMmQxOWUwY2U5YWU2ZWVmNmIxNTdkMzIwMDE2YWM4NmNjMjIzODBmZGI5NTBhNjExZWY1YmIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-55/2017-01.md#L289-L325",
+          "version": "repo-lines-v1:sha256:eaf6c4d975d621627645271d560fc25cbabef271fb914a07e3e97042b569b41f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxOTQxYzc3OTNkYzgyODU5OTBhNGVlZTlkNmQ4MTA5ZWI1ZGViYjc0ZWY2ZDU5ZDkwYWJkNjA5ODE3NTQ0NWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4MDFiOTE0MzM4MjE5MjlhM2IwNjEyYmU1NmI2OGJmZWExN2NmNzY4MGU2MTkyODZmY2E1NGRhZThkMGM3YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1YzQyZDQ4NjNjOGRlMWY0Yzk5MDAwYTkwYTcwNGQ2OTg1YTZmMWY3NDE3MTZiNjBkZGM5OTI1ODcyZGY5MDYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2db880b6e0024ae7af3c13950757faf7",
+      "statement": "The base forms require personal-property claimants to give prompt notice, protect property from further damage, retain damaged property for inspection when reasonably possible, and provide records supporting ownership, condition, value, and loss; training reinforces these operational expectations but cannot establish a coverage limit or deductible.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L257-L279",
+          "version": "repo-lines-v1:sha256:81993dec5c1389bf050857485431a7a235bcdcf37031222c30ed8fc6c206af67:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhmMmRhMjgzMzllNjA0NjNkYTIyM2NkNmU0ZTQ0NzNkMjNlNDhkMzVlYTlhNWVkYzZlNGY0YzE0YzY2MjQ4ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3OTA3MjdkMWVkMWY0Mzk2NTQ2MGFlM2U4YzFjMDlkMjZmZDJlYzY5ZDgwNjk1OGRhNjJmN2NkM2M4MWZlNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZkMTE5YjYxMDhlMDhlYjgzZWRkYTZkNDUyNDYyNjkzMDUzM2ZlZGJmYTZkNzE3YTM2MGFjZmM2NDQxMWU2NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjMzEyOWI1NmMwNDExOWUzMDZhNGRmYTFkMDIzZTAzMjg4Y2VlNjgwNDY4ZmE0NzEwMDU0MTlkZTVkODI4MmQifQ"
+        },
+        {
+          "resource": "repo://training/customer-faq-homeowners.md#L109-L131",
+          "version": "repo-lines-v1:sha256:2ee98393897d27db0cd7b24c7deeaf2a0709ad969a31aecebddbf02828383baa:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3OGQxZjA1ZDY5YjVmZDkyYzUxOGJiZjYxMmEwNWNlOTZkOWY4ZTU4YWM5ZmJmMmVlZTEwODNiNDdmNGY4MTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhODEyNzhjNWU3OTI1Y2VlOTU3NDBkNGVkNmZhOGQ3ZjEwMDYyNTNjMDk5NDI0MWUwZmQ5YzY3MGVkMWU5ZTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhjMTcyM2RkNDY5OWUyMWViNjEzY2U3NTgwNGQwZWM1NzUxODcxYzVjN2I5MzIxZjBkY2QzNWU5ZDg1MWFmNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIwMDJmYTU5YWNlNTM4YWVlMTQ3NDQ4MzA1OTI3ZmJlZWM0OTQ4MmIzZmFhNDc5ODk4MjE0OTQ1Nzg3ZmZjYmIifQ"
+        },
+        {
+          "resource": "repo://training/customer-faq-homeowners.md#L81-L91",
+          "version": "repo-lines-v1:sha256:ecceae78f8774b61e22032a8785e920965ad6893d1b4a0603262db08015dda5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1NGYxMDdiOWYyYjkzNGJhOTY2ZTVmNjBmN2RkMTAyMmUzNjJjMWEwZDI0NmQ0MThkZmE3ODNkZGU5OTg4ZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjMWZkMzc4OWQwMGM1NjU3NjRlYTU5MDg2OGU3MGMzMTVlN2Q1M2NmYjA0MTNjMTVhMzU5MzllMmI5NWU4YTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRhNzMwYTI3NjExZjIyZTVmM2Y3NDBiYzU4ZGViNmFlNzNmOTA0NmE4NjcxMTgyY2EzN2QxNTkzNWNjNDQ3OWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmMzVhODRiYWNkYjVlN2EzNjA1MWJhZmY3OTc5M2RjMjZiZGQ3OGZmYjExMWYyYTgyZDUxZDkwYzE5YzNjNzUifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

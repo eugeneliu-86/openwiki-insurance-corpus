@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f29a90963b1a4f9662aab3a1485bf8a06674049b091f9b80c209d9763bdddc7f",
+  "claims": [
+    {
+      "id": "claim_cae695232099488ebf6f8c3a86b6a59b",
+      "statement": "Rules 500–570 are internal carrier underwriting controls for state-specific eligibility, authority, referrals, exceptions, and file documentation; they are not policy terms, coverage grants, or regulator bulletins.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L13-L37",
+          "version": "repo-lines-v1:sha256:3d49e53083a482d727f10c22844a715d4ebd216e331a9bd013d016fdd337687e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L141-L169",
+          "version": "repo-lines-v1:sha256:533da09baca91c714b3f9dc8d3f29884965c4d9e953d0bc85f1c2fc506e6a65b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyZDc1N2ZlZTFmYmY1OTM2ZTMyOWMzMWEyMGRkOWYwMzlhZjNkOTdhYjkwZmI3OThlNDc2ZWJmN2FlNTQxZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhNjUxZjBkNmJhODcxYWY0MWRiZjA3NTlmZjI3NmMxM2ZmNWJiNWM0MDIxZTFlM2I2YzMxNzhmNTdlZjU4YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBjMzc3NjExZWRjN2QyODlmOGZkZjY1ZGQ4OTA3ODAzZjZkNjNiMGM3ZDdiNzk4YzgyYTQ0ZjhkYTAwMDE0NGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyYjlhZjcwOGMxZjRmMWZmZDQ4NTFlMjdjNWY4ZWU0Y2VhNjZiNDJlY2UyMTg3NDZmMWZlNThkOTYwNjNjNWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_70e4ad8c218847e382c6a18c9ba5c061",
+      "statement": "A pending state-exception referral does not authorize binding: the underwriter must record the trigger, evidence, requested action, response, authority, conditions, and final disposition before completing the affected action.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L141-L169",
+          "version": "repo-lines-v1:sha256:533da09baca91c714b3f9dc8d3f29884965c4d9e953d0bc85f1c2fc506e6a65b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyZDc1N2ZlZTFmYmY1OTM2ZTMyOWMzMWEyMGRkOWYwMzlhZjNkOTdhYjkwZmI3OThlNDc2ZWJmN2FlNTQxZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhNjUxZjBkNmJhODcxYWY0MWRiZjA3NTlmZjI3NmMxM2ZmNWJiNWM0MDIxZTFlM2I2YzMxNzhmNTdlZjU4YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBjMzc3NjExZWRjN2QyODlmOGZkZjY1ZGQ4OTA3ODAzZjZkNjNiMGM3ZDdiNzk4YzgyYTQ0ZjhkYTAwMDE0NGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyYjlhZjcwOGMxZjRmMWZmZDQ4NTFlMjdjNWY4ZWU0Y2VhNjZiNDJlY2UyMTg3NDZmMWZlNThkOTYwNjNjNWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_262392b808e34997a4e0610f4eb738dd",
+      "statement": "Florida Rule 500 requires a roof inspection at age 15 or older, declines roofs at age 20 or older, sets Coverage A from $200,000 through $900,000, and limits line and senior authority to $600,000 and $900,000 respectively.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5843-L5857",
+          "version": "repo-lines-v1:sha256:3426d89e6b2685ec0f2960270dbe7801d6e6e96dc573f8b771969e56b1887b65:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4N2EzNWFlMWQ5NmI3NzFjNjRlZmNlMzE0NGM5Y2QyMjU4NWQ4YjFhNzA1MmQ4OGI2NTViMzhmNDhkMWQyMGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxY2IzYTRkN2RjZDUxYjBmZDk1NmYxN2E1OGU5NzcwNjRkZjFmNzQ0YTYxMTdkODk3YTg0NTUwNTUzMGFjYzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcyODEwMjFiMzAwOWM2NzBkZDJhMzM5YWExMTkzZGViZWE0MzRjODJlZDZhMjk2NWEwOWE1ZGVjODE2M2U4MjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVjNWNlOGZiM2JiMzViYmQzNzA1Y2IxZGUxMjQ2ZTc5OTI1MGIyMmE0NjMxOWEwYmYxZDRjMDYyNTRkMDQ1ZDMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5899-L5929",
+          "version": "repo-lines-v1:sha256:11dfff87563272d0d8b65617b1198e0f37331b139486820ad63574b90ce37a9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YWExN2E0NzY4OGMwOWRjMjI1MmM2YmQyZmEwYTI5YzEyZDQ5NDcxN2IyMDdlYzU5OTYyMTk0YTMyY2JiZWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjMmRlZGJhNGFmYjRiYjcxN2ZkZTI0ZWU3YjJhYWVlZDFlYmMwYzVkODFmMzY0YjU0ZDVhZDUwNWE0OThiYTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhMzAwMDc1YTUzNzkzZTc4MDMwODE0NWFmZGU0NzM5MTE0MDkxNjZhZWM5Y2U0YjU4MDQzNDU1MTlkMjJiYzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4NmJlYmI5MjIxNTQ1YzgyMzdiMDYxMzZmZWU1MGMwZDdhMTBlYmExNjAzNzUzMGQyOGQ1ZjIzYmU3ZWNmZTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_79890501e5324e8ebf8b47f19da01a76",
+      "statement": "Florida Rule 500 refers repeated water, fire, liability, occupancy, business, animal, recreational, ground-movement, weather-loss, ownership, claims, maintenance, access, and inspection concerns, and requires state-exception support and complete file documentation for decisions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5955-L5993",
+          "version": "repo-lines-v1:sha256:400f5f74b047bb17cd79980752be72dd8e9b9e3fb05f5eb7dca1dfbf28829652:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNkZTcxOTlhZmIwM2E1ZmFmODhhNzlhNTkxNWU4NzVjMjFmZGZjNjBjOGRkYzIwNDNiMTEyMTllNDA2ZTEwNGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4MmM1ZWFiZDczNjZiZmNlMDZiYjNjMjFmYzI4OTNkMTdkZDBmNWI5YjY4Mjk1YzUzODE1ZjhkYWUzYjExY2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhlYTI5ZWQxMzhkZDkzZTVjYjMxZGI2NWQzMGI4OTYxNDhlNmMyZGJkOTFiODAzMWUzYmQ4NjNiYzc5ZGI3NWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3NjJhZTExODU2MjYzNTQ0YWIwMGE1MzJkOTZhMjU5YjJkODMxN2Y5ZmU5Y2RjNDY2NTRmNmY3ZGFiZjkwOTMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6059-L6129",
+          "version": "repo-lines-v1:sha256:1bf22a79cda76481f37c1b41162df3c728b5f71eaeb13ee6e86c569332b3dffe:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1Yjg2MjZhNTRlNDI5YTk5MTIyZGZmYzI3YzlkOGEzODI2NGRhOTRlMjQ2OTU0YWJhZWQ0OWIzNzY5ZDZjMjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNTA3ZmRmZjA3YWEwYmZhZDg2YTQwNjNmMjIxMDRmNWE2ZTk1ZWYzNzQ4ZmQ5YmY3NmI2MjNlYThkZTUwZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzZGYxN2RjMDM3ODExMzQ5YzU0YTA5NTMxODY0NzA4MjZmMmQ3ZjZlYjk5YTNmMmNjN2M4ZGM3NmU1MzMxM2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmYmY1MjA3ZGQwM2M1Y2U2YzU0MzQxNGZjNmUzYThlYjU1MmYyNGQ2NGZjOTBkMThjYWJlMTU1ODY0NDU3M2IifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6171-L6225",
+          "version": "repo-lines-v1:sha256:6ba5315e794927e4e45a76a938947865a1f6b485b628fcdd39930ed17771fb1e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZGI5NTYxY2IxODUwY2M4OWQ2ZjVkMGFkMWFmODg1YzcwZGNlYmQ1NjlkZDlmOTk0NTU1NjQ0YjE3MzgyNTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1YWQ1MjE3ZDRlMWJiN2JjMWNhYTNmMzIwMDJhMzRkYjlmZDhjZmZkNmZkNzdkOTIyYTE1OWRkYmJjY2ZiOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwOTg5MjdiZWUyMGM4MzEyYmE0N2FiMGM0ODBhMTA0YWYxYWZjOGQxYzdmYzM4YzkyNmVmNWM5MWE4NjZiY2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxYjYxNGNjZTgzZGM0OWQ2ZDhhMDM5YTVkMzBhOWUwYTIyMjZlYWRlYjYwMzRhNmQ5YzM0MmNhNzY3YzMyZTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_39236bda0d2f4203ba7f126c80f9cbee",
+      "statement": "Texas Rule 510 permits line authority through $800,000 Coverage A, sends amounts above that and through $1,200,000 to senior underwriting, declines or refers amounts above $1,200,000, refers water-backup limits above $25,000, and requires a roof inspection at age 15 or older.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6229-L6257",
+          "version": "repo-lines-v1:sha256:944d1a4312d1e1a1b2d7a08c5b6bfb88504868393afefed534567fbf2285eea1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ODMyM2M2Mjc2YzI5OWUwZjNiZTA4NjA1N2U2YzI4ZGNkZjllZDE1ZDA5Yjc4YTJhN2JjOGQxYWFmMDJhZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYmJlMWZlYTVhOTZlOGI3ZWZhODFhZTA3MzI2YzM1ZmQ3ZmU0Y2UzYjBhYzYyYmRlZGU0OWM2NGRkMzZhODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxYjYxNGNjZTgzZGM0OWQ2ZDhhMDM5YTVkMzBhOWUwYTIyMjZlYWRlYjYwMzRhNmQ5YzM0MmNhNzY3YzMyZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NTM2MDVjMTAyNjI1ZDk1NzYyNjhjZWJkNjY4ZjJlODFjOWU1NWY2OGNlNzY2OTBjNTU3YWQ0ZmU0MDk5NDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_58ac7ac7f2914270b39aceb71ea0abdb",
+      "statement": "Texas Rule 510 requires address, insurable-interest, occupancy, property, roof, loss, protective-device, system, deductible, and exception verification; it requires complete approval support before binding or declining and timely review for the applicable accept-or-deny deadline.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6259-L6317",
+          "version": "repo-lines-v1:sha256:921e225e83c346053a65ee10da64d6fd843a6dc4581c3010498749ea13f5ef0c:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4OWM4NzQwNzBkNWRkYjdiZDViYmU5MWRmMDMxZjI1ZDJkM2ZlYTNmMjU4NThiNzQyYmY1YWVmYmM2ZjA5MjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMxN2ZlNzI3NWIxYmRjODM2NDJmZTk0Nzg5NzQzNWZkM2RmOTFiODQ0OWE2ZGQzOTUzOGVkZjkwMGQwOTZiNDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0YzdhMDVhZjU2MGNkMjY5NDk3NzM0NDY0NDc4OGQxNTJmY2Q2ODE0MDJmYjFhNzI5OTZlMjBlMTllZDkwMjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI0NWNiNmNlYWQ5NjI4YjViY2E5Y2U2MmZhYjlhMDNmMGFjNmYyMDQ1MzNiMjBhYzJjZDM2MTVkZjg1NWY3OTQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6337-L6407",
+          "version": "repo-lines-v1:sha256:d478f1699d627f30f545691515f7fa769c6c03239d9c8dbc94d0d8dc550c7aa8:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiNWEwZGE1MWMxYTI0ODNkYzBmYmZkYjk1NWQ5NjFkMWQyOGRlZjZlZjBiNDcyMDZjMWViMDQ1Zjk3N2JlNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2NDc0NmE0YzU3MDhlZjUxZDMyNGQzYjI5MThmZDVmYjQ1OGY5ZjRhNTU4M2VmNzRlM2UwMDlkMzY2OTg4NWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4MTJiMGUxNWFjMWQxYTJjZWVjOTBkOGJhNzVlZWVmMDBkNjcxYmVjNDI0ZjJjNWQwOGZkZTFmNTJiM2RhNWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU4NDc1MzcwMzBjM2M5MTQwMTc5MzU3NTc4Mjc3Y2FkOGM1YWUzMzY4YjkxZWY4YmJlNDYxM2I5OGNjYzMwMzQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6547-L6575",
+          "version": "repo-lines-v1:sha256:b218fad70a78c91d8d08503076c72ff1c06760b344c1b67cb3883a4fa2d8bdbe:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjYzU0OWRhMTYwOTEwZWUwZmIxYzkyMTZiYmVkNTFmZDUyYzI5MWU1ZmIwMmI3ZjJhOTgxNTA1MjAzZmFkYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2MDJjYWE5MDJlNjJlMzc4Nzc1NzBmYTYyYTZlZmViOTAxNDhlYTM5MjViODhiMWFjNmJlOTQwZWExZjY0ZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc2ZmRlNmM1NWU0NGUxODVlYzA4ZmI3ODFiZTE3NDAyYTkxZDkyNzZkZmU3NjNkYjFiYTgzZTVkNjllY2U3YWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjliZWY5NWRmOWViMDFlZTI0MjBjZjRmN2ZiNjRmMTUzNjhlMWRkNGNjZGI0NTMwNGUwMThhYThmMWIwMWQ5ZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_28029b54a43a41f8a2e125e4da7e0133",
+      "statement": "California Rule 520 sets a $1,000,000 line-underwriter ceiling, prohibits Coverage A above $2,000,000, requires 100% insured-to-value support for internal replacement-cost eligibility, and requires authorized direction for quake-deductible changes.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6579-L6595",
+          "version": "repo-lines-v1:sha256:e68a95ef5d1de55355af7eddb94c2490e11b8418058ec2b51692118a1dafa5f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiYjM4NTNlNTIzZWZmY2M4ZTM4OGYxNjY4MWY1NjY1MmM2MWQwNDE2Yzg3NWM4ZGUwYTIwNGZjNWMyYjMwMTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmZmQxNDA5MDUzOGU5YTIyNWZiMTE4ZjgyZDA5MjVmZWJmMmExOWUwMGNiNTNiMDFhMzU2YjA2NWRlZWIwZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjliZWY5NWRmOWViMDFlZTI0MjBjZjRmN2ZiNjRmMTUzNjhlMWRkNGNjZGI0NTMwNGUwMThhYThmMWIwMWQ5ZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNkMmNlMmE5NGNhMmE3YjgyNzJkMmEyMjhiZDQwMWI0YmU1NDBkMWE5ZTJlMGM4YThiODRjZmFmZTU1MmQzZGMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6741-L6745",
+          "version": "repo-lines-v1:sha256:9bf4c9df69e378d2ac8f61382f98b1628e35368bac9b071c920af1b63a60e9d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ0M2Q4N2JhMDc2NGNlMDdlZWUxZDM4ZmNlNmI4MTZlZDRmNWZlMDBmZWZjZGMxMTVlMGE4YmUwYTIwN2RlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRmN2VjNzJhMGRiODEwYWEwN2NhNDA1ZDFkMjQzMmYzY2Q1NDk1YmFlZTI0MDAzMjA0ZGJjNjMyNjJkNTg4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGUyYTg5ZTkyY2NmYTIzNTU2MWIwYmQwZmE0MTNiZTY2NTVkODE0ZmZmMzUxZDkyZmNjY2YyYjNjMmE2YzM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjQyMmY3NzA1MzcwMWZiOTJkYjczMWFlMTMyMWJmMWRhYmFjNDIxNDcwZmM5ZGIyOGM3ODhjMzExMDg5OWRkNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dfb86c53508a47618ab429f824621f1e",
+      "statement": "California Rule 520 refers unrepaired roof or fire damage, wildfire and vegetation hazards, open claims, nontraditional occupancy, construction, site instability, unsafe systems, protection gaps, material discrepancies, and unsupported mitigation; it requires a complete file for referrals, exceptions, and adverse decisions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6609-L6679",
+          "version": "repo-lines-v1:sha256:037b8cc7aa9e2308854c9b348855239d7d1c3b3819b73baae80a3768209885bc:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3ZjU2ZGFkN2JmNDc3ODA1MTkxZGM5YjY4ZjUxYmMyZGNlOWY4NDI2OGZjZWYwMjM4ZjBlMzZmNjZjY2Y3M2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4NWJlY2M4ZDkzYWM0NmEzNWFhM2RjOTgzOTk0MWYxMGZjMzFlNDA2YjRjODY3MjUzZWM4ZDRiOWZmYWY3YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU1OWIyNjg2MjYwOTA5YzI0ZTZkNGU0OGE3NTRjZGJhNDA1OTc5ZDQ3MWM1ZDBlN2Q0ZmNjNzJjNzZmZmRlOGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzYTBlMWQ5NzZlNTJkMGI5YmUxYjUxYjA2N2ZjMzQ5ZjIwZTdiOTJkZGI0NzMyMzExNzVhNzc3ZmVmYzI3ZjEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6735-L6835",
+          "version": "repo-lines-v1:sha256:0ef443397fff549a6a35e6fb34c4be5608a6775879d24cb93db544177af58478:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI3Mjg5Y2I3OWYxOTZkZjdkYjZiMzgwZTY2ZGQ5ZDhiNGRmNThlOGZiZTEzZmU0MTk3NTFmNjhkNmU5YmMyMDNhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJiNWVjNTMwNjRmODFhMzIyZmY1OTk5ZjJiMjQ1MDBlOGUwYzRlMzUxMDJlN2UxM2YxNDAxZjE2OGM1YjhkZjg0IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJhYzk0ZjZmNmM4YTE1NmVkZTIyZmI2ZTAzYzY5NGZjZTM4OGQ1ZTMzMmJjYjU1OWZjNWYxYWM0ZjMzZmRlMmFlIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI0Yzk2NDQwYmE4MzQyYTY4MTVkZDk5OGZhY2I3ZGExMzc5MzU2ODJjY2FiNzYzMDc3MGRjNjQ5MmY3YTBlNjg2In0"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6837-L6853",
+          "version": "repo-lines-v1:sha256:4b0124e7ccb826612d8d36c6a3cd8c6d2ace7e3af59befb2270d2881f3aa6b0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAwODRiNmQ0MjlkODJiN2EzMjA0NDM4MDIwMGY3MGFiYjljNzY0MzM3OTQwYTk2MWIyMzM0ZmM4ZmEyYjFiOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZTkzYzRlMzFmMzFmMDEzNzA1MTg3YjdmYjM2ODU1N2FiMDYxOTliMjM1ZGQxZTFiNmM1ZDkwNGNlZGI3M2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhOTc1YjMzNGMxNjZmOTAyNDI2YTcxMTQ4MjM2YmI5YTY1ZWZmYmRhNTc0NGU0ZDc4ZThkYTBkOTBlMzM1YWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUyOWY4MGQ4ODE5Zjg3Y2UzYjVlYWYwYTU4NjcwZjA4MzU0OTc4MDQ5OWYyM2UwYzgwZGY3NmY4MTg4ZWFjYzAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_de28a72ea9724d0a95f6dde54d35bb75",
+      "statement": "New York Rule 530 binds Coverage A through $750,000, requires referral for three paid property claims, and allows state-exception credits only when eligibility and support are confirmed.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6857-L6873",
+          "version": "repo-lines-v1:sha256:e19ddcfb541278bc4f84ed8922cf7b40c9ba4bb9845497dc07bc05a97fd450b4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjZjMwMmZkZjYxNjM3ZTYyNWRiMzM0ZmQ5ZTRkMzg5MDRmOWNkNTEyMWU3YmJlZGQyNWQyYzhjM2FhY2FiZWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlYTI5YTM5NWUyOTFlYTE1MGIzYTRhNzM5NWJlNTRlOGRjMWQ1MDQ2NmZmYmFiYzBmZGMxNzZmOGU2Nzg2YTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyOWY4MGQ4ODE5Zjg3Y2UzYjVlYWYwYTU4NjcwZjA4MzU0OTc4MDQ5OWYyM2UwYzgwZGY3NmY4MTg4ZWFjYzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlYmY1OTg2MTFkYzU1OWM1MTMzOTViZGMzZmI2NzMyM2Y2ZDRiZmI2ODdkOThmOTM3MDI1ZDE5YWY0OGIzMjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0bc10a5ea72848afa28bcd5e0d932b7a",
+      "statement": "New York Rule 530 refers unresolved damage, vacancy, lodging, business or agricultural use, unsafe premises and systems, recreational and animal hazards, occupancy and ownership conflicts, and requires underwriting direction before an intent-not-to-renew notice.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6875-L6897",
+          "version": "repo-lines-v1:sha256:f7d6012ac1949e38798c6eb511e030ac5095fc2aa3ce5b9ce3d046d866fe936f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhNDQxOGM1NzEwOGViZTRlYTUwNTdlYTlkYzVkNjY0NjZkNDUxMzI4Y2M4NmEzNjZkMTZmNWEwZjUzYTE4MWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YzMwNzViZWQxYzYwNjU1NjJkY2FhN2QwNTVhNDJlZDk1MzJmMzRkOGY1ZGMxNWFhNjU4OWYzNzczN2RkYzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM0Yzk2ODljNDY1N2VlZWZjYmM4NzA2MzYwZTY2MGMxOWI1MTgxODliMzY3YTEyNzY5YWYxOTBkM2Q3ZjgxYmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY1ZTgzOWU5ZWVhNDNlNDZmN2Y1YmM3Njk2OTdkYzE2ZWUzYTY2ODczNjY5ZDYwNjljOGUxNDVhZjUyYTIxOGUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6977-L7017",
+          "version": "repo-lines-v1:sha256:76ae2dc13b2101e90d12d3a993ad9e71a08a5a7dee12718a2070bace8f917598:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjMjRhMDYwYTRiNTY4MTg3Y2I4OWI0ZWViOTM1MDRhM2M2ZWIxNjZkZGM3ODhjZWEzNzU3NzU0ZjllYzQwODQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZjkwOTRjZjFlNDg1ZTU1OGMyOGQ0NDk3ZGZmZjdkZTBiNDhmNGM1MDRiOGIyNmQwMWNlMWY3NWEzMTIzYTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJjYWZiMDM3Nzg0NGMyODZmOGY5YThhYmNjMzdjZjgxZjhjYTMwOTQ4MjY4ZjJlYWUyNzRkYjA1M2Q2YTdmMTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFhM2ZjNzFjYjg0NzVlODczMzkzMGY3MTc1N2YzMTIzZDM1YmYxOTRiMzgwMjE5YWY4MTY5NjAxMWU2MzVmODgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7133-L7185",
+          "version": "repo-lines-v1:sha256:19a47b6ea766550dba33c075bfbdf1b6de4a65cd0a3519b145394ace9b7e4794:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmYTc4MjkwNWY4NDgyNDZmZThkNDAyNTZjOTQwMjM4NjE0MzViZGFkNDEzMWVhMTFjZjlhNWZmYjUxMzUyNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5MTk5NzkwMzM3Y2M0NjEyYjk4NDFjNzRmZmZkYjRkMzA0ZmU5YTdiMzM4MjU4ZTYwMWI4N2YwZTEwNjEzNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMDE0ZDM1ZjE5Y2E2NGE5ZTdkNGUwNTEwZTFiN2Y0NTI5NWZmMzBhN2FlOWNkODJhMmViNjRlZTA0OGIxOWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRhYWFhZWYyN2YwZTc1NThlY2M3N2YyZDBkMmU3MzViMzk4NzNlNGEyNjEwM2MwZTFkZTY1ZmIwZmI4MmIyZjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3564f5c331074a65945b29af8d44f185",
+      "statement": "Louisiana Rule 540 declines roofs at age 20 or older, limits line authority to $500,000 Coverage A, sets a $750,000 Coverage A ceiling, and refers missing, conflicting, deteriorated, or incompletely repaired roof conditions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7189-L7259",
+          "version": "repo-lines-v1:sha256:d3c7a70ccc226490875801f93db3a9e012f8e3198f96c285989c3f832a8f4954:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzNGMwOTI1Zjg3OTNlMjQ1ZWRhNTNkMmRjNjE1ZjZjN2JlODA3NjYwN2IzMmUyYjA3M2NkNzQ4ZmZlNDhkN2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4MGQxMDZlZTQ0MjFiZWI2ZDgyNDMwNjE1MTg0OGQ3YTQxZWRhOTdkMTQ0ZjE2MmM4MzRiZjAyOGJkNDE3NGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRhYWFhZWYyN2YwZTc1NThlY2M3N2YyZDBkMmU3MzViMzk4NzNlNGEyNjEwM2MwZTFkZTY1ZmIwZmI4MmIyZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRkYTM2ZmJhMWM4NTQ5YzU1NzBiOWQ2NGU3NDlhZTFiMjkzZjZjNmY3OTJjNTJhMjRlNzdkMzNhMjBjOWI2ODAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f16ef760b41d426dad96efe016da087e",
+      "statement": "Louisiana Rule 540 refers water, occupancy, business, recreational, animal, loss, claims, inspection, systems, drainage, flood, and backwater-valve concerns; it also refers unavailable maximum windstorm-and-hail deductible options, submissions outside the internal named-storm window, and unsupported exceptions while requiring final decision support.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7261-L7271",
+          "version": "repo-lines-v1:sha256:a779a6e032e285799e325c2a827aee9e9ed6e9d56c1f3cf728d2cd414c9a743c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3YThhMDQ5NTIwMzhkYmI0ZThmMDNiMWY4ZmY4YTBmMjIxZjBhMDA1N2ZjOGYzYThmMzQzMmRmNDhjYzg3ZjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmZDllZDNhMzVmMWRhOTRlMTI3NTExNjRiMTY1MTYyODY0NGE0NGNjMGQ2YTM1NGQwZmExMWU2OWMxZWY1YjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg4MzQ0YjhjYzZhZjBhYzQxYjQ3NzVmNmRkNTMzYjMzMjc0Y2JiNjAzMjE5NWQ5ZDViZmRlODk4MjFlZTRjY2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhNWZhZjQ0ZGEyZjhkNzdiODNkNDMzMDNmNDAxMzFjN2VlNjUwM2IwYTI5MWJkNmViOTM0YmNhMDk2NmUxYWIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7405-L7451",
+          "version": "repo-lines-v1:sha256:26b66935485c48109b6ccbe69e0114b23db1252d143ec72aee386b7f73dc7e75:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlZjE1NTU4ZGExZDFjNTVkZjcxZTMyMWMyOWQxNGY1Y2FjYjk4NzA1YzZhY2FlOGNlZDAzMjcyN2VmYTIwNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyYzYzMDE5NjhlZDBlODZlZDdmNTViNGEyNDI4OGEzYjk3ZjdjM2MyYzliMDY1ZTU0ZTQ2NzRhMzU3YTdiZjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyMDRjOWU2YzhlOTJkOTBjNzdlMjI0M2QzYTEzN2YwYzI5ZjU1MjZlYWU4ZTI0OWFlODYzZGM5NWYxMzYxMzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIwNjkyYjgyYWYxODY0ZDc3ODFlZTU0ZjBiMDE3Yzk3OWY2NjIxODIxYTE5Njc2OWRjYTc2MmQ4ODg2OWNiYTEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7471-L7529",
+          "version": "repo-lines-v1:sha256:f1d8f7c477d3da335bf1603b9826a6ce565f32d64a64d149c22a6164bca4e360:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwYjQ0NDg4MzIzNjRiYjViNjlmY2NiNTFmNDkzODQzZmI4MWVjZjUxMzE5ZWNjM2IxMDEyYmU5YTgyY2RjMTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2MzJmMjg2ZTQ0ODJhYzQ3YWE3NjZhZmYxOWIwYjcwOTFkNWMyNjc2YjQxMmYzNjZhNmM0ODliMGUxNWQzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc1MGEyMTRjNjYwZmU5ODk3Mzg5MDEyZDM0YzA2ZjUzYThkNWRkMDk5MDlkZTRlYjIyOWIyY2YyZDYyMzIzMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyN2MxZmFkNDRlZmZiMDJhN2MyNjE5MWJjMjRhMjAxNzExMjFkMjg2MDA4YzI4ZTU3MjI5Y2NhYzI3OWE5MzMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f8c8cbaa060e4ed687a9bae3a074b104",
+      "statement": "North Carolina Rule 550 refers Coverage A above $700,000, requires a roof inspection at age 18 or older, refers changes to the fungi-and-bacteria aggregate, and refers requests exceeding the seacoast deductible ceiling.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7533-L7539",
+          "version": "repo-lines-v1:sha256:cc3482e01cfe2dc0b3b7ea4d84dbd95d13a603d8c224f48d480dafd06f5fb350:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTI5MTkwMTAxNDc4YWNiNjkzMzU5OTU3OGEwOWIwN2E3YTNlYzQzZmQzMmI4YmY1OGM1ODYyNjg0ODIyMDRiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk4MTk2NDAwZWMzNWRhYjMwNDk2MzEwOTcxYmFiNTgyMTUwODZmYTViMjNlYjhjOTcxNzFlYWVkNzFhYmZmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI3YzFmYWQ0NGVmZmIwMmE3YzI2MTkxYmMyNGEyMDE3MTEyMWQyODYwMDhjMjhlNTcyMjljY2FjMjc5YTkzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTA1OTM5MmQ5NjNjZjg4YTE5YzM2MzRhN2EyNjQ0YjlhNGEyZThmY2Q5MzllZWI2MjFkMGM1YmY0NjkxNDdmOCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7681-L7691",
+          "version": "repo-lines-v1:sha256:112fd4afb1b0a7573baca28b98d5d12fe3c2e462169f6b5a3ef42396a5ae8ec6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliNjY4ZjRjNDg5ZDRiZjkwNjMxNDk3NmE1YzgwZmU2NjA4MDIwYTU5YTUyMmRlMDlkOWE4YTUwY2Y2ZjZiZTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmY2VhNjQ0MzJiMmY2ZTE2ZDYzMGRjZDhmMGMyNTMxMWEyMDhlMzFiMzMxMWViZjY0OGFmMGIwZTJmOTg2YmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjZTQxYThhM2RjMmM4N2JhOTEzOGNjOTQyYjE1NGRjYWUxMzFjNjFmODliNTk4YWZmOTVlOTQ3ZmEzYzM1N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmY2M1YmU2NTJhYzdiN2M1ZjhiOGVlZTUwNzc1YTdjMDQyZGQ3NDRkNjA0ZTMzMDE5MTc5MmRmOGMzOWViYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_94457a65e5204e15a95501aeded9dd4c",
+      "statement": "North Carolina Rule 550 refers unresolved ownership, occupancy, construction, structural, loss, protection, access, coastal, water, hazard-material, valuation, and information issues, and requires authority-backed documentation for exception actions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7541-L7607",
+          "version": "repo-lines-v1:sha256:b21357d47f6896a4125f9b4f68dd15993d247e7ab6578d06556ad01fcea9dbcc:eyJzZWxlY3RlZExpbmVDb3VudCI6NjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwM2UxODk4M2VlZTVkMzk0MTYxYWUwZjdmMzkzNWQ1NDRiZWIxMTIxMGE2NGI0ODhhMDMyZjk4MzkzY2Y2M2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiZmVmNGJkOWNlNDIzZjMyZWJhZjg0MmQ4ZDc1OGZhOTU1MjU1MjUwZTMyZjZmYmYyNDQwMzYzOGUxNTRiMjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYxZmFlNWNmMjA3MzUwZjliZDZmODllMDRlNzhhOTNkMDU4NjJhYWE3MjFmZTQ1MDU1MmRmZjEyZTJjOGY4NzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0YWUwMDc2ZDE0NDllODk5YjRmYmZkMWE3ZjZmMDlkOWYwMzhlYTZmOGU5ODAzMzI1NDFmMzRjMDYyNjU2ZDMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7609-L7683",
+          "version": "repo-lines-v1:sha256:e3e76544f8437487135c258ea03a38c2b292ae7fdefd45d3860afc071c0c958f:eyJzZWxlY3RlZExpbmVDb3VudCI6NzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5YjIwNTVmNDRiOTM2YjQ1NWE0NjhkYjVhNmE0MDhiYmY4NDAwNzVlN2U2ODg2YjA1ZGM5YThlZjI2Njg0NGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhZTVlYjE5YTYwMTk4YTRjZjM1NTljNWJiYzNiYjAxZTZjOWY1YzAzMmQzNjI0ZGNlYmZiZGMzODIwYzg1NDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzOWUwZWNmOGVjY2RhY2QwODJlNmQzNWZlNzZlZTAyMTY4ZTNiNTU4NWUyZmE3NzY2ZmMxYjcxZjI1YmU3MmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxYWZhNTFlYWFmZTlmYzViOGE5ZWE5YWRhMDFjOWNhYWJlYWZjMjkxYzU3NDc4OTAyMTA2MWMzYWMyYTA2OGYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7781-L7855",
+          "version": "repo-lines-v1:sha256:a5aa14d635a8ee33683244af9ddcf22a835e359da9d2a6766bc4ff288c7c20a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwMDczYWU3ZjdkNTRmZGIxZjk4ZmMwNDkyNDJhNTU1MDBkNGZhNWE2YWRiOGQzZWNkZGQ4ZDQzZDRmM2U2OGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjYWJkODU5ZjdhNTQ5ZmRkNmZmMmQ0ZDU2ZWRkNzdhMDU2ZGExY2VjMmViNzUxYzRmNDhlZTk1YTY3M2E5NWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmMTk4ZTJiMzA0MTJlZTY2MDhlNGZlMWM5YTExM2JhMzNlNGVhOTExYTA4ZWM2NTZlNDdlNjFiNTQ3ZWViNTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiNWNiMTQxYWFhMTRjNmVlYzRiMjc4NWFhNTc3OGRmNDc5Njk3ZTlhYTc5ZjJhNzhhOWYyYzEzZmUzZjdkMWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_893962fa41ae4cad868b5c8b1efea339",
+      "statement": "Colorado Rule 560 requires a roof inspection at age 12 or older, declines roofs at age 22 or older, requires review of the roof-schedule trigger age, refers Coverage A above $850,000 to appropriate authority, and refers wind deductibles above approved handling.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7883-L7917",
+          "version": "repo-lines-v1:sha256:fdd53c49e7e2af0e9da812751653597cf583a95321d7f415cb833c1cc52c2e54:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxYTVmOTc0ZjkyOTI5YjRhNjhlZDZmNmIzOWI3NWNhNDVkNTY2ZmU0M2RjZDIxNTg1OWY2ZTEzYjdjMzEwOGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MmRmYjNjOTMzMjgyYWViYWVjYjJiOTYyN2Q3NGY0ZGJhNzdlNGVjYjM5YjRiZmUzM2ZhMGE2MmFkMGMxMDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhOTNjNzU2YjM4ZGNhZGU1MzBmMGQ0YTY2MmNkNGJjNDZmNDUwY2IwNmNlMGQwZjQ4YjA1MjRjMjcwNDEwMTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmYTMyNTI0NjU5ZjlkYmY0MWQwNDI3ZjRlM2QwY2YzZDI0M2U3Zjk0ODc5M2I0Mjk4OGQwMDkxMzc3MTIzY2IifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8063-L8073",
+          "version": "repo-lines-v1:sha256:0f292699d16b5ddccb0d00fb8b86c94b9f3f56984322aa123a78a4ceb580fdac:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliNzFiNzNmNTNkMjcxMWE2ZjdhMWYzOTQzMDk4ZmU0Njk1ZDYyYmE4N2Q3Yjk1NGU5YWJmNGE0NmNiODJmMDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5NTg1YTczZTU2OTA5ODg4OGE0YmJlZmRjZmMxZWNmMjIzOTQ3N2UwYmYxNzdkMTVmYTgwMGVkMWMwYjA0NzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4YWYzMzU2MzUyYmRlM2ZiZjZmMmI3ZjA2ZTJmMDUxMjdjMWJkNWU5YzliMzc0MzE2MThjZjUxNTVmOTkwN2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNkYzMwNDJkNjFjZWQxMjExZTBiOTgyMjFkMTFhZDI1YjY3NGEwNzI3MWFjNTZhMjQ2NjAwNzMzMWI5NGQ3MDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_654bcf4724a1429eb4d228a55f65036c",
+      "statement": "Colorado Rule 560 refers wildfire, vegetation, access, fire protection, heating and freeze, water, occupancy, business, animal, recreational, solar and energy-storage, structural, weather, construction, ownership, inspection, evidence, and protective-device concerns, and requires a complete file for referred or declined risks.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7919-L8049",
+          "version": "repo-lines-v1:sha256:f1fd87422e06827607950f5436f0a06ef0e96c0a87f6276c339ee8177b442832:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI2YjU3MmVhYzQ2NDhlYmRjNjdiZjUxNzJmOWQ2NTFiM2QwMmFjNTY5YTQ4NmM4MWI1YjdmNGEyYmNjNjIyOTU1IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIwYTdlMmQ1MDBkZmY0OGQ5YjhkNWNmM2ZlM2NlY2ZhYzQwM2ZiNTI3YTUxMWU4ZGY1NGI1OGQzNWNhODQ5YzUzIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIzNGU5MDMyNDZjYzdhZDI1MDg5MTAxN2NlYWQ2ZDcwZmYxMzM5OTc3MzU1MTkwODBlYmNlZWE1ZDU3YzQ4OTYxIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJiMTBhZjkzYzE4ZThhNWE0YWJkNDk3NjZiZmNjMDQ4MDJkNzQ3MTk4ZDkzOGQwMjM5NjA2NDQwNzNmM2UyZTg4In0"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8111-L8217",
+          "version": "repo-lines-v1:sha256:94d2b77e84219070a7b60b4212b88908b7a78b3703dd1c03fd308c47fe54c9de:eyJzZWxlY3RlZExpbmVDb3VudCI6MTA3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI2NGM5OWJiMTRiMDdjYzllMTNhOThhZmY0Zjc1MTY1NmUwZTg1ODFiZTU4YWNmMTY3MzlkZTBlOTFiZDEwYzhhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI2YjgwYTg5OTkxYzdmMjE5NjRjNDlkYjAyZWJjNjUwYzMzZjAzMzkwM2RkZDRhMDVmODE3YWM2ZWYwY2NhZTEyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI0YmM5ODI5OWJjNzUyNDBmZmJmZjRhNTE0ZDcxZmE4ZGY5NTE4MjBlZmQ0MWFiZTQxNTFkZTMwNTE3YTU1NDY5IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI2ZTExYzA0ZTUyODM4YzU3NGJiMzZjNzA3ZmFhMzM4NDE5NDc5NGUzMjNiYjQzMTRiYTM4ZTFjZDAwNDRlMTY2In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_3d3981f826d8476f8e322f191124355e",
+      "statement": "Illinois Rule 570 refers Coverage A above $700,000, water-backup limits above $15,000, and sewer-backup limits inconsistent with the described premises; it declines material application information that cannot be verified.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8221-L8243",
+          "version": "repo-lines-v1:sha256:4e0b9e0bc634083469549b7e21e4f0c7ee4516e7d9d4ed1462926cf64e6c799d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzZTc5M2U0ZjE4Y2NlMzRkNGVmNWJlNzcyNTA1ODkzZmYxMTYwYTJmN2RiOWI2N2RmYjg0ZDVhMzY5NTNkOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjZjIyZTY4Yjk1NTM5OTU2OTkyY2U2Y2ViMDNlMDFiODE4YTI2ODg1MGQzZTdiMWVjNDliODUyNzc5NzdjZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlMTFjMDRlNTI4MzhjNTc0YmIzNmM3MDdmYWEzMzg0MTk0Nzk0ZTMyM2JiNDMxNGJhMzhlMWNkMDA0NGUxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1N2JiNWM5Y2IxYjNlNTFhNjA2MGMwZjc2MzcyM2U5YzkwZTI2MDA1Y2JhOGFlMzRmMmRiOTI3NTdhMTEwNGIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8293-L8299",
+          "version": "repo-lines-v1:sha256:5503b4d2d65132d3ab91ea50cbc3db505804fc13a3d381cfea96cd0970721c05:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTJkNWM1MDc5MzA1OTUxMjcwMTU4YzRjZmQ5MDk0ZjRiNDA1MWNhNDRjMGU2NDcwM2JhZGIwNDE5NmU3ZmU2MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM3NjAxODhhYmExZmQ2Zjg0YzYzN2U5YWM3YWQ3NTU0NzBjNzAyZTY0OGFmNmYwNmNkYzFkZTk3MjIxOGFhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWQ0NDg5ZGU0ZWVjYTg1NTUyMDFlNzgwOWEyMTY4ZGI4NWNkM2UyNmVmZjNlZWFmZWNmODlkZTVhOWVjMWQzZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY1OTkxMTcyMWQxYWM3ZWRhZmU5MmZkYjA4Njc1MGFmZmIzNTk5MjlmOWY0MTE3MDQ4MmEyZjRhMGQ4Nzg1ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_79e393796ca7457e9bb9ba816c48ee0d",
+      "statement": "Illinois Rule 570 refers water, roof, systems, loss, occupancy, business, security, inspection, protected-class, consumer-reporting, exception, valuation, hazardous-storage, claim, and litigation concerns, prohibits protected-class underwriting, requires recorded exception approval, and requires a complete file.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8245-L8423",
+          "version": "repo-lines-v1:sha256:7b7836412ca4bbf70601fe5b0ebceaf0ad8d410cea1c4b0b5c7a4f0c853a53e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTc5LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIwMThhMjBmZWRlZGNkMGRiZjM3OWFkOTM0MjVmYTQxMThiNDFlNDc0ZjQ5NGE0NGZlODgzN2VmMjQ4Y2Q4MTJkIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI2NTI0OTAyNGI3NzdmZjljZjRjZWYxMzMyYTY1MGU1YTdjNTc1Zjg3YjcyNjI1NDE3N2MzMTQwMDE4OWJhYzE3IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJmNDE5OWNkYjQ0YmI1YmY2YTkwN2Y4MGRmMWFmZDIxZjQ2ODQzNWUzZmE5YTcwZjU0NGQwNzk2YTExZmZmNGY3IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIzYmZjNmMzOGM5ZTE1YTkyMGU4NGJkOWFlNGUwMDA4MThmYTRkMWUxNTYxMWJkZjQxNWE3MGFjN2RiZWYyZjFjIn0"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8425-L8499",
+          "version": "repo-lines-v1:sha256:98606689dbf45c30186c678add6275bfc304ee532d04a2b0ceabd00758d8298c:eyJzZWxlY3RlZExpbmVDb3VudCI6NzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NmEzM2Y0MWNmNjljZmVlZGY0MDEwYTc3NTBjYTZlZGQxNzIyNGU0NGNmMDcxOTVmY2FlOTFkNGVmZmY1MDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhMTdjOWFmYjcxMGJiYjM1Yjg3YWQ5NTA2YTI1NmViZjEzMTU0MWJmYTU4YjViZmNjNWUwNTdmNzNkZjIyMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImExOTIxZjA5ODJhYTQyZWM1ZWNiNjUwZTdlYjUzYmFiZGU0M2ViNTFhN2NmODUyYTFiNzA5ODE5YTk0ZjlkMTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExMDY5OGRjY2FmNGVmZmEwM2ExZTZlMmM1OWFiZjQ3MWJiMjE0YjNkMGNlYjE1MjIzOWM2OTMxYWRlNDBjYmEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_58070ef741214ac0a542553770a03426",
+      "statement": "Rules 500, 510, 520, 540, and 550 direct underwriters to use the rating manual’s state-exception pages as support for credits and to remove or refer unsupported or disputed credit treatment.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6171-L6177",
+          "version": "repo-lines-v1:sha256:da6fc61c03caececc4b8eea892fa074790e3d624e88502bbd075beea79813efb:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNkYjk1NjFjYjE4NTBjYzg5ZDZmNWQwYWQxYWY4ODVjNzBkY2ViZDU2OWRkOWY5OTQ1NTU2NDRiMTczODI1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM4MGRjZjFkYzg1MGNmMjJmM2M1N2ZhYmZjYzUwZDNlMjYzMzE5ODhhYzM5ZDBmODA5OWFiYzk3ZWQzMTNhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDA5ODkyN2JlZTIwYzgzMTJiYTQ3YWIwYzQ4MGExMDRhZjFhZmM4ZDFjN2ZjMzhjOTI2ZWY1YzkxYTg2NmJjYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTVmNDE3Nzc5MDkxODk0YjI0MjhmMmRjZmVmNTkwMzlkMzhmM2MzMWQwZDY0YWY1ZWU2MmRhMjdkYWVlODAyNCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6319-L6335",
+          "version": "repo-lines-v1:sha256:92268e24fcd1101c198bd2218491ede764d25d7e5cb25386c235dbccfbc9de52:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxZDRkNjRlZTQyMDdjNzI2MTBkNWM4ZjAzZmMyNDk0YTQ4NjI2MzhkYTE1YzRlNzdiYjRkNDJkYTNhNDY1NjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3ZmQ1MzllOGRkMTY3NjIxNjcwOWQ4MTRjODI0ZGMwNmFhNDk1NTFhMTgzYjEwOTNlMzU4N2NkZTBlNjA2MTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhlZGEwOTRkNmQwNzU0N2Q1NzBkOWJlZTkwNDE3Y2ZkZmZlMDJmYWE0MTM1ZGFjMjI1ODkzNWRkOGI3ODY1MDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkyMDA4ZDdjMzgzNTJhODM1ZWJmZWI2NWE4MDZmOWY3NmNhNmRhMDc5MDUwNGM4NTJmMjMyNjkzNTFiMGRmN2YifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6723-L6733",
+          "version": "repo-lines-v1:sha256:60779e0dfdee5064c2292345a8ec585bf30655379c67b5b686a80e706c0b19ec:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiZDUwNmQ3NWI3MTBiYjZjM2Q4MmI1M2ViN2Q5MGE2MDZkZDUyNDg2YzM3NTc2MjBmOWI1YTc4NWE4ZTU2NzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkMzY5ZTA3MTUzNWU5MzI1Y2I2ZTYyZjUzZDM0MWVlMzIyMzlmMTQ0MjM3YTlhNmQ1NmQ0YjBjOGNkYTkyNjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZjMzQ1YTA4NGE2NDNhNzA4ZDQwMzQ1ZjQ0MzM0NDI5MTZkNGYzMTM5OGU0MGViMGYzNzIwYjMxYzBlMjQyODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5NzI2Y2I3ZWMwNjkxMTUzYmE1ZjUyNjNkY2NmMjJmNDI1OTQ0YjQzM2E1YjYxYWM0YjNmMDQ2MjFjNDk3YjEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7513-L7517",
+          "version": "repo-lines-v1:sha256:3dd07692a5601314760e3fe4a087de668db7a0b1223c08df5308b179de96ee0c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTg2NDRmMDIwZTdhMThiZWVkYWY5YzQ5ZWZlNTA0OTA5MGE4M2ZmN2Q2ZTc2M2ZhOWI4ZDA2ZDBhMzBkOGY2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTM0OWNjNTAzMWY5ZDAzZjA0YWIyNDUwNGVmZWE0Y2I2MWIwNTNhOWQxMTgyMzU2MjdjZmQ2NDBlNjgwOGQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmM3MGRmZTY0Zjc5ZTQwNzdjNDNhZWViNWY2N2UzMmNiNDJhM2NhNTJjNmVkOGM1MTgyYjg4MDExMjljYThlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDAwMjg2YjhhMDQzZjg1MGZlNjljOTY4MTBjZGU1YzJlNDk3OGMzZjFhOWFmMzkyMGE1M2Y5MGJmNjU0N2ExOCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7685-L7687",
+          "version": "repo-lines-v1:sha256:23d8db8741bf5785bf5619a70ff5ed6cf5cdc79ec1ce59038ffb258702adb2a8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc5NThiZjVkYjBkMWVmYjM2ZDEwOWE5MWM1NDRhYTdkNWRiOWFjZWRiYzJkMzBmNjAxMWM2NDRmMzYwMTI3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWRjMWVkOGQ4MzlmNTZlNTQ4MTU0ODFiZjA2OGI4ZGNjNTU1NTE2NTdhODEyZDY1ODJjZmY2NTcwNjMxYTEyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmZmMmMxODYxYjgyZjI5MThmYzQ2NWNkMzA5ODhhYjAzZTQ1NGEyNjYyN2Q2NDAwN2ZmMTAxNGVlODYzNGVlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmMxODJlODQwNjk3ODhkNzgwNzhkYmE0MTNjMWE0NTViMTVjMGVmODFmZjg4NmYzMmRlZmQ0OTM2MTVlNTY4NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

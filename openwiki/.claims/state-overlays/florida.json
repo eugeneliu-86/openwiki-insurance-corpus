@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:121b07d8ec385de751828841584bb0c2e95689126be27ca5a271e40e6f96d268",
+  "claims": [
+    {
+      "id": "claim_72034f9094134f69b356d7fd7b5c0574",
+      "statement": "Florida overlay analysis must keep three authority layers separate: the attached HO/DP contract forms govern coverage, deductibles, valuation, and claims; OIR bulletins govern filed-form, notice, disclosure, and administration requirements; and Manual Rule 500 is internal underwriting guidance rather than an insured-facing regulatory requirement or coverage exclusion.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L31-L50",
+          "version": "repo-lines-v1:sha256:31aa81298b9740c9c28c927f704065f89576853da1e93d795ae1249af5c9e423:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlMjZiZGY4ZGNjM2YyNmE4ZWQxMWE4ZDllY2JjZGZiMGRhNDMzYjJhNGEwZjdiZTZkNjM2OTY2YzBiYTc4MWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEzYWVmOTEyZGU5NTE5OGYyNGI5NzUzYTA2YjAwYWJhNzBiMTg4ZTMxMjE5N2Y5MDRiODM1ZjJiMTJhNDZjODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzN2RhMTAxYzU0YjBhY2M3N2QxMDc4YmQ2Mjg5NDQ2ZGM1ZmUwZjQ0MWM1ZTlmOGQ4ZjBiMTQ2YzZlMmQ1YTIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L85",
+          "version": "repo-lines-v1:sha256:b454fe7143c50203187978e7b7985145a13e9f94c368b8eac10361dc0a5fcb60:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YzliMzQzNTIwNDRmMmNhN2E1Y2ExNDU1NmZkNzE1MjA0ZDZlZjgzN2Q1OWE0MWM4NmFkNmYzYTNhYmU3YmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzN2Y5MTE0ZGM1NjBkYzZhZDliZjdmMjBlNzUwZmFkMjVjMGMzMmU3ZTcyMmU0MTI5NmViZmFjOTg4ZTFhODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ4MWNlYjY4NTM2MWI4NDZhNDM0ZGU2YWYzYmUyYjcxYWM5MDQ0YTNlYWMwNWU4YjY2ZjNkYmJmMjAyZmQzYzgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5711-L5734",
+          "version": "repo-lines-v1:sha256:406a0dae386af13c0ddd626e1dc39c5beddb3d08a11529c2271de2a7a85385e4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyNzE3YjFkMDNmNmE4NjVhZjY4YTZkOWY2ZTY2MjcxM2Y4Yjc0MzIyZWJjYzI2ZGI1ZTg0Y2MzNGE4ZTA3YzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlMTkxODU0ZGE3MjI2OGY4NGM4YWI0MTA4ZjUzODkyZDQ3M2QwZjllZmViZTc4MDJlZGNkMzk0NjM2NTgyYWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyMmE2Y2M5NTZkY2EzOTQ2ODZjMGEzOWE4OGU0NjZlYjczNTNhM2Y3YjRjOTgxMzRiYWUyYmJhY2I0MmQ1OGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_51080e270b3c4dd1adfa58ca8d8d2cda",
+      "statement": "HO 01 09 2019-01 governs Florida policies effective from January 1, 2019 through June 30, 2023, while HO 01 09 2023-07 governs policies effective on or after July 1, 2023; superseded editions remain relevant to policies issued during their own effective periods.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2019-01.md#L1-L14",
+          "version": "repo-lines-v1:sha256:9633511103fe489b84badee4d924045a80f6efc31190fb99b0c4128ad9c0601d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2Y2UyN2YxYjMyYzY4OWI1NmNlYTJmZTRjYjEyYTIxODAwNGVkYzRmZTI3MzNjNmI2ZDgzMmEyNzgwODc5NmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L1-L14",
+          "version": "repo-lines-v1:sha256:9c71c6dcabf4922a9b249ab2e0c16b649ab9d9880d7ffc7069c05e9ec03003df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5NDhhZDRmMjkxZmQ0ZDJlNGY2YmI1NDhlZTNhZThjYTNlMjUxNTNlYmYxNTgzZDExODc3ZDczMWI5NGRkNTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c8bdab480f5e4d03a3acec8a7b6b7d3a",
+      "statement": "The 2019 Florida HO 01 09 endorsement applies a roof-age schedule at 10 years, uses an actual-cash-value schedule at 15 years, and requires roof-age and condition to be established from specified property records and inspection evidence rather than treating age alone as a coverage exclusion.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2019-11-roof-age.md#L69-L109",
+          "version": "repo-lines-v1:sha256:e0d0358899f5eba9667eb97c9519667a8b22c3801a5160d6b96c3070bed9dd9a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwN2QwYTAzZmIxNzQ5NmM1ZmFhOTMwYmNjNTUzZTNiOTQwYjc3Y2Q4YzhkZGY0MDZiMmQ2ZjY5NTlhYzkxOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3YTZhMTg2N2VjYzc1NDkzNmIzZTIyODczNmZlMGRhMThmNzBhMzk4NDExZDJiNWY1MjQzMjM3ODRkMWQ3ZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVjNTc5MjYwMDRmMDBmNWNjYjZmNGE3M2I3NzlmYWFmNmMzYzNjN2RmZDA0YmM0NmMwNDc1MDE4OTY5Mzc4MmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyMzQxYWEwMWU3MDI2YjMxNzZkNGQ4MjZkZjZhNzk1NWY3NGViYmI4ZDYzN2RmNzAwNzIxMGE2ODExN2Q5MmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2019-01.md#L137-L186",
+          "version": "repo-lines-v1:sha256:cc28e80be3ab422ce35563ded16d3d3727344bbfd87cb1df4822ceddba23d47b:eyJzZWxlY3RlZExpbmVDb3VudCI6NTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhMWEyYzY2MmM4YmUyMDRmNTc5NDE1OGIwMWQxYzQ0Nzg2MDRhNTc3OTQ2NTllMDM4OTZmYzJlNGJiMzU0YTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5NmVmMTY0MmYyNmIyM2ZhMDM4YjA4NjM4Yjg1OWE4YmFlZDdhYWU4YjZlNGU4ZjA5M2EzMDhjNDg0MDA5MDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlhMDM2NGU0NjkxYjI0MTNiOWY1YWJkYmM5MGRlZTBjOWMyZGMxZjYwMDZmNjg2NGQ2MTk3YmE4OTc3ZTNlYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4f56214c7f154d70bcb1cd71fe7e04c2",
+      "statement": "The 2019 Florida HO 01 09 endorsement requires specified advance notice and nonrenewal procedures, including a 90-day nonrenewal notice and roof-related disclosures, and preserves the policy's covered-loss and claims obligations separately from underwriting decisions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2019-01.md#L187-L270",
+          "version": "repo-lines-v1:sha256:eb1275e252fd3c88179b1a751ccc38aa9d6e6e1f0a9b82374a915f9932b5b9ad:eyJzZWxlY3RlZExpbmVDb3VudCI6ODQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczZDQ5NDZlODFmYWJmODE2YzkwZGUwM2NjYWMxNjg1M2FhNmQ1OTFjYmQwOWU0MTEwMDA1ZDBhNGRlYmU0NDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdmMTI4MDhkZDM3MTczMWM5MjEwZjc2YWVjNTA1NWFmMjU0YjNhY2ViNmEzM2JmOTg1OTQ5NzQwYTQ3MzcwYTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3Nzc2ZmRhMGY0ZDQyYjI3OTRiMDFjNGQxYTBhZjhiYjIzMzk0ZDI3MWViMDJjYTcxYjk0YzFkZWE0NWYwOTAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2019-01.md#L327-L391",
+          "version": "repo-lines-v1:sha256:9d5c48db441f4ba0ec11d88c235b2d28e34848910341703dd80111532b359f42:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNkNzMyZmUxZmY3NTUyOGNjZTgxYmY1NTE3YTIyYjQyNDVjMGNmYjQ2MGM2MjVkOWUwZjBlODQ1NjAyOWE2ZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjODI0MDc2ZGVhOGE0ZDA4N2RjY2JlZTZlYzI4YzY3ZDM4MDIzYmFlNDUwMGEwYTY4ZTIxZTM4NDBkYjM4ZTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0YjQ4NWQ4NWI5M2NhMGVkYzJmMTk0NTM5OTNiMjJiMjE5YTcxZTgwMDIzNGNhYjU0NGU0M2VkNzM0YTQyYTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyODQwMDU1OTliYTQ0NDVjYTNkYmIyZDQzOWM3ODk3NWI1YTRjOWY5YTU2MWNmYzAzYjc1M2ViZTUyNTcwYWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c7f9225be7a94b4abf1a1eae98d04fa2",
+      "statement": "The 2023-07 Florida HO 01 09 endorsement includes a 10-year roof provision, permits an actual-cash-value schedule based on pre-loss roof condition, sets the hurricane deductible selection range up to 15 percent, and contains Florida-specific cancellation, nonrenewal, notice, and claim-administration terms that differ from the 2019 edition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L197-L287",
+          "version": "repo-lines-v1:sha256:18af176030c4b276de2dd212a8cbf600dc0ffa4f5bff0d4ba2b86d4b07ed139c:eyJzZWxlY3RlZExpbmVDb3VudCI6OTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhZDZlYmZiZDMyMDQyYTA3ZGQ5YjJlZTgwZDBhNDkyYmUzYTZlYTA1ODY2NjcwOTc2OTRiMjlkOWJmNTQ0YjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzMDYwZjdlMGQ4ZWNlMTczYmJkZmQwOGU3MDg1YzQ0NTJiYzA1NDM0MGU5ZDdmZDM2ZDZhMGZlZmYxMmZiYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkOGFhMTc5NzVlYzE4OTNlYzE4NjE4MzMyMGE2NzRkNmJmZDI4MjVmNzBhOWM0YzQzZjRkZjVmYzY0Y2Q5NjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxODc4NWJlY2VkYTE1ZTExYzc0YjRjZWE1YmEyYzhkMmMyODE0YjcxMTNkMDViZTk2MGY3ZmZjNzVmNzQwY2EifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L403-L503",
+          "version": "repo-lines-v1:sha256:8980d2089fb1210c4c9ca1b6ee7c94cf33b2e5e98cc401fb743b6e1e08f17ab8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5NzBlMTIzYWVkZWQxZmY5ZTRmNTdmYzA5NDUxZGRmMWZiNWY4NTc1ZmQyY2I4ZjI2ODI5OTVmYjk5YzU1YThhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI5MDRjNjYzNGFmZTJkNmMwNTNmYmY0MWJiNzZjZjk2MTk1M2NkOGQzMWNhMTgyY2YxMDAyNjQ5YmY4YTE0ZjA5IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJmMjc5NGM1Nzk0YjU3OTVmODA3M2UzODkxMzc1OGE1YmI1MWNmMjI5NWRlMjAxY2I0MDllNTcyYmExOTVjNmU4IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI5OGUyYWUzODAzYWY4ZmUxNmY3NGYyMDBmNDUyYjM3Y2U3Mzg0NjFiODgyZDYwZGEwMDA2YWUzYzcyNzkxMzg1In0"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L137",
+          "version": "repo-lines-v1:sha256:bdd56b4d37089e5c8858ff988f87e07ae99f19d6d93662f9e6f8525149c49581:eyJzZWxlY3RlZExpbmVDb3VudCI6ODEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjYTVhMzk1YmYwZmZkMzhlNWYzNzg5MjY5MTNmNTg0YWQ0YjQ2ZWM3OTk2M2NkOGMxZTZlOTkwNzU0NWRjNDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzN2Y5MTE0ZGM1NjBkYzZhZDliZjdmMjBlNzUwZmFkMjVjMGMzMmU3ZTcyMmU0MTI5NmViZmFjOTg4ZTFhODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmNjNmNzAzZTEwMjI0YmIzYzBmM2UwMzYwNDhlNjM4YTQ4ZWUyOTZlZDc1ZGIyNjIyYmI3OTY0YzE1Mjc4ZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_14308ac26baf4177a4f50b25b6d3b400",
+      "statement": "The Florida DP 01 09 2021-03 form must be applied separately from the HO editions: it contains its own roof-age valuation, deductible, cancellation/nonrenewal, notice, and claims provisions, including a 10-year roof threshold and a five-year action period.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L177-L289",
+          "version": "repo-lines-v1:sha256:dd66d3aa2c4811f35bcecc3b6ee9e0941c5e5412c4216bd61dd0ed0bc34b96f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEzLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI4YjI0MDA1NTQ2MjMxM2M5OGI0NWQ1NjVjOTk1ZDM5ODIwY2FiZTE2ZGYzYTRhZDI3ZDE3NjNhODdmOGNlMjVlIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJjZTg0Zjk5ODRmODg2YWMxNzNiNjg2MTg2NzhmMGMxM2E1MmFlNzljN2NjMzk3MGU2ZmViZmM4ZDZkODkzODdkIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJkMzAzZGY0YjNkMmQ1MzY0NzkzMzNlMWFjMzQ5NGU1ZGRjMDAzNWRiOGU5NDU3NWFiNjc2NjA4OWE2YzRlYWY1IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIwNmUzZDU4NTZjYzQyYTcxODgxMDdhOTQ3ZWQ0NWQ5NWMzZTgyZDBkN2E2YmRiODEzZjY5MWE0ZTczZjQzOWNhIn0"
+        },
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L35-L137",
+          "version": "repo-lines-v1:sha256:a36689d76cd086847d66575f85ba34f1bec324b4365abb826f85c90c909c708a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAzLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI2Mzk1YjM3Mzg1OTYzM2M0Yjg2MTMyNjFmYWUxODgwM2Q0YzVjZjM4MTc5ZGNjMjBhZGIxZjcyYjllN2Y5Y2YwIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3MjkwZGIzYjhiZDA4ZjgwZGQ2M2M0YzI3OTA3MzBkOGJhODVhMmVjMzQ2Yjg3YTJhMTVkZGZlMzM4ODE5MjE4IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJhODU0ZTMwMWJkZGFjNmMyNzZlZDlkMGRhMjFmYTQ5Yzc0MDU5MjU1Mjk1ZGE4ZDRhZDQ1NTkwMzQyMjExNjliIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4MjBjMjViNzQ3NjA5OTUzZmIwNTFlNDczODhlMWRlOTdkMzkzZjNiZmU5ZWNhMzFkMzI0YjE5NmEwNTU4ZjMwIn0"
+        },
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L409-L471",
+          "version": "repo-lines-v1:sha256:9242018e63ea7615344c3c70e2c9456ae8c121f4fec9c0ef91a089014250b927:eyJzZWxlY3RlZExpbmVDb3VudCI6NjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllZWY2ZjY0ODQ2MGYzMWIyYTcxY2E2MzQ4OWU1ZjAzMmVjYTNlOGQyMTExYjZlOTgwN2ExZGM4MmMzZDlmOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhZTZhYzUyMTMwNzI0OGJhYzI3NTI0NjY0Mzc2MmU3YjQ2NjM4NWVjOWY5M2Q1OTAzYjE4NGI2NDQyYjc1ZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3ZWU2YTA0MDQxMTI4MGQ5NmNiZWQ2ZmFiMWU5OGI3YTg0MTU1YzYxNDljY2ZjNzM2NmRjZGMwMGM2NGUxMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlY2I1ZjAwNjNhMGQzYjJhNjFjNWFiNzUxZDk3YzM2ZjkzYjc0YjVhYWVlNjFhMGI2MDE3Y2Y4NzVhMjIyYWYifQ"
+        },
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L545-L561",
+          "version": "repo-lines-v1:sha256:016dd9c273b80272d76269221d9a8595502c21e2d54eb8945627709753b4b692:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxMTc2ZGM2MDFmMWMxNjc2MGMwYmJlZmYwMGExMzlmZjM1Y2YyNTdlZjA5OGU0NzBhNmQ1ODRiMjMzNzdiNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE0MjY0MWNlNWNjNDZhNzlhY2U0ZWYwODMxY2I1YWRkMWYxNTY5ZDg4N2I2MGZkOTg3NGExZTlhNmY2ODRjYWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MTBiZjg2ODVlMWU1YTE0ZDZmMmU4YTkxYWUxZWJlMzI5Y2QwZDc2Y2RhMzRmNDNkN2E4NzIwMzk5MjFhYzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5fb25a86baed49cd8aaf197f3d282d6c",
+      "statement": "OIR-2019-11 establishes Florida roof-age administration for policies and renewals in its scope, including a 15-year roof-age threshold for the bulletin's actual-cash-value treatment, required inspection or documentation practices, notice and nonrenewal procedures, and the rule that roof age or condition does not by itself determine coverage for a later loss.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2019-11-roof-age.md#L169-L223",
+          "version": "repo-lines-v1:sha256:426e12ff342d6818d9a8368776426969ccfa07d1bdd5eaeedb28da4b0f09168b:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3ZGY3OTI5OTMxMjA4M2YzODM4YTY2NzY2OTFkNDBhNDZkNTEyNjU1ZDcwMzkyM2Y3ZTA0OTIxN2I1OTMxM2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0OWMyN2FmMDg4YmM3MWFjZTA4MjFjYmJlYmFlMDk5ODU0ODU0YmE5MGQ1MjAwODhhZDNjNTFhZTQxZWM1OWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmZGVkYWY3M2NjYTdhOTljMDQyYTEyN2U1ZDAwZDc3NWNjNzAwNTg3OTMyNGVkY2JjMzI0NGQzY2U1OGJmMTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY1NjBkZGVjNzkzOTNlMTUyZTk1NjM2YjQ1ODMwN2UzY2ViZDEzNGZhMTVhMWUwMmRjZjllMzQyNjdjNDg1N2MifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2019-11-roof-age.md#L31-L52",
+          "version": "repo-lines-v1:sha256:ebb9bcaba933e37cc593af1b63c375cdda8166c0633a7fd27f7be5dcd0831a5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyYzM5MzBkYzE3YWM3MGE5YjQ1N2RkNjRjMjhlNTAzYjE2ZjM1NWViMmY2NTVjZDU0NDJhY2ZmNzY1MzVmNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBmNmIxZTQzZDQ1Y2VlMWFhNjhiOGMyNTlkNzE0OGRmNDA2Zjc4MTRjNjAyNWYyZjVlN2Y0YWU3MzI5ZWFkMmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3OWZiYjMxMWIyMDg1NTI3N2U0NDE1OTAyNmM4NGIwYjY5NGU1YTBlNTczZDI5NTRmNDk1NTYxOTU4YTk5ZjcifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2019-11-roof-age.md#L69-L109",
+          "version": "repo-lines-v1:sha256:e0d0358899f5eba9667eb97c9519667a8b22c3801a5160d6b96c3070bed9dd9a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwN2QwYTAzZmIxNzQ5NmM1ZmFhOTMwYmNjNTUzZTNiOTQwYjc3Y2Q4YzhkZGY0MDZiMmQ2ZjY5NTlhYzkxOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3YTZhMTg2N2VjYzc1NDkzNmIzZTIyODczNmZlMGRhMThmNzBhMzk4NDExZDJiNWY1MjQzMjM3ODRkMWQ3ZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVjNTc5MjYwMDRmMDBmNWNjYjZmNGE3M2I3NzlmYWFmNmMzYzNjN2RmZDA0YmM0NmMwNDc1MDE4OTY5Mzc4MmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyMzQxYWEwMWU3MDI2YjMxNzZkNGQ4MjZkZjZhNzk1NWY3NGViYmI4ZDYzN2RmNzAwNzIxMGE2ODExN2Q5MmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d7de2927d4a2409195a4c0de188f8bfc",
+      "statement": "OIR-2023-04 supersedes or updates the earlier roof-age administration for its effective scope, uses a 10-year threshold in its bulletin requirements, and sets inspection, disclosure, notice, and nonrenewal procedures while stating that the bulletin does not independently decide coverage for a later claim.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L193-L247",
+          "version": "repo-lines-v1:sha256:04f360d19fe77c42aaa2ac657f4735154ee73badc34211fe17553ba3fc30f78e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzNTZjNzM5YzA5ZmMxNjA1OTcwZGFkNmMxNzhlMTliNzIxNDM0MmFiNWVkMzcyYzM2ZmVkMjY2ZjhiNTJiNWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzOWI4ZGY3MmNiNDE0MTg3MzRiYTQyYjQ5ODA3MTJhYjQ4ZGI3OTE4ZWFlNDRlYWEzNjEwOTEzODFjZTFiM2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3MmZmODZiN2QwN2M3MmNlZjVhYTZiNDE2YjVjNDRiNjliYzZjNzhjNTVhOTY1OGE4Yjk0YTAwOTBmYmNiMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyNGU0NDRjODcyMzI5ZjQ1MjAzYTNiYTE1OWY1MWZmMTg0YTA5M2ExZjE3ZmMyNjFmYmQ3OTZkMmYwYzRkNmUifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L31-L50",
+          "version": "repo-lines-v1:sha256:31aa81298b9740c9c28c927f704065f89576853da1e93d795ae1249af5c9e423:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlMjZiZGY4ZGNjM2YyNmE4ZWQxMWE4ZDllY2JjZGZiMGRhNDMzYjJhNGEwZjdiZTZkNjM2OTY2YzBiYTc4MWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEzYWVmOTEyZGU5NTE5OGYyNGI5NzUzYTA2YjAwYWJhNzBiMTg4ZTMxMjE5N2Y5MDRiODM1ZjJiMTJhNDZjODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzN2RhMTAxYzU0YjBhY2M3N2QxMDc4YmQ2Mjg5NDQ2ZGM1ZmUwZjQ0MWM1ZTlmOGQ4ZjBiMTQ2YzZlMmQ1YTIifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L69-L137",
+          "version": "repo-lines-v1:sha256:c01473966a1f9e6f4f687f1f4672b7fb10496c635cf332fc4c37f9269434fbc2:eyJzZWxlY3RlZExpbmVDb3VudCI6NjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwN2YyOGZlYTljYjI2YzBiYzAzYzRkOTgyMTc1MWM5MzFlYjRhMmY4NTVkYWFjNTNjYzMxMGNlMTZmYWQ5NjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4Yzc3MjViZjk1MTZkOTljMTU5N2Y1ZjM1OWEwNGU5ZTBiNGQzMzg5MmMxZjExYTMxYjIzNmIwZGZmY2RmZjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZlNTVlNzEwYjdlM2Y2YThjYjc3NTE3MDljY2FmZmUzZWE4YTA0YTAwY2VmNzgyNmZmODgzYTQyZTQ0MGJmZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiYTFjYmNhZmJjZWZmMDRkNDQwMDFlNDFjZWQxOTJkZDZiNjFjMzBlZTYyNzNhNzIxNzliNTdhOGU1M2JkMzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9f9724583aa04dd1994a58a1390ed576",
+      "statement": "OIR-2022-01 governs hurricane-deductible disclosures and related administration: the disclosure must identify the trigger, selected deductible, calculation basis, and applicable storm-period terms, and its disclosure ceiling or notice rules must not be substituted for the deductible range and calculation rules in the attached HO or DP contract form.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L31-L41",
+          "version": "repo-lines-v1:sha256:fe7200adb5153412e360e410673026f95cdb879e49d44c399d4a3975483d1ae4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlYTlkY2MzMzJiOGQ3ODk2ZmY5ZDUwNTBiZjBlZTNkNTBiODJkYzNjZGQ0MDQ0NzcxOWQ0OTI4ZTc5ZmMyOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0NDVkMDM5ZTU4NGY5NjMwZDk2YmVhZDAxNmRjMWM2ZDc5M2NiZDJhMjRkMzE5YzM0NzIyYTgxNjE2MmU2NWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1NjkxNmY3OGQzYWMzMGNhOGIzYzllZmExM2YwNzJjNjA1YzkwODAxYjQ3ZjUwM2UzZDc5Njc1NzhlMjYwMDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc3ZTRhMjMwYTdhMjdjMWI0ODJjNTRlNWYzNTMxOTY0YTlhNmExYzE0ODQyYjJjNTZmYWNlNDU3N2M1MzQxMzEifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L69-L79",
+          "version": "repo-lines-v1:sha256:7ecd4692b158ce84b583e9c3f2215a322349aaa979cdd40309d167c80ee084a0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3YTI3MmYzMTdhOGMyZTI5MDI0YzU3M2E0NjEzNjdjZGRhNDQ2N2U3MTg0ZmE0YmYzMTI3NDVmNjA0MGZkOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzZjQzMjE1N2IxMzA4MWE4MGU5NGY0ZGRlMGM0YTNhOTE3OGE0NGRjNTczMjMzNTUxYTQ1Njk2ZTY4ZDIyM2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzMzk4YzNiOGZjMzJlMGRiY2M4OGRhYjNkYzI4NDkyODdjY2I1NmNmNzkyY2U1NDQwYjRkN2M4MGExMmQzOTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlMWJhOGRkYjcxZWQwMDBmMWU3Y2Q0OTFhNWJiMjMyMGE3YzY2ZmUyYmVlMzZlYWViNDJjNjk1ZjIwNGI4ZDgifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L87-L115",
+          "version": "repo-lines-v1:sha256:de31d69a4990070f561342645aceaf7ddfbd9cfc73f88a68f9da4f97100acbcb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5MGJmOWE0OTdlZTc1MTViMDI5MGFkYjVkNTIyMGE0YTZhNDFmM2UxNGU3ODZmNDZlMTk1NTdmZmMwMGMwZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3ZjNkZDBkYTU2YjIyZDUzYmE2Nzk3NTlmYzI1MDM5OGQ4MjNjNmVjNmU1YmNlYTJiNDgyMmRkZWQ1ZmM5OTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQyNGJhYzAyNGUzYjVkNjI5NzdkNjAwMGJiNzQ4OTI2NTJiOWFiMzcwZjhmNzRlYmFhMmRlNWUzOGFiNGM1ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiYWM3MzY4MWVlZDlhYzExY2RkMDZjYTgzNjZmMWY5YjJiMTYzMjBjYTI1ZTE2NTdlYTE0ZTllN2VhZDk4M2YifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9f09642cda444feb06c2f31a94751fc",
+      "statement": "Florida form claims handling requires the insured to report and document the loss, protect property, provide requested sworn proof of loss and records, permit investigation, and preserve recovery rights; the forms state numeric insurer acknowledgment, decision, payment, and action-period requirements but do not state a numeric deadline for submitting proof of loss when requested.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L409-L471",
+          "version": "repo-lines-v1:sha256:9242018e63ea7615344c3c70e2c9456ae8c121f4fec9c0ef91a089014250b927:eyJzZWxlY3RlZExpbmVDb3VudCI6NjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllZWY2ZjY0ODQ2MGYzMWIyYTcxY2E2MzQ4OWU1ZjAzMmVjYTNlOGQyMTExYjZlOTgwN2ExZGM4MmMzZDlmOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhZTZhYzUyMTMwNzI0OGJhYzI3NTI0NjY0Mzc2MmU3YjQ2NjM4NWVjOWY5M2Q1OTAzYjE4NGI2NDQyYjc1ZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3ZWU2YTA0MDQxMTI4MGQ5NmNiZWQ2ZmFiMWU5OGI3YTg0MTU1YzYxNDljY2ZjNzM2NmRjZGMwMGM2NGUxMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlY2I1ZjAwNjNhMGQzYjJhNjFjNWFiNzUxZDk3YzM2ZjkzYjc0YjVhYWVlNjFhMGI2MDE3Y2Y4NzVhMjIyYWYifQ"
+        },
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L545-L561",
+          "version": "repo-lines-v1:sha256:016dd9c273b80272d76269221d9a8595502c21e2d54eb8945627709753b4b692:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxMTc2ZGM2MDFmMWMxNjc2MGMwYmJlZmYwMGExMzlmZjM1Y2YyNTdlZjA5OGU0NzBhNmQ1ODRiMjMzNzdiNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE0MjY0MWNlNWNjNDZhNzlhY2U0ZWYwODMxY2I1YWRkMWYxNTY5ZDg4N2I2MGZkOTg3NGExZTlhNmY2ODRjYWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MTBiZjg2ODVlMWU1YTE0ZDZmMmU4YTkxYWUxZWJlMzI5Y2QwZDc2Y2RhMzRmNDNkN2E4NzIwMzk5MjFhYzkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L403-L503",
+          "version": "repo-lines-v1:sha256:8980d2089fb1210c4c9ca1b6ee7c94cf33b2e5e98cc401fb743b6e1e08f17ab8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5NzBlMTIzYWVkZWQxZmY5ZTRmNTdmYzA5NDUxZGRmMWZiNWY4NTc1ZmQyY2I4ZjI2ODI5OTVmYjk5YzU1YThhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI5MDRjNjYzNGFmZTJkNmMwNTNmYmY0MWJiNzZjZjk2MTk1M2NkOGQzMWNhMTgyY2YxMDAyNjQ5YmY4YTE0ZjA5IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJmMjc5NGM1Nzk0YjU3OTVmODA3M2UzODkxMzc1OGE1YmI1MWNmMjI5NWRlMjAxY2I0MDllNTcyYmExOTVjNmU4IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI5OGUyYWUzODAzYWY4ZmUxNmY3NGYyMDBmNDUyYjM3Y2U3Mzg0NjFiODgyZDYwZGEwMDA2YWUzYzcyNzkxMzg1In0"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L571-L591",
+          "version": "repo-lines-v1:sha256:d8334755721b074680c6d6e39f95319e383ca111c6ec751117c95f3b98894444:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzMjBhMDNiMjMzMzJlNjg0YTgwMTA5Y2QxZDRiNDQ2ZmU5MjZjMDgxMDUzYWU4Y2MzODFkMjQyMDQzMDllZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkzNjI3OTNmYTJkY2RiYjIzMzExZTdhNDIwYTlmNjdjZjYxN2ExNDY3ZWRjOTZjYmIxZmY1ZWQ3NjI1Y2UzODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMzODM2MGZjZTJkM2RmNTU5NzRkMzczZDMwZDY4NzZlOWZiYzM5OTYzY2M4ZDg4ZDJhNjkyNjhjNWU1YzExYzMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_23a1add81db245c3929f209743e3e2c6",
+      "statement": "Manual Rule 500 contains internal Florida underwriting controls, including roof-age inspection and decline guidance, documentation requirements, and Coverage A appetite thresholds; those thresholds govern internal acceptance, referral, and authority decisions and must not be presented as Florida regulatory requirements or claim exclusions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5711-L5734",
+          "version": "repo-lines-v1:sha256:406a0dae386af13c0ddd626e1dc39c5beddb3d08a11529c2271de2a7a85385e4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyNzE3YjFkMDNmNmE4NjVhZjY4YTZkOWY2ZTY2MjcxM2Y4Yjc0MzIyZWJjYzI2ZGI1ZTg0Y2MzNGE4ZTA3YzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlMTkxODU0ZGE3MjI2OGY4NGM4YWI0MTA4ZjUzODkyZDQ3M2QwZjllZmViZTc4MDJlZGNkMzk0NjM2NTgyYWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyMmE2Y2M5NTZkY2EzOTQ2ODZjMGEzOWE4OGU0NjZlYjczNTNhM2Y3YjRjOTgxMzRiYWUyYmJhY2I0MmQ1OGQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5827-L5929",
+          "version": "repo-lines-v1:sha256:f7f07cde93823c011a55f901d3d1ea60137b612008f531b73c4f4c0fcce99fba:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAzLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJhMGNmMWE2ZmE4OTZiNDQzNzAwYjIyM2U3ZmVlNGUyYjM2ZmYzZTk2NjViMWEyMGRmNjQxNGFjYmE2YThhYzRmIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3YzJkZWRiYTRhZmI0YmI3MTdmZGUyNGVlN2IyYWFlZWQxZWJjMGM1ZDgxZjM2NGI1NGQ1YWQ1MDVhNDk4YmE1IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI0N2M1ZTZhNmJhYTI3MmMzZGFlZjhkOWU1YTlmOTRkMDY1NmI0ODlmN2U0N2NlODJkNzRlYmRmMWYzNTYyMTkzIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJjODZiZWJiOTIyMTU0NWM4MjM3YjA2MTM2ZmVlNTBjMGQ3YTEwZWJhMTYwMzc1MzBkMjhkNWYyM2JlN2VjZmUxIn0"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6179-L6225",
+          "version": "repo-lines-v1:sha256:b4caa4a894a9ce14e9e2c3429f67c9ed9350b26b53cff310e0c192d9a5dfb756:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzMzI0OGY4OTZlOTAzY2UwMTg5NTQ0NDNhZDE2Mjc1NWI1MDk1N2NiZTkyNjJjOGU2NzNmY2QxYTQxNTUxNTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1YWQ1MjE3ZDRlMWJiN2JjMWNhYTNmMzIwMDJhMzRkYjlmZDhjZmZkNmZkNzdkOTIyYTE1OWRkYmJjY2ZiOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUzNzE3ZWYwY2IxMzFhYmFkZjlmODk4MzQ5ODA2MjcwODU1ODEyMDlmNzIyNTlhZTYxOGFiYmVlM2NhZGY3NGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxYjYxNGNjZTgzZGM0OWQ2ZDhhMDM5YTVkMzBhOWUwYTIyMjZlYWRlYjYwMzRhNmQ5YzM0MmNhNzY3YzMyZTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0c82ebc7d1034866819595bf0e9189c1",
+      "statement": "Operationally, a Florida decision must first identify the policy and attached endorsement effective at the date of loss, then separate underwriting or renewal evidence from covered-loss causation, apply the contract's roof valuation and deductible provisions, and verify the applicable notice, disclosure, claim, and deadline rules; applying the wrong edition or treating age, a bulletin, or an internal underwriting decision as a coverage determination is a failure mode.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2019-11-roof-age.md#L217-L223",
+          "version": "repo-lines-v1:sha256:5cb97e2a1840d01ffe86e86dfee9bdaeb248966a281f53fff142f1d533390a04:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjU5NjUxMjE0MDFlOTg5YTA5Y2NlMDY3MzVkMGQ3YjRiYjgwNTIwOTExMjdlNWJhMDdjN2Q4OGQ2NDQwMDY4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ5YzI3YWYwODhiYzcxYWNlMDgyMWNiYmViYWUwOTk4NTQ4NTRiYTkwZDUyMDA4OGFkM2M1MWFlNDFlYzU5YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDliNTllYmM0YTRlOGRmMGFjMDM4YmRkZDg2YmQ5MWJmNzE5ZWY3NjBkMGY0YmZhZjA0ZDQyOGViZjQ5N2RlNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjU2MGRkZWM3OTM5M2UxNTJlOTU2MzZiNDU4MzA3ZTNjZWJkMTM0ZmExNWExZTAyZGNmOWUzNDI2N2M0ODU3YyJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L241-L247",
+          "version": "repo-lines-v1:sha256:33e3032c2da910eab53b271f6ff2ebd45e7051c19b27a36c14a67b923ce17d5f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDUyZGI3ZWU0Zjg4YjAzNzRjZjA4ODA5OWMzYmNjNWI0N2M4MDM2YjFmNTkyOTJhMjUwYWVlODI0MjQ4MmFjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5YjhkZjcyY2I0MTQxODczNGJhNDJiNDk4MDcxMmFiNDhkYjc5MThlYWU0NGVhYTM2MTA5MTM4MWNlMWIzYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDliNTllYmM0YTRlOGRmMGFjMDM4YmRkZDg2YmQ5MWJmNzE5ZWY3NjBkMGY0YmZhZjA0ZDQyOGViZjQ5N2RlNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjI0ZTQ0NGM4NzIzMjlmNDUyMDNhM2JhMTU5ZjUxZmYxODRhMDkzYTFmMTdmYzI2MWZiZDc5NmQyZjBjNGQ2ZSJ9"
+        },
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L35-L79",
+          "version": "repo-lines-v1:sha256:7f12d1a1cd2843c866d836e2e50b5767448e96678c8c70d14cc8c9354cc88b31:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzOTViMzczODU5NjMzYzRiODYxMzI2MWZhZTE4ODAzZDRjNWNmMzgxNzlkY2MyMGFkYjFmNzJiOWU3ZjljZjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlNjc5NWMxZGI3MDlkZmQ0NWY3NzIzNzYyNTA3NTM2YzhjZmQzNGIxMjU5YThhMGUyMzE1MDRkZmJjMTUyMGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE4NTRlMzAxYmRkYWM2YzI3NmVkOWQwZGEyMWZhNDljNzQwNTkyNTUyOTVkYThkNGFkNDU1OTAzNDIyMTE2OWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3NGE5YTg3Y2EyNzExNzRjZjI1Y2JkN2FjZWM4ZWUxOTNhMjg3MzMyMGNiMjIwNGJhNjVkNDY5ZjE2ODM2M2MifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L85",
+          "version": "repo-lines-v1:sha256:b454fe7143c50203187978e7b7985145a13e9f94c368b8eac10361dc0a5fcb60:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YzliMzQzNTIwNDRmMmNhN2E1Y2ExNDU1NmZkNzE1MjA0ZDZlZjgzN2Q1OWE0MWM4NmFkNmYzYTNhYmU3YmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzN2Y5MTE0ZGM1NjBkYzZhZDliZjdmMjBlNzUwZmFkMjVjMGMzMmU3ZTcyMmU0MTI5NmViZmFjOTg4ZTFhODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ4MWNlYjY4NTM2MWI4NDZhNDM0ZGU2YWYzYmUyYjcxYWM5MDQ0YTNlYWMwNWU4YjY2ZjNkYmJmMjAyZmQzYzgifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

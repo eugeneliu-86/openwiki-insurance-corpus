@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:8a4819fed531248dd8959f6ae1ecacf13b779b76caa01c79653a577dd4ecf432",
+  "claims": [
+    {
+      "id": "claim_abbbcea2c04f43058fbbf252a5b19150",
+      "statement": "HO 01 31 applies when New York law governs, becomes part of the policy, controls over conflicting policy language, preserves nonconflicting terms, and does not create coverage unless it expressly provides it; the underwriting manual is internal carrier direction that cannot alter coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L13-L29",
+          "version": "repo-lines-v1:sha256:eb6d2f8105b9f89c716730bcd9db704ca7abef3a08b698bcf17c85c69db5fab3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0MDZlNjc5YzZmNzYyZjJhMGM4YjQ3OTcyZGViNmRkZWNiN2Y5YjUyYjZiMzg3NjI5N2M5MTgwMjI1OTM4MjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdkOTMyYTJkYWNkNDJlOGU3OWYwNGI1ZDczY2U4YTRjY2QxNGMxMmEyMjU0NmI3OTc1YWM1N2Y3ZWY4NjQ5YWYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
+          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_80f11f96249b41609c18a9129eda1c20",
+      "statement": "DFS-2010-09 is effective 2010-09-01 and is superseded by DFS-2016-02 for policies effective on or after 2016-02-22, while remaining in force for policies written under the earlier position; DFS-2016-02 is effective 2016-02-22 and applies prospectively.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2010-09-nonrenewal.md#L1-L9",
+          "version": "repo-lines-v1:sha256:4e71b50f4652a0cd3d1c220e53f6ae4f72840ba2ae0d78071e320ee864384ea9:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTIyZjM1NzRhNmNmYmNlYzM4M2UwOTkxOWZmOTJjOTcwYmZmYmQ1NmYwOTZkNTUxZjEwNjFkZTE0ZjA4ZDI1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2016-02-nonrenewal.md#L1-L7",
+          "version": "repo-lines-v1:sha256:f7d5cec0f85a6d63cefeb4a7dd1c83d054e530dc2d9e71081f686510b2693093:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExMGYyZDY2YTk1YTNiMTRiYWRlMDZjMTk5MzZkOTFkNjY5OTQ3ZTMwZTQ0YjliNmQ2N2JhMGJjMWMyYzJiOSJ9"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2016-02-nonrenewal.md#L51-L67",
+          "version": "repo-lines-v1:sha256:0e5a84b9e60cc4d547b3adc31bb8f9f2d46b7d81c9090efa2604831988e7ef4f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyN2Y3MjFiNGYyODA1ODhhYTJhYjAyYWVhZDBmNTljMzkwMzVmMmQwMTg2Mjk0MzUzODBmMTg1YjYwYTlhZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiZDFiMGIwNGY1ZjRlM2MxYmI5M2ExMmQyNDE0ZjQ0ODRkYTA1YTUwZjg0OTc4OWZkOGJlMjBkOWMxNDJmYTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllM2YwNGY0NjA1YjQ3YmFlNTZkMTU3NGQ0MmRkMTQ3MzA3NTE0YTFhNDdmMjZiMmQxNDdkMmRmNzM4MjljNGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdmMzk4YTg0ZGRlZmQ2ZjAzMmU4MzJiOTk5M2EyN2FiODBjMjAyYjk1NDI1YWI5ZDA4MzU2OGI5MzRhYjNlZDUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_acf5f073213e483f861d8ab17c30333f",
+      "statement": "Under the historical DFS-2010-09 position, nonrenewal notice was due at least 45 days before the policy end date and cancellation for a reason other than nonpayment was due at least 20 days before the cancellation effective date; the bulletin also required specific written reasons, delivery evidence, supporting records, and filing and approval of notice forms before use.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2010-09-nonrenewal.md#L161-L201",
+          "version": "repo-lines-v1:sha256:da51a69017a129eac9c12d956b767a946ccec519ebde589af29bdc747f39d701:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNjhjNjk5MTA5YTBmNzUyNDMyNGU4YTZjN2M5YmJiNmE5OTA1NTk0MDAxYmMxNTM4OWEwNjNmZTM4YjUxZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxNjkxMTlkMmZlY2MzZTVhMDBiYmU5MmRhNTRjOWQ0Y2YxY2Q4MjEwZWNiMWQxZmIxNTYyMTZiMGFmNzBmYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjYmFkZDc0YjFjZWRiYzBlMmM0NDVlZTJmODExOTBhODk1YzdjYzI2ODY3MzEyZDYwZGExOWEwOWE1MzQxMTMifQ"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2010-09-nonrenewal.md#L293-L325",
+          "version": "repo-lines-v1:sha256:3251961a73b7f3d1b32c6e7959ea4edba5cfdb9bfd2d8ed3fca4b88ecfc14585:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhYzcyYjgzNTM1NzBlNDlhY2I5NTVlY2EzNWIwNzAwYzhhMjA5ZWVkYzEwNzhkMTI5OGZlZDE2MTQ5MjI5NWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwZWE4NDNkNzVkZjIwMjRiZjIzNzk2YWRkYTk0NmZkMjFkNDM3NGY0MTk0MWU1Y2VkNmQ5MDkxZWZlNDJiM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2010-09-nonrenewal.md#L61-L79",
+          "version": "repo-lines-v1:sha256:16a6f6a19059fda7e6fdf979ed7951c9ffcbd5481609d917108a96da1f7b25e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyZjVmZjU3YzNiNzI5ODc0ODhjODY3MjQ1MDI5ZmIxNjZjMGUyOTcwNTg3ODNjMDVmNjBkOGU1YjZjMTgxZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ZDRmYTliY2U3NDgyYmE1ODRhYzU3MjNkNDNiNzBjODRjMDBiMmZhOWQxZGE5ZmM3ZjQ2NGMxMTk0MmIwNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlZDdhYTE2Y2U0ZDhkNzFhZjc5NzY0M2EyMDdkZjEwZGRiNjc2ZTRkMGUxYTQ3MjQ2N2E3YTkzYjkyODhiNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmOWJkMWZmOWRmNmRjM2U2NmI0NTJjNTRhNDVlYTVjMmVkMzA2MzE0MjgyNGYyMzVlMWI0Yzk5ZmM2YWQ5NzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8b94a96a422c4366b1143f9b1d193bfa",
+      "statement": "DFS-2016-02 requires at least 60 days' notice before nonrenewal, 20 days before cancellation for a reason other than nonpayment, and 15 days before cancellation for nonpayment, with written, policy-specific, accurate, sufficiently specific notices and retained delivery evidence.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2016-02-nonrenewal.md#L145-L179",
+          "version": "repo-lines-v1:sha256:bed891239e64574209dcc5d7df9b5b847cafa2451ac9a0ff90442d0c2685bd4c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5MTI1MWEwZjEzNjJkNDFlYTg2YjRmMmQ2ZjYxYjY5Zjc2MzA0MWU5NDVkZTc4YTZhYTUxZjdmYzlkOWRlNWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ3YTk2MTA3ODVjZjdhNDc2MzIwODRmZDUyYWRlOTk5MDk4Y2RhNjU1ODI2ZTY1M2YzYjVhMjVlZmExOGIwYjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAwNjI3YzQxODhhNzc5NzdhZTc0ZDUwMGQwZTk5MzA0NzA0MDY2ZGUzMDQzYzEyODM4OGQwYTg3MzMyMTFkYjkifQ"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2016-02-nonrenewal.md#L181-L219",
+          "version": "repo-lines-v1:sha256:1010c89edf44e54644f9b89719cbf0444454262652f88b334ccecbb9f7d99bb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImViYWY2OTIwZjQ3ZmIyMTZhZGY4ZWYzNzVmOTMyYzVlODAzMTg1MDRjNmM0NDc0NjhiN2QxMTZjYjJiMzk2MDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczMDkwY2UwY2NjZTc0Yjc3MWJiNjBlYzMyMzQ0MmZlOGI2MzM3MzhjMTI4NmY3MjA4OWNmZTJmZDlkMzExY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJjODA5YTk4Mjg3MDJkZGZiYTA3ZTgxNTNkODZmNzA1ZjM5ZjRiMTM5NmE3ODQyMGIyMGFjZjA4MWFjMTE0YjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJmMDFmNzhlYWU3NTBkYWVmNjUyNmY0MWRhYWVkYzA1YTA0NzFiYTU4Y2YxOTkyNWEyMDdiMDEzNTZkNDgxZjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e749960ccde743ae92d1756305f3dc24",
+      "statement": "For cancellation or nonrenewal based on claims information, DFS-2016-02 requires written standards and relevant, accurate, verified claims information, distinguishes claims from inquiries, requires a specific claim-related notice reason, and requires investigation and correction when the insured disputes inaccurate information.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2016-02-nonrenewal.md#L223-L251",
+          "version": "repo-lines-v1:sha256:cb2846480f59a36ff4def5c72b801559f4fd8a9d14bfd6373bf9be95ca577fe3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzM2UxYjI1ZDhjYWZhNzIyZWY4ZDQyYThmYWFiNDlkNmIxZTkwYzBiZDUwMTYxMmFmM2NmZTY1NGQyOThiZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmMDFmNzhlYWU3NTBkYWVmNjUyNmY0MWRhYWVkYzA1YTA0NzFiYTU4Y2YxOTkyNWEyMDdiMDEzNTZkNDgxZjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxZTZlMzIxMTc0ZDAzYTllZWMxMTYwNDk1ZTU0Mjg0MWYxZTVjMzQzNGEyMmI0Mzg4MmNjNGQ3NzA4M2JlNDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bc82f51feebf4678abde8e425aa6d0ef",
+      "statement": "HO 01 31 applies a separate windstorm and hail deductible of no less than 1% and no more than 5% to covered direct physical loss, uses one such deductible for related damage from one occurrence, permits separate deductibles for separate occurrences, and applies the deductible only after coverage limitations to covered loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L111-L129",
+          "version": "repo-lines-v1:sha256:ee30add050aef9b778d7c8581614e09e39f2563c476aef446fc99daaedd24835:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjOTlhMmRlYzZlOWVjZmVhNWFiYzk3ZTBlYTkxOTk0M2YyMDEwODI3MzIxOTE5MGU2YTJjOTFjMGFlMjFmNDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyNDY2ODkzODFkODY3NDBjMTU1N2ZjOTg0MGY1M2YwMjVmNWZiZDk2OTg3ZmE5YWU4YjkzMmRhYjVhMmNmMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZTBlMjE2MzZhYjFjMmJhOTVkZTYxZDJiODgyNzgzZWZkZGE5ZGVkY2NiYTg1M2FlMDc1NjBkNzZlNDQ4NmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5ZWFiNjc2MjNjM2Y5MzY3OTE0ODZkNTZkYjJjZmRkNGMwNDIyOTlkYjEzMzRmNzE1Mzg2MDNmYmYyNWE2NWEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L59-L75",
+          "version": "repo-lines-v1:sha256:d04b327ae660e0ac115f76b546e89a43f19821fcea8462a1756448b567e8ce88:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiYjYwZTcxMTRmNmU1MjMwYmFmMGJkOWY0MDg2MDA4OWI5ZTc3NWE0NGQxNmYwYzM0YWJiYWRhMzIwNmZlNjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZlYmZmODA4N2Y5Y2I5ZGYxMmE1OGFiMzFjOWQwNDQxMWM4MzA1MzVhOWM0YWQ2MjE0NWM4MWQ2NTA2NWZlMTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3OTFkY2IyZGZiZWJlNzM2YTg1NzU2NDU0N2E5MzJkOThlYWE1MmFmM2VjOTNhMzhiZDEzZGE5MzNjMGY4MDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_79e5a516b1f44694b4ae0abbb0a6cbd3",
+      "statement": "HO 01 31 requires written deductible-change notice identifying the new deductible, affected coverage, and circumstances, permits application only to losses after the notice's effective date, supplies no numeric advance period, and does not permit an oral statement to change the deductible; its named-storm period is a fact-based investigation mechanism rather than an automatic coverage or deductible trigger.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L211-L259",
+          "version": "repo-lines-v1:sha256:d7aef717990df51aa8068c47c4eb0ac722cb64bf9ba75a2fcbfacbe7bd2dfb21:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJhZWQyNWJiYjJkZTg5ODAyZjRiY2I3ZjE4Y2UxZDk5ODhkNWRlMWYyMjljODhhNjIyN2JhNDAwNDVmZWQ0YTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzMTJiNDA5YTI4N2NjZmY5NzhmODUzNTc5N2Y4YzRjYTRlZWM4ZGM5YWJmZjViNDM4ZDliMTEzODk2ODY2N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM2ZDE2YjQyYWI3MTRlMmIxYWZlZTExOWEwMjdhMmVkMjdmOWUwZDc4NTM2MDEyNzgwZTQwYzVlMWQ0NDM0NGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L261-L281",
+          "version": "repo-lines-v1:sha256:28d7f4ecd7c30bd849835759ea10feb4c19023d875c45d9de72f1efd48a8f082:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4NmYzMTM0ZTRlOGQ3YzA4ZjViZDc5ZmM3Nzc4MjU4NjQ2YzUxNjRhZDFmZWZmOWU3Mzc5M2ViMTcxMmM1MTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhNTVlOTU5OTI3YWNkOWE2MDcyYjIxMDFiY2JkMDYwMTE5N2NmNzFkMTVlYzBkNjk2ZGYwOTNhYTgyN2Q0N2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM3MjBkMThlZDhlMDk3MWMzMmUxOTAwNmJlMzlhOTJmYzdjMjAwZmNjMjVhYTg5Y2VjYWVhMmQ4MWIwMjk0NjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_dc768e4c8d2448ea8cdc7e9823331d51",
+      "statement": "HO 01 31 contractually defines cancellation and nonrenewal and repeats the 15-day nonpayment cancellation, 20-day other-cancellation, and 60-day nonrenewal periods, with policy identification, effective-date, reason, payment, mailing, and continuation-offer rules.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L329-L371",
+          "version": "repo-lines-v1:sha256:86b35aec5d9aae3f1ca9525a77a475dfdf76ca6c1cdab7e6934797321fea4c1c:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5NzJjZDRkNWIxMzlhOTYwYWMyZDRjZDJmM2Y4MzA3YzAyYzNkMTA5MWRlYjRjYmYxMDYxMmRiZjc2ZTBkNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5MDI3ZTFlMDA2MDYzYmNkMzg5MzZjZTk3ZTJjMjJjZGMyMTA2YzEzYTU4ZmZkN2RmODg1NjgyODA1MjliYzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwMjY2ODZlMTc5OGE0YjU5ZWE5YTMzNTQyMmJhNGQ0YTYyMzcyMjFhYmQ0NTBhYjM2NDZjNjdkM2NkYzEyY2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlYjk5ZDUyNTNhZWM3ZjJjYTg3YTkwNmMyZWVlYzcxY2EyYjgwODhhMWM2YTUxODU5YTAyOTgyMjEwZGNmZmIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L395-L445",
+          "version": "repo-lines-v1:sha256:3910022b14287c3c253835f563029e9143b9798b0d3994c95957937551d4c033:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyYThjMmI0NDQyMzZjOTNjODY1ZDRjYzY2NTdhMDU3ZWUzNTVjYTc3NWJiNDg5YzdhY2FiODIwOWMxYWMyNmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4M2I2M2VjZDkwYzZlOTU1MDIyODg1NWFjMWU0NDkyYWY2ODdhNzBiMzg1Y2M3NjM4OTZlMWU1Y2NkY2E2ODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk1ZjgwYWYwYjQwYTEyODdhYmY1OTljNDc0Zjg2M2QxYjdhNjA1MDY1YWFlMjA2YjM2OGFjZWIyNzJkYzgzNTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3ZWU2YTA0MDQxMTI4MGQ5NmNiZWQ2ZmFiMWU5OGI3YTg0MTU1YzYxNDljY2ZjNzM2NmRjZGMwMGM2NGUxMmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a4550c39111146489b34e642345c3cf8",
+      "statement": "HO 01 31 requires claim acknowledgment within 15 days, acceptance or rejection within 15 business days after requested information and documents are received, payment of an accepted claim within 5 business days, and suit within 2 years after the date of loss; it also requires prompt notice, cooperation, protection and preservation of property, evidence and records, examination under oath when requested, and preservation of recovery rights.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L447-L501",
+          "version": "repo-lines-v1:sha256:8a7297baca568e690073b742b056b99386226c53001acdb7a2364cfc0418b3ef:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NDFkMzU2MmJkNmRmNTBlZDMzMjQ4YzA2ZjU1MDA4MzI2NmM3MmY2YWEzNGNmZmM1ZGQ1OTNhZmFjZDQ3MmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzMjRlNTQ0NTBhZmNiZTAxOWFkYjAwYjBkYWM3YmNlYjNjMjEzYzg4ZWEyOWJkYmI1NGJlZWI3Mjc3ZjU0YzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMxZmRhZjk2ZDhmNGNjMTA3ZTA0MmViZmIyYzk4MTQ4YTA5ZjUzNjE4ZWY4OWQ3NDczMjUxMTk5NGIwMTgxYjkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L505-L509",
+          "version": "repo-lines-v1:sha256:06f157d0a394ae6843e0de4a3d8ced069ca4bd117dc1a73b88cbc4146904059a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZmMzIwMDVhYTVkMGFmMjQ2YWExNzI1N2MzZDM3NTY1YTZhZTY5OWMwNzNhMTgxNjhiODhiNzBkYTc1YTVmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzUyYjAwMjMyNDU3ZWM4ZWY3ZDRmMjFkMGRjNmY4MzU0YzBiMGU4Y2IzMzVjZDE3YzVjNzVlYjI5YTE2ODZhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFmZGFmOTZkOGY0Y2MxMDdlMDQyZWJmYjJjOTgxNDhhMDlmNTM2MThlZjg5ZDc0NzMyNTExOTk0YjAxODFiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODEyMGFlMTI2YWU3NjdjMDA2ZGQ1YjRkYTkwYmI0M2IzZmVmMjhkMjAwMjUwMmMxMzJhODExZjQ2NDgwMWNiMSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L577-L587",
+          "version": "repo-lines-v1:sha256:61a63ff2c9016ef7ae887ca5ff2944811eefdd09a7d692fd63adf03481cabdde:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjMDFkY2QwZGQ4YzhmZDdhOGFlYjBjMDUwNmQ4OGQ2MjA5ZmM3MDFjNzg0MWRjMDBlZTM1YzU1NjM3MDZlNWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMmYwOTExYjdlMWMwY2NkODJlMWU1OTAxN2NiYWIyMzYwMDViMzU1MjU3Njc0ZGEyMjc4ZGVlYjYxMjgyODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI5YmUxMjJkYjNhMTZjMzdhMWU3ZDhmNjQ3YWNkMTEzNjdiZmNmZDRhNTRhMzliMDBmNjg3ZmI3MTM3Yzg1NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4ZTJhZTM4MDNhZjhmZTE2Zjc0ZjIwMGY0NTJiMzdjZTczODQ2MWI4ODJkNjBkYTAwMDZhZTNjNzI3OTEzODUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L657-L691",
+          "version": "repo-lines-v1:sha256:d1a24c8bf1832bf4cef40997ecf9afd8572a7d62014963309684a7a5ff2524a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0Njg3ODRhN2MwZjBlNDQ4ZTEyYjE4MTkzNTU1Mzc4NjVkOGVmNGJkNzQwYjJiZWZlNWYwMmUxZmMzNDU1MjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2MDI2YjY3NGRhNWQzMzcxNzY4NzZjMGI1MzY1NmRhZjM5ODBjYmJkODA2YTZkOTQxMjAxNmRlMGRlNjJjNTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiZWQ4YWU3MzkzMDkxMGI3MTNiZTI1ZDQ0ZmYxNTU1YTJhNGU5NzM3MDk2NGMxNDRhMTU0MzA4ODBjMjRlMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7ed504465f7d4aea8cb92f7d53ed2683",
+      "statement": "DFS-2018-11 applies to admitted insurers that write, renew, service, administer, or maintain New York homeowners business, requires legal-entity identification, complete and accurate source-based data, reconciliation, authorized certification, and filing by the Department-specified date, and retains insurer responsibility when third parties prepare the filing.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2018-11-data-call.md#L13-L29",
+          "version": "repo-lines-v1:sha256:5e4e23b9f35c5ef73d1ec9150dcb821647dcafff6360746744b1e5a0a668ce98:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmMGZkYzM1M2ExZmNmMjcwNzk2NDNkNTQ0MjVkYmRkNDI2MmY3ZWQxOTAxOGI0YzQ0N2E3ZThhNzAxMzQzYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2ZjA2ODIzMjgwNDIzMjI5ZWQ0N2U5MjNlMzFkZTY4ZWUxMGI0N2E0MWRiNWE5YzY3YzJmMGUzYmFkMDJjMDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcxY2Y3NTViMmY2ZjAyNTU3YTczNTg0MzQwNzMxNTQwMjgwNjI3MTU0MzM1MmIwZTcxNzAwOWNiMzBlMDAzOTMifQ"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2018-11-data-call.md#L303-L333",
+          "version": "repo-lines-v1:sha256:470c9f56d32fd582b863caed53a2e98d1dbd8a67c2fe8254993cda01d23e681c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzYjlkMjk5NzczM2RiZTVlOWNkNzI0ZDg2NTE1OTU2YzFhNjRhYmFmYmUwOGU4NzJiZGQwNDY0ZWUyZmY4MzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM5MmZmNWU1YjAwZWFhOTMwZDQxZThhYjU5OTg4MDZmNWYyNjJiNjBjNjZjMDM4MzJkZmUzZDJhNjE5NTJmM2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAyM2M1YjYzMjVjNWIyY2FiOGZkNmEzNjRhZTU4OTRjYzdiMjVhNDBhNTlhYjliOWFlNWI2MWIxYWZmYzFlMGMifQ"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2018-11-data-call.md#L47-L61",
+          "version": "repo-lines-v1:sha256:fa931c2914487f2a389bff71c4d995fb34b0b561b25ec0f44b9437cb33fabff8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczMGE3ZjllN2QwMjYzODI0MGZkMDAzZjUyMDE0MWY3MjkwMDNjMDgzMGE1NDIyMTc3NWFlMjk5ZWRkMjVmNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEwOWViOGY5NzJkOTQ0ZmZkMzczYWZhZDM3ODY0YTBlYzZlOGRlNzMxNjdmOGRiNTdmMjFkMWUwZWRlZGVjODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjNzY2NTU3ZDJjNmRiNTA3ZDgwMTdmNmI0ODFiMjFjYTU1ZWFhMjViMjc5MzM5ZDQ5NzZjY2Y3MWExNGNjYzMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b1143590b374764a81924aa65eece5f",
+      "statement": "The DFS-2018-11 data call can require policy, exposure, premium, deductible, form and endorsement, termination, underwriting, property, geographic, and claims data, including claim notice and closure dates, policy status at loss, location, cause, coverage components, payments, expenses, reserves, dispositions, reopenings, catastrophes, and service-provider-handled claims.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2018-11-data-call.md#L247-L301",
+          "version": "repo-lines-v1:sha256:1aa7642ccf72f26789d2eabcbf0fec24141f3b85812a06b3363c7aa5cf0c1fbe:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmZTA2ZjNlYzA0ZTliMzMxOWFlYWY2ZGIzZTgyMzQzODkwZjFmNzJjMGE5ODMyMDFjMmQ5ZjM5MDYzZDZhMjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYwMDExYWI4OTZjYjU3MTk3OTEwOGMwMmU1ZjY4MGMyMGYwNTdlOTM5NTVkMTZkZTRhZWE2NzNhZDZjNzE2NDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/NY/dfs-2018-11-data-call.md#L63-L127",
+          "version": "repo-lines-v1:sha256:f26952207bfe9fe8dd13b56af062463bcb5af497e65b4579e0e8393d7acacbf7:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3MWQyODgyMzQ3MTAyMzYzMzA5NDMxN2E5YWJhZGNkNDA5NGJlNDIwNzEwYzZhZGI5ZWMzMGE0ZTg2OWU2N2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViMjI2MzM2OWU5NDFlNGNmMjMzMzY3N2QxN2IzZjFiNzRlYzEwNTdlZjU4YmU0NTVmMTdmYTJhNjRkM2NmYzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ1YTIzZjY3NmU1OWE5YjkzZGU0ZTQ0MjA2N2VlMmI0YjM5NWNiMWE3OThmYWE2ZjIwYjE2ODcwOGE0YjY4ZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM1ZGIyNzc5NTllNWI4MWMxYmUxNzRjNjFlNDY2MGQ1NDRhOGQ3ODM2NGRlODNlZGJjNTA3MmZkMTliZDc4MTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_45ef4e60b43b4a8fa366b219ba5494a3",
+      "statement": "DFS-2018-11 requires disclosure of material limitations, practice or system changes, estimates and derived values, unavailable or restated information, affiliate and service-provider treatment, claim and recovery bases, classification and location methods, external data, conversions, and reconciliation differences, followed by retention, certification, prompt correction, inquiry response, and confidentiality controls.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2018-11-data-call.md#L169-L245",
+          "version": "repo-lines-v1:sha256:9b71e2ac28c273cdd15a3b7d69647dd4fe07c8509b168bc4822eb99b9d4db8fd:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlM2RlZWZhYzE3MTdjODc5ODRlNjdlMWZhZDg3Y2ZiZDUxYzc3NDk0YjdhMDFkNzVmNDA0NGIwYjc5NmM0YTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0NmI1NWFhYzNiOTljMzIwZmMyMTY1NzQ2YTA2ZDI4YmEzMWYzOGE4ZTA5YmJjOTg1OTdkZGI3ODdiM2JiZWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3697c83b03544dbfa95fdb0efee670a4",
+      "statement": "Internal Rule 530 sets New York carrier controls including a $750,000 Coverage A binding authority threshold, referral for three paid property claims and unresolved damage, eligibility confirmation before credits, and recorded underwriting direction before issuing a nonrenewal notice; these are internal referral and authority rules, not DFS requirements or policy limits.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
+          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6855-L6879",
+          "version": "repo-lines-v1:sha256:f54e64c5882fd9eb93c623a60ef83a91fdecfc6303560f0c5871ff79e5a7f309:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5NzNiNmQwM2Y2ZGI2NTFhNWM0ZDc5NTc5ZDU2NzgxMjgzNThmNzM4NWNkMGJhYTVlM2U4MDhmNzc0NjdmNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNjQ3YTE2YWE0N2Y2N2YxZGI1ZWMxMzU4MmU1NzIzNTg3Nzg4ZWM1N2M1Y2E0YjZlZTc5OWQyYzI0YjkzOTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZkNzk0YjE2MWJjZWI0NzkyMjE1ZWJiOWEwOGE3ZTUzZDEwNmM1ZDY4NmIxYWFmNDg5YjIwNDJiYTZkMjBhOWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkyYjhiNDlkMzBjNjA1OGFmZDA3MzE4ZDU3MWVjMDE5NTUyYTZkZTgxM2UzMjQ2YTlkYTk0ODI4OGI0OWM2Y2MifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7181-L7185",
+          "version": "repo-lines-v1:sha256:1d53da7cbf8d66322237c2e36d4224c8824623e4bccf249051a8d417714d31c0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBjYjBmOGUyNmE3NDgwYWZmZDExZDU1OGM2ZjFjY2Q4MjQzMGIxY2RkYjE1YTk0YjhhYzY5ZWQwZDFkYTQ0ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxOTk3OTAzMzdjYzQ2MTJiOTg0MWM3NGZmZmRiNGQzMDRmZTlhN2IzMzgyNThlNjAxYjg3ZjBlMTA2MTM1MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2EyNzZiMTcxYTlmNGUzMjY3MWEzOWNmMjI5NjIyMTFlOWU0NTA0MGZkZDdkZjZjZTY1Mjk0M2FiNzlhMzM2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGFhYWFlZjI3ZjBlNzU1OGVjYzc3ZjJkMGQyZTczNWIzOTg3M2U0YTI2MTAzYzBlMWRlNjVmYjBmYjgyYjJmNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5eeb5aa90f6f4452bbc9d96178989cd1",
+      "statement": "Internal Rule 800 requires action classification, status and basis verification, and documentation, but its internal 10-day premium-default and 45-day nonrenewal instructions do not replace the current external 15-day nonpayment and 60-day nonrenewal requirements in DFS-2016-02 and HO 01 31.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NY/dfs-2016-02-nonrenewal.md#L147-L155",
+          "version": "repo-lines-v1:sha256:5f2e70a305f3dc9fad97507077c23d0861a9cc70fce6ba11d3f631118b8545b2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjU1OWNhYWYxOTkzZDExZGRiMmIzZDY1N2JkN2EwOWEwNGFlYTYzNzlhYWI0MmE1OWJhOTM1NjNmMTQ5YmUzOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU5NzE5OWQwMmZjYTNmMTdmMDQ0NjM5NWI3MDBiODFlNjM4OGE3NmUxMDY3YjkwMzI0YWQyMDQwZmMxOTQxZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTNiNmY1MjM4NTU0YzUxNzQ2YTkyN2E3YmFlZmRjMDg4YzQ3N2IwNmQyN2VmODIzZmI2YjA2MWY4OWRkM2JlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWRjM2YyYTgxY2Y3NzcyOWI1MTJjNjU2ZWJiNGY2NmM1MGJjMjcyNWE1ZGVhMmRhZDBhZjczMjRjNjRlMGU4ZiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/NY/HO-01-31/2016-04.md#L331-L341",
+          "version": "repo-lines-v1:sha256:4ca4acceb1a0e23264f26e772eccb5cd27c61fed9007011dfa1d2ac44dc14511:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlYzk3ZWE1NDgzZTlmMzk0NWY2MGFlZjBjMmY1OWEwNDMxNmE5MDk0MjEyYWRiY2E3ZDAwMzZiY2EzZGUzNjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4NTAyMmZlMGVhMjJhODgyNmE5MTc1MzYyZTk1OTE0MWJmMmM5NGZkYTkzNGE3ODEzNjYzMzZhYjdjZTEyMmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmMDkzNTk0YTRlZjkzZTUwNzlmNTMyMzM0ZWQ5MWU3MGU5ODEyNzI5YjgzZGQyZWRhMTFlNTE3NzI3NGZhZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0Mjc4ZTJiMDdlODk0MzFhMTZkZjI5NjZjODdiZmYxNGE2ODEzYzYxODkyMGZmMmVlYWFiYTBkMTY5ODc1MDQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9497-L9539",
+          "version": "repo-lines-v1:sha256:91f7601c6a0ad1589b77a633df43370fee22e4117f946919995111642eea96cf:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4MjMyM2JhMjZkOWM2MTFlZDhmZGI2ZDJlNzhjNmVmMDUwNzViNWRjYThjNzFjNmNhOGE2ZWQ5Zjk3M2EzN2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5YTllOWRlMzI0ZmQwYjFjOTE1ODk2YTc0YWE3MzgwNDI0ODlmYzkxYTk0ZTc2ZjYyZDU2YzU1MDBjN2NmMDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM4MGIwMGE1Mzc2MzVhOGZiYTYwYjhlZWVhNGE0M2ViZTY2MDk3ZjUxYWM5ZjE0NDIzMTEyMTIyNzk3ZTA0MzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3YjY0YjI3M2Y3NGYwMWQ2NDk3NjE4NzgxNjZiNmU0MzRjMzYxZmExOTM1MDY1N2Y5NjUwNWQzMGMzYTFlYjMifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

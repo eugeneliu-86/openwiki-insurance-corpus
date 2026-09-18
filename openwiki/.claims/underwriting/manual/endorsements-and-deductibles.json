@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:897f19424d768d4ae7e47764eb3a48804a41b527bdd48c4525431079ca5d9136",
+  "claims": [
+    {
+      "id": "claim_8dbdc848ada341ac8dd7ad51923ed0ac",
+      "statement": "Rules 400 and 410 are internal underwriting controls: they govern whether an endorsement or deductible option may be selected and issued, but they do not grant coverage, change a policy deductible, or replace the applicable policy forms and endorsements.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L37",
+          "version": "repo-lines-v1:sha256:3c1146fcffb84e45f209bc9eed99ffc7e9fa8d1c91e5443e0a5497cc3cecf6df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5091-L5131",
+          "version": "repo-lines-v1:sha256:b58ef5b08c9eae7035c27fd4b569cdc5d2dddb4b7d78225ccd115deedb484de7:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5OWIyMTk0YjI5NmI2OWQ2YzRiZDYyM2Y5YzFkYjlmNjUwNzM3ZDJjZTBiMWEwNWM4ZGQ3ZGMzNDk4MDY2MGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NTY5ZGNjOTVjYzE4ODBmNWI3NzQ0YzA4MDFiMWIxODhmMGIxYWJhMTQwYjFlZjZhZTk3NmJlNmQzZjNhOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViZDQyNWYwMTJjMzllMzg2ODg2NzhiYzMwN2FmNTEzNjJkNjFmYTRmNDE1MWRkNTQ0YTk4ODU3OGRjNTFkYTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2OWYwN2JhYTQ0MWIwNDIzM2Y2MGQ0MzcwMzVjZTMzMGVhNWExYTVkZDFmMzQxYzBjZDlkNjBlZjI3YjAyYzIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5459-L5511",
+          "version": "repo-lines-v1:sha256:a0fd3b7419d7b654fbdf2230ac94a75ba712de08f830758eb879c06c54e148dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxZGM2ZDIwNDI2Mzk4N2NhNzJiYzMwMzkyZDQ3MTRhOTIyOTM3YjNkY2RhYjc2ZDlkYTBjNmU2M2ZhNTBkNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2YjQ2MGRkMWYxOGJlNTcyYTgyNjEwM2FkMDhiMWU3ZThjM2ZjNGE0YWVlNDkyYmZmNGU5OWFjNmRhYWY0YTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMDcwNTE1NjRmNDIxZmFkZjcyMWZjZTdhNzA5MDcwNDI4MzFiYWM2OTczMDcyNTI0MzE4MWUwOWQ0NDAwYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzYzRiZDNkNGY5NGJhNjkyMGQwMTczOGUxYzJlZGFhYTliOWY1N2Q1ZDcxOGJhYTUyNTlkMjRlMmM1ZDdiNjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5160af9578a04d59b9a1ba8ccdde57c4",
+      "statement": "Rule 400 requires review of every requested endorsement before binding or renewal, attachment only for an eligible risk supported by current and complete information, matching to the named insured, location, and insured property, and referral or suspension when eligibility or material facts are uncertain.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5097-L5149",
+          "version": "repo-lines-v1:sha256:f2ef2318a246a0483b9caa4c301079120f5c60c6427a5e5bd898f5e25228d513:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlNTJhMDZjMDAyMjM4ZmI1NWMwNGZhOTMxOTMxYjc2NmE0YzEwMDI2YTM0ZDI1YmQwMmVhZTM2MjFmNjYzMmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ZTA1MjYxMmE2Yzc5MGEyZTQ0OGI2N2I2ZDhkZmM3NGIzNjE0NTJiNGRjODhiMWU3Mzc4ZjAwZGM1Nzc0Y2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjMjAyZjZlY2EwMGFhOWY1YTE0MWRjY2M3MWQwYTI4ZjdmZTc5ZDVmNjFjOTViZDY4ZDg2OGZkNDFmODU5NGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM4OGVjMDZhZDBiZTJkZTM5ZmM1MTI4MTZiOWJmMTU4OGIwNjgwZjI4MmY4NTEzOGNmOGFiMDQyOTMxZjBhYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_aabb61d6e49f45c7af32f953a6d794e3",
+      "statement": "Rule 400 requires underwriting review of water and drainage, plumbing, roof, electrical, heating, use, occupancy, construction, prior losses, safeguards, and pending claims when those facts affect an endorsement, with referral for unresolved or adverse conditions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5151-L5239",
+          "version": "repo-lines-v1:sha256:bb89cba96be7dfa3197e53079149af52d52c41fb2a49cb06639520b77d242b2a:eyJzZWxlY3RlZExpbmVDb3VudCI6ODksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiMWI2NmE4ZTk2YTg2MTgzNWE3ZmJkMTFiMTI5OWY5N2ZkMDdiOTlhYmE3ZGQxZGFlMjJlODhmZTEwMzljYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0MmNlNzA3OTFjMjU2MDYxODU1OTUzNDllNDhkNWZkYzUxNjUxYTk0N2JmMzA5NjI5MTlkOWVmOGMxYzk0OTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY2Zjk4ZDVhY2FmYzM0Y2YyZmJhODIwNDM4OWUwNTQ3OWFlODY4NTljNDExMDJkYjY5MjVjMzEzYzFjMjJhZDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJhYmVkMmZmYjA0MDExYWUwOTY2Yjc3OGFhNjY3MzE0ZjlkNmViMzM0YzYyNTc1MWZjMTU5Yjg3NzNhODMzMzEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5259-L5269",
+          "version": "repo-lines-v1:sha256:21775ef5908000656ed0ae67d54f98bfb557bfe35851e6d396584b66d874f9c0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3Y2JmYjQ5NjJiOTgyYzVlOTc2ODBjNDhmYjc3ZWU4MGVhYTYzNzI4MDUwN2FmOTQ2Yzg1YzkzZDg0OGI2NTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkyODQ4MmJlZmM4NGFhZDA1MDcyMzBjMDVjYTNjM2RmMDM0ZmZjYjM3N2EyZmNmZDdhNmI2NzM1ZjlkNWFmMmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlMDIwOTAxMjRkMmRlMmUyNjhmMDlkMTY3ODQ4MmNlNTY1YTI3NzFmZDcyOTRiYTdiZDIzM2FiMGE1NjVmNDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNhNWM3NWFlOTg1MjM2MjU3NDZiMjY3MWRkYWIxZGI2MjFmMDIzMDZiMmRmYjNmMDNiNGMxZTFjNzFjNjAzMjgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3144f16670a34d03815e986ffb2e64f9",
+      "statement": "Rule 400 prohibits using an endorsement to cure an ineligible risk, requires appropriate wording and no duplicate coverage, and requires effective-date alignment rather than retroactive attachment for a known loss circumstance.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5121-L5131",
+          "version": "repo-lines-v1:sha256:4710fe98d87864981f552485f5140b3ba9d501e62cde54add0d7d35ab6367e13:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzhiYTRiNGQ0ZjYxZjc5NzNiODc0OGQ2NmFlYjlhYjg4YzM1NjNkYThmYmEzZmRkMWQ5ZjY4ZDA2OTQ4MTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NTY5ZGNjOTVjYzE4ODBmNWI3NzQ0YzA4MDFiMWIxODhmMGIxYWJhMTQwYjFlZjZhZTk3NmJlNmQzZjNhOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0OTM5MWNhY2Y4NmY3MDgxNGJiMDYxNjM5MzIzYjMwOTgyYzZmYTU4ODkxMmJiYWY1OGYwYjAzNTIwOTMwMTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2OWYwN2JhYTQ0MWIwNDIzM2Y2MGQ0MzcwMzVjZTMzMGVhNWExYTVkZDFmMzQxYzBjZDlkNjBlZjI3YjAyYzIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5241-L5257",
+          "version": "repo-lines-v1:sha256:edfd1a4cefaff30764a9ba8faf45b0c1634e2212e6c828fea7a0704200a2c6bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmZTkxOWM2NDczYjMyMzE0YjdjOWI2N2I2MzBmNGZhYjg3NjExNjI2NjhmMWQ4NWJmYzVlOGZhNzAyZWRhNjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZGZlNzU2YmJhOWZiN2QxOTA1YzI4YTQxY2ZhNjc1MzM5ZmFmMWZhZDJiOTI1ZjZlYjlhMzg1Y2I0MGY0OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiNGVlMGZjM2M0ZTVjMmY4ZWI2YmU3YzM3NmRkZWM2N2M2YzMzYjhhZWYyMDIxYTFjOTM4ZWYwNGZkNmQxOTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiOGYyYThkYWVlODQzMjU3YTk5ZmYxMTI0OTQwY2UzMDhlYmRlNTk5MDUyN2I1ODE4NTQzM2NlZGVkN2VjZjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1c6ec55ed0fc4a98bc8ab24a5268a7ff",
+      "statement": "Rule 400 requires approved processing, post-processing confirmation, renewal reassessment, and a clear record of the facts, rationale, and authority for every endorsement attachment, revision, or removal; unaddressed endorsement issues must be referred before issuance.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5385-L5455",
+          "version": "repo-lines-v1:sha256:44083ed68b36f8791709f13baf7bb37b5a6fedc182e4e31a0f500fb7475fef30:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwODhjMDgyZjAwNzhiNTRiMzI5OTY1MTU4YWExNTVjNjQ1MjcwNDQ4MThjMGViYmMyYmE5NzkwZTlmOGFiOGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkNTE2MWE2MzFlNmFiYWYzNGEwZWUwOGM2ZjY1MGJmM2IwNWMyN2IyOGMzODA1MTgwMjY4NzY1YzQ5M2YxZGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkwOWI2ZmMzZmU0YTllYjY4MTFjMjU5NDZkYTI4ZTNjZThlYWJiMzdiZWZmMThlNmIxYjliNWRkODVmMjc2MjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyMDcwNTE1NjRmNDIxZmFkZjcyMWZjZTdhNzA5MDcwNDI4MzFiYWM2OTczMDcyNTI0MzE4MWUwOWQ0NDAwYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_10506f0c50584f6694e3b871d6f48f99",
+      "statement": "The authority matrix requires referral of a requested water-backup limit above $25,000 and prohibits binding the referred request until documented approval; this is an internal authority threshold, not a contractual water-backup limit.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L403-L417",
+          "version": "repo-lines-v1:sha256:5d0bd3ec212e055680ccabe95916b802a7c291d937488428a2b11b77e65cb605:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3NzNlNGQ2ZmI1YzdhNDRmZGNmMTk4ZmFjMDNjMDQ4NTg2MTk3MDYyMDcyZmVlZTEyNTVjMjZhNmI2ZmI5MTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhYmM0ODA2M2JiMzM5YWVkZmNkMWFlNWE3ZDQ3MzcyMzM2ZmM4MzM5OGYzZTlhYjlkNWUxOWRlZDFiYWIxNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk5YjM0NzcwY2Y1MzJkNDFmYmYwYmNjNjQ4YTdjMjUyMGE1NDkxNThhNWZlMzkwMDFmOWQyY2EwMTRlMDBlMDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4M2NhZGVkYWIxNDM4NWM0NDc2ZmZkMjU1MGY3NDRjZDVhYTQyNDRhM2Y1YmM1MDgyZDIyNWMzNjE3ODE1MmIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5169-L5173",
+          "version": "repo-lines-v1:sha256:2a9f8b56757b9c3dbf857f1fa01a9c36270ae6f4051bb1a496fef5eef1ac52ed:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzMyMWY1OGU3YTUwYzFhODY5MmQwMTUwOTk1N2QyYmNjNmM0NTA4ZmFiYmRlMzg3OWQ4MTA5MGFkZmRjNjExMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFjYmUwMDM0M2JhNzNjZWIxOGJiMGRmY2Q0ZThlYjg0NmE2Njc4MDNmNmM3NWY4NTA0NjBlZTg4MjdjYjJhYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmNjYzZhYjM5YjRjYzNlYjc1ZjZiZGY2NTEyNmI4ZWM0MDRjZWMyZmYzMDViMWJhMzkyYTMzMzJmNjk1ZTBhZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDE4N2MyODgzMTc0MGE0MGRjMmZhOTRjZGRmYWUwMzI4MGUxZGE5ZGY2ZmU2OWYzMjBiNmFmNDIyMjBiY2Y1OSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5549-L5553",
+          "version": "repo-lines-v1:sha256:aa4cc344bb20c9358b86727e6459b52c366264ee8d835eb9cddeced47abba40d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNkN2I3ZWVmNjljODRhMDRhY2I1ZmZkYTgwMjExM2MxYjQ4NjEyZTNlMWI4NTlmNWYzY2FjNDRlYWIxYmNjOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3NzliYTRkOWNiMGM2ZjEwZjE0NmVkMzRkYTk4YmQzZTEwYjkxOWMxYTkyYmQwMzZkY2U4ODgyYmU2OTU5OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjcyZTExZmJmYTg3Mjg5OWRlMmIyNWE1NWZiNGZkYjA0ZjRjZjI4MTgzMmYyNzM1N2ZjZmZkNmM3OTk4NjdkZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTQ3NTI0ZmQ5ZWIwYTA0ZGMxYjFjNjRlMWMxMjMzOTQ3NTM2YjZiYmJlZTg4OTFhNDBiYjk4ZTE3MzQzMzZhNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_257a576f998d4b328f2534686eca4e7f",
+      "statement": "Rule 410 sets the Section I all-other-perils deductible selection floor at $500, requires the selected option to be supported by risk characteristics, and requires the selection to be documented; this is an internal underwriting floor rather than a universal policy deductible.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5421-L5425",
+          "version": "repo-lines-v1:sha256:f0a9bb1145f45bb0db1c2e5b18dfba344db756e79d6e32bba9b5de9f1941a46a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc5NDA4NGMyOThlMDgyMGQ0YzE1ZWNlMjg4MDAwODY2OWQ0ODkyOWM5Yzk2Y2EzNzg0MDMyN2MwMzBiMmZiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1YzU5YTMyNGExNjQ2ZjIwYTE0ODZiZTM1N2MzZTZkZjNiZjY5YzlhMGVjNTI2MzM1NTE1YjAyODI1ODViMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTdiZjFjZjcwNWFlNjJhYTJlMTg2MzViOGQ3NDE1ZGY5NmM3ZjhkYmY0N2NjMTQ4MzU0ZTZiNjhlZjc2N2U0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgzZDEwZTczZTQ2NWQxNjQyOTQxODQ4MDFiYTYyNjQ4N2IxNzM2MmQ5NjViODYxY2FkZWUyZGRkYTU3MzU2YSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5459-L5469",
+          "version": "repo-lines-v1:sha256:642e992f1e7bf6863971f47b0aa5bd266a2617b2f6599c6950e5bdac1bdef9ab:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxZGM2ZDIwNDI2Mzk4N2NhNzJiYzMwMzkyZDQ3MTRhOTIyOTM3YjNkY2RhYjc2ZDlkYTBjNmU2M2ZhNTBkNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0YjNlYmMyZDYwYzVkZjEzNmZlNDE1ZDYwY2QwODhlNWU3MTcyNmFlMzA0NGZhYWI2NWU5ZWQxMmI3NTNhZWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMDcwNTE1NjRmNDIxZmFkZjcyMWZjZTdhNzA5MDcwNDI4MzFiYWM2OTczMDcyNTI0MzE4MWUwOWQ0NDAwYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxNmRiNjNlZTA5ZDg2ZDE5YzYxYjIwMjFjZjcyNmVjMWY5MTRjZmY1OWY5ZjhkMTNhZGY2OTIzNjQzYTUxZGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_362a17ca4b434690b1b9775bad5bf14a",
+      "statement": "Rule 410 requires use of an available deductible for the applicable coverage part, prohibits inferring an unstated deductible or combining terms from separate proposals, and requires referral of conflicting, unavailable, unsuitable, or exceptional deductible requests.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5483-L5553",
+          "version": "repo-lines-v1:sha256:2195f9df56294a56a9aae3e65fd496606a9316c605b507c1a0417ea7301c8c69:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkMTBmNzc3NzZhYjNkNGViZmVmOTlkZDgzOTE5YzMwZjBiZTM1ZjRkYjAwYThjM2UzZTA0ZWNkNDQ5MDdlNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNzc5YmE0ZDljYjBjNmYxMGYxNDZlZDM0ZGE5OGJkM2UxMGI5MTljMWE5MmJkMDM2ZGNlODg4MmJlNjk1OTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3OGQ4M2YzNzQ3NzI2OWE0OGZjOTQ1ODdlZWJmNTQ2MGRmNTE2YTcwOWNhZmQwMWNiMmU4YzMzMWQ4NDVjMjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0NzUyNGZkOWViMGEwNGRjMWIxYzY0ZTFjMTIzMzk0NzUzNmI2YmJiZWU4ODkxYTQwYmI5OGUxNzM0MzM2YTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5681-L5703",
+          "version": "repo-lines-v1:sha256:05cdf4a7221704c1bc913ca157dfbf64d43b110fb00e6f6384a8931c79208ed0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3MDIzZWE3MmIwMTgzYWIyM2VmMDAzY2Y1NTQ1OGE4NmU3ZGFlZWE1Y2UxMzIxZjEzYWE5MjZhNmM3ZGQ4ZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2ODg5ODMzODE4MmZmMmZlNTA2NDcxMDQ2NTI0MTQ0YzAwOTBhZDU5ZDFmZmU1M2QyNmMxY2VjYzRhNDQ2YWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1NmEwYTMzZGFlZDI0MmZkMGViOGIzMTgyM2MwYWJhZDJkNjQxNWJhZjI1ZTY2NzJlZjc3NWVjOWFlNTZmZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyY2ExMzk0NjE2MDcwOGQ3YjE2MmRjNTIxYjlhODY2M2IzZTM0YmY5NTVlODMwMGE2NWFjNmZjYWZhMGUyNDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3f0e158a4acb48b7b70cb3b93cb5db33",
+      "statement": "Rules 410.M and 410.N require application of the available named-storm minimum and wind-deductible ceiling but do not state numeric values; the applicable contract and state overlay supply the actual parameter, and requests outside normal authority require referral.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5421-L5455",
+          "version": "repo-lines-v1:sha256:cb5390e0ecd21bb409a7b156aff12c7154cf657ce1bbae644bfa985d8dac80bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3OTQwODRjMjk4ZTA4MjBkNGMxNWVjZTI4ODAwMDg2NjlkNDg5MjljOWM5NmNhMzc4NDAzMjdjMDMwYjJmYmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkNTE2MWE2MzFlNmFiYWYzNGEwZWUwOGM2ZjY1MGJmM2IwNWMyN2IyOGMzODA1MTgwMjY4NzY1YzQ5M2YxZGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3YmYxY2Y3MDVhZTYyYWEyZTE4NjM1YjhkNzQxNWRmOTZjN2Y4ZGJmNDdjYzE0ODM1NGU2YjY4ZWY3NjdlNDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyMDcwNTE1NjRmNDIxZmFkZjcyMWZjZTdhNzA5MDcwNDI4MzFiYWM2OTczMDcyNTI0MzE4MWUwOWQ0NDAwYWQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5531-L5553",
+          "version": "repo-lines-v1:sha256:b4c4730ea534fbe67819bdf69ab944abfbf4a46dd6512d300105e81a8bfb411a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlNDRiMjg3NzM0NzE0Y2Y3YTJkNzE3ZmNlNWNlODUyODQ3MTRhMzExZDFmNGIyZWVmZTc0ZmQyN2FmMGVlNDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNzc5YmE0ZDljYjBjNmYxMGYxNDZlZDM0ZGE5OGJkM2UxMGI5MTljMWE5MmJkMDM2ZGNlODg4MmJlNjk1OTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBiZGNjZTg1NWM4ZTJiM2RkNmYwMjE4ODg1NzBhYTkzNTM0M2QxNWExNjNkYTU1MGE3MjI1MTdjZjlmNmIyZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0NzUyNGZkOWViMGEwNGRjMWIxYzY0ZTFjMTIzMzk0NzUzNmI2YmJiZWU4ODkxYTQwYmI5OGUxNzM0MzM2YTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4e2f60fcd5294368a670e6dd8702632f",
+      "statement": "Rule 410 requires deductible selections to be consistent with submission, rating, issuance, location, occupancy, construction, protection, property use, and cause-of-loss information, and prohibits using a deductible to offset unacceptable property conditions or satisfy premium preference.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5519-L5577",
+          "version": "repo-lines-v1:sha256:ee3dda95ed409f20cdd6c716473cad090fcb2f6d40d753cb43647cfa41460a56:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkYzc2YWE1YTFkYzVhYzExNGQyYTM1MWZlNDU4M2FjYTg4MTczNjkwN2MzN2RhZmRlYjRmODExNTRlZTQ5ZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxNjNhMzVjMThiNTdmZWM3NjE3OThhNGIwYTdiMmZhZDUzYWI5NGFhYzQ1NGI4MzM2MzZjZDg3ZGNhMTQ3ZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMDJmY2FmZGI5MDcyZWZmYTk5NzRmMjRkZWY2YzcyNmYyNDZmYTI3NGZhMTI3MGRlYTljYzFiNWJlMzQ1ZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlZGY4YTA2Njc5N2M4MzkwMTNiMGY3Njg2NmQxMjJjOGVkODhkZGFlN2RmYzg5OTlmODY3YjY1YmM1ZWU2MmMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5621-L5667",
+          "version": "repo-lines-v1:sha256:ec552e1da93f6cb309bc7d6661227da0fa1e9c16256e702ebc3b3559f14609b5:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwZDU3ZjNhNjU1NTM2NzBlODI3OGQwMjliMzFmNzI5MDVjYWRhYTQxNDVhMGNmNzNjZWM4N2EwN2M2NzgxY2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlNDZjMzA3NTEzY2ZjNDdhOGU1MTUxYzM2Y2NiNDdjYmJjODgyMTY0YjdjMDczODRmOTcwZDZlOTg5OTEwYTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0YWM3OGIxMjJmMTA0YmExZjU0ZjE1NGNkNDAyMWNjZjdlZjJlODQ3M2IzMGQ2ZDAyMzlhNzMyODJjODY1NzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhZmMyYTk5ZjFlZGIwZTkzNjQ3MGRlZGY1MGY5MTFlYjFiNGY4MzQxMTBiMWY5Mjk2Yzg2NDkxZTllMTc5YzgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5771-L5779",
+          "version": "repo-lines-v1:sha256:03230a9a091acc80f552915ac33e3c601e510bb1861c6cb644d5e2ee5c7bbe03:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTMzZGZmYzg5Y2E5YTY1MTc5OTRjZTZmMzBjMGY2ZTAyMjllMTZhZmZmNzdmZmI2MjRlNmRjMThkNTFlMzdkNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ3OWU4YmU2NjliM2QwZWFiN2ExNDU2ZGMwMDhhNWRlM2QyYTZhNGVhNjE3ZjU3Yzk2ZWY1ZWMxOWQ1MzRmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmMzYThjODU1MjQzNmQ1ZDZhNzEzNzg0YWFkNzI5OWI0ODZhZjliZjAyMjMwNTBjODE0YTdlZDYzZDI3NGIzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmI4YzI2YTNmMjA0ODllOGQ5ZDBmNzg2OGE3ODAyNmZmMzQ2MTgyYTAzMzEzNDIzYmM1NTBmYWEyZDUyMmU1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ae68d5acca074cbda4d6fd40c39bb9e5",
+      "statement": "Rule 410 requires current-information review for deductible changes, prohibits retroactive application and post-loss revision based only on claim information, requires capture of the final selection before binding, and requires completion of deductible review before issuance.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5597-L5607",
+          "version": "repo-lines-v1:sha256:abc8780feb4fb6fb8c23e847a1fe31382c89e9265276ba05c457abd3e86468fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlYmE3MTFmMzI3MjExNGFiODAxOTFjY2IyZGQzM2U1OTJiOGY0Y2M0YjhkNmZhYzJiYzRkMmYwYjBiOGRkOGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzYjEyMTYxODA5YWM0Yjk3ODg2NGM0ZmJmOTQ4MzFmODNlNmFlNjJhYmFmNDg3MTkwYTVlYjc1MzgwZTg0MDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc4ZDE1YTE2MzE4MDQzMjI1MGU2MTFlZTNkMWVhZTMyYTRkNmU4ZjQxNzVmZDE2OWY5NjllZjZiMjE4ZDJjNzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ1NzAxNWUwY2Y4M2RlMmRhOWNmZmQ1ZGEyNjk3MGU2NWU5NTM1N2QxNTRlNWQ4N2VjZTk2NDlhZjdlNmUyMTQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5729-L5757",
+          "version": "repo-lines-v1:sha256:9f0e242fd8548fdefcd4d5d7c8ac8dbee619ca2d3bc1938bf931e689327d0fad:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkZDJiYWMwMTU1MWI3ZDgzYjU2YzQ2MTUyZjYyYWNlOGYyMjdlMDc0YmIxMjkwMTFlZjE3ODBiYzM4ZGYwOWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhZWI2MWZlMDk3NGJhMGU3ZGVjYTUxMzYxZGQ1YjM4OTg2MjQ2M2Q1OWIzNGQzOTVhYjkzNzAyNTExZjQyZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5MmIzODQ1ZjgwZTNkM2I1YTgxYTdjYTYxZTQ5ZDlmYmY3N2QxZjAwMzA5NDIyMzE4M2Q2ZDkzOWFjZmU0NzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVkY2E0ODE3ZmNiNjZlYTZkZjI5Y2MwNGQxZDI0MjZkM2Y3ZTMxZjIyOTFiMzdkM2RjNmVjYzVjYmZhM2VmODUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5801-L5823",
+          "version": "repo-lines-v1:sha256:8c6cf8eb4f57686e18e4a586cbda320f7c1960249435055b7dd796df4fda0531:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmNmU5ZTM0YWM4ZDUzMjc2ZGE3Y2E1NTAwZTViNDQzNTEwM2YwNTY5NzE0M2I0MGY0YmQxZGVmNzkwYzVhM2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0YmQ2MDA2Y2ZmMjkzNDM0YTdmNDIyMTkzMzQ1NWI4ZDhkMjY2ODViNWY2ZTk2ZTM3OGY2MWFkMDhmMDBkOTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVhZTA2MDcyZjViMDk0M2IwZTM2MGUxYWQ3MzkwZjEyMzVkZWI1MjUzYjAzNjJjMmVmMTBhNjdlYjRlM2NiMTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3YzVlNmE2YmFhMjcyYzNkYWVmOGQ5ZTVhOWY5NGQwNjU2YjQ4OWY3ZTQ3Y2U4MmQ3NGViZGYxZjM1NjIxOTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a4742461c32a42a0a1c7bda3cba7c008",
+      "statement": "HO 04 90 (2027-01) is effective only when attached, preserves unmodified policy terms, and contractually applies a $1,000 deductible to covered water-backup damage from the same occurrence; Rules 400 and 410 constrain attachment and internal selection without changing that contractual deductible.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39",
+          "version": "repo-lines-v1:sha256:dd39a1c66b09a0cd6c63ab7f1a89c723f71b4ead39a7c37eeee66f0e48e1d1cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyZjZlOTNmMjY5MDU2ZTRlYzQ5NTRjNDliYjM5NjM4NTBmNmVkZmFhNWIzZmU1YTQyZTJlOGRhYTUzYTE0MjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L189-L243",
+          "version": "repo-lines-v1:sha256:29a635e2e9634bcdb428c816e032429d0ec97555194796b1f3798a78b91a5169:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjY2U3NjJmNGM2Y2M3OGJlNWMxZDAzZWNlNTlmNmFiYTA2NmQ2ZTVlZmQxYzFjODVhYTc1YmJlNzFmYjA3ZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzYTNkYzBkNjQ1YTkwMzFmYTRlZmNhMDg2MGIxY2ZmZGE3OGI3NDEwYWI0NTk1YjM1ODQ3YmNkYWYzNWJkMjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNkNjQ2YzNlMzRkNTc3YjljY2RlZjY1NDk4Y2E2NWMyOTYwMDQ5NTk1NDZmYTAyOTMxZjRlZmYzZDg5ZTEwYTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5163-L5179",
+          "version": "repo-lines-v1:sha256:dff00a71880126044ef3c3b9967cf59a734a0bc8934283a874b4bdb508e4724c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NjI3MjI0YjZiZGYwNTZiZTY5MTdjMjJhMTk1MDUxMjU0MjQxY2U1NGUzNmRiZTdhMTdiYjBmYTk5MmU2NTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3NTY2NjM5NjEwZmFkY2FhYjAwNmQyZjZlNDU0MjZmYjRmNzFlY2JkOTdiNDQ0OGE4Yzg3MzZlMGJkMTVkMGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY3NzhiYmU2NjQwNzQ5MjdiMzJmMjQwM2VmMmY0NWJjZDNiZGI1YjI1ODMxNWRhMDgzZWIxMzdjNTM0Zjk4YzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY1NWQ1MTg2OGVmZmM5YThiZmQzYWVmNjljNzcxZDQ5MDU4Y2UxMzBhM2IwNDIzZDZkZDc5Yjk1NDY2OTFiNDEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5421-L5455",
+          "version": "repo-lines-v1:sha256:cb5390e0ecd21bb409a7b156aff12c7154cf657ce1bbae644bfa985d8dac80bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3OTQwODRjMjk4ZTA4MjBkNGMxNWVjZTI4ODAwMDg2NjlkNDg5MjljOWM5NmNhMzc4NDAzMjdjMDMwYjJmYmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkNTE2MWE2MzFlNmFiYWYzNGEwZWUwOGM2ZjY1MGJmM2IwNWMyN2IyOGMzODA1MTgwMjY4NzY1YzQ5M2YxZGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3YmYxY2Y3MDVhZTYyYWEyZTE4NjM1YjhkNzQxNWRmOTZjN2Y4ZGJmNDdjYzE0ODM1NGU2YjY4ZWY3NjdlNDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyMDcwNTE1NjRmNDIxZmFkZjcyMWZjZTdhNzA5MDcwNDI4MzFiYWM2OTczMDcyNTI0MzE4MWUwOWQ0NDAwYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_649d1ecbfe434812ada07a2736082cf8",
+      "statement": "HO 23 74 (2025-05) leaves the applicable policy deductible in force and applies it after the endorsement's roof-surfacing adjustment; Rules 400 and 410 constrain roof-related attachment and selection but do not replace the contractual deductible or settlement sequence.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L13-L55",
+          "version": "repo-lines-v1:sha256:4f620930fcc21873248d41ef5737d73556721ce8d32e29a570b22425a68a5ef3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0NzcyZmNiMDk4MTE5ZjU1ZjI0NzYxZjZjMmMwZjI1MTkzNjZmNjJhMDJhM2MxMmM5NWYzMGNkMTM2ZjIwN2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L327-L367",
+          "version": "repo-lines-v1:sha256:fd32e41eeee03f07d5d8449b1a7e638d9bac9b2d50aaf31c8621f347769e0b31:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0OTI5ODZjMTdjN2NmOTZkM2YzNzMzNzJlODBhN2Q1MDlmNGM4YTgzOTgzNTEwNDNmNjViYjc5OWNiNWRmNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU0MzZiNWIzZjFhMWQ0MDNjYWU5NjA1YzExNjY0YjRkYjAzMjRhODdmZWU3NGM3NDU5ZmU0NTk5NDNmYjk3YmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdlZTU1MjA3ZDFhOGJmY2M4MjY0OThlNWQ0ZmY2MWNkYmIxZWVmMGQ2OGQ4MmQxZmY1ZTg0N2M4Yjg2MzIyMmUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5181-L5185",
+          "version": "repo-lines-v1:sha256:40274f77f7b640618912bc7ce15c3d41d3901f2ce3913a4e81227f59f88531d3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGIyZjZjYjkyZDMxYjlkNGQ4NjM1MTBlYTQ0Nzc4YmY4ODFhMWM3NjQ2NDRlNjU0Nzk4NjRhZjJiZDdlNTc0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMzNjVmMmZiYjczMGM3NjFkZGY4YmM4N2JlNzlkMTk3NmVhZmQyMjI4MWNlMDk1MzQ3YWJjOGExNjQyOTRiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjZlMTYyMzAzMjcxZjFlM2E1YjJlZWQ0MjYwZTZlOGMxNmQwNWRkNjlmY2I2Mjk1ZWM2ZTY4NWU2ZmY5NTQ3MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmEyODJmYjJmNTNmNzk5MTAyZmZhMjVmYzAxYzM2Mjg2ZWY1YzMyNzdkZDQxZDM0MTBhOGQ5YWM5MWY0YmU3ZCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5543-L5577",
+          "version": "repo-lines-v1:sha256:d71222591e1a27619bc7f65ea0216a7d1e2d18b221a043c222cdbbdd66b8b0d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3N2RjYzA2MjU0MWUwNDRjZGQxMzJmODEwZDJhNTgzYzY2YmUwMDNmMjI0NzJiODJiYmU3NjI5NDQ3NDAwNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxNjNhMzVjMThiNTdmZWM3NjE3OThhNGIwYTdiMmZhZDUzYWI5NGFhYzQ1NGI4MzM2MzZjZDg3ZGNhMTQ3ZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhkNDNiZjdhNzQ5MDRkM2E5OWI0NWM0MWM5ODczNTAxODA1YmM1NTI4NjdjMjYxMjlhNmJmYzc1OGVhNDA0NjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlZGY4YTA2Njc5N2M4MzkwMTNiMGY3Njg2NmQxMjJjOGVkODhkZGFlN2RmYzg5OTlmODY3YjY1YmM1ZWU2MmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_09f09692e35e43d1b5b1ccd743d8831b",
+      "statement": "HO 23 77 (2022-07) contractually applies a 2% to 10% windstorm-or-hail percentage deductible based on the applicable limit, while Rule 410.N constrains internal selection to the applicable underwriting ceiling and Rule 400 constrains weather-related attachment without changing the endorsement's stated percentage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L299-L325",
+          "version": "repo-lines-v1:sha256:809ceaa0907e0bfce6f535260e1ac0063a30ba0b573241a863816ec999df3afc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhOWIwYzM3YzMxYmQyMzFjOWY0NDgxN2M5M2FlZjc0NmY1NDVkNzYxZjU5ZGIzZDE0MTFiMDNhMjMwYTNiYWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY5MGU4ZTU4ODg3ODMxZmYzYWMxNzdmNzMzMjZkYTU5ZWE5MDIzOWVmZDkxYzNiYzBjNTg2MzQ3ZDc1ZDJiY2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFlZmE3ODgyMDM5OWQ1Nzk3ODBkMGYzMzZjN2E2MDdmMTA3NWRlZTRlMGQ4M2EyY2ZhMThiZmIzODExZDJmMWYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5181-L5185",
+          "version": "repo-lines-v1:sha256:40274f77f7b640618912bc7ce15c3d41d3901f2ce3913a4e81227f59f88531d3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGIyZjZjYjkyZDMxYjlkNGQ4NjM1MTBlYTQ0Nzc4YmY4ODFhMWM3NjQ2NDRlNjU0Nzk4NjRhZjJiZDdlNTc0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMzNjVmMmZiYjczMGM3NjFkZGY4YmM4N2JlNzlkMTk3NmVhZmQyMjI4MWNlMDk1MzQ3YWJjOGExNjQyOTRiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjZlMTYyMzAzMjcxZjFlM2E1YjJlZWQ0MjYwZTZlOGMxNmQwNWRkNjlmY2I2Mjk1ZWM2ZTY4NWU2ZmY5NTQ3MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmEyODJmYjJmNTNmNzk5MTAyZmZhMjVmYzAxYzM2Mjg2ZWY1YzMyNzdkZDQxZDM0MTBhOGQ5YWM5MWY0YmU3ZCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5537-L5553",
+          "version": "repo-lines-v1:sha256:88ddad0f11e9d1e8c89425230068220cfbb8e65fa206b1e903de5b245b238ade:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhODBmYzlkYmJhMzFkNzMyNDBhZTVjMmE3NmEzOTRlNzZmYTU4M2I0ZWY0ZjI5YTEyMDllYjlhNjYwY2EyOTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNzc5YmE0ZDljYjBjNmYxMGYxNDZlZDM0ZGE5OGJkM2UxMGI5MTljMWE5MmJkMDM2ZGNlODg4MmJlNjk1OTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3MGRjN2QyYzcwMGIwZWVmYjFlZTM3NzQ5MjdkYTZjMmIzMzA4MTRlMDc4ODMwY2QzZmQyNzg0NTk5MTljZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE0NzUyNGZkOWViMGEwNGRjMWIxYzY0ZTFjMTIzMzk0NzUzNmI2YmJiZWU4ODkxYTQwYmI5OGUxNzM0MzM2YTYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

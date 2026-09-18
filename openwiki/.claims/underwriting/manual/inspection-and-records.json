@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:fc3e7bbf664882008cc526b17e0b3730f8fcdfe4521a0f0e11d49ef477dc569b",
+  "claims": [
+    {
+      "id": "claim_ed9eae03961d435ead3b4a8821a9ab20",
+      "statement": "Rules 600 and 610 are internal underwriting controls: Rule 100 prohibits using the Manual to alter coverage, and Rule 600 makes inspection evidence part of risk selection and file handling rather than stating a premium, deductible, settlement, or coverage result.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L13-L37",
+          "version": "repo-lines-v1:sha256:3d49e53083a482d727f10c22844a715d4ebd216e331a9bd013d016fdd337687e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8503-L8507",
+          "version": "repo-lines-v1:sha256:9c723676b51c6732adb956fdd1aaf2e8885ef582a42fb7b23af91c250a33a73f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNhMTVlOTY0OWU4NWVlYzMwZGJiYTM0ZWFhOTdmNjg3NjA4ODgyZTA5MGRlZWE0MzBiOTlmNTJlZDFiOWU3OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRlYjBiYWFiNmY3ODc5YmNmOWNjMjRmNDNhYjQ0ZDM5ODc2MGJkZTdiMmY5ZGIyY2U5YTA1NDZlM2NjZDE0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTEwNjk4ZGNjYWY0ZWZmYTAzYTFlNmUyYzU5YWJmNDcxYmIyMTRiM2QwY2ViMTUyMjM5YzY5MzFhZGU0MGNiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ5ZWQxYzVjMjlkZDNmYmFmNWQ2ODU5YTEzY2ZlNGY2OTM4NzM3ZDI3MDUwYmYxMjM2ZmNjMjZjYTI3MDNmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e3613a0aee0d43d48023ac9fda07ae4f",
+      "statement": "Rule 600 requires an inspection when underwriting information is incomplete, inconsistent, or unreliable and prohibits binding until the issue is resolved or an authorized exception is recorded; it also requires the trigger, information needing verification, and binding disposition to be documented.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8503-L8507",
+          "version": "repo-lines-v1:sha256:9c723676b51c6732adb956fdd1aaf2e8885ef582a42fb7b23af91c250a33a73f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNhMTVlOTY0OWU4NWVlYzMwZGJiYTM0ZWFhOTdmNjg3NjA4ODgyZTA5MGRlZWE0MzBiOTlmNTJlZDFiOWU3OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRlYjBiYWFiNmY3ODc5YmNmOWNjMjRmNDNhYjQ0ZDM5ODc2MGJkZTdiMmY5ZGIyY2U5YTA1NDZlM2NjZDE0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTEwNjk4ZGNjYWY0ZWZmYTAzYTFlNmUyYzU5YWJmNDcxYmIyMTRiM2QwY2ViMTUyMjM5YzY5MzFhZGU0MGNiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ5ZWQxYzVjMjlkZDNmYmFmNWQ2ODU5YTEzY2ZlNGY2OTM4NzM3ZDI3MDUwYmYxMjM2ZmNjMjZjYTI3MDNmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c05166ddc86443f18f4563c9b2c7aed3",
+      "statement": "Rule 600 requires a roof survey before binding when roof age reaches 15 years, with evidence addressing roof condition, materials, installation quality, and visible deterioration, and requires the reported age, request, findings, and underwriting action to be recorded.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8509-L8513",
+          "version": "repo-lines-v1:sha256:5e34f02db86233a462ebae67ecf55d9c672793403fab7df27f9cf67802b13272:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGI1OWFiMjhmYmFjYmY0M2RhZTc3MmFkNzIzOTFmYzM3M2Q2NTAwMjRhM2ViOTExNDViMzE4MTIzODAwODg5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWZlYTg2OWU3YjNlNmIwZmE3ZThkNjM0NjFhMTRlYWZkMzZlYTEyMDkyNmZlZTE1NTZmMzFhYjdiYzQzYTQ2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTI1NjM2YjBlOTA5MzUwYWUyMWQxZDgwNTFmMGQ5NGU2ZWJkMjRkOGU3NGY1Y2M0MjhjZTgwOTMyNzk0NTBhNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjk3NGM2N2Y0ZDQzY2FkNGZkMDYzMDU2NTY3NTEwOWRjMzcyYWQxMGM1NDljMGVmNTg4MmY4Mzc2NDc2MWQ2ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f8c667ef1e684bcfa8ec079928dcd514",
+      "statement": "Rule 600 supplies inspection or referral triggers across property condition, occupancy and security, structural and moisture concerns, systems and site conditions, premises hazards, business or construction use, prior damage, discrepancies, utilities, code notices, access limitations, conflicting external data, unresolved recommendations, and unusable photographs.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8515-L8579",
+          "version": "repo-lines-v1:sha256:8d27007eb8eb8d12056ffe08777216d8564391b5d3eadd63fad114e39c67e057:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2ZjE0MDMxODA3M2RlNGFkZmY1YjEyZTA4Y2JjZmMyZjdlYjQ4ODllZTA0OTM0MjRjM2Y1ZDNhYTJlMzlkNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmMjRhNmY5MDAwNzY3ZWQ0NjA4NGVkMGU3ODFmMDRkMGUwNWUyYTIxN2VjNGYzMTgwMjFhOTkzNTIyYmVlYWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgzYTE2NTg3MzViMTcwMDhhM2E2Y2MwM2Q1ZDdiOTZhZDI0MDU0NjU5YzY4N2ZjYjQwZTgxZTYxYjNkMDQ4MjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxMDUwZGVmYTdhNjcwMGQ3YzZmOThkNmYxYTZhM2UyZjlmODJkZjQxNmUwNjViNWZlNDc0ZGMyYTYzZTM0ZjUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8581-L8639",
+          "version": "repo-lines-v1:sha256:cabe1aeca226a6fdfaf46af393cb960ed1c789316e07f3bddce07b911f96a699:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0ZjU2YjZkZDk1YWM0YWJmYjZiNTBkOTc0NTdkZjRiMWExMTdiMjkxMWE3NTc1YWFmYjEyOWU1YzIzOTM1MWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0MDY0NTUxZmRkMmY0ZjI0YTZiZjczYjc1ZDU4N2Q5ZGRkMmI4MzNkZTgzNTU1YjBmMGVmYTljYzIyY2YwZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc4YjM0OGEyNWZiZmNiODUxZDdkNWI2NDZkOTkzNjQyY2NjMmQ0OWE1NDk3YTBiNTQxZDlhZWMyNDg5OWZlMzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyYWUyNWEwNzhiYWVhYWEwN2EyMTRjOGM3ZDcwMTcxNmVjZDZmOThlYTU2M2IxNzQxMjFkNjIwYTgwZmFkYzAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8641-L8747",
+          "version": "repo-lines-v1:sha256:8028c7d765d9a7f6295949315f2c83f2b2eed5d83cbedf6c3e7b013c8252fe53:eyJzZWxlY3RlZExpbmVDb3VudCI6MTA3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI3Y2NmMzE0N2FiYWE5M2Y4YzVlOGQ3ZmM1NzAzNmY1ZDNiNTE2YzFlNDc0ZmI5NjY4ZjExMjlkZDBmY2Q2NGZkIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI2OWZkMGQ3ZjBkMTI4YTk2NjczYWYxNGQ5NzlkYjEwZDRjNzE2MDc1OTNjOWQwZTk1YzI1ZjBkMmMyNjE0ZDk5IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI3Y2I1YWRmZTAyZDRiNDExNTFmNGIzYzBlNmI3YTkxMDAxYzAwYzVkNjFhOTAyN2Y2NTVhMjhhYmVjODcyMjZiIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4Y2NlZGE5ZTU3ODZhMDU0ZWY1NmNmZjRkZmI2NmU2YTZhZmQwMDBkNjNkOTEzZTY5ODE2MGZiM2VkZmEyOGVmIn0"
+        }
+      ]
+    },
+    {
+      "id": "claim_c26d202e127e4f928f06c9020c036ff5",
+      "statement": "Inspection evidence must come from a reliable source with sufficient authority and relevant expertise; altered, incomplete, or unverifiable material cannot be relied on, and the file must identify the source, verification performed, evidence reviewed, and action taken.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8749-L8753",
+          "version": "repo-lines-v1:sha256:4c313e7f200ec042acb8690eee4052dad051d6d007a533511c872be3b7624a40:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODFmMmNhNjEzMDljY2VjN2U4ZDk2Y2ZlMmM0NmY0NWY0MzQ5OTQzODkxYzVlMDkwNzA0MDI1YjdiNDE0ZDg3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWY4NTBmZWYxZjE5ZDg2YmQ0MjYyN2FlNjA2MmFiOGIyYzM4NDczODEyOTZhNWExMDRjZTgxOTY1YjY3MDZjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE0NjAwMmUxMGI2ZGNkYmNiN2FiYzRhNTM5MmFlZDA4YmY4ZGQzMDMxMjhiODUwMjBkYWVmYzE2MzQyYjExNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE0NTViMDA0Y2Y5N2I2NzBiYmY4MGUxODY3NTgxNmZkNWQyMjY0YzY1ZjhlYzkwNzg3MWYzY2Q1NTE0NWVhZiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8973-L8977",
+          "version": "repo-lines-v1:sha256:593b801bd025a7e775ef7b48945211c559ce03fbba7d10c222dabae25077db96:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmQxMTViZWI5ZDU3MjRkMjg5Y2U3MzRjMWU0M2IzOTJkM2VmNDdhYTdiYTNjMTM2MzJmNGU2NWM3MjY3YzE3OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVjODQ4OGJkOGM3OGQyMmMzOThhZjUzZmFjMGYxNTEwNGQ4OGM0OWFmODk2Yjc2NmY0OGE1MWU4ODJhOWM2NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTkzZGU1NGE3YjE0NzRmZTI1MmFiNWVlZDk4NjllOGU2ZWVhNjMxZGI5ODgwZTg0MWZmODg2ZjBlYzZlMjNkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjkxOWU3ODNkYTc2OTQyNTMxNGY5MmIzZWJjOTQ2NzVjZTAwN2Y2ZmI1MmU2YTUyYjY3MGI2NmFmNmI3M2E0YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_97d476e82b3042f3b64227a6ce4c7606",
+      "statement": "Rule 610 requires underwriting to record receipt and verification dates, source attribution and limitations, and material discrepancies, and to resolve a conflict before completing action when it affects eligibility, classification, or terms.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8817-L8833",
+          "version": "repo-lines-v1:sha256:e0fdc191ad5d9d8a2270fbf07d93d5d1ddac9ab5a6cd87dc423fd37b683876ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiZWFmM2ZiZjk1MDk2YmRlNTBkNzE3OTQ3YWEyZDAyYmE4ZmY3NDM2NTZjZDBhOTQ0ODc5YmVlNzBkY2FkNGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMGJhMzAyZWQ5YTZiMWUxOWY1ZDc0ZTUyZTViN2NjYWY4ODY2Nzc2YjdiZDg1NDBlMzU5YmE0OTEzMmFiM2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4OTk4NzYyNjkyZjBlM2EzOGEzMGFkZTQ0NGU5NzRhOWQ0YzE4ZThkZDYzOTBiY2NhZjJkMzBhNTVkMWVkMTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzZGQyYTVjYWQxOGViYjhkY2IxNTM3NjY1NDMwMTM0ZjBkMDQ1NmJiOGYzYWE2NzFkZWZiYzI2ZTNkNmYyZDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fe1cda3acb834eb0bd21cb448c361a3c",
+      "statement": "Rule 610.AA says an inspection report is valid for “18 from its completion” but does not specify a unit; the completion date and use decision must be recorded, and unclear Manual direction must be escalated rather than converted into an invented validity period.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L105-L109",
+          "version": "repo-lines-v1:sha256:555c4e448f4157207f8a88aa86fea038d4b385ee408852980e128e3682279d5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NlOTNkMTJiNTY2MjAzYzBjOThmYmQwNDlhZDY4MmZkOTg5Y2E2ODgwYjdhNjJjZmYwZWE1NWUxY2I5MTI1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y2YmJkOTIwNTA2YjFlOTEzYzY0N2E0MTI5MjcwZDNlZDY0MTRjNzU0MDk1MDNjODUxZDliMmExMTFhMGFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmOWEyNjYzZTY5MjkzZDZmMGM5YTJlN2ZlYjJjN2I3ZDAxNGU3NmYwMWY4YTYyYmRhZWE3Y2FkYThkYTU2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJiM2JmMDM5NTk0YTgxMzdhZTBiOTc5YzgyMDcwMmFiZWE5NDc5YmI4NmFlZmZhZjA0MjExMzVlMzAxYzk1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8961-L8965",
+          "version": "repo-lines-v1:sha256:029f2847f79aad780523bceddcf9ee5633359bd395449949cd402bf1699475b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU5YWUxYzk1MjJjMjZjMTExYzJhNjQzYWVmYTA0Njc1OGZkOTJjMjQ3MDAwOTZmYjg1NzQ1MjgxMGM4MTg4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjY2U5MDU3ZjgyNzE5NWQwODU2ZTI1YmVkZGZlNjE2NWM5ZTM2OWUyMWJhNjliM2ZkOWJkMDhkMjBiZDAxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWEzZDkyYWJmMzUyYTE2YTQyNjZkODE5ZDZiNDRjOWFmOWNhMjRlOTkyNjNlYmE1MjEyMjhhNTMyZTE3MDA4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI3YjY0MTg4Y2E1Y2I5ZjkxNmJiZWU3N2Q1OTJiNTVmZjE4ZmQ3YzkwMjNkZjEwNDVlMGNjNzAwZmUzODc0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f76171f084c246af8228b8254aecff57",
+      "statement": "Rule 600 requires prompt review of inspection findings, referral of hazards outside normal authority, and no waiver of material conditions without authorized approval; Rule 610 requires the file to state the operational decision, basis, follow-up, eligibility findings, and authority used.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8755-L8777",
+          "version": "repo-lines-v1:sha256:bb7a94b0fc3e115a6c5447ddb2aeafa9f61ae5d9214712b6e553b5264d7e31d8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4ZDQ1MWExZGJhYzMzODI3Y2UwM2YwZmQ5NmM3ODk1MjM5NTVkMjBhYWVlMmQ3MDZjOTYwMTMxODAyNzUzMzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZTlmYmI0ZWE1NmQzMjM5YzlkNWVlNGFlMTdiODQ3MzhmOWRlYmE3ZDYwMWQyOWMyY2UwYmJmYTYwYTRmYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjYzEzMDgzYmRlZTY5ZjM1YWMwZDJmMmZhOWRmODI3ZGViNzViNDM5NWE1NzI4ZWQzYWNjOTBlZDljYjRhZjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY0NGZjNjhkZjQ3Y2VmOTM2M2Q3Y2JmZTI2N2VlMzliZDkxNzNmNTM0ZTVjMzAyNTRmODM4OTZmNTg5NjUwNWEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8835-L8857",
+          "version": "repo-lines-v1:sha256:bb4afe5faeee736d97e26f72431ccb1c141de45adb8fbb774cd1a785ca69af35:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MGMyMTI3OWEzNWM4OTUwYjYyNGRjZmMzOTE2M2RjZjg4ZWFmZDEwZDYzMWZiNDc5YjA4Yzg1YzAyZGI4MzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYTRmZDU4NTc3NGM4ZTQ2MDllNDhjMTU0YWQxZmZiNDYzNTE3ZGNmZDM4ZWIzMTM4Yjk4OTI4ZmVmMzA3ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiYTUyM2ViZDg5OTljOWRjM2JiMTI1MzRiY2UyZDFhNzdlNzY4NDZhNzRlMjkzYjEzNDhmY2EzZDk0YmZkMmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxNGEzNjI0ZjM1YzE1ZjcxMWMzMDIwMTNiMmY3NmY1M2Q1OWE3MTNjNWFiZjZjOGRhZGU1MTVlNjM4ZjI0NjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8997-L9001",
+          "version": "repo-lines-v1:sha256:4bce7c85961226c5dbaf67492b5040c9e282bdd0ee1c8c350f98b2108091f791:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTkyMDI2NWZiZTUxNWY4MjU0MTBmZWVlZGMzZTI5NWNiNDc5MTBkNDg0MWU2NDBlZTM4MTc1N2Q1ZjYwNGQwZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWJkYmVmOWYyNDJlZDhlZTU5ODQwZmU3NTAyOTQ1OTEzNTRhZTM2ZDJiNjg4YzUxN2MzMjQ5YjNiNDBhNTgzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTU0M2JmOWQ5Y2U4NDJkOWM1ZWY2YTAwNTU4NmVkNWZmMTQwOWQ4OTZkZTM2YjdlNTdhY2RkNjcwZmVhYmM1MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTM0MjJjMjRiMzBiMjI4Mjk4NTQwZGJjMzBkZGNhY2Q0N2UyNTZmMGE0NTkwZGZkNmY4OGVjOTk3ZjE0NDYxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c3a53cab56b24d3a9abf2d1b7572dfed",
+      "statement": "Corrective requirements must address a material inspection condition, state an objective required outcome, and identify due status and verification method; completion must be supported by reliable evidence rather than an unsupported verbal statement, with remaining concerns and closure action recorded.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8761-L8771",
+          "version": "repo-lines-v1:sha256:2f1bc6978ef7e21d3f864f753d393610d5c0727c8dcdd9452fc51c0a5939a7d1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyYWUyMDI1MjViZWJmNmM1ZDA1MTcxYmIxYTRjMTgyZjFiNzkyMDQwNjdkNTI5ZTA4NTczZGJlZmE3YzA4MmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4MzM0M2U1Y2U3OTc0MjAwYTFkNTkxZjkwMTk1ZGUxY2QwMzA4OWY5YmNjYmIzODVlOTg3YTFhMjViNTQzNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZiNWVhMjUyNzIxNDY1Y2E3NGVlOGM2NzhiZDdhYjk0OWM1NTAyNzQ2M2QxMmU4MTg2NzQ4ZDhhNDE0MzlmZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhkYmM4Zjk0MjIyNTQwOWYyYzViMjBkOWRiOTU0MmE3ZWQzOTg3YjUxMzMzYjBmMDA0YzM1YjY0NDE1M2RhNDAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8847-L8851",
+          "version": "repo-lines-v1:sha256:32381e62b7e6319925cd97559e4a62201b696634fd98d08c5355744cd60a35af:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWMxNjhkY2VmMTZkNWViYjBiYjI3ZDA1ZTQ4NTI1MTgyNWFmNmY1MTRlMjgwMjMwOTgyZGFmOTQzOGE1NDQ2MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU1ZjdmYjBiZDIzZTNmMjQzMDM2YWUwNjc4ZDA0ZGE0MzNhZjA1MzNhZTM2NWZmNTY1M2I3OTc5ODk4MThhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzViNTNjY2ZmYjRmMTVkOTMxM2IwNDhhNWUxYTQ5MGZiOTA5ZDYwNjQ2Y2JmNTA0NjUwOWRlYzYwYmFmZjkzNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWZhMWEzYWQ3NzFkYjBmODkxMGQ4OTY4ZTc4NGQyNDRjOTllYjgxNzllMmI5MzRlMmUwYmZhODUwN2NiMjRhZiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9003-L9013",
+          "version": "repo-lines-v1:sha256:718ca34836e0ad739b51418df905b373908c4b48d4686164cfc3209e3867a4a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExOWQwNTBjNGQyNGNlMDdiMzQ3MTI5ZDM1ZDFlOGI5NjEzZTExNmY2YjRlOGQzZjEwMWIwOWYxOGU3ZjhiYzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmMmZhNzFhY2E0YzZmYjc2ZDQ3MTc2MDllNDAwMmRiY2MxMTVmNDk4OWE0YWI4YzIyZmZjZGExMDM0MzAzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRkZTI1ZGNiNGEzZmJmMmE2NDM1NDlmYzMzMDg0OGVmZjZkNzU3YWE4MGFhYjg2MDcyN2U2ZDk2MmU1MjkzMmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE1OWVmMzJiNzkzOWIwYWMxOTdhNzcwNGMzMTczM2Y4Zjk5ZGE4NjRjMzQ2ZmUyNGFkZTM4YzFjMzE5ZWM3ZGIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_49923a41d7374c47883e9dbbb3cdb4f5",
+      "statement": "The inspection process may close only after every material finding is resolved, referred, or accepted within authority, with final inspection status, outstanding conditions, authority applied, and final underwriting action preserved; withheld access, requested evidence, or material information must be documented and any adverse action must follow applicable procedures.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8779-L8783",
+          "version": "repo-lines-v1:sha256:fa32a350047cbee8ad0640195626cd2872d891138862797a69d41837d5cafa58:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQwNjdlNjU3NmJjMWEzZDk4MjgzZDgzMTcxOWIwYzBjODk1ODliZWIxZWZhMGIyOTA3Mzk0NGE4ZDM0ZDQ4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFkYmZhNDk4ZmFlZDYxZjkxYzc4ZjNjOGNhYjQ0ZTk5MzIxYzAxMjI0YTU5OTMyMGZiMTk2NTYxZmJmNmUyZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjYxNWQ5NjgyYWE0ZjYwMWIzN2Q0MDM3OWRiODQ4YjZhY2YwZWEwMTU3ZTYwMWJhMjc4OGRlY2U3ZTBlMTllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmYyYzBmNjVlYzQ4Y2I3MGFjMjJhYjI1NmUwNDM4YmEwNjRlMWQyMzI1MjNmY2RjOGI4MWYwNGIzM2RlNjg2YSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8797-L8801",
+          "version": "repo-lines-v1:sha256:ccbcdc52aab7cc33a6f0a8c9a8235418a5694820e322d6d61fac51a7886f068d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRmZmVkM2JlZjQ0ZjQ1Nzg1NGQyMTUwMGY1OTU5ZWZiYjE1MDA5NmUxMDM5YTUzYjg0MmZmMGI3ZGM0ODc1NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM4ZjZhOTgyYTA1NGNhNjcyMWU5M2Q2YTk1YjkzNGE1YmY5MTI2NDMxZTBmMWMyYjIzNTI3YmE1MTYyOTRjMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmVmYTY2MjFiNzVhY2YzNGFhNzU1ZmJjNzdiZGE1N2QwYjg3YjUyMzZkZWI2ZmVjM2M2N2UxZTdjOGM2MDY5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGY4OWRlMTE0OGI0YzBmOGNjZGFkZmRhNWY1ZTZhYzcxYmE2NTFmNzIzMDI2YjVhNDY1YWRhNzU4MDJkODNlMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a55628749c014c30acceb675b25122ad",
+      "statement": "Rule 610 requires an audit-ready underwriting record that preserves material facts and sources, terminology, timing, discrepancies, decisions, referrals, conditions, eligibility findings, risk characteristics, inspection findings, authority, restrictions, adverse-action rationale, corrections, and quality-review resolution.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8805-L8857",
+          "version": "repo-lines-v1:sha256:075719126ac9e1fb0df8c3323d998e4c7ab52bfb9e64129fa6ecdc6201c2709e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5Zjc4NTdlYmI1OGJlMjYwOWVjY2RkMWNjMzQ0OGE4NjhiMjg4MTZmZjdlYjk0OWZmYmQzYjEzZGM4MjYwNzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYTRmZDU4NTc3NGM4ZTQ2MDllNDhjMTU0YWQxZmZiNDYzNTE3ZGNmZDM4ZWIzMTM4Yjk4OTI4ZmVmMzA3ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmODlkZTExNDhiNGMwZjhjY2RhZGZkYTVmNWU2YWM3MWJhNjUxZjcyMzAyNmI1YTQ2NWFkYTc1ODAyZDgzZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxNGEzNjI0ZjM1YzE1ZjcxMWMzMDIwMTNiMmY3NmY1M2Q1OWE3MTNjNWFiZjZjOGRhZGU1MTVlNjM4ZjI0NjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8859-L8929",
+          "version": "repo-lines-v1:sha256:6cb621f6fd8deaee9235edf8a013d0499c6abc7d6116067432fb827d96d23ea2:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwZTE5YmQ0NGJkYmY0NDM1OTY3M2RhMGU3NGVlYmFlYzc3OWY4ZjY0YWZlMDdlNDFmN2I5N2EyZDE2N2M4NmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmNDQzNjdkYzhiZTczNjM4Njc0MjM2OGU3NDQ3ODllZmMwNTRhZjYyNDJiZmM4NjlmZmQ2ZTE5NmVhMjNiYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmODg3ZGUwMDg4YTYwYjU3NjQxY2VkMGMyYWZhZjhjMjlkMjI3OGViMGRmNzEwYThjYWZkOTYxYzhlYjkwMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE4ZmRhYzBjNWU4Nzc0ZDdlZDhjODgxZTBjZWM4Y2NlNGFlMTA4ZWExMzMzYjVhMDg0MDA2ZDE3YTRiNjYyZjUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8961-L9013",
+          "version": "repo-lines-v1:sha256:b278e2d376f69a71137c9f2ddd2d423e30716a60a8dd3758e8c0892ce07f843b:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1OWFlMWM5NTIyYzI2YzExMWMyYTY0M2FlZmEwNDY3NThmZDkyYzI0NzAwMDk2ZmI4NTc0NTI4MTBjODE4ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmMmZhNzFhY2E0YzZmYjc2ZDQ3MTc2MDllNDAwMmRiY2MxMTVmNDk4OWE0YWI4YzIyZmZjZGExMDM0MzAzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFhM2Q5MmFiZjM1MmExNmE0MjY2ZDgxOWQ2YjQ0YzlhZjljYTI0ZTk5MjYzZWJhNTIxMjI4YTUzMmUxNzAwODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE1OWVmMzJiNzkzOWIwYWMxOTdhNzcwNGMzMTczM2Y4Zjk5ZGE4NjRjMzQ2ZmUyNGFkZTM4YzFjMzE5ZWM3ZGIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9015-L9127",
+          "version": "repo-lines-v1:sha256:980ffaede60dac28176bb085e0bf85b52d7f88d4d518e8ba41c6ff3ef7ee7f63:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEzLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIxZjU1MjE1OTY1NjhmYzhhZmYyMzUyMDBmNmQzOGIyYTFlYWNlMzBjMzQ0Njk3ZGQ3NDEzNzNkM2ExNGI5Yzc0IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIzNzg5ODA4MmJlMWEyMzNlMWM0NzZkMjYyYzU5ZTJhZjliMGRmY2E4Y2NiOTMzNTgwMGVjMGFkOTI0MmQ4YjBlIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJhZmMxYjgyYzliNzM5YjZhZjMzMDVjNGQ1NWMzMmNiYzQyYzUwYTA4YTU5MTA5Mjk0ZDRlZDc5ZTc2N2M3YTc0IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiIxOGZmNjkzYzk2NWIyNGU2ODNhYjc0NmM5ZDM0YzBjYTgxMTIxY2ViMTU2NmY3ZDY1ODBiZjdiNmQ0MzVmYjIxIn0"
+        }
+      ]
+    },
+    {
+      "id": "claim_c2eb706d14e24f51b15b6740f017a6f2",
+      "statement": "Rule 610 requires professional and factual notes, prompt recording of material actions, preserved correction history, and documented approval for departures from underwriting direction; Rule 600 requires inspection reports, photographs, communications, and related evidence to be protected in the underwriting file with access limited to legitimate underwriting purposes.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8785-L8789",
+          "version": "repo-lines-v1:sha256:e295308ce658678749c317db6d2bd86364417eb6bfe65fc18d287a84d4b7c7c0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFiODhiOWUzYzdkNmE1MDJhNDU1ODM2NWUxZmYyZTM5ZDg1YzBjNWRkMmQyZjczYjhhZTdiOWQ0ZmQzOGM4NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3MTkwZDI1NTk2ZjZlNTE0MDkzZWFmNGNmNDEyZTBiODJkNmVmYTIzN2FjZjU2ZDA4MTRkZWVjYWEyMTNkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGJlMTUyMjc0MTlmOTI2YmNhMWM1MzUyNzA2YjIwNWE0ZGNjMTNhZjU2MDYyZDFjNTc4ZTMzZjlhZTFkNmE5ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmIyZmUzYzYzZDE3Yzg3ZjgyNjVlNTRmMTJlNWFiZWUxZmM3YWViNGQxOTk1NzBlNTkzYmZhNzRjNTJiMDYxYyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9069-L9091",
+          "version": "repo-lines-v1:sha256:c217ca592d798896a19a604a10597d3c1ab7fb0b6a045ff5b594496ce808a1b3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczZDRiMWFiMWVhODZhYmMwM2VlNmI3NThiMzllMWVkY2Y0ODlhYTJlMzgyODg3MjZlNDA2Zjk5ZmM5MTIxNmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyY2U5NTQyYThiNmY5Y2VjMjlkOWQ5MWViYzkwY2ViMTJhZDJiMmJmOTdjMzNlNjc4YTdhNTdiZGU4ODBlYzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxODYyMGQ4YTZmNTVmYjljYjQ1NmExY2ExOThkMWFlY2FhM2E2NjI3ZWY3MWUzZmMzZjZkNzVmMzA4NzU1NWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEwOTk1YjI2ZTUwMDllYmE1ZjJmNTgyNDczZGNjZjQwYjlkYjM3ODJlZmU1NjQ0MDUxOGIzN2NkODFiNjZkNmUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9081-L9085",
+          "version": "repo-lines-v1:sha256:93e243ad64791c165c792fb5866271cfc273d4b2ec67ff75c8e44207f26fd872:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmE4MDZhODMxMWQ5ZmQwMWQ3MDFjZGIzYTk5ZGM3MjhmYjE0MjViMjRlNGY1MWQ3ODhmMDU4NTZiMjU3OWJmNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWRkNzJiZTY4YzI0ZmMxNzFjZWEyMjVmZGQ3ZThiMmY4MTMyMzI1Y2ZlZGZlMzc2NzhlYjBlMzcwNzRkMzdlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODdiYzE2OTJmZDM5N2Q5YTFmMjE4ZTMxMzBhY2M2ODI4OWE3NzRmYTczMmM0NzE4MGQ4YWIwMWIxYzI0YTI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTAxZGJkMGI2ODUxYmExNTA3MzYzYjFiNjkyZjRkNTRjOWU0MTljYjQxNWE5ZWVmNmMyNGQ3NTRiYTdiNDUxZiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9123-L9127",
+          "version": "repo-lines-v1:sha256:28b7500f162e3146606a9905614fe186cfd800d9a8dc73dc7fb41281a61e8409:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTI4ZWMzZmJlMzdhMjA0NGRiYTY1YTRiZTMxYWM3NmQ5YjJhMjZhMzQ1M2EwNzAzNjI5NThmNWE2MGFhYTgxMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4OTgwODJiZTFhMjMzZTFjNDc2ZDI2MmM1OWUyYWY5YjBkZmNhOGNjYjkzMzU4MDBlYzBhZDkyNDJkOGIwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTBiYjJkZjJhZWViNDc0Yjg3YWYwYmY3YzE2Y2EzYWUwZTI4MDhjODY3MjIxNzk0YzU3NzUyNjM1MzM2MTZiMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMThmZjY5M2M5NjViMjRlNjgzYWI3NDZjOWQzNGMwY2E4MTEyMWNlYjE1NjZmN2Q2NTgwYmY3YjZkNDM1ZmIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_84354b1df40844e392ea9ec3f9a6ac94",
+      "statement": "Rule 600 and 610 underwriting controls are separate from post-loss policy duties: the HO-3 form separately requires inspection, records, damaged-property preservation, inventories, photographs, examinations, and proof of ownership after a loss, and says an inspection before or after loss is not a representation that property is safe, sound, or eligible for coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L127-L133",
+          "version": "repo-lines-v1:sha256:13943ac775bd7707cbde0817029a78a6e8353f5d6d26150b07bbc5106e4e377c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE3Y2M3NmRhZmFlZThkN2I5OTJmNjllODMzMTQ5MDQ2ZjU2OTlhMmNhMzQyYWIyODgzYmZiNGVkZjRjZDYxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5MmQ1MzUwMjIxZjA5NmIyMjg1Y2U4MWZiYTc0YjgxZWVjYTU2NTUwNDczOGVmNTNmZjU3M2MxNjEzNDljYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzFmODgyMTViYzgyZDA2MGE1OTJkMzM0YjdiYzg0Njc4MTg1OTQ0NzE5Yzk3NzE0NTBkN2E4ZTllNDA4NTM0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWY5NDRiZTExMzgzZDhmMWU1ZDRhYTgzNDMxMjBhYWQxMGRkNzc1YWZiYmRhYjM0OTI0Zjg0N2NjZDMwNGJmNyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L263-L279",
+          "version": "repo-lines-v1:sha256:46d15fc8abd86f48a9e730cbd62d5e7773bebc9cebb24e525422eda6d000b99f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNDIwMDA1YjU3ZmQ4ZDEyM2M4YjFmNWY4NDVlMTY5MzNiYmM4OGNjNWFmYTgwNmRkYTgxY2FlMDM3NDhkOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3OTA3MjdkMWVkMWY0Mzk2NTQ2MGFlM2U4YzFjMDlkMjZmZDJlYzY5ZDgwNjk1OGRhNjJmN2NkM2M4MWZlNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjMDdjNzNkOTFkNmFjN2Q0ZWNlNDE5YTJlMDg2Mzk4NzRmYjA1NWMyNjhjYzg3ODkyMjMwM2U3ZWY3M2ZlNTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjMzEyOWI1NmMwNDExOWUzMDZhNGRmYTFkMDIzZTAzMjg4Y2VlNjgwNDY4ZmE0NzEwMDU0MTlkZTVkODI4MmQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L317-L325",
+          "version": "repo-lines-v1:sha256:6f6223ac28c3c7f83248cafc11a5c5fb3b58710598dd98149313d14362bb578a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTllOTJlOWIzZTgxMmUwMjkwM2I0OGY4NTY5YWIzODJkNGYyYjExNTVmZDI3MTI3YTZjYWUxNzgyYjM0NGJlMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk1MzQ1OTA1MzU2MmM5MjRlZTMwMTM5OTczMTBlN2FjMTEwOTA5NjcyOGIyMGQ0YTIyMjk0NTEzYjFlMGQxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NiZDBlZTA1MDcyZTZhMTg4NjY4OGVhN2M4YzMwZjY5MmY4NWEwZTNhMThiZDBiMDQ2NTI0NmY1NjQ1ZjE4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzFmYWQ5MjQ3NDM5M2Q4ZjNmYjA0MzNjZTIyNDY0MWMxYjI0ZjA3NTUyNTFkZTBmMGVjNTZmZWE4MDVkOTgxYyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:96928276a23b90a8c2795afe3520065b615c3a8004d984d75665503d4518c616",
+  "claims": [
+    {
+      "id": "claim_d9a4afccb1f24059a81fa133bdd07a7c",
+      "statement": "The Personal Lines Underwriting Manual and referral matrix are internal operational guidance rather than policy terms or coverage grants; binding and coverage decisions must remain separate from the applicable policy form, declarations, endorsements, and other controlling requirements. A referral is a request for authorized direction, not approval, declination, or a transfer of responsibility for the file.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L13-L19",
+          "version": "repo-lines-v1:sha256:9cadb27e75da9caa894eb166cdf5ac2d4b6f39c075438c90647e4c86bd87e9ee:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFhM2YxMGRjOTBmMjBlYjUzODA1MTQyNGZkOTdmOGI1MTMzNmY0MTkxMjA4ZDZjNDc5MzgzYjJhZWMwNzIxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTQ1MTg4ODljOTFlNTRlNGY5ZDZlZWIzMGFhMzNkMDQ4MDY0M2NkYzZiNDJmN2QwNzc5OTRmNDcxOGRmODA3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzJiYWM0YTkyY2FjZmZmNGRmYjlhZjgyNTNkMjRlZmU4ZWRlYmQ0ZWExMGZjYzljZDA4YmIzNTIxODMzZjQxMiJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L13-L35",
+          "version": "repo-lines-v1:sha256:57b190a42bf3513112074659f7ffb2872cdaeeece0bc0b13a298364ad77bf74d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmNmFlOGE3MjBmN2I4MjY0YjQwZTU4ZmI5NmQxNjkzNzlhMDFiNjA5MDg1NTk2MDJhNDFhMmQxZTcyMjRmMWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI4ZDA4N2FlNjM3Y2Q2ZmU5YzFmMjhiMWQwZGM1YjYyNjIxNjYzOGE5MGFkNjk2YmQ1OWU1Mjk3MDYyNTAwNWUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L13-L37",
+          "version": "repo-lines-v1:sha256:3d49e53083a482d727f10c22844a715d4ebd216e331a9bd013d016fdd337687e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f3414f2d0d414f328c713ec5f123f01b",
+      "statement": "Rule 300 sets two Coverage A delegated ceilings: a line underwriter may bind through $800,000 and a senior underwriter may bind through $1,500,000; requests above the applicable ceiling must be referred and the requested amount and authority used must be recorded.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L695-L716",
+          "version": "repo-lines-v1:sha256:85bbbfd30419e9ea4c92fa51fa9584abffb5ace8d86f8f3b2f7715d3ae966575:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMTJmNGQ5ZTI5ZWMzNWQwY2FhMzRkODA0YzdkN2Q3OWRkNzZhNDc3OWZkOWU2YWY2N2EyYjI3MTIyNjNhODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3Y2VlNTU2YWZiY2ViZGM3YjUyZmYyNmRjMzRmMmQ2OTc3MGE2ZDQ0NGIxYjNiYzExODg5YzczMTJkNTQ5NjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVlZmIxMmRlMjQzZjNlYjU1NmUzMzdmZjAxYzY5MjE1ODg5YjIwNjcwNTUwZjA4MzE3NDhmMjc5YTRkMDAxYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJiYTEyOWFjNGUzYjZjY2RhM2EzMjQxNDEwYmU2ZWI3OGY0NjM3MDNlYWI5NThjOGM2YmVhOTRlY2MxNmNhOTUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L3991-L4003",
+          "version": "repo-lines-v1:sha256:219e57686b9d2703e2826d9c1aff4953eca3a3d5dd9a555a7fa9fd7483346d96:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkYWE2MzVkOWI4Y2IyNjA3NjQyZjk2ODFlOTRmY2JiMWM3M2UwZjZjNGQ4NDU5Njg0YjMyMjhmY2ExOTlhYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzMDRhOGY2NGZiNjI5YWZiZGU3YjlkN2I1YTUwMzEyYzljYWQ2ODkwNDliNDk5ZGMyOWMxZGRkYWVjYjRlZWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNzExN2Q4M2Q0ZDMxMWVkZTFlN2JkZDdhNTBjODkwN2MzNTFjNjIyNjFkNDAzNTUwMjllY2NmZGM4ZWI4MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkNTM0YWFhYzQxNThlZDhmMDY3OGJlYmM3MzNhNWRhZDcwMzk4NmVkYjlhMWIwNGUzYzU5ZDUxZjFjZTA0MDIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f6e6da5d8a24496b8b2639e4ffb2befd",
+      "statement": "Rule 300 requires the risk to be within active delegation and requires a documented approval before a referred risk is bound; pending, verbal, changed, inactive, backdated, split, or transaction-sequenced handling cannot substitute for authorized terms.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L718-L749",
+          "version": "repo-lines-v1:sha256:ef864ed219eab622b68536410552cc9b403bbd0f0de3ca9a6a6beca1ed1afe15:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4MTcxODA4MGM0YzFlNTQ2NTdkZTRmYzg3MmI3MjE2MjM3MTU2NTk3ZTk2NmM5MTY1Y2Y1ZTlkZWViMjFmYWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4OTA5NmMxYjA5Mjg2N2EyNzk2YzlkMDFlZmJkMjI3NWQ5YjgzNGQwNjc4YWIyMWQ2MjhlOGI0MDAxM2RmMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlZWNjYzAwZTVmOGVjMzNmYjY2OTgxZjQxMzc2N2E1Yjg0ZDdkOTQ0MGExOGRmOTI1YjRmZGY0YzczZmVjOGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlY2FjZjViYTRhYjAyMzU1MGY3ODliNDNkNGU5NDRkZGMyNDQ3OTA5MWNmZmUzNDVmM2M5OTEyMDllYzJhYjQifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L775-L791",
+          "version": "repo-lines-v1:sha256:bec777739b4e81a3a8b1d60591f5909672b01d267c29f3b8fafde9dc2ffc847a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3MzE2YmM1OTFjZTYxZTNkZTIxNjk1MDFlZDVkOGZkY2E4MzgyMmEwNGE1NzEyNDZjYjU3NWM5MGFiNDdhNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhMjVlYzEwMDg3YmE0NmFmM2VmNzIyMjA1MmU1ZDljZmQxY2JlNjAyZmVkMDVhNWRkODRjZWI5MmE4NzZlOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlYjI3NzZjZWNjYzdjYmI0ZTFjMmZkZTkxYjljZWE1YzljNjFjOGJjZDQ2Y2JiMmYwZjEwNDA0ZDc5ZjU2ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ2YWY5ODUxZmM3YjBjOTE0MjY5NjMwYjEwYWEyZTFlNDcyOGQ3OWNkZGYzZmY1NTkzYjMyNWNjZDBmMDFkMTMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4005-L4015",
+          "version": "repo-lines-v1:sha256:bba427f3c2ccb614b0cda11750a53064808817f4da89e69954ec81617e0454ff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhMzllN2FkNjIxMmQxNWFjYjBiNDFhZjkzMTBkNjQ0NzgzNDVmOTY5NTFlZmQxYjE0YjI1ZGEzZTliOTNkZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4NjBhYjY1NmQwZjk0OTk2Y2E5MDQ1M2IzMTNjZDU3Zjk0OGJlNzlmMzMxNTc0NWYwNmQ5ODdkMzdlOTM2YmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA4ZGVjMmE2YjNlNmQyNzIxM2I5ODU0NDBlMGQ5MGM3OTg3MjFiZmM0M2FlMzIyNzM1NzdjOTQ4MTJmZGY1ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxNTFlNmJiYzc2M2NjYmI0MGIyYzlmMmIxZDk1YzJhZWYxY2E4ZDUwMzkyZGFhZTZmMzIyODU3MTVhYTYxNzMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4131-L4171",
+          "version": "repo-lines-v1:sha256:73a5cfea37ab2e354c39a7f8c489df4fde8dd1f8a651bedf6b5f6120a2edaa73:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkYWFkM2I5ZTlkN2NkNGI0ODE2YjM1Zjk0MzQ2NzI0MzIxYzhlN2U2NmE5MTI0NTkxZTdjNzk2ZTRiMzdmZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4Y2RiNzU1YjVjOTJlODFkMGUzNmVjZTQ0ZTlmNjZmODU2MGVjNDEzZGM4YzA3Y2Y4NDcwYzIwODU4NDU4MDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMTJmMmU2ZWJmOGM2YjMzODRjZWRkYTczNTFmZjA5Mjk5OTMxNTQyN2UzNjgyZGMzNmI3YWQ1NjMyNzY1OGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2NDdjNDE2MjMyMDQ5YWMzYTdlNTFhODQwMGYwYzJmZjc0NzlmOTc1ZWE5MWEzNzgyNjdjYjMyYzhiNWFjNGYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4317-L4321",
+          "version": "repo-lines-v1:sha256:8bd24134529611f010ab7b81cc6e86341498465f755806dc8e8e414c7c21c228:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2RkYzk4ODY3MzRlMzA2ZDdhNTQwOWU1ODE1MzUzMTAwZjc1NzJiOTJjODBmZWVlNmE2NGE3ZDEwNGI2MjAyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRiZGUwNzNmOGE5MTkxMjllNWEzMGIwYzM2MDEzNDQ2M2Q3YWVhZDY5NTExNzliMjZiOGI5YjcyNzNjOTBmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjNiYjNlMDEzMDEwMjEzNDI5YjU0Y2Y3OTlmNWM2NTBmMTFkZjA3M2NiZWYzYWI0MjEyMTMwNjdjZjdlMDA4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTU2ZWE3NjcwZDFhMWU5ZDliNjZlMTg1ODdiYTBlZTMzM2Q3NTY4ZWY1OWZiOTU3ZjgwZTkzNDE4ZmQwODgwYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e03761a3ced545e08a3ffc27416ef86f",
+      "statement": "Before binding, Rule 300 requires verification of effective date, identity, insurable interest, occupancy, location, territory, material hazards and loss information, claim activity, property condition, valuation, coverage fit, deductible, and material rating information; unresolved material conflicts are referral conditions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4017-L4111",
+          "version": "repo-lines-v1:sha256:0a0cf984daa29a2987142a4f6ca54c16a50d2a576e03cdbb54f28193a79dee6d:eyJzZWxlY3RlZExpbmVDb3VudCI6OTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU5YWI4MzI0Mzg3OWMwMDRkOTUzMjg3NzExN2M2MTYzYzNjYmM2ZWNmNTE3ODM3OTJhNzk2MmE1ZGU2NDVhOGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3YmNiZjY3OTdlNmU0MWRiNTg2MzFhYjQ0OWJkZmYxNDAwMTc4MGRlZjVmYmJlYTFkYjIwZjAyNTNjNTM5NTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0YzRkODMwZGE5YTBlODRjMzJlYzNhMzcxNjMxNjY3YTI5OThlZDdiNTFlZjI0ZTZhMDA2Nzg2ZjM2NTg2NzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY5NTMyYzBhYzFiYzkwMWNhZjgzMWIzYjU3ZmNkMTFhYjI0YjU1NDdlNzNlYjI5ZGJlZDM4NjgzM2FjNTM1NGEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4161-L4165",
+          "version": "repo-lines-v1:sha256:fbc95815025af506194947db6070d154b0116feb1d658c9a70b70e6b7052ba14:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjRiMGI2ZmY1YjNhOWQ1MzExNzRkMTY0OTM2Yzc0OWZiNGQyZjFiMTY2ODRiMzAyYTRiNTYzYmY5Y2Q5OTE5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1YjUzNGIzNjM1ZTU4MWRiYTcwZDZiMTdiYTkyZmU5N2NiN2FhNzU0ZDMxZTllYWE4ZGZkNDY1ZGEzOTc5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY5YzEyYTE4MTMyOTg2ZjYxNmY0NTkyYzM4NzVhNmM3ODY2MGQ1NjA2MzRiZTliMTBhNmEyMTdiZGJiMDE1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGI4ZWI5MGUxMGM1YTdiNmQwMjc2ZWI0Y2QwOTU3Yzk4ZjRlNDQxYTcwNWUxZjVkNjQyNmQ4ZTA5MDE1NzlmMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ab9ab55759a8446cb3249fddc71fa7ab",
+      "statement": "Rule 310 makes a reported loss at or above $100,000 a mandatory underwriting referral with binding held pending disposition, and separately requires referral for open or disputed claims, bodily-injury or property-damage allegations, negligent supervision, intentional conduct, pending litigation, and demands indicating a potential claim.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4413-L4467",
+          "version": "repo-lines-v1:sha256:c829094de085c3c2ed3bb4bd197f22e232886e40576d29663720468426a3df4d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiYTAxNDM5M2FmMDE3ZmFkZmVkNGZmMzUxN2FjNWI2NjU3ODg1YzViYzVkOWZjYzM1ZDEwMGNhZTY2OGUzZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg5MGI3MGI2N2U4OTljMmZkNTdmOTE1NzJhMGUwOTlhMDMwOGM4YjljN2UwYzNjZTg3YWJkNjhlOTgyYTcwNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZGQ1ZTFmM2VlZDk2NDhmNGY2NmZjODQyNTU4MDdiMzFlMTI2NzMyNDYzMjU5NDExM2E2YzM3NjAzYjM2ZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ4OTg1YjEzMjU1YzhjYjczZmM4MmRkNTNmZDhmNTA3ZGNhOTE4OTBhZjkwYzFkMWU0ODc2YzJiMmYyMGVlODUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2a791bb94fa14466818986c7b44893ba",
+      "statement": "Rule 310 requires referral for adverse prior underwriting actions, hazard-related declines by another carrier, inconsistent application information, suspected material misrepresentation, unverifiable ownership, and trust, estate, or similar ownership arrangements.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4469-L4509",
+          "version": "repo-lines-v1:sha256:7e41733661a219c96471703302442296deb2fa1b749af3fb31118d29f58d49b5:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlZDI2NWM0YmUyMjdhMGI0ODE3OTFiZGFkYWQ0NjU5Y2FjODJjYjk5OTY1OTk5NTZlMDIyM2E2NzkyODFjYWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiNmZiNDQzNzgxODc1NmVhOGFhNDRhMmRlYmU3M2NhMGIxZWE2ZThiYjAwMmM5OTE5YjJiYTc2ZDIzYWVlOWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhMWRhYzAwZjBjZWIyYzVkZGFkODE1MjRlYmNmZTRkODA1ZmQ4YWZmNmRhN2RjMWNiZDdjOWFhYzJmZmJkNzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5OGNlZGY0NTdmYzNiYmMxNzlkNmEwZWExYzgzYjYyOTI1Y2EzMjQyNzllOTMyNTgyZGNkYWRiMDEyMWJhZmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_490c50c52bc846cc84908c63da4f5aa5",
+      "statement": "Rule 310 requires referral for business, commercial storage, manufacturing, repair, processing, public access, vacancy or unoccupancy, renovation, unrepaired structural or foundation conditions, roof or water concerns, plumbing and sanitation issues, mold, fungi, and rot.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4511-L4587",
+          "version": "repo-lines-v1:sha256:27f7b91591595363688cf67a2e656c21112b0e03e97613cffff71396c5056529:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllODI1NWY1NDIzMjI4MTA0ZDg5Nzg2ODM2ZWRiODE0OTNlNGM1MDliM2M2YTVjNGU4ZmI2Mjg5MTI1NTEwZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkYzcwY2E4ODk0ZThmOGY0ZjI3MzdjZGJkNjM1Y2JmYTAwNTcxZmFkYWEyZDU4ZmY1ZWRiMThlODcyMzc5NjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhiY2RhODk0ZjQwNzcyNjkxNzRiZDRhODQ0ZTU2NjU4ZjNiMmFmNjliOTBkNDQ3NGIwN2Q4OGM1YzFhYzdkZWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyYmUzYTBkMzc3MTUxODEwZjk5YWFkMWZkMTJiYzhlMDY1ZjE2ZGQyZjZlNzBkY2QwNDg1ZmVlZDJkZDVjOWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d008b30a39984f38999d803d87d7193a",
+      "statement": "Rule 310 requires referral for electrical, heating, fuel, solid-fuel, pool, recreational, animal, firearm, vehicle, operator, rental, lodging, shared-occupancy, organized-event, fraud, identity, credit, investigation, inspection, protective-feature, unusual-construction, and other material-hazard conditions identified in the rule.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4589-L4761",
+          "version": "repo-lines-v1:sha256:b80de2fd402c2d9fe27c6e95777f29313e5cfd056b72eeb5edac0cb85f5e9157:eyJzZWxlY3RlZExpbmVDb3VudCI6MTczLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI1ZGI1Y2MwZGVhNDEyY2MwYmVlNjMxMjY4YjMyNzQwNmYzMTgzNTQ0ZGQ3MmE1ZjE4ZmUzNjI0ZTQ5NzdiYjZjIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI0MzViYjkxM2Q4NzMyZjMxZDViNjIzMGQ0ZjZkNTc5N2E1MzJhMzhlNDM2OGZiMjJiMmI4OWQ1NWMzODQyZDYyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJhZTVkMzc0NDUzMTQ4MmMwZGI0NjM2OWNlNzE5NGVlMTc0MjNjMzVjZDVlNjdmNWJiOWEyMzhlOTViOGZhMThlIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJjYTBhNTFmN2MwZWQ0YzgyNWNiMTJkMmZlNjQyYWI0NjBlOTUzYWY1ODFhYmM5Njc1OTQyZTI0MzA4MmQ2NjFjIn0"
+        }
+      ]
+    },
+    {
+      "id": "claim_aad7f23ff2ad4dabb6f65fc070f2a9a1",
+      "statement": "Rule 320 is the Manual's no-clearance path: a known condition that materially increases expected loss and cannot be corrected before binding is declined, and underwriting notes cannot cure it.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4763-L4769",
+          "version": "repo-lines-v1:sha256:51db93eb16ce4b668ba1f588eff4c99376ffb7e71a2935bf78c550b6926de66b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlhNGI1NWVhZDFiZjI1Nzc2NjMyNWZmMmI0NWIxYmVmNGMyN2UyMWM2YjQyY2E5N2I1OTYwMmY2ODFmZmZiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDlmNjU1MzlmZTg4MGNlNDdlYWExODJhM2JlY2RjZTVmNmY4NWJmMDMwNDE0ZWNjZjc3M2NiMWU3MThkYWNjMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFiOTI3MTk1YzQyNjM4NzgzZDdiMDhhZTU4MDI0MDNkODJkYjI3Njg3OGRmNDRiN2NkMDE2OTE2YmExODc3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjYzZGZhYjExYTZhNWJiM2M3YTgyMjA2MWVmN2MyOWY1MjZhOTA0ZTFlNGVhYjFjMzFiODhjOWNjMjQzODRhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_34b1a2fb95dd423ba3df41006e6b1919",
+      "statement": "Rule 320 requires decline for unresolved structural, foundation, roof, water-intrusion, plumbing, electrical, heating, fire, moisture, building-envelope, premises-safety, water-feature, recreational, animal, and bodily-injury hazards described in the rule.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4771-L4889",
+          "version": "repo-lines-v1:sha256:5b36c09a803077af948b41c512705f14c1c0b6c8ee9ccb4d2be85eb8c263ce02:eyJzZWxlY3RlZExpbmVDb3VudCI6MTE5LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJmOWM5YzM0ZDRmZjlhZmRlY2ZmYTU3N2QyYWJmMDI3NGRkYTg0MjkzYmVjNGQ4MTczNGM4OGRhYzQ2ZmM3ZjViIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI1N2FhMDlkZGFlMjllMTcwNTNkOTBkN2Q3YzNhMTVlNzY4YTliNTJhNDJhOWU4OGFiMmUwNzY5MTg0MjY2MDg1IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJhZjEzNGQ2NmI4ZTRjZjBkYzVlOTE0MDk1YzJkOThhZTA5NDVmOTU0ZjUwOWMyOTQ3ZDNmNDcxNzA2ZjQyODRiIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI3NGM1YjE0MjNiZmYzNjJmMDVlNzgzNTc3ZmQ4MWZkZDkwZjI0YzZmNjg3NDY2ODU2MjFhYWJkNjZmYzlkNTA0In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_b602795ccd224a378fe33195aa484529",
+      "statement": "Rule 320 requires decline for abandoned or hazardous property, ongoing construction or major alteration, vacancy or neglect, unlawful or disputed occupancy or ownership, unrepaired or recurring losses, misrepresentation, refused access, unverifiable information, criminal activity, contamination, earth movement, unresolved drainage or weather damage, and restricted emergency access.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4891-L5009",
+          "version": "repo-lines-v1:sha256:d1a87415942d5de8a9b6d098046e6f2850060a88aa948f1e6b8b761a6adf8316:eyJzZWxlY3RlZExpbmVDb3VudCI6MTE5LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIxNGQyZTEwNGYyZTNlNDM1NTUwY2JkMmM4YTYyZjM2ZmY3ZGNlYWMwOWI2MjRkMGMyMWU2NjYyNzBiYjllOGM3IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI0YjUxOTlhMmEyNmE0ODdhNGE0NjcxOTViNTAyNjc5N2Q2NmQwNmE5Y2M4Zjk0MTI1YWI2OGVkNmQ0ZGE0YjMxIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJmZmQ2OWI3M2NlZjM3YjI3MGMzOTQ0YWI0NzM4MGFjMWJiODA2YzY3M2MzNzdkNTA0YzljNjkyMzc1YWUxZTY1IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJkZGNhZGY0YTFhZDc3ZTIxMmVmMTNlNDI2MGVkMTFlZjM1Yjc4MTZiMjQ1M2NjZjBjOGU0NzU3MTBlOTJiZjljIn0"
+        }
+      ]
+    },
+    {
+      "id": "claim_b96f7b8f8e694939a97c8779c46f8abf",
+      "statement": "Rule 320 requires decline for impaired protection, unresolved protection gaps, replacement-cost or coinsurance concerns, commercial or unacceptable occupancy uses, material neglect, unsupported professional repairs, and disputed material conditions; an unlisted condition that cannot be cleared before binding is referred under Rule 320.54.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5011-L5087",
+          "version": "repo-lines-v1:sha256:dddf02b8b7c5de843724c86f373ee933206c120c9914d3ba87146136b0f300c3:eyJzZWxlY3RlZExpbmVDb3VudCI6NzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhZTg5MzUwMmFmNWNkZGU1OWE0YjlmN2FmMGYzNWViNzczYmFjYjAzYzdmMjczMTkzNmYzODQzYjlhMzFiZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0ZGJkZmE5YmM4ODNiZjBlMTk3ZDRiZGQ2ZmM5ZTU4ODM1NGZmZDkwZGIyZmFiZDk4Y2JjOTY3YzJkODkzY2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU5ZTQxYzFlMDI1MjQzMzMwMWE3ZjBhOGRkYTExNjZjNTg3ZGJlMGNlMzE4Mzc2ODBhOGE4NzBhMTNjM2ZhMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImViZDQyNWYwMTJjMzllMzg2ODg2NzhiYzMwN2FmNTEzNjJkNjFmYTRmNDE1MWRkNTQ0YTk4ODU3OGRjNTFkYTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f91c2a7444eb4b579aac6ed225539e45",
+      "statement": "Rule 900 separately directs claims-authority referral for a reported loss exceeding $25,000 and underwriting referral for new business Coverage A above $1,500,000, while Rule 310 uses an at-or-above $100,000 underwriting-loss trigger; these are separate source positions and functions rather than one universal threshold.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4413-L4419",
+          "version": "repo-lines-v1:sha256:f3aad8441d2e7fc16a0884945b53c1128de8fe8e9adf9a29bcc80085373e8205:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWJhMDE0MzkzYWYwMTdmYWRmZWQ0ZmYzNTE3YWM1YjY2NTc4ODVjNWJjNWQ5ZmNjMzVkMTAwY2FlNjY4ZTNlNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYyYzk2ZDZjOTVkOGNhNzc3NWI4NTllNDQ2YmE5YTIzNDVjOTA4Y2FmYTNjODAyNjYzN2EyMDg2MTU4MGUzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2FkZDVlMWYzZWVkOTY0OGY0ZjY2ZmM4NDI1NTgwN2IzMWUxMjY3MzI0NjMyNTk0MTEzYTZjMzc2MDNiMzZmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGJkZmI2MWUwZTc5ODgwMzVhY2E0MmRhMTg2YWRkOGFjMzU4MjU1MDg5OTMxOTM3MDg0MTAxMjQ4YmJlNTc1ZCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9865-L9877",
+          "version": "repo-lines-v1:sha256:4403c9aa0e1b74f20bdf66fb9b9a1beca6d63a32e8568b3eb32c9a2251418f39:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNjE4NzY1MDViNDE2MGE0MmYwZDM0OTEwNDFjN2Y3MWYxYWYyMDZhYTBiNWM0Y2E4MDU5ODljMjIwNTQxNzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwZDY3OTRmNThmNTAyODI5MzZhZGVmZjQ3YTE3MDYyNGMxMTUzYWFlODVlYTgxZjU3ODcxYjk0YjI3NDk3MzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQwNzk0Nzg5NDY2M2YwMzRiOGE2ZTY3NDRkNWUzYzljYmJlMzc2ZjBlNjc3ZjgxZTkzMDRjNmY2YzVhYjU2ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0ZGUyMGM5ZjAwMjAzOTlmNzVlY2U1YjBlZDc1MTI3ZDNkMmM2MTQ5YTdmOWYyODMxY2E1ODlhZTc3NTg1OWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e89475a856584c8385eb13eb6dbc2e60",
+      "statement": "Rule 900 requires three years of loss history and referral of incomplete history, while the referral matrix and Texas appetite guide separately identify two paid property claims in the preceding three years as a referral trigger; the Manual appendix does not state that claim-count threshold.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L447-L455",
+          "version": "repo-lines-v1:sha256:78a11aa3b26fe2d240586519583e42b53c645ad86c04a6bfdd8e02b49ebca339:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNhMzBlNDNmMThiZDQ0NDhlOTFmZGEzNzExNWRhMmM2YjI4MDFmYTI2N2RjYmQ2YzFiMTViN2ExOTVmZmQ5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWRlMTgxMGM5NWY4ZGRlZGNjYzk5ZWY0ZGFjYzRlMjIxMTNlNzhmZTQxYWNjYTQxM2E2ZmY3OWZkOGJlMzZkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDdhN2IwMDFlMjMxY2FjMzNiYWFjZmI3MDMxY2Q5ZDA4NjIyMDZjN2FmZTI3YzJiNDlkN2I1YmEyMzUyZTc4YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhlZDZlMjFiZTczZmU3NjNkNDM1MmQyZTk5OGI5MTYzMThjMWE2N2E1YzViZWUyZjFhZTU1YzRkMGQ4ZWY1MiJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L499-L507",
+          "version": "repo-lines-v1:sha256:f0d05c16ce7a1bb82eb291eacf2ec779bf2c3fa2c28af052456330d271eec783:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNhMzBlNDNmMThiZDQ0NDhlOTFmZGEzNzExNWRhMmM2YjI4MDFmYTI2N2RjYmQ2YzFiMTViN2ExOTVmZmQ5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmNzZmODNkMzhiMzA3MzdkMWRmMWY2YmQ4ZTcxMDBkNDI3MmFlOTc3MmFkZGY3MmVhMjZmOGJlNTVmZDllZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY3OGU1Mjc5NTg3YjZlM2U2ZTBkY2I4MjUwNGFjMTM0ZjFjMTY2NjM0NGYwZGI4MmE0Y2E3MmYwMGMzMWRhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiZDhmMjQ0MzFhMTY0Y2E1YjhhMWZkYzc5Mjg0YTYxOWE5NDE2OGQwNmQxODFlYTNhMjJmNjJhMmJmZTc1OSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9879-L9883",
+          "version": "repo-lines-v1:sha256:b627706433ec516193616f67a881b4bf228189c009861bf6c4ff98f586e0c3ed:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgyMDRmMmYyZjdiODk2MjA3OGE0NTJhNGE0NzBkYTQ5ZjcyNjllYWNjYTkzMDg3Mjg4YzQ3ZTZmNzFlNDQ4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTI0MDg0MTAyODc5NjhlMjBkZWFhM2Y1MGE1Y2RkZTMyYTA3ZDQzZjQ0YjFiNmNjZTA0MjQ1MDgzNmI2YWYzNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNkMDJiMmJjZDg0YzA2NDI1OTA3NDlhNzhmYWE0ZDZkZjE1ODA5Mjg3ZDc0OWQ1Mjg3YzRjMzVmMjcyNzcwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmEwZjZkODU3NWJlZDNjYzM3YzUyN2M1NzNhZDFhYTQ5NmI5NzAwMjc5YjMxYTRiZWQ5MjIyNDdkNjFkNzQ5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_80989ab4a1df4037a2676798dab2603a",
+      "statement": "Rule 900 refers roof age at or beyond 25 years for declination processing and requires a recorded authorized exception before binding, while the Texas appetite guide separately requires inspection at 15 years and says a roof at or above 25 years may not be bound; these are recorded as separate source positions.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L153-L165",
+          "version": "repo-lines-v1:sha256:5d92208bbb663336cb0df72a852ffbbfdaa241bad97dfeadaecf73d633013ec8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzYjNlZmE3NDE0M2Q3MzEwNDkxNGI2ODFiODk4NWY5ZTY4Y2E2M2I2M2Q2MjM1NGJhZjg4MjQzYzE0NzE1MjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0OTMwNzJmMmRmMGY0Zjg2NGI0MzUyNDk2YjBmYTM3NjgzMWQ4NWQ4ZWZhZjVkMDAyZmVmODM1MjZiYzczOTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzYzdkOWU2MzFjMjYzZjJjN2VkMDNlZjBjZDhiYzY4ZDZiNzA4Zjg2ODc3YmI0YmM0NzZhNzUzMzU0NDgwZGMifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L199-L213",
+          "version": "repo-lines-v1:sha256:26f8960a7bc329a7395f9b628e88cc82713bef64e9823d56b591a7d5392ba4b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlZDU3OGMxYjYxMGIzN2E5YWY4ZmU0YzI0NGQxODk3NGYyYTJhYTUyMzEzN2ExOWIwNjJhNmMyNzg0NzA5ZjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjljMzMxZDI5ZmI2ZDNjMWJlMGI5ZjE5NTJkMWYzMmVkMzI3ZWVkNzEwMzk4ZmNlMWUyNDcyNDg4YjViYmJlMTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2MjYyYjM0MjU1ODYxZjQ4ODgyODRhM2QzOGFkMGQ0YmE5MDRjMTYwNWM5MWQyMzg3MTgyYmNmYzJmNWNjMDgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9885-L9889",
+          "version": "repo-lines-v1:sha256:d5ad620c8352b43007d11a4298db30a75c28556c2a06daf22ca6768576ba6ffc:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjMyMDFiNDQwOGNiY2YxOWQ3Y2QzZDJhMzRmNDk4ZDVjYzU3NjY3YzgyNjJiMzU2NGFiNGM0Nzc1YTFkOGU5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU2NmYzZjhlZWFlNTE3NjQ0NDFmYWQ5YmU3ZWVlM2I5NjA5YmI1MjU5Y2M1YWRjYWFhMWU3OWIyNjU1OGNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDE5MWIxOGMxZmM3MzhiYjJjMDI0NGI3YmUyNDgzNDEyY2ZjYjQ2YjU3MGY3ZDNiMzMxNzM4ZTE5YWI3NmM5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUxMjU5Mjc2ZjJhY2FmMTcxOWMzMzA5MjVkODRkN2VhNjdmNzRkNjRkNGJhMWFlZmViMWQxZmNjZGJmODdiZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a17ce601278e4c46bcef12d629397453",
+      "statement": "Rule 900 requires referral for water-backup coverage above $25,000 and bars treating the requested limit as available pending review; the referral matrix uses the same underwriting trigger, while the HO-3 base form separately excludes sewer, drain, and sump backup unless an endorsement is attached.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L683-L687",
+          "version": "repo-lines-v1:sha256:60b2d3fc09250330956f277d55a36ff72a3c47994acd0ef594962a19dd061703:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0MWZlYTUyYmJiODdkYTk4Mjk4YjRjNWE1ZWQyMDM4MDlkOWM3ZmQyMDM2ZmI3ZjQ5ZjQwMTIyNjQxZjVkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzEyYjMyYWQ3MTliMDQ1N2ZiNjNiMjk4YTViODFkNGY1MDM1MDFhMzY5NWZkZGRmNzBiZWFkOTU1YjBkMTBlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWIxOTc5MDgyNDUxMjUzYTQyOTA5MjgwY2M1MWRjNjNlM2ZhNTNjOWU1ZGZkY2UxMzU1M2NhMjc5MWIzZWNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTgzN2ZjYzlhNjQyM2UwY2I2ZGE5NzFkYTZkYTFkMTcyYmFhYzcyMTA3ZDY2ODBhNDhkZjE3YTA5YzU3MjA3MyJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L393-L409",
+          "version": "repo-lines-v1:sha256:bcb3af8bab2b0b9fafd6d7370cf663bcafae6ee552e79a134fffc79e73dd6046:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZGY5ZmZlMGU5MzkwNzA3Mzg2ODgwYjQ5OTI0YmFmM2E3YThlNmVjOWY1MGI3ZjE5YWJkZmE5NGRhNTdhNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhYmM0ODA2M2JiMzM5YWVkZmNkMWFlNWE3ZDQ3MzcyMzM2ZmM4MzM5OGYzZTlhYjlkNWUxOWRlZDFiYWIxNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY0NTcxOTM4ZTg0ZDJkNjUxOTU3MzNiNmVmYTFhYzEzZGJlNTg2N2RhMDdlZWY2OWNkMGYyZjZiN2JmNDI5MjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQyZTY5ODVkYTczMTlkN2I2ZWMzNjhhZGEyOTEyOWMwZTUzMTVkNmYwYTc5MmFmNWI1ZTRlOTY1NzY4NWExZDYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9891-L9895",
+          "version": "repo-lines-v1:sha256:d192d3476e345ac18fa2abb76b85c5f1b0a61894aa377435e9f940747919acbd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM3NTRhZmU2ZjI0YTFiNjg3YzY0MDM5YzU3NzAyZDVhZDZjNzViZjc5ZWU1ZDUyODcyMTUxODgyMmRjMTUyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzdkMjNmN2Y5NjRmNzRmYjMzZDk4ZWYyMTZlMGE1M2RjYTQ2YjJkNDIxZDhkYTAxN2RlMDkyZWRhOGQ5MzgzMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTQwMTU2OTIxNjNmNWU2NjBiN2U1NzYxZWYxY2RlMTlkZDkyNTlkMzc1MmY2MzMxMjlkMjNkZjFiY2FkNDNhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQzYmJmMjUwZWI4ZDdiY2E2ZjMzNDdjNjU0ZDdjODI1NTBlYjVmNmQyNzcwOWRkMWMyOWVlMzE0ZWJkOTAzNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_52196ffe65304dcf9ff0dd2eb0c96b2a",
+      "statement": "Rule 900 provides a compact appendix checklist for application and inspection discrepancies, unrepaired damage, occupancy and use, valuation and maintenance, structural and liability hazards, prior insurance and loss information, property-system and protection concerns, unusual construction or access, exceptions, post-bind changes, and unclear eligibility; the appendix requires evidence and a recorded disposition.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9897-L10093",
+          "version": "repo-lines-v1:sha256:49291e8cd5eeeb3eaf82480160a6b3b4f35c557b4f256fefeb68a1dcc82f325b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTk3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIzMmM5YmJlNDhkOWViY2NjNzM3ZmI0MDgyZmNhYWJkMTVmNGU4NTkzMWZiMDZiOTkyODk2OWM2YTdhMDM4ZGY1IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIzZGFhODEyNTEwZDk3ZGE0YjNmOTBiY2UyMmZjMzdhOWE3YWJiZjE5NWQyZTY0MWUxYzMxNWY1YzA4MDQzNjE5IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIwOWYzMDRkNzEzODIxMGZkODg0MjdjYTlkZDhhYzZmMzk0MjVkM2QxYjEyOGJhOGEwMjRiNTMyYWE4YjU3NTQwIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MCwiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_dcf6b9bb129f4877a6c6ac777e7b22ca",
+      "statement": "The referral control flow is: collect and verify material facts, test appetite and active authority, hold and document a referral when the test fails or is unclear, continue permitted fact gathering while approval is absent, then compare approved terms and conditions with the requested action before binding; material changes require renewed direction.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L718-L767",
+          "version": "repo-lines-v1:sha256:c06d8c0c3304f139438242e5b42974ff00d9e196f3bf2927a9f7c35f49b60004:eyJzZWxlY3RlZExpbmVDb3VudCI6NTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4MTcxODA4MGM0YzFlNTQ2NTdkZTRmYzg3MmI3MjE2MjM3MTU2NTk3ZTk2NmM5MTY1Y2Y1ZTlkZWViMjFmYWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwMDllMjkwZGM5MWQ1OGQ5N2M2N2EyYjMyZmFmOTUwMjJlOTk3NGI5ZDU1MTFlYWI5YzVlMWNlYTk2Njg2MWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlZWNjYzAwZTVmOGVjMzNmYjY2OTgxZjQxMzc2N2E1Yjg0ZDdkOTQ0MGExOGRmOTI1YjRmZGY0YzczZmVjOGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzYmM2YjUzMTZlZGJhZWE4MzNmMTg1NzJjZDQxYjZmZTM3NjE5MGFiNzdiNGI3YTQ0ZTJkOTU2ZjU4NjIzZTQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4131-L4141",
+          "version": "repo-lines-v1:sha256:2093226d75d9107d0d31f6a0d8c86d8e1e48b0a3f4ba4a5c8029b67ee75139e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkYWFkM2I5ZTlkN2NkNGI0ODE2YjM1Zjk0MzQ2NzI0MzIxYzhlN2U2NmE5MTI0NTkxZTdjNzk2ZTRiMzdmZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhMzI5YjczNTdlYmNkODM2MDRlOTgwOTdhZTNjNWVkY2RiNTdjYTIwNjlkYTNmNjliOGU0MmEyZDM2ZmQ3MzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYyMTJmMmU2ZWJmOGM2YjMzODRjZWRkYTczNTFmZjA5Mjk5OTMxNTQyN2UzNjgyZGMzNmI3YWQ1NjMyNzY1OGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc2MTgyNzAzMzExMzZhNTIwM2QxY2EyMmVjY2EzYjYyNTFlZTA3YmFjYjVmMjBlYTAxOTY1YTE5YmQwMGIwMTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4341-L4345",
+          "version": "repo-lines-v1:sha256:3122182654a1245de8b3df17d282afe2693f95e69a83fa1a54428274cc11bb30:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDRhY2ZiOWNhNTg0NDYzZGJlOGYxMzEwNzQ2MTA5ODg0ZDI1OTEyYmZjN2ZhMzk3MDBiMmUwOTRjMGVlMzM0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDlhZjc4MzUwMGY0ZmU3ZjQ3OWJiOGJkMTI2MWVjODdiZDY5OTJiMTQyODE3YTc1ZGRmNDhjN2JmYTViZGU2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjYwZGY5YzdlYmZiZWYyYTVhZGQyMTJhZjM1YTg2YjFhMDkzM2RmYWUwMWQyODA4YjI1ZGU3N2QxODE5MjY1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjRhNjJmOGFiNjg1MDUyNTFiMjY5ZGJhNDljNTUzZjMzNWRmMDE5ZWQ0NjVmMjhmM2JkNDFlNDE0ODM3NzQ2MiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

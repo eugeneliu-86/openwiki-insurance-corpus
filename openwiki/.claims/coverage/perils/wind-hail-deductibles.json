@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4268ff565ba7febfb04f660dbaba12041ac364b266299990492cc280b817ee57",
+  "claims": [
+    {
+      "id": "claim_d688cb7db80d49638269b9d49b0057f7",
+      "statement": "A windstorm or hail deductible applies only to covered direct physical loss to covered property; it does not create coverage or override an exclusion. The current HO-3 covers direct physical loss caused by windstorm and hail subject to exclusions and conditions, and HO 23 77 2022-07 expressly preserves otherwise uncovered property, loss, and damage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L25-L43",
+          "version": "repo-lines-v1:sha256:f2913dae145d894263489281abfe80e318b1448c1aa4431f9fec140df1bc33a1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmOTI3OWYwYTEyMzZhYjdiMTBkZmY0NDkwYjE0YTllZTNhOTkzNDlhMDVkMmUxYzlkNzE5MWI2ZTYwYjc5ZDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2ZTJlMzRkYmM0ZTc1ZjM0MDM3YjRiZTM4YzE3MGIxNWQwYzVmN2NiMjEwYzc1NWQ1MjY0NTdjNmQ5Y2Y4NTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ1M2E0YWFhYmVjMzI4NDEzNzc1NzhiMTRiNGM1OTBmYWU5OTBlYjcyYzRkYTQyYjliOGI5YzQzNzA5NDA0MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNlNDY3NGIwMjk5ZjY5YTBmNzZkMjY3OGNiMjIxODM2YWFmMWFmOTYzMmE1MDVhNDAwNThhOGE1ZWJjN2NjMTcifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L625-L633",
+          "version": "repo-lines-v1:sha256:31f710a8513891ff79ec6b3003361d3e91d1815b0accb8963fd6cf93d0cf7dd6:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjVjOGZjNmMxNGJlMzMyNzBmNzNhZTJjNGQxZWYwODVlMzA0OGM2NzFlODBlMDFhMDZiMTJkMjFlZDc3NDM0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M3MjY1NmMyMjExYThkYjhjZGQ4N2VjYmYwMDE1NTNiNGE4YTAyOGYwMjJjNDFmYTBiZjdkZjY0YmYxMDI2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTQ2ZGU1NjViZTUxNWJhYmYxN2RiMDYwZGU0YWZmNDQyNWY4NWM0Y2FkMTA4YjE2YWFiZTdlZjZjMzAwNjg4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzJiODU3OGUwZjg2NGY4OTk1NDVkYzIxZmZhM2YwYzhhNmViZDM0YjFjNTBlNjQxYmY3MmI2YmQ2YzVjMGJiMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c43f051c574547d39ef4d9fe268eb465",
+      "statement": "Under the current HO-3 opening rule, wind-driven rain, snow, sleet, sand, or dust entering a building is covered only when the direct force of wind or hail first damages the building and creates an opening; the deductible does not itself make water damage covered.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L87-L91",
+          "version": "repo-lines-v1:sha256:56bae3525d274c5170cea39dccf023fa65dd39b8d8a8ff400e70aea087979ac6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTViZDdmNWVkNWIxMTYxNzMyYjlhOTBiMDcwZWE4NGRmMzEyODUyOTQ3NjZiZDFkMGUzMjFmZjg0MjJiYWQzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZhNDZmZTAxNzUwZDVhNGI4YmFlMWU0ZjExODMxMDU1NTg5MGIxMDlmYTc5ZGE5MGRlMjEzNTI1ZTZiOGVmNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTRkOGI0ZDlhNmQ3N2VlMGYzNzQwNjVmZDdkMmRhMDljODEyOGIwMDZhZDgwNTc2YzBjMzIzZmUyNTlkZGI0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjcxNTlhYjY5YWRjNzRlZWJlZTZmMWQzNGM1N2NjZGYwMWY1ZGRhNmZkMDc0ZTgxNmIzZDkxMzdlY2M4OGNiZSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L631-L634",
+          "version": "repo-lines-v1:sha256:bddeb2ed451e8349ec480e2cdd6a6fbdd031ee52e35daa529970534ffea84e6d:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzM4YWEzYzEyNjk5NWI1NThmY2RhYzRlZTU2ZTQwZmZhMzU1OWVlOTc5ZmRiMTcwZjRkNmI1YmU0NDY1ZDI3OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjE4ZWEwZGE1Mjk1ZGQ3NWRhNzYzZDlmMTA5NGExNzQwZTQxMTAzYzYxMjU3ZDk0NGYwNjc3MTMwMzIyZTJiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDBmNWMxMzY1Y2QyN2Q0N2U0ZDE3ZjdkYjUzNTg4M2FmNTJlMDEzMDlhMjlmOGNjM2IxZWVlZDNiZDNhZjEyMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_71519296b6ad498593f4f2701d66a411",
+      "statement": "For a percentage deductible, the selected percentage is applied to the applicable limit for the damaged covered property rather than ordinarily to the repair estimate; covered-loss valuation and applicable policy terms are determined before the deductible is subtracted, and separate applicable limits are not combined solely to reduce it.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2014-02.md#L269-L287",
+          "version": "repo-lines-v1:sha256:2af2a9af155fd9ea5e1c63adac457366b7a0c2d05cfe8e8f23f5790b1292657c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzZDY3YjZjM2QxZWI5YzA2MmYyMzg3MGUzZWZlYTUzNTZlNjA1NTE0MTcyNTgxNjBhYTdlN2FlOTNkMmViZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhNmM5YTIyY2EzY2UzZmUyOTczMTYyZjRmNDdhN2IzODgxYWI1NjQ3OGZmZjFmYzQ5ODg3Y2UxMGM3Mjk1NmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZjZWMzZmY0NDBhZjZmZTM3NmFiZDQyNWM0M2U3MzkzZDAzMjRkYTdiYTBjMTM1ZjQ3ODdhOTQ2MTczY2E5NTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdmMjFhOGM3MzAwZThkYmE3MzM3ODEwZTc2NWVlNjRiOWRiOTUwOWNjM2M1Mzg4NmQ0ZTU3MDYzM2NhZDBjMWYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L301-L323",
+          "version": "repo-lines-v1:sha256:1605d23631d7e1804a4cea2f0779c41d9d38a85a21fc0ac621ff169ee994252b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3ODNkODAwZDUyMjMzNTliZGQyNzcyMGM0ODU5Yjg3MDkwYzg3MThlNWJmMDQ4ZjZjMzg2NWIxODIyMDk2NDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNzFhZjQzNDEyMGIyYmQxOTBiMGVmMjRmYWRkNDRkZmY5NWY1NjY0MmVkNmFmMzE4OTU0ZTBhODFiNGJiM2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmZjBlYjk1YTJiNTY0OTc1MThiODU2ZDU3MmQ0ZGYzZGExYTJlMGJjNDkyYTU3ZDVhNzhmNWQyYmQyZDBiYzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1NTcyZDNmZWVlMjNkZjdiOGZmMjVkZTEyZmI1ZjZhZTY0MTllOTc1ZjVkZjJjZTIwOTllZDY0NzAxM2QwZjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac3f54795f0643db93e96a69224eecf3",
+      "statement": "Occurrence or loss-event language controls aggregation: related windstorm or hail damage from the same weather event is generally treated as one occurrence or loss event, while separate weather events may receive separate deductibles; later discovery alone does not create a new event.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L95-L99",
+          "version": "repo-lines-v1:sha256:86238e5db2bea2a2f500cda0bd545b93375b3be5d578fa2d0e07fd49ec6772b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA4ODc2YmIzNzMxZGM5NmViOGVlYTkzYTZlZGQ2MmVlN2M4YjNjOTAzYjgyOTBiNWViNjQ0NzVjMDE1MTJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM2ZmM4OWUyNmMxNDg2NDcyOTg0YjI5YjBjYjcyOWMxZGEyZGQ2Mjg1NWY4MzYwNmEwYmM4OTgzYWEzODM1NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGU1NWRiNGUyZGQyOWQzNmFjYTYyYzM5NWVjMzNmYmMyNmExNzJkMmRlYmQwNGFkOTI3ZWZlMmU3NzdjNDVkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWE5NDk4NGI4NmU0MjI0Y2MzNzhiNzYzYjVmOWIwNGQ1M2IxMDVkZTI3YTkyNjFkNDg2YjEwYzM4NWRjOTM1NCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L315-L325",
+          "version": "repo-lines-v1:sha256:b34a4a319f2eda9f1d0f9ffa1a2824db6a7761a1acac68e27d30b79154a6c1eb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhNjA0NjRlMzcwYWZmOWMxNjBiZDdhYzgyMzBlZTVlYTkzMWI5M2M4ZDdhNmMyNWRmYzY1NDI1NmIzNTI5ZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhOWIwYzM3YzMxYmQyMzFjOWY0NDgxN2M5M2FlZjc0NmY1NDVkNzYxZjU5ZGIzZDE0MTFiMDNhMjMwYTNiYWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUyNWM3ZjVmMjAxM2M2YTg4MDVhZGYyYzYwNWZkZjFhMGFiYjkxNzMzMzRiYTNkYTIzYmNmYjExZmFlNzI4YzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFlZmE3ODgyMDM5OWQ1Nzk3ODBkMGYzMzZjN2E2MDdmMTA3NWRlZTRlMGQ4M2EyY2ZhMThiZmIzODExZDJmMWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6df4c2b3217f4cf5859c335a1a2e25be",
+      "statement": "A windstorm or hail deductible generally remains separate from a deductible for another peril, but the controlling form determines whether another deductible applies to a separate cause and prevents duplicate deductions for the same covered loss unless its terms clearly require otherwise.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L83-L87",
+          "version": "repo-lines-v1:sha256:aa83e8f875e02316c30198f4c0bb070c2f53769f9a5c391b5174eed189cbacb1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjE2YjM3ZDlkYWY5Njc0YWNmZmI0M2EzZGJjMmIwZmUzNTNiYmY0YWUxYzYxZjA1NGRmNzQyZGNjYjUxYWEzYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2NWMzOWYzNWUwM2ZkYmY3YTYzNGVmMWYwN2MxNTExYmU2ZWJhNTRlMjNhOGE1ZTk1NGE0Y2EyNmUzMTNiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmYyNjhjYmJmNDFkNWQyZTIzOTVjMTEyZjg0ZTMxNzRlYmRlYWQ0NDg3Y2JhNTE1MjFlODdlYWM1YzdjZDQ5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2E1ODIzZjFlODdiMDY4MzJhOGUxNzkyMmY5NGExMmIxYzcyNWEyMGI1ZDMyOTExZTk4MmJiY2JmMTFlOTUwMiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L129-L133",
+          "version": "repo-lines-v1:sha256:d9d51ebe9368bfecd72ca1edef2728cc33628e2019e908f549480fc15876e81a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2UzNDRhODAzYjEyMzhkNGY2YWQ4ZmYzNWM0ZGRkZjI2N2Q1MWUzNDNiNTg0MGM2ZWJhNTI5N2EwYTBjODgyMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE5OWUxYWFhZGUyYjcwYjYyMjRmN2MyNzc2MzIyNTU0NzI3NGEyYmMxNjBkOGIyYTNjMDE5YmE1MTU4ZDRlZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDMwMTc1ZmE3MTQzYjRjNjZlNWE1ZGFhNzdmYjRmNjBmMjc1MTQ0N2I4ZTU3OTU4NmQ4Mzg2MzJkZGY3MTEzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjY2NDA4MTNjY2NhZTkzMjQyNzc2YzA4M2QyZDU3N2UxYmM4YzQxZTVmYTA5NTM1YjBkYTQwODAzM2JlZWQ4OCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L61-L81",
+          "version": "repo-lines-v1:sha256:fa8bfb9819bb4dd5ab2f122ca8caf2fbfa3764a6c1f8d75dc18639bcce39773f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4OTYyOGVhOWY1NTkzMzY5MTEzNGNlNTE1MGU0YTNkNzZhNGQ3N2QxZjQ3ZDkwNjlhMTg5MWQ2Y2JiYTNkYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2MTE4Y2M5YzdjNTVhNGUzMTZiNTU1ZWQzNDU0Yjg0ODNjZjM5ZWQ3MGYzYzYxODJlODZjZjEyMDUyZGUzYzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlYmQ0MDY2NTVlM2Q0Yjk2NmI4NTAzMGFkNmI0YjBkODgwNWFlMWZkZTlkMjdlYTZmMGZlMWE3MjZhYzUyMDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk0MTVjY2Y0YmMxM2JhYjM2OTcwY2FkMmIzNTk5YTU2ZmMyZjdmNWE4YTY4MmVmZGFkOTk2ODNiYjkwNDUwNmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2150375a00a84f42b2ff75ad5d0c82b3",
+      "statement": "Covered emergency measures, temporary or protective repairs, debris removal, and covered loss-of-use or related expenses remain subject to the applicable windstorm or hail deductible when the policy covers them; the deductible does not independently create coverage for those expenses.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L155-L163",
+          "version": "repo-lines-v1:sha256:1b8a2e6108a7b378e043af11ad24e44913b62a05132a25e4bf9b06c221a2b198:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI0MTNhOGMwMzljMWU4OTZjNDczN2YzOGYyZmZjMWUzNjA3N2EzN2M5ZGNjMjllMmYxMmI3M2FhNWU0OWEyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjUwMDEwNGE3NmU0Njc4N2U2MjUyMGQ1YjAxYmFjMDg3NDg4MTI4NGI1OTM5ZGRhZDcyNTI4ZWI3YzFjZmMwMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQxNmNkMzQzYzMzZmY3Zjc3ZmFlZGMzZTNhNDk3OTI2YjAzMWI5ZmM3NmE4NzBlMTU4NWNiZjNkMGM5NDdjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzg5Njk5MDM0YTQ4MzA1ZjMwYTQyY2E5OGI4ZWYyOGJlN2U1MDM2MTM0YjQ0ZmU2MjI3ODUxOWM1NTM4NDY1YSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L153-L163",
+          "version": "repo-lines-v1:sha256:23e526dbc0204916941f6a348664bc9c82c4b50bdd11d6720a1a812a88a02810:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNTU5YjAxOWJmYWZlNDdhY2RjNjU3Y2YxOWQ4ZTZkODE4NzM1NzZhZWQ4NzUzYzc2NGQ3NGU5OTYwYjVhYmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwMTdmNGE4OTdhNDM5MzRlN2U0NGY5NTg2MDA0M2FlY2JlOWMyNjhmZDRhNGU1MmVhOTFmNjFlNjQyNDg3NDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjM2NlODQ4MzVmY2NlZjczYmE0NDRmNjJjYmY2YmZkNGQ5ZmZhMzg0ODhlZDE0ODg4YjU4ZTNmYWRkYzNjYmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyOWU0MmJiNGYwNjUwOGZkZTdmYjZlOTJjMjJkZTJmMzZjNDM0OWY4ZWY2NGFjNDcxOTI5Y2RkYjFkMTkyMWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2b4f5b590cd8440ebde5cdbadb28513e",
+      "statement": "HO 23 77 2014-02 permits a selected windstorm or hail percentage from 1% through 5%, while HO 23 77 2022-07 permits 2% through 10%; the 2014-02 edition remains applicable to policies written under it after the later edition superseded it.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2014-02.md#L1-L9",
+          "version": "repo-lines-v1:sha256:d54dc814aa5e804a22e9a41e1d159b67fc0d2622f277cec16ef07ffaa01b5c10:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2I4MmU1M2M2NmUyN2VjZDFhMGIxMWZiZThjMDdlOTdkN2IzNWFiOTBmMmM0YzA0NWQ0NmYwNGUzYTk5MjFhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2014-02.md#L263-L287",
+          "version": "repo-lines-v1:sha256:9ab17f15cba8fc42e6d10aa7b7838e0c156eb07b0e339ef3409e870868111e9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhNmM5YTIyY2EzY2UzZmUyOTczMTYyZjRmNDdhN2IzODgxYWI1NjQ3OGZmZjFmYzQ5ODg3Y2UxMGM3Mjk1NmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwZDBiN2U4MTcyNmUzNTNmNmUwNWMyOWU3ODU4YWQ0OGI4OWE4MDlmZGQwYzI4ODc2ZTQ4ZTc0YzFjYWUxZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdmMjFhOGM3MzAwZThkYmE3MzM3ODEwZTc2NWVlNjRiOWRiOTUwOWNjM2M1Mzg4NmQ0ZTU3MDYzM2NhZDBjMWYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L299-L311",
+          "version": "repo-lines-v1:sha256:7e73145b167b1e6977187722925f4b227817c43136507b1c85e3c21c65afc4a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlNTVkNTFjN2YxZGZkNzA0MjIxOTY1MTQ2ZTE5MDhjMDBmYWI0NzUxYjJjYmFmNjE2M2FlNWIxYmM2ZTYyNTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY5MGU4ZTU4ODg3ODMxZmYzYWMxNzdmNzMzMjZkYTU5ZWE5MDIzOWVmZDkxYzNiYzBjNTg2MzQ3ZDc1ZDJiY2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyNWM3ZjVmMjAxM2M2YTg4MDVhZGYyYzYwNWZkZjFhMGFiYjkxNzMzMzRiYTNkYTIzYmNmYjExZmFlNzI4YzEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e1f7889586094760a6de8d6b7e10694e",
+      "statement": "Florida DP 01 09 2021-03 sets a 2% to 10% windstorm and hail deductible and requires at least 45 days' notice before an increase, while Florida HO 01 09 2023-07 sets a 2% to 15% deductible and requires at least 60 days' written notice before an increase.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L167-L175",
+          "version": "repo-lines-v1:sha256:532a5bacab52babbe78adfe659eeb9bf9ddf6e154946e7dd3a034f7e717671aa:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIyNDVhMDQ0MWE3NmVjZDgyZmU0ZmI5NjBhOWMyYmE0MTQwN2I3ZjYzYWVhOTVjMGRhODZjZjIzNzA2YzBiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDViNTMyM2JiNTk0NDM3MDc0OWVlNmFkMTA3ZjBmNWIzYjFiNzI1MmQ2YTNmZTE4ZmE4ZmExMDNhOTEwM2JmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTMwMzI4ZDA4NTU2NzU2MTIzMWY2NDUwZDViNGQ0ZTg5ZTQ1YmZmMmE4N2UwOTZlY2NkZmExNjBlYjljNjU5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTlkZDI5ZDA4YzY1YTAxNTJlZTc1MGE1MmRmY2NlOTcwZDc3ZDg3YzFkM2Y1ZTU3MTY1YzIxMGM5YzBmY2FiZSJ9"
+        },
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L61-L85",
+          "version": "repo-lines-v1:sha256:10fe83c07280cd14433504d9add1b8142426781defde9d236c94aa6106180987:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmYzAzODM4MGU4ZWU1NzIyZTcxOTRlZGJkODk3ZjZiNTdjNzE3YWI3Mzg5NmM3YTg4MTM0ODFhMzVlMjhkODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczNTEyMzNiMGI4MWViNDI2NzZkYzUzNDQ4OTA0NDY4MDllNTliZTlhNGQ3ZGQwYTMxOWVlN2EyNDM4ZjllMWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlYmQ0MDY2NTVlM2Q0Yjk2NmI4NTAzMGFkNmI0YjBkODgwNWFlMWZkZTlkMjdlYTZmMGZlMWE3MjZhYzUyMDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBjNGU0MmJhZDExY2E1ZWIxNTFkNzRlMzgwN2VhYzYzMjJkZTQ0ZjcwMzhlNDM4OGQ2OTYzMGNlZGYyMTlkOWIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L167-L175",
+          "version": "repo-lines-v1:sha256:70bffd41147229fa0b3562933941e746e489b399a4b94d9fe319a81d131ece8d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2MzNTQyMzY1OWM1OTk0YjIwMTYwODdkZDdmMTU0ZjViYmI4ODM2NjMyYzA5MTJkYmI5ZWQxZTdmMjNjNzFiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2IzZDZhZDFlZThmZWM1OThiYjVjNWY4NDAwZWMxNDI0NmNmMDE0Mjc5NTFmZjAxNjA5ODY5NmY1MDJjMjU3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTE4NjJmNzQ5NDc0MzViOTU2MzNkYjE1YmVmOGM2NGQxYThkNGQ4MmFkOWUwYWU4MTJlNmY5Mjc5NGE1ZjlhZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWFhYTBmOWVhMjVhMGI3ZDM1ZGE0N2Y2NTlkYmE5OTA4NTYwZDNhZjc3MmZjZjIzYzlmZjZlMWI2NGU4YjI0OSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L77",
+          "version": "repo-lines-v1:sha256:c5b435628f84de4ad2ff090be250e7a696da053f8fa6aeaf769058d5770838e9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlZTU1NTg1ZGEzMzc1ODg2MzExNzNkNmYyZWNjOWY2MTk0YjcxNzI0NDZkOTcyMTFmMjEwN2YzNjZmNzc1ODAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzN2Y5MTE0ZGM1NjBkYzZhZDliZjdmMjBlNzUwZmFkMjVjMGMzMmU3ZTcyMmU0MTI5NmViZmFjOTg4ZTFhODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNlNGU0ZTExOTZkNzYwMTNlZTFmMjBiNDM5Nzg0OTU4M2UzYTUwYzlhMmJlNzE2ZDVlMzgyNjYzYjM4MzhjMTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e82e11bfb2a841d2a53933cd8896305c",
+      "statement": "Florida OIR-2022-01 is a disclosure overlay that requires the hurricane or named-storm deductible disclosure to identify the trigger, distinguish other deductibles, describe the calculation basis, and state a named-storm minimum of 2% and hurricane maximum of 10%; it expressly does not establish a minimum Section I deductible.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L35-L41",
+          "version": "repo-lines-v1:sha256:8222b607f1eccad1e7e7bbf34478024717ece10462caff600a4653a77827993b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFkNTlhZjg2NDlhMzBlNDY1NGI4Njc5YzFmMDM3M2IxMDlmYzk5OTMyZWNmYmQwM2E3MzJlYzI1N2RmZDU4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQ0NWQwMzllNTg0Zjk2MzBkOTZiZWFkMDE2ZGMxYzZkNzkzY2JkMmEyNGQzMTljMzQ3MjJhODE2MTYyZTY1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTIzMDE0OTBkMmU0NjdkYmQ1NGI0Mjg2OGYzZTlmOTQ0Y2M2NGU3YmQ4ZmJiNjA2OTdhNjY4MWU1M2NkMzMwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzdlNGEyMzBhN2EyN2MxYjQ4MmM1NGU1ZjM1MzE5NjRhOWE2YTFjMTQ4NDJiMmM1NmZhY2U0NTc3YzUzNDEzMSJ9"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L59-L89",
+          "version": "repo-lines-v1:sha256:66a2fc7e9105c7c0ac7141301cdb378d9801df5f93afce1dd64893e26049e691:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlNjBlOTQzYzFmN2I2NGEwN2M5MGVhMWNmNjg2ZjVmOWZhYmUxZmE1YTg1ODE2ZWFkZDdiZjI3ODY2NWZkMzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzMWUxOWMxNjUyMGRmYmE0OTA5MDAyMDJlYjVjZTY0YmQzMmQ0MTVhOWEyMDM4MjI5OGYwMjljOTAyYzNkNGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVkYjY0MWE2MDc4NGQyY2VlM2EyN2QzMmQyMDViMWU1OWM1YjkyNTUxZDBmOWFhMmFmYmEzMmNlZWZjZjA0OWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_94c4ef64cc47402ebb1b001781499f76",
+      "statement": "Colorado DOI-2013-01 is superseded by DOI-2019-05 for policies effective on or after May 20, 2019; the earlier bulletin capped a windstorm or hail deductible at 3% of the applicable property coverage limit, while DOI-2019-05 caps it at 5% of applicable covered loss and requires 30 days' written notice before an increase.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/CO/doi-2013-01-hail-deductibles.md#L1-L9",
+          "version": "repo-lines-v1:sha256:4142d48fb1f04e99034b8fa6232ff47992927506ef8702e5d33467abfaf132b3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWIxYjM3NDYyZjk2ZmY3YzA1YWU1MDZiMjQ5YjE5MzU4NmJmZTc4M2ZiYTgzZDMxMThjODc1NDI3NDk1MTM0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2013-01-hail-deductibles.md#L59-L79",
+          "version": "repo-lines-v1:sha256:9d46c66f09a16ea75a70af63476a56f165aff318297624b1db3b09b19897df1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4NTkyOTFkMzQyYmZhOTg5ODM4YzZiNTEwMzU5N2Y4ZjAzMTI3M2Q2YTU2NGFiOWYzZjI1ZGZmZDc5NzI3ZDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhjZWJlNjUwYzJiYTY1MDRmMjE3YTdmOWZhZjMyODY2ODAwODNjZmVlNzY1YTFkZjRjYzczNDc0NTJkOTE0ZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg4NzJhZGY0ZjBmZGNhODEzMmU5M2ZlYzZhMmQ3ZDQ2NzhkY2Y1MDNkM2E0YThjNjRmMjZkYWNiZWE0MTU5YWYifQ"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2019-05-hail-deductibles.md#L151-L159",
+          "version": "repo-lines-v1:sha256:463e4758b608aa6e29ab7f9ff6b2485ac94e4f10df4f3e74f923c639bafff45e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTlmMTU4YjZjYzE2ZjM5NWY0ZmM3ZDc4OGY2MmYxMzU4MGQ1YzA2OGYwMDljZmNiNWYxNGRhOTgxOWUyOGQwNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0YWM3NDMzYmVkNzQ0OWE1N2ZhNmM1NWRlODBiOWI4NTQ3MTk5OGI5MzgwYTA3YTdkOTliNjc0YTRkNWNhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTgzNGU2Nzg4MzQ1ZGVlYTQwZjNhMjViYWQwMDcyZmNiMGVmNTY5MWJkMzY4MTc1MzJmMTUxNjM3YmRkNTFiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWY4ZTA2YTU1NGIzNWIwYTUyMThmNDFkOGM4ZThhNTNkYzc1ZjAyNzk3ZThhYzY3ZTdlMTVjZGI2ODQ1OTgzMSJ9"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2019-05-hail-deductibles.md#L59-L79",
+          "version": "repo-lines-v1:sha256:5a9937849754ace4b99b32d13fe80b7deb53aea0c05ce8e65df53f358d9fe9da:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhNTU4ZjFkMGNkOGQ3ZjI4NzJjYzJiM2FjMWVjNGU4NTA5NjlkYWIzNTA0NTUzYTgwZmQ1YjMyYWE1NmM5NzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0MDQxNjA5NGNhODQ3MTBjZGJmZWFiMjQ4MDVhMzgyNTUxYTY4Y2E0MGVlZDcyYjQ4NjUzZmMyY2QxNTFkNWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg0MDk5YzhjZmExYmE2YjQyYzIzMDM3ODdlYjhkZGViMGVmNGUxYzUzMmRhYWY5ZDk1YTcyMjdiODcyMzY2YjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2107e80f35ab49c48f07c08ecd6589e3",
+      "statement": "Colorado HO 01 05 2022-10 implements DOI-2019-05 in the contract by setting a 1% to 5% windstorm and hail deductible range and applying it only to covered direct physical loss, including when windstorm or hail acts with another cause.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/CO/HO-01-05/2022-10.md#L59-L75",
+          "version": "repo-lines-v1:sha256:e0d644f0e982c4674d3bac41326c7a23051571ad84077baaf9f4be76d3b27b84:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxOGE2MjE4OWNjNmVjMDY1MWM1YzgwN2RkMzViY2JkZTU5OGIyYWNkYTNmZjQ4MDRmZmVlYzU2ZjY3MjcwZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEyZWMxNDMxOWI5ZDdmOTA3YzA5NzVmOWNhYzBlNDJlOWMwZGQ2OTVmZmU2MjExYWIxZDQ0YTBhYzJjMmQ1MmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiMjAyNDY4OWE0NWUyZDQ4NDQ3ZDI1OGEzYzU1MjhhMWUxODI4ZTEwOWY0NTU1MTQzMmY2YWYwMDI3YmNlNTAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_672cebca21df49e5a5e526c0cd2fc0f5",
+      "statement": "Texas B-2021-08 requires a named-storm windstorm and hail deductible of at least 1%, caps a hurricane deductible at 5%, caps a seacoast-territory windstorm deductible at 10%, requires claim support for the deductible, and requires 30 days' notice before an increase plus a 72-hour continuation after a named-storm designation ends when the policy uses such a period.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L157-L181",
+          "version": "repo-lines-v1:sha256:0b74c7eb7ed107fe7eea69068dad8b7c0010eefa4a8e5c4f27115ab580987217:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZGE4ODE2MDVkZjE3YjA3MjkzNzVjZmI5NGE1YWUzYjE1ZDg3MTU4MDk3ZTU0N2Y5ODc5NTNlNThhYjQ0MTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5MDAzYWNhNjAyNTZkZmQ5ODkyZGJjOTE1Y2M3ZjcxMTE5NTNlNmY4MWE4NzA0ZTRmN2E1NzUxNDQyNjlkMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhMTk5OGJmMzcyYTBmNjI3YWFmZDk0MDc1MWE0ZTM4ODhkZThhZjFkMDFiZGU0OTk3OTZlMmJjMjJjNjY1NGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjNTM5NjkxZWJmODRiMTA2MjE4NmUwNTFjNGYwODQ2ZTljZjYwNGU4MzI1MDA4YzdlMjMwNDM5MDBlYzA3YjIifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L47-L89",
+          "version": "repo-lines-v1:sha256:5c8f99d93658aa45af43832085a568952bb1fc4e3069dde2df6bb661ecbfbe07:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxZGM3YzVhMGUyMTljMDViZGQ5MzExMDYxMDc5ZTIyMjczN2EzNDk5NzAyYjA0Y2U3ZDRhOGU0OGUxOTA0ODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkYTY4Njg4NGUwYTM4ZTM2N2VkMjk5ZTQ1Mjc2MDM3ODE2ZWY0NDE4ZDcyMGNjOGY2NDQ5MjIzYzYyYTI4YzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAwZThmMjhmMzMxMGFmMTA0Njk5ODZkNjc0YTdkZWQyZDhmNTlkNmMzMjk4NmE5ZWYzZmI2ODE1NDE0YThkYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_49a6191c125b45eb98e25c2766f05269",
+      "statement": "Texas contract editions differ: HO 01 45 2022-01 uses a 1% to 5% windstorm or hail deductible and 45 days' notice before an increase, while DP 01 45 2022-01 uses a 1% to 10% deductible and 30 days' notice.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L215-L229",
+          "version": "repo-lines-v1:sha256:f084c931cd16d0d3e056f2cb71e42763c53bf2c2f0c68d92d2955360753eeeac:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxMDM5ZjI2ODlmMWY5YzQ0NTE0ZjBhYTQ3NDI4MTBkNDQ2OWNkNzM1MWRjNWIwMGE3OWY1MWE5OTcyMzNlMzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRiNWY5OWM5ODFmMzU3NGY5MTcxOGE2MjcxMmU1YzE2NTBkZWQzODE4NjJlNmRlMzQ4NGI3YmRiZTE3M2Q0YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2Mjg4YzY1MDJlMDlkNDg1NzRlMjM4MjUwYzhmYWNmNjc5Nzk5NGVlODM3Zjc4MDg4ZTU4MGY4NmE4N2U0YmQifQ"
+        },
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L59-L81",
+          "version": "repo-lines-v1:sha256:4299e891137bcbbf2509c351515af10e39cc3722ce278496c21d8868d0362878:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MTUxYzEzNGUwMTEyNmY3NmNjNWI1ZGExMzA0MTEyODNlYWI0NjY4YTYwNWZmMWI1MGQ3YzNkNjI0ZTUwZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYjU1ZGY4ODcwMTg3YjYyMTUyZGM4ZjAzMDY2NWRjOThhNGZlOTdhN2FhNmU2ZDY0NDdhNDE1MjM2ZGIyMjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkwM2I1NmFmZDVmMDU1YmEwYWIyYWU3MjNlYTk3OWI0MTdiYTIyMjNhN2ZkNzJmZDAxM2ZjZGU3OGEyYmZjMjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyY2U4NjdkNWZiNTFlZDM3ZmMzZDVlMmFiNmRkOWU0NDMwNzU3YTlhODFkNzQzNWZhMDNmMDE2ZjM4NjM4YTQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L169-L183",
+          "version": "repo-lines-v1:sha256:0e71dbebdf5810a09ba1e43bdce5449d8f64d16fe6d4a17437c86b39bde6081b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0NDliMDc3YzQyNWQyMTM2OTI0YTgyMGI3MzFjYTcxMDM0YjVlODYxYWIwNTQyYjc4ZTY4NDU0MTg1YWU4NTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNjFjYThiNzI5NjZlOTI3MjY0ZTlkZTMyM2ZlYjhhMDE5MGVhNDE1MjdiNTE1Y2MxY2VmYThjYzc3ZGYzNDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3ZWVhZjYzYTAwYTk3ZDQyNThmMmVlNWE5YzY4ZjY4OTliM2Q1NTUxMWMwOTMyNzdhMjEwYzJlNmI4MDk0MjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdlYWRkM2NjZDM4OWRkMzdjNzMyMmY0MDVjZWE4YmVmZTA3MDQ2ODgyYTRiOGU1OTY5MjE5ZmRkOWI2YjI2OWUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L61-L103",
+          "version": "repo-lines-v1:sha256:4e61300fa20131a6de4b9817331f811676c03e296a5d16c964b74e4e30da0e4b:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4OTYyOGVhOWY1NTkzMzY5MTEzNGNlNTE1MGU0YTNkNzZhNGQ3N2QxZjQ3ZDkwNjlhMTg5MWQ2Y2JiYTNkYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5YmY0MTI4ZGQ0NzVlMWIyYWU4NGNiODMzMTU2MzczNjU0ZGU4OTViZDc4MWRiZTVkM2Q2OWI0NzExNjQ2MmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlYmQ0MDY2NTVlM2Q0Yjk2NmI4NTAzMGFkNmI0YjBkODgwNWFlMWZkZTlkMjdlYTZmMGZlMWE3MjZhYzUyMDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQwODQ0ZDQyNzczYzQxZmI0MGZhMzY4MGI4MjQ1Zjg5OTMyYjkyZjdlYWZlYjQ1MzA0ZjQwZGY3ODkzMGE4MmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8abefe78167e4ff286c887a16bc7489a",
+      "statement": "Louisiana LDI-2012-05 is superseded by LDI-2020-07 for policies effective on or after July 15, 2020; the 2020 bulletin caps a hurricane deductible at 5% of applicable covered loss, requires 30 days' advance written notice before an increase in a windstorm deductible, and requires a named-storm period to continue 72 hours after the designation ends.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md#L1-L9",
+          "version": "repo-lines-v1:sha256:2716db2be795befbccd6efeda925e273fa5d4be9190913939c6d6b06318f8392:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1NDNjYWU2OTY3YTFiNDE3ZGJjMTlhNTliNjA0MmJmNWQzYTdkYWJiNjlmM2QwZDkzMTdlZDZkMDQyMmQ3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L179-L221",
+          "version": "repo-lines-v1:sha256:72034ce3283f86ee52ebba688bfb2dcae4c43b9f16b055281ae44e1702d23c67:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4YzM1ZmQ3YzI4YTJkZDczZTkzNmEyOWY2OTc4YWY3NGZlOTM1YzkwYjUxMjM0ZTBjZmNhMTIxZmEwODkyYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxMGU1Y2JiNzFkMWZkYjg3NGFhODI0N2E4ZDU4NDdiZmY2NTViNWM5Y2Y5N2RkNGViODk4OWU4NmQ2NTM1NTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMzNzMyM2Y3MzNmZTYzODZjYjEzNGEwMTdhYmFmYzFmNDVlZGRkMWExYzc0NTQ2MWVmMmZhMTM4OTEzMGY5NGUifQ"
+        },
+        {
+          "resource": "repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L71-L97",
+          "version": "repo-lines-v1:sha256:6d2248d30e82ffb95338937ad5ea952741c87a9807486c641f5c4a7bd3c1dcd8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxZjhjM2MzYjMzODdiZjdjZTBjZjQxOTllZmMwMGM0ZTdjYTAzMGRiYjI2MTE1MzllNzUwMWQ5NTM0NWI3ODgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlNzU2YTcyZWYzMmU2NzJmOGVkMjI1Nzg4MWQ3YTQ4ZjkyN2ZhMTFkMzYwNjlmNjZiMzEyNzZiMjYwNWFjYTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNWJlMjJjODk0YjZjN2E5NTRhYTUxZGY2NmViMmEyYzE5MjE4NTFjNzk1MDE4MjZlYzg0Y2MyNDliZGE3NGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIyZjg4ZDA2NWNhOTE4MjljYjRmZTE5NzU5OTAxNzVhMTkxZTZjYzNjY2Y3NjA0MDFhZGUxNmRkNDQzM2I1MGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9af80b5e31654cdb8063285214c4127d",
+      "statement": "Louisiana HO 01 17 2020-09 applies a 2% to 5% windstorm and hail deductible to covered direct physical loss, treats related damage from the same event as one occurrence, requires 30 days' notice before an increase, and defines a named-storm period that continues 72 hours after the designation ends.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L211-L231",
+          "version": "repo-lines-v1:sha256:651de47929f5ee375dcfab9d267463746427a8025e88b22bfab8dc907815c5f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5YTNlNjFkMDYwYmIwZGQwZmY0YTk5YmNkNGMxY2QxOTlmN2Y2NmQ4ZGYwYjJiZjY0YjQ0N2NhYzVhMmM3NDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwNzQ4NjNlYTY2ZWEwMWI5MmE1ZGQ1ZDdjN2Q2MjMzMDJhNWQ4MzFlNGI0YTUyOTU4ODA2NjFhM2JmNjBkMWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlmYjI0YmJlNTAxZWY2NzAwMGQwMjZhN2I5MmUyNWU4YmMyMGJiOTEzOWFlMWY1Nzc3MWEzZjU0ODI0Mjk5ZGEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L261-L275",
+          "version": "repo-lines-v1:sha256:b430d3b262d8a60f6d9f23a928d3545a085d417dbb41d8be8e2f9d304522c003:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlN2JhNmQ1MDE5MjRmZmIyNDVmOTM2NDZjMDIxN2MyNDZmOTNiY2UxYzEwZTFiMDE3OTE4NzJmYmZjYjdhZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1MzU2YWRiNDllYjU4Yjc1ZDU2NjAyOTk2ZWU1ZmUzM2Q4M2U4NGE0NmIyOWIyOWExYWZiNTZlYTM0Yjc2ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdhODc4NTk3MWQwNTI2ZWZlNGY1YmMzOTVkOGQ2NTI3ZjA3MDg3YjNjZjZmMTIxNWYyOGMxOWFlODExYWNjNGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/LA/HO-01-17/2020-09.md#L59-L99",
+          "version": "repo-lines-v1:sha256:430d2b95ca15322532ce2e752be8937626d2fd03d6a8e4dc801145b4a6233500:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNmZjODllMjZjMTQ4NjQ3Mjk4NGIyOWIwY2I3MjljMWRhMmRkNjI4NTVmODM2MDZhMGJjODk4M2FhMzgzNTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhZDg3MmU4MGE2NmI4Nzk4MTFlNTFhNDFmYTQ5ZTJiZDQ2ZTdhYmM4OWVkYzExNTVmOGYwYTA2ZjZlMzg1YTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVhOTQ5ODRiODZlNDIyNGNjMzc4Yjc2M2I1ZjliMDRkNTNiMTA1ZGUyN2E5MjYxZDQ4NmIxMGMzODVkYzkzNTQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}

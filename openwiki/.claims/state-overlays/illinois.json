@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:297e45ca660af6c3db19a234af0adfb048ddf47c20dbd83a92a8f8fa7946eb08",
+  "claims": [
+    {
+      "id": "claim_79a16c633ffd42dc83b17e76fcb91067",
+      "statement": "Illinois Bulletin IDOI-2015-04 is effective 2015-04-06 and governs admitted-insurer producer-licensing renewal administration; HO 01 12 edition 2015-02 is effective 2015-02-01 as Illinois HO-3 contract language; and Illinois Bulletin IDOI-2017-10 is effective 2017-10-02 for water-backup disclosure and related claims controls.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L1-L7",
+          "version": "repo-lines-v1:sha256:cc65d708d80c66cd666e71f8a5171cc617dd6dd6aaccc7f9f9876a6f7b483462:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmQzYjYxOTZhMTE5Y2NjOGQxOGI2ODIyZmU5MjYxZjNjNzI0MTlmNDZiZjgxM2EwMDVkMWE2ZWU3MDQ2YTcwMiJ9"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L1-L7",
+          "version": "repo-lines-v1:sha256:386fd867ac7568f1b1bbecd920a6e9527f69b581eb5a43a4dddbb440368094e9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmE3OGE4NTFhMDM1MTVkYjNlMjIzOTdkOWNmMGUwNDMxMDZhMTdkZDBmM2U2MzdlMGEyYTc0MjQ3OWNhZjJmZCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L1-L7",
+          "version": "repo-lines-v1:sha256:8c4a92bd3e7b53a7604605fcf9c254a194452aa07be13072dc5945941f14890a:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGY5YWM4MTA4MmRhODhlODJhMzM0MDA5ZWIyNmQxY2Q0NzlkMGFkMzhmYjgwMTJjMTE0MzM3NDdkYjg5MTBmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY4ZjdjMWI4ZGQ2MmNiNzIzMWYwZDEyODNiOGJhODRiMTVjNGFiZTMwNDM1NTQ5NzY4MTg1YzQxNjE2MDNhZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b6bc9e87931d4845b60407583aa005a0",
+      "statement": "HO 01 12 controls when its express terms conflict with another applicable provision, leaves unaddressed provisions applicable, and does not create coverage or remove an exclusion beyond its express language.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L13-L27",
+          "version": "repo-lines-v1:sha256:c2e27e6e837ea3beb43c5b9e894191f41ec5e36fae253c8392603bc3dc9a8e62:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiYjk5OTBhMDk5MjBiYjViOTAwNTU1NDM2MDA2ZmMzY2JhNGFlZmFjM2Y5ODlmZDA2ZWYwYjgwMjNhMGI0MjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllNGFlNTQ4ZTlhYmJkNGQ5NzFlNTlhODk5OTAwNTQxNDhhZGE5ZGE1NWYzZjEwZWIzNjA5ZGFhNGI4YzU3YWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e4bd815b91aa4efc94972d062a9127b2",
+      "statement": "IDOI-2015-04 requires an insurer to verify current producer authority appropriate to the lines transacted before dependent activity, reconcile licensing and appointment records, and remain responsible for delegated producer functions and corrective records.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L101-L129",
+          "version": "repo-lines-v1:sha256:2f9f1dd600486311b9579b64f6ecaa85b740e764f9d61428239af4f0254cc188:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiNDdlMWZhZjRhNTdjNDFhMzg2ZGI2M2U1M2U0YTEyZTJlYzcyZjljMzVhYzdmNTlmMTA0YWVjMjg4ZDIwYzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2MjYyYzllYThmYTU3N2NiNTc0ZGQ4MGJhNWNlODZjYTk0YzlhZTgwYzU4MzFhN2E0ODc4NGNlOWJmZjYwZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5OWJlMzU1YTY3ZTQ0NDgwZjcxOGZkOThkZTAxNmZiNjQ0OTBkNzJjMTA2OGNlNGZjZmE1Yzc2ZmI1ODk4OWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5MzgxMmYyYTFjOWVhZmUyNzczZWU0YzU1ZDA5NmMzZTk5ZWRiNDE3ZTlkY2JlMDQ0NDc0YzFjNzBlMGZjYTQifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L169-L179",
+          "version": "repo-lines-v1:sha256:80e4177359d1cff8040467bd17c0419b6f4276a5036ad0b7ac98aea2e363ceb3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlYzk1NjQ1Nzc3Yjc3ODQ3YWFhMWIxNjczNDQwYTI2ZWU2MTY2NTFkMzZlNzMzNmNhNTg0MmNmODg0Yzc4NTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkNjRmYTRmNzYzMmY2ZDYyYmNmMzg5M2MzMDRlNzMzYmI0MWMzNjI0MThjYzI2MmYwOWQ4YjdmMjc0YmY0MWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmOGYyNGFhYjE0NWI3NjJlYzY1MWM0MTFmZDg2MzNlNDk1MTMwYTQxOWY4ODA2MGI3N2I3Nzg1NWJmODgyZDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzYjZmNTIzODU1NGM1MTc0NmE5MjdhN2JhZWZkYzA4OGM0NzdiMDZkMjdlZjgyM2ZiNmIwNjFmODlkZDNiZTQifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L63-L71",
+          "version": "repo-lines-v1:sha256:6abf32376cc733636568e75e19d2809181b0550b0a28f3a79830078371313ee6:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE1NDlmNDA1ZjZiZDc3M2I5N2QxZGU3ZjJlY2QyYTY3MmM5OGFjNWU2ZjlmMWIwOTVmN2ZjOTU0YzUwNmU1ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzJlMTc4OGZjMGFkMjQ0MGZiYTUxMTE4OGMwZTY5ODcxNzc5Y2YwZDA5Yjk1MTEwYmVhZTg4YzM2ODU3NWEwNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWY0MGQ4NDRjOGY1OGQ5YTFhZGJmYTM2YmY5NGU4ZmY4YWY2NzE3NDY5YWU3OTc3MGNmMjQzYTljZWMxNzgxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTYyNTlmMDdlNGViOTY2ZGZiZGEzZWZhZGUzZDU5ZmRhZGJmZDU0NGU1MzU5NDUyMTU2Y2UwMGQ0MWI2NzQxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_81a711430fae4d4fb3a3abcc8fa2311d",
+      "statement": "An Illinois producer-renewal communication must clearly identify the producer and licensing purpose, state the producer's responsibility, describe requested information and consequences, avoid unsupported authorization representations, protect nonpublic information, be retainable when electronic, and generally provide notice and a reasonable correction opportunity before restricting activity unless immediate action is necessary.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L181-L221",
+          "version": "repo-lines-v1:sha256:3a352f6002f7e4ecae228f8d3552f4310bb18c6ca1a5f650d991bc52acf02ea1:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3OGEzYjg5ZGQ3MTE0NjBkZTQ0ZDAxYTMxYjhmYzgzMjhjN2ZjMDZlYzIzZTQ0MTk2MDk0NWNjNTFkZDE4ZmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1NjU1YTZhODlmMzE0N2EzMWRkNmYyMzY5ZmJmMTQxZmQwNjQ0MTM1YjQ0MDE2NmY4Njg3Mzk0ZjE3ZGFkNGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIyMzk4ODFjNWY5MjcwYTBlOTUyNDFlMTgzMjNkMDIzMTczYmQxOTM0ZDBlZGU0ZTJmNzc5NzczNjE5MjhiNzgifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L223-L237",
+          "version": "repo-lines-v1:sha256:3eaeb243bf58aae87a1f025541cd224934b073b40e3c5109f0440711d4c060fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyYjE4MWRkYTRhNWE4MGQ0NTA4NGUwZTUxOTFkZTZiNWRlNjA3MDI5MDlkZjBkYjNhMDlkMDE1NjQyOTBjZDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxMzExYWQ5MjBjODBlZWIxMzAzMjNlZjRiNzBmYTljNDdhNWUzYWY1NThmMDI3OThmZjMzNTNkMzRmOGRlYzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlNDY1Y2M5NGYzNTRjNTRjZjEzOWI4ZTE3MGVjNDhmNGQyMzZmZjJjZGM3OGViYzQ1NTYwZWQxMjdmZmU4YTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_708d07d7d1e54130a4726c8348bcfd88",
+      "statement": "IDOI-2015-04 requires producer-renewal filing material to be submitted before use; Department receipt is not approval; effective material must be used only as permitted by law or approval; disapproved or withdrawn material must be discontinued; and filing records and corrections must be maintained.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L281-L305",
+          "version": "repo-lines-v1:sha256:d5dc15ad8d964501ab437d8566dd1ed0f18185d17acf57e897e7e988ebaf40bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1OWUwNzljM2FkY2I0ZDhkZWI0ZWU0ZTk4OGNlMmM5NWRiZmY5MGE5Mzc5YmNlNmI1MmQyMWFhOGNlNjU1NmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVkYWRhMDljMGViYmMxZDI4YjdjYzNjNWNiOTIyODdkNWRmM2I2ZmU3ZDQ0MmQ4ZWNiYTMxMTVlMDkyZTIxMTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b0d9e85d844e421c9b792b63053ab282",
+      "statement": "Beginning on its effective date, IDOI-2015-04 requires Illinois claims to be handled fairly, promptly, and in good faith, with reasonable notice and investigation procedures, necessary-information requests, plain-language explanations, written denial bases, reconsideration of material new information, payment when coverage and amount are reasonably established, preserved claim records, responsible supervision, and Department cooperation.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2015-04-producer-licensing.md#L239-L279",
+          "version": "repo-lines-v1:sha256:6462c73ec08cba7c5a0bd621f2c169145868bc4addbbc9c81b8e6a2add931aae:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4M2VjZDIwYzAzMWE2YzQ3Y2IwMDYzNjcwMTBkOTRjNzg3M2JkYmNkOTA1ZmMyZDc2ZDVhYTJmMWNhN2VjOTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE0MDlkOTNmYjNkYWMzYTZkMzllM2ZmZTc4Njg5NGFhMDQyOTgxYzllMGYyOTk0NmI4ZDNlNWYzNzU5YzAyNjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_73f76837abd547a6a6e18dab7fac69be",
+      "statement": "IDOI-2017-10 applies prospectively on and after 2017-10-02 to applicable Illinois personal-lines property policies issued or renewed by an admitted insurer and to transactions that add, remove, or materially change water-backup treatment.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L127-L131",
+          "version": "repo-lines-v1:sha256:95d70440e272949a51e3739203f9adb2c8bfba663092515a6fec7b7835e5d179:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjExODlkNjY4MzBkYzVhNzNiMTA5MTBkMTkxYWM1ODU4ODI1YjgzM2I0ZmU0NTE5Zjc4ODEwNDA3NjdmNmY1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTFlNzMyZTBiMGQ0MDVkMTc3ZDA4MGQ1ZmUxYjQ2MjJjODcyYTYyZDE0OTEwYWM4YzMzMWI2MTFjN2VkZmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NmZjcxMDRhZDBhNDNmMDA3NjI4NWMxNzkzNjk4NGZmYWFjMDQ2OGZhOTA1MTU1OGU4MGQzNDkzZTI4ZDkzNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTNiNmY1MjM4NTU0YzUxNzQ2YTkyN2E3YmFlZmRjMDg4YzQ3N2IwNmQyN2VmODIzZmI2YjA2MWY4OWRkM2JlNCJ9"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L19-L23",
+          "version": "repo-lines-v1:sha256:0fe56fd268e1142f2b8e99a4203302dcc3de700d76ff893fc56769473dfabddf:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1MmZhMTY4MmZhZjY3ODA3ZWE4NDJhZTUyYTg0ZmU3NzQzNGEwZTY3NWMzODI4NzI1YjJhNmU2OGFjYjA1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmZhNjJmMjk3MmIzZTJjMTNiNzM1YWJmZDM4OGM5NTlhODkwN2JjNzI5YjhlZGJiMDYxODMwZTlkNTdlMDIyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMDA2ODAyNzFkZjFhZmRhOTJhNWM5ZDc1NWUwMThjMTEwZDRmMDYxMWUyNWYzNjY1NzRhODdiNTljZjAxNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDkxMDM1ZDFkYzUwNGRjZDEwNzA1NjUzM2Q4NzgwMDRlZGNhM2NiYTFiNzY5NTU1ZGQ3MWQwZTA2MDdjZjM5MiJ9"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L39-L45",
+          "version": "repo-lines-v1:sha256:00f495d30eb947b0c5e1c4f85212e0d78fadb6fee17e0fa7d957b6aa2e759a2f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGZjOWUzMTgyODIyNDdhNWZjMThiYjRhNjc5ODg4ZTEwOTBjZGZjNmZmYTljOTk4ZGViOGE0NzExMjhhMTQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI1YjgyMzc0NjIzOGRkODllZWQxZDEyMzcxZmI2YjBhMzQxMjdjOThmMmNlM2U3MTA3NDM4ZjMyMWJjNDlkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTk0YWQ4ZDg2ZGNiNjAzNzZlODhlYzk0YzFmNzE5MWE5MTIzM2RiMDI3ZmUzZDk3OGZlY2RmMjU1MzdjYmExMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmVkN2FhMTZjZTRkOGQ3MWFmNzk3NjQzYTIwN2RmMTBkZGI2NzZlNGQwZTFhNDcyNDY3YTdhOTNiOTI4OGI2NCJ9"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L67-L73",
+          "version": "repo-lines-v1:sha256:8d0a9d29e73e4f805aec69c0c27912137220119aa27f8a369d79777a00cd488a:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM1NTY5ODVlYmJkZjI5NWY4MGYwYjgzYjI2YjhkYTlkMWQxZWNmNGQzZmJmZmIzZTU3ZWRlNzliOWQxNWE3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjMxMTc0NjJlZjg0ZGZhODIyMGVlZTAxNDhiMTg0MTc2NDJiMmJmYTQyZjNlYTQ2M2E4OTE5MGEzYTU0ODYwMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmJjZTA3MjZiNGI4M2JiYWFkZTUzMGU3MmY3N2I3NGYwNzEwMmZiMjUzYWNlYmQ4ZTg0MjEzYzYyMjdlZWVhZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzZjMGVlNmY1NjQzZmIwYTFiZGRjOTIxMDM3YTkxMjJhMzkwNTE3YzFkYjA1Zjk5ODZjMmM4NTliN2RhNzc0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c6a982f974f74b4283c4596211a95e84",
+      "statement": "The Illinois water-backup disclosure must be clear, conspicuous, plain-language, consistent with the policy, distinguish backup from flood and other water damage, identify sewer/drain/sump treatment and material exclusions or conditions, state deductible and limit treatment, and disclose a $5,000 maximum payment under bulletin B.2.6 without replacing the attached contract's limit.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L15-L31",
+          "version": "repo-lines-v1:sha256:75d10a538003f36f5338565c9c6a8b38e821cc2c001b60184273dc8d21f70d76:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlMmIyNTc3NmFkMDM1OThjMDBkOGJkNmJjYzI3NWI4ZTFkNGRmZjQ4YzFiN2U5ODAwMThjZjJmN2RlMjA2OTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY5MzY5MzY3M2VmZTE1OGJlMTQxMTZiMTM4Nzc4OTFiOGU4NzU3Y2ZlMzI1MjI2ZWU0MjUwNzI4ZmNkMmIzM2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxYjA2MjU0YmVlM2Y0MDhlZDUwNjBmMDYwNDMyNzkxZGI4Y2MwMGViMjNjNTM1ZGE2NTM0Njg1NTAzOTY2NWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkMGIwNTFhMjc2Yzg4ODQ1MDM2NjBhNzQyODIzOWMxYTg3ODExNzJhMDk3NGE5ODFmNTRkMGE2NjBjNDkwNTMifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L53-L65",
+          "version": "repo-lines-v1:sha256:5fa29d60679e912f79e4d9f170ae6d543d1891717bafd57280bd88f577029a97:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YjY2MDU1ZGNlMzU2NTM1ZjQyNDNmZDhkNzg0YzI2NzgwOGNiYTRiMWQ0MTczY2UyY2U3YTQwYmVlMGE0MGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwY2Y5MzlhMjk3ZGU3NDkwNWM1MjE4Y2ZlMDAyODI4OGM0OGRlMjk2MDg1ZGUxY2JmZTgzYmQ1MDNmZjk5M2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI4NzVjMTQ3MTNhMWE2MDFmZmU2ZWE1YWRiZTE4OTM4NDZhZjllNDM0YTkyODNiOGJjYzU1ZmExOWE4NTU4ODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVlNjRlY2I2NDc4ODNjYjg4M2EwOTk4YzQwMjA5Y2ZjZWVkN2NiYzhiYzY5YzJjNTAzYjgzZGM1MjhhMzNhZDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_88224f0a086d44da9b9ceb7ae522229d",
+      "statement": "The water-backup disclosure must be provided before the purchase decision or acceptance when practicable, with or before material coverage changes, and at applicable renewal; electronic delivery must be accessible and retainable; and the insurer must preserve the delivered version and election or rejection and keep quotations, declarations, producer communications, policy materials, and claims handling consistent with it.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L135-L179",
+          "version": "repo-lines-v1:sha256:b24466dbed26fb6a001c306ed45a93d21d7d79f2dd6b8a8b73bce14673c56156:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkYTgwMzQ5M2IyNzdmMTE1NDFiMzBlZTNmZDA2MGJkZmMxZTVjYTI0YmNjMzJmMjg3ZjZkZmJlOGJjZWNiZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3N2RmYmVhYjQ1ZWQ1ZTIzZWVkY2Q1OWUyODg3Mjk0NWJiODBkMDI2MDFjY2RiMTIxYjg3YmQ3NTY4NTFkYTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEzYjZmNTIzODU1NGM1MTc0NmE5MjdhN2JhZWZkYzA4OGM0NzdiMDZkMjdlZjgyM2ZiNmIwNjFmODlkZDNiZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM0MDA2ZTY2MTNjZTljZDQxOTU2Yjk4ZWI0YzNhY2NjZTg4NjNiNGYyZDJiNWZmNTYxOTAwN2Q5YzQyYjlkNGEifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L247-L261",
+          "version": "repo-lines-v1:sha256:a290e05244067cbc11d576c7d9b771edad54703d9ee5c91d42756df29b13fcbd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3Njg5NjgzMmMwZTRiNTljOTM5NzhkMzFkZjg0MmM4MGU4NGQ5ZTMwNTE3YjQxYzJlMmUxMWRlYzE5MjA0OTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyMTgyMzMyMTU0OGU1ZTc1OTcxMTA4MWJhN2Y3NjZkMTBmYmRmNjBjODZjNDlhMzhjYWJmZDdiMTNiYmRhNDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0NmIwMDkyNWY5M2VjMTU2ZjdiMjk5YTA3ZDJiMWRjN2I3MjVmMTJmZWExMzY3MWQ0YzA0NjI4ZTE4ZGJmOTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjZDI1ZTQ3NTliMmJmYmE5ZDNlMTA0ZTIyYWU2N2E4OTMwMGZjZjIyMDgxNzVlMzc5MjNjOTY4YWQ5ZjZjYzgifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L67-L103",
+          "version": "repo-lines-v1:sha256:90e482284bced543420bf50f5a90e3b2d0685d85df00f20e2863eed34e51ae7d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzNTU2OTg1ZWJiZGYyOTVmODBmMGI4M2IyNmI4ZGE5ZDFkMWVjZjRkM2ZiZmZiM2U1N2VkZTc5YjlkMTVhNzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM0NGIwMmFmNTgwZmU0M2EzNWE2MzFhYTAxZmU0ZmYwNDVkMWEyYzJiNDY1OTY0NGYwNTM0MjI1N2RlNDAzNDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiY2UwNzI2YjRiODNiYmFhZGU1MzBlNzJmNzdiNzRmMDcxMDJmYjI1M2FjZWJkOGU4NDIxM2M2MjI3ZWVlYWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFjYzM4OWFjOGQwNThiMjJmNWM0MzQzZjQ3OWU0YWE2ZjI1MTQyYzBiZDQ5NDI2MDdkZWJhYTEyZDY5NWU4NTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c0ac82f49b04492dbb3e861e75766cdf",
+      "statement": "An Illinois insurer must file the water-backup disclosure before use, identify the applicable policy forms and endorsements, file materially revised disclosure material as required, and discontinue and replace a disclosure that no longer accurately describes the contract.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L231-L245",
+          "version": "repo-lines-v1:sha256:5cf1404c7c920b308787cad2d77b8feddd4f78d3ab93b391acaa24f379ab3e44:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NWQ5OTdhZmE4MmJiM2M1ZjcxNjJlNzliMDEwZTYzYmZjNGViOTBlMDM1NTlmZDAxZTJlM2NjYjRiNTU2ZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZlNjVlYzYxZWJiNWMyM2Y2ODFjMGY2NTYxMDk3YTkxYTBhNTA1MGQ5YjNiZWY4ZGE5M2EwZjIwOTYyYTM4MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc5ODI1MzAyYmI0OTgxZmRmYTU3ZWFmMmE5NjQ3MDUwZmZlY2FlNzgxMGFjNzM4NDg2NjJhYjViYWFlYjM4NWEifQ"
+        },
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L251-L261",
+          "version": "repo-lines-v1:sha256:54d6f70ccfd69558829aac6ac463a06e086d3adf6b96447839a8be02ee3ee007:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExNGY5MGYzMjViMmJiMjZjZTJkMzFkYjcwMmMyZTJiZTg2MThmZjhlNmI0ZTU5NjhhYmFhNzI0Y2ZmMDhmZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyMTgyMzMyMTU0OGU1ZTc1OTcxMTA4MWJhN2Y3NjZkMTBmYmRmNjBjODZjNDlhMzhjYWJmZDdiMTNiYmRhNDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM5ZGE2MzA4MzYzM2Q1NjYyNmVmOWVjM2Q5ZGRkY2E2ZGI4ZjE4MmE2NGQ2NmFlZTVkNzY4MDk4OTc4N2M2MTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjZDI1ZTQ3NTliMmJmYmE5ZDNlMTA0ZTIyYWU2N2E4OTMwMGZjZjIyMDgxNzVlMzc5MjNjOTY4YWQ5ZjZjYzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2a9922446f9e449093118a97f21e59df",
+      "statement": "HO 01 12 applies a deductible once to each covered windstorm or hail occurrence after covered direct physical loss is calculated, without creating coverage for an excluded cause or multiplying the deductible by damaged items; a deductible change requires the stated written notice, content, delivery, consent, effective-date, and prior-claim protections when applicable law requires them.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L165-L229",
+          "version": "repo-lines-v1:sha256:7e91a67ce70c1093113a6920ff9726aa0301f04d45ba415f1bbe5e8c108b99e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMzU0MjM2NTljNTk5NGIyMDE2MDg3ZGQ3ZjE1NGY1YmJiODgzNjYzMmMwOTEyZGJiOWVkMWU3ZjIzYzcxYjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4MjU0OTU0NjQ1NjAwYTgzNzcyNjRlODViYzZjOTQxNmIxZmUwMWE5OTI5ZjZhMTg1ZWZjZDUwYWQzZDVjNjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY4YTU2NGI1ZjI0N2EwN2RiMTEyZTI4OWFmOTI0ZjdmYjI1MzgyNDcyY2NmZDkxZWUxN2MwYTZiZGY2NmY1YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM2ZDE2YjQyYWI3MTRlMmIxYWZlZTExOWEwMjdhMmVkMjdmOWUwZDc4NTM2MDEyNzgwZTQwYzVlMWQ0NDM0NGUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L57-L89",
+          "version": "repo-lines-v1:sha256:a673f86994635e48a1db93ab4395dd8f55a2d6348d3fada55efd15d9b3e9784a:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3NmFlMDQ2MjYxNzZhM2U3OGI2Y2UxYjAzNmRjYjZjYTkyNzA2OTM1Mzc2Y2FiN2UyZjYzMTM3ZTliMDFmZTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhMzEwNWVhZmY5ZGYxY2JhYzVlZTg5NzQyMjZlOWU4OGI1MjVhYjExZjFjODZlNTFhMDAwNjE3MzgwNjljYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMyYmZkMmEwZGFhNzg1ZTQwYWQ4YTA3YmQ4ZjJhZDY3NGEzMjQ5NmY2NzkyYjhlNDViNzEzMmVlNWMwOGMyZmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c521dbf225b142afb2868383644aac73",
+      "statement": "HO 01 12's named-storm provisions permit a notice identifying the storm and area but do not create coverage, and require prompt claim notice, reasonable protection, preservation, inspection access, records, and cooperation, with prejudice required for a coverage effect from noncompliance.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L231-L279",
+          "version": "repo-lines-v1:sha256:7565f0e6d170a6c221dac23c68a1bf13c38493056e849b7d6925f0126de4b441:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZDY4OGJkMGZiMjc5ZjJiN2I1ODYwNzk4ODYxMjUyODgzNGI2ZjAwMDNhODQxZmNjZmQ4ZjNlM2UwYzIyNzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjliZmVkMzZiZDc4MGZjYzU3MWZmOTU1M2EwMDRmMzc5NGU5ZDJkNDU0MDM1MGQ2ZTZhZGViMzAyMjBkM2E0MzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmMDkzNTk0YTRlZjkzZTUwNzlmNTMyMzM0ZWQ5MWU3MGU5ODEyNzI5YjgzZGQyZWRhMTFlNTE3NzI3NGZhZmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6f22b281f4e4469bbe2f3fa6caef0ef9",
+      "statement": "HO 01 12 states a $5,000 maximum for direct physical loss caused by water backup or sump overflow but immediately states that sewer/drain backup and sump, sump-pump, or related-equipment overflow or discharge are not covered; the conflicting provisions require verification of the attached policy assembly rather than treating the disclosure or limit as an independent grant.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L53-L65",
+          "version": "repo-lines-v1:sha256:5fa29d60679e912f79e4d9f170ae6d543d1891717bafd57280bd88f577029a97:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YjY2MDU1ZGNlMzU2NTM1ZjQyNDNmZDhkNzg0YzI2NzgwOGNiYTRiMWQ0MTczY2UyY2U3YTQwYmVlMGE0MGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwY2Y5MzlhMjk3ZGU3NDkwNWM1MjE4Y2ZlMDAyODI4OGM0OGRlMjk2MDg1ZGUxY2JmZTgzYmQ1MDNmZjk5M2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI4NzVjMTQ3MTNhMWE2MDFmZmU2ZWE1YWRiZTE4OTM4NDZhZjllNDM0YTkyODNiOGJjYzU1ZmExOWE4NTU4ODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVlNjRlY2I2NDc4ODNjYjg4M2EwOTk4YzQwMjA5Y2ZjZWVkN2NiYzhiYzY5YzJjNTAzYjgzZGM1MjhhMzNhZDgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L637-L649",
+          "version": "repo-lines-v1:sha256:82d84026d66a297e11180afc3f8709c7dcc90169ede95761e397f26f626451f3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1MzViNjY0ZWMwY2VjMDQwMDM0NTdjY2ViZjdiNTZiZTQzMDViMjA5YTc0OWVkNWJjYzU1MmQwMzgwYmZhMDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMDJkZjQyZTdiZTFjMzliMmU4YWE4Zjc0NDYxYjU5ZDVmNTg5MTdiYTVhNTA0M2FkYmJmNjgzZDE1Y2M1MmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5MTI5ZjY2ZTBmM2NjNzU2OTU1NDA4ZGViMGZlNmRlMzhkODQ0OTY1MTZhZGQ2OWMyM2M0OWZhZjM5YWUzZWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5MzQ2MDgzODM5MmY0MWQ2NTBjNTIyY2QzMmJmZWRiYWNhMTU0NzhiN2MwZmY3ZDEzMDJhODcyOTRhMTUyMTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b4ed4abf13604bce99c0727e09af7c9d",
+      "statement": "Under HO 01 12, cancellation notice must precede the effective date by at least 10 days for nonpayment and 30 days for other reasons, while nonrenewal notice must precede policy expiration by at least 60 days; pre-expiration action does not eliminate a claim for a loss occurring before coverage ended.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L281-L311",
+          "version": "repo-lines-v1:sha256:848d828fa12493e6be548b9cfd9c0cba077f2ca808cd4fa878807f649025d3d8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5NzJjZDRkNWIxMzlhOTYwYWMyZDRjZDJmM2Y4MzA3YzAyYzNkMTA5MWRlYjRjYmYxMDYxMmRiZjc2ZTBkNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwYjk5ZTc0N2I0OTc2ZGIzNjgxYjBjZGFhNTQzM2MyODQzYmJlYzYxNDkxZGRkNGZmNDVlZmY3YmYyNTljYjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkY2Q4ZWJlZjI4ZmM0ODAzMjgwZDkyOTJmYTFjZWI1OTc3YzU4YjZlNThlNmRhM2M5YjMwODc3YTQ3MjUzZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYwOTI1NzBjNDUzN2VmYTkwZGZjN2ExZDAxNGFjZmIzNzdjNDNjNTlmNmU1ZGU2NjdmNzNlM2U5YTM1MWQwYzAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L343-L361",
+          "version": "repo-lines-v1:sha256:d042257380f6a188264b47604328b680c957bc2f3748468fbbc81f0d2057554a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlNWZiMmFkM2M4OTI2YmQ2NjVkZDQ3NTc1MGI2MjUxNWRiNTZkM2RiODhiYjg5YjcyZjJhZGUzMmExMGMzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjMDcxODJhOTEzYTk5ZmVmNzNmN2M3OWU5ZjlmMDhjN2ViNWRlNWYzZDk2Y2I1M2E5YTdjYjJhZmZjZWNmNWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI3Mzk4M2M0M2IyNjM1YWM0NjllMDZkODU5NjVkYmU4YjcyYzdlYjIyZGM2ZWNjNzc4OGNiNTg0YzA1ZDhkMzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5YWE5MTc4NDk0ZWMxMDE3YWE5NDY0MmUxM2EwMGY1MDNjMDVkM2ZiMjJkYmJiZTAzNzFlNjQxMTRhNzFhNDQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L377-L395",
+          "version": "repo-lines-v1:sha256:d1efeae53f751f7ebba11fd4b2a2a264cb94c21c51e0ed66f24815c1f857b128:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1NmQ0NmMwODA4OTM2NjIwMzVjMDc4NDA1MTIxM2ZiYzg3M2Y0ODJhYmVhYjA3ZTY1MzYyYjcyZTQ0YTA0MDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmZDA5N2QxNWFiNjEwYTU2M2RkZWE2YjU4ZDNmZGRjNmJmOTJkNjNkYWI4Yzg1OWIwYTk2NDEwOWRhNGYwZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU0Y2RjNzgyODIzMzEyMzJkNzcwYjQyOWNiYjZlYWE4NmExYjgzOGZkMWYxMjVjOTQ1NTcwYWFkN2Q0OTY2ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3ZWU2YTA0MDQxMTI4MGQ5NmNiZWQ2ZmFiMWU5OGI3YTg0MTU1YzYxNDljY2ZjNzM2NmRjZGMwMGM2NGUxMmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e37333547d06480da34bdb4907543904",
+      "statement": "HO 01 12 requires prompt loss notice, mitigation, preservation of damaged property, cooperation, inspection access, requested records and inventories, and a sworn proof of loss when requested; it requires claim acknowledgement within 15 days, acceptance or rejection within 30 business days after all requested items, payment of an accepted claim within 30 business days, and a two-year period to commence suit after the loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L397-L425",
+          "version": "repo-lines-v1:sha256:325b1a8b47cebd711ac621fc82962fd9d608a09ee1620837ede51723b388ec48:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhZWZlYzBkNzQ0M2I0NWYwODc4MDMxMjA2YWVhZDhjYTVkYzM4OWQ3NWUyNDkwYmZlYTE4ZjRjZjhkZjY0ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiNTVjYjAzNjk2MTFhMWNiMTYzY2E4YmFhZGJhZGRlZWVkOWNhMjZjNTE2N2RhYzIyYmJlMDgxZmJkN2Q5YTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmNWRlNDhmY2YwNzY1ZTc0ZWFmYmM1MThhZDkxNjdhMmI0YjJjZjFjNGIzNzhiNGFmMzVlZDVmYTNkOWFiYTQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L407-L409",
+          "version": "repo-lines-v1:sha256:cf6b8a1370964754915eea13936c75e85684c9c2d674844fccafa11d6ae092bc:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmMzMGIwMTIwN2E2Mzg4MWNlYTc5ODdmOTkxYmIyYzE4OTFlYmYwZDYxZDc0ZTY4MTZmNWM0ZThlMzVmY2M1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTEzYjgyNmM5ZjJjMGQzZGFjMzQ5ZDc2MjM1OTQwYjk5NDZhOGMxYmY3ZDExNWM2OThjM2M2ZTRkMzQ1NDQ1MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDJhODRmZWQzZGJlZTc4NzZiNGZmNDg2M2IxMjk5YjRmNjUxNzZhN2Q5NDdkNjMwZjcxOTQzY2MwNjhjZmMxNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODMyZWQ4ODBmYmY2YWJhNzgzMWEzZDc0MTgwMDBjZDNlNDIwZTRiMzIxNDgzYzMzYzM3ZTRiNTk2Njg4NGRjMyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L429-L469",
+          "version": "repo-lines-v1:sha256:2305f79c3622e6c8cfa5da264b633b8e4840a09e3bffc5bfebd9d559627b263d:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5ZDcwYTZjMWJiNWNkMzc4OTlkMTRlODZmNjBmNWQ0ODFiNmJmZWZmNTQ4YjM5NDZiYmYyYmRiYjJhYmU1YzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlM2RjZjM5YjIwMjU1NzY3Yjk3YjczNjQ3ZmI5MWQwM2RhM2ZlMzE3NGU4YTRlNGRkY2E4MWIwNjA1OGE3YTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmNWRlNDhmY2YwNzY1ZTc0ZWFmYmM1MThhZDkxNjdhMmI0YjJjZjFjNGIzNzhiNGFmMzVlZDVmYTNkOWFiYTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM1YzcyZThkZDlhMjI4ZDgwNmFmZDUzNzczMzI2ZDEwZmRiZDcwYzg0MDNiZjJlYWUyZjcyODgzZDkzN2I2MjAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/IL/HO-01-12/2015-02.md#L565-L585",
+          "version": "repo-lines-v1:sha256:a8a3effb1c2acf0db8072250dd4112a10cc4e972a883263325123be4f8f68c11:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkMmQxMDgxNTkwZGUwOWViMmU0MzgxMDI4YWEzNDUxNTBkM2I5MmFjYjQxMjk5YjNlYWRiYjhkZjYxNDFlYWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxOWYzMjQzNmYzOWI0NzVkM2Y0ZGNjYmJjYTdlNWJmOTI2YTNmZGQ4MWIwMTIyZDI5YzNjMTNlNTAyYzQxOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4MjEwNWUwM2FmZDA0ZmE1NzM3ODJlYzc5MmM2ZDRjMzUxYmZkM2JkNGUyYTVjODUyNWY4YzQ2ZTRiMmQxNzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee6df9b2b8fb4e11a5eae9a52635078a",
+      "statement": "For Illinois water-backup claims received on or after 2017-10-02, IDOI-2017-10 requires prompt acknowledgement, a reasonable investigation of cause and damage before denial or limitation, evaluation of the actual policy and endorsements, written explanations identifying the relied-on terms and facts, payment of undisputed covered amounts unless barred, deductible explanation, mitigation consideration, reconsideration of material new information, and claim records and oversight.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md#L189-L229",
+          "version": "repo-lines-v1:sha256:e1fcf10a43246e96ccf2f8859c75b84353da7acf8af3f0fc0791723245767393:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiOGM0NjhiYmVjNTQ0OGQ5YjVmNjRiZDc1MWMzNTIyZTU3NDEwYzIxMzNiYzk2ODkyNjllZTY1ZmNkMDE5YjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUwMjIwN2Q2OWNkMDBlZDM4MWQ0YzVmZDI1YzdiYTZjNGJmN2RjZTZiNzQ3ZTEwZjJhNGQzMTdkYWQ5ZGQzMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7abc7204a1e84bbb9beb2032580ccdac",
+      "statement": "The internal underwriting manual is guidance rather than contract language, and Illinois Rule 570 requires referral above a $15,000 requested water-backup limit, review of the sewer-backup limit against the premises, and referral for specified prior, recurring, defective, drainage, sump, sewage, and moisture conditions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L13-L43",
+          "version": "repo-lines-v1:sha256:a6c2a3c63093cbd1977ca3f531ca08d1871e4da257d5eaec8893a2dfc36601e9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8233-L8255",
+          "version": "repo-lines-v1:sha256:3299dbbd4593fdf4381058c21cdb51d3de3a4deeee10996ce9758df3f8883bdf:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxNmJhNWNlYmM4ZjdmYzY2MzcxZTY2NDhhMTM3ZmRlMTFhODUwZmJlMWQyNWVkMzNhZDNhYWMyZGRlNTcyOGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5ZTMwYjcyNzFhODczNTc0MDZkMTVmZjVkNTZmYWExMDQ3ZWZjOTlkZTdlZmQ4Yzg0OWFlMDMyZDlhMzlkZDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZDEyMTRjM2I2ZTU1MjI1YzkyYjI4ZmU0MmNlNTc0OTdmMGI1MmIzNDMwMzE3YzA2MjI0YzA4ZTFkZmQ0OTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ2ZDVlMDI5N2IzZjVjNDM0NDMzOWMzOTcxOTQ4OWU3NzQxNTE3ZTI5M2IwOGQ4MzEzMDQyNDYzM2IyNThjNjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8365-L8383",
+          "version": "repo-lines-v1:sha256:02b89cc03dbe57fb1ae2286ecc9f579657c707e378ca3409e1fcb51c47cf8ba9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNzNmNGNhNmM0MjA5ZDdhNmFkYmUwMmQ3Mzg5M2NkOWYzMzI2YjM4NDI3Mjg0Y2U4MmRmZWY2MjdjNDZiNzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZmODAyMGMyNzM2MzVjY2Y4ZmM1ZGNkOTU4Mzc0YzEzZGYyOWIyMjQ3ZmIxMmZmYzQzYzJiYmE3NDQ5OWNlMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFhOWYzYmZiNjMxNzI2MjI1YWNjNTEzODYwMjI3YWJkZWIxYjZmZTBhMDdlZjZhZDBiZDA3ZjdjZjhiNTY0MDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjZWQzNjA0YTZmMTk3Zjc3NDYyN2MzMzU3M2Y2MzQxZmQyNWZlZmY0MzIzMmFlNzIyYTZiZTFiZjhlOGIyMDMifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-18T05:47:51.376Z"
+  }
+}
