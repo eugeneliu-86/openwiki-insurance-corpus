@@ -1,11 +1,8 @@
 ---
 type: coverage
-title: Personal Property Limits, Special Limits, and Scheduling
+title: Personal Property Limits and Scheduling
 description: Compares Coverage C limits and special sublimits across the supplied HO-3, HO-4, HO-5, and HO-6 editions, then explains how business-property, scheduled-property, special-personal-property, credit-card, forgery, and identity-fraud endorsements modify those limits. Use the policy edition, declarations, attached schedule, and applicable deductible together when evaluating a personal-property loss.
 tags: [Coverage C, personal property, special limits, business property, scheduled property, identity fraud]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
 sources:
   - id: openwiki-source-140687b379118f9f7520b12c
     resource: repo://forms/HO/MS/HO-04-12/2018-09.md
@@ -31,10 +28,13 @@ sources:
     resource: repo://forms/HO/MS/HO-6/2023-02.md
   - id: openwiki-source-4f6faf651be34a4d6948eebe
     resource: repo://training/customer-faq-homeowners.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 
-# Personal Property Limits, Special Limits, and Scheduling
+# Personal Property Limits and Scheduling
 
 ## Decision order
 
@@ -49,12 +49,12 @@ flowchart TD
     D --> E
     E -->|"Yes"| F["Verify attached Schedule and item limit"]
     E -->|"No"| G{"Special category?"}
-    F --> H["Apply scheduled-property deductible"]
+    F --> H["Check exclusions and scheduled conditions"]
     G -->|"Yes"| I["Apply base or HO 04 65 special limit"]
     G -->|"No"| J["Apply Coverage C limit"]
-    I --> K["Apply applicable policy deductible"]
+    I --> K["Check exclusions and policy conditions"]
     J --> K
-    K --> L["Check exclusions, conditions, and other insurance"]
+    K --> L["Apply applicable deductible and other insurance"]
     H --> L
 ```
 
@@ -64,35 +64,35 @@ flowchart TD
 
 ### HO-3 2024-03
 
-HO-3 2024-03 covers personal property owned or used by an insured anywhere in the world. The Coverage C limit is **50% of Coverage A**. Property of a guest or residence employee can be covered at the residence premises at the insured’s request, but the employee-property coverage does not increase Coverage C. Covered property still must suffer direct physical loss from a covered peril. [HO-3 2024-03 C.1–C.8](repo://forms/HO/MS/HO-3/2024-03.md#L221-L235)
+HO-3 2024-03 covers personal property owned or used by an insured anywhere in the world. The Coverage C limit is **50% of Coverage A**. Property of a guest or residence employee can be covered at the residence premises at the insured’s request, but the employee-property coverage does not increase Coverage C. The property remains subject to the form's exclusions, limitations, and covered-cause requirements. [HO-3 2024-03 C.1–C.8](repo://forms/HO/MS/HO-3/2024-03.md#L219-L229)
 
-The base HO-3 special limits are: **$300** for money, bank notes, bullion, coins, medals, and precious metals; **$2,000** for theft of jewelry, watches, and precious stones; **$3,000** for theft of firearms and related equipment; **$1,500** for watercraft including trailers; **$3,000** for theft of silverware and similar plated ware; **$3,000** for business property on the residence premises; and **$1,500** for electronic apparatus in a motor vehicle. Each special limit is within, not additional to, Coverage C. [HO-3 2024-03 C.9–C.18](repo://forms/HO/MS/HO-3/2024-03.md#L237-L255)
+The base HO-3 special limits are: **$300** for money, bank notes, bullion, coins, medals, and precious metals; **$2,000** for theft of jewelry, watches, and precious stones; **$3,000** for theft of firearms and related equipment; **$1,500** for watercraft including trailers; **$3,000** for theft of silverware and similar plated ware; **$3,000** for business property on the residence premises; and **$1,500** for electronic apparatus in a motor vehicle. Each special limit is within, not additional to, Coverage C. [HO-3 2024-03 C.22–C.34](repo://forms/HO/MS/HO-3/2024-03.md#L261-L285)
 
-The base HO-3 also provides separate additional-insurance coverage of **$1,500** for credit-card, fund-transfer-card, and forgery loss. It does not cover card loss arising from a resident relative or entrusted person, or from business activity. This is not a Coverage C sublimit; it is separate Coverage E insurance. [HO-3 2024-03 E.17–E.22](repo://forms/HO/MS/HO-3/2024-03.md#L445-L455)
+The base HO-3 also provides separate additional-insurance coverage of **$1,500** for credit-card, fund-transfer-card, and forgery loss. The form requires compliance with the card issuer's conditions and excludes loss caused by dishonesty, voluntary transfer of the instrument, or failure to exercise reasonable care. This is not a Coverage C sublimit; it is separate Coverage E insurance. [HO-3 2024-03 E.14–E.15](repo://forms/HO/MS/HO-3/2024-03.md#L433-L435)
 
 ### HO-4 2021-10
 
-HO-4 2021-10 covers an insured’s personal property at and away from the residence premises, including property temporarily removed when the cause is covered. The supplied Coverage C section does **not** state a Coverage C percentage or dollar amount; use the applicable limit shown by the policy and declarations rather than importing the HO-3 or HO-5 50% rule. It specifically excludes business property away from the residence premises unless another Coverage C provision supplies coverage. [HO-4 2021-10 C.1–C.14](repo://forms/HO/MS/HO-4/2021-10.md#L219-L245)
+HO-4 2021-10 covers an insured’s personal property at and away from the residence premises, including property temporarily removed when the cause is covered. The supplied Coverage C section does **not** state a Coverage C percentage or dollar amount; use the applicable limit shown by the policy and declarations rather than importing the HO-3 or HO-5 50% rule. It specifically excludes business property away from the residence premises unless another Coverage C provision supplies coverage. [HO-4 2021-10 C.1–C.4](repo://forms/HO/MS/HO-4/2021-10.md#L198-L204) · [HO-4 2021-10 C.26–C.27](repo://forms/HO/MS/HO-4/2021-10.md#L245-L247)
 
-Its stated special limits are **$1,500** for electronic apparatus in a motor vehicle, **$250** for money and precious metals, **$2,000** for theft of jewelry, watches, and precious stones, **$2,500** for theft of firearms, **$1,500** for watercraft including trailers, **$2,500** for theft of silverware, and **$3,000** for business property on the residence premises. The special limits are part of the applicable Coverage C limit. [HO-4 2021-10 C.15–C.22](repo://forms/HO/MS/HO-4/2021-10.md#L245-L263)
+Its stated special limits are **$1,500** for electronic apparatus in a motor vehicle, **$250** for money and precious metals, **$2,000** for theft of jewelry, watches, and precious stones, **$2,500** for theft of firearms, **$1,500** for watercraft including trailers, **$2,500** for theft of silverware, and **$3,000** for business property on the residence premises. The special limits are part of the applicable Coverage C limit. [HO-4 2021-10 C.19–C.25](repo://forms/HO/MS/HO-4/2021-10.md#L231-L243)
 
-HO-4 also provides separate additional-insurance coverage of **$1,000** for credit-card, fund-transfer-card, and forgery loss. The form excludes business use and specified voluntary or dishonest use; this coverage is not a Coverage C sublimit. [HO-4 2021-10 E.17–E.23](repo://forms/HO/MS/HO-4/2021-10.md#L465-L477)
+HO-4 also provides separate additional-insurance coverage of **$1,000** for credit-card, fund-transfer-card, and forgery loss. The form requires compliance with issuer terms and excludes dishonest or fraudulent acts, business instruments, and voluntary parting through fraud or deception; this coverage is not a Coverage C sublimit. [HO-4 2021-10 E.36–E.38](repo://forms/HO/MS/HO-4/2021-10.md#L429-L433) · [HO-4 2021-10 voluntary-parting exclusion](repo://forms/HO/MS/HO-4/2021-10.md#L745-L745)
 
 ### HO-5 2022-06
 
-HO-5 2022-06 covers personal property anywhere in the world, including property of others in an insured’s care and certain guest, residence-employee, and student property. The Coverage C limit is **50% of Coverage A**, applies regardless of the number of insureds, locations, items, or claims, and is reduced by payments. [HO-5 2022-06 C.1–C.10](repo://forms/HO/MS/HO-5/2022-06.md#L253-L271)
+HO-5 2022-06 covers personal property anywhere in the world, including property of others in an insured’s care and certain guest, residence-employee, and student property. The Coverage C limit is **50% of Coverage A** and is not increased because covered property is located at more than one premises. [HO-5 2022-06 C.1–C.11](repo://forms/HO/MS/HO-5/2022-06.md#L259-L279)
 
-The HO-5 special limits are: **$300** for money, bank notes, bullion, precious metals, and stored-value cards; **$3,000** for theft of jewelry, watches, and precious or semiprecious stones; **$3,500** for theft of firearms and related equipment; **$2,000** for watercraft including trailer and accessories; **$5,000** for theft of silverware, goldware, pewterware, platinumware, and plated articles; **$5,000** for business property on the residence premises; and **$2,000** for electronic apparatus in a motor vehicle. Acquired property remains subject to the Coverage C limit and special limits. [HO-5 2022-06 C.8–C.18](repo://forms/HO/MS/HO-5/2022-06.md#L267-L287)
+The HO-5 special limits are: **$300** for money, bank notes, bullion, precious metals, and stored-value cards; **$3,000** for theft of jewelry, watches, and precious or semiprecious stones; **$3,500** for theft of firearms and related equipment; **$2,000** for watercraft including trailer and accessories; **$5,000** for theft of silverware, goldware, pewterware, platinumware, and plated articles; **$5,000** for business property on the residence premises; and **$2,000** for electronic apparatus in a motor vehicle. Acquired property remains subject to the Coverage C limit and special limits. [HO-5 2022-06 C.26–C.32](repo://forms/HO/MS/HO-5/2022-06.md#L309-L321)
 
-HO-5 separately provides **$2,500** of additional-insurance coverage for credit-card, fund-transfer-card, forgery, and counterfeit-paper-currency loss. Business use and certain use by resident relatives or entrusted persons remain excluded. [HO-5 2022-06 E.24–E.30](repo://forms/HO/MS/HO-5/2022-06.md#L509-L521)
+HO-5 separately provides **$2,500** of additional-insurance coverage for credit-card, fund-transfer-card, and forgery loss. The form excludes authorized use, business transactions, failure to follow the device agreement, and dishonest or criminal acts. [HO-5 2022-06 E.22–E.26](repo://forms/HO/MS/HO-5/2022-06.md#L469-L477)
 
 ### HO-6 2023-02
 
-HO-6 2023-02 covers personal property at or away from the residence premises, including certain guest, residence-employee, student, and temporarily occupied-residence property. It states that acquired property is subject to the applicable Coverage C limit, but the supplied Coverage C section does **not** state a percentage or dollar amount for that limit. Use the applicable policy/declarations limit; do not import the HO-3 or HO-5 50% rule. [HO-6 2023-02 C.1–C.10](repo://forms/HO/MS/HO-6/2023-02.md#L186-L204)
+HO-6 2023-02 covers personal property at or away from the residence premises, including certain guest, residence-employee, student, and temporarily occupied-residence property. It states that acquired property is subject to the applicable Coverage C limit, but the supplied Coverage C section does **not** state a percentage or dollar amount for that limit. Use the applicable policy/declarations limit; do not import the HO-3 or HO-5 50% rule. [HO-6 2023-02 C.1–C.6](repo://forms/HO/MS/HO-6/2023-02.md#L198-L208)
 
-The HO-6 special limits are: **$250** for money, bank notes, bullion, gold other than goldware, silver other than silverware, platinum, coins, medals, and precious metals; **$2,000** for theft of jewelry, watches, and precious or semiprecious stones; **$2,500** for theft of firearms and related equipment; **$1,500** for watercraft including trailers and equipment; **$2,500** for theft of silverware and specified plated ware; **$3,000** for business property on the residence premises; and **$1,500** for electronic apparatus in a motor vehicle. Special limits apply before the applicable deductible and do not increase Coverage C. [HO-6 2023-02 C.26–C.35](repo://forms/HO/MS/HO-6/2023-02.md#L236-L256)
+The HO-6 special limits are: **$250** for money, bank notes, bullion, gold other than goldware, silver other than silverware, platinum, coins, medals, and precious metals; **$2,000** for theft of jewelry, watches, and precious or semiprecious stones; **$2,500** for theft of firearms and related equipment; **$1,500** for watercraft including trailers and equipment; **$2,500** for theft of silverware and specified plated ware; **$3,000** for business property on the residence premises; and **$1,500** for electronic apparatus in a motor vehicle. Determine the covered loss and applicable special limit before subtracting the Section I deductible; the special limits do not increase Coverage C. [HO-6 2023-02 C.49–C.56](repo://forms/HO/MS/HO-6/2023-02.md#L294-L308) · [HO-6 2023-02 Section I deductible](repo://forms/HO/MS/HO-6/2023-02.md#L916-L918)
 
-HO-6’s separate Coverage E protection for credit-card, fund-transfer-card, forgery, and counterfeit-money loss is **$1,000** and does not reduce Coverage C. The form excludes business use and requires prompt notice and reasonable protective steps. [HO-6 2023-02 E.11–E.20](repo://forms/HO/MS/HO-6/2023-02.md#L390-L408)
+HO-6’s separate Section I Additional Coverage E protection for credit-card, fund-transfer-card, and forgery loss is **$1,000**. The form requires prompt notice, issuer compliance, and supporting evidence, and excludes entrusted-person use unless otherwise covered. [HO-6 2023-02 E.61–E.65](repo://forms/HO/MS/HO-6/2023-02.md#L486-L496)
 
 ## Endorsements that modify Coverage C decisions
 
@@ -108,19 +108,19 @@ The applicable policy deductible still applies to the total covered business-pro
 
 HO 04 65 (2018-09) **modifies** only the Coverage C special limits it expressly increases. It first requires the loss and property to be covered, then replaces the otherwise applicable category special limit; it does not alter exclusions, the cause of loss, the valuation method, or the property interest required for coverage. [HO 04 65 W.1.1–W.1.15](repo://forms/HO/MS/HO-04-65/2018-09.md#L45-L75)
 
-The endorsement’s increased theft limits are **$5,000** for jewelry, watches, and precious stones; **$6,500** for firearms; and **$10,000** for silverware. Each limit is collective for covered theft loss in its category from the same occurrence, regardless of the number of items or insureds. The applicable policy deductible remains in force; the endorsement does not state a numeric deductible. [HO 04 65 W.2.1–W.2.9](repo://forms/HO/MS/HO-04-65/2018-09.md#L157-L177) · [HO 04 65 W.2.14–W.2.18](repo://forms/HO/MS/HO-04-65/2018-09.md#L183-L193) · [HO 04 65 W.3.1–W.3.10 and W.3.32](repo://forms/HO/MS/HO-04-65/2018-09.md#L263-L283) · [HO 04 65 W.3.32](repo://forms/HO/MS/HO-04-65/2018-09.md#L323-L327)
+The endorsement’s increased theft limits are **$5,000** for jewelry, watches, and precious stones; **$6,500** for firearms; and **$10,000** for silverware. Each limit is collective for covered loss in its category from the same occurrence, regardless of the number of items or insureds. The applicable policy deductible remains in force; the endorsement does not state a numeric deductible. [HO 04 65 W.2.1–W.2.9](repo://forms/HO/MS/HO-04-65/2018-09.md#L157-L177) · [HO 04 65 same-occurrence rule](repo://forms/HO/MS/HO-04-65/2018-09.md#L163-L165) · [HO 04 65 W.3 deductible](repo://forms/HO/MS/HO-04-65/2018-09.md#L211-L229)
 
 ### HO 04 61 — scheduled personal property
 
-Scheduled-property coverage is item-specific, not a general increase to Coverage C. The attached Schedule identifies the property, description, and applicable limit; property not described is not scheduled, and similar property is not pulled into coverage by resemblance. Changes are effective only when made part of the Schedule by the insurer. [HO 04 61 2012-02 W.0](repo://forms/HO/MS/HO-04-61/2012-02.md#L13-L49)
+Scheduled-property coverage is item-specific, not a general increase to Coverage C. The attached Schedule identifies the property, description, and applicable limit; property not described is not scheduled, and similar property is not pulled into coverage by resemblance. Changes are effective only when made part of the Schedule by the insurer. [HO 04 61 2012-02 W.0](repo://forms/HO/MS/HO-04-61/2012-02.md#L13-L49) · [HO 04 61 2020-11 W.0 and Schedule changes](repo://forms/HO/MS/HO-04-61/2020-11.md#L84-L89) · [HO 04 61 2020-11 W.70](repo://forms/HO/MS/HO-04-61/2020-11.md#L386-L391)
 
 **2012-02 edition.** This edition is superseded by the 2020-11 edition for policies effective on or after November 1, 2020, but remains in force for policies written under it. It covers described scheduled property for direct physical loss anywhere in the world, including while worn, used, transported, stored, or temporarily in another person’s possession. It expressly covers theft, disappearance, accidental breakage, and accidental damage, subject to the endorsement’s exclusions. [HO 04 61 2012-02 preamble and W.1](repo://forms/HO/MS/HO-04-61/2012-02.md#L8-L9) · [HO 04 61 2012-02 W.1.1–W.1.12](repo://forms/HO/MS/HO-04-61/2012-02.md#L51-L75)
 
-The 2012-02 Schedule limit is the most payable for the scheduled item or group and is not additional insurance. The scheduled-property deductible is **$0**; the form describes separate- or same-occurrence handling, but a zero deductible produces no deductible reduction. [HO 04 61 2012-02 W.2.1–W.2.8](repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L225) · [HO 04 61 2012-02 W.3.1–W.3.12](repo://forms/HO/MS/HO-04-61/2012-02.md#L315-L339)
+The 2012-02 Schedule limit is the most payable for the scheduled item or group and is not additional insurance. The scheduled-property deductible is **$0**, so it produces no deductible reduction. [HO 04 61 2012-02 W.2.1–W.2.8](repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L225) · [HO 04 61 2012-02 W.3.1–W.3.3](repo://forms/HO/MS/HO-04-61/2012-02.md#L315-L321)
 
 **2020-11 edition.** The current supplied edition requires an insured to have an ownership interest or legal responsibility and an insurable interest at the time of loss. It covers described property at or away from the residence, including while worn, used, stored, transported, displayed, or temporarily entrusted; it also covers theft, mysterious disappearance, breakage, and accidental damage when the endorsement’s requirements are met. Property acquired after the Schedule is issued is not covered unless the insurer agrees to add it. [HO 04 61 2020-11 W.0](repo://forms/HO/MS/HO-04-61/2020-11.md#L13-L53) · [HO 04 61 2020-11 W.1.1–W.1.10](repo://forms/HO/MS/HO-04-61/2020-11.md#L55-L75)
 
-The 2020-11 Schedule’s applicable limit is the maximum for the described property and does not increase because of repair cost, scarcity, sentimental value, location, possession by another person, or another recovery. Its deductible is **$250 per covered loss**, applied to the total scheduled-property loss from the same event rather than separately merely because items are separately described. The endorsement requires prompt notice of material changes in ownership, location, condition, or use, and additions or removals take effect only when recorded in the Schedule. [HO 04 61 2020-11 W.2.1–W.2.23](repo://forms/HO/MS/HO-04-61/2020-11.md#L213-L261) · [HO 04 61 2020-11 W.3.1–W.3.13 and W.3.26–W.3.31](repo://forms/HO/MS/HO-04-61/2020-11.md#L291-L319) · [HO 04 61 2020-11 W.3.26–W.3.31](repo://forms/HO/MS/HO-04-61/2020-11.md#L343-L353)
+The 2020-11 Schedule’s applicable limit is the maximum for the described property and does not increase because of repair cost, scarcity, sentimental value, location, possession by another person, or another recovery. Its limit applies separately to each scheduled item, and separate item limits are not combined. Its deductible is **$250**. The endorsement applies that deductible after determining covered loss and after applicable exclusions or limitations. The endorsement requires prompt notice of material changes in ownership, location, condition, or use, and additions or removals take effect only when recorded in the Schedule. [HO 04 61 2020-11 W.2.1–W.2.23](repo://forms/HO/MS/HO-04-61/2020-11.md#L213-L261) · [HO 04 61 2020-11 W.2.1–W.2.4](repo://forms/HO/MS/HO-04-61/2020-11.md#L423-L443) · [HO 04 61 2020-11 W.3.1–W.3.7](repo://forms/HO/MS/HO-04-61/2020-11.md#L695-L717) · [HO 04 61 2020-11 W.67–W.70](repo://forms/HO/MS/HO-04-61/2020-11.md#L374-L391)
 
 ### HO 05 24 2018-09 — special personal property coverage
 
@@ -132,7 +132,7 @@ This form keeps a **$2,500** theft limit for jewelry, watches, and precious ston
 
 HO 04 53 (2013-06) **modifies** the separate credit-card, fund-transfer-card, forgery, and counterfeit-money coverage. It covers direct financial loss from theft or unauthorized use of qualifying cards and access information, unauthorized transfers, forgery or alteration of checks and negotiable instruments, and good-faith acceptance of counterfeit paper currency, subject to its exclusions and recovery conditions. [HO 04 53 W.1.1–W.1.32](repo://forms/HO/MS/HO-04-53/2013-06.md#L57-L121)
 
-The endorsement limit is **$10,000** for all covered loss under that coverage, collectively for all insureds, cards, accounts, instruments, transactions, and related acts. It treats related theft, unauthorized use, forgery, alteration, or counterfeit-currency acts as one occurrence for the limit. The deductible is expressly **not applicable** to covered loss under this endorsement. [HO 04 53 W.2.1–W.2.15 and W.2.36–W.2.38](repo://forms/HO/MS/HO-04-53/2013-06.md#L171-L203) · [HO 04 53 W.3.1–W.3.11](repo://forms/HO/MS/HO-04-53/2013-06.md#L249-L271)
+The endorsement limit is **$10,000** for all covered loss under that coverage, collectively for all insureds, cards, accounts, instruments, transactions, and related acts. It treats related theft, unauthorized use, forgery, alteration, or counterfeit-currency acts as one occurrence for the limit. The endorsement applies its deductible to each covered loss after covered loss is determined; it does not state a numeric deductible. [HO 04 53 W.2.1–W.2.6](repo://forms/HO/MS/HO-04-53/2013-06.md#L171-L183) · [HO 04 53 W.3.1–W.3.4](repo://forms/HO/MS/HO-04-53/2013-06.md#L273-L281)
 
 This endorsement does not turn Coverage C into card or forgery coverage. It excludes, among other things, insured or entrusted-person acts, business activity, voluntary parting after deceit, and loss reimbursed by an issuer or another source. [HO 04 53 W.1.40–W.1.52](repo://forms/HO/MS/HO-04-53/2013-06.md#L137-L161)
 
@@ -140,10 +140,10 @@ This endorsement does not turn Coverage C into card or forgery coverage. It excl
 
 HO 04 55 (2017-01) provides a separate identity-fraud-expense coverage, not reimbursement for the stolen money, property, securities, income, unauthorized charges, or debt itself. A covered expense must be reasonable, necessary, actually incurred by an insured, and directly caused by identity fraud; examples include reports, records, replacement identification, account restoration, fraud alerts, approved identity-restoration services, certain legal fees with prior consent, and lost wages supported by records. The event must occur during the policy period and the expense may be incurred afterward if the endorsement’s requirements are met. [HO 04 55 W.0](repo://forms/HO/MS/HO-04-55/2017-01.md#L13-L53) · [HO 04 55 W.1.1–W.1.32](repo://forms/HO/MS/HO-04-55/2017-01.md#L55-L119)
 
-The identity-fraud-expense limit is **$15,000**. The endorsement’s deductible section says the applicable deductible is subtracted from a covered loss, but it states no numeric deductible; use the deductible applicable under the policy. The insured must give prompt notice, preserve records, mitigate further expense, pursue available reimbursement, and obtain consent before seeking legal-fee or court-cost reimbursement. [HO 04 55 W.2.1–W.2.12](repo://forms/HO/MS/HO-04-55/2017-01.md#L213-L237) · [HO 04 55 W.3.1–W.3.18](repo://forms/HO/MS/HO-04-55/2017-01.md#L289-L325) · [HO 04 55 W.1.49–W.1.60](repo://forms/HO/MS/HO-04-55/2017-01.md#L153-L175)
+The identity-fraud-expense limit is **$15,000**. The endorsement’s deductible section says the deductible applies to covered Identity Fraud Expense after other policy conditions, but it states no numeric deductible; use the deductible applicable under the policy. The insured must give prompt notice, preserve records, mitigate further expense, pursue available reimbursement, and obtain consent before seeking legal-fee or court-cost reimbursement. [HO 04 55 W.2.1–W.2.6](repo://forms/HO/MS/HO-04-55/2017-01.md#L213-L231) · [HO 04 55 W.3.1–W.3.8](repo://forms/HO/MS/HO-04-55/2017-01.md#L287-L303) · [HO 04 55 W.1.49–W.1.60](repo://forms/HO/MS/HO-04-55/2017-01.md#L153-L175)
 
 ## Claim-handling controls
 
-For any personal-property claim, confirm the exact base-form edition, Coverage C limit shown in the policy, applicable category sublimit, attached endorsements, schedule description and limit, cause of loss, deductible, and other insurance before calculating payment. A special or scheduled limit caps covered loss; it does not establish that the property or peril is covered. The base forms require prompt notice, protection from further damage, retention or inspection of damaged property when reasonably possible, and records supporting ownership, condition, value, and loss. [HO-3 2024-03 C.19–C.30](repo://forms/HO/MS/HO-3/2024-03.md#L257-L279) · [Customer FAQ L.2.13–L.2.18](repo://training/customer-faq-homeowners.md#L109-L131)
+For any personal-property claim, confirm the exact base-form edition, Coverage C limit shown in the policy, applicable category sublimit, attached endorsements, schedule description and limit, cause of loss, deductible, and other insurance before calculating payment. A special or scheduled limit caps covered loss; it does not establish that the property or peril is covered. The base forms require prompt notice, protection from further damage, retention or inspection of damaged property when reasonably possible, and records supporting ownership, condition, value, and loss. [HO-3 2024-03 S.4–S.8](repo://forms/HO/MS/HO-3/2024-03.md#L719-L727) · [HO-3 2024-03 S.14–S.18 and S.65–S.66](repo://forms/HO/MS/HO-3/2024-03.md#L809-L821) · [HO-3 2024-03 S.65–S.66](repo://forms/HO/MS/HO-3/2024-03.md#L915-L917) · [Customer FAQ L.2.13–L.2.18](repo://training/customer-faq-homeowners.md#L109-L131)
 
 Training reinforces the operational expectation to explain limits and deductibles without promising full payment, ask what happened and what property was damaged, preserve records, and refer an unclear or claim-specific question for review. It is guidance, not authority for a limit or deductible; the form edition and attached endorsement control the number. [Customer FAQ L.1.6–L.1.12](repo://training/customer-faq-homeowners.md#L25-L37) · [Customer FAQ L.2.6–L.2.8](repo://training/customer-faq-homeowners.md#L81-L91) · [Customer FAQ L.2.52–L.2.59](repo://training/customer-faq-homeowners.md#L265-L295)

@@ -1,3 +1,3 @@
 # Files
 
-- [Rating Inputs and Non-Table Adjustments](inputs-and-adjustments.md) - A non-table workflow for building a complete property rating submission, selecting the matching form and occupancy basis, validating valuation and deductibles, and applying evidence-based protective-device, roof, wind, endorsement, and state adjustments. It separates rating procedure from underwriting authority and contractual policy terms.
+- [Rating Inputs and Adjustments](inputs-and-adjustments.md) - A rating workflow for complete property submissions, form and occupancy matching, valuation, deductibles, and evidence-backed protective-device, roof, wind, endorsement, and state adjustments. It keeps rating procedure separate from underwriting authority and contractual policy terms.

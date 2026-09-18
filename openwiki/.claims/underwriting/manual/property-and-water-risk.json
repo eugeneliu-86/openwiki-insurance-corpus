@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:bf2eb2af45619a6b20ed77b5a06d58745d24ab061e61709ecd24c6e75c6cb067",
+  "pageVersion": "sha256:1dd4b5f3f93ec91b84d64427e6c1ad0fd18d2cbf8bc9c7ed0cb7633819669de7",
   "claims": [
     {
       "id": "claim_de419dbd33c74222a34f226586882a93",
@@ -122,15 +122,19 @@
     },
     {
       "id": "claim_e5a0fc91e0ca41d0a13f208056b81128",
-      "statement": "Rule 220 requires referral for a requested water-backup limit above $25,000 and authorized approval for deductible handling, while an attached water-backup endorsement controls the contractual limit and deductible; the 2027-01 HO 04 90 endorsement states a $10,000 aggregate limit and a $1,000 deductible.",
+      "statement": "Rule 220 requires referral for a requested water-backup limit above $25,000 and requires the backup deductible to be available for and approved by underwriting, with authorized approval before alteration; when attached, the water-backup endorsement controls the contractual limit and deductible. HO 04 90 (2027-01) states a $10,000 limit of liability and a $1,000 deductible for each covered water-backup loss.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L207",
-          "version": "repo-lines-v1:sha256:f1c6bbf64269a4224e7d5c84221265266d5e4d2f7229d09a999b2927d25b7921:eyJzZWxlY3RlZExpbmVDb3VudCI6NjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE1ZjdjZGE2ZWI0NjE3YTI3YzFiNDdlODUzZTI5NWFmM2YyM2U1ZTQ2M2RlMWJmMjFiMWZiODM0MWNiN2E1NmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4OWJlNWI4MGEzYzBjYTA3MWJkYzk0Mzk4MTUzYTYwYzRmNDY4NGQ0NWNkYzcxZDFiYTFjMmJiZWFkNzMyZGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmYjNmZjBhOTY5YTI2YmY5ZGM2NGNhNGRmMzAwYjRlMTA4ZjhmNDY2YTUwZjcyYzA4OWQ1NDdjY2Y1ZTQ1MWUifQ"
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L16-L36",
+          "version": "repo-lines-v1:sha256:e9c46d92b57b8b32be59cff3b3fe5e6b1958c9ca870b6b7d5be9f196a86e8bd1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5MTY3OGViZDg4YTUzN2FlNDZhNTdmZTQzMjRlM2I5Y2JiOGRiNmI4YzE5NjVjYzRiYmRhNjQwMTBhZDkxOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0Y2E0ZDgwYTkyYmE4ODdmZTAwZmVhYjVjYmVjZWVjZDBlMGQxOTAxOGM4OWQzMDU3YjQyOTlmMGI5OWYzZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZlMmJkMWZkMmJlYTI2ZmQ3ZmJjODA3YmE0MTZkNzA2YmZlYjhmMTQxMzcyZTQyZmViNzY3MTY1ZWNhN2Q3MjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM0OGM2NTg5ODQ1NDczYjc5YmVhMmQ1MmRiMWI5MjlhNGFmOTZmOGIzNWY2YmU2ZGE1NTYxNDQxZTk4ZmNjZjUifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L69",
-          "version": "repo-lines-v1:sha256:35736402991a28547c71efe201ba33f05e31f911fa8ed3d4cafe2287efc67213:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4OGRiMmQxNWNhYjgyMmViNDI2MzU3MmNhMjYyNjIzYjYxYzA0OTBlMzM5ODE1YjM2MGVlMTY4NjBjM2MzZTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRlNDM1OGI4MTQ0MmJjMDVlYjIxNWQ3YjQ4YmY4NGM1MzNiNGFjODRmZjljZDQ5ZDM2YTFhNmNhOGI4N2RlMWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIwZjcwYjM0ODkyMzM1MGNmYmQwNjQ3MjdhZjhjYjZmYjFhNDBhZTVkZWUzNTZmYjQ5NGE1MzQwZmM3ZjA3ODQifQ"
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L256-L276",
+          "version": "repo-lines-v1:sha256:5ddebef5fb95be52c180055c2d1af01b9e8715d6481fa4edce144d5c8acb434d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlMDBlYTBiZWM5YzYzYjkzODhmZWU4YjhlNmZmMmI3MTE5ZjRjNDI5NGUzNjdhNzMzYjg5OTYzZDU2YmI0NzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0Y2ZhNWNiOWU5YTA1ODhmODk5NjM4Y2Y4YTUwNWU2ZDdlMjU3YmRjY2Y5NDFhN2MwMDVlMmM3NGRlYTA3NjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJlMDhiOTVjYmQ0YmZmMDI0NGVlMTU1MTY0OGJkODE1ZDI5MGE0ZDUwZTY1NDBhMjg3YTk5OGY2ZTZlNjU1MTgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L412",
+          "version": "repo-lines-v1:sha256:e94e8403938d55ea8b26eef232f5c080a34e48ac56c6e95b0da4ab1f12e748e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyNjQ0NzAwOTUzM2RlY2MwOTViYTlkMzMwM2UxMzg3MDNlYjc4MzhkYWY1NTUwMTU1ZTY1ZDcxZmZlMGVmNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI1YTJjZWM3MTdiNDM1YmExYjI4NDZiNGNmNzkzMzE4YzE3NzdhM2FhZTRlNTFhMDk0OGE4YTVlNDAzZWQ5NTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhZGU2MWI0NWNlYjg4ZmVjMjY1YTExZTBjOWE5MmE1YjI3YjE3YjRiZTBjNWIzODg1ZDMzZWYyOWY2NWYxMTkifQ"
         },
         {
           "resource": "repo://manuals/underwriting/manual.md#L2731-L2747",
@@ -143,12 +147,12 @@
       "statement": "Rule 210's roof-age thresholds constrain underwriting eligibility rather than claim settlement; when attached and applicable, HO 23 74 2025-05 separately applies actual-cash-value treatment to covered roof surfacing at Roof Age 12 years or greater using reliable age evidence.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L47",
-          "version": "repo-lines-v1:sha256:1efb3c4b4e0977b800071047a43f0e0c985210caacc7f150d172f21c59712473:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlNDgyNTU4YWI4NzVkMWNjNjRiMjg3MDEyMjZiZTZjMDQxZDE5ZDM4OWE3YzYxNTE2YjQwNDJjZjYzZmJiMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlM2JhNjU3MjI1MGM1ZmNjNjk5NTRlYzczMWNiYmQyZTkxMmRiOTQxN2RmNTM3NDE0NzdmYjMxZDAxNGI0MzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjOWEyOWQyNTMzZjk4ODUyZTY4OTQzNDNiNTcxNjNlYTIyZGU3ODYwMmUzNGRkZTNkNTM1M2IzNDAxYjk5NmMifQ"
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L16-L23",
+          "version": "repo-lines-v1:sha256:02a0e50adcd1900ae502964314daa77fb5832b29178ea31dd0e9fdac606c0060:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzI3NTMxMzU3MWYzMmEwNjFhMTU1ZGUwZTA1NDliYTlkN2NhODU1MzIxZWFiYzk3NDViMDU5ZDNmNWIwN2FlNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmNlM2VmZWQzOGE5ODViZWI2YTdmZDM0NDVmYjNkMzg4NTYzYWNmYTJmZGE4YzQ1NmVkMzE2MjAzMzg5Y2M1NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjg3MjY4MDI4MWNhNTJmNjExYTE1N2I2OGUxZDI1YTBlZmRkZTU4ZmQyNTlmYjQ5Y2E0MGYxNmY2YzI2ZGQzZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2JhY2FiOGMzMjYyMzg5NDU2NjM5YzJkYWNmNTNhNWYyYTc2NGQ1OTg2NGVhOWFhNDM5MzFlZTg0NTcyMmQ5ZiJ9"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L59-L77",
-          "version": "repo-lines-v1:sha256:d3e8a83b12159214be331899e491e895e7c3de33e6d2d185640ce69ef70049ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjZTQzNjI5MTUxMDM1ZjY5MmQ4ZWVhY2ExYmNiYjEwNDZkMzI1YzQ0MWRlMjNiY2VhN2FlY2EzMDc0YTI0MzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3NDlkOTQ0MWU4MDg3YTc1MjBiOTE3YmQxNWUzZDg3M2QwNTBjNDhlZTBkZWU3MmI4OGZkZDJhOTE3MTRjYzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxNzkwOTc4MDBiMjMxYmQxNjlmNDhhNjBmZTE5NWIyY2FlZmE2YTkxYWI0NWU1MjMyOTk0MTA5NTE1MDViNTAifQ"
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L90-L114",
+          "version": "repo-lines-v1:sha256:f5281fd5523f130662072d1b181cb06e397ab6ca651f458b3329e5f028b6bfc8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhZDlkOWI2M2E0Yzc3NWM5MWVlMDBmYmUwMzE3NGZmNGMxYmE4NzRlMzBmNDcyNmNiMjkwOTVhMWM3YmIzM2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkOTliZTIxNDVlMzFlNTQ1YTgxYzNkMjk3ZmI5MmViNjM0ZWI5YWU3MmJlZjNiZTBlNjMzZTBkYWJhZGMxZTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4NjcyNjY3NGNkMDNjNDhiNGVlNDQ0M2I4YmZjMDRmODE0NGQxNjIzYWMxNGUwNTcwZGUwYjQyMWUyODQ5ZDkifQ"
         },
         {
           "resource": "repo://manuals/underwriting/manual.md#L2213-L2235",
@@ -179,10 +183,52 @@
           "version": "repo-lines-v1:sha256:23567e7e5da5be07ba36d330d1a9f3f04376885fefc12eb09aa3f9d0ffb4dcf6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZmFiMzllZjNjYjU4Yjg1MWZlMDRjZDk5YzdmMWY3MTMzZjY2M2UzYTAwYmQ3NTY1ZGVkZDQwZGQ0YzQ4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiYTY0N2M5ZGY4ZDc2MGQ0MmE4ZTFiNTQ5NTBkMWRhNmVhMzgyMzlhMmQ3MDUyYWFhNTYwYjIwOWFjZDdlZjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmYmY3MzRjZGZjYWJiZjc0ZTY0Njc4YzVlNjU3MTNhYzE0ZWUwYTllYWE0M2ViMmUxYzYyMjQyYjQwNTZmY2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ0YzBlNjExMjY5MmIzMTVkMmQxOWZiZjAyYjVjYWVmNGRmYWE1MDI0NWY1MmNjNDQyM2FjM2FlYzFkODRiNzIifQ"
         }
       ]
+    },
+    {
+      "id": "claim_a247f5280c9e4dee858034c1e3ded1b8",
+      "statement": "Rules 310 and 320 overlay the detailed property controls: Rule 310 mandates referral with a binding or processing hold for open or disputed claims, vacancy or unoccupancy, ongoing renovation, structural or roof damage, recurring water intrusion, unresolved plumbing leakage, sewer or drain backup, and suspected mold, fungi, or rot; Rule 320 requires decline when a known materially loss-increasing condition cannot be corrected before binding, including unresolved roof damage or leakage, active water intrusion, unrepaired plumbing failure, and unresolved active mold, fungal growth, rot, or moisture damage.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4421-L4431",
+          "version": "repo-lines-v1:sha256:58d12d31a4ac645f5a1446ad38bd9ee8658b4e7124941e57e82548a9afb51af1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjNjFkZjU1Nzc3YjY1YWUxNTBhOThlMjYyZTY2MDk5OWIxYTkwNTFmNTJmMmY4ZTUxNmRiMWZjZmIyNmMxYzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNGVjYzE4MmRlOWNhNzcwMzlmMmNmOTI5OTJmMDZmNGNmZDk3Nzg3YWViYmQ0ZmYwNDQzNjIyZTQ3MGI0Y2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhN2M1YmVhYmVlMDE0MGY5NGEzZDM4ZTlkYTg2ODY2MGEzZGMzZjVjYzViZjZhMGFkYzk3ODJmZTY3MzZhODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2OWUwNzJmNjE0NjM1ZWJjMzc5NzY3MzI1MzlhYjc2NDkwNjM0NWRhZjcxMTBiYzQxY2MwZTRkMzVhZDRmMDAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4535-L4587",
+          "version": "repo-lines-v1:sha256:e836f3516c883b5f8ec7de6559b42c648f231be0d87fc073a7adf18c61dc3aca:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAyMGU5NmZmMTUzODg2YTRiYThkZmVhN2NmNDNkNTM1MDNmYzI1ZjhhYjRhNDVkYTU3YmNkMGI0MWQ2ODBkNzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkYzcwY2E4ODk0ZThmOGY0ZjI3MzdjZGJkNjM1Y2JmYTAwNTcxZmFkYWEyZDU4ZmY1ZWRiMThlODcyMzc5NjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk5YzkzMWM0ZDA3Y2YzNzkwMDYzZWM5NmEwZjY3OWM4ZTc2ZmQwYmRmMzYyNzRhMjAxYzgxOTBhNDZmMmY2NzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyYmUzYTBkMzc3MTUxODEwZjk5YWFkMWZkMTJiYzhlMDY1ZjE2ZGQyZjZlNzBkY2QwNDg1ZmVlZDJkZDVjOWMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4765-L4805",
+          "version": "repo-lines-v1:sha256:3303122608ab837777fed3520ec0c22c2ea06a4f7b563acf940cbeb836ff7b9d:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwOGYxMDllZGJjZGFmM2I2YmQxMzliNTBkMTE0MGNmMDZkYTE2MmRhM2UwMWZkYTQ3YTVmZDMxMTgxODAzNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNTFmMTExZWNiZjBiMDc0NWUxN2ZiOWU4ZTZkYjkzYzdmMmI3NzkwNjI1NzgyZmY1OTVkZDVjMTBiZGM2NTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhMGE1MWY3YzBlZDRjODI1Y2IxMmQyZmU2NDJhYjQ2MGU5NTNhZjU4MWFiYzk2NzU5NDJlMjQzMDgyZDY2MWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyZDQ5ZWE1ZjI5Mzg1MmE0MDljNmUyYzJjMzAyNjZmZGYxNGZlMGJmMGMzZGM2YmYxMzk5NDIxNjQ2NTI4M2YifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4849-L4853",
+          "version": "repo-lines-v1:sha256:d40341dee641edd9d1aeb3aac2f6557e9e735186453af576322a7b05fc361337:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTlhOWQ0ZGY2YWRhYjI4ZjNlN2I0NWYyMWMzYTAyZDU5NGJhNTM0NzYwZjIxYzg0NzFjMDgyNmY3NmEwNDM1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU3NWI1YjQ1ZjcxNjczMWVlMDc4Y2ZlNzI2MmFlMTVlMmViOTkzNWEyZTM0ODdhNmU0NGY0NmVlNGExZWQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmFmZGFlZTA4ODAxN2ExZDgyNzg1YWRmNTZhZTIwM2I1OWM5ODU1NjZmNjAyYzA5YmJiM2I5MTQ2MGI2YzNmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTE4YzdlNjUxZjZjNGFkYmNkZGQwMThmNmY0M2M0N2U0ZTViMDc1MWE3YzI4ZTA0MGNlNDJmODQyNzY2Yjg1YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ccc2b8e926d0467fb88f99362dfd4fad",
+      "statement": "Rule 240.S requires review of prior claims involving mold, fungi, bacteria, rot, or moisture and referral when the moisture source is unresolved or remediation is incomplete; the fungi-and-bacteria aggregate does not determine underwriting eligibility.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L3431-L3439",
+          "version": "repo-lines-v1:sha256:e25db5d4fac24b1d1695079dfab4db8b7ef03d93ddb085a9b8ce89c8eb4cd833:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGVhNzBlMGZkZGU4ZTdmN2U1OTRjZWU1N2Y4Y2NlY2I3OTFiNjNhMDMwNTA1ZjA5NzM3Yjg4OTEyN2RkOTYyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFhYWY0M2UzMjU4ZGE4ZTI3Mjc0YzZjMTgwOTQ3ZTJjMzI5ZWEwMGNkMzJjZWQ1NTA0YjMxNWRlM2E0NjFlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWI3YzQ0Y2E1YTllOTE1YzYyZGY2YTk0MGFjZGVkMzU1MDgzNmFlNTFhZWQ1OTk3MjdhNzJkYzE3NDBiYTQ5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWE1NjgyNDFmZDhjMzIwYjIzOTNjN2I3MTNjNDQzMTQ3ZDg4NTFjYTQ2N2ViYTMzYTkxZTc3OWM2NjcxNzhjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c54016bde3d544db8c207503a887fec3",
+      "statement": "HO 04 90 (2027-01) separately excludes loss caused by mold, fungus, wet rot, dry rot, bacteria, virus, or other microorganisms even when the condition results from water backup or sump discharge, and addresses odor, staining, contamination, testing, monitoring, assessment, and remediation only as its wording allows.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L600-L608",
+          "version": "repo-lines-v1:sha256:370d87194365a5bd7fbdd13302589da0049bf123f40ed227961d0373742c6b9d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE3ODAzNWUxY2I5NjJkNTUxMzQwYjY5NGMzNTI4ZDFhMmJjZGM0ZDA1Y2RlZTkzYmZkM2RhMjgzM2I3NmNkYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFhMjhhZTA3MjI1Y2IyNmYzNWNlYjVlZGEyMDYxMDkxNjJiMGNkNTk0YWE5MmVlY2JmMjZmYjYyMTlmZGY2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDUyZTI3ZjJhOWY5NDg2ZjAwNzM2ZjE1ZDAzMmI1YTczMGJmNTUwNWUxN2E2Njc0MGVjNGY1YmY3MWJmZmIxNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzY4ZDc3MGQzNThhOTJhODM2NDNkNzQyNTVkNTVhYjJmYTgwZjAyYzhmMjBlZGJmODhlN2FiOWNiYTgwOTBjYyJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

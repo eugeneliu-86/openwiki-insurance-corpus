@@ -1,22 +1,30 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:08a4374fcbe9b21c1e995ae17a0b08a224b7aab522d56e5954f4da062c8afdef",
+  "pageVersion": "sha256:2896562753ef551834e1d2d350e4b86b67bdf0940d9d18c6b7a89234beb6cc58",
   "claims": [
     {
       "id": "claim_37311decbfb44a619c805cad1980ca8d",
-      "statement": "The supplied DP-3 editions (2012-11, 2020-08, and 2026-01) are property-loss forms and do not contain Section II Coverage E—Personal Liability or Coverage F—Medical Payments to Others; their opening provisions instead insure direct physical loss to covered property.",
+      "statement": "The supplied DP-3 editions (2012-11, 2020-08, and 2026-01) are property-loss forms and do not provide the HO Section II Coverage E—Personal Liability or Coverage F—Medical Payments to Others grants; their opening provisions instead insure direct physical loss to covered property, and DP-3 2026-01 uses Section I Coverage E for Additional Living Expense rather than personal liability.",
       "evidence": [
         {
           "resource": "repo://forms/DP/MS/DP-3/2012-11.md#L13-L39",
-          "version": "repo-lines-v1:sha256:f3686de3e193838d9f0e55edf05a4538946f5df86b422bade309e93eceb841fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYTNmMTBkYzkwZjIwZWI1MzgwNTE0MjRmZDk3ZjhiNTEzMzZmNDE5MTIwOGQ2YzQ3OTM4M2IyYWVjMDcyMTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1MTQyY2Y5ODgwNGEzNjIzYmFjNzdlY2I3ODQ0OTEwMDE5ZmZiNzQ2OWM4NmIxMWFmNjFjODJkZDkwNjBmZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2NzMzNGY1ZTRlODA4MzY4M2FlNmJlYWM0YTFjOGUwZjNmMmRkNzI0NTMzNmNhZTEzMzI3OTg4OTExM2I2N2QifQ"
+          "version": "repo-lines-v1:sha256:c2f72efb0ff9db9e34e7d54082b61674e2e6baec7f2d46cbe0ba75aa0bc9d1bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzOWU5MTgxNjE5NDA3ZTZiMTFmMThiYjBkZmFhM2NlYWI2NTI4Njc2MzczMzFhMTAzZTFjM2ZiZjdiOTg0NGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyNmIxYTc0YTg3NDZmNDc3NDM0N2U1MzY2NGM3MDllNGM5Y2NhMmFmZWUyYTFiYWE0NDA5NjkzZGM0ODg2YWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdmODNmY2E3OGNiZTE1NWI5NTIzYmI4YzFhNWNjNTdiOTI4N2ZmMTFhYTYxM2FlOTQ4MGIxMWI1ZTdhZTY4ZTkifQ"
         },
         {
           "resource": "repo://forms/DP/MS/DP-3/2020-08.md#L13-L33",
-          "version": "repo-lines-v1:sha256:20ba08b1aa29657994d1da806d199092b7ff474bfdc9ac94fe444e8e724a8d41:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYTNmMTBkYzkwZjIwZWI1MzgwNTE0MjRmZDk3ZjhiNTEzMzZmNDE5MTIwOGQ2YzQ3OTM4M2IyYWVjMDcyMTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmNDcyZDQ3OWNhODRiMzk1MjA1NmU2YTNjMmRlYjZhYTRjMGQ1MmQ5OThjMzQ0MTAxYzhmMmQ3YzZlZjk3ZjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2NzMzNGY1ZTRlODA4MzY4M2FlNmJlYWM0YTFjOGUwZjNmMmRkNzI0NTMzNmNhZTEzMzI3OTg4OTExM2I2N2QifQ"
+          "version": "repo-lines-v1:sha256:a1d5997dcf4a4a6e5344dd8bbbd60db5e9207d7ef8f742732b03bc86d60259d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNjljN2VmMzA0MDQ3Njg1MjI1YTZiOGRhY2QzYWQ0MjEyNDExMTlhMDk3YzFiMDQxMjQ2ZThhMjNlMDFlNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhNWYyMDY5MjgxYjdkMGM2MjI4MmRlMDM0MTFjOWE5NWJjYWYzODY1N2E0NWQwYTNhZDBkYzg3YTAxNTlmMzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzMDhlMGI5Mzc4MGE1NmJlN2QwMjliZmNiMTk4MzExYTdiYTAxOWFlNTEyNDIxMjY4NGZlOTYzMTlkN2E2NzIifQ"
         },
         {
           "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L13-L39",
-          "version": "repo-lines-v1:sha256:1bcbb8b2713793e1d24afa7c87107f45d29d5fdf91d0d211520ca0742cc0849d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYTNmMTBkYzkwZjIwZWI1MzgwNTE0MjRmZDk3ZjhiNTEzMzZmNDE5MTIwOGQ2YzQ3OTM4M2IyYWVjMDcyMTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlMjE3ZTI3NmY0NjE1ODkxYmMzOTQ4MzA3OGU1ODc0MWI2MjljNTBjZTNiNGIzMDg4MDAwNjFiYjEyMzcwZWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2NzMzNGY1ZTRlODA4MzY4M2FlNmJlYWM0YTFjOGUwZjNmMmRkNzI0NTMzNmNhZTEzMzI3OTg4OTExM2I2N2QifQ"
+          "version": "repo-lines-v1:sha256:2ab36cf77cacdf0b69d6de5bfab5a9949230b0d4c32a82b486f95fdf3eb7c33c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiNWE2OTRmZDYwMzVlOTAyZDY1YTRjNDg1M2YzNTc5MjI3M2VhZTljNmM2Yjg5MDE5ZGRlMzA3MjYxNjliNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM2ZDAyNWJhMjA0YjhiOWNiNDVjNTlkZWVhN2EzMzhiMGY0MDk1NTk4ZDZiNTUzYjhkYjBjNGE5MDM1NGJlMzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhM2JlZWRkNDk2NzQ1OGFmNjY3NzI0MmExNDdhMWUyMDk1YzE0Yjc5M2NmMzcxZjg2YzRkNjE4NjRjOWM2YjMifQ"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L696-L740",
+          "version": "repo-lines-v1:sha256:3a035840105aad22dd4ad201037c94bc2e2be4b8d0818c69c485c7adb2690aee:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlNTU1NmQwMGFlYWI4NmZkYmNhMjVmYWI4NmMxYmI1ZDQxYTVjOTBmZjdmZDY5MGVlNWUwODFhMjZmNzNmNzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2YjNiNTczMjgwYjYyMTNjYmEyODEzNDRjMTk0ZGNhMzA2MmMyNDA3NjdhNjY4MjE4NDYwNjhiMTI4MDE1MWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZDM3NzY1NjE2ZDFkMTRkZDliNDA0NmIwM2NmYzdlZjM5Yjc2MDBhNjNmNDZlZmQ3OGUzMTk5Y2RhYTc4ZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyMTcxNDFjNmRkZmZlM2JmNGUyMzJiNzcyMmJkZjU0YmFkNDE5YTA4ZTllMWVmMjU5YjI4NjYyMDkxZTZlNzUifQ"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L834-L841",
+          "version": "repo-lines-v1:sha256:3534105e631323d0b0307bce40f1748098dad24d76984dfabd81b0029566d447:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNkNDY5YWZhMzBjYjM3ZTMxYmJhN2NiNTQ0YjVmYjZiNjRmN2RmZDIzYjcyMzQyOTk5Y2I0MzFlNmYxYjBhYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmM4YzQ0MWMzMTQyZmMwMDZjYWI1YjU5NWRmZGQ5OTY1NWRkZDIxMjg2Yzc1ZWQzNTI3N2M5YjMwMzVhMWNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBmN2QyNTQ3ZWQxYzAxMzM5ZmI3NDM5ZWYzMzg2OWNmMTk3MzJhZTlhM2JmOTRjMzdhYjQ4MDVlNTZhN2ZlNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjM3NTE1Zjc0YmI2NGY3MGM2OTQ4N2EwNDg5ZTQ4MzM5YTFjMWRkMGQ4YmU4OTQyZDEyNmFiOTcyZGQ5NWMxOCJ9"
         }
       ]
     },
@@ -180,11 +188,15 @@
     },
     {
       "id": "claim_b8f9de6a062347079bfe43f2cbb3d39e",
-      "statement": "HO 24 71 extends personal liability and medical-payments coverage to described business pursuits, preserves stated exclusions, and supplies a $100,000 business-pursuit limit that is not increased by the number of insureds, claimants, claims, suits, or occurrences.",
+      "statement": "HO 24 71 extends personal liability and medical-payments coverage to described business pursuits, preserves the endorsement's stated exclusions, and supplies a $100,000 business-pursuit limit that is not increased by the number of insureds, claimants, persons seeking damages, claims, or suits.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L185",
-          "version": "repo-lines-v1:sha256:cadb05b771a66d496efb8414b3f87075bc1dfa409621e947041e67590371e8a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNjg4OTExMjllMWQyYTQwYTcyNDRlYjQ0YTljNWQyOWY1N2Y0NTgyNDI2YTI2NWU4ZTRjNzdiZjc4YWE3NmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZjZmM2I5YWRmMTM3OWYzNGNhODAzY2ZjOWM5MDMzMmIzZjUxM2RmYTM1ZTEzNDljMWE2ZGQ5MDEzZThlODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiNjU3MGFiODE0ZjcwMjY0ODA5ZDVmZjkzMDdjMzkyYTUyMjk3ZmU4NzA4MjlhOGYwMzIyYjMzODU3ZGNmYTAifQ"
+          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L109-L145",
+          "version": "repo-lines-v1:sha256:7f67df3ce434d740b46c63a40b4ae4678e9c892de69ec8e90ec8239bbf2e0225:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3ZmM1NGQyM2E5YzE2YTMxNDIyODBmZWFiZWNiNTkxZTg1MjEzNTliNWQwNDFkZDM2MGYyMGRkODQ0MTBiMTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMGZhM2I5YzU4NmFjMzlkNmU3OGFiNmJjZjkyNDkwMTRhM2U2ZDNkNjQyYTNkNDg1NTM3MzdkZDBhN2ZjZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxMWVlNDM2MzllMjIzMWNjN2E5MmU0ZTA1ZTg3N2ZiM2I1YzlmZWQ2MmM1OGRkOTM3NGIzMTE0OTA1YzRiMWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjM2ZiNTUxYzZkMWM1MzQ0NjMwOTVjMjY5MTdkNzhjNTM4ZmNmMmU0ODFlYTk3OTk0MWI1M2ZlYzFlYjExZmIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L169",
+          "version": "repo-lines-v1:sha256:e8841eb58784e440dc190c768b0bd4b90217d5fcae363b344e1524cce3fbd8f1:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhY2E3MjUyMTcxZTIzNzk4N2FkMWEwZTUyNjg0Y2E2MGIxYzQxNmJiNzY5OGMyOTdmNDgzYzE0NjQzNDIwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwMmIwNzdmYTFjNjU3YzBiNTBhNGE0MmZjZDJhN2ZkMmEzMjg4NDZlOWRiZDFkMjMxOGNiOGJmNDY3NzEwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTNmNmYzYjlhZGYxMzc5ZjM0Y2E4MDNjZmM5YzkwMzMyYjNmNTEzZGZhMzVlMTM0OWMxYTZkZDkwMTNlOGU4MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjM0YTM3ZTQ0OTlmMWM1YmM2MDUyZjMzNjg0MGZlMGU5YjM4NWZkNjc4YTAyYTVlMTM3MjdiNDg4ODAwOTZjZCJ9"
         },
         {
           "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L57-L93",
@@ -194,11 +206,11 @@
     },
     {
       "id": "claim_27ee3261f42b4cdeb039d313b7da72af",
-      "statement": "HO 24 73 expands the described liability and medical-payments protection to covered farming and farm-premises risks, defines farming and farm premises, and retains exclusions and collective-limit rules for business, professional services, employee injury, property in care, vehicles, pollutants, abuse, and other listed exposures.",
+      "statement": "HO 24 73 defines farm premises and farming, extends personal liability and medical payments to covered personal activities, farming, and farm premises, retains exclusions for business and professional services, employee injury, property in care, vehicles, pollutants, abuse, electronic data, and other listed exposures, and applies collective limit rules while stating that Medical Payments payments reduce the amount available under the applicable limit.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-24-73/2011-05.md#L139-L181",
-          "version": "repo-lines-v1:sha256:736890aba82df54b6b349a30ecd4d5c04cd94211f8e2123bf7f1fadfccb79fac:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ODA2ZmU2Y2E4NzQyZTQyNjJkMGEyZTc5N2MyZWIxMjk5ZDczOTY3NjVkOTZkODQ5ZWVhY2U5YjAzOGMzY2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2ZTY1NWE2Yzg5MWE3Mzk0NThiODI5MmZmNmUyY2UyNjkyZTJjZjhiNTBhOWI3NjA0Y2RmMzk4YTIyOGM2ZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhMjBjMTI5Y2YzODkxM2JjZTNiZjc4ODkwZjU1OTIxNjc3NDZmNGU1MDk0NTU1NWNkZjg2YzE2ZjFiNmQ5MTEifQ"
+          "resource": "repo://forms/HO/MS/HO-24-73/2011-05.md#L121-L125",
+          "version": "repo-lines-v1:sha256:f2f7ca4ad78d9a6c38522480ee7709c92810143ce3707187ec62b4819e9f503f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU5NjE4Y2Y0YTVlOWY5NjI4ODQ5YmVkMWMyY2NhMjZjYTIzYWQxOGIzM2M0OWJkMjUwMzg5YmM2ZTkxMTA2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFmZTYxNTFkZGZhODYwZGQ3MTIyNWM1ODhkODRjN2U0YzZlMTI2MjI5NWI5MDM1YmUzNmVlNDUyZTc4OTA1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDA2NTNmOTcxMGE2MTcwZWI5YjY4MzczNDI1ZGYyYzQzYjZiNjc5NDA4MWE5YzAxN2JkYzE4N2UwMjdiYzUwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBiYzM0NTA4NjA4ZDAyNzc2NWZiNGRlMWFmNDg0NTQ4ZjVmMjczYzQ4NzQxZTRkN2ViMWMwMDUwOGNhODBiMyJ9"
         },
         {
           "resource": "repo://forms/HO/MS/HO-24-73/2011-05.md#L41-L75",
@@ -212,15 +224,15 @@
     },
     {
       "id": "claim_b9485800eb3048a79c4a65a142f4ec44",
-      "statement": "HO 24 82 adds personal-injury coverage for offenses including false arrest, malicious prosecution, wrongful eviction or entry, invasion of private occupancy, defamation, and privacy violations, provides a defense for covered claims or suits, and does not increase the applicable liability limit.",
+      "statement": "HO 24 82 adds personal-injury coverage for offenses including false arrest, malicious prosecution, wrongful eviction or entry, invasion of private occupancy, defamation, and privacy violations, provides a defense for covered claims or suits, and states that attaching the endorsement does not increase the applicable limits; its personal-injury limit applies to total covered damages regardless of the number of persons, claimants, or legal actions.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L205-L239",
-          "version": "repo-lines-v1:sha256:bacd39d45f8aad31cc8626266b4101014b9723c6e06ef19e16e1b6ebd8515dab:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNGIzZmYyOWE1MmRkNTI5MDQ1OWRhOTMwOGYxOTYwNTYwMTVjOGQzZmFlMTUzY2E3ZTc2NTc1ZmI3NmZiZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyZjlmMmFiNjQyNzEwYWI3YTZlN2QyYjhmNTBkZTA0NzVlMWI2MDFmOWUxOGQ4ZTgwYzE5YTM4YmE4ZjRmNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIwOWQ1ZmNkMGIwMTMyZjI4MjY3OTc0YTRiNGM0NWNkYWIyZDMxZDU3NDFiMTdiZmQ1MTZmODBjMzcyZmFiMTUifQ"
+          "version": "repo-lines-v1:sha256:ad16ecd2deaa03775e75081df80e03139ee5d0e7aa09f80024b0b1db83724a4c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljZGM0YjIwZmVhMGY4NDBjNDEwNzkyYzY3NjE3NmY2ZWQxZGI1M2I4NjRjOTNkOWM0ZDExYWY4YWRkZGE1NTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyZjlmMmFiNjQyNzEwYWI3YTZlN2QyYjhmNTBkZTA0NzVlMWI2MDFmOWUxOGQ4ZTgwYzE5YTM4YmE4ZjRmNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyZTVkMzNmNTE5NzhmOGJlM2ZkZWYyYjJlODIxMTQzOTEwZGFkODQ0MjQ4OTBlMTU5MmVjY2NlZGNkY2E0YTQifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L47-L63",
-          "version": "repo-lines-v1:sha256:919cdde72fff6855afd6fce3377f9ba8f09998b7f90618eb06659f110705fcf1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlNmVjMDE4YTE3OTFiMjBkNzA3ZTI4ZWVlZDQxZGIzYWYxY2E0ZWZlMmY5NDQxZDdmMWYzY2E4MGQ3ODlmNGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1NWU3Nzk2MDQ5OWQ2NDZjNTY2YTU3MzE0NzMzMDRkNDg3MmUxOWNlNGJkMGM5NjZjODY5YzM1ZjBjMDdhZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NzlhY2FjZTRkNmRkMGFmM2YwMmYwNmQxMGU5Y2FmYTdjZGFjZDA4NTdkZTViZjA4ZjcwNTg2Yjk0NDZmYzUifQ"
+          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L41-L63",
+          "version": "repo-lines-v1:sha256:85c286308bf8513b9aa26efd99185fbfc431d4aa8c927d9fe608fc23c04ba6d6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiN2JkODhhYTBhOGZiMzQyZTA4NTNlYWVmMDUxMDk1NDUxYmViNTNkNjViZWRhODRmNTY0N2IyODc1ZTM1YmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlNmVjMDE4YTE3OTFiMjBkNzA3ZTI4ZWVlZDQxZGIzYWYxY2E0ZWZlMmY5NDQxZDdmMWYzY2E4MGQ3ODlmNGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxYzgxZThlZmEzNzcwODc3NGNiNTY2MzhkMTA5ZjUxM2FjZmFhZGMzM2FhOGVmMDJlZjljOTNmMTFhMzVlMDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NzlhY2FjZTRkNmRkMGFmM2YwMmYwNmQxMGU5Y2FmYTdjZGFjZDA4NTdkZTViZjA4ZjcwNTg2Yjk0NDZmYzUifQ"
         },
         {
           "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L65-L107",
@@ -231,6 +243,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

@@ -1,11 +1,11 @@
 ---
 type: coverage
-title: Other Structures, Additional Interests, and Occupancy Endorsements
-description: Explains Coverage B boundaries and unit-owner property responsibilities, then applies the attached endorsement that acts on limits, rental structures, property interests, liability status, or incidental occupancy. Separates contract coverage and condominium claim triage from underwriting eligibility and referral controls.
-tags: [Coverage B, other structures, additional interests, additional insureds, rental property, incidental occupancy, condominium]
+title: Additional Structures and Insured Interests
+description: Explains how HO-3 and HO-6 forms classify other structures, attached features, unit-owner building property, and property interests across Coverage A, Coverage B, Coverage C, and liability. Shows how rental, increased-limit, additional-interest, and unit-owner endorsements change only their stated line-specific terms.
+tags: [Coverage B, other structures, insured interests, attached property, HO-3, HO-6]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
+    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-32634a1ce53b67e23ed2d2d2
     resource: repo://forms/HO/MS/HO-04-10/2011-05.md
@@ -33,10 +33,10 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-2cf1b29512817bd0bdda6254
     resource: repo://training/condo-master-policy-gap.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 ---
 
-# Other Structures, Additional Interests, and Occupancy Endorsements
+# Additional Structures and Insured Interests
 
 ## Read the policy in layers
 
@@ -69,21 +69,36 @@ A reliable review uses this order:
 
 ## Coverage B baseline: other structures
 
-For **HO-3 2024-03**, Coverage B covers an “other structure” on the residence premises. It must be separated from the dwelling by clear space, or connected only by a fence, utility line, or similar connection. The base limit is **10% of Coverage A**. The structure must be owned by the insured or rented to the insured and used in connection with the residence premises. The base form excludes business use, business-property storage, farming, a structure used as a dwelling, land, and outdoor property. [HO-3 2024-03 B.1–B.11](repo://forms/HO/MS/HO-3/2024-03.md#L153-L177)
+For **HO-3 2024-03**, Coverage B covers an “other structure” on the residence premises. It must be separated from the dwelling by clear space, or connected only by a fence, utility line, or similar connection. The base limit is **10% of Coverage A**. The structure must be owned by you or held in a manner that gives you an insurable interest and must be used in connection with the residence premises. The base form excludes business use and business-property storage, farming or livestock uses, manufacturing or distribution, land and natural property, and business-related hazardous-material storage. [HO-3 2024-03 B.1–B.13](repo://forms/HO/MS/HO-3/2024-03.md#L153-L181)
 
-For **HO-6 2023-02**, Coverage B likewise requires a separate structure, but it covers only an other structure owned by an insured. The form excludes a rented or held-for-rental structure except a private garage, a structure from which business is conducted subject to its private-garage storage exception, and any structure owned by a condominium association, another person, or another entity. No Coverage B percentage is stated in the supplied section; use the applicable policy limit rather than importing the HO-3 10% rule. [HO-6 2023-02 B.1–B.9](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152)
+For **HO-6 2023-02**, Coverage B also requires a structure set apart from the dwelling by clear space or connected only by a fence, utility line, or similar connection, and its supplied section states no Coverage B percentage; use the applicable policy limit rather than importing the HO-3 10% rule. The section excludes land and natural property, structures rented or held for rental to another person (unless occupied by you for a residential purpose), business structures and business storage, and structures serving goods for sale or customers. It does **not** state the HO-3 ownership or insurable-interest wording in the cited Coverage B provisions. [HO-6 2023-02 B.1–B.30](repo://forms/HO/MS/HO-6/2023-02.md#L134-L194)
 
 These are classification boundaries, not merely limit reductions. An endorsement can change a limit or provide a stated use or property grant, but it does not turn personal property, land, an attached structure, or otherwise excluded property into covered property unless the endorsement expressly changes that result.
+
+### Attached features and the coverage-part boundary
+
+Ownership or legal responsibility answers **whose interest is being evaluated**; it does not by itself select the coverage part. The physical relationship and the form's property description do that work:
+
+| Property fact | Coverage-part treatment in the supplied forms |
+|---|---|
+| A structure attached to the dwelling beyond a fence, utility line, or similar connection | It is part of the dwelling rather than Other Structures under HO-3 2024-03. HO-6 2023-02 likewise treats attached additions and structures as Coverage A property. [HO-3 2024-03 B.2](repo://forms/HO/MS/HO-3/2024-03.md#L157-L165) · [HO-6 2023-02 A.1–A.5](repo://forms/HO/MS/HO-6/2023-02.md#L78-L88) |
+| Permanently installed fixtures, equipment, additions, or alterations that are part of a qualifying detached structure | They remain part of that Coverage B structure in HO-3 2011-05 and HO-6 2023-02. Movable property merely stored in or attached to the structure is not converted into Coverage B by its location. [HO-3 2011-05 B.8–B.14](repo://forms/HO/MS/HO-3/2011-05.md#L137-L149) · [HO-6 2023-02 B.22–B.26](repo://forms/HO/MS/HO-6/2023-02.md#L178-L186) |
+| Land, soil, plants, landscaping, or natural material at a detached structure | It is not Other Structures coverage; the structure itself must be separated from the land analysis. [HO-3 2024-03 B.10](repo://forms/HO/MS/HO-3/2024-03.md#L173-L177) · [HO-6 2023-02 B.27](repo://forms/HO/MS/HO-6/2023-02.md#L186-L188) |
+| Joint ownership or a lien affecting an HO-3 2024-03 other structure | The form recognizes the insured's insurable interest and does not pay beyond that interest; a lien does not itself expand the Coverage B limit. [HO-3 2024-03 B.19–B.20](repo://forms/HO/MS/HO-3/2024-03.md#L193-L195) |
+
+The 2011 HO-3 wording also keeps the lifecycle of a qualifying structure in the Coverage B analysis: a structure under construction, materials at the residence premises, permanent additions and fixtures, and a structure temporarily removed or in transit for repair can remain within the stated Coverage B treatment, while permanent relocation or use elsewhere ends the stated temporary treatment. Those provisions do not cover a business structure, undamaged property, or duplicate payment. [HO-3 2011-05 B.11–B.18](repo://forms/HO/MS/HO-3/2011-05.md#L143-L157)
+
+Read ownership, attachment, use, and cause of loss as separate questions. A mortgage, additional interest, condominium document, or claim description may identify a payee or responsibility, but cannot by itself move property from Coverage C to Coverage B, from Coverage B to Coverage A, or from an excluded category into coverage.
 
 ## Acting property endorsements
 
 ### HO 04 48: increased Coverage B limit
 
-**Acting endorsement and modification.** When attached to an HO-3 policy, **HO 04 48 (2026-06) modifies Coverage B's limit** to **20% of the Coverage A limit**, replacing the otherwise applicable limit. It applies to covered direct physical loss to qualifying Other Structures, remains separate from Coverage A, and is the most payable for all covered loss from an occurrence, regardless of the number of structures, insureds, claimants, or causes. [HO 04 48 attachment and scope](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L27) · [HO 04 48 W.2.1–W.2.7](repo://forms/HO/MS/HO-04-48/2026-06.md#L129-L143)
+**Acting endorsement and modification.** When attached to an HO-3 policy, **HO 04 48 (2026-06) modifies Coverage B's limit** to **20% of the Coverage A limit**, replacing the otherwise applicable limit. It applies only to covered direct physical loss to qualifying Other Structures and does not increase Coverage A or create coverage for property that is not otherwise covered. [HO 04 48 attachment and scope](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L27) · [HO 04 48 W.1.1–W.1.5](repo://forms/HO/MS/HO-04-48/2026-06.md#L29-L47) · [HO 04 48 W.2.1–W.2.4](repo://forms/HO/MS/HO-04-48/2026-06.md#L129-L137)
 
-**What the limit does not do.** The endorsement's increased-limit provisions do not themselves change the property to which coverage applies or erase a cause-of-loss exclusion. Read the endorsement's own Coverage B grant and qualifications first, then its preserved exclusions and limitations; if an endorsement term conflicts with the base form, the endorsement controls only within that conflict. The 20% figure must not be applied to property that does not qualify for Coverage B. [HO 04 48 W.0 and W.1](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L49) · [HO 04 48 W.2.12–W.2.14 and W.4.1–W.4.14](repo://forms/HO/MS/HO-04-48/2026-06.md#L151-L157) · [HO 04 48 W.4.1–W.4.14](repo://forms/HO/MS/HO-04-48/2026-06.md#L221-L249)
+**What the limit does not do.** The increased limit does not change the property to which Coverage B applies, erase a cause-of-loss exclusion, or combine with another coverage limit. The endorsement controls only where it conflicts with another applicable provision; all other terms, conditions, exclusions, and duties remain applicable. [HO 04 48 W.0](repo://forms/HO/MS/HO-04-48/2026-06.md#L13-L27) · [HO 04 48 W.2.20–W.2.22 and W.4.1–W.4.3](repo://forms/HO/MS/HO-04-48/2026-06.md#L67-L73) · [HO 04 48 W.4.1–W.4.3](repo://forms/HO/MS/HO-04-48/2026-06.md#L201-L207)
 
-**Limit and condition.** The 20% limit is collective for Coverage B; more than one interest does not increase it, and repair, replacement, rebuilding, debris removal, and other covered Coverage B expenses consume that limit. The applicable deductible still applies. [HO 04 48 W.2.5–W.2.10](repo://forms/HO/MS/HO-04-48/2026-06.md#L137-L149) · [HO 04 48 W.3.1–W.3.8](repo://forms/HO/MS/HO-04-48/2026-06.md#L179-L195)
+**Limit and condition.** The 20% amount is the most payable under Coverage B for covered loss; it does not increase because multiple structures or other interests are involved. For a loss from the same occurrence, the endorsement applies one combined deductible to covered property damage and covered expenses rather than a separate deductible per item. Coverage must be established before the deductible is applied; the deductible cannot make excluded property or loss covered. [HO 04 48 W.2.1–W.2.3](repo://forms/HO/MS/HO-04-48/2026-06.md#L129-L135) · [HO 04 48 W.3.1–W.3.7](repo://forms/HO/MS/HO-04-48/2026-06.md#L179-L193)
 
 ### HO 04 40: structures rented to others
 
@@ -91,7 +106,7 @@ These are classification boundaries, not merely limit reductions. An endorsement
 
 **What it preserves.** The structure must remain on the residence premises. The endorsement does not cover the dwelling, ordinary personal property, liability, or loss-of-use claims. It preserves exclusions for unlawful use, flood and surface water, earth movement, sewer or sump backup, vacancy-related vandalism, tenant or occupant property, business pursuits, and repeated seepage or leakage. Tenant property does not become covered merely because it is in or near the rented structure. [HO 04 40 W.1.13–W.1.17 and W.1.34–W.1.37](repo://forms/HO/MS/HO-04-40/2011-05.md#L67-L75) · [HO 04 40 W.4.1–W.4.15 and W.4.29–W.4.42](repo://forms/HO/MS/HO-04-40/2011-05.md#L247-L277) · [HO 04 40 W.4.29–W.4.42](repo://forms/HO/MS/HO-04-40/2011-05.md#L303-L333)
 
-**Limit and condition.** Landlord's furnishings have a **$5,000** limit for all covered loss from the same event; loss of use, loss of income, multiple items, and related property do not enlarge it. The insured must be able to show that the structure was rented or held for rental at the time of loss. [HO 04 40 W.2.1–W.2.8](repo://forms/HO/MS/HO-04-40/2011-05.md#L141-L165) · [HO 04 40 W.1.46–W.1.49](repo://forms/HO/MS/HO-04-40/2011-05.md#L131-L139)
+**Limit and condition.** Landlord's furnishings have a **$5,000** maximum. The limit applies regardless of the number of items damaged or the number of occurrences causing the loss. The insured must be able to show that the structure was rented or held for rental at the time of loss; the endorsement may request rental agreements, rent records, and tenant communications. [HO 04 40 W.2.1–W.2.8](repo://forms/HO/MS/HO-04-40/2011-05.md#L141-L165) · [HO 04 40 W.1.46–W.1.49](repo://forms/HO/MS/HO-04-40/2011-05.md#L131-L139)
 
 ## Property interests are not insured status
 
@@ -109,7 +124,7 @@ These are classification boundaries, not merely limit reductions. An endorsement
 
 **What it preserves.** The endorsement does not provide property insurance for the additional insured. It also preserves boundaries for liability unrelated to the residence premises, business or professional services, intentional or criminal acts, vehicles, watercraft, aircraft, and damage to property owned by, occupied by, or in the custody or control of the relevant insured. The additional insured has no greater rights than the policy provides and cannot change, cancel, or direct the policy merely because it is scheduled. [HO 04 41 W.0.21–W.0.37](repo://forms/HO/MS/HO-04-41/2011-05.md#L99-L137) · [HO 04 41 W.1.57–W.1.60](repo://forms/HO/MS/HO-04-41/2011-05.md#L171-L177)
 
-**Limit and condition.** The applicable liability limit is shared by all damages arising from the occurrence; adding an additional insured, adding claimants, or stating multiple theories does not increase it. The additional insured must give prompt notice, forward suit papers, cooperate, and report changes in ownership, use, or occupancy. [HO 04 41 W.2.1–W.2.10 and W.2.19–W.2.25](repo://forms/HO/MS/HO-04-41/2011-05.md#L215-L235) · [HO 04 41 W.1.41–W.1.57](repo://forms/HO/MS/HO-04-41/2011-05.md#L139-L171)
+**Limit and condition.** The applicable liability limit is shared by the covered loss; the number of insureds, claims, persons making a claim, or occurrences does not increase it. The additional insured must promptly notify us and forward demands, notices, summonses, or legal papers. The additional insured must report changes in ownership, transfer, use, or occupancy; insureds separately owe the cooperation and evidence duties stated in the endorsement. [HO 04 41 W.1.41–W.1.52](repo://forms/HO/MS/HO-04-41/2011-05.md#L139-L161) · [HO 04 41 W.2.1–W.2.19](repo://forms/HO/MS/HO-04-41/2011-05.md#L215-L253)
 
 ## HO 04 42: permitted incidental occupancies
 
@@ -131,13 +146,13 @@ Separate the source of damage from the property damaged. A common element or sha
 
 **Acting endorsement and modification.** When attached to the applicable HO-6 policy, **HO 17 32 (2014-04) modifies the unit-owner property treatment while the unit is rented or held available for rental**. It covers the owner's permanently installed property, appliances, furnishings, equipment, improvements, maintenance property, and qualifying property of others for which the owner is legally responsible. It also provides loss of rent when a covered loss makes the unit unfit, but tenant personal property is not covered merely because it is in the unit. [HO 17 32 W.0](repo://forms/HO/MS/HO-17-32/2014-04.md#L13-L39) · [HO 17 32 W.1.1–W.1.22](repo://forms/HO/MS/HO-17-32/2014-04.md#L41-L85)
 
-**Limit and condition.** The landlord's-furnishings limit is **$5,000** for covered loss from the same event, with no increase for multiple items, loss of use, loss of income, or multiple interests. The insured must provide rental agreements, rent records, or tenant communications when reasonably requested to show that the unit was rented or held available at the time of loss. [HO 17 32 W.2.1–W.2.10](repo://forms/HO/MS/HO-17-32/2014-04.md#L139-L159) · [HO 17 32 W.1.47–W.1.48](repo://forms/HO/MS/HO-17-32/2014-04.md#L131-L137)
+**Limit and condition.** The landlord's-furnishings limit is **$5,000**, is part of Coverage C, and applies regardless of the number of items damaged or the number of occurrences causing the loss. It does not become a separate limit merely because the claim also involves loss of rent or other interests. The insured must provide rental agreements, rent records, or tenant communications when reasonably requested to show that the unit was rented or held available at the time of loss. [HO 17 32 W.2.1–W.2.10](repo://forms/HO/MS/HO-17-32/2014-04.md#L139-L159) · [HO 17 32 W.1.47–W.1.48](repo://forms/HO/MS/HO-17-32/2014-04.md#L131-L137)
 
 The endorsement does not replace the need to read the governing HO-6 edition and declarations. Its attachment modifies only the rental treatment stated in the endorsement and preserves the policy provisions it does not change.
 
 ### Unit-owner building property: Coverage A boundary
 
-The HO-6 2023-02 base form covers building property the unit owner must insure under an agreement and excludes association- or third-party-owned property unless the insured is responsible under an agreement to repair or replace it. Its Coverage B separately excludes attached structures, rented structures other than a private garage, business structures, and structures not solely owned by an insured. [HO-6 2023-02 A.4–A.12](repo://forms/HO/MS/HO-6/2023-02.md#L86-L104) · [HO-6 2023-02 B.1–B.9](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152)
+The HO-6 2023-02 base form covers building property that the unit owner owns or is legally responsible for, including attached additions, permanently installed components, and property assigned to the owner under governing documents or an agreement. It excludes property placed solely under the association's responsibility. Coverage B is a separate classification for structures set apart from the dwelling; in the supplied B section, do not import an unstated ownership predicate or a Coverage A percentage. [HO-6 2023-02 A.1–A.5 and A.16–A.20](repo://forms/HO/MS/HO-6/2023-02.md#L78-L118) · [HO-6 2023-02 B.1–B.9](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152)
 
 Do not use Coverage B to solve a unit-owner building-property question. A unit's attached fixtures, improvements, and building property that the owner must insure belong in the Coverage A analysis, subject to the applicable edition, agreement, exclusions, limit, and deductible. The condominium training's ownership and repair questions help gather facts; the HO-6 wording controls the contractual result. [HO-6 2023-02 A.1–A.13](repo://forms/HO/MS/HO-6/2023-02.md#L78-L120) · [Condominium training L.2.31–L.2.42](repo://training/condo-master-policy-gap.md#L181-L223)
 
@@ -157,7 +172,7 @@ For a detached structure used for business, the manual says to refer rather than
 
 1. Identify the HO-3 or HO-6 edition, declarations, deductible, and attached endorsements.
 2. Classify the item: Coverage B other structure, Coverage A unit-owner building property, personal property, or liability exposure.
-3. For Coverage B, test separation, ownership or responsibility, location, use, and the base exclusion before applying an increased-limit or rental endorsement.
+3. For Coverage B, test the form's separation, ownership or insurable-interest wording (if any), location, use, and base exclusions before applying an increased-limit or rental endorsement.
 4. For a condominium loss, obtain the declaration, master-policy position, repair responsibility, and assessment or repair records before classifying the damaged component.
 5. For an additional interest, verify the lawful financial interest and its extent; for an additional insured, verify that the requested protection is liability status limited to the endorsed premises.
 6. For an occupancy, compare the actual activity with the schedule and endorsement conditions, then apply the endorsement's exclusions and limits.

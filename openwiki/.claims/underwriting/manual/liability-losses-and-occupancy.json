@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:1bf2854921b1b4060640f0cd9b425b2fb4dce4141b9fb30085f86093fdc1a949",
+  "pageVersion": "sha256:7616b84d4f102d2f2f4c6f23f8e1c536a822f876bd6a4ed7c4e7c9389ceaccf4",
   "claims": [
     {
       "id": "claim_3786f7a791c64f0395cb3b7e9ef2c3cf",
@@ -240,25 +240,21 @@
     },
     {
       "id": "claim_3ffecb6a268c45c0ba0871dedbec0b18",
-      "statement": "HO 24 71 states a shared $100,000 limit for the sum of damages arising from business pursuits, while HO 04 42 limits its grant to a lawful incidental occupancy subordinate to residential use and not materially changing the residence character.",
+      "statement": "HO 24 71 sets a $100,000 maximum for covered business-pursuit damages and applies it to the total damages regardless of the number of insureds, claimants, claims, or suits; HO 04 42 provides its stated liability coverage only for a lawful incidental occupancy conducted at premises used in connection with the residence, subordinate to residential use, and not materially changing the residential character.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49",
-          "version": "repo-lines-v1:sha256:39bc7f1016c3bb3a76849fd067309b0b0535da51e3fd63b365d889c7e6c766b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMDY4NDk0YWRhYWNmYTA5MGY2NDQwNWIyYzdjZWY4MGU2ZjZhNmIzZWVmODEyZjRhNmRhMjE1MDQ3Mzk2YWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1N2MyMDlmYmNjMmY3NTM4Y2NjYWMyMGVjODFlOGUzNGE0N2E4NDUwNzAzZDk1Y2ZiNzJkOTdmNDA0OWM0MTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyZDQzOTBmMjg5MzA0YzllNTVlZDQzYTA4NDJmYjYwOGUyZWFjMGZiNGFlYzgzODhiMzQ0YTc3MjA5YzQ5Y2UifQ"
+          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L45",
+          "version": "repo-lines-v1:sha256:b1b3cfe991bf9c17114e523883f18e51d343daea775103902918f6babc80e7b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxOGY3ZWE4ZjE3MzUwODI1ZWYyNmU2YmY1ZDc3M2M0MmM4ZDc3NDU5N2IxOGMwMTc1ZDk1MWI3OGM1NjE5N2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1N2MyMDlmYmNjMmY3NTM4Y2NjYWMyMGVjODFlOGUzNGE0N2E4NDUwNzAzZDk1Y2ZiNzJkOTdmNDA0OWM0MTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ZTZjYzA2Njk1MjIxZmFjNjQwYmJmNGMyZjZjN2JiZmUwYTdjOTJlNWRkMDUxOTc1NTI1ZmY5NjY5MDY2YjYifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L187",
-          "version": "repo-lines-v1:sha256:82361867b825fb7842d37b370b59d87d453eac0c549748943785163d2d6bb12a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3MDU1MmJlYWQyMzMzOWI0Zjg2MWMyYmUxNjlmZjM4NzMwMjUxNDk3MzBmNzhhMGUzYzFkMGNhY2NkMWIzZGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZjZmM2I5YWRmMTM3OWYzNGNhODAzY2ZjOWM5MDMzMmIzZjUxM2RmYTM1ZTEzNDljMWE2ZGQ5MDEzZThlODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRiZmFkMWFmMTQxOGUwYzRjMzUwMmFlMWY3MjM3ODA4YjNkMmYzMDJlNmIzMmY5OTAzYjhhY2FmOWRhODY4MjkifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L57-L81",
-          "version": "repo-lines-v1:sha256:69ba18b2b98757ae7cabc10fbcc477a689f576afb74285f5784c2f0fc62a23e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NGVmNTEzNGI4ZWRhZDFiMjgwOTlmMTYyMTdlZDk0MGUxNTNlODExNjg4NzA5OWRmNDc3MDc2MDgxMWJmYjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU1MDVjOTMxNmFhNTM2YTgxZWIwYmZkMDgyNjcyM2U1ZmNkMTlkNWY4N2VlYTY5N2ZlMWY0NDk5N2QyOTYwZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzYzQ3YTIyYjc0ZmM4Y2E4ODYwYjdmYzRjNTA1MjFlMjA3NjcwOWE5OGVmM2Q3M2EwZjg2YTQ1YjIxZTU0NDMifQ"
+          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L169",
+          "version": "repo-lines-v1:sha256:e8841eb58784e440dc190c768b0bd4b90217d5fcae363b344e1524cce3fbd8f1:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhY2E3MjUyMTcxZTIzNzk4N2FkMWEwZTUyNjg0Y2E2MGIxYzQxNmJiNzY5OGMyOTdmNDgzYzE0NjQzNDIwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwMmIwNzdmYTFjNjU3YzBiNTBhNGE0MmZjZDJhN2ZkMmEzMjg4NDZlOWRiZDFkMjMxOGNiOGJmNDY3NzEwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTNmNmYzYjlhZGYxMzc5ZjM0Y2E4MDNjZmM5YzkwMzMyYjNmNTEzZGZhMzVlMTM0OWMxYTZkZDkwMTNlOGU4MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjM0YTM3ZTQ0OTlmMWM1YmM2MDUyZjMzNjg0MGZlMGU5YjM4NWZkNjc4YTAyYTVlMTM3MjdiNDg4ODAwOTZjZCJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

@@ -1,24 +1,26 @@
 ---
 type: claims-guidance
-title: "Claims Manual: Intake, Investigation, and Mitigation"
+title: "Claims Intake, Investigation, and Mitigation"
 description: "A concise property-claims workflow for receiving notice, creating and controlling the claim file, developing cause and damage evidence, protecting property, and separating investigation from coverage and payment authority. Internal guidance is not a policy grant or amendment."
 tags: [claims-handling, claim-intake, investigation, mitigation, authority-controls]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-98996e9748507677077d5997
+    resource: repo://guidelines/claims/roof-claim-handling.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 
-# Claims Manual: Intake, Investigation, and Mitigation
+# Claims Intake, Investigation, and Mitigation
 
 This page organizes Property Claims Handling Manual Chapters 1–3 as an operating workflow. It applies to property claims assigned to the carrier and keeps the adjuster within the assigned role and authority. The manual is internal guidance: it does not alter coverage, create an insured obligation, waive a condition, or create coverage through correspondence ([Manual 1.A](repo://manuals/claims/manual.md#L15-L19); [Manual 1.G](repo://manuals/claims/manual.md#L51-L55)). The applicable policy, endorsements, and law control the coverage result.
 
@@ -88,7 +90,7 @@ The key internal timing controls are:
 2. **Reservation of rights:** when known facts may limit or preclude coverage but investigation must continue, use approved language and issue the reservation within **10 days**. State the known facts, potentially applicable policy language, and investigation needed; do not use vague or unsupported language ([Manual 2.X–2.Z](repo://manuals/claims/manual.md#L481-L491); [Water guidance H.6.4–H.6.7](repo://guidelines/claims/water-loss-handling.md#L487-L493)). A reservation is not a denial, acceptance, or payment commitment. Continue fact gathering and necessary mitigation unless an authorized coverage resource directs otherwise ([Manual 2.AB–2.AE](repo://manuals/claims/manual.md#L497-L511)).
 3. **Water mitigation:** the manual directs mitigation to begin promptly and, when covered water affects insured property, within **3 days after discovery** ([Manual 3.A](repo://manuals/claims/manual.md#L709-L715)). The water guidance repeats the instruction to begin reasonable mitigation within 3 days after discovery of water damage ([Water guidance H.6.8–H.6.10](repo://guidelines/claims/water-loss-handling.md#L495-L499)). This is an operational direction to reduce additional damage, not a promise that the resulting expense or claim is covered.
 
-The applicable policy may impose a different or additional insured duty. For example, the attached HO 04 90 endorsement requires notice within 30 days after discovery and requires reasonable protection, access, preservation, evidence, and mitigation ([HO 04 90 W.5.1–W.5.13](repo://forms/HO/MS/HO-04-90/2027-01.md#L367-L423)). That contract language must be analyzed for the policy and endorsement actually in force; the internal three-day handling instruction cannot replace or amend it.
+The applicable policy may impose a different or additional insured duty. For example, the attached HO 04 90 endorsement requires notice within 30 days after discovery and requires reasonable protection, access, preservation, evidence, and mitigation ([HO 04 90 W.5.1–W.5.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L791-L819)). That contract language must be analyzed for the policy and endorsement actually in force; the internal three-day handling instruction cannot replace or amend it.
 
 ## 3. Investigation: develop cause, path, duration, and scope
 
@@ -105,6 +107,8 @@ For water-loss source development:
 - document pre-existing staining, rot, corrosion, deterioration, prior repairs, recurring conditions, and any competing explanation without treating them as an automatic denial.
 
 These are investigation controls, not coverage outcomes. Chapter 3 requires inspection before demolition when conditions permit, representative evidence when emergency work prevents a complete inspection, and qualified findings when the source cannot be reliably identified ([Manual 3.E, 3.H, 3.O–3.P](repo://manuals/claims/manual.md#L735-L757); [Manual 3.O–3.P](repo://manuals/claims/manual.md#L795-L805)). The training module reinforces that a stain, moisture reading, contractor label, or insured description is evidence to evaluate with the rest of the file, not conclusive causation by itself ([Water Losses 101 L.2.15–L.2.16, L.2.69–L.2.80](repo://training/water-losses-101.md#L89-L91); [Water Losses 101 L.2.77–L.2.80](repo://training/water-losses-101.md#L213-L219)).
+
+For a roof-related report, use the roof-specific procedure as a specialty handoff rather than importing roof settlement rules into unrelated claims. It adds inspection of accessible roof surfaces, related components, and affected interiors; weather and damaged-versus-undamaged comparisons; prior-repair review; and qualified review when cause, scope, or repair feasibility cannot be resolved from available evidence. A contractor may provide scope and pricing information, but does not decide coverage ([Roof guidance H.6.11–H.6.18](repo://guidelines/claims/roof-claim-handling.md#L487-L501); [Roof guidance H.6.27–H.6.32](repo://guidelines/claims/roof-claim-handling.md#L519-L529); [Roof guidance H.7.38](repo://guidelines/claims/roof-claim-handling.md#L649-L651)).
 
 ### Preserve evidence and document limitations
 
@@ -132,7 +136,7 @@ Do not direct nonemergency work beyond authority or require permanent repairs be
 
 The investigation establishes facts; it does not decide what the policy covers. Review the applicable declarations, form edition, endorsements, definitions, grants, exclusions, conditions, deductibles, limits, and settlement terms against verified facts. Keep coverage issues and valuation issues in distinct file entries, and do not treat an estimate as a coverage decision ([Manual 1.F, 1.I–1.J](repo://manuals/claims/manual.md#L45-L73)).
 
-For example, the HO-3 2024-03 form provides direct-physical-loss coverage subject to exclusions and conditions, excludes sewer or drain backup and sump overflow unless a water-backup endorsement is attached, and separately describes accidental plumbing discharge and continuous or repeated leakage ([HO-3 AGR.3, AGR.9](repo://forms/HO/MS/HO-3/2024-03.md#L15-L31); [HO-3 P.9–P.12, P.29–P.33](repo://forms/HO/MS/HO-3/2024-03.md#L569-L623)). If HO 04 90 2027-01 is actually attached, its terms modify the policy where they conflict and provide the stated backup or sump coverage subject to its conditions and limit ([HO 04 90 W.1–W.13](repo://forms/HO/MS/HO-04-90/2027-01.md#L15-L39); [HO 04 90 W.1–W.14](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L69)). The adjuster must not generalize that example to a policy that does not contain the endorsement.
+For example, the HO-3 2024-03 form provides direct-physical-loss coverage subject to exclusions and conditions, excludes sewer or drain backup and sump overflow unless a water-backup endorsement is attached, and separately describes accidental plumbing discharge and continuous or repeated leakage ([HO-3 AGR.3, AGR.9](repo://forms/HO/MS/HO-3/2024-03.md#L15-L31); [HO-3 P.29–P.33](repo://forms/HO/MS/HO-3/2024-03.md#L525-L533); [HO-3 X.7–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L593-L599)). If HO 04 90 2027-01 is actually attached, its terms modify the policy where they conflict and provide the stated backup or sump coverage subject to its conditions and limit ([HO 04 90 W.1–W.5](repo://forms/HO/MS/HO-04-90/2027-01.md#L16-L36); [HO 04 90 W.1–W.4](repo://forms/HO/MS/HO-04-90/2027-01.md#L64-L80)). The adjuster must not generalize that example to a policy that does not contain the endorsement.
 
 ### Scope and payment controls
 

@@ -1,25 +1,29 @@
 ---
 type: underwriting-guidance
-title: Manual Inspections and Documentation Standards
-description: Rules 600 and 610 define when underwriting must obtain inspection evidence, how that evidence is evaluated and cleared, and what an audit-ready underwriting record must preserve. This page keeps inspection and file controls separate from post-loss claim duties and policy coverage terms.
+title: Inspection and Records
+description: Rules 600 and 610 define when underwriting must obtain inspection evidence, how findings are verified, resolved, referred, and closed, and what an audit-ready underwriting record must preserve before binding or referral. This page keeps internal inspection and file controls separate from post-loss duties and policy coverage terms.
 tags: [underwriting, inspections, documentation, evidence, referrals, audit-readiness]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
 sources:
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-1a7fd187295c6f9ef57d73cb
+    resource: repo://guidelines/appetite/ca-homeowners.md
+  - id: openwiki-source-da67a262bebb42780999bd2a
+    resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
-# Manual Inspections and Documentation Standards
+# Inspection and Records
 
 ## Scope and boundary
 
 This page groups **Rule 600 — Inspections** and **Rule 610 — Documentation Standards** of the Personal Lines Underwriting Manual. They are internal controls for risk selection, referral, corrective-action follow-up, and the underwriting file. They do not grant, remove, or interpret policy coverage. Rule 100 says the Manual is internal carrier direction and must not be used as a coverage grant; coverage remains governed by the issued policy terms and attached contract documents ([Rule 100.A–100.D](repo://manuals/underwriting/manual.md#L13-L37)).
 
-An inspection is evidence for an underwriting decision, not a rating instruction or a coverage determination. Rule 600 does not state a premium, deductible, settlement, or coverage consequence from an inspection finding. Apply the applicable product, appetite, authority, renewal, and adverse-action controls separately. In particular, use [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) when a finding exceeds delegated authority, and [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) for the broader referral lifecycle.
+An inspection is evidence for an underwriting decision, not a rating instruction or a coverage determination. Rule 600 does not state a premium, deductible, settlement, or coverage consequence from an inspection finding. Apply the applicable product, appetite, authority, renewal, and adverse-action controls separately. In particular, use [Binding Authority and Exceptions](/openwiki/underwriting/guidelines/binding-authority.md) and [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) when a finding exceeds delegated authority, and [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) for the broader referral lifecycle.
 
 ## Operating lifecycle
 
@@ -60,7 +64,13 @@ Order or require inspection evidence when any of these conditions is present:
 - **Discrepancy, occupancy pattern, and prior loss:** material differences between the structures and the application, unreported improvements or converted areas, seasonal or intermittent occupancy, apparently unrepaired prior damage, recurring property conditions, fire evidence, pest activity, or compromised openings require inspection, verification, or referral under Rules 600.X–600.AE. [Rule 600.X–600.AE](repo://manuals/underwriting/manual.md#L8641-L8687)
 - **Roof and utility evidence:** damaged roofing accessories or drainage components, unusual detached structures, fuel storage, exterior utility installations, damaged service connections, code notices, restricted access, conflicting third-party or aerial information, unresolved prior recommendations, and unusable photographs are covered by Rules 600.AF–600.AO. [Rule 600.AF–600.AO](repo://manuals/underwriting/manual.md#L8689-L8747)
 
-A trigger is not cleared merely because an applicant has supplied an explanation. The explanation, inspection, supporting records, and reconciliation belong in the file. The applicable appetite or product rule may impose an earlier or stricter control: for example, the Texas guide also requires a roof inspection at or above 15 years and says a roof at or above 25 years may not be bound. That is a separate state appetite position, not a rating or coverage consequence of Rule 600 ([Texas guide H.2.3–H.2.6](repo://guidelines/appetite/tx-homeowners.md#L155-L165)).
+A trigger is not cleared merely because an applicant has supplied an explanation. The explanation, inspection, supporting records, and reconciliation belong in the file. The applicable appetite or product rule may impose an earlier or stricter control.
+
+### State and product overlays
+
+Do not generalize the Manual’s 15-year roof-survey trigger into a universal state threshold. The California appetite guide requires an acceptable roof inspection before binding at **20 years or greater**, requires review of available roof photographs, requires documented completion of repairs for an active leak, and restricts binding while roof work is incomplete unless underwriting approves after reviewing scope and expected completion. It also requires retaining the inspection, photographs, and repair evidence used to support the binding decision ([California appetite H.2.1–H.2.5](repo://guidelines/appetite/ca-homeowners.md#L306-L327) [California appetite H.2.31](repo://guidelines/appetite/ca-homeowners.md#L450-L454)). For California Coverage A above **$1,000,000**, the guide separately requires a wind-mitigation inspection ([California appetite H.3.3–H.3.4](repo://guidelines/appetite/ca-homeowners.md#L522-L529)).
+
+The Texas guide separately requires a roof inspection before binding at or above **15 years**, prohibits binding at or above **25 years**, and requires a wind-mitigation inspection when Coverage A exceeds **$500,000** ([Texas appetite H.2.3–H.2.6](repo://guidelines/appetite/tx-homeowners.md#L159-L165) [Texas appetite H.3.2–H.3.5](repo://guidelines/appetite/tx-homeowners.md#L279-L285)). Apply the state and product position that governs the submission alongside Rule 600; neither an appetite threshold nor an inspection requirement changes policy coverage.
 
 ## Evidence validity and reliability
 
@@ -132,17 +142,20 @@ The case record should let a later reviewer reconstruct what was known, when it 
 
 Protect inspection reports, photographs, communications, and related evidence in the underwriting file, restrict access to legitimate underwriting purposes, and record what was retained, its source, review status, and any access limitation (Rule 600.AV). [Rule 600.AV](repo://manuals/underwriting/manual.md#L8785-L8789)
 
-## Underwriting evidence versus post-loss claim duties
+## Underwriting evidence versus post-loss policy duties
 
-Do not merge this page’s pre-bind or continuing-underwriting controls with an insured’s duties after a loss. The HO-3 2024-03 form separately requires an insured to permit inspection of damaged property and examination of records relating to a loss, provide requested information, show damaged property, and preserve it when practicable ([HO-3 A.16–A.18](repo://forms/HO/MS/HO-3/2024-03.md#L127-L133)). For personal property claims, the form separately addresses inventories, receipts, photographs, appraisals, inspection access, examinations, and proof of ownership ([HO-3 C.24–C.30](repo://forms/HO/MS/HO-3/2024-03.md#L263-L279)). Those are policy duties after loss, not Rule 600 inspection triggers or Rule 610 underwriting record controls.
+Do not merge this page’s pre-bind or continuing-underwriting controls with an insured’s duties after a loss. The HO-3 2024-03 form separately requires the insured to protect covered property, keep repair-expense records, preserve damaged property, show it, permit premises inspection, provide requested records and documents, submit to examination under oath when reasonably requested, and provide receipts, estimates, invoices, photographs, and similar claim evidence (Section I S.6–S.19). Those are contract duties after loss, not Rule 600 inspection triggers or Rule 610 underwriting record controls ([HO-3 S.6–S.19](repo://forms/HO/MS/HO-3/2024-03.md#L723-L749)).
 
-The form also says an insurer may inspect covered property before or after a loss, but that an inspection is not a representation that property is safe, sound, or eligible for coverage (HO-3 C.50). Thus, an underwriting inspection record should not be presented as a promise of coverage, safety, or claim payment. Use [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md) when the evidence arises from a reported loss; that page explains the separate claim lifecycle and the need to preserve source, path, duration, scope, mitigation, and valuation evidence. [HO-3 C.50–C.52](repo://forms/HO/MS/HO-3/2024-03.md#L317-L325)
+The form also separately requires an inventory of damaged personal property when reasonably requested, available records supporting the amount of loss, and information or documentation concerning liens, encumbrances, ownership interests, and security interests ([HO-3 G.16–G.19](repo://forms/HO/MS/HO-3/2024-03.md#L1321-L1331)). These provisions explain the separate contract duty; they do not turn an underwriting file rule into a policy condition.
+
+For the inspection boundary, the form permits inspection of covered property at reasonable times but says the inspection does not constitute acceptance of any condition or representation concerning the property. Its broader conditions also say an inspection is not a warranty that property is safe, sound, or compliant with law, and does not impose a duty to identify hazards or defects ([HO-3 S.23–S.25](repo://forms/HO/MS/HO-3/2024-03.md#L757-L761) [HO-3 G.58–G.59](repo://forms/HO/MS/HO-3/2024-03.md#L1409-L1411)). Thus, an underwriting inspection record should not be presented as a promise of coverage, safety, or claim payment. Use [Claims Intake, Investigation, and Mitigation](/openwiki/claims/manual/intake-investigation-and-mitigation.md) when the evidence arises from a reported loss; that page explains the separate claim lifecycle and evidence-preservation controls.
 
 ## Related control points
 
-- [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — delegated authority, mandatory referral, and conditions that cannot be cleared.
+- [Binding Authority and Exceptions](/openwiki/underwriting/guidelines/binding-authority.md) — delegated authority, referrals, exceptions, and file controls before binding.
+- [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — mandatory referral and conditions that cannot be cleared.
 - [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) — referral package, approval status, and pending-action controls.
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product-line entry criteria and pre-bind controls.
 - [Property and Water Risk](/openwiki/underwriting/manual/property-and-water-risk.md) — property-condition and water-risk review.
 - [Renewal and Adverse Action](/openwiki/underwriting/manual/renewal-and-adverse-action.md) — continuation and adverse-action handling when a finding affects an existing policy.
-- [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md) — post-loss investigation and claim-file evidence, kept separate from underwriting records.
+- [Claims Intake, Investigation, and Mitigation](/openwiki/claims/manual/intake-investigation-and-mitigation.md) — post-loss investigation and claim-file evidence, kept separate from underwriting records.

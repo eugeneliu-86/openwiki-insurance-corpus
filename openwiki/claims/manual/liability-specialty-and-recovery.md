@@ -3,9 +3,6 @@ type: claims-guidance
 title: "Claims Manual: Liability, Specialty Property, and Recovery"
 description: "Cross-system handling guidance for liability, condominium and loss-assessment, scheduled-property, subrogation, salvage, and referral decisions. Use the applicable policy or endorsement for coverage and insured-interest conclusions, and the claims manual for investigation, authority, documentation, and closure controls."
 tags: [claims, liability, condominium, scheduled-property, subrogation, salvage, referrals]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-ca7a750da91cc1e96f01bfb9
     resource: repo://forms/HO/MS/HO-04-35/2023-02.md
@@ -21,7 +18,10 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-2cf1b29512817bd0bdda6254
     resource: repo://training/condo-master-policy-gap.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 
 # Claims Manual: Liability, Specialty Property, and Recovery
@@ -42,12 +42,11 @@ An estimate measures claimed damage; it is not a coverage decision. Record cover
 
 ## End-to-end handoff
 
-<!-- openwiki: mermaid parse failed and this diagram was converted to a text fence so it does not break rendering. Fix the diagram source and restore the mermaid fence. Parser error: Parse error on line 4: ...nce"] C -> D{ "Primary handling pat... Expecting 'SQE', 'DOUBLECIRCLEEND', 'PE', '-)', 'STADIUMEND', 'SUBROUTINEEND', 'PIPE', 'CYLINDEREND', 'DIAMOND_STOP', 'TAGEND', 'TRAPEND', 'INVTRAPEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'STR' -->
-```text
+```mermaid
 flowchart TD
     A["Notice or occurrence received"] --> B["Open file and verify identity policy location and authority"]
     B --> C["Protect people property and evidence"]
-    C --> D{ "Primary handling path" }
+    C --> D{"Primary handling path"}
     D -->|Liability| L["Investigate occurrence injury damage insured status and defense needs"]
     D -->|Condominium| Cn["Separate unit common association and assessment interests"]
     D -->|Scheduled| S["Match item schedule ownership condition value and custody"]
@@ -56,7 +55,7 @@ flowchart TD
     Cn --> V
     S --> V
     R --> V
-    V --> E{ "Referral or authority trigger?" }
+    V --> E{"Referral or authority trigger?"}
     E -->|Yes| H["Suspend the affected commitment and obtain direction"]
     E -->|No| H2["Continue within delegated authority"]
     H --> P["Evaluate scope value payment and recovery together"]
@@ -109,9 +108,9 @@ For a water loss, identify the source and route before applying a coverage posit
 
 A loss-assessment demand is not automatically covered because an association issued it or because the underlying event damaged common property. Obtain the assessment notice, governing documents, association and master-policy information, meeting or allocation records when relevant, repair scope, cause evidence, payment or deductible information, and records showing the amount legally chargeable to the insured. Separate covered direct physical loss or covered liability from maintenance, reserve funding, improvement, code or regulatory costs, fines, penalties, interest, contract-only obligations, excluded causes, and charges allocated to another member ([HO 04 35, coverage and exclusions](repo://forms/HO/MS/HO-04-35/2023-02.md#L41-L137); [claims manual, Chapter 14](repo://manuals/claims/manual.md#L4865-L4881)).
 
-The base forms have limited loss-assessment provisions. The current HO-3 provides assessment coverage when the assessment results from direct loss to association property caused by a peril insured against under Coverage A, with a **$2,000** maximum and the applicable deductible ([HO-3 2024-03](repo://forms/HO/MS/HO-3/2024-03.md#L449-L463)). The current HO-6 states a **$2,000** maximum for loss assessment and separately describes assessment conditions and exclusions ([HO-6 2023-02](repo://forms/HO/MS/HO-6/2023-02.md#L408-L420); [HO-6 2023-02](repo://forms/HO/MS/HO-6/2023-02.md#L1250-L1282)).
+The base forms have limited loss-assessment provisions. The current HO-3 provides up to **$2,000** when an assessment is made against an owner or tenant for direct physical loss to property owned collectively by association members and caused by a covered cause of loss; the form also requires requested assessment records and excludes betterment, maintenance, and ordinary operating expenses. Apply the Section I deductible rules to covered loss unless the issued policy or an endorsement modifies them ([HO-3 2024-03, E.16–E.17](repo://forms/HO/MS/HO-3/2024-03.md#L437-L439); [HO-3 2024-03, deductible conditions](repo://forms/HO/MS/HO-3/2024-03.md#L769-L779)). The current HO-6 provides up to **$2,000** for a legally made condominium assessment arising from covered loss to property owned collectively by unit owners and separately covers an association deductible allocated under the governing documents when the assessment arises from covered damage. Its assessment provisions require prompt notice and supporting records, permit inspection and cooperation, and state assessment-specific exclusions and settlement or recovery duties; apply the issued form's applicable Section I and Section II provisions rather than importing HO-3 wording ([HO-6 2023-02, E.44–E.46](repo://forms/HO/MS/HO-6/2023-02.md#L452-L456); [HO-6 2023-02, assessment duties and exclusions](repo://forms/HO/MS/HO-6/2023-02.md#L1268-L1294)).
 
-When attached, HO 04 35 provides broader loss-assessment coverage, but it remains conditional: the assessment must be legally chargeable to the insured, arise from covered direct physical loss to collective property or covered liability, and be properly allocated. The endorsement includes covered master-policy deductible assessments and sets a **$25,000** maximum; it does not cover ordinary maintenance, wear, improvements, many excluded causes, invalid or voluntary assessments, or amounts available from other insurance or recovery. Apply its deductible and recovery provisions only after confirming that the assessment itself qualifies ([HO 04 35, coverage](repo://forms/HO/MS/HO-04-35/2023-02.md#L41-L137); [HO 04 35, limit and deductible](repo://forms/HO/MS/HO-04-35/2023-02.md#L141-L241); [HO 04 35, remaining exclusions](repo://forms/HO/MS/HO-04-35/2023-02.md#L245-L365)).
+When attached, the **2023-02** HO 04 35 endorsement provides broader loss-assessment coverage, but it remains conditional: the assessment must be legally chargeable to the insured, properly allocated, and arise from covered direct physical loss to Collective Property, a covered Master Policy deductible, or covered Property Damage for which the Association is legally liable. It sets a **$25,000** maximum, requires written assessment and allocation support, applies the applicable policy deductible only to the covered amount, and reduces payment by legally available recovery. It does not cover ordinary maintenance, wear, improvement, many excluded causes, invalid or voluntary assessments, or amounts not legally chargeable to the insured ([HO 04 35, coverage and exclusions](repo://forms/HO/MS/HO-04-35/2023-02.md#L70-L145); [HO 04 35, duties, limit, and deductible](repo://forms/HO/MS/HO-04-35/2023-02.md#L243-L273); [HO 04 35, limit and exclusions](repo://forms/HO/MS/HO-04-35/2023-02.md#L285-L360)).
 
 For an assessment claim, do not authorize the insured to voluntarily pay, assume the obligation, settle, or release a responsible party without the required consent and recovery review. Record the legal basis, allocation, cause, applicable limit and deductible, other recoveries, payment recipient, and any disputed or unresolved component. If the assessment combines covered and excluded charges, separate the components rather than paying the combined demand.
 
@@ -119,7 +118,7 @@ For an assessment claim, do not authorize the insured to voluntarily pay, assume
 
 At intake, separate scheduled items from unscheduled personal property. Match every claimed item to the schedule description, markings, inscriptions, serial number, appraisal, or other unique identifier. Establish the insured’s ownership or financial interest, location and use at loss, pre-loss condition, cause, value, repairability, custody, and residual value. Do not treat a repair estimate as proof of pre-loss value; use a qualified evaluator when identification, authentication, provenance, restoration, or valuation requires specialized knowledge ([claims manual, Chapter 17](repo://manuals/claims/manual.md#L5783-L5849)).
 
-The scheduled-property wording requires the description to distinguish the item from like property, requires records supporting ownership and value, and requires preservation and inspection before repair, restoration, disposal, sale, or replacement. It excludes unexplained or mysterious disappearance unless the schedule provides otherwise, and it addresses dishonest acts, voluntary parting, deterioration, restoration consent, transfer of salvage, and recovery of a found item ([scheduled-property form, special requirements](repo://forms/HO/MS/HO-04-61/2012-02.md#L743-L829)). The applicable limit is the most payable for the scheduled item or group; it is not extra insurance, and payment remains limited by the insured’s financial interest and the applicable valuation terms ([scheduled-property form, limits](repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L269)). Verify the actual issued schedule and endorsement before relying on this path.
+The supplied scheduled-property wording is the **HO 04 61 2012-02** edition, which is marked superseded by HO 04 61 2020-11 for policies effective on or after 2020-11-01; use the supplied wording only when the issued policy was written under that edition ([scheduled-property form, edition notice](repo://forms/HO/MS/HO-04-61/2012-02.md#L1-L9)). Under that edition, the schedule description must distinguish the item from like property, records must support ownership and value, and the insured must preserve the property and permit inspection before repair, restoration, disposal, sale, or replacement. It excludes unexplained or mysterious disappearance unless the schedule provides otherwise, and it addresses dishonest acts, voluntary parting, deterioration, restoration consent, transfer of salvage, and recovery of a found item ([scheduled-property form, special requirements](repo://forms/HO/MS/HO-04-61/2012-02.md#L743-L829)). The applicable limit is the most payable for the scheduled item or group; it is not extra insurance, and payment remains limited by the insured’s financial interest and the applicable valuation terms ([scheduled-property form, limits](repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L269)). Verify the actual issued schedule and endorsement before relying on this path.
 
 For theft, preserve the law-enforcement report and evidence of possession, access, discovery, and item identity. For antiques, fine art, collectibles, jewelry, or unique property, control custody and vendor transfers, assess restoration before replacement, document provenance and market evidence, and refer authenticity or repeated-loss concerns. Do not release or dispose of high-value damaged property while inspection, appraisal, subrogation, or salvage review remains open ([claims manual, Chapter 17](repo://manuals/claims/manual.md#L5871-L5981)).
 
@@ -159,5 +158,6 @@ If credible new information shows additional loss-related damage, a changed caus
 
 - Internal workflow and authority: [Property Claims Handling Manual](repo://manuals/claims/manual.md#L15-L175), [First Notice and Acknowledgement](repo://manuals/claims/manual.md#L389-L707), [Liability Claims](repo://manuals/claims/manual.md#L2527-L2755), [Condominium and Association Losses](repo://manuals/claims/manual.md#L4721-L5067), [Scheduled and High-Value Property](repo://manuals/claims/manual.md#L5783-L5981), and [Subrogation and Salvage](repo://manuals/claims/manual.md#L5983-L6283).
 - Liability interpretation and separation of property concepts: [Liability Claim Handling Guidance](repo://guidelines/claims/liability-claim-handling.md#L13-L41).
-- Coverage and assessment conclusions: [HO-3 2024-03](repo://forms/HO/MS/HO-3/2024-03.md#L1023-L1071), [HO-6 2023-02](repo://forms/HO/MS/HO-6/2023-02.md#L1000-L1050), and [HO 04 35 Loss Assessment Coverage](repo://forms/HO/MS/HO-04-35/2023-02.md#L41-L145).
+- Coverage and assessment conclusions: [HO-3 2024-03, assessment](repo://forms/HO/MS/HO-3/2024-03.md#L437-L439) and [deductible](repo://forms/HO/MS/HO-3/2024-03.md#L769-L779); [HO-6 2023-02, assessment](repo://forms/HO/MS/HO-6/2023-02.md#L452-L456) and [assessment duties](repo://forms/HO/MS/HO-6/2023-02.md#L1268-L1294); and [HO 04 35 Loss Assessment Coverage](repo://forms/HO/MS/HO-04-35/2023-02.md#L70-L145) with [limit, deductible, and recovery](repo://forms/HO/MS/HO-04-35/2023-02.md#L243-L360).
 - Interpretive condominium context only: [The Condominium Master Policy Gap](repo://training/condo-master-policy-gap.md#L59-L195).
+- Scheduled-property edition and controls: [HO 04 61 2012-02 edition notice](repo://forms/HO/MS/HO-04-61/2012-02.md#L1-L9), [special requirements](repo://forms/HO/MS/HO-04-61/2012-02.md#L743-L829), and [limits and valuation](repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L313).

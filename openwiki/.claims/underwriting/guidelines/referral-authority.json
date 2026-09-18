@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:445ffe83372a19d9956eefe61d738884bde9aa7252ba70cdad7dc97d32e62444",
+  "pageVersion": "sha256:7534e2a32b75698a4f97b5435c1ab8885a83e898637ba830dbd259dd7a8ea521",
   "claims": [
     {
       "id": "claim_832a90ea981a448bbd71eb77807f2a0c",
@@ -155,8 +155,8 @@
       "statement": "The 2024-03 HO-3 form excludes sewer, drain, and sump backup unless a water-backup endorsement is attached, while the Matrix supplies the operational source-confirmation and greater-than-$25,000 referral rules rather than changing that contract treatment.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L681-L687",
-          "version": "repo-lines-v1:sha256:9701cccbc8db30e82e8ed8dcfcf65047fe9cdc60fe2c819fc80aff0bf400488b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMzZTI3NGY4ZTY2YTZhYzYwZGVhNjQyOTEwOTRiNGVlYjYzNmYyNjY4MTU4MTMzYzBjMjAwY2E0Y2U1M2VkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzEyYjMyYWQ3MTliMDQ1N2ZiNjNiMjk4YTViODFkNGY1MDM1MDFhMzY5NWZkZGRmNzBiZWFkOTU1YjBkMTBlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU3ZTIxMjc0NGMyNjkxNzQ5N2ZiZTkzOGRhZGM0YmFiNWY4NjUyMjUyZjMxM2EzMmZlODlkYWE5ZmJkZjUyYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTgzN2ZjYzlhNjQyM2UwY2I2ZGE5NzFkYTZkYTFkMTcyYmFhYzcyMTA3ZDY2ODBhNDhkZjE3YTA5YzU3MjA3MyJ9"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L593-L597",
+          "version": "repo-lines-v1:sha256:60b2d3fc09250330956f277d55a36ff72a3c47994acd0ef594962a19dd061703:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0MWZlYTUyYmJiODdkYTk4Mjk4YjRjNWE1ZWQyMDM4MDlkOWM3ZmQyMDM2ZmI3ZjQ5ZjQwMTIyNjQxZjVkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzEyYjMyYWQ3MTliMDQ1N2ZiNjNiMjk4YTViODFkNGY1MDM1MDFhMzY5NWZkZGRmNzBiZWFkOTU1YjBkMTBlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWIxOTc5MDgyNDUxMjUzYTQyOTA5MjgwY2M1MWRjNjNlM2ZhNTNjOWU1ZGZkY2UxMzU1M2NhMjc5MWIzZWNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTgzN2ZjYzlhNjQyM2UwY2I2ZGE5NzFkYTZkYTFkMTcyYmFhYzcyMTA3ZDY2ODBhNDhkZjE3YTA5YzU3MjA3MyJ9"
         },
         {
           "resource": "repo://guidelines/authority/referral-matrix.md#L393-L409",
@@ -166,19 +166,19 @@
     },
     {
       "id": "claim_2f5a87cb0ab24f3e86242e39ab6e0f1c",
-      "statement": "The 2024-03 HO-3 form provides replacement-cost treatment for roof surfacing unless an actual cash value roof schedule endorsement is attached, and HO 23 74 2025-05 applies ACV when roof age is 12 years or greater; the Matrix treats those as contract settlement concepts and requires operational review or referral when the age or schedule issue is material.",
+      "statement": "The 2024-03 HO-3 form applies the dwelling's applicable loss-settlement basis to roof surfacing, including replacement-cost treatment when its 80% insured-to-value condition is met, unless an actual cash value roof schedule endorsement is attached; HO 23 74 2025-05 requires ACV for roof surfacing when Roof Age is 12 years or greater and permits age to be established from reliable records or observations. Matrix H.0.15 and H.2.19–H.2.24 keep these contract settlement rules separate from underwriting eligibility and require operational review or referral when the age, condition, or related settlement issue is material or cannot be reliably assessed.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L43",
-          "version": "repo-lines-v1:sha256:e6914fa4c43a431bcff90634378042e52a1edcb9bd5e600f21daf232e9f190bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlNDgyNTU4YWI4NzVkMWNjNjRiMjg3MDEyMjZiZTZjMDQxZDE5ZDM4OWE3YzYxNTE2YjQwNDJjZjYzZmJiMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxNmQ3ZDU3MDgwYzE2MTU5MmIwNTA3YjMyZjVkZDZhOGFkNzNiNzNhNmZiMDdhYTg5NGM2NDcxZGE1NWMzZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3MTFiOGU1MzFjMDVlZWMxNTUyMmU2MjA2ZTNkYTM4YzA1NzYxYjBiZTkyOGEwYjhiZGMzOTA4NGM4ZjNjMDAifQ"
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L14-L39",
+          "version": "repo-lines-v1:sha256:0c859a867b8e0fbd87a48148764fc3047ba1d5aaff81d8b962da3426451bdcb6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0MWMzYTUzZjliODAxNjg1YWJhMmU3MjJkMzRhOWVjMTRlMjZlMWY5ZjY3YjRiNDgzMGNmNTZkYWUxMjVhNmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhNjlhNDE1Zjc3ODk5NjExOTE2NTg1NmE0NmI3MGU1MGRmZTI2ZjMwMDM3YmVkNDgzNDU1OGQwNGU2ODMyMjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY4NGRiNmU3YzBlZGVmYTM4MmJhOTQ4NjJlZjYzOTgzYzNiYjI5NmY4OTAwMTM0ZDY3YWUyMmE0MDhkZGJhYTAifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L57-L77",
-          "version": "repo-lines-v1:sha256:5c42cbf325a90edc1073042f47db96f454945e3ba0daa546429162af5806d5fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3NDlkOTQ0MWU4MDg3YTc1MjBiOTE3YmQxNWUzZDg3M2QwNTBjNDhlZTBkZWU3MmI4OGZkZDJhOTE3MTRjYzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhkMWQ2YThkYjZjYTVhODE5NThkMzc2NjIyNmQ4ZDk5OTczODQ2OWUxYTlhYTI1YjM3ZWQ2YjZmNjU0MTNhMWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxNzkwOTc4MDBiMjMxYmQxNjlmNDhhNjBmZTE5NWIyY2FlZmE2YTkxYWI0NWU1MjMyOTk0MTA5NTE1MDViNTAifQ"
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L98-L109",
+          "version": "repo-lines-v1:sha256:6bca7f4cc884f22fe5815fefe22e9bff225e274bda96995e4e9b5c840063b3e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExMWUxZjQyYWMzNzA1YjZlM2M2YjZkZjliYTIwMTEzNzJhZDc0ZjAzZGY0YjYxZmY5ZTAzYmQ5MDgyOTQzZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1NTU0NTU4NmYxNGU1Y2JhZDU4ZjVhMTU4MTY3MjA0OWU0MzA2ZjNkZGQwMThiOTIzZjJhMTk1YTU4YjQyYTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhYzdlYmY0NTc5ZmM1MmZhNGRhNjBkYzU0MjkwZDVkYjI1MzJmZDM1NDA2MTZkMzlkZjRiMGM0ODRmOWI2MzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFjZThiZDc0MmQ1N2MxNGI3YzM0MDcxZDRiMGRlYmQ0YTAwMDBmMGJmMzhlODFlYWU2OTkyMzM0MTYwMWVjNjgifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L135-L143",
-          "version": "repo-lines-v1:sha256:f15a9ffe4627922778ca431da9af3f688ca3ccc647058ed26f4184caae2d9eee:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRhYmUyM2YwMDZkY2NjNmI2MzRhYzQ1MjEwMWM5M2E1NWY4NDE1Mjk1ZjUwMTNiYjA5NjA1NzM4ZjA0YmVkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDkxYTg1ZjllM2M1MTViMjhiOGRlOWI4OTRiYTA4ZDQ2NTM2ZDExODEyODA1Y2NiYTg3MjQ5NjI4ODA3ZWJkZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWRmNzRjZjUxMThhNmEzYzlkMTU5MzIzMzBlOWEzNWZiZmM4ZWEyMTYzYjZhMWI1YTljZTAzYWRiYjdmNjk3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjVmZjFmZjI2MTJmYjc2MTc3ZmQ3MjRkNjQ4ZWYyZWE5MGVhM2Y1MjM1ZGU1Zjc4ZTE1NmYyZTMxOGUwMDhkNiJ9"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L117-L123",
+          "version": "repo-lines-v1:sha256:57748d8c27e68d6bb7108c3b9555a539b7cf32dda34ca7a3636283106326f08a:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3MTNmMjFhYWQ5NGJhMjUxZWMzOWU3NzQ5ZWEyZjVlOWE0ZTI3NTg4ZmIzYzc0YjViNjhmNGE2NDkwNmY4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjkwOTM1MWFlNGRkYjY3NThkOWZiMjllNTQxYjI3MWQ5ZjkxODgzMDk2ZWQwMDcwNDlhYjRjMWQ1ZDRlZmRlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZhYzRhOTc1MGY4OGRkZjI3ZTE1YjE3YmMxMzViODBmYzk5OTZhNDExNjkwNmNmNGMwOGRmNTI0YWI0MDQ0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjAyOTdhZjRjYzkyNjRhNzI4MmQ0NGRhOTU5NDI4YWRiNjlmOGQxZTA0M2QzYTZiNDU3Y2QzY2JkNjljMjFmOSJ9"
         },
         {
           "resource": "repo://guidelines/authority/referral-matrix.md#L237-L247",
@@ -341,10 +341,24 @@
           "version": "repo-lines-v1:sha256:417c082f6d53620f8f9f38f74481da65aee35e66d23dee98d5430cc799fe5615:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNjE4NzY1MDViNDE2MGE0MmYwZDM0OTEwNDFjN2Y3MWYxYWYyMDZhYTBiNWM0Y2E4MDU5ODljMjIwNTQxNzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3ZDIzZjdmOTY0Zjc0ZmIzM2Q5OGVmMjE2ZTBhNTNkY2E0NmIyZDQyMWQ4ZGEwMTdkZTA5MmVkYThkOTM4MzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQwNzk0Nzg5NDY2M2YwMzRiOGE2ZTY3NDRkNWUzYzljYmJlMzc2ZjBlNjc3ZjgxZTkzMDRjNmY2YzVhYjU2ZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkM2JiZjI1MGViOGQ3YmNhNmYzMzQ3YzY1NGQ3YzgyNTUwZWI1ZjZkMjc3MDlkZDFjMjllZTMxNGViZDkwMzUifQ"
         }
       ]
+    },
+    {
+      "id": "claim_c7977968e33d4c90891948c64ecf4494",
+      "statement": "For Texas homeowners transactions, Manual Rule 510 requires verification of the Texas risk address before quoting or binding, confirmation of insurable interest, matching occupancy to actual use, and referral of conflicting ownership or occupancy information; these are state operating controls and do not change policy coverage or enlarge delegated authority.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L37",
+          "version": "repo-lines-v1:sha256:3c1146fcffb84e45f209bc9eed99ffc7e9fa8d1c91e5443e0a5497cc3cecf6df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6259-L6279",
+          "version": "repo-lines-v1:sha256:8f8de431d1fdd6dff1fd1798546d8c2d3ab8d7e94f68b502ddacf88be00befad:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4OWM4NzQwNzBkNWRkYjdiZDViYmU5MWRmMDMxZjI1ZDJkM2ZlYTNmMjU4NThiNzQyYmY1YWVmYmM2ZjA5MjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxZDQ4ZGQwNzQxMDFkNDZhOWQ0YmU0MDI3ZjlkMWQ2NmM4MDRkNjlhNTJkZjM4ODRkM2JmOGU3MTA0ZDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0YzdhMDVhZjU2MGNkMjY5NDk3NzM0NDY0NDc4OGQxNTJmY2Q2ODE0MDJmYjFhNzI5OTZlMjBlMTllZDkwMjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3OGQ4M2YzNzQ3NzI2OWE0OGZjOTQ1ODdlZWJmNTQ2MGRmNTE2YTcwOWNhZmQwMWNiMmU4YzMzMWQ4NDVjMjcifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T12:15:46.420Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

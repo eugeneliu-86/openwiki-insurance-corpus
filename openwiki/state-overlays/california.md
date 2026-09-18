@@ -3,9 +3,6 @@ type: state-overlay
 title: California State Overlay
 description: California’s homeowners overlay separates the regulator-mandated earthquake offer and disclosure process from earthquake coverage supplied by an attached endorsement. It records the effective positions of HO 01 04 and both CDI earthquake-offer bulletins, including deductible, notice, deadline, filing, underwriting, and claims controls.
 tags: [California, state overlay, earthquake offer, homeowners insurance]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
 sources:
   - id: openwiki-source-9709b20a8d828015e4701480
     resource: repo://bulletins/CA/cdi-2014-06-earthquake-offer.md
@@ -19,7 +16,10 @@ sources:
     resource: repo://forms/HO/MS/HO-04-54/2021-12.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 # California State Overlay
 
@@ -115,14 +115,14 @@ These are contract terms and must be kept separate from CDI’s regulatory offer
 
 HO 01 04 does not replace the separate earthquake endorsement. Confirm that HO 04 54 is attached and identify its edition before applying coverage, limit, deductible, exclusion, or claim-condition language.
 
-- **HO 04 54 2009-04:** covers direct physical loss to covered property caused by earthquake, treats related earth shocks from the same movement as one earthquake loss, and applies a deductible of **5% of the applicable dwelling limit** (or the highest applicable damaged-property limit if no dwelling limit applies). The deductible is one per occurrence, including related damage reported in separate claims; separate occurrences receive separate deductibles ([W.1](repo://forms/HO/MS/HO-04-54/2009-04.md#L57-L107), [W.3](repo://forms/HO/MS/HO-04-54/2009-04.md#L247-L309)). Its claim conditions require notice within **90 days after discovery**, protection and inspection access, cooperation, records, examination under oath, and a sworn proof when requested ([W.5](repo://forms/HO/MS/HO-04-54/2009-04.md#L483-L517), [W.5 continuation](repo://forms/HO/MS/HO-04-54/2009-04.md#L563-L585)).
-- **HO 04 54 2021-12:** covers the direct physical loss stated in that edition, including specified earthquake-caused ground movement and resulting physical damage, and applies a deductible of **10% of the Coverage A limit of liability** to the total covered earthquake loss. It uses one deductible for related damage from the same earthquake, including multiple locations and property coverages ([W.1](repo://forms/HO/MS/HO-04-54/2021-12.md#L55-L167), [W.3](repo://forms/HO/MS/HO-04-54/2021-12.md#L245-L307)). Its conditions require prompt notice and a report within **90 days after the loss occurs**, protection against further damage, preservation until inspection except for emergency action, cooperation, examination under oath, and a sworn proof of loss when requested ([W.5](repo://forms/HO/MS/HO-04-54/2021-12.md#L501-L531)).
+- **HO 04 54 2009-04:** covers direct physical loss to covered property caused by earthquake and treats related earth shocks from the same movement as one earthquake loss. Its W.3 wording states an earthquake deductible of **5%**, applies it after the covered loss is determined, and addresses dwelling, other structures, personal property, and losses involving more than one class of covered property; the supplied edition does **not** state a dwelling-limit or one-deductible-per-occurrence basis ([W.1](repo://forms/HO/MS/HO-04-54/2009-04.md#L57-L107), [W.3](repo://forms/HO/MS/HO-04-54/2009-04.md#L263-L317)). Its claim conditions require prompt notice within **90 days after discovery**, protection and inspection access, cooperation, records, examination under oath, and a signed statement when requested ([W.5](repo://forms/HO/MS/HO-04-54/2009-04.md#L523-L549), [W.5 continuation](repo://forms/HO/MS/HO-04-54/2009-04.md#L563-L585)).
+- **HO 04 54 2021-12:** covers the direct physical loss stated in that edition, including specified earthquake-caused ground movement and resulting physical damage. Its W.3 wording states an applicable earthquake deductible percentage of **10%**, applies it to covered Earthquake loss before payment, and says the deductible does not apply to property or loss that is not covered; the supplied edition does **not** state a Coverage A basis or a single aggregate across every property class ([W.1](repo://forms/HO/MS/HO-04-54/2021-12.md#L80-L97), [W.3](repo://forms/HO/MS/HO-04-54/2021-12.md#L482-L522)). Its conditions require prompt notice and a report within **90 days after the loss occurs**, protection against further damage, preservation until inspection except for emergency action, cooperation, examination under oath, and a sworn proof of loss when requested ([W.5](repo://forms/HO/MS/HO-04-54/2021-12.md#L1032-L1065), [W.5 continuation](repo://forms/HO/MS/HO-04-54/2021-12.md#L1067-L1093)).
 
-For a California policy, HO 01 04’s 15% earthquake term is the state contract overlay shown in the source set. Do not carry forward the 5% or 10% multistate percentage merely because the attached earthquake endorsement is an older or newer HO 04 54 edition; use the issued declarations, attached state form, and filed offer package together.
+For a California policy, HO 01 04’s 15% earthquake term is the state contract overlay shown in the source set. Do not carry forward the 5% or 10% multistate percentage merely because the attached earthquake endorsement is an older or newer HO 04 54 edition; use the issued declarations, attached state form, and filed offer package together. The multistate forms do not supply the California 15% contract basis.
 
 ## How the form carries out the overlay
 
-The explicit form-to-bulletin implementation link is HO 01 04 **T.57**, which says that the provision is applied as required by California Bulletin CDI-2022-03, B.2, subject to applicable law ([HO 01 04 T.57](repo://forms/HO/CA/HO-01-04/2021-06.md#L169-L175), [CDI-2022-03 B.2](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L59-L97)). Because T.57 appears inside the endorsement’s windstorm-and-hail section, it is not a standalone earthquake grant and does not, by itself, prove that an insurer made the offer, obtained affirmative authorization, or completed CDI filing.
+The explicit form-to-bulletin implementation link is HO 01 04 **T.57**. It implements the referenced CDI-2022-03 B.2 requirement by directing that its provision be applied as required by the bulletin, subject to applicable law ([HO 01 04 T.57](repo://forms/HO/CA/HO-01-04/2021-06.md#L169-L175), [CDI-2022-03 B.2](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L59-L97)). Because T.57 appears inside the endorsement’s windstorm-and-hail section, it is not a standalone earthquake grant and does not, by itself, prove that an insurer made the offer, obtained affirmative authorization, or completed CDI filing.
 
 The form also carries contract terms that make the regulatory disclosure operationally testable:
 

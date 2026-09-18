@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:6369f305b4d5e099239ec14e0072cef62d7f318f4437016fc0bf3db8dd43b51b",
+  "pageVersion": "sha256:58ae018b13ad65b5b524931cd3ad7915cd16c165e7a7de174946910060c764cf",
   "claims": [
     {
       "id": "claim_b9e350b762204f9db730bbd40f7f9e62",
@@ -259,10 +259,102 @@
           "version": "repo-lines-v1:sha256:0ce47216a0c57eb63e29cbb332767889efef3122614917156a338a7e7968a265:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzZmJhMTlhNWJjZThkMTMzZDFlZjhlMWEyNTE5MTlhMjJlMmIzOWNhZmU2ZmVmMzQyZWQ5MmNlZDBkZDk5NTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5Mzg3ZGQ4NGM4YmI4YjQ3ZDBlNDA3MTIxMTNjMmE1MjQ4YmNmMWM4YWNlMzFmY2YzOTczYjc3NzMyOGE0MWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZTFmYTc5ZjU1MmY0Y2ZkMDAyOWQ3MmM5OTU1N2M4NjVkZmNmZmM0ZTdkMDczYTc1NjI0NDJkM2ZhMTQ5NzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVhMWQ5NzY3ZjU1MDYzMzNjNTgzNjM5ZTAzNTAzMGEyZTQwOTQzM2MwMjZjMGEzZDM4ZTIwZTU1ZGZhNDRlMzAifQ"
         }
       ]
+    },
+    {
+      "id": "claim_330bc1fb893646b9aac46891b41e2389",
+      "statement": "Liability claim handling must keep policy-administration and property-underwriting questions separate from coverage analysis: nonpayment-notice questions go to the appropriate policy-administration resource, and a backwater-valve requirement for finished below-grade areas remains a property-underwriting issue unless the applicable policy makes it relevant to the liability claim.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L33-L37",
+          "version": "repo-lines-v1:sha256:449378b20f9aff2f6d1947253a2d2f2cf1f1becce16c8a1b380d1cc3c6e3e027:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBhMDcyZWM5NDM0MWY0MmRjZmU0NWUyOWE5YjgwOGNiYTI3ZGIwZjlmOTQ5MGIxYzVhNjdhMmM4MDJlMGQ1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNWI0MzE3YjI1MTllZjZlNDU4YzZkNGM0NzBkNTc0N2NkZmI0MTVlOGY3ZjdmNzEyZTUxM2RiMGViYTczYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBjYzhlNTMwMGMzZTQzNjhmOTg1NWI4MzM2NjA3ZWQ1MmViYjBjNzRiYzkyNDYxNTJlMWQ3MzZhNmViNDkyYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDZlODIzNWNmYjkwMmIwNWQ4YWQ1OGRiNTA4MDdiNjBiMmYyZTg5OGJhYjBiZjkzMzMwYmI1NGZlMWIyZjYxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_564df783096b48d3a6d55920c4f2751b",
+      "statement": "Liability handling must not apply or alter an all-other-perils deductible minimum unless the applicable liability coverage expressly requires that treatment.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L605-L607",
+          "version": "repo-lines-v1:sha256:5d407af5dd5207f80f635d0f59e77c389a057d9f4569d1598389ed11fce3a8db:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODBkMWIxNjM4MmQyYWIxMjM0YTMzOWRhYTc2NDQzNDMwNTNkYTAxYTUwYjNlMjU5ZjU4MWRkMDdmZjhhZDQxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZTVhNjBlMjM3YmFlOGM5YTY1ZWEyNmNhZWM4MjU2MzhhNDdiYmJjMDE2MDk2OGRmM2ZiZmMyY2I4MDBlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmFhZWUzNjZjOTBkZjIyNmUwZDY1NjczOTlmZmViMGVkMTA1OWU3ZDQ5YmJjYmI5ZGFmMzBkMWI4NzRkMWQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQwOGNlODNkNDNhNzBjNGNhYTU5ZTg0NGY1ZGIzZTcyOTI2MDUzYTg4MzhkNzRiMTAwZjJkMWI3NjUzNGYzMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e6b7fd417dc34a859b3afa5f483a3f6d",
+      "statement": "The liability workflow requires an ongoing prior-loss and related-matter review: handlers classify earlier reports, compare current and prior allegations, preserve source documents, and treat the absence of known prior losses or administrative claim coding as insufficient proof that no related matter exists.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L419-L435",
+          "version": "repo-lines-v1:sha256:9c71f1cfb8cc7699171fff012ed8a26a6766e6c84e6cf1c41c3a13b63c36b6f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkMDA3YmUwMzIyYWZjYmQ1YzFmNDQ4MzU5MDkzZDg4NTE1ZTU4OTZhYTkxYzIzZjBjNWM4N2U3OWJlZGE3Y2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNzA4YTFhMjhjNWVkNTRiNWJiY2Q1NjJiOGUxNmNlMGVkODkwMDdlYWRmZjVjYTEwOGM5MzA2MjJlNDhlZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQxZWJjZTBkYjk0Y2NiNGNlZGI5NmEyODA2ZTVkZmI2NzFlMzhlMTNkMDdlNTA4NjFkOTdlYTZhZTAwNGE3NmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkMjBmMzRiNzFkYWNiYzQ0NjQ5OTY4MDFjZGEwZmMxM2U1NWI0ZTlmYjA5ZDE5NTg3NzA1MzI3MjYxNDA3MTcifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L467-L473",
+          "version": "repo-lines-v1:sha256:e4ac9ea7fe9f6c6645e2f50dc51d60dcab39d6db16fa2b7e19de4b8416f508f4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGRjN2Y2YmNjNjUwNzllZDRlZDY1MjNlZDM3ZjJiYmQ4YTkzNTgzMzNlZWU3ZmFjYjQxNWY0ZTcwZDg4YWQ2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRiMGJmNzAzYTE4Y2E3MWM1MGQxZjNkMjA1ZDFlYmJlYTI5ZDc0NjcyZmQ5ZWU1OTQyMWY2OGI1YWQ5NDJlNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E2M2FkZGNkZDhhMzM4ZjkzZWM2OTVkZDM3NDY5ZDk5MDc5MWExNTYyNDNlMDUxMGZmMmE3NGEzZjU4ZGMyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTBiYjdhZmY5MWY1N2ZkZjM2NmM5MjYyMDFhOThjNDJhOGVkNzNhY2ViZDk4OWZmZjdiN2QxMTdlYzg5ZDIwZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8f7ea82289d94d7a82697039d2387779",
+      "statement": "Prior-loss information triggers referral when it presents material exposure or relationship issues such as exposure above $50,000, repeated or connected conduct, differing policy or insured arrangements, unresolved coverage or defense disputes, material releases or settlements, continuation of an earlier matter, conflicts, excluded conduct, widespread claims, shared-limit effects, or impaired recovery rights; referral does not by itself stop necessary defense or ordinary claim activity.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L437-L465",
+          "version": "repo-lines-v1:sha256:90671d14c3085d09ce88a72d14bb4a7acd9a29cbf6dddce4bbed2f11c31ccce0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5M2FiYmYyYjFkZTczMjdjMjhkNjg4ZTFjOTU1MDJiZjgzYTM3ZmFkN2EzNmY4NWIwODAwOGIzMDEwNDcwNDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MjQyNmIyYzk0YjkxNDMzZTNiNTE5ZGI4ZWRjNTBiOTllOWRiMmEwMGU2YjY0MGEyM2RlNWM2ZGE4ZjE5MGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ4ZTQ0NDllY2E0MTNhYzA1YTk0NjNhZDIzOTNmOTc1ZjJhMDcxMDNiYjMxMGYyMDg2NWUyMzc3YzRmNTkyNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlZjkyZDZmNmNjNmJmYjM4NmFjYjRjMDJlYzY4ZDJlMzAzZjMwMjdmNjI3OGRjNjBjN2Q3NGQ2YTE0ZjZiMTMifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L475-L535",
+          "version": "repo-lines-v1:sha256:b808da42cb5f05f3e11866051cd15096635f5c8def2af84b3133d2d3e1961923:eyJzZWxlY3RlZExpbmVDb3VudCI6NjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNDMyODFmMmIyMTYwM2YxMmJkODBkNThhZGU4YjYwMjg1ZDc4MzFiNDZjMTI2YmIwZjc0MGQ0Yjk3Y2Q4YTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFkZTc0MjQyN2FiNDg3OTc4N2Q0YWJlMDgyNTMzMzQzMDkzNGU0YWY3NGQzYWJkMDNhNjZjMjBhYWIwYTAwYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwYmRiYTRhNzM0ZTM4NTRiYmYwNzcyM2ViNDgxYjY5MDY2YzQ0MTkyZjk4NzBhMDAyNTNjOGRlZThiMTFmNTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdlMDE0OTcyMzc3NWU2YWNiMzA5YWQ0NmNlOWEwYTIyY2Y4ZTc5OTkyNjU4OGJlZjAwODlmMzI2ODRmZjBhNGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_67077179e1b84ac2b441ff35117c775e",
+      "statement": "For conditions that may increase covered damages, the liability guidance sets an internal target to begin reasonable mitigation within three days after discovery, while requiring handlers to distinguish that operational target from a policy condition or an admission of coverage.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L599-L603",
+          "version": "repo-lines-v1:sha256:47a948ae99721a4f9dc6c0b3446ef8e01b9d3623572ddecd555134fe4c83b8ac:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjk1NjdjZTdjOTAzMjlhODFiYzI0OGIzZWZiZGQ4OTY3MWFhNjVlNjdiMjllNGM0Zjg1NmE0YmMwZjY0YjQ2MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzNjMTk0NDg5ZWFiNjliNjQyYTAxN2M3ZWMzZjMwMzRmZGRkZWZhMmQ0ZmVjNmY3ZmU4ODQ0NmM0ZGNmZTU2NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODY3MDhmZWQ2ODllNWQzZGI2ZTdiOTY1ZjRmYjU4OTVkMDZlYWEyYzFmODcwMDY5ZTU1ZTVmZmI1ZjRiMzllNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2Q5MzEwN2YwMjk1OGU4NTU5OTFhYzllYmQzOWVjODE3YTI0YjdiNWY3OWQzYjY4YjI4ZTYwYzE5ZTY4NWQwNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_23bbf5101b6741b09a1a127f62f94897",
+      "statement": "When requesting a sworn statement or other documentation, handlers must explain the claim purpose and requirements accurately without changing the applicable sworn-proof deadline, and must preserve the request and any proof received.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L557-L557",
+          "version": "repo-lines-v1:sha256:18c3a650c56cc7a7ddff9447ddd7507d7ee0bcd021d3c068938c6c01a8d2cfb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjM2E2NTBjNTZjYzdhN2RkZmY5NDQ3ZGRkNzUwN2Q3ZWUwYmNkMDIxZDNjMDY4OTM4YzZjMDFhOGQyY2ZiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjM2E2NTBjNTZjYzdhN2RkZmY5NDQ3ZGRkNzUwN2Q3ZWUwYmNkMDIxZDNjMDY4OTM4YzZjMDFhOGQyY2ZiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDViNGE5ZTU4MTcxMjMxZTAxNzhlYWRlZGFjYmE3ODM4NGIxYWQ4MzMwOWY2ZjY3YzY2OTc3ZWYwNmIyYzc5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzUxMzJmNGMxNjgzOGQ3ODdhZTYyY2Y1YWRmY2JiN2M5MTNhOTI5M2MyY2JmNjRiMjUzMjRkMzJmMzhjMGVmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_59d34513a44e4c6c9b288932292c55ca",
+      "statement": "Before retaining counsel, experts, investigators, or consultants whose work may materially increase claim expense, handlers must obtain required approval, monitor spending and litigation against the approved strategy, and refer material strategy changes; internal authority discussions must remain confidential and authority should be shared only with people who need it to resolve the claim.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L659-L665",
+          "version": "repo-lines-v1:sha256:e08a7f29d3faa5f516e3a1ba3798f5572671d5044db951b30a3106be50999282:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZkMGNjZTZiNTE4MzIxMzk4OTViOTc1ZmYyMzhmM2MyODlhZjg4ZTA5ZTExZGU0ZjVmMTA3NGQxN2IwZGZlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ4NTNiZGY4NTRhMjFlNWRjZDE2ZWU2YzYzMjUwNDI3ZTJmNzllM2MzZmE0NTllYjIzYzA1MWE0MDdjZDM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTg0YWM1YmI1ZDkwM2RkYTAyZjJkNTcyMzllNWUwMTEzMjg4ZWUxMWQ5MjNhMjk1ZDE4MjY5MDI3ZGZkM2QxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmNTUwOGIzZTMzMWM1NjkyYjMzNDI1NzUwYmYwZWU1YjEwYzkxNDIzNmM1MmRlODZhZmUyOTE5OGRlM2VhOCJ9"
+        },
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L673-L683",
+          "version": "repo-lines-v1:sha256:888b1c7c93f8912bac773a19a1428972346fbede662a81b32dd065e2a3a91bd6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhMzBiYWRlODhiNjViOGIwNzcyZjZhNDkzYjZhZmMyZDEzMzhhMjc2OWIyOTgxMDk0ZTgxMTQ5YmQxODY3NWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1NGU1MzBiYWJlZjllNDUyODVmMDAyNWVlZjI1NjY0MTU5ODExYWVjYTI3OTFkODJlMGRhMmNmYWE2NjAyYzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmMTIzNWY3Y2Y5ODNhNTI3YTc4NTdkN2VhYmVjZTM2NDc0NjUyMzIzZGEzMzJjZTVjZDRmZGIzYzFiMGUxNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3NjNkMzU2ZTI2Y2NkZTU2OWE5Zjg2NDZmZWQ5NjEzMDliZDRmYmZmOThhN2RhOTZiZjQwMzk3ZmFmNmMyNTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_164137b18228435297d73ffbcba147eb",
+      "statement": "Liability claim records must retain coverage analysis, payment records, releases, litigation reports, and closing rationale, including materials relevant to the years in which an action against the insurer could be brought.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/liability-claim-handling.md#L609-L613",
+          "version": "repo-lines-v1:sha256:17272febfba2e4917bf3311ffaeecbc433e6c270dc2644233a74e766d85aa4c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2I2YzgwNDQ3NGIyZmE1NDdhYmNlMmJiZGNlOWQ4YzQ5ZGJjMDYxMjU4NjgxMjZmYTRmZWM1N2NmZTBjMDc1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzZmYzkwYTAwMzk5ZjlmODBjZGVjNGMxM2JkMTBlMWE4NmE4YWUzZDc2ZjgwNzM1OTY1ZmU2MjgxMmE5NjdhYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTBlMzM4M2M2ZGYzMDY0MWEwZDM4Y2JkMzlkODAxZWYwYWUxNzA1M2EwYTVmN2I4ZTZlOWQxMjYzNTE5N2E2NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDgzYTE3M2Q1ODdiYWUxNzE0MDdhNDkxYWMzZjAxMzhmYzcxNWFjZjRkYmYwNGM1YTkxZTRiMjBlNmFkNDFjYyJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T12:15:46.420Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

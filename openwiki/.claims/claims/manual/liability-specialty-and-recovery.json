@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:c03c8aafc9e823234ea52740b4d8fcdbaa0f07eade9e4ad3ebbc1eeb44cd7a85",
+  "pageVersion": "sha256:200c4e3ba9b4aa8c5e4403430ab974055810d599ab869fd12f316b3a9719daab",
   "claims": [
     {
       "id": "claim_3c0c7bbfa4b04261b76186a22266a6d2",
@@ -106,43 +106,47 @@
     },
     {
       "id": "claim_224e8197dc934428b2ad1d37d2a9f22a",
-      "statement": "The current HO-3 base form provides loss-assessment coverage only when the assessment results from direct loss to association property caused by a peril insured against under Coverage A, limits payment to $2,000, and applies the deductible applicable to the direct property loss.",
+      "statement": "The current HO-3 2024-03 base form provides up to $2,000 when an assessment is made against an owner or tenant for direct physical loss to property owned collectively by association members and caused by a covered cause of loss; Section I deductible rules apply to covered loss unless modified by the issued policy or an endorsement.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L449-L463",
-          "version": "repo-lines-v1:sha256:074ee834ccea544aef1ae98631d5a133e9ca6ec9edd96e2a5e33968c916ff672:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM0YWI0N2UzZGYzZDdiZTM2MGM4NDc5OTdjNTg1MTcxMmFhNWU2MGI1NDlkZTk2MDY3YTI2ODdlYTlhZTU2YTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiM2Y3ODY2YzIwMzI3NDE0NmY4ZTQ0YTE4NjQ0YWE2NjVjZmRmZDVjNDQxYjMxZDZlZDUyN2UzZDZmMDVlM2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM2ZTMzZDY2NzU0NTg3NmQ0M2VhZGFmOGQ2ZWE3ZDcxZDM5N2MyN2RhYjYyZGZmYmIxNjc5YzFlYWFkZDAwZDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzMzEzMmQwOWIwZjUyOTcyMjM5YzMyN2U4YWRlNjE1YjY0NzBhYjQ5ZWFmYTkwN2I2YjBkZTFmMzFmN2I2M2UifQ"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L437-L439",
+          "version": "repo-lines-v1:sha256:c6e6ea6465c692a9e2ec788563f129a25860a0fc232b26aa56b430c87c7c3626:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTFiNmFlNGE2MjkyODEyZjQwM2U5MDkyZTc1MjZhMmI4MzVhMzk2YjM0Y2ZjZDI0NDM0ZjJkYjFjYTliMTVmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M1OGE3OTZiZGY4NWVhM2QwZGI3MGVjMjg0MWNkYjU4MTQ3NzIzYzA3MTY0OTI3YjFhMmFmODBiMTNkODQwMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Q4NzU3ZDU2ODk4Y2E2YmYwYmUzZGRiNDc1MWYyYWQ5MjBiZTFkNDdiMjkxNzkzNTNmNmRhMzE1NzI2MDNlNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2IyMjcwY2JmYmU3OTZiYTQ0ZjkxMjIzNmI1Njk4ZDU5NTEzMzRjNWJiYWQ0M2QyNWJmYWViYWVkZDg5ZTA5MyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L769-L779",
+          "version": "repo-lines-v1:sha256:b9092cde36c8abc7956f59fd2710438e8d0a7ea523575fd888534069b8eec449:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4M2U0ODIyNmU4ZmIxYWZkYWMzOGM5ZDk0MGVkZWM3MzhkNWNmNTY0NDZiZTgxMThlMjQzNjcyZjQwY2IyN2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzZmU3NDZlNWU3ZmU4NTAzZmU3OGEzOTRlYzE0ODQ0MDQ0YWIwNDZiNmI2OWJkOTU0NmQ5MmY0YWY0M2EwZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlM2QyYTc0ZmU0ZDA2NTBmOWJkMWNlZmRhYjVjYjg5YTEwZGRkNzUzM2U1NTdkZWFlNmMxYjZjYTVjNGZmNzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhZWM0MzU3Nzk0ZTM5ODM5MzA4ZmRlNTY0Y2E4ZjhiMGVmYWYxYjdhNzYyMDZlMjY1YzFiOGMzY2U1NmZiY2EifQ"
         }
       ]
     },
     {
       "id": "claim_e55f54be21724edea7f8f184b1c2e8b1",
-      "statement": "The current HO-6 base form states a $2,000 maximum for loss assessment and requires assessment handling to follow its applicable assessment conditions, including prompt notice, supporting records, and the form's exclusions and settlement provisions.",
+      "statement": "The current HO-6 2023-02 base form provides up to $2,000 for a legally made condominium assessment arising from covered loss to property owned collectively by unit owners and separately covers an association deductible allocated under the governing documents when the assessment arises from covered damage; its assessment provisions require prompt notice and supporting records and include inspection, cooperation, exclusion, settlement, and recovery duties.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1250-L1282",
-          "version": "repo-lines-v1:sha256:7d0e068873c8fd983a7a04b796519e6d00a7cc672a4122e7a687a46feb6c7d6e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkNDA2ZTQzOTJlODFiYzg4MzUxNjZkOTBmOWJmZTZkYWRhMTc5Y2FlZTFkMmRjMjMxZDhiNWE1ZmUyMzk0MzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZGQyNjVmM2EyNmJiOWM1YTk1NmFmNjdmMjZjY2FjOWY2MzM0ZWYxNWJmNmQ2MTQ0MmM2YWIzYmNjZjFkNDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlYzEyNjJkZjk4ZWJlYjcwZTcwMjNhMWI3OTU5MWUwNjRiOGM2MmYyMWM1NzE4ZWY4N2I4MGFiMzdkZDgzZWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg5MjhhZGQwNjk3Mjk1MTdiZGM2ZTBlM2NiNWIwYTY1Zjk0NjA0OGRmOTZhMjIzNmM1ZTg1ODNjZDVlOWNhMzgifQ"
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L1268-L1294",
+          "version": "repo-lines-v1:sha256:d0372b85282618ecd9963882e028661149898083a3cebb69ea7f907620b43d2b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjYzhlZmNlZjE0OGJmMDYzZDNlOTkxN2Y3M2Q3MTI2MjRlMWFlOTkxMDQ3ZjM0NmY4Y2FjYjE4MzM4ZmUxNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZGQyNjVmM2EyNmJiOWM1YTk1NmFmNjdmMjZjY2FjOWY2MzM0ZWYxNWJmNmQ2MTQ0MmM2YWIzYmNjZjFkNDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxYTZiMWQ5YzQ1OWJkN2Y5MmJhYjdhNWRhZjkxMmU5MjJkNGI4ZjQ3ZDQyOGZiNDIyOTgwOTNkM2JjMzUwM2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg5MjhhZGQwNjk3Mjk1MTdiZGM2ZTBlM2NiNWIwYTY1Zjk0NjA0OGRmOTZhMjIzNmM1ZTg1ODNjZDVlOWNhMzgifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L408-L420",
-          "version": "repo-lines-v1:sha256:ec1b74da8dcbb7066a8d4feba2959ed98b9bdf15e332c1917ba6fcb189551938:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMzQwMzgxOGY4ZWQ1ZDQ5NmU0ZjEyYjQyZTkxMWUyZTVmMTQ2ZjI2ZTkxZGE5YjQ1ZGQwNjc1NjI2MmQzOWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2YjEyYzMxMGZlMzY3NTViMWE0ZjcxNzkxM2U2NjQ1MmZmNjYzZmIxZWQ3NjUxOWUxODZjYzdiNjA0YjQ0MmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhYmY5YzlkZGZkNmM1MWI1NjJmZjAxNDIxNzk3N2Q2ZTNmZDkxY2VlZWNiN2M2M2FiZDEzZDRkYTQzMjY0ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjliMDEyMTExNDkwYzkwZDY2NmRmNTgzOWY2ZmIyNzBlMWYzZTg2ZjgzYTNmMDU2MjY1YWUxNjcxMTUzZDYyMTEifQ"
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L452-L456",
+          "version": "repo-lines-v1:sha256:0d2e26a5350e7c88a7f7720b0b6c436bd80ad28728921fd69826ca435a597368:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTkwY2MxN2E0ODFiNjdkZDUyNTIzNGIzMWVlNzJkNzYxNWEwNGVhZDZjZDY5NDAyOTgwZGE2MzY2Mjc3NWE0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk3NjE2MTQ1MDBiNmI5YTI3MjRlYTlmNjc3N2M2NjdmZWYwZDgxODBhNzBmNGQ4NmUxNDczNDlmMjIxYWFhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmUyOWM2NGEyYWVlODNhZjNmZGJhZWVmNmIxOTA1Y2Y2YTI5N2MzZWQxMTBjZDI5ZWNjZmUwMzUzOWNkM2ZlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2Q1ZmExNzM2MTIwMjUxNjcxNDdiYTJkMjAwYmQyZjlmYTg5ZmRhOWY2NzhmMDA3YjI3N2ZlNzg3NDc0ZDE1YiJ9"
         }
       ]
     },
     {
       "id": "claim_b6ac6e6c063b4d909fb77c6101d4ec9a",
-      "statement": "When attached, HO 04 35 provides up to $25,000 for a legally chargeable association assessment arising from covered direct physical loss to collective property, a covered master-policy deductible, or covered liability, but requires proof of the assessment and allocation and excludes maintenance, improvement, invalid or voluntary assessments, excluded causes, and amounts available from other recovery sources.",
+      "statement": "When attached, the HO 04 35 2023-02 endorsement provides up to $25,000 for a legally chargeable and properly allocated association assessment arising from covered Direct Physical Loss to Collective Property, a covered Master Policy deductible, or covered Property Damage for which the Association is legally liable; it requires assessment and allocation support, applies the applicable policy deductible only to the covered amount, reduces payment by legally available recovery, and excludes maintenance, improvement, invalid or voluntary charges, excluded causes, and other amounts not legally chargeable to the insured.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L141-L199",
-          "version": "repo-lines-v1:sha256:19605deee8b65ab45a49f21055408ab18e0f724aba9f29d45f40c64071d0fc95:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkZWRmNDU3YmQ1YWFiNTJmMzhhZjk4YjA2NzRmOTZmNGIwMzU0M2QzYTFmNDA1ZDE1MzhkNDdiMWU0NTMyOTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjMjczNmE4NDlhZDI2NzVlMzA3ODllMjc3Zjc4OTI1MTdhNzU4ZDdmOWZhMTRmNDBjYzZhNGJmMGE5YzFjMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiODAzZTdiYmQxMjRlZjNiM2IyYzg1MTk2NDA5OTBiNTBjYWE4OGVlMzdkNWNjYjAwNDg1YTRhYzVhZGNhYzIifQ"
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L243-L273",
+          "version": "repo-lines-v1:sha256:265daf0da97587cacdf8412f3e41800eeed3000a4caa756ab3f07f482d13c2b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJhNTIyN2IzYTY1M2ZmM2JkOWQ4NGJkNzM2ZjQxNDVmMzIwOWNhYWZkZTZlZGQwNDIwZDY4NzY0NzljMjQxZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4ZjcxYjMwMzE5YjlmNzQwMWJlOGUwNmJjMTNlZWY0MjQyNjFlM2NhOWEyNDFmOGQ1MDc2NDdmNmJkNTRkZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0MDdiMjY0ZTc5Y2E1NjZjYTNhOWU0Zjg0YmRmODgwMzhkNjM1MmVmNGRjNGU1Mzg2NmNmYjBkMGQzZWQ1YjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhYTlkOWU0Zjk0NDIyNzk4NWVjMGVlOGFhYTAyY2IyNDAwYTlmNDc2MDAyNDdiZmI1NDdjYjQ5MWZkMjA5M2EifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L245-L365",
-          "version": "repo-lines-v1:sha256:d3d89fc9cc76cf8d997bd449fc45750fa14d3a5abc71ad08c6619728b7fe9cd7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI4YjAzNWQxZDkzYmY0MjQ4NGFiOTExOWUwZTUxNDZjOTM1ODkwNTdjMTE4ODNiYzhlYzY0M2RkN2UwZjBhMDg2IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI0YjI5YTk2MTMyYzZiYWQwOWE5YWM3ZDRlZThmMWMwMGJkYWRlYTg3ZTZiYzRmYTZhOGMxNTZmYjdhNjM0NTEwIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIxNjY1MGU5NDJkNDZlMDkxNGU2NTYyZWVkOWExMjIwMTk1NDE1NzJkNWQxNzlhZDYyNjE5ZDI4NDJjNTMxY2NlIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJkNjBmMmEwODg4MjE0MzY5Y2M2MTZkZjg1ZTY2N2I2YjllNzA2MWZkOThlZTNkMjlmNWE3ODQ0YTFiZTM1MmM3In0"
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L285-L360",
+          "version": "repo-lines-v1:sha256:a2057f39289bd1a37439c6c5824d39d09483e69703aff4bd1c5e302de0370b4a:eyJzZWxlY3RlZExpbmVDb3VudCI6NzYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5NmM5OGQwNWI1YWNiOThlNzE0NmQ0MWUyZTA3ODUxOTMwYWIzY2RmN2JjMWI0MTRjYjM2NmI4YTk1YjZlMTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhYTI4YWUwNzIyNWNiMjZmMzVjZWI1ZWRhMjA2MTA5MTYyYjBjZDU5NGFhOTJlZWNiZjI2ZmI2MjE5ZmRmNjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUwNWE5YmMzNGQxNGYwNzNlMWQxYzY5OGM2Y2M5OWIwYTAzNDdkYmFlZmM4NmMxYjg4NjkxMGI5OWZmMWE4NTYifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L41-L137",
-          "version": "repo-lines-v1:sha256:f4e374bb051a3bab03d43cd777972ae66144a94cf126cca1f4788023ee6f56e7:eyJzZWxlY3RlZExpbmVDb3VudCI6OTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4MDhiMzhhNDhjMGQyYWQ3MjgzODFlMjBiNWY4ZTI3MDdlZmM4MzA5YmRkYTIxYzE0ZmZmMDVhNjIzYzliNzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlNjIwMjQ0MmJmOGU1YzBlN2JlNWM0ODI4MjVhYjlhNTQxMzcyZDFjYmI3MzE0MDMwM2IzZjhlMjg2NDE3M2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNjMjczNmE4NDlhZDI2NzVlMzA3ODllMjc3Zjc4OTI1MTdhNzU4ZDdmOWZhMTRmNDBjYzZhNGJmMGE5YzFjMzIifQ"
+          "resource": "repo://forms/HO/MS/HO-04-35/2023-02.md#L70-L145",
+          "version": "repo-lines-v1:sha256:cfa1766276ac85f0848c96d31bfb35f01f67edc978fb896fab88fab786abdbe8:eyJzZWxlY3RlZExpbmVDb3VudCI6NzYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MTJiMjkxMjk1OWEwMDg0NThiY2I4MzkxN2YyOTVlODE1ZDQ0NjZjZDkwMTQ1NTUwNmY0Mzg3NzMwNDA0ZGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM4NjUwZTk5ZDNjZWYzMzNmMDVmY2JlMDAyOTVmZWUzNzdlYjE0MmJiZGE5MzRmYzZjODg0NGJhNmFiZjYzZjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjliZWI4ODJlNTYzNDViOWQ0YjVhZWFmYjVkYTFhNzU5MjgyOTNhYmJiMDI0ZWIyYmNiZDE4ZmQwMWU1MDQ5MjAifQ"
         }
       ]
     },
@@ -165,12 +169,16 @@
       "statement": "The scheduled-property form makes the schedule description and applicable limit central controls: the description must distinguish the item from like property, the applicable limit is the maximum for the scheduled item or group rather than extra insurance, and payment remains limited by the insured's financial interest and applicable valuation terms.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L209-L269",
-          "version": "repo-lines-v1:sha256:f4b7ec1e40d7ae976efd8fb19542c1529a419c1786c2e2d87106cd44b89cf61f:eyJzZWxlY3RlZExpbmVDb3VudCI6NjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyOWEwOGEyNDdkZWFiNGFiNjNmZDliY2I5ZjQxYTVmMzBkZTIxZGJmY2FlYjUyYmM4NDU1ZjJmNDQwOTM0MGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzNDY2MzRmZmZkNzI5NjBkMWQyNWJlNWI1ZDFjYjgyNWE2MWY3M2M4NmQ2ZDBjY2I2YWRmOGY5ZjhkN2VkZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQxMzYxZjQwNGEyZTFiZWFkYjZiMzZhM2NiYjc4YmExMWVlM2RkYzkzZmM1NDA0ODkxZWY3ZDNjODE1ZmNkNmQifQ"
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L15-L47",
+          "version": "repo-lines-v1:sha256:3b9be26c8a00f59c60eb0d410e7fae1603248fb981ecd8fb1509ee6186f92199:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5MDkwN2Q1NWZiMjA1MDJhOTIzMTQxODRjZTI1MTVhYzI3NjI0MWQ3NDVjYTE3YjM0MzY1ODkyOWY0ZWMyMTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1NzM4NjI4ZDcyYmViY2RiNGExNDU2MTQyY2QwYjAyMzZmY2IyZGE1NGE1YzAxOWM5NzIyNGM2YzJhY2YwOTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlNWIyNDQ0NGM4ZjEyMzE0MjhiOTRlYmUzM2QxZTY5MjU4ZjNkYmU4NjllMWU1Mjk5ZGRiMDliN2NmNDQzYWYifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L743-L777",
-          "version": "repo-lines-v1:sha256:1d7acc2f333519dc952eb303dd60b427d17c9babd930006461e6af0af66f4507:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3MTQ4MmFlY2UyMTk2ZDQ3OWMzMTk3NzhiZGVkZmQ3MTMyNzNmZjExMzA0N2E1NzcxZjU1MzIwMTdkNmNlYjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY1NDg4OGI2NzA2YzM0ZDNlYzAzOWNhYzY1NGZiZDVkM2M4NGNhYzAwOGE4ODYyNzBkMmNhZDI5OGI2MWM4YTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0OTU0NmNkMDdjYmQ1ZjlhYTM3M2E5ZTY4Y2Y3ZjgwNTU1MDdjYjk3YTlmN2MwMTk4NTJiMzZhNTc3ZDNjMDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzY2NmOTM2YjQ0YjM2YjA2OGIxYjQ4Yzg3MTUwNDA0NTQzYmQyNjAzODRlOTgxZWQ2OTlmZWViODQ2OTBiZTEifQ"
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L211-L245",
+          "version": "repo-lines-v1:sha256:1b427c247a812a34b7295e37cb9904a89dba530f8b25c73c92612a33ce4543a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM0YWEwZjRhMGYxNDYyNGJiMzE2MzlkMDIxZjE0OTJlZThlNGY1ODhmNmE3NzFjMjM0YTZkMDk0NGZiNDZmMGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2MzFlNDQ4ODAzMDcwYzkxMjllNjllMzA0M2QxYmY5YjlhOTJhNTgwZGY1NzhmN2UyNWEyM2UzNDM3OGFhNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjYzg2Mzk0MDE4MzNkNzNhYTE1OGZjYWY3YTk0NmVlMGU4MmM0NTczMmQwZDllZWQwY2RlMGI4Njk1Y2MwYTMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L271-L313",
+          "version": "repo-lines-v1:sha256:39ff53afb2f4cb0e4a78ea49947244e437a077426856889aaa1bf3782147557a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyOTlkMzU2YjMwZjljNmE4YmMwNjEzNWNkNzcxY2QwYWMxZTRlYTI4YjBiM2ZhMWVmZmM1MzMyNGY1NzQwYjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwYWQ3YzFjYTc3MmQ4Yjc3NGQyNzhhOWUxMDM0MWNjZTEzNGQ5NDRkNmYwODA3NGM4MTAxOTNhMmEyMmMwYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZWU3YTM4NGQxYmYwYTExMTU1MWNhZjBkYTk1YWVhOGU3YzIyODZjYjM3MDIxYWZjOGIwM2YxMjhlZThmZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmZjBlYjk1YTJiNTY0OTc1MThiODU2ZDU3MmQ0ZGYzZGExYTJlMGJjNDkyYTU3ZDVhNzhmNWQyYmQyZDBiYzEifQ"
         }
       ]
     },
@@ -241,10 +249,20 @@
           "version": "repo-lines-v1:sha256:e21f6e4b66c3a747c75822e3efdd8a7bff64a49b19554ebcc2e5e8d2b7d75e3e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0OTFlZTNmYzFhYjBkMzk4NjE0N2IzMThjNmUxMzQxY2MzOWUwMWVjYjc0YWJjYWJmYjFlYzFhZGFkMDVlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiYjRkMmZjNDAzZTYzZDUzMjQwMzkzMWRlYTdkOTgwZGUyZTdiZTQ2MmMyYmUyMWU2NDE3YWFhYjM4YjU4ZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcxMDJmYzQzNzg3OTFhMTcwMjRmYTI1ZTg1ODAwY2VlZmRiMGIwOGFiMDY2OGNlYzIzNzljY2E0ODE2OTlhM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MjEyMjYzMWUwNjJlMWI1OTliZjE0ZmY3NzEwYjliZjMzOWIxY2YwYmQ1Y2E0YjY3OWEwOTEwYWVlOGIyYmEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_6bb1746f48b54346833e2fdfe3001454",
+      "statement": "The supplied HO 04 61 scheduled-property form is the 2012-02 edition and is marked superseded by HO 04 61 2020-11 for policies effective on or after 2020-11-01; the 2012-02 wording should therefore be used only when the issued policy was written under that edition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-61/2012-02.md#L1-L9",
+          "version": "repo-lines-v1:sha256:2d58cbb24cf51d95eb5f4682ada5109985d7378d204b161d016ced98fd71c5a1:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc3MzZlMDZmNTQ0NDVmM2VkNmNjYThlYzcyNjc0MGNlNTI4MDc0MDlhNzZmMmM1NmVjNzhlOTlhOTcyMGE0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T12:15:46.420Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

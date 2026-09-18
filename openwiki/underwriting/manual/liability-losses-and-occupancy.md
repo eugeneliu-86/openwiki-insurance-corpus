@@ -1,11 +1,8 @@
 ---
 type: underwriting-guidance
-title: Manual Liability, Loss History, and Occupancy Controls
+title: Liability Losses and Occupancy
 description: Rules 230, 240, and 250 define pre-bind controls for premises liability hazards, prior losses, occupancy, vacancy, rental, and business-use exposures. This page explains the referral thresholds, evidence, authority gates, time limits, and separation between internal eligibility controls and contractual liability coverage.
 tags: [underwriting, liability-hazards, loss-history, occupancy, vacancy, rental, referral-controls]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
 sources:
   - id: openwiki-source-cde3798461a8bd10992a1c2f
     resource: repo://forms/HO/MS/HO-04-42/2011-05.md
@@ -19,10 +16,13 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 
-# Manual Liability, Loss History, and Occupancy Controls
+# Liability Losses and Occupancy
 
 ## Scope and control boundary
 
@@ -140,7 +140,7 @@ That sequence preserves the Manual's control boundary: internal guidance **const
 
 ## Contract coverage boundary
 
-The liability endorsements are separate contract documents. **HO 04 42** provides only the stated coverage for a lawful incidental occupancy subordinate to residential use and not materially changing the residential character ([HO 04 42 W.1–W.7](repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49)). **HO 24 71** provides the stated business-pursuit liability and medical-payments coverage and states a shared **$100,000** business-pursuit limit; its definitions describe business pursuit as continuous, regular, or profit-motivated activity ([HO 24 71 W.1–W.12](repo://forms/HO/MS/HO-24-71/2011-05.md#L57-L91) [repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L187) [repo://forms/HO/MS/HO-24-71/2011-05.md#L897-L903)).
+The liability endorsements are separate contract documents. **HO 04 42** provides only the stated coverage for a lawful incidental occupancy subordinate to residential use and not materially changing the residential character ([HO 04 42 W.1–W.7](repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49)). **HO 24 71** provides the stated business-pursuit liability and medical-payments coverage and sets a **$100,000** maximum for covered business-pursuit damages, applied to the total damages regardless of the number of insureds, claimants, claims, or suits; its definitions describe business pursuit as continuous, regular, or profit-motivated activity ([HO 24 71 W.1–W.12](repo://forms/HO/MS/HO-24-71/2011-05.md#L57-L91) [repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L169) [repo://forms/HO/MS/HO-24-71/2011-05.md#L897-L903)).
 
 **HO 24 73** modifies the policy for covered farming and farm premises, while **HO 24 82** supplies a separate Personal Injury Coverage for listed offenses arising from a covered residence or personal activities ([HO 24 73 W.1–W.16](repo://forms/HO/MS/HO-24-73/2011-05.md#L41-L73) [HO 24 82 W.1.1–W.1.8](repo://forms/HO/MS/HO-24-82/2011-05.md#L47-L63)). Their grants and exclusions apply only according to the issued policy and attachment. A Rule 230–250 referral does not narrow an attached endorsement's legal wording, and an endorsement does not automatically clear an internal eligibility or hazard referral.
 

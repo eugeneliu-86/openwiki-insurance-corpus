@@ -3,9 +3,6 @@ type: underwriting-guidance
 title: Manual Eligibility by Product Line
 description: Rules 100 and 110–150 define how personal-lines underwriters may evaluate, refer, decline, document, and bind HO-3, HO-5, HO-4, HO-6, and DP-3 risks. This page separates internal eligibility controls from the form, endorsement, declarations, and state terms that govern coverage.
 tags: [underwriting, eligibility, product-lines, pre-bind-controls, delegated-authority]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
 sources:
   - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
     resource: repo://forms/DP/MS/DP-3/2026-01.md
@@ -21,7 +18,10 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 # Manual Eligibility by Product Line
 
@@ -29,9 +29,9 @@ generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
 
 This page groups **Rule 100** and product-line **Rules 110–150** of the Personal Lines Underwriting Manual. The Manual is internal carrier direction for acceptance, referral, and file handling; it is not applicant-facing material and is not a standalone policy page ([Rule 100.A–100.B](repo://manuals/underwriting/manual.md#L15-L25)).
 
-The Manual **constrains underwriting action but does not alter form coverage**. Rule 100.D prohibits using Manual guidance as a coverage grant and directs the underwriter back to carrier-issued coverage terms ([Rule 100.D](repo://manuals/underwriting/manual.md#L33-L37)). The applicable base form, attached endorsements, declarations, and state amendatory form remain the contract authority. For example, the HO-4 form expressly provides no Coverage A dwelling insurance while still providing Coverage C contents insurance ([HO-4 A.1–A.5](repo://forms/HO/MS/HO-4/2021-10.md#L71-L81), [HO-4 C.1–C.7](repo://forms/HO/MS/HO-4/2021-10.md#L219-L239)); an underwriting rule cannot add dwelling coverage to it.
+The Manual **constrains underwriting action but does not alter form coverage**. Rule 100.D prohibits using Manual guidance as a coverage grant and directs the underwriter back to carrier-issued coverage terms ([Rule 100.D](repo://manuals/underwriting/manual.md#L33-L37)). The applicable base form, attached endorsements, declarations, and state amendatory form remain the contract authority. For example, the HO-4 form expressly provides no Coverage A dwelling insurance while still providing Coverage C contents insurance ([HO-4 A.1–A.5](repo://forms/HO/MS/HO-4/2021-10.md#L71-L81), [HO-4 C.1–C.7](repo://forms/HO/MS/HO-4/2021-10.md#L193-L207)); an underwriting rule cannot add dwelling coverage to it.
 
-The forms also describe materially different insured exposures: HO-3 and HO-5 cover the dwelling and its attached building property ([HO-3 Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L99-L105), [HO-5 Coverage A](repo://forms/HO/MS/HO-5/2022-06.md#L109-L117)); HO-6 addresses the unit owner's dwelling-unit property and responsibilities ([HO-6 Coverage A](repo://forms/HO/MS/HO-6/2023-02.md#L80-L96)); and DP-3 covers a dwelling used as a private residence and property that services it ([DP-3 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L73-L89)). The manual rules decide whether the carrier may accept or bind the presented risk; they do not rewrite those grants, exclusions, limits, or settlement conditions.
+The forms also describe materially different insured exposures: HO-3 and HO-5 cover the dwelling and its attached building property ([HO-3 Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L99-L105), [HO-5 Coverage A](repo://forms/HO/MS/HO-5/2022-06.md#L109-L117)); HO-6 addresses the unit owner's dwelling-unit property and responsibilities ([HO-6 Coverage A](repo://forms/HO/MS/HO-6/2023-02.md#L80-L96)); and DP-3 covers a dwelling used as a private residence and property that services it ([DP-3 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L154-L187)). The manual rules decide whether the carrier may accept or bind the presented risk; they do not rewrite those grants, exclusions, limits, or settlement conditions.
 
 ## Operating model
 
@@ -115,7 +115,7 @@ The underwriter must also resolve prior cancellations, nonrenewals, lapses, carr
 
 ### Tenant-contents entry criteria
 
-HO-4 is a contents form: the form itself states that Coverage A is not provided, while Coverage C covers eligible personal property of an insured ([HO-4 A.1–A.2](repo://forms/HO/MS/HO-4/2021-10.md#L71-L75), [HO-4 C.1–C.4](repo://forms/HO/MS/HO-4/2021-10.md#L219-L225)). Rule 130 therefore requires a **tenant-occupied private residence**, a clear insurable interest in the contents, protection class **9 or better**, and a complete, verifiable mailing address ([Rule 130.A–130.D](repo://manuals/underwriting/manual.md#L1077-L1099)).
+HO-4 is a contents form: the form itself states that Coverage A is not provided, while Coverage C covers eligible personal property of an insured ([HO-4 A.1–A.2](repo://forms/HO/MS/HO-4/2021-10.md#L71-L75), [HO-4 C.1–C.4](repo://forms/HO/MS/HO-4/2021-10.md#L193-L203)). Rule 130 therefore requires a **tenant-occupied private residence**, a clear insurable interest in the contents, protection class **9 or better**, and a complete, verifiable mailing address ([Rule 130.A–130.D](repo://manuals/underwriting/manual.md#L1077-L1099)).
 
 Decline a vacant premises and refer uncertain occupancy, a primary-residence mismatch, unlawful use, rooming or boarding, subletting, or a named insured who is not the resident tenant or lacks responsibility for the contents ([Rule 130.E–130.I](repo://manuals/underwriting/manual.md#L1101-L1129), [Rule 130.AF](repo://manuals/underwriting/manual.md#L1263-L1267)). Do not add a person merely to make an ineligible occupancy appear eligible.
 

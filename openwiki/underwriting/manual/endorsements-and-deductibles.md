@@ -3,9 +3,6 @@ type: underwriting-guidance
 title: Manual Endorsement Attachment and Deductible Controls
 description: Rules 400 and 410 govern pre-bind and renewal review of endorsements, referral and approval of nonstandard attachment or deductible requests, the Section I all-other-perils deductible floor, and issuance reconciliation. This page separates those internal selection controls from the contractual deductible and coverage terms in the attached forms.
 tags: [underwriting, endorsements, deductibles, attachment-controls, referrals, delegated-authority]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
@@ -23,7 +20,10 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-d2ea423343a02d2233c77383
     resource: repo://training/attaching-endorsements.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 # Manual Endorsement Attachment and Deductible Controls
 
@@ -136,21 +136,21 @@ The Manual selection is a gate before issuance; the contractual deductible is ap
 
 ### Water backup: HO 04 90 (2027-01)
 
-HO 04 90 (2027-01) is effective only when attached, forms part of the policy, and preserves policy terms not modified by its wording. It provides direct-physical-loss coverage for Water Backup and Sump Discharge or Overflow, with a **$10,000 limit** for the section and its own **$1,000 deductible**. [HO 04 90 2027-01, W.0 attachment and W.1 coverage](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39) [HO 04 90 2027-01, W.2 limit](repo://forms/HO/MS/HO-04-90/2027-01.md#L139-L169) [HO 04 90 2027-01, W.3 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L189-L205)
+HO 04 90 (2027-01) is effective only when attached, forms part of the policy, and preserves policy terms not modified by its wording. It provides direct-physical-loss coverage for Water Backup and Sump Discharge or Overflow, with a **$10,000 limit** for the section and its own **$1,000 deductible**. The deductible applies to each covered water-backup loss, including covered damage to dwelling, other structures, and personal property arising from the same covered water backup. [HO 04 90 2027-01, W.0 attachment and W.1 coverage](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39) [HO 04 90 2027-01, W.2 limit](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L271) [HO 04 90 2027-01, W.3 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L435)
 
 Rules 400.M, 400.N, 400.O, and 400.BD **constrain** whether the water-related endorsement or sublimit may attach and whether an unusual deductible treatment needs authority; they do not change HO 04 90’s $1,000 contractual deductible or $10,000 limit. The endorsement’s water path, exclusions, limit, and deductible must be read from the attached form, not inferred from the Manual. [Rule 400.M–400.O and 400.BD](repo://manuals/underwriting/manual.md#L5163-L5179) [Rule 410.O, 410.P, and 410.BA](repo://manuals/underwriting/manual.md#L5543-L5559) [HO 04 90 2027-01, coverage and exclusions](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L81)
 
 ### Roof settlement: HO 23 74 (2025-05)
 
-HO 23 74 (2025-05) is an attached roof-surfacing settlement endorsement. It says the applicable policy deductible remains in force and is applied to the covered loss after the stated roof-surfacing adjustment. For composition shingle subject to its age-based adjustment, the form states a **20% payable percentage when Roof Age is twelve years or greater**; the adjustment is applied before the deductible. These are contractual settlement mechanics, not Rule 410 selection instructions. [HO 23 74 2025-05, attachment and unchanged deductible](repo://forms/HO/MS/HO-23-74/2025-05.md#L13-L55) [HO 23 74 2025-05, roof age and adjustment](repo://forms/HO/MS/HO-23-74/2025-05.md#L57-L77) [HO 23 74 2025-05, deductible provisions](repo://forms/HO/MS/HO-23-74/2025-05.md#L327-L367)
+HO 23 74 (2025-05) is an attached roof-surfacing settlement endorsement. It says the applicable policy deductible remains in force and is applied to the covered loss after the stated roof-surfacing adjustment. For composition shingle subject to its age-based adjustment, the form states a **20% payable percentage when Roof Age is twelve years or greater**; the adjustment is applied before the deductible. These are contractual settlement mechanics, not Rule 410 selection instructions. [HO 23 74 2025-05, attachment and unchanged deductible](repo://forms/HO/MS/HO-23-74/2025-05.md#L13-L55) [HO 23 74 2025-05, roof age and adjustment](repo://forms/HO/MS/HO-23-74/2025-05.md#L103-L118) [HO 23 74 2025-05, deductible provisions](repo://forms/HO/MS/HO-23-74/2025-05.md#L568-L590)
 
-Rules 400.P, 400.AJ, 400.BD, and 410.O **constrain** attachment and deductible selection for a roof-related risk; they do not replace the policy’s applicable deductible or the endorsement’s settlement sequence. Roof age or condition guidance must likewise not be presented as a claim valuation rule unless the attached contract says so. [Rule 400.P, 400.AJ, and 400.BD](repo://manuals/underwriting/manual.md#L5181-L5185) [Rule 410.O, 410.S, and 410.AI](repo://manuals/underwriting/manual.md#L5543-L5547) [HO 23 74 2025-05, roof age and deductible order](repo://forms/HO/MS/HO-23-74/2025-05.md#L59-L77) [HO 23 74 2025-05, W.3.3–W.3.5](repo://forms/HO/MS/HO-23-74/2025-05.md#L327-L337)
+Rules 400.P, 400.AJ, 400.BD, and 410.O **constrain** attachment and deductible selection for a roof-related risk; they do not replace the policy’s applicable deductible or the endorsement’s settlement sequence. Roof age or condition guidance must likewise not be presented as a claim valuation rule unless the attached contract says so. [Rule 400.P, 400.AJ, and 400.BD](repo://manuals/underwriting/manual.md#L5181-L5185) [Rule 410.O, 410.S, and 410.AI](repo://manuals/underwriting/manual.md#L5543-L5547) [HO 23 74 2025-05, roof age and deductible order](repo://forms/HO/MS/HO-23-74/2025-05.md#L103-L118) [HO 23 74 2025-05, W.3 deductible mechanics](repo://forms/HO/MS/HO-23-74/2025-05.md#L568-L590)
 
 ### Wind or hail: HO 23 77 (2022-07)
 
-HO 23 77 (2022-07) applies only to covered windstorm or hail loss. Its contractual percentage deductible must be between **2% and 10%**, is calculated from the applicable limit, and applies before payment under the endorsement. That is an edition-specific contract range, not the Manual’s general deductible floor. [HO 23 77 2022-07, attachment and scope](repo://forms/HO/MS/HO-23-77/2022-07.md#L13-L53) [HO 23 77 2022-07, percentage deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L55-L75) [HO 23 77 2022-07, W.3 deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L299-L325)
+HO 23 77 (2022-07) applies only to covered windstorm or hail loss. Its contractual percentage deductible must be between **2% and 10%**, is calculated by applying the selected percentage to the applicable limit shown for the covered property, and applies before payment under the endorsement. That is an edition-specific contract range, not the Manual’s general deductible floor. [HO 23 77 2022-07, attachment and scope](repo://forms/HO/MS/HO-23-77/2022-07.md#L13-L53) [HO 23 77 2022-07, percentage deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L644-L676) [HO 23 77 2022-07, W.3 deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L655-L670)
 
-Rule 410.N **constrains** internal wind-deductible selection by requiring the applicable underwriting ceiling to be used, while HO 23 77 supplies the cited edition’s 2%–10% contractual range. If a state amendatory form is also attached, its Declarations-based terms must be checked rather than assuming HO 23 77 controls every policy. For example, Texas HO 01 45 requires the Windstorm and Hail Deductible shown in the Declarations to be **1%–10%** and applies it separately from another deductible. Rule 400.P and 400.BD additionally constrain weather-related attachment and unusual deductible requests; neither rule changes the percentage that the attached contract states. [Rule 410.N, 410.P, and 410.BI](repo://manuals/underwriting/manual.md#L5537-L5553) [Rule 400.P, 400.BD, and 400.BI](repo://manuals/underwriting/manual.md#L5181-L5185) [HO 23 77 2022-07, W.3–W.6](repo://forms/HO/MS/HO-23-77/2022-07.md#L301-L319) [HO 01 45 2022-01, T.1–T.7](repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L73)
+Rule 410.N **constrains** internal wind-deductible selection by requiring the applicable underwriting ceiling to be used, while HO 23 77 supplies the cited edition’s 2%–10% contractual range. If a state amendatory form is also attached, its Declarations-based terms must be checked rather than assuming HO 23 77 controls every policy. For example, Texas HO 01 45 requires the Windstorm and Hail Deductible shown in the Declarations to be **1%–10%** and applies it separately from another deductible. Rule 400.P and 400.BD additionally constrain weather-related attachment and unusual deductible requests; neither rule changes the percentage that the attached contract states. [Rule 410.N, 410.P, and 410.BI](repo://manuals/underwriting/manual.md#L5537-L5553) [Rule 400.P, 400.BD, and 400.BI](repo://manuals/underwriting/manual.md#L5181-L5185) [HO 23 77 2022-07, W.3–W.6](repo://forms/HO/MS/HO-23-77/2022-07.md#L655-L676) [HO 01 45 2022-01, T.1–T.7](repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L73)
 
 ## File checklist and failure checks
 
@@ -171,3 +171,4 @@ Common failures are:
 - **Pending referral treated as approval:** the underwriter binds before documented authority or changes the approved terms. Hold action, continue permitted fact gathering, and bind only the recorded approved terms. [Rule 400.BD, 400.BI](repo://manuals/underwriting/manual.md#L5421-L5455) [Rule 410.P, 410.BC–410.BI](repo://manuals/underwriting/manual.md#L5549-L5823)
 
 These controls should be read with [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md), [Water Backup and Sump Discharge](/openwiki/coverage/perils/water-backup.md), [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md), [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md), and [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md).
+earance.md).

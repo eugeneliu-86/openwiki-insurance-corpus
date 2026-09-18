@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:fc3e7bbf664882008cc526b17e0b3730f8fcdfe4521a0f0e11d49ef477dc569b",
+  "pageVersion": "sha256:cfcf150f5fc56e80f57d24fdab1377833d22530bc19bc5add1277c8004993e92",
   "claims": [
     {
       "id": "claim_ed9eae03961d435ead3b4a8821a9ab20",
@@ -188,25 +188,51 @@
     },
     {
       "id": "claim_84354b1df40844e392ea9ec3f9a6ac94",
-      "statement": "Rule 600 and 610 underwriting controls are separate from post-loss policy duties: the HO-3 form separately requires inspection, records, damaged-property preservation, inventories, photographs, examinations, and proof of ownership after a loss, and says an inspection before or after loss is not a representation that property is safe, sound, or eligible for coverage.",
+      "statement": "Rule 600 and 610 underwriting controls are separate from HO-3 2024-03 post-loss duties: the form requires an insured to protect property and keep repair records, preserve and show damaged property, permit inspection, provide requested records and claim evidence, and submit to examination when reasonably requested; it separately requires requested inventories and ownership or lien information, while stating that an inspection is not acceptance of a condition or representation and is not a warranty that property is safe, sound, or compliant with law.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L127-L133",
-          "version": "repo-lines-v1:sha256:13943ac775bd7707cbde0817029a78a6e8353f5d6d26150b07bbc5106e4e377c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE3Y2M3NmRhZmFlZThkN2I5OTJmNjllODMzMTQ5MDQ2ZjU2OTlhMmNhMzQyYWIyODgzYmZiNGVkZjRjZDYxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5MmQ1MzUwMjIxZjA5NmIyMjg1Y2U4MWZiYTc0YjgxZWVjYTU2NTUwNDczOGVmNTNmZjU3M2MxNjEzNDljYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzFmODgyMTViYzgyZDA2MGE1OTJkMzM0YjdiYzg0Njc4MTg1OTQ0NzE5Yzk3NzE0NTBkN2E4ZTllNDA4NTM0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWY5NDRiZTExMzgzZDhmMWU1ZDRhYTgzNDMxMjBhYWQxMGRkNzc1YWZiYmRhYjM0OTI0Zjg0N2NjZDMwNGJmNyJ9"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1321-L1331",
+          "version": "repo-lines-v1:sha256:c0035cddcdb792b17e9a1f7c7d63b0d0cc5f2a258188dd01f9e179fa2ec5b8e6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxODZlNTQxYzNlNDI0MTY1ZjRmZjZmNTZkODg4OTU5ZmEzNjY4YTg3ZjU0MzYwMGY2ZmJlOTI0NGQ1MDljMDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYxMDVkOGRiNzMyNzJjNDI1YWU4MDZiNDFiMzJjYjRjZTRkM2I2ZjliZWM3MWIwZDNmNTA5ODU2NDc4MmJiYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwNjRkN2FlYWQ3YzA1MTU4NGFlYTNjNGEzN2ViY2ZkMTg4OTNjNGRmMDMwNDQ4NTkxYTBhYWFlNGYwNjU5YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVkM2MxMTEwYmRkYTM1OGI1NTBjN2I0NGY4MjBjZmEyYjgzZjhhYWRmN2ZiMDExNTFjMjBmOTZkNTBkZGM5YmMifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L263-L279",
-          "version": "repo-lines-v1:sha256:46d15fc8abd86f48a9e730cbd62d5e7773bebc9cebb24e525422eda6d000b99f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNDIwMDA1YjU3ZmQ4ZDEyM2M4YjFmNWY4NDVlMTY5MzNiYmM4OGNjNWFmYTgwNmRkYTgxY2FlMDM3NDhkOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3OTA3MjdkMWVkMWY0Mzk2NTQ2MGFlM2U4YzFjMDlkMjZmZDJlYzY5ZDgwNjk1OGRhNjJmN2NkM2M4MWZlNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjMDdjNzNkOTFkNmFjN2Q0ZWNlNDE5YTJlMDg2Mzk4NzRmYjA1NWMyNjhjYzg3ODkyMjMwM2U3ZWY3M2ZlNTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjMzEyOWI1NmMwNDExOWUzMDZhNGRmYTFkMDIzZTAzMjg4Y2VlNjgwNDY4ZmE0NzEwMDU0MTlkZTVkODI4MmQifQ"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1409-L1411",
+          "version": "repo-lines-v1:sha256:32175103ad7b5369c01ea90351ede4529da1bab6af07116939f250a00afab041:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkyOGY1YTJjMjM5NTAzMzk0MGNmZjkwNjJhODQ5ZTdmZTg0NzhmNDhjYjhhM2Y4ZWMxZmM5NjJlMTA5ZDNkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGEyMzUzMDZmNjQ1ZTc2ZTA3YTRmZmIyMWRkM2RkZTE4ZmRhZjBlYjJkOTFiZDQ3MmQ1MDk0MDQ1N2M0NTU3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzZDFhYTdiZmQyNzQ5MzUzYzU3NTE5ZTVlODA3NTA2M2ZjYWVlMDBmNjU0YWRkNTU4MWFlNGFiNTlmYjdjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAwYjQyNGNjYTU3Mzk4NjliNmQ3YzY4OWZiOTlkMWQwOTZjYjY5MmVmZjgyM2JkOWE1OTU4ZmY0NjIxOWM0MCJ9"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L317-L325",
-          "version": "repo-lines-v1:sha256:6f6223ac28c3c7f83248cafc11a5c5fb3b58710598dd98149313d14362bb578a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTllOTJlOWIzZTgxMmUwMjkwM2I0OGY4NTY5YWIzODJkNGYyYjExNTVmZDI3MTI3YTZjYWUxNzgyYjM0NGJlMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk1MzQ1OTA1MzU2MmM5MjRlZTMwMTM5OTczMTBlN2FjMTEwOTA5NjcyOGIyMGQ0YTIyMjk0NTEzYjFlMGQxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NiZDBlZTA1MDcyZTZhMTg4NjY4OGVhN2M4YzMwZjY5MmY4NWEwZTNhMThiZDBiMDQ2NTI0NmY1NjQ1ZjE4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzFmYWQ5MjQ3NDM5M2Q4ZjNmYjA0MzNjZTIyNDY0MWMxYjI0ZjA3NTUyNTFkZTBmMGVjNTZmZWE4MDVkOTgxYyJ9"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L723-L761",
+          "version": "repo-lines-v1:sha256:e93a82ab0c08315f1dba3f947a8855e39f3fcf3b1390e7323e1b25dc89b81af0:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3YzNmOGUxNDZkZjZkNTU4NjMyYmI4ODMxZTMxNjdkYjhkMmRlMjg4ODllYjUxODNiNWJhMTBiNDRmMGQwNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmNWY4NTczOWEwYjdmMmVjZjZjMmE1NjJhOGU2Y2I3OTFlOWFmNzFiMmVlYWNhZjZkZGZlYzc3NGVkNTc5ZDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwNDlkNTNmMGQ1ODkwNTUyOTU0Njc1OGZlY2NkMDFiNWVmZDFkMTBkNTM5NmFhMjUwYjIxZWQ0YzMwYTZjYmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4NGYzZDJiNGYyZDlhYjU4ODgyOTEwODY1YTRlYzEwMTY5MTc5NGZjZjExMmI3OTA1MjEzZTY5Yzk4OGRmMDIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8fc8ee050c30475eaaa59a892c2b2d38",
+      "statement": "State appetite overlays are separate from Rule 600: California requires an acceptable roof inspection before binding at 20 years or greater, review of available roof photographs, documented completion of active-leak repairs, and controlled handling of incomplete roof work, plus a wind-mitigation inspection above $1,000,000 Coverage A; Texas requires a roof inspection before binding at or above 15 years, prohibits binding at or above 25 years, and requires a wind-mitigation inspection above $500,000 Coverage A.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L306-L327",
+          "version": "repo-lines-v1:sha256:9ae89a8d393c30cdf2f0f8c1cf3c6149ecb6c238e459d53251bd4d9c097be18e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE1MTkwMDZmOWZjZjFiM2YwZDFlNjNjYTAzMzBmODQyMzAzNGNjMTFmYjE4YWQ0ZDE0MWMzNDUxNDgyM2JiNTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzY2MzYzg3MTE2YzU5YmNmOWQyMmFmODNlYTdjN2U1NDFkYTRlZDllZTYzNjk4NDYzYTk4MGM1MjQ5YWUwNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzYjg0OWI0MTQyYWQwZjdjZjI3ZmUzMDhhNGFjMDFhMjgxZDA2NDg4N2RhNTI4MmQ4NzEyNzJmZDkxNzcwYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzM2QzYjI0OWJiMWYwYjRkNWZiZWI5ODZmZWY0NTNkNzU5YzE5N2FhNjFlNjdiY2VkMzlhNDg4ZDRhOWU4YTcifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L450-L454",
+          "version": "repo-lines-v1:sha256:f6089e0b73d565f349ecd133504de65bec466ee373a54b11bcc6796790029378:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTEzYTlkYzgwNTU5N2M2ODYxMGU1YjQwOWNkMDM2OTliNmNiY2EwZWExYzAwOWVhMmI0MGI4OWQ4ZTJkMmI1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTc4ZjI1OGQ2MzYwMTJmMjljMWRiMTliZTljNzNmYjE4NDNjNzQ4ODAyNDUxMjg3NmFiZTNlZTE1ZDgwNjQ3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmEzY2Y3NWM5MWI2YjkxNmEzOTEyNGMzODYwZmU5MTcxZmE3ZWRkOThkNjJlNGI5Y2Q2YzYzYmQ2ZTQxYTY0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjBmOTNlNzBmM2RjNDMyOGM3NTdmODE2OWY5ODZiYzI0ZGFlZDgwMDdjZmE3MjllYjEwMzU4NDg3MjlkODI2YyJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L522-L529",
+          "version": "repo-lines-v1:sha256:c916f3add9d4991b9f50e2ff4265f28a99ce660a3aae35e362e6a1bbc8a576b6:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWM1ZDkyMGYyMjdjYTQ5ZjZiNWU2YmUxYTFkOTAwNzcwYWZlZWZiY2JlNTM5NmJiNWExZDQ5MmI4MjMxYjVlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDk1OGM4ZjRkOTdjOTk0MmU0N2ZjMGJhNDU1ZmMzNDE0NjNkMmRjNTg5MGI1NmQyYTk2ZmU4NjYyMzRlZDg0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFjZDdlMjZhNmVhZWY1ZGFiZTdmMzRkNjFiNTYzZDg0ZGJlMjRiNGIwMjVjMzBjNGZhMTI4NmIzYjY5OGVkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmY1N2U0ZDBkNWFiYzcwNzczYWQ3MWNmZThiZjY1MmYyNTcyZjE5NWNiMzgwMTdhMDAxZGNjMTgxZjFjYmUyYyJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L159-L165",
+          "version": "repo-lines-v1:sha256:9205bbbff6cfb4bcad9e8de97907a9bb18f7ae6d096d79e9c04a9acd03b046de:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjE4MWJhZTMyNzBmNDMxMWI0ZTg4NTg4MTE2YTZkODAzMzcwYWFiOWQ0MWZiNTA5ZTQ4MjBlYTI1MmU4ODYyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTNiM2VmYTc0MTQzZDczMTA0OTE0YjY4MWI4OTg1ZjllNjhjYTYzYjYzZDYyMzU0YmFmODgyNDNjMTQ3MTUyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2QwMTYxMGJhZGM4Yjc3MjZjYzgyMzE5N2RlZGE2MmU2MmY3NzNlOTA5ZGNjY2Y5MDllOTE5NDNjNTVkZWY4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTNjN2Q5ZTYzMWMyNjNmMmM3ZWQwM2VmMGNkOGJjNjhkNmI3MDhmODY4NzdiYjRiYzQ3NmE3NTMzNTQ0ODBkYyJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L279-L285",
+          "version": "repo-lines-v1:sha256:ab3728195b8147c41c220fffbf79d0d5d198a02093da4f5d86c12012692d0b2c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2YwNGZmOWY4Y2VlMDI2OWFmMGQ2ZTliMzc1NmE5MzQ3MjUwNmQ3NDBjNjcyZGQ4YjY2ZWJmYmI3MTg1NjU1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWEwMzM0Y2I5OTQ4NmMyNDBkYzhiMGJiMDU4ZDc3NzUyM2JkZWM3MmZiY2ZlZGQ0ZGUxZTExZTNhNDljYjM5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDdiMjMwOThkYWU4YjgxNWQ4OGI4ZDEyNmM3OWNiMjgzNzYwNTgzN2NjMTI4ZDI0YzNlOWZjYzA3ZTY2MmMwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWU1NjE2N2UxODE5NTJlNDFlZTY0ODk4MzRkNGFkODRjNDJkNjIyYmJjOTY5MzMzMGZkZDBlMWE2N2MyNTAwYyJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T05:47:51.376Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

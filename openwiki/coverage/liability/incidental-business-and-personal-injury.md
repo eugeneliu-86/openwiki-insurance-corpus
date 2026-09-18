@@ -1,11 +1,8 @@
 ---
 type: coverage
-title: Incidental Business and Personal Injury Liability
+title: Incidental Business and Personal Injury
 description: Explains how HO-3, HO-4, and HO-6 liability coverage treats business, incidental-occupancy, farming, and personal-injury allegations, including endorsement modifications, exclusions, limits, and the boundary between contract analysis, claims handling, and underwriting appetite.
 tags: [liability, homeowners, Section II, business pursuits, personal injury]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-cde3798461a8bd10992a1c2f
     resource: repo://forms/HO/MS/HO-04-42/2011-05.md
@@ -31,10 +28,13 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 
-# Incidental Business and Personal Injury Liability
+# Incidental Business and Personal Injury
 
 This page is a contract-coverage reference for the **HO-3 2024-03**, **HO-4 2021-10**, and **HO-6 2023-02** editions and for the attached 2011-05 endorsements discussed below. The issued declarations, policy edition, attached endorsements, facts, and applicable law control. An endorsement modifies the policy only according to its own wording; it does not make an internal guideline or an underwriting decision part of the contract.
 
@@ -91,7 +91,7 @@ The endorsement pays covered bodily-injury and property-damage damages, and pers
 
 The grant is narrow. Incidental occupancy away from the residence is excluded, as are professional, medical, health-care, day-care, product, completed-work, employer, aircraft, watercraft, motor-vehicle, off-road-equipment, pollution, disease, intentional-act, and criminal-act exposures ([HO 04 42, W.8–W.29](repo://forms/HO/MS/HO-04-42/2011-05.md#L51-L93)). The endorsement also excludes a business other than the permitted incidental occupancy and an occupancy conducted before permission begins, after it ends, away from the residence premises, or in violation of law ([HO 04 42, W.4–W.7](repo://forms/HO/MS/HO-04-42/2011-05.md#L257-L279)). It is not blanket business liability.
 
-The liability provision refers to the applicable limit but does not state a separate dollar amount in the cited liability grant. Its later limit section is written for covered property, so it should not be read as creating a new liability limit from that property wording ([HO 04 42, W.1–W.7](repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49), [HO 04 42, W.2.1–W.2.8](repo://forms/HO/MS/HO-04-42/2011-05.md#L135-L151)). Notice, forwarding suit papers, cooperation, inspection, preservation of evidence, and no voluntary payment or settlement without consent are material claim duties ([HO 04 42, W.30–W.38](repo://forms/HO/MS/HO-04-42/2011-05.md#L95-L111)).
+The liability grant directs the reader to the applicable limit. Its later W.2 section speaks in terms of covered property damage and property limits, so it should not be read as creating a new liability limit from that property wording ([HO 04 42, W.1–W.7](repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49), [HO 04 42, W.2.1–W.2.8](repo://forms/HO/MS/HO-04-42/2011-05.md#L135-L151)). Notice, forwarding suit papers, cooperation, inspection, preservation of evidence, and no voluntary payment or settlement without consent are material claim duties ([HO 04 42, W.30–W.38](repo://forms/HO/MS/HO-04-42/2011-05.md#L95-L111)).
 
 ### HO 24 71 — Business Pursuits
 
@@ -99,7 +99,7 @@ The liability provision refers to the applicable limit but does not state a sepa
 
 The endorsement covers the insured's business-use premises, the insured's acts or omissions within the pursuit, and acts or omissions of a person for whom the insured is legally responsible. It does not make any other person an insured and does not cover a pursuit conducted by a non-insured ([HO 24 71, W.3–W.6](repo://forms/HO/MS/HO-24-71/2011-05.md#L63-L69), [HO 24 71, W.49](repo://forms/HO/MS/HO-24-71/2011-05.md#L151-L161)). The form's grant is for bodily injury, property damage, and medical payments; the presence of “personal injury” in its definitions and exclusions is not a separate personal-injury grant ([HO 24 71, W.1–W.2 and W.46](repo://forms/HO/MS/HO-24-71/2011-05.md#L57-L62), [HO 24 71, W.46–W.48](repo://forms/HO/MS/HO-24-71/2011-05.md#L147-L155)).
 
-The business-pursuit liability limit is **$100,000 for the sum of all damages** arising out of business pursuits. It is shared regardless of the number of insureds, claimants, claims, suits, or occurrences; payments reduce the remaining amount, defense costs do not reduce it, and the duty to defend ends after payment exhausts it ([HO 24 71, W.2.1–W.2.12](repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L187)). The endorsement also says its coverage is subject to the personal-liability and medical-payments limits and does not increase those limits ([HO 24 71, W.48](repo://forms/HO/MS/HO-24-71/2011-05.md#L151-L155)).
+The business-pursuit liability limit is **$100,000 for damages covered under the endorsement**. The limit applies to the total damages regardless of the number of insureds, claimants, claims, or suits. The endorsement also says its coverage is subject to the personal-liability and medical-payments limits and does not increase those limits ([HO 24 71, W.48](repo://forms/HO/MS/HO-24-71/2011-05.md#L151-L155), [HO 24 71, W.2.1–W.2.3](repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L169)). Under W.2.16, the insurer may pay the amount available under the limit to settle; that payment ends the duty to defend, shifts further defense and settlement responsibility to the insured, and requires reimbursement of reasonable defense expenses advanced after that point ([HO 24 71, W.2.16](repo://forms/HO/MS/HO-24-71/2011-05.md#L193-L197)).
 
 Contract scope remains constrained by exclusions for professional services, products and completed work, employer and workers-compensation obligations, owned or controlled property, vehicles and watercraft, pollution, criminal or intentional acts, and other listed hazards ([HO 24 71, W.4.1–W.4.67](repo://forms/HO/MS/HO-24-71/2011-05.md#L305-L439)). The insured must promptly report an occurrence, claim, suit, or demand, forward legal papers, cooperate, preserve evidence, and obtain consent before voluntarily paying, assuming an obligation, or settling ([HO 24 71, W.5.1–W.5.17](repo://forms/HO/MS/HO-24-71/2011-05.md#L441-L477)).
 
@@ -121,13 +121,13 @@ Covered personal injury includes false arrest, detention or imprisonment, malici
 
 The endorsement does not cover personal injury arising from business pursuits or business activities conducted from an insured location. Its narrower exception is for activities ordinarily incidental to nonbusiness pursuits, not for a general business operation ([HO 24 82, W.1.15–W.1.16](repo://forms/HO/MS/HO-24-82/2011-05.md#L75-L79)). It also excludes, among other things, knowing rights violations, knowingly false or pre-policy publications, criminal acts, professional services, and specified organizational, employment, rental, and animal-business exposures ([HO 24 82, W.1.9–W.1.14](repo://forms/HO/MS/HO-24-82/2011-05.md#L65-L75), [HO 24 82, W.1.31–W.1.39](repo://forms/HO/MS/HO-24-82/2011-05.md#L109-L127), [HO 24 82, W.1.59–W.1.61](repo://forms/HO/MS/HO-24-82/2011-05.md#L161-L171)).
 
-The applicable Personal Injury Limit of Liability is one shared maximum for all covered damages from an occurrence, not a separate limit per insured, claimant, claim, or suit. Payments reduce the available limit, defense and investigation expenses do not reduce it, and the duty to defend ends when judgments or settlements exhaust it ([HO 24 82, W.2.1–W.2.9 and W.2.27–W.2.37](repo://forms/HO/MS/HO-24-82/2011-05.md#L205-L223), [HO 24 82, W.2.27–W.2.37](repo://forms/HO/MS/HO-24-82/2011-05.md#L257-L279)). The endorsement expressly says its attachment does not increase the limits of liability ([HO 24 82, W.0](repo://forms/HO/MS/HO-24-82/2011-05.md#L41-L45)).
+The applicable Personal Injury Limit of Liability is one shared maximum for covered damages, not a separate limit per insured, claimant, claim, or suit. The limit applies to the total covered personal-injury damages, and approved settlement payments reduce the amount remaining; the limit provisions also address judgments and settlements without making the pleaded or demanded amount controlling ([HO 24 82, W.2.1–W.2.9 and W.2.13–W.2.14](repo://forms/HO/MS/HO-24-82/2011-05.md#L205-L233), [HO 24 82, W.2.26–W.2.31](repo://forms/HO/MS/HO-24-82/2011-05.md#L257-L267)). The endorsement's attachment does not increase the limits of liability, and its preamble says the duty to defend ends when the applicable limit has been paid ([HO 24 82, W.0](repo://forms/HO/MS/HO-24-82/2011-05.md#L41-L45), [HO 24 82, W.0](repo://forms/HO/MS/HO-24-82/2011-05.md#L15-L29)).
 
 ### HO 04 96 — No Section II Liability Coverages
 
-**HO 04 96 is titled “No Section II — Liability Coverages,” but the supplied form text has a material internal conflict.** Its title identifies a no-Section-II form ([HO 04 96, title](repo://forms/HO/MS/HO-04-96/2011-05.md#L1-L8)), while its operative W.1 provisions expressly say that the insurer provides personal liability coverage for bodily injury or property damage and medical-payments coverage, including defense and activities of an insured ([HO 04 96, W.1.1–W.1.12](repo://forms/HO/MS/HO-04-96/2011-05.md#L57-L81)). The same text later supplies a general limit-of-liability section rather than an operative deletion of Section II ([HO 04 96, W.2.1–W.2.29](repo://forms/HO/MS/HO-04-96/2011-05.md#L199-L257)).
+**HO 04 96 is titled “No Section II — Liability Coverages,” but the supplied form text has a material internal conflict.** Its title identifies a no-Section-II form ([HO 04 96, title](repo://forms/HO/MS/HO-04-96/2011-05.md#L1-L8)), while W.1 expressly provides personal liability coverage for bodily injury or property damage, a defense, and medical-payments coverage with location and activity triggers ([HO 04 96, W.1.1–W.1.12](repo://forms/HO/MS/HO-04-96/2011-05.md#L57-L81)). W.2 then states an applicable limit shown in the Declarations and applies it to total damages from an occurrence without increasing it for multiple insureds, claims, or claimants ([HO 04 96, W.2.1–W.2.7](repo://forms/HO/MS/HO-04-96/2011-05.md#L199-L213)).
 
-Accordingly, do not infer a Section II deletion from the title alone, and do not override the title with the contradictory grant. On an issued policy, reconcile the attached form, declarations, and controlling policy text before concluding whether Section II is available. If HO 04 96 is intended to remove Section II, the operative issued form must establish that result; the supplied transcription does not contain such a deletion clause.
+Accordingly, do not infer a Section II deletion from the title alone, and do not override the title with the contradictory grant. On an issued policy, reconcile the attached form, declarations, and controlling policy text before concluding whether Section II is available. The supplied form text presents the contradictory grant and limit provisions but does not itself show an operative Section II deletion instruction; the issued policy record must establish which result controls.
 
 ## Contract coverage versus underwriting controls
 
@@ -156,8 +156,8 @@ For defense and resolution, the handling guidance distinguishes the potentially 
 ## Related references
 
 - [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) — intake, coverage-review workflow, investigation, defense, authority, recovery, and closure.
+- [Liability Specialty and Recovery Manual](/openwiki/claims/manual/liability-specialty-and-recovery.md) — specialty liability investigation, authority, recovery, and closure controls.
 - [Liability E–F](/openwiki/coverage/parts/liability-e-f.md) — related liability and medical-payments reference.
 - [Editions and State Attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) — policy assembly and attachment context.
 - [Referral Authority](/openwiki/underwriting/guidelines/referral-authority.md) — underwriting referral controls.
 - [Liability Losses and Occupancy](/openwiki/underwriting/manual/liability-losses-and-occupancy.md) — underwriting context; do not substitute it for claim coverage analysis.
-itute it for claim coverage analysis.

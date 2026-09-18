@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:5d9d66214081d1191c0b9c4e37910713c732624ad46d00519acf0c01569730a4",
+  "pageVersion": "sha256:93738dced520dc619b4b902e5c08dfa36732495a06d27c1d6b3ce1048be84f67",
   "claims": [
     {
       "id": "claim_667deaafcdff45e7b7ccb9d54850f71b",
@@ -74,19 +74,11 @@
     },
     {
       "id": "claim_a30d976e46ad447891392f7fdfbf0906",
-      "statement": "HO 04 42 refers its liability grant to the applicable limit but does not state a separate dollar liability amount in the cited grant, while its later limit provisions are written for covered property; its claim duties include prompt notice, forwarding legal papers, cooperation, inspection, evidence preservation, and consent before voluntary payment or settlement.",
+      "statement": "HO 04 42's W.4–W.7 grant covers bodily-injury, property-damage, and personal-injury liability and a defense subject to the applicable limit; its later W.2 section addresses covered property damage and property limits rather than adding a new liability limit, while W.30–W.38 impose prompt-notice, legal-paper, cooperation, inspection, evidence-preservation, consent, and recovery duties.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md#L135-L151",
-          "version": "repo-lines-v1:sha256:e2decef096c809e40d125e0d734a5552764eeb4b2a6b65332d4f81b4a0081ec4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNzRiN2MwNjBlNWY5MmE2MTZhZWU0ZTM5YmI0NDYyNWQzY2M5MzM4ZWVlMzRlNmVmMjQ1NmViNzdhOTUyYzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1YTcxZGNmNWFlYzUxNTUzZTYyYzFiNTliOTQ1OGNjMDY5NzBmMzhkY2ExNjdkNWJhMTdhNGJmODMyMTM1NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA5N2JkMDJjYWRiNTgxMGY2NzdjZTA4MzQzMDQ2ZDJiYTZhMWYyOTViMzRmMzdjMmY2Mjg5YmI5MTk4OGYxYjUifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49",
-          "version": "repo-lines-v1:sha256:39bc7f1016c3bb3a76849fd067309b0b0535da51e3fd63b365d889c7e6c766b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhMDY4NDk0YWRhYWNmYTA5MGY2NDQwNWIyYzdjZWY4MGU2ZjZhNmIzZWVmODEyZjRhNmRhMjE1MDQ3Mzk2YWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1N2MyMDlmYmNjMmY3NTM4Y2NjYWMyMGVjODFlOGUzNGE0N2E4NDUwNzAzZDk1Y2ZiNzJkOTdmNDA0OWM0MTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyZDQzOTBmMjg5MzA0YzllNTVlZDQzYTA4NDJmYjYwOGUyZWFjMGZiNGFlYzgzODhiMzQ0YTc3MjA5YzQ5Y2UifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md#L95-L111",
-          "version": "repo-lines-v1:sha256:5382e9913eab4fd26338aab97fb36d4f4538204632eca7b4e263dd3e7f10bf8b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkyNTVjMjNjOGM0NTU0ODU0ZjYwOWQ5NmRmZDY1MTg3ZDVhYzhlODRlY2U2MjNmMTU2MzBkZjEwN2QwZTJmOTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5Mzg4YjVmZmM1ODk1ZjQyY2M3NDc3NWNlYTdjNzQyMzU4MzNkZGZiM2NkNjY0MTNkZTNkMzk1NWU5YjBlZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4MjlmNDRkYzA1MDQ3ODEwNzA5ZmZjNzExMDhiNjU1YWJmOTI4ZmZlNjkyNjY1Zjk0Yzc2MmM5YmVmNzQ2NmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQzNTU5MDZmNGFmNTA1OTQxODVmNTcxZmY1NTAxYzRmMjgzZWFkMTRiZDA0YjNjYTEyZTBkOWQ2MDc1YjU4MTQifQ"
+          "resource": "repo://forms/HO/MS/HO-04-42/2011-05.md",
+          "version": "repo-file-v1:sha256:886980f6d6a470d1f36aec46067b2ac522f22bafff2d5be788ef35230e085107"
         }
       ]
     },
@@ -106,15 +98,19 @@
     },
     {
       "id": "claim_ea8a8fac92ce4f478368640f37408b95",
-      "statement": "HO 24 71 sets a $100,000 maximum for the sum of all liability damages arising out of business pursuits, shared across insureds, claimants, claims, suits, and occurrences; payments reduce the amount available, defense costs do not reduce it, and the defense duty ends when payment exhausts the limit, while the endorsement does not increase the policy's personal-liability or medical-payments limits.",
+      "statement": "HO 24 71 sets a $100,000 maximum for damages covered under the business-pursuits endorsement, applied to total damages regardless of the number of insureds, claimants, claims, or suits; the endorsement makes its coverage subject to and non-increasing of the personal-liability and medical-payments limits, and payment of the amount available under the limit ends the duty to defend and shifts further defense and settlement responsibility to the insured with reimbursement of reasonable defense expenses advanced afterward.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L151-L155",
           "version": "repo-lines-v1:sha256:fe432322ac520fc134835b60c898eccdd7fe923e1ea047cc2b7bbd309e688648:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGMzMzE1MGZiMzkxNmQ3MGY5YzNmYWZmZmI0YzZmZjkwNjhhODkyNmM0NmU3YzdiZWY5MGUyNjQ3ZjJmMGE2NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU3Yzg5NjRiN2UwMDA0NWI1ZTI3YmVlZDJmNTdjNzRlZDJjNDJlOTRiMDhkMzlmYmYxZDE5YTg1MjMyYmJlMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTI5ZmZjNGFlNTRkNzFhYzJmMTQyNjc1OTJhOWU0ODNlZWQ0YjExNjMxNDNhNmJkMmIxODAxMzU0MDRlNGExYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTFkZTQ2Yzg5MGM3ZjdkOTE4YWE1NWQwY2JiOGE2NGZlMmQ0MWYyMmY2ODgzMTEyZWJmZTlmZjZkYTMyZjkwNyJ9"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L187",
-          "version": "repo-lines-v1:sha256:82361867b825fb7842d37b370b59d87d453eac0c549748943785163d2d6bb12a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3MDU1MmJlYWQyMzMzOWI0Zjg2MWMyYmUxNjlmZjM4NzMwMjUxNDk3MzBmNzhhMGUzYzFkMGNhY2NkMWIzZGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEzZjZmM2I5YWRmMTM3OWYzNGNhODAzY2ZjOWM5MDMzMmIzZjUxM2RmYTM1ZTEzNDljMWE2ZGQ5MDEzZThlODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRiZmFkMWFmMTQxOGUwYzRjMzUwMmFlMWY3MjM3ODA4YjNkMmYzMDJlNmIzMmY5OTAzYjhhY2FmOWRhODY4MjkifQ"
+          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L169",
+          "version": "repo-lines-v1:sha256:e8841eb58784e440dc190c768b0bd4b90217d5fcae363b344e1524cce3fbd8f1:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhY2E3MjUyMTcxZTIzNzk4N2FkMWEwZTUyNjg0Y2E2MGIxYzQxNmJiNzY5OGMyOTdmNDgzYzE0NjQzNDIwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwMmIwNzdmYTFjNjU3YzBiNTBhNGE0MmZjZDJhN2ZkMmEzMjg4NDZlOWRiZDFkMjMxOGNiOGJmNDY3NzEwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTNmNmYzYjlhZGYxMzc5ZjM0Y2E4MDNjZmM5YzkwMzMyYjNmNTEzZGZhMzVlMTM0OWMxYTZkZDkwMTNlOGU4MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjM0YTM3ZTQ0OTlmMWM1YmM2MDUyZjMzNjg0MGZlMGU5YjM4NWZkNjc4YTAyYTVlMTM3MjdiNDg4ODAwOTZjZCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-24-71/2011-05.md#L193-L197",
+          "version": "repo-lines-v1:sha256:6158e0c72cd0be0bf856ed6b04b88bb44faaa327042af23f6c5d026c91c76bc1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjhhYTRjMGIyYjZjNjNlZGE5MTU0YzRjMDBmYzc4NDEwMDA5NmRiYTdkYWU4YTA1ZDZlYTlmMjRhN2Y2YTEwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDFkZjhlNTVlNjVkNTYwNWZjZmNiNDIwNWE3ZmY0N2U3NzA4OGYzYTYwNTYxMWJkZDczY2ZkMTZhNGEzYTNkZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2IzNmJhNGM3ZGIxMTQ1NzFiZDQ1YjFlOGQ5OGVhNmUzNjZkNDg4ZGI0YmRlNzZjYzYwZDk1MjY5ZTljMmYwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2NjZDIzOWFiOTg5ODY1ODYzODZlMTMzOWYxYmNkZGFiYjg3NzIwMWY5MTBlMjkwYmY1YjRhNzNlZWEwYzYyNyJ9"
         }
       ]
     },
@@ -176,15 +172,23 @@
     },
     {
       "id": "claim_886df3d8544b4a849b588b6d7ef29eed",
-      "statement": "HO 24 82 excludes personal injury arising from business pursuits and business activities conducted from an insured location, except for activities ordinarily incidental to nonbusiness pursuits; its Personal Injury Limit of Liability is shared for all damages from an occurrence, is reduced by payments, does not increase through multiple insureds or claims, and ends the defense after judgments or settlements exhaust it.",
+      "statement": "HO 24 82 excludes personal injury arising from business pursuits and business activities conducted from an insured location, except for activities ordinarily incidental to nonbusiness pursuits; its limit is one shared maximum for total covered personal-injury damages rather than a separate limit per insured, claimant, claim, or suit, approved settlement payments reduce the remaining amount, the attachment does not increase the limits of liability, and the preamble ends the defense duty when the applicable limit has been paid.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L205-L223",
-          "version": "repo-lines-v1:sha256:49ee49fb07b791eff1857faff4b80e051f667f47fb57407778d48987583c76fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4ZjQ5YzJiZWZkOTk1NTc2NjFkYjQ2MGM3MzYxYzg0NzZlZjY5NDZkMWYzNTA0M2I3MmNmMDNmM2U0YTBkYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyZjlmMmFiNjQyNzEwYWI3YTZlN2QyYjhmNTBkZTA0NzVlMWI2MDFmOWUxOGQ4ZTgwYzE5YTM4YmE4ZjRmNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1NTNlMGVmMzk0ZWQ3Y2MzODBkNzgxYjU1MTU1OGZjNTA5MWQ2NDgyOTZlMmQ5NzY1M2YzOWUzZWZhNzAxYzQifQ"
+          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L15-L29",
+          "version": "repo-lines-v1:sha256:2412de6daf4aae423b224efef44044bde5e3b346a5a5594cd12ec941b31fb411:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4MGM3OTU2YjMzNWQ3MDZhZmMyN2I5ZDdlYmRmMWRlZmEyMTQ4ZTAxMzQ1NTk3ODc2NjU0YWE4YTQyYTE5ZDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwMTMyZDJkYjhkOWZiNjE0OTY3YjUwMTg3ZGU1NDU2YWYzZmZkNzUyMjZhNDVlYjJjODkzOGI2N2E1NzZlMDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4NjViMjZiOTk5MTI0MDRmZDhjZjkzNGM0NDIzMTJjYmJiMDZlNjhmMjY3ZTgyOTE5NTY0MGIwNzNkNDhkMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIzMDM2MWE3MWZiMDE4YzQxMjRhYmRjMGVhYjE1N2FiMGRjN2QyYTRjZGE4NTEyNjNkYjJjNDlkNTBiZGNlMWYifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L257-L279",
-          "version": "repo-lines-v1:sha256:085b153f77677c7f039cd4d9d8fb989234d0ca77c2f2719e8d9687ce5e2518be:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZTFiNjgxNWM0YjI3ZGQ5MDdhMWNkN2YyMGE2YTRkMThmMzQxMDkwMDIzNThiM2E4ZTQ2ZTI0ZjE0YTc1NzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYjFhNjJhODI2M2VmZGUyZDdkZWJkNTA0NzEzMTE2OWE1ZmFiY2VlMmU4NWIxNWVlYjMyODE1YTgzOWQ3ZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNlN2IyYjZjOTkzNTgxYTVhYTYwNzA1YmU4YzFmZGM2OGNiOGU0Zjk2MzA1ZGZiNzE5ZjRjYjdkODRmZGI0MDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmYWQ5ZmNhMmI5YmM5M2JlMGRkMzcxMzJmNmE0MzYzZDhiNjFjZGM4YmUxOGIzNTMxZjY1YTA2YjNlNTIxYjEifQ"
+          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L205-L233",
+          "version": "repo-lines-v1:sha256:6bbbb317b5e2f4fab67df2e1d1fa1fbc33583dd52d4086e17500813d00b7a75c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4MjdkYTQwNGMxOTIzN2MzN2IwZmQ5YTczYWE3NjVmZWI5MWNlNjM4NTEyZTNhNzliZTQxOTFlZTMyMDcwYTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyZjlmMmFiNjQyNzEwYWI3YTZlN2QyYjhmNTBkZTA0NzVlMWI2MDFmOWUxOGQ4ZTgwYzE5YTM4YmE4ZjRmNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjNTU2OWYzZTcwNzNiNDRhZTVlODM1NmVhNGJmMDI3NDAzOGEwYzIxYTM1NzA5OTUxYzk5YzM5NjgwYjhmMzQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L257-L267",
+          "version": "repo-lines-v1:sha256:e3dfc3b2373c65c51502bd84fd5bc98109f777fe90b789f7b4bd619f0b2f0d73:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmZTBiMmZkYTIzNjU4OTNjNmRhM2I5MjY4ODUzZWViZmRlNzEyYzlmYmY2Yzc2MjUyNDAxMTM1ZTU4Zjk2ZDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxNTgwOWQ3MzYzZjkxZjhiM2ZkNjAxZmZiN2ViY2E3MjZmM2Y0M2VlNGFhYTk5NzhkYTY5MjQwZDI3OWY5ZjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiMWNjYmI2ZmNmZjk0OTE0ZDQ0M2U0ZjE4ODM0YmZiODUwZWU5YzYyM2I4ZmEwZmY1MDQxMjIyNWM2Y2I2NWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiNGVjNmM1ZDA0MGM0NzI0ZTFhZDBlYThhOTg2NDQwOTdmMmRlMGE1YTQ0ZGQyYWFjZTUyMjA0OGZlOTIwZTEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L41-L45",
+          "version": "repo-lines-v1:sha256:5d6a53200641778e8bba83283e7382cf14c87e263a906c1ee726356bd0c1270e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmI3YmQ4OGFhMGE4ZmIzNDJlMDg1M2VhZWYwNTEwOTU0NTFiZWI1M2Q2NWJlZGE4NGY1NjQ3YjI4NzVlMzViYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY4NThjZWVmMzkzM2QzNjY1MTUzZDZkMWJhZmMyMTg1YmFmOTMxNTU0MTAxNzg3NjUwZDNjYWRjMzM2ZDU3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFjODFlOGVmYTM3NzA4Nzc0Y2I1NjYzOGQxMDlmNTEzYWNmYWFkYzMzYWE4ZWYwMmVmOWM5M2YxMWEzNWUwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
         },
         {
           "resource": "repo://forms/HO/MS/HO-24-82/2011-05.md#L75-L79",
@@ -194,15 +198,15 @@
     },
     {
       "id": "claim_aecd1198e645495abc52d4ed604bce2b",
-      "statement": "HO 04 96 is titled as a no-Section-II liability-coverages endorsement, but its supplied operative text expressly grants personal liability, medical-payments, and defense coverage and supplies a general limit section without an operative Section II deletion clause; the source therefore requires reconciliation of the attached form, declarations, and controlling policy text before determining Section II availability.",
+      "statement": "HO 04 96 is titled as a no-Section-II liability-coverages endorsement, but its supplied operative text grants personal liability, defense, and medical-payments coverage and then states an applicable limit shown in the Declarations for total occurrence damages; the supplied form text does not itself show an operative Section II deletion instruction, so the attached form, declarations, and controlling policy text must be reconciled before determining Section II availability.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-04-96/2011-05.md#L1-L8",
           "version": "repo-lines-v1:sha256:10a992643525a7b9f29ab1fb2bd77dc4633062cc3fce78d5c2067661f6682747:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTlkZjYwYzU1MWFlYzVmYTA5YzIyYTY4MDViMTExM2MxMzE4MThjZTVhYTNkZjc1ZmM1MmUxMzI0YTQ0NDczYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-04-96/2011-05.md#L199-L257",
-          "version": "repo-lines-v1:sha256:34a46fcfa756f8473baaeddf819a7c31293523ab18e83f47bf0fe3cc8213b7e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMTBjMTIwODk0NTZiMjFkMmRlMjc0NjM1MWM3OGMxOGI5YzZjNTcwNTgyM2M0MTIzOTljZmE5ZGE3MjcyN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxOGMwZmU2YmYwYjUzNmRjYTRiNzdkOWJhZTBlOWI3YzFmZmEzZmE3MGMwNjc5ZDQxOGM5ZTQyOTc3ZDg3YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNjMDgxN2VhMGZkNTU1Y2I5MDA0M2FkZDU0NjUzYjAwNzc1MzE1YThkY2EzNWQ5YjI5MTYyZWZlZTRiZTc4ZTUifQ"
+          "resource": "repo://forms/HO/MS/HO-04-96/2011-05.md#L199-L213",
+          "version": "repo-lines-v1:sha256:3e377d9b38925491ea104eeb60bf46eb1b2f1eb8d2ab7f9c0f84afc25ccb88e9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODFiMzM4NmZlMzg2MjEzYjIyYjE5OGY0ZDUyNjI2MWFjYmZhMzgzYjZkOTkwYzJkZWMyNjdjZmEwNjg5NTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxOGMwZmU2YmYwYjUzNmRjYTRiNzdkOWJhZTBlOWI3YzFmZmEzZmE3MGMwNjc5ZDQxOGM5ZTQyOTc3ZDg3YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA0MTg2Mjg1ZTdmMWI3OWE2ZmM4NGY4ODZjMjA3ZjQ3NWMxZDE4NzI5ZTY5OTk3YzVhYWRiMDZiMjU1NzhiNDMifQ"
         },
         {
           "resource": "repo://forms/HO/MS/HO-04-96/2011-05.md#L57-L81",
@@ -355,6 +359,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T12:15:46.420Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

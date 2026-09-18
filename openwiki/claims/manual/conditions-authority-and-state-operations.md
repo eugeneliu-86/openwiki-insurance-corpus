@@ -5,7 +5,7 @@ description: "Operational reference for routing property claims through policy c
 tags: [claims, authority, proof-of-loss, appraisal, prompt-payment, catastrophe, ordinance-or-law, state-routing]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
+    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-cf3bdf4919dc01656b85cad5
     resource: repo://bulletins/FL/oir-2022-01-hurricane-deductible.md
@@ -13,6 +13,8 @@ sources:
     resource: repo://bulletins/NC/ncdoi-2021-06-claims-handling.md
   - id: openwiki-source-d2d0e0eee59ab93741467060
     resource: repo://bulletins/TX/b-2019-02-prompt-payment.md
+  - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
+    resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-a8c95d71a2a2351aaf8e360c
     resource: repo://forms/HO/FL/HO-01-09/2023-07.md
   - id: openwiki-source-f4ebd2ece3eaf490178dfc41
@@ -23,7 +25,7 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 ---
 # Claims Manual: Conditions, Authority, and State Operations
 
@@ -109,27 +111,27 @@ Start with the policy or endorsement that actually applies. Request only informa
 
 A proof of loss records the insured's asserted facts and amount. Compare it with the notice, inspection findings, photographs, invoices, estimates, ownership information, and other evidence. Keep the insured's presentation separate from the carrier's independent coverage, causation, and valuation analysis. Issue an authorized undisputed covered amount when supported rather than holding it solely because another portion remains disputed. Refer material misstatements, altered records, or unexplained valuation changes for special review without accusing the insured without supporting facts.
 
-The deadline is contract- and jurisdiction-specific. The Mississippi HO-3 2024-03 conditions require a signed, sworn proof within 90 days after the insurer's request and specify the information to state (**S.13–S.19**). The Florida HO 01 09 2023-07 endorsement identifies a sworn-proof deadline but directs the handler to the endorsement and policy for the actual duty (**T.13**, **T.39–T.49**); do not import the Mississippi 90-day period into Florida. Record any authorized accommodation, extension, withdrawal, revised proof, and delivery evidence in the chronology.
+The deadline is contract- and jurisdiction-specific. The Mississippi HO-3 2024-03 conditions require a signed, sworn proof within 90 days after the insurer's request and specify the information to state (**S.13–S.19**). The Mississippi DP-3 2026-01 form instead requires the signed, sworn proof within 60 days after the request and requires supporting records when reasonably requested (**S.15–S.17**). The Florida HO 01 09 2023-07 endorsement identifies a sworn-proof deadline but directs the handler to the endorsement and policy for the actual duty (**T.13**, **T.39–T.49**); do not import either Mississippi period into Florida. Record any authorized accommodation, extension, withdrawal, revised proof, and delivery evidence in the chronology.
 
 ## Appraisal, suit, and payment
 
 ### Appraisal is a valuation process
 
-First classify the dispute. Appraisal is for the amount of a covered loss, not for coverage, policy interpretation, causation, exclusions, or compliance with policy conditions. The Mississippi HO-3 2024-03 form permits a written demand when the parties disagree about amount, requires each appraiser to be selected within 30 days, separates amount of loss and actual cash value, and states that appraisal does not determine coverage or policy interpretation (**S.42–S.47**). The manual correspondingly requires prompt issue analysis, impartial appraiser selection, umpire handling, award review, and separate coverage referral (**11.R–11.AF**).
+First classify the dispute. Appraisal is for the amount of a covered loss, not for coverage, policy interpretation, causation, exclusions, or compliance with policy conditions. The Mississippi HO-3 2024-03 form permits a written demand when the parties disagree about amount, requires each appraiser to be selected within 30 days, separates amount of loss and actual cash value, and states that appraisal does not determine coverage or policy interpretation (**S.42–S.47**). The Mississippi DP-3 2026-01 form uses a different condition set: each appraiser must be selected within 20 days, and appraisal determines only the amount of loss (**S.41–S.47**). The manual correspondingly requires prompt issue analysis, impartial appraiser selection, umpire handling, award review, and separate coverage referral (**11.R–11.AF**).
 
-Record the demand date, issues submitted, carrier appraiser and conflict review, umpire activity, materials provided, award scope, and unresolved defenses. Do not ask an appraiser to decide coverage. Apply an award only after confirming that it is facially usable and that coverage and conditions support payment. The Mississippi form makes loss payable after agreement, final judgment, or filing of an appraisal award and requires payment of the covered amount within 60 days after the applicable event (**S.35**, **S.46–S.48**). Do not generalize that trigger or period to another form edition or state.
+Record the demand date, issues submitted, carrier appraiser and conflict review, umpire activity, materials provided, award scope, and unresolved defenses. Do not ask an appraiser to decide coverage. Apply an award only after confirming that it is facially usable and that coverage and conditions support payment. The Mississippi HO-3 form makes loss payable after agreement, final judgment, or filing of an appraisal award and requires payment of the covered amount within 60 days after the applicable event (**S.35**, **S.46–S.48**). The Mississippi DP-3 2026-01 form instead requires payment within 30 days after agreement or a final appraisal award (**S.48**). Do not generalize either trigger or period to another form edition or state.
 
 ### Suit and legal escalation
 
 Forward a demand, complaint, summons, legal paper, or material threatened action to the designated claim authority or counsel. Preserve the complete claim file and suspend routine destruction or alteration of potentially relevant records. After suit, coordinate examinations, statements, inspections, document requests, settlement, and communications with authorized counsel while continuing appropriate claim evaluation unless counsel or claim authority directs otherwise.
 
-The Mississippi HO-3 2024-03 form requires an insured to commence an action within two years after the date of loss and requires policy conditions to be met (**S.48–S.50**). Other forms may use different language or defer to applicable law; the handler must quote and analyze the operative provision rather than apply a generic “two-year” rule. Do not communicate a time-bar position without authority or legal review.
+The Mississippi HO-3 2024-03 form requires an insured to commence an action within two years after the date of loss and requires policy conditions to be met (**S.48–S.50**). The Mississippi DP-3 2026-01 form also states a two-year period, but qualifies it by applicable law and separately requires conditions material to the action (**S.72–S.73**). Other forms may use different language or defer to applicable law; the handler must quote and analyze the operative provision rather than apply a generic “two-year” rule. Do not communicate a time-bar position without authority or legal review.
 
 ### Prompt payment and undisputed amounts
 
 Create a prompt-payment diary from the documented receipt event, identify the governing jurisdiction and form, record material information requests, and monitor decision and payment triggers. A claim is ready for decision when requested material information is available; immaterial missing items must not become a reason for delay. Communicate acceptance, partial acceptance, denial, limitation, payment basis, deductions, and remaining disputed issues in clear claim-specific language. Verify payees, mortgagees, liens, authority, payment purpose, and delivery; investigate returned or rejected payments.
 
-The Florida HO 01 09 2023-07 endorsement requires acceptance or rejection within 85 business days after receiving requested items and payment of an accepted claim within 20 business days (**T.31–T.34**). Mississippi HO-3 2024-03 uses a different payment condition: 60 days after agreement, final judgment, or filing of an appraisal award (**S.35**). The Texas bulletin emphasizes prompt acknowledgment, reasonable investigation, contract-based evaluation, payment when due, and payment of undisputed amounts without conditioning them on unrelated disputes (**B.1.1–B.1.18**, **B.2.1–B.2.24**). The North Carolina bulletin likewise requires a reasonable investigation, prompt payment of undisputed amounts when due, clear explanations, and records sufficient to support material decisions (**B.1.1–B.1.17**, **B.2.1–B.2.17**). These are not interchangeable deadlines.
+The Florida HO 01 09 2023-07 endorsement requires acceptance or rejection within 85 business days after receiving requested items and payment of an accepted claim within 20 business days (**T.31–T.34**). Mississippi HO-3 2024-03 uses a different payment condition: 60 days after agreement, final judgment, or filing of an appraisal award (**S.35**); the Mississippi DP-3 2026-01 form uses 30 days after agreement or a final appraisal award (**S.48**). The North Carolina claims bulletin requires acknowledgment within 30 days after receipt and acceptance or denial within 30 business days after all requested items necessary to evaluate the claim are received (**B.4.2–B.4.5**). It also requires reasonable investigation, prompt payment of undisputed amounts when due, clear explanations, and records sufficient to support material decisions (**B.1.1–B.1.17**, **B.2.1–B.2.17**), but the cited bulletin provisions do not supply a universal payment period; use the operative policy and applicable law. The Texas bulletin emphasizes prompt acknowledgment, reasonable investigation, contract-based evaluation, payment when due, and payment of undisputed amounts without conditioning them on unrelated disputes (**B.1.1–B.1.18**, **B.2.1–B.2.24**). These are not interchangeable deadlines.
 
 ## Catastrophe operations
 
@@ -150,7 +152,9 @@ Treat ordinance-or-law handling as a separate coverage and scope analysis, not a
 5. Elective improvements, betterments, capacity increases, aesthetics, unrelated maintenance, land-use costs, and duplicated direct-repair amounts are removed or separately allocated.
 6. The policy's ordinance-or-law grant, limit, exclusions, timing, and documentation duties support the resulting amount.
 
-The Mississippi HO-3 2024-03 form covers increased costs to comply with an ordinance or law regulating construction, repair, or demolition of a building when it applies to damaged portions; it separately addresses required demolition of undamaged portions, sets a 15 percent Coverage A additional limit, and excludes pre-loss noncompliance, land-use enforcement, loss in value, and pollutant-related costs (**E.36–E.40**). The manual requires authority confirmation, separate baseline and compliant estimates, documentation of permits and completed work, and referral of condemnation, unsafe-structure, or disputed enforcement issues (**16.A–16.BN**). Do not use an estimate label to create coverage; resolve unclear coverage through the applicable form and authority process.
+The Mississippi HO-3 2024-03 form provides ordinance-or-law coverage for increased cost necessary to comply with an ordinance or law regulating construction, repair, or demolition of a covered building damaged by a covered cause of loss. It caps that coverage at 15 percent of the amount of insurance applying to the dwelling and requires the ordinance or law to be in effect when the covered loss occurs; it does not cover a pre-loss requirement that was not enforced because of that loss (**E.18**). The form separately covers required demolition and reconstruction when the damaged portion is subject to the ordinance or law, requires notice and supporting documents, and excludes demolition or reconstruction undertaken solely because the insured elects to change the building (**E.19**). The base peril section also contains an ordinance-or-law enforcement exclusion, so the grant, exclusion, and any attached endorsement must be read together (**P.7**, **E.18–E.19**). The manual requires authority confirmation, separate baseline and compliant estimates, documentation of permits and completed work, and referral of condemnation, unsafe-structure, or disputed enforcement issues (**16.A–16.BN**). Do not use an estimate label to create coverage; resolve unclear coverage through the applicable form and authority process.
+
+The Mississippi DP-3 2026-01 form must be analyzed separately. Its Section I exclusion bars loss caused by enforcement of an ordinance or law regulating construction, repair, replacement, use, or demolition (**X.2**); do not import the HO-3 15 percent allowance into a DP-3 claim without an actually attached coverage provision or endorsement. The form's condition terms also differ: proof of loss is due within 60 days after request, appraiser selection is due within 20 days, appraisal decides only amount of loss, payment follows agreement or a final appraisal award within 30 days, and suit is subject to the form's two-year condition as qualified by applicable law (**S.15–S.17**, **S.41–S.48**, **S.72–S.73**).
 
 ## Focused operational checks
 
@@ -169,15 +173,16 @@ The final file summary should identify the operative provisions, material facts,
 
 ## Evidence map
 
-- [Claims manual, intake, authority, and documentation (Chapters 2 and 19)](repo://manuals/claims/manual.md#L389-L707) [repo://manuals/claims/manual.md#L6287-L6627)
-- [Claims manual, proof of loss, appraisal, suit, and payment](repo://manuals/claims/manual.md#L3603-L3949) [repo://manuals/claims/manual.md#L3953-L4319)
+- [Claims manual, intake, authority, and documentation (Chapters 2 and 19)](repo://manuals/claims/manual.md#L389-L707) [Chapters 19](repo://manuals/claims/manual.md#L6287-L6627)
+- [Claims manual, proof of loss, appraisal, suit, and payment](repo://manuals/claims/manual.md#L3603-L3949) [Prompt payment](repo://manuals/claims/manual.md#L3953-L4319)
 - [Claims manual, catastrophe operations](repo://manuals/claims/manual.md#L4323-L4717)
 - [Claims manual, ordinance or law](repo://manuals/claims/manual.md#L5313-L5779)
-- [Mississippi HO-3 2024-03, conditions and payment](repo://forms/HO/MS/HO-3/2024-03.md#L801-L899)
-- [Mississippi HO-3 2024-03, ordinance or law](repo://forms/HO/MS/HO-3/2024-03.md#L483-L491)
-- [Florida HO 01 09 2023-07, precedence and claim handling](repo://forms/HO/FL/HO-01-09/2023-07.md#L13-L55) [repo://forms/HO/FL/HO-01-09/2023-07.md#L403-L503)
-- [Florida hurricane deductible disclosure bulletin](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L13-L49) [repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L59-L89)
-- [North Carolina claims handling bulletin](repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L13-L47) [repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L49-L165)
-- [Texas prompt-payment bulletin](repo://bulletins/TX/b-2019-02-prompt-payment.md#L13-L49) [repo://bulletins/TX/b-2019-02-prompt-payment.md#L51-L135)
-- [Water-loss handling guidance](repo://guidelines/claims/water-loss-handling.md#L13-L57) [repo://guidelines/claims/water-loss-handling.md#L59-L151)
+- [Mississippi HO-3 2024-03, conditions and payment](repo://forms/HO/MS/HO-3/2024-03.md#L721-L815)
+- [Mississippi HO-3 2024-03, ordinance or law](repo://forms/HO/MS/HO-3/2024-03.md#L441-L443) [Ordinance exclusion](repo://forms/HO/MS/HO-3/2024-03.md#L481-L491)
+- [Mississippi DP-3 2026-01, conditions and ordinance exclusion](repo://forms/DP/MS/DP-3/2026-01.md#L1767-L1903) [Suit condition](repo://forms/DP/MS/DP-3/2026-01.md#L1996-L2002) [Ordinance exclusion](repo://forms/DP/MS/DP-3/2026-01.md#L1436-L1445)
+- [Florida HO 01 09 2023-07, precedence and claim handling](repo://forms/HO/FL/HO-01-09/2023-07.md#L13-L55) [Claims handling](repo://forms/HO/FL/HO-01-09/2023-07.md#L403-L503)
+- [Florida hurricane deductible disclosure bulletin](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L13-L49) [Requirements](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L59-L89)
+- [North Carolina claims handling bulletin](repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L13-L47) [General requirements](repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L49-L165) [Numeric standards](repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L245-L285)
+- [Texas prompt-payment bulletin](repo://bulletins/TX/b-2019-02-prompt-payment.md#L13-L49) [Requirements](repo://bulletins/TX/b-2019-02-prompt-payment.md#L51-L135)
+- [Water-loss handling guidance](repo://guidelines/claims/water-loss-handling.md#L13-L57) [Handling controls](repo://guidelines/claims/water-loss-handling.md#L59-L151)
 - [Superseded Mississippi HO-3 2018-09 edition notice](repo://forms/HO/MS/HO-3/2018-09.md#L1-L9)

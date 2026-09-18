@@ -1,11 +1,11 @@
 ---
 type: underwriting-guidance
-title: New York Homeowners Appetite Guidance
-description: Internal carrier guidance for New York homeowners risk selection, including baseline appetite, roof, wind and hail, water, prior-loss, renewal, claims, and delegated-authority controls. It separates internal underwriting direction from the New York overlay, DFS notice and reporting requirements, and the HO 01 31 contract.
-tags: [New York, homeowners, underwriting, appetite, roof, storm, water, prior-loss, renewal, claims, authority]
+title: New York Appetite
+description: Internal New York homeowners appetite and file-control guidance for risk selection, property evidence, authority, renewal, claims, nonrenewal, and data-call handoff. It separates carrier rules from DFS requirements and the HO 01 31 contract.
+tags: [New York, homeowners, underwriting, appetite, property, nonrenewal, claims, authority]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
+    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-beb58abd88785f1cb2d087d1
     resource: repo://bulletins/NY/dfs-2010-09-nonrenewal.md
@@ -19,9 +19,9 @@ sources:
     resource: repo://guidelines/appetite/ny-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 ---
-# New York Homeowners Appetite Guidance
+# New York Appetite
 
 ## Status, scope, and governing boundary
 
@@ -66,9 +66,17 @@ The appetite ceiling is not delegated binding authority. The guide gives the han
 
 Do not split a risk, use an unsupported value, rely only on a prior insurer’s limit, or use a lower limit to evade referral. A material change after approval requires reassessment and, where applicable, renewed direction. The manual’s New York exception rule independently says to bind Coverage A only up to $750,000 and to retain the disposition, so use the manual for this carrier authority control and not as a policy limit ([New York guide H.7.15-H.7.35](repo://guidelines/appetite/ny-homeowners.md#L661-L701); [Manual Rule 530.A](repo://manuals/underwriting/manual.md#L6855-L6861)).
 
+### Manual property overlays and exact referral triggers
+
+The guide’s baseline eligibility position does not eliminate a separate manual referral. Rule 530 requires internal review for vacancy, short-term lodging, business activity or business indicators, agricultural or animal exposure beyond ordinary household use, specified recreational hazards, unrepaired roof or exterior damage, unsafe openings or structures, water intrusion, unverified plumbing repairs, unsafe electrical or heating conditions, waterfront or erosion concerns, structural alterations or renovation, and disputed or nonstandard ownership or occupancy. It also requires referral when mailing, premises, or carrier-record information materially conflicts. Referral means hold the affected action and obtain direction; it is not an automatic coverage result or declination ([Manual Rule 530.E-530.BB](repo://manuals/underwriting/manual.md#L6881-L7179)).
+
+This matters where the two internal layers use different words. The guide permits incidental home activity when it does not change the residential character, but the manual still requires any business activity at the premises to be evaluated before binding. Apply the manual’s referral control without presenting it as a New York legal requirement, and retain the activity, evidence, disposition, and any conditions ([New York guide H.1.16-H.1.18](repo://guidelines/appetite/ny-homeowners.md#L168-L180); [Manual Rule 530.F-530.I](repo://manuals/underwriting/manual.md#L6887-L6909)).
+
 ## Roof age, condition, and evidence
 
 Treat roof age as a review signal, not as a substitute for condition evidence. The internal guide requires the roof to be serviceable, weather-tight, and free of material deterioration; it requires clear exterior images when condition cannot otherwise be confirmed and referral when images show missing, lifted, cracked, curled, displaced, repeatedly patched, temporary, incomplete, or otherwise unreliable surfacing. Do not bind an active leak or unresolved water entry, and do not rely only on an applicant’s statement that the roof is sound ([New York guide H.2.1-H.2.9](repo://guidelines/appetite/ny-homeowners.md#L171-L189), [H.2.42-H.2.50](repo://guidelines/appetite/ny-homeowners.md#L255-L271)).
+
+The manual adds an exact internal age control that must not be confused with the guide’s condition analysis or with contract settlement: Rule 900 sends a roof at or beyond **25 years** to declination processing and prohibits binding unless an authorized exception is recorded. Age alone is not a policy exclusion or an actual-cash-value determination; document the age source, condition evidence, and any authorized exception separately ([Manual Rule 900.D](repo://manuals/underwriting/manual.md#L9885-L9889); [New York guide H.2.27](repo://guidelines/appetite/ny-homeowners.md#L445-L448); [HO 01 31 T.57-T.58](repo://forms/HO/NY/HO-01-31/2016-04.md#L171-L175)).
 
 Review the entire roof system, including drainage, flashing, skylights, valleys, edges, roof-mounted equipment, concealed faces, attic evidence, and interior staining. Request additional imagery or contractor documentation when areas cannot be evaluated. Distinguish full replacement from repair, recoating, overlay, or maintenance; recent work does not establish that the entire roof is new. Refer layered surfacing, unknown material, material discrepancies, unsafe access, sagging or uneven decking, ponding, visible deterioration, or evidence of continuing moisture ([New York guide H.2.10-H.2.41](repo://guidelines/appetite/ny-homeowners.md#L191-L253)).
 
@@ -90,6 +98,8 @@ Offer water-backup treatment only when premises, plumbing, drainage, and mainten
 
 Refer recurring drainage concerns, unclear source or repair status, poor maintenance, unresolved plumbing conditions, and mixed or competing causes. Request photographs, invoices, repair records, contractor observations, and source determinations where concealed piping or drainage components are involved. A closed prior claim or a backflow device does not by itself establish that the current exposure is resolved or that a later loss is covered ([New York guide H.4.5-H.4.12](repo://guidelines/appetite/ny-homeowners.md#L403-L417), [H.4.17-H.4.19](repo://guidelines/appetite/ny-homeowners.md#L425-L431)).
 
+A separate manual threshold applies to the requested limit: Rule 900 refers water-backup coverage above **$25,000** to underwriting authority and says not to quote the requested limit as available while review is pending. This is an internal limit-referral control; it does not establish that the cause is covered, create a water-backup endorsement, or replace the guide’s source-and-condition review ([Manual Rule 900.E](repo://manuals/underwriting/manual.md#L9891-L9895)).
+
 The guide states an internal **60-day-after-discovery** diary and communication target for a suspected water-backup claim. Treat that as internal carrier direction, not a contractual deadline. The attached HO 01 31 claims provision controls the contract process: it requires prompt notice, reasonable mitigation, preservation of damaged property, and cooperation, and states acknowledgment within **15 days**, acceptance or rejection within **15 business days after requested information is received**, and payment of an accepted claim within **5 business days** ([New York guide H.4.14-H.4.16](repo://guidelines/appetite/ny-homeowners.md#L421-L427); [HO 01 31 claims T.1-T.10](repo://forms/HO/NY/HO-01-31/2016-04.md#L449-L467)).
 
 Do not apply a water-backup sublimit until the reported cause fits the applicable endorsement, and do not describe an internal referral or limit review as a coverage denial. Separate emergency extraction, drying, or stabilization from permanent drainage improvements and betterment; document the facts, evidence, and applicable contract before any coverage position ([New York guide H.4.20-H.4.38](repo://guidelines/appetite/ny-homeowners.md#L433-L469); [HO 01 31 claims T.17-T.27](repo://forms/HO/NY/HO-01-31/2016-04.md#L479-L501)).
@@ -97,6 +107,8 @@ Do not apply a water-backup sublimit until the reported cause fits the applicabl
 ## Prior losses and referral handling
 
 Obtain available loss history before binding. The New York guide requires referral when reported history includes **3 paid property claims within the preceding 3 years** and prohibits binding the referred risk until the underwriting decision is documented. This is an internal carrier threshold, not a New York legal rule, policy limit, or automatic coverage result ([New York guide H.5.1-H.5.6](repo://guidelines/appetite/ny-homeowners.md#L471-L483)).
+
+Keep overlapping internal thresholds source-specific. Manual Rule 530.B says to refer any risk with **3 paid property claims** without restating the guide’s three-year lookback; Rule 700.D separately refers a renewal risk with **2 paid property claims during the current policy term**; and Rule 900.C requires three years of loss history and referral when that history is incomplete. Do not silently substitute one threshold for another: record the source and facts that triggered the control, then obtain direction where the rules overlap or the lookback is unclear ([Manual Rule 530.B](repo://manuals/underwriting/manual.md#L6863-L6867), [Manual Rule 700.D](repo://manuals/underwriting/manual.md#L9149-L9153), [Manual Rule 900.C](repo://manuals/underwriting/manual.md#L9879-L9883)).
 
 Review each loss by cause, location, severity, disposition, repair status, recurrence, and relationship to current property condition. Refer unclear water, fire, theft, vandalism, weather, structural, system, liability, open, disputed, unresolved, or repair-unverified loss information. Do not treat a closed claim as proof that the underlying cause was corrected, accept a bare assurance that repairs were made, or select the most favorable interpretation of inconsistent sources ([New York guide H.5.7-H.5.22](repo://guidelines/appetite/ny-homeowners.md#L485-L515), [H.5.28-H.5.42](repo://guidelines/appetite/ny-homeowners.md#L527-L555)).
 
@@ -106,9 +118,11 @@ A usable referral package identifies the requested decision, each loss and its s
 
 ### Internal renewal workflow
 
-Review every renewal for changed eligibility, exposure, valuation, occupancy, condition, and loss potential. Recheck roof and exterior condition, water intrusion, plumbing, heating, electrical and mechanical systems, repairs from prior losses, current-term claims, inspection evidence, ownership and occupancy, and material changes. Use the current file rather than assuming that prior acceptance requires continued acceptance; refer unresolved material concerns and record the basis for the renewal decision ([New York guide H.0.3-H.0.10](repo://guidelines/appetite/ny-homeowners.md#L19-L37), [H.5.15-H.5.22](repo://guidelines/appetite/ny-homeowners.md#L501-L515); [Manual Rules 100.AO-100.AQ](repo://manuals/underwriting/manual.md#L255-L271)).
+Review every renewal for changed eligibility, exposure, valuation, occupancy, condition, and loss potential. Recheck roof and exterior condition, water intrusion, plumbing, heating, electrical and mechanical systems, repairs from prior losses, current-term claims, inspection evidence, ownership and occupancy, and material changes. Use the current file rather than assuming that prior acceptance requires continued acceptance; refer unresolved material concerns and record the basis for the renewal decision ([New York guide H.0.3-H.0.10](repo://guidelines/appetite/ny-homeowners.md#L19-L37), [H.5.15-H.5.22](repo://guidelines/appetite/ny-homeowners.md#L501-L515); [Manual Rule 700.A-700.C](repo://manuals/underwriting/manual.md#L9129-L9147)).
 
-The internal New York exception rule requires a notice of intent not to renew only after underwriting direction is recorded and routes nonpayment through approved servicing. Before any customer-facing action, classify the transaction accurately, verify policy status and the underwriting basis, confirm the approved reason and authority, and retain the action record ([Manual Rule 530.BC](repo://manuals/underwriting/manual.md#L7181-L7185), [Manual Rules 800.A-800.D](repo://manuals/underwriting/manual.md#L9497-L9521)). These are internal carrier procedures; they do not replace DFS or the attached form.
+Rule 700 adds two precise internal renewal controls: refer a renewal risk with **2 paid property claims during the current policy term**, and treat an inspection report as valid for **12 months**, obtaining updated information when it is older or conditions may have changed. It also requires referral for unclear, vacant, tenant, or business-related occupancy and for unresolved roof, exterior, water, or system conditions. These are carrier workflow rules, not New York notice periods, policy limits, or coverage determinations ([Manual Rule 700.D-700.I](repo://manuals/underwriting/manual.md#L9149-L9183), [700.M-700.S](repo://manuals/underwriting/manual.md#L9203-L9243)).
+
+The internal New York exception rule requires a notice of intent not to renew only after underwriting direction is recorded and routes nonpayment through approved servicing. Rule 800 also lists internal task timings of **10 days** for a premium-default notice and **45 days** for a notice of intent not to renew. Those numbers are not the controlling New York notice periods; they must not shorten the applicable DFS or contract requirement. Before any customer-facing action, classify the transaction accurately, verify policy status and the underwriting basis, confirm the approved reason and authority, calculate the external deadline, and retain the action record ([Manual Rule 530.BC](repo://manuals/underwriting/manual.md#L7181-L7185), [Manual Rules 800.A-800.G](repo://manuals/underwriting/manual.md#L9497-L9539)). These are internal carrier procedures; they do not replace DFS or the attached form.
 
 ### External New York notice requirements
 
@@ -133,6 +147,8 @@ For appetite and claims operations, retain the source records needed to explain 
 The guide’s internal claims procedure is to open or update a file promptly, capture loss date, location, parties, reported cause, receipt-acknowledgment timing, safety concerns, mitigation, photographs, estimates, invoices, inspections, prior damage, causation, subrogation, proof-of-loss requests, communications, and the final disposition. Begin reasonable mitigation within **7 days after discovery** as an internal diary and handling control, not as a replacement for the policy’s duties after loss ([New York guide H.6.1-H.6.18](repo://guidelines/appetite/ny-homeowners.md#L557-L593)).
 
 Separate reported, observed, and unverified damage; distinguish sudden, accidental, gradual, repeated, and maintenance-related conditions; investigate before communicating a coverage position; and do not promise payment, repair, or coverage before the facts and applicable policy support it. Preserve material communications and evidence, refer suspected fraud neutrally, and close only after disposition, payments, communications, and outstanding issues are documented ([New York guide H.6.12-H.6.29](repo://guidelines/appetite/ny-homeowners.md#L581-L615), [H.6.35-H.6.36](repo://guidelines/appetite/ny-homeowners.md#L627-L629)).
+
+Separate claims-authority triggers from coverage rules. Manual Rule 310 requires referral and a hold on binding authority for a reported loss at or above **$100,000**, and prohibits binding, renewal, or broader coverage while a claim is open; a disputed claim suspends underwriting action pending disposition. Rule 900.A separately routes a reported loss **exceeding $25,000** to designated claims authority and prohibits settlement outside delegated authority. These are internal routing thresholds, not deductibles, coverage limits, or claim outcomes ([Manual Rule 310.A-310.C](repo://manuals/underwriting/manual.md#L4413-L4431), [Manual Rule 900.A](repo://manuals/underwriting/manual.md#L9865-L9871)).
 
 The HO 01 31 contract separately requires prompt claim notice and cooperation, permits inspection and requests for records and proof of loss, requires preservation of damaged property when reasonably possible, and preserves the insurer’s right to separate covered damage from wear, deterioration, prior damage, and maintenance conditions. A claim acknowledgment is not acceptance of coverage, and a coverage determination applies to the claim under consideration rather than rewriting the underwriting appetite ([HO 01 31 claims T.1-T.6](repo://forms/HO/NY/HO-01-31/2016-04.md#L449-L461), [T.20-T.27](repo://forms/HO/NY/HO-01-31/2016-04.md#L487-L501); [T.49-T.56](repo://forms/HO/NY/HO-01-31/2016-04.md#L545-L559)).
 

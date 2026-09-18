@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:90de9080c3cbd6668d534e5b889e48d94dbf5a88a929d1f3196e358860678160",
+  "pageVersion": "sha256:aa6b0cec6f8264c477652457babfc8db24b0186f1ff1db7fc3b11b74e1460854",
   "claims": [
     {
       "id": "claim_8c501a946d2b4052ba5299406fb57a3a",
@@ -218,11 +218,11 @@
     },
     {
       "id": "claim_680e3e591a4f400ebe11c737bdf8c6eb",
-      "statement": "Ordinance-or-law evaluation requires a covered direct physical loss, an applicable authority requirement, separation of damaged and undamaged property, baseline and compliant scope allocation, and exclusion of elective or unrelated improvements; Mississippi HO-3 2024-03 provides a 15 percent Coverage A additional limit and specified exclusions for that coverage.",
+      "statement": "Under Mississippi HO-3 2024-03, ordinance-or-law coverage applies to increased cost necessary to comply with an ordinance or law regulating construction, repair, or demolition of a covered building damaged by a covered cause of loss, is limited to 15 percent of the dwelling amount of insurance, requires the requirement to be in effect when the loss occurs, and separately covers required demolition and reconstruction only when the damaged portion is subject to the requirement; the form excludes pre-loss requirements not enforced because of the loss and elective demolition or reconstruction.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L483-L491",
-          "version": "repo-lines-v1:sha256:0847c3e4db0583037460a12c6e76f95e6e87b78e001a7e2637331f57f35db544:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmM5NDQwYmEyZjg3ZGJiMGY3YzZjN2FlZjBkY2ZhZTliMzNjZGIxNTk0MGE3YzE1YTRlZmU5YTA3ZTUxZTBhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQwNmViNjExNDFjOTFhYzBiYWY4NzE1ZGI3Yjg3YjI1ZDNjNmEwODhjMDY2ODI3N2RjZmQ2MDg2OGQyMmQ2OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDAxNDViNjU1M2JiOGZmY2FjY2RkMzg3Mjg5N2ViMDdkNmQ3MmM1ZTcxODcyMTE3MzQyMDM5YzBhY2ZmMzBhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZlMTc3YTJjYzEwMjZhMzJlZjBkM2Q0ZWM5MmMyYTBjN2UwNTBlNTdhMGVlOGE3OTUyZjdlNmRjYTBkYjU4NiJ9"
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L441-L443",
+          "version": "repo-lines-v1:sha256:62818ef658aa2bea8782345e434e8df09a43832798062f0bc44c87e5a465cf5a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWU1ZTQ1N2E4MGRhZDllZjYxOTI0NmRkZTQ4MzhmNzgyZGNiYzc0OTI4M2U2ZmViMTk4ZWViNTk0ZjNiNGMzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTU3MWY5MTY1NWMxNDA5N2JlNTYyZGUyN2ExNTE4NDExOWE4ZTZhNjgyYzRmZTYwOTc2MTYyZWVmNjdiZDJjYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRiYzdhMzlmZWJlMGMxNGEzNWJhMjA5NTdlNzNlNzYzMTkzNmVmYjYyZWY2ZjY3M2RhYzg5MDhjNzJhYjg5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE1MTExZjhhYzFjZjhmNTBiZTE4YmU2YWQ1N2FiYmI2M2NkNDQ5Y2JjZjg3Mjg5YjliZThjODg2ZWRkZDI5ZCJ9"
         },
         {
           "resource": "repo://manuals/claims/manual.md#L5313-L5359",
@@ -251,10 +251,42 @@
           "version": "repo-lines-v1:sha256:66a2fc7e9105c7c0ac7141301cdb378d9801df5f93afce1dd64893e26049e691:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlNjBlOTQzYzFmN2I2NGEwN2M5MGVhMWNmNjg2ZjVmOWZhYmUxZmE1YTg1ODE2ZWFkZDdiZjI3ODY2NWZkMzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzMWUxOWMxNjUyMGRmYmE0OTA5MDAyMDJlYjVjZTY0YmQzMmQ0MTVhOWEyMDM4MjI5OGYwMjljOTAyYzNkNGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVkYjY0MWE2MDc4NGQyY2VlM2EyN2QzMmQyMDViMWU1OWM1YjkyNTUxZDBmOWFhMmFmYmEzMmNlZWZjZjA0OWEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_2e8cc678b6104f9d9745715d6cd3e50f",
+      "statement": "Mississippi DP-3 2026-01 has materially different claim controls from the Mississippi HO-3: its Section I exclusion bars loss caused by enforcement of an ordinance or law, proof of loss is due within 60 days after request, appraiser selection is due within 20 days, appraisal determines only amount of loss, payment is due within 30 days after agreement or a final appraisal award, and suit is subject to a two-year condition qualified by applicable law.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1436-L1445",
+          "version": "repo-lines-v1:sha256:d284dc3513bc1c8cd8605caa2724735096f79ded49f8a3656db8834fe44c8a5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiNjBhMDA3MzQwNGE1OWEwOTgxNDMwYTllNmYyMGJjNGNjYTc4NmYzZjYzODYxNTE0YjgxN2IyZmYzZDUwMTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3ZjM5NDJjMTEzYTk2YmM2YWJkYzFmMmZlODA0OGI1OWJkZTU0MjBhYWViNWMyNjZjZmZjODY2YTY5NTM5ZmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY2YmRiMTRjNDgwMDQ3NWM5ZDllODVmMjQ4MWMxMDI1MjhiNWRlNjhlNDdjMjIxNmJiOTExOTBiYmQ3ZTkxZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhZGQ2ZjNiOTE1ZTA4ODdkN2M3OWMxMGM4NDNiMWU3ZWM5ZTAxNzY1MTgwODkwMzVhODZkNTg0M2QxNGM2NTMifQ"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1767-L1903",
+          "version": "repo-lines-v1:sha256:d1a236c8f067e49eb26ff6c28f483fd82c477a27e21e4e4819dbc229f22cf59a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTM3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJiYTQwODY4ZWYwZDViMThiZWY4N2JlMDQ5NGNkOTgyYWUyODU2NjczYWQwYjI2NTRjOWU4ODQwYjk0OTg3ZWQyIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIxNDU4MDA1YjE4Zjc4NjVlYTNmYjkzNDY2M2M3MjQzOWEzZGJkODRmZDhkODRhYzkzZjUxOTdmNjZiMmM5YzA0IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJiNzhjYjBkMGJmMjI4NGEwY2JmNjZkYWE3NjNhMDYxOTNhZWQxYmU5OWRiMWUzYTRlNzI4OWYzOGUzMTlmNWZlIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJjMmIzY2Y1ZWRjZjA3YmRlNTFlNDc4NDgzOWU1Y2EwMjQzOGNiNDgwMDVjZmIyYWExMzNlYzRiOWRiM2VkODUzIn0"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1996-L2002",
+          "version": "repo-lines-v1:sha256:be245020c518d0efe499b3bcd059cab38c45017c34092841945cf3a824f176aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWNhOGNjZjdkZTI5YmJhZjU3N2Y2ZGM1Yzg3ZmI3NTM3OTY4MTNmMGQyYjc5MWZiYzUyNDhhZjJiM2I2MzY2MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M4MmE3NTBjYjcxMDYyY2E0OTJmZTI3NzRlYmU2NTFkOTJkNWRhZTkzMzAzNDI5ZWU2Nzg3YjE5YjRhYjhmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDIxODI4NjcwZDA1NmYyMDhiM2QwZjZjMDM3MjQwNDFmNjZmMzM1OGNhYjAwYjIyMjIyNzI4ZWJmMDgyZDRkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODRjMjM5M2NlYjQxMmJiOWYyOGFhZTVjNmVhNDBjYmZjM2FmYWJkNjlkZWVmNzI0ZjIxYmY5MmE2NzFlNmQ3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_08efe7e4a0c94c3880df1d931be5da19",
+      "statement": "North Carolina Bulletin NCDOI-2021-06 requires claim acknowledgment within 30 days after receipt and acceptance or denial within 30 business days after the insurer receives all requested items necessary to evaluate the claim; it also requires reasonable investigation, prompt payment of undisputed amounts when due, clear explanations, and supporting claim records, while the claims manual's 15-day acknowledgment target remains an internal control rather than a substitute for the bulletin or policy.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L247-L285",
+          "version": "repo-lines-v1:sha256:4a2f82f33023e3c9818b7bb4b27757da9ea05fa9e2b2d9151eed9b48f4905895:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0ZmFhYzIwYWQ0MmM4ZWQ4NWM2OTQ0NmIzZGQzZDNkODI2OWJkMzQ1ZWEwZDUwZTRlNjk4MzU2M2M1OTRjOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwZWQyYzZlNGU4OTAzOTU3OTE3YTg3MDdjZjlkY2RmMGU2M2JhMzQwYWViZTU1MmRjOWExZDgxYzAwMWU2YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ5YjU5ZWJjNGE0ZThkZjBhYzAzOGJkZGQ4NmJkOTFiZjcxOWVmNzYwZDBmNGJmYWYwNGQ0MjhlYmY0OTdkZTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L3953-L4023",
+          "version": "repo-lines-v1:sha256:1da213e528de44eeae0978022764f4799799a9d7ba4abd67609097de835808f2:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExZmI0MWQ2MzE2OTc0NjE3ZDY3NDYxZGU4ODIyMDE1YWRlODllMmNmYzZhMTg3NTg2ZWZmNWJlYmI1ZjYwMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODU5YWJhMmI4ZWYwNTQ2NmNlMTRiNmUyNTJkN2JlOWI3NmIwYjhjMGU1ZWNmYTY3MDE0NzRiMDg0NjIxMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2MGM2ZTMyYmFmN2M0MTVmMGU4ZTNkYTA0OWFkY2M5MzQ0MDE1MDRlNTY5Y2Y2MzdkZTdjMWZiYjI1NGJjYmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExMTQwZmQwOWY1ZmU5YmUyMjdmNDQ1NDJkZWYyODQ5NTEzNmU2ZDllNTVlMzIwYzRmZmE5NjM5YjcwNTZlYzgifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T12:15:46.420Z"
+    "at": "2026-09-18T17:38:15.786Z"
   }
 }

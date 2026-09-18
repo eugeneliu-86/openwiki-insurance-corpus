@@ -3,9 +3,6 @@ type: claims-guidance
 title: Liability Claim Handling Guidance
 description: Internal workflow for intake, coverage review, investigation, defense, escalation, settlement, recovery, and closure of homeowners liability claims. The applicable policy form, declarations, endorsements, facts, and law control coverage and defense obligations.
 tags: [claims, liability, defense, coverage-review, settlement]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
@@ -19,7 +16,10 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 # Liability Claim Handling Guidance
 
@@ -34,6 +34,10 @@ Keep three things separate in every file and communication:
 - **Coverage position:** the reasoned application of the policy in force, endorsements, facts, and law.
 
 Do not use underwriting appetite, a property deductible, a coinsurance threshold, a cash sublimit, or a binding-authority limit to decide liability coverage. Confirm the policy and claim authority instead. [Liability guideline H.0.8–H.0.12](repo://guidelines/claims/liability-claim-handling.md#L29-L37) [Claims manual 1.E–1.I](repo://manuals/claims/manual.md#L39-L67)
+
+Keep policy administration and property underwriting questions on their own path: refer nonpayment-notice questions to the appropriate policy-administration resource, and treat a backwater-valve requirement for finished below-grade areas as a property-underwriting issue unless the applicable policy makes it relevant to the liability claim. Neither issue should be converted into a liability coverage conclusion by shortcut. [Liability guideline H.0.10–H.0.12](repo://guidelines/claims/liability-claim-handling.md#L33-L37)
+
+Do not apply or alter an all-other-perils deductible minimum in liability handling unless the applicable liability coverage expressly requires that treatment. Deductible administration must follow the issued contract, not a property-claim shortcut. [Liability claims handling H.6.34](repo://guidelines/claims/liability-claim-handling.md#L605-L607)
 
 ## End-to-end lifecycle
 
@@ -81,6 +85,12 @@ Obtain and preserve the demand, complaint, summons, notice, correspondence, serv
 
 Do not make a coverage, liability, payment, or defense promise in the acknowledgment. Explain the next handling step and the information needed. Use the claim file as the authoritative record; maintain a chronology and diary for pending actions, referrals, deadlines, and unresolved issues. [Claims manual 2.K–2.M](repo://manuals/claims/manual.md#L429-L439) [Claims manual 8.BS–8.BT](repo://manuals/claims/manual.md#L2947-L2957) [Claims manual 12.11–12.15](repo://manuals/claims/manual.md#L3993-L4010)
 
+### Prior-loss and related-matter screen
+
+During intake and whenever new information arrives, search for prior losses, allegations, demands, complaints, notices, releases, and related incidents. Ask the insured about earlier matters involving similar conduct, locations, operations, products, or claimants; classify each report as an occurrence, offense, claim, suit, or circumstance; compare the current and prior allegations; and preserve the underlying documents. The absence of a known prior loss is not proof that no related matter exists, and claim coding is only an investigation prompt—not a substitute for the source records. [Liability guideline H.5.1–H.5.9](repo://guidelines/claims/liability-claim-handling.md#L419-L435) [Liability guideline H.5.25–H.5.28](repo://guidelines/claims/liability-claim-handling.md#L467-L473)
+
+Refer the matter when evaluated exposure exceeds $50,000, prior information suggests a repeated pattern, the same occurrence or substantially connected conduct, a different policy or insured arrangement, an unresolved coverage/defense/indemnity/allocation dispute, a material release or settlement, continuation of an earlier demand or suit, or a conflict among insureds or between defense and coverage positions. Also refer when prior matters indicate potentially excluded conduct, widespread claims, aggregate or shared-limit effects, or responsible parties whose recovery rights may be affected. Obtain the relevant documents and supervisory or coverage review before relying on prior-loss information in a material coverage communication. Referral does not pause necessary defense or ordinary claim activity; update the evaluation and reassess when the history changes. [Liability guideline H.5.10–H.5.24](repo://guidelines/claims/liability-claim-handling.md#L437-L465) [Liability guideline H.5.29–H.5.59](repo://guidelines/claims/liability-claim-handling.md#L475-L535)
+
 ## 2. Coverage-question workflow
 
 Before assigning counsel or making a coverage statement, retrieve the declarations and policy form in force on the alleged occurrence date, all endorsements, applicable definitions, limits, conditions, and any other insurance information. Identify each person seeking protection and analyze each insured separately where the form requires it. The policy record must match the claim file. [Liability claims handling H.6.3 and H.6.6–H.6.7](repo://guidelines/claims/liability-claim-handling.md#L545-L553) [Claims manual 1.E–1.G](repo://manuals/claims/manual.md#L39-L55)
@@ -116,6 +126,8 @@ When information identifies a potential coverage defense, the liability guidelin
 
 A reservation must identify the known facts and actual policy issue without vague, unsupported, or irrelevant language. It is not a denial, acceptance, or payment commitment. Continue necessary investigation and mitigation unless the coverage resource directs otherwise. Do not state that a claim is covered, excluded, or payable merely because an inspection, counsel assignment, vendor activity, or reservation has begun. [Claims manual 2.Z–2.AC](repo://manuals/claims/manual.md#L489-L503) [Liability claims handling H.6.9–H.6.10](repo://guidelines/claims/liability-claim-handling.md#L557-L559)
 
+When requesting a sworn statement or other documentation, explain the claim purpose and requirements accurately without changing the applicable sworn-proof deadline. Preserve the request, delivery method, and any proof received. [Liability claims handling H.6.9](repo://guidelines/claims/liability-claim-handling.md#L557-L557)
+
 Route requests to explain a denial, limitation, or reservation to the coverage resource. Use plain language externally, distinguish facts from allegations, preserve privileged coverage analysis, and do not provide legal advice. [Liability claims handling H.6.13 and H.6.33](repo://guidelines/claims/liability-claim-handling.md#L563-L565) [Liability claims handling H.6.33](repo://guidelines/claims/liability-claim-handling.md#L603-L605) [Claims manual 8.AE–8.AF](repo://manuals/claims/manual.md#L2707-L2717)
 
 ## 4. Investigation and evidence
@@ -129,6 +141,8 @@ For premises, roof, water, construction, product, animal, vehicle, aircraft, wat
 Identify other insurance, an employer, contractor, vendor, indemnitor, additional insured, property manager, manufacturer, or other potentially responsible party. Preserve contribution, indemnity, subrogation, and recovery evidence before accepting a release or settlement. Continue ordinary liability handling while recovery review proceeds unless directed otherwise. [Liability claims handling H.6.17–H.6.18](repo://guidelines/claims/liability-claim-handling.md#L573-L575) [Claims manual 8.AB and 8.CD–8.CE](repo://manuals/claims/manual.md#L2689-L2693) [manual recovery controls](repo://manuals/claims/manual.md#L3013-L3023)
 
 When mitigation or emergency protection is necessary, distinguish reasonable protective action from permanent repair, demolition, cleanup, or an admission of fault. Preserve evidence before irreversible work when safe and practical, and do not authorize work beyond authority. [Liability claims handling H.6.30–H.6.32](repo://guidelines/claims/liability-claim-handling.md#L599-L603) [Claims manual 8.AT–8.AV](repo://manuals/claims/manual.md#L2797-L2813)
+
+For conditions that may increase covered damages, the changed guideline sets an internal target to begin reasonable mitigation within 3 days after discovery. Record the reason for any delay, but do not present this handling target as a new policy condition or as an admission that coverage exists. [Liability claims handling H.6.30–H.6.32](repo://guidelines/claims/liability-claim-handling.md#L599-L603)
 
 ## 5. Defense handling
 
@@ -155,11 +169,15 @@ These are referral triggers, not automatic coverage conclusions. Continue ordina
 
 Before payment or settlement, review the demand, allegations, damages, allocation between covered and uncovered exposure, release scope, payees, other insurance, and recovery effect. Obtain a complete release unless counsel approves another resolution method. Renew authority when material terms, exposure, parties, or release language changes. Do not represent that approval is assured before it is granted. [Liability claims handling H.6.20–H.6.24](repo://guidelines/claims/liability-claim-handling.md#L579-L587) [Liability authority controls H.7.13–H.7.15 and H.7.28–H.7.35](repo://guidelines/claims/liability-claim-handling.md#L643-L685)
 
+Before retaining counsel, experts, investigators, or consultants whose work may materially increase expense, obtain the required approval. Monitor counsel spending and litigation against the approved strategy, and refer when defense strategy materially changes expected cost, duration, or settlement posture. Keep internal authority discussions and recommendations confidential and disclose approved authority only to people who need it to resolve the claim. [Liability authority controls H.7.21–H.7.24](repo://guidelines/claims/liability-claim-handling.md#L659-L665) [Liability authority controls H.7.29–H.7.33](repo://guidelines/claims/liability-claim-handling.md#L673-L683)
+
 Remind the insured not to voluntarily pay, assume an obligation, admit liability, incur expense, or settle without the consent required by the applicable form. The HO-3, HO-4, and HO-6 forms each contain materially similar controls, but the exceptions and surrounding conditions must be checked in the form in force. [HO-3 duties](repo://forms/HO/MS/HO-3/2024-03.md#L1065-L1071) [HO-4 duties](repo://forms/HO/MS/HO-4/2021-10.md#L1099-L1101) [HO-6 duties](repo://forms/HO/MS/HO-6/2023-02.md#L1012-L1018)
 
 ## 7. Closure and focused file checks
 
 Do not close until defense, indemnity, expenses, payments, releases, recovery or contribution, reporting, coverage communications, and known disputes are resolved or formally transferred. Confirm the final disposition was communicated, approved payments were issued, and any remaining task has an owner and diary date. Reopen when credible material information arrives after closure. [Liability claims handling H.6.36–H.6.38](repo://guidelines/claims/liability-claim-handling.md#L609-L615) [Claims manual 8.CF–8.CH](repo://manuals/claims/manual.md#L3025-L3041) [Claims manual 12.70–12.80](repo://manuals/claims/manual.md#L4229-L4271)
+
+Retain the coverage analysis, payment records, releases, litigation reports, and closing rationale, including file materials relevant to the years in which an action against the insurer could be brought. This is a record-retention control, not an extension of coverage or a new policy condition. [Liability claims handling H.6.35–H.6.37](repo://guidelines/claims/liability-claim-handling.md#L609-L613)
 
 The closing file should contain, as applicable:
 

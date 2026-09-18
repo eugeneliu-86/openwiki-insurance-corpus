@@ -3,9 +3,6 @@ type: underwriting-guidance
 title: Louisiana Homeowners Appetite Guidance
 description: Internal Louisiana underwriting direction for homeowners risk selection, roof and storm controls, water exposure, prior-loss referral, claims-handling boundaries, and delegated authority. Separates Louisiana appetite rules from the HO 01 17 contract and Louisiana hurricane-deductible bulletins.
 tags: [Louisiana, underwriting, homeowners, roof-risk, storm-risk, water-risk, prior-loss, authority]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-c682388a7af0924de5ae99dd
     resource: repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md
@@ -17,7 +14,10 @@ sources:
     resource: repo://guidelines/appetite/la-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 # Louisiana Homeowners Appetite Guidance
 
@@ -88,7 +88,7 @@ flowchart TD
 
 **Internal carrier direction:** Obtain a wind-mitigation inspection before binding when Coverage A exceeds **$500,000**. An unavailable inspection is not satisfactory mitigation evidence. Refer material roof alterations, conflicting mitigation information, unresolved storm damage, or inconsistent application and inspection facts ([Louisiana guide, H.3.1-H.3.7](repo://guidelines/appetite/la-homeowners.md#L279-L293)).
 
-**Internal carrier direction:** Apply only the deductible terms available under the issued policy and approved underwriting setup. Do not offer terms below the internal hurricane or windstorm deductible floor, above the maximum permitted named-storm deductible, or with an unapproved waiver or alteration. Provide any required deductible-change communication through the controlled process; these are internal selection and administration controls, not a substitute for the contract or bulletin ([Louisiana guide, H.3.8-H.3.14](repo://guidelines/appetite/la-homeowners.md#L295-L307), [Manual Rule 540.BA-BE](repo://manuals/underwriting/manual.md#L7501-L7529)).
+**Internal carrier direction:** Apply only the deductible terms available under the issued policy and approved underwriting setup. Do not offer terms below the internal hurricane or windstorm deductible floor, above the maximum permitted named-storm deductible, or with an unapproved waiver or alteration. Rule 540 also requires referral when the maximum windstorm-and-hail percentage is unavailable for selection or when a submission is outside the named-storm window. Provide any required deductible-change communication through the controlled process; these are internal selection and administration controls, not a substitute for the contract or bulletin ([Louisiana guide, H.3.8-H.3.14](repo://guidelines/appetite/la-homeowners.md#L295-L307), [Manual Rule 540.BA-BB](repo://manuals/underwriting/manual.md#L7501-L7511), [HO 01 17, T.1-T.3](repo://forms/HO/LA/HO-01-17/2020-09.md#L59-L67), [LDI-2020-07, B.2.13-B.2.16](repo://bulletins/LA/ldi-2020-07-hurricane-deductible.md#L85-L91)).
 
 **Internal carrier direction:** When a storm claim is reported, preserve the causal facts rather than applying a deductible because a storm was named. HO 01 17, when attached and applicable, makes the contractual windstorm-and-hail deductible apply to covered direct physical loss caused by windstorm or hail, including covered wind-driven rain entering through a storm-created opening; it sets a **2% to 5%** range, applies the deductible before payment, and allocates mixed causes and related occurrences under its own terms ([HO 01 17, T.1-T.20](repo://forms/HO/LA/HO-01-17/2020-09.md#L59-L99)).
 
@@ -140,7 +140,7 @@ flowchart TD
 
 - **Coverage A:** $125,000 is the guide floor; $500,000 is the Louisiana line-authority ceiling; above $500,000 requires referral; above $750,000 is outside the state appetite ceiling. Do not lower the requested limit merely to avoid referral.
 - **Roof:** age at or above 20 years is a Louisiana decline under Rule 540; missing or conflicting age, active leakage, unresolved damage, or unsupported repair evidence requires referral or hold. Do not reuse the 20-year rule as a claim exclusion.
-- **Storm:** above $500,000 Coverage A requires a wind-mitigation inspection. For an HO 01 17 claim, verify covered wind or hail causation and the contractual named-storm period before applying the deductible; a storm name alone is insufficient.
+- **Storm:** above $500,000 Coverage A requires a wind-mitigation inspection; Rule 540 also refers submissions outside the named-storm window or without the maximum windstorm-and-hail percentage available for selection. For an HO 01 17 claim, verify covered wind or hail causation and the contractual named-storm period before applying the deductible; a storm name alone is insufficient.
 - **Water:** active intrusion is not bindable under Rule 540; recurring or unsupported water loss is referred; a requested water-backup limit above $25,000 requires authority. The guide's 60-day water-backup instruction and 7-day mitigation instruction remain internal controls unless the governing contract or law independently supplies the same deadline.
 - **Loss history:** 2 paid property claims in the prior 5 years require referral; open, unexplained, recurring, undisclosed, or unrepaired loss information also requires review.
 - **Referral status:** pending referral is not approval. Bind only after the recorded authority matches the requested terms and all conditions are satisfied.

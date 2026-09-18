@@ -1,8 +1,11 @@
 ---
 type: underwriting-guidance
-title: Underwriting Referral and Authority Guidance
-description: Operational guidance for deciding when a homeowners submission, change, or related handling question must be referred; assembling the facts and authority record; and communicating pending or approved decisions without changing the policy contract.
+title: Referral Authority
+description: Cross-state homeowners referral guidance for separating appetite, delegated authority, mandatory holds, no-clearance outcomes, and policy coverage. It identifies referral levels, escalation triggers, evidence requirements, and the controls for acting on documented decisions.
 tags: [underwriting, referral, authority, homeowners, documentation]
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-5802aac0ff04777c19a4717f
     resource: repo://forms/HO/MS/HO-23-74/2025-05.md
@@ -16,12 +19,9 @@ sources:
     resource: repo://guidelines/authority/referral-matrix.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 ---
-# Underwriting Referral and Authority Guidance
+# Referral Authority
 
 ## Status and governing boundary
 
@@ -70,6 +70,7 @@ The Matrix and the separate [Binding Authority Guidance](/openwiki/underwriting/
 - **Line underwriting:** may bind Coverage A when the requested limit does not exceed **$800,000**. A request above that line authority must be referred before terms are offered or binding is accepted. [Matrix H.7.1–H.7.2](repo://guidelines/authority/referral-matrix.md#L697-L701) [Binding Authority and Exceptions H.7.1–H.7.3](repo://guidelines/authority/binding-authority.md#L599-L605) [Manual Rule 300.A and 300.C–300.D](repo://manuals/underwriting/manual.md#L3991-L4015)
 - **General senior underwriting:** may bind Coverage A when the requested limit does not exceed **$1,500,000**. A request above senior authority must go to the appropriate authorized decision maker. [Matrix H.7.3–H.7.4](repo://guidelines/authority/referral-matrix.md#L703-L707) [Binding Authority and Exceptions H.7.1–H.7.3](repo://guidelines/authority/binding-authority.md#L599-L605) [Manual Rule 300.B–300.D](repo://manuals/underwriting/manual.md#L3999-L4015)
 - **Texas-specific overlay:** the Texas appetite permits Coverage A only from **$150,000 through $1,200,000**, and Manual Rule 510 makes that state position operational: line authority ends at $800,000; requests above $800,000 through $1,200,000 go to senior review; requests above $1,200,000 must be declined or referred. Thus a Texas risk cannot use the general $1,500,000 senior ceiling to bypass the stricter Texas limit. [Texas Homeowners Appetite Guide H.1.1](repo://guidelines/appetite/tx-homeowners.md#L59-L63) [Manual Rule 510.1–510.3](repo://manuals/underwriting/manual.md#L6227-L6245)
+- **Texas transaction checks:** verify the Texas risk address before quoting or binding, confirm insurable interest, match occupancy to actual use, and refer conflicting ownership or occupancy information. These are state operating controls that determine whether the Texas rules can be applied; they are not policy coverage limits. [Manual Rule 510.6–510.9](repo://manuals/underwriting/manual.md#L6259-L6279)
 - Apply the limit to the Coverage A amount actually requested at binding. Do not reduce the stated limit informally, split related requests, or structure transactions to avoid referral. Endorsements and other changes that affect Coverage A are part of the same authority review, and a revised limit above the handler’s authority must be referred. [Matrix H.7.5–H.7.7](repo://guidelines/authority/referral-matrix.md#L709-L716) [Matrix H.7.27–H.7.29](repo://guidelines/authority/referral-matrix.md#L775-L782) [Binding Authority and Exceptions H.7.4–H.7.8](repo://guidelines/authority/binding-authority.md#L605-L615)
 - Approval is file-specific and term-specific. Prior approval on another account is not authority for this submission; material changes require renewed approval; and binding is limited to the coverage and terms expressly approved. Do not backdate approval or binding to cure an authority issue. [Matrix H.7.12–H.7.18](repo://guidelines/authority/referral-matrix.md#L730-L749) [Binding Authority and Exceptions H.7.19–H.7.32](repo://guidelines/authority/binding-authority.md#L637-L663) [Manual Rule 300.Y–300.AD](repo://manuals/underwriting/manual.md#L4137-L4171)
 - An automated indication, producer expectation, account relationship, or premium opportunity cannot enlarge authority. Escalate an unresolved authority question before binding. [Matrix H.7.19–H.7.20](repo://guidelines/authority/referral-matrix.md#L751-L755) [Matrix H.7.26 and H.7.33–H.7.34](repo://guidelines/authority/referral-matrix.md#L772-L797) [Binding Authority and Exceptions H.7.18 and H.7.46–H.7.48](repo://guidelines/authority/binding-authority.md#L635-L635) [Binding Authority and Exceptions H.7.46–H.7.48](repo://guidelines/authority/binding-authority.md#L691-L695)
@@ -109,9 +110,9 @@ The Texas appetite guide and Manual Rule 510 can impose earlier or stricter stat
 
 ## Coverage questions: separate contract from referral
 
-The Matrix is not a coverage interpretation. For example, the 2024-03 HO-3 form excludes loss caused by water backing up through sewers, drains, or sump systems unless a water-backup endorsement is attached. That is the contract concept; the Matrix supplies the operational rule to confirm the source, distinguish excluded or differently treated water causes, and refer a requested limit above $25,000. [HO-3 2024-03, X.8](repo://forms/HO/MS/HO-3/2024-03.md#L681-L687) [Matrix H.4.1–H.4.4](repo://guidelines/authority/referral-matrix.md#L395-L409)
+The Matrix is not a coverage interpretation. For example, the 2024-03 HO-3 form excludes loss caused by water backing up through sewers, drains, or sump systems unless a water-backup endorsement is attached. That is the contract concept; the Matrix supplies the operational rule to confirm the source, distinguish excluded or differently treated water causes, and refer a requested limit above $25,000. [HO-3 2024-03, X.8–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L593-L597) [Matrix H.4.1–H.4.4](repo://guidelines/authority/referral-matrix.md#L395-L409)
 
-Similarly, the 2024-03 HO-3 form states replacement-cost treatment for roof surfacing unless an actual cash value roof schedule endorsement is attached. The attached HO 23 74 2025-05 endorsement provides ACV treatment when Roof Age is **12 years or greater** and defines the evidence that may establish age. Those provisions answer the contract settlement question; they do not change underwriting eligibility. The Matrix requires the handler to apply the applicable settlement terms, not represent that ACV age changes eligibility, and to refer when the age or schedule issue is material to the proposed action. [HO-3 2024-03, A.22](repo://forms/HO/MS/HO-3/2024-03.md#L141-L143) [HO 23 74 2025-05, W.0 and W.1.4–W.1.8](repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L35) [HO 23 74 2025-05, W.1.4–W.1.8](repo://forms/HO/MS/HO-23-74/2025-05.md#L63-L77) [Matrix H.0.15](repo://guidelines/authority/referral-matrix.md#L41-L43) [Matrix H.2.19–H.2.24](repo://guidelines/authority/referral-matrix.md#L237-L247)
+Similarly, the 2024-03 HO-3 form settles covered dwelling damage on the applicable replacement-cost basis when its insured-to-value condition is met, and applies that dwelling basis to roof surfacing unless an actual cash value roof schedule endorsement is attached. The attached HO 23 74 2025-05 endorsement provides ACV treatment when Roof Age is **12 years or greater** and identifies records, inspections, photographs, statements, and other reliable evidence that may establish age. Those are contract settlement rules; they do not change underwriting eligibility. The Matrix requires the handler to apply the applicable settlement terms, not represent that ACV age changes eligibility, and to refer when the age or schedule issue is material to the proposed action. [HO-3 2024-03, A.10–A.13](repo://forms/HO/MS/HO-3/2024-03.md#L117-L123) [HO 23 74 2025-05, W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L14-L39) [HO 23 74 2025-05, W.1.3–W.1.5](repo://forms/HO/MS/HO-23-74/2025-05.md#L98-L109) [Matrix H.0.15](repo://guidelines/authority/referral-matrix.md#L41-L43) [Matrix H.2.19–H.2.24](repo://guidelines/authority/referral-matrix.md#L237-L247)
 
 When a reported matter may involve covered property, liability, or a referral condition, open the appropriate handling file and record the report without deciding coverage from the label alone. Review declarations before discussing limits, deductibles, endorsements, or insured status; receipt of notice does not confirm coverage, liability, valuation, or payment. [Matrix H.6.1–H.6.6](repo://guidelines/authority/referral-matrix.md#L585-L597)
 

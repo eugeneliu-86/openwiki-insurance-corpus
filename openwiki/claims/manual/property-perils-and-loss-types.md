@@ -1,14 +1,13 @@
 ---
 type: claims-guidance
-title: "Claims Manual: Property Perils and Loss Types"
+title: "Property Perils and Loss Types"
 description: "Subject-oriented workflows for property claims involving water, roofs, fire, theft, weather, mold, loss of use, and dwelling property. Connects cause, evidence, covered scope, valuation, mitigation, escalation, and consultation of the controlling policy or endorsement."
 tags: [claims, property, perils, water-loss, roof, mold, loss-of-use]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-af35759075f03e69c4b0c838
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
+  - id: openwiki-source-0de2907066d0f023c5c2e68b
+    resource: repo://forms/HO/MS/HO-04-81/2018-09.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
@@ -23,14 +22,17 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 
-# Claims Manual: Property Perils and Loss Types
+# Property Perils and Loss Types
 
 This page is a **claims-handling index**, not a coverage grant. The claims manual supplies the investigation, evidence, mitigation, valuation, authority, payment, and escalation process. The policy form and any applicable endorsement supply coverage, exclusions, limits, deductibles, conditions, and settlement terms. Internal guidance makes the same boundary explicit: it cannot create, expand, restrict, or waive coverage ([water-loss guidance](repo://guidelines/claims/water-loss-handling.md#L13-L17); [roof guidance](repo://guidelines/claims/roof-claim-handling.md#L14-L21); [manual, Chapter 1](repo://manuals/claims/manual.md#L13-L19)).
 
-Always verify the policy and endorsement edition before relying on a provision. The examples below use HO-3 (2024-03), HO 04 27 (2016-05), HO 04 90 (2027-01), and HO 23 74 (2025-05); they are not substitutes for the form issued for the loss.
+Always verify the policy and endorsement edition before relying on a provision. The examples below use HO-3 (2024-03), HO 04 27 (2016-05), HO 04 81 (2018-09), HO 04 90 (2027-01), and HO 23 74 (2025-05); they are not substitutes for the form issued for the loss.
 
 ## Common property-loss lifecycle
 
@@ -69,7 +71,7 @@ Start with the source, path, duration, and affected property. Distinguish an acc
 
 The HO-3 example separately excludes flood, surface water, below-surface water, and sewer, drain, or sump backup unless a water-backup endorsement is attached ([HO-3 X.7-X.8](repo://forms/HO/MS/HO-3/2024-03.md#L681-L685)). The 2016-05 HO 04 27 form must therefore be checked when attached rather than assumed from the base form; it describes limited water-damage coverage and retains exclusions for repeated leakage, maintenance, defective work, seepage, and specified external or drainage causes ([HO 04 27](repo://forms/HO/MS/HO-04-27/2016-05.md#L41-L85); [HO 04 27 exclusions](repo://forms/HO/MS/HO-04-27/2016-05.md#L207-L319)).
 
-For sewer, drain, sump, or related backup, consult the attached edition of HO 04 90. In the 2027-01 example, W.1 covers direct physical loss and covered expenses from water backing up through a sewer or drain or discharging or overflowing from a sump or related equipment ([HO 04 90 W.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L140-L143)). Its collective $10,000 limit applies to all covered loss and covered expenses arising from the same backup or sump event, across property, locations, insureds, and timing; direct-loss, removal, and reasonable-protection payments erode the same limit and the deductible still applies ([HO 04 90 W.2-W.18](repo://forms/HO/MS/HO-04-90/2027-01.md#L143-L175)). Coverage remains subject to the endorsement’s source-specific exclusions and does not enlarge otherwise noncovered property or expenses ([HO 04 90](repo://forms/HO/MS/HO-04-90/2027-01.md#L175-L183)).
+For sewer, drain, sump, or related backup, consult the attached edition of HO 04 90. In the 2027-01 example, the endorsement covers direct physical loss to insured property caused by water backing up through a sewer or drain, or by accidental water discharging or overflowing from a sump, sump pump, or related equipment; it also includes reasonable protection and water-removal expenses when necessary to prevent further covered damage ([HO 04 90 W.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L62-L117); [HO 04 90 W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316)). The endorsement’s $10,000 limit is the maximum for loss caused by water backup or sump discharge or overflow, regardless of the number of insured persons, claims, or covered-property items; covered protection and removal expenses are included within that limit, not paid as an additional amount ([HO 04 90 W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316)). The endorsement also requires the loss to occur during the policy period, keeps other policy exclusions and covered-property requirements in force, and provides a $1,000 deductible for each covered water-backup loss ([HO 04 90 W.1 and W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L247-L252); [HO 04 90 W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L412)). Do not infer separate limits from the number of properties or claims, or apply this endorsement without confirming that it is attached.
 
 ### Evidence and scope checklist
 
@@ -94,9 +96,9 @@ The HO-3 example covers direct physical loss from fire, lightning, windstorm, ha
 
 ### Roof valuation and the HO 23 74 example
 
-If HO 23 74 (2025-05) is attached, consult that endorsement rather than applying a generic roof rule. In that edition, roof surfacing aged 12 years or more is settled on an actual-cash-value basis whether or not it is repaired or replaced; roof age is determined from reliable evidence for the directly damaged portion ([HO 23 74 W.1-W.7](repo://forms/HO/MS/HO-23-74/2025-05.md#L57-L71)). The endorsement also requires like-kind-and-quality analysis, applies the policy deductible and limit, and separately evaluates roof surfacing from other covered property when reasonably possible ([HO 23 74](repo://forms/HO/MS/HO-23-74/2025-05.md#L79-L99)).
+If HO 23 74 (2025-05) is attached, consult that endorsement rather than applying a generic roof rule. In that edition, roof surfacing aged 12 years or more is settled on an actual-cash-value basis whether or not it is repaired or replaced; roof age is determined from reliable evidence for the directly damaged portion ([HO 23 74 W.1-W.7](repo://forms/HO/MS/HO-23-74/2025-05.md#L88-L118)). The endorsement pays the actual cash value of damaged roof surfacing necessary to repair the direct physical loss, subject to the applicable policy limit and deductible, and separately evaluates roof surfacing from other covered property when reasonably possible ([HO 23 74 W.18-W.21](repo://forms/HO/MS/HO-23-74/2025-05.md#L163-L176)).
 
-Do not expand the scope merely to create a uniform appearance. Matching, detach-and-reset, building-requirement costs, emergency protection, local pricing, overhead and profit, hidden damage, and supplements remain fact- and policy-dependent; difference in appearance alone does not establish replacement of undamaged surfacing ([HO 23 74 W.23-W.33](repo://forms/HO/MS/HO-23-74/2025-05.md#L103-L123); [HO 23 74 W.41-W.58](repo://forms/HO/MS/HO-23-74/2025-05.md#L139-L173)). Actual cash value reflects age, condition, quality, useful life, and appropriate depreciation, subject to the endorsement’s limit and deductible ([HO 23 74 W.2-W.10](repo://forms/HO/MS/HO-23-74/2025-05.md#L181-L199)).
+Do not expand the scope merely to create a uniform appearance. The endorsement limits repair valuation to like-kind-and-quality materials and supported direct physical damage. Matching, detach-and-reset, building-requirement costs, emergency protection, local pricing, overhead and profit, hidden damage, and supplements are fact- and policy-dependent: appearance difference alone does not establish replacement of undamaged surfacing, code costs must be covered and established, and hidden damage or a supplement must still be tied to the covered loss ([HO 23 74 W.11-W.14 and W.23-W.29](repo://forms/HO/MS/HO-23-74/2025-05.md#L135-L149); [HO 23 74 W.23-W.33](repo://forms/HO/MS/HO-23-74/2025-05.md#L184-L212); [HO 23 74 W.41-W.58](repo://forms/HO/MS/HO-23-74/2025-05.md#L261-L334)). Actual cash value reflects age, condition, quality, useful life, and appropriate depreciation, subject to the endorsement’s limit and deductible ([HO 23 74 W.3-W.10](repo://forms/HO/MS/HO-23-74/2025-05.md#L98-L133)).
 
 ### Other weather loss types
 
@@ -118,7 +120,9 @@ Consult the issued policy for theft and vandalism definitions, vacancy or unoccu
 
 Identify possible fungi or mold early when the report includes moisture, intrusion, concealed damage, odor, staining, or growth. Keep the microbial analysis separate from the initial water event: determine whether the condition resulted from a covered water event, long-term seepage, maintenance, construction defect, or another excluded cause, and connect each claimed testing, cleaning, remediation, repair, or replacement expense to the applicable coverage ([mold guidance](repo://guidelines/claims/mold-claim-handling.md#L13-L33)). Obtain photographs, inspection findings, invoices, remediation records, repair estimates, moisture-source information, and the development timeline ([mold guidance](repo://guidelines/claims/mold-claim-handling.md#L23-L31)).
 
-Do not characterize remediation as covered before the policy analysis is complete. Review all applicable forms and endorsements because the controlling form may modify exclusions, additional coverage, duties, or conditions ([mold guidance](repo://guidelines/claims/mold-claim-handling.md#L21-L33)). The HO-3 example excludes loss caused by mold, wet rot, dry rot, decay, deterioration, or contamination while preserving only the resulting direct physical loss allowed by the policy; the exact attached fungi or mold provision controls the claim ([HO-3 P.19](repo://forms/HO/MS/HO-3/2024-03.md#L595-L597)). Refer disputed causation, concealed moisture, substantial remediation, health or habitability concerns, and material authority issues.
+Do not characterize remediation as covered before the policy analysis is complete. Review all applicable forms and endorsements because the controlling form may modify exclusions, additional coverage, duties, or conditions ([mold guidance](repo://guidelines/claims/mold-claim-handling.md#L21-L33)). The HO-3 example excludes loss caused by mold, wet rot, dry rot, decay, deterioration, or contamination while preserving only the resulting direct physical loss allowed by the policy; the exact attached fungi or mold provision controls the claim ([HO-3 P.19](repo://forms/HO/MS/HO-3/2024-03.md#L595-L597)).
+
+When HO 04 81 (2018-09) is attached, it is a narrow modification rather than blanket mold coverage. It covers fungi-related direct physical loss only when a covered cause first causes direct physical loss to covered property and the fungi result from that loss; it excludes fungi arising from constant or repeated seepage, leakage, discharge, overflow, or flood, as well as preexisting conditions, wear, neglect, inadequate maintenance, and defective work ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L45-L63); [HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L89-L103)). Reasonable and necessary removal, access or repair-related tear-out, qualifying post-remediation testing, and remediation are covered only when tied to covered direct physical loss; preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, and non-covered property remain outside the write-back ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L65-L77); [HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L89-L127)). The endorsement’s $10,000 limit is an aggregate for all covered fungi, wet- or dry-rot, or bacteria loss during the policy term, regardless of claims, insured persons, or property items; covered expenses share that limit, payments reduce what remains, and the deductible applies only after covered loss is determined ([HO 04 81 W.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L157-L185); [HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L149); [HO 04 81 W.3](repo://forms/HO/MS/HO-04-81/2018-09.md#L235-L251)). Refer disputed causation, concealed moisture, substantial remediation, health or habitability concerns, and material authority issues.
 
 ## Loss of use and additional living expense
 

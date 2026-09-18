@@ -1,11 +1,11 @@
 ---
 type: underwriting-guidance
-title: Rating Inputs and Non-Table Adjustments
-description: A non-table workflow for building a complete property rating submission, selecting the matching form and occupancy basis, validating valuation and deductibles, and applying evidence-based protective-device, roof, wind, endorsement, and state adjustments. It separates rating procedure from underwriting authority and contractual policy terms.
+title: Rating Inputs and Adjustments
+description: A rating workflow for complete property submissions, form and occupancy matching, valuation, deductibles, and evidence-backed protective-device, roof, wind, endorsement, and state adjustments. It keeps rating procedure separate from underwriting authority and contractual policy terms.
 tags: [underwriting, rating, rating-inputs, premium-adjustments, deductibles, property-risk]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
+    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
     resource: repo://forms/DP/MS/DP-3/2026-01.md
@@ -19,9 +19,9 @@ sources:
     resource: repo://manuals/rating/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 ---
-# Rating Inputs and Non-Table Adjustments
+# Rating Inputs and Adjustments
 
 ## Scope and governing boundary
 
@@ -83,7 +83,7 @@ The underwriting manual adds the control boundary: use current, reliable, carrie
 
 Classify occupancy before selecting a rating path. Owner occupancy, tenant occupancy, seasonal use, vacancy, unoccupancy, room rental, leased portions, short-term rental, and business activity are not interchangeable inputs. If the facts cannot be clearly classified, refer rather than selecting the most favorable category. [Rating Manual 1.B and 1.H](repo://manuals/rating/manual.md#L21-L25) [Rating Manual 1.AB–1.AD](repo://manuals/rating/manual.md#L177-L193)
 
-Use is also a coverage-assembly checkpoint. For example, the HO-3 form defines the residence premises around the property where the insured resides and distinguishes business use in its definitions and Coverage A provisions; the DP-3 form describes a dwelling, other structures, and land used principally as a private residence. Those form statements explain why the selected form and rated occupancy must agree, but they do not replace the underwriting eligibility review. [HO-3 2024-03 definitions and Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L41-L67) [DP-3 2026-01 definitions and Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L41-L89)
+Use is also a coverage-assembly checkpoint. For example, the HO-3 form defines the residence premises around the property where the insured resides and distinguishes business use in its definitions and Coverage A provisions; the DP-3 form describes a dwelling, other structures, and land used principally as a private residence. Those form statements explain why the selected form and rated occupancy must agree, but they do not replace the underwriting eligibility review. [HO-3 2024-03 definitions](repo://forms/HO/MS/HO-3/2024-03.md#L41-L67) [HO-3 2024-03 Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L97-L115) [DP-3 2026-01 definitions](repo://forms/DP/MS/DP-3/2026-01.md#L78-L109) [DP-3 2026-01 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L154-L170)
 
 ### Location and construction
 
@@ -95,7 +95,7 @@ Record address normalization, territory result, construction class, protection i
 
 Select the applicable form from property type, occupancy, and requested coverage; never select a form merely because it produces a preferred premium. The form identifier and edition are part of the rating record. The current representative source forms identify distinct products: HO-3 is a Homeowners 3 Special Form, HO-5 a Homeowners 5 Comprehensive Form, HO-6 a Unit-Owners Form, and DP-3 a Dwelling Property 3 Special Form. [Rating Manual 1.I](repo://manuals/rating/manual.md#L63-L67) [HO-3 header](repo://forms/HO/MS/HO-3/2024-03.md#L2-L8) [HO-5 header](repo://forms/HO/MS/HO-5/2022-06.md#L2-L8) [HO-6 header](repo://forms/HO/MS/HO-6/2023-02.md#L2-L8) [DP-3 header](repo://forms/DP/MS/DP-3/2026-01.md#L2-L8)
 
-The selected rating basis must reconcile to the assembled policy. HO-6, for example, rates a unit-owner dwelling unit and includes building property the unit owner is required to insure under an agreement; that is materially different from the detached-dwelling exposure described by DP-3. The form is evidence for matching the rated product, not a substitute for an internal eligibility rule. [HO-6 2023-02 Coverage A](repo://forms/HO/MS/HO-6/2023-02.md#L78-L104) [DP-3 2026-01 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L71-L89)
+The selected rating basis must reconcile to the assembled policy. HO-6, for example, rates a unit-owner dwelling unit and includes building property the unit owner is required to insure under an agreement; that is materially different from the detached-dwelling exposure described by DP-3. The form is evidence for matching the rated product, not a substitute for an internal eligibility rule. [HO-6 2023-02 Coverage A](repo://forms/HO/MS/HO-6/2023-02.md#L78-L104) [DP-3 2026-01 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L154-L187)
 
 ## 3. Establish valuation and limits
 
@@ -111,7 +111,7 @@ The rating manual sets an internal AOP floor of **$500**. Reject an entry below 
 
 Keep deductible types distinct. Apply a peril-specific deductible when it governs that peril rather than substituting the AOP deductible. Review named-storm minimums and the wind deductible ceiling through the approved system and applicable underwriting direction; the rating manual does not authorize inventing a value when the requested option is unsupported. A wind or named-storm selection can be unavailable even when the property has wind exposure. [Rating Manual 6.T–6.AD](repo://manuals/rating/manual.md#L4305-L4365)
 
-The $500 rating floor is not a universal contractual deductible. The assembled form and Declarations must be checked independently. The representative form texts state different minimums: HO-3 and HO-5 state at least **$1,000**, HO-6 states at least **$500**, and DP-3 states at least **$1,500**. These values demonstrate why the rating selection must match the issued form edition, endorsements, and state wording; do not generalize one form’s contractual provision to another. [HO-3 2024-03 conditions](repo://forms/HO/MS/HO-3/2024-03.md#L859-L867) [HO-5 2022-06 conditions](repo://forms/HO/MS/HO-5/2022-06.md#L937-L947) [HO-6 2023-02 conditions](repo://forms/HO/MS/HO-6/2023-02.md#L900-L910) [DP-3 2026-01 conditions](repo://forms/DP/MS/DP-3/2026-01.md#L899-L907)
+The $500 rating floor is not a universal contractual deductible. The assembled form and Declarations must be checked independently. The representative form texts state different minimums: HO-3 and HO-5 state at least **$1,000**, HO-6 states at least **$500**, and DP-3 states at least **$1,500**. These values demonstrate why the rating selection must match the issued form edition, endorsements, and state wording; do not generalize one form’s contractual provision to another. [HO-3 2024-03 conditions](repo://forms/HO/MS/HO-3/2024-03.md#L769-L779) [HO-5 2022-06 conditions](repo://forms/HO/MS/HO-5/2022-06.md#L899-L907) [HO-6 2023-02 conditions](repo://forms/HO/MS/HO-6/2023-02.md#L916-L922) [DP-3 2026-01 conditions](repo://forms/DP/MS/DP-3/2026-01.md#L1796-L1807)
 
 Do not let a mitigation credit change deductible treatment. The rating manual expressly requires wind percentage deductible minimum review separately from wind-mitigation eligibility. A deductible change also must not be used to offset another rating characteristic or to create an unauthorized exception. [Rating Manual 9.W](repo://manuals/rating/manual.md#L5521-L5525) [Rating Manual 6.BH–6.BJ](repo://manuals/rating/manual.md#L4541-L4557)
 
@@ -170,3 +170,9 @@ Before releasing a quote, binding coverage, or processing a change, the file sho
 Hold or refer when material facts are missing, contradictory, stale, not risk-specific, or outside the approved system. Do not cure an evidence gap with an estimate or a free-text note. If a protective device is disabled, roof work is incomplete, wind protection is partial, a deductible is unresolved, or the selected form no longer matches the exposure, remove the unsupported treatment or re-rate after authorized resolution. [Rating Manual 1.A, 1.AO–1.AQ](repo://manuals/rating/manual.md#L15-L19) [Rating Manual 7.AK–7.AL](repo://manuals/rating/manual.md#L4791-L4797) [Rating Manual 8.9–8.10](repo://manuals/rating/manual.md#L5045-L5055) [Rating Manual 9.D and 9.P](repo://manuals/rating/manual.md#L5407-L5411) [Rating Manual 6.P–6.S](repo://manuals/rating/manual.md#L4281-L4303)
 
 The final review is a rating-control checkpoint, not a coverage opinion. Internal manuals constrain acceptance and pricing operations, while the issued policy package controls contractual coverage. Preserve that boundary in producer and insured communications and route coverage questions to the appropriate policy or claims authority. [Rating Manual 1.AN](repo://manuals/rating/manual.md#L249-L253) [Underwriting Manual 100.B–100.D](repo://manuals/underwriting/manual.md#L21-L37)
+
+## Related operational boundaries
+
+- [Editions, endorsements, and state attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) — select the governing issued edition, verify attachment, and apply state contract overlays before treating a rating result as part of the policy package.
+- [Manual eligibility by product line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — apply acceptance, referral, delegated-authority, and product-line controls separately from rating inputs.
+- [Manual property, roof, and water risk controls](/openwiki/underwriting/manual/property-and-water-risk.md) — handle underwriting evidence, condition holds, and referrals without converting those controls into coverage terms.

@@ -1,11 +1,8 @@
 ---
 type: coverage
-title: Fungi, Wet Rot, Dry Rot, and Bacteria
+title: Fungi and Bacteria
 description: Explains how the base-form fungi, wet rot, dry rot, and bacteria exclusions interact with limited write-back endorsements, aggregate limits, remediation boundaries, and North Carolina disclosure requirements.
 tags: [property-coverage, fungi, mold, rot, bacteria, remediation, North-Carolina]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -29,9 +26,12 @@ sources:
     resource: repo://guidelines/claims/mold-claim-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
-# Fungi, Wet Rot, Dry Rot, and Bacteria
+# Fungi and Bacteria
 
 ## Read the coverage in composition order
 
@@ -118,7 +118,7 @@ The $10,000 is one aggregate, not a separate amount per room, item, insured, loc
 
 ### Other endorsements are not interchangeable
 
-HO 04 27 Limited Water Damage Coverage (2016-05) is primarily a water-damage endorsement. It covers specified accidental discharge or overflow and certain breaking, cracking, burning, bulging, or freezing of listed systems or appliances (**W.1 W.1–W.8**), but it expressly excludes loss caused by the presence, growth, proliferation, spread, or activity of fungi, wet rot, dry rot, or bacteria (**W.1 W.15**). Its **W.2 W.3** also states a $5,000 amount for loss caused by fungi, wet or dry rot, or bacteria. Read together, the endorsement’s express exclusion controls the scope: the $5,000 figure must not be treated by itself as a fungi coverage grant. Its separate water limits and exclusions also remain subject to its own terms (**W.2 W.1–W.14**).
+HO 04 27 Limited Water Damage Coverage (2016-05) is primarily a water-damage endorsement. It covers specified accidental discharge or overflow and certain breaking, cracking, burning, bulging, or freezing of listed systems or appliances (**W.1 W.1–W.8**), but it expressly excludes loss caused by the presence, growth, proliferation, spread, or activity of fungi, wet rot, dry rot, or bacteria (**W.1 W.15**). Its **W.2 W.11** also states a $5,000 amount for loss caused by fungi, wet or dry rot, or bacteria. Read together, the endorsement’s express exclusion controls the scope: the $5,000 figure must not be treated by itself as a fungi coverage grant. Its separate water limits and exclusions also remain subject to its own terms (**W.2 W.1–W.14**).
 
 The North Carolina HO 01 32 amendatory endorsement (2018-05) is another edition-specific contract document. It states a **$5,000 maximum for all loss caused by fungi, wet or dry rot, or bacteria**, regardless of the number of insureds, claims, damaged properties, or occurrences, and says such loss is not covered unless coverage is expressly provided (**T.8–T.9**). It defines fungi to include mold, mildew, and mycotoxins and wet rot as moisture-caused decomposition, including damage from fungi (**T.28–T.29**). Apply this form only when it is part of the policy; do not replace HO 04 81’s $10,000 aggregate with this $5,000 amount.
 
@@ -126,7 +126,7 @@ The North Carolina HO 01 32 amendatory endorsement (2018-05) is another edition-
 
 For an HO 04 81 claim, the insured must give prompt notice and, under the endorsement’s conditions, report a loss involving fungi, wet or dry rot, or bacteria within 30 days. Notice must identify the insured, affected property, location, reported condition, and known circumstances (**W.5 W.1–W.4**). The insured must protect property from further damage, take reasonable protective repairs, retain damaged property when reasonably possible, preserve evidence, permit inspection and testing, cooperate, and provide relevant records, photographs, invoices, estimates, reports, and proof of loss (**W.5 W.6–W.22**, **W.5 W.29–W.38**).
 
-Those duties preserve the coverage investigation; they do not create coverage. An inspection, sample, testing request, mitigation authorization, or payment does not waive an exclusion or increase the aggregate. Keep the file able to answer four separate questions:
+Those duties preserve the coverage investigation; compliance does not create coverage or increase the available coverage. An inspection, sample, testing request, mitigation authorization, or payment does not waive an exclusion or increase the aggregate. Keep the file able to answer four separate questions:
 
 1. What caused the direct physical loss, and was that cause covered?
 2. Did the covered cause occur before the fungi-related physical loss?

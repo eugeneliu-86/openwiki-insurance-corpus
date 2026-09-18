@@ -1,11 +1,11 @@
 ---
 type: claims-guidance
-title: Mold Claim Handling Guidance
+title: Mold Claim Handling
 description: Operational workflow for intake, causation, microbial evidence, mitigation, coverage consultation, escalation, payment, and closure of mold and fungi-related claims while keeping claim handling separate from policy coverage.
 tags: [claims, mold, fungi, microbial-evidence, mitigation, causation, escalation]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T12:15:46.420Z
+    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -23,15 +23,13 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T12:15:46.420Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 ---
-# Mold Claim Handling Guidance
+# Mold Claim Handling
 
 ## Purpose and governing boundary
 
-<!-- openwiki: broken internal link [/claims/guidelines/water-loss-handling.md] file "/claims/guidelines/water-loss-handling.md" does not exist. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/coverage/perils/fungi-and-bacteria.md] file "/coverage/perils/fungi-and-bacteria.md" does not exist. Fix the href or restore the target, then delete this comment. -->
-This page turns the internal mold and fungi guideline into a claim-handling workflow. It is not a fungi, water, or remediation coverage rule. The guideline is operational material; the attached policy, endorsements, applicable law, and approved authority determine coverage (**H.0.1–H.0.5**, **H.7.49**). The claims manual likewise directs internal handling and authority but does not alter coverage (**Chapter 1, 1.A**, **1.F–1.J**). Use the [water-loss handling guidance](/claims/guidelines/water-loss-handling.md) for the broader water-loss workflow, and consult the applicable policy and the [fungi and bacteria coverage reference](/coverage/perils/fungi-and-bacteria.md) rather than treating this page as contract language.
+This page turns the internal mold and fungi guideline into a claim-handling workflow. It is not a fungi, water, or remediation coverage rule. The guideline is operational material; the attached policy, endorsements, applicable law, and approved authority determine coverage (**H.0.1–H.0.5**, **H.7.49**). The [claims intake and investigation guidance](/openwiki/claims/manual/intake-investigation-and-mitigation.md) and claims manual likewise direct internal handling and authority but do not alter coverage (**Chapter 1, 1.A**, **1.F–1.J**). Use the [water-loss handling guidance](/openwiki/claims/guidelines/water-loss-handling.md) for the broader water-loss workflow, and consult the applicable policy and the [fungi and bacteria coverage reference](/openwiki/coverage/perils/fungi-and-bacteria.md) rather than treating this page as contract language.
 
 A report of “mold” is an investigation entrypoint, not a coverage conclusion. Keep four questions separate in the file:
 
@@ -129,10 +127,10 @@ Examples show why the form check matters; they are not interchangeable claim out
 |---|---|---|
 | HO-3 2024-03 | Its fungi provision excludes fungi, wet rot, dry rot, or bacteria except as provided by a limited fungi endorsement; the microbial remediation limit does not itself create coverage. Confirm whether the referenced endorsement is attached before applying the limitation. | `forms/HO/MS/HO-3/2024-03.md`, **X.28–X.29** |
 | HO-4 2021-10 | Its fungi provision similarly excludes fungi, wet rot, dry rot, or bacteria except as provided by a limited fungi endorsement and states that the mold coverage limit does not create otherwise excluded coverage. Do not use an HO-3 conclusion for an HO-4 claim. | `forms/HO/MS/HO-4/2021-10.md`, **X.31–X.34** |
-| HO 04 81 2018-09, if attached | The endorsement provides limited fungi coverage only when fungi results from a covered cause that first causes direct physical loss. It also addresses reasonable necessary removal, access, repair, remediation, and post-removal testing, while retaining exclusions and conditions. | `forms/HO/MS/HO-04-81/2018-09.md`, **W.1 W.1–W.23** |
-| HO 04 27 2016-05 | The endorsement’s limited water grant excludes loss caused by fungi, wet rot, dry rot, or bacteria and separately states a $5,000 fungi-related limit. The limit cannot be used to assume that excluded microbial damage is covered. | `forms/HO/MS/HO-04-27/2016-05.md`, **W.1 W.15**, **W.2 W.2–W.9** |
+| HO 04 81 2018-09, if attached | The endorsement provides limited fungi coverage only when fungi results from a covered cause that first causes direct physical loss. The controlling grant says, **“We cover direct physical loss caused by fungi when the fungi results from a ‘covered cause of loss,’”** and, **“The covered cause of loss must cause direct physical loss to covered property. The fungi must result from that direct physical loss.”** It also addresses reasonable and necessary removal, access, repair, remediation, and post-removal testing, while retaining exclusions and conditions. | `forms/HO/MS/HO-04-81/2018-09.md`, **W.0**, **W.1 W.2–W.23** |
+| HO 04 27 2016-05 | The endorsement’s limited water grant excludes microbial loss. Its controlling exclusion states, **“We do not cover loss caused by the presence, growth, proliferation, spread, or any activity of fungi, wet rot, dry rot, or bacteria.”** The endorsement separately states, **“The most we will pay for loss caused by fungi, wet or dry rot, or bacteria is five thousand dollars,”** but also says, **“We do not pay for loss caused by fungi, wet or dry rot, or bacteria when the loss is otherwise excluded.”** Read together, the $5,000 figure cannot be used to assume that excluded microbial damage is covered. | `forms/HO/MS/HO-04-27/2016-05.md`, **W.1 W.1–W.23**, **W.2 W.11–W.13** |
 
-Where HO 04 81 applies, its fungi, wet or dry rot, or bacteria aggregate is **$10,000** for all covered loss subject to that limit during the policy term, and payments reduce the remaining amount; the aggregate applies across insureds, locations, claims, property types, causes, and related covered expenses (**W.2 W.1–W.22**, **W.2 W.33–W.52**). This is a contract example for consultation, not a universal mold limit. Take the actual limit, deductible, and write-back from the attached form and declarations.
+Where HO 04 81 applies, its fungi, wet or dry rot, or bacteria aggregate is **$10,000** for all covered loss subject to that limit during the policy term. The limit states, **“The most we will pay for ‘fungi, wet or dry rot, or bacteria’ is ten thousand dollars,”** and applies to the total covered loss regardless of the number of claims, persons insured, or items of property; it includes covered property damage and related expenses. Amounts paid for direct physical loss and related covered expenses reduce the remaining coverage and do not restore it (**W.2 W.1–W.2**, **W.2 W.3–W.22**, **W.1 W.51–W.52**). This is a contract example for consultation, not a universal mold limit. Take the actual limit, deductible, and write-back from the attached form and declarations.
 
 ### Apply the North Carolina disclosure boundary
 

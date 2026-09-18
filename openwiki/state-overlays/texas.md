@@ -3,9 +3,6 @@ type: state-overlay
 title: Texas State Overlay
 description: Edition-aware reference for Texas HO 01 45 and DP 01 45 amendatory forms and Texas windstorm-deductible and prompt-payment bulletins. Covers contractual deductible ranges, named-storm periods, advance notice, disclosure, claim deadlines, claims duties, and the boundary between regulatory requirements and internal underwriting guidance.
 tags: [Texas, state-overlay, HO 01 45, DP 01 45, windstorm, named-storm, prompt-payment, claims]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T05:47:51.376Z
 sources:
   - id: openwiki-source-d496c21c7ae0e4e3a043c47f
     resource: repo://bulletins/TX/b-2016-04-windstorm-deductibles.md
@@ -21,7 +18,10 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-18T17:38:15.786Z
 ---
 # Texas State Overlay
 
@@ -33,7 +33,7 @@ Texas policy handling has three separate authority layers:
 
 ## Edition and bulletin selection
 
-Select the form by line and policy-effective date, then read its declarations and base policy with the attached form. Do not replace an older form on an older policy with the newer text.
+Select the candidate form by line and policy-effective date, then verify that the edition is actually issued and attached to the named insured, Texas location, and covered property before using its contract terms. Read the declarations and base policy with the attached form. Do not replace an older form on an older policy with the newer text; a form title or requested schedule is not proof of attachment.
 
 | Source | Effective/status | Position to use |
 |---|---|---|
@@ -46,19 +46,39 @@ Select the form by line and policy-effective date, then read its declarations an
 
 ```mermaid
 flowchart TD
-    A["Identify Texas line and policy-effective date"] --> B{"Select attached amendatory form"}
-    B --> H19["HO 01 45 2019-01 for earlier HO policies"]
-    B --> H22["HO 01 45 2022-01 for HO policies from 2022-01-01"]
-    B --> D22["DP 01 45 2022-01 for Texas DP"]
-    H19 --> C["Read declarations and base policy"]
+    A["Identify Texas line policy date and issued package"] --> B{"Select candidate amendatory form by date"}
+    B --> V["Verify attachment insured location property and eligibility"]
+    V --> H19["HO 01 45 2019-01 for earlier HO policies"]
+    V --> H22["HO 01 45 2022-01 for HO policies from 2022-01-01"]
+    V --> D22["DP 01 45 2022-01 for Texas DP"]
+    H19 --> C["Read declarations base policy and attached form"]
     H22 --> C
     D22 --> C
     C --> R["Apply bulletin regime for the policy or claim activity"]
-    R --> U["Keep Rule 510 as internal underwriting guidance"]
+    R --> U["Keep Rule 400 and Rule 510 as internal controls"]
     U --> L["Adjust the claim under the assembled contract"]
 ```
 
-*This flow shows date-sensitive contract selection followed by regulatory administration and a separate internal-underwriting check.*
+*This flow shows date-sensitive form selection, attachment verification, regulatory administration, and separate internal underwriting controls.*
+
+## Attachment and Texas underwriting controls
+
+### State-form attachment gate
+
+A Texas amendatory form is contract authority only when it is part of the issued policy package. Before binding or renewal, Rule 400 requires review of every requested endorsement, confirmation that the risk facts support the requested coverage, matching to the named insured, location, and covered property, verification of current and complete underwriting information, and alignment of the effective date with the transaction. It also requires review of pending claims and correction of duplicate or unsupported attachments ([Manual Rules 400.A-400.G](repo://manuals/underwriting/manual.md#L5089-L5129), [Rule 400.Z-400.AC](repo://manuals/underwriting/manual.md#L5241-L5263)). The DP 01 45 endorsement says it is part of the agreement and applies only as stated in its terms; that contract language does not permit using a requested or mis-matched form as though it were attached ([DP 01 45 T.0](repo://forms/DP/TX/DP-01-45/2022-01.md#L13-L38), [DP 01 45 T.0](repo://forms/DP/TX/DP-01-45/2022-01.md#L89-L90)).
+
+For the DP windstorm-or-hail deductible, DP 01 45 T.3 expressly directs administration as required by Texas Bulletin B-2021-08 B.2. That is the supported **implements** relationship for this source set: the form supplies the contractual deductible terms, while the bulletin supplies the regulatory requirements for the deductible’s offer and administration. Do not use the bulletin to invent a deductible absent from the issued form, or use an unattached DP form to change the policy ([DP 01 45 T.1-T.8](repo://forms/DP/TX/DP-01-45/2022-01.md#L92-L121), [B-2021-08 B.2.1-B.2.10](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L47-L71)).
+
+### Rule 510 internal controls
+
+Rule 510 is carrier underwriting guidance, not Texas contract language or a claim-payment authority. Its principal Texas gates are:
+
+- **Coverage A authority:** bind within line-underwriter authority through **$800,000**; refer amounts above $800,000 through **$1,200,000** to a senior underwriter; decline or refer amounts above **$1,200,000** ([510.1-510.3](repo://manuals/underwriting/manual.md#L6227-L6245)).
+- **Pre-bind facts:** verify the Texas risk address, insurable interest, occupancy, and property description; refer conflicting ownership or occupancy information and undisclosed commercial activity ([510.6-510.12](repo://manuals/underwriting/manual.md#L6259-L6299)).
+- **Water-backup and roof controls:** refer a requested water-backup limit above **$25,000**; obtain a roof inspection at or above **15 years**; verify roof material, condition, and visible defects; refer damage, active leakage, temporary repairs, or unresolved roof concerns ([510.4-510.5](repo://manuals/underwriting/manual.md#L6247-L6257), [510.19-510.21](repo://manuals/underwriting/manual.md#L6337-L6353)).
+- **File control:** document the underwriting action, authority, referral, evidence, and disposition. Do not bind while a required referral or material property condition remains unresolved ([100.A, 100.C-100.E](repo://manuals/underwriting/manual.md#L15-L43), [510.22-510.30](repo://manuals/underwriting/manual.md#L6355-L6407)).
+
+These controls constrain whether and how the carrier offers or attaches a Texas form; they do not change the deductible percentage, coverage trigger, claim deadline, or other term in the assembled contract. Use the separate Texas appetite page for the broader carrier eligibility and loss-history guidance.
 
 ## Contract comparison
 
@@ -133,11 +153,11 @@ The insurer must provide written acceptance or rejection information, distinguis
 
 ## Operational checklist and failure checks
 
-1. Identify the Texas line, policy-effective date, declarations, attached amendatory form, and applicable bulletin regime. Preserve the 2019 HO and 2016 bulletin positions for policies written under them.
+1. Identify the Texas line, policy-effective date, declarations, issued package, attached amendatory form, and applicable bulletin regime. Verify the form matches the named insured, location, and property before relying on it. Preserve the 2019 HO and 2016 bulletin positions for policies written under them.
 2. For a deductible claim, establish covered direct physical loss, cause, mixed-cause allocation, applicable percentage and limit basis, occurrence, and whether the policy’s named-storm period applies. A storm name or general weather report alone is not enough ([HO 01 45 2022-01, T.23](repo://forms/HO/TX/HO-01-45/2022-01.md#L103-L107), [B-2021-08, B.4.5-B.4.7](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L221-L227)).
 3. Apply the contractual deductible only after determining the covered amount and under the form edition in force at loss. Then explain the percentage, basis, covered amount, deductible, remaining payment, and any other applicable limit or deductible ([DP 01 45 2022-01, T.13-T.14 and T.48-T.50](repo://forms/DP/TX/DP-01-45/2022-01.md#L85-L89), [repo://forms/DP/TX/DP-01-45/2022-01.md#L155-L161)).
 4. Meet the form’s insured duties: prompt notice, mitigation, preservation, inspection access, records, proof of loss when requested, truthful cooperation, and examination under oath when required. Track the form-specific acknowledgment, decision, payment, cancellation, nonrenewal, and suit deadlines.
 5. Keep bulletin disclosures, filing records, notices, claim communications, causation evidence, estimates, and payment explanations. Do not use a bulletin or Rule 510 as a substitute for the attached contract.
-6. Run Rule 510 separately before quoting or binding. Its thresholds and referrals belong to internal underwriting guidance, not to this regulatory and contractual overlay.
+6. Run Rule 400 attachment review and Rule 510 separately before quoting, binding, or renewing. Their matching, authority, eligibility, and referral controls belong to internal underwriting guidance, not to this regulatory and contractual overlay; do not use them to alter an issued form.
 
 Common errors are applying the 2022 HO maximum or 45-day notice to a 2019 HO policy, applying the DP 5% maximum to the HO 2022 contract, using the B-2021-08 30-day regulatory notice in place of a form’s longer contractual period, treating a named-storm designation as proof of coverage or causation, or presenting Rule 510 underwriting controls as policy or Texas Department requirements.
