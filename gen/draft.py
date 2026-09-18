@@ -130,7 +130,10 @@ def _model():
     if not key or key.startswith("lsv2_pt_"):
         raise RuntimeError("drafting needs the gateway key in LANGSMITH_API_KEY_GATEWAY (lsv2_sk_…)")
     return init_chat_model(MODEL, model_provider="openai", base_url=(os.environ.get("MODEL_BASE_URL") or DEFAULT_BASE_URL).rstrip("/"),
-                           api_key=key, use_responses_api=True, reasoning={"effort": "medium"}, verbosity="medium", max_tokens=16000)
+                           api_key=key, use_responses_api=True, reasoning={"effort": "medium"}, verbosity="medium", max_tokens=16000,
+                           # a stalled connection once held eight workers for an hour with no error; a long
+                           # chapter drafts in under five minutes, so anything past that is a dead socket
+                           timeout=300, max_retries=3)
 
 
 _MODEL = None
