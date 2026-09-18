@@ -15,6 +15,7 @@ demo/
 # compile look like a corpus change and trigger the next one forever.
 .compile-state.json
 .claims-index.json
+.provisions-index.json
 
 # Repository machinery, not coverage knowledge. The workflow file in particular
 # is edited throughout phase 04, and every edit would otherwise register as a
