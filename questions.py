@@ -103,8 +103,11 @@ class Ctx:
         return self.section_title.get((f.document, f.section), f.section)
 
     def sec_label(self, doc: Document, sec: str) -> str:
-        if doc.type == "manual" and sec[:1] in "RCP" and sec[1:].isdigit():
-            return f"Rule {sec[1:]}"
+        """How the built document names the section: manual chapters carry their number
+        in the title ("Rule 110 — …", "Chapter 3 — …", "Part 1 — …", "Table 2 — …")."""
+        if doc.type == "manual":
+            title = self.section_title.get((doc.id, sec), sec)
+            return title.split(" — ")[0]
         return sec
 
     @staticmethod
