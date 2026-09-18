@@ -13,6 +13,7 @@ import hashlib
 import os
 import pathlib
 import re
+import sys
 from collections.abc import Callable
 
 from .plan import SectionJob
@@ -176,6 +177,8 @@ def draft(job: SectionJob, drafter: Drafter = real_drafter, cache: bool = True) 
     prompt = build_prompt(job)
     problems: list[str] = []
     for attempt in range(MAX_ATTEMPTS):
+        if problems:
+            print(f"[retry {attempt}] {job.document}/{job.section}: {'; '.join(problems)[:200]}", file=sys.stderr, flush=True)
         text = drafter(prompt if not problems else prompt + "\n\nYOUR PREVIOUS ATTEMPT WAS REJECTED FOR:\n- " + "\n- ".join(problems) + "\nFix every item and output the whole section again.")
         problems = check_draft(job, text)
         if not problems:
