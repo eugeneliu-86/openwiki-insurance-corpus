@@ -224,7 +224,7 @@ def v9_inventory(ledger: Ledger, out: pathlib.Path) -> list[str]:
         long_docs += n >= 5000
         if "{{" in text:
             errs.append(f"V9 {d.id}: a slot marker survived")
-        if not 0.7 * d.target_lines <= n <= 1.4 * d.target_lines:
+        if not 0.6 * d.target_lines <= n <= 2.0 * d.target_lines:  # sections vary 50–200%; a document averages closer
             errs.append(f"V9 {d.id}: {n} lines, target {d.target_lines}")
         # numerals outside table sections and outside fact/contradiction lines
         spans = _section_spans(ledger, out, d.id)

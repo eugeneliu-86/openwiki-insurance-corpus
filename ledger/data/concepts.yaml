@@ -526,6 +526,7 @@
   - claims frequency referral trigger
   - loss count threshold
   - prior loss referral count
+  - paid property claims
   kind: count
   ambiguous: true
   synonym_target: true
@@ -641,6 +642,7 @@
   - notice of loss deadline
   - claim reporting period
   - prompt notice window
+  - notice of loss
   kind: days
   ambiguous: true
   synonym_target: true

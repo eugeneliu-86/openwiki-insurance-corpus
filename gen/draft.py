@@ -102,6 +102,10 @@ def check_draft(job: SectionJob, text: str) -> list[str]:
     missing = [d for d in job.distractors if d.lower() not in text.lower()]
     if missing:
         problems.append(f"concepts not mentioned: {missing[:4]}")
+    # a value marker glued to a word renders badly ("{{fact}}-year" became "3 years-year");
+    # reference markers are meant to sit flush against the phrase they follow
+    if re.search(r"\{\{(?:fact|def|contra):[^}]*\}\}[\w-]", text) or re.search(r"[\w-]\{\{(?:fact|def|contra):", text):
+        problems.append("a value marker is glued to a word or hyphen; leave a space on both sides of {{fact:…}}")
     lines = text.count("\n") + 1
     # wide on purpose: section length should vary; the band only catches a drafter
     # that stopped early or ran away, not one that wrote a long or short section

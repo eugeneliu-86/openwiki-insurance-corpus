@@ -90,7 +90,7 @@ CONCEPTS = [
     # underwriting, rating, claims
     ("roof-inspection-age-years", "years", "roof age at or above which an inspection is required before binding", ["inspection trigger roof age", "roof survey age", "roof inspection threshold"], "underwriting", True),
     ("roof-max-age-years", "years", "roof age at or above which the risk is outside appetite", ["maximum insurable roof age", "roof age declination point", "roof age ceiling"], "underwriting", True),
-    ("prior-claims-referral-count", "count", "number of paid property claims that triggers referral", ["claims frequency referral trigger", "loss count threshold", "prior loss referral count"], "underwriting", True),
+    ("prior-claims-referral-count", "count", "number of paid property claims that triggers referral", ["claims frequency referral trigger", "loss count threshold", "prior loss referral count", "paid property claims"], "underwriting", True),
     ("prior-claims-lookback-years", "years", "years of loss history considered", ["loss history window", "claims lookback", "prior loss period"], "underwriting", False),
     ("line-authority-cov-a", "money", "line underwriter Coverage A binding authority", ["binding authority limit", "underwriter authority ceiling", "line authority"], "underwriting", True),
     ("senior-authority-cov-a", "money", "senior underwriter Coverage A binding authority", ["senior binding authority", "senior underwriter ceiling"], "underwriting", False),
@@ -105,7 +105,7 @@ CONCEPTS = [
     ("wind-mitigation-credit-pct", "percent", "windstorm mitigation premium credit", ["hurricane mitigation discount", "opening protection credit", "wind loss mitigation credit"], "rating", False),
     ("pool-fence-height-feet", "feet", "minimum swimming pool fence height", ["pool enclosure height", "pool barrier minimum", "swimming pool fence requirement"], "underwriting", False),
     # conditions and handling numbers that give every section a fact (R10)
-    ("loss-notice-days", "days", "days within which a loss must be reported", ["notice of loss deadline", "claim reporting period", "prompt notice window"], "conditions", True),
+    ("loss-notice-days", "days", "days within which a loss must be reported", ["notice of loss deadline", "claim reporting period", "prompt notice window", "notice of loss"], "conditions", True),
     ("mitigation-duty-days", "days", "days after discovery within which mitigation must begin", ["dry-out deadline", "mitigation start period", "duty to mitigate window"], "claims-handling", False),
     ("contents-inventory-days", "days", "days to submit an inventory of damaged personal property", ["inventory submission deadline", "contents list period"], "claims-handling", False),
     ("ale-max-months", "count", "maximum months of additional living expense payable", ["ALE duration cap", "loss of use time limit", "living expense months"], "claims-handling", False),
