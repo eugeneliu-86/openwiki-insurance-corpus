@@ -25,7 +25,7 @@ CACHE_DIR = pathlib.Path(os.environ.get("DRAFT_CACHE_DIR", pathlib.Path(__file__
 MODEL = os.environ.get("DRAFT_MODEL", "gpt-5.6-luna")   # ph. 05 §3: Luna drafts; Terra drafts stay cached under the legacy key
 QUALIFIERS = ("except that", "except when", "subject to", "unless", "provided that", "but only if", "other than")
 DEFAULT_BASE_URL = "https://gateway.smith.langchain.com/openai/v1"
-MAX_ATTEMPTS = 3
+MAX_ATTEMPTS = 5   # a smaller drafter drops one marker in a ten-slot section more than once; attempts are cheap, an aborted build is not
 
 KIND_GUIDANCE = {
     "prose": "Write continuous prose paragraphs. No numbered provisions.",
