@@ -101,6 +101,10 @@ def jobs_for(ledger: Ledger, doc: Document) -> list[SectionJob]:
             job.slots.append(Slot(marker=f"{{{{contra:{c.id}}}}}", kind="fact", concept_name=surface(concept, doc.voice), concept_desc=concept.canonical, value_kind=c.wrong_value.kind))
         for d in defs_by_section.get(sec.id, []):
             job.slots.append(Slot(marker=f"{{{{def:{d.id}}}}}", kind="definition", concept_name=d.term, concept_desc=f'the defined term "{d.term}"', value_kind="text"))
+        if sec.kind == "definitions" and not any(sl.kind == "definition" for sl in job.slots):
+            # nothing to define here: a "Definitions" section that only explains how the
+            # attached form's terms apply is prose, and asking for a glossary of nothing fails
+            job.kind = "prose"
         for rid in sec.references_out:
             r = refs_by_id[rid]
             dst = ledger.doc(r.dst_document)

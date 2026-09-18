@@ -233,7 +233,7 @@ def form_toc(line: str) -> list[Section]:
     liability = line != "DP-3"
     toc = [
         Section(id="AGR", title="Agreement", target_lines=24, kind="prose"),
-        Section(id="DEF", title="Definitions", target_lines=130, kind="definitions"),
+        Section(id="DEF", title="Definitions", target_lines=70, kind="definitions"),
         Section(id="I.A", title="Coverage A — Dwelling" if line != "HO-4" else "Coverage A — Not Provided", target_lines=70),
         Section(id="I.B", title="Coverage B — Other Structures", target_lines=60),
         Section(id="I.C", title="Coverage C — Personal Property", target_lines=150),

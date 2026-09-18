@@ -127,8 +127,9 @@ def value_occurrences(text: str, value: FactValue) -> int:
 NUMBER_WORDS = set(ONES[1:] + [t for t in TENS if t] + ["hundred", "thousand", "million"])
 _ALLOWED_DIGIT_PATTERNS = [
     re.compile(r"\*\*[A-Z]{1,3}\.\d+(?:\.\d+)?\*\*"),      # **A.1**, **B.2.1**, **210.A** handled below
-    re.compile(r"\*\*\d{3}\.[A-Z]\*\*"),                     # **210.A**
+    re.compile(r"\*\*\d{3}\.[A-Z]{1,2}\*\*"),                # **210.A**, **120.AI** — manuals number past Z
     re.compile(r"\*\*\d{1,3}\.\d+(?:\.\d+)?\*\*"),         # **110.1**, **12.3.4** — bold paragraph numbers are structure
+    re.compile(r"\b\d{3}\.[A-Z]{1,2}(?:\.\d+)?\b"),            # 120.C, 120.AI, 210.A.2 — a manual rule cited in running text
     re.compile(r"\*\*\d+\.\*\*"),                            # **1.**
     re.compile(r"\b(?:Rule|Chapter|Part|Table|Section|Paragraph)s? \d{1,3}(?:\.\d+)?\b"),
     re.compile(r"\b[A-Z]{1,3}\.\d+(?:\.\d+)?\b"),           # A.3, I.S.5, T.1

@@ -28,7 +28,7 @@ MAX_ATTEMPTS = 3
 KIND_GUIDANCE = {
     "prose": "Write continuous prose paragraphs. No numbered provisions.",
     "provisions": "Write numbered provisions in this voice's numbering style, using the numbering prefix given.",
-    "definitions": "Write a numbered list of defined terms. Each entry begins with the bold number and the term in double quotes, where the term is the slot, then 'means' and a definition of two to four sentences. Do not define anything that is not a slot.",
+    "definitions": "Write a numbered list of defined terms. Each entry begins with the bold number and the term in double quotes, where the term is the slot marker, then 'means' and a definition of three to five sentences with an example of what the term does and does not include. Use each term's marker ONLY in its own heading position; when a term is mentioned inside another definition, write the word plainly without any marker. Do not define anything that is not a slot.",
     "faq": "Write the section in the trainer's question-and-answer or worked-example style as the section title suggests.",
     "table": "Do not write a table. Write two or three short paragraphs introducing what the table (which will be generated separately) contains.",
     "schedule": "Write two or three short paragraphs introducing the schedule; the schedule itself is generated separately.",
@@ -100,6 +100,8 @@ def check_draft(job: SectionJob, text: str) -> list[str]:
             problems.append(f"unslotted numerals: {sorted(set(nums))[:8]}")
     lines = text.count("\n") + 1
     lo, hi = int(job.target_lines * 0.7), int(job.target_lines * 1.4)
+    if job.kind == "definitions":
+        lo = int(job.target_lines * 0.4)   # fourteen one-paragraph entries are ~30 lines; the model will not pad a glossary
     if job.kind in ("table", "schedule"):
         lo, hi = 3, 40
     if not lo <= lines <= hi:
