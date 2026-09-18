@@ -283,14 +283,40 @@ async def ensure_provisions(sha: str, blobs: dict[str, str] | None = None) -> di
         corpus = await ensure_local_corpus(sha, blobs)
         try:
             idx = json.loads("\n".join(corpus.lines(".provisions-index.json")))
-            if idx.get("schema_version") != SCHEMA_VERSION or idx.get("corpus_sha") != sha:
-                raise ValueError("provisions index is for another commit or schema")
+            if idx.get("schema_version") != SCHEMA_VERSION or not matches_tree(idx, corpus):
+                raise ValueError("provisions index does not describe this tree")
             INDEX_SOURCE[sha] = "committed"
         except (FileNotFoundError, ValueError, json.JSONDecodeError):
             idx = build_provisions_index(corpus, sha)
             INDEX_SOURCE[sha] = "built"
         _INDEXES[sha] = idx
     return idx
+
+
+def matches_tree(index: dict, corpus, sample: int = 64) -> bool:
+    """Does the committed index describe this tree? The workflow builds the index at
+    the source commit and commits it with the wiki, so its `corpus_sha` is always one
+    commit behind the SHA the agent pins; the SHA is not the test. The test is the
+    content: every source document accounted for, and a deterministic sample of
+    provisions (first, last and evenly spaced) whose text still hashes as recorded."""
+    ps = index.get("provisions") or []
+    docs = {p for p in corpus.paths(suffix=".md") if is_source(p)}
+    if set(index.get("sections") or {}) != docs or not ps:
+        return False
+    step = max(1, len(ps) // sample)
+    for p in ps[::step] + [ps[-1]]:
+        try:
+            lines = corpus.lines(p["document"])
+        except FileNotFoundError:
+            return False
+        if p["end"] > len(lines):
+            return False
+        text = lines[p["start"] - 1:p["end"]]
+        if p.get("layout") == "pdf-text":
+            text = [l for l in text if not (HEADER_RE.match(l) or FOOTER_RE.match(l))]
+        if hashlib.sha256(("\n".join(text) + "\n").encode()).hexdigest() != p["content_hash"]:
+            return False
+    return True
 
 
 def by_id(index: dict, provision_id: str) -> dict | None:
