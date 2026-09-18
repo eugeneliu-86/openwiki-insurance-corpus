@@ -121,16 +121,15 @@ def check_draft(job: SectionJob, text: str) -> list[str]:
     if re.search(r"\{\{(?:fact|def|contra):[^}]*\}\}[\w-]", text) or re.search(r"[\w-]\{\{(?:fact|def|contra):", text):
         problems.append("a value marker is glued to a word or hyphen; leave a space on both sides of {{fact:…}}")
     lines = text.count("\n") + 1
-    # wide on purpose: section length should vary; the band only catches a drafter
-    # that stopped early or ran away, not one that wrote a long or short section
-    lo, hi = int(job.target_lines * 0.5), int(job.target_lines * 2.0)
+    # length is not load-bearing: the band catches only a draft that is broken —
+    # near-empty, or a runaway several times the target. Everything in between
+    # passes; a corpus whose sections all match their target reads as synthetic.
+    lo, hi = max(3, int(job.target_lines * 0.25)), int(job.target_lines * 3.0)
     if job.kind == "definitions":
-        # a glossary is two lines per term (entry + blank) however long the target says;
-        # the floor is the number of terms, and the model is not asked to pad it
         ndefs = sum(1 for s in job.slots if s.kind == "definition")
-        lo = min(int(job.target_lines * 0.4), max(3, 2 * ndefs - 1))
+        lo = min(lo, max(3, 2 * ndefs - 1))
     if job.kind in ("table", "schedule"):
-        lo, hi = 3, 40
+        lo, hi = 3, 80
     if not lo <= lines <= hi:
         problems.append(f"length {lines} lines, wanted {lo}-{hi}")
     if re.search(r"^#{1,6} ", text, re.M):
