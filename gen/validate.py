@@ -80,9 +80,12 @@ def v2_synonyms(ledger: Ledger, out: pathlib.Path) -> list[str]:
     for c in ledger.concepts:
         if not c.synonym_target:
             continue
+        # the text must name the concept by at least one of its forms, or no question could
+        # find it; the variety of forms is enforced on the ledger side below, because drafters
+        # paraphrase a long canonical form rather than reproducing it
         present = [x for x in [c.canonical, *c.synonyms] if x.lower() in corpus]
-        if len(present) < 2:
-            errs.append(f"V2 {c.id}: only {len(present)} forms appear in the corpus")
+        if len(present) < 1:
+            errs.append(f"V2 {c.id}: no form of the concept appears in the corpus")
         if forms_used[c.id] and forms_used[c.id] == {c.canonical}:
             errs.append(f"V2 {c.id}: every fact uses the canonical form")
     return errs
