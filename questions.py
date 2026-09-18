@@ -31,7 +31,7 @@ from gen.render import render_value, renderings, value_occurrences  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent
 COUNTS = {"single": 15, "composed": 25, "assembly": 20, "corpus_wide": 10, "disambiguation": 15, "synonym": 15,
-          "chain": 15, "deep": 15, "offwiki": 15, "abstain": 8, "stale": 6, "stale_control": 6}
+          "chain": 15, "deep": 15, "offwiki_near": 10, "offwiki_far": 10, "abstain": 8, "stale": 6, "stale_control": 6}
 STATE_NAMES = {"FL": "Florida", "TX": "Texas", "CA": "California", "NY": "New York", "LA": "Louisiana", "NC": "North Carolina",
                "CO": "Colorado", "IL": "Illinois"}
 
@@ -67,6 +67,23 @@ class Ctx:
         """Some compiled claim's evidence range covers this placement's line."""
         pl = self.P[key]
         return any(s <= pl["line_start"] <= e for s, e in self.claim_ranges.get(pl["path"], []))
+
+    def section_span(self, doc: Document, line: int) -> tuple[int, int]:
+        """The heading-to-heading line range that contains `line` in the built file."""
+        lines = self.lines(doc)
+        starts = [i for i, l in enumerate(lines, 1) if l.startswith("## ")]
+        for k, s in enumerate(starts):
+            e = (starts[k + 1] - 1) if k + 1 < len(starts) else len(lines)
+            if s <= line <= e:
+                return s, e
+        return 1, len(lines)
+
+    def section_cited(self, key: str) -> bool:
+        """Some compiled claim cites a line of the section this placement is in — the wiki
+        points at the section even though it does not cite this fact's line."""
+        pl = self.P[key]
+        a, b = self.section_span(self.L.doc(self.L.fact(key).document), pl["line_start"])
+        return any(s <= b and e >= a for s, e in self.claim_ranges.get(pl["path"], []))
 
     # text
     def lines(self, doc: Document) -> list[str]:
@@ -404,21 +421,26 @@ def t_deep(c: Ctx) -> list[dict]:
 
 
 def t_offwiki(c: Ctx) -> list[dict]:
-    """Facts no compiled claim cites: the wiki can name the document but not the line.
-    The question names the document, so this tests the step after orientation."""
-    cands = [f for f in c.L.facts if f.id in c.P and f.value.kind in NUMERIC and not c.wiki_cited(f.id)
-             and c.doc(f).type not in ("training",)]
-    facts = spread(cands, COUNTS["offwiki"], [lambda f: c.doc(f).type, lambda f: f.document, lambda f: f.concept], "offwiki")
+    """Facts no compiled claim cites, in two strata (ph. 05 / tier-1 measurement):
+    `offwiki_near` — the wiki cites another line of the same section, so a section
+    expansion reaches the fact; `offwiki_far` — nothing in the section is cited, so
+    only a finding aid or grep reaches it. The question names the document either way."""
+    uncited = [f for f in c.L.facts if f.id in c.P and f.value.kind in NUMERIC and not c.wiki_cited(f.id) and c.doc(f).type != "training"]
+    strata = {"offwiki_near": [f for f in uncited if c.section_cited(f.id)], "offwiki_far": [f for f in uncited if not c.section_cited(f.id)]}
     out = []
-    for i, f in enumerate(facts, 1):
-        d = c.doc(f); sec = c.sec_label(d, f.section)
-        q = pick(f.id, [
-            f"Under {d.title}, what is the {f.surface_form}?",
-            f"What does {d.title} set as the {c.name(c.concept(f))}? Cite the provision.",
-            f"In {d.title}, {sec} ({c.sec_title(f)}): what {f.surface_form} applies?",
-        ])
-        out.append(example(f"offwiki-{i:02d}", "offwiki", q, position=f"{c.words(f.value).capitalize()} ({d.title}, {sec}); no compiled claim cites this line.",
-                           must_state=[c.prop(f)], must_not=c.neighbours(f, 2), gold=[c.cite(f.id)], guidance=c.guidance([f]), editions=c.editions([f])))
+    for split, cands in strata.items():
+        facts = spread(cands, COUNTS[split], [lambda f: c.doc(f).type, lambda f: f.document, lambda f: f.concept], split)
+        for i, f in enumerate(facts, 1):
+            d = c.doc(f); sec = c.sec_label(d, f.section)
+            q = pick(f.id, [
+                f"Under {d.title}, what is the {f.surface_form}?",
+                f"What does {d.title} set as the {c.name(c.concept(f))}? Cite the provision.",
+                f"In {d.title}, {sec} ({c.sec_title(f)}): what {f.surface_form} applies?",
+            ])
+            where = "another line of this section is cited by the wiki" if split == "offwiki_near" else "no line of this section is cited by the wiki"
+            out.append(example(f"{split.replace('_', '-')}-{i:02d}", split, q,
+                               position=f"{c.words(f.value).capitalize()} ({d.title}, {sec}); {where}.",
+                               must_state=[c.prop(f)], must_not=c.neighbours(f, 2), gold=[c.cite(f.id)], guidance=c.guidance([f]), editions=c.editions([f])))
     return out
 
 
