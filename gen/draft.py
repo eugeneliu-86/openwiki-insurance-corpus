@@ -212,6 +212,25 @@ def fake_drafter(prompt: str) -> str:
     return "\n\n".join(paras)
 
 
+def _marker_key(m: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", m.lower())
+
+
+def repair_markers(job: SectionJob, text: str) -> str:
+    """Repair a marker the model mangled — a dot typed as a hyphen, a doubled
+    hyphen — when its letters and digits match exactly one known marker. A long
+    id copied by hand is the one thing a smaller drafter reliably gets wrong, and
+    the repair is a lookup, not a guess: anything ambiguous is left for the check."""
+    known = {_marker_key(m): m for m in [s.marker for s in job.slots] + [r.marker for r in job.refs]}
+    def fix(m: re.Match) -> str:
+        found = m.group(0)
+        if found in known.values():
+            return found
+        hit = known.get(_marker_key(found))
+        return hit if hit else found
+    return re.sub(r"\{\{[^}]*\}\}", fix, text)
+
+
 def draft(job: SectionJob, drafter: Drafter = real_drafter, cache: bool = True) -> str:
     """A checked draft for the job, from cache when available."""
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -230,6 +249,7 @@ def draft(job: SectionJob, drafter: Drafter = real_drafter, cache: bool = True) 
         if problems:
             print(f"[retry {attempt}] {job.document}/{job.section}: {'; '.join(problems)[:200]}", file=sys.stderr, flush=True)
         text = drafter(prompt if not problems else prompt + "\n\nYOUR PREVIOUS ATTEMPT WAS REJECTED FOR:\n- " + "\n- ".join(problems) + "\nFix every item and output the whole section again.")
+        text = repair_markers(job, text)
         problems = check_draft(job, text)
         if not problems:
             if cache:

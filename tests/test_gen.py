@@ -163,3 +163,13 @@ def test_pdf_text_wrap_keeps_a_rendered_value_on_one_line():
     assert all(len(l) <= WRAP for l in lines)
     assert sum("ten thousand dollars" in l for l in lines) == 1
     assert any(l.startswith("  a. ") for l in lines) and any(l.startswith("  (1) ") for l in lines)
+
+
+def test_mangled_marker_is_repaired_when_unambiguous():
+    from gen.draft import repair_markers
+    from gen.plan import SectionJob, Slot
+    j = SectionJob(document="d", section="S", title="T", kind="provisions", voice="iso-form", target_lines=12, numbering_prefix="S",
+                   slots=[Slot(marker="{{fact:bulletin.tx.b-2021-08.B.3.named-storm-period-hours}}", kind="fact", concept_name="x", concept_desc="x", value_kind="hours")])
+    fixed = repair_markers(j, "The period is {{fact:bulletin.tx-b-2021-08.B.3.named-storm-period-hours}} after landfall.")
+    assert "{{fact:bulletin.tx.b-2021-08.B.3.named-storm-period-hours}}" in fixed
+    assert repair_markers(j, "{{fact:something.else}}") == "{{fact:something.else}}"  # no unique match: left for the check
