@@ -101,7 +101,10 @@ def check_draft(job: SectionJob, text: str) -> list[str]:
     lines = text.count("\n") + 1
     lo, hi = int(job.target_lines * 0.7), int(job.target_lines * 1.4)
     if job.kind == "definitions":
-        lo = int(job.target_lines * 0.4)   # fourteen one-paragraph entries are ~30 lines; the model will not pad a glossary
+        # a glossary is two lines per term (entry + blank) however long the target says;
+        # the floor is the number of terms, and the model is not asked to pad it
+        ndefs = sum(1 for s in job.slots if s.kind == "definition")
+        lo = min(int(job.target_lines * 0.4), max(3, 2 * ndefs - 1))
     if job.kind in ("table", "schedule"):
         lo, hi = 3, 40
     if not lo <= lines <= hi:
