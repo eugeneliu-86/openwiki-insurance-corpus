@@ -13,6 +13,19 @@ Organize by coverage part first (Coverage A dwelling, B other structures, C pers
 
 Give the carrier's internal underwriting guidance its own top-level area, separate from contract language. Guidance is not part of any policy and must never be presented as though it were. Where guidance depends on a form provision, say so explicitly and cite both.
 
+## Lines, states and document families
+
+The corpus spans five lines of business (HO-3, HO-4, HO-5, HO-6, DP-3) and eight states (FL, TX, CA, NY, LA, NC, CO, IL). Line and state are organising axes, not page subjects: a page about a coverage concept covers that concept across every line, edition and state variant the corpus holds, and cites each variant it names. A page that describes only the HO-3 2024-03 position on a concept that HO-6 or a Texas amendatory form also addresses is incomplete.
+
+Six document families, each under its own top-level directory:
+
+- `forms/` — base forms, endorsements and state amendatory forms. Contract language. A form line has several editions and every edition is live knowledge.
+- `bulletins/` — regulator-issued. Regulation. A later bulletin may supersede an earlier one on the same subject; document both and say which is in force.
+- `guidelines/` — the carrier's living internal guidance. Guidance.
+- `manuals/` — the carrier's underwriting, claims and rating manuals, organised by function. Guidance. A manual is long and a manual *chapter* (one `## Rule NNN` heading and its rules) is a source to cite, not a page to write: organise manual material by the coverage or operational subject it governs, and cite the rule number and lines. The rating manual is reference material: cite it for a rating fact when a page needs one, and do not build pages around rating tables.
+- `memoranda/` — filing memoranda explaining what changed between two editions of a form. Interpretation, never authority. Document a memorandum's statements on the page for the form edition it describes, cited to the memorandum and to the form provision it explains; where the two disagree, the form controls and the page says so.
+- `training/` — training modules and customer FAQs. Interpretation, never authority. Training material may restate a position without its numbers; cite it only for the operational expectation it establishes, and take every limit, deductible, period and percentage from the form, bulletin, guideline or manual that states it.
+
 ## Page types
 
 Every page must declare a `type` in its front matter, chosen from exactly this list and written verbatim in lower case. Do not invent new values, do not add qualifiers, and do not describe the page in the type field.

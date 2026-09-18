@@ -17,6 +17,9 @@ on:
       - 'forms/**'
       - 'bulletins/**'
       - 'guidelines/**'
+      - 'manuals/**'
+      - 'memoranda/**'
+      - 'training/**'
   workflow_dispatch:        # manual, and the ingest API's explicit dispatch (C6)
     inputs:
       mode:
@@ -66,7 +69,17 @@ jobs:
           node-version: '22'
 
       - name: Install OpenWiki
-        run: npm install --global openwiki@0.5.0 mermaid@11.16.0 jsdom@29.1.1
+        # The parallel page runner (OPENWIKI_PAGE_CONCURRENCY) is on a branch
+        # of langchain-ai/openwiki, not yet on npm. Built from a pinned commit;
+        # the package has no `prepare` script, so a plain git install would
+        # ship no dist/. Corpus-expansion spec ph. 04 §2, option 2.
+        run: |
+          git clone --quiet --no-checkout https://github.com/langchain-ai/openwiki.git /tmp/openwiki
+          git -C /tmp/openwiki checkout --quiet a3e1d9d450410bf3dae31171293efed9930fd386
+          corepack enable
+          (cd /tmp/openwiki && pnpm install --frozen-lockfile && pnpm run build)
+          npm install --global /tmp/openwiki mermaid@11.16.0 jsdom@29.1.1
+          openwiki --version
 
       - name: Record the previous compile
         id: prev
@@ -95,17 +108,18 @@ jobs:
           mode=$(git log $range --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
           mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
           case "$mode" in
-            deep)   model='gpt-5.6-terra'; effort='high' ;;
+            deep)   model='gpt-5.6-terra'; effort='high';   workers=4 ;;
             # Fast is terra at LOW effort, not gpt-5.4-mini. Mini planned 20 of
             # 29 pages for a 23-line net-new endorsement and two of its workers
             # exited without submitting (an interrupted run); terra planned the
             # 3 pages the document actually touches. Planning quality decides
             # the wall time here, not per-call latency. (Mini also takes no
             # effort setting — an empty effort means "do not set the variable".)
-            fast)   model='gpt-5.6-terra'; effort='low'  ;;
-            *)      mode='normal'; model='gpt-5.6-terra'; effort='medium' ;;
+            fast)   model='gpt-5.6-terra'; effort='low';    workers=6 ;;
+            *)      mode='normal'; model='gpt-5.6-terra'; effort='medium'; workers=6 ;;
           esac
           echo "mode=$mode"     >> "$GITHUB_OUTPUT"
+          echo "workers=$workers" >> "$GITHUB_OUTPUT"
           echo "model=$model"   >> "$GITHUB_OUTPUT"
           echo "effort=$effort" >> "$GITHUB_OUTPUT"
           echo "compile mode: $mode → $model @ ${effort:-model default}"
@@ -131,6 +145,7 @@ jobs:
           # gateway key hits api.openai.com and fails.
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENWIKI_MODEL_ID: ${{ steps.mode.outputs.model }}
+          OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}   # the branch caps at 8 and backs off on 429s
           LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
           LANGCHAIN_PROJECT: openwiki
           LANGCHAIN_TRACING_V2: 'true'
@@ -188,7 +203,7 @@ jobs:
           for attempt in 1 2 3; do
             if git push; then echo "landed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
             git fetch --quiet origin main
-            if [ -n "$(git diff --name-only HEAD origin/main -- forms bulletins guidelines)" ]; then
+            if [ -n "$(git diff --name-only HEAD origin/main -- forms bulletins guidelines manuals memoranda training)" ]; then
               echo "superseded: a newer push changed source documents; the run it triggered recompiles. Not pushing a stale compile."
               echo "landed=superseded" >> "$GITHUB_OUTPUT"; exit 0
             fi

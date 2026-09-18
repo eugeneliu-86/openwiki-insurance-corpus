@@ -18,8 +18,15 @@ from dataclasses import dataclass, field
 from contracts.evidence_anchor import parse_resource
 
 #: Role precedence for relation direction: the acting document comes first.
-PRECEDENCE = ("guideline", "bulletin", "state-amendatory", "endorsement", "base-form")
-BASE_FORMS = frozenset({"HO-3"})
+#: Interpretation acts on guidance, guidance and regulation act on contract:
+#: training and memoranda explain the rest, guidelines and manuals constrain how
+#: forms are used, bulletins are implemented by amendatory forms, endorsements
+#: act on base forms.
+PRECEDENCE = (
+    "training", "memorandum", "guideline", "manual",
+    "bulletin", "state-amendatory", "endorsement", "base-form",
+)
+BASE_FORMS = frozenset({"HO-3", "HO-4", "HO-5", "HO-6", "DP-3"})
 
 
 def document_role(path: str) -> str | None:
@@ -28,6 +35,12 @@ def document_role(path: str) -> str | None:
         return "bulletin"
     if path.startswith("guidelines/"):
         return "guideline"
+    if path.startswith("manuals/"):
+        return "manual"
+    if path.startswith("memoranda/"):
+        return "memorandum"
+    if path.startswith("training/"):
+        return "training"
     if path.startswith("forms/"):
         parts = path.split("/")
         if len(parts) < 5:

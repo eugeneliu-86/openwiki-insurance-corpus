@@ -24,7 +24,7 @@ def check(ok: bool, why: str) -> None:
 print("the trigger cannot fire on compiled output (the loop-breaker)")
 paths_block = re.search(r"on:\s*\n\s*push:.*?paths:\s*\n((?:\s+- .*\n)+)", WF, re.S)
 paths = re.findall(r"- '([^']+)'", paths_block.group(1)) if paths_block else []
-check(sorted(paths) == ["bulletins/**", "forms/**", "guidelines/**"], f"on.push.paths is exactly the three source dirs: {paths}")
+check(sorted(paths) == ["bulletins/**", "forms/**", "guidelines/**", "manuals/**", "memoranda/**", "training/**"], f"on.push.paths is exactly the six source dirs: {paths}")
 check("openwiki/" not in " ".join(paths), "on.push.paths never includes openwiki/")
 
 print("C6 — compiles serialize")
@@ -39,7 +39,7 @@ check(re.search(r"uses:\s*actions/checkout@[0-9a-f]{40}[^\n]*\n\s+with:[^\n]*\n(
       "checkout uses ref: main (a dispatch queued behind a push otherwise recompiles an already-compiled tree)")
 check("COMMIT_OUTCOME: ${{ steps.commit.outcome }}" in WF and "id: commit" in WF,
       "the callback knows whether the commit landed (a rejected push must not report complete)")
-check("COMMIT_LANDED: ${{ steps.commit.outputs.landed }}" in WF and "landed=superseded" in WF and "-- forms bulletins guidelines" in WF,
+check("COMMIT_LANDED: ${{ steps.commit.outputs.landed }}" in WF and "landed=superseded" in WF and "-- forms bulletins guidelines manuals memoranda training" in WF,
       "a push lost to a newer SOURCE commit is reported superseded, not failed; a non-source commit is rebased over")
 check("steps.commit.outputs.landed != 'superseded'" in WF, "a superseded compile does not re-dispatch a resume")
 
@@ -73,6 +73,10 @@ print("C10 — the model key reaches only the compile step")
 check(len(re.findall(r"^\s+OPENAI_API_KEY:", WF, re.M)) == 1,
       "OPENAI_API_KEY is assigned into exactly one step's env (the compile)")
 check("OPENAI_BASE_URL" in WF, "OPENAI_BASE_URL is set (a gateway key against api.openai.com fails)")
+
+print("the parallel runner is pinned and its concurrency comes from the resolved mode")
+check(re.search(r"checkout --quiet [0-9a-f]{40}", WF) is not None, "OpenWiki is built from a full-SHA-pinned commit")
+check("OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}" in WF, "OPENWIKI_PAGE_CONCURRENCY is set from the resolved mode")
 
 print("compile mode rides on the commit, not the dispatch")
 check("Compile-Mode:" in WF and "git log $range --format=%B" in WF and "$prev..HEAD" in WF, "the workflow reads the Compile-Mode trailer from the commits since the last compile (a refresh commit can sit on top of the ingest)")
