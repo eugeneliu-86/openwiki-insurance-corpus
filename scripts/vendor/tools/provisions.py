@@ -332,7 +332,7 @@ async def _expand_section(document: str, section: str | None = None, paragraph: 
 
 
 #: The agent's tool; absent when langchain is not installed (the vendored copy).
-expand_section = tool(parse_docstring=True)(_expand_section) if tool is not None else None
+expand_section = tool("expand_section", parse_docstring=True)(_expand_section) if tool is not None else None
 
 
 def section_lookup(index: dict) -> Callable[[str, int], str | None]:
