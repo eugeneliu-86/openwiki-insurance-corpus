@@ -28,7 +28,7 @@ on:
         options: [deep, normal, fast]
         default: normal
       model:
-        description: \"Model id for the compile (default: the OPENWIKI_MODEL_ID repo variable, else gpt-5.6-terra)\"
+        description: "Model id for the compile (default: the OPENWIKI_MODEL_ID repo variable, else gpt-5.6-terra)"
         type: string
         required: false
         default: ''
