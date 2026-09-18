@@ -42,10 +42,13 @@ OpenWiki's relocation anchors ever fire.
 
 ## Conventions
 
-**One paragraph per line. Never hard-wrap.** OpenWiki hashes evidence per line and uses three
-lines of surrounding context to relocate a citation when text moves. Hard-wrapped legal text
-produces many short, near-identical lines, which defeats that and yields false "unresolved"
-flags. Long lines are correct here even though they look wrong in a narrow editor.
+**One paragraph per line on most documents; PDF-extracted layout on a marked quarter.** OpenWiki
+hashes evidence per line and uses surrounding context to relocate a citation when text moves, so
+the default is one provision per line however long. Twenty-four documents (the DP-3 line, seven
+endorsement editions, five bulletins, five guidelines) are instead laid out as a PDF extractor
+would produce them: wrapped at 88 columns, sub-items on their own lines, a running header and
+footer every 55 lines. That subset exists to test retrieval and anchoring under real conditions;
+a planted value is never split across a wrap.
 
 **Number every section, and keep numbering stable within an edition.** Claims cite sections by
 name in their statement and by line range in their evidence; stable numbering is what makes a
