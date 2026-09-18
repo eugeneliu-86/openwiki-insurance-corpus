@@ -40,6 +40,17 @@ The type carries the distinction between contract language, internal guidance, a
 
 Section index pages do not declare a type.
 
+## Pages the wiki must have
+
+The calibration compile left whole document families uncited. These pages are required, whatever else the plan contains:
+
+- **One `state-overlay` page per state that has an amendatory form or a bulletin in the corpus.** The page lists every amendatory form edition and bulletin for that state, states each notice period, deadline, deductible rule and disclosure requirement they impose, and cites each one. A state page that names the form but not its periods and thresholds is incomplete.
+- **One `coverage` page per base form line** (HO-3, HO-4, HO-5, HO-6, DP-3) covering its editions: what each edition changed, cited to both editions and to the filing memorandum for that edition where one exists. Every memorandum in `memoranda/` must be cited by at least one page.
+- **One `underwriting-guidance` page per guideline and per underwriting-manual chapter group**, and **one `claims-guidance` page per claims guideline**, each stating the thresholds, referral triggers and time limits the source sets and citing them. Guidance documents carry most of the corpus's operational numbers; a guidance page that summarises without citing the numbers has missed its purpose.
+- **Training modules and FAQs** are cited from the pages whose subject they teach, for the operational expectation they set, never for a number.
+
+Prefer more pages with fewer, well-cited claims over a few long pages. A page should be readable in one sitting; split by subject when it grows past roughly two hundred lines.
+
 ## What counts as a material proposition
 
 Document what changes an underwriting decision, a claim decision, or an operational expectation. Specifically: what a coverage part covers and excludes; the exact conditions under which an exclusion is written back by an endorsement; sublimits, deductibles, and how they interact; loss settlement basis and when it changes; the edition and state variations that govern a given policy; referral triggers and authority levels; and the notice, proof, and time-limit conditions an insured must satisfy.
