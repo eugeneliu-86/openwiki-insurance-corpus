@@ -14,6 +14,7 @@ import os
 import pathlib
 import re
 import sys
+import time
 from collections.abc import Callable
 
 from .plan import SectionJob
@@ -131,9 +132,9 @@ def _model():
         raise RuntimeError("drafting needs the gateway key in LANGSMITH_API_KEY_GATEWAY (lsv2_sk_…)")
     return init_chat_model(MODEL, model_provider="openai", base_url=(os.environ.get("MODEL_BASE_URL") or DEFAULT_BASE_URL).rstrip("/"),
                            api_key=key, use_responses_api=True, reasoning={"effort": "medium"}, verbosity="medium", max_tokens=16000,
-                           # a stalled connection once held eight workers for an hour with no error; a long
-                           # chapter drafts in under five minutes, so anything past that is a dead socket
-                           timeout=300, max_retries=3)
+                           # a stalled connection once held eight workers for an hour with no error. Measured
+                           # over 590 drafts: median 39 s, p90 63 s, so two minutes is a dead socket, not a slow draft
+                           timeout=120, max_retries=2)
 
 
 _MODEL = None
@@ -143,7 +144,18 @@ def real_drafter(prompt: str) -> str:
     global _MODEL
     if _MODEL is None:
         _MODEL = _model()
-    out = _MODEL.invoke(prompt)
+    # the client's own retries cover a 5xx; this loop covers the connection resets a
+    # long build meets on a flaky network, which otherwise abort the whole run
+    for attempt in range(6):
+        try:
+            out = _MODEL.invoke(prompt)
+            break
+        except Exception as exc:  # noqa: BLE001 — anything transport-shaped
+            if attempt == 5:
+                raise
+            wait = 15 * (attempt + 1)
+            print(f"[drafter] {type(exc).__name__}: retrying in {wait}s", file=sys.stderr, flush=True)
+            time.sleep(wait)
     content = out.content if isinstance(out.content, str) else "".join(b.get("text", "") for b in out.content if isinstance(b, dict))
     return content.strip()
 
