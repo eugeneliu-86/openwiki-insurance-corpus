@@ -1,8 +1,9 @@
 # OpenWiki Insurance Corpus
 
 A synthetic homeowners insurance corpus, used as the primary source layer for the OpenWiki
-insurance POC. The current tree is the generated corpus (calibration slice first, then the full
-~110 documents); the original sixteen hand-written documents are tagged `small-corpus-v1`. The proposal that motivates it lives in the sibling `openwiki-insurance-poc` repo
+insurance POC. The current tree is the generated corpus of 111 documents (about 125,000 lines); the original
+sixteen hand-written documents are tagged `small-corpus-v1`, and the 30-document calibration slice is
+commit `f07eb60`. The proposal that motivates it lives in the sibling `openwiki-insurance-poc` repo
 under `docs/poc-proposal.md`.
 
 Nothing here is a real carrier's product, a real ISO form, or legal advice. Form numbers
@@ -76,12 +77,14 @@ the retrieval agent reads this whole tree.
 
 | Family | Documents | Notes |
 | --- | --- | --- |
-| `forms/` | HO-3 (2018-09, 2024-03), HO-6 (2023-02), seven endorsements in two editions each where paired, five state amendatory forms | ISO-style numbered provisions |
-| `bulletins/` | TX ×3, FL ×2, IL ×1 | two superseded pairs |
-| `guidelines/` | TX appetite, water-loss handling, referral matrix | living guidance |
-| `manuals/` | underwriting manual (~10,000 lines) | rule-numbered chapters |
-| `memoranda/` | HO-3 2024-03 filing memorandum | what changed and why |
-| `training/` | water losses 101, roof claims, customer FAQ | interpretation; the FAQ carries no numbers |
+| `forms/` base forms | 12 | HO-3 ×3 editions, HO-4 ×2, HO-5 ×2, HO-6 ×2, DP-3 ×3; ISO-style numbered provisions |
+| `forms/` endorsements | 36 | multistate (`MS`), most in two editions with 15–25 changes and some renumbering between them |
+| `forms/` state amendatory | 12 | CA, CO, FL, IL, LA, NC, NY, TX; each implements a bulletin |
+| `bulletins/` | 20 | eight states; six superseded pairs |
+| `guidelines/` | 12 | appetite, claims handling, authority — living guidance |
+| `manuals/` | 3 | underwriting, claims, rating; 5,000–10,000 lines each, rule-numbered chapters |
+| `memoranda/` | 8 | filing memoranda: what an edition changed and why |
+| `training/` | 8 | modules and customer FAQs; ten documents across the corpus are distractors that name concepts without numbers |
 
 Documents are cross-wired by design: endorsements write back or preserve base-form exclusions,
 amendatory forms implement bulletins, guidelines and manual rules constrain when forms attach, and
