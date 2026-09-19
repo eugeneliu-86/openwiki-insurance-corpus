@@ -5,7 +5,7 @@ description: Cross-state homeowners referral guidance for separating appetite, d
 tags: [underwriting, referral, authority, homeowners, documentation]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-5802aac0ff04777c19a4717f
     resource: repo://forms/HO/MS/HO-23-74/2025-05.md
@@ -19,7 +19,7 @@ sources:
     resource: repo://guidelines/authority/referral-matrix.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Referral Authority
 
@@ -143,9 +143,36 @@ If a policy was bound outside authority, promptly advise the authorized decision
 - Keep underwriting guidance separate from contract language. If a coverage question remains unresolved, preserve the competing facts and applicable form provisions and route it for the appropriate coverage or claims review; do not use this Matrix to fill a contract gap. [Matrix H.0.1–H.0.3](repo://guidelines/authority/referral-matrix.md#L15-L19) [Matrix H.6.6 and H.6.18](repo://guidelines/authority/referral-matrix.md#L597-L621)
 - Apply referral consistently regardless of producer relationship or account preference, and do not treat one exception as authority for another risk. [Matrix H.7.33–H.7.34](repo://guidelines/authority/referral-matrix.md#L793-L797) [Personal Lines Underwriting Manual, Rule 300.BN](repo://manuals/underwriting/manual.md#L4383-L4387)
 
+## Entry points and lifecycle ownership
+
+Referral controls apply at more than initial binding. Route the event to the rule and business function that owns the action, while keeping the same evidence and documented-direction discipline:
+
+- **New business and coverage changes:** Rule 300 owns active delegation, effective date, material facts, required approval, approved terms, and final authority review. A material change before issuance requires a new authority determination; a post-bind change may require account action rather than an informal correction. [Manual Rule 300.E–300.F and 300.X–300.Y](repo://manuals/underwriting/manual.md#L4017-L4027) [Manual Rule 300.BG–300.BR](repo://manuals/underwriting/manual.md#L4341-L4411)
+- **Renewal:** Rule 700 requires review of every renewal file for changes to eligibility, exposure, valuation, occupancy, or loss potential. Resolve conflicting information and material outstanding conditions before releasing renewal terms; two paid property claims during the current term require referral, and inspection evidence must be current under the rule’s renewal standard. [Manual Rule 700.A–700.F](repo://manuals/underwriting/manual.md#L9131-L9165) [Manual Rule 700.G–700.S](repo://manuals/underwriting/manual.md#L9167-L9243)
+- **Cancellation, nonrenewal, withdrawal, and binding suspension:** Rule 800 first classifies the action, verifies policy status and the underwriting basis, and uses verified policy, billing, inspection, claim, and applicant information. A pending nonrenewal blocks renewal output; an uncertain basis is referred before notice preparation. The Manual’s timing instructions are internal workflow controls, not a substitute for the applicable policy, state requirement, or legal notice analysis. [Manual Rule 800.A–800.D](repo://manuals/underwriting/manual.md#L9499-L9521) [Manual Rule 800.M–800.P](repo://manuals/underwriting/manual.md#L9571-L9593)
+- **Claims and liability allegations:** Rule 310 makes open or disputed claims, bodily-injury or property-damage liability allegations, intentional-conduct allegations, litigation, and demands for damages underwriting referral triggers, with the applicable binding, issuance, renewal, or coverage-change hold. Open a handling file, record the report without deciding coverage from its label, review declarations, and route coverage or settlement decisions through claims authority. [Manual Rule 310.A–310.I](repo://manuals/underwriting/manual.md#L4413-L4467) [Matrix H.6.1–H.6.18](repo://guidelines/authority/referral-matrix.md#L587-L621)
+- **Post-bind changes:** Rule 300 requires review of material changes after binding and escalation when cancellation, restriction, or another corrective action may be needed. Rule 900 separately refers material post-bind changes affecting eligibility or rating. Do not use a referral note to make an unsupported retroactive coverage change. [Manual Rule 300.BH–300.BI](repo://manuals/underwriting/manual.md#L4347-L4357) [Manual Rule 900.AK](repo://manuals/underwriting/manual.md#L10083-L10087)
+
+### Catastrophe holds have scoped triggers
+
+Do not merge the Manual’s catastrophe controls into one undocumented number. Rule 320.39 suspends binding for storm-exposed risks when forecast landfall is within **48 hours**. Rule 800.I–800.J suspends new binding and routes affected **new business, Coverage A increases, and location additions** for catastrophe review when forecast landfall is within **72 hours**, with territory verification and authorized release controls. These provisions have different scopes and owners; identify the applicable transaction and territory, record the forecast source and hold, and escalate an overlap or conflict before processing. [Manual Rule 320.39](repo://manuals/underwriting/manual.md#L4993-L4997) [Manual Rule 800.I–800.L](repo://manuals/underwriting/manual.md#L9547-L9569)
+
+## Documentation controls and evidence state
+
+The referral file is an evidence record, not merely a message to a senior underwriter. Rule 610 requires the handler to identify the source and receipt date of material facts, distinguish received information from later verification, record discrepancies, and state whether the outcome is acceptable, declined, referred, restricted, or conditional. It also requires the referral reason and trigger, information supplied for review, resulting direction, material conditions, authority level, hold reason, and release decision to be recorded. [Manual Rule 610.A–610.I](repo://manuals/underwriting/manual.md#L8805-L8857) [Manual Rule 610.V–610.Y](repo://manuals/underwriting/manual.md#L8931-L8953) [Manual Rule 610.AG and 610.AP](repo://manuals/underwriting/manual.md#L8997-L9001) [Manual Rule 610.AL–610.AM](repo://manuals/underwriting/manual.md#L9027-L9037) [Manual Rule 610.AJ](repo://manuals/underwriting/manual.md#L9015-L9019)
+
+Use explicit evidence states in the record:
+
+1. **Reported:** attribute applicant, producer, claimant, inspection, external, or other source statements to that source; do not convert a statement into a verified fact.
+2. **Verified or unresolved:** record the verification attempt, source limitations, conflict, and remaining uncertainty. Rule 610 requires material information that cannot be verified to remain identified rather than presented as established.
+3. **Decision and control:** record the trigger, requested action, authority used, hold status, response, exact conditions, responsible follow-up, completion evidence, and final disposition. A recommendation is not an approval, and completion cannot be closed on an unsupported representation. [Manual Rule 610.D, 610.Y, and 610.AI](repo://manuals/underwriting/manual.md#L8823-L8827) [repo://manuals/underwriting/manual.md#L8949-L8953) [repo://manuals/underwriting/manual.md#L9009-L9013)
+
+Before release, perform four focused checks: the hold has a named reason and release status; the response identifies an authorized decision maker; the requested transaction, insured, property, limit, and material facts match the approval; and any changed fact, departure, correction, or post-bind issue has its own recorded direction. Preserve the referral request, sources, communications, approval or decline, conditions, completion evidence, and final action. [Matrix H.7.15–H.7.18 and H.7.21–H.7.25](repo://guidelines/authority/referral-matrix.md#L739-L770) [Manual Rule 610.AS–610.BB](repo://manuals/underwriting/manual.md#L9069-L9127)
+
 ## Related control pages
 
 - [Binding Authority Guidance](/openwiki/underwriting/guidelines/binding-authority.md) — delegated ceilings, exceptions, approval scope, and binding-file controls.
+- [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) — claim intake, coverage review, liability escalation, settlement authority, and closure when a Rule 310 trigger is present.
 - [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — Rules 300–320 and 900, including mandatory referral and no-clearance outcomes.
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product and appetite eligibility before applying authority ceilings.
 - [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md) — issued form, endorsement, state wording, and internal-control boundaries.

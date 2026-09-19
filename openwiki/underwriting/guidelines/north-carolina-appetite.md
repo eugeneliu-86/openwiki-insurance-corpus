@@ -3,9 +3,6 @@ type: underwriting-guidance
 title: North Carolina Homeowners Appetite Guidance
 description: Internal North Carolina homeowners guidance for appetite, referral, property and water risk, storm exposure, loss history, claims handling, and delegated authority. It keeps Rule 550 underwriting controls separate from the North Carolina contract overlay, claims bulletin, and fungi-limit disclosure boundary.
 tags: [underwriting, North Carolina, homeowners, appetite, referrals, property-risk, water-risk, storm, delegated-authority]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -17,7 +14,10 @@ sources:
     resource: repo://guidelines/appetite/nc-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # North Carolina Homeowners Appetite Guidance
 
@@ -83,7 +83,11 @@ The principal NC internal thresholds are:
 
 The $1,000,000 appetite ceiling and $700,000 NC authority ceiling are different controls. Do not reduce, split, or restructure a request to evade a referral, and do not use the generic Rule 300 senior ceiling to bypass the stricter NC Rule 550 state exception. [Manual Rule 300.A–300.D](repo://manuals/underwriting/manual.md#L3991-L4015) [Rule 550.A](repo://manuals/underwriting/manual.md#L7531-L7539)
 
+The manual’s general inspection control can operate earlier than the NC-specific roof gate: Rule 600.B requires a roof survey before binding when roof age reaches **15 years**, while NC Guide H.2.2 and Rule 550.B require a roof inspection at **18 years or greater**. Treat the 15-year survey as an additional manual evidence requirement, not as permission to wait until 18; at 18 or older the NC inspection gate also applies. If the applicable controls or evidence conflict, hold the action and obtain authorized direction. [Manual Rule 600.A–600.B](repo://manuals/underwriting/manual.md#L8501-L8513) [North Carolina Guide H.2.1–H.2.4](repo://guidelines/appetite/nc-homeowners.md#L459-L475) [Rule 550.B](repo://manuals/underwriting/manual.md#L7531-L7539)
+
 Refer, hold, or decline as directed when ownership, insurable interest, occupancy, business or rental use, vacancy, construction, structural condition, access, protection, valuation, environmental exposure, unusual materials, liability hazards, or requested coverage cannot be understood and supported. NC Rule 550 specifically calls out business, care, rental, lodging, vacancy, construction, structural damage, unsafe premises, unusual animals, prior liability, criminal activity, environmental concerns, access disputes, and unusual building features. These are internal eligibility triggers, not policy exclusions. [Rule 550.C–550.O](repo://manuals/underwriting/manual.md#L7541-L7591) [Rule 550.T–550.BH](repo://manuals/underwriting/manual.md#L7609-L7951)
+
+The manual also has a distinct no-clearance outcome: decline a known material condition that cannot be corrected before binding, including unresolved structural, foundation, roof, active-water, or plumbing conditions. A Rule 550 referral is not automatically a decline, but a Rule 320 condition cannot be cleared by an underwriting note or informal exception. [Manual Rule 320.1–320.7](repo://manuals/underwriting/manual.md#L4763-L4805)
 
 ## Roof and property-condition controls
 
@@ -94,6 +98,14 @@ Refer or hold for active leakage, widespread deterioration, missing, lifted, cur
 Apply the same disciplined review to foundations, exterior surfaces, detached structures, utilities, heating, solid-fuel equipment, grounds, access, protective devices, and other property features. A risk with unfinished renovation, unrepaired structural or storm damage, unsafe premises, or unclear condition is not a routine bind. Obtain completion evidence and reassess; do not bind on intention. [North Carolina Guide H.1.7–H.1.18 and H.1.41–H.1.50](repo://guidelines/appetite/nc-homeowners.md#L140-L374) [Rule 550.K–550.R](repo://manuals/underwriting/manual.md#L7573-L7607)
 
 These controls govern eligibility only. Do not convert the 18-year inspection gate, a condition referral, ACV discussion, or an “eighty percent” assessment into a claim exclusion or payment formula. For a claim, identify the issued form and endorsements and determine coverage and settlement under that contract. [North Carolina Guide H.2.29–H.2.31](repo://guidelines/appetite/nc-homeowners.md#L243-L249) [HO 01 32 T.0](repo://forms/HO/NC/HO-01-32/2018-05.md#L13-L57)
+
+### Inspection evidence lifecycle
+
+Rule 600 is a general inspection control that supplements the NC appetite and Rule 550. Order an inspection when material underwriting information is incomplete, inconsistent, or unreliable; do not bind until the issue is resolved or an authorized exception is recorded. Beyond the roof-age gates, representative triggers include vacancy or inadequate security, structural or foundation distress, exterior deterioration, water intrusion or moisture, electrical or heating concerns, plumbing or drainage problems, unstable ground, hazardous vegetation, unsafe access features, construction or incomplete repairs, prior damage, and conflicting third-party or aerial information. These triggers require current evidence and a disposition; they are not contract exclusions. [Manual Rule 600.A and 600.C–600.M](repo://manuals/underwriting/manual.md#L8501-L8579) [Manual Rule 600.N–600.Y](repo://manuals/underwriting/manual.md#L8581-L8651) [Manual Rule 600.Z–600.AM](repo://manuals/underwriting/manual.md#L8653-L8735)
+
+Use an inspection as underwriting evidence, not as professional repair advice. The source must be reliable and sufficiently authoritative for the question presented; unclear, outdated, incomplete, inconsistent, altered, or unverifiable photographs or reports require usable replacement evidence. Review findings promptly, state only material corrective requirements, verify completion with reliable evidence, and close the inspection process only after findings are resolved, referred, or accepted within authority. Protect inspection records and restrict their use to legitimate underwriting purposes. [Manual Rule 600.AN–600.AP](repo://manuals/underwriting/manual.md#L8737-L8753) [Manual Rule 600.AQ–600.AX](repo://manuals/underwriting/manual.md#L8755-L8801)
+
+Manual Rule 610.AA says to treat an inspection report as valid for “18 from its completion” but does not state the unit. Do not invent days, months, or another freshness period from that text: record the completion date, use the other applicable current-evidence controls, and escalate before relying on an interpretation that could change the decision. [Manual Rule 610.AA](repo://manuals/underwriting/manual.md#L8961-L8965) [Manual Rule 100.P](repo://manuals/underwriting/manual.md#L105-L109)
 
 ## Water, drainage, and backup risk
 
@@ -109,6 +121,8 @@ Do not use a water referral as a denial, and do not use an endorsement sublimit 
 
 For underwriting, accept wind and hail exposure only when the roof, dwelling, exterior openings, detached structures, trees, fences, equipment, and surrounding hazards are adequately maintained. For Coverage A over $500,000, obtain a wind-mitigation inspection. Verify claimed shutters, reinforced openings, and other protective features; do not credit unsupported application statements. Refer unrepaired prior wind, hail, roof, or storm damage and retain the basis for any exception. [North Carolina Guide H.3.1–H.3.18](repo://guidelines/appetite/nc-homeowners.md#L663-L745)
 
+Wind-mitigation credit is evidence-controlled: Manual Rule 550.AA requires verification of protective-device information before related treatment is applied and referral when protection claims cannot be supported; conflicting security, fire-protection, or alarm information must also be reconciled. Record the feature, source, verification status, inspection findings, and final treatment rather than treating a checkbox or producer statement as proof. [Rule 550.AA–550.AB](repo://manuals/underwriting/manual.md#L7637-L7643) [Manual Rule 610.M](repo://manuals/underwriting/manual.md#L8877-L8881) [Manual Rule 600.AP–600.AQ](repo://manuals/underwriting/manual.md#L8749-L8759)
+
 The internal guide requires the approved named-storm deductible minimum, prohibits an approved wind deductible above the internal ceiling, and requires any required renewal notice. It does not replace the contract’s deductible provision. When HO 01 32 is attached, its contract layer applies a Windstorm and Hail Deductible of **at least 1% and no more than 5%** to covered loss directly caused by windstorm or hail. The deductible applies after covered loss is established; a nearby storm does not itself establish covered damage. [North Carolina Guide H.3.4–H.3.8](repo://guidelines/appetite/nc-homeowners.md#L680-L700) [HO 01 32 T.1–T.9](repo://forms/HO/NC/HO-01-32/2018-05.md#L59-L77)
 
 If the windstorm deductible increases, HO 01 32 requires written notice at least **30 days before** the increase takes effect. Apply the increased deductible only to a covered loss occurring on or after its effective date, preserve delivery evidence, and do not apply the notice to another policy. This is a contract notice control, not an underwriting permission to change the deductible without authority. [HO 01 32 T.2.1–T.2.15 and T.2.23–T.2.32](repo://forms/HO/NC/HO-01-32/2018-05.md#L211-L275)
@@ -120,6 +134,8 @@ For property in a designated Seacoast Territory, the attached form defines Winds
 ## Prior losses and referral package
 
 Review available property loss information before binding, renewal, or material change. The NC guide requires review of the preceding **3 years** and referral at **2 paid property claims**. Count the event accurately, but do not stop at the count: evaluate cause, location, recurrence, repair quality, mitigation, current condition, open or disputed activity, and whether a withdrawn, denied, or unpaid report still reveals a material hazard. [North Carolina Guide H.5.1–H.5.10](repo://guidelines/appetite/nc-homeowners.md#L1077-L1127) [Rule 550.AF–550.AJ](repo://manuals/underwriting/manual.md#L7657-L7675)
+
+The general manual adds mandatory holds that are separate from the NC paid-claim threshold. Refer a reported loss at or above **$100,000** and hold binding authority pending disposition; refer any open claim and do not bind, renew, or broaden coverage while it is pending; suspend action for a disputed claim; and refer material application inconsistencies, suspected misrepresentation, or unverifiable ownership. Do not merge these routing triggers with the three-year/two-paid-claim test, and do not treat an unresolved claim as cleared merely because it has not paid. [Manual Rule 310.A–310.C](repo://manuals/underwriting/manual.md#L4413-L4431) [Manual Rule 310.M–310.O](repo://manuals/underwriting/manual.md#L4487-L4503) [Manual Rule 300.M–300.O](repo://manuals/underwriting/manual.md#L4065-L4081)
 
 A usable referral package states:
 
@@ -185,14 +201,16 @@ Do not remove a required condition, change the valuation merely to fit authority
 
 For each material decision, retain the fact and source, receipt and verification dates, current occupancy and ownership, Coverage A and valuation, construction and protection, roof and wind evidence, water path and repair evidence, loss history, requested terms, referral trigger, authority used, conditions, approval, communications, and final disposition. Record adverse facts even when the risk is accepted, distinguish reported from verified information, and do not close a requirement on an unsupported promise. [Manual Rule 610.A–610.E and 610.N–610.Y](repo://manuals/underwriting/manual.md#L8805-L8953) [Manual Rule 610.AG–610.AI](repo://manuals/underwriting/manual.md#L8997-L9013)
 
+For inspection-driven decisions, also record the trigger, requested scope, completion date, source and expertise, verification status, material findings, corrective requirement, authority, and evidence used to close or refer the finding. Manual Rule 600 requires the inspection process to be closed only after material findings are resolved, referred, or accepted within authority; a recommendation is not the same as a binding requirement, and completion cannot rest on an unsupported verbal statement. [Manual Rule 600.AR–600.AX](repo://manuals/underwriting/manual.md#L8761-L8801) [Manual Rule 610.AA–610.AI](repo://manuals/underwriting/manual.md#L8961-L9013)
+
 Before binding or changing the risk, perform these focused checks:
 
-- **Appetite and authority:** Coverage A is within $150,000–$1,000,000; NC authority is confirmed; any amount above $700,000 is referred; no related exposure has been split to evade review.
-- **Roof:** age source and inspection are recorded when age is at least 18 years; condition, repairs, material, photographs, and inaccessible areas are reconciled; planned work is not treated as completed.
-- **Storm:** Coverage A over $500,000 has wind-mitigation evidence; roof and exterior hazards are evaluated; internal deductible direction is documented separately from the attached form’s contract deductible.
-- **Water:** source, path, drainage, plumbing, sump or sewer arrangement, prior losses, protective devices, and remediation are understood; a water-backup request is not treated as coverage without the actual endorsement and declarations.
-- **Losses:** the preceding three years are reviewed; two paid property claims are referred; cause, recurrence, repair, and current condition are documented even when the count alone is not triggered.
-- **Referral and change control:** every exception, unresolved fact, approval, condition, material change, and final decision is recorded before action.
+- **Appetite and authority:** Coverage A is within $150,000–$1,000,000; NC authority is confirmed; any amount above $700,000 is referred; no related exposure has been split to evade review. [Guide H.1.3–H.1.4 and H.7.1–H.7.6](repo://guidelines/appetite/nc-homeowners.md#L120-L128) [Guide H.7.1–H.7.6](repo://guidelines/appetite/nc-homeowners.md#L1473-L1495) [Rule 550.A](repo://manuals/underwriting/manual.md#L7531-L7539)
+- **Roof:** age source and the Manual Rule 600 survey are recorded at 15 years or more, and the NC Rule 550 inspection is recorded at 18 years or more; condition, repairs, material, photographs, and inaccessible areas are reconciled; planned work is not treated as completed. [Manual Rule 600.B](repo://manuals/underwriting/manual.md#L8509-L8513) [Rule 550.B](repo://manuals/underwriting/manual.md#L7537-L7539)
+- **Storm:** Coverage A over $500,000 has wind-mitigation evidence; roof and exterior hazards are evaluated; internal deductible direction is documented separately from the attached form’s contract deductible. [Guide H.3.1–H.3.18](repo://guidelines/appetite/nc-homeowners.md#L663-L745) [Rule 550.AA–550.AB](repo://manuals/underwriting/manual.md#L7637-L7643)
+- **Water:** source, path, drainage, plumbing, sump or sewer arrangement, prior losses, protective devices, and remediation are understood; a water-backup request is not treated as coverage without the actual endorsement and declarations. [Guide H.4.1–H.4.39](repo://guidelines/appetite/nc-homeowners.md#L885-L1073) [Rule 550.M and 550.AQ–550.AS](repo://manuals/underwriting/manual.md#L7581-L7591)
+- **Losses:** the preceding three years are reviewed; two paid property claims are referred; cause, recurrence, repair, and current condition are documented even when the count alone is not triggered. [Guide H.5.1–H.5.30](repo://guidelines/appetite/nc-homeowners.md#L1077-L1231) [Manual Rule 310.A–310.C](repo://manuals/underwriting/manual.md#L4413-L4431)
+- **Referral and change control:** every exception, unresolved fact, approval, condition, material change, and final decision is recorded before action. [Guide H.7.19–H.7.48](repo://guidelines/appetite/nc-homeowners.md#L1546-L1654) [Manual Rule 610.F–610.S and 610.AG–610.AI](repo://manuals/underwriting/manual.md#L8835-L8917) [Manual Rule 610.AG–610.AI](repo://manuals/underwriting/manual.md#L8997-L9013)
 
 For claims, audit the receipt date, acknowledgment, relevant information requests, inspection and cause evidence, mitigation, applicable form and endorsement, written explanation, undisputed payment handling, authority, later information, and closure or reopening decision. These checks test that the workflow is being followed; they do not substitute internal guidance for the contract or bulletins.
 

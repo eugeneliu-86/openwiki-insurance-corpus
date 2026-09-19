@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:7534e2a32b75698a4f97b5435c1ab8885a83e898637ba830dbd259dd7a8ea521",
+  "pageVersion": "sha256:50ccfbc1513ec763f24c4dfd1d1d1d8de0e5f968a9578d5a6f9c3b6f543502e9",
   "claims": [
     {
       "id": "claim_832a90ea981a448bbd71eb77807f2a0c",
@@ -355,10 +355,108 @@
           "version": "repo-lines-v1:sha256:8f8de431d1fdd6dff1fd1798546d8c2d3ab8d7e94f68b502ddacf88be00befad:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4OWM4NzQwNzBkNWRkYjdiZDViYmU5MWRmMDMxZjI1ZDJkM2ZlYTNmMjU4NThiNzQyYmY1YWVmYmM2ZjA5MjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxZDQ4ZGQwNzQxMDFkNDZhOWQ0YmU0MDI3ZjlkMWQ2NmM4MDRkNjlhNTJkZjM4ODRkM2JmOGU3MTA0ZDc3MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0YzdhMDVhZjU2MGNkMjY5NDk3NzM0NDY0NDc4OGQxNTJmY2Q2ODE0MDJmYjFhNzI5OTZlMjBlMTllZDkwMjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3OGQ4M2YzNzQ3NzI2OWE0OGZjOTQ1ODdlZWJmNTQ2MGRmNTE2YTcwOWNhZmQwMWNiMmU4YzMzMWQ4NDVjMjcifQ"
         }
       ]
+    },
+    {
+      "id": "claim_00fac4507a9341ee80976e4dcb58b2f1",
+      "statement": "Referral control applies across new business and coverage changes, renewals, adverse actions, claims-related underwriting triggers, and post-bind changes; the owning Manual rule determines the required hold, review, or corrective path rather than treating every referral as an initial binding exception.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4017-L4027",
+          "version": "repo-lines-v1:sha256:6fdb6760764f6d83f80a791d7386741cf8c206c4b9cb22c0af2cb239b38813f3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU5YWI4MzI0Mzg3OWMwMDRkOTUzMjg3NzExN2M2MTYzYzNjYmM2ZWNmNTE3ODM3OTJhNzk2MmE1ZGU2NDVhOGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxNmIxZDAzZDg3OGFmZGU4MDQ2NjM2NGZjODJjZWExOGU3MWZlYTVmYTE1YWQyZDMyZGE5MTg1ZTEwMDQ3ZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0YzRkODMwZGE5YTBlODRjMzJlYzNhMzcxNjMxNjY3YTI5OThlZDdiNTFlZjI0ZTZhMDA2Nzg2ZjM2NTg2NzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg3YjQ0ZWU5NzUwNWM5ZjQ1ZTExMDg1MDU5YjU4ZjU4ZDJiMDEyNGQ1OGQ3MDljYzY0Y2Y5ODU2NjY3M2JjOTAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4341-L4357",
+          "version": "repo-lines-v1:sha256:8c3eb4f2d0164bacc80fee06905051754fe20dce2ed56ea11b5961d15fdf02f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YWNmYjljYTU4NDQ2M2RiZThmMTMxMDc0NjEwOTg4NGQyNTkxMmJmYzdmYTM5NzAwYjJlMDk0YzBlZTMzNGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYThlNzBlZGM5OWI1MmUyODYyMGZkZTA1NTNlNTgyOGFmYzE0ZDMzZjJlYWM0YjNjMmM3MDFlMTZhZDRjZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2MGRmOWM3ZWJmYmVmMmE1YWRkMjEyYWYzNWE4NmIxYTA5MzNkZmFlMDFkMjgwOGIyNWRlNzdkMTgxOTI2NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhhNmJmYWJkOGI1NGY5ZDM5ZDIxYWViZDU0M2Y4NzBmZWFiMzk1MThmODE0OTNjZGMxZjkxNDNkYjdkNTA0NzcifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4413-L4467",
+          "version": "repo-lines-v1:sha256:c829094de085c3c2ed3bb4bd197f22e232886e40576d29663720468426a3df4d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiYTAxNDM5M2FmMDE3ZmFkZmVkNGZmMzUxN2FjNWI2NjU3ODg1YzViYzVkOWZjYzM1ZDEwMGNhZTY2OGUzZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg5MGI3MGI2N2U4OTljMmZkNTdmOTE1NzJhMGUwOTlhMDMwOGM4YjljN2UwYzNjZTg3YWJkNjhlOTgyYTcwNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZGQ1ZTFmM2VlZDk2NDhmNGY2NmZjODQyNTU4MDdiMzFlMTI2NzMyNDYzMjU5NDExM2E2YzM3NjAzYjM2ZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ4OTg1YjEzMjU1YzhjYjczZmM4MmRkNTNmZDhmNTA3ZGNhOTE4OTBhZjkwYzFkMWU0ODc2YzJiMmYyMGVlODUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9131-L9165",
+          "version": "repo-lines-v1:sha256:bc0bfc33f009657afc04934749717e4825816c8da9c41c6b04cf49d004551fc4:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwNTA2MDA1ZDYwNzg5YWY5OGMwNmI1MzkxYWFhYjQwNjRiYWJlOWNhZTk3NWU2Y2EzMTFiODcwMjcxZjQzMTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0ZWE1ZTdlMjY4ZjBkZTY5YTViYTkxMzk4OTBlMDA4MDQwODM4ZjI0YTgzYzYzODJiNDQ2ZDM2YzdkZjQ3NTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZmY2OTNjOTY1YjI0ZTY4M2FiNzQ2YzlkMzRjMGNhODExMjFjZWIxNTY2ZjdkNjU4MGJmN2I2ZDQzNWZiMjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyOGQ0NzE5NDJkNmI1YThkNzMzM2NmYTU1MGYzZGUwOWUwYzNkY2M2MzNkYTJmNDcwODA3N2E3YmY0MGM3YzIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9499-L9521",
+          "version": "repo-lines-v1:sha256:a4dd8576634693eef81e48ce2d9a6ef476d93fc0e412d5c211f0293ac2fa83a3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlZTVjNDc5MGZkMzgzMDQwY2Y4YmViNzliMjhjY2JhYjZkYzY2OWQ5NDk4MTdjN2RhYzg0ZDNlNGQ0ZGUxNTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YzA5MGU2NWNhMzA2N2ViNGNiYTcwNjE0OTEyYjg2NTdiNDJmMjNhZjk5YWIyYmQzYzViNzgzOTVmZjQwM2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcyYjZlZDUyMDcyYjhlZGY5NGZhMGM4MGY0NTNmYWNhZmQ3ZmQzMzg4YTVlNTY2MGY2Yjg0YWJhNDNkMDRkNTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMwOGUwZjgwZGI1MWIxNjdhYmM3Yzc0OTgzNmNiNTJjODZkM2E4MzkxZjJhYjAzYTgxMGNlZGI5YzljMGExYzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f27ac53af286432da3678df8345d8b53",
+      "statement": "Rule 310 makes open or disputed claims, bodily-injury or property-damage liability allegations, intentional-conduct allegations, litigation, and damages demands mandatory underwriting referrals, while the handling file must preserve the report without treating receipt as a coverage, liability, valuation, or payment determination.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L587-L621",
+          "version": "repo-lines-v1:sha256:59ce22be3d301a306c82188ee422ef32fa425b3769295dfa15ed912e7f70fb6f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3YTFkNTYxOGQxODA2YmI2NzBmZTgyNjJmN2RjYzVmYjhiZjQwOTgwYjNhYzE0MDYzOGY4NjYzMmI2MDczNDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmNGNhZTk1ODQzNzQzNGJiNzBlZTdlZmI3MmQ4NDliODQ1MmMzM2IyODkzODUxYTU0NmExYWVkZWVkYWFkYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyZjRlMGZlZDVjNjljNDBhMGNiNGVjMGI4ZjY1Y2Q4ZTNiMmQwMTU1NzlhZWIyOWQ4MmQzOTZlZjhmZWFhZWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk0NzA2ZDhjZmU1ZGEzZjdiMzU5ZGY2ZTQyMjljZTA3MjE4MTAzZThiMDJlNDg4MjU3MmU5Y2I5ODQxOWM4MTgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4413-L4467",
+          "version": "repo-lines-v1:sha256:c829094de085c3c2ed3bb4bd197f22e232886e40576d29663720468426a3df4d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiYTAxNDM5M2FmMDE3ZmFkZmVkNGZmMzUxN2FjNWI2NjU3ODg1YzViYzVkOWZjYzM1ZDEwMGNhZTY2OGUzZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg5MGI3MGI2N2U4OTljMmZkNTdmOTE1NzJhMGUwOTlhMDMwOGM4YjljN2UwYzNjZTg3YWJkNjhlOTgyYTcwNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZGQ1ZTFmM2VlZDk2NDhmNGY2NmZjODQyNTU4MDdiMzFlMTI2NzMyNDYzMjU5NDExM2E2YzM3NjAzYjM2ZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ4OTg1YjEzMjU1YzhjYjczZmM4MmRkNTNmZDhmNTA3ZGNhOTE4OTBhZjkwYzFkMWU0ODc2YzJiMmYyMGVlODUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d5f517e744c34837bb61f6ab46a67d87",
+      "statement": "The Manual contains distinct catastrophe hold positions: Rule 320.39 suspends binding for storm-exposed risks when forecast landfall is within 48 hours, while Rule 800.I–800.L governs a 72-hour suspension and authorized release for new business, Coverage A increases, and location additions in the affected territory; the positions must be applied by scope rather than collapsed into one threshold.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4993-L4997",
+          "version": "repo-lines-v1:sha256:06cc24503826278b16c224173fabfdd3a7196a91a4b2ccde641fe263dadf92dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjViYjkyMjJiMjYyYjhiYmM0ZjQ3NDg4NDg5MWIyNDdmOWJmODFlMjhkOTYxNGMwZjY3ZDk2Zjg0NTk3ODk4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFhYzAxMjJiNGEwYTU1NzM4Y2FlNDFhNzYwYjk3ZjFjYzJiNDg3NDRkYWI1YmNiYjViODFmNzdmZTZhOWEzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmQ5YWFjMGM0NjUzYjM3NjZlOTU5NjQyYzhkMTZiYjliMTRlNzQwNzRhNDY2ODhhMzNmZDM0YzE1ZmU2Nzk5NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWE5ZjQzMmFjMjJmY2YzMGQ1NGFmOTMyMjliN2Y4YmIyYmJlY2RlMmFhMzdmMTU2Nzc3ZDM1ZDVjNzkwMGRjNiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9547-L9569",
+          "version": "repo-lines-v1:sha256:dc6109c25aff15519836ff36678046bdb517b348e49efee271ad373a150a2499:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4ZmFjODBhYTQzMjAxNjc4ZmY3MjRjYjhmZmIwNWY5NDBkMzU0MDYwMWM1YjI1NzQzMmZkMmY0YzZmYTc4MTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0N2M1ODgyYzExNjkwMDBjNDQ1ZDVlMzhkYjVlYTE0ZDYxMjk3ZWZjMTZhZTY5ZjljMTlkMzk4MjY3Y2E2ODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcxMDZkZWI5ZjA5ODNjMGFmZjczM2JiOTllMGIxYTQ1NmYxNDAxNTFhODBjOTk5NjI3MzExZTUzMWM4ODI4ZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1ZTZhMTYwOTFhNWY3NGI5OTRmYjk2ZWJiM2YxNWNiOTY1NGFjNTAyYTVkM2M4NDdmYmI4N2IwN2I5NThhYzMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_38e152ada8f04add926b5eb23287634e",
+      "statement": "Rule 610 requires a referral record to distinguish source and verification status, preserve material discrepancies and unresolved information, state the decision status, and record the referral trigger, supplied information, resulting direction, conditions, authority, hold reason, release decision, completion evidence, and any material departure or correction.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8805-L8857",
+          "version": "repo-lines-v1:sha256:075719126ac9e1fb0df8c3323d998e4c7ab52bfb9e64129fa6ecdc6201c2709e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5Zjc4NTdlYmI1OGJlMjYwOWVjY2RkMWNjMzQ0OGE4NjhiMjg4MTZmZjdlYjk0OWZmYmQzYjEzZGM4MjYwNzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYTRmZDU4NTc3NGM4ZTQ2MDllNDhjMTU0YWQxZmZiNDYzNTE3ZGNmZDM4ZWIzMTM4Yjk4OTI4ZmVmMzA3ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmODlkZTExNDhiNGMwZjhjY2RhZGZkYTVmNWU2YWM3MWJhNjUxZjcyMzAyNmI1YTQ2NWFkYTc1ODAyZDgzZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxNGEzNjI0ZjM1YzE1ZjcxMWMzMDIwMTNiMmY3NmY1M2Q1OWE3MTNjNWFiZjZjOGRhZGU1MTVlNjM4ZjI0NjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8931-L8953",
+          "version": "repo-lines-v1:sha256:c80d180c1480596abf54374c104a472fa2394ba10c972ee76ae21db6c1aeaf2c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MjViNzM0YmE4YTA4NzNkMTAxZjU4NTgyOTc2YjE2MjgxNjdlMzA0OWIxMWQxZmUxMTExMWE0ZTkxNzcxNTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyMzAxMGNjZTY4OWNjYTQ4M2I3ZjNlOGRhNzQyZDZiNGFjZDE5YjFkMTBmZGNlMThjZjQyMzZkZGNiMTAyNmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzBiNmRkMDcxZmRmNmRlMTgwOGJjYjVlZDdkMTc2YTE4YjBhZGQ2YzY5MTcxODVjZDU3NzgyNTQxYjg5YTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE5NDliYmNmYWE4N2UzZTdjNWJkOGVhMWExZGI3MTVjMzNkMjUwZDZjNTY4ODkxMzE2M2FkMzdjZTAxOTZlZjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8997-L9013",
+          "version": "repo-lines-v1:sha256:814624b7b0405bc2839fbd4480efd1cf496fdda312a97cbf36c2dd3690622055:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5MjAyNjVmYmU1MTVmODI1NDEwZmVlZWRjM2UyOTVjYjQ3OTEwZDQ4NDFlNjQwZWUzODE3NTdkNWY2MDRkMGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmMmZhNzFhY2E0YzZmYjc2ZDQ3MTc2MDllNDAwMmRiY2MxMTVmNDk4OWE0YWI4YzIyZmZjZGExMDM0MzAzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE1NDNiZjlkOWNlODQyZDljNWVmNmEwMDU1ODZlZDVmZjE0MDlkODk2ZGUzNmI3ZTU3YWNkZDY3MGZlYWJjNTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE1OWVmMzJiNzkzOWIwYWMxOTdhNzcwNGMzMTczM2Y4Zjk5ZGE4NjRjMzQ2ZmUyNGFkZTM4YzFjMzE5ZWM3ZGIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9027-L9037",
+          "version": "repo-lines-v1:sha256:c616c52f082cc4d5034e08520ab24515ae38683a36f1f33db79846ea4cc5c993:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjN2I3YWQxYzI2YzU5ZjFmMTMwN2VjNmQxYzdjZmM0MzI4MjFmN2Y4ODUwOTcyYjE5ZmNjZDM0ZDg5ZTdmNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkZmExNzg3MDAxNTIxODcxZmYyMjRhZjEyZjg3OTU2YjdhMzBiOTU3YTg4MzVjZDEzM2ExYzM5OThmNTMwMWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZjOWY2OGZmY2RlZWI1NTM2ODAzZjhmZDVmYjlmYzk5ZmIyMDgyZjY0ODEyZDc5NDJhZmQxOWU0NTYwOTUyYTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkNmNhNjc4YTVkMTg0YjY0YzdmMmZmMmE0MjMxNzEwYzJkM2IxYjQzMzZiZmNmODg3MjNkMmY5YmJiODJjODAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9069-L9127",
+          "version": "repo-lines-v1:sha256:b3646868f3bee6277a0328bde462c8a65e31e307e4139c1853a838b0afd1ac4d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczZDRiMWFiMWVhODZhYmMwM2VlNmI3NThiMzllMWVkY2Y0ODlhYTJlMzgyODg3MjZlNDA2Zjk5ZmM5MTIxNmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3ODk4MDgyYmUxYTIzM2UxYzQ3NmQyNjJjNTllMmFmOWIwZGZjYThjY2I5MzM1ODAwZWMwYWQ5MjQyZDhiMGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxODYyMGQ4YTZmNTVmYjljYjQ1NmExY2ExOThkMWFlY2FhM2E2NjI3ZWY3MWUzZmMzZjZkNzVmMzA4NzU1NWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4ZmY2OTNjOTY1YjI0ZTY4M2FiNzQ2YzlkMzRjMGNhODExMjFjZWIxNTY2ZjdkNjU4MGJmN2I2ZDQzNWZiMjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fd9e97618b0640d08a82cf678b761b2f",
+      "statement": "Before releasing a referred action, the file must show an authorized response, matching transaction and material facts, satisfied conditions, and a recorded direction for any changed fact, departure, correction, or post-bind issue; the referral request and approval response remain part of the underwriting record.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/referral-matrix.md#L739-L770",
+          "version": "repo-lines-v1:sha256:dc3f5c348a28899783439342c9b63da6d5ec036258d9e179998a0e7c8da1c5e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3NGM1YzBiNzE0OTdkYzk2NzRiZjI0N2M5NWZiMDdiNGI5NDVhNjdlNmMyMDA1N2ZjMDY1NmE5NDUxMWEyN2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3NzQxMDdhMzdiNzhjNDA1MzcxYTYzMTAwMDdkZjk0YzE4ZDljMjdhZjRjMTQwNmEwNWU0ZGEyYjIyYzNmNGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFhYzUzMDc4OTZiYmM2Njk5YmQ2ZWI3NTg4NzJhMmE2YmNhZDBjMGVlYTRhZWZmYmQwMmUyN2I2OThhNDc2ZjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQyNzk0YzIzYzRjNDRhZmE0NmY0MDJlNTNmMjI5YzFmY2JlZGFiMTNhNzNmMjA1OGM0MGYxNjcyNGMwN2E4YmEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4341-L4357",
+          "version": "repo-lines-v1:sha256:8c3eb4f2d0164bacc80fee06905051754fe20dce2ed56ea11b5961d15fdf02f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YWNmYjljYTU4NDQ2M2RiZThmMTMxMDc0NjEwOTg4NGQyNTkxMmJmYzdmYTM5NzAwYjJlMDk0YzBlZTMzNGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYThlNzBlZGM5OWI1MmUyODYyMGZkZTA1NTNlNTgyOGFmYzE0ZDMzZjJlYWM0YjNjMmM3MDFlMTZhZDRjZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2MGRmOWM3ZWJmYmVmMmE1YWRkMjEyYWYzNWE4NmIxYTA5MzNkZmFlMDFkMjgwOGIyNWRlNzdkMTgxOTI2NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhhNmJmYWJkOGI1NGY5ZDM5ZDIxYWViZDU0M2Y4NzBmZWFiMzk1MThmODE0OTNjZGMxZjkxNDNkYjdkNTA0NzcifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9069-L9127",
+          "version": "repo-lines-v1:sha256:b3646868f3bee6277a0328bde462c8a65e31e307e4139c1853a838b0afd1ac4d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczZDRiMWFiMWVhODZhYmMwM2VlNmI3NThiMzllMWVkY2Y0ODlhYTJlMzgyODg3MjZlNDA2Zjk5ZmM5MTIxNmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3ODk4MDgyYmUxYTIzM2UxYzQ3NmQyNjJjNTllMmFmOWIwZGZjYThjY2I5MzM1ODAwZWMwYWQ5MjQyZDhiMGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMxODYyMGQ4YTZmNTVmYjljYjQ1NmExY2ExOThkMWFlY2FhM2E2NjI3ZWY3MWUzZmMzZjZkNzVmMzA4NzU1NWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4ZmY2OTNjOTY1YjI0ZTY4M2FiNzQ2YzlkMzRjMGNhODExMjFjZWIxNTY2ZjdkNjU4MGJmN2I2ZDQzNWZiMjEifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

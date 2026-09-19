@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:67cb253fc0bd86db6417ceb2444f44e936b425ad953eb4d10cf5073683246f68",
+  "pageVersion": "sha256:b6186e0ac4161ee1eac6614c9232f0ac842c2b893212af3461bac1023655aa0f",
   "claims": [
     {
       "id": "claim_ba0afb72df08460f9367983397a38012",
@@ -363,10 +363,54 @@
           "version": "repo-lines-v1:sha256:168701655c82c7197b31ba828d5d93edb4bc6129026472e79fe8568d40745ba0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmY1NzRlNmEyZDlmZTVmMDZjNjI0MGU5YjRlMTZkMGFhYjI2ZDhlNzQyYTcyNzYwMjBlZGJmNDgwZDU3MTUxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJlMTcxMjBlZDIyMjExNTYwNjAyODQyMWQ4ZGJiMDFkNDJjNWUwNjliYThjOGMxZWE5YmZjN2U1MjFmMDI2MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTQ4ZjBmODU3MTg3MDI1YmNhOWM4M2ZhYzE0NThiNWU3YWJiMTg4ZDAwNTdjYTcyM2FlMTg4YTIxODZhODdiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzNiOGEzODI2YWFlNzgxNzY3ZjI0NWY1NDlkMmM5ZjM1NDU1YzQzYjI3ZWUwMzUyYTZkZGEyNWE0ODI4YjM5NyJ9"
         }
       ]
+    },
+    {
+      "id": "claim_02b4df3677e243b9bf57d835cebb08b9",
+      "statement": "Policy assembly must route by line, state, policy-effective date, Declarations, and the complete issued attachment package, including schedules and referenced pages, before interpreting coverage; a schedule or system label is not the operative endorsement wording, and missing or mismatched package evidence requires clarification or escalation.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L13-L31",
+          "version": "repo-lines-v1:sha256:a7f702cf5b5eb70987a2e5caf5808fb110f431a29718f0b93a6cd8adc9931b47:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyYTI3MzhkMjUwNDZiYTdlZTkzMDY1N2MxZmM5MTdkY2I3ZDFkODRhOTVkYTQ1ZmM0NDk5ODM3YzFkZDIxYzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyNWQ3MTcxMzY5OGQ5ZjU1MzJlNTk1ZDcyMjdhYjZmZWZjNTk5ZDg5NjBjNzFlM2EzOTNmMDcxYTBjYzZjNTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZDRiMzFmYzRmNGY5ZDMzZThjZGM3MTExZGZlYzBlYjI0Zjk4ZTdhN2MyM2UxZjFiOTBhZjY4NTlhYTIzNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMzOWQ2NmYxNGNmYzBmNDY3MWExZDdiMTIwOTIzNzgxYzZmYzIxYmVjM2Y1YjQ2ODIzYWI3NDY0N2Q5YmQyNTYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L13-L21",
+          "version": "repo-lines-v1:sha256:e0d5ad14d225379e2e90dd6fa778fea468f15dec6b656bf8805c5351d53bd0c2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFhM2YxMGRjOTBmMjBlYjUzODA1MTQyNGZkOTdmOGI1MTMzNmY0MTkxMjA4ZDZjNDc5MzgzYjJhZWMwNzIxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU0Yzc1ZWMyNzY3OTc5NjIxNzhjMTA3MzczMmU2OThlYTJiZGQxYmJkYjA5YWM0NWU3ODQ4MDg2MzUwOTZmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTZlYjUwYjA2Y2Y0ZWY3YzdmYjdmNGNjMzA2NjI2MjQxMTI1Njk0OTJlMGViMTNkODRjN2E1NjgwNDhhZjA0ZCJ9"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L193-L227",
+          "version": "repo-lines-v1:sha256:daa21766347df3bc18582cd2c5d2caabe3a047781d5546630c7a204ece57882e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2OWI0YTdlOGIxYWNkYWI2YThmYzg4ZTg4NzQ1MWQ3ZTVhN2M0ODY4ZTZjNjQxZWRkZDIxMTQ3MmE1OTU1ZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjMDE1MWI0ZmRkZGIyM2Q3MWYwNmM4M2RiMGZkNmMwNzRlOWJmZGQzNmY0YTFmMDUwNmNlOTJiMGRmZDkxZWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI2NWFjMjBjZGY4NjQ0OTI4ZDY4M2M0ZjJkNzU0ZDAwYzA0MmQwZGFmNjRkYTkzYThiMGQwMzA0NzRmZWFmOGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyY2YwZThhOTQ1NmU0ZTQyODM2ZmVkNjMxNmYwOWI1MGM2NzgyYzExYjFmNTljN2Y3NjYzYzY0N2QxZGMwMWIifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L65-L107",
+          "version": "repo-lines-v1:sha256:641ed994b9bd399cb2e224ec208ed244a86ce58c0e85711e2faa7c7d432805ae:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0N2RhZmY5ZDZlN2QyMzIyZDQ2NzAxYjUxMGY0YmNmNDA2MjJmYzJhZDNmYmI5NDBjYTE1YzA0ODczNDg3Y2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE0MGYwNzdlMDg2MjRhZjMwZWFlZjQ2YTM5ZWZjY2NlMTM4MjM1ODNhZWIwMjk2NzY1NjU5MGY1NmJiNmIxYzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4ZmVjMzg5M2I1MTEwMzFjYTI1MWViNGU0NjEyZTMxMjlkNGY4N2YzNzZmZjMxMGIzOGMwMjRjMDg5YWMwODgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxMmQ1ZjUzNmYxOTkwYjgwY2ZiYzM1MzYzMDE4ZGI1Nzg4N2NkYzM3ZjNkYzRkYjI0MDllYTc3MGY2MTc4MDQifQ"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L109-L119",
+          "version": "repo-lines-v1:sha256:589b4321f208bbe863ddf1e8f89b38dc836ed7e479b533af310f58e360161e2a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyY2RiZGIxMGJmZTJlMjI2NDk4ZGY0MzAwY2U4YjVlM2IzZWJiZDBiMGUxNDNkZDQ3NTNjMzRiZDdjMmNkNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0NzRhNmI5NmM4ZjdjYTRkNDUyMWNhM2UxMWE5M2JhZjZmZDk0MzExYjczNGY2YWRiOTA1YjdkMTdjNjU2MmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNlYzcyZWUwYWExNjczNDA5ZjVhYzFjYTg5MzJiMzA0NmNiNWVhOGViZTg2Y2VkOTY1Yjg3ZjJmNTU4OTZlNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1OThmN2NhNmIxMjFhOGYwZDI4N2ZlZGRhMDA5ZTVkMzg2OWIxYmQ5ODM4MWU5ZjAyNDEwMWEyM2Y4NjlkZGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0b97db24f64d4ef9a6592fe988892ca5",
+      "statement": "When multiple endorsements affect the same issue, the complete issued package must be compared for operative grants, exclusions, definitions, conditions, limits, deductibles, schedules, and effective dates; duplicate or unsupported attachments require the approved correction process, and an unreconciled conflict must be escalated rather than resolved by choosing the broader wording.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5241-L5257",
+          "version": "repo-lines-v1:sha256:edfd1a4cefaff30764a9ba8faf45b0c1634e2212e6c828fea7a0704200a2c6bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmZTkxOWM2NDczYjMyMzE0YjdjOWI2N2I2MzBmNGZhYjg3NjExNjI2NjhmMWQ4NWJmYzVlOGZhNzAyZWRhNjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZGZlNzU2YmJhOWZiN2QxOTA1YzI4YTQxY2ZhNjc1MzM5ZmFmMWZhZDJiOTI1ZjZlYjlhMzg1Y2I0MGY0OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiNGVlMGZjM2M0ZTVjMmY4ZWI2YmU3YzM3NmRkZWM2N2M2YzMzYjhhZWYyMDIxYTFjOTM4ZWYwNGZkNmQxOTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiOGYyYThkYWVlODQzMjU3YTk5ZmYxMTI0OTQwY2UzMDhlYmRlNTk5MDUyN2I1ODE4NTQzM2NlZGVkN2VjZjEifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L173-L215",
+          "version": "repo-lines-v1:sha256:bcc25d57ef5cb58f512378e500fe079e336867b0c603663ab4491ab5fa9f9aac:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyOGU5NjFlMTIxNmZhYzdkZGM4NmU1ZWE5ZTRiMjM0Yjg3MTViMDc5MmQ5YWY0MDQyMzY5ZGNmYmQzYjdjNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkNzQ2ZTA0ODZhZTFlYzQ4MjRiOWVjNzViNjZjNGVhMmIyMmZjNGJmNjgzN2U4ZmJmNWFkZTJhMTkwOWZkM2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA5ZjY3MTc2OWFkMTI4ZmUyYTcyMDlkN2NkMDZhMzFlYmU4NTcxMGEzZmYzN2Q0OWE0ZWRlZDlkM2Y2ZGZkZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViMzkyOTIwYTQxNzE3NWVhY2U0NjhjZTIxY2QyOTM1ZWRmYWVhNjQ4ODliNzU3OTljZDkxMmU5NTliOGQ0MWYifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L501-L517",
+          "version": "repo-lines-v1:sha256:3d3380802e35b230926436b419fc5403fb181f29708ec60b1885342028e9cb3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwMjAwZWE0N2VhNGFlZTc5NDJjMWY1OWIyZjM0Mjc2NjAyMDI3YjI5NDk2ZGIwOGRmYmUzNjUwZDc0Y2NhOTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzN2RhNTlkZDRkNzgzMDExNzZkMTczZTg5MmY2ODk1YWFjYTRlNWIwZDc2ZGQzYjI0OTIyMGU5Y2QzYWI1OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmMjU3OWQ5ZTIyMjA2ZWFkYTM2NmNkNzQ0YTQxYzVmOGY1ZTM1OGQ0YjJmNTdhYjA4MzQ0NTk1ODg2M2VmNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmOWE5MDAyZjlmMDZjMjBiMTM0NGFjMWY5NDM1MDU2NWUyZGZlMjdhNjVhYzk2NDFmOWEzYTEwYTY2ZDU5NzYifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

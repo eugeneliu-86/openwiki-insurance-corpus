@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b5621ab46e6aa3fb8600fbc8fd381565e8e935f90e440eda5d8a81e6cbdb7dc7",
+  "pageVersion": "sha256:28f3a604d86f8d7e8dded58ad28111ecad5c5a81ca5dfd907f8bc4e32ac57101",
   "claims": [
     {
       "id": "claim_6c7b1111c26745c6ba7d3fa67596dfec",
@@ -279,10 +279,96 @@
           "version": "repo-lines-v1:sha256:c3d1ee0d9f9406532292d561fddf36f5fc04afe374c292968a2be11f951e50a2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZDAwNjAxZTVjYmNhMGIyZjY5ZjFlZWY2OGE0M2ZkYmViNGFkMmNiMjNmNjUxMTIwNjRmYzk5MDRlMDE1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTllOTNjNGUzMWYzMWYwMTM3MDUxODdiN2ZiMzY4NTU3YWIwNjE5OWIyMzVkZDFlMWI2YzVkOTA0Y2VkYjczYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDVlNDI2MDQ0YWEyYzllMzEzYmQxYjljZjU2ZmRmMzRmYmRhNDkxNzc5YzNjMDQ4MzMwZTBlYTYzNTAwMGVkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTI5ZjgwZDg4MTlmODdjZTNiNWVhZjBhNTg2NzBmMDgzNTQ5NzgwNDk5ZjIzZTBjODBkZjc2ZjgxODhlYWNjMCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_ffc5c6501be94771ae118029455d766d",
+      "statement": "The supplied HO-3 Homeowners 3—Special Form 2024-03 is effective 2024-03-01 and excludes earth movement, including earthquake, in its property and liability exclusions; earthquake coverage therefore requires the applicable attached endorsement and California contract overlay. Its base conditions separately provide a 90-day proof-of-loss period after request and payment within 60 days after agreement, final judgment, or appraisal.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1-L7",
+          "version": "repo-lines-v1:sha256:f14de996efff641063183bcf8bd811569d4b81e956d43751448927cec34f2cca:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzUwMTIzZGYxZjhiNmYwNTk0OWVjMjJkZGY5Mzg1NTZmOTFjMDcxMjg4NzhiOTk4MzcxNTczYjEyZmYyNjRkOSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L467-L489",
+          "version": "repo-lines-v1:sha256:538721c008d3bf662483dfd0ec13091544e487a4eda225b82f06968908536185:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjYTE2YTI2MGE1YmNiMzU4ODFkM2YxOWZmZjI2ZTU3ODI2MGI0NGRiZDlkY2ZmNDM4YzZmNjY2ZGJjZGM5ODAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxNTBjODMyMmY1NDE5NWY4ZTM3OTM5ZWMxMDI1NWFjYTMyNDIyMWM0Y2IwMjAzNzA4YjBmNjVkMGZiOGRiNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0ZWNhM2YyZWMyZTM3Njg4NmEyOWEzYWM0MjVlZmM4NzNlYzFmMjA0ZDdkM2I5YmRmMGY5Yzc0MmRmMmExMTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhY2YwODQ2MGVkNzdhMDZkNmYwNmQ2ZTU1NDIzNWU1YTdlYTFhM2JiN2E5NGFmZjQ5YTdmOGQ2ZWI1MmYwOGQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L579-L591",
+          "version": "repo-lines-v1:sha256:9515c5a75de6319ef6325f6c2cef092d1c04409d1050a825576db5d78f7ed34f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0N2JkZDkyZTJjOGE5MTNjOTI4ZWMxYzJmNTdkYjkwNjY2NzIzMzk0OWFmM2YxZWQyZWRjZDgyZTIwYTNlYWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzM2UyNzRmOGU2NmE2YWM2MGRlYTY0MjkxMDk0YjRlZWI2MzZmMjY2ODE1ODEzM2MwYzIwMGNhNGNlNTNlZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjU3Yzc5YTNiZjY1Yzk3OWExZWQ2NmQ3NjUwZDRhYzkwYzkyMzFhZmRkN2NhYjM5ZDllNWUxMWViY2NhYzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5MTA0NzNiOWY1NDY3OGFkNTQxMjcwODVlZDQxNTNiOWQ2NDE2ZGVhMzdmNjcxYWVkODg5MjJiYjlhY2U1YTEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L731-L747",
+          "version": "repo-lines-v1:sha256:abf19742b0ae2d0362a2ee7f95754da45c0bbd544516329bc9c4b5adff46268e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MGVhZjdjMTEyOWRkMzVlYzY4NWJmZGU2MjhhNzVmMmYzZjk0MDUwYjI1NTc1MTJiZjUzMTRhZjMzMjRlNGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlYThiYzM2YzA5YzQ4MDNjOWNmOGEyMTIzMDliYTRkNzczMDMwMDhkZjE1NGQxZTAzNjJjYWZlYThlMTRlNTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM2ODVkMjBiMTNkNzIzN2ZlODEwNzlmMjczNzNkOWI3MTlkYjQ0MjI0N2Y0MTM1Mjc4ODE1YzQ5MTZmNTVjNWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2ZGFmOTRmMGNmYTQ4NjYzODc0MTkzNTE4OTQ0YjgwOTEyZDlmMmZkYzFjOWMzNjQwZTliNGIzYTFhZjM2MTkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L769-L783",
+          "version": "repo-lines-v1:sha256:c33b0798b9e8480b8e63a9eb6c640f6732f273c0245e81178e56f42774658832:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4M2U0ODIyNmU4ZmIxYWZkYWMzOGM5ZDk0MGVkZWM3MzhkNWNmNTY0NDZiZTgxMThlMjQzNjcyZjQwY2IyN2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzNWZjOTA3ZTA0Y2MyM2NhOTAxMmYwZjk4YjliMWM1OTIwNzQ2MTk5OThiN2ZlYTBmMTUxMWQ4NjViZjNiMDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlM2QyYTc0ZmU0ZDA2NTBmOWJkMWNlZmRhYjVjYjg5YTEwZGRkNzUzM2U1NTdkZWFlNmMxYjZjYTVjNGZmNzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJkMDU4ZTcxNGQ5ZDBhNmYzOTAzZDI0ZWI1NjE1ZGM1ZmFlOTIxZmFhZTJjMTY2ZjY1YWVmZTAyYzZlYjdhZWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cc2f298ae9c44b71bdbd7b1d2169448e",
+      "statement": "The HO 04 54 2009-04 endorsement is superseded by HO 04 54 2021-12 for policies effective on or after 2021-12-01, but remains relevant to policies written under the earlier edition; the attached edition must control the earthquake grant, deductible, exclusions, and claim conditions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-54/2009-04.md#L1-L9",
+          "version": "repo-lines-v1:sha256:44a754b064911d13c112b12738be4d390a6daf597d03c91b1cd335b78d93e19a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzA3MDViODdjMTI4MWQ3YjJkMDJiMTFhYWY5NjJlZmI4YzVhNzkwYTAzYmQxNGI5YTVkYmNjZjU0NTU2NjhiNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-54/2021-12.md#L1-L9",
+          "version": "repo-lines-v1:sha256:84763fde3f9313cb4ea441080a5f2eac447068734b937145b2d891909d568838:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a91d63aa3c8349e6810016102f9b4172",
+      "statement": "The supplied HO 04 54 2021-12 wording contains a grant/exclusion tension: W.1 describes direct physical loss including specified earthquake-caused ground movement and resulting damage, while W.4 contains broad earth-movement exclusions referring to earthquake loss, shaking, tremors, aftershocks, and shifting; the complete issued form and applicable California amendment must be analyzed rather than treating all earth movement as categorically covered or excluded.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-54/2021-12.md#L632-L645",
+          "version": "repo-lines-v1:sha256:e67ce35646d6655eade933949a1253f504fe4869b299eb2d8fc0332b3519ad27:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiMDM1ZDFkOTNiZjQyNDg0YWI5MTE5ZTBlNTE0NmM5MzU4OTA1N2MxMTg4M2JjOGVjNjQzZGQ3ZTBmMGEwODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2OTc5NjBkZWRiZDYxYzA1OTkwYzhjNGQ4NGJkNjViYjg2MTU0N2VkMDA0NWY2ZjY2NTJmOTdlZGZkMWM5Y2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyN2I2OGY1Y2ZiN2NkMTg1MmEzZjQwY2Y5YWYyN2IwOGI4ZTBkMjg2OTY0OTU4NTQzNzA3YWVlY2RkZDBlYzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJhYmZhNGI1ZWE5OTlmNGU3ZGQ5NjNhZDUyYTRlZDM5MGUwYjU4ZjZmMmMwN2Q1YzE2MTQ1NzQ1ZTJlZmE2ZjkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-54/2021-12.md#L80-L97",
+          "version": "repo-lines-v1:sha256:3651301b167704d5b57edfe8f1ed43459bccda578a4b7d87c0d29999cdaeaa58:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0ZTgyYjVkZGI4MjhiZDZkZGZhYmRjMTEwODc1ZDEyY2VlOWY3MzM2NDg5NWQ4MjhiMDNmYmMyYzBlODZlZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZjNmY3MWM4ODM0M2UzODZmY2ZiZDYzN2UwNzVhNjE0ZDQ0Mzk5ZDJiNmVhYzBiNmJjMmNkMzIzNDI1MzE1YjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxZmUwZTUwZTA2MjNhZWIzZTUzMjI3MTY5MmQxYzQ0MGNhZTlhM2UzNTQxZjY4MzA4YTE4ZTYyYjE2YjI4MGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4f651bbaf7f245a7854fd05f0a4d3f7e",
+      "statement": "California internal underwriting controls, separate from contract coverage and CDI requirements, limit delegated line-underwriter binding authority to $1,000,000, prohibit issuing Coverage A above $2,000,000, and require valuation support for 100% insured-to-value before offering replacement-cost settlement; these thresholds are underwriting controls and must not be confused with the HO-3 80% contract threshold or HO 01 04’s 100% condition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/CA/HO-01-04/2021-06.md#L723-L729",
+          "version": "repo-lines-v1:sha256:25605c15778e2fac709a608e88ee0098b2e499ed63005e3b9d95823a0c8103e1:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjJkYmNmMThkYThmZGY1YjExZWFiMWQ1YzRiN2I2MDExMDVmODBiYzQxNjljMmJmNzYyOGNjODQ3Y2YzNjAyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1N2UzOTVlZGViMzUwZGVmM2YzZTY3YzM2OWRkZjBiMDMxNmQxOGQ3NzQ3MTFiZDEyMzJiMWI4ZDgxODUyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTkxOGE0ZTdlMjM2ZjQ3MDY3ZTgzZmIzMWY1MjVkYTYxYTZlNzQxYmQwNzhiMGFhOTQ0Njc1ODQ2ZjU0N2M4ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOThjNGE0MmVhZThmN2JiYTQ0OWM0MWM2Zjg4NTVmNDQ2OGZhYzllYjM3N2FjZDE1ZTdkMTViYjBiYTljY2Y4MCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L113-L123",
+          "version": "repo-lines-v1:sha256:e711de37732ad6fab6e43c3c988bbb33c4b43bacd76f5302d08ee2d373153fcc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxZDBjYWU5OWY2ZTRiNjU5MzE3M2Q4ZDFlMDUxZWI4OTJjYmY4MGE5N2E1ZmJhM2Y4Y2ExMGVkOWNmNDBiMTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5MDkzNTFhZTRkZGI2NzU4ZDlmYjI5ZTU0MWIyNzFkOWY5MTg4MzA5NmVkMDA3MDQ5YWI0YzFkNWQ0ZWZkZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwZDlhMjJiYTNlY2M3YjViNDM3MDE0YmI3ZmZlMDM0MDc0N2RiMDZhZWVlM2FkZDY2ZjNiYTNlYmJmZjYwMDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIwMjk3YWY0Y2M5MjY0YTcyODJkNDRkYTk1OTQyOGFkYjY5ZjhkMWUwNDNkM2E2YjQ1N2NkM2NiZDY5YzIxZjkifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6577-L6595",
+          "version": "repo-lines-v1:sha256:5792722841aafc145ffccce46817cb784a9ed4a42c1ce7556f2eb6c07ca6a959:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4ZDE0NDc5OTNkN2NmNzE0YjUxYjg2ODVlODYxZGUxOGQ3ZjcyOTNiMWIyNGJlZDk4ODk3NzlkMzEzY2YxYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmZmQxNDA5MDUzOGU5YTIyNWZiMTE4ZjgyZDA5MjVmZWJmMmExOWUwMGNiNTNiMDFhMzU2YjA2NWRlZWIwZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3NjhhYjI5ZjQ3MDg5ZTdiZGRmZjk3NTEzMzllMjVmZDJmOTllNGNiMjIyNjQ0ZDE5MTZhNzhjNDhiNmY3NDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNkMmNlMmE5NGNhMmE3YjgyNzJkMmEyMjhiZDQwMWI0YmU1NDBkMWE5ZTJlMGM4YThiODRjZmFmZTU1MmQzZGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2fe7e69374874ca4a6e71122bfc08576",
+      "statement": "The California overlay must reconcile, rather than blend, the different 15% deductible bases stated by the sources: CDI-2022-03 describes the offer as 15% of applicable covered loss, while HO 01 04 states a contractual 15% of applicable covered property value; the filed offer and complete issued policy package govern the operational application.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L77-L81",
+          "version": "repo-lines-v1:sha256:4496225568b411e29dc5e250bd95b339659009eda479fb598b5268cee79d225b:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWM0ZWEwNmE4ZWVmMWZhMGNjMTA3ZTM3ZWMzNDZkMzExMWYyODM1MTAzMDJjZGVmYjczODkzNjE2ODAwYjg0NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDIyMjgxMDFmNThhOTY1NWM5MGMwOTE3OWQyYjBmZjVmMzBiYzdhNmE4MzJiZDNmMDhkNTg2MjhmNzc1NGI0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y1MDljZDllNWE3MGQ2ZTJlMTM0YjA1ODNmODFlN2QwNTVkM2QyZDI5OTgzMWYxMTNlNzM3YTlkYzk2YzEzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWI0OWI1ZDE1NjU3M2ZlOTYzNDcxYTIyOTBhNGRjOGNmYzZjOTExMjY5NzYwODBiOTgzNTIwOTg5NmJhN2QxYiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/CA/HO-01-04/2021-06.md#L703-L709",
+          "version": "repo-lines-v1:sha256:4486dbbf3e160eda5c86ce33222040eebe078c9651466d57d9fc07098fb8f1dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWUwMzU1ZjExN2ZiMmY4NWYwMjY2NTdjYWFkOTY3MDE0NDI0ZDU3M2I2YTg4MzA4NGE4NGM0NGE3ODQ5Y2NjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTgyMDgzYWI1NzY2NjU0YTRlNDgwNDZlNDQyMGMzMTA4ZDNjY2ZlZGNjYWZjMTgxYWIxNjYyNDA2OWM4NDAxYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDI3ZTQ2NmExYmRkMDhiMjg4YmEwZDQ4MGE4OTYzNjAzZjUzN2RiNjc2NjEyZTg5ODY1NzcyMTNiNGY5OTVjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUwMmY2NTVhM2NmZjE2NjhiYzBlZjAwYzJmMTMxNGM3YjM2OTI4NDU5NjQyNGMwNzA5NDFmNTcxNmJiYTIxZSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

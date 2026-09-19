@@ -1,11 +1,11 @@
 ---
 type: claims-guidance
 title: Mold Claim Handling
-description: Operational workflow for intake, causation, microbial evidence, mitigation, coverage consultation, escalation, payment, and closure of mold and fungi-related claims while keeping claim handling separate from policy coverage.
-tags: [claims, mold, fungi, microbial-evidence, mitigation, causation, escalation]
+description: Internal guidance for investigating moisture and microbial-loss reports, preserving evidence, directing mitigation, consulting the controlling fungi and water provisions, applying limits, and escalating unresolved or material issues.
+tags: [claims, mold, fungi, moisture, water-loss, mitigation, evidence, escalation]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -23,147 +23,129 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Mold Claim Handling
 
-## Purpose and governing boundary
+## Status and governing boundary
 
-This page turns the internal mold and fungi guideline into a claim-handling workflow. It is not a fungi, water, or remediation coverage rule. The guideline is operational material; the attached policy, endorsements, applicable law, and approved authority determine coverage (**H.0.1–H.0.5**, **H.7.49**). The [claims intake and investigation guidance](/openwiki/claims/manual/intake-investigation-and-mitigation.md) and claims manual likewise direct internal handling and authority but do not alter coverage (**Chapter 1, 1.A**, **1.F–1.J**). Use the [water-loss handling guidance](/openwiki/claims/guidelines/water-loss-handling.md) for the broader water-loss workflow, and consult the applicable policy and the [fungi and bacteria coverage reference](/openwiki/coverage/perils/fungi-and-bacteria.md) rather than treating this page as contract language.
+This page is **internal claims-handling guidance**. It organizes intake, investigation, mitigation, evidence, scope, authority, communication, escalation, payment, and closure; it is not a coverage grant, exclusion, limit, waiver, endorsement, or policy interpretation. The issued policy, declarations, attached endorsements, applicable state forms, and applicable law control the coverage result. The claims manual likewise directs internal handling and authority and does not alter coverage ([training on guidance and contract language](repo://training/guidance-versus-contract.md#L13-L23), [claims manual, Chapter 1](repo://manuals/claims/manual.md#L13-L19), [HO-3 agreement](repo://forms/HO/MS/HO-3/2024-03.md#L13-L39)).
 
-A report of “mold” is an investigation entrypoint, not a coverage conclusion. Keep four questions separate in the file:
+Use a vendor label, odor, stain, moisture reading, inspection, testing request, mitigation authorization, reserve, or payment as evidence or handling activity—not as a coverage conclusion. Before communicating a position, assemble the policy form and edition in force, declarations, attached fungi or water endorsements, state amendatory forms, deductible, limits, and relevant conditions. If guidance and contract language appear inconsistent, follow the contract and refer the conflict rather than creating a shortcut ([training](repo://training/guidance-versus-contract.md#L59-L83), [HO 04 81 scope and precedence](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L43)).
 
-1. What condition is actually present: fungi, wet or dry rot, bacteria, staining, odor, or something not yet identified?
-2. What moisture or water source, path, duration, and event produced the condition?
-3. What property and expenses are physically damaged, and which are mitigation, testing, repair, replacement, or preventive work?
-4. Which policy form, endorsement, condition, limitation, disclosure, and claim authority apply?
-
-Training may help explain why these questions are separate, but it cannot supply a limit, deductible, period, or coverage outcome (**Guidance Versus Contract Language, L.1.2–L.1.5**, **L.2.7–L.2.12**).
-
-## Investigation lifecycle
+## Handling lifecycle
 
 ```mermaid
 flowchart TD
-    A["Mold or moisture report"] --> B["Open mold exposure review and acknowledge"]
-    B --> C["Give protective instructions and record mitigation timing"]
-    C --> D["Preserve evidence and inspect affected areas"]
-    D --> E["Classify condition and trace source path and duration"]
-    E --> F{"Material cause or scope remains unresolved"}
-    F -->|"yes"| G["Obtain focused records expert work or referral"]
-    F -->|"no"| H["Consult attached policy and endorsement"]
+    A["Moisture or microbial report"] --> B["Open file and acknowledge"]
+    B --> C["Protect property and separate emergency work"]
+    C --> D["Preserve evidence and inspect"]
+    D --> E["Establish condition source path and duration"]
+    E --> F{"Coverage or authority issue unresolved"}
+    F -->|"yes"| G["Reserve rights or escalate"]
+    F -->|"no"| H["Scope supported covered loss"]
     G --> H
-    H --> I["Allocate covered damage mitigation and disputed work"]
-    I --> J{"Authority or complex issue remains"}
-    J -->|"yes"| K["Escalate and continue evidence preservation"]
-    J -->|"no"| L["Document decision and applicable limit"]
-    K --> L
-    L --> M["Pay supported undisputed amount or explain limitation"]
-    M --> N["Preserve recovery rights and close when complete"]
+    H --> I["Apply contract limit deductible and authority"]
+    I --> J["Explain and pay undisputed covered amount"]
+    J --> K["Close or reopen on material new information"]
 ```
 
-*This flow shows the guideline’s operational lifecycle; it does not decide whether a policy covers fungi, water, or any remediation expense.*
+*This diagram shows the internal handling lifecycle; every coverage branch remains subject to the issued policy, endorsements, and applicable law.*
 
-## 1. Intake and immediate controls
+## 1. Intake, notice, and immediate protection
 
-### Open, identify, and acknowledge
+1. **Open the handling record.** Open a distinct mold or microbial-loss handling file when the report involves visible growth, odor, staining, moisture intrusion, concealed damage, or suspected fungi. Record the reporter, named insured, policy and location, affected property, discovery date, reported date of loss, known source, actions already taken, and facts that remain unverified. Acknowledge the report promptly and document the contact attempt ([internal mold guidance](repo://guidelines/claims/mold-claim-handling.md), [claims manual, intake](repo://manuals/claims/manual.md#L27-L49), [manual, Chapter 9](repo://manuals/claims/manual.md#L3043-L3061)).
+2. **Set conditional expectations.** Explain the investigation, information needed, safety boundary, and next steps without promising payment or denial. State that inspection, mitigation, testing, or payment of an undisputed item does not decide the entire claim or waive policy terms ([claims manual](repo://manuals/claims/manual.md#L63-L73), [HO 04 81 nonwaiver provisions](repo://forms/HO/MS/HO-04-81/2018-09.md#L31-L39)).
+3. **Give immediate protection direction.** Tell the insured to protect covered property from further damage and to take only reasonable, safe emergency measures. Do not direct unsafe work, permanent repair, or broad remediation while cause and coverage remain under review. Record the instruction, recipient, response, and work already performed ([internal guidance](repo://guidelines/claims/mold-claim-handling.md), [claims manual, mitigation authority](repo://manuals/claims/manual.md#L99-L103), [HO 04 81 duties](repo://forms/HO/MS/HO-04-81/2018-09.md#L79-L87)).
+4. **Do not import a universal notice deadline.** Apply the notice and proof requirements of the issued contract. For example, HO 04 81 requires prompt notice of a fungi loss, while other forms and endorsements may use different wording ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L79-L87), [HO 04 27 conditions](repo://forms/HO/MS/HO-04-27/2016-05.md#L321-L337)).
+5. **Record the internal timing conflict.** The mold guideline directs reasonable mitigation to begin within **3 days after discovery** when prompt action is required. Claims Manual Chapter 9 instead directs explaining a **5-day-after-discovery** threshold. These are conflicting internal instructions, not policy conditions. Do not silently reconcile them or communicate either number as a contractual deadline; identify the applicable authority, escalate for direction when needed, and document the instruction used ([mold guideline](repo://guidelines/claims/mold-claim-handling.md), [manual, Chapter 3](repo://manuals/claims/manual.md#L709-L727), [manual, Chapter 9](repo://manuals/claims/manual.md#L3063-L3079)).
 
-- Open a separate mold-handling file when the report includes visible growth, odor, staining, moisture intrusion, or suspected fungi (**H.6.1**). Record the reported condition, affected property, source of the report, policy and loss location, insured or claimant, discovery date, and facts that remain unverified (**H.5.1–H.5.4**, **H.6.1–H.6.3**; manual **9.A**, **9.H**).
-- Acknowledge the report promptly and document the contact attempt. Ask what was discovered, when it was discovered, what caused it, what was done before notice, and whether the source is still active (**H.6.2–H.6.3**; manual **1.C–1.D**, **9.D**, **9.H**).
-- Tell the insured to take reasonable steps to protect property, but keep emergency stabilization distinct from permanent repair, replacement, or mold remediation (**H.6.4**, **H.6.7**, **H.7.6–H.7.8**). Do not promise that an inspection, vendor assignment, mitigation authorization, or request for records means the claim is covered (**H.6.23**, **H.7.4**, **H.7.17–H.7.18**).
+## 2. Establish condition, source, path, duration, and responsibility
 
-### Record the mitigation timing rule without silently reconciling sources
+A current mold label does not establish when or why the condition developed. Investigate the reported condition separately from the initiating water event and record reported facts separately from verified findings.
 
-The mold guideline says reasonable mitigation should begin within **3 days after discovery** when prompt action is required (**H.6.5**). The claims manual’s mold chapter says to explain that mitigation must begin within **5 days after discovery** (**Chapter 9, 9.E**). These are both internal operational sources with different thresholds. Record which instruction and authority governs the file; do not convert either number into a policy condition or silently merge them. If the difference changes the direction given or the evaluation of delay, escalate the conflict and document the decision. In all cases record the discovery information, instruction, insured response, work performed, and reason for any delay (**H.6.6**; manual **9.E**).
+- **Identify the condition.** Determine whether the evidence concerns fungi or mold, wet rot, dry rot, bacteria, staining, odor, dampness, deterioration, or another substance. Do not classify solely from an insured’s, contractor’s, hygienist’s, or vendor’s label. Odor, occupant symptoms, and visible growth are not proof of covered property damage ([manual, Chapter 9](repo://manuals/claims/manual.md#L3051-L3061), [manual on odor](repo://manuals/claims/manual.md#L3153-L3157), [mold guidance](repo://guidelines/claims/mold-claim-handling.md)).
+- **Trace the source and path.** Determine whether moisture came from plumbing or an appliance, roof or wall opening, drain, sewer, sump, surface water, groundwater, humidity, condensation, weather, construction, maintenance, or another source. Trace movement through finishes, cavities, floors, ceilings, and adjacent areas rather than assuming the wettest or most visible area is the origin ([manual, water-loss controls](repo://manuals/claims/manual.md#L717-L751), [manual, mold source analysis](repo://manuals/claims/manual.md#L3063-L3097)).
+- **Establish duration and recurrence.** Compare discovery chronology, witness accounts, staining, swelling, corrosion, decay, moisture readings, ventilation, occupancy, prior leaks, repairs, maintenance, weather, and prior claims. Discovery is not necessarily onset. A prior loss or payment does not automatically establish or bar coverage for the current loss; investigate the current facts independently ([manual, prior claims](repo://manuals/claims/manual.md#L3105-L3109), [mold guidance](repo://guidelines/claims/mold-claim-handling.md)).
+- **Connect cause to damage.** Allocate the failed source component, direct physical damage, fungi-related damage, preexisting or recurring damage, maintenance, deterioration, betterment, and unrelated work. Do not infer a covered cause from visible growth, water presence, odor, or a remediation recommendation ([manual, Chapter 9](repo://manuals/claims/manual.md#L3093-L3115), [manual, dwelling losses](repo://manuals/claims/manual.md#L5095-L5141)).
+- **Identify interests and recovery.** Confirm whether the affected property belongs to the insured, tenant, landlord, association, lender, or another party. Preserve information about contractors, property managers, utilities, construction defects, maintenance failures, or other potentially responsible parties ([manual, Chapter 9](repo://manuals/claims/manual.md#L3207-L3217), [manual, recovery controls](repo://manuals/claims/manual.md#L183-L193)).
 
-### Check related history
+## 3. Evidence and inspection controls
 
-Ask about earlier water, leakage, seepage, humidity, odor, staining, fungal growth, repairs, remediation, and claims involving the same area or component. Compare the current location, source, repair history, and chronology with prior materials, but do not treat a prior claim or payment as an automatic bar or as proof of current coverage (**H.5.1–H.5.8**, **H.5.17–H.5.24**; manual **9.K**). Preserve prior photographs, estimates, reports, correspondence, invoices, and repair records (**H.5.9**, **H.5.21**).
+Preserve evidence that can answer cause, duration, scope, value, coverage, and recovery questions. The file should contain, as relevant:
 
-## 2. Establish condition, causation, and microbial evidence
+- the notice, chronology, statements, discovery information, occupancy, maintenance and repair history, prior-loss comparison, and access limitations;
+- photographs or recordings before, during, and after mitigation, including the source, moisture path, affected and representative unaffected areas;
+- failed pipes, hoses, valves, appliances, pumps, removed materials, samples, moisture readings, inspection findings, environmental reports, and laboratory or expert materials;
+- mitigation logs, drying records, containment information, estimates, itemized invoices, receipts, contracts, repair scopes, disposal records, and proof of payment; and
+- ownership, value, mortgagee or lienholder, other-insurance, responsible-party, and recovery information when material.
 
-### Classify the reported condition
+Request only information material to the claim decision. Preserve samples and removed materials when they may establish source, extent, or duration. Do not authorize disposal, irreversible demolition, or permanent repair before a reasonable inspection opportunity unless immediate removal is necessary to protect people or property; when emergency work prevents inspection, obtain photographs and records of the prior condition ([manual, evidence preservation](repo://manuals/claims/manual.md#L75-L103), [manual, Chapter 9](repo://manuals/claims/manual.md#L3079-L3085), [manual, photographs and field observations](repo://manuals/claims/manual.md#L3253-L3271), [HO 04 81 evidence duties](repo://forms/HO/MS/HO-04-81/2018-09.md#L79-L87)).
 
-Do not classify the condition solely from the insured’s, contractor’s, or vendor’s label. Distinguish fungi, wet or dry rot, bacteria, staining, odor, dampness, and an unverified substance using inspection findings and reliable records (**H.6.10–H.6.11**, **H.6.34**; manual **9.B–9.C**, **9.S**). Visible growth, an odor complaint, a hygiene concern, or an occupant symptom is evidence to investigate—not proof of covered fungi-related property damage (**H.7.39–H.7.40**; manual **9.S**, **9.AF–9.AG**).
+Inspect accessible affected areas promptly. Use qualified experts when source, extent, contamination condition, concealed damage, or repair method cannot be determined reliably from inspection and records. Define the question and assignment scope, review the report against photographs, records, physical findings, and the reported facts, and seek clarification when the opinion is unsupported or outside scope ([manual, Chapter 9](repo://manuals/claims/manual.md#L3135-L3145)).
 
-### Trace source, path, and duration
+Testing is not automatically required merely because mold is alleged. Distinguish testing needed for a material coverage or damage question from testing for health, regulatory, restoration, or unrelated purposes. Do not approve testing solely to establish presence when the result will not affect claim handling; document why testing was requested, declined, or relied upon ([manual](repo://manuals/claims/manual.md#L3147-L3151), [internal authority guidance](repo://guidelines/claims/mold-claim-handling.md)). Do not provide medical, environmental, engineering, construction, or legal advice unless authorized and qualified; refer health, illness, contamination, habitability, and bodily-injury allegations ([manual, Chapter 9](repo://manuals/claims/manual.md#L3219-L3241), [mold authority boundaries](repo://guidelines/claims/mold-claim-handling.md)).
 
-Build a cause chronology before deciding how any limitation or exclusion applies:
+## 4. Mitigation, remediation, and scope separation
 
-- **Source:** identify whether the moisture came from a plumbing or appliance discharge, roof or building-envelope opening, backup, seepage, condensation, humidity, weather, construction, or another source. Determine whether the source is active, repaired, isolated, or unknown (**H.6.9–H.6.10**; manual **9.D**, **9.I**).
-- **Path and scope:** inspect the reported area, adjacent rooms, connected building spaces, concealed cavities, and affected personal property where access is available. Water and microbial damage may extend beyond the first visible location (**H.6.17**, **H.6.29–H.6.30**; manual **3.AD**, **9.B**).
-- **Duration and recurrence:** compare the reported date with repair records, occupancy, weather, prior claims, staining, decay, corrosion, moisture findings, and witness accounts. Separate current direct physical damage from preexisting, recurring, deteriorated, or maintenance-related conditions (**H.5.13–H.5.20**, **H.6.21–H.6.22**; manual **9.H–9.K**).
-- **Cause-to-damage connection:** document whether the reported event caused direct physical loss and whether the fungi condition resulted from that loss. Do not infer causation from growth alone (**H.0.4**, **H.6.11**, **H.6.23**; manual **9.I**).
+Authorize and evaluate work by category, not by a single vendor invoice:
 
-### Preserve and obtain evidence
+1. **Emergency protection:** stopping active intrusion, extraction, drying, temporary containment, safe access, and other reasonable measures to prevent additional direct physical damage.
+2. **Investigation:** inspection, limited access, sampling, moisture measurement, and testing that address a material cause, scope, or coverage question.
+3. **Fungi work:** removal, containment, cleaning, treatment, disposal, remediation, tear-out, repair, replacement, restoration, and qualifying post-remediation testing.
+4. **Permanent repair:** reconstruction and source repair, including the failed component, building envelope, plumbing, drainage, ventilation, or other cause.
+5. **Non-loss work:** preventive maintenance, routine cleaning, monitoring without covered direct physical loss, elective renovation, upgrades, redesign, betterment, unrelated contamination, health expenses, and unsupported or duplicate charges.
 
-Before removal when safely practical, obtain photographs or video of the affected area, surrounding context, moisture path, condition of materials, and personal property. Preserve samples, removed materials, failed components, inspection findings, environmental reports, mitigation logs, moisture records, invoices, estimates, repair scopes, and statements that bear on cause, extent, or duration (**H.6.8–H.6.12**, **H.6.17**, **H.6.31**; manual **9.B**, **9.G**, **9.J**, **9.AJ**). Do not authorize disposal or irreversible demolition before a reasonable inspection opportunity unless immediate removal is needed to protect persons or property (**H.5.36**, **H.5.43–H.5.44**, **H.5.57**; manual **9.G**).
+Match each service to observed conditions, the documented moisture source, the approved scope, and the applicable contract. Require labor, materials, equipment, testing, disposal, access, and other material charges to be itemized. A vendor recommendation does not establish necessity or coverage; review overlapping estimates and supplements against the original cause and scope ([manual, Chapter 9 scope](repo://manuals/claims/manual.md#L3111-L3119), [manual, vendor and estimate controls](repo://manuals/claims/manual.md#L3171-L3187), [mold guidance](repo://guidelines/claims/mold-claim-handling.md)).
 
-Testing is not an automatic intake requirement. Distinguish testing needed to resolve a material coverage or damage question from testing for health, regulatory, restoration, or precautionary purposes. Do not approve testing solely to establish presence when the result will not affect claim handling (**H.7.9–H.7.10**; manual **9.P**, **9.R**). Use a qualified expert when source, scope, condition, or repair method cannot reasonably be determined from inspection and records; define the question and review the report against the physical evidence (**H.6.18**, **H.7.11–H.7.15**; manual **9.P–9.Q**).
+Do not treat emergency mitigation as proof that permanent repair or remediation is covered. Conversely, do not deny reasonable mitigation solely because it began before inspection; evaluate the reported circumstances, remaining evidence, necessity, relation to the loss, and applicable policy terms ([manual](repo://manuals/claims/manual.md#L3243-L3253), [claims manual, water-loss controls](repo://manuals/claims/manual.md#L849-L865)).
 
-## 3. Mitigation, remediation, and scope control
+## 5. Coverage consultation: use the issued policy assembly
 
-Authorize or evaluate emergency extraction, drying, containment, temporary protection, and necessary access separately from permanent repair, replacement, or remediation (**H.6.7**, **H.7.6–H.7.8**). Review whether each charge is reasonable, necessary, within the authorized scope, tied to the reported moisture condition, and supported by the observed damage. Ask vendors to itemize labor, materials, equipment, testing, disposal, access, and other charges; question work that is unrelated, preventive, elective, an upgrade, or unsupported by the source and scope evidence (**H.6.13–H.6.14**, **H.6.29**, **H.6.35**, **H.7.25–H.7.31**; manual **9.L**, **9.T–9.X**).
+### Base policy and water cause
 
-Keep separate categories in the estimate and file notes:
+The base form’s grant, exclusions, definitions, conditions, and property coverage must be read with every attached endorsement. For example, HO-3 2024-03 covers direct physical loss from specified accidental discharge or overflow but excludes continuous or repeated seepage or leakage, several external-water pathways, and loss to the system or appliance from which water escaped; its fungi provisions separately exclude fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement ([HO-3 water provisions](repo://forms/HO/MS/HO-3/2024-03.md#L485-L545), [HO-3 fungi exclusions](repo://forms/HO/MS/HO-3/2024-03.md#L629-L649)). HO-4 2021-10 has no Coverage A for the dwelling and has its own edition-specific water and fungi wording, including the fungi exclusion in X.32 ([HO-4 Coverage A](repo://forms/HO/MS/HO-4/2021-10.md#L71-L89), [HO-4 water and fungi provisions](repo://forms/HO/MS/HO-4/2021-10.md#L565-L583), [HO-4 fungi exclusion](repo://forms/HO/MS/HO-4/2021-10.md#L707-L715)). Do not import one form’s resulting-loss language, limit, deductible, or endorsement into another edition.
 
-1. direct physical damage to covered property, if any;
-2. reasonable emergency protection and access tied to that damage;
-3. microbial removal, containment, cleaning, treatment, testing, and remediation;
-4. repair or replacement of the source or undamaged property;
-5. preexisting, recurring, deterioration, maintenance, betterment, preventive, and unrelated work; and
-6. personal property, ownership, other insurance, salvage, recovery, deductible, and applicable limit effects.
+### HO 04 81 (2018-09): narrow limited fungi coverage
 
-For contents, identify ownership and condition, obtain an inventory before disposal when practical, and evaluate cleaning, restoration, or replacement rather than assuming that replacement is required (**H.6.15–H.6.16**, **H.7.27**, **H.7.29**; manual **9.Y–9.AB**). Mitigation that began before inspection is not by itself a denial basis; evaluate whether it was reasonable and what evidence remains (**manual 9.AI–9.AJ**).
+When **HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)** is actually attached, it modifies the policy only on its express terms. The endorsement requires a covered cause of loss to first cause direct physical loss to covered property, with the fungi-related loss resulting from that direct physical loss. It does not convert an excluded water source or another excluded cause into a covered cause ([HO 04 81 W.0 and W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L67)).
 
-## 4. Coverage consultation and disclosure controls
+If those requirements are met, the endorsement can address direct fungi-related physical loss and reasonable, necessary costs for removal; tear-out and replacement needed to access or repair covered property; remediation; and air or property testing after covered removal, repair, replacement, restoration, or remediation when there is reason to believe fungi remain. The endorsement excludes, among other things, fungi arising from constant or repeated seepage or leakage, constant or repeated discharge or overflow, flood, preexisting conditions, deterioration, neglect, inadequate maintenance, defective work, preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, health-related testing or treatment, and work unrelated to covered direct physical loss ([HO 04 81 coverage and boundaries](repo://forms/HO/MS/HO-04-81/2018-09.md#L45-L125)).
 
-### Consult the attached contract, not a generic mold rule
+The HO 04 81 fungi, wet-or-dry-rot, or bacteria limit is a **$10,000 aggregate for all covered loss during the policy term**. It is not a separate amount per room, item, insured, location, or claim. Covered direct damage and qualifying related expenses share the aggregate, and payments reduce what remains; apply the policy deductible only after establishing the covered loss ([HO 04 81 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L161), [HO 04 81 aggregate application](repo://forms/HO/MS/HO-04-81/2018-09.md#L163-L179)).
 
-Before communicating a coverage position, identify the exact base form, edition, state material, endorsements, declarations, and loss-date terms. The guideline requires review of all applicable forms and endorsements (**H.0.5**), and the manual requires the file to show the policy provisions and verified facts considered (**Chapter 1, 1.E–1.F**, **1.I–1.J**).
+### HO 04 27 (2016-05): do not treat the fungi amount as a grant
 
-Examples show why the form check matters; they are not interchangeable claim outcomes:
+**HO 04 27 Limited Water Damage Coverage (2016-05)** covers specified accidental discharge or overflow and certain breakage, cracking, burning, bulging, or freezing events, subject to its own terms. Its W.1 W.15 expressly excludes loss caused by the presence, growth, proliferation, spread, or activity of fungi, wet rot, dry rot, or bacteria. Although W.2 W.11 states a **$5,000** amount for loss caused by fungi, wet or dry rot, or bacteria, that figure cannot override the express exclusion or operate as an independent fungi coverage grant ([HO 04 27 coverage and exclusions](repo://forms/HO/MS/HO-04-27/2016-05.md#L41-L87), [HO 04 27 limit wording](repo://forms/HO/MS/HO-04-27/2016-05.md#L93-L119)).
 
-| Contract check | Handling use | Authority |
-|---|---|---|
-| HO-3 2024-03 | Its fungi provision excludes fungi, wet rot, dry rot, or bacteria except as provided by a limited fungi endorsement; the microbial remediation limit does not itself create coverage. Confirm whether the referenced endorsement is attached before applying the limitation. | `forms/HO/MS/HO-3/2024-03.md`, **X.28–X.29** |
-| HO-4 2021-10 | Its fungi provision similarly excludes fungi, wet rot, dry rot, or bacteria except as provided by a limited fungi endorsement and states that the mold coverage limit does not create otherwise excluded coverage. Do not use an HO-3 conclusion for an HO-4 claim. | `forms/HO/MS/HO-4/2021-10.md`, **X.31–X.34** |
-| HO 04 81 2018-09, if attached | The endorsement provides limited fungi coverage only when fungi results from a covered cause that first causes direct physical loss. The controlling grant says, **“We cover direct physical loss caused by fungi when the fungi results from a ‘covered cause of loss,’”** and, **“The covered cause of loss must cause direct physical loss to covered property. The fungi must result from that direct physical loss.”** It also addresses reasonable and necessary removal, access, repair, remediation, and post-removal testing, while retaining exclusions and conditions. | `forms/HO/MS/HO-04-81/2018-09.md`, **W.0**, **W.1 W.2–W.23** |
-| HO 04 27 2016-05 | The endorsement’s limited water grant excludes microbial loss. Its controlling exclusion states, **“We do not cover loss caused by the presence, growth, proliferation, spread, or any activity of fungi, wet rot, dry rot, or bacteria.”** The endorsement separately states, **“The most we will pay for loss caused by fungi, wet or dry rot, or bacteria is five thousand dollars,”** but also says, **“We do not pay for loss caused by fungi, wet or dry rot, or bacteria when the loss is otherwise excluded.”** Read together, the $5,000 figure cannot be used to assume that excluded microbial damage is covered. | `forms/HO/MS/HO-04-27/2016-05.md`, **W.1 W.1–W.23**, **W.2 W.11–W.13** |
+### North Carolina disclosure is not coverage
 
-Where HO 04 81 applies, its fungi, wet or dry rot, or bacteria aggregate is **$10,000** for all covered loss subject to that limit during the policy term. The limit states, **“The most we will pay for ‘fungi, wet or dry rot, or bacteria’ is ten thousand dollars,”** and applies to the total covered loss regardless of the number of claims, persons insured, or items of property; it includes covered property damage and related expenses. Amounts paid for direct physical loss and related covered expenses reduce the remaining coverage and do not restore it (**W.2 W.1–W.2**, **W.2 W.3–W.22**, **W.1 W.51–W.52**). This is a contract example for consultation, not a universal mold limit. Take the actual limit, deductible, and write-back from the attached form and declarations.
+For an applicable North Carolina policy, **NCDOI-2018-03** requires a clear disclosure when the contract contains a fungi, wet-or-dry-rot, or bacteria limitation. The disclosure must identify the affected limitation, coverage, material conditions, and exclusions and must state: **“The most we will pay is $5,000 (five thousand dollars).”** The insurer must retain the delivered version and compliance records and keep communications consistent with the policy and any modifying endorsement ([NCDOI-2018-03 disclosure requirements](repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L13-L29), [required amount](repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L59-L89), [delivery and record controls](repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L181-L229)).
 
-### Apply the North Carolina disclosure boundary
+The bulletin regulates disclosure and handling; it does not create coverage. When a limitation is applied, investigate the reported facts, identify whether a covered cause produced the condition, distinguish fungi damage from other covered damage, and give a clear written factual and policy explanation. Do not deny or limit solely because fungi are alleged or observed ([NCDOI-2018-03 claim standards](repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md#L259-L313), [training boundary](repo://training/guidance-versus-contract.md#L73-L83)).
 
-For a North Carolina policy containing a fungi, wet or dry rot, or bacteria limitation, the bulletin requires a clear, conspicuous disclosure that identifies the limitation and uses understandable language. It specifically requires the statement, **“The most we will pay is $5,000 (five thousand dollars)”**, when the bulletin’s disclosure requirement applies (**NCDOI-2018-03, B.2.1–B.2.15**). The issuer must retain the version delivered and maintain compliance records (**B.2.20–B.2.26**, **B.3.19–B.3.24**).
+## 6. Scope, limits, payment, and authority
 
-For claim handling, verify the policy and retained disclosure, keep claim communications consistent with both, and provide a written factual and policy explanation when applying a limitation or making a partial denial (**NCDOI-2018-03, B.4.1–B.4.18**). The bulletin does not create coverage, alter the contract, or permit a denial without a reasonable investigation (**B.1.35–B.1.37**, **B.4.3–B.4.10**). Escalate a mismatch between the disclosure, endorsement, declarations, and policy wording rather than resolving it through an informal explanation.
+Build the claim estimate in traceable categories: covered direct physical damage; reasonable emergency mitigation and necessary access; source-component repair; fungi removal or remediation; testing; contents; loss of use; preexisting, recurring, maintenance, deterioration, code, improvement, health, and unrelated work; then deductible, aggregate consumption, other insurance, salvage, and recovery. Apply a limit or deductible only after identifying the covered portion. A limit cannot create coverage that the contract excludes.
 
-## 5. Escalation and authority
+Within assigned authority, issue or negotiate supported undisputed covered damage while a fungi question remains under review when the contract and procedures permit. Keep covered repairs, disputed fungi expenses, testing, remediation, and excluded work separately traceable. Payment authority cannot substitute for a formal coverage determination, and a combined payment must not obscure the basis for each item ([internal authority guidance](repo://guidelines/claims/mold-claim-handling.md), [claims manual payment controls](repo://manuals/claims/manual.md#L165-L175), [manual dwelling payment](repo://manuals/claims/manual.md#L5251-L5267)).
 
-Refer before committing to a final position when any material issue remains unresolved. The mold guideline requires referral when the claimed amount exceeds **$10,000**, the source is unknown or disputed, evidence conflicts, long-term or repeated moisture is indicated, remediation begins before documentation, hidden damage is possible, the scope changes materially, another party may be responsible, or laboratory, health, habitability, contamination, or unusual remediation issues arise (**H.5.31–H.5.59**). The general claims manual separately requires referral of an evaluated loss above **$25,000** before settlement or payment (**Chapter 1, 1.V–1.W**). Treat these as source-specific internal controls; do not substitute one threshold for the other.
+Apply the **mold-guideline referral threshold**: refer a mold-related loss whose claimed amount exceeds **$10,000** to claim leadership before making a coverage determination. Separately, the general claims manual requires referral of an evaluated loss above **$25,000** before committing the carrier to settlement or payment; do not split claim activity to avoid that authority review ([mold-guideline referral controls](repo://guidelines/claims/mold-claim-handling.md), [claims manual authority threshold](repo://manuals/claims/manual.md#L141-L151)).
 
-Also escalate when:
+Escalate before a final position or material commitment when the source or duration is unresolved; evidence conflicts; concealed or widespread moisture is suspected; remediation begins before cause and scope are documented; the proposed work is extensive, unusual, duplicate, preventive, or unsupported; health, bodily injury, contamination, safety, habitability, or governmental issues are raised; another party may be responsible; records appear altered; fraud or inflated billing is suspected; access is refused; the claim exceeds an authority threshold; or the policy, endorsement, state form, or deadline is uncertain ([manual, Chapter 9 referral controls](repo://manuals/claims/manual.md#L3123-L3151), [mold guideline authority limits](repo://guidelines/claims/mold-claim-handling.md)).
 
-- the proposed testing, demolition, remediation, denial, partial denial, limitation, settlement, release, or payment exceeds assigned authority (**H.7.3**, **H.7.9**, **H.7.19–H.7.24**, **H.7.35–H.7.36**);
-- the claim includes bodily injury, illness, habitability, public-health, governmental, regulatory, legal, appraisal, mediation, or attorney-representation issues (**H.7.39–H.7.44**; manual **9.O**, **9.AD–9.AG**); or
-- a vendor, insured, tenant, contractor, association, or other party disputes causation, alleges that claim handling caused additional damage, or requests work beyond the documented source and scope (**H.5.40–H.5.49**, **H.7.31–H.7.34**).
+A referral does not stop appropriate claim progress. Record the issue, known facts, evidence, question presented, requested authority, direction received, and action taken. Preserve evidence and continue appropriate communication and investigation unless responsibility is expressly transferred. Do not accuse an insured or vendor of fraud in routine communications ([claims manual coordination and escalation](repo://manuals/claims/manual.md#L195-L229), [manual, Chapter 9 file controls](repo://manuals/claims/manual.md#L3333-L3373)).
 
-A referral does not stop progress. Record the issue, material facts, evidence preserved, question presented, direction received, and action taken; continue communication and preservation unless responsibility is expressly transferred (**H.5.56–H.5.60**, **H.7.45–H.7.48**). Use neutral factual language for suspected misrepresentation or inflated billing and route it through the approved review process (**H.6.37**; manual **1.AB**).
+## 7. Decision, closure, and reopening
 
-## 6. Payment, communication, recovery, and closure
+A final decision must identify the material facts, condition, source, path, duration, covered and excluded damage, mitigation review, applicable form and endorsement, limit, deductible, valuation, authority, payment, and reason for any denial or limitation. Explain the position in writing using the applicable policy language and supported facts. Keep the claim file complete enough for another claim professional to understand the handling and the basis for the result ([manual, Chapter 9](repo://manuals/claims/manual.md#L3363-L3379), [HO 04 81 loss settlement](repo://forms/HO/MS/HO-04-81/2018-09.md#L707-L719)).
 
-Before payment, document the applicable coverage provision, covered and disputed categories, valuation basis, deductible, limit consumption, payee and ownership interests, other insurance, salvage, and authority. Do not combine covered repair costs with disputed fungi expenses in a way that hides the payment rationale (**H.7.25–H.7.27**; manual **1.Q**, **1.R**, **1.S**, **1.X–1.Z**).
+Close only after documenting the coverage decision, payment basis, outstanding issues, communications, recovery handling, and disposition of retained samples or removed materials. Do not close merely because visible surfaces are dry, testing is complete, or a vendor invoice is paid. Reopen when credible new information may materially affect coverage, cause, scope, valuation, payment, or recovery ([manual, Chapter 9 closure and reopening](repo://manuals/claims/manual.md#L3369-L3385), [internal closure guidance](repo://guidelines/claims/mold-claim-handling.md)).
 
-Issue supported undisputed covered damage when within authority even while a fungi issue remains under review; do not use payment authority to settle a coverage dispute that requires formal review (**H.7.23**, **H.7.26–H.7.28**). Explain any limitation, partial denial, or denial in writing using the applicable policy language and material facts, and do not describe limited coverage as wholly excluded (**H.6.33**, **H.7.19**, **H.7.46**; **NCDOI-2018-03, B.4.5–B.4.6**, **B.4.14**). Investigation, testing, mitigation approval, or payment does not waive a policy term (**H.6.23**, **H.6.26**; HO-3 **AGR.9**; HO 04 81 **W.36**, **W.39**).
+## Related pages
 
-Preserve failed components, contracts, photographs, reports, and responsible-party information for subrogation, contribution, salvage, or other recovery. Do not release a responsible party or impair recovery rights without approval (**H.7.33–H.7.36**; manual **1.AC–1.AD**).
-
-Close the mold handling file only after the file shows the condition and causation analysis, evidence and evidence limitations, mitigation and scope review, form and endorsement consultation, escalation outcome, coverage decision, payment basis, communications, recovery status, retained-evidence disposition, and unresolved issues (**H.6.31–H.6.38**). Do not close because a surface is dry or a vendor invoice is paid. Reopen when new information materially affects cause, scope, coverage, payment, or recovery (**manual Chapter 1, 1.AR**, **1.AT–1.AU**).
-
-## Source map
-
-- Internal mold claim guideline: `guidelines/claims/mold-claim-handling.md`, **H.0–H.7**.
-- Property claims manual: `manuals/claims/manual.md`, **Chapter 1**, **C3 Chapter 3 — Water Losses**, and **Chapter 9 — Mold, Fungi and Bacteria**.
-- North Carolina disclosure bulletin: `bulletins/NC/ncdoi-2018-03-fungi-disclosure.md`, **B.1–B.4**.
-- Contract examples: `forms/HO/MS/HO-3/2024-03.md`, **AGR.9**, **X.28–X.29**; `forms/HO/MS/HO-4/2021-10.md`, **X.31–X.34**; `forms/HO/MS/HO-04-81/2018-09.md`, **W.1–W.3**, **W.10–W.23**, **W.2 W.1–W.52**; `forms/HO/MS/HO-04-27/2016-05.md`, **W.1 W.1–W.25**, **W.2 W.2–W.13**.
-- Interpretation boundary: `training/guidance-versus-contract.md`, **L.1–L.2**. Training supports the distinction between operational guidance and contract authority; it does not supply claim thresholds, coverage numbers, or settlement outcomes.
+- [Water Loss Handling](/openwiki/claims/guidelines/water-loss-handling.md) — operational water-source, mitigation, evidence, scope, payment, and escalation workflow.
+- [Property Perils and Loss Types](/openwiki/claims/manual/property-perils-and-loss-types.md) — cross-peril investigation and mold routing aid.
+- [Fungi and Bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — contract composition, limited write-back, aggregate, and disclosure analysis.
+- [Water Damage](/openwiki/coverage/perils/water-damage.md) — water grants, exclusions, source pathways, and endorsement boundaries.
+- [North Carolina State Overlay](/openwiki/state-overlays/north-carolina.md) — North Carolina contract, disclosure, and claim-administration layers.

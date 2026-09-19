@@ -4,22 +4,20 @@ title: Liability Losses and Occupancy
 description: Rules 230, 240, and 250 define pre-bind controls for premises liability hazards, prior losses, occupancy, vacancy, rental, and business-use exposures. This page explains the referral thresholds, evidence, authority gates, time limits, and separation between internal eligibility controls and contractual liability coverage.
 tags: [underwriting, liability-hazards, loss-history, occupancy, vacancy, rental, referral-controls]
 sources:
-  - id: openwiki-source-cde3798461a8bd10992a1c2f
-    resource: repo://forms/HO/MS/HO-04-42/2011-05.md
-  - id: openwiki-source-48b56021dc3e482bccea702e
-    resource: repo://forms/HO/MS/HO-24-71/2011-05.md
-  - id: openwiki-source-914d8ff237a5543166c6b70c
-    resource: repo://forms/HO/MS/HO-24-73/2011-05.md
-  - id: openwiki-source-f4fc59de1cb7591d8be379e1
-    resource: repo://forms/HO/MS/HO-24-82/2011-05.md
+  - id: openwiki-source-7176aead92778c93cb0441d2
+    resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
+    resource: repo://forms/HO/MS/HO-4/2021-10.md
+  - id: openwiki-source-9a3362ddf208da1fe1570617
+    resource: repo://forms/HO/MS/HO-6/2023-02.md
   - id: openwiki-source-da67a262bebb42780999bd2a
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Liability Losses and Occupancy
@@ -106,7 +104,7 @@ Verify stated occupancy before binding or continuing the risk, confirm that a na
 
 Rule 250 directs the underwriter to apply the vacancy condition when the dwelling lacks the customary presence of occupants and personal property and states that vandalism is excluded after **60 days of vacancy**. The rule does not supply a different numeric deadline for “prompt” notice. Record the facts supporting the classification, including contents, heat, water, electrical service, maintenance, caretaker access, monitoring, and inspection evidence ([Manual Rule 250.F and 250.J–250.O](repo://manuals/underwriting/manual.md#L3679-L3737)).
 
-This 60-day Rule 250 position must not be silently substituted for a product-specific rule. For example, the DP-3 product rule separately states **30 consecutive days of vacancy** for its vandalism handling. Apply the form, product rule, and applicable state terms for the actual policy record; do not present either internal rule as a new contract exclusion ([Manual Rule 150.N](repo://manuals/underwriting/manual.md#L1699-L1703) [openwiki/underwriting/manual/eligibility-and-product-lines.md#L140-L144](repo://openwiki/underwriting/manual/eligibility-and-product-lines.md#L140-L144)).
+This 60-day Rule 250 position must not be silently substituted for a product-specific rule. The DP-3 product rule separately states **30 consecutive days of vacancy** for its vandalism handling, and the current HO-3, HO-4, and HO-6 forms supplied for this page also state 30-day vandalism provisions. Apply the form, product rule, and applicable state terms for the actual policy record; do not present an internal Rule 250 handling position as a new contract exclusion ([Manual Rule 150.N](repo://manuals/underwriting/manual.md#L1699-L1703) [openwiki/underwriting/manual/eligibility-and-product-lines.md#L140-L144](repo://openwiki/underwriting/manual/eligibility-and-product-lines.md#L140-L144) [HO-3 X.52](repo://forms/HO/MS/HO-3/2024-03.md#L681-L685) [HO-4 X.53](repo://forms/HO/MS/HO-4/2021-10.md#L749-L753) [HO-6 X.31](repo://forms/HO/MS/HO-6/2023-02.md#L728-L732)).
 
 Refer vacancy or unoccupancy when there is impaired security, abandonment, boarded openings, prior water or fire damage, inadequate weather protection, repeated local vandalism, foreclosure or transfer pressure, or no reliable contact or emergency access. Active construction or repairs that prevent normal habitation are not ordinary resident occupancy ([Manual Rule 250.P–250.T and 250.AL–250.AR](repo://manuals/underwriting/manual.md#L3739-L3767) [repo://manuals/underwriting/manual.md#L3871-L3911)).
 
@@ -140,9 +138,13 @@ That sequence preserves the Manual's control boundary: internal guidance **const
 
 ## Contract coverage boundary
 
-The liability endorsements are separate contract documents. **HO 04 42** provides only the stated coverage for a lawful incidental occupancy subordinate to residential use and not materially changing the residential character ([HO 04 42 W.1–W.7](repo://forms/HO/MS/HO-04-42/2011-05.md#L35-L49)). **HO 24 71** provides the stated business-pursuit liability and medical-payments coverage and sets a **$100,000** maximum for covered business-pursuit damages, applied to the total damages regardless of the number of insureds, claimants, claims, or suits; its definitions describe business pursuit as continuous, regular, or profit-motivated activity ([HO 24 71 W.1–W.12](repo://forms/HO/MS/HO-24-71/2011-05.md#L57-L91) [repo://forms/HO/MS/HO-24-71/2011-05.md#L163-L169) [repo://forms/HO/MS/HO-24-71/2011-05.md#L897-L903)).
+The current HO-3, HO-4, and HO-6 forms are separate contract authorities. Their definitions and Section II provisions show why the underwriting facts must be matched to the issued form rather than treated as coverage decisions:
 
-**HO 24 73** modifies the policy for covered farming and farm premises, while **HO 24 82** supplies a separate Personal Injury Coverage for listed offenses arising from a covered residence or personal activities ([HO 24 73 W.1–W.16](repo://forms/HO/MS/HO-24-73/2011-05.md#L41-L73) [HO 24 82 W.1.1–W.1.8](repo://forms/HO/MS/HO-24-82/2011-05.md#L47-L63)). Their grants and exclusions apply only according to the issued policy and attachment. A Rule 230–250 referral does not narrow an attached endorsement's legal wording, and an endorsement does not automatically clear an internal eligibility or hazard referral.
+- **HO-3 (2024-03):** “residence premises” is the property where the insured resides, and “business” includes rental for economic gain ([HO-3 DEF.4–DEF.7](repo://forms/HO/MS/HO-3/2024-03.md#L55-L67)). Coverage E applies to bodily injury or property damage arising at an insured location or from personal activities, while its business exclusion does not apply to activities ordinarily incident to nonbusiness pursuits; Section II separately includes a 15-day residence-premises rental exception and excludes liability involving an animal when the insured knew or should have known of a dangerous condition ([HO-3 E.1–E.8](repo://forms/HO/MS/HO-3/2024-03.md#L933-L949) [HO-3 X.14–X.17](repo://forms/HO/MS/HO-3/2024-03.md#L1051-L1059) [HO-3 X.33–X.35](repo://forms/HO/MS/HO-3/2024-03.md#L1091-L1095)).
+- **HO-4 (2021-10):** “residence premises” is the dwelling or unit shown as the place where the insured resides, and a business is an activity engaged in for economic gain ([HO-4 DEF.4–DEF.7](repo://forms/HO/MS/HO-4/2021-10.md#L49-L55)). Coverage E excludes liability arising from a business, and Section II excludes liability arising from a known dangerous animal or an animal used in a business ([HO-4 E.1–E.9](repo://forms/HO/MS/HO-4/2021-10.md#L1007-L1027) [HO-4 X.12–X.13 and X.30–X.31](repo://forms/HO/MS/HO-4/2021-10.md#L1141-L1149) [repo://forms/HO/MS/HO-4/2021-10.md#L1175-L1180)).
+- **HO-6 (2023-02):** “residence premises” is the unit where the insured resides and does not include property used solely for rental or business purposes; “business” includes property rented to others for compensation ([HO-6 DEF.4–DEF.7](repo://forms/HO/MS/HO-6/2023-02.md#L46-L55)). Section II excludes liability arising from a business, provides a 14-day occasional-rental exception, and separately excludes animal-related liability and animals used in business ([HO-6 X.1–X.9](repo://forms/HO/MS/HO-6/2023-02.md#L1122-L1138) [HO-6 X.45–X.47](repo://forms/HO/MS/HO-6/2023-02.md#L1210-L1214)).
+
+These grants, exclusions, definitions, vacancy provisions, and notice duties apply only according to the issued policy and applicable state terms. A Rule 230–250 referral does not narrow the form's legal wording, and a form or endorsement does not automatically clear an internal eligibility, hazard, loss, or occupancy referral.
 
 ## Failure checks
 
@@ -155,8 +157,8 @@ The liability endorsements are separate contract documents. **HO 04 42** provide
 
 ## Related pages
 
-- [Authority referrals and clearance](/openwiki/underwriting/manual/authority-referrals-and-clearance.md)
+- [Referral authority](/openwiki/underwriting/guidelines/referral-authority.md)
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md)
-- [Incidental Business, Farmers Liability, and Personal Injury](/openwiki/coverage/liability/incidental-business-and-personal-injury.md)
+- [Liability claim handling](/openwiki/claims/guidelines/liability-claim-handling.md)
+- [Incidental Business and Personal Injury](/openwiki/coverage/liability/incidental-business-and-personal-injury.md)
 - [Liability E and F](/openwiki/coverage/parts/liability-e-f.md)
-- [Additional structures and insured interests](/openwiki/coverage/property/additional-structures-and-insured-interests.md)

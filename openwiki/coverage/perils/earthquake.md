@@ -3,9 +3,6 @@ type: coverage
 title: Earthquake Coverage and California Offer Requirements
 description: Explains the HO 04 54 earthquake endorsement editions, their grants, limits, deductibles, exclusions, and claim conditions, and separates those contract terms from California’s earthquake-offer and internal underwriting controls.
 tags: [earthquake coverage, homeowners insurance, HO 04 54, California, state overlay]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-9709b20a8d828015e4701480
     resource: repo://bulletins/CA/cdi-2014-06-earthquake-offer.md
@@ -19,7 +16,10 @@ sources:
     resource: repo://forms/HO/MS/HO-04-54/2021-12.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Earthquake Coverage and California Offer Requirements
 
@@ -131,21 +131,27 @@ The California HO 01 04 amendatory endorsement applies to property and interests
 
 For earthquake, HO 01 04 states the 15% deductible, treats earthquake loss as earth movement subject to earthquake coverage, and groups damage arising from the same earthquake occurrence. It also states a 100% insured-to-value condition for replacement-cost settlement of a covered building. These are contract-overlay terms, not merely marketing disclosures. See [HO 01 04 T.8](repo://forms/HO/CA/HO-01-04/2021-06.md#L689-L729).
 
+Keep the two deductible bases explicit. HO 01 04 T.8 states **15% of the applicable covered property value**, while CDI-2022-03 B.2.10 states that the offer must disclose **15% of applicable covered loss**. The contract provision and the offer disclosure must be reconciled in the filed and issued package; do not silently substitute the bulletin’s disclosure wording for the attached contract or vice versa. See [HO 01 04 T.8](repo://forms/HO/CA/HO-01-04/2021-06.md#L703-L709) and [CDI-2022-03 B.2.10-B.2.11](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L141-L151).
+
+HO 01 04 T.57 is the state-form provision that expressly directs its provision to be applied as required by **CDI-2022-03 B.2 Requirements**. That is the form acting on the bulletin; it is not a standalone earthquake grant, and it does not prove that the insurer made the offer, obtained affirmative authorization, or completed filing. T.57 appears in the windstorm-and-hail section, so its cross-reference must not be expanded into an earthquake-coverage promise. See [HO 01 04 T.57](repo://forms/HO/CA/HO-01-04/2021-06.md#L169-L175) and [CDI-2022-03 B.2.1-B.2.5](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L106-L132).
+
 HO 01 04 does not replace the separate earthquake endorsement. Confirm that HO 04 54 is attached and identify its edition before applying coverage, limit, deductible, exclusion, or claim-condition language.
 
 ### CDI-2014-06: earlier bulletin position
 
 CDI-2014-06 was effective 2014-06-30 and is marked superseded by CDI-2022-03 for policies effective on or after 2022-03-14; it remains relevant to policies written under its position. For its transactions, an admitted insurer offering or issuing California residential property insurance had to make a clear, separate, verifiable earthquake offer, explain material coverages and limitations, disclose a **10% seismic deductible**, provide reasonable acceptance and declination methods, and preserve offer and response records. The offer had to distinguish earthquake coverage from the underlying policy and not be suppressed because acceptance seemed unlikely. See [metadata](repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L1-L9), [B.1](repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L13-L60), [B.2](repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L113-L205), and [B.3](repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L367-L491).
 
-The earlier bulletin also required claims procedures for prompt, fair, and equitable handling, reasonable investigation, qualified personnel, written decisions identifying policy provisions and the basis for the decision, distinction between covered and noncovered damage, payment of undisputed covered amounts, and claim records. See [CDI-2014-06 B.4](repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L535-L624).
+The earlier bulletin also required claims procedures for prompt, fair, and equitable handling, reasonable investigation, qualified personnel, written decisions identifying policy provisions and the basis for the decision, distinction between covered and noncovered damage, payment of undisputed covered amounts, and claim records. Those claims standards apply to claims received on or after **2014-06-30**; the section uses prompt and reasonable standards rather than a numeric acknowledgment or payment deadline. See [CDI-2014-06 B.4.1-B.4.19](repo://bulletins/CA/cdi-2014-06-earthquake-offer.md#L535-L614).
 
 ### CDI-2022-03: current offer and disclosure controls
 
 CDI-2022-03 is effective 2022-03-14. It requires an earthquake offer when issuing or renewing eligible residential property insurance. The offer must be written, or electronic with consent, and must identify the insurer and related policy, property, limits, material terms, exclusions, conditions, premium or rating basis, and the **15% seismic deductible of applicable covered loss**. Acceptance must be affirmative; silence is not acceptance. Acceptance and declination must be confirmed and retained, and the underwriting basis for ineligibility must be preserved. Coverage is issued only after the required acceptance and premium arrangement, with documentation consistent with the offer. See [B.1-B.2](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L16-L59), [B.2](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L106-L226), and [B.2.38-B.2.39](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L262-L267).
 
-The notice must state that earthquake damage may not be covered by the residential property policy unless earthquake coverage is purchased, explain how to request coverage, identify material limitations and deductibles, disclose underwriting requirements and separate premium when applicable, identify the issuing entity, and be provided early enough to give a **meaningful opportunity to consider the offer**. Silence is not affirmative acceptance, and a request for information is not a declination. See [B.3](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L356-L461).
+The notice must state that earthquake damage may not be covered by the residential property policy unless earthquake coverage is purchased, explain how to request coverage, identify material limitations and deductibles, disclose underwriting requirements and separate premium when applicable, identify the issuing entity, and be provided early enough to give a **meaningful opportunity to consider the offer**. Silence is not affirmative acceptance, and a request for information is not a declination. A separate nonrenewal notice must be provided at least **75 days before nonrenewal takes effect**, and the earthquake offer must be separated from cancellation or nonrenewal communications when combining them would mislead. See [B.3.1-B.3.18](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L356-L426).
 
 The 2022 bulletin also requires prompt acknowledgment and reasonable investigation of earthquake claims, clear communications, relevant evidence requests, written explanations for denials or limitations, payment of covered amounts without unreasonable delay after the amount is determined, consideration of alternative evidence when records are unavailable through no fault of the claimant, supplemental-information opportunities, catastrophe-claim supervision, and claim records. See [B.4](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L517-L635).
+
+The bulletin’s claims standards are regulatory administration standards, not a replacement for contractual timing in an attached state form. HO 01 04 T.5 requires acknowledgment within **15 days**, acceptance or rejection within **40 business days** after requested items are received (or a written explanation if no decision can be made), and payment of an accepted claim within **30 business days**. CDI-2022-03 does not state those numeric periods; it uses prompt, reasonable, and without-unreasonable-delay standards. Apply both layers when the California contract form and bulletin govern. See [HO 01 04 T.5.5-T.5.6](repo://forms/HO/CA/HO-01-04/2021-06.md#L471-L483) and [T.5.31-T.5.38](repo://forms/HO/CA/HO-01-04/2021-06.md#L529-L547), and [CDI-2022-03 B.4.2-B.4.3](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L523-L529) and [B.4.15-B.4.17](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L580-L590).
 
 Before use, the insurer must file the forms, endorsements, notices, offers, applications, elections, rejection or acknowledgment documents, and related materials. Unfiled or superseded materials may not be used, effective filings must be applied consistently, and the insurer remains responsible when a producer, vendor, or other person prepares, delivers, or administers the offer. See [B.5](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L637-L704).
 

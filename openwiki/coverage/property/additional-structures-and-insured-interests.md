@@ -1,12 +1,11 @@
 ---
 type: coverage
 title: Additional Structures and Insured Interests
-description: Explains how HO-3 and HO-6 forms classify other structures, attached features, unit-owner building property, and property interests across Coverage A, Coverage B, Coverage C, and liability. Shows how rental, increased-limit, additional-interest, and unit-owner endorsements change only their stated line-specific terms.
-tags: [Coverage B, other structures, insured interests, attached property, HO-3, HO-6]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+description: Explains how DP-3, HO-3, HO-4, HO-5, and HO-6 editions classify other structures, attached features, building or contents property, ownership, and insurable interests. Separates insured status from property eligibility and shows how rental, incidental-occupancy, additional-interest, additional-insured, and limit endorsements modify only their stated line-specific terms.
+tags: [Coverage B, other structures, insured interests, ownership, insurable interest, DP-3, HO-3, HO-4, HO-5, HO-6]
 sources:
+  - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
+    resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-32634a1ce53b67e23ed2d2d2
     resource: repo://forms/HO/MS/HO-04-10/2011-05.md
   - id: openwiki-source-36d1f5d3ef366deb4db15189
@@ -25,6 +24,10 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2011-05.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
+    resource: repo://forms/HO/MS/HO-4/2021-10.md
+  - id: openwiki-source-25d651d4a45fc0fd8ab047e2
+    resource: repo://forms/HO/MS/HO-5/2022-06.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
   - id: openwiki-source-da67a262bebb42780999bd2a
@@ -33,7 +36,10 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-2cf1b29512817bd0bdda6254
     resource: repo://training/condo-master-policy-gap.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Additional Structures and Insured Interests
@@ -58,6 +64,20 @@ flowchart TD
 ```
 
 *This flow separates property classification and endorsement application from the separate underwriting decision about whether the occupancy is acceptable.*
+
+## Policy-line map: status, interest, and Coverage B are separate gates
+
+Across the supplied editions, **insured status** answers who receives the policy's rights and duties; **ownership or legal responsibility** answers whose property obligation is being insured; **insurable interest** limits whether and how much that person may recover; and **Coverage B** answers whether the item is a qualifying other structure. A person can have an interest in property without being an insured, and a qualifying structure can still fail a use, location, peril, or limit test. Do not carry a percentage, ownership predicate, or attached-property rule from one line into another.
+
+| Line and edition | Coverage B and building boundary | Ownership and insurable-interest boundary | Adjacent property/status boundary |
+|---|---|---|---|
+| **DP-3 2026-01** | Coverage B is **15% of Coverage A** for other structures set apart by clear space or connected only by a fence, utility line, or similar connection and used for a purpose related to the residence premises. It expressly addresses construction, temporary removal, fences, paved surfaces, detached garages, storage structures, and permanently installed equipment. [DP-3 2026-01 B.1–B.24](repo://forms/DP/MS/DP-3/2026-01.md#L291-L408) | The agreement requires an insurable interest at the time of loss, limits payment to the insured's financial interest, and says coverage does not create ownership. DP-3 B.20–B.21 then limits an other-structure payment to the insured's ownership, legal responsibility, and insurable interest. [DP-3 2026-01 AGR.1–AGR.6](repo://forms/DP/MS/DP-3/2026-01.md#L14-L35) · [DP-3 2026-01 B.20–B.21](repo://forms/DP/MS/DP-3/2026-01.md#L378-L390) | “Insured” status is defined separately for you and qualifying household residents; a tenant, boarder, or nonqualifying employee is not an insured merely because that person occupies or uses the premises. Coverage C likewise requires an insurable interest in personal property. [DP-3 2026-01 DEF.4–DEF.7](repo://forms/DP/MS/DP-3/2026-01.md#L87-L109) · [DP-3 2026-01 C.1–C.2](repo://forms/DP/MS/DP-3/2026-01.md#L410-L420) |
+| **HO-4 2021-10** | Coverage A is expressly not provided. Coverage B nevertheless covers other structures on the residence premises that are set apart or connected only by a fence, utility line, or similar connection, when owned or legally the insured's responsibility. The cited B.1–B.8 text supplies no Coverage B percentage; use the issued policy and declarations rather than importing HO-3 or HO-5's percentage. [HO-4 2021-10 A.1–A.27](repo://forms/HO/MS/HO-4/2021-10.md#L71-L125) · [HO-4 2021-10 B.1–B.8](repo://forms/HO/MS/HO-4/2021-10.md#L127-L143) | HO-4's agreement applies only to property in which the insured has an insurable interest and pays no more than that financial interest. Its Coverage C includes insured-owned or insured-used personal property and tenant improvements or building additions, alterations, fixtures, and installations when the insured has an insurable interest and the property is not otherwise insured. [HO-4 2021-10 AGR.1–AGR.4](repo://forms/HO/MS/HO-4/2021-10.md#L13-L23) · [HO-4 2021-10 C.1–C.9](repo://forms/HO/MS/HO-4/2021-10.md#L193-L213) | HO-4 defines insured status separately from property interest: qualifying household residents are insured, while a nonqualifying tenant, boarder, or roommate is not. A structure's location on the residence premises does not create Coverage A or automatically convert contents into building property. [HO-4 2021-10 DEF.4–DEF.6](repo://forms/HO/MS/HO-4/2021-10.md#L49-L55) · [HO-4 2021-10 A.3–A.4](repo://forms/HO/MS/HO-4/2021-10.md#L75-L81) |
+| **HO-5 2022-06** | Coverage B is **10% of Coverage A** for other structures on the residence premises. Separation by clear space or a limited fence, utility-line, or similar connection distinguishes B from attached dwelling property. The form covers specified private, storage, workshop, construction, temporary-removal, and limited rental uses, but excludes business, lodging, most rental, and commercial uses. [HO-5 2022-06 B.1–B.19](repo://forms/HO/MS/HO-5/2022-06.md#L185-L223) | HO-5 covers the insured's dwelling additions, alterations, and improvements when owned or required to be insured by written agreement. For B, it does not cover a structure the insured does not own unless there is a duty to insure it, and it remains subject to the insured's insurable interest. [HO-5 2022-06 A.1–A.9](repo://forms/HO/MS/HO-5/2022-06.md#L107-L125) · [HO-5 2022-06 B.20–B.22](repo://forms/HO/MS/HO-5/2022-06.md#L225-L231) | HO-5's agreement limits property coverage to the insured's financial interest. Coverage C is **50% of Coverage A**, covers property owned or used by the insured, and separately recognizes the insured's interest in jointly owned property and legally responsible custody of another's property; it does not make the other person's interest the insured's. [HO-5 2022-06 AGR.1–AGR.7](repo://forms/HO/MS/HO-5/2022-06.md#L13-L29) · [HO-5 2022-06 C.1–C.5 and C.36–C.40](repo://forms/HO/MS/HO-5/2022-06.md#L257-L267) · [HO-5 2022-06 C.36–C.40](repo://forms/HO/MS/HO-5/2022-06.md#L329-L337) |
+| **HO-3 2024-03** | Coverage B is **10% of Coverage A** for qualifying other structures at the residence premises. The form separates a detached structure from the dwelling by clear space or only a fence, utility line, or similar connection and treats an attached structure as dwelling property unless that limited connection applies. [HO-3 2024-03 B.1–B.6](repo://forms/HO/MS/HO-3/2024-03.md#L155-L167) | HO-3 B.3 requires ownership or a manner of holding that gives the insured an insurable interest; B.19–B.20 limits a jointly owned or liened structure to the insured's interest and legally entitled payment rights. [HO-3 2024-03 B.3 and B.19–B.20](repo://forms/HO/MS/HO-3/2024-03.md#L161-L163) · [HO-3 2024-03 B.19–B.20](repo://forms/HO/MS/HO-3/2024-03.md#L191-L195) | HO-3 Coverage A covers attached structures and tenant-responsibility building property, while the definition of insured remains a separate status rule. [HO-3 2024-03 A.1–A.7](repo://forms/HO/MS/HO-3/2024-03.md#L97-L113) · [HO-3 2024-03 DEF.4–DEF.5](repo://forms/HO/MS/HO-3/2024-03.md#L57-L65) |
+| **HO-6 2023-02** | Coverage B uses the same clear-space or limited-connection classification and residential-use boundary, but its supplied B section states no percentage. Its rental, business, land, storage, and customer-use exclusions must be applied as written rather than borrowing HO-3 or HO-5 limits. [HO-6 2023-02 B.1–B.9 and B.27–B.30](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152) · [HO-6 2023-02 B.27–B.30](repo://forms/HO/MS/HO-6/2023-02.md#L186-L194) | Coverage A, not B, covers unit building property owned by or legally the responsibility of the unit owner, including attached components and governing-document responsibilities. The 2023-02 B section does not state the HO-3 ownership predicate, so do not invent one; apply the policy's actual declarations, agreement, and other applicable terms. [HO-6 2023-02 A.1–A.20](repo://forms/HO/MS/HO-6/2023-02.md#L78-L118) · [HO-6 2023-02 B.1–B.9](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152) | HO-6 insured status and Coverage A property responsibility remain distinct. Attached fixtures, improvements, and association-allocation facts require the governing documents and policy edition; a master policy or unit location alone does not establish the unit owner's coverage. [HO-6 2023-02 DEF.4–DEF.5](repo://forms/HO/MS/HO-6/2023-02.md#L46-L60) · [HO-6 2023-02 A.16–A.20](repo://forms/HO/MS/HO-6/2023-02.md#L108-L118) |
+
+The percentages above are not interchangeable: DP-3 2026-01 uses 15%, HO-3 2024-03 and HO-5 2022-06 use 10%, and the supplied HO-4 and HO-6 B sections do not state a percentage in the cited provisions. A declarations limit or attached endorsement may still control, but no form edition should be assigned another line's percentage by analogy.
 
 A reliable review uses this order:
 
@@ -170,7 +190,7 @@ For a detached structure used for business, the manual says to refer rather than
 
 ### Practical claim and underwriting checklist
 
-1. Identify the HO-3 or HO-6 edition, declarations, deductible, and attached endorsements.
+1. Identify the DP-3, HO-3, HO-4, HO-5, or HO-6 edition, declarations, deductible, and attached endorsements.
 2. Classify the item: Coverage B other structure, Coverage A unit-owner building property, personal property, or liability exposure.
 3. For Coverage B, test the form's separation, ownership or insurable-interest wording (if any), location, use, and base exclusions before applying an increased-limit or rental endorsement.
 4. For a condominium loss, obtain the declaration, master-policy position, repair responsibility, and assessment or repair records before classifying the damaged component.
@@ -180,7 +200,10 @@ For a detached structure used for business, the manual says to refer rather than
 
 ## Related reading
 
+- [DP-3 Dwelling Property Form Editions](/openwiki/coverage/forms/dp-3.md)
 - [HO-3 Special Form Editions](/openwiki/coverage/forms/ho-3.md)
+- [HO-4 Contents Broad Form Editions](/openwiki/coverage/forms/ho-4.md)
+- [HO-5 Comprehensive Form Editions](/openwiki/coverage/forms/ho-5.md)
 - [HO-6 Unit-Owners Form Editions](/openwiki/coverage/forms/ho-6.md)
 - [Loss Assessment Coverage](/openwiki/coverage/property/loss-assessment.md)
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md)

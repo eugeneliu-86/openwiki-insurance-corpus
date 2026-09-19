@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:eec60a9a2bfb2b36e3021fecb6eda911c414e090f3c3e1460a821a453a1be1f1",
+  "pageVersion": "sha256:a61cec87ab48525692a76a7b9d8e7214ab9038a631e0c95daab0399a0f0d278c",
   "claims": [
     {
       "id": "claim_c45bdbfcb28343898be6cbdafa5bbe01",
@@ -147,36 +147,6 @@
       ]
     },
     {
-      "id": "claim_8fe8d4e6eb1d4f378d9cd9183ce23aa1",
-      "statement": "The cited HO 04 90 (2027-01) endorsement constrains water-backup implementation with a $10,000 contractual limit, a $1,000 deductible, a backwater-valve requirement for finished areas below grade, and a 30-day notice condition; these form terms must not be replaced by the internal $25,000 referral threshold or the guideline's 60-day handling checkpoint.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L1036-L1060",
-          "version": "repo-lines-v1:sha256:122738505e1379f4c2a858951c88c3a071fe90426f82bf66df07700a2f566306:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU5ZGZkNzI2NDhlMWZiNmMzZDYyNDE3NWRiYTMyZGUwZDQzYTVmOGQ2MzcwYzg3MGU4OWNjMzI0MWQ1MmRkYmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0NTZjMDExMjFkYWIyZDQxYzU1NmNlYWI5OTE2ODkyZjcxNzZhYzVmMTM2ZDJiZDI1NzkyNjhjZjUyMmJiNmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjljNjgxMDQ0ZmIzN2JlZGIyYWU5ZTJmMzc3MWViOGY5OGIwYmY4MmRmYWFmZmE4Y2ZlM2NkYzZlNTA5ZjQwN2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFhODIyMDdlNmM4NTE0YzVkNzE4NWRhYzY2ZGMxN2ZiZjk2NDUxMTE3ODNmODUxNzhhNTU2YmYyZjdhNTlmOGIifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L265",
-          "version": "repo-lines-v1:sha256:02a605ad1b7fc3404de757c04f1e9d7d3a384110a34b5167933ef8393cbb2986:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1MDJiNDJmOTZkMzQ4ZGRlNWZjYjVmYWFjMzlkOGZkZDViODJkYjdjNjAwNGMzM2QzOTc2MTllYThlYTMwOTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZkNDQ4YzRhOTRhYzI2ZmZmZTVmNGIyMzJmZjcwYjRkMzg0MjczOTUwZDIxMGUwNmRkNDdjOTBkZDBmYzAwNmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc5MmNhYTc0M2M0ZDI0NTBjYTMwMjRmN2QyZmExOTViODMxOGFiZGZiYTMzMWQzYTdjNjc5MjE3YjA1MzM2MmEifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L407",
-          "version": "repo-lines-v1:sha256:c3ea413f6d63098556e926f1ebbd3f55021d5f8cde8b1e2c74d23035a3de6e29:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2OGNlNDBhZjg5N2EzNDY2MmJiMTMxOTAyZjVlNDRmNjlmMzU5YjJjY2IxM2IxNWM0MmU2NGM4MWMzOGNjYWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI1YTJjZWM3MTdiNDM1YmExYjI4NDZiNGNmNzkzMzE4YzE3NzdhM2FhZTRlNTFhMDk0OGE4YTVlNDAzZWQ5NTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ1NWRmNzlkMDhjY2QzNzBmMzNmMTJhMzQ2M2M2OTc1OGZiMTJmNWFmNWFiNTVlNzZmNjc1NjBkYWRkZDEyMTEifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L791-L825",
-          "version": "repo-lines-v1:sha256:8e92057df2c642cae5a284f483d2a194e0f03f72d0e2a3bff9c8bbc3f02890f8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3MWNhNTViZGMxZDU4Y2EzOTVmMzllMzVhMWZiM2YyMDM2NzY3OTBlZWM2ODdlODRjNzljZThkYmNmZmFiNGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiZDZlOGYwMjJjZmEwNWI1Mjk5NmU4M2IzM2M5ODU5NWJlYjY2OTAxNTU0ODdhNWE0ZDQ2NGQ5NDExOTY0ZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAyNWU0MTY0ZjM1NmNhYjk3NGYzOTMwNjFhZjM3MmRmMDUzYTNhMmMwOThlM2MzZGVkNDI4YWFjMDRiNzE2ODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQwNWYyYzQzNDVkNTZhNDhhZmVjOTAyMjI4N2MxZDE0Njc1ZWRkMmU1NDE4OGJiNzZlNGUwMmZhYzdkMjY4MjMifQ"
-        },
-        {
-          "resource": "repo://guidelines/appetite/tx-homeowners.md#L367-L377",
-          "version": "repo-lines-v1:sha256:2460aa8ba4e0d3a98174c7b6ac2458ca7667e98afd8a5d68f2dcfdc2c5ace142:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZGY5ZmZlMGU5MzkwNzA3Mzg2ODgwYjQ5OTI0YmFmM2E3YThlNmVjOWY1MGI3ZjE5YWJkZmE5NGRhNTdhNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0ZTgwYTM5NTM2MzJlNTdjMmE4NTFlNTA2OTUwMWNmMjZlODk5Y2RmN2E5OWRkMWRiNjU5Y2NjZjJkYTM2ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2MzUzNTY2MGFkODRkNDNlNTE5M2NmZTM3ZjgyMDgwNjcwYzc1NWRhMTcwMWU1Y2VkZWYyODMyOTE0NWVkNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NzRlZDExYzZjY2MyZjRlMDVhNDE5Y2YwNGVlZmIyZTM0YjRjYTAzOGJiZGNmYTU2MDIzZDM0NzVjOGUxNzAifQ"
-        },
-        {
-          "resource": "repo://guidelines/appetite/tx-homeowners.md#L411-L421",
-          "version": "repo-lines-v1:sha256:b16fc11ec2d3123f433364a31d5127791194e8fd74d96bd2e1139103e6729654:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIzZGZjMDhmOWZmZTk2MWRmNmYzNjJiZjIxNTBmMzA4NDAyYTkyY2NmYmNjOTRlMGU5ZGFkMTQyNGUxZDU0YzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE4ZjkzZTM4NzgzMmE3ZGY4NTczZGE2Y2U5OWQxMzJmOTgzYWMwMTRlNzlkMzgzZTUxODkwNTE2NGNiMWRjMDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUxZTZkOWEwYWQ3MGM4ZjdhY2M5ZjI5ZDhhMDVjNmNmN2Y0ZDZlMDRlNjA0YjQ0YjE2M2YwMjcxYmMyZTA3YjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhN2JmNGI5ZTA0Zjk4NjA5ZWNhMjRkZmJlYmRiZDc1ZGUxYWE0NjZhMDY1YjJmOWMzODA5Y2FkMWJmOWFhY2YifQ"
-        }
-      ]
-    },
-    {
       "id": "claim_909b95ec1cf74220a1c3984f76766e3e",
       "statement": "Texas prior-loss review covers the preceding 3 years and requires referral when there are 2 paid property claims, counting dwelling, other-structure, personal-property, and loss-of-use claims including claims paid by another insurer; unresolved required referrals block binding until resolved and documented.",
       "evidence": [
@@ -200,11 +170,11 @@
     },
     {
       "id": "claim_68344635240e402fbc224a14ea372e71",
-      "statement": "The Texas guideline requires an internal mitigation checkpoint within 7 days after discovery of a covered loss condition, prompt evidence preservation and cause evaluation, documentation supporting adverse or payment decisions, and escalation of fraud, disputes, unusual coverage issues, and potential bad-faith allegations; applicable policy and endorsement deadlines still govern contractual handling.",
+      "statement": "The Texas guideline requires an internal mitigation checkpoint within 7 days after discovery of a covered loss condition, prompt evidence preservation and cause evaluation, documentation supporting adverse or payment decisions, and escalation of fraud, disputes, unusual coverage issues, and potential bad-faith allegations; the applicable policy and attached endorsement still govern contractual deadlines and duties.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L791-L825",
-          "version": "repo-lines-v1:sha256:8e92057df2c642cae5a284f483d2a194e0f03f72d0e2a3bff9c8bbc3f02890f8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3MWNhNTViZGMxZDU4Y2EzOTVmMzllMzVhMWZiM2YyMDM2NzY3OTBlZWM2ODdlODRjNzljZThkYmNmZmFiNGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiZDZlOGYwMjJjZmEwNWI1Mjk5NmU4M2IzM2M5ODU5NWJlYjY2OTAxNTU0ODdhNWE0ZDQ2NGQ5NDExOTY0ZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAyNWU0MTY0ZjM1NmNhYjk3NGYzOTMwNjFhZjM3MmRmMDUzYTNhMmMwOThlM2MzZGVkNDI4YWFjMDRiNzE2ODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQwNWYyYzQzNDVkNTZhNDhhZmVjOTAyMjI4N2MxZDE0Njc1ZWRkMmU1NDE4OGJiNzZlNGUwMmZhYzdkMjY4MjMifQ"
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L15-L17",
+          "version": "repo-lines-v1:sha256:c4273f29e038220ccafebb3714e7a43674f9ce4dfd558db4440d89c682289f08:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjg5MWIwNjFkMTJjZjBlYjNhZmZiMTU4NDQxNTQwYmMzMDFjNDE3MTRiMmVjNzkxMGQ3Y2M5MWEwYTM0MWZjNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmFmMDAxMjZmYjZhZTEyNWMxOGVhOWRmNWYxMzczMzc2ODVmODk5ZjY1YTI4YTRkZGU5YjhiOTE2MWE2ZTVjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMmJkZjU2NTE5NjUyMWUzNzEyNGJmMzA0Yzg2Y2UzMDhmNzYyNTVjMmY0NDA4MzM1NzMyMTZjZDFmOTc0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU5OGVlODIxOGM1Yzk1ODJiYzI4NGJhNGI5ZDgyMzEzZDhlMmRjODYyYjU0ZTkzMzI5YTNkZjlhMmY0MThkMSJ9"
         },
         {
           "resource": "repo://guidelines/appetite/tx-homeowners.md#L579-L615",
@@ -213,6 +183,10 @@
         {
           "resource": "repo://guidelines/appetite/tx-homeowners.md#L613-L649",
           "version": "repo-lines-v1:sha256:d35389dac31b03568fb259b426ef3d58ce22d5c18298cb1d672d932ee978474c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNWQ5ZmU1YmVlODQ2NGRhZmJmNzlmMzhlNzMyNTY1NDhhNWM1ZDgwODk1ODk5MTcxZTE5MmQ4N2ZhOGQ4YWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiNmIzNDMzZTdmZWVhY2EzMDdhMzc3ZDJiZTBjMjUzMmYzMjUzNDIzYzliNDUzY2VkYWM0ZjcwNDg3YTgzMWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyNzg3M2ZjYmVmOTA3NTBlYjg3NjYzZDE2YWFjODlkMWE4MzFmNWQxYzhiMDg1YjI0M2I1ZjgxNmJhYWU1MjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4NTM3MzdkMmMzZjBkMjRmN2FkYzc2MDIyZjgzM2MyNTJmMTNjNjA3MjQyMDk2MmUxNWViYzRjNmM0OTZlNjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L37",
+          "version": "repo-lines-v1:sha256:3c1146fcffb84e45f209bc9eed99ffc7e9fa8d1c91e5443e0a5497cc3cecf6df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
         }
       ]
     },
@@ -253,20 +227,16 @@
       "statement": "Texas internal attachment controls require a requested endorsement to be supported by current risk facts, eligible, and matched to the named insured, location, and insured property; water-related endorsements additionally require evaluation of water and drainage conditions and referral of repeated drainage or sewer concerns, while the attached form remains the source of contractual terms.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L14-L36",
-          "version": "repo-lines-v1:sha256:e4dba19a34ffc66caa800bcceb73a4dbe02dd11d39bf37c231548664704d0252:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0Y2E0ZDgwYTkyYmE4ODdmZTAwZmVhYjVjYmVjZWVjZDBlMGQxOTAxOGM4OWQzMDU3YjQyOTlmMGI5OWYzZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNjYjU1NzRlOTBlOWJiNTgzZDQzMzE5NmNiNmFlZjNkN2QxNmViMTRjNjA2M2NhMzk0N2Y2OTRhMTJiZjBhMTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM0OGM2NTg5ODQ1NDczYjc5YmVhMmQ1MmRiMWI5MjlhNGFmOTZmOGIzNWY2YmU2ZGE1NTYxNDQxZTk4ZmNjZjUifQ"
-        },
-        {
           "resource": "repo://guidelines/appetite/tx-homeowners.md#L367-L387",
           "version": "repo-lines-v1:sha256:383453521cd6327eaafe8f698bce910eb53ba7f1709e3a9468fd3957f27eeb6d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzZGY5ZmZlMGU5MzkwNzA3Mzg2ODgwYjQ5OTI0YmFmM2E3YThlNmVjOWY1MGI3ZjE5YWJkZmE5NGRhNTdhNzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlN2JlOTlhZDA2NzQ0ZjcwMjcyMjRjYTYyNzU4OWM4OWQ3MjFlY2VhNmQ0YmRhYmEzMmU5MWQ1ZjFjYTI2YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2MzUzNTY2MGFkODRkNDNlNTE5M2NmZTM3ZjgyMDgwNjcwYzc1NWRhMTcwMWU1Y2VkZWYyODMyOTE0NWVkNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNjYjEyZGJjMzc5ZDExODhjZWJhY2U0ODIwNWU1ZWFlZWViYTdjZWZkODdjODNiMzA1MGUwNjEwNjlkOWFiNzYifQ"
         },
         {
-          "resource": "repo://manuals/underwriting/manual.md#L5091-L5129",
-          "version": "repo-lines-v1:sha256:a71923ef0263315379562591eb9a8537bc858c0539b9f09b30d5a47f5bf43074:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5OWIyMTk0YjI5NmI2OWQ2YzRiZDYyM2Y5YzFkYjlmNjUwNzM3ZDJjZTBiMWEwNWM4ZGQ3ZGMzNDk4MDY2MGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZDI1MWMzNDhlYmNmYmMxNGE5NzE3ODZlY2FlZmM1NzVjNTk5NmY5ODk0OTljOTdjOTgzNjk3MjdjNjNkMTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViZDQyNWYwMTJjMzllMzg2ODg2NzhiYzMwN2FmNTEzNjJkNjFmYTRmNDE1MWRkNTQ0YTk4ODU3OGRjNTFkYTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkNjQ0ZDM0OWM4ZjA2ODM3ZTg5NGIxNjc0MDFhYjU4ZTdiMWZmZWQ4YWUxM2NiODYxNTFlMWE4Njc5M2I1YzEifQ"
+          "resource": "repo://manuals/underwriting/manual.md#L5089-L5129",
+          "version": "repo-lines-v1:sha256:db1c1cba3ecfcd4f4b35ce90e6a370dc615bcfef976567b00c4aef91c6fc8ca2:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxMDY4Y2IyMTlkNjIwMGJjZDdmMzEzOGNkN2U0Y2Q3MDI2MGYzYjlmYTk0ZDk3N2YyZWM3ZWY2ZTY0ZDRkZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZDI1MWMzNDhlYmNmYmMxNGE5NzE3ODZlY2FlZmM1NzVjNTk5NmY5ODk0OTljOTdjOTgzNjk3MjdjNjNkMTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjNjU1NWVjM2Y2ZTFjOTM4MGVjNjMyNTM4MDVmYTNmY2ZmYWZjN2MyMzIxNDA3N2I5MDI2NTVlNDc1MGE5YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkNjQ0ZDM0OWM4ZjA2ODM3ZTg5NGIxNjc0MDFhYjU4ZTdiMWZmZWQ4YWUxM2NiODYxNTFlMWE4Njc5M2I1YzEifQ"
         },
         {
-          "resource": "repo://manuals/underwriting/manual.md#L5163-L5173",
-          "version": "repo-lines-v1:sha256:2a257881c5d0ac2a82f09f2afc953c474082382438cab9e349b239b81c7c4a6f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NjI3MjI0YjZiZGYwNTZiZTY5MTdjMjJhMTk1MDUxMjU0MjQxY2U1NGUzNmRiZTdhMTdiYjBmYTk5MmU2NTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxY2JlMDAzNDNiYTczY2ViMThiYjBkZmNkNGU4ZWI4NDZhNjY3ODAzZjZjNzVmODUwNDYwZWU4ODI3Y2IyYWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY3NzhiYmU2NjQwNzQ5MjdiMzJmMjQwM2VmMmY0NWJjZDNiZGI1YjI1ODMxNWRhMDgzZWIxMzdjNTM0Zjk4YzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQxODdjMjg4MzE3NDBhNDBkYzJmYTk0Y2RkZmFlMDMyODBlMWRhOWRmNmZlNjlmMzIwYjZhZjQyMjIwYmNmNTkifQ"
+          "resource": "repo://manuals/underwriting/manual.md#L5163-L5179",
+          "version": "repo-lines-v1:sha256:dff00a71880126044ef3c3b9967cf59a734a0bc8934283a874b4bdb508e4724c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NjI3MjI0YjZiZGYwNTZiZTY5MTdjMjJhMTk1MDUxMjU0MjQxY2U1NGUzNmRiZTdhMTdiYjBmYTk5MmU2NTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3NTY2NjM5NjEwZmFkY2FhYjAwNmQyZjZlNDU0MjZmYjRmNzFlY2JkOTdiNDQ0OGE4Yzg3MzZlMGJkMTVkMGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY3NzhiYmU2NjQwNzQ5MjdiMzJmMjQwM2VmMmY0NWJjZDNiZGI1YjI1ODMxNWRhMDgzZWIxMzdjNTM0Zjk4YzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY1NWQ1MTg2OGVmZmM5YThiZmQzYWVmNjljNzcxZDQ5MDU4Y2UxMzBhM2IwNDIzZDZkZDc5Yjk1NDY2OTFiNDEifQ"
         }
       ]
     },
@@ -295,10 +265,24 @@
           "version": "repo-lines-v1:sha256:6f284e7ed207f3206a158e90a20dc982ff94d04c5fa55a03c76a983c99222112:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzYjllYjM3YjY3M2QyYzdlNGM2NDcxYjdiYTkzOTZkMjUwNzU0Mjc1ODg4NWFlYjRhMWQ1Yzk2OTc2N2M4MzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmODhhNmFjOWI1NWNlNTRhY2IyZjQ0N2EwMjczZWRiMDFjNjI1YTEyNjg3NTA3ZTk1MDUyNzJlZWIyYzBlMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZiNGNiMjc5ZmNlYmQ2YmI1ZjgzNGQ2ZDM4YTFkOWUzOGQyNzFmODBlMjY2YzVjNjQyMWI5OWZhOTZhM2E2MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwNzVmMzI5N2FiODBlZmJkMDY4MzhkMzliNmJkNWM4Y2E1MTg5MWIyNmI5MTMxYzIwYzgxM2QzZDc2YzVlNWYifQ"
         }
       ]
+    },
+    {
+      "id": "claim_13200968fabb485d8e31361796ab9936",
+      "statement": "The current underwriting manual adds an explicit Texas roof lifecycle and routing control: obtain inspection findings before binding at 15 years, decline at 25 years using reliable age and replacement evidence, route roofs at or beyond 25 years for declination processing, and do not bind without a recorded authorized exception; incomplete three-year loss history and water-backup requests above $25,000 are separate Rule 900 referral triggers.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L2211-L2235",
+          "version": "repo-lines-v1:sha256:a4afd84ee5831123d17d19d76913f711352261d4e21a0e51734a6c3e120f795a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxM2YwYjY0NTI1NzRlNmJmYTliNjkxOGIwMTQ0Y2YwZjk2NTUyNjIwZDI0NjZjZmQ3YTVhMTBiNGZjYjkzYmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlNGVlNTIwZDliMWI3OTZkZGM1MWEyZWRiZmEyYTNmNDBkZWIwOTVkOTY3NzJmOWViMGI0YWIzNWY0MDVjZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ1MWNhY2M3NjAyYzNjYzQ2MWI0MmNmN2Y3OGI5NGM5YTA0ZDZjYzJlM2MxNjQ1ZDJkMjc4Y2I4MWYyZTQ0MTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM1OWJmMDM0OTViMThiNGE3OTI5NWQ3YzlkMTdjMzI1ZDdhMDNlODUyMWU3Zjg3ODE4NWM0MzQ4OWM0NzQxNmUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9879-L9895",
+          "version": "repo-lines-v1:sha256:9450d229aae55ad13eaaeab9ca5e2df2c4b756ec28c792fe748d63f41e526df6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4MjA0ZjJmMmY3Yjg5NjIwNzhhNDUyYTRhNDcwZGE0OWY3MjY5ZWFjY2E5MzA4NzI4OGM0N2U2ZjcxZTQ0ODgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3ZDIzZjdmOTY0Zjc0ZmIzM2Q5OGVmMjE2ZTBhNTNkY2E0NmIyZDQyMWQ4ZGEwMTdkZTA5MmVkYThkOTM4MzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzZDAyYjJiY2Q4NGMwNjQyNTkwNzQ5YTc4ZmFhNGQ2ZGYxNTgwOTI4N2Q3NDlkNTI4N2M0YzM1ZjI3Mjc3MGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkM2JiZjI1MGViOGQ3YmNhNmYzMzQ3YzY1NGQ3YzgyNTUwZWI1ZjZkMjc3MDlkZDFjMjllZTMxNGViZDkwMzUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

@@ -14,14 +14,16 @@ sources:
     resource: repo://forms/HO/MS/HO-5/2022-06.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
+  - id: openwiki-source-da67a262bebb42780999bd2a
+    resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Manual Eligibility by Product Line
 
@@ -66,7 +68,21 @@ flowchart TD
 5. **Document the decision contemporaneously.** Record the facts reviewed, source of verification, Manual rule, authority used, referral reason and disposition, conditions, and final accept or decline action. Rule 100 requires clear records and a reason supported by relevant risk facts ([Rule 100.V and 100.W](repo://manuals/underwriting/manual.md#L141-L151)).
 6. **Reassess changed information.** A material change or a conflict with prior account information requires review; an earlier decision is not a continuing authorization when the risk facts change ([Rule 100.Q–100.R](repo://manuals/underwriting/manual.md#L111-L121)).
 
-These controls are operational gates, not coverage determinations. A form provision such as an 80 percent replacement-cost condition remains a contract term; the Manual may require valuation review, but it cannot change the condition ([HO-3 A.19–A.22](repo://forms/HO/MS/HO-3/2024-03.md#L135-L141), [Rule 110.BJ–110.BK](repo://manuals/underwriting/manual.md#L683-L693)).
+These controls are operational gates, not coverage determinations. A form provision such as the HO-3's 80 percent replacement-cost condition remains a contract term; the Manual may require valuation review, but it cannot change the condition ([HO-3 A.10](repo://forms/HO/MS/HO-3/2024-03.md#L117-L119), [Rule 110.BJ–110.BK](repo://manuals/underwriting/manual.md#L683-L693)).
+
+## Submission, territory, and authority gates
+
+Product selection is only one part of the submission decision. Before binding, the underwriter must confirm the named insured's identity, interest in the property, presented occupancy, complete location, and that the location is within the carrier's accepted territory. The effective date must also be clear, and the file must contain enough material information for an underwriting decision ([Rule 300.E–300.K](repo://manuals/underwriting/manual.md#L4017-L4057)). A complete address supports territory assignment, but an address alone does not establish territorial eligibility or product eligibility.
+
+Coverage A authority is separate from the product's eligibility limit. A line underwriter may bind Coverage A through **$800,000**; a senior underwriter may bind through **$1,500,000**. Amounts above the applicable delegated level require referral, and the risk must remain within the active delegation. Do not split, sequence, or structure a transaction to avoid review. A referred risk cannot bind until authorized approval is recorded, the approved terms are followed exactly, and the final authority and risk review are complete ([Rule 300.A–300.D](repo://manuals/underwriting/manual.md#L3993-L4015), [Rule 300.X–300.Z](repo://manuals/underwriting/manual.md#L4131-L4147), [Rule 300.BC](repo://manuals/underwriting/manual.md#L4317-L4321), [Rule 300.BR](repo://manuals/underwriting/manual.md#L4407-L4411)). These are delegated-authority ceilings, not Coverage A limits and not permission to bypass a lower product or state appetite limit. For HO-4, which has no Coverage A under its form, apply the identity, location, territory, effective-date, information, and active-authority controls without inventing a dwelling limit ([HO-4 A.1–A.2](repo://forms/HO/MS/HO-4/2021-10.md#L71-L75)).
+
+The time controls are also substantive. Rule 300 requires the effective date to be confirmed before binding; Rule 100 requires material information and pre-bind review before acceptance. A general inspection report is treated as current for **12 months after receipt**, but it must still support the decision, and a product- or state-specific inspection trigger controls when it is stricter ([Rule 300.E and 300.F](repo://manuals/underwriting/manual.md#L4017-L4027), [Rule 100.AJ–100.AL](repo://manuals/underwriting/manual.md#L225-L241)). If material information changes before issuance, reassess the authority and decision rather than relying on the earlier review ([Rule 300.BG](repo://manuals/underwriting/manual.md#L4341-L4345)).
+
+## State appetite overlays
+
+A state appetite guide can narrow the Manual's general product routing. The Texas Homeowners Appetite Guide is internal operating guidance, not contract language, and applies its own binding constraints: Coverage A must be **$150,000–$1,200,000**, protection class must not exceed **8**, and the named insured must principally use the dwelling as a private residence and hold an insurable interest ([Texas H.0.1–H.0.3](repo://guidelines/appetite/tx-homeowners.md#L13-L21), [Texas H.1.1–H.1.4](repo://guidelines/appetite/tx-homeowners.md#L59-L67)). Thus a Texas homeowners submission above $1,200,000 cannot be bound merely because the general HO-3 Rule 110 referral point is above $1,500,000; apply the lower applicable state ceiling and any required authority review. Do not extend this Texas homeowners range to DP-3 or another product without an applicable state rule.
+
+Texas also requires a roof inspection before binding at roof age **15 years or greater** and prohibits binding at **25 years or greater**. A wind-mitigation inspection is required when Coverage A exceeds **$500,000**, with the report retained and conflicts referred. These are state underwriting controls, distinct from the general Manual inspection-currency rule and from any form's roof settlement wording ([Texas H.2.3–H.2.6](repo://guidelines/appetite/tx-homeowners.md#L159-L167), [Texas H.3.2–H.3.5](repo://guidelines/appetite/tx-homeowners.md#L275-L285)).
 
 ## Product-line matrix
 
@@ -155,7 +171,7 @@ Rule 150.A–150.M establishes these occupancy, interest, condition, threshold, 
 
 ### Vacancy, use, catastrophe, and ownership controls
 
-Apply the Manual's vandalism handling after **30 consecutive days of vacancy** and refer any risk where vacancy cannot be established. Refer unoccupied dwellings without regular care, seasonal or intermittent occupancy with inadequate oversight, renovation or substantial repair, unrepaired fire or water damage, open or disputed claims, impaired protection, unreliable access or water supply, unmanaged vegetation or wildfire hazard, coastal or tidal exposure, reported flood or drainage concerns, earth movement, erosion, sinkhole, subsidence, mining, excavation, or blasting exposure ([Rule 150.N–150.AD](repo://manuals/underwriting/manual.md#L1699-L1799)). This is an internal eligibility and handling instruction; it does not by itself amend the DP-3 vacancy or vandalism provisions.
+Apply the Manual's vandalism handling after **30 consecutive days of vacancy** and refer any risk where vacancy cannot be established. Refer unoccupied dwellings without regular care, seasonal or intermittent occupancy with inadequate oversight, renovation or substantial repair, unrepaired fire or water damage, open or disputed claims, impaired protection, unreliable access or water supply, unmanaged vegetation or wildfire hazard, coastal or tidal exposure, reported flood or drainage concerns, earth movement, erosion, sinkhole, subsidence, mining, excavation, or blasting exposure ([Rule 150.N–150.AD](repo://manuals/underwriting/manual.md#L1699-L1799)). The 30-day instruction is an internal eligibility and handling control; it does not rewrite the DP-3 contract. The DP-3 2026-01 form separately says vandalism or malicious mischief is not covered when the dwelling has been vacant ([DP-3 P.21](repo://forms/DP/MS/DP-3/2026-01.md#L1310-L1312)) and separately states a **45-day** immediately-before-loss condition for theft or vandalism to a vacant dwelling ([DP-3 X.38](repo://forms/DP/MS/DP-3/2026-01.md#L1593-L1595)). Use the issued form, declarations, and applicable state terms for the contractual result; never present the Manual's 30-day gate as a new policy exclusion.
 
 Refer business, professional, agricultural, animal, transient lodging, boarder, roomer, or nonresidential use; damaged or hazardous detached structures; commercial or industrial storage; code or ordinance concerns; historic or specialized construction; shared ownership; manufactured or nontraditional construction; land-only applications; and incomplete dwellings ([Rule 150.AE–150.AS](repo://manuals/underwriting/manual.md#L1801-L1889)).
 

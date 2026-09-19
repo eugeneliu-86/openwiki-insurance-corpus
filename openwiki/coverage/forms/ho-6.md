@@ -3,9 +3,6 @@ type: coverage
 title: HO-6 Form Editions
 description: Edition-aware reference for condominium unit-owner coverage under HO-6 2014-04 and 2023-02. Compares building, other-structures, personal-property, loss-of-use, assessment, liability, and endorsement treatment, with attachment and claim-reading boundaries.
 tags: [HO-6, unit-owners, condominium, Coverage-A, loss-assessment, water-backup, rental, liability]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-e5342e2c1fb1ab6c2adceea1
     resource: repo://forms/HO/MS/HO-04-35/2014-04.md
@@ -25,7 +22,10 @@ sources:
     resource: repo://memoranda/HO-6-2023-02.md
   - id: openwiki-source-2cf1b29512817bd0bdda6254
     resource: repo://training/condo-master-policy-gap.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # HO-6 Form Editions
@@ -70,13 +70,13 @@ The labels matter: Section I Coverage E is **Additional Coverages**, while Secti
 
 Under 2014-04, Coverage A covers the unit-owner's dwelling interest, alterations, appliances, fixtures, improvements, interior walls, ceilings, floors, cabinets, built-in equipment, building systems, materials, and certain connected or commonly relevant property when the insured owns it or is responsible to insure it. The form states a default **$5,000** limit and an 80% insured-to-value threshold for replacement-cost settlement. The threshold applies only when the damaged property is repaired or replaced as required by the policy and does not change the amount of insurance provided. ([2014-04 A.1-A.9](repo://forms/HO/MS/HO-6/2014-04.md#L121-L143); [2014-04 A.20-A.32](repo://forms/HO/MS/HO-6/2014-04.md#L159-L185))
 
-Under 2023-02, Coverage A applies to building property owned by or legally the responsibility of the unit owner, including attached fixtures and permanently installed components, improvements, attached additions, building systems, and repair materials. Its default limit is **$10,000** and its insured-to-value threshold is 80%. The form excludes land and detached structures from Coverage A and does not cover association-responsibility property unless the governing documents, an agreement, or applicable law makes the insured responsible for its repair or replacement. ([2023-02 A.1-A.27](repo://forms/HO/MS/HO-6/2023-02.md#L78-L132))
+Under 2023-02, Coverage A applies to building property owned by or legally the responsibility of the unit owner, including attached fixtures and permanently installed components, improvements, attached additions, building systems, and repair materials. Its default limit is **$10,000** and its insured-to-value threshold is 80%. The form excludes detached structures from Coverage A and does not cover association-responsibility property unless the governing documents, an agreement, or applicable law makes the insured responsible for its repair or replacement. ([2023-02 A.1-A.27](repo://forms/HO/MS/HO-6/2023-02.md#L78-L132))
 
 **Do not treat Coverage A as condominium master-policy coverage.** In both editions, the relevant boundary is the unit owner's ownership interest or contractual/legal responsibility. The 2014-04 form says its limit is intended for the portion of the dwelling the insured owns or is responsible to insure and does not insure property belonging solely to the association. The 2023-02 form likewise places association-responsibility property outside the unit owner's Coverage A unless an agreement or governing obligation makes the insured responsible. A master policy may insure association or collective property, but the HO-6 base form does not automatically insure the association's entire building. ([2014-04 A.2-A.5](repo://forms/HO/MS/HO-6/2014-04.md#L125-L135); [2023-02 A.1-A.17](repo://forms/HO/MS/HO-6/2023-02.md#L80-L112); [condominium master-policy boundary](repo://training/condo-master-policy-gap.md#L15-L25))
 
 ### Coverage B — other structures
 
-Coverage B is separate from the unit-building layer. Under 2014-04, it covers qualifying separate structures at the residence premises and the insured's interest in them, including a jointly owned interest to the extent of that interest; it excludes land, business uses, and structures that are part of the dwelling rather than other structures. Under 2023-02, it covers separately set-apart structures used with the residence premises and requires the structure to be solely owned by an insured; an attached structure is handled under Coverage A rather than Other Structures. ([2014-04 B.1-B.11](repo://forms/HO/MS/HO-6/2014-04.md#L187-L209); [2023-02 B.1-B.9](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152); [2023-02 B.28-B.30](repo://forms/HO/MS/HO-6/2023-02.md#L188-L194))
+Coverage B is separate from the unit-building layer. Under 2014-04, it covers other structures at the residence premises that are set apart from the dwelling by clear space, or connected only by a fence, utility line, or similar connection, when used for a purpose related to residential use. It separately addresses structures under construction, materials and supplies, temporary removal, private garages, storage, recreation, and certain structures rented with the dwelling, while excluding land and business or other nonresidential uses. Under 2023-02, it uses the same set-apart or limited-connection concept and residential-use boundary, and expressly excludes structures rented or held for rental to another person and structures used for business. Attached structures are not Other Structures under the stated Coverage B boundary. ([2014-04 B.1-B.11](repo://forms/HO/MS/HO-6/2014-04.md#L187-L209); [2014-04 B.12-B.20](repo://forms/HO/MS/HO-6/2014-04.md#L211-L227); [2023-02 B.1-B.9](repo://forms/HO/MS/HO-6/2023-02.md#L134-L152); [2023-02 B.27-B.30](repo://forms/HO/MS/HO-6/2023-02.md#L188-L194))
 
 ### Coverage C — personal property
 

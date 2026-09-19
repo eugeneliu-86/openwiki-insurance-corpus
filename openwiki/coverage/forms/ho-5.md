@@ -1,9 +1,19 @@
 ---
 type: coverage
 title: HO-5 Comprehensive Form Editions
-description: Edition-aware reference for the HO-5 Homeowners 5 Comprehensive Form, covering the 2015-01 and 2022-06 editions, open-peril property coverage, Coverages A–F, liability, exclusions, claim conditions, and attached personal-property endorsements.
+description: Edition-aware reference for the HO-5 Homeowners 5 Comprehensive Form, comparing the 2015-01 and 2022-06 editions across open-peril property, limits, settlement, claim conditions, attached endorsements, and state amendatory attachments.
 tags: [homeowners, HO-5, comprehensive form, property coverage, personal property, liability]
 sources:
+  - id: openwiki-source-e727eafd0d05d9605e658315
+    resource: repo://forms/HO/CA/HO-01-04/2021-06.md
+  - id: openwiki-source-822f35c9e6943f4967e8b585
+    resource: repo://forms/HO/CO/HO-01-05/2022-10.md
+  - id: openwiki-source-a8c95d71a2a2351aaf8e360c
+    resource: repo://forms/HO/FL/HO-01-09/2023-07.md
+  - id: openwiki-source-0af9506b894fd5b634b6ea44
+    resource: repo://forms/HO/IL/HO-01-12/2015-02.md
+  - id: openwiki-source-1fa05a0fd929d1f05f011dff
+    resource: repo://forms/HO/LA/HO-01-17/2020-09.md
   - id: openwiki-source-9317c9df787e726c2de69887
     resource: repo://forms/HO/MS/HO-04-61/2012-02.md
   - id: openwiki-source-88c622c73b9f6c05a612e286
@@ -12,18 +22,28 @@ sources:
     resource: repo://forms/HO/MS/HO-04-65/2018-09.md
   - id: openwiki-source-93641f89ccf305903a2b34b6
     resource: repo://forms/HO/MS/HO-05-24/2018-09.md
+  - id: openwiki-source-5802aac0ff04777c19a4717f
+    resource: repo://forms/HO/MS/HO-23-74/2025-05.md
+  - id: openwiki-source-a831e6cf8f75394917fb0dc8
+    resource: repo://forms/HO/MS/HO-23-77/2022-07.md
   - id: openwiki-source-4f94313ce4b8747616211a66
     resource: repo://forms/HO/MS/HO-5/2015-01.md
   - id: openwiki-source-25d651d4a45fc0fd8ab047e2
     resource: repo://forms/HO/MS/HO-5/2022-06.md
+  - id: openwiki-source-a18ccaad3bb970c7f28bf589
+    resource: repo://forms/HO/NC/HO-01-32/2018-05.md
+  - id: openwiki-source-0d6a76164fce2d196a0998b8
+    resource: repo://forms/HO/NY/HO-01-31/2016-04.md
+  - id: openwiki-source-ff7de1315ac46ce4dd65d251
+    resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-4f53a77a26001861de473bce
     resource: repo://memoranda/HO-5-2022-06.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 # HO-5 Comprehensive Form Editions
 
@@ -85,6 +105,8 @@ The declarations supply the selected limits. The percentages below are form prov
 | **D — Loss of Use** | Limit **20% of Coverage A**, collectively for Additional Living Expense, Fair Rental Value, and qualifying civil-authority loss of use. ([D.1–D.24](repo://forms/HO/MS/HO-5/2015-01.md#L352-L416)) | Limit **20% of Coverage A** for Additional Living Expense, Fair Rental Value, and qualifying civil-authority loss of use when a covered loss makes the residence or rented portion unfit. ([D.1–D.23](repo://forms/HO/MS/HO-5/2022-06.md#L375-L423)) |
 
 Personal property stored in an other structure does not become Coverage B merely because of storage; classify the property and structure under the applicable coverage wording. ([2022-06, B.8–B.10](repo://forms/HO/MS/HO-5/2022-06.md#L199-L205))
+
+The 2022-06 source contains an apparent duplicated phrase in A.25 ("unless an actual cash value roof schedule endorsement is attached"). Preserve that source-text defect when quoting or escalating a wording issue; do not silently repair it or infer a broader roof result from the duplication. ([2022-06, A.25](repo://forms/HO/MS/HO-5/2022-06.md#L155-L159))
 
 ### Coverage C special limits and valuation
 
@@ -157,6 +179,30 @@ Attachment cannot be assumed: repository metadata identifies HO 05 24 as an **HO
 
 **HO 04 65 Coverage C — Increased Special Limits + the applicable HO-5 policy:** verify attachment and read the endorsement first for the expressly increased category, then apply the unchanged HO-5 terms. The endorsement does not create coverage, alter a peril, remove exclusions, change valuation, or eliminate a deductible. Its stated theft limits are **$5,000** for jewelry, watches, and precious stones, **$6,500** for firearms, and **$10,000** for silverware. Repository metadata labels it HO-3, so attachment and compatibility with an HO-5 must be confirmed. ([HO 04 65 metadata](repo://forms/HO/MS/HO-04-65/2018-09.md#L1-L8); [HO 04 65 scope](repo://forms/HO/MS/HO-04-65/2018-09.md#L45-L77); [HO 04 65 limits](repo://forms/HO/MS/HO-04-65/2018-09.md#L147-L181))
 
+## Roof settlement and wind/hail endorsements
+
+These forms are not automatically part of either HO-5 edition. The supplied metadata labels both as **HO-3** endorsements, so an issued HO-5 package must be checked for actual attachment and compatibility before either is applied. If attached, the endorsement is the acting document within its scope; unchanged HO-5 terms remain applicable. ([HO 23 74 metadata](repo://forms/HO/MS/HO-23-74/2025-05.md#L1-L7); [HO 23 77 metadata](repo://forms/HO/MS/HO-23-77/2022-07.md#L1-L7); [2022-06 agreement](repo://forms/HO/MS/HO-5/2022-06.md#L15-L33))
+
+### HO 23 74 Actual Cash Value Loss Settlement — Roof Surfacing, 2025-05
+
+If the issued package attaches HO 23 74, it **modifies** the HO-5 roof-surfacing settlement referenced in Coverage A: it settles covered roof surfacing at actual cash value when Roof Age is **12 years or greater**, whether or not the surfacing is repaired or replaced. It **preserves** coverage, exclusions, conditions, limits, and deductibles outside that stated roof-surfacing settlement scope, and it does not create coverage for an otherwise excluded loss. ([HO-5 2022-06, A.25](repo://forms/HO/MS/HO-5/2022-06.md#L155-L159); [HO 23 74 attachment and preservation](repo://forms/HO/MS/HO-23-74/2025-05.md#L14-L27); [HO 23 74 ACV trigger](repo://forms/HO/MS/HO-23-74/2025-05.md#L88-L114))
+
+The endorsement has an unresolved internal settlement issue: W.3 states a **20%** payable percentage for qualifying composition-shingle roof surfacing, while W.4 states that payment will not be less than **30%** of applicable replacement cost. Do not select one percentage by assumption; preserve the conflict and obtain controlling legal, filing, compliance, or state-specific direction. ([HO 23 74 2025-05, W.3](repo://forms/HO/MS/HO-23-74/2025-05.md#L568-L586); [HO 23 74 2025-05, W.4](repo://forms/HO/MS/HO-23-74/2025-05.md#L716-L735))
+
+### HO 23 77 Windstorm or Hail Percentage Deductible, 2022-07
+
+If attached, HO 23 77 **modifies** the deductible treatment for a covered windstorm or hail loss. It **preserves** the remaining HO-5 coverage terms and does not create coverage for excluded property or damage. The selected percentage is **2% to 10%**, calculated from the Coverage A limit shown in the Declarations; the resulting deductible is subtracted after the covered loss is determined, and the Coverage A limit is not reduced by that deductible. ([HO-5 2022-06 agreement and deductible](repo://forms/HO/MS/HO-5/2022-06.md#L15-L33); [HO 23 77 scope and preservation](repo://forms/HO/MS/HO-23-77/2022-07.md#L14-L20); [HO 23 77 no new coverage and preservation](repo://forms/HO/MS/HO-23-77/2022-07.md#L61-L81); [HO 23 77 percentage and calculation](repo://forms/HO/MS/HO-23-77/2022-07.md#L644-L676))
+
+The percentage deductible applies only after direct physical loss to covered property is established. Wind-driven rain, snow, sleet, sand, or dust is included only when windstorm or hail first creates the opening; the endorsement does not turn nearby weather or an excluded cause into covered loss. ([HO 23 77 coverage gate](repo://forms/HO/MS/HO-23-77/2022-07.md#L83-L104); [HO 23 77 exclusions and opening rule](repo://forms/HO/MS/HO-23-77/2022-07.md#L317-L340))
+
+## State amendatory attachments
+
+A state amendatory endorsement is contract language only when it is issued or attached to the policy. It may **modify** a state-specific deductible, condition, exclusion, settlement term, or claim duty within its stated scope; it **preserves** nonconflicting HO-5 provisions, and it does not supply coverage merely because the form exists in the repository. The state form must be read with the selected HO-5 edition and declarations, and applicable law controls where the endorsement says so. ([HO-5 2022-06 agreement and written-change rule](repo://forms/HO/MS/HO-5/2022-06.md#L15-L33); [California scope and precedence](repo://forms/HO/CA/HO-01-04/2021-06.md#L13-L29); [Illinois scope and preservation](repo://forms/HO/IL/HO-01-12/2015-02.md#L13-L27); [New York scope and preservation](repo://forms/HO/NY/HO-01-31/2016-04.md#L13-L29))
+
+The repository's state examples are labeled **HO-3**, not HO-5. Their presence therefore does not prove that they apply to an HO-5 policy. Confirm the issued state form, its edition, the policy effective date, and compatibility before importing any term. For the wind/hail examples, the stated ranges are **Florida 2%–15%** (HO 01 09 2023-07), **Colorado 1%–5%** (HO 01 05 2022-10), **Louisiana 2%–5%** (HO 01 17 2020-09), and **Texas 1%–10%** (HO 01 45 2022-01). These are the cited state-form terms, not default HO-5 deductibles; do not substitute them for the declarations or an actually attached HO-5-compatible form. ([Florida metadata and deductible](repo://forms/HO/FL/HO-01-09/2023-07.md#L1-L7); [Florida range](repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L67); [Colorado range](repo://forms/HO/CO/HO-01-05/2022-10.md#L59-L75); [Louisiana range](repo://forms/HO/LA/HO-01-17/2020-09.md#L59-L73); [Texas range](repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L73))
+
+State-specific attachment review is especially important for storm claims: a state form may **modify** the wind/hail percentage, occurrence, or allocation rule while the HO-5 open-peril grant, exclusions, causation requirements, and valuation terms remain applicable unless expressly changed. Do not treat a memorandum, bulletin, training document, or an HO-3-labeled state form as a substitute for the issued HO-5 package. ([HO 01 32 North Carolina scope and preservation](repo://forms/HO/NC/HO-01-32/2018-05.md#L13-L31); [HO 23 77 preserved policy terms](repo://forms/HO/MS/HO-23-77/2022-07.md#L72-L81))
+
 ## Edition-safe checklist
 
 1. Identify whether the loss is governed by **2015-01** or **2022-06** from the issued policy and effective date; do not use a later limit, exclusion, roof rule, or deadline retroactively.
@@ -166,6 +212,7 @@ Attachment cannot be assumed: repository metadata identifies HO 05 24 as an **HO
 5. For water, theft, vacancy, roof, business-property, or disappearance losses, use the exact edition wording and verify any specifically attached endorsement before applying a modification.
 6. For an endorsement, confirm that it is attached, identify it as the acting document, and read it with the unchanged HO-5 terms. Never import HO-3 wording merely because the subject or endorsement title looks similar.
 7. Treat appraisal as an amount-of-loss mechanism only. Preserve inspection evidence, inventories, receipts, proof of loss, recovery rights, and the applicable 60-day and 20-day deadlines.
+8. Check for an actually issued state amendatory attachment and its edition. Apply its changed terms only within scope, preserve the unmodified HO-5 terms, and do not import a repository form labeled HO-3 without confirming compatibility.
 
 ## Source set
 
@@ -175,5 +222,15 @@ Attachment cannot be assumed: repository metadata identifies HO 05 24 as an **HO
 * [HO 04 61 Scheduled Personal Property 2020-11](repo://forms/HO/MS/HO-04-61/2020-11.md)
 * [HO 04 65 Coverage C — Increased Special Limits 2018-09](repo://forms/HO/MS/HO-04-65/2018-09.md)
 * [HO 05 24 Special Personal Property Coverage 2018-09](repo://forms/HO/MS/HO-05-24/2018-09.md)
+* [HO 23 74 Actual Cash Value Loss Settlement — Roof Surfacing 2025-05](repo://forms/HO/MS/HO-23-74/2025-05.md)
+* [HO 23 77 Windstorm or Hail Percentage Deductible 2022-07](repo://forms/HO/MS/HO-23-77/2022-07.md)
+* [California HO 01 04 2021-06](repo://forms/HO/CA/HO-01-04/2021-06.md)
+* [Colorado HO 01 05 2022-10](repo://forms/HO/CO/HO-01-05/2022-10.md)
+* [Florida HO 01 09 2023-07](repo://forms/HO/FL/HO-01-09/2023-07.md)
+* [Illinois HO 01 12 2015-02](repo://forms/HO/IL/HO-01-12/2015-02.md)
+* [Louisiana HO 01 17 2020-09](repo://forms/HO/LA/HO-01-17/2020-09.md)
+* [North Carolina HO 01 32 2018-05](repo://forms/HO/NC/HO-01-32/2018-05.md)
+* [New York HO 01 31 2016-04](repo://forms/HO/NY/HO-01-31/2016-04.md)
+* [Texas HO 01 45 2022-01](repo://forms/HO/TX/HO-01-45/2022-01.md)
 * [Choosing the Governing Edition](repo://training/choosing-the-governing-edition.md)
 * [Guidance Versus Contract Language](repo://training/guidance-versus-contract.md)

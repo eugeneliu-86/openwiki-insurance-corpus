@@ -3,26 +3,28 @@ type: claims-guidance
 title: "Claims Intake, Investigation, and Mitigation"
 description: "A concise property-claims workflow for receiving notice, creating and controlling the claim file, developing cause and damage evidence, protecting property, and separating investigation from coverage and payment authority. Internal guidance is not a policy grant or amendment."
 tags: [claims-handling, claim-intake, investigation, mitigation, authority-controls]
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-826017f9c17ff1c446a5e4f6
+    resource: repo://guidelines/claims/mold-claim-handling.md
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
   - id: openwiki-source-fe5cf28f9b15285dd496cba1
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 
 # Claims Intake, Investigation, and Mitigation
 
-This page organizes Property Claims Handling Manual Chapters 1–3 as an operating workflow. It applies to property claims assigned to the carrier and keeps the adjuster within the assigned role and authority. The manual is internal guidance: it does not alter coverage, create an insured obligation, waive a condition, or create coverage through correspondence ([Manual 1.A](repo://manuals/claims/manual.md#L15-L19); [Manual 1.G](repo://manuals/claims/manual.md#L51-L55)). The applicable policy, endorsements, and law control the coverage result.
+This page organizes Property Claims Handling Manual Chapters 1–3, with the manual’s mold chapter and related specialty guidance where applicable, as an operating workflow. It applies to property claims assigned to the carrier and keeps the adjuster within the assigned role and authority. The manual and training guidance are internal handling aids: they do not alter coverage, create an insured obligation, waive a condition, or create coverage through correspondence. Use guidance to organize facts and questions, then use the in-force policy and endorsements to determine coverage ([Manual 1.A](repo://manuals/claims/manual.md#L15-L19); [Manual 1.G](repo://manuals/claims/manual.md#L51-L55); [Guidance Versus Contract Language](repo://training/guidance-versus-contract.md#L13-L23); [Guidance Versus Contract Language](repo://training/guidance-versus-contract.md#L73-L83)). The applicable policy, endorsements, and law control the coverage result.
 
 ## Workflow at a glance
 
@@ -92,6 +94,8 @@ The key internal timing controls are:
 
 The applicable policy may impose a different or additional insured duty. For example, the attached HO 04 90 endorsement requires notice within 30 days after discovery and requires reasonable protection, access, preservation, evidence, and mitigation ([HO 04 90 W.5.1–W.5.7](repo://forms/HO/MS/HO-04-90/2027-01.md#L791-L819)). That contract language must be analyzed for the policy and endorsement actually in force; the internal three-day handling instruction cannot replace or amend it.
 
+For a mold or fungi exposure, note an internal timing conflict rather than silently choosing a contractual deadline: Chapter 3 and the mold guidance direct reasonable mitigation within **3 days after discovery**, while Manual Chapter 9 describes a **5-day-after-discovery** mitigation threshold. These are internal instructions, not policy conditions. Escalate for direction when the conflict affects handling and never communicate either number as a universal insured obligation ([Manual 3.A](repo://manuals/claims/manual.md#L709-L727); [Manual 9.E](repo://manuals/claims/manual.md#L3063-L3079); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L37-L43)).
+
 ## 3. Investigation: develop cause, path, duration, and scope
 
 ### Start with source and entry path
@@ -109,6 +113,8 @@ For water-loss source development:
 These are investigation controls, not coverage outcomes. Chapter 3 requires inspection before demolition when conditions permit, representative evidence when emergency work prevents a complete inspection, and qualified findings when the source cannot be reliably identified ([Manual 3.E, 3.H, 3.O–3.P](repo://manuals/claims/manual.md#L735-L757); [Manual 3.O–3.P](repo://manuals/claims/manual.md#L795-L805)). The training module reinforces that a stain, moisture reading, contractor label, or insured description is evidence to evaluate with the rest of the file, not conclusive causation by itself ([Water Losses 101 L.2.15–L.2.16, L.2.69–L.2.80](repo://training/water-losses-101.md#L89-L91); [Water Losses 101 L.2.77–L.2.80](repo://training/water-losses-101.md#L213-L219)).
 
 For a roof-related report, use the roof-specific procedure as a specialty handoff rather than importing roof settlement rules into unrelated claims. It adds inspection of accessible roof surfaces, related components, and affected interiors; weather and damaged-versus-undamaged comparisons; prior-repair review; and qualified review when cause, scope, or repair feasibility cannot be resolved from available evidence. A contractor may provide scope and pricing information, but does not decide coverage ([Roof guidance H.6.11–H.6.18](repo://guidelines/claims/roof-claim-handling.md#L487-L501); [Roof guidance H.6.27–H.6.32](repo://guidelines/claims/roof-claim-handling.md#L519-L529); [Roof guidance H.7.38](repo://guidelines/claims/roof-claim-handling.md#L649-L651)).
+
+For a mold, fungi, wet- or dry-rot, or bacteria report, open the specialty exposure review and identify the condition, source, chronology, affected property, and unresolved facts. Treat growth, odor, staining, moisture readings, health complaints, and a vendor label as evidence to evaluate—not as proof of a covered microbial loss. Preserve samples and removed materials when material, separate emergency protection, investigation, fungi work, permanent repair, and non-loss work, and refer substantial contamination, bodily-injury or habitability concerns, unusual remediation, disputed causation, or other unresolved material issues. The mold guidance also calls for referral of a mold-related loss over **$10,000** before a coverage determination; this is separate from the general manual’s **$25,000** settlement or payment authority threshold ([Manual 9.A–9.O](repo://manuals/claims/manual.md#L3043-L3129); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L37-L43); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L55-L83); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L109-L119)).
 
 ### Preserve evidence and document limitations
 

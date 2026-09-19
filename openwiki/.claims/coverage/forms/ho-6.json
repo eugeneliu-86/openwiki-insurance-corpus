@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:beca62778c39f0a287db659e6105fd3089d8d46b22b5d6dc03a6d83152fa10ed",
+  "pageVersion": "sha256:721df1ca37d6237de9a27f2fbf4ceb6088d6a54a5fd2f8b78972b07e06452764",
   "claims": [
     {
       "id": "claim_75e40ca7fa814076a9adebd45d457e4d",
@@ -72,7 +72,7 @@
     },
     {
       "id": "claim_b0b70a89e8d341b88f52f1e862b38f55",
-      "statement": "Under HO-6 2023-02, Coverage A covers unit building property, attached fixtures and components, improvements, materials, and property the unit owner is required to insure by governing documents or law; it has a default $10,000 limit, retains the 80% replacement-cost threshold, excludes land and detached structures from Coverage A, and does not cover association-responsibility property absent an obligation to repair or replace it.",
+      "statement": "Under HO-6 2023-02, Coverage A covers unit building property, attached fixtures and components, improvements, materials, and property the unit owner is required to insure by governing documents or law; it has a default $10,000 limit, retains the 80% replacement-cost threshold, excludes detached structures from Coverage A, and does not cover association-responsibility property absent an obligation to repair or replace it.",
       "evidence": [
         {
           "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L78-L132",
@@ -82,15 +82,19 @@
     },
     {
       "id": "claim_e80c086624a046babd7b0d26789be052",
-      "statement": "Coverage B is separate from the unit building layer: 2014-04 covers qualifying other structures at the residence premises subject to its residential-use rules, while 2023-02 covers separately set-apart structures and excludes attached structures from Other Structures coverage.",
+      "statement": "Coverage B is separate from the unit-building layer: both editions use a set-apart or limited-connection test and a residential-use boundary; 2014-04 separately addresses structures under construction, materials, temporary removal, garages, storage, recreation, and certain structures rented with the dwelling, while 2023-02 expressly excludes structures rented or held for rental to another person and structures used for business; attached structures fall outside the Other Structures boundary.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L187-L209",
-          "version": "repo-lines-v1:sha256:33829b42a93766a2502ce65707825f122130501755a9921debc6178f01d6a891:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwYmE3MzAzOWU5ZTVlZDgxOTIyMGRiY2RiY2VmZGNlYWFjM2I3Y2EzNDU5NzdiYzQ4MmY0ZGEzZmVkYjg5NTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2YmNkOTE1YTlhYmU5YTI4MjYwZjQyY2RmY2QwMTUyOTc5MTQzNzg5ZDU0ZmU0MWNjYzg3ZjcyNDcwNTg3NWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI0MTVjMzJlMGVjMzA5MDc2N2MwZGNmYjYyMTE2ZDg5MjA2YjVhYzU2MjczNjIzYTNhMDlkYjQ1Y2E5NmMwODEifQ"
+          "resource": "repo://forms/HO/MS/HO-6/2014-04.md#L187-L227",
+          "version": "repo-lines-v1:sha256:64cd5a54c0cd3ad6d30c4c6c6872fe7dccff2a1dec055b10c9a91007bc33b2f7:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxZjk2OTYxMWJjNGQwMDFlNmY1OTM5ZjI0NmRjYjE0NTQ1ODYzODAxMDBkMDQxZjk4NDYyMzUzNzZmNGQ5NmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY2YmNkOTE1YTlhYmU5YTI4MjYwZjQyY2RmY2QwMTUyOTc5MTQzNzg5ZDU0ZmU0MWNjYzg3ZjcyNDcwNTg3NWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE1NjQ4NjBlZTAyOGM2MmVhOTljNjdkYWFmZTNjNzg5ZjI0NDViZjBhZmRhZjU0YjJjY2QzNDAyYTY3MjRkNGEifQ"
         },
         {
           "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L134-L152",
           "version": "repo-lines-v1:sha256:8143f0848c2b7140aae941368ddc4ce41065dff76f536a5daebedf973e7c4ad5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyNTk2NzY3NmRiOTE1NjRhZTU1NTM4NzQ5YmFhN2M5ZjRkMWJiMWZjMjI5YjAxYzNjYWJjODExNGRlODYzODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ1MTkzODRhZTNmNDA2NzMxMDYwZDBlNzU2ZGZhMGY4N2Q2OTNiN2JhZmY3Yzk2NzA0Y2ZhZTFjNTllYzNiYzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmZTg4MjY5ODVlM2YxNGI0MjY5ZGQwODBhZGRiYmU2YWFlYjhmMjA1NzY5NjQzMmNhOGFhMWQ2NWUzYWU3ODgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L188-L194",
+          "version": "repo-lines-v1:sha256:8209ef767cafaff7ddcb2f6258e4c64e2b2027e57257c304bb2a1bdfc05ce69b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjVjOTZmYmQxYThhMzFiYzAxZDcwZThjNzJlZGQ3MzFiYzA4NTk3MDZkMDZlODZmM2YyOTZkZTM3MDBhZTE3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2MTZjOWJhZjdjZjliYmQyOTVjMDNlMTg1MDljOTk1YWMzNzYwY2I5ZjY5YWZkMWQ5NWJiOWE2ZWE5NmFhZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDllMDIzOTdhOTgyMjdkMTFhNTA1NTFhN2UxMzhlMDdhMDhjNjQyZGJmMmIwMzkxYTQyNGZmMjA1YTlhODY0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjllN2MxNWZhNDBjMjc3YzdjY2VhNGMyNmZkYzNjYzRiMmY0OGI3NGFmODVhYzYxMzgxNTRkNTUxZjViNDhkNCJ9"
         }
       ]
     },
@@ -429,6 +433,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

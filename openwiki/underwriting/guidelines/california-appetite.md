@@ -14,10 +14,10 @@ sources:
     resource: repo://guidelines/appetite/ca-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 # California Appetite
 
@@ -78,12 +78,19 @@ When replacement-cost settlement is requested, the California state exception re
 
 ### Age and condition gate
 
-- Obtain an acceptable roof inspection **before binding when roof age is 20 years or greater**. The report must identify the covering, visible condition, and material defects; review photographs with it when available. [Guide H.2.1–H.2.3](repo://guidelines/appetite/ca-homeowners.md#L306-L317)
+- Obtain an acceptable California appetite-guide roof inspection **before binding when roof age is 20 years or greater**. The report must identify the covering, visible condition, and material defects; review photographs with it when available. [Guide H.2.1–H.2.3](repo://guidelines/appetite/ca-homeowners.md#L306-L317)
+- The general Manual adds an earlier, separate gate: require a roof survey **before binding when roof age reaches 15 years**, with evidence of condition, materials, installation quality, and visible deterioration. Apply both controls to a California risk; the Guide’s 20-year inspection gate does not waive the Manual’s 15-year survey gate. [Manual Rules 100.A and 600.A–600.B](repo://manuals/underwriting/manual.md#L13-L19) [repo://manuals/underwriting/manual.md#L39-L43) [repo://manuals/underwriting/manual.md#L8501-L8513)
 - Decline an actively leaking roof unless documented repairs are complete before binding. Do not bind incomplete roof work unless underwriting has approved the risk after reviewing the scope and expected completion. [Guide H.2.4–H.2.5](repo://guidelines/appetite/ca-homeowners.md#L319-L327)
-- Refer missing, lifted, broken, curled, cracked, split, granule-loss, sagging, ponding, deteriorated, or otherwise weather-vulnerable roofing; damaged flashing, penetrations, sealant, vents, chimneys, skylights, solar attachments, and roof-mounted equipment; recurring patchwork; obscured surfaces; interior moisture evidence; and inaccessible areas. [Guide H.2.6–H.2.21](repo://guidelines/appetite/ca-homeowners.md#L329-L404) [Guide H.2.27–H.2.40](repo://guidelines/appetite/ca-homeowners.md#L431-L498)
+- Refer missing, lifted, broken, curled, cracked, split, granule-loss, sagging, ponding, deteriorated, or otherwise weather-vulnerable roofing; damaged flashing, penetrations, sealant, vents, chimneys, skylights, solar attachments, and roof-mounted equipment; recurring patchwork; obscured surfaces; interior moisture evidence; and inaccessible areas. [Guide H.2.6–H.2.21](repo://guidelines/appetite/ca-homeowners.md#L329-L404) [Guide H.2.27–H.2.40](repo://guidelines/appetite/ca-homeowners.md#L431-L498) [Manual Rules 600.AF and 600.AL–600.AO](repo://manuals/underwriting/manual.md#L8689-L8693) [repo://manuals/underwriting/manual.md#L8725-L8747)
 - Do not treat a replacement estimate, a homeowner statement, aerial imagery alone, or an intention to repair as proof of acceptable present condition. A contractor statement is useful only when it identifies the observed condition and recommended or completed work; repair evidence must identify the affected area and completed work. [Guide H.2.9–H.2.13](repo://guidelines/appetite/ca-homeowners.md#L341-L364) [Guide H.2.22–H.2.24](repo://guidelines/appetite/ca-homeowners.md#L406-L419) [Guide H.2.36–H.2.38](repo://guidelines/appetite/ca-homeowners.md#L476-L489)
 
 Confirm that the inspection covers every roof serving the dwelling and covered appurtenant structures. Record the material, age source, inspection, photographs, repair evidence, referral or exception, and final decision. [Guide H.2.25–H.2.26 and H.2.31–H.2.42](repo://guidelines/appetite/ca-homeowners.md#L421-L454) [Guide H.2.41–H.2.42](repo://guidelines/appetite/ca-homeowners.md#L500-L510)
+
+#### Inspection currency and ambiguity
+
+Use a current, usable report rather than treating the age gate as the only control. The general Manual says an inspection report is current for **12 months after receipt**, and the renewal rule also states **12 months**; record the inspection date and obtain updated evidence when the report is no longer current or conditions may have changed. [Manual Rule 100.AJ](repo://manuals/underwriting/manual.md#L225-L229) [Manual Rule 700.R](repo://manuals/underwriting/manual.md#L9233-L9237)
+
+Do not invent a validity period from Rule 610.AA: its text says “18 from its completion” without a unit. Record the completion date and escalate the unclear direction before relying on it, rather than interpreting 18 as days, months, or another period. An inspection used for endorsement attachment has a separate **6-month** validity control. [Manual Rule 610.AA](repo://manuals/underwriting/manual.md#L8961-L8965) [Manual Rule 100.P](repo://manuals/underwriting/manual.md#L105-L109) [Manual Rule 400.AN](repo://manuals/underwriting/manual.md#L5325-L5329)
 
 ### Contract boundary for roof discussions
 
@@ -161,7 +168,7 @@ The authority path is:
 - Obtain recorded approval before representing a referred risk as accepted. Communicate referral status accurately; an indication, producer expectation, or informal direction is not approval.
 - Bind only after required conditions are confirmed and only within the approved terms. Escalate uncertainty before binding. [Guide H.7.11–H.7.34](repo://guidelines/appetite/ca-homeowners.md#L1362-L1461)
 
-The general manual also requires active delegated authority, sufficient risk information, no authority bypass, recorded approval, and no reliance on verbal approval. If a generic manual limit or informal instruction conflicts with the California-specific Guide or the current delegated-authority record, stop and escalate rather than choosing the more favorable limit. [Manual Rule 300.A–300.F](repo://manuals/underwriting/manual.md#L3991-L4027) [Manual Rule 300.X–300.AD](repo://manuals/underwriting/manual.md#L4131-L4165) [Manual California Rule 520.AR–520.AT](repo://manuals/underwriting/manual.md#L6837-L6853)
+The general manual also requires active delegated authority, sufficient risk information, no authority bypass, recorded approval, and no reliance on verbal approval. Its generic authority schedule is **$800,000** for a line underwriter and **$1,500,000** for a senior underwriter; the California state exception separately sets a California line-underwriter ceiling of **$1,000,000**. For a California risk, apply the California-specific ceiling together with the handler’s active assigned delegation: a lower assigned delegation still controls, and a higher generic or senior level does not raise the California appetite ceiling. If limits or instructions conflict, stop and escalate rather than choosing the more favorable limit. These are carrier authority rules, not policy limits. [Manual Rules 300.A–300.F](repo://manuals/underwriting/manual.md#L3991-L4027) [Manual Rule 520.A–520.C](repo://manuals/underwriting/manual.md#L6577-L6595) [Manual Rule 300.X–300.AD](repo://manuals/underwriting/manual.md#L4131-L4165) [Manual California Rule 520.AR–520.AT](repo://manuals/underwriting/manual.md#L6837-L6853)
 
 ## Evidence and file standard
 
@@ -188,6 +195,7 @@ Record adverse information even when the risk is accepted, distinguish reported 
 
 - [California State Overlay](/openwiki/state-overlays/california.md) — earthquake offer, California form, and state-transaction handoffs.
 - [Earthquake coverage and offer requirements](/openwiki/coverage/perils/earthquake.md) — contract and offer analysis, separate from appetite.
+- [Binding Authority and Exceptions](/openwiki/underwriting/guidelines/binding-authority.md) — delegated ceilings, evidence gates, and referral holds.
+- [Inspection and Records](/openwiki/underwriting/manual/inspection-and-records.md) — Manual Rules 600 and 610 inspection lifecycle and file controls.
 - [Underwriting referral and authority guidance](/openwiki/underwriting/guidelines/referral-authority.md) — general referral lifecycle and authority controls.
 - [Manual eligibility by product line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product-line entry criteria.
-- [Manual property, roof, and water risk controls](/openwiki/underwriting/manual/property-and-water-risk.md) — broader manual controls and evidence handling.

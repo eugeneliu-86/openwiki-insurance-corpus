@@ -1,11 +1,8 @@
 ---
 type: coverage
 title: Roof Settlement
-description: Reconciles roof settlement and actual-cash-value schedules with the attached HO-3 and HO 23 74 editions, HO 23 77 deductibles, Colorado disclosure requirements, and underwriting controls. Separates coverage and cause from scope, valuation, payment, and pre-bind risk selection.
+description: Reconciles roof cause, covered damage, matching, repair or replacement, actual-cash-value schedules, and age and condition evidence across applicable HO forms and HO 23 74 editions. Separates contract settlement from state disclosure duties, underwriting controls, and filing memoranda.
 tags: [roof-settlement, actual-cash-value, replacement-cost, homeowners, claims]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-662caafdca8e6cd719c848e2
     resource: repo://bulletins/CO/doi-2022-08-roof-settlement.md
@@ -21,13 +18,22 @@ sources:
     resource: repo://forms/HO/MS/HO-23-77/2022-07.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
+    resource: repo://forms/HO/MS/HO-4/2021-10.md
+  - id: openwiki-source-25d651d4a45fc0fd8ab047e2
+    resource: repo://forms/HO/MS/HO-5/2022-06.md
   - id: openwiki-source-98996e9748507677077d5997
     resource: repo://guidelines/claims/roof-claim-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+  - id: openwiki-source-d3cc221b966da1c2185d5b2f
+    resource: repo://memoranda/HO-04-90-2027-01.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Roof Settlement
 
@@ -37,7 +43,7 @@ Handle a roof claim in this order: **coverage and cause, damaged scope, valuatio
 
 ```mermaid
 flowchart TD
-    start["Report roof loss"] --> policy["Identify policy period, HO-3 form, and endorsements"]
+    start["Report roof loss"] --> policy["Identify policy period, applicable HO form, and endorsements"]
     policy --> coverage["Establish covered direct physical loss and covered cause"]
     coverage -->|"Not established"| investigate["Document facts, request support, or escalate"]
     coverage -->|"Established"| scope["Separate damaged roof property from prior condition and exclusions"]
@@ -61,7 +67,21 @@ Identify the policy period, the HO-3 edition, the attached HO 23 74 edition, dec
 
 Without an ACV roof-schedule endorsement, HO-3 2024-03 applies the dwelling's replacement-cost basis to covered roof surfacing when the dwelling meets the form's 80% insured-to-value threshold, subject to the base form's conditions and limits. The base form also excludes replacement of undamaged property solely because like-kind materials are unavailable. [HO-3 2024-03, A.10–A.13](repo://forms/HO/MS/HO-3/2024-03.md#L117-L123) [HO-3 2024-03, A.23–A.25](repo://forms/HO/MS/HO-3/2024-03.md#L143-L147)
 
-HO 23 74 **modifies** that base-form roof-surfacing settlement basis when it is attached: the endorsement acts on the base form's roof settlement provision and changes valuation to ACV for the covered roof surfacing described by the endorsement. It does not broaden the covered peril or override other applicable exclusions, conditions, limits, or deductibles. [HO-3 2024-03, A.22](repo://forms/HO/MS/HO-3/2024-03.md#L141-L147) [HO 23 74 2018-09, W.0](repo://forms/HO/MS/HO-23-74/2018-09.md#L13-L27) [HO 23 74 2025-05, W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L27) [HO 23 74 2025-05, W.0 remainder](repo://forms/HO/MS/HO-23-74/2025-05.md#L61-L66)
+HO 23 74 **modifies** that base-form roof-surfacing settlement basis when it is attached: the endorsement acts on the base form's roof settlement provision and changes valuation to ACV for the covered roof surfacing described by the endorsement. It does not broaden the covered peril or override other applicable exclusions, conditions, limits, or deductibles. [HO-3 2024-03, A.13](repo://forms/HO/MS/HO-3/2024-03.md#L123-L123) [HO 23 74 2018-09, W.0](repo://forms/HO/MS/HO-23-74/2018-09.md#L13-L27) [HO 23 74 2025-05, W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L27) [HO 23 74 2025-05, W.0 remainder](repo://forms/HO/MS/HO-23-74/2025-05.md#L61-L66)
+
+### Base-form applicability matrix
+
+The form edition controls what property is insured before an endorsement changes settlement. The following relationships prevent a roof-schedule rule from being applied to the wrong form:
+
+| Form | Roof-relevant base treatment | Relationship to HO 23 74 |
+| --- | --- | --- |
+| **HO-3 2024-03** | Coverage A covers the dwelling; covered dwelling damage uses replacement cost when the 80% insured-to-value threshold is met. A.13 expressly sends roof surfacing to the dwelling basis unless an ACV roof-schedule endorsement is attached. | HO 23 74 **modifies** the HO-3 roof-surfacing settlement provision when attached; use the attached edition and its effective scope. [HO-3 A.10–A.13](repo://forms/HO/MS/HO-3/2024-03.md#L117-L123) |
+| **HO-5 2022-06** | The form covers the dwelling and expressly covers roof direct physical loss, but excludes cosmetic wind or hail damage that does not impair water shedding. Its dwelling loss settlement uses replacement cost when the 80% threshold is met. | Do not import an HO-3 endorsement automatically. Confirm that the declarations and attached endorsement authorize HO 23 74 for this policy before applying its schedule. [HO-5 A.1–A.11 and A.25](repo://forms/HO/MS/HO-5/2022-06.md#L107-L129) [HO-5 P.37–P.41](repo://forms/HO/MS/HO-5/2022-06.md#L541-L549) [HO-5 A.36–A.37](repo://forms/HO/MS/HO-5/2022-06.md#L177-L183) |
+| **HO-4 2021-10** | Coverage A is expressly not provided, so the form does not insure the tenant's dwelling roof as Coverage A. Its exclusions still distinguish an excluded settling cause from ensuing direct physical loss, and P.68 says ACV roof age and the insured-to-value threshold do not determine whether a peril is covered. | There is no basis in this HO-4 edition alone to apply a dwelling-roof schedule. Verify separately any covered tenant interest, other applicable coverage, and any specifically attached endorsement. [HO-4 A.1–A.5](repo://forms/HO/MS/HO-4/2021-10.md#L71-L85) [HO-4 P.55 and P.68–P.70](repo://forms/HO/MS/HO-4/2021-10.md#L611-L643) |
+
+The HO 23 74 source identifies its line as **HO-3**, and its attachment language says it changes the policy only as stated in the endorsement. Thus the explicit contract relationship documented here is **HO 23 74 modifies HO-3**, not “all homeowners forms.” A similar roof reference in HO-4 or HO-5 is not an endorsement attachment, a coverage grant, or permission to transplant the HO-3 schedule. [HO 23 74 2018-09, metadata and W.0](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L27) [HO 23 74 2025-05, metadata and W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L1-L27)
+
+The **HO-04-90 2027-01 filing memorandum** is a memorandum about wording revisions, not an operative homeowners form or a roof endorsement. It describes changes intended to clarify coverage order, repair versus replacement, valuation terminology, and claim conditions; it does not supply a new roof settlement method. Use the filed policy and attached endorsement for settlement, and use the memorandum only to understand the filing's explanatory context. [HO-04-90 memorandum, metadata](repo://memoranda/HO-04-90-2027-01.md#L1-L6) [HO-04-90 memorandum, M.1.1–M.1.21](repo://memoranda/HO-04-90-2027-01.md#L13-L55) [HO-04-90 memorandum, M.4.71–M.4.72](repo://memoranda/HO-04-90-2027-01.md#L519-L521)
 
 ## Replacement cost and ACV
 

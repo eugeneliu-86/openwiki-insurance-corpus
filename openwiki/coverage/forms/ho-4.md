@@ -1,8 +1,11 @@
 ---
 type: coverage
 title: HO-4 Contents Broad Form Editions
-description: Contract-oriented reference for the Mississippi HO-4 Contents Broad Form editions 2013-07 and 2021-10. Compares tenant property, water, loss-of-use, settlement, post-loss, and liability boundaries and explains how attached HO-4 endorsements change the base result.
-tags: [HO-4, contents, personal-property, loss-of-use, liability, water-damage]
+description: Contract-oriented reference for the Mississippi HO-4 Contents Broad Form editions 2013-07 and 2021-10. Compares tenant property, water, loss-of-use, settlement, post-loss, state, and liability boundaries and explains how attached HO-4 endorsements change the base result.
+tags: [HO-4, contents, personal-property, loss-of-use, liability, water-damage, policy-editions]
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-af35759075f03e69c4b0c838
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
@@ -18,12 +21,11 @@ sources:
     resource: repo://forms/HO/MS/HO-4/2013-07.md
   - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
     resource: repo://forms/HO/MS/HO-4/2021-10.md
+  - id: openwiki-source-ff7de1315ac46ce4dd65d251
+    resource: repo://forms/HO/TX/HO-01-45/2022-01.md
   - id: openwiki-source-b58437235e89648dd2691bae
     resource: repo://memoranda/HO-4-2021-10.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 
 # HO-4 Contents Broad Form Editions
@@ -34,7 +36,13 @@ This page documents the Mississippi HO-4 form files for the 2013-07 and 2021-10 
 
 The 2021-10 filing memorandum is an interpretation and drafting-change map, not a grant of insurance. It describes revisions involving deductible administration, policy continuation, mold wording, claim-handling authority, loss-of-use and special-limit presentation, post-loss conditions, and Section II liability wording. Use it to locate and understand a change, but use the governing form, declarations, and attached endorsements to decide coverage. If the memorandum and contract differ, the form controls; an endorsement changes the policy only to the extent stated in the endorsement. ([HO-4 memorandum, filing summary](repo://memoranda/HO-4-2021-10.md#L13-L75); [HO-4 memorandum, Section I changes](repo://memoranda/HO-4-2021-10.md#L145-L185); [HO 04 92, conflict and unchanged terms](repo://forms/HO/MS/HO-04-92/2019-03.md#L13-L39); [HO 04 27, conflict and unchanged terms](repo://forms/HO/MS/HO-04-27/2016-05.md#L13-L39))
 
-**Coverage A is not provided.** Both editions expressly say that Coverage A does not insure the dwelling or building. The 2013-07 list also excludes building parts, systems, fixtures, landlord property, and property for which the tenant is merely responsible; 2021-10 separately enumerates the dwelling, attached structures, building systems, fixtures, garage, land, and other real-property interests. Do not infer an HO-3 dwelling grant, dwelling replacement-cost coverage, ordinance-or-law building coverage, or building loss-of-use coverage from an HO-4 policy. ([HO-4 2013-07, I.A A.1–A.36](repo://forms/HO/MS/HO-4/2013-07.md#L67-L139); [HO-4 2021-10, I.A A.1–A.38](repo://forms/HO/MS/HO-4/2021-10.md#L71-L147))
+## State overlays and line boundaries
+
+A state amendatory form is contract language only when it is issued and attached to the applicable policy. Select it by state, line, edition, and policy-effective date; then read it with the declarations, base form, and endorsements. A state form can control conflicting terms within its stated scope, but it does not create coverage unless it expressly does so. ([Texas HO 01 45 2022-01, scope and precedence](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L23); [Texas overlay, attachment and date selection](repo://openwiki/state-overlays/texas.md#L31-L42))
+
+The supplied Texas example is expressly an **HO-3** amendatory endorsement, not an HO-4 form. Its windstorm-and-hail deductible terms therefore must not be transplanted into this Mississippi HO-4 comparison or used to infer a Mississippi HO-4 state change. For an actual state modification, verify the issued package and apply only the line-appropriate form attached to that policy. ([Texas HO 01 45 metadata](repo://forms/HO/TX/HO-01-45/2022-01.md#L1-L8); [Texas HO 01 45 deductible](repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L91))
+
+**Coverage A is not provided.** Both editions expressly say that Coverage A does not insure the dwelling or building. The 2013-07 list also excludes building parts, systems, fixtures, landlord property, and property for which the tenant is merely responsible; 2021-10 separately enumerates the dwelling, attached structures, building systems, fixtures, garage, land, and other real-property interests. Do not infer an HO-3 dwelling grant, dwelling replacement-cost coverage, ordinance-or-law building coverage, or building loss-of-use coverage from an HO-4 policy. ([HO-4 2013-07, I.A A.1–A.38](repo://forms/HO/MS/HO-4/2013-07.md#L67-L143); [HO-4 2021-10, I.A A.1–A.27](repo://forms/HO/MS/HO-4/2021-10.md#L71-L125))
 
 The forms may still use the Coverage A limit as a reference formula. Coverage D is stated as 30% of Coverage A in 2013-07, while 2021-10 states a forty-percent limit and its filing memorandum identifies the relationship as 40% of Coverage A; Section I ordinance-or-law wording also references Coverage A. Because Coverage A is not provided, the formula does not itself supply a Coverage A amount or convert tenant coverage into building insurance. ([HO-4 2013-07, I.D D.1](repo://forms/HO/MS/HO-4/2013-07.md#L306-L307); [HO-4 2021-10, I.D D.1](repo://forms/HO/MS/HO-4/2021-10.md#L317-L319); [HO-4 memorandum, Coverage D revision](repo://memoranda/HO-4-2021-10.md#L145-L153); [HO-4 2013-07, I.E E.57–E.60](repo://forms/HO/MS/HO-4/2013-07.md#L501-L507); [HO-4 2021-10, I.E E.42–E.46](repo://forms/HO/MS/HO-4/2021-10.md#L515-L523))
 
@@ -50,7 +58,7 @@ The forms may still use the Coverage A limit as a reference formula. Coverage D 
 | Section II Coverage E | Personal Liability | Personal Liability | Occurrence-based bodily-injury and property-damage liability and defense. |
 | Section II Coverage F | Medical Payments to Others | Medical Payments to Others | Qualifying third-party medical expenses without regard to fault. |
 
-“Coverage E” therefore has two different meanings depending on the section. Section I Coverage E is not Section II personal liability; Section II Coverage E is liability, and Section II Coverage F is medical payments. ([HO-4 2013-07, B–D](repo://forms/HO/MS/HO-4/2013-07.md#L141-L165); [HO-4 2013-07, Section I E](repo://forms/HO/MS/HO-4/2013-07.md#L373-L385); [HO-4 2013-07, Section II E–F](repo://forms/HO/MS/HO-4/2013-07.md#L993-L1125); [HO-4 2021-10, B–D](repo://forms/HO/MS/HO-4/2021-10.md#L149-L169); [HO-4 2021-10, Section I E](repo://forms/HO/MS/HO-4/2021-10.md#L357-L369); [HO-4 2021-10, Section II E–F](repo://forms/HO/MS/HO-4/2021-10.md#L1007-L1195))
+“Coverage E” therefore has two different meanings depending on the section. Section I Coverage E is not Section II personal liability; Section II Coverage E is liability, and Section II Coverage F is medical payments. ([HO-4 2013-07, B–D](repo://forms/HO/MS/HO-4/2013-07.md#L141-L165); [HO-4 2013-07, Section I E](repo://forms/HO/MS/HO-4/2013-07.md#L373-L385); [HO-4 2013-07, Section II E–F](repo://forms/HO/MS/HO-4/2013-07.md#L993-L1125); [HO-4 2021-10, B](repo://forms/HO/MS/HO-4/2021-10.md#L127-L169); [HO-4 2021-10, D](repo://forms/HO/MS/HO-4/2021-10.md#L315-L329); [HO-4 2021-10, Section I E](repo://forms/HO/MS/HO-4/2021-10.md#L357-L369); [HO-4 2021-10, Section II E–F](repo://forms/HO/MS/HO-4/2021-10.md#L1007-L1115))
 
 ```mermaid
 flowchart TD
@@ -71,13 +79,13 @@ flowchart TD
 
 ### Coverage B — Other Structures
 
-Coverage B is not Coverage A. In 2013-07 it covers qualifying other structures at an insured location that are owned by the insured or held for the insured's use, while excluding the dwelling, land, business or rental uses, and most unattached property. In 2021-10 it covers qualifying other structures on the residence premises in which the insured has an insurable interest, plus permanently installed serving equipment and repair or rebuilding materials, but excludes rental or business use, farming, unlawful use, fences and similar non-roofed property. A tenant's responsibility for the landlord's building does not create Coverage A or automatically make that building a Coverage B other structure. ([HO-4 2013-07, I.B B.1–B.12](repo://forms/HO/MS/HO-4/2013-07.md#L141-L165); [HO-4 2021-10, I.B B.1–B.21](repo://forms/HO/MS/HO-4/2021-10.md#L149-L191))
+Coverage B is not Coverage A. In 2013-07 it covers qualifying other structures at an insured location that are owned by the insured or held for the insured's use, while excluding the dwelling, land, business or rental uses, and most unattached property. In 2021-10 it covers qualifying other structures on the residence premises in which the insured has an insurable interest, plus permanently attached fixtures and repair or rebuilding materials, but excludes rental or business use, farming, unlawful use, fences and similar non-roofed property. A tenant's responsibility for the landlord's building does not create Coverage A or automatically make that building a Coverage B other structure. ([HO-4 2013-07, I.B B.1–B.12](repo://forms/HO/MS/HO-4/2013-07.md#L141-L165); [HO-4 2021-10, I.B B.1–B.32](repo://forms/HO/MS/HO-4/2021-10.md#L127-L191))
 
 Coverage B's core repair settlement is not the previously asserted edition difference. In 2013-07, B.20 settles a covered loss under the applicable valuation provision, caps payment at the amount necessary to repair or replace, and excludes betterment, matching, and non-restorative improvements. In 2021-10, B.19 covers repair or replacement of the damaged portion with like kind and quality and excludes an ordinance-or-law cost increase unless the policy otherwise provides it. Apply these clauses with the governing edition's general valuation and conditions; do not import a Coverage C settlement rule into Coverage B. ([HO-4 2013-07, I.B B.19–B.20](repo://forms/HO/MS/HO-4/2013-07.md#L183-L185); [HO-4 2021-10, I.B B.19–B.21](repo://forms/HO/MS/HO-4/2021-10.md#L165-L169))
 
 ### Coverage C — Personal Property
 
-Coverage C is the principal tenant contents grant. Both editions cover qualifying personal property owned or used by an insured, including property away from the residence premises under the applicable worldwide or temporary-removal provisions. The 2021-10 edition expressly limits the use to personal, family, or household use, addresses temporarily removed property, and requires a request before loss for property of others. Neither edition makes a roommate, roomer, boarder, or unrelated tenant an insured merely because that person occupies the residence. ([HO-4 2013-07, I.C C.1–C.13](repo://forms/HO/MS/HO-4/2013-07.md#L209-L235); [HO-4 2021-10, I.C C.1–C.13](repo://forms/HO/MS/HO-4/2021-10.md#L217-L243))
+Coverage C is the principal tenant contents grant. Both editions cover qualifying personal property owned or used by an insured, including property away from the residence premises under the applicable worldwide or temporary-removal provisions. The 2021-10 edition expressly addresses personal-property location, temporary removal, rented-residence improvements, and property belonging to guests or servants. Neither edition makes a roommate, roomer, boarder, or unrelated tenant an insured merely because that person occupies the residence. ([HO-4 2013-07, I.C C.1–C.13](repo://forms/HO/MS/HO-4/2013-07.md#L209-L235); [HO-4 2021-10, I.C C.1–C.13](repo://forms/HO/MS/HO-4/2021-10.md#L217-L243))
 
 The 2021-10 special limits are higher for the following categories:
 
@@ -129,11 +137,11 @@ Payment timing is not identical. The 2013-07 form states payment within 60 days 
 
 ## Section II liability and medical-payment boundaries
 
-Coverage E in both editions pays damages for which an insured is legally liable because of bodily injury or property damage caused by an occurrence and provides a defense for a covered claim or suit. The defense ends when the applicable liability limit is exhausted by the edition's stated payment mechanism. Coverage F pays qualifying medical expenses for a person other than an insured without regard to fault and generally limits expenses to those incurred within three years of the accident. Coverage F is not a substitute for Coverage E liability and contains its own person, premises, employment, business, professional-service, vehicle, watercraft, aircraft, and intentional-injury exclusions. ([HO-4 2013-07, II.E E.1–E.18 and II.F F.1–F.18](repo://forms/HO/MS/HO-4/2013-07.md#L1005-L1053); [HO-4 2021-10, II.E E.1–E.10 and II.F F.1–F.20](repo://forms/HO/MS/HO-4/2021-10.md#L1087-L1107); [HO-4 2021-10, Section II Coverage F](repo://forms/HO/MS/HO-4/2021-10.md#L1155-L1195))
+Coverage E in both editions pays damages for which an insured is legally liable because of bodily injury or property damage caused by an occurrence and provides a defense for a covered claim or suit. The defense ends when the applicable liability limit is exhausted by the edition's stated payment mechanism. Coverage F pays qualifying medical expenses for a person other than an insured without regard to fault and generally limits expenses to those incurred within three years of the accident. Coverage F is not a substitute for Coverage E liability and contains its own person, premises, employment, business, professional-service, vehicle, watercraft, aircraft, and intentional-injury exclusions. ([HO-4 2013-07, II.E E.1–E.18 and II.F F.1–F.18](repo://forms/HO/MS/HO-4/2013-07.md#L993-L1089); [HO-4 2021-10, II.E E.1–E.10](repo://forms/HO/MS/HO-4/2021-10.md#L1007-L1027); [HO-4 2021-10, II.F F.1–F.20](repo://forms/HO/MS/HO-4/2021-10.md#L1075-L1115))
 
-For a tenant, the liability grant does not insure the tenant's own contents as liability property damage and does not override the property-damage exclusions for property owned by, rented to, occupied by, used by, or in the care of an insured. The editions differ in the details and exceptions: 2013-07 separately excludes property in those relationships and then addresses household-resident property, while 2021-10 expressly preserves fire, smoke, or explosion exceptions for property rented to, occupied by, or loaned to an insured. Read the applicable edition's exact exclusion rather than treating landlord property as automatically covered. ([HO-4 2013-07, II.E E.25–E.27](repo://forms/HO/MS/HO-4/2013-07.md#L1055-L1059); [HO-4 2021-10, II.E E.25–E.30](repo://forms/HO/MS/HO-4/2021-10.md#L1137-L1149))
+For a tenant, the liability grant does not insure the tenant's own contents as liability property damage and does not override the property-damage exclusions for property owned by, rented to, occupied by, used by, or in the care of an insured. The editions differ in the details and exceptions: 2013-07 separately excludes property in those relationships and then addresses household-resident property, while 2021-10 expressly preserves fire, smoke, or explosion exceptions for property rented to, occupied by, or loaned to an insured. Read the applicable edition's exact exclusion rather than treating landlord property as automatically covered. ([HO-4 2013-07, II.E E.25–E.27](repo://forms/HO/MS/HO-4/2013-07.md#L1043-L1049); [HO-4 2021-10, II.E E.25–E.30](repo://forms/HO/MS/HO-4/2021-10.md#L1057-L1069))
 
-The Section II additional coverage for property damage to property of others is also edition-specific. 2013-07 states a $1,000 maximum and requires the property to be in the care of a person other than an insured. 2021-10 states a $1,500 maximum, makes the payment available regardless of legal liability, and retains exclusions for property owned by, rented to, occupied by, used by, or in the care of an insured, subject to its stated exceptions. ([HO-4 2013-07, II.E2 II.E.1–II.E.14](repo://forms/HO/MS/HO-4/2013-07.md#L1277-L1303); [HO-4 2021-10, II.E2 II.7–II.18](repo://forms/HO/MS/HO-4/2021-10.md#L1353-L1375))
+The Section II additional coverage for property damage to property of others is also edition-specific. 2013-07 states a $1,000 maximum and requires the property to be in the care of a person other than an insured. 2021-10 states a $1,500 maximum, makes the payment available regardless of legal liability, and retains exclusions for property owned by, rented to, occupied by, used by, or in the care of an insured, subject to its stated exceptions. ([HO-4 2013-07, II.E2 II.E.1–II.E.14](repo://forms/HO/MS/HO-4/2013-07.md#L1265-L1291); [HO-4 2021-10, II.E2 II.7–II.18](repo://forms/HO/MS/HO-4/2021-10.md#L1259-L1295))
 
 ## Edition-change summary and checklist
 
@@ -151,8 +159,3 @@ For an HO-4 claim:
 8. Treat appraisal as amount-of-loss resolution only. Use the governing form for payment timing and all coverage decisions.
 
 The contract, declarations, and attached line-appropriate endorsements control. General homeowners assumptions, HO-3 forms, training material, and underwriting guidance do not create HO-4 coverage.
-e.
-8. Treat appraisal as amount-of-loss resolution only. Use the governing form for payment timing and all coverage decisions.
-
-The contract, declarations, and attached line-appropriate endorsements control. General homeowners assumptions, HO-3 forms, training material, and underwriting guidance do not create HO-4 coverage.
-rs assumptions, HO-3 forms, training material, and underwriting guidance do not create HO-4 coverage.

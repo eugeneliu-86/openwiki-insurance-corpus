@@ -1,11 +1,8 @@
 ---
 type: state-overlay
 title: Florida State Overlay
-description: Edition-aware reference for Florida HO 01 09 and DP 01 09 amendatory forms, OIR roof-age and hurricane-deductible bulletins, and the related underwriting, notice, deductible, roof-settlement, and claims obligations. Use the policy-effective date to select the contract edition, then apply the bulletin and internal-guidance boundaries without treating them as interchangeable authority.
+description: Edition-aware reference for Florida HO 01 09 and DP 01 09 amendatory forms, the attached HO 23 74 roof-surfacing endorsement, OIR roof-age and hurricane-deductible bulletins, and related underwriting, notice, deductible, roof-settlement, and claims obligations. Use the policy-effective date and actual attachments to select contract language, then apply bulletin and internal-guidance boundaries without treating them as interchangeable authority.
 tags: [Florida, state-overlay, HO 01 09, DP 01 09, roof-age, hurricane-deductible, claims]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-bd188977e852f2ea442dcec3
     resource: repo://bulletins/FL/oir-2019-11-roof-age.md
@@ -19,9 +16,68 @@ sources:
     resource: repo://forms/HO/FL/HO-01-09/2019-01.md
   - id: openwiki-source-a8c95d71a2a2351aaf8e360c
     resource: repo://forms/HO/FL/HO-01-09/2023-07.md
+  - id: openwiki-source-a7812317f4b735061e88f5bb
+    resource: repo://forms/HO/MS/HO-23-74/2018-09.md
+  - id: openwiki-source-5802aac0ff04777c19a4717f
+    resource: repo://forms/HO/MS/HO-23-74/2025-05.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+overlay_index:
+  bulletins:
+    - id: OIR-2019-11
+      effective: "2019-11-05"
+      supersession: "Superseded by OIR-2023-04 for the later action scope; remains relevant to policies written under this edition."
+      deductible: "No base deductible minimum; administer deductibles under applicable law and policy forms."
+      disclosure_notice: "Written roof-inspection disclosure before requesting or accepting an inspection for a roof at least 20 years old; clear reason and reconsideration information for adverse action."
+      deadlines: "Inspection before binding at 20 years; at least 90 days before a roof-related nonrenewal; claims standards apply to post-effective handling, including continuing handling of open claims."
+    - id: OIR-2022-01
+      effective: "2022-01-20"
+      supersession: "No supersession marker in the source."
+      deductible: "Disclosure must state a named-storm minimum of 2% and hurricane maximum of 10%; the bulletin does not set the contract deductible."
+      disclosure_notice: "Clear, conspicuous disclosure before binding or renewal and before premium or final electronic acceptance; 45 days before an increase in a windstorm deductible."
+      deadlines: "File the disclosure with the applicable form or endorsement before use; retain the delivered version and prevent unfiled or superseded versions."
+    - id: OIR-2023-04
+      effective: "2023-04-11"
+      supersession: "Supersedes OIR-2019-11 for underwriting and nonrenewal actions in its later scope."
+      deductible: "No deductible term; the bulletin says it does not amend the policy."
+      disclosure_notice: "Before binding a roof 15 years old, disclose the inspection and its possible effect on eligibility, terms, premium, or offer; adverse decisions and nonrenewals must state specific reasons and review information."
+      deadlines: "At least 120 days before expiration for roof-age or roof-condition nonrenewal; file revised practices before implementation when filing is required."
+  forms:
+    - id: HO 01 09 2019-01
+      effective: "2019-01-01"
+      supersession: "Superseded by HO 01 09 2023-07 for policies effective on or after 2023-07-01; remains applicable when attached to earlier policies."
+      deductible: "Windstorm and hail deductible from 2% through 10%, calculated from the applicable Deductible Basis for damaged property and separate from other deductibles."
+      disclosure_notice: "At least 45 days before an increase in the Windstorm Deductible, with the changed deductible, effective date, affected insurance, and calculation method."
+      deadlines: "10 days for nonpayment cancellation; 45 days for other permitted cancellation; 120 days for nonrenewal; 14-day claim acknowledgment; 90 business days for decision; 20 business days after acceptance; five years for an action."
+    - id: HO 01 09 2023-07
+      effective: "2023-07-01"
+      supersession: "Current HO Florida edition in the source set; no later HO 01 09 edition is supplied."
+      deductible: "Windstorm and hail deductible from 2% through 15%, calculated from policy limits applicable to damaged property and separate from other deductibles."
+      disclosure_notice: "At least 60 days before an increase in the windstorm deductible; mail or electronic delivery is permitted where authorized."
+      deadlines: "10 days for nonpayment cancellation; 45 days for other permitted cancellation; 135 days for nonrenewal; 14-day claim acknowledgment; 85 business days for decision; 20 business days after acceptance; five years for an action."
+    - id: DP 01 09 2021-03
+      effective: "2021-03-01"
+      supersession: "Separate DP edition in the source set; do not substitute either HO edition."
+      deductible: "Windstorm and hail deductible from 2% through 10%, applied to the total covered loss from the same occurrence and separate from other deductibles."
+      disclosure_notice: "At least 45 days before an increase in the windstorm deductible; notice identifies the affected dwelling, effective date, changed deductible, and terms of application."
+      deadlines: "10 days for nonpayment cancellation; 45 days for other permitted cancellation; 120 days for nonrenewal; 14-day claim acknowledgment; 90 business days for decision; 20 business days after acceptance; five years for an action."
+  attached_roof_endorsement:
+    - id: HO 23 74 2018-09
+      effective: "2018-09-01"
+      supersession: "Superseded by HO 23 74 2025-05 for policies effective on or after 2025-05-01; applies only when attached."
+      deductible: "Does not set a Florida deductible; the attached policy and state amendatory form continue to control."
+      disclosure_notice: "No Florida disclosure or underwriting notice rule in this endorsement."
+      deadlines: "Notice of roof-surfacing loss within 60 days; no Florida cancellation, nonrenewal, claim-decision, payment, proof-of-loss, or legal-action number is supplied by this edition; follow the attached policy."
+    - id: HO 23 74 2025-05
+      effective: "2025-05-01"
+      supersession: "Current HO 23 74 roof-surfacing edition in the source set; applies only when attached."
+      deductible: "Does not change the applicable policy deductible; for composition shingle roof surfacing in the applicable age category, the form states a 20% payable percentage before the deductible."
+      disclosure_notice: "No Florida underwriting or deductible disclosure rule; attachment controls roof-surfacing settlement only."
+      deadlines: "Notice of roof-surfacing loss within 60 days; the endorsement otherwise refers to the applicable proof-of-loss period and legal-action deadline without supplying their numbers."
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Florida State Overlay
 
@@ -47,23 +103,27 @@ flowchart TD
     B --> H19["HO 01 09 2019-01 before 2023-07-01"]
     B --> H23["HO 01 09 2023-07-01 and later"]
     B --> D21["DP 01 09 2021-03 for Florida DP"]
-    H19 --> C["Read declarations and base policy"]
-    H23 --> C
+    H19 --> E{"Is HO 23 74 attached to the HO policy"}
+    H23 --> E
+    E -->|"yes"| S["Add roof-surfacing settlement scope"]
+    E -->|"no"| C["Read declarations and base policy"]
+    S --> C
     D21 --> C
     C --> R["Apply OIR bulletin constraints"]
     R --> U["Apply Rule 500 as internal underwriting guidance"]
     U --> L["Adjust or administer the claim under the assembled contract"]
 ```
 
-*This flow shows date-based form selection followed by regulatory and internal controls; a bulletin or manual does not replace the attached contract form.*
+*This flow shows date-based form selection and optional roof-surfacing endorsement scope followed by regulatory and internal controls; a bulletin or manual does not replace the attached contract form.*
 
 ### Selection rules
 
 1. Confirm the line, Florida location, policy-effective date, declarations, and attached form.
 2. For HO, use **HO 01 09 2019-01** through 2023-06-30 and **HO 01 09 2023-07** from 2023-07-01, preserving the earlier text for earlier policies.
 3. For DP, use the separately identified **DP 01 09 2021-03** when that endorsement is attached; do not import HO deductible, roof, cancellation, or claims deadlines into the DP policy.
-4. Read the base form, declarations, and amendatory form together. The amendatory form controls only conflicts within its scope; it does not become a second policy.
-5. Apply the bulletin in force for the relevant action or filing, then apply Rule 500 only as internal pre-bind or renewal guidance. A roof-age underwriting decision does not decide whether a later roof loss is covered or how the contract settles it.
+4. If **HO 23 74** is also attached to an HO policy, apply its roof-surfacing provisions within their stated scope and effective edition. It does not replace HO 01 09's Florida notice, deductible, cancellation, nonrenewal, or claim-decision rules outside roof-surfacing settlement.
+5. Read the base form, declarations, and amendatory or attached endorsement together. Each contract document controls only conflicts within its scope; none becomes a second policy.
+6. Apply the bulletin in force for the relevant action or filing, then apply Rule 500 only as internal pre-bind or renewal guidance. A roof-age underwriting decision does not decide whether a later roof loss is covered or how the contract settles it.
 
 ## Contract comparison at a glance
 
@@ -79,7 +139,7 @@ flowchart TD
 | Accepted-claim payment | **20 business days** after acceptance ([HO 2019-01](repo://forms/HO/FL/HO-01-09/2019-01.md#L525-L535), [DP](repo://forms/DP/FL/DP-01-09/2021-03.md#L882-L898)). | **20 business days** after acceptance ([repo://forms/HO/FL/HO-01-09/2023-07.md#L465-L477)). | **20 business days** after acceptance. |
 | Roof settlement threshold in form | ACV roof schedule when the roof is **10 years old**, using pre-loss condition ([T.8-T.9](repo://forms/HO/FL/HO-01-09/2019-01.md#L629-L647)). | ACV roof schedule when roof age reaches **10 years**, using pre-loss condition ([T.8-T.10](repo://forms/HO/FL/HO-01-09/2023-07.md#L613-L637)). | ACV for covered roof damage when the roof is **10 years or older**, unless another policy provision is broader ([T.8-T.9](repo://forms/DP/FL/DP-01-09/2021-03.md#L1148-L1162)). |
 
-The table gives the high-value differences. The detailed sections below preserve the other notice, disclosure, claim, storm-period, and settlement rules that accompany each form.
+The table gives the high-value differences among the Florida HO and DP amendatory forms. HO 23 74 is intentionally not a fourth Florida amendatory-form column: it is an attached, multi-state roof-surfacing endorsement whose 2025-05 edition uses a 12-year ACV trigger only when attached. The detailed sections below preserve the other notice, disclosure, claim, storm-period, and settlement rules that accompany each form.
 
 ## HO 01 09 — 2019-01 contract
 
@@ -153,6 +213,18 @@ The DP claims requirements include prompt notice, mitigation, repair-expense rec
 The insurer acknowledges within **14 days**, accepts or rejects within **90 business days** after receiving the requested items, and pays an accepted claim within **20 business days**. The decision may address all or part of the claim, and payment or investigation does not waive remaining defenses ([T.2-T.3](repo://forms/DP/FL/DP-01-09/2021-03.md#L772-L790), [T.29-T.32](repo://forms/DP/FL/DP-01-09/2021-03.md#L882-L898)). The form does not state a numeric proof-of-loss submission period in this Florida endorsement; it requires a signed, sworn proof when requested. An action against the insurer must be brought within **five years after the date of the loss** ([T.1-T.8](repo://forms/DP/FL/DP-01-09/2021-03.md#L1051-L1078)).
 
 When a roof is **10 years or older**, covered roof damage is valued on an actual cash value basis unless another policy provision provides broader settlement. ACV uses the roof condition immediately before loss. The rule does not cover excluded wear, deterioration, faulty work, or other excluded causes and does not turn the age threshold into a coverage exclusion ([roof valuation and claim conditions](repo://forms/DP/FL/DP-01-09/2021-03.md#L1148-L1187), [documentation and recovery controls](repo://forms/DP/FL/DP-01-09/2021-03.md#L1354-L1371)).
+
+## HO 23 74 — attached roof-surfacing endorsement
+
+HO 23 74 is a multi-state roof-surfacing endorsement, not a Florida bulletin and not a substitute for HO 01 09 or DP 01 09. Read it only when the endorsement is actually attached. Its attachment language makes it part of the policy and gives it precedence for roof-surfacing conflicts, while preserving the policy's other exclusions, conditions, limits, and deductibles ([HO 23 74 2025-05, W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L14-L86)). The repository's 2018-09 edition is superseded by the 2025-05 edition for policies effective on or after 2025-05-01; the earlier edition remains relevant to policies written under it ([2018-09 marker](repo://forms/HO/MS/HO-23-74/2018-09.md#L2-L9)).
+
+For the **2025-05 edition**, a covered roof-surfacing loss is settled on an actual-cash-value basis when the damaged roof surfacing is **12 years or older**. Roof age is the age of the damaged portion at loss, and depreciation must reflect supported age, condition, expected useful life, and wear; the endorsement does not apply depreciation for a condition that did not exist before the loss ([W.1-W.10](repo://forms/HO/MS/HO-23-74/2025-05.md#L88-L133)). This is a contract valuation rule, not an age-only coverage exclusion. Coverage, causation, damaged versus undamaged surfacing, exclusions, and the applicable Florida HO form still have to be determined first.
+
+The endorsement does not set a deductible range or change the applicable deductible. It requires the deductible to be applied under the policy before payment, and it preserves the policy's other terms ([W.19-W.21](repo://forms/HO/MS/HO-23-74/2025-05.md#L163-L176)). It also creates a specific **60-day** notice-of-loss deadline, requires inspection access and preservation of roof evidence, and requires a signed, sworn proof of loss when requested. It refers to the applicable proof-of-loss period and legal-action deadline but supplies no numeric value for either; do not replace the Florida form's deadline rules with this endorsement's generic references ([W.1-W.12](repo://forms/HO/MS/HO-23-74/2025-05.md#L996-L1041), [W.65-W.75](repo://forms/HO/MS/HO-23-74/2025-05.md#L1253-L1295)).
+
+The roof-surfacing payment mechanics require a second check: for composition shingle roof surfacing in the applicable age category, W.3 states a **20% payable percentage before the deductible**, while W.4 states that covered roof-surfacing payment subject to ACV will not be less than **30% of applicable replacement cost** ([W.3.1-W.3.5](repo://forms/HO/MS/HO-23-74/2025-05.md#L568-L586), [W.4.1-W.4.4](repo://forms/HO/MS/HO-23-74/2025-05.md#L716-L735)). The same source contains malformed W.35-W.37 references to an unspecified “floor”; do not select 20% or 30% by assumption when the attached form or filing does not resolve the conflict—preserve the text and escalate for form or legal review ([W.1.35-W.1.37](repo://forms/HO/MS/HO-23-74/2025-05.md#L230-L246)).
+
+Operationally, if HO 23 74 and a Florida HO 01 09 form are both attached, identify the effective edition of each, determine whether the claimed property is roof surfacing, establish covered direct physical loss, and then apply HO 23 74's roof-surfacing valuation where its scope and threshold are met. Do not use its 12-year threshold as a replacement for HO 01 09's 10-year provision when HO 23 74 is not attached, and do not treat Rule 500's internal 15-year inspection or 20-year decline as a settlement rule.
 
 ## Florida OIR bulletins
 
@@ -241,9 +313,9 @@ Before applying a percentage deductible, establish the attached form and selecte
 
 - **Wrong edition:** applying HO 01 09 2023-07's 15% maximum, 60-day notice, 135-day nonrenewal, or 85-business-day decision rule to a policy governed by HO 01 09 2019-01; or importing either HO edition into DP 01 09.
 - **Authority inversion:** using an OIR bulletin as though it rewrote the contract, or using Rule 500 as though it were a regulatory requirement or coverage exclusion.
-- **Roof conflation:** treating OIR-2019-11's 15-year ACV schedule, OIR-2023-04's 10-year bulletin schedule, a form's 10-year ACV provision, and Rule 500's 15-year inspection or 20-year decline as one threshold. They perform different functions and must be recorded separately.
-- **Notice failure:** missing the form-specific 45-day, 60-day, 90-day, 120-day, or 135-day deadline, or confusing a hurricane-deductible increase notice with a roof-related nonrenewal notice.
-- **Claims shortcut:** denying or reducing a roof claim solely because of age, relying on nonrenewal or underwriting history instead of the policy in force at loss, applying a hurricane deductible merely because a named storm occurred, or paying an age-based schedule without first establishing covered damage.
+- **Roof conflation:** treating OIR-2019-11's 15-year ACV schedule, OIR-2023-04's 10-year bulletin schedule, HO 01 09's 10-year ACV provision, HO 23 74's attached-only 12-year roof-surfacing provision, and Rule 500's 15-year inspection or 20-year decline as one threshold. They perform different functions and must be recorded separately.
+- **Notice failure:** missing the form-specific 45-day, 60-day, 90-day, 120-day, or 135-day deadline, including HO 23 74's 60-day roof-surfacing loss notice, or confusing a hurricane-deductible increase notice with a roof-related nonrenewal notice.
+- **Claims shortcut:** denying or reducing a roof claim solely because of age, relying on nonrenewal or underwriting history instead of the policy in force at loss, applying a hurricane deductible merely because a named storm occurred, paying an age-based schedule without first establishing covered damage, or silently choosing between HO 23 74's 20% and 30% payment language.
 - **Disclosure mismatch:** using a stale or unfiled hurricane-deductible disclosure, failing to identify the trigger or calculation basis, omitting the selected deductible, or allowing declarations, endorsement, application, and claim communications to conflict.
 
-For the broader contract context, continue to [DP-3 forms](/openwiki/coverage/forms/dp-3.md), [HO-3 forms](/openwiki/coverage/forms/ho-3.md), [wind and hail deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md), [roof settlement](/openwiki/coverage/settlement/roof-settlement.md), and [policy assembly](/openwiki/policy-assembly/editions-and-state-attachments.md).
+For the broader contract context, continue to [roof claim handling](/openwiki/claims/guidelines/roof-claim-handling.md), [DP-3 forms](/openwiki/coverage/forms/dp-3.md), [wind and hail deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md), [roof settlement](/openwiki/coverage/settlement/roof-settlement.md), and [Florida appetite](/openwiki/underwriting/guidelines/florida-appetite.md). Use [policy assembly](/openwiki/policy-assembly/editions-and-state-attachments.md) to resolve the attached edition before applying this overlay.

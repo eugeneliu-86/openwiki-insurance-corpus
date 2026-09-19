@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:bd27dc8f0cfdc045c4488a043f593ff6cafcabdcf5da02b469502f4b4b6d1b53",
+  "pageVersion": "sha256:25cd1aac5027bc789b5c18756c95a472423800ca6f9710097324e1041acc7abb",
   "claims": [
     {
       "id": "claim_003ed9e28eb24473a12ea83aacab41ae",
@@ -54,23 +54,19 @@
     },
     {
       "id": "claim_8600000a64d344b1a545a67ba2628436",
-      "statement": "Form selection must match property type, occupancy, and requested coverage rather than a preferred premium, and the rating record must identify the selected form; the representative source forms distinguish HO-3, HO-5, HO-6, and DP-3 product lines and editions.",
+      "statement": "Form selection must match property type, occupancy, and requested coverage rather than a preferred premium, and the rating record must identify the selected form; the representative current forms distinguish HO-3 and DP-3 product lines and editions, while HO 23 77 is a separate windstorm-or-hail endorsement.",
       "evidence": [
         {
           "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L2-L8",
           "version": "repo-lines-v1:sha256:b6d2940e6c499229357ceea3dc922340d2843f7c2c40407d9da9d009d8bf3e71:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGI5OTZkN2UwNzk0YzA4ZTljNjQ4YWM2OTcyMDU1YzkyMjM2M2ZjMDAyMDAyYWJmMjI2MWViODQ5ZDNjMmM1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
         },
         {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L2-L8",
+          "version": "repo-lines-v1:sha256:bd090327baa8cfa736df43b048ef410b11a2a38b293206bda073ea1c89bace60:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZkMTRjNTI0ZDNjNDNjZmU2MTIzOWMzZjQ0ZGMwZjk4ZTZiYjAxMjlhMjg4MzMwZjMxNGNkMTMyNTBjZjEyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJjYjBjZTIxZjA5NzI4MTY0MTY5MDliOTk0MDBjNGViYTFkMWM1NGEwODk5Y2QxMTg4ZWFmZjZlMDU3MDk3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
           "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L2-L8",
           "version": "repo-lines-v1:sha256:c22ea1f7484fa7160107fd14e984e46a4ac8a04ed23e524156295b886be31c21:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODJjZDU2ZWE0Y2MxOGRiN2I2NmY0NjA5ODM4MGMwNDIyZDMzMzljNjRlN2NmOTQ0YzQzNWZmM2ZiNDAxOTUzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L2-L8",
-          "version": "repo-lines-v1:sha256:9e1ad2e3aa6aede0d32c5180ef762189651ee43b3c53adabb7c16d8644195b8c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM0NDQ5NGExYzJkNTc2YWZlYjNkNTIzNzcxNjU2MGZkYzliNjA1MmNhODQ5YjNmYzQ5ZjBiMGJmZmM5OWI1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L2-L8",
-          "version": "repo-lines-v1:sha256:65065a992fc089808e9c238e94f1e4378b10e0ed4bd2551851d31551cbf7aef4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyNzRjOWQzNWNhMDJlMThhOGZmMDc0OWFjNThiMmFmM2M3ZjA3NmVjMTA3OWQ1NmY2NTU2Y2ZlMTgwOTcyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M3NGYzOWJkM2U0M2FkZWIxMmQ5NDU2ZDJkNTNhOWUzMDUzZTE0YTJjYmJlZWIwOTgyN2ZlNTBhOTM1ZTI1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjEsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
         },
         {
           "resource": "repo://manuals/rating/manual.md#L63-L67",
@@ -114,23 +110,23 @@
     },
     {
       "id": "claim_8e1b767c0f97435daf40b64a7b99c530",
-      "statement": "The representative current form texts do not share one universal contractual deductible minimum: HO-3 and HO-5 state $1,000, HO-6 states $500, and DP-3 states $1,500, so the rated deductible must be reconciled to the applicable form, Declarations, endorsements, and state wording.",
+      "statement": "The internal $500 AOP rating floor is not a universal contractual deductible: HO-3 states a $1,000 Section I minimum, DP-3 states a $1,500 minimum, and HO 23 77 sets a 2% minimum and 10% maximum windstorm-or-hail percentage calculated against the Coverage A limit, so the rated deductible must be reconciled to the applicable form, Declarations, endorsements, and state wording.",
       "evidence": [
         {
           "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1796-L1807",
           "version": "repo-lines-v1:sha256:dac3c3a00a88306c86475529beccd73d60b40e0048727614c24cd3fd6d3fe457:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1Y2Y0OTIwMzY1Y2M3NjZlZWJjNmVmYWFmZTYyNTI4YmMxNzRiMzFkOTE1ZWYyNzAwZjk3MzZiZmU4Yzg4ODIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2YmFmYzdkYjU0NzcyMGVhNDQyNWI3ZjBiNDg0NjFhN2YwNzM0ZmEyNGJiYWU1MzE0ZjIzYjI3NGZmMGZkYWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyNDQxNWVmNjc0NTNlOGY5MGEzODAzZmY2ZjA1Y2E0ZjkxMmRiYmRmZGM1MmFhYTFkMmE5MDdjMGIxMjQzYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxODhkMTgyNzY5OWVjYWY4OTlhYmU0NWM5YzM2M2I3YzI0YzhlMGI4Yzk1MTRhMDA2MDMwMjI1OWZhN2JlNjAifQ"
         },
         {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L644-L665",
+          "version": "repo-lines-v1:sha256:50e4d9b6599f28300eef9b2f4a71f49457efdd4164535d9c31b794925ff70888:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0M2JhOTE4Y2ZlODEwMDg1Y2YyMzg5YzliM2VmYWI2ZTMzZTM5NmY3OWQ1YjhiZGM5MmZlMGJiNjRlNjZiOTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmOGZjZTNiNGIxZGFlMWY1NWUyZWExZWVkYWM0MDVlNmQ2YWQ1NjI5MWVjZjc4ZDI4MjA4YTE0OGUxYWNlY2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxZTI2NTUyYWY3YjA2MGI4MzExNzUzNjE5ZjEwZWJjYjcyMDFmNmMwZjViZmFlYjljZWJiZGQxYTRhMTQxNGEifQ"
+        },
+        {
           "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L769-L779",
           "version": "repo-lines-v1:sha256:b9092cde36c8abc7956f59fd2710438e8d0a7ea523575fd888534069b8eec449:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4M2U0ODIyNmU4ZmIxYWZkYWMzOGM5ZDk0MGVkZWM3MzhkNWNmNTY0NDZiZTgxMThlMjQzNjcyZjQwY2IyN2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzZmU3NDZlNWU3ZmU4NTAzZmU3OGEzOTRlYzE0ODQ0MDQ0YWIwNDZiNmI2OWJkOTU0NmQ5MmY0YWY0M2EwZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlM2QyYTc0ZmU0ZDA2NTBmOWJkMWNlZmRhYjVjYjg5YTEwZGRkNzUzM2U1NTdkZWFlNmMxYjZjYTVjNGZmNzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhZWM0MzU3Nzk0ZTM5ODM5MzA4ZmRlNTY0Y2E4ZjhiMGVmYWYxYjdhNzYyMDZlMjY1YzFiOGMzY2U1NmZiY2EifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L899-L907",
-          "version": "repo-lines-v1:sha256:5f1438e9c5ad469624a3107cda56e8b29d7d2fff39c352bcd1e2482aaece5a5e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmEyOTQ3NmQzNmM2NGU4MjEyYTUwYjZiYmNkZGI0MjBhMDU0MzQ2YjAwMzYwMmIwMmRmNWM1ZTk5NDRjNDNkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTFmMWYzMzVlY2YzNmVhNGU0ZmZiN2VhMzhmYjAzYTNkZWIyYzY3NzJiYWEwNTA5ZGE1NGJmMjZkZWU3YmMxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTcyMDc4ZjE1ZDI5OTMyYjlmNjliYTRhNWM1NDYwNzk5NjA2ZWMyYWQ0ZWM0YjRkYjI3ODM5Y2VkZTU1NzJhYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhiODU2ZmYyNTczZTIwYzM2NTliZWJjNTM3MTI1ODUzNWNlMGFmNDIwNzNlMDQyNjlmZGQ5M2FiZjA1Zjc5MSJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-6/2023-02.md#L916-L922",
-          "version": "repo-lines-v1:sha256:389ac3667a179056c67e616e60e0dc6e3ff577a7be6eda576e8566cadd253a94:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Q2YTU2MjJmOGQwY2NhOWE4NzIzNjE0ZjgxOGE5ZmExZDRlMThjMTUzOWE5NTU4NWVkZDM1NTlkZTljODQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEyZTI4MDA1MGQwZDY3NDljMjQ0OGU4ODlmODRiZWFjZTRhYzlkMzE2ZmVkMzhlNTRhMjI3MWY0YTZjODUxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk2NGZkNWE3MTA3YTJjNDkzNjg4OTAxM2IyZWIyMDY0NmFiODlkN2RiNjZmY2VkMzgxZGUyOTRlNDhjYjY4NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGI0NmJlMTExYzY1MDgxYTlmNDc5MDk0NTg3Zjc0ZjBhODY5YmVmM2I0NjUwYzBjMjRhZmVkNjFhYzE0ODU4ZSJ9"
+          "resource": "repo://manuals/rating/manual.md#L4191-L4201",
+          "version": "repo-lines-v1:sha256:0fb1fcdd47552cd7ea49fdc0e791f705b59196481ecf4a9c4afc02d60f11703b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNTkzNmIxMGY2MmE5MjM2ZTcxNTRkZDFkM2RjZTdkNmQ0MzQyZjMwZjA1MDMwNmQ1M2FkNmFlZDE1MjFlNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDhlZjIxYzI4MmQ2ODIyMzJhOGIwYzZhNDA2NjAwMmM2YzhiNmQyNjYyOWVjMzI1MThhYTA5MWQxZGIyNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVmZmJiODBjZDNhNGZkZWE3OTE4NjE5YWMzMTI5OTRjZThhMDRiZjMxNjViZjIwNjhjMDczMmY3MDYzMGYyZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1NTA2ZTg3ZDg3ZmY4MmMzNzVjODc3MTUyMjg0OTM2YTFjNDcyYzQ2NzA1ODAyNTg0ODU2YzNmZDY4YzM0ODkifQ"
         }
       ]
     },
@@ -295,10 +291,78 @@
           "version": "repo-lines-v1:sha256:0c1c1860010cf3562fb398038de129f1fccfb6763eee670d3257e0cd74e2114c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTlmOGM4ODAwMTAyZjQ0ODU5YjUwOGFhZmJkOTFjZThkYzYwNmFkOGE5ODQ1M2UyOGVhYTE1ZmVjNDI0OTQ5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWM0MDJiNjgzYjEwZmIyMDY5YTM0OTQ1YmI3YTZjODFmYmYzYTZhMTZhNTU3ODMxOTI3NGFhYjNiYmMwMjBjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNiZmRlZGYzMzA1MTMyYjljMzkzYWZhODY0MzdlMjFhZTNhMWE4M2FhZjVkZTEwNmRlZTVmYjUxYzVjNDFhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmNmNTQzYmVhYjU5M2U4NzUxMzVkYjk2M2M5OTcxOWZhMGUxODYzMzJjNTNlMGFlOGM0MDAzMzEzMTIwYzczNCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_544d47e015534ab59661d5696ee52304",
+      "statement": "HO 23 77 changes the policy only for windstorm or hail loss, does not create otherwise-uncovered coverage, and establishes a percentage deductible that must be between 2% and 10% and is calculated from the Coverage A limit shown in the Declarations.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L14-L20",
+          "version": "repo-lines-v1:sha256:f24a7916d481c9f7fcfc4587f6e14339ab8f2cf2ca7c0710a485a12932bf7637:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDFhNTIzY2JlZmFjZjgwYWU2NDUxNjM2OTkwMzAzOTEyMzIzZDFlY2MzNTc4OGU5ZDg4NDkyMWViZGE5ZGRmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBiMGMyM2Y0NzAzYjJlMzg0MDJmZmFmYjk0ZjEzZTZhNWJhNjRmODc2NDkyZGQ3YTYyZWFkMWMxYjM1ZWJjOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmFjYTI5Y2ZiMDc0OTg2NWRkODVjMjg5MTI5YWFlNTA3MDE3MjRmNjdlZGNkZDU1ZTMzZTNlNjg1MzI1NTJhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWQzN2JlYTkwZDRiMTM1MjQ5ZmFlYTI3NzcwNjBiOWI4OWY0M2UwMzhiYmQ0NjAwNmY4YjQ4MDU0OWFmMzI0OSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L44-L62",
+          "version": "repo-lines-v1:sha256:0a44810c1219bd89dc3979d70a0fd339482badaaa03306c78178651c18720016:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwYWZkYjM4N2M0OTZlYzM0NTlmMDllMDkwNTdiYzllZjExOTY3YjI1NzM2YjliOTgyMzBiYzQyYWNjYTBiMmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxNzI4ZjlkYTQ3NTAwZGY1NWIwMjRhOTUwZTk0MjgxYWM1YWE1NDk1MzZlOGExZThkZjA0ZmUwZTI2ZDYyMWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmYjlkMTU3MzNjOWM0YmMwMTVkYmJmMTYxNGY0NDcwNjFhYWU1MDJjYTYxNmJkYzc0NjE3YzEwYTNhOTI0YTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM3NmU4ZDRjMGY1Nzg3NTIyY2FhMThkYTZhNzFlNDJhNDIzNTI0NzllODc3MWJjZGQ2ZjRmMDAwNWFjNjhkYmQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L655-L665",
+          "version": "repo-lines-v1:sha256:60bf3bde0bf97e190667231974eb997231c970bee429e133347bf6450c449dc8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcxOWM2NWY2MmY0ZTcxODM0ZjI2MDY4YTMwYzMwODY2NjYyY2Q4ODlhZjIyMzU4MDE0ZTQ1MzliY2MzY2MzNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0M2JhOTE4Y2ZlODEwMDg1Y2YyMzg5YzliM2VmYWI2ZTMzZTM5NmY3OWQ1YjhiZGM5MmZlMGJiNjRlNjZiOTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUzYjg0MzdmNWVhZTFiODYxNjc2MTIyNDcxZGJkY2VkMjgxNTkxNDQ5NjY1OTBlMDg5YjdhMDVkOWVhM2NiMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxZTI2NTUyYWY3YjA2MGI4MzExNzUzNjE5ZjEwZWJjYjcyMDFmNmMwZjViZmFlYjljZWJiZGQxYTRhMTQxNGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_be766ef7f1b847a1bb546ec69414769e",
+      "statement": "California rating release is gated by separate underwriting evidence and authority controls: the appetite guide requires a roof inspection before binding at roof age 20 years or greater and a wind-mitigation inspection when Coverage A exceeds $1,000,000, while the underwriting manual limits line authority to $1,000,000, caps issued Coverage A at $2,000,000, and requires a 100% insured-to-value review for replacement-cost settlement.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L304-L327",
+          "version": "repo-lines-v1:sha256:66aa9c684f17d74c924b1823f30ae77919e2342726dab388b77af494fbe63015:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzY2MzYzg3MTE2YzU5YmNmOWQyMmFmODNlYTdjN2U1NDFkYTRlZDllZTYzNjk4NDYzYTk4MGM1MjQ5YWUwNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZWI3ZmY2MTE3YjVmNDcxMTVkOWY5YTZkNWNkZWM5YThjNjY5ZjA5ZGFmZWI5ZWEyZjczNjM0YTNmZWFjNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzM2QzYjI0OWJiMWYwYjRkNWZiZWI5ODZmZWY0NTNkNzU5YzE5N2FhNjFlNjdiY2VkMzlhNDg4ZDRhOWU4YTcifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L512-L529",
+          "version": "repo-lines-v1:sha256:85e055a98d1c397f6a27a879634e5124119912ed54524468cbd83d557aa1249a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MjYwNGVlMDEyMThjNGUwZTMwNDBlNjFjYzM0NGVhNzdiYTJiYjc4Njk5MTM0NjRjN2ViYTcxODcwMjcyYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5NThjOGY0ZDk3Yzk5NDJlNDdmYzBiYTQ1NWZjMzQxNDYzZDJkYzU4OTBiNTZkMmE5NmZlODY2MjM0ZWQ4NDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE2ZjFlODQ4ZmRlOWEzZTlmYjEyMGE1NDhkNDNmYTUxNTUyMDFmYzhjNDFkYzJmM2VlN2QwODk0ZDNkZGY5YjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZmNTdlNGQwZDVhYmM3MDc3M2FkNzFjZmU4YmY2NTJmMjU3MmYxOTVjYjM4MDE3YTAwMWRjYzE4MWYxY2JlMmMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6579-L6601",
+          "version": "repo-lines-v1:sha256:1f6bfabf56be17d7c0acf51a654526b32501b925ce5c9b5d13e8ddcc55129e44:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiYjM4NTNlNTIzZWZmY2M4ZTM4OGYxNjY4MWY1NjY1MmM2MWQwNDE2Yzg3NWM4ZGUwYTIwNGZjNWMyYjMwMTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5NWRjMDZkYmZkNDY2ODc5OTNlNjBkODg4ZDMxMmM4MmVmZWY0ODQwOGY3NjNiMDQwYzhhNWU0NmJmY2U5NDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjliZWY5NWRmOWViMDFlZTI0MjBjZjRmN2ZiNjRmMTUzNjhlMWRkNGNjZGI0NTMwNGUwMThhYThmMWIwMWQ5ZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM0NWMwODAwZDkzNWFlOTkyMjc2ZjVhZWYxOTU0ZGI5Zjc3MDEzMDdmN2FmZDhiZDMzM2FkNzQyYWQwNzQ4YmEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c4d0c18e31584889bd34c18b256fa2af",
+      "statement": "Texas underwriting release requires address verification before quoting or binding, occupancy and ownership reconciliation, and a roof inspection before binding when roof age is 15 years or greater; Texas Coverage A requests up to $800,000 are within line-underwriter authority, requests through $1,200,000 require senior referral, and higher requests must be declined or referred.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6229-L6287",
+          "version": "repo-lines-v1:sha256:3c239bfb7fceb6b856b81e2ddc5f304ac28e070027648e7ec65b6d94ee022daa:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ODMyM2M2Mjc2YzI5OWUwZjNiZTA4NjA1N2U2YzI4ZGNkZjllZDE1ZDA5Yjc4YTJhN2JjOGQxYWFmMDJhZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxMTY5MDRjZGVhZTJmZGIxNWQyN2JmNzZlODA4NTAxODY0ZjA3ODU2NzBkOTA4MTQ3ZTA3YWNjMzU0ZTUyZDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxYjYxNGNjZTgzZGM0OWQ2ZDhhMDM5YTVkMzBhOWUwYTIyMjZlYWRlYjYwMzRhNmQ5YzM0MmNhNzY3YzMyZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxOTE1NTAxYTVhOWNlZDI4MmNmMTY3N2UzNzg5ODRmNmZmYjVlMDc5ZjQ4YzcxY2RmNTkxNjUwNTUyNzhmZWQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6253-L6263",
+          "version": "repo-lines-v1:sha256:76309db4bd19318b93046736e6dd68ce3bf7b676430a81ced274e673f9c5792e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmYTBhZWUzOGVmYTUxYjY2MjRiMTUzMTU2MDlkODFkMmYwOGZlNDViN2NmOGNmZTI3OTY4M2ZhNGI5N2JkZjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3ZWQwNGE1YzY3OWI3YTE1ZmRjOWM5MTE2NWVjNDc1YTM1Yzk4YTY0YTI4ZjgyYzNhMjUzYzM1ZGY5OTM3YmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViODNhOTQwNTc5ZDU2NTRlZTljZWIxOWY4YmEwODFkZDcwYWI5ZTIzNDlhNjExYjY3MzJiMjgzM2ViOTAwNWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlMmQ3MWRkYWQ2NDAzNWNhYjQ2MDg2MjFlZmJlNzExMTVmODA5YzhiMWNmNzQzMDdiY2NjY2MzOTAxZDUzNTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d10f132b9a7a425fbba83400ec820388",
+      "statement": "Texas separate windstorm and hail deductible administration requires clear identification in policy and related communications, territory-based application of the applicable cap, and consistent declarations, endorsement, application, and policy materials; the bulletin sets a 1% named-storm minimum, a 5% hurricane maximum, a 10% seacoast-territory windstorm maximum, a 30-day advance notice for a windstorm deductible increase, and a 72-hour continuation of the named-storm period after designation ends.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L159-L181",
+          "version": "repo-lines-v1:sha256:06c37d013c248be0bb45fa9c3471cc9a1a10872695186b1b58e365eec35607de:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDFjMTcyY2YyNWExMGExNDk3YmY0ZjczNTU2MTE4YjNlM2ZkMGE5NWU3Y2ZmMDNkNGFhMzBjYTMyNmY3MjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5MDAzYWNhNjAyNTZkZmQ5ODkyZGJjOTE1Y2M3ZjcxMTE5NTNlNmY4MWE4NzA0ZTRmN2E1NzUxNDQyNjlkMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxNWRmMzIxOGIyNTc2YmIzMzNiMzc0ZjUyOTFjYmI1NjY3MGQxMDA2OWQ0ZDc5Y2U0ZTA3YWMzODhiMTQxZmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjNTM5NjkxZWJmODRiMTA2MjE4NmUwNTFjNGYwODQ2ZTljZjYwNGU4MzI1MDA4YzdlMjMwNDM5MDBlYzA3YjIifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L19-L29",
+          "version": "repo-lines-v1:sha256:4a83cc4bc33cb1ee64cf09ed0f90229109d742134a027a77c112be9ae72505e3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImViM2UxMzZjMzgwM2U0YjYyYTgyZWM4YTVkMTAwODlkMzkyNDdhMmVmZTY3Y2UwOTEyNzUyOTU4NjZiMzk3ZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlOGZlYjEzYmFhNjBjMjEwOWU0MjY0MDI2N2E2MTFkZDQwMTViYTc4OTUwYWU4ZmU2M2RhNzUyNjEwNDBkOWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI5OWExZWJjOGE4NDJmODM0MmVmZjBkNTVhMzkyNDEzNzhjODZlNTUxOGE2ZDU3MzRiMzllYmNmOTBkYjczYTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjczNTg3NDBkMmU4MzlmMWZjNDI4ODA5YjY5MTViMGJjNzU3M2U3ZjI5Yzk4MWM1MTNhOTg1OWZhNGI2ZmI3NTAifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L51-L59",
+          "version": "repo-lines-v1:sha256:6996232b56a6cddf1eb744ca71ead79237937208bb2c49944066177b2ddaeec7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGJkMzc1MzY1ZmU4MGQyYTNlMGE1ZmZiNjQ2YmNmNjE4ZTlmNGY3NGViYTI2ZmQyODBjODVjMzhjYTQ4M2ZhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjM0NjNhMTBkOGNiOTM4MWFhZWM1ZWMxZjVjY2ZjMDg0Y2QxZTA5OGE4YjkxNTY2NDhjYTNkNGNjYTM1N2I1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjYTRkN2IxNDc0ZTFlYzhkOGIzYjM4OTY4YmRiMjdiOGNmYjRhMDU0NGY0YjEzNjM2ZGYwZTczOWQ2MzVmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjlmMThmMmEzNTI1MWMyMzc1ZjNkMDM3YjRlYWYzMjdiZWU4NmMyZmE2ZmFmYjYzN2I0ZjU4ODY3NzNjNzM3MyJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

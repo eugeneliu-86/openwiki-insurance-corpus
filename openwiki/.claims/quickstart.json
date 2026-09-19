@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:8e5495a05653f9eaeb04f891fced683bf9592c0f778fb024d9d73b2d500a9d9c",
+  "pageVersion": "sha256:ab066c701617cbeecd54672f4054bc92931b73bceb0cdf1c7dea3d4ff63fcf45",
   "claims": [
     {
       "id": "claim_ef21d7707c124cdfad69ba12280ddb25",
@@ -467,10 +467,48 @@
           "version": "repo-lines-v1:sha256:87477901c8522a61e343af78ac3ab5cbd735977ac36dadf7d97a05013613673a:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhOTllN2I2Yzc5MjNkMWE4MjRhZTA0MWE5OTliZDkwOWI4NmMzNjNkM2Q2NTIwYmYwOGFkYmIzZDMxOTdjYWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkMzk4MDU4NWM1YTQ0YmFhMmUwYjM5NGMxNGY5YWNmNGYzMjYwNjk5M2VjYjM5YmY2MGNiOWRjMzY5N2YwOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwZjI2ZTIzZDBhZTBhNmJmZGM4YWI0NmZhMTQ5YzBhYTI2ODVkZTJkMjQ1M2ZkMDQzNzAxN2YwNjRhNmNkMWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM1MmUyNDQ4NDVhNmI1ZGE1N2U0NGY1OWRhMjc5NjE5MjRlZTk4YjQwNTVmNGJhZDc5ZTgzNDg5OTU1ZjYzMjIifQ"
         }
       ]
+    },
+    {
+      "id": "claim_248e589ec3474b53ad0c382602430d57",
+      "statement": "Base forms, attached endorsements, and state amendatory forms provide contract wording; regulator bulletins constrain carrier conduct; manuals and appetite or authority guidelines constrain internal operations; filing memoranda and training are interpretive sources that do not replace the issued form or create coverage.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L15-L27",
+          "version": "repo-lines-v1:sha256:317d078555339a06336209196cbaa6da16d1c523d9620cbd2d77faddd483f96d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5YzYzMmNiYTBiZDRmN2VmNjgxMzFhNzkyYzczOTdmODcwYmI3MThlMGZiYjAxYmVkZDRjZDE1ODA1ZGE0MDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRlYzkwNjg1NjgxYjQxYzI2ZjQ3Yzg1M2RmYzljM2EzMjFhMGI0NDg2MWRmNTE3ZjZkMzQwNDdkZjcyNjVlNTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlMzcyYWY3ZTRmMzQyZDc1NDhjNjA4MGIwY2I4MzAwYjc1ZmQyODQ0ZDQ2YTEzM2RiYzFjYTMxZWFmYTZlMjEifQ"
+        },
+        {
+          "resource": "repo://training/guidance-versus-contract.md#L15-L23",
+          "version": "repo-lines-v1:sha256:3b2a66e8e45f161214ddd2ff811b976dda5d8a25158afa0bb94703ad3ca371fe:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGNkMmEwN2RiMTBlNTlkODJiZGU4ODA4YmY5Nzk3YjU0MTdlYzQ3M2I0YmRjYjRhNGM1MGM2MDRkNWY1MmMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM4OWJlZDMyYzRmZjZjYzc2OTZiMjJlMWJiNjBjNzIzZWE2ZGJhZDVmYzQ2NTJjOTE2ZWM5MzFlNzJjZDk0ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y3MDE1MTBiNWY3YjIwNWUzNzUxMWMzNjg5MjMzZjllOWNmYjc2NDQ5NTAwNDZjZjMzNmYwYjg4MWMwMTQzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyZjAyMjA2ZjAwOGU0YjgxNDkwOTdhZmE2YTAzODBmZjY3MGI4ZjYxNzIzY2ZjYmNmN2VjZmQ5NTk2YjRiMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_de012c01d7a048ddb1c91889f84e0d19",
+      "statement": "A filing memorandum can identify an edition's substantive changes without controlling the coverage result: the HO-3 2024-03 memorandum explains revisions to deductible, multiple-cause, water-damage, settlement, and condition wording, while the filed HO-3 2024-03 form supplies the operative terms.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L13-L39",
+          "version": "repo-lines-v1:sha256:73d24ed874791997e22a3d4da667471464660cd6567ae25349cf8a59aa5fc3c8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYTNmMTBkYzkwZjIwZWI1MzgwNTE0MjRmZDk3ZjhiNTEzMzZmNDE5MTIwOGQ2YzQ3OTM4M2IyYWVjMDcyMTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhMmIwMzFiMzU5ZjM5YzFmMWVhMmQ2YjcyZTY3ZjU0N2Q5YzU0OGQwODE4NmQ0YTNjY2YzMWUxODgwODE1MDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2NzMzNGY1ZTRlODA4MzY4M2FlNmJlYWM0YTFjOGUwZjNmMmRkNzI0NTMzNmNhZTEzMzI3OTg4OTExM2I2N2QifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2024-03.md#L13-L31",
+          "version": "repo-lines-v1:sha256:182db5546b3a41e28ea424188a993659ddc224311f8217744372d75c57671d60:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2UwMmMyNmNiMGQyZGQ2MjMyZDE0ODI5ZGZkNzgwZmJjNDY5ZDM4ZDJkY2NiMjcyMjRiMjcyMzUzMDBhZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwYmQ2MWQyZGI0ZDMwZWUwZGM2N2YwYjE3MWI0MzZlODNlODZlYTE0YzdiM2RlYjAzMjk2NzQyNWE5ZTgzNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI0MGMxMGU1MTFlZmU1MDgwZTYwOWRjNTFkYzUzYTA5Y2RhY2Y4MzY1NDc5ZmUxMTViNjBlNzVmZDVkMWQyYTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7bb85a26b93f4fd4bcfb178a5ee4c611",
+      "statement": "The corpus composes documents through directional relationships: endorsements may write back or preserve base-form exclusions, state amendatory forms implement bulletins, and guidelines or manual rules constrain when forms attach or apply.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L89-L95",
+          "version": "repo-lines-v1:sha256:9eb2cca6621e87f8ba05f6e754244db27f5f74c2f643436f241c49727f51497f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzUzYjRiMjU4NzNiZGRkZTkwZjliZmU0YTFlNTk3ODZhNWRkNzA0MTBlMzU0ZGE1NGE2YjA5YmMzYmFjMjNiZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA3OWU4NTg4NGQzNDYzMTQ3MTQ0NGZkYTlkMmFhMjFjZTA1YTM3NDJjM2JiZmUwZWNjOTkwN2E5MjgzODAxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjgzMGI5Mjg2MDNkNDg5MWM2NDE3NmQwN2E4YTYxNWIwYTY2ODc5NTJiNjBlYzdhYTUwNDNlNTk5NzFiMzY1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

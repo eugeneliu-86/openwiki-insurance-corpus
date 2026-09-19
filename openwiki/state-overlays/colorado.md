@@ -3,9 +3,6 @@ type: state-overlay
 title: Colorado State Overlay
 description: Colorado requirements for HO 01 05, windstorm and hail deductibles, roof settlement disclosures, policy assembly, underwriting controls, and claim handling. Covers bulletin supersession, effective periods, deductible thresholds, notice and disclosure duties, roof valuation, deadlines, and evidence requirements.
 tags: [Colorado, state-overlay, hail-deductibles, roof-settlement, HO-01-05, claims]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-18e62e3e0cc23c448e9a7a88
     resource: repo://bulletins/CO/doi-2013-01-hail-deductibles.md
@@ -15,9 +12,16 @@ sources:
     resource: repo://bulletins/CO/doi-2022-08-roof-settlement.md
   - id: openwiki-source-822f35c9e6943f4967e8b585
     resource: repo://forms/HO/CO/HO-01-05/2022-10.md
+  - id: openwiki-source-a7812317f4b735061e88f5bb
+    resource: repo://forms/HO/MS/HO-23-74/2018-09.md
+  - id: openwiki-source-5802aac0ff04777c19a4717f
+    resource: repo://forms/HO/MS/HO-23-74/2025-05.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Colorado State Overlay
@@ -42,6 +46,8 @@ The controlling question is always which policy and endorsement edition was effe
 ### Relationship between the 2019 bulletin and HO 01 05
 
 The endorsement expressly directs the insurer to administer its windstorm and hail deductible as required by Colorado Bulletin DOI-2019-05 and requires the insured to provide reasonably requested information used to determine the deductible ([HO 01 05, T.1-T.4](repo://forms/HO/CO/HO-01-05/2022-10.md#L59-L67)). The form therefore **implements** the 2019 bulletin for the contractual deductible mechanism, but the two documents retain different roles: the endorsement supplies the contract and the bulletin supplies regulatory requirements for policy language, disclosure, filing, and administration. The form does not contain an equivalent statement that it implements DOI-2022-08; treat the roof bulletin as a disclosure and claims-administration constraint rather than as an implied roof endorsement.
+
+Do not silently substitute the separate **HO 23 74 Actual Cash Value Loss Settlement — Roof Surfacing** endorsement for either Colorado source. The repository's HO 23 74 source is an HO-3 endorsement in the multistate forms set, effective **2025-05-01**; it is not the Colorado amendatory form and applies only when that endorsement is actually attached to the policy ([HO 23 74, metadata](repo://forms/HO/MS/HO-23-74/2025-05.md#L1-L8), [attachment and scope](repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L27)). Its contract relationship is different from the bulletin relationship: it modifies roof-surfacing settlement but does not create coverage or change an applicable exclusion, condition, limit, or deductible ([HO 23 74, preamble](repo://forms/HO/MS/HO-23-74/2025-05.md#L61-L66)).
 
 ```mermaid
 flowchart TD
@@ -107,6 +113,14 @@ HO 01 05 separately states that its **actual cash value roof schedule** applies 
 
 The disclosure must state whether the roof is settled at replacement cost, actual cash value, repair cost, or another policy-authorized method; whether depreciation is applied or recoverable; what conditions permit replacement-cost benefits; the deductible; age, condition, material, cause, matching, ordinance-or-law, debris-removal, tear-off, disposal, labor, and material limitations; and which roof components are included or excluded ([DOI-2022-08, B.3.1-B.3.21](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L300-L387)). An estimate must identify the scope, repair versus replacement work, material and labor, deductions, and the basis for differences from a policyholder's estimate ([DOI-2022-08, B.3.15-B.3.20](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L360-L387), [B.4.5-B.4.12](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L471-L517)).
 
+### Separate HO 23 74 roof-schedule boundary
+
+HO 23 74 2025-05 is a distinct, non-Colorado amendatory endorsement. When attached to an HO-3 policy, it makes the roof-surfacing settlement an actual-cash-value calculation and says it controls a conflict for roof surfacing while leaving other policy provisions applicable ([HO 23 74, W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L27), [coverage and precedence](repo://forms/HO/MS/HO-23-74/2025-05.md#L61-L66)). It does not establish a Colorado roof rule merely because the risk is in Colorado. Confirm attachment, policy effective scope, and any Colorado filing or compliance direction before using it.
+
+Its 2025-05 contract terms differ from both the Colorado bulletin and HO 01 05: ACV applies when the damaged roof surfacing is **12 years or older**, age is determined from the damaged portion using reliable evidence, and a limited-area replacement does not establish the age of surrounding surfacing ([HO 23 74, W.1.4-W.1.6](repo://forms/HO/MS/HO-23-74/2025-05.md#L103-L114)). The 12-year contract trigger happens to match Rule 560's 12-year inspection point, but the form trigger governs settlement only when attached and Rule 560 remains an internal pre-bind control ([Manual, Rule 560.E](repo://manuals/underwriting/manual.md#L7883-L7887)). For composition shingles in the applicable age category, W.3 states a **20% payable percentage before the deductible** ([HO 23 74, W.3.1-W.3.4](repo://forms/HO/MS/HO-23-74/2025-05.md#L568-L586)). Separately, W.4 states that payment for covered roof surfacing subject to ACV will not be less than **30% of applicable replacement cost** ([HO 23 74, W.4.1-W.4.4](repo://forms/HO/MS/HO-23-74/2025-05.md#L718-L735)), while W.35-W.37 contain malformed references to an unspecified “floor” ([HO 23 74, W.1.35-W.1.37](repo://forms/HO/MS/HO-23-74/2025-05.md#L236-L246)). Treat the 20%-versus-30% and malformed-floor language as an unresolved form conflict; do not choose a value by assumption.
+
+For edition selection, HO 23 74 2018-09 is marked superseded by 2025-05 for policies effective on or after **2025-05-01**, while the earlier edition remains in force for policies written under it ([HO 23 74 2018-09, supersession](repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L9)). That historical **15-year** trigger and **25%** composition-shingle payable treatment must not be mixed into a 2025-05 contract or into Colorado's separate DOI-2022-08 overlay ([HO 23 74 2018-09, W.1-W.2](repo://forms/HO/MS/HO-23-74/2018-09.md#L45-L53), [W.3.1-W.3.4](repo://forms/HO/MS/HO-23-74/2018-09.md#L233-L243)). The Colorado bulletin separately states a **15-year** minimum for an ACV roof schedule and a **25%** minimum when roof surfacing is replaced, subject to the policy deductible ([DOI-2022-08, B.2.5-B.2.10](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L128-L150), [B.2.30](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L231-L236)). If the attached filed form, the bulletin, and the disclosure point to different settlement mechanics, preserve the competing provisions and escalate to Colorado legal or compliance review; do not silently convert a regulatory disclosure rule into an endorsement term.
+
 ### Roof notice timing and filing
 
 The insurer must provide the required roof disclosure before an applicant is bound to coverage and with a renewal when the roof settlement method changes. For a claim involving roof damage, the insurer must provide notice **before issuing a settlement offer that includes a roof valuation**, and must update it when a material change affects the settlement ([DOI-2022-08, B.2.19-B.2.23](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L186-L217), [B.3.1-B.3.4](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L302-L316)). A clear written explanation of the proposed settlement must precede a request for acceptance ([DOI-2022-08, B.4.1-B.4.10](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L464-L495)).
@@ -151,13 +165,13 @@ The endorsement also defines a **Named Storm Period** rather than a fixed number
 
 Rule 560 requires an underwriter to verify Colorado location, occupancy, insurable interest, and prior loss information before binding. For roof risks, it requires a roof inspection before binding when reported roof age is **12 years or more**, declines a reported roof age of **22 years or more**, refers submissions lacking information needed to apply the roof schedule trigger, and refers visible roof deterioration, damage, or active leakage until acceptable corrective action is supported ([Manual, Rule 560.A-560.H](repo://manuals/underwriting/manual.md#L7857-L7905)). It also refers weather-susceptible roof materials and hail damage concerns affecting the roof or exterior ([Manual, Rule 560.I and Rule 560.AL](repo://manuals/underwriting/manual.md#L7907-L7911), [repo://manuals/underwriting/manual.md#L8081-L8085]).
 
-These **12-year inspection** and **22-year declination** points are underwriting controls. They are not a 12-year or 22-year claim settlement rule and cannot be used to deny a covered loss or replace the attached HO 01 05 roof schedule, whose trigger is 15 years. Rule 560 also requires a complete file for every referred or declined Colorado risk, including facts, sources, conditions, authority, and final disposition ([Manual, Rule 560.BH](repo://manuals/underwriting/manual.md#L8213-L8217)).
+Rule 560's **12-year inspection** and **22-year declination** points are underwriting controls; they do not by themselves determine claim settlement, deny a covered loss, or replace the attached contract. An attached HO 01 05 has a 15-year roof-schedule trigger, while an attached HO 23 74 2025-05 has a 12-year contract trigger; those contract terms remain distinct from Rule 560. Rule 560 also requires a complete file for every referred or declined Colorado risk, including facts, sources, conditions, authority, and final disposition ([Manual, Rule 560.BH](repo://manuals/underwriting/manual.md#L8213-L8217), [HO 01 05, T.8](repo://forms/HO/CO/HO-01-05/2022-10.md#L697-L717), [HO 23 74, W.1.4](repo://forms/HO/MS/HO-23-74/2025-05.md#L103-L109)).
 
 ## Defensible operational checklist
 
 For each quote, policy change, or claim, preserve the following in the appropriate underwriting or claim record:
 
-1. **Identity and period:** policy state, line, effective date, attached HO 01 05 edition, applicable bulletin period, and whether a prior bulletin or policy edition remains controlling.
+1. **Identity and period:** policy state, line, effective date, attached HO 01 05 or HO 23 74 edition when applicable, applicable bulletin period, and whether a prior bulletin or policy edition remains controlling.
 2. **Contract terms:** deductible percentage, affected coverage, cause trigger, occurrence allocation, roof schedule, valuation method, exclusions, and any other deductible.
 3. **Disclosure:** pre-bind, renewal, change, and claim-stage disclosure; clear statement of calculation basis, deductible effect, roof method, age, depreciation, components, and limitations.
 4. **Evidence:** weather information, inspection findings, photographs, roof-age records, estimates, repair records, condition evidence, causation analysis, and covered-versus-uncovered allocation.
@@ -169,7 +183,9 @@ The most common failures are using DOI-2013-01's 3% cap for a later policy, appl
 
 ## Related pages
 
+- [Roof claim handling guidance](/openwiki/claims/guidelines/roof-claim-handling.md)
 - [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md)
 - [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md)
 - [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md)
 - [Underwriting manual state exceptions](/openwiki/underwriting/manual/state-exceptions.md)
+- [North Carolina appetite guidance (state-specific contrast only)](/openwiki/underwriting/guidelines/north-carolina-appetite.md)

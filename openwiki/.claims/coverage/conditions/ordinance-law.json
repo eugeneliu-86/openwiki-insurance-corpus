@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:5f1d799c8a925c490e8444e4f60384a79812d77270573c8d24c0e7f0fd92584a",
+  "pageVersion": "sha256:5b3441998c101b3a6a806ebd5fa3a5f8dd76093e0186102be2113a387fda4b8b",
   "claims": [
     {
       "id": "claim_ca0366f205e04cb984a4a1e10a7faadc",
@@ -249,10 +249,90 @@
           "version": "repo-lines-v1:sha256:23d8a13258a47605cc5a2d9e913c3f1d1dc475d967952648042e741ed84d29a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNTI1MDg4YTA4MzU4NTBmYjlkOTJhMDY1MjBiNzgzNzgyMWQxOTNiNWZmYmEwZGRlYzZkMjk0NWQxYjlhMWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNjFhNGQzMGMwNTM4ZTYzMDVhNTEwOWQ2Y2QwMjFkYzY0NjljYTM1MDM2NWY1NTZmNzg0MDA4YmVlNWQyNTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhMzM1ZTc2YWIwODY4MTYwZDcxNzViNGYwNzY4ZGE5NGJhZjU5MjVkMDIyOWJiMWRlNjg4ZWNkNmRiOGVmMTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQwNWNhN2Q4NjA2ZTIwOTg1YjNmODE1YmY2ZTNiNGIyOWI1ZjIzNWMwMTU2YzViNWU2ZTg3ZTgyZTFlNzljNGIifQ"
         }
       ]
+    },
+    {
+      "id": "claim_96c51c33c0754c31b5ad1eec4bd1e953",
+      "statement": "HO 04 16 is identified as an HO-3-line endorsement in both supplied editions; the 2018-09 edition remains relevant to policies written under it, while the 2023-11 edition governs its interval beginning 2023-11-01 when actually attached. Edition selection therefore depends on the policy interval and issued attachment rather than on the repository's newest file.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2018-09.md#L1-L9",
+          "version": "repo-lines-v1:sha256:d5fa87dd3803c5bd03622b350bfc5120d6048c04595be0711db093bd4580f5d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODI4MTMxZDc2ZjQzMGYwYTE0MGY2NGFmYjA2MDFmMmE1NDEyNTlhYjBkNTg3MGRkNmFhOTVkNjM5YzIwYWI3OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2023-11.md#L1-L6",
+          "version": "repo-lines-v1:sha256:9d25a85f7f6e586e11f2a37c0a020e29aa73c4412d54287e38f73a0c7e1fe6be:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJkMGJkY2ZhYmViOWI2NmYxODliMTZjYjI0MzEwMGQzOGQzMTEwODU2NDc1YjFiMGQxN2RhYmU4MTJiYmFjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2I4NDdiMzE2ZjNkOGVlNzlkODcyNzkxMjU2ZjkxMjk0YzEzNGZjMzAwNDVlYTc5OGU2ZGQyMGE5ZDA1MDgzYiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2023-11.md#L14-L21",
+          "version": "repo-lines-v1:sha256:6a0c21c3fd19a205aced8840673872937d60a458e44286c573435d7b232906f6:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDFhNTIzY2JlZmFjZjgwYWU2NDUxNjM2OTkwMzAzOTEyMzIzZDFlY2MzNTc4OGU5ZDg4NDkyMWViZGE5ZGRmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0ZjAzMWY3OWViMzEzYTY0MDBmOWRjZWVlZTQ4OTc1MmNlZmYyN2QwOWQ0ZWQ3MzM2OGQ0NTlhNzc3MjI2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBhNzQxMDllMjM3ZTVhNmQ5ZWZhOWVjZWFjYTUyYzRjZjc0YjU4ZWZhNGY1MWZjMDViMTZjYjFmNzk0MjA3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGE2ODA4YTBkZmNmNTc2ODYxMmM3MGZhODU2ZTFlZGUxMTY4ZTdlMmYyMThjNDQxODg4NjRkOTIxMDI3MTg0YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8048d5068d534e658621f0933679febd",
+      "statement": "When HO 04 16 edition 2023-11 is attached to HO-3 2024-03, it modifies the base ordinance-or-law exclusion only within its stated coverage and controls a conflict for that coverage, while the base form and other unmodified provisions remain applicable.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2023-11.md#L14-L21",
+          "version": "repo-lines-v1:sha256:6a0c21c3fd19a205aced8840673872937d60a458e44286c573435d7b232906f6:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDFhNTIzY2JlZmFjZjgwYWU2NDUxNjM2OTkwMzAzOTEyMzIzZDFlY2MzNTc4OGU5ZDg4NDkyMWViZGE5ZGRmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0ZjAzMWY3OWViMzEzYTY0MDBmOWRjZWVlZTQ4OTc1MmNlZmYyN2QwOWQ0ZWQ3MzM2OGQ0NTlhNzc3MjI2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBhNzQxMDllMjM3ZTVhNmQ5ZWZhOWVjZWFjYTUyYzRjZjc0YjU4ZWZhNGY1MWZjMDViMTZjYjFmNzk0MjA3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGE2ODA4YTBkZmNmNTc2ODYxMmM3MGZhODU2ZTFlZGUxMTY4ZTdlMmYyMThjNDQxODg4NjRkOTIxMDI3MTg0YiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2023-11.md#L64-L66",
+          "version": "repo-lines-v1:sha256:d3d56287564ecedce6f8cf5226e120a58a2ac7b17858cc2b2570417285e6f985:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzUyYzY5ZDAwNzFjYzE4MzdmODFhNzg3ODk3Mzk4MWRkNDEyODJkOTg3OWNmY2QyNDg0OGEzN2RmNjBlZTY0NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWEyZGNkYWZlZWJmNmIxOTIyOTNiNGJiNDEyZTM3OGVkMmFmY2FmMjM0MjUyZjM5ODNkOGMxODk3YjI0ZGU3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzc3NjlkNmRiY2E0ZWJkMTlkZTFmMGFmYjYwY2UzMTdhNGFlODJiNjdhZDczOWU0YzE1MDc1YzU4YjlmNmNhMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDUzOWM0ZGUyMWM4N2RlNjI5YzI1ZTk0MjJkZWNjNThhNDRlZGVlMDVjNTk3MWY5NTk4YzliMzRlNDM5NjRhZiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2023-11.md#L70-L87",
+          "version": "repo-lines-v1:sha256:7e7896b1229bb4b54a1969405bd6c51ec1ed3b2790b0bcf2b2bde08a9a7d25a6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1YWI4ZjhkMTYzM2JlYjA3NmVkOGQ3M2E3MjY4Y2RiY2U3ZDEyMWFhYmU3NzM3M2U3NzAxNTBmYzAyODRiN2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ1MzljNGRlMjFjODdkZTYyOWMyNWU5NDIyZGVjYzU4YTQ0ZWRlZTA1YzU5NzFmOTU5OGM5YjM0ZTQzOTY0YWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3NzllYWYwYmRiNjU5MDRhZjc4MzA2OTM2NWFmMTEyNWI0ZmU3MTkyZjI0MGJmZmU3ZWEyNmVkZjAwMTcyOTYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L579-L585",
+          "version": "repo-lines-v1:sha256:e4294440bab34898247ff400e496de9000b4f865945168a4ef6d364952ca7a86:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQ3YmRkOTJlMmM4YTkxM2M5MjhlYzFjMmY1N2RiOTA2NjY3MjMzOTQ5YWYzZjFlZDJlZGNkODJlMjBhM2VhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZhNzI2ODVkZTdkNTc1MmRjNDRmMTUxOTY1YTc4MDg4YTUwNjk5ZmU2NWE0MWUyYjFmYWQ3MTM4YWI4MzQwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NTdjNzlhM2JmNjVjOTc5YTFlZDY2ZDc2NTBkNGFjOTBjOTIzMWFmZGQ3Y2FiMzlkOWU1ZTExZWJjY2FjMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2U0ZDgzNzRkZWQxNTE1N2UwNTY0OWY1MjcwMDdjY2NmNDc1ZWViMjI0YWRiOTEyZGMwZmI3Y2EwNjYxMzBkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5499dd686f4b448fb1c2587a361e3246",
+      "statement": "The claims manual's ordinance-or-law chapter is an operational investigation sequence rather than contract authority: it directs confirmation of covered direct physical loss, separation of damaged and undamaged property, verification of the authority's requirement, and baseline-versus-compliant cost allocation, while the applicable form and attached endorsement control coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-16/2023-11.md#L352-L354",
+          "version": "repo-lines-v1:sha256:bf5b8be757cd1110982500d62bd36fb69827d034c35738736e7b454814d076b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjgxZDc3ZjNjMGYxYjFhN2M0YmIxMzUyMDFiNDFhNWExNDYwNzY3NDU1ZjZlOWY1NWUzZGMxMzYwN2Y5NGJkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNiODM2NWNmZjcwMDEzYzI2NDViN2E3YmZkMmQwMjFkYTlhMmQzNTgyMjcwNWVlYWU1MDczNTIzMWFkNGIyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmI3MmQwODBiOWVkYzFiNmFkYmUxZDg4ZTg1NzFhYWY4YzdiOWUyYmI4Y2QyMzE1MDYyMjhjNGE5MzhiOGZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjI4NzY0YzUzZDMzMWVjYjAyMzY3NjU1MDBjYzA4ODhhMjU2ZWZlNjA1ZjEyOWY0M2RkMTRmMWVhOTljYzJmOSJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L5311-L5359",
+          "version": "repo-lines-v1:sha256:a5b9ff0ba66834336b7f0132e1301daf1b4770437b22fbe97b1bbf956dbdccec:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1MmMyNzA2NzE4ZTE5NmVmOGZjYmRkOTBhNDcxZGJkZThmODA0NWZlNjY3ZTgzNDI5NTBhMDA2MTZmYmRkNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlMTAwMDBiMjdjMTIyNmE4YzM1Y2RlYzhlYTBmZDM2MTIxODM4ZTRiMzEwNTczYTg5OWY4OGVkMDA4MThiYjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg4ZmVjNDI2N2VhMDI4YmIyYTNiNTVjNzg3MzZmNGMwOTczZGNlYmI4ODViMGM2OWJjZjNjZGYzZGQ0ZDIwMDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyNDgyNGE5NjkxODNmOGY5N2MyZGYxYjMwNzk2MmM4MGU2YjUwMDZhMWQ0YmVkOTk5Njk3ZjZhNjI2NWRkNDAifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L5385-L5419",
+          "version": "repo-lines-v1:sha256:92a70f351f683957c23be8fdea47ad446fb1857679912e901dde62215c7faea8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MDcyOWI4N2VkMDY4ZGIxMDEzNzM4YjM0YTlhMTA2YjIyZDAxNzdhMDlmNWFjZDYwNzA5NzE5NGQwYjhlNmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3YjgxZDlhNWY1ZTcwYzYyNDBiYWU0MzU3NTU3MDNlNGRiYzM2Y2NmODA1Mzk2ZWFmY2U0OWJiODQ1ZTFmZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZTY4ZWIyYWMzN2Q2ZTFmMmQ1NWVhNjg2MDBkZWZhMGI5NGEwMmQwNzc2ZDIwZDkzNmVlOWE5ZGU2ODcxMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjliMGI3MTdkNDdhMzhkNWI0NTFjOGI2NDA3N2ExZTc3OGIxMGY2Y2I0NzYxZTdhYmFkN2Y3ZGI0YjFjMGMyZWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_879a37729f1c423480262c8f9d01f4b9",
+      "statement": "The HO-3 2024-03 filing memorandum interprets the ordinance-or-law revision as clarifying the Coverage A relationship, the 15% limit, and the distinction between covered physical damage and compliance expense; it is interpretive and the filed HO-3 form controls if they differ.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L439-L445",
+          "version": "repo-lines-v1:sha256:6b1538bf98feca9d9be18783b05eae768d1450387f596f81e8f116e5a5654c6d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M1OGE3OTZiZGY4NWVhM2QwZGI3MGVjMjg0MWNkYjU4MTQ3NzIzYzA3MTY0OTI3YjFhMmFmODBiMTNkODQwMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NiYjg2OTM4MTEwZTMwNWMwMjIyZWFiYjA3MzMyMTU0MTczM2RiN2RlZGU2NzcyMmI5NmZiOTIxYzhmODA5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDg0MWU3ZWIwOTE4M2Q0MWQ1NDlkYzQ2ZGMyMWE2ZjgwMTZhNjEzNzUyNjFiMjI2MjJmYmU1NzEzYTY2YmFhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk5ZjgwNDQ0OWUxYzhiM2I3Njc4Nzc5YzI3ZGFlYmQzMjczMDhjMTQyNzg1OWM5ODMxZjA2MTJhNWUzMWIxZiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L475-L487",
+          "version": "repo-lines-v1:sha256:dc8d610b3f01ae7dc8ecb7544857b4fdfe3602540947fa1b4e3696bf6417873b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzNzRiZTZlMzNmODQ5NmU1OGQ5N2U3NGI5MDlhZjU4MWIxYWM4MTk0YjdlZmI1ZDkwZmY2ODQwMzNlYmJiNzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2ZWYyMWQyMzA1NzViMjQ0ZjFlOTY0MmE3NWE1ZjExOTI1OTU5NmM4M2M0ZTIxYjIwNWQ2NDk2ZjViNDI2MmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1ZWI2MzMwZTA5ZmQ0MWI1Mzc2NDA1NTI5MTYzY2QxZGFkYmI5ZTJmNWRiODQzY2UyZDZjMmIzMGY1Yzk4MWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyMWExMGYwYjQxMGJkYjlkMTZiN2VhZGNkMjZlMmY0ODE3YTIwNTVmNWJlYjFiZGZjODQ0NDE5MDFiMzVlNGEifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2024-03.md#L143-L151",
+          "version": "repo-lines-v1:sha256:50419a79c06046589ccd25ca4ef588054662d8aa3089de7f243d085c5acab9e9:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2U4NzBlNGZjNjU1N2Q0NmZkMTE3YmU1MDcwZjgzNjgwYTBkNWE4NjZlNTc2ZDZjOTE5MjZjYmM1N2E2NzE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNlMjJmOGM0YjEzYjdjZWRmM2Q5YWEyYjk4NDM1ODgwNGI2MTBkNzNlOGI0NDM5NWQzY2RjODcyOGI0ZDM4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmRiMDAzZDEyOTFiNDg3ZGM1ZmM1ZjhkODUzNjVlNDQ4MTkwYTFiZmFiZDg3YWQ0MjYyMzdjNjQwMzQ4ZTRkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2EwMjAzZTgyZWZhZjc5NjNlMjY0MWYwMmZhNzQ4YzlkMGEyYmNhMWY5OTY0NDU3NzE2OGU1ZDAyMGQwMjMxZSJ9"
+        },
+        {
+          "resource": "repo://memoranda/HO-3-2024-03.md#L381-L389",
+          "version": "repo-lines-v1:sha256:a4ad22c15152493f809c38e3448075c77ac30f113e2c76bd69664b7b35f26f56:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjBiZmY1YmVkMGU4NmE0ZTUwMThjMGJlYmU4YzcwNTEwYWU0OWRmZWZiM2FjNTYxODkxMmE5MDE4MGMyMDUwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTMxMzZhMDY5MzU0M2JkMGE1YTNmMmFhNDNjM2FjMmYyYzY5YTk5MDczOTBmZDg0OGZjYjIwZjJiN2VmNTE1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDJhODE4ZjI4MjY2YzNlNThlOTUxOWUyMzQxZjc3NzgzZTAzMTc5NTU1MGUxMzc5ZjEyNmRlMTI4ZTYzYjZhZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2EzNzI1Y2NjNWM1YTM1NzUxY2E2NWUyYjZlNjA1YjZhMTBkMjVjMGYxNjM3YjIxMjc2ZTZhNmIxMzYyNDc0NiJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

@@ -1,3 +1,3 @@
 # Files
 
-- [Roof Settlement](roof-settlement.md) - Reconciles roof settlement and actual-cash-value schedules with the attached HO-3 and HO 23 74 editions, HO 23 77 deductibles, Colorado disclosure requirements, and underwriting controls. Separates coverage and cause from scope, valuation, payment, and pre-bind risk selection.
+- [Roof Settlement](roof-settlement.md) - Reconciles roof cause, covered damage, matching, repair or replacement, actual-cash-value schedules, and age and condition evidence across applicable HO forms and HO 23 74 editions. Separates contract settlement from state disclosure duties, underwriting controls, and filing memoranda.

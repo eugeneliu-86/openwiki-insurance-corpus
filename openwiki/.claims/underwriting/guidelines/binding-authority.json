@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:49b1c674d804efdd580ce22285eb99e2afe42904a18d8b7cd07064ebc92d8cad",
+  "pageVersion": "sha256:4ce384a3351402abb551c19c3e8f3cea402c75d63f7a2787d67c3433a1dbf271",
   "claims": [
     {
       "id": "claim_3d30b6f7c77747aa916bcd0d5fdcf998",
@@ -239,10 +239,48 @@
           "version": "repo-lines-v1:sha256:49291e8cd5eeeb3eaf82480160a6b3b4f35c557b4f256fefeb68a1dcc82f325b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTk3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIzMmM5YmJlNDhkOWViY2NjNzM3ZmI0MDgyZmNhYWJkMTVmNGU4NTkzMWZiMDZiOTkyODk2OWM2YTdhMDM4ZGY1IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIzZGFhODEyNTEwZDk3ZGE0YjNmOTBiY2UyMmZjMzdhOWE3YWJiZjE5NWQyZTY0MWUxYzMxNWY1YzA4MDQzNjE5IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIwOWYzMDRkNzEzODIxMGZkODg0MjdjYTlkZDhhYzZmMzk0MjVkM2QxYjEyOGJhOGEwMjRiNTMyYWE4YjU3NTQwIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MCwiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1In0"
         }
       ]
+    },
+    {
+      "id": "claim_71c0a56f22b34634b2538eb852e07c22",
+      "statement": "Manual Rule 400.AN treats an inspection report used for endorsement attachment as valid for 6 months; after that, current inspection information is required, and Rules 400.AO–400.AP require comparison of inspection observations with submitted facts and relevant, clear photographs.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5325-L5341",
+          "version": "repo-lines-v1:sha256:a8a71869203336ef07c749ac4f0f5deaad91c6fe38d8956094bb2657241f110e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4MGQxMDIxOTNkZWJhMTRjOWQ5YWExYTk3ZGU2N2M5NDQ5NWFkODczYzliZTFkMDhiMmMzNTNiYTE1YzkyOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwOTc1YzU4N2M1Y2EzMmE1OTAxMGU0ZmNiODc4NTExZDllZTM1NDY3YjMyNmZlNmEwMjlkYWY1ZjJmMTdhZjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViZWFhMzE5MTYxMTZlNzlmNGRiYzM5NjZjZDczMmQzMzYzYzkxYjU2YjgxYWJkYWExM2RkYmQ3YTEzYTQ5MGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg4MTVkODkxOTJhNDkxMzU2NTM5YjFmNWM1YjIzMmM0YmQ5ZDQxZjE2MTNhZmZiNjAzYzI1MzM3NTE2ZWY5ZmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6f182ddc39db4adb997c11546c33485b",
+      "statement": "Manual Rule 320.39 requires binding to be suspended for storm-exposed risks when forecast landfall is within 48 hours, with the forecast information and suspension action documented.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4993-L4997",
+          "version": "repo-lines-v1:sha256:06cc24503826278b16c224173fabfdd3a7196a91a4b2ccde641fe263dadf92dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjViYjkyMjJiMjYyYjhiYmM0ZjQ3NDg4NDg5MWIyNDdmOWJmODFlMjhkOTYxNGMwZjY3ZDk2Zjg0NTk3ODk4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFhYzAxMjJiNGEwYTU1NzM4Y2FlNDFhNzYwYjk3ZjFjYzJiNDg3NDRkYWI1YmNiYjViODFmNzdmZTZhOWEzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmQ5YWFjMGM0NjUzYjM3NjZlOTU5NjQyYzhkMTZiYjliMTRlNzQwNzRhNDY2ODhhMzNmZDM0YzE1ZmU2Nzk5NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWE5ZjQzMmFjMjJmY2YzMGQ1NGFmOTMyMjliN2Y4YmIyYmJlY2RlMmFhMzdmMTU2Nzc3ZDM1ZDVjNzkwMGRjNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_63a01c89d0ad4d7aa964670c4d3bdcfa",
+      "statement": "The Manual's transaction lifecycle requires effective-date confirmation, active delegation, approved-system processing, and no unauthorized backdating before binding, while Rule 400.AB requires endorsement effective dates to align with the transaction and prohibits retroactive attachment to address a known loss circumstance.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4017-L4021",
+          "version": "repo-lines-v1:sha256:01c4a5d4972454f359c69bf0a3b7f2b987b8b9e2105d5cc395080c2cb12d0580:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTlhYjgzMjQzODc5YzAwNGQ5NTMyODc3MTE3YzYxNjNjM2NiYzZlY2Y1MTc4Mzc5MmE3OTYyYTVkZTY0NWE4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzk3ZTYwMzMwYzg4MDFjZWQ0MzIzYTE5MzZiMjVhOTM1ZDRlYjI3MGVhMjcyMzJlNzI2MDU4ZjMzOTA4NDliZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDRjNGQ4MzBkYTlhMGU4NGMzMmVjM2EzNzE2MzE2NjdhMjk5OGVkN2I1MWVmMjRlNmEwMDY3ODZmMzY1ODY3NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFiYjk1ZTY1ZjJiMTZjZWM2OTAxNzk2Yjc3N2UwNjY5MTQwZTUwNzFlYmMwMTMxOWUwNGUzMmFmZTUxZmMxMCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4149-L4171",
+          "version": "repo-lines-v1:sha256:6398697a28c16ee561b6a75322f05700fdb332e73552297df2b9acd56db96ae8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExOWZlZDM1ZTk3N2UxYzY0ZTM0YzkxMDk4ZjRiNWQzOTZlNjZjZTNiMmI0ZmQ3Nzk4NDA5NGJiNWQyMWJhOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4Y2RiNzU1YjVjOTJlODFkMGUzNmVjZTQ0ZTlmNjZmODU2MGVjNDEzZGM4YzA3Y2Y4NDcwYzIwODU4NDU4MDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiNWQ5NDFjMjEzYjAzMTIxODBhNWM2YWU0ODBkMWE1ZjA3Y2Y3YzhmNTg1NTM4YzExMWRlM2E0ZDVhZjViNDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2NDdjNDE2MjMyMDQ5YWMzYTdlNTFhODQwMGYwYzJmZjc0NzlmOTc1ZWE5MWEzNzgyNjdjYjMyYzhiNWFjNGYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5253-L5257",
+          "version": "repo-lines-v1:sha256:0a3075731abb3eaaba72713371d87123da853001affd90c9c2a40e82da7ce6fb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxY2Y0Y2Y4YjhjY2E5MTVmZWZiY2Q1MjcxNzU1ZGNiMjFiYzgyZjQ3MWJkNzQ1NGY0YmE0YWM1OTRhY2VkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWRkZmU3NTZiYmE5ZmI3ZDE5MDVjMjhhNDFjZmE2NzUzMzlmYWYxZmFkMmI5MjVmNmViOWEzODVjYjQwZjQ4YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU0MGEzMTM3Yzk1NzY4NjI4YTg5NmIzYjI3OGVkZjI2ZGEyNDIyYjlkMGRkNjgxNTRhOTAyNTVlMWE3ZGZkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGI4ZjJhOGRhZWU4NDMyNTdhOTlmZjExMjQ5NDBjZTMwOGViZGU1OTkwNTI3YjU4MTg1NDMzY2VkZWQ3ZWNmMSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

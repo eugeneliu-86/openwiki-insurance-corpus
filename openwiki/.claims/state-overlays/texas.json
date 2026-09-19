@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:9434e8167efb9713840d058af3393ed811725255babab589d76714dd4e0b0595",
+  "pageVersion": "sha256:f7e9a86d488937a9e6ade862aa075df11929ec76cd19ba7c072cc9a3d763eb9b",
   "claims": [
     {
       "id": "claim_da922bdee1c747e78cd09da4d7744918",
@@ -329,10 +329,92 @@
           "version": "repo-lines-v1:sha256:ab9478896c0ea2973b193d3703290043b31ec1069f67964fd56d6728f83d336b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiNWEwZGE1MWMxYTI0ODNkYzBmYmZkYjk1NWQ5NjFkMWQyOGRlZjZlZjBiNDcyMDZjMWViMDQ1Zjk3N2JlNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwZTRjYzBmYjU5OGE2NTc1MGY0YzYwNWI5NWRhNWEzYjRhNzIwYTY2N2Y1MDMxMzRjOGM5N2QwOWRjODBkMTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM4MTJiMGUxNWFjMWQxYTJjZWVjOTBkOGJhNzVlZWVmMDBkNjcxYmVjNDI0ZjJjNWQwOGZkZTFmNTJiM2RhNWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1YjljZmZkNTdlNWNkMTQ3MzE4MGZhN2ZjMmM5MGNlN2NhMDQwOGEwZDhjZGU0MTk5MzUxOGQ1ZjgxNTAzZjcifQ"
         }
       ]
+    },
+    {
+      "id": "claim_762ff0d715ca4bd49228f10259380484",
+      "statement": "Texas appetite guidance is internal operating direction rather than a policy or Texas regulatory term: Coverage A must be $150,000 through $1,200,000 with protection class 8 or lower; roofs at or above 15 years require inspection and roofs at or above 25 years may not be bound; Coverage A above $500,000 requires wind-mitigation inspection; water-backup limits above $25,000 require referral; and the preceding three years of loss history must be reviewed with referral at two paid property claims. Delegated authority is $800,000 for line underwriting and $1,200,000 for senior underwriting.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L153-L166",
+          "version": "repo-lines-v1:sha256:096793a82319da7bad26f6b9fc86469380be98c62193db907e16166fd51eac85:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA0OTMwNzJmMmRmMGY0Zjg2NGI0MzUyNDk2YjBmYTM3NjgzMWQ4NWQ4ZWZhZjVkMDAyZmVmODM1MjZiYzczOTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyOWYyYTVhNzk3YjNlZTcwNmMxNjI0Mzc5ZWM2ZDRiOTIwYjU5YTFiY2I1MWJkNmIwMjM3MzIzNTEyZmZhODgifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L275-L285",
+          "version": "repo-lines-v1:sha256:9cbeb91f61e8d1c390299744f436c42c6eefb2f7cdd7e344cef4e6793d4f8254:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MjYwNGVlMDEyMThjNGUwZTMwNDBlNjFjYzM0NGVhNzdiYTJiYjc4Njk5MTM0NjRjN2ViYTcxODcwMjcyYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhMDMzNGNiOTk0ODZjMjQwZGM4YjBiYjA1OGQ3Nzc1MjNiZGVjNzJmYmNmZWRkNGRlMWUxMWUzYTQ5Y2IzOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI2ZjMwYTNiZDZkM2Y2N2ZhOGMwMGE5YzA0OWQxMTcxMGIwYWVmYjg4MWMwOTIwNzM4ZjVmYzZjMDU3ZTlmM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllNTYxNjdlMTgxOTUyZTQxZWU2NDg5ODM0ZDRhZDg0YzQyZDYyMmJiYzk2OTMzMzBmZGQwZTFhNjdjMjUwMGMifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L367-L375",
+          "version": "repo-lines-v1:sha256:b44802ef9e91286577d667d591c59f67dd7380cd82808a1a95fdf8d79a46b1d3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNkZjlmZmUwZTkzOTA3MDczODY4ODBiNDk5MjRiYWYzYTdhOGU2ZWM5ZjUwYjdmMTlhYmRmYTk0ZGE1N2E3OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBhY2JjZjgzOTUyNmE2ODQ5Nzk0MzNmNTA2MmZhMDgxMDM3NGY2ZDYxMDBkNWY0YjcyNzgyOTI5YzNjN2QzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDYzNTM1NjYwYWQ4NGQ0M2U1MTkzY2ZlMzdmODIwODA2NzBjNzU1ZGExNzAxZTVjZWRlZjI4MzI5MTQ1ZWQ0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjhmZTc4MmZkN2NlNzgwNzFlMWJiN2I0YTg4MGFhZGUxNmE1YjA2ODkzOTUxZDY2NDY0YjVmYWM0YzU5ZjdjZiJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L447-L459",
+          "version": "repo-lines-v1:sha256:b6e559c0084a8b63b3d05ca42ac88e23afa8c178216b86db9fd1ba7c6503ac35:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzYTMwZTQzZjE4YmQ0NDQ4ZTkxZmRhMzcxMTVkYTJjNmIyODAxZmEyNjdkY2JkNmMxYjE1YjdhMTk1ZmZkOTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwZTk3YzYwYWZlZDdiODdkMTdmNDRkYmZiZmUwOGZhOWEwYmQ0ZWVjMjAyMDhmNTQ4NTM1Y2QzYmU5YmNiNTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ3YTdiMDAxZTIzMWNhYzMzYmFhY2ZiNzAzMWNkOWQwODYyMjA2YzdhZmUyN2MyYjQ5ZDdiNWJhMjM1MmU3OGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMGNkYjQyNzhkMjFlNjFjMmU4YjkwODYwNzMwOGIyNTRiNWRmYWI2NDdmNmM2ODBhZGFjMTlmOTE5ODM3NTUifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L59-L64",
+          "version": "repo-lines-v1:sha256:c3fa33648ce9e4bf08fae86215b3da5aadb39fc220279f8e164b243adcbc32f5:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyNjNjYzExMDMyMmEzOTA2NDRlZmE5ZGM3OTk2NmUyY2IxNGRmYWY0OTVlMDllZjRkM2M2Y2JhNTE3MWUyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjM5NjdjYmVjNWQxNWFjMjI1NGNkZmE0NTI4NzAwYjQyM2U5MDcyNGViYjQzY2M4YjczOGVhZDU3M2JhMDczOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTRhOWQ3MzRkOTE4ZWM3NjcwMTkxYzZlZjY3MzYzMGIxYzQ1N2ZiMmZjYmE1N2M5MGFkZDcwODUyMjU4YjI1NiJ9"
+        },
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L651-L661",
+          "version": "repo-lines-v1:sha256:0a1758eb8e6ad850439f8cc85eee7d30afe2e5f1dac7c3eab1a58240e68a6ba5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkMTJmNGQ5ZTI5ZWMzNWQwY2FhMzRkODA0YzdkN2Q3OWRkNzZhNDc3OWZkOWU2YWY2N2EyYjI3MTIyNjNhODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlMTM0MTQzNzgwNzZjMWUyYTcwZWRiMmI0YTMzMGU2ODcyZjA3NDc1MDdjZDYzODgxYTI5NTY1NjFjODU3MDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYwYjZmMDFiOTY3M2E5M2JmYjVjZmQzNmFhZTEwNWYwOTk3YTc4YjZkZWZkNzAyYzcyN2ZiOWZmZTg1NzQzZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRkN2E5ZWZmZTA3NmM3MDIyNjQ1YThhMzExYWExNWE5Y2I4NGRmYWNlNjZlODQxOThmN2JjM2Q5NWZlNDZkNDEifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6227-L6257",
+          "version": "repo-lines-v1:sha256:795d230dd1a02dfb55ec753e422b06e159afa9d90c550db73367174fa952784d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTkxYjY4NmFmMGJiYzYzZjk4N2UzOTk0ZGMyZmMyZTQ3ODg2MDFkYTgyNDQ3YzZlZjAxYzIwMGU5ZTVmNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYmJlMWZlYTVhOTZlOGI3ZWZhODFhZTA3MzI2YzM1ZmQ3ZmU0Y2UzYjBhYzYyYmRlZGU0OWM2NGRkMzZhODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiZDZlYTJkZDA5ZGJiODRiZDlhNWViNTI4YmY3NTZiNDFjZjllYmFiZjZjYTU2YTJlNGIxMTgzZDY2OTMwNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NTM2MDVjMTAyNjI1ZDk1NzYyNjhjZWJkNjY4ZjJlODFjOWU1NWY2OGNlNzY2OTBjNTU3YWQ0ZmU0MDk5NDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4d360c108b524207b8155535c9a6b759",
+      "statement": "Internal claims operations impose workflow and authority controls distinct from Texas contract and regulatory terms: the Claims Manual requires acknowledgment within 15 days, disposition within 30 days after requested items, referral above $25,000 evaluated amount, catastrophe referral above $50,000 incurred exposure, and binding suspension when forecast landfall is within 48 hours; separate Texas appetite handling guidance requires reasonable mitigation within 7 days after discovery of a covered loss condition.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/tx-homeowners.md#L575-L585",
+          "version": "repo-lines-v1:sha256:854a81da71c5b24d1f6378f126c0c9d027a0c7baa1467b75197265c7374e00ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkZjFkOWY0YmRiMjE1YzdhNzlhNGQzM2Y1ODczYWJkNDMzMWM5ODA4YjkzMmZmOTcyODQ3OTRjYTBiZGI1N2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ODEwNDRlNjMyNmQ5ZTdiNWMxOWRhOGVmN2UzOWE0ZDk0MWM5ZjI1YTU3MmJkZTUxZDRkMWY3MDUyYzdjZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyNmMyOWMwNzU2ODE3OWJiZDI3OGMwNzM5M2ZiNDM4NDk0ZTRhNTFhNTc3M2NmMjkzM2VkMGNjZDg3YzgzY2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjYWY0MzA1OGRlY2M0ZjI0ZmYxOTEyOTNmMTZjNzliNzc2N2FiM2FlMjUwYzA3NzJhNWI3ZmY3Yjc5ZjY5NjkifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L139-L145",
+          "version": "repo-lines-v1:sha256:ec7fe7ddff0cb1b09e1531a120ab86e0bf78f83a1ac95edd6eea659683f4c3c7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMmE1ZGJiZmMwMjM2MWI3NGUxYWJlMzZjYzg5OTE0YWEzMGEwOTQzZDgxOTJlMTczZDg1ODRmNzFiZTkxMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJiNTUzNjJhZDdmN2E5Y2E0NTAyMjFlOGM1ZTNjZGFjMDdlN2EzYzY5NDVkYTAwY2ZkM2M5MmVhMGE4YzAxZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWM3ZWJlYzBmNGRjZGE1NDMzZDI4ZWJiMDZhNzM0OWYwOGI2MjBiYTI2ZDAzMDZhYjQ1ZmM2NDIwNzA4NTk2ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzUxN2IzNGNlZjZkODQzOTQyMWQyOTVkYzIzY2QzZmMzYWI5NzFiNzllNGUxNGI2ZGQ4ODNhMzQzNzY5YTY3ZSJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L2261-L2265",
+          "version": "repo-lines-v1:sha256:162764447a19612d0ba32c91b5a579b081ad95ffb6368e046de52687c17275cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE0NmZmYzQyY2YxMzllOTI3Yjk5Mjg1ZjkyYmFjMjRiZTE1MGE4ZWEyNGUzMDQzMWVmMWQzNjkyYThjMDhmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTczYWY3Zjg0ZDc0MTk2OTY2YTdmY2U0Mzk1ZDdjZWM0YzBjY2QwMDc3YjY2MGQyMDBmYjVhY2YwZGZlMDlkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQzYjBiNjUwYWY3YTk3ZDYwNjY3MmMzNjgzNzVlYmRiYzQzZmU5YTFhZjRkMDdkMGJjZDJkY2ZiNGY4ZWIxNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWQyMmMxZjNlYjU0MjgyYzlmYTU5OTBjM2VjYjRhODI1MjZiZDhkNzBiYzIyMzczZDQ2NmRhNDY4NWNkZGRlZiJ9"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L3961-L4023",
+          "version": "repo-lines-v1:sha256:d2b14f6b1bfc15e7f87410bea5fd64ef4903266906b73f27f1c8724c5436448a:eyJzZWxlY3RlZExpbmVDb3VudCI6NjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1ZjAzYjBlOTg4ODI0MThmMzAwZTRhZTlmOTBiZTAyYzg1MTQ2Y2VkZWUzMzMzMGUzNjc1NTA0MThmYzE0YTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODU5YWJhMmI4ZWYwNTQ2NmNlMTRiNmUyNTJkN2JlOWI3NmIwYjhjMGU1ZWNmYTY3MDE0NzRiMDg0NjIxMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwMGZlZGZkOWI4NjY0N2JkMWQwMzg0YjdmM2ZkODEzZjFjOTQwOTBjYjQyNjA2YjhmNTk2ZWUwMDViNzBhZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExMTQwZmQwOWY1ZmU5YmUyMjdmNDQ1NDJkZWYyODQ5NTEzNmU2ZDllNTVlMzIwYzRmZmE5NjM5YjcwNTZlYzgifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4341-L4345",
+          "version": "repo-lines-v1:sha256:adf60557301ac049eb1e6c6d15308655e1c9fc4ffd9e3e1f4b26fde9f30dc338:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZThhNjg4OTFmMTlmNjAwOTVlZTQxMTRmMTVmNDYxZTgwY2IwYTk0YjhhODk4Nzk0NWJjYjVmZDhkMWE3NmRlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmU5N2RlODU3MGEzMzM0YWJkZTViYThhZTIxYTc0Njc3ZmNiNmE3NmY0M2U4MmY5NDA0NzJiN2ZmYTc0MTNlZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjE5ODcxZjU0M2NhMGMxMzc3OGNmNDVlMWJmMDYxMmFlZGRlNDk4ZWIyZjBiYjVjYzEyYTE0NWJjNjlkNzEzNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzM4NDk3NDYxMThmYWRiY2UwZjI2ZjBiYzc5NGUxZDI2YjBlZDQwMTU1NDdhZTdiZjQyMTM5NWE2YzQ0Yjk3ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2462bddcbe7940699a3e020f2846acdb",
+      "statement": "The internal Claims Manual's 30-day disposition instruction cannot extend a shorter deadline imposed by the assembled Texas contract or applicable regulatory baseline; handlers must diary and satisfy the controlling form-specific and B-2019-02 deadlines first.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L215-L245",
+          "version": "repo-lines-v1:sha256:9647f0caeb68496baa4bc5093e244c4c145456606d6c919fca645250ab9a46ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiZDNjN2RlNGE5NjI0ZTAxYmFhZDA1MzkwMTk2OGY0NTExMDU0OTRhNzkyMDcwM2E2NzVjYjIxNzAxMWE2YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQyMzQxZGZhOGZlZjU1OTc5ZTE5MWY4ZTFjYTQ5MTc2ZTNlYTExMTg4OTQzOWI0ODRjMmNmODZiYzA2NzllZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwOWUwMWZjNDMyNDY5ZGQ4ZjYzNDY1YjI2OWVkMjc5NWFmZjE0ZjNkZjI4MjAwMjRiN2Y5ZDRkZWUyNDk5ODIifQ"
+        },
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L495-L507",
+          "version": "repo-lines-v1:sha256:0abbadd0adfa53ed1bc21c97757807fe1a2cf094c8beab0e3fe2d14fbf60334e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkM2E1MGI2ZmU1NWM5NDlkMzc1MzM1MDQyMWYxYTUxZDgxNGI5NGIzNDVkZGU5ODNiNDMxMzYyNzUwNzkwNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkZGQ4Y2I5ZjViYzU5OWEyYjlhNDlkN2FmZWQxOTNkZDM0YjljMGFlYmM5MDBmOTZiYzc5OTcyYzMzNjQ4YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlNTNjNDIxY2RjMjAzNDAxYjg5YjNkMWFiMTcyMjQwN2VlNjQwZjU2NmZhZDRhMGU0ZGQzZmI3OTIwNmE4ODgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiMzJhYzU1MTI0N2ZkZmNmMmU5NjY3MDJiNGJiODY1YTBiMzc4MjhlMTRiMDAxNDNhODY5ZGVhMjJkMDk5NWQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L391-L407",
+          "version": "repo-lines-v1:sha256:b8ededde24af704427d19db1006f9055de61491e7e04fae9c068c3c901ca78b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzNzFiNzdiYzczMWI4NWJlYzZkYzQ5M2VjODg3YzU4NWI2ZDU3YzFhZDk4MTJiYzk1MGYwOTI0Mjg4M2ViYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5YTY1MmEwMjk1ZDBkM2U0YWZiOTBmZjg3NzBhNzVmOTg3Y2E5Nzc1NDEzYTVkOTYwMGIzMmRhOTk1MjY0OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlNDg1MzJjZWVhYjU5NDNhNDJjNzM1NmI1YWU5NzQ1ZDA0Mjg4M2U3YjY1MWQzYWFiZTdhZjUxMDhlZmQ2Y2MifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4013-L4023",
+          "version": "repo-lines-v1:sha256:9b05e73376110fed7e884785b462b001bd31eaf87e1938c06245e30ca34d23a0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyMjBlNDBlMDVhZmUzYzkwYmI5YzkxM2IwNDU4YWY5NWRiMTYwNzk0NmRiMTIzMjczMTA3MDJiNzA4MjQ5N2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODU5YWJhMmI4ZWYwNTQ2NmNlMTRiNmUyNTJkN2JlOWI3NmIwYjhjMGU1ZWNmYTY3MDE0NzRiMDg0NjIxMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlYTA1MzBkNWUxM2Y0MzUyMTQxZmU2NTM5NTNhYjUyZTlkY2I5YmM4Yjg4OGYxNDk1ZjVlZmUzMGU5OWQwMGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExMTQwZmQwOWY1ZmU5YmUyMjdmNDQ1NDJkZWYyODQ5NTEzNmU2ZDllNTVlMzIwYzRmZmE5NjM5YjcwNTZlYzgifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

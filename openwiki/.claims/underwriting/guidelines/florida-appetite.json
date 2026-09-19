@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:2631d7298c617473aafb50fd894d25ed1bd67b1fc018998db20375f7250ce4c9",
+  "pageVersion": "sha256:139ef6323c85936243c996fa00cee414c2ebfe483b98f9aaff03571590382561",
   "claims": [
     {
       "id": "claim_c62568d008a84a12a1bca3a9e882083d",
@@ -267,10 +267,114 @@
           "version": "repo-lines-v1:sha256:3f17a7c8436e986a46e47117226808d5cb4ed2b588792ee9630ffbf5474db6f7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmUyMjU2ZTVhMjM3MzY4YjU1ZjMxZGRlODIxZDExZGYzMGQ4YTRjODQ3YTU4YTIxM2E2MDU3ZjZjMDJjOTViZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVhZDUyMTdkNGUxYmI3YmMxY2FhM2YzMjAwMmEzNGRiOWZkOGNmZmQ2ZmQ3N2Q5MjJhMTU5ZGRiYmNjZmI4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZiNGFkYmJiNzRkZTEwYzIwMDhhMjIzOGYyMjVmNzg2NjkwZDQ2Y2EwMTljMTU5MGNlNzgyM2RjZjExMjVhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODFiNjE0Y2NlODNkYzQ5ZDZkOGEwMzlhNWQzMGE5ZTBhMjIyNmVhZGViNjAzNGE2ZDljMzQyY2E3NjdjMzJlNiJ9"
         }
       ]
+    },
+    {
+      "id": "claim_b333444048e04d6581e503251d0f3e79",
+      "statement": "Florida underwriting must pass an evidence gate before binding: incomplete, inconsistent, or unreliable information requires inspection and no bind until resolved or an authorized exception is recorded; at roof age 15 years the Florida roof survey must identify condition, materials, installation quality, and visible deterioration, and inspection closure requires each material finding to be resolved, referred, or accepted within authority.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8501-L8513",
+          "version": "repo-lines-v1:sha256:4428d2351b1181fbd912a0f09a2de4d9220f72ad6851bb3d62c7f99050094532:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1ODE2OTcyZDQxZDQ2NTdiYWIwMjRhMmJjZmI5OTA5ODUzNDllMTFhMGYxMTI2NGJiNmQ2ZjRlN2EwMmRlMWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZWE4NjllN2IzZTZiMGZhN2U4ZDYzNDYxYTE0ZWFmZDM2ZWExMjA5MjZmZWUxNTU2ZjMxYWI3YmM0M2E0NmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1OTgxYzNhNzA0MmQwNmY5ZjhlMGIwODgzYWFmYTMyNDUwZjk0Njk1NzY1NDk0YjE4NzBhNzE1YTEwYjRiY2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI5NzRjNjdmNGQ0M2NhZDRmZDA2MzA1NjU2NzUxMDlkYzM3MmFkMTBjNTQ5YzBlZjU4ODJmODM3NjQ3NjFkNmUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8749-L8753",
+          "version": "repo-lines-v1:sha256:4c313e7f200ec042acb8690eee4052dad051d6d007a533511c872be3b7624a40:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODFmMmNhNjEzMDljY2VjN2U4ZDk2Y2ZlMmM0NmY0NWY0MzQ5OTQzODkxYzVlMDkwNzA0MDI1YjdiNDE0ZDg3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWY4NTBmZWYxZjE5ZDg2YmQ0MjYyN2FlNjA2MmFiOGIyYzM4NDczODEyOTZhNWExMDRjZTgxOTY1YjY3MDZjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE0NjAwMmUxMGI2ZGNkYmNiN2FiYzRhNTM5MmFlZDA4YmY4ZGQzMDMxMjhiODUwMjBkYWVmYzE2MzQyYjExNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE0NTViMDA0Y2Y5N2I2NzBiYmY4MGUxODY3NTgxNmZkNWQyMjY0YzY1ZjhlYzkwNzg3MWYzY2Q1NTE0NWVhZiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8755-L8801",
+          "version": "repo-lines-v1:sha256:c1613c0f99c906aecdc9f5a7c7faf8146eb2b0ef6de8d31b668eacf0dc86a948:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4ZDQ1MWExZGJhYzMzODI3Y2UwM2YwZmQ5NmM3ODk1MjM5NTVkMjBhYWVlMmQ3MDZjOTYwMTMxODAyNzUzMzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjOGY2YTk4MmEwNTRjYTY3MjFlOTNkNmE5NWI5MzRhNWJmOTEyNjQzMWUwZjFjMmIyMzUyN2JhNTE2Mjk0YzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjYzEzMDgzYmRlZTY5ZjM1YWMwZDJmMmZhOWRmODI3ZGViNzViNDM5NWE1NzI4ZWQzYWNjOTBlZDljYjRhZjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmODlkZTExNDhiNGMwZjhjY2RhZGZkYTVmNWU2YWM3MWJhNjUxZjcyMzAyNmI1YTQ2NWFkYTc1ODAyZDgzZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_626bf4787a8946c7bf2f4873f7afbdf0",
+      "statement": "The Florida underwriting file must preserve evidence provenance and decision traceability: source and receipt or verification dates, material discrepancies and their resolution, operational status, referral reason, conditions, eligibility findings, authority, and verification status for unverified information.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8803-L8857",
+          "version": "repo-lines-v1:sha256:345fcb63354921619f2f03f880a12365c0dd4917c08229e161cd9b704dc1a427:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMjNkYWU2MjhlZDM3YjMxYTZhZWUxNDFjNTIxODk4MjZiODMxMGM0ZmM5Y2ZjNDY3NTIxODBlZGNlNjJjZWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYTRmZDU4NTc3NGM4ZTQ2MDllNDhjMTU0YWQxZmZiNDYzNTE3ZGNmZDM4ZWIzMTM4Yjk4OTI4ZmVmMzA3ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY0NWVlYjZjNzQ0YTRlNDYyNjZlNDY0NDkzOGFkMmU5ZjUyNzFlM2JhYzcxMWE3MmQyY2MyZTc2MTY3Y2U3MmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxNGEzNjI0ZjM1YzE1ZjcxMWMzMDIwMTNiMmY3NmY1M2Q1OWE3MTNjNWFiZjZjOGRhZGU1MTVlNjM4ZjI0NjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8823-L8833",
+          "version": "repo-lines-v1:sha256:c67b43873401368e8c0924c3161ac9c8872155e858282834cf6b45f43f64d2d6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4ZGNlMTgxNGYzN2I0M2RlZDMxMWVlMzFmMjRkYjhiYTQzZmIxYjY3YTFlNmU1YzQzZmJkNjRjZGFiMDA5MDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMGJhMzAyZWQ5YTZiMWUxOWY1ZDc0ZTUyZTViN2NjYWY4ODY2Nzc2YjdiZDg1NDBlMzU5YmE0OTEzMmFiM2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2Y2Y1OGY2Yjc0OTQxYzk4NzAxZDlkYmQ3NTUxNTE3ZmMwZWYzY2E5OWY2NDI1NDM0YjcxODdhMGVkNGRmMGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzZGQyYTVjYWQxOGViYjhkY2IxNTM3NjY1NDMwMTM0ZjBkMDQ1NmJiOGYzYWE2NzFkZWZiYzI2ZTNkNmYyZDkifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8949-L8959",
+          "version": "repo-lines-v1:sha256:e779136fc2d7f0aa41eb76b5cec68f8a1a376c7dcc2e7eb9803a983421b6e254:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyNTRjYjBlM2VhNDE5ZjY0ZmRmMzk5ZjY0MDEyMDYwM2Y5NTM4YTQ3ZmIzYmQ1ODE1ODIzMjAzMmRiZjEzOTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmYzAzNmU2YzliY2ZmYjk1NzBlMmIyNTg4MzI4NzQxMDJkNzdjNGI0NTY1YTM2M2Y1ZTFhMjU3NzEyZDczMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5N2E2ZTRkY2JiOWE4ZTMzMWRlZjgxMTIxODU2MTM0NWM2MjdlZWFkOTAxM2I1NzZhNWU1YzM1NzNhN2YzNTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzNjA1ODkzZjU5NWJkOWYzODQyNmU2NmRiYzUxZjlkNGU4MTliYjA1ZGY3M2ZhMmM4NThlMzFjMzdjNmNkOWUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9039-L9043",
+          "version": "repo-lines-v1:sha256:388e53ec6df8dafee2a7dad8d0cd4092646f4a0d2ef13163bb7606052ff261f6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWVjNDdiNDZiOTUxNjY4ZTZhOWZhYWE5ZTU5N2QyODc2OWJiYjNiYmUxZTYzOTUwNGRkODc4YzNlYTY2ZDdlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmYzZDc2OGU3MzdlM2FkY2VjZDAxNWMyNDg4ZmM1OGUxMWQyNWNiNzZmMzZlNGUxN2Y4YzM3ZWQ2MmU3YzNiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDVkMGQ3NzUyZWY4ODhkNmY0NmRiMTRmNzAyNTk0ZGZmN2E2NjkyYjUxMmU0N2M2MWVmMDRmYzU1Y2E2MjU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTE2OWExNTJjYTRhMjcyNDI2NjdkNjE2NmIzNDQ2ZGE2MjEzNjk2MjljZjA1MWViNTYxNTEzYzdhZmRmMDVjMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_aa53fe92f1034040b8cd1639b55cec9f",
+      "statement": "Florida renewal underwriting is a fresh review: current-term loss activity with two paid property claims is referred, material roof, exterior, water, inspection, or missing-information concerns must be resolved before finalizing, and a renewal inspection report is valid for 12 months before updated evidence is required.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9131-L9165",
+          "version": "repo-lines-v1:sha256:bc0bfc33f009657afc04934749717e4825816c8da9c41c6b04cf49d004551fc4:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwNTA2MDA1ZDYwNzg5YWY5OGMwNmI1MzkxYWFhYjQwNjRiYWJlOWNhZTk3NWU2Y2EzMTFiODcwMjcxZjQzMTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0ZWE1ZTdlMjY4ZjBkZTY5YTViYTkxMzk4OTBlMDA4MDQwODM4ZjI0YTgzYzYzODJiNDQ2ZDM2YzdkZjQ3NTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZmY2OTNjOTY1YjI0ZTY4M2FiNzQ2YzlkMzRjMGNhODExMjFjZWIxNTY2ZjdkNjU4MGJmN2I2ZDQzNWZiMjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyOGQ0NzE5NDJkNmI1YThkNzMzM2NmYTU1MGYzZGUwOWUwYzNkY2M2MzNkYTJmNDcwODA3N2E3YmY0MGM3YzIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9209-L9267",
+          "version": "repo-lines-v1:sha256:c2a945a300a85ab5c204f4af72685be124d0f0fccd86592625585afca604802e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNkZmVmYzViYzYyZmY2ZTc5NDAxNGIwZjM0YmIzMTQwZDY0YTIwYjJhMDZkNDkxMzNmNWIzMWRjN2Q5MjYyOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3ZWUwZTAyNTA1YjE0NWJjZDQ0Mjk2MzdhNjVlNDNjMDk3ZDdkNjEzY2Q4MGU3ZTJkMTA0NmFmNzQ4OWEwZTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyNTE5OTI2ZGRlZGRjNDg0OTRjNjA2OTdlZWFiZDRkZGQzZjlkYzRmNmU3M2RkMjJiMGQ4OTdmOGFlNWI2ZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2MjljYjRiNzlmYzEyY2NkMTFhNGU3NDg3Y2QxMjhmOThhMDkzMTMyM2IzMjVjYWE1NDlhNjdiM2U0OWRkODcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f9dd72cf69af463ea86ade03754d93d4",
+      "statement": "When a Florida hurricane deductible is offered, selected, changed, or renewed, its disclosure must be delivered before binding or renewal and before premium or final electronic acceptance; selection acknowledgments and the disclosure version must be retained, revisions must precede a deductible change, and an increase in a windstorm deductible requires at least 45 days' notice.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L165-L203",
+          "version": "repo-lines-v1:sha256:078e0a6b8db6588b480d3edff29eead102e10139ec3f54bcdf4c75d27da10da6:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3ZTI2NzVkMTI5YTI2YjMzNGU2OGVhNWFlMGFjMGM5NjczMGZhNmE3YzdjY2UxMjkwMmM0MTlhM2U5MjU1OWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1YmU1MmUwMTU1OWU3YzY2YTcwNzQwZjgyZDJiMWY0NTgyZjc1MmI3NTlmYWJlOWZhODAwNWNjM2NjZjU3ZGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgzNTczMGM3ZmY3YTcwMDAwZGFlZDRhYmM1MzA3ODNlOGI5ZTU1OWEyNDE2NWNkOTc5MWVkMjRmYmI2MGJhMzMifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L59-L101",
+          "version": "repo-lines-v1:sha256:7e539421e0b9a964ad0133415718dcffea995118d5d9b2735b52f98bc99956c4:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjZmE3MGI4OWIyNDRkYTI3NGIyMDIyYjMzMWU0NTU5NTU2ODNkYzE1NTlkMzgwYjFmMjY0YjUxYjdkNDU4YzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzMWUxOWMxNjUyMGRmYmE0OTA5MDAyMDJlYjVjZTY0YmQzMmQ0MTVhOWEyMDM4MjI5OGYwMjljOTAyYzNkNGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlmNWQ3OGEzMWU1NzZhMDQyNzBhOTFhMThlMDNmNWYwMjMxNzNiYTI4ZGUwMzc4YzE4YmY5ZmUwMTZmN2Q2NzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac2313b2443b4a43bda3ba0d4e202b41",
+      "statement": "Florida underwriting exceptions require an authorized referral and recorded rationale, limitation, and authority; roof-age practice revisions must be filed and effective before implementation when filing is required, and hurricane-deductible disclosure versions must be retained without using an unfiled or superseded disclosure.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L299-L331",
+          "version": "repo-lines-v1:sha256:85246ea3e82085a3cbfbb49af2584fcc32f3170daa7b901288cbe1ae190ca073:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZlYWU5ZDY0MTUzNTFjOGE2ZjNjYjIxODJjYzYyMzUyODM4OTQ0NGY1NmEzMDFhMzNlYTZiNGY4NjRmYTI2NzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg3ZDlhNDdhYWQ0ZDY5M2ZhZjdkYjAxODQwNzhhZjg0NzY2ZGRlYTA4OGRhZjBmYjdmMDljNzViM2FmM2Y5NzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L295-L319",
+          "version": "repo-lines-v1:sha256:c4acef5dca2fce8b963365c882503364c24b0dc9714e58d6e7d06b968062f80a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyMTczZWQyYmY5Nzk4Yjk3NDEyNzI0OGMyOTkzNmRiYTQxNDE0MGE3ZTkwZmJmODk5NWFiMzkyYmEzOGE4YmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZjkwNDlkZjQwMmI3MTg3YTU5ZmQ3ZDczOTI2Mzg4YTRhMTg5NWZlODY5MzEyNThlZTA1YzY2M2I2YTEwNzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6179-L6185",
+          "version": "repo-lines-v1:sha256:b626f2fe8716ba43bd662df84abcdf64a5e8710fdea132c0d0acff7f824b694f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTMzMjQ4Zjg5NmU5MDNjZTAxODk1NDQ0M2FkMTYyNzU1YjUwOTU3Y2JlOTI2MmM4ZTY3M2ZjZDFhNDE1NTE1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzMyYmYzOGI2MDU2ZmU0MDYxYTdkMzM1MmE2YzZmZjcwM2U3YWRlOWJkMTI0YTBkMGI2Nzk5ZjViODQ0ZjQzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTM3MTdlZjBjYjEzMWFiYWRmOWY4OTgzNDk4MDYyNzA4NTU4MTIwOWY3MjI1OWFlNjE4YWJiZWUzY2FkZjc0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzIxNWQ1NWNjODk2NDg5YjJhYmZjMjEwNzUzZDU2MWUyNjBiZTI4N2JlNzI1NjU1MmIxMDcyMmMyNTU3YzNlNyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8913-L8917",
+          "version": "repo-lines-v1:sha256:1f62b4953e577ca1ed87c69e1b24e6628a751a0b32e06e2e3429e8050988d254:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVmZTE1OWVjNzcwYjk3NmIzNTcwY2I0YzMzOWMxOTFiODIwZmE5YzEzZjE2M2M3YzRmMGJjN2RkMWIzNzgxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTU5YmE2YjE1Y2YzOTliNWMxYTJjMmQ0NzUxZjBjYTRhOGNjMzhmOWNhN2NlNjM1YzU1YmJiYjhlODA0MTUzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGU3YjUxYTBkMWY3ZTcxN2VjY2QwOTgxNTA5MGNmZTVjMjFlMDAzMmZhNGQ3Nzc1YTQ0NzVmZTY3NzViMmY5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTcyNDdmZTdiMzBiZTZhODdhMTFjNGUwNTljZGQzNTBjYjk3YjM5YzFhZTUxZDI5ZjI4MmE0NDY3ODA1YmU5MyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9123-L9127",
+          "version": "repo-lines-v1:sha256:28b7500f162e3146606a9905614fe186cfd800d9a8dc73dc7fb41281a61e8409:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTI4ZWMzZmJlMzdhMjA0NGRiYTY1YTRiZTMxYWM3NmQ5YjJhMjZhMzQ1M2EwNzAzNjI5NThmNWE2MGFhYTgxMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4OTgwODJiZTFhMjMzZTFjNDc2ZDI2MmM1OWUyYWY5YjBkZmNhOGNjYjkzMzU4MDBlYzBhZDkyNDJkOGIwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTBiYjJkZjJhZWViNDc0Yjg3YWYwYmY3YzE2Y2EzYWUwZTI4MDhjODY3MjIxNzk0YzU3NzUyNjM1MzM2MTZiMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMThmZjY5M2M5NjViMjRlNjgzYWI3NDZjOWQzNGMwY2E4MTEyMWNlYjE1NjZmN2Q2NTgwYmY3YjZkNDM1ZmIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7ae44c649ef9478287b81a9ea21986d6",
+      "statement": "For a Florida roof that is 15 years old, the OIR-2023-04 inspection disclosure must precede premium payment or acceptance, identify who arranges and pays for the inspection, and provide a reasonable opportunity to submit a qualified inspector's report; an adverse binding decision must state the principal roof-related reason in writing and document consideration of submitted information.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L163-L191",
+          "version": "repo-lines-v1:sha256:eff7deb9524a01298926132948e801f9d736b2b0064941365321932b2dbcad42:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5YmI4OTA3ZTAxMTE3MWE5Njg4MjhhOWRlMzUzMzI5ZjIxZjMzYThmNjFiYWQ3ZDQ2NWE2MDEzY2I5YjJkODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZTBlYTQ1YmMwMGNmNmQzY2VlOGU5Nzc5N2I2YTQ1YTQ3YmViZjc4ZmMxYzg2MWMyNjBkZmZiY2Q5Zjk4MmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEzYjZmNTIzODU1NGM1MTc0NmE5MjdhN2JhZWZkYzA4OGM0NzdiMDZkMjdlZjgyM2ZiNmIwNjFmODlkZDNiZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4Mjc4ZTc2MmVjYmMzZmE0YmQxNTFlN2I3YWY3Y2YyYzczM2Q0Njg2YTVmZjBjOTgwM2ZiNTNjY2Y5OTExZDUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

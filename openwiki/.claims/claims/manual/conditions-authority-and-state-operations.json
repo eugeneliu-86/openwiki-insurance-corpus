@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:aa6b0cec6f8264c477652457babfc8db24b0186f1ff1db7fc3b11b74e1460854",
+  "pageVersion": "sha256:a7bb1a28974fc78e2b74fbecc9ddc491b6414b62f79bc916e32adbe75cdaf83b",
   "claims": [
     {
       "id": "claim_8c501a946d2b4052ba5299406fb57a3a",
@@ -283,10 +283,118 @@
           "version": "repo-lines-v1:sha256:1da213e528de44eeae0978022764f4799799a9d7ba4abd67609097de835808f2:eyJzZWxlY3RlZExpbmVDb3VudCI6NzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExZmI0MWQ2MzE2OTc0NjE3ZDY3NDYxZGU4ODIyMDE1YWRlODllMmNmYzZhMTg3NTg2ZWZmNWJlYmI1ZjYwMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODU5YWJhMmI4ZWYwNTQ2NmNlMTRiNmUyNTJkN2JlOWI3NmIwYjhjMGU1ZWNmYTY3MDE0NzRiMDg0NjIxMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2MGM2ZTMyYmFmN2M0MTVmMGU4ZTNkYTA0OWFkY2M5MzQ0MDE1MDRlNTY5Y2Y2MzdkZTdjMWZiYjI1NGJjYmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExMTQwZmQwOWY1ZmU5YmUyMjdmNDQ1NDJkZWYyODQ5NTEzNmU2ZDllNTVlMzIwYzRmZmE5NjM5YjcwNTZlYzgifQ"
         }
       ]
+    },
+    {
+      "id": "claim_b4d982d016b94706a03921e5cebcd96d",
+      "statement": "The North Carolina HO-01-32 form sets contractual claims-handling periods of 30 days to acknowledge a claim, 30 business days after receiving requested decision materials to accept or reject it, and 30 business days after payment becomes due to pay an accepted claim; these form terms must be distinguished from the North Carolina bulletin's regulatory standards.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/NC/ncdoi-2021-06-claims-handling.md#L245-L285",
+          "version": "repo-lines-v1:sha256:4eb28c2b10e82848aed003f753e8abf7e2a409f0b305e5bf7d0049e621e92cdc:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwZWQyYzZlNGU4OTAzOTU3OTE3YTg3MDdjZjlkY2RmMGU2M2JhMzQwYWViZTU1MmRjOWExZDgxYzAwMWU2YjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4N2FjNTljMmY0YWJkYjM0MDkzMDQ2Zjc5YzQzOTZhY2E3NTcyODkyYjIzNTk5ZGEwNjFkZTVmNjQ3MjY0ZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L455-L519",
+          "version": "repo-lines-v1:sha256:d926522b34693c900f20f3f060bd448ae1e431f48c439ad9e71980a2124110b8:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3OWZhZjg3ZWYyYTQ1MTE2ZGE1MjRiNzQzZmEyNmYxYTI3ZmM4NGM5NjQ3ZGM4M2U3MmJmMGRjNmFlNTRkNDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4MDMyNjM0ZmQyZTk3NjU5OWZjZDcwMWFmMDg4YTE1NTFiOWRiZWM3MTliZDY3MWY5ZDIzYjRkZGVmN2RmNTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjMGQyYTIxZGUxMGZjOTkxM2Q1MDAzNTBiODVmOTVjMzA4YTczYTkxNjYxNzdlMmM3Y2MyMmE0MTYxMjUwMmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f4a2ef5f4694c30bd53e37403ffbf40",
+      "statement": "The Texas prompt-payment bulletin sets regulatory standards of acknowledgment no later than 15 days after receipt, acceptance or rejection within 15 business days after all reasonably requested items, and payment of an accepted claim within 5 business days; it also bars conditioning an undisputed amount on resolution of a disputed amount.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L215-L245",
+          "version": "repo-lines-v1:sha256:9647f0caeb68496baa4bc5093e244c4c145456606d6c919fca645250ab9a46ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiZDNjN2RlNGE5NjI0ZTAxYmFhZDA1MzkwMTk2OGY0NTExMDU0OTRhNzkyMDcwM2E2NzVjYjIxNzAxMWE2YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQyMzQxZGZhOGZlZjU1OTc5ZTE5MWY4ZTFjYTQ5MTc2ZTNlYTExMTg4OTQzOWI0ODRjMmNmODZiYzA2NzllZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwOWUwMWZjNDMyNDY5ZGQ4ZjYzNDY1YjI2OWVkMjc5NWFmZjE0ZjNkZjI4MjAwMjRiN2Y5ZDRkZWUyNDk5ODIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_85099b782cf847aeacc0ed3cb77c6a85",
+      "statement": "The Texas HO-01-45 form sets different contractual claims-handling periods from the Texas bulletin: acknowledgment within 15 days, acceptance or rejection within 10 business days after requested items, and payment within 5 business days after acceptance notice.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2019-02-prompt-payment.md#L215-L245",
+          "version": "repo-lines-v1:sha256:9647f0caeb68496baa4bc5093e244c4c145456606d6c919fca645250ab9a46ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiZDNjN2RlNGE5NjI0ZTAxYmFhZDA1MzkwMTk2OGY0NTExMDU0OTRhNzkyMDcwM2E2NzVjYjIxNzAxMWE2YmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQyMzQxZGZhOGZlZjU1OTc5ZTE5MWY4ZTFjYTQ5MTc2ZTNlYTExMTg4OTQzOWI0ODRjMmNmODZiYzA2NzllZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwOWUwMWZjNDMyNDY5ZGQ4ZjYzNDY1YjI2OWVkMjc5NWFmZjE0ZjNkZjI4MjAwMjRiN2Y5ZDRkZWUyNDk5ODIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L391-L407",
+          "version": "repo-lines-v1:sha256:b8ededde24af704427d19db1006f9055de61491e7e04fae9c068c3c901ca78b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3MGUxMjNhZWRlZDFmZjllNGY1N2ZjMDk0NTFkZGYxZmI1Zjg1NzVmZDJjYjhmMjY4Mjk5NWZiOTljNTVhOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzNzFiNzdiYzczMWI4NWJlYzZkYzQ5M2VjODg3YzU4NWI2ZDU3YzFhZDk4MTJiYzk1MGYwOTI0Mjg4M2ViYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5YTY1MmEwMjk1ZDBkM2U0YWZiOTBmZjg3NzBhNzVmOTg3Y2E5Nzc1NDEzYTVkOTYwMGIzMmRhOTk1MjY0OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlNDg1MzJjZWVhYjU5NDNhNDJjNzM1NmI1YWU5NzQ1ZDA0Mjg4M2U3YjY1MWQzYWFiZTdhZjUxMDhlZmQ2Y2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_23b0482ceaef44bba36b65273bdb35a8",
+      "statement": "The North Carolina HO-01-32 and Texas HO-01-45 forms permit the insurer to request a signed or signed-and-sworn proof of loss and supporting information without stating a numeric proof period in the cited claims-handling provisions, so the handler must use the operative form and applicable law rather than import a period from another jurisdiction or edition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L471-L505",
+          "version": "repo-lines-v1:sha256:f7d9691a5922d5cf7c9e9bb0a67185166a169338c7a14abe14b5111c8ab9e3f3:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5OTM2NGY1Y2MxZGMwNTAwNGRmMjRiODI5YjcyNzNmZTFiYjFkMjMyN2EwMDNhYjAxZDQ3ZWU0MjY3MzQ0NzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwM2JmZWVmNDI0MmQ1Yjc4ZmU5NWU3YjUxOTg0ZGM2MmJmMTliOTdhNmM3NWM5YzY1YmY3YTUwZWIxNzYyNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFhOTI0N2YzZGU3NjU1ZDg3OTJmMDIzMDM5ZWY4ZGUzMjBmZmFmYzE1YzdjM2I4YmQ1MTU0N2MxZmVmMTg4MDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllNjBiNDZmMWE1MWFlNGQ0MGM1YjJhMTk4OWE3MWZkNTFkY2E0ZDAzNzljYTY0ZjA1M2MyYmYxZDVhMDJkMzkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L393-L407",
+          "version": "repo-lines-v1:sha256:70585d1a3d8df0d8c16c09869e3918b3e8d23d320dc3acef39972d5d75fd0893:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4NzBjOTc1NGQ2YTM3NjY1YWJlNzJjNDczY2NkY2VjMmI2NTY3MzI0N2ZhNDJjYzQzNGUxN2UyYmQxMGJhOTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzNzFiNzdiYzczMWI4NWJlYzZkYzQ5M2VjODg3YzU4NWI2ZDU3YzFhZDk4MTJiYzk1MGYwOTI0Mjg4M2ViYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3ZWU2YTA0MDQxMTI4MGQ5NmNiZWQ2ZmFiMWU5OGI3YTg0MTU1YzYxNDljY2ZjNzM2NmRjZGMwMGM2NGUxMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlNDg1MzJjZWVhYjU5NDNhNDJjNzM1NmI1YWU5NzQ1ZDA0Mjg4M2U3YjY1MWQzYWFiZTdhZjUxMDhlZmQ2Y2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ed97c8b0f77a4ba9be6f32ddcca31889",
+      "statement": "The North Carolina HO-01-32 form limits appraisal to the policy-permitted appraisal process and expressly excludes coverage, causation, and deductible applicability from the appraisal decision.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L608-L623",
+          "version": "repo-lines-v1:sha256:ecbf4ddd1b40a3e148b56305bcd551ad513887329f74fdfeb033b6cbf7760a50:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczZmZmMzhhNmEyYjJlZTQxZTZiN2IwOWVlMTVlZGY5MjYyMjA5OWI2YTg2YWNmMjFlYzQyNzE4ZTgxMTZiMzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViNzIyODJhOWQyMjU2NzI5MjgxYjE2MWQ1YjZkNWVlMmM2OGExMjQ3NDAwMWQyZWIwZTBhN2MyYzAzMjQyNzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2ODMwNDRkZWUxYWE4MzNhMzU3NGJiMTY2OTk3MDdjMDIyYjY5ZjVjOGMxNzU2NGE2YWFjNDAzZGEyN2RkNmEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e0d01e3b8a624eb085261b7da5fb65d4",
+      "statement": "The Texas HO-01-45 form permits appraisal when the parties disagree about the amount of loss and requires an insured to participate when appraisal is properly requested, while its suit condition requires compliance with policy terms and commencement within two years after the cause of action accrues.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L601-L617",
+          "version": "repo-lines-v1:sha256:ee5f66f7b287220775e545c523cadfbc4f92edf4a4cd597661ba4f43b54ec71a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NmE5ZWRmMjg5YjA1MzIyNTUyZmU5NzE4ZjBjNGRiYjk5OTgyMmU3ZDRjZDdmNGY1OGE4MmNkOTA4YjRjYTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmZmY1YmMzZmVhYWM5MTU0ZGYzMTg0Y2EwNzdiZTRhOTZhZDAyYTgwNjY4ODNhODNhZDEwNDc0YTQ4OTlmMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZkOGUxOTU3Yzc2ZTYwYmNhNGIzYTRjM2EwMzJiNjNlMmJlZjBmZTYwYmZkNDc5NmE3MjQ1YzA5ODBlMjkzN2UifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L779-L787",
+          "version": "repo-lines-v1:sha256:066fde0798ffece7c1e4e65b0e7c0d4df2cc08514216fd6cf1ee08bb1ef8169a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y4ZDdhMjNmMTgxZjUzN2I4YTM3ZDVhM2YyYzNhODYzMGQ3MTYwNmM0ZGFlYjNkOGExZDY1N2ExOTA0M2M2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNmNzkwZTBlYzE4M2I5NTA1YTA5YTBhNzFmYjlkODU3N2ZiMDEwODM1MGQ1MWVhYmUzNTAwZjBjNjg3N2M1MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2U3NTFhM2EyN2MzNTAxMWRhMmQyNjYyYjk2Mzk0ZjdjZGM5ZmFiYTYzYmVjOWI5N2Q3NWNjZmY3NDc3ZmZhZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2I5ZTZkMjNiYjg2ZTFjMWYzNzU1NDZhNzhlYzdmNGU3YThmODliNzZkMGQwNjlkYWY4YWRkMzViMTczOGYyNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c6b431e83790469594a97bf52eea8519",
+      "statement": "The North Carolina HO-01-32 suit condition requires an action against the insurer to be brought within three years after the date of loss, subject to compliance with the form's conditions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/NC/HO-01-32/2018-05.md#L625-L635",
+          "version": "repo-lines-v1:sha256:fb68ddc1c220fd7a892ca016197606681c523664de108f12d339b29b66e8b2cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkZjFiNTBjNTNlMWFmYWQxNTgzNDk3Yzk4N2IxYjNiYTBiNzNjMmQ4N2U0MWM2NjI0MmRkNzBjZGMyZDdlOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyNTkyNjFkOGFiN2RkYjEyYzQ2NTYwZGRiMTk1YzgxNzQ1ZWQyYzRkMDc1NjEzYWIyY2U0YWQzOTIwNTdlOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmOTAyZDEzZmY2NjA2OWZkYzRlMjNkM2E4NjVlN2E2YzEwNTgxMmQ2MGZlYjFlNmRhYzAyZjc2ZTZhM2Q4NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhODVhZDYwMGEzMTdjOTY5OTJlZmZhY2NmMWM2NGRlYTYwZThjZjdhNTAwZjEzODMwMjQ2ZjY4YjM3MTdkZjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bf0456e8b75b453b8dfbd49f088d2cb9",
+      "statement": "Internal closure controls require the handler to resolve or appropriately transfer material coverage, payment, recovery, and complaint issues, verify payment and final-disposition communication, and reopen when new information requires further carrier action; catastrophe event closure does not end the handling obligations for remaining claims.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/claims/manual.md#L285-L301",
+          "version": "repo-lines-v1:sha256:059b0968e9c5e8e6d6609748eb27c6733f06f7416437893b63fed19199fee484:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4NjBlMmFlN2M4MDI3YTc0ZGMzZjZjNGI0OTdlODlhMThjMGFhMjVhYjY1MzY5YzVhYjRiZDFlNjIyYjRjYWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1NDE2NDYyZTMyYjQyZjFmNDU3MTY2NzhjOTA1YTFkNDEzMjlmMzFhZWU0MWYyODliNzJhOWEzMTUyMDY4ZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI5MWEyZmNjMjNmMTY4NjdmNTJlMTJhM2E4NGY5NDQwYjM2MmZlODgyNWZmZTFhZWE2YmE4YTkzN2Q2ZTM4NGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhMTViYTM2ZGE0ZmFkNmE5MjE0ZTc0ZWNkYjhkNTRkYTk2YjMwY2E4YTQ3MGNjNWJjZjgxMWYwYjQ0MWNiNWIifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4229-L4239",
+          "version": "repo-lines-v1:sha256:b43ab01387b303e752db29705fc24ae1e9db36f70fb9088c263d30eadbd5b20e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzZmJhMTlhNWJjZThkMTMzZDFlZjhlMWEyNTE5MTlhMjJlMmIzOWNhZmU2ZmVmMzQyZWQ5MmNlZDBkZDk5NTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzZTVmODEzNzc2MGMxZmM5YWY2NWNlNzUwMzRhMWQwYzQ1M2JjZTMzMzQ2ZThkZDg2Yjk0NjliM2EwZjNlNWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZTFmYTc5ZjU1MmY0Y2ZkMDAyOWQ3MmM5OTU1N2M4NjVkZmNmZmM0ZTdkMDczYTc1NjI0NDJkM2ZhMTQ5NzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkOGE4YmEwYzA2NjE5ZDkyMTQyY2Q4YTEwMjk1NWE3ZDViZThmZGYzZjE2ZmRiNzZjODMwY2QyY2E1N2JkYjEifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4599-L4609",
+          "version": "repo-lines-v1:sha256:58182ab7282957866f8a0ddbb2ab070f1ec778224025ff6f4380917e9b4394b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmY2Y4NjU2MmU1ODI5NWM4M2JkNGE4NzgzMjdkNjM4NmIzNWIzZWNkYjcwZTgyNDQ3MTI0ZjQ2NWQ3NzBiNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5NDYyMTdmMmYyNGMyOTA3YThkMjlmMDJiYjRjMTVhZWFhOGNhOTBjYmRhM2Q3NmIzZWQ4MzJiM2U2ZGI4YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyODIxNmVmMjRmY2MyOTNhMDRhN2I0NjVhYzBkZWEyNGI4OGIxNTE4MzQ0NTBlNjljMzhhMTg0ZmFjYTJmMDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk5ZjllNjk2NDUzNzQ1YzYwNzc0YTAwYTU5MjBiMmM1ZTMyMDgzMWUzYzNkNWE1NTI1MWZjYzlhYWE2YzE0ZjYifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L4713-L4717",
+          "version": "repo-lines-v1:sha256:75555f0e8333a0a66484efa549035387327ae7c8c5d949f6d7138ded6569b75b:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjViMzliMGY4ZWUxMDFlZjdhODExNWRjMTVkYTZmMmY2YzE3YjYxMjYzYzRjMGQ5ZDk4NGQ4Njg4OTY1Y2M5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY3Yzc1NDNhMWYxYWQ4MDViOWQyOGE1MWZlZDNhNmJjM2QxMDYxYWFjNDVhOTk4NTEzN2Q1MTUyNTgwN2RiNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q0OWY2NjJjZmE1OTI1YTIzNTBkOTlhYThkYTcyNjdmYTJjMWRjNTllMWM4OGNlMDhjNjZkMGE3MjA3ZjUwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWU3NjA0MTFjZGNmODAwNTNkZmJmYjMzMzBmYzcwMjg5YWIwNTU5ZDYxMGU2N2FjNjE4MmIxMWIyNzZkM2Y1NSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

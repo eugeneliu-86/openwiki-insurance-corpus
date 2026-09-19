@@ -3,23 +3,25 @@ type: underwriting-guidance
 title: Rating Inputs and Adjustments
 description: A rating workflow for complete property submissions, form and occupancy matching, valuation, deductibles, and evidence-backed protective-device, roof, wind, endorsement, and state adjustments. It keeps rating procedure separate from underwriting authority and contractual policy terms.
 tags: [underwriting, rating, rating-inputs, premium-adjustments, deductibles, property-risk]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
+  - id: openwiki-source-38049e374f54d1eb9a15f4ef
+    resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
   - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
     resource: repo://forms/DP/MS/DP-3/2026-01.md
+  - id: openwiki-source-a831e6cf8f75394917fb0dc8
+    resource: repo://forms/HO/MS/HO-23-77/2022-07.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
-  - id: openwiki-source-25d651d4a45fc0fd8ab047e2
-    resource: repo://forms/HO/MS/HO-5/2022-06.md
-  - id: openwiki-source-9a3362ddf208da1fe1570617
-    resource: repo://forms/HO/MS/HO-6/2023-02.md
+  - id: openwiki-source-1a7fd187295c6f9ef57d73cb
+    resource: repo://guidelines/appetite/ca-homeowners.md
   - id: openwiki-source-add01ee6690ea277c5253419
     resource: repo://manuals/rating/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Rating Inputs and Adjustments
 
@@ -69,9 +71,9 @@ Do not assign a final rating basis to an incomplete submission. Obtain the sourc
 - replacement-cost inputs, Coverage A or applicable dwelling limit, requested coverage package, other structures, and relevant additional limits;
 - AOP, peril-specific, named-storm, or wind deductible selections;
 - protective devices, fire protection, catastrophe exposure, prior losses, open claims, unrepaired damage, and material changes; and
-- requested credits, discounts, endorsements, exceptions, referrals, approvals, and the final system result.
+- requested credits, discounts, endorsements, exceptions, referrals, approvals, state-specific inspections or notices, and the final system result.
 
-These are rating inputs or rating-file controls, not a list of automatic acceptance requirements. The rating manual requires the facts to be recorded, while underwriting decides whether unresolved facts require referral. [Rating Manual 1.A–1.K](repo://manuals/rating/manual.md#L15-L79) [Rating Manual 1.P–1.X](repo://manuals/rating/manual.md#L105-L157) [Rating Manual 1.Z–1.AP](repo://manuals/rating/manual.md#L165-L265)
+These are rating inputs or rating-file controls, not a list of automatic acceptance requirements. The rating manual requires the facts to be recorded, while underwriting decides whether unresolved facts require referral. State guides can add pre-bind evidence or authority gates without becoming rating factors. [Rating Manual 1.A–1.K](repo://manuals/rating/manual.md#L15-L79) [Rating Manual 1.P–1.X](repo://manuals/rating/manual.md#L105-L157) [Rating Manual 1.Z–1.AP](repo://manuals/rating/manual.md#L165-L265) [California Appetite Guide H.2.1–H.2.3](repo://guidelines/appetite/ca-homeowners.md#L304-L317) [Underwriting Manual Rule 510.5–510.6](repo://manuals/underwriting/manual.md#L6253-L6263)
 
 Before release, review manually entered fields, resolve conflicts that affect classification, valuation, eligibility, or premium, and perform a reasonableness check against the documented exposure. Record the facts available when the policy was bound or changed; document later corrections separately. A material change requires re-rating rather than silently replacing the original basis. [Rating Manual 1.AJ–1.AQ](repo://manuals/rating/manual.md#L225-L271)
 
@@ -93,9 +95,11 @@ Record address normalization, territory result, construction class, protection i
 
 ### Form selection and package match
 
-Select the applicable form from property type, occupancy, and requested coverage; never select a form merely because it produces a preferred premium. The form identifier and edition are part of the rating record. The current representative source forms identify distinct products: HO-3 is a Homeowners 3 Special Form, HO-5 a Homeowners 5 Comprehensive Form, HO-6 a Unit-Owners Form, and DP-3 a Dwelling Property 3 Special Form. [Rating Manual 1.I](repo://manuals/rating/manual.md#L63-L67) [HO-3 header](repo://forms/HO/MS/HO-3/2024-03.md#L2-L8) [HO-5 header](repo://forms/HO/MS/HO-5/2022-06.md#L2-L8) [HO-6 header](repo://forms/HO/MS/HO-6/2023-02.md#L2-L8) [DP-3 header](repo://forms/DP/MS/DP-3/2026-01.md#L2-L8)
+Select the applicable form from property type, occupancy, and requested coverage; never select a form merely because it produces a preferred premium. The form identifier and edition are part of the rating record. The representative current forms identify HO-3 as a Homeowners 3 Special Form and DP-3 as a Dwelling Property 3 Special Form. [Rating Manual 1.I](repo://manuals/rating/manual.md#L63-L67) [HO-3 header](repo://forms/HO/MS/HO-3/2024-03.md#L2-L8) [DP-3 header](repo://forms/DP/MS/DP-3/2026-01.md#L2-L8)
 
-The selected rating basis must reconcile to the assembled policy. HO-6, for example, rates a unit-owner dwelling unit and includes building property the unit owner is required to insure under an agreement; that is materially different from the detached-dwelling exposure described by DP-3. The form is evidence for matching the rated product, not a substitute for an internal eligibility rule. [HO-6 2023-02 Coverage A](repo://forms/HO/MS/HO-6/2023-02.md#L78-L104) [DP-3 2026-01 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L154-L187)
+The selected rating basis must reconcile to the assembled policy. DP-3 describes a dwelling, other structures, and land used principally as a private residence, while HO-3’s Coverage A is tied to the dwelling at the residence premises and its residential use. The form is evidence for matching the rated product, not a substitute for an internal eligibility rule. [DP-3 2026-01 definitions and Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L87-L109) [DP-3 2026-01 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L154-L170) [HO-3 2024-03 definitions and Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L55-L67) [HO-3 2024-03 Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L97-L115)
+
+HO 23 77 is an endorsement, not a substitute for the base form. It changes the policy only for windstorm or hail loss and does not create coverage for property or loss that the base policy does not otherwise cover. Confirm that the endorsement is eligible, attached, and reflected in the Declarations or policy record before using its deductible treatment. [HO 23 77 preamble](repo://forms/HO/MS/HO-23-77/2022-07.md#L14-L20) [HO 23 77 scope](repo://forms/HO/MS/HO-23-77/2022-07.md#L44-L62) [HO 23 77 conflict rule](repo://forms/HO/MS/HO-23-77/2022-07.md#L76-L81)
 
 ## 3. Establish valuation and limits
 
@@ -103,7 +107,7 @@ Use the approved carrier methodology to establish replacement cost. Compare the 
 
 Apply the coinsurance threshold for the selected valuation basis and refer uncertain valuation support. Consider detached structures separately when their construction, use, or exposure differs; identify the rating treatment for each material structure. Extended replacement-cost treatment is available only when the risk satisfies the required underwriting conditions, which must be established and documented before rating is released. [Rating Manual 1.N–1.P](repo://manuals/rating/manual.md#L93-L109)
 
-Valuation is not a promise of claim payment. The form controls contractual settlement and limits. For example, the HO-5 form states that the Coverage A limit is the most payable for covered dwelling loss and describes replacement-cost settlement, while the HO-6 form limits Coverage A to the unit-owner property and responsibilities described in that form. Use the applicable edition and attached endorsements rather than importing a valuation rule from another product. [HO-5 2022-06 Coverage A](repo://forms/HO/MS/HO-5/2022-06.md#L107-L125) [HO-6 2023-02 Coverage A](repo://forms/HO/MS/HO-6/2023-02.md#L78-L104)
+Valuation is not a promise of claim payment. The form controls contractual settlement and limits. For example, HO-3 states that replacement-cost settlement depends on an 80% insured-to-value threshold, while DP-3 states a Coverage A payment limit and separately treats roof surfacing under its applicable settlement provisions. Use the applicable edition and attached endorsements rather than importing a valuation rule from another product. [HO-3 2024-03 Coverage A](repo://forms/HO/MS/HO-3/2024-03.md#L97-L123) [DP-3 2026-01 Coverage A](repo://forms/DP/MS/DP-3/2026-01.md#L154-L170)
 
 ## 4. Select and validate deductibles
 
@@ -111,9 +115,9 @@ The rating manual sets an internal AOP floor of **$500**. Reject an entry below 
 
 Keep deductible types distinct. Apply a peril-specific deductible when it governs that peril rather than substituting the AOP deductible. Review named-storm minimums and the wind deductible ceiling through the approved system and applicable underwriting direction; the rating manual does not authorize inventing a value when the requested option is unsupported. A wind or named-storm selection can be unavailable even when the property has wind exposure. [Rating Manual 6.T–6.AD](repo://manuals/rating/manual.md#L4305-L4365)
 
-The $500 rating floor is not a universal contractual deductible. The assembled form and Declarations must be checked independently. The representative form texts state different minimums: HO-3 and HO-5 state at least **$1,000**, HO-6 states at least **$500**, and DP-3 states at least **$1,500**. These values demonstrate why the rating selection must match the issued form edition, endorsements, and state wording; do not generalize one form’s contractual provision to another. [HO-3 2024-03 conditions](repo://forms/HO/MS/HO-3/2024-03.md#L769-L779) [HO-5 2022-06 conditions](repo://forms/HO/MS/HO-5/2022-06.md#L899-L907) [HO-6 2023-02 conditions](repo://forms/HO/MS/HO-6/2023-02.md#L916-L922) [DP-3 2026-01 conditions](repo://forms/DP/MS/DP-3/2026-01.md#L1796-L1807)
+The $500 rating floor is not a universal contractual deductible. The assembled form, Declarations, endorsements, and state wording must be checked independently. The current representative texts state at least **$1,000** for HO-3 and at least **$1,500** for DP-3. HO 23 77 separately sets a **2% minimum and 10% maximum** windstorm-or-hail percentage, calculated against the Coverage A limit shown in the Declarations. These provisions demonstrate why one rating floor or percentage cannot be generalized across products or states. [HO-3 2024-03 conditions](repo://forms/HO/MS/HO-3/2024-03.md#L769-L779) [DP-3 2026-01 conditions](repo://forms/DP/MS/DP-3/2026-01.md#L1796-L1807) [HO 23 77 deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L644-L665)
 
-Do not let a mitigation credit change deductible treatment. The rating manual expressly requires wind percentage deductible minimum review separately from wind-mitigation eligibility. A deductible change also must not be used to offset another rating characteristic or to create an unauthorized exception. [Rating Manual 9.W](repo://manuals/rating/manual.md#L5521-L5525) [Rating Manual 6.BH–6.BJ](repo://manuals/rating/manual.md#L4541-L4557)
+Do not let a mitigation credit change deductible treatment. The rating manual requires wind percentage deductible minimum review separately from wind-mitigation eligibility. HO 23 77 also applies the percentage to windstorm or hail loss and states that the endorsement does not create otherwise-uncovered property or loss. A deductible change must not be used to offset another rating characteristic or create an unauthorized exception. [Rating Manual 9.W](repo://manuals/rating/manual.md#L5521-L5525) [HO 23 77 coverage and deductible](repo://forms/HO/MS/HO-23-77/2022-07.md#L83-L117) [HO 23 77 multi-cause treatment](repo://forms/HO/MS/HO-23-77/2022-07.md#L678-L686)
 
 ## 5. Protective-device credits
 
@@ -153,6 +157,14 @@ Part 12 of the rating manual supplies state-exception instructions that can chan
 
 State exceptions can also impose separate checks or deductible treatment. The exception material requires confirmation of earthquake coverage before setting the earth-movement deductible and states a **15% earth-movement deductible when earthquake coverage applies**; it also calls for location, wind exposure, valuation, protection, roof, catastrophe, and condition review. Treat those entries as state-specific rating or underwriting controls, not as universal form terms. [Rating Manual 12.AA–12.AH](repo://manuals/rating/manual.md#L8261-L8291) [Rating Manual 12.CA–12.CX](repo://manuals/rating/manual.md#L8469-L8563)
 
+### State underwriting gates that affect rating release
+
+These are acceptance and authority gates, not additional rating factors. In California, the appetite guide permits binding only for Coverage A from **$300,000 through $2,000,000** and protection class no higher than **7**; it requires an acceptable roof inspection before binding at roof age **20 years or greater**, and a wind-mitigation inspection when Coverage A exceeds **$1,000,000**. The California underwriting rule separately limits line-underwriter authority to $1,000,000, caps issued Coverage A at $2,000,000, and requires a 100% insured-to-value review for replacement-cost settlement. Hold or refer when the required inspection, address, condition, or authority evidence is missing; do not turn these gates into a rating credit or table factor. [California Appetite Guide H.1.2–H.1.4](repo://guidelines/appetite/ca-homeowners.md#L90-L106) [California Appetite Guide H.2.1–H.2.5](repo://guidelines/appetite/ca-homeowners.md#L304-L327) [California Appetite Guide H.3.1–H.3.7](repo://guidelines/appetite/ca-homeowners.md#L512-L543) [Underwriting Manual Rule 520.A–520.D](repo://manuals/underwriting/manual.md#L6579-L6601)
+
+Texas uses a different underwriting gate: verify the Texas risk address before quoting or binding, match occupancy to actual use, refer conflicting ownership or occupancy, and obtain a roof inspection before binding at roof age **15 years or greater**. Texas Coverage A up to **$800,000** is within line-underwriter authority; requests above that and through **$1,200,000** require senior referral, and amounts above $1,200,000 must be declined or referred. These limits control authority and evidence handling; they do not replace the rating system or create coverage. [Underwriting Manual Rule 510.1–510.10](repo://manuals/underwriting/manual.md#L6229-L6287) [Underwriting Manual Rule 510.5–510.6](repo://manuals/underwriting/manual.md#L6253-L6263)
+
+Texas also requires separate windstorm and hail deductible administration: identify the applicable deductible in the policy and related communications, use the territory before applying the applicable cap, and reconcile declarations, endorsements, applications, and policy materials. The bulletin sets a named-storm minimum of **1%**, a hurricane maximum of **5%**, and a seacoast-territory windstorm maximum of **10%**. A windstorm deductible increase requires written notice at least **30 days** before it takes effect, and a named-storm period continues for **72 hours** after the designation ends. These are state disclosure, policy-administration, and claims controls; rating must still use the approved option and the issued policy terms. [Texas Bulletin B.1.3–B.1.8](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L19-L29) [Texas Bulletin B.2.2–B.2.6](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L51-L59) [Texas Bulletin B.3.12–B.3.23](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L159-L181)
+
 A state exception does not eliminate the need to read the issued state amendatory form, declarations, and endorsements. Policy assembly selects the governing edition and applicable state attachment; internal underwriting controls still govern authority and referral. If a state exception, system result, form, and submission conflict, hold the transaction and resolve the conflict through the authorized channel. [Rating Manual 12.A–12.I](repo://manuals/rating/manual.md#L8155-L8191) [Underwriting Manual 100.P–100.Y](repo://manuals/underwriting/manual.md#L105-L163)
 
 ## 10. Final file standard and failure handling
@@ -166,6 +178,8 @@ Before releasing a quote, binding coverage, or processing a change, the file sho
 5. the evidence supporting each adjustment;
 6. every conflict, referral, authority decision, condition, and exception; and
 7. the final rating-system output and reasonableness review.
+
+For each evidence-backed adjustment, preserve the evidence date or current-status indicator, the reviewer action, and the effective transaction. Preserve state notices and delivery records when a state control has a time requirement; for Texas, a windstorm deductible increase notice is a separate 30-day policy-administration control, not a substitute for rating-system validation. California roof and wind-mitigation inspections, and Texas roof inspections, must remain identifiable in the underwriting record before the transaction is released. [Texas Bulletin B.3.12–B.3.14](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L159-L163) [California Appetite Guide H.2.31](repo://guidelines/appetite/ca-homeowners.md#L450-L454) [Underwriting Manual Rule 510.5](repo://manuals/underwriting/manual.md#L6253-L6257)
 
 Hold or refer when material facts are missing, contradictory, stale, not risk-specific, or outside the approved system. Do not cure an evidence gap with an estimate or a free-text note. If a protective device is disabled, roof work is incomplete, wind protection is partial, a deductible is unresolved, or the selected form no longer matches the exposure, remove the unsupported treatment or re-rate after authorized resolution. [Rating Manual 1.A, 1.AO–1.AQ](repo://manuals/rating/manual.md#L15-L19) [Rating Manual 7.AK–7.AL](repo://manuals/rating/manual.md#L4791-L4797) [Rating Manual 8.9–8.10](repo://manuals/rating/manual.md#L5045-L5055) [Rating Manual 9.D and 9.P](repo://manuals/rating/manual.md#L5407-L5411) [Rating Manual 6.P–6.S](repo://manuals/rating/manual.md#L4281-L4303)
 

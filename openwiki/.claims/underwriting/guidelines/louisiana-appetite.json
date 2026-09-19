@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:f462e928a1cdb111a60788a3ebc628369d2de0d42d846c63c42c3178863e3021",
+  "pageVersion": "sha256:4449fdfa148b900bcd9c2f2a2eca81c98a9a002b906a190e1f61741bd60b7d28",
   "claims": [
     {
       "id": "claim_bf4c4cd3560442a0bdbb04573088bc51",
@@ -249,10 +249,74 @@
           "version": "repo-lines-v1:sha256:a1733dcae1c8bff8615aa194762d5cae827d483e612065cf6488e10aecbe5c94:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDU1MTdkNmE4Nzc1ZDdjOTE1MDMwNTZiNTI3OTIxODA4M2ZiNDBiOWMxODRmYTUxNmNiNWQ1Mjk2Mzc4OTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3MGM2NTlkOWUzYjk1Njc2ZGRkZjJmYTgyMWY5MDdhMmFhZTNhYjAyNWVlZmVhMjYxY2QzMzUyMWEzOTUxOWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1NzQ1YTAwYjFiZDc5MDkxYWNkNTkzZDViYTYyNWQ1OGRmZWNlNjdkYWMxOTU3MDcwOGVlZmRkYjdhNTYwNTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhZWZjZmFmOGE0ZjNhYzZkNTBjZTI4NjA0NjI0ZDYxMjdiOTJlNTMwMWQ3OGJkZGJjYjQzNGYzNWYxYmUxMWUifQ"
         }
       ]
+    },
+    {
+      "id": "claim_eedc51db9d69459bba2d17419f74a314",
+      "statement": "The Louisiana source set contains a Coverage A threshold conflict: the Louisiana appetite guide sets a $125,000 minimum, while general HO-3 Rule 110 sets a $150,000 minimum; Louisiana Rule 540 separately supplies a $500,000 line-authority limit and $750,000 state ceiling, so the thresholds must be reconciled rather than silently merged.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L111-L119",
+          "version": "repo-lines-v1:sha256:e8a19c9954ac27191af7380f2d1c2dbc0cd0e283a5874015098cf7fbb6416656:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyNjNjYzExMDMyMmEzOTA2NDRlZmE5ZGM3OTk2NmUyY2IxNGRmYWY0OTVlMDllZjRkM2M2Y2JhNTE3MWUyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWY4ZWNmMjk2MzhiNjFlYmEzY2Q2YzAzZmFjMGZmODZjZGNkZThhOWIyMWM0ZmJmNGI1NDM0ODc2YzgyNWQ2NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzN2U0NzFmNDFhMzFkY2JjZmM0ZTMyYTNiMGU3NWJjMThiMmNhMmYyMjI0MjQ3YWM4ZjE0OThjNDBlN2IxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDQzM2E0ZTdiZDYyNmQ5ODNjNzVjMDExOGVhNjJmN2E2ODVlMDhmZjY3MTk3MmEzNWZkZjFkM2Y2NzZiMGVlZSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L315-L327",
+          "version": "repo-lines-v1:sha256:38360fa18259c8f5699f59156883e1a8cc548039407db34190415296e8c8dacd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxMGEwYTU4MTE5ZjY1ZDgwZDQwNDQxYjVjZDAxZThiODRhODlmMWQ1ZDIzMGFmYjA3NjU2ZDE4ZmEyMjI5OTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1NDczOWU2YzliY2I2OWY0NTcyNmZhNzJkOGI4ODgzYmMzMTk0MzFhODg4YmIxOWYzNzZmZWY2NDg4MGQ5YmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlhMWJkN2QyYmRjY2ZmNjkzODQ4MWM4NmQxY2JmZThjNjJlZmUxNDY0ZGY0NTkzOTUxZmM5ODExNDdkYmU2ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhlZTg1ZTFiYWY5ZDU1MDNkMWM4N2U3ZDI4OTA0NjRlZmNlOGRiNDRiODdhZTczNGQwZTQ4OWM2MmU5MGE0YTkifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7195-L7205",
+          "version": "repo-lines-v1:sha256:b46d9602dac57ed7ce25fddfbeacf9a43a210d05811ae6a7e80f14dfd91e358f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3NGU3ZWVjYzBiOTAwZjgzOTdhMjA4NDZhMzcyZWQ0NWNmMjA5Mjc1ZTMwM2E1YmJiNzFhOGU4YTQ0NzhkNmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlMjA4NWZlNGNjMWFlMGI2Y2MxODVkOTk4YjI3OWMyYjdkMGFkNzZlMjhmZjY1YTNjNzZhYTE0N2ZmNTA4YTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlhZDZhMmZjODlkNTlmN2RhZmQ2ZGU1MDhmZmMyZTFjMzMzNjRhZDcyM2IzMThkMTg0OTllODJlMTI0NTQ0OTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMwZTliNjg3ZDRlZWI4MGJmMGJmYTM5MDZlMTliNzc1NmU1NTJiYzA3OGMyYWRmNTA5M2E0YWFkYzI4N2MzMTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fc8483eea9464adca7d550bd92c32225",
+      "statement": "The general roof rule and Louisiana state exception rule use different age controls: Rule 210 calls for inspection at 15 years and declines at 25 years, while Louisiana Rule 540 declines at or above 20 years; unclear or conflicting manual direction must be escalated before action.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L105-L109",
+          "version": "repo-lines-v1:sha256:555c4e448f4157207f8a88aa86fea038d4b385ee408852980e128e3682279d5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NlOTNkMTJiNTY2MjAzYzBjOThmYmQwNDlhZDY4MmZkOTg5Y2E2ODgwYjdhNjJjZmYwZWE1NWUxY2I5MTI1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y2YmJkOTIwNTA2YjFlOTEzYzY0N2E0MTI5MjcwZDNlZDY0MTRjNzU0MDk1MDNjODUxZDliMmExMTFhMGFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmOWEyNjYzZTY5MjkzZDZmMGM5YTJlN2ZlYjJjN2I3ZDAxNGU3NmYwMWY4YTYyYmRhZWE3Y2FkYThkYTU2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJiM2JmMDM5NTk0YTgxMzdhZTBiOTc5YzgyMDcwMmFiZWE5NDc5YmI4NmFlZmZhZjA0MjExMzVlMzAxYzk1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L2213-L2229",
+          "version": "repo-lines-v1:sha256:9630ac0f4394c9c711a01adbef135ce104c6086bae68e70612b4eb92707f3118:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0ZWQyZDg0YzEzM2QzMTNjOWNiODAyNjg0NGMzZmY0Mjc5OTk0MGU3YzczMjE2YjRiYmI3MjZjZmY0MDYxMGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkYjNjYjQyMzQxYzI0MTZmODUwMTkxMjQxZWE3ZjQ5NGQwZjg0ZDAzZTExMWZjZDZhNjY5YzI2YmM2Y2IwYzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyMjUyNDhkYjYzNTc0YmVjODQxOGFhMWQyZGFmMTYzNWI0ZjEyYzFiOGJlNDMyN2YxZGE1Y2ZlYTY2ZTg2Y2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjNThiYjc5YjFlOWJhMzliZWY1OTliZWIzMGQ1ZGM3ZjAxZDQ2Mzk3ZWY4MmExMjQxNWVhMjhmZWI5Nzg5MzMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7189-L7193",
+          "version": "repo-lines-v1:sha256:b116fa49b17ce84006a5efe9b050e9fe91c18871e176ec5ae7ece40060afebca:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM0YzA5MjVmODc5M2UyNDVlZGE1M2QyZGM2MTVmNmM3YmU4MDc2NjA3YjMyZTJiMDczY2Q3NDhmZmU0OGQ3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWUxZTE5ZjA1YWZlMGViMjQ2NTU2YjFlMWNhZjkyMWFjZjJjYzMxM2MyMjEyN2QzMWFlNzc5MzcwYmFlNTExYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFhYWFlZjI3ZjBlNzU1OGVjYzc3ZjJkMGQyZTczNWIzOTg3M2U0YTI2MTAzYzBlMWRlNjVmYjBmYjgyYjJmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzY1ZWEzNWZjNTllNGEyMTczZDFjY2I1MDFjODZjNTM1M2MwOGFiNGU5YWZiZjUyYzFjYTg0YjEyOGYyMDM1MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5399dde4f5b04622ae9f998ea3212b5e",
+      "statement": "The Louisiana appetite guide requires a wind-mitigation inspection before binding when Coverage A exceeds $500,000, while general Manual Rule 200.F uses a threshold above $750,000; the Louisiana workflow therefore preserves the lower state trigger and escalates an implementation that can enforce only the general threshold.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/la-homeowners.md#L620-L631",
+          "version": "repo-lines-v1:sha256:f349dcf3b6d0df54a05d46704d0bd90f745e8bd4637e47988f667a4b65712269:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5NTdkNjA4ODg1YTU2NTZhZjIxN2NkMTFhMjA1Zjk5NzIyMjhkZDUyODk2OGU2NDY3NWNiZDg1ZWQ1Zjg2OTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3MzUyMDNjYTJiNzZlYWM1MmFjMWY2YjNhMmZiODE3YWI0YjI5ZDU4YmZkNDQ3NzBmMTJmMmQ5YTkyN2E4M2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNjOTc1NGNkMjg4NDE2NmVjODI3YzQ5YjgxZDM2NmJhZDY3ZTkwYTMyYjhlNDI3ZjAwZDQyMzUyMGRlYzkzZDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhYjQ3ZDI1NzBmYjY1ZDcwOTc3ZmM4ZDNkM2Y0NDZjMjRiZDJlOWYxOGMwZThmZTY3MWQ2MDQ4OGU3ZjUyMDMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L105-L109",
+          "version": "repo-lines-v1:sha256:555c4e448f4157207f8a88aa86fea038d4b385ee408852980e128e3682279d5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NlOTNkMTJiNTY2MjAzYzBjOThmYmQwNDlhZDY4MmZkOTg5Y2E2ODgwYjdhNjJjZmYwZWE1NWUxY2I5MTI1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y2YmJkOTIwNTA2YjFlOTEzYzY0N2E0MTI5MjcwZDNlZDY0MTRjNzU0MDk1MDNjODUxZDliMmExMTFhMGFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmOWEyNjYzZTY5MjkzZDZmMGM5YTJlN2ZlYjJjN2I3ZDAxNGU3NmYwMWY4YTYyYmRhZWE3Y2FkYThkYTU2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJiM2JmMDM5NTk0YTgxMzdhZTBiOTc5YzgyMDcwMmFiZWE5NDc5YmI4NmFlZmZhZjA0MjExMzVlMzAxYzk1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L1995-L1999",
+          "version": "repo-lines-v1:sha256:418fb47de3e59d8072678a997075599adab090c5de5fe81a99d9f07a76e7cd37:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk1N2YxNjg2YzM0NDZiNDA4OWQ2ZDEzYzQxNmRkNDg5MmM3MGUzMjg2MDllZjQyNGY4OWE0NzMyYWNiMDliYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODc0ODMzNWY5NTlkOTIxNzBmY2NiNjI5YzU5NzU2ZTQ0NzMwOTQ2YWYwZjI1NDc5NmE3YTI0Mjg0MTdjNGZiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTk1ZmY2OGZlYzc0MzAxMWE3ODk3Yzk5NDYwOTgwN2Q1NzVhN2NmMjIyMmI0ZDgwZThkZmViNzljMzVkNTA3MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzA0YThiY2JiNWZjOWUzMDQ0MjliNDM1ZjI0Mjg1OGI5NjU2NjIyMzcxMWY1MTI0MzAzZjZlYTAyNGE2YzhlOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_136bef9f491f4e738e6fab75bfcffe82",
+      "statement": "Louisiana Rule 540 permits state-exception credits only when the required risk information supports them, requires referral of requests for exceptions to Louisiana eligibility criteria, and requires retention of support for the final eligibility, authority, rating, and exception decisions.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7513-L7529",
+          "version": "repo-lines-v1:sha256:c8d34618d0341b83b3bc5886eb7d34c97b385102213997c3c95be8d06c3dfc79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4NjQ0ZjAyMGU3YTE4YmVlZGFmOWM0OWVmZTUwNDkwOTBhODNmZjdkNmU3NjNmYTliOGQwNmQwYTMwZDhmNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2MzJmMjg2ZTQ0ODJhYzQ3YWE3NjZhZmYxOWIwYjcwOTFkNWMyNjc2YjQxMmYzNjZhNmM0ODliMGUxNWQzMTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZjNzBkZmU2NGY3OWU0MDc3YzQzYWVlYjVmNjdlMzJjYjQyYTNjYTUyYzZlZDhjNTE4MmI4ODAxMTI5Y2E4ZWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyN2MxZmFkNDRlZmZiMDJhN2MyNjE5MWJjMjRhMjAxNzExMjFkMjg2MDA4YzI4ZTU3MjI5Y2NhYzI3OWE5MzMifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

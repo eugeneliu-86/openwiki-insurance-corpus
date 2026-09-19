@@ -16,12 +16,16 @@ sources:
     resource: repo://forms/HO/TX/HO-01-45/2019-01.md
   - id: openwiki-source-ff7de1315ac46ce4dd65d251
     resource: repo://forms/HO/TX/HO-01-45/2022-01.md
+  - id: openwiki-source-da67a262bebb42780999bd2a
+    resource: repo://guidelines/appetite/tx-homeowners.md
+  - id: openwiki-source-77e27410bda4d59c2b779d5e
+    resource: repo://manuals/claims/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Texas State Overlay
 
@@ -78,7 +82,24 @@ Rule 510 is carrier underwriting guidance, not Texas contract language or a clai
 - **Water-backup and roof controls:** refer a requested water-backup limit above **$25,000**; obtain a roof inspection at or above **15 years**; verify roof material, condition, and visible defects; refer damage, active leakage, temporary repairs, or unresolved roof concerns ([510.4-510.5](repo://manuals/underwriting/manual.md#L6247-L6257), [510.19-510.21](repo://manuals/underwriting/manual.md#L6337-L6353)).
 - **File control:** document the underwriting action, authority, referral, evidence, and disposition. Do not bind while a required referral or material property condition remains unresolved ([100.A, 100.C-100.E](repo://manuals/underwriting/manual.md#L15-L43), [510.22-510.30](repo://manuals/underwriting/manual.md#L6355-L6407)).
 
-These controls constrain whether and how the carrier offers or attaches a Texas form; they do not change the deductible percentage, coverage trigger, claim deadline, or other term in the assembled contract. Use the separate Texas appetite page for the broader carrier eligibility and loss-history guidance.
+These controls constrain whether and how the carrier offers or attaches a Texas form; they do not change the deductible percentage, coverage trigger, claim deadline, or other term in the assembled contract.
+
+### Separate internal Texas appetite controls
+
+The Texas appetite guide is also internal operating direction, not a Texas requirement and not a policy term. Keep it separate from the overlay when quoting or referring a risk:
+
+- **Eligibility range:** Coverage A must be **$150,000 through $1,200,000**, and the protection class must be **8 or lower** ([H.1.1-H.1.2](repo://guidelines/appetite/tx-homeowners.md#L59-L64)).
+- **Roof:** obtain an inspection at **15 years or older**; do not bind at **25 years or older** ([H.2.5-H.2.6](repo://guidelines/appetite/tx-homeowners.md#L153-L166)).
+- **Wind mitigation:** obtain a wind-mitigation inspection when Coverage A **exceeds $500,000** ([H.3.1-H.3.5](repo://guidelines/appetite/tx-homeowners.md#L275-L285)).
+- **Water backup:** refer a requested limit **above $25,000** ([H.4.1-H.4.4](repo://guidelines/appetite/tx-homeowners.md#L367-L375)).
+- **Loss history:** review the preceding **3 years** and refer when the reviewed history shows **2 paid property claims** ([H.5.1-H.5.5](repo://guidelines/appetite/tx-homeowners.md#L447-L459)).
+- **Delegated authority:** routine line authority ends at **$800,000** Coverage A; senior authority extends to **$1,200,000**; amounts above that require decline or referral under Rule 510 ([H.7.1-H.7.5](repo://guidelines/appetite/tx-homeowners.md#L651-L661), [510.1-510.5](repo://manuals/underwriting/manual.md#L6227-L6257)).
+
+None of these thresholds authorizes a deductible, creates coverage, or changes a form’s notice or claims deadline. A referral outcome also cannot be represented as changing policy terms unless the issued policy actually reflects that change.
+
+### Separate internal claims-operation controls
+
+The Claims Manual supplies workflow and authority controls for the carrier and its representatives. It requires acknowledgment within **15 days** and an internal accept-or-reject instruction within **30 days after requested items**; it also requires referral above **$25,000** evaluated amount, catastrophe referral above **$50,000** incurred exposure, and suspension of binding when forecast landfall is within **48 hours** ([12.4 and 12.18](repo://manuals/claims/manual.md#L3961-L4023), [1.V](repo://manuals/claims/manual.md#L139-L145), [7.R](repo://manuals/claims/manual.md#L2261-L2265), [13.D](repo://manuals/claims/manual.md#L4341-L4345)). The Texas appetite handling guidance separately requires reasonable mitigation within **7 days after discovery** of a covered loss condition ([H.6.5-H.6.7](repo://guidelines/appetite/tx-homeowners.md#L575-L585)). These are internal controls, not substitute contract or regulatory authority. In particular, the **30-day** manual disposition instruction cannot extend the shorter applicable contractual or regulatory deadline: diary and satisfy the assembled form and B-2019-02 deadline first.
 
 ## Contract comparison
 

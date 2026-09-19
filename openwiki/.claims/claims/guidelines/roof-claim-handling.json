@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:dcedce39fdab96d19d4e0744bae8c183da791a4aa828017cc89af6065aab93b7",
+  "pageVersion": "sha256:eacfc58de908eb7fb2185af12e3a91dc0d74e7d444bbde03132e52454c4f6c8d",
   "claims": [
     {
       "id": "claim_35070de30a144af2a688784a631c9830",
@@ -337,10 +337,30 @@
           "version": "repo-lines-v1:sha256:cadd14042b828f4b07b5efe2b74e044be2128473f0a49efed2ff2e43f136d81a:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyOWMyODUxMjg5OGMwNTYzOWRkY2ZhZDU5YTg4NWVmMjI3NzlmMzlmZWZiZTg2ZDg0NjYxNGQ0ZjUzM2FkYWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxZjQzODMyNWRjMTdiOGJjZTIyNDYxNDBlOTY1ZTkyYWJmMjI2YTA3NWY5ZjA3YjE3NzVjMDI5NjZjY2NkMjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3ZGZlNDFiMDBlOGJhYWFiNDI4YmM1NGExZjFkOGFiMzcwOWFkNTE1NTk2Zjc5NzYwMzBlY2QzZjI0NTFlMGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM1NmVmMWNiMDU2NDJjYzVjOTJlZjA0ZTUwMjAzM2EyNmUxYTFkOTY4MDlkNWM1ZWZkNWZjZmIyNTAyMTYwNjIifQ"
         }
       ]
+    },
+    {
+      "id": "claim_101c532618a746bf98bd45aee2aa87c8",
+      "statement": "Delegated claim authority controls commitment rather than coverage: a roof adjuster must obtain higher authority before exceeding payment authority, retaining a materially consequential specialist, authorizing permanent repairs while coverage is unresolved, or offering a compromise that differs from the supported covered amount; the file must record the requested action and approving basis, and staff must not represent approval before it exists.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L577-L611",
+          "version": "repo-lines-v1:sha256:9d096fb512ef40dab7da34541c2474e28d738b7d39cf1f517d48ca302e73556b:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczYzBiOGE2MTVmMmI1Mzk1ZTA0MzdhYWFiODVhY2NmZDI1MmM1ZWVhMGEyYjY4MzEwYjM0NTg4OWZiOWE0YjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmNGY3M2E4OWI2M2VmNTk1NTUzOGQ1OGQ4MTU1Yzk2ZTJmNWI4NDAzN2I2YjRkM2E5NDVhMjFkODliMzk1ZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4NTM3MzdkMmMzZjBkMjRmN2FkYzc2MDIyZjgzM2MyNTJmMTNjNjA3MjQyMDk2MmUxNWViYzRjNmM0OTZlNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlmMDkzZWEzM2Q3OTYzYmU1OWU4NTI5YzVmYTg3MzkxYzNlNDI5MTZiMjhmMmUzYzFhNjBkNzRhOTk3NmJkOWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b5856c385afd4f8b8e6ad847ac8997c9",
+      "statement": "A claim's undisputed portion may be paid within delegated authority while an unrelated portion remains under review, but withholding apparently covered damage because of an unresolved factual issue requires higher authority and documented separation of the issues.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/claims/roof-claim-handling.md#L615-L621",
+          "version": "repo-lines-v1:sha256:de32a2e8b688ae40b9488c8dfe21cbef040d8220f97b3cfc881826d8ad51c718:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjgxYzNlYTVlOTJkNDlhNTllNTBjNWE5ZGY4MzhhMzc4MTFlY2NkNjIzZGI0YWFjYjY2ODYyZDQ2ZGZhOGVjNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVlOGI2ZjgzMTM3YjRkYTdlMzVlNDk0YzBiOWYwMzc3NGM4YWI1ODVkZjY1ZTI5OGRkZDBjMzU2YjBhYTViNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWYwOTNlYTMzZDc5NjNiZTU5ZTg1MjljNWZhODczOTFjM2U0MjkxNmIyOGYyZTNjMWE2MGQ3NGE5OTc2YmQ5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmFmZTFlZTBhNTU5NjUzZGZlODU1ZmE2YzYyZDQ4OTBhNTYzNjdiNWUzNzA1MTljYjYyYzM2MTQ0NmJjNTAzZSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

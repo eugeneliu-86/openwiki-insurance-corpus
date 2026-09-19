@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:7306da9c6749c007e34fb2d0d37ee8c38cd7a78f7e0ed73f94438577c13e24ed",
+  "pageVersion": "sha256:3b7f01956290475ac7574c4b34db54541543dd4660577d1b585053f764fde262",
   "claims": [
     {
       "id": "claim_f8eb871373e94ad8800aee690ac41e26",
@@ -319,10 +319,106 @@
           "version": "repo-lines-v1:sha256:5a1dfa1500c7a561cee9292c17ab583cb867bf6683d1f720c36dc4f5d70d1b0d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNTc4M2Y0NDZjNDVmNzMwNmM0ZjFjZDQzYTZmZWYwNDYwN2EwYTYxY2VkZTU1YTBlZDgxNzI4NGQ1N2JlMDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMDdlZjljNTdmOTI5NGFiNDcxZTEyODBmNTM3OWM0ZjNlMGJhMDAwODEzNTg0YTE5ZTFmZTE1MzMwOTQzZmEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_6e69323be403411bb83e0ada4e561fc2",
+      "statement": "North Carolina underwriting has two cumulative roof-evidence gates: the general Manual Rule 600 requires a roof survey before binding when roof age reaches 15 years, while the North Carolina guide and Rule 550 require a roof inspection at 18 years or greater; the earlier general survey control is not waived by the later state-specific inspection threshold.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/nc-homeowners.md#L459-L475",
+          "version": "repo-lines-v1:sha256:ba647011ecd5cb8b497ded59e37b8a2abcbefc04d10d987f805e7c6d07250b5a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3ZmZkNjljMDYwYWI0YjY2M2ZjMzM2NTM4YTk1Y2E1MzNlNTMyNDVkOTA1M2RjZDU5NDRmOTU1NGZlYTNhOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkYjg4Njk4NjZlMDZjYjNlMjIxZjc0NmU2OWJlYzIyYjY1NjhlMWI1OGU0YTVhODBhNzYxMzA4MGY2MTA5OTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzYjg0OWI0MTQyYWQwZjdjZjI3ZmUzMDhhNGFjMDFhMjgxZDA2NDg4N2RhNTI4MmQ4NzEyNzJmZDkxNzcwYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ0MjQyNDkwNDRmYWYzNzU3OTE4ZDFlN2FkNGRlZmE5MWU4ZDZmYjQxMzUzMjRjZWJjN2YzODg0MmY0ZDE0YzYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7531-L7539",
+          "version": "repo-lines-v1:sha256:ea4d663c414660e203a6e49d77d99e85424c4cb9912a845a2c6bf6da871f54d9:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmZkMzgwNTA4ZjAxYTNiYWMxZjA1NWY1NGU3ZmRmOWUxYTJjZDEyYTcxOWI4ZTE0YjNkYzJlMmFlMjBjZWVmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk4MTk2NDAwZWMzNWRhYjMwNDk2MzEwOTcxYmFiNTgyMTUwODZmYTViMjNlYjhjOTcxNzFlYWVkNzFhYmZmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWU0ZTVmOTllNDIzNjdjN2Q0MmI0YzZlZjNmNWI0ZTE1NmE1MjdkYjQwNWEwOGFlNzAzYTA3ZjAzOGI2OWEzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTA1OTM5MmQ5NjNjZjg4YTE5YzM2MzRhN2EyNjQ0YjlhNGEyZThmY2Q5MzllZWI2MjFkMGM1YmY0NjkxNDdmOCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8501-L8513",
+          "version": "repo-lines-v1:sha256:4428d2351b1181fbd912a0f09a2de4d9220f72ad6851bb3d62c7f99050094532:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1ODE2OTcyZDQxZDQ2NTdiYWIwMjRhMmJjZmI5OTA5ODUzNDllMTFhMGYxMTI2NGJiNmQ2ZjRlN2EwMmRlMWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZWE4NjllN2IzZTZiMGZhN2U4ZDYzNDYxYTE0ZWFmZDM2ZWExMjA5MjZmZWUxNTU2ZjMxYWI3YmM0M2E0NmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1OTgxYzNhNzA0MmQwNmY5ZjhlMGIwODgzYWFmYTMyNDUwZjk0Njk1NzY1NDk0YjE4NzBhNzE1YTEwYjRiY2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI5NzRjNjdmNGQ0M2NhZDRmZDA2MzA1NjU2NzUxMDlkYzM3MmFkMTBjNTQ5YzBlZjU4ODJmODM3NjQ3NjFkNmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d2331b83d88a4496878f81a5acf7a978",
+      "statement": "Manual Rule 600 requires an inspection when material underwriting information is incomplete, inconsistent, or unreliable, and the inspection lifecycle requires reliable evidence, prompt review, objective corrective requirements, reliable completion evidence, and closure only after findings are resolved, referred, or accepted within authority; an inspection is underwriting evidence rather than professional repair advice.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8501-L8507",
+          "version": "repo-lines-v1:sha256:6c0f151bebd4b6447b2fca2c91aca80b516d3f4492d230c66b028fd0970b8e00:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU4MTY5NzJkNDFkNDY1N2JhYjAyNGEyYmNmYjk5MDk4NTM0OWUxMWEwZjExMjY0YmI2ZDZmNGU3YTAyZGUxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRlYjBiYWFiNmY3ODc5YmNmOWNjMjRmNDNhYjQ0ZDM5ODc2MGJkZTdiMmY5ZGIyY2U5YTA1NDZlM2NjZDE0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzU5ODFjM2E3MDQyZDA2ZjlmOGUwYjA4ODNhYWZhMzI0NTBmOTQ2OTU3NjU0OTRiMTg3MGE3MTVhMTBiNGJjYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ5ZWQxYzVjMjlkZDNmYmFmNWQ2ODU5YTEzY2ZlNGY2OTM4NzM3ZDI3MDUwYmYxMjM2ZmNjMjZjYTI3MDNmNyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8737-L8801",
+          "version": "repo-lines-v1:sha256:31e45297c78cfda84d4155c27ecf7de6e23cdacfe8380b01d4a870c5912417cf:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1M2JlNDFlM2I2NDBjMTY5YzdlZDI3ZjM3MjJhNmEzMDYzZjQ0Y2JiMDY5NGNkMTExZDNjNmZiODEwZjA1OGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjOGY2YTk4MmEwNTRjYTY3MjFlOTNkNmE5NWI5MzRhNWJmOTEyNjQzMWUwZjFjMmIyMzUyN2JhNTE2Mjk0YzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2YTdmOGIyMGM4OGYxODMwNTk1YWNkZTAzNWJjNmNlMGY3ODAxYTY2MDg5ZjY5NWY0NDFmYjFmZGQwNjRmNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmODlkZTExNDhiNGMwZjhjY2RhZGZkYTVmNWU2YWM3MWJhNjUxZjcyMzAyNmI1YTQ2NWFkYTc1ODAyZDgzZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c823a128d374880bc964de9dea43395",
+      "statement": "Manual Rule 610.AA states that an inspection report is valid for “18 from its completion” without identifying the unit; underwriting must not invent a freshness period from that wording and must escalate unclear Manual direction before relying on an interpretation that could change the decision.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L105-L109",
+          "version": "repo-lines-v1:sha256:555c4e448f4157207f8a88aa86fea038d4b385ee408852980e128e3682279d5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NlOTNkMTJiNTY2MjAzYzBjOThmYmQwNDlhZDY4MmZkOTg5Y2E2ODgwYjdhNjJjZmYwZWE1NWUxY2I5MTI1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y2YmJkOTIwNTA2YjFlOTEzYzY0N2E0MTI5MjcwZDNlZDY0MTRjNzU0MDk1MDNjODUxZDliMmExMTFhMGFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmOWEyNjYzZTY5MjkzZDZmMGM5YTJlN2ZlYjJjN2I3ZDAxNGU3NmYwMWY4YTYyYmRhZWE3Y2FkYThkYTU2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJiM2JmMDM5NTk0YTgxMzdhZTBiOTc5YzgyMDcwMmFiZWE5NDc5YmI4NmFlZmZhZjA0MjExMzVlMzAxYzk1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8961-L8965",
+          "version": "repo-lines-v1:sha256:029f2847f79aad780523bceddcf9ee5633359bd395449949cd402bf1699475b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU5YWUxYzk1MjJjMjZjMTExYzJhNjQzYWVmYTA0Njc1OGZkOTJjMjQ3MDAwOTZmYjg1NzQ1MjgxMGM4MTg4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjY2U5MDU3ZjgyNzE5NWQwODU2ZTI1YmVkZGZlNjE2NWM5ZTM2OWUyMWJhNjliM2ZkOWJkMDhkMjBiZDAxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWEzZDkyYWJmMzUyYTE2YTQyNjZkODE5ZDZiNDRjOWFmOWNhMjRlOTkyNjNlYmE1MjEyMjhhNTMyZTE3MDA4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI3YjY0MTg4Y2E1Y2I5ZjkxNmJiZWU3N2Q1OTJiNTVmZjE4ZmQ3YzkwMjNkZjEwNDVlMGNjNzAwZmUzODc0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_885ee67bb51643a7a595d07bf92be0c8",
+      "statement": "North Carolina wind-mitigation treatment is evidence-controlled: protective-device information must be verified before related treatment is applied, unsupported protection claims are referred, and conflicting security, fire-protection, or alarm information must be reconciled and documented.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/nc-homeowners.md#L663-L745",
+          "version": "repo-lines-v1:sha256:fce989872aaa89cfd57971d424ec1d2389260444ad515b61548a3fe5e1769712:eyJzZWxlY3RlZExpbmVDb3VudCI6ODMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNDhlYTczZWYyOTgyMzUxZTUyMTlhZjg1M2U4OGYxYWEyZjZjNjBmOTE4YmRlNTU3MGU1NzJmNTdiZmFjZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxZGMxZGFlMDk3NDM4YjQ1OWVmNzFlNzliNzY4YzdjZTY4ZWUwMDk4OGNjMTI4YzZlZDQ3NGRmNGNlMjQzZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkzMDgzMzRiZWJkOTBhZjM4N2FhNjdmYjAyNTY2MDRiNTBiYzk4ZTNhZGJlYThmNzMxMmY4ZDJlNzQxMTAwZjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIxMmZiNjY2OWZhZmI4MjcwYjIxOTYwYWFjNjc3MWI5NjEzZGJlNmQ4YWEzZmY5Y2Y3ZTU4YjNkNTQ0OWU3M2IifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L7637-L7643",
+          "version": "repo-lines-v1:sha256:81c23062e0093da16b2e77c8e45e5488e082b4f97dd826c522c1ea819a1782d3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzUzMzVmMTBjZTU5YzgyMzBlMmM5M2JlYzBiOTMxOWJlYzMxMTcyZDA1OGU1NWFhODlmMTVmMzhkMzljMDNhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkMDUxM2ViMGQxOGM1NTZiMzM5ZjFkZTM1Y2QxZjk1ZDMyMzdhMjk2MjdmYWZhYjhiNThkNDkwOTdlYmFlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWE5ZmJiYjBlNTg0ZTAzNTBjMzYwMWU5MWZiNzRmMmYyMzY5MDAzMDZkNzZjOTgyNTE2NzE3NTM5ZDhlZDBiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ2ZWYwZjZjMjFhZTNmOGNmZjljZjI1YzlhZjE0ODUyNjdhYjAxOWE0MTZkZDQwN2Y5N2ZmNTI3NWY2NmI1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8877-L8881",
+          "version": "repo-lines-v1:sha256:433687f9a9f2f6fa70870ce5a6367f9bb9deca0bf6af2d711cf71b6ff8300670:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjE2MzhhZTU5ZGM4NDczNTYzODcwODcyMjNmMDdmNDdiNmNjNjZhZTI3MmIxOWE4NDQ2OTY5NDQ2YTI3MzQ1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDUyNDY1ZWIzZjVlYzg3Y2MzYWNiYzYxNzk3MWRlOGExNDQ4N2FhYjY1ZDQ2Zjk5NGI0ODM4OGZlZWQzZjhmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWVmNjQxMzJkMDljODI3Y2ViMTU5MDAwZmJjNjlmNTEyNzY5ZTA3MjJjYTg0MzViNWNhYmFkODMxOGU1MDBiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWZhNmZlOTZjNDkzNDk2NmM5MjkzNTUyNWViMTBjNzVjMmY0MTFmMGI0Y2JlOWM2YTY5NDg1MTU0YjdkNTE2MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6777989fd1124159b51d276258c3ac34",
+      "statement": "General Manual Rule 310 adds mandatory underwriting holds separate from the North Carolina guide’s two-paid-property-claims-in-three-years referral: a reported loss at or above $100,000, an open or disputed claim, material application inconsistency, suspected misrepresentation, or unverifiable ownership requires referral and suspension of the affected underwriting action.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/nc-homeowners.md#L1077-L1127",
+          "version": "repo-lines-v1:sha256:8a2c8a6f5f2cbd4af1acb2917b71db137f32334bf3eb3f041e7331a5ea19c64c:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMxZTJlY2Y3MTFiNzYxOGExZDA1NTZiZDhmNTdkNWE0ZTkwYjBlOWQxZWNhYWQ0MGI1MDNmZTA2YzA5N2Q5NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3NTgwYTc3OGRkODNhMTExNzg0NTBlYWI1MzNjMTNhNzY4YTU5NjY2NzkxMjFmOTc2ODNhYzdiMzQzMzUwMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQxZWJjZTBkYjk0Y2NiNGNlZGI5NmEyODA2ZTVkZmI2NzFlMzhlMTNkMDdlNTA4NjFkOTdlYTZhZTAwNGE3NmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExYTE4MjUyY2ExZTVhMWE4MjZmOTA5YjU4OWFhNDJmZDE5OGVhOWM4NzJmNGM4NzU3ZjNkNzVhMWNjYzlkMzUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4413-L4431",
+          "version": "repo-lines-v1:sha256:82b017e44234532b55d4d4553392c45a5b35fbe47ea0963e29830a0b2c212d7d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiYTAxNDM5M2FmMDE3ZmFkZmVkNGZmMzUxN2FjNWI2NjU3ODg1YzViYzVkOWZjYzM1ZDEwMGNhZTY2OGUzZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNGVjYzE4MmRlOWNhNzcwMzlmMmNmOTI5OTJmMDZmNGNmZDk3Nzg3YWViYmQ0ZmYwNDQzNjIyZTQ3MGI0Y2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZGQ1ZTFmM2VlZDk2NDhmNGY2NmZjODQyNTU4MDdiMzFlMTI2NzMyNDYzMjU5NDExM2E2YzM3NjAzYjM2ZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2OWUwNzJmNjE0NjM1ZWJjMzc5NzY3MzI1MzlhYjc2NDkwNjM0NWRhZjcxMTBiYzQxY2MwZTRkMzVhZDRmMDAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4487-L4503",
+          "version": "repo-lines-v1:sha256:9c0d347609f2ea41343f2d78becc409373472426be82e1cf7cada973a43c510d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyZjE4N2VmZmMyZmM2NTFjMzlhNWU5NGU2N2YzYmMyYzZjNTgyMGJhNTBjNjMyZjk3ZjVjMjhiYWY2NWRkMjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhNDc4M2I4NWI1MTkwMWU0ZGIxMzcyMTk0Y2I0NWVjOWMwNGFjMWY0NmFlZWQwMDAxZmZiMDk4NzQ4ODc0YjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjMzkxMmEyNmQyNzAzYThjZjkzNDU0Mjg3NmNjNWU3ODgwNzQzMDkwMTY2ZDg2NzM5ZTQ4YzY1YTVmNWE4ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4ZWFlMDkwMGFhZDQ2YjI0OTRhNWZmNThlZDQzZWM2Mjg4NDIyZmIwOWRkYTlmMGZkMTVjNWZmYjIzNWMwY2UifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_97d366da01c6467396a7beeb0866d953",
+      "statement": "Manual Rule 320 creates a no-clearance decline outcome for a known material condition that cannot be corrected before binding, including unresolved structural, foundation, roof, active-water, and plumbing conditions; a Rule 550 referral is not automatically a decline, but a Rule 320 condition cannot be cleared by a note or informal exception.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
+          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4763-L4805",
+          "version": "repo-lines-v1:sha256:7af2da2a307e59bad28ff85a20e490fd8255dd1c8906b729d23b07faf84207f3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5YTRiNTVlYWQxYmYyNTc3NjYzMjVmZjJiNDViMWJlZjRjMjdlMjFjNmI0MmNhOTdiNTk2MDJmNjgxZmZmYmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNTFmMTExZWNiZjBiMDc0NWUxN2ZiOWU4ZTZkYjkzYzdmMmI3NzkwNjI1NzgyZmY1OTVkZDVjMTBiZGM2NTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxYjkyNzE5NWM0MjYzODc4M2Q3YjA4YWU1ODAyNDAzZDgyZGIyNzY4NzhkZjQ0YjdjZDAxNjkxNmJhMTg3NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyZDQ5ZWE1ZjI5Mzg1MmE0MDljNmUyYzJjMzAyNjZmZGYxNGZlMGJmMGMzZGM2YmYxMzk5NDIxNjQ2NTI4M2YifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

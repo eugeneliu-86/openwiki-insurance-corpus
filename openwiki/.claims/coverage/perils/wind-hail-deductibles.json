@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:3bd147fa2babbcfbb6af05d1f13ec71bddb044e967c38b092a0d2ab53faedcbb",
+  "pageVersion": "sha256:46406bf8c699c7c11bcaae62173f9f139a66fa07388168685d50201d8ab6b1ed",
   "claims": [
     {
       "id": "claim_d688cb7db80d49638269b9d49b0057f7",
@@ -291,10 +291,128 @@
           "version": "repo-lines-v1:sha256:3c1146fcffb84e45f209bc9eed99ffc7e9fa8d1c91e5443e0a5497cc3cecf6df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
         }
       ]
+    },
+    {
+      "id": "claim_4841ff08370f4205ac090a13eee39e3c",
+      "statement": "HO 23 77 2022-07 modifies the base policy for windstorm or hail loss, controls a conflicting policy term within that scope, leaves other policy provisions unchanged, and does not provide coverage for property, loss, or damage the base policy does not otherwise cover.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L14-L20",
+          "version": "repo-lines-v1:sha256:f24a7916d481c9f7fcfc4587f6e14339ab8f2cf2ca7c0710a485a12932bf7637:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDFhNTIzY2JlZmFjZjgwYWU2NDUxNjM2OTkwMzAzOTEyMzIzZDFlY2MzNTc4OGU5ZDg4NDkyMWViZGE5ZGRmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBiMGMyM2Y0NzAzYjJlMzg0MDJmZmFmYjk0ZjEzZTZhNWJhNjRmODc2NDkyZGQ3YTYyZWFkMWMxYjM1ZWJjOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmFjYTI5Y2ZiMDc0OTg2NWRkODVjMjg5MTI5YWFlNTA3MDE3MjRmNjdlZGNkZDU1ZTMzZTNlNjg1MzI1NTJhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWQzN2JlYTkwZDRiMTM1MjQ5ZmFlYTI3NzcwNjBiOWI4OWY0M2UwMzhiYmQ0NjAwNmY4YjQ4MDU0OWFmMzI0OSJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L61-L81",
+          "version": "repo-lines-v1:sha256:8e61a7deba48996c60142091b8b6adb8a82bcaab53dc223d66947e0294aa5c66:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzOTcxNGM0MTIwNjJhY2NhY2IwMDIwYjdhYzNhNDI4NTQ1NjA1YzVmMTE1ZWQ1NTY3Y2E2ZTdlZGVlMmJkYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhZWI4NGU1YzJmM2YyYWU2MjFlNjAxNWE4Y2Y4Zjg4YjVhYzY0ZDM4YjBiNGY5YTk2YzdmYzg0MTE4MjIxNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkNmJjZmUyZGMyYjllNDQwMTQ5N2NjNTJlMDFiYTZkOTU2MTlmZTA3Nzk5MWY0MDI1YTk4ZTJkYzU3YTY1ODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_dfe34ebf88bd4a75b570a637b6758db7",
+      "statement": "HO 23 77 named-storm timing is edition-specific: the 2014-02 edition is effective February 1, 2014 and continues 72 hours after designation ends, while the 2022-07 edition is effective July 1, 2022 and continues 96 hours after designation ends; under the later edition, a subsequent designation may establish a separate period, and a storm period alone does not establish covered causation.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2014-02.md#L1-L9",
+          "version": "repo-lines-v1:sha256:d54dc814aa5e804a22e9a41e1d159b67fc0d2622f277cec16ef07ffaa01b5c10:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2I4MmU1M2M2NmUyN2VjZDFhMGIxMWZiZThjMDdlOTdkN2IzNWFiOTBmMmM0YzA0NWQ0NmYwNGUzYTk5MjFhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2014-02.md#L657-L663",
+          "version": "repo-lines-v1:sha256:f32d402c66d5b1742946356f2ee88f2e19aa8f73b92998b151081864d3cf194c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdjZmFhYjM0ZTYwZDhlNjQwYjM4MTgzMTQ2NzZiZjA0ZTljMjYyZmVmNWU4MWJkYTU1YTJkYjA1MzBkYzcyZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Q0YTViNjVjMmViMjY2NTViY2M5NTc3NzZiMDc0YzVjM2U4MTdlYjQ4M2IyOTk0ODA3YTNkNzViYzhmZmY1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmZlMWRkZGVhYzFlYmYxMTc5ZTZhNjAzZmZjYzIxMmYwOGFlYWQxNWIyMGM4NmMyMjc2NDgyNmI2MTQ3MTA1NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjFhYTVhMGRhYzkwNWI0NDJkMmIyZmY2NmI5NjdmMzQ5NGUwYzY5OTAzNzRlOWUwMDA1MDY5NDc4OTg0OTFjOCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L1-L7",
+          "version": "repo-lines-v1:sha256:dbc2fd75165ea3520b6700cf8e481799fef1ee49e22e57743468127da1e34b11:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzllMWIxMjMwZTYyZDllNjljYjc0YTQ3NWUxOWQxOGEyNjYyYTVkOGNlNjZiNzliOWJjOGJhOWNjNDdkZDA1ZCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L1473-L1487",
+          "version": "repo-lines-v1:sha256:4e4775fdac0df5e379b924a8e78516f8da6b0495cd955c78673efe8ee3221374:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhMWNhZWFmZGJmYWM4NjIyMDBmN2Y1OTU5NGZiNmJmODdhNGU2YTk2NDE4ODgwYjMyYzQ1YmU2ZjI5MjY1ZjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyYTk4NTFkNTE2OThkNzYwY2YyYzMwMDE1OGM5NTMyODY3NDkyNGYxODEyYWNhZTc2OTZjNWQyYjgyZWE1MjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyZjFjMWYzMjZiZjJmY2RkNTRlYjFmYjEyN2Y1NTRlMjg5MjIwYjk5YWI2MjUxZDg5Y2RlMzhlYjljMDIxOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxN2JjNGE0ZTFlNDE1Yzk3NDM2MzgxOTgxOWU3YWZkNTRkNGJkZmUzZjJjYzVhMjBjM2U3N2QzNjU3YTk1ODUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c3a97177da4b4939aa600f185ab6d7d2",
+      "statement": "HO 23 77 has edition-specific loss-notice rules: the 2014-02 edition requires notice promptly and no later than 90 days after loss begins, while the 2022-07 edition requires notice as soon as practicable.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2014-02.md#L439-L449",
+          "version": "repo-lines-v1:sha256:2bf5dd3a9e403e5ce8cb0167f26b89d60b03d13542ed8362971dc1fdac4868e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmZWE1YzQ3ZDRmNDZjY2JkY2M2ODMxNjU5OTQ3YmY1YWVjY2Y4YjRjMjNmNzA0MzJmY2Q4YjNjNzc1OTg5NTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkOWUyZTViZTM2MmMwMDg4YTE1NjQwODAwMDFjZjgxM2RmZWZmZGE4OGY1MzgzNzVmYzQ0Y2IxMjRmZTAyMWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ2MGYyYTA4ODgyMTQzNjljYzYxNmRmODVlNjY3YjZiOWU3MDYxZmQ5OGVlM2QyOWY1YTc4NDRhMWJlMzUyYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1MWQ4MWJlMWRmZjI0NDZlMWQ2ZDQ4ZDE3OWY0ZTRkZDA5MjcxNjJiZjA3YzJhMmYxNzAwYjcxMDdmMjZkZDkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-77/2022-07.md#L1524-L1528",
+          "version": "repo-lines-v1:sha256:9519bba92aa2cbbebbdfa7c06d1d614165c6672db222318409f65584a367f00c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2YzZDJlYzM0ODdiMzdhMzQ0Y2U5NjY4MjQ4NjljYmI3ZmI0OWZhZTNlYjI5YWVmNDhhNTE0NzMyZDUwNzc4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2NkMDY4NzY3MGFhYmMwZTZhODMxNjlhNDJmNzViYTc3MWY1ZmJiZTRlMGNhYzk4YzYyY2Q3NGQyNDVjNzVkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmViYmM3MTVmY2Y4MGI4NTkzNjEyNjA2MjM1OWQ2OTBlZDFlZTRmMTBkNjk3Y2EwNWRhNzI4OWVjODZjYzJjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI2ZmY3MDA0ODhhNzRlNWM0NjBjYTc0ODhkNjNkNjYzNWIzOGI4NTkwODU0MTcxMzg0OTJiNDllYWE0MjRiYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d6e0294f71564cc484835ef2c12acedc",
+      "statement": "Florida HO 01 09 2023-07 and DP 01 09 2021-03 each define a Named Storm Period that continues 72 hours after the governmental Named Storm Designation ends; the forms require the loss timing and causation to be determined from available facts rather than treating the designation or report date as proof of covered loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/FL/DP-01-09/2021-03.md#L432-L455",
+          "version": "repo-lines-v1:sha256:17b7e2524fe3dcb6b5c4a9c3daf6f21c444d70915c06e3648cb79550a1c00636:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0ZDVhMTI0ZDYyMzljY2NmZmQ3OGJmNDM5YjNiMjBhNzM2ZjFlNDA5ZWI5MzA0MjJlNjViNmQ0MTdhODRiZjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlZTAxYTMzM2U1M2E5NjFmNmNmY2Q0ZjI4M2I3ZDdlMGRkOGQ3MDljZmZiMjU5MzIxZjY5N2YxOTJhOGYzZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNkMzlkMzEwZmUzMWM5MzVhZjViZTQzZTg1ZjJlYjg0NTZlYzllMjJmNzBiMjc5ZDcxMzQ0ZGY1YWZkMjVlNzgifQ"
+        },
+        {
+          "resource": "repo://forms/HO/FL/HO-01-09/2023-07.md#L217-L245",
+          "version": "repo-lines-v1:sha256:acdfffc2cdf60ff466525ad7c956c87b5ea99ec44c6c16925644ebab5145f8f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhMWZlOGZjNTEwOTU5ZDVkNGU1ZmI4M2VjYjczNzc2ZWFmYTBiYmY5MTgzYWJkN2U3OTI4Y2IwNmMwZGQyNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE0NTlkZDI2ZDM3NjMzY2VjM2I3YTkwYTA0MTk2MDlmYjAzZDhjOGRkNzI3MTI4ZDNjYmE2ZDM5NzM1ZDVhYjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwYjY5MjBkYjVkYWRkOTgyM2QxNWY0ZWE2NzNjM2YyMDlkZWE2MmJhMGEwZGExY2E2NDNlYzU4MTljZjg4YTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0a88ce85519f47c5beaf63c23a805307",
+      "statement": "Texas Bulletin B-2016-04 is superseded by B-2021-08 for policies effective on or after August 19, 2021; the earlier overlay required at least a 1% windstorm or hail deductible, capped a hurricane deductible at 3% of applicable insured value, required an occurrence or related-occurrence basis, and required 30 days' notice before a windstorm-deductible increase.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L1-L9",
+          "version": "repo-lines-v1:sha256:844e60a26d8d0f416523ec82056a1c87cf92617492b93ed1e85b1c09c7577f06:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGYzYjU0ZDJkM2M5ODY2Y2Q5NTE4ZDQxMGQzN2M3YTc0ZmQ3MmRmOWYxMmUyYjUwNTE3MzljYjRmZTRlZjFmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L147-L165",
+          "version": "repo-lines-v1:sha256:6fa0577f5f3bcd84cbb416d129e573649422179e872786b4917d54e54f2c6e89:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5ZjE1OGI2Y2MxNmYzOTVmNGZjN2Q3ODhmNjJmMTM1ODBkNWMwNjhmMDA5Y2ZjYjVmMTRkYTk4MTllMjhkMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4MTY3NDlmYzQ4OGUyNjJhOTg3ZTM2NDRmNjQ3NDc0ZDYyNTU2MzA4ZWQzYWMyNjA4M2U5YWFlODk0YTdkOGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViZWY3YTFlYjcxZGI4MjU2MWEwODk4MmNhMjZjMDg5MDM5NGNhNjZmMTAzZTg0NGQ2YTczZTIzNTNkNjE0ZTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBlMGQ5MmJlZjMzNjFjMjMyNGI5YTQ0YzZkYTNjNzU0MmQ0MjgwNTUzN2VjNzUxNjZjNmFhNjRmNWFjNmFkYWMifQ"
+        },
+        {
+          "resource": "repo://bulletins/TX/b-2016-04-windstorm-deductibles.md#L59-L79",
+          "version": "repo-lines-v1:sha256:40816c18be0966a9e625d6b2798bbde38e09a394c61b73b230905fe6bb68c717:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlNTU2Njk3YjU5YmZhZDUyOGFiZWM1MjBlNjQ3MDU2MmM4YTU0NGI1OGEwYTE1ZmJhYjVkMTA1YmJiYjAyNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ2ZThjYjM0OGE4NmY1ODc5MTQwMjYxMjRiNGI4ZDgzZjc1NzhkN2ViMjg1ZWViOWEwNzhiZDY0NmQyMjk3MmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyZjcxODBkNTUwM2QxZTgyOTVjMzY5ZTNhZTc3MDYzZjRhOWU2MGUxOGQ0MDc2OGUxYzY0N2U5YTliMjhmMjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f8981b86fdc948129f8fde94a6f2aa0a",
+      "statement": "Louisiana Bulletin LDI-2012-05 is superseded by LDI-2020-07 for policies effective on or after July 15, 2020; the earlier overlay separately required hurricane-deductible disclosure and capped a windstorm and hail deductible at 5% of insured value without prescribing a fixed named-storm continuation period.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md#L1-L9",
+          "version": "repo-lines-v1:sha256:2716db2be795befbccd6efeda925e273fa5d4be9190913939c6d6b06318f8392:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU1NDNjYWU2OTY3YTFiNDE3ZGJjMTlhNTliNjA0MmJmNWQzYTdkYWJiNjlmM2QwZDkzMTdlZDZkMDQyMmQ3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md#L47-L71",
+          "version": "repo-lines-v1:sha256:f535d7f5052fb4c0745bf051b7f199ddbb2c75df2b15ea30f6bc1505579c9e64:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MmIwODMxZjc5NGExZTFlYWFhMTVmODNkOWYyYTRkMTNhYmQwMWQxYTNhMTY3MDYxY2Y1NDc0ZWMzNjczYmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2YWE0Y2U2Y2I1ZDAzNGFjMTZhMDQ5NzRhOWEzODMxMDAzMTNkOTdhOWQxMTViMWNjZDhlNjc3NWM3ZTQ5YWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiZTczNTg1MGJiNTE0NzE2OGVmNzJhZTc5YmQ4ZTZhNGVlNzQwN2I4MzRhMTU0YWZiYTQ2YTc5NjdkMjQwNzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmNzRiZjU0YmJiMDhhNDRhMWUyZDdhNDZkNjhjMWI3NDFjNGEwMjE4YjZlOGVkMjAwYzA0MmNjMzMyYjg1ZTYifQ"
+        },
+        {
+          "resource": "repo://bulletins/LA/ldi-2012-05-hurricane-deductible.md#L53-L65",
+          "version": "repo-lines-v1:sha256:938877c7bf0ee286f69e00abce4f77f54250fd6b7c9a7d24a5bad79f9c93508a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkZTY0NTMyZTlkMDJiODljMzBiMzdjZTFhNDFmOTFmZTY0ZTAxYjE2NTYwNTBmZGRjN2VkMzliYzA5NTM3OWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkODJjYzYyMmQwMGFkYWI5Y2FhNmNlYTlkMDE3NTdmMmZmMTU4MDNkYzBmZDAzY2UxNTgwYWMyMDQyYzdmNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZmNDMwOWRiOGUzNmUyM2YzYThmMjVjYjRhNWFhNmZkYzhkODU0ZmRkOTdmYTczNWU2M2Q1ZDA4MDBkYmE2MjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxY2FmNTQ4OTY4OWI5MGJmMTY0OTZlNmIxM2Y5YjZlZGE1MmVmYzcwNmIyNWU4ZjJiNzQ2MGNhY2Q5YzBiMGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_93590fe144df4eb9962dc91a470d7a5b",
+      "statement": "The Texas HO 01 45 2022-01 and DP 01 45 2022-01 contract forms each define a named-storm period that continues 72 hours after the designation ends and determine loss timing from the facts, so the contract period must be read separately from the bulletin's disclosure period.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L157-L181",
+          "version": "repo-lines-v1:sha256:0b74c7eb7ed107fe7eea69068dad8b7c0010eefa4a8e5c4f27115ab580987217:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZGE4ODE2MDVkZjE3YjA3MjkzNzVjZmI5NGE1YWUzYjE1ZDg3MTU4MDk3ZTU0N2Y5ODc5NTNlNThhYjQ0MTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5MDAzYWNhNjAyNTZkZmQ5ODkyZGJjOTE1Y2M3ZjcxMTE5NTNlNmY4MWE4NzA0ZTRmN2E1NzUxNDQyNjlkMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhMTk5OGJmMzcyYTBmNjI3YWFmZDk0MDc1MWE0ZTM4ODhkZThhZjFkMDFiZGU0OTk3OTZlMmJjMjJjNjY1NGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjNTM5NjkxZWJmODRiMTA2MjE4NmUwNTFjNGYwODQ2ZTljZjYwNGU4MzI1MDA4YzdlMjMwNDM5MDBlYzA3YjIifQ"
+        },
+        {
+          "resource": "repo://forms/DP/TX/DP-01-45/2022-01.md#L485-L517",
+          "version": "repo-lines-v1:sha256:7f7451d0cbeb4b62d8280def727b6f4d20e3736ae8f339230308aaefe939e11d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2YmVhYmZkZGZmNjdmYzI0Y2JhNDliMzEwNWJhNWIyMDMyOGZhMTExMWVkYmFkZGRlZGM5NWY2MmMyNGI1MTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkMjFiOWY5N2E4MjYzNjYxZTI1NDEyYWQxYjYxMGIzNjg3ZWYzODU1Zjk1NWM1YjU5Y2Q3ZjBhNWQwNzgzZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMzYTNiZjc5M2IxYTJiNDMxZWM4OTAzMWYzMTIyZmI2OTMwMDllNWQwMzY4Njk5NDhhOWE4YjMxZDMxMGM3YmUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L217-L241",
+          "version": "repo-lines-v1:sha256:a6dc11b71396fd61c32d8ed4e496e419d67d7ee92265d9a37bf2d698c12607f8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OTczNDMxODQwMzczZmUyOWY1NWJlN2M2OWJmZGNkOTJkOWI2NjkwZTk3MjBiODg3MzNhY2MyMGI2YWI3OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmMDA2NGI0YTFjMGM0ZGU2NThiZjE2YmNlMTA0Yzc2ZDA4NmNkOTAxMmI1YjY3OWNjYzRiMDhmOGMwODU3YTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlNTRmMGExMTE1Yzg4MjJhYzBkNWEwMGIxYTZkMTZkZjhjNjE3OGNiMGM5MGIzZjBkYzg1NTE4OWY3OWY4NTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI0OTFkOTE5NjUyN2QyNDVmZDI1ZmJmYzQ0N2M1MDBmMzhkZWQwZjcyNzBkNmQxMWU2ZTQwN2FjZmQ4YjgzOTAifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

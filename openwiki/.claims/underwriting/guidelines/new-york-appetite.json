@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:88c3f9b35a28fa2b531464de37b90f6d1bd17f3a3df81661259239b3bdb1d5e9",
+  "pageVersion": "sha256:aa112b0074d06aface48c9d128c9da3cea089fb802e65dc47f1f9745658bb28c",
   "claims": [
     {
       "id": "claim_bdb3ead273884700b8bba89a0c2ecf43",
@@ -399,10 +399,96 @@
           "version": "repo-lines-v1:sha256:18813eef9f9ac8d83d1accb22859e4a93b27f373cca58c290926a73f5a9c6752:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y2MTg3NjUwNWI0MTYwYTQyZjBkMzQ5MTA0MWM3ZjcxZjFhZjIwNmFhMGI1YzRjYTgwNTk4OWMyMjA1NDE3NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGMyZDA5NjYzYzYyYzkzMDYzZTQwNDJhNTlhZWJmMmY0NjY0MzU0ZGFjY2ZhZjJiNWEwNWY4YWMwZWUzYzcyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDA3OTQ3ODk0NjYzZjAzNGI4YTZlNjc0NGQ1ZTNjOWNiYmUzNzZmMGU2NzdmODFlOTMwNGM2ZjZjNWFiNTZkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRhNzUwZmJmZTcwZmJiZDllM2MwNDdlYzBjZGU2OGZhYjQ4YzdiMTVjODdkYzU3NmZhM2IzMTJlZjA0NTYxMSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_3336cb01944b4a51bc9ab4baf55a3a9e",
+      "statement": "The general manual delegation allows a line underwriter to bind Coverage A up to $800,000 and a senior underwriter up to $1,500,000, but New York Rule 530.A imposes the stricter $750,000 state-specific operating ceiling; the New York handler must use active delegation and record authority and referral before binding.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L3991-L4015",
+          "version": "repo-lines-v1:sha256:a10c347da8e522f4ed648735c8c7f8f7f81122637737e5840f1cc00a440a5ea9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkYWE2MzVkOWI4Y2IyNjA3NjQyZjk2ODFlOTRmY2JiMWM3M2UwZjZjNGQ4NDU5Njg0YjMyMjhmY2ExOTlhYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4NjBhYjY1NmQwZjk0OTk2Y2E5MDQ1M2IzMTNjZDU3Zjk0OGJlNzlmMzMxNTc0NWYwNmQ5ODdkMzdlOTM2YmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNzExN2Q4M2Q0ZDMxMWVkZTFlN2JkZDdhNTBjODkwN2MzNTFjNjIyNjFkNDAzNTUwMjllY2NmZGM4ZWI4MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxNTFlNmJiYzc2M2NjYmI0MGIyYzlmMmIxZDk1YzJhZWYxY2E4ZDUwMzkyZGFhZTZmMzIyODU3MTVhYTYxNzMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6855-L6861",
+          "version": "repo-lines-v1:sha256:8d2ca68aec15251f69bd049fd5044a05a7498255e63326c9d84f32e5dbe686d9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk3M2I2ZDAzZjZkYjY1MWE1YzRkNzk1NzlkNTY3ODEyODM1OGY3Mzg1Y2QwYmFhNWUzZTgwOGY3NzQ2N2Y0ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxNTFlMTlkYmJmZGI5ZTczN2E2MjAxMWVlMTI1N2FiOWE1MDk4MTFhNDYzMzdhMTc1YWIxMWRiYWQ4MTZiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQ3OTRiMTYxYmNlYjQ3OTIyMTVlYmI5YTA4YTdlNTNkMTA2YzVkNjg2YjFhYWY0ODliMjA0MmJhNmQyMGE5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE2NmI5OTgyMjQyNWIxOGRjMjg2NDZhNjdlYzRiZmUyNzliMjZlZjAzMmQ3MGZiNTA0ZmQzYTIzNmIyZjRhOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_50f8438f3c4649c9a84b9f23f8bf58c2",
+      "statement": "Manual Rule 320 is a distinct internal no-clearance outcome from Rule 530 referral: a known condition that materially increases expected loss and cannot be corrected before binding must be declined, including listed unresolved structural, roof, water, plumbing, electrical, heating, and fuel conditions; an underwriting note or informal exception cannot cure it.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4763-L4805",
+          "version": "repo-lines-v1:sha256:7af2da2a307e59bad28ff85a20e490fd8255dd1c8906b729d23b07faf84207f3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5YTRiNTVlYWQxYmYyNTc3NjYzMjVmZjJiNDViMWJlZjRjMjdlMjFjNmI0MmNhOTdiNTk2MDJmNjgxZmZmYmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNTFmMTExZWNiZjBiMDc0NWUxN2ZiOWU4ZTZkYjkzYzdmMmI3NzkwNjI1NzgyZmY1OTVkZDVjMTBiZGM2NTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxYjkyNzE5NWM0MjYzODc4M2Q3YjA4YWU1ODAyNDAzZDgyZGIyNzY4NzhkZjQ0YjdjZDAxNjkxNmJhMTg3NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyZDQ5ZWE1ZjI5Mzg1MmE0MDljNmUyYzJjMzAyNjZmZGYxNGZlMGJmMGMzZGM2YmYxMzk5NDIxNjQ2NTI4M2YifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L4807-L4849",
+          "version": "repo-lines-v1:sha256:5908da93d2286791299b797cda4f9d044bea5c30cff93d8142d4edd1f44a7c16:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzYyNDZmZTA4NGFkN2I5NDFmZDlhNDEyMjYyOWU5Y2U2NDVjOTA1YmUyNGE4OWU2NDk0NjIzZjE0MTE4NTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5YTlkNGRmNmFkYWIyOGYzZTdiNDVmMjFjM2EwMmQ1OTRiYTUzNDc2MGYyMWM4NDcxYzA4MjZmNzZhMDQzNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmNzlhY2Y4YjNkYzNmZmM3MjViYzRmOWQ1YzkwYjU2NzdlNDRiNzc0YjQyNzc4MDIxOTk4YWI0MzBjYmNlODYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzMTM4MjUzNjQyNDFjMTNiMzk0MjEyZjM1ZWMzMjdhM2IxODY1YzNjY2UxZWYyMzNmZjc3MGI1NTUyZjFmYzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ca1f7f419804907bb8ea1a6ccac5d51",
+      "statement": "Manual Rule 600.B requires a roof survey before binding when roof age reaches 15 years, with evidence identifying condition, materials, installation quality, and visible deterioration; this evidence trigger is separate from the Rule 900.D declination-processing control at 25 years.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8509-L8513",
+          "version": "repo-lines-v1:sha256:5e34f02db86233a462ebae67ecf55d9c672793403fab7df27f9cf67802b13272:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGI1OWFiMjhmYmFjYmY0M2RhZTc3MmFkNzIzOTFmYzM3M2Q2NTAwMjRhM2ViOTExNDViMzE4MTIzODAwODg5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWZlYTg2OWU3YjNlNmIwZmE3ZThkNjM0NjFhMTRlYWZkMzZlYTEyMDkyNmZlZTE1NTZmMzFhYjdiYzQzYTQ2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTI1NjM2YjBlOTA5MzUwYWUyMWQxZDgwNTFmMGQ5NGU2ZWJkMjRkOGU3NGY1Y2M0MjhjZTgwOTMyNzk0NTBhNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjk3NGM2N2Y0ZDQzY2FkNGZkMDYzMDU2NTY3NTEwOWRjMzcyYWQxMGM1NDljMGVmNTg4MmY4Mzc2NDc2MWQ2ZSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9885-L9889",
+          "version": "repo-lines-v1:sha256:d5ad620c8352b43007d11a4298db30a75c28556c2a06daf22ca6768576ba6ffc:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjMyMDFiNDQwOGNiY2YxOWQ3Y2QzZDJhMzRmNDk4ZDVjYzU3NjY3YzgyNjJiMzU2NGFiNGM0Nzc1YTFkOGU5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU2NmYzZjhlZWFlNTE3NjQ0NDFmYWQ5YmU3ZWVlM2I5NjA5YmI1MjU5Y2M1YWRjYWFhMWU3OWIyNjU1OGNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDE5MWIxOGMxZmM3MzhiYjJjMDI0NGI3YmUyNDgzNDEyY2ZjYjQ2YjU3MGY3ZDNiMzMxNzM4ZTE5YWI3NmM5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUxMjU5Mjc2ZjJhY2FmMTcxOWMzMzA5MjVkODRkN2VhNjdmNzRkNjRkNGJhMWFlZmViMWQxZmNjZGJmODdiZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2250d08472f74307a7fecf4f26e6f744",
+      "statement": "For New York inspection and evidence handling, material incomplete or conflicting information requires resolution, referral, or an authorized exception before binding; evidence must come from a reliable source, and the file must preserve source, dates, verification, limitations, attribution, conflicts, operational status, authority, conditions, and reliable completion evidence before closure.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8501-L8507",
+          "version": "repo-lines-v1:sha256:6c0f151bebd4b6447b2fca2c91aca80b516d3f4492d230c66b028fd0970b8e00:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU4MTY5NzJkNDFkNDY1N2JhYjAyNGEyYmNmYjk5MDk4NTM0OWUxMWEwZjExMjY0YmI2ZDZmNGU3YTAyZGUxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRlYjBiYWFiNmY3ODc5YmNmOWNjMjRmNDNhYjQ0ZDM5ODc2MGJkZTdiMmY5ZGIyY2U5YTA1NDZlM2NjZDE0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzU5ODFjM2E3MDQyZDA2ZjlmOGUwYjA4ODNhYWZhMzI0NTBmOTQ2OTU3NjU0OTRiMTg3MGE3MTVhMTBiNGJjYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ5ZWQxYzVjMjlkZDNmYmFmNWQ2ODU5YTEzY2ZlNGY2OTM4NzM3ZDI3MDUwYmYxMjM2ZmNjMjZjYTI3MDNmNyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8749-L8801",
+          "version": "repo-lines-v1:sha256:b2ccd4ff204cc5e2131aa1de6776bfae91882d6bc6734ea5849f8109a82d42dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxZjJjYTYxMzA5Y2NlYzdlOGQ5NmNmZTJjNDZmNDVmNDM0OTk0Mzg5MWM1ZTA5MDcwNDAyNWI3YjQxNGQ4NzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjOGY2YTk4MmEwNTRjYTY3MjFlOTNkNmE5NWI5MzRhNWJmOTEyNjQzMWUwZjFjMmIyMzUyN2JhNTE2Mjk0YzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxNDYwMDJlMTBiNmRjZGJjYjdhYmM0YTUzOTJhZWQwOGJmOGRkMzAzMTI4Yjg1MDIwZGFlZmMxNjM0MmIxMTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmODlkZTExNDhiNGMwZjhjY2RhZGZkYTVmNWU2YWM3MWJhNjUxZjcyMzAyNmI1YTQ2NWFkYTc1ODAyZDgzZTMifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8803-L8857",
+          "version": "repo-lines-v1:sha256:345fcb63354921619f2f03f880a12365c0dd4917c08229e161cd9b704dc1a427:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMjNkYWU2MjhlZDM3YjMxYTZhZWUxNDFjNTIxODk4MjZiODMxMGM0ZmM5Y2ZjNDY3NTIxODBlZGNlNjJjZWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYTRmZDU4NTc3NGM4ZTQ2MDllNDhjMTU0YWQxZmZiNDYzNTE3ZGNmZDM4ZWIzMTM4Yjk4OTI4ZmVmMzA3ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY0NWVlYjZjNzQ0YTRlNDYyNjZlNDY0NDkzOGFkMmU5ZjUyNzFlM2JhYzcxMWE3MmQyY2MyZTc2MTY3Y2U3MmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxNGEzNjI0ZjM1YzE1ZjcxMWMzMDIwMTNiMmY3NmY1M2Q1OWE3MTNjNWFiZjZjOGRhZGU1MTVlNjM4ZjI0NjYifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8985-L9001",
+          "version": "repo-lines-v1:sha256:219580f393b935ab360493739400e02f01347d1a79a256e1527cddd283120e7e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4ZDYyNjY5NmZhNmJlMzk3ZTE3OGU0NmUwMzgxZWMzNmFlMmNiYmI3MjM0ZGVkYjYxNzcxNWRmYTk2MmNkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiZGJlZjlmMjQyZWQ4ZWU1OTg0MGZlNzUwMjk0NTkxMzU0YWUzNmQyYjY4OGM1MTdjMzI0OWIzYjQwYTU4MzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdjZWYxMjdmNjA5NTVjMjA4Yjk3NWZmNDEyZDVmNzM2MWJlMDcwNjRjMTg1MmVmYTQyZmZiMTkxNDYxNmNhY2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzNDIyYzI0YjMwYjIyODI5ODU0MGRiYzMwZGRjYWNkNDdlMjU2ZjBhNDU5MGRmZDZmODhlYzk5N2YxNDQ2MTAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9039-L9073",
+          "version": "repo-lines-v1:sha256:316fb519e72642edb0e3ad150729c749956f9a1fbab2b3bf2e5dc22f09cf2bf3:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlYzQ3YjQ2Yjk1MTY2OGU2YTlmYWFhOWU1OTdkMjg3NjliYmIzYmJlMWU2Mzk1MDRkZDg3OGMzZWE2NmQ3ZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxOGViODVlNWIwZDRlMzAzYWJlNjY2MDJlMWM1YTYyNDgwYjJlMzg3MDkyYWMwZDgwOWZmMWMyNTBkZTk5NjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1ZDBkNzc1MmVmODg4ZDZmNDZkYjE0ZjcwMjU5NGRmZjdhNjY5MmI1MTJlNDdjNjFlZjA0ZmM1NWNhNjI1NDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiZjExZDI4NmM5YTYzYWJlMzAxMTY1MzlhODU2NGVkODQ2Y2JjMjRmNWUyZTg3OTBlOTMwMjQyNjZlYWE4MWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_144313d482e14a238cee12a5b9e0eced",
+      "statement": "The manual contains separate inspection-currency controls: Rule 700.R treats a renewal inspection report as valid for 12 months, while Rule 610.AA says an inspection report is valid for “18” from completion without specifying a unit; the unitless direction must not be silently interpreted when it would change the underwriting action.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L105-L109",
+          "version": "repo-lines-v1:sha256:555c4e448f4157207f8a88aa86fea038d4b385ee408852980e128e3682279d5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NlOTNkMTJiNTY2MjAzYzBjOThmYmQwNDlhZDY4MmZkOTg5Y2E2ODgwYjdhNjJjZmYwZWE1NWUxY2I5MTI1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y2YmJkOTIwNTA2YjFlOTEzYzY0N2E0MTI5MjcwZDNlZDY0MTRjNzU0MDk1MDNjODUxZDliMmExMTFhMGFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmOWEyNjYzZTY5MjkzZDZmMGM5YTJlN2ZlYjJjN2I3ZDAxNGU3NmYwMWY4YTYyYmRhZWE3Y2FkYThkYTU2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJiM2JmMDM5NTk0YTgxMzdhZTBiOTc5YzgyMDcwMmFiZWE5NDc5YmI4NmFlZmZhZjA0MjExMzVlMzAxYzk1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8961-L8965",
+          "version": "repo-lines-v1:sha256:029f2847f79aad780523bceddcf9ee5633359bd395449949cd402bf1699475b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU5YWUxYzk1MjJjMjZjMTExYzJhNjQzYWVmYTA0Njc1OGZkOTJjMjQ3MDAwOTZmYjg1NzQ1MjgxMGM4MTg4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjY2U5MDU3ZjgyNzE5NWQwODU2ZTI1YmVkZGZlNjE2NWM5ZTM2OWUyMWJhNjliM2ZkOWJkMDhkMjBiZDAxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWEzZDkyYWJmMzUyYTE2YTQyNjZkODE5ZDZiNDRjOWFmOWNhMjRlOTkyNjNlYmE1MjEyMjhhNTMyZTE3MDA4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI3YjY0MTg4Y2E1Y2I5ZjkxNmJiZWU3N2Q1OTJiNTVmZjE4ZmQ3YzkwMjNkZjEwNDVlMGNjNzAwZmUzODc0MiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9227-L9243",
+          "version": "repo-lines-v1:sha256:a524c6a7cef29dc13873cb4a0767569e64589964d46279ba0100757b9b3747f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM2Y2IzNDUyZTk1NTFlZTIyYmViMTljYTY3OTNhOGQzN2UwZDE4ZTMyODRhY2E2YzVmN2I5NTc2ZTEyODU2YmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiZGNlOWUwY2ZkNmY1ZTU4MDVjMzVkODkwNTI3NjUzM2E2MzE5MDNjZGFjMGE5ZmEzMjIwZTFiNmQ4NzM5OGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNGMwZDY4ZGE5Y2ViMDYyNWI0NzhlNDA4MWI5N2ZmOGM4YWI4YjZiZDU0MDIxYjU3MmU2ZTg0NDk5OTlhMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1ZDNiMzdiZGI1Yzc1YzYzNzZkMzJiNWE5NTg5YWUyMTdmM2FjOTg2MzA3MjY0NDc2NjY0ZjUxNzM2NjEyNTUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

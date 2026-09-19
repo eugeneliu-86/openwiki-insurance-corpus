@@ -4,6 +4,12 @@ title: "Property Perils and Loss Types"
 description: "Subject-oriented workflows for property claims involving water, roofs, fire, theft, weather, mold, loss of use, and dwelling property. Connects cause, evidence, covered scope, valuation, mitigation, escalation, and consultation of the controlling policy or endorsement."
 tags: [claims, property, perils, water-loss, roof, mold, loss-of-use]
 sources:
+  - id: openwiki-source-7dd90be03dbdd65accd7c766
+    resource: repo://bulletins/CA/cdi-2022-03-earthquake-offer.md
+  - id: openwiki-source-662caafdca8e6cd719c848e2
+    resource: repo://bulletins/CO/doi-2022-08-roof-settlement.md
+  - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
+    resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-af35759075f03e69c4b0c838
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
@@ -22,17 +28,17 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Property Perils and Loss Types
 
 This page is a **claims-handling index**, not a coverage grant. The claims manual supplies the investigation, evidence, mitigation, valuation, authority, payment, and escalation process. The policy form and any applicable endorsement supply coverage, exclusions, limits, deductibles, conditions, and settlement terms. Internal guidance makes the same boundary explicit: it cannot create, expand, restrict, or waive coverage ([water-loss guidance](repo://guidelines/claims/water-loss-handling.md#L13-L17); [roof guidance](repo://guidelines/claims/roof-claim-handling.md#L14-L21); [manual, Chapter 1](repo://manuals/claims/manual.md#L13-L19)).
 
-Always verify the policy and endorsement edition before relying on a provision. The examples below use HO-3 (2024-03), HO 04 27 (2016-05), HO 04 81 (2018-09), HO 04 90 (2027-01), and HO 23 74 (2025-05); they are not substitutes for the form issued for the loss.
+Always verify the policy and endorsement edition before relying on a provision. The examples below use HO-3 (2024-03), DP-3 (2026-01), HO 04 27 (2016-05), HO 04 81 (2018-09), HO 04 90 (2027-01), and HO 23 74 (2025-05), with California CDI-2022-03 and Colorado DOI-2022-08 as state-rule examples; they are not substitutes for the form, endorsement, or law applicable to the loss.
 
 ## Common property-loss lifecycle
 
@@ -104,6 +110,14 @@ Do not expand the scope merely to create a uniform appearance. The endorsement l
 
 For wind, hail, falling-object, and similar weather claims, establish the physical damage rather than relying only on a weather event report. Identify displaced, broken, punctured, or impact-altered material, compare adjoining areas, and separate storm damage from deterioration, installation defects, and mechanical damage ([manual, dwelling losses](repo://manuals/claims/manual.md#L5173-L5183)). Consult the exact policy for covered peril, cosmetic limitations, exclusions, property category, deductible, and settlement. Escalate competing causes, unavailable or altered roof evidence, code or matching disputes, structural concerns, and material exposure ([roof guidance](repo://guidelines/claims/roof-claim-handling.md#L65-L91)).
 
+For a Colorado roof claim, separate the coverage decision from the amount offered or paid. Colorado DOI-2022-08 requires clear roof-settlement disclosures, including the settlement method, depreciation or actual-cash-value treatment, the distinction between roof surfacing and other damaged property, the effect of the deductible, and material exclusions; its example permits an actual-cash-value roof schedule only when the roof is at least 15 years old ([Colorado DOI-2022-08 B.1](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L16-L49); [Colorado DOI-2022-08 B.2](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L110-L178)). This bulletin governs the clarity of the communication, not whether the policy covers the reported cause or how an unissued form settles the loss.
+
+## Earthquake and earth-movement presentations
+
+Treat earthquake as a cause-and-contract checkpoint, not as a covered peril inferred from shaking or cracking. The HO-3 (2024-03) example excludes earth movement, including earthquake and related shock or tremor, and the DP-3 (2026-01) example likewise excludes earth movement including earthquake, landslide, subsidence, and related ground movement ([HO-3 X.4-X.6](repo://forms/HO/MS/HO-3/2024-03.md#L587-L593); [DP-3 P.12-P.13](repo://forms/DP/MS/DP-3/2026-01.md#L1270-L1276); [DP-3 X.3-X.5](repo://forms/DP/MS/DP-3/2026-01.md#L1447-L1457)). Inspect and document the event, ground movement, structural distress, water or fire that followed, prior cracking, and competing causes; then verify whether a separate earthquake policy or endorsement was actually issued, its covered property, limits, deductible, settlement terms, and loss-of-use treatment. Escalate engineering, causation, aftershock, structural-safety, and concurrent-cause questions before a final position.
+
+California’s CDI-2022-03 bulletin is an offer and administration control, not a grant under the underlying property policy. For eligible residential property issued or renewed in California, the insurer must make a clear written or consented electronic earthquake-coverage offer that distinguishes the offer from the underlying policy, identifies material terms, limits, and deductible; the bulletin specifies a 15% seismic deductible of applicable covered loss and treats insured-to-value, replacement-cost settlement, and loss-of-use limits as material terms ([California CDI-2022-03 B.1](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L16-L73); [California CDI-2022-03 B.2](repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L108-L155)). In a claim, preserve the issued earthquake contract, declarations, offer, acceptance or rejection, and applicable state records; do not infer coverage from the existence of an offer or from the base policy alone.
+
 ## Fire and smoke losses
 
 For fire, handle origin, cause, safety, preservation, and recovery potential together. Coordinate fire-service or specialist findings and refer suspicious circumstances for specialized investigation. For smoke, identify the source and affected building components, distinguish residue from ordinary dirt, cooking residue, or pre-existing staining, and document the cleaning basis and scope ([manual, dwelling losses](repo://manuals/claims/manual.md#L5197-L5207)).
@@ -146,6 +160,14 @@ The minimum dwelling file should show:
 
 Close only when the file supports the cause, covered scope, payment or reserve basis, unresolved issues, and any recovery action. The manual’s dwelling workflow expressly requires a documented cause, evidence preservation, mitigation, direct-damage scope, exclusion analysis, and allocation of covered resulting damage ([manual](repo://manuals/claims/manual.md#L5095-L5141)).
 
+## Dwelling-property form checkpoint: DP-3 (2026-01)
+
+When the risk is written on DP-3 Dwelling Property 3 — Special Form (Edition 2026-01), use the form’s line and edition rather than importing an HO-3 assumption. The form insures direct physical loss to covered property caused by a covered peril, subject to the applicable limit and policy period; Coverage A states an 80% amount of insurance and limits payment to the amount necessary to repair or replace covered property, while Coverage B is 15% of Coverage A ([DP-3 AGR.2-AGR.8](repo://forms/DP/MS/DP-3/2026-01.md#L16-L43); [DP-3 A.1](repo://forms/DP/MS/DP-3/2026-01.md#L154-L159); [DP-3 B.1-B.3](repo://forms/DP/MS/DP-3/2026-01.md#L291-L306)). Confirm the declarations and any endorsement before applying those amounts.
+
+For cause and covered damage, the DP-3 example covers sudden and accidental water discharge or overflow from specified systems, fire or lightning, windstorm or hail, falling objects, and other listed perils, but excludes earth movement, external or below-surface water, repeated seepage, fungi, and other excluded causes; some provisions cover resulting direct physical loss while excluding the failed system or excluded condition itself ([DP-3 P.1-P.18](repo://forms/DP/MS/DP-3/2026-01.md#L1225-L1304); [DP-3 P.27-P.39](repo://forms/DP/MS/DP-3/2026-01.md#L1334-L1386)). Scope the direct damage, source repair, resulting damage, and mitigation separately. Do not treat the form’s investigation, inspection, or emergency-repair provisions as a coverage determination.
+
+For settlement and authority, DP-3 (2026-01) defines actual cash value as like-kind repair or replacement cost less depreciation and replacement cost without depreciation, but states that roof surfacing is settled on an actual-cash-value basis unless HO 23 74 (2025-05) is attached ([DP-3 DEF.1-DEF.2](repo://forms/DP/MS/DP-3/2026-01.md#L62-L76); [DP-3 A.2](repo://forms/DP/MS/DP-3/2026-01.md#L161-L166)). Apply the deductible shown in the policy records, including any cause-specific or named-storm rule, and do not stack deductibles unless the policy requires it ([DP-3 S.22-S.26](repo://forms/DP/MS/DP-3/2026-01.md#L1796-L1815)). An adjuster may communicate about investigation and adjustment but may not alter coverage, waive a condition, or bind the insurer beyond the authority limit; refer material coverage uncertainty or exposure before commitment ([DP-3 S.27-S.28](repo://forms/DP/MS/DP-3/2026-01.md#L1817-L1823)).
+
 ## Contract consultation and escalation matrix
 
 | Claim question | First operational action | Contract consultation | Escalate when |
@@ -153,6 +175,7 @@ Close only when the file supports the cause, covered scope, payment or reserve b
 | Sudden water versus seepage or deterioration | Establish source, timeline, path, failed part, and prior condition | Issued water grant, exclusions, definitions, and endorsements | Source or duration is disputed or evidence conflicts |
 | Sewer, drain, or sump backup | Preserve failed equipment and determine backup mechanism | Attached water-backup endorsement, including its limit and exclusions | Coverage, device condition, or shared limit is uncertain |
 | Roof leak or weather damage | Inspect roof and interior path, obtain weather and repair history | Issued peril, water-damage, roof, matching, and settlement terms | Cause, cosmetic impairment, matching, code, or roof age is disputed |
+| Earthquake or earth movement | Document ground motion, structural distress, resulting damage, and prior cracking | Base-policy exclusion, issued earthquake policy or endorsement, state offer records, seismic deductible, and limits | Engineering, aftershock, concurrent cause, safety, or coverage records are unresolved |
 | Fire or smoke | Secure safety, origin and cause, reports, and damaged evidence | Fire, smoke, intentional-loss, property, limit, and deductible terms | Suspicious origin, structural hazard, or specialist findings conflict |
 | Theft or vandalism | Inventory property or document intentional damage and access | Theft, vacancy, location, special-limit, and valuation provisions | Ownership, vacancy, intent, or disappearance is unresolved |
 | Mold or fungi | Correctly identify moisture source and preserve remediation evidence | Exact fungi or mold grant, exclusion, limitation, and endorsement | Cause, health or habitability, concealed moisture, or large remediation exposure is disputed |

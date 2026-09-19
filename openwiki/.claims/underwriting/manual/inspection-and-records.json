@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:cfcf150f5fc56e80f57d24fdab1377833d22530bc19bc5add1277c8004993e92",
+  "pageVersion": "sha256:e68ecb1fa322e95affa043da1acde4aab651d34ad4ce876f08a2ce31268604fe",
   "claims": [
     {
       "id": "claim_ed9eae03961d435ead3b4a8821a9ab20",
@@ -188,51 +188,107 @@
     },
     {
       "id": "claim_84354b1df40844e392ea9ec3f9a6ac94",
-      "statement": "Rule 600 and 610 underwriting controls are separate from HO-3 2024-03 post-loss duties: the form requires an insured to protect property and keep repair records, preserve and show damaged property, permit inspection, provide requested records and claim evidence, and submit to examination when reasonably requested; it separately requires requested inventories and ownership or lien information, while stating that an inspection is not acceptance of a condition or representation and is not a warranty that property is safe, sound, or compliant with law.",
+      "statement": "Rule 600 and Rule 610 underwriting controls are separate from roof-settlement contract and state claim obligations: the HO 23 74 2025-05 endorsement supplies contract settlement wording for attached HO-3 policies, while inspection evidence remains an underwriting record and cannot itself determine coverage or a claim result.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1321-L1331",
-          "version": "repo-lines-v1:sha256:c0035cddcdb792b17e9a1f7c7d63b0d0cc5f2a258188dd01f9e179fa2ec5b8e6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxODZlNTQxYzNlNDI0MTY1ZjRmZjZmNTZkODg4OTU5ZmEzNjY4YTg3ZjU0MzYwMGY2ZmJlOTI0NGQ1MDljMDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYxMDVkOGRiNzMyNzJjNDI1YWU4MDZiNDFiMzJjYjRjZTRkM2I2ZjliZWM3MWIwZDNmNTA5ODU2NDc4MmJiYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwNjRkN2FlYWQ3YzA1MTU4NGFlYTNjNGEzN2ViY2ZkMTg4OTNjNGRmMDMwNDQ4NTkxYTBhYWFlNGYwNjU5YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVkM2MxMTEwYmRkYTM1OGI1NTBjN2I0NGY4MjBjZmEyYjgzZjhhYWRmN2ZiMDExNTFjMjBmOTZkNTBkZGM5YmMifQ"
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L43",
+          "version": "repo-lines-v1:sha256:59ce0f022f95ba9a313b4621a027511297deb25c57a6f1b26c340b9ce61798bd:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiYjJkZjEzZTNjYzRjNjc3NWM2NjM0YzE3MzhlZjkxN2ZkMmNiMjYxODJhNWMzZDRjNTM1ZjBjMWI0MGEyYTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0NjAyMzc1OTM3NTNlYzZkMjllZDJiNzkxYTc1MWYxNGUxODlmZTMwZTg0NzdiYjllOWMzYmRlMDUxZGQ4NDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MjYyYjkzMjAzMDcyODZlZjA0MzAyNjRlNTU2OWM4MTJkZjM5YTJkMzJkYmFmZTA3YjFhNzc0ZGY3NjlhYTMifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1409-L1411",
-          "version": "repo-lines-v1:sha256:32175103ad7b5369c01ea90351ede4529da1bab6af07116939f250a00afab041:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkyOGY1YTJjMjM5NTAzMzk0MGNmZjkwNjJhODQ5ZTdmZTg0NzhmNDhjYjhhM2Y4ZWMxZmM5NjJlMTA5ZDNkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGEyMzUzMDZmNjQ1ZTc2ZTA3YTRmZmIyMWRkM2RkZTE4ZmRhZjBlYjJkOTFiZDQ3MmQ1MDk0MDQ1N2M0NTU3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzZDFhYTdiZmQyNzQ5MzUzYzU3NTE5ZTVlODA3NTA2M2ZjYWVlMDBmNjU0YWRkNTU4MWFlNGFiNTlmYjdjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAwYjQyNGNjYTU3Mzk4NjliNmQ3YzY4OWZiOTlkMWQwOTZjYjY5MmVmZjgyM2JkOWE1OTU4ZmY0NjIxOWM0MCJ9"
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L61-L80",
+          "version": "repo-lines-v1:sha256:3e321dd16830e183543818ab9f6084c98b4fd8228b4cba59154cf94841cbab36:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzNzM3OTc4MTcwMzJkYzQ1NDVjM2EzMzE4ZWYzN2U0ZmNkMDAyMjljZGQ5ZjVhZjVjZTYzMzRiMTQzYmNkODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMDUwNGU1MGJlYmI0OTVjYzU3NmU3OTZkM2M0Y2FmN2QyODlkMzViNjc5ZDYxNWQyZDllNjYzZWE3NzBjMTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyN2RhZjI5NTk5MTJkOWI1MjI2OWZlNjI3MDVhY2Y2MjljM2YxMjZjZGE0ZTBjYjg2OTAzZmJjOTFkY2FkOTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA5Zjk3NDk1ZGNlY2FkNzMyZDJiNThlMmQyMTZiMTY5Y2YwMzI2MDA3MjY0NjUxNGIxYTA2NWI4MmIxYWVkYzcifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L723-L761",
-          "version": "repo-lines-v1:sha256:e93a82ab0c08315f1dba3f947a8855e39f3fcf3b1390e7323e1b25dc89b81af0:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3YzNmOGUxNDZkZjZkNTU4NjMyYmI4ODMxZTMxNjdkYjhkMmRlMjg4ODllYjUxODNiNWJhMTBiNDRmMGQwNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmNWY4NTczOWEwYjdmMmVjZjZjMmE1NjJhOGU2Y2I3OTFlOWFmNzFiMmVlYWNhZjZkZGZlYzc3NGVkNTc5ZDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwNDlkNTNmMGQ1ODkwNTUyOTU0Njc1OGZlY2NkMDFiNWVmZDFkMTBkNTM5NmFhMjUwYjIxZWQ0YzMwYTZjYmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk4NGYzZDJiNGYyZDlhYjU4ODgyOTEwODY1YTRlYzEwMTY5MTc5NGZjZjExMmI3OTA1MjEzZTY5Yzk4OGRmMDIifQ"
+          "resource": "repo://manuals/underwriting/manual.md#L13-L37",
+          "version": "repo-lines-v1:sha256:3d49e53083a482d727f10c22844a715d4ebd216e331a9bd013d016fdd337687e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDRmYzYwY2UzZGNhNjE2Mzk4MDdhNzYyMzY4NzQzMTgwZmJjZDI0ZTA2N2Y3ODEwZTYzYmI4N2Y2MzkzYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTY2OTM1ZDQyY2M2ZWYzMjgwNzY5MWNlMTk0MmE2YTRhMTc4NzUxYTVjYjBmMGU4YjNlMDU4YmU5ZWRhMDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY2M2RmYzgyN2U2NjU0ZDNhOThlNDM5YmY2M2E5OWNiMmI1ZjAzNWJiMDkxZDYwZGVhODg0ZjRhMDJmZDVlZmQifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8503-L8507",
+          "version": "repo-lines-v1:sha256:9c723676b51c6732adb956fdd1aaf2e8885ef582a42fb7b23af91c250a33a73f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNhMTVlOTY0OWU4NWVlYzMwZGJiYTM0ZWFhOTdmNjg3NjA4ODgyZTA5MGRlZWE0MzBiOTlmNTJlZDFiOWU3OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRlYjBiYWFiNmY3ODc5YmNmOWNjMjRmNDNhYjQ0ZDM5ODc2MGJkZTdiMmY5ZGIyY2U5YTA1NDZlM2NjZDE0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTEwNjk4ZGNjYWY0ZWZmYTAzYTFlNmUyYzU5YWJmNDcxYmIyMTRiM2QwY2ViMTUyMjM5YzY5MzFhZGU0MGNiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ5ZWQxYzVjMjlkZDNmYmFmNWQ2ODU5YTEzY2ZlNGY2OTM4NzM3ZDI3MDUwYmYxMjM2ZmNjMjZjYTI3MDNmNyJ9"
         }
       ]
     },
     {
       "id": "claim_8fc8ee050c30475eaaa59a892c2b2d38",
-      "statement": "State appetite overlays are separate from Rule 600: California requires an acceptable roof inspection before binding at 20 years or greater, review of available roof photographs, documented completion of active-leak repairs, and controlled handling of incomplete roof work, plus a wind-mitigation inspection above $1,000,000 Coverage A; Texas requires a roof inspection before binding at or above 15 years, prohibits binding at or above 25 years, and requires a wind-mitigation inspection above $500,000 Coverage A.",
+      "statement": "State and product overlays impose distinct inspection and evidence controls: California requires an acceptable roof inspection before binding at 20 years or greater and retains inspection, photograph, and repair evidence, Florida requires inspection at 15 years or greater and prohibits binding at 20 years or greater with a wind-mitigation inspection above $500,000 Coverage A, and North Carolina requires inspection at 18 years or greater with a wind-mitigation inspection above $500,000 Coverage A; Florida OIR-2023-04 separately requires reliable age and condition evidence and a retained record for roof-age underwriting and adverse action.",
       "evidence": [
         {
-          "resource": "repo://guidelines/appetite/ca-homeowners.md#L306-L327",
-          "version": "repo-lines-v1:sha256:9ae89a8d393c30cdf2f0f8c1cf3c6149ecb6c238e459d53251bd4d9c097be18e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE1MTkwMDZmOWZjZjFiM2YwZDFlNjNjYTAzMzBmODQyMzAzNGNjMTFmYjE4YWQ0ZDE0MWMzNDUxNDgyM2JiNTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzY2MzYzg3MTE2YzU5YmNmOWQyMmFmODNlYTdjN2U1NDFkYTRlZDllZTYzNjk4NDYzYTk4MGM1MjQ5YWUwNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzYjg0OWI0MTQyYWQwZjdjZjI3ZmUzMDhhNGFjMDFhMjgxZDA2NDg4N2RhNTI4MmQ4NzEyNzJmZDkxNzcwYzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzM2QzYjI0OWJiMWYwYjRkNWZiZWI5ODZmZWY0NTNkNzU5YzE5N2FhNjFlNjdiY2VkMzlhNDg4ZDRhOWU4YTcifQ"
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L163-L219",
+          "version": "repo-lines-v1:sha256:2f6f1e6f0dc70d830ec7de0fe4c4effcb21a4b8130a022983e9dba5def0ed18e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5YmI4OTA3ZTAxMTE3MWE5Njg4MjhhOWRlMzUzMzI5ZjIxZjMzYThmNjFiYWQ3ZDQ2NWE2MDEzY2I5YjJkODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5NDgzOTU2YTBlOWJhMTM0ZmQwNzExNTQzNDJlNmEyNzU0YTZmNTU5YTRjYzAyN2NiM2NiYjNjODVkMTQzMjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEzYjZmNTIzODU1NGM1MTc0NmE5MjdhN2JhZWZkYzA4OGM0NzdiMDZkMjdlZjgyM2ZiNmIwNjFmODlkZDNiZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiZGQxY2M5NjgyNTRhZWI3MzVkNjlmOTAyMDQ5MGI4YzVlOGFhY2RjZjE2NzA2ZWFhOWVlMjlhYWVmNGFlNmQifQ"
         },
         {
-          "resource": "repo://guidelines/appetite/ca-homeowners.md#L450-L454",
-          "version": "repo-lines-v1:sha256:f6089e0b73d565f349ecd133504de65bec466ee373a54b11bcc6796790029378:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTEzYTlkYzgwNTU5N2M2ODYxMGU1YjQwOWNkMDM2OTliNmNiY2EwZWExYzAwOWVhMmI0MGI4OWQ4ZTJkMmI1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTc4ZjI1OGQ2MzYwMTJmMjljMWRiMTliZTljNzNmYjE4NDNjNzQ4ODAyNDUxMjg3NmFiZTNlZTE1ZDgwNjQ3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmEzY2Y3NWM5MWI2YjkxNmEzOTEyNGMzODYwZmU5MTcxZmE3ZWRkOThkNjJlNGI5Y2Q2YzYzYmQ2ZTQxYTY0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjBmOTNlNzBmM2RjNDMyOGM3NTdmODE2OWY5ODZiYzI0ZGFlZDgwMDdjZmE3MjllYjEwMzU4NDg3MjlkODI2YyJ9"
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L61-L103",
+          "version": "repo-lines-v1:sha256:d8660aacb356628a480d7ca7ba8f71f50145085601dc9b2feae7044501c85ca3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0MmNmODViODdkNjVkMzU4MGZkMDAyM2QxNDBjNjg2OGRlYzJkMThlY2NhMzVhYjYxNzVmMDg3NTFkYjdhNWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkNTBkNjQ0ZGY5YzQyNWNmMmY3MzFmMjhmZTNlZTFkMWNiNjg0ZDFkM2IxZDUxYWIwMGQ5ZmNhODk3MDMyODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlZDdhYTE2Y2U0ZDhkNzFhZjc5NzY0M2EyMDdkZjEwZGRiNjc2ZTRkMGUxYTQ3MjQ2N2E3YTkzYjkyODhiNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI0OGFkM2NhNjcyY2VkYTg0ODI4ZDFiZGM1ZDEyMzcyMTJiYjY2ZDU5OGU5MDRjYzJhOWQwOWJmNTcwNDJjOTQifQ"
         },
         {
-          "resource": "repo://guidelines/appetite/ca-homeowners.md#L522-L529",
-          "version": "repo-lines-v1:sha256:c916f3add9d4991b9f50e2ff4265f28a99ce660a3aae35e362e6a1bbc8a576b6:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWM1ZDkyMGYyMjdjYTQ5ZjZiNWU2YmUxYTFkOTAwNzcwYWZlZWZiY2JlNTM5NmJiNWExZDQ5MmI4MjMxYjVlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDk1OGM4ZjRkOTdjOTk0MmU0N2ZjMGJhNDU1ZmMzNDE0NjNkMmRjNTg5MGI1NmQyYTk2ZmU4NjYyMzRlZDg0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFjZDdlMjZhNmVhZWY1ZGFiZTdmMzRkNjFiNTYzZDg0ZGJlMjRiNGIwMjVjMzBjNGZhMTI4NmIzYjY5OGVkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmY1N2U0ZDBkNWFiYzcwNzczYWQ3MWNmZThiZjY1MmYyNTcyZjE5NWNiMzgwMTdhMDAxZGNjMTgxZjFjYmUyYyJ9"
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L304-L327",
+          "version": "repo-lines-v1:sha256:66aa9c684f17d74c924b1823f30ae77919e2342726dab388b77af494fbe63015:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzY2MzYzg3MTE2YzU5YmNmOWQyMmFmODNlYTdjN2U1NDFkYTRlZDllZTYzNjk4NDYzYTk4MGM1MjQ5YWUwNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZWI3ZmY2MTE3YjVmNDcxMTVkOWY5YTZkNWNkZWM5YThjNjY5ZjA5ZGFmZWI5ZWEyZjczNjM0YTNmZWFjNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzM2QzYjI0OWJiMWYwYjRkNWZiZWI5ODZmZWY0NTNkNzU5YzE5N2FhNjFlNjdiY2VkMzlhNDg4ZDRhOWU4YTcifQ"
         },
         {
-          "resource": "repo://guidelines/appetite/tx-homeowners.md#L159-L165",
-          "version": "repo-lines-v1:sha256:9205bbbff6cfb4bcad9e8de97907a9bb18f7ae6d096d79e9c04a9acd03b046de:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjE4MWJhZTMyNzBmNDMxMWI0ZTg4NTg4MTE2YTZkODAzMzcwYWFiOWQ0MWZiNTA5ZTQ4MjBlYTI1MmU4ODYyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTNiM2VmYTc0MTQzZDczMTA0OTE0YjY4MWI4OTg1ZjllNjhjYTYzYjYzZDYyMzU0YmFmODgyNDNjMTQ3MTUyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2QwMTYxMGJhZGM4Yjc3MjZjYzgyMzE5N2RlZGE2MmU2MmY3NzNlOTA5ZGNjY2Y5MDllOTE5NDNjNTVkZWY4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTNjN2Q5ZTYzMWMyNjNmMmM3ZWQwM2VmMGNkOGJjNjhkNmI3MDhmODY4NzdiYjRiYzQ3NmE3NTMzNTQ0ODBkYyJ9"
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L445-L454",
+          "version": "repo-lines-v1:sha256:2cb93c7ecf6ec88f4279043632486f4eba2c12fe229e150e25ff8034994ef56c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4YjgwYmNkMDY4NTJmMmYzZGNkODMyNjdkYzI5MTg2YzFiOTdhYTc0YjFhMzliNmMxODliMzVmNDI4ZGQ5YTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3OGYyNThkNjM2MDEyZjI5YzFkYjE5YmU5YzczZmIxODQzYzc0ODgwMjQ1MTI4NzZhYmUzZWUxNWQ4MDY0NzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1NzVjMTljZWYxMTM4NmYxOWIxMWQ4YWQzYTdmZTUyMTkxNTQ1OWJmYTQwODdmYWQyNDlhZGE3ODlhOTE1MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYwZjkzZTcwZjNkYzQzMjhjNzU3ZjgxNjlmOTg2YmMyNGRhZWQ4MDA3Y2ZhNzI5ZWIxMDM1ODQ4NzI5ZDgyNmMifQ"
         },
         {
-          "resource": "repo://guidelines/appetite/tx-homeowners.md#L279-L285",
-          "version": "repo-lines-v1:sha256:ab3728195b8147c41c220fffbf79d0d5d198a02093da4f5d86c12012692d0b2c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2YwNGZmOWY4Y2VlMDI2OWFmMGQ2ZTliMzc1NmE5MzQ3MjUwNmQ3NDBjNjcyZGQ4YjY2ZWJmYmI3MTg1NjU1YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWEwMzM0Y2I5OTQ4NmMyNDBkYzhiMGJiMDU4ZDc3NzUyM2JkZWM3MmZiY2ZlZGQ0ZGUxZTExZTNhNDljYjM5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDdiMjMwOThkYWU4YjgxNWQ4OGI4ZDEyNmM3OWNiMjgzNzYwNTgzN2NjMTI4ZDI0YzNlOWZjYzA3ZTY2MmMwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWU1NjE2N2UxODE5NTJlNDFlZTY0ODk4MzRkNGFkODRjNDJkNjIyYmJjOTY5MzMzMGZkZDBlMWE2N2MyNTAwYyJ9"
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L518-L529",
+          "version": "repo-lines-v1:sha256:043c0b91e12759fc1a6cd8ec88679616e5a93287d2228efe992d92742e99769c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhNDZlNzFhMzdkODQ1NDJiNzI2NTUyZDYzMjBiZjFlMmRmY2NhMTEwNzlhMDQyYmJjNzE2NmJhZTI3MmJmMTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5NThjOGY0ZDk3Yzk5NDJlNDdmYzBiYTQ1NWZjMzQxNDYzZDJkYzU4OTBiNTZkMmE5NmZlODY2MjM0ZWQ4NDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVmZGRkYzU4MTEwMTdmYzY4ODQxNTk4NzYzMTE1MDBkOTg3ZGE1MWMwZGU1Y2Q2YWI2OWYyMjk0ODAzYzc0N2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZmNTdlNGQwZDVhYmM3MDc3M2FkNzFjZmU4YmY2NTJmMjU3MmYxOTVjYjM4MDE3YTAwMWRjYzE4MWYxY2JlMmMifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L404-L432",
+          "version": "repo-lines-v1:sha256:48d3b0c0ba55a4ff0ddf89503db04be6f598d3b97c7b63f716912cfa6f7ac749:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1YzNkZTc5NmYxNGExM2EzZGM3MGMzYjU1MmI5M2RlZWZjNTQ1NzM4ZWM2YTE3N2NiNGFhNmJjMTg2ODQ4ZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc4Y2FmMGQxNDQ3NmUwNmY5YzFiODc2ZDFiMzFjNTA4N2QzYTJkY2NlODM5ZWRiMmNkNGFiNGJhZDU4Njk5ZDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkyZWQyYzBjMmE3Zjg0NmNlM2JlMTM4Yjc3MWNkYTg5NWYwZWFiMmFlZDBjZmZjYTViNGZlMTM4MTgyZmNkYTAifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/fl-homeowners.md#L601-L630",
+          "version": "repo-lines-v1:sha256:bc2ea2e468726b695fc29c2307d4fe86bf73277af627d2063f330e2b22f32486:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MjYwNGVlMDEyMThjNGUwZTMwNDBlNjFjYzM0NGVhNzdiYTJiYjc4Njk5MTM0NjRjN2ViYTcxODcwMjcyYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFkNGY3Mjc0MTU3MDY1NWRlYmI1NDU2YjdkNTQ1MDhlYWIxYjQxNWEyZWI3YTI4ZTdkY2EyOGYxYzA1NTA5OTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI3NjA2ZjIwYjU1OWZjN2Y1NGY3NzkyOWVlNzdlOTNhMWY0NGMwMDBhMzI5NGRiMmY2MWJkZGViMmFjMTNhNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlNDg2MWQwMzQ3ZGRhNDVhOTdjYmUyMGE2OWZiN2JjYTE3ODRkYWRmYmRhZjE0NjBjOGI5NWMzNDk3YWY0MWIifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/nc-homeowners.md#L457-L484",
+          "version": "repo-lines-v1:sha256:7909a1ac8c23cce0f7788a0d0b930892f10b24bd5d763a78e43f52065f172b82:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzBkZjk5MjM5ZDRkNGM5ZjAxZjIwYzFhMTdkOTZlYjc1YjE3MmNiM2YyZmEzMDA2YzQxYjJlNjU5NWMyYzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyOTJkMDI5OWVmODMyYmM1YWM2Yjc1ZDFiM2U1ZjJlMDJlYjk3ZjdlNDIyMTQ1MzM0Y2RjYTU2YjJjNzdlZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMzFhYjhiZGY1ZTgxOTQ4ZTM2NGMyNWJkOGVkM2MzZTI4Y2NhZjYyOTg4ZDEwZjlmNTczZDE4ZTAzMTBkMTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzMzFlODVjNDlkZTg3NWUyOTNmODUxOTYwNGJhNmM3YTFhODFmMGI5MDEyYWYzYmRmMWYzMjNmYjIwYWYwM2EifQ"
+        },
+        {
+          "resource": "repo://guidelines/appetite/nc-homeowners.md#L644-L682",
+          "version": "repo-lines-v1:sha256:6578f4dd3d6856b76a84c9323f212e97b37eedf3d77eaf11137b5f1d89e67989:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhOWJhMGYyOTI5ZTI1Yzc4ZDU0NzZkMTQ1MTIwYTcwZTQ0N2ZlMjBmOTBiOTNiYmMwZjg3NGE4MWE2ZTM4NWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1ZWYwZDc5NThiN2JjNGZlYjg5YTU0MmM5NjVjN2UzYTE2NjY0YzQ1NjQ4MDI5ZDM0ZDdiMWM3ZGI3NzNlZTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmMWUwMzI4NTdkYzcwZWE1NGU2OTJmMTNmODEzZDRhZjdkYTI3MTc5YWQ0Y2M5ZDZmZWE1NTFiMGIzOWYxMGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImViZTNhNTAwZmNiMTYyZmM3YTNjMjkxZjY2MGM4YjQyMjExMWZmNGI2YzQyNGQ5Zjk3NmQxODZlN2QwOWEwYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_01b01f8b2b4a45308fc3153434b1ded3",
+      "statement": "Colorado DOI-2022-08 is a roof-claim settlement disclosure and recordkeeping overlay, requiring clear explanation of settlement method and roof-age or condition bases and retention of disclosure, delivery, valuation, and payment support; its 15-year schedule language and 25% replacement floor must not be silently substituted for Rule 600's internal evidence threshold or an attached policy form.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L132-L162",
+          "version": "repo-lines-v1:sha256:187506b7fb262eeb349c06b5db41e217f597cafc7427073bbe3f121c31163087:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjMWJkNWY4YjAxNmRiNGJhMmVjNDZlZjhmZTNjN2ZlNjhhNzYyYmYyNDk1MGRjMDIzNzY1ZDdlMDNhNGRhMmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZGJlZjk5ZDM4YjU4YzkxNDFiYTAxZmFhZjc5MTNkM2ViYjIyMDNmZTNkMjg1ZmYyZDJlNDZjYzQ0ZmI3MDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyNDEwZDU3MmE2NjA2Mzg3ZmZhZWNjOWMzYzA5MTE1YzAyY2Q1YjMxMzA3NGFhMWU5NjhhMDEwYzIyZDdiZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2MDY2ODY5ZjdiMTYxY2Y5ZmI2MDZlYmJjYjc1MWI2OGIyMTM5NmFkOGMzMWZmNDZmMDRhOGYxZDJkMDMzMzIifQ"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L16-L45",
+          "version": "repo-lines-v1:sha256:8133c1b4728a7ab99a72142629c7f36a3d3727fa7ecff001167feca955f1608e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0OTA1M2EwMzlhODg0YjI3MmM4Y2Q4ZDRjMjI0YTFiZmYzODQyYjBmNWRkNzI4YTZkOTdkZDg2ZjRmODU2ZjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhMjI3OWU2NThhNTkxNzg2Y2VkMzdiOGYwMTczMDI3NTY2NTU0ZTY0NTFjMzc4NmU0MmQyYmVkMGI3YWZmZTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmNGQ1NzI4Mjg2MTBmZTQyYjZkOTU0YzhiODc1NDI3NTk1OTY4MTQwNTQ5MTEzMjhmOTQyNWQzMzU1ZWRiZDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyM2IzNTlkOTJhMDA0NzZlMWJlZmY5ZGYxODY3ZDI0MmM3NWE3ZGQ5YmQyZjk0NjU0ZWJjNmY0MjE2NmJlN2QifQ"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L211-L252",
+          "version": "repo-lines-v1:sha256:0d7ce5d9911ab5b00256d1b1d446db76047aa50d761659f9d8c4cd74d1241b3d:eyJzZWxlY3RlZExpbmVDb3VudCI6NDIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0ZTYyYzVlOTIwZTY4NDdhNDY1ZDE0ZTY4OGFkZDZlNThjMjQ2NjRlYzgwYWJkNDkyNmM3NmQzYmNmMzkxOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzYmVjOTVhYWM2MTU0NzE0MzFiM2FkYTlkN2VjOWQ2YjQwMWEyNjI5OTQwOTUxMTYyMjgwOWE5NDQyODE1NDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRhNWFjYWNlYzliNzQyNGE2MzBiODQ3ZTM1ZDhlNGE5ZWVmY2Y1N2FkNTRlOWM3ZTY5ZjMzNTE0NDk4ZDYwYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFlNTNkZjFkMGFjYjIwNWJlMTU0ODE4YzcyOTk4MDc2NmI5MmRlODgyNGE4Mjc2NTA4OWRhZTk2NjI5ZTcyNzUifQ"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L231-L252",
+          "version": "repo-lines-v1:sha256:1b29ecfff51d6b3fb0076ac1df42a0ba3fdcdff08e3e0d91aa3d2cbaae5ab03e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjNzFjMWYwNWJhZjA0MzE0MDdkZTE0Y2VlNTNjOWExODdlNjMzMmQ2MDNkNWViZTE1YzFiOTk3N2FjMzdmNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzYmVjOTVhYWM2MTU0NzE0MzFiM2FkYTlkN2VjOWQ2YjQwMWEyNjI5OTQwOTUxMTYyMjgwOWE5NDQyODE1NDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImExYzI4MzhjZGI4NDIwODQwYTQ4MmE4ZjNlNWRmNWY3NDdhNTUxZTRmM2JkZTY4NzE0YmEwYzYyMzE2ZmE1ZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFlNTNkZjFkMGFjYjIwNWJlMTU0ODE4YzcyOTk4MDc2NmI5MmRlODgyNGE4Mjc2NTA4OWRhZTk2NjI5ZTcyNzUifQ"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L436-L442",
+          "version": "repo-lines-v1:sha256:f52f0212ad853f77a50b80e7cf2148bc7c9a72a6bfbf7111f4c9a0ee21904810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGNlZDE0NTBhOWJmMWQ1NjIzZjY4OTAzNzFhMzZlYzQ5MTljNDU3YmEwNTcyOWUyMGFjY2ZlY2I2ZjcyYTMwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTAyYjExMWIxNjY1MzMxNTBiYTJhYWU0OGRmMjNlNjE1NjUzNjcyODZkNWQ3Yzk3MzczM2QxNDU2NmEwYjZlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGMxZjc2MjRhNjMxNDc0YTcxMzhkM2FiYTEwZDNjM2YyM2FiYjJlOTIyMjZlZmFiZjMyZWE1MDAxNjNkZjgwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzAwMzdkZjk4ZDBlMjA1N2M4ZTQ3ZWI2ZDc0NmY2ZTQyOGYzYjk3NjhiMzc4MTNiOGVhYjI1OWU2ZGVhMzdhMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c37dbb63152a4e609eb10cd0b7ba98b1",
+      "statement": "Florida OIR-2023-04 requires claim handling to evaluate the reported loss independently and states that roof age alone may not deny, limit, or delay a claim, so an underwriting roof-age inspection or adverse action cannot be reused as a claim outcome.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L239-L265",
+          "version": "repo-lines-v1:sha256:13cb02ea45144a157c68eb793784f6efc5bcb06e1682edfb3e3e5b86f6720b6c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYzQ5NjVhNzU5ZWQ5MzIzNWY3M2UxYWJmZWFjNzcyZTkyOGZiNTRkNDFjNmEyNThmZGZlMGQ4OGUzNjcxYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3ZjE4ODdkNDEwNDVkYjgxYzlmYzdkMzRhY2I2ZjYyMDUwMWRhODJkNWY4NjQ5MDRlOTVkYzg3Y2Y2ZWFmNzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0NTI5MzZmM2M0MThkNDA4MWU3NjJlMGE4MWQ4NzFmMzhmNGVhNzFiNWYyNDRmZjMyZjM4MWEyMDAxYjFiOTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzODZjODIwY2ZmMTE0MDVlYTcyY2U5OTQ1ZDI5MjcwNTZhZmQwN2FlYTQyMWU3YjU0N2Y0OGZjZWNmZjUyNDMifQ"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

@@ -20,10 +20,10 @@ sources:
     resource: repo://guidelines/claims/roof-claim-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Roof Claim Handling Guidance
 
@@ -104,7 +104,7 @@ Record roof-surfacing age separately from the age of the dwelling or supporting 
 
 Do not deny, limit, or delay a claim solely because of age or because underwriting previously accepted, inspected, cancelled, or nonrenewed the risk. OIR-2023-04 requires an independent claim evaluation under the policy and facts and requires separation of claim and underwriting decisions ([OIR-2023-04, B.4.1–B.4.8](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L239-L255)). The bulletin’s statement that an ACV roof schedule applies at 10 years is an administration and policy-materials requirement; its own text says the schedule cannot be applied unless the policy form authorizes it and identifies the roof components ([OIR-2023-04, B.2.7–B.2.10](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L71-L79)).
 
-For historical Florida handling, OIR-2019-11 is marked superseded by OIR-2023-04 for policies effective on or after April 11, 2023. Its former text used a 15-year ACV schedule and a 20-year inspection-before-binding threshold; those are not interchangeable with the current bulletin, the attached contract, or the carrier’s internal rules ([OIR-2019-11 supersession and B.2.3–B.2.6](repo://bulletins/FL/oir-2019-11-roof-age.md#L2-L9) (repo://bulletins/FL/oir-2019-11-roof-age.md#L49-L59)).
+For historical Florida handling, OIR-2019-11 is marked superseded by OIR-2023-04 for policies effective on or after April 11, 2023. Its former text used a 15-year ACV schedule and a 20-year inspection-before-binding threshold; those are not interchangeable with the current bulletin, the attached contract, or the carrier’s internal rules ([OIR-2019-11 supersession and B.2.3–B.2.6](repo://bulletins/FL/oir-2019-11-roof-age.md#L2-L9) [OIR-2019-11 B.2.3–B.2.6](repo://bulletins/FL/oir-2019-11-roof-age.md#L49-L59)).
 
 ## 3. Evidence and file integrity
 
@@ -168,6 +168,12 @@ Escalate before commitment when any of the following applies:
 The roof guideline requires escalation for unresolved source, conflicting evidence, gradual or recurring damage, hidden damage, competing scopes, shared responsibility, suspicious billing, litigation, and unusual compromise terms ([roof guideline H.5.11–H.5.36](repo://guidelines/claims/roof-claim-handling.md#L401-L451); [roof guideline H.7.14–H.7.18](repo://guidelines/claims/roof-claim-handling.md#L601-L611)). Keep working the claim while escalation is pending: document the issue and requested decision, continue reasonable mitigation and communication, and do not represent that payment is approved before authority is obtained ([roof guideline H.7.1–H.7.7](repo://guidelines/claims/roof-claim-handling.md#L575-L589)).
 
 A referral does not transfer coverage responsibility to a contractor or expert. The carrier must review vendor opinions independently, and a contractor may discuss scope and pricing but not decide coverage ([roof guideline H.7.38](repo://guidelines/claims/roof-claim-handling.md#L649-L653)). Do not accuse an insured or vendor of fraud in routine correspondence; route the concern through the designated review process ([roof guideline H.7.25–H.7.27](repo://guidelines/claims/roof-claim-handling.md#L623-L629)).
+
+### Authority gates during adjustment
+
+Delegated authority is a control on who may commit the carrier; it does not decide whether damage is covered. Keep the claim moving, but obtain higher authority before committing payment above the adjuster’s limit, retaining a specialist whose findings may materially affect coverage, scope, causation, or value, authorizing permanent repairs while coverage remains unresolved, or offering a compromise that differs from the supported covered amount. Record the issue, requested amount or action, supporting basis, and approving authority; do not tell the insured that payment is approved before the required approval exists ([roof guideline H.7.1–H.7.18](repo://guidelines/claims/roof-claim-handling.md#L577-L611)).
+
+When one part of a claim is undisputed, it may be paid within authority while a separate issue remains under review. Conversely, withholding an apparently covered amount because of an unresolved factual question requires higher authority. Document why the portions were separated and what remains open ([roof guideline H.7.20–H.7.22](repo://guidelines/claims/roof-claim-handling.md#L615-L621)).
 
 ## 7. Communication, payment, and closure
 

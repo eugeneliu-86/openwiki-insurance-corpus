@@ -3,19 +3,25 @@ type: underwriting-guidance
 title: Inspection and Records
 description: Rules 600 and 610 define when underwriting must obtain inspection evidence, how findings are verified, resolved, referred, and closed, and what an audit-ready underwriting record must preserve before binding or referral. This page keeps internal inspection and file controls separate from post-loss duties and policy coverage terms.
 tags: [underwriting, inspections, documentation, evidence, referrals, audit-readiness]
-sources:
-  - id: openwiki-source-7176aead92778c93cb0441d2
-    resource: repo://forms/HO/MS/HO-3/2024-03.md
-  - id: openwiki-source-1a7fd187295c6f9ef57d73cb
-    resource: repo://guidelines/appetite/ca-homeowners.md
-  - id: openwiki-source-da67a262bebb42780999bd2a
-    resource: repo://guidelines/appetite/tx-homeowners.md
-  - id: openwiki-source-2b86de67275893a8b33d953b
-    resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
+sources:
+  - id: openwiki-source-662caafdca8e6cd719c848e2
+    resource: repo://bulletins/CO/doi-2022-08-roof-settlement.md
+  - id: openwiki-source-3e56fc05a722b22e22786e30
+    resource: repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md
+  - id: openwiki-source-5802aac0ff04777c19a4717f
+    resource: repo://forms/HO/MS/HO-23-74/2025-05.md
+  - id: openwiki-source-1a7fd187295c6f9ef57d73cb
+    resource: repo://guidelines/appetite/ca-homeowners.md
+  - id: openwiki-source-243115596013c4ec281c4a90
+    resource: repo://guidelines/appetite/fl-homeowners.md
+  - id: openwiki-source-b4a32c6164f88c97824a6cfb
+    resource: repo://guidelines/appetite/nc-homeowners.md
+  - id: openwiki-source-2b86de67275893a8b33d953b
+    resource: repo://manuals/underwriting/manual.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Inspection and Records
 
@@ -63,14 +69,21 @@ Order or require inspection evidence when any of these conditions is present:
 - **Premises hazards and use:** vegetation hazards, debris or stored materials, unsafe stairs or elevated structures, pools and other water features, recreational hazards, ineffective barriers, animals, business activity, commercial storage, construction, renovation, demolition, or incomplete repairs are inspection and/or referral triggers under Rules 600.N–600.W. [Rule 600.N–600.W](repo://manuals/underwriting/manual.md#L8581-L8639)
 - **Discrepancy, occupancy pattern, and prior loss:** material differences between the structures and the application, unreported improvements or converted areas, seasonal or intermittent occupancy, apparently unrepaired prior damage, recurring property conditions, fire evidence, pest activity, or compromised openings require inspection, verification, or referral under Rules 600.X–600.AE. [Rule 600.X–600.AE](repo://manuals/underwriting/manual.md#L8641-L8687)
 - **Roof and utility evidence:** damaged roofing accessories or drainage components, unusual detached structures, fuel storage, exterior utility installations, damaged service connections, code notices, restricted access, conflicting third-party or aerial information, unresolved prior recommendations, and unusable photographs are covered by Rules 600.AF–600.AO. [Rule 600.AF–600.AO](repo://manuals/underwriting/manual.md#L8689-L8747)
+- **Specialized technical questions:** use inspection findings as underwriting evidence, not as repair advice; refer questions requiring specialized evaluation under Rule 600.AW. [Rule 600.AW](repo://manuals/underwriting/manual.md#L8791-L8795)
 
 A trigger is not cleared merely because an applicant has supplied an explanation. The explanation, inspection, supporting records, and reconciliation belong in the file. The applicable appetite or product rule may impose an earlier or stricter control.
 
 ### State and product overlays
 
-Do not generalize the Manual’s 15-year roof-survey trigger into a universal state threshold. The California appetite guide requires an acceptable roof inspection before binding at **20 years or greater**, requires review of available roof photographs, requires documented completion of repairs for an active leak, and restricts binding while roof work is incomplete unless underwriting approves after reviewing scope and expected completion. It also requires retaining the inspection, photographs, and repair evidence used to support the binding decision ([California appetite H.2.1–H.2.5](repo://guidelines/appetite/ca-homeowners.md#L306-L327) [California appetite H.2.31](repo://guidelines/appetite/ca-homeowners.md#L450-L454)). For California Coverage A above **$1,000,000**, the guide separately requires a wind-mitigation inspection ([California appetite H.3.3–H.3.4](repo://guidelines/appetite/ca-homeowners.md#L522-L529)).
+Do not generalize the Manual’s 15-year roof-survey trigger into a universal state threshold. Apply the state and product position that governs the submission alongside Rule 600; an appetite threshold or inspection requirement is an underwriting control, not a coverage determination.
 
-The Texas guide separately requires a roof inspection before binding at or above **15 years**, prohibits binding at or above **25 years**, and requires a wind-mitigation inspection when Coverage A exceeds **$500,000** ([Texas appetite H.2.3–H.2.6](repo://guidelines/appetite/tx-homeowners.md#L159-L165) [Texas appetite H.3.2–H.3.5](repo://guidelines/appetite/tx-homeowners.md#L279-L285)). Apply the state and product position that governs the submission alongside Rule 600; neither an appetite threshold nor an inspection requirement changes policy coverage.
+- **California:** Before binding at **20 years or greater**, obtain an acceptable roof inspection that identifies the covering, visible condition, and material defects; review available roof photographs; require documented completion of active-leak repairs; and do not bind incomplete roof work unless underwriting approves after reviewing scope and expected completion. Retain the inspection, photographs, and repair evidence supporting the decision. A wind-mitigation inspection is separately required above **$1,000,000 Coverage A** ([California appetite H.2.1–H.2.5](repo://guidelines/appetite/ca-homeowners.md#L304-L327) [California appetite H.2.31](repo://guidelines/appetite/ca-homeowners.md#L445-L454) [California appetite H.3.3–H.3.4](repo://guidelines/appetite/ca-homeowners.md#L518-L529)).
+- **Florida internal appetite:** Obtain credible roof-age information and a roof inspection before binding at **15 years or greater**; do not bind at **20 years or greater**. Use a qualified inspector when condition cannot be established from credible records, review the primary and attached roof areas and visible water-entry indicators, and resolve conflicts rather than relying on an applicant estimate. A wind-mitigation inspection is required above **$500,000 Coverage A** ([Florida appetite H.2.1–H.2.10](repo://guidelines/appetite/fl-homeowners.md#L404-L454) [Florida appetite H.2.21–H.2.23](repo://guidelines/appetite/fl-homeowners.md#L500-L513) [Florida appetite H.3.1–H.3.7](repo://guidelines/appetite/fl-homeowners.md#L601-L630)).
+- **North Carolina:** Evaluate roof age, surfacing condition, and maintenance evidence; obtain a roof inspection before binding at **18 years or greater**; clarify conflicts among the application, inspection, photographs, and public records; and refer when condition cannot reasonably be determined or when leakage, widespread deterioration, or unrepaired storm damage remains. Retain the inspection, photographs, and supporting roof records. A wind-mitigation inspection is required above **$500,000 Coverage A** ([North Carolina appetite H.2.1–H.2.6](repo://guidelines/appetite/nc-homeowners.md#L457-L484) [North Carolina appetite H.2.24–H.2.28 and H.2.40–H.2.43](repo://guidelines/appetite/nc-homeowners.md#L564-L586) [North Carolina appetite H.2.40–H.2.43](repo://guidelines/appetite/nc-homeowners.md#L644-L659) [North Carolina appetite H.3.3–H.3.4](repo://guidelines/appetite/nc-homeowners.md#L675-L682)).
+
+- **Florida regulatory overlay:** OIR-2023-04 requires reasonably reliable and relevant roof-age information, identification of covering material and configuration, separate consideration of age and condition, evaluation of credible repair or replacement evidence, and meaningful consideration of information submitted before a final roof-age action. Before binding a roof that is **15 years old**, obtain and retain a roof inspection consistent with filed standards and provide the required inspection disclosure; the inspection is not a guarantee of eligibility. Preserve the roof information, inspection materials, decision record, notices, and delivery evidence for a roof-age-based adverse action ([OIR-2023-04 B.1 and B.2.2–B.2.7](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L13-L43) [OIR-2023-04 B.2.12–B.2.20](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L81-L103) [OIR-2023-04 B.3.2–B.3.15](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L163-L191) [OIR-2023-04 B.3.26–B.3.28](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L213-L219)).
+
+These overlays control evidence, appetite, notice, and escalation handling. They do not authorize a claim denial, convert an inspection into a warranty, or replace the policy and attached endorsement governing a loss.
 
 ## Evidence validity and reliability
 
@@ -142,13 +155,22 @@ The case record should let a later reviewer reconstruct what was known, when it 
 
 Protect inspection reports, photographs, communications, and related evidence in the underwriting file, restrict access to legitimate underwriting purposes, and record what was retained, its source, review status, and any access limitation (Rule 600.AV). [Rule 600.AV](repo://manuals/underwriting/manual.md#L8785-L8789)
 
-## Underwriting evidence versus post-loss policy duties
+## Underwriting evidence versus policy and state obligations
 
-Do not merge this page’s pre-bind or continuing-underwriting controls with an insured’s duties after a loss. The HO-3 2024-03 form separately requires the insured to protect covered property, keep repair-expense records, preserve damaged property, show it, permit premises inspection, provide requested records and documents, submit to examination under oath when reasonably requested, and provide receipts, estimates, invoices, photographs, and similar claim evidence (Section I S.6–S.19). Those are contract duties after loss, not Rule 600 inspection triggers or Rule 610 underwriting record controls ([HO-3 S.6–S.19](repo://forms/HO/MS/HO-3/2024-03.md#L723-L749)).
+Do not merge this page’s pre-bind or continuing-underwriting controls with post-loss contract duties or state claim-disclosure obligations. Rule 600 and Rule 610 govern internal risk selection, verification, referral, closure, and file integrity. The policy and applicable state sources govern what must be communicated or preserved when a loss is adjusted. An inspection result is evidence for the applicable decision; it is not, by itself, a coverage determination or claim denial.
 
-The form also separately requires an inventory of damaged personal property when reasonably requested, available records supporting the amount of loss, and information or documentation concerning liens, encumbrances, ownership interests, and security interests ([HO-3 G.16–G.19](repo://forms/HO/MS/HO-3/2024-03.md#L1321-L1331)). These provisions explain the separate contract duty; they do not turn an underwriting file rule into a policy condition.
+### Roof age and condition evidence is not roof settlement wording
 
-For the inspection boundary, the form permits inspection of covered property at reasonable times but says the inspection does not constitute acceptance of any condition or representation concerning the property. Its broader conditions also say an inspection is not a warranty that property is safe, sound, or compliant with law, and does not impose a duty to identify hazards or defects ([HO-3 S.23–S.25](repo://forms/HO/MS/HO-3/2024-03.md#L757-L761) [HO-3 G.58–G.59](repo://forms/HO/MS/HO-3/2024-03.md#L1409-L1411)). Thus, an underwriting inspection record should not be presented as a promise of coverage, safety, or claim payment. Use [Claims Intake, Investigation, and Mitigation](/openwiki/claims/manual/intake-investigation-and-mitigation.md) when the evidence arises from a reported loss; that page explains the separate claim lifecycle and evidence-preservation controls.
+The **HO 23 74 2025-05** endorsement is a contract document for attached HO-3 policies, not an underwriting rule. It applies to covered roof surfacing, defines Roof Age as the age of the damaged surfacing at the time of loss, and permits age evidence from installation records, permits, invoices, inspections, photographs, statements, or other reliable evidence. It applies actual-cash-value settlement when Roof Age is **12 years or greater** and determines age from the directly damaged portion; a limited-area replacement does not establish the age of surrounding surfacing without evidence of one installation ([HO 23 74 W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L15-L43) [HO 23 74 W.1.4–W.1.8](repo://forms/HO/MS/HO-23-74/2025-05.md#L103-L114)). Those provisions may make a reliable age and condition record relevant to a later claim, but they do not change Rule 600’s 15-year pre-bind survey trigger, create a coverage grant, or turn an underwriting finding into a claim result.
+
+The endorsement separately states that its payment is subject to applicable policy terms, limits, exclusions, conditions, and deductibles, and that inspection, estimating, or payment does not change the endorsement terms ([HO 23 74 W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L61-L80)). Keep the underwriting file’s reported age, source, verification status, condition observations, and disposition separate from the claim file’s policy edition, covered-damage analysis, valuation, and settlement calculation. If a later claim uses the evidence, the claims reviewer must apply the attached contract and facts of loss rather than importing an underwriting threshold.
+
+### State roof obligations are a separate control layer
+
+- **Colorado:** DOI-2022-08 applies to roof-related claim settlement, estimates, payments, and coverage communications. It requires clear explanation of the settlement method, roof age basis, condition or material limitations, depreciation, labor and materials, deductibles, and exclusions; it also requires consideration and documentation of inspections, records, photographs, receipts, and other reliable sources. The bulletin requires retention of the disclosure substance and delivery record and claim records supporting the valuation and payment determination ([Colorado DOI-2022-08 B.1.1–B.1.8](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L16-L45) [Colorado DOI-2022-08 B.2.6–B.2.13 and B.2.25–B.2.27](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L132-L162) [Colorado DOI-2022-08 B.2.25–B.2.34](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L211-L252) [Colorado DOI-2022-08 B.3.33–B.3.34](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L436-L442)). Its **15-year** schedule language and **25%** replacement floor are bulletin obligations for the applicable claim communications and must not be silently substituted for Rule 600’s internal evidence threshold or an attached policy form ([Colorado DOI-2022-08 B.2.6 and B.2.30](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L132-L138) [Colorado DOI-2022-08 B.2.30–B.2.34](repo://bulletins/CO/doi-2022-08-roof-settlement.md#L231-L252)).
+- **Florida:** OIR-2023-04 governs roof-age underwriting and nonrenewal practices as well as separate claim handling. It requires a reasonable claim investigation and says roof age alone may not deny, limit, or delay a claim; claim and underwriting determinations must remain distinct ([OIR-2023-04 B.4.1–B.4.8](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L239-L255)). Retain the underwriting evidence and adverse-action record required by the bulletin, but do not use the internal 15-year inspection trigger or a roof-age record as a claim outcome. The policy form attached to the loss controls any settlement schedule ([OIR-2023-04 B.4.9–B.4.13](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L257-L265) [OIR-2023-04 B.2.8–B.2.11](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L75-L81)).
+
+When internal guidance, a state bulletin, an inspection report, and a contract use different age or condition concepts, preserve the competing sources and escalate the unresolved legal, filing, compliance, or authority question. Do not reconcile them by changing a record, assuming a coverage result, or treating a settlement disclosure as an underwriting standard.
 
 ## Related control points
 
@@ -158,4 +180,6 @@ For the inspection boundary, the form permits inspection of covered property at 
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product-line entry criteria and pre-bind controls.
 - [Property and Water Risk](/openwiki/underwriting/manual/property-and-water-risk.md) — property-condition and water-risk review.
 - [Renewal and Adverse Action](/openwiki/underwriting/manual/renewal-and-adverse-action.md) — continuation and adverse-action handling when a finding affects an existing policy.
-- [Claims Intake, Investigation, and Mitigation](/openwiki/claims/manual/intake-investigation-and-mitigation.md) — post-loss investigation and claim-file evidence, kept separate from underwriting records.
+- [Florida Appetite](/openwiki/underwriting/guidelines/florida-appetite.md) — Florida-specific appetite, roof-age, inspection, authority, and adverse-action controls.
+- [Roof Settlement](/openwiki/coverage/settlement/roof-settlement.md) — contract settlement methods and state disclosure boundaries, separate from underwriting evidence.
+- [Roof Claim Handling Guidance](/openwiki/claims/guidelines/roof-claim-handling.md) — post-loss investigation and claim-file evidence, kept separate from underwriting records.

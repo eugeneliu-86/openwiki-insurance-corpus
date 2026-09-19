@@ -5,15 +5,25 @@ description: Rules 200, 210, and 220 define pre-bind and renewal controls for pr
 tags: [underwriting, property-risk, roof-risk, water-risk, inspections, referrals]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 sources:
+  - id: openwiki-source-38049e374f54d1eb9a15f4ef
+    resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
+  - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
+    resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
     resource: repo://forms/HO/MS/HO-23-74/2025-05.md
+  - id: openwiki-source-7176aead92778c93cb0441d2
+    resource: repo://forms/HO/MS/HO-3/2024-03.md
+  - id: openwiki-source-243115596013c4ec281c4a90
+    resource: repo://guidelines/appetite/fl-homeowners.md
+  - id: openwiki-source-da67a262bebb42780999bd2a
+    resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Property and Water Risk
 
@@ -22,6 +32,12 @@ generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 This page groups **Rule 200 — Construction and Protection Class**, **Rule 210 — Roof Condition, Age and Material**, and **Rule 220 — Water Exposure and Plumbing** of the Personal Lines Underwriting Manual. They are internal controls for evaluating, documenting, referring, conditioning, declining, or holding a property risk before binding or renewal. They do not grant, remove, limit, or settle coverage. The Manual expressly requires carrier-issued coverage terms to control and requires Manual direction to be applied before binding ([Manual Rule 100.C–100.E](repo://manuals/underwriting/manual.md#L27-L43)).
 
 Use the applicable base form, declarations, state form, and attached endorsement for a coverage or settlement question. For example, the Manual’s roof-age and condition rules constrain whether the carrier may bind a risk; an attached [HO 23 74 roof settlement endorsement](repo://forms/HO/MS/HO-23-74/2025-05.md) controls the settlement method for covered roof surfacing. Similarly, Rule 220 controls underwriting review of water exposure; it does not turn an underwriting referral threshold into a water-backup limit or create coverage where the base form excludes backup. The [HO 04 90 2027-01 endorsement](repo://forms/HO/MS/HO-04-90/2027-01.md) modifies the HO-3 contract only when attached and only as its wording provides ([HO 04 90 W.0](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39)).
+
+### Contract checkpoints for water, flood, and valuation
+
+The current 2024-03 HO-3 base form excludes sewer, drain, and sump backup, flood and surface water, below-ground water, and sump or drainage-system failure in its perils provisions (**P.9–P.12**). It separately addresses repeated seepage, accidental plumbing discharge, and wind-created openings (**P.29–P.30 and P.38**) ([HO-3 2024-03 P.9–P.12](repo://forms/HO/MS/HO-3/2024-03.md#L481-L492) [HO-3 2024-03 P.29–P.30 and P.38](repo://forms/HO/MS/HO-3/2024-03.md#L525-L543)). The 2026-01 DP-3 has its own wording: **P.13–P.14** exclude flood, surface water, backup, and below-ground water, while **P.28–P.30 and P.38** distinguish repeated leakage, sudden accidental discharge, and plumbing discharge through openings ([DP-3 2026-01 P.13–P.14](repo://forms/DP/MS/DP-3/2026-01.md#L1274-L1286) [DP-3 2026-01 P.28–P.30 and P.38](repo://forms/DP/MS/DP-3/2026-01.md#L1342-L1353) [DP-3 2026-01 P.38](repo://forms/DP/MS/DP-3/2026-01.md#L1379-L1386)). Thus Rule 220’s source/path and flood controls are evidence and eligibility controls; they do not decide whether a reported loss is covered.
+
+For valuation, Rule 110 requires a supported dwelling limit and applies the 80% condition when valuation support is incomplete (**Rule 110.BJ–110.BK**); higher Coverage A limits also require referral for valuation, construction, and exposure review (**Rule 110.B**). Record the valuation basis and any referral separately from the roof’s inspection or age result ([Manual Rule 110.B and 110.BJ–110.BK](repo://manuals/underwriting/manual.md#L323-L327) [Manual Rule 110.BJ–110.BK](repo://manuals/underwriting/manual.md#L683-L693)). The DP-3 expressly says its roof-age trigger for an actual-cash-value schedule does not determine whether a peril is covered (**P.49**), which is the same separation required here ([DP-3 2026-01 P.49–P.50](repo://forms/DP/MS/DP-3/2026-01.md#L1426-L1432)).
 
 ## Operating model
 
@@ -82,6 +98,14 @@ Protection class must be verified from reliable location and protection informat
 When **Coverage A exceeds $750,000**, Rule 200 requires a wind mitigation inspection **before final underwriting action**. Record receipt and review and resolve conflicts with other file information (**Rule 200.F**; [Rule 200.F](repo://manuals/underwriting/manual.md#L1995-L1999)). Review roof shape, attachment, and opening protection when wind exposure is material, and refer incomplete or conflicting information (**Rule 200.G–200.I**) ([Rule 200.G–200.I](repo://manuals/underwriting/manual.md#L2001-L2017)). This Rule 200 threshold is distinct from the Texas appetite guide’s wind-mitigation inspection trigger at **Coverage A above $500,000**; apply the applicable state and product controls rather than collapsing the two positions ([Texas appetite H.3.2–H.3.5](repo://guidelines/appetite/tx-homeowners.md#L275-L285)).
 
 Also evaluate wildfire fuels, topography, defensible space, access, drainage, flood-related construction, retaining walls, slopes, erosion, ponding, grading, blocked gutters, and discharge toward the foundation. Refer unresolved or materially adverse conditions and document the site evidence and corrective action (**Rule 200.AI–200.AM**) ([Rule 200.AI–200.AM](repo://manuals/underwriting/manual.md#L2169-L2197)).
+
+### State overlays, mitigation, and deductible disclosures
+
+The Manual rules are the baseline; state and product sources can impose a stricter or different gate:
+
+- **Florida roof and backup overlays:** Florida requires a roof inspection before binding at **15 years or greater**, prohibits binding at **20 years or greater**, and separately applies an actual-cash-value roof schedule at **15 years or greater**. The age and settlement-schedule positions are separate: the first two are appetite controls under Rule 210, while the schedule affects policy treatment only after the applicable terms are issued ([Florida appetite H.2.1–H.2.6](repo://guidelines/appetite/fl-homeowners.md#L404-L432) [Florida appetite H.2.23–H.2.28](repo://guidelines/appetite/fl-homeowners.md#L511-L535)). Florida also requires referral for a requested water-backup limit above **$10,000**, requires the source to be described, and warns that backup does not insure flood, storm surge, or tidal water ([Florida appetite H.4.5–H.4.8](repo://guidelines/appetite/fl-homeowners.md#L765-L779) [Florida appetite H.4.23–H.4.24](repo://guidelines/appetite/fl-homeowners.md#L845-L851)). Apply those stricter state/product positions alongside Rule 220.V–220.X; do not substitute the Florida threshold for the Manual’s general authority rule.
+- **Texas roof and wind mitigation overlays:** Texas confirms the 15-year inspection and 25-year no-bind positions and requires a wind-mitigation inspection when Coverage A exceeds **$500,000**. Rule 200.F’s general Manual trigger is **above $750,000**, so the applicable Texas product trigger is the controlling, stricter check; retain the report and refer conflicts under Rule 200.G–200.I ([Texas appetite H.2.1–H.2.6](repo://guidelines/appetite/tx-homeowners.md#L153-L169) [Texas appetite H.3.1–H.3.5](repo://guidelines/appetite/tx-homeowners.md#L275-L285) [Rule 200.F–200.I](repo://manuals/underwriting/manual.md#L1995-L2017)).
+- **Texas windstorm and hail deductible:** Bulletin B-2021-08 governs administration and disclosure, not roof eligibility. A separate deductible must be stated in the policy, distinguish windstorm and hail treatment, be disclosed before binding and at renewal, and be applied only when the issued policy and loss facts support it. The bulletin sets a named-storm minimum of **1%**, a hurricane maximum of **5%**, and a seacoast wind maximum of **10%**; it does not authorize an underwriting note to create or misapply a deductible ([Texas Bulletin B-2021-08 B.1.3–B.1.7 and B.1.13–B.1.15](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L19-L43) [Texas Bulletin B-2021-08 B.2.2–B.2.12](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L49-L71) [Texas Bulletin B-2021-08 B.3.2–B.3.18](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L139-L171)). Keep this policy/state disclosure control separate from Rule 200 wind-mitigation evidence, Rule 210 roof age, and claim causation.
 
 ### Rule 200 disposition
 

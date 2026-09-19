@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:1a0dd16dae117f5c3d9e067fc6561831129911e59c7c8f360808112f6b014cae",
+  "pageVersion": "sha256:9bf6b3bcb591fb8365ab97c9c39359c316147e0efd6caf3892b197d6c43bcb7b",
   "claims": [
     {
       "id": "claim_6813cbef0d6c4afaa8623b92fcf9c8d0",
@@ -54,7 +54,7 @@
     },
     {
       "id": "claim_e3d93f6f93ba43adbaa1e5b1a3c851be",
-      "statement": "A California roof aged 20 years or more requires an acceptable inspection before binding; active leakage generally requires completed documented repairs before binding, and roof deterioration, unresolved repairs, inadequate evidence, conflicting information, or inaccessible areas trigger referral or hold controls.",
+      "statement": "California roof controls combine two pre-bind gates: the California appetite Guide requires an acceptable roof inspection at roof age 20 years or greater, while the general Personal Lines Manual requires a roof survey when roof age reaches 15 years; active leakage, incomplete work, unresolved deterioration or repairs, inadequate or conflicting evidence, and inaccessible areas require decline, hold, referral, or an authorized exception rather than unsupported binding.",
       "evidence": [
         {
           "resource": "repo://guidelines/appetite/ca-homeowners.md#L306-L327",
@@ -67,6 +67,18 @@
         {
           "resource": "repo://guidelines/appetite/ca-homeowners.md#L445-L510",
           "version": "repo-lines-v1:sha256:c7c49a973191aa097854ab2527a878696533f4ab5a21d908e8f4137f82b3ddd6:eyJzZWxlY3RlZExpbmVDb3VudCI6NjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4YjgwYmNkMDY4NTJmMmYzZGNkODMyNjdkYzI5MTg2YzFiOTdhYTc0YjFhMzliNmMxODliMzVmNDI4ZGQ5YTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0ZTliNGFiZmI3OTgzNDNkNjVkY2U1ZWNjOTdjY2VlOTRiNTU3M2UxZGU0YmFmMmJhNmM5ZmZjMjZkOWQwYjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1NzVjMTljZWYxMTM4NmYxOWIxMWQ4YWQzYTdmZTUyMTkxNTQ1OWJmYTQwODdmYWQyNDlhZGE3ODlhOTE1MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzMDgzMzRiZWJkOTBhZjM4N2FhNjdmYjAyNTY2MDRiNTBiYzk4ZTNhZGJlYThmNzMxMmY4ZDJlNzQxMTAwZjcifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8501-L8513",
+          "version": "repo-lines-v1:sha256:4428d2351b1181fbd912a0f09a2de4d9220f72ad6851bb3d62c7f99050094532:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1ODE2OTcyZDQxZDQ2NTdiYWIwMjRhMmJjZmI5OTA5ODUzNDllMTFhMGYxMTI2NGJiNmQ2ZjRlN2EwMmRlMWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZWE4NjllN2IzZTZiMGZhN2U4ZDYzNDYxYTE0ZWFmZDM2ZWExMjA5MjZmZWUxNTU2ZjMxYWI3YmM0M2E0NmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM1OTgxYzNhNzA0MmQwNmY5ZjhlMGIwODgzYWFmYTMyNDUwZjk0Njk1NzY1NDk0YjE4NzBhNzE1YTEwYjRiY2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI5NzRjNjdmNGQ0M2NhZDRmZDA2MzA1NjU2NzUxMDlkYzM3MmFkMTBjNTQ5YzBlZjU4ODJmODM3NjQ3NjFkNmUifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8689-L8693",
+          "version": "repo-lines-v1:sha256:233a64c71ab74a224f9d36869013cbe05d615ccc9150193121f250372eeda82c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODI1NzZhNTEwMmE2NmFmMjhjZWMxYzdmZTRkY2VlM2IyNTI5ZjE0MWJmNDEyNTU1ZGM1Nzc4Y2FhYTdkNDliMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3MTc2YzU1ZjJjNmIwNTk2NzVhYzRjOGRhOTVlOGMzMDJjMjdhYmVjODUxYjY0MDVjMjBhYTNlM2NiNGJmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDc4MTM2ZTY0NmQyNjg2ZjdmOWFjNWQ1ZTRiMjkwNzEyOWQ4ZTEwODA1ZWE5ZThmMDlhNThkYTg2ZDg0NDRiMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2M2NTYyOWQwMjU2NjY4Nzg5MTZhYTBhNWMzOGJiODU3ZDRkNjRlZjM0OWE2OGZmYTg0MzM1ZjViNzhlZTI4ZSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8725-L8747",
+          "version": "repo-lines-v1:sha256:11c86ee404e74c870cebd78fd7c9a1bb59416857c84221fdce722dd54c64722a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzZmEwODM1MGMwMmJjZDc3NjY0ODc5MGYxYTIwMDg1MzU0MmFiZTJmNzY2MWIyMzk0MjZiYzYzMDk2Y2MzZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY5ZmQwZDdmMGQxMjhhOTY2NzNhZjE0ZDk3OWRiMTBkNGM3MTYwNzU5M2M5ZDBlOTVjMjVmMGQyYzI2MTRkOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzMTJlMDk5M2E5Y2Q3OTliNzQwNzRmMmRjNDU3MzU0YjVkNjE3NjhjNzA0Y2EwNjZjY2U1MDk3ODk3MTczZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhjY2VkYTllNTc4NmEwNTRlZjU2Y2ZmNGRmYjY2ZTZhNmFmZDAwMGQ2M2Q5MTNlNjk4MTYwZmIzZWRmYTI4ZWYifQ"
         }
       ]
     },
@@ -309,10 +321,58 @@
           "version": "repo-lines-v1:sha256:9bf4c9df69e378d2ac8f61382f98b1628e35368bac9b071c920af1b63a60e9d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ0M2Q4N2JhMDc2NGNlMDdlZWUxZDM4ZmNlNmI4MTZlZDRmNWZlMDBmZWZjZGMxMTVlMGE4YmUwYTIwN2RlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRmN2VjNzJhMGRiODEwYWEwN2NhNDA1ZDFkMjQzMmYzY2Q1NDk1YmFlZTI0MDAzMjA0ZGJjNjMyNjJkNTg4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGUyYTg5ZTkyY2NmYTIzNTU2MWIwYmQwZmE0MTNiZTY2NTVkODE0ZmZmMzUxZDkyZmNjY2YyYjNjMmE2YzM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjQyMmY3NzA1MzcwMWZiOTJkYjczMWFlMTMyMWJmMWRhYmFjNDIxNDcwZmM5ZGIyOGM3ODhjMzExMDg5OWRkNiJ9"
         }
       ]
+    },
+    {
+      "id": "claim_bffe128032254197ae8db054b07944f2",
+      "statement": "The Personal Lines Manual's generic binding schedule is $800,000 for a line underwriter and $1,500,000 for a senior underwriter, while California Rule 520.A sets a $1,000,000 California line-underwriter ceiling; the handler's active assigned delegation remains controlling, these are carrier authority rules rather than policy limits, and a higher generic or senior level does not raise the California appetite ceiling.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/appetite/ca-homeowners.md#L1320-L1360",
+          "version": "repo-lines-v1:sha256:412342c292f97f6ef238158660bf26ad99f6d5d2ec95eae6b7e24d78bc3fa0df:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiYWY0NjZiYzY5MTU4YWVmZTBiOWU3NDA4ZGM3MDJjZDllYmYyOTk1MjMzYTFjYTFiMmQ0MjYyMjc1MDUzZDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3MmVkYTJkMTY3ZjAzYzE0YzhjNGVlMzU1YzhjMTQzYTY4ZDdiMjI0OTQ3YTBmMzIzNzk5MjQzMGRkZDFkOTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4NTM3MzdkMmMzZjBkMjRmN2FkYzc2MDIyZjgzM2MyNTJmMTNjNjA3MjQyMDk2MmUxNWViYzRjNmM0OTZlNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMxNDJhNjlhYzI0YzQyODdiMTNiYzM2ODI3YWIzMGMxYWFhYTliMTc3ZGJmZDEzNDFkZmYxNmU0OGMyM2JmMzAifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L27-L31",
+          "version": "repo-lines-v1:sha256:c4181b035e32c4cfbcd47c6cbea0f469b7f3a04273e93bcb70005e0772d72ac2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU0MmUwYjgwOTZiZWYwN2Y4OWYzZmEzMzBkMTQ4Mjk0MWNjMmFmMjQ0NTRlZjc1ZTI1OWVkNTU5NTc3MzlhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmVmMjM5OTI2OTVkYzE3ODM2ZjlhYWRjNzNkYWVlMmIyM2ZhODRkNzc2MzFjNGU3ZWIwOGViMmI2Y2ExMTJlZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2FjN2M1MGM5NzAzODY1ZDg2ODE4MzE2MGQyYjJkMDk5M2VmYWE4NmVjNjA1ZjQzMzhiMWZjMDJlYjIwMTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBjZjVhZTE0NTg3NGQ4NjllOTEwNDZmMmI5YjFlYWVhMGU0MjAzZmViNDkxZGEzNjk4OTljNzhmYWQxMjU3MCJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L3991-L4009",
+          "version": "repo-lines-v1:sha256:659354866a9bfb3b0c52ea567f187e646d7d620ae96741d21aa1fb62403b080e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkYWE2MzVkOWI4Y2IyNjA3NjQyZjk2ODFlOTRmY2JiMWM3M2UwZjZjNGQ4NDU5Njg0YjMyMjhmY2ExOTlhYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2ZGQ4NjJiYTMyOTE2ODIwNTQ5ZWE0YTNiODhhNDU1Njc0OWRkMDcyMTM0ODE0YjBhYzI2OTRmMmYyYzA2YWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNzExN2Q4M2Q0ZDMxMWVkZTFlN2JkZDdhNTBjODkwN2MzNTFjNjIyNjFkNDAzNTUwMjllY2NmZGM4ZWI4MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1NjI5NDVhZjkwMDZjNmNmMTk4YjE3NmJlZjcyNDE0M2FkNGEyYTk5YmU0NDUwNDQwNmM0YWJjNjMyZTNiMTIifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L6577-L6589",
+          "version": "repo-lines-v1:sha256:68092859d201c9657bc9e23b2bd465f4d5a9d53a032af59d4487b02dde52c8e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4ZDE0NDc5OTNkN2NmNzE0YjUxYjg2ODVlODYxZGUxOGQ3ZjcyOTNiMWIyNGJlZDk4ODk3NzlkMzEzY2YxYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDE0NjBjYzE3NTI1NTNhOGY2NTViMzVjYmJkZmNhYzc2NTM5ZGIyMzk1ZGYzZjkxMWQwMGFkOTc4NDdkYjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3NjhhYjI5ZjQ3MDg5ZTdiZGRmZjk3NTEzMzllMjVmZDJmOTllNGNiMjIyNjQ0ZDE5MTZhNzhjNDhiNmY3NDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRmMDY2OTM3ZTdjMmVlZjdkOGEzYTQ5ZmFhNWMwNWYxODI3YmU5MTk2Zjc0NGU3MTk2MzBjODRmN2Q0YmE3MzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_01985de052474f4d98ff6854eb3a636a",
+      "statement": "Inspection-report timing is context-specific in the Manual: ordinary and renewal handling state 12 months after receipt or report date, endorsement attachment states 6 months, and Rule 610.AA says only “18 from its completion” without a unit; underwriting must record the dates and escalate the unclear 18-unit direction rather than inventing days, months, or another validity period.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L105-L109",
+          "version": "repo-lines-v1:sha256:555c4e448f4157207f8a88aa86fea038d4b385ee408852980e128e3682279d5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NlOTNkMTJiNTY2MjAzYzBjOThmYmQwNDlhZDY4MmZkOTg5Y2E2ODgwYjdhNjJjZmYwZWE1NWUxY2I5MTI1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y2YmJkOTIwNTA2YjFlOTEzYzY0N2E0MTI5MjcwZDNlZDY0MTRjNzU0MDk1MDNjODUxZDliMmExMTFhMGFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmOWEyNjYzZTY5MjkzZDZmMGM5YTJlN2ZlYjJjN2I3ZDAxNGU3NmYwMWY4YTYyYmRhZWE3Y2FkYThkYTU2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJiM2JmMDM5NTk0YTgxMzdhZTBiOTc5YzgyMDcwMmFiZWE5NDc5YmI4NmFlZmZhZjA0MjExMzVlMzAxYzk1YyJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L225-L229",
+          "version": "repo-lines-v1:sha256:511a5acabf8d7c382bf6362a694a82411ac28ad0c4c33cc15ba5cfe42f29df93:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYWIzOWVmM2NiNThiODUxZmUwNGNkOTljN2YxZjcxMzNmNjYzZTNhMDBiZDc1NjVkZWRkNDBkZDRjNDgzZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGFjNTg4Y2RiYTI1NTVhMmU1NDBkYTMxMmI5YzFlZjQ2NDNmYzQ3NzM2OTg1ZjMwODI2YTJhNzFhOGE5NmM4NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZiZjczNGNkZmNhYmJmNzRlNjQ2NzhjNWU2NTcxM2FjMTRlZTBhOWVhYTQzZWIyZTFjNjIyNDJiNDA1NmZjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGU1Yzg2ODRmZGIxNzI1MTU1MjQyNzg3ZTcyYTRhYjdhNjljZjNjY2ZmYjc2YjRkNGMyMzk2OTBhMTdjMzk1NiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5325-L5329",
+          "version": "repo-lines-v1:sha256:bae317722b0f05ff13273b1a47b5d521bdd43e101988f78d830b273e7306cf7d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODgwZDEwMjE5M2RlYmExNGM5ZDlhYTFhOTdkZTY3Yzk0NDk1YWQ4NzNjOWJlMWQwOGIyYzM1M2JhMTVjOTI4ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ0ZTc1ZjJjMTI0YjVkOTNkMTc1OTIzYzIyZmU2MzYzZTc1NTI4Y2I2MTQ4ZjM5ODMwYmZiYTdiMDQ3OWVjNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWJlYWEzMTkxNjExNmU3OWY0ZGJjMzk2NmNkNzMyZDMzNjNjOTFiNTZiODFhYmRhYTEzZGRiZDdhMTNhNDkwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI5Y2JjZWViNmU1MGYzNTIzMWUyZTAwODJhYzU1MmQ2YzM0MWZhM2RiNzYzMjYzMDA0ZWZiZGQ0ODU4ZjI3YSJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L8961-L8965",
+          "version": "repo-lines-v1:sha256:029f2847f79aad780523bceddcf9ee5633359bd395449949cd402bf1699475b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU5YWUxYzk1MjJjMjZjMTExYzJhNjQzYWVmYTA0Njc1OGZkOTJjMjQ3MDAwOTZmYjg1NzQ1MjgxMGM4MTg4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMThjY2U5MDU3ZjgyNzE5NWQwODU2ZTI1YmVkZGZlNjE2NWM5ZTM2OWUyMWJhNjliM2ZkOWJkMDhkMjBiZDAxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWEzZDkyYWJmMzUyYTE2YTQyNjZkODE5ZDZiNDRjOWFmOWNhMjRlOTkyNjNlYmE1MjEyMjhhNTMyZTE3MDA4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI3YjY0MTg4Y2E1Y2I5ZjkxNmJiZWU3N2Q1OTJiNTVmZjE4ZmQ3YzkwMjNkZjEwNDVlMGNjNzAwZmUzODc0MiJ9"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L9233-L9237",
+          "version": "repo-lines-v1:sha256:8fc6fe619470333c7f1954f4c3849d08af606c42029e4b24327aa28c0996bc1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTU3ZmVkNDI4ZTY1YjliMjBjZDYyNDc1NmQ0NThkZWM1N2VjNTUzM2IwMDc3YmZkOTIwYTQyMWQyYzg0NmUxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjJiODJhMGNjZmRlNGVkYTgwYTkzOWM3OWU4NWRlNWZlMWQ2N2QyY2NlMjhjNTIwYzQzYzkwNDA5YTZjOWY3MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGI4OTNiMWE1OGI2NWZiZmE4ZTg5MDgyNjIwYzE0ZDVlZWQxZTQzYWFkMzg5N2M1Nzk5MWI5MjVhNTgxM2ZiMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTE0YTgzM2ZjZjE5MDhlNGE4YTdkYWQ1NDUwZWVjMzkwOGVjMTMzYTgxMzE1NGVmMWUyMzBhYzQ4OGQ1MWJjMSJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

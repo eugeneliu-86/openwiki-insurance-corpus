@@ -1,11 +1,11 @@
 ---
 type: underwriting-guidance
 title: Florida Appetite
-description: Internal Florida underwriting controls for roof age and condition, hurricane exposure, wind and hail, water, deductibles, prior losses, and nonrenewal actions. Separates carrier appetite from OIR requirements and the contractual Florida homeowners and dwelling-fire forms.
-tags: [underwriting, Florida, homeowners, dwelling-fire, appetite, roof-risk, hurricane, wind-hail, water-risk, deductibles, nonrenewal]
+description: Internal Florida underwriting controls for roof age and condition, authority, evidence, inspections, wind and hail, water, prior losses, renewal, and adverse action. Separates carrier appetite and manual gates from OIR requirements and the contractual Florida homeowners and dwelling-fire forms.
+tags: [underwriting, Florida, homeowners, dwelling-fire, appetite, authority, evidence, inspections, roof-risk, hurricane, wind-hail, water-risk, deductibles, renewal, nonrenewal]
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-bd188977e852f2ea442dcec3
     resource: repo://bulletins/FL/oir-2019-11-roof-age.md
@@ -21,7 +21,7 @@ sources:
     resource: repo://guidelines/appetite/fl-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Florida Appetite
 
@@ -30,6 +30,32 @@ generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
 This page is **internal carrier underwriting guidance**. It controls risk selection, evidence collection, referral, file documentation, and delegated authority; it is not a policy term, coverage grant, claim determination, or substitute for the Florida overlay. The issued policy, declarations, applicable endorsement, controlling law, and OIR requirements govern coverage, notices, and claim payment. A risk can be acceptable to underwriting while a particular loss is not covered, and a referral is not a declination or approval. [Florida guide H.0.4–H.0.7](repo://guidelines/appetite/fl-homeowners.md#L28-L45) [Florida guide H.0.17–H.0.22](repo://guidelines/appetite/fl-homeowners.md#L91-L115) [Manual Rule 500.AX](repo://manuals/underwriting/manual.md#L6219-L6225)
 
 Use the form actually attached to the policy and the policy effective date when answering a coverage, deductible, settlement, notice, or claim question. Keep the **HO line** and **DP line** separate: the HO 01 09 2023-07 and DP 01 09 2021-03 provisions below are contractual examples, not appetite rules. An internal note cannot change either form. [HO 01 09 2023-07, endorsement status and scope](repo://forms/HO/FL/HO-01-09/2023-07.md#L53-L55) [DP 01 09 2021-03, endorsement status and scope](repo://forms/DP/FL/DP-01-09/2021-03.md#L45-L57)
+
+## Evidence, inspection, and file lifecycle
+
+The Florida workflow has an evidence gate before an appetite decision. Manual Rule 600 requires an inspection when underwriting information is incomplete, inconsistent, or unreliable, and prohibits binding until the issue is resolved or an authorized exception is recorded. The Florida roof trigger is separate and stricter in application: require a roof survey before binding at **15 years**, with enough evidence to identify condition, materials, installation quality, and visible deterioration. [Manual Rule 600.A](repo://manuals/underwriting/manual.md#L8501-L8507) [Manual Rule 600.B](repo://manuals/underwriting/manual.md#L8509-L8513)
+
+Use evidence that is property-specific, usable, and attributable. Manual Rule 600 requires a reliable source with sufficient authority and relevant expertise and rejects altered, incomplete, or unverifiable inspection material. Rule 610 requires the file to record the source, receipt and verification dates, material discrepancies and their resolution, operational decision status, referral reason, conditions, eligibility findings, and authority used. An applicant or representative statement remains attributed and unverified until supported; do not turn a favorable assumption into a verified fact. [Manual Rule 600.AP](repo://manuals/underwriting/manual.md#L8749-L8753) [Manual Rule 610.A–610.I](repo://manuals/underwriting/manual.md#L8803-L8857) [Manual Rule 610.Y and 610.AN](repo://manuals/underwriting/manual.md#L8949-L8959) [Manual Rule 610.AN](repo://manuals/underwriting/manual.md#L9039-L9043)
+
+A material finding is not cleared by a verbal assurance. Require reliable completion evidence, refer a hazard outside delegated authority, and close the inspection record only when each material finding is resolved, referred, or accepted within authority. These are internal evidence and lifecycle controls; they do not prescribe a repair method or decide coverage. [Manual Rule 600.AQ–600.AX](repo://manuals/underwriting/manual.md#L8755-L8801)
+
+```mermaid
+stateDiagram-v2
+    [*] --> PendingEvidence
+    PendingEvidence --> Referred: material issue or authority boundary
+    PendingEvidence --> EvidenceReviewed: usable evidence received
+    EvidenceReviewed --> PendingEvidence: conflict or missing support
+    EvidenceReviewed --> ApprovedWithConditions: condition is actionable
+    EvidenceReviewed --> Bound: no material issue and authority confirmed
+    ApprovedWithConditions --> Bound: reliable completion evidence
+    ApprovedWithConditions --> Referred: condition cannot be met
+    Referred --> PendingEvidence: authorized review requests more evidence
+    Bound --> RenewalReview: renewal or material change
+    RenewalReview --> PendingEvidence: material change or stale evidence
+    RenewalReview --> Bound: current evidence and approval recorded
+```
+
+*This lifecycle shows the internal evidence and authority states; it does not determine coverage or guarantee renewal.*
 
 ### Control flow
 
@@ -78,6 +104,8 @@ Obtain roof age from installation or replacement records, contractor documentati
 
 For a roof-age adverse action, use the current OIR standard rather than the superseded OIR-2019-11 standard. OIR-2023-04 requires reliable and relevant age information, consideration of credible replacement or repair evidence, a meaningful opportunity to submit information, and a specific written reason. Before binding a 15-year roof, disclose that inspection may affect eligibility, terms, premium, or the decision not to offer coverage. [OIR-2023-04 B.1](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L13-L43) [OIR-2023-04 B.2.2–B.2.7](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L61-L73) [OIR-2023-04 B.3.2–B.3.10](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L163-L181) OIR-2019-11 is marked superseded for policies effective on or after 2023-04-11; do not use its 15-year settlement rule in place of the current form or bulletin. [OIR-2019-11 supersession and B.2.3](repo://bulletins/FL/oir-2019-11-roof-age.md#L8-L9) [OIR-2019-11 B.2.3](repo://bulletins/FL/oir-2019-11-roof-age.md#L47-L55)
 
+For a 15-year roof, the OIR disclosure must precede premium payment or acceptance, identify who arranges and pays for the inspection, and give the applicant a reasonable opportunity to submit a qualified inspector's report. An inspection is not a guarantee of eligibility. If binding is adverse, communicate the principal roof-related reason in writing and record how submitted information was considered. [OIR-2023-04 B.3.2–B.3.10](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L163-L181) [OIR-2023-04 B.3.13–B.3.15](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L187-L191)
+
 ### Wind and hail
 
 Require a wind-mitigation inspection when Coverage A exceeds **$500,000**. Accept a mitigation credit only when the report is complete, legible, property-specific, and supports each credited feature; do not rely on an applicant statement, listing, temporary panel, or unverified shutter claim. Refer conflicting roof, opening-protection, geometry, connection, construction, or repair information. [Florida guide H.3.1–H.3.14](repo://guidelines/appetite/fl-homeowners.md#L603-L658)
@@ -90,6 +118,8 @@ Treat deductible rules as three separate layers:
 
 Do not infer that the HO endorsement's **15% windstorm-and-hail ceiling** is the OIR hurricane-deductible disclosure ceiling, or that OIR's **10% hurricane maximum** caps every contractual windstorm-and-hail deductible. The DP endorsement states a **2%–10%** windstorm-and-hail range, while the HO endorsement states **2%–15%**; identify whether the policy term is a windstorm-and-hail or hurricane/named-storm deductible, then escalate any conflict between the form, filed operation, and current requirement. [HO 01 09 2023-07](repo://forms/HO/FL/HO-01-09/2023-07.md#L57-L77) [DP 01 09 2021-03](repo://forms/DP/FL/DP-01-09/2021-03.md#L95-L115) [OIR-2022-01 B.2.6–B.2.8](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L69-L75)
 
+When a hurricane deductible is offered, selected, changed, or renewed, deliver the clear disclosure before binding or renewal and before premium or final electronic acceptance. If the application requires selection or acceptance, retain the acknowledgment and disclosure version; provide a revised disclosure before a deductible change takes effect. The bulletin also requires at least **45 days** before an increase in a windstorm deductible takes effect. These are disclosure and operations controls, not authority to apply a deductible unsupported by the attached policy. [OIR-2022-01 B.2.1–B.2.20](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L59-L101) [OIR-2022-01 B.3.1–B.3.18](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L165-L203)
+
 ### Water exposure and backup
 
 Water underwriting is source-driven. Distinguish interior sewer, drain, or sump backup from surface water, flood, storm surge, tidal water, exterior entry, repeated seepage, leakage, and maintenance conditions. Obtain the source, location, duration, repair status, remediation evidence, and any drainage or backwater-device information. Refer repeated discharge, unresolved source, temporary or cosmetic repair, neglected drains, damaged plumbing, or an inoperative protective device; refer a requested water-backup limit above **$10,000**. [Florida guide H.4.1–H.4.18](repo://guidelines/appetite/fl-homeowners.md#L747-L825) [Florida guide H.4.20–H.4.29](repo://guidelines/appetite/fl-homeowners.md#L831-L871) [Manual Rule 500.P and 500.Q](repo://manuals/underwriting/manual.md#L5947-L5961)
@@ -101,6 +131,14 @@ Do not promise that water-backup coverage insures flood or converts faulty workm
 Before binding, review available loss information for the preceding **five years**. Refer when there are **two paid property claims**, an unresolved or unclear cause, incomplete repair or mitigation, repeated damage to the same feature or from the same cause, unclear roof or water repair, open damage, or a material discrepancy between applicant disclosure, reports, inspection, and current condition. Record source, review date, cause, damaged property, repair status, disposition, and the neutral referral reason. [Florida guide H.5.1–H.5.12](repo://guidelines/appetite/fl-homeowners.md#L987-L1038) [Florida guide H.5.19–H.5.23](repo://guidelines/appetite/fl-homeowners.md#L1068-L1089) [Florida guide H.5.35–H.5.43](repo://guidelines/appetite/fl-homeowners.md#L1141-L1178)
 
 The general Manual Rule 240 describes a three-year claim review and the same two-paid-claim referral, while the Florida homeowners guide specifies five years. For this Florida homeowners workflow, use the more specific five-year guide control; do not shorten it to the general manual baseline. [Manual Rule 240.A–240.D](repo://manuals/underwriting/manual.md#L3321-L3345) State-specific controls and the Florida guide also require review of water, wind, hail, roof, weather, fire, liability, occupancy, and remediation patterns, not merely the number of paid claims. [Manual Rule 240.E–240.H and 240.M–240.N](repo://manuals/underwriting/manual.md#L3347-L3369) [Manual Rule 240.AQ–240.AX](repo://manuals/underwriting/manual.md#L3575-L3621)
+
+### Renewal-specific controls
+
+Renewal is a fresh underwriting action, not an automatic carry-forward of the bind decision. Manual Rule 700 requires review of changes in eligibility, exposure, valuation, occupancy, and loss potential; review of current-term loss activity; referral of a renewal risk with **two paid property claims**; and resolution of material roof, exterior, water, inspection, or missing-information concerns before finalizing terms. [Manual Rule 700.A–700.F](repo://manuals/underwriting/manual.md#L9131-L9165) [Manual Rule 700.N–700.W](repo://manuals/underwriting/manual.md#L9209-L9267)
+
+For a renewal, Rule 700 states that an inspection report remains valid for **12 months** and must be refreshed when it is older or conditions may have changed. This renewal-specific period is distinct from the generic Rule 610.AA text that says “valid for 18 from its completion” without a unit. Record the completion date and current status; if the missing unit changes whether evidence may be used, escalate the unclear Manual direction rather than inventing days or months. [Manual Rule 700.Q–700.S](repo://manuals/underwriting/manual.md#L9227-L9243) [Manual Rule 610.AA](repo://manuals/underwriting/manual.md#L8961-L8965) [Manual Rule 100.P](repo://manuals/underwriting/manual.md#L105-L109)
+
+A renewal or roof-related adverse action must use the completed review, not an anticipated correction or an old approval. Before releasing terms, confirm current conditions, approval authority, restrictions, and any required notice workflow. [Manual Rule 700.AT–700.BI](repo://manuals/underwriting/manual.md#L9401-L9491) [Florida guide H.7.30–H.7.36](repo://guidelines/appetite/fl-homeowners.md#L1490-L1520)
 
 ## Claims handoff and separation from underwriting
 
@@ -142,6 +180,14 @@ Keep these lifecycle states separate in the file:
 
 The file must contain the source and date for roof age and loss history, inspection and photographs, valuation, occupancy and use, protection features, deductible selection, referral communications, approval conditions, and the final action. Never remove, minimize, or rewrite material facts to make a risk appear eligible. [Manual Rule 500.AF–500.AJ](repo://manuals/underwriting/manual.md#L6075-L6113) [Manual Rule 500.AX](repo://manuals/underwriting/manual.md#L6219-L6225) [Florida guide H.7.17–H.7.36](repo://guidelines/appetite/fl-homeowners.md#L1432-L1520)
 
+## Exception, version, and operational controls
+
+Treat an exception as a controlled state, not an informal accommodation. Rule 500 requires referral for any exception from Florida eligibility requirements and prohibits granting it without appropriate underwriting authority; Rule 610 requires the exception, reason, approval authority, limitation, and material departure from documented direction to be recorded. A risk outside authority remains referred until the authorized disposition and conditions are recorded. [Manual Rule 500.AS](repo://manuals/underwriting/manual.md#L6179-L6185) [Manual Rule 610.S](repo://manuals/underwriting/manual.md#L8913-L8917) [Manual Rule 610.BB](repo://manuals/underwriting/manual.md#L9123-L9127) [Florida guide H.7.9–H.7.10](repo://guidelines/appetite/fl-homeowners.md#L1397-L1404)
+
+Use the version governing the action date and policy context. OIR-2023-04 requires a roof-age practice to distinguish new, renewal, and in-force policies and requires a revised practice to be filed and approved or otherwise effective before implementation when filing is required. OIR-2022-01 likewise requires the applicable hurricane-deductible disclosure version to be retained and prevents use of an unfiled or superseded disclosure. Do not silently substitute an older bulletin, form, disclosure, or manual practice. [OIR-2023-04 B.5.1–B.5.12](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L295-L319) [OIR-2022-01 B.5.1–B.5.16](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L299-L331)
+
+Operationally, keep the evidence request, inspection, referral, approval, conditions, notice, and final action traceable. Rule 500 requires a complete Florida file for accepted, declined, and referred risks; OIR-2023-04 requires retention of roof information, inspection material, notices, delivery evidence, and decision records for roof-related adverse action. [Manual Rule 500.AX](repo://manuals/underwriting/manual.md#L6219-L6225) [OIR-2023-04 B.3.26–B.3.28](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L213-L219)
+
 ## Binding checklist
 
 Before binding a Florida HO or DP submission, confirm:
@@ -153,5 +199,8 @@ Before binding a Florida HO or DP submission, confirm:
 5. Five-year loss history is reviewed, two paid property claims are referred, and every material open, repeated, unexplained, or unrepaired loss is documented.
 6. Occupancy, ownership, construction, valuation, effective date, and required protective features are complete and consistent.
 7. Every referral has an authorized disposition before bind; approval conditions are carried into the transaction without undocumented accommodation.
+8. The evidence ledger identifies each material source, receipt and verification date, reviewer, conflict resolution, condition, referral reason, authority, and final status. [Manual Rule 610.A–610.I](repo://manuals/underwriting/manual.md#L8803-L8857)
+9. For renewal, inspection freshness and current-term loss activity are checked; use the **12-month** renewal inspection period and refer **two paid property claims** as required by Rule 700. [Manual Rule 700.D and 700.Q–700.S](repo://manuals/underwriting/manual.md#L9149-L9153) [Manual Rule 700.Q–700.S](repo://manuals/underwriting/manual.md#L9227-L9243)
+10. The applicable roof or hurricane disclosure version, delivery evidence, and any required notice timing are retained before the transaction or adverse action is released. [OIR-2023-04 B.3.2–B.3.6](repo://bulletins/FL/oir-2023-04-roof-age-nonrenewal.md#L165-L173) [OIR-2022-01 B.2.13–B.2.20](repo://bulletins/FL/oir-2022-01-hurricane-deductible.md#L83-L101)
 
 These controls support a defensible underwriting decision; they do not alter the policy, OIR overlay, filed forms, or the claim process.

@@ -20,10 +20,14 @@ sources:
     resource: repo://memoranda/DP-3-2020-08.md
   - id: openwiki-source-937248036a7bdc72c8e4e601
     resource: repo://memoranda/DP-3-2026-01.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+  - id: openwiki-source-23775c3de52f3ab95a13cb8b
+    resource: repo://README.md
+  - id: openwiki-source-a6e7a7f52df2ed58605a3898
+    resource: repo://training/guidance-versus-contract.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 # DP-3 Dwelling Property Special Form Editions
 
@@ -52,6 +56,12 @@ flowchart LR
 | **2026-01** | 2026-01 onward | Current edition in this repository | Use for policies effective in this interval unless the policy assembly says otherwise. It returns Coverage A to 80%, raises Coverage B and D, and reorganizes the peril, roof, water, and claim provisions. |
 
 The 2020 filing memorandum describes changes chiefly as clarification and coordination of definitions, coverages, limits, deductibles, post-loss duties, exclusions, and resulting-loss language. The 2026 memorandum says the overall dwelling-policy structure is retained while terminology, organization, conditions, exclusions, and coverage provisions are clarified. These memoranda explain why wording moved or became more explicit; they do not create coverage. ([2020 memorandum, summary](repo://memoranda/DP-3-2020-08.md#L14-L21); [2020 memorandum, coverage changes](repo://memoranda/DP-3-2020-08.md#L300-L323); [2026 memorandum, summary](repo://memoranda/DP-3-2026-01.md#L196-L207))
+
+### What the filing memoranda add
+
+The memoranda are useful change logs, not substitute policy language. The **2020-08** memorandum records a **3% filed rate change** and separates that rating action from the form wording; the operative edition nevertheless changes important administration points, including the 90% Coverage A threshold, 25% Coverage D limit, $1,000 minimum deductible, 90-day proof-of-loss deadline, and 45-day payment period. ([2020 rate impact](repo://memoranda/DP-3-2020-08.md#L1698-L1713); [2020-08 Coverage A and D](repo://forms/DP/MS/DP-3/2020-08.md#L151-L158); [2020-08 claim conditions](repo://forms/DP/MS/DP-3/2020-08.md#L1840-L1887); [2020-08 payment](repo://forms/DP/MS/DP-3/2020-08.md#L2009-L2015))
+
+The **2026-01** memorandum records a **7% filed rate change**, expressly distinguishing rating action from the form revision. Its substantive change explanations track the revised treatment of gradual deterioration, corrosion, mold, pollution, seepage, backup, flood, earth movement, faulty work and ensuing loss, collapse, mitigation duties, deductibles, appraisal, and payment. The issued form—not the memorandum—controls those results. ([2026 structure and scope](repo://memoranda/DP-3-2026-01.md#L196-L207); [2026 exclusion changes](repo://memoranda/DP-3-2026-01.md#L860-L949); [2026 rate impact](repo://memoranda/DP-3-2026-01.md#L1727-L1757); [2026 claim changes](repo://memoranda/DP-3-2026-01.md#L1086-L1175))
 
 ## How to read a DP-3 loss
 
@@ -129,7 +139,7 @@ When attached, it covers direct physical loss from water or waterborne material 
 
 ## State overlays
 
-A state amendment is an overlay in the policy assembly. Apply an attached state endorsement when it conflicts with the base form, then apply the remaining DP-3 provisions. It does not turn DP-3 into an HO form or silently rewrite provisions outside its stated scope.
+A state amendment is an overlay in the policy assembly. Apply an attached state endorsement when it conflicts with the base form, then apply the remaining DP-3 provisions. It does not turn DP-3 into an HO form or silently rewrite provisions outside its stated scope. A DP endorsement or state amendatory form is contract language only within its stated terms and only when issued and attached; unchanged base-form terms remain applicable. A regulator bulletin may constrain disclosure or administration but does not itself create a deductible or coverage term, while a manual, training page, or filing memorandum supplies internal or explanatory guidance rather than modifying the policy. ([repository document families](repo://README.md#L15-L22); [guidance versus contract](repo://training/guidance-versus-contract.md#L15-L23); [DP 04 95 attachment](repo://forms/DP/MS/DP-04-95/2021-05.md#L13-L39); [Florida attachment](repo://forms/DP/FL/DP-01-09/2021-03.md#L13-L57); [Texas attachment](repo://forms/DP/TX/DP-01-45/2022-01.md#L13-L59))
 
 ### Florida — DP 01 09 (2021-03)
 

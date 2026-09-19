@@ -3,9 +3,6 @@ type: underwriting-guidance
 title: New York Appetite
 description: Internal New York homeowners appetite and file-control guidance for risk selection, property evidence, authority, renewal, claims, nonrenewal, and data-call handoff. It separates carrier rules from DFS requirements and the HO 01 31 contract.
 tags: [New York, homeowners, underwriting, appetite, property, nonrenewal, claims, authority]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
 sources:
   - id: openwiki-source-beb58abd88785f1cb2d087d1
     resource: repo://bulletins/NY/dfs-2010-09-nonrenewal.md
@@ -19,7 +16,10 @@ sources:
     resource: repo://guidelines/appetite/ny-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # New York Appetite
 
@@ -66,9 +66,13 @@ The appetite ceiling is not delegated binding authority. The guide gives the han
 
 Do not split a risk, use an unsupported value, rely only on a prior insurer’s limit, or use a lower limit to evade referral. A material change after approval requires reassessment and, where applicable, renewed direction. The manual’s New York exception rule independently says to bind Coverage A only up to $750,000 and to retain the disposition, so use the manual for this carrier authority control and not as a policy limit ([New York guide H.7.15-H.7.35](repo://guidelines/appetite/ny-homeowners.md#L661-L701); [Manual Rule 530.A](repo://manuals/underwriting/manual.md#L6855-L6861)).
 
+The general manual delegation is not a New York override: Rule 300 states a general line-underwriter ceiling of **$800,000** and a senior-underwriter ceiling of **$1,500,000**, but Rule 530.A is the New York-specific operating ceiling of **$750,000**. Apply the stricter New York control, confirm that the handler’s active delegation is available, and record the requested limit, authority level, referral, and approval before binding. Neither the guide’s $1,500,000 appetite ceiling nor the general senior ceiling authorizes a New York handler to bypass the $750,000 state exception ([Manual Rules 300.A-300.D](repo://manuals/underwriting/manual.md#L3991-L4015); [Manual Rule 530.A](repo://manuals/underwriting/manual.md#L6855-L6861)).
+
 ### Manual property overlays and exact referral triggers
 
 The guide’s baseline eligibility position does not eliminate a separate manual referral. Rule 530 requires internal review for vacancy, short-term lodging, business activity or business indicators, agricultural or animal exposure beyond ordinary household use, specified recreational hazards, unrepaired roof or exterior damage, unsafe openings or structures, water intrusion, unverified plumbing repairs, unsafe electrical or heating conditions, waterfront or erosion concerns, structural alterations or renovation, and disputed or nonstandard ownership or occupancy. It also requires referral when mailing, premises, or carrier-record information materially conflicts. Referral means hold the affected action and obtain direction; it is not an automatic coverage result or declination ([Manual Rule 530.E-530.BB](repo://manuals/underwriting/manual.md#L6881-L7179)).
+
+Do not confuse a Rule 530 referral with a Rule 320 no-clearance outcome. Rule 320 directs decline processing when a known condition materially increases expected loss and cannot be corrected before binding, including unresolved structural or foundation damage, roof damage or active leakage, active water intrusion, unrepaired plumbing failure, unsafe electrical conditions, unsafe heating or fuel conditions, and other listed conditions. An underwriting note or informal exception cannot cure a condition that falls within this internal no-clearance rule; document the source, evidence, and decline action, or obtain only an expressly authorized exception where the governing rule permits one. This is internal carrier direction, not a New York legal standard or a coverage determination ([Manual Rule 320.1-320.7](repo://manuals/underwriting/manual.md#L4763-L4805); [Manual Rule 320.8-320.15](repo://manuals/underwriting/manual.md#L4807-L4849)).
 
 This matters where the two internal layers use different words. The guide permits incidental home activity when it does not change the residential character, but the manual still requires any business activity at the premises to be evaluated before binding. Apply the manual’s referral control without presenting it as a New York legal requirement, and retain the activity, evidence, disposition, and any conditions ([New York guide H.1.16-H.1.18](repo://guidelines/appetite/ny-homeowners.md#L168-L180); [Manual Rule 530.F-530.I](repo://manuals/underwriting/manual.md#L6887-L6909)).
 
@@ -78,9 +82,21 @@ Treat roof age as a review signal, not as a substitute for condition evidence. T
 
 The manual adds an exact internal age control that must not be confused with the guide’s condition analysis or with contract settlement: Rule 900 sends a roof at or beyond **25 years** to declination processing and prohibits binding unless an authorized exception is recorded. Age alone is not a policy exclusion or an actual-cash-value determination; document the age source, condition evidence, and any authorized exception separately ([Manual Rule 900.D](repo://manuals/underwriting/manual.md#L9885-L9889); [New York guide H.2.27](repo://guidelines/appetite/ny-homeowners.md#L445-L448); [HO 01 31 T.57-T.58](repo://forms/HO/NY/HO-01-31/2016-04.md#L171-L175)).
 
+The manual adds an inspection entrypoint before the 25-year declination control: Rule 600.B requires a roof survey **before binding when roof age reaches 15 years**, with evidence sufficient to identify condition, materials, installation quality, and visible deterioration. Treat this as a pre-bind evidence requirement, not as permission to bind an impaired roof and not as a contract settlement rule ([Manual Rule 600.B](repo://manuals/underwriting/manual.md#L8509-L8513)).
+
 Review the entire roof system, including drainage, flashing, skylights, valleys, edges, roof-mounted equipment, concealed faces, attic evidence, and interior staining. Request additional imagery or contractor documentation when areas cannot be evaluated. Distinguish full replacement from repair, recoating, overlay, or maintenance; recent work does not establish that the entire roof is new. Refer layered surfacing, unknown material, material discrepancies, unsafe access, sagging or uneven decking, ponding, visible deterioration, or evidence of continuing moisture ([New York guide H.2.10-H.2.41](repo://guidelines/appetite/ny-homeowners.md#L191-L253)).
 
 Reliable repair records may support reconsideration only when they identify the completed work and affected areas and are consistent with observed condition. Require evidence of completed correction before removing a roof referral, document the final decision and supporting evidence, and escalate unusual construction or specialized surfacing. These controls govern eligibility; they do not establish a roof exclusion or determine settlement of a roof claim ([New York guide H.2.44-H.2.60](repo://guidelines/appetite/ny-homeowners.md#L257-L291); [HO 01 31 T.14-T.18 and T.43-T.45](repo://forms/HO/NY/HO-01-31/2016-04.md#L41-L57)).
+
+## Inspection evidence, exceptions, and record closure
+
+Use the manual’s inspection and documentation controls whenever the New York guide or the submission leaves a material condition incomplete, inconsistent, or unreliable. Rule 600.A requires an inspection and a resolution, referral, or authorized exception before binding; Rule 600.AP requires a reliable source with relevant expertise and rejects altered, incomplete, or unverifiable inspection material. A report or photograph is evidence for an underwriting decision, not a coverage grant or a substitute for professional repair advice ([Manual Rule 100.D](repo://manuals/underwriting/manual.md#L33-L37); [Manual Rules 600.A and 600.AP](repo://manuals/underwriting/manual.md#L8501-L8507), [repo://manuals/underwriting/manual.md#L8749-L8753]; [Manual Rule 600.AW](repo://manuals/underwriting/manual.md#L8791-L8795)).
+
+Record the source, receipt date, verification date, scope, limitations, findings, and action. Attribute information as observed, reported, or inferred; record material conflicts and their resolution rather than selecting the favorable version. Rule 610 also requires the operational status—acceptable, declined, referred, restricted, or subject to condition—the referral trigger, authority used, material eligibility findings, and any exception authority ([Manual Rules 610.A-610.I](repo://manuals/underwriting/manual.md#L8803-L8857), [Manual Rules 610.AE-610.AG](repo://manuals/underwriting/manual.md#L8985-L9001), [Manual Rules 610.AN-610.AS](repo://manuals/underwriting/manual.md#L9039-L9073)).
+
+An exception is not a silent clearance. Impose a corrective requirement only for a material condition, state an objective outcome and responsible party, verify completion with reliable evidence rather than an unsupported verbal assurance, and keep the affected action on hold until the finding is resolved, referred, or accepted within authority. Record the final status, outstanding conditions, authority, and disposition; do not use an inspection to prescribe professional repair methods ([Manual Rules 600.AQ-600.AW](repo://manuals/underwriting/manual.md#L8755-L8795); [Manual Rules 610.H and 610.S](repo://manuals/underwriting/manual.md#L8847-L8857), [repo://manuals/underwriting/manual.md#L8913-L8917)).
+
+There are two separate internal currency controls to reconcile. Rule 700.R treats a renewal inspection report as valid for **12 months** and requires updated information when it is older or conditions may have changed. Rule 610.AA separately says an inspection report is valid for **“18” from completion** but gives no unit; do not silently interpret that text as days or months. Record completion and receipt dates, apply the clear 12-month renewal rule where it governs, and escalate the unitless Rule 610 direction when it would change the action ([Manual Rule 700.Q-700.S](repo://manuals/underwriting/manual.md#L9227-L9243), [Manual Rule 610.AA](repo://manuals/underwriting/manual.md#L8961-L8965), [Manual Rule 100.P](repo://manuals/underwriting/manual.md#L105-L109)).
 
 ## Wind, hail, and storm controls
 
@@ -169,5 +185,6 @@ Check for these failures before finalizing:
 - [New York State Overlay](/openwiki/state-overlays/new-york.md) — contract, DFS notice, data-call, and internal-layer separation.
 - [Wind and Hail Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md) — broader deductible concepts and contract handling.
 - [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) — referral package and approval lifecycle.
+- [Inspection and Records](/openwiki/underwriting/manual/inspection-and-records.md) — inspection evidence, exception, closure, and audit-ready record controls.
 - [Manual Property, Roof, and Water Risk Controls](/openwiki/underwriting/manual/property-and-water-risk.md) — general property, roof, and water evidence controls.
 - [Manual Renewal, Cancellation, and Nonrenewal Procedures](/openwiki/underwriting/manual/renewal-and-adverse-action.md) — internal renewal and adverse-action workflow.

@@ -3,6 +3,9 @@ type: coverage
 title: Water Damage
 description: Cross-line coverage boundary for accidental plumbing and appliance discharge, repeated seepage, freezing, flood, groundwater, roof entry, water backup, and fungi-related exclusions and write-backs. Applies the Mississippi editions and endorsements in the source set without treating a limit or endorsement as a blanket water-damage grant.
 tags: [property-coverage, water-damage, plumbing-discharge, seepage, freezing, flood, fungi]
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-0ac4f0d1fc1220eee9804cfe
     resource: repo://forms/DP/MS/DP-04-95/2021-05.md
@@ -20,10 +23,7 @@ sources:
     resource: repo://forms/HO/MS/HO-5/2022-06.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 
 # Water Damage
@@ -109,6 +109,16 @@ Absent an acting endorsement, the base form exclusions apply: DP-3 2026-01 exclu
 
 Do not apply DP 04 95 to an HO policy. Do not treat an HO-3 or other HO base-form reference to a water-backup limit as coverage unless the applicable water-backup endorsement is actually attached; a limit cannot create coverage that the base exclusion removes ([HO-3 2024-03 X.8–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L595-L601)).
 
+### Attachment and endorsement interaction control
+
+Before stating an outcome, record the base form and edition, coverage part and covered property, declarations, loss date, and **every endorsement attached and effective for that loss**. The three endorsement paths in this source set are different modifications:
+
+- **DP-3 2026-01 + DP 04 95 (2021-05):** DP-3 X.6 excludes backup and sump overflow **“unless a water backup endorsement is attached.”** DP 04 95 W.1 then says, **“We cover direct physical loss to covered property caused by water or waterborne material that backs up through a sewer or drain,”** and separately covers sump overflow or discharge. That write-back remains subject to the endorsement's exclusions and the base policy; W.17 says, **“We do not cover the cost to repair, replace, or improve”** the failed sewer, drain, sump, pump, or related equipment, while resulting direct physical loss may be covered ([DP-3 X.6–X.7](repo://forms/DP/MS/DP-3/2026-01.md#L1459-L1466), [DP 04 95 W.1 and W.17](repo://forms/DP/MS/DP-04-95/2021-05.md#L41-L81)).
+- **HO-4 2021-10 + HO 04 27 (2016-05):** HO-4 X.14 points to a water-backup endorsement for sewer, drain, and sump backup, but HO 04 27 is a limited Water Damage endorsement, not a backup write-back: its W.11 says, **“We do not cover loss caused by water that backs up through sewers, drains, sump systems, or related equipment.”** Its W.1–W.8 instead cover specified accidental discharge and, unusually, state, **“We also cover the cost to repair the portion of the system”** or appliance from which water escaped. Apply that source-repair exception only to the HO 04 27 grant and only after the base form's exclusions and covered-property terms are satisfied ([HO-4 X.11–X.17](repo://forms/HO/MS/HO-4/2021-10.md#L667-L679), [HO 04 27 W.1–W.11](repo://forms/HO/MS/HO-04-27/2016-05.md#L41-L65)).
+- **HO-3 2024-03 + HO 04 81 (2018-09):** HO-3 X.29 excludes fungi **“except as provided by a limited fungi endorsement.”** HO 04 81 W.3–W.5 supplies that narrow exception only where a covered cause first causes direct physical loss to covered property and the fungi results from that loss. The endorsement's W.7–W.9 then keeps out fungi arising from repeated seepage, repeated discharge or overflow, and flood ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637), [HO 04 81 W.3–W.9](repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L63)).
+
+The attachment check is substantive, not clerical: HO 04 27 cannot be substituted for a water-backup endorsement, DP 04 95 cannot be transferred to an HO line, and HO 04 81 does not make an excluded water event covered merely because fungi is later present. Read the cited base provision and the attached endorsement together; neither a limit nor an endorsement title is a blanket water-damage grant.
+
 ## Fungi, wet rot, dry rot, and bacteria
 
 The base fungi exclusion comes before any write-back. **DP-3 2026-01** excludes fungi, wet rot, dry rot, bacteria, and microbes in P.27, while preserving resulting direct physical loss caused by a covered peril; X.9 separately excludes the fungal condition regardless of the source of moisture ([DP-3 P.27](repo://forms/DP/MS/DP-3/2026-01.md#L1338-L1340), [X.9–X.10](repo://forms/DP/MS/DP-3/2026-01.md#L1472-L1477)). **HO-3 2024-03** excludes fungi, wet rot, dry rot, and bacteria except as provided by the limited fungi endorsement; HO-4 2021-10, HO-5 2022-06, and HO-6 2023-02 contain their own edition-specific fungi exclusions ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637), [HO-4 X.32](repo://forms/HO/MS/HO-4/2021-10.md#L707-L715), [HO-5 X.29–X.31](repo://forms/HO/MS/HO-5/2022-06.md#L769-L777), [HO-6 X.22](repo://forms/HO/MS/HO-6/2023-02.md#L712-L715)).
@@ -121,7 +131,7 @@ HO 04 27 is not interchangeable with HO 04 81. HO 04 27's water section excludes
 
 ## Coverage boundary checklist
 
-1. Identify the line, edition, coverage part, declarations, and attached endorsement.
+1. Identify the line, edition, coverage part, declarations, loss date, and every endorsement attached and effective for that loss.
 2. Trace the water to its source and route: system or appliance discharge, repeated seepage, roof or wall opening, sewer/drain/sump backup, flood or surface water, or below-ground water.
 3. Apply the applicable base grant or named peril, then the base exclusion. Quote the controlling wording—**“sudden and accidental,” “directly or indirectly,”** and **“whether the water is driven by wind or otherwise”** where it determines the result.
 4. Read the acting endorsement against the base provision. DP 04 95 is DP water-backup coverage; HO 04 27 is limited water-damage coverage; HO 04 81 is limited fungi coverage. None is a blanket water endorsement.

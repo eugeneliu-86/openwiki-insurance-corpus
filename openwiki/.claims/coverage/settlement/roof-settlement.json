@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:5ee4f032f961efc86f16908bc3e16b114b00f39113bdd6f019933fc860626db3",
+  "pageVersion": "sha256:a71e3e76207d721e61151aa7363fc0772b296345fc21798425cb51f237e01094",
   "claims": [
     {
       "id": "claim_93a801195927400e8e71ca12f4efe5e0",
@@ -311,10 +311,74 @@
           "version": "repo-lines-v1:sha256:6f942a4e6df48039f64e9bf7a688238b55960b33fa63bc31905ddb7a358e0461:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzNTU3ZGIyNjFhMTAwMTc2MzdhYmQ3YThhMmU0YWUxZGIyYTA0YjM0ZTYzNDgyYzFlZmFjY2FmMmFlOTkzMzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNTVmMjQ5ZjQ4NzU1NDc5OGM5YjQ5YWMyYTg4NGU5Y2YwMGUzYjcyMDFlMTM3ZDQ4ZjIwYWU2ZTRkN2E4NzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1YmU4ZTA2ZGU3MDJjZmI0NjBhYTIxZDhhNjVjOTg0MDQ2ZDlkNDRjNTZiZjFiOTg4NDFjOTY0MGQ4ZjBhODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ0MzQxNTQ4YTBhMzRkMjdiM2JmZGNkYTQ2NTMzYmMyN2JhZDU0NGJhOTFhMGJhNmYwODY5MDIzNGE1MjgzZDgifQ"
         }
       ]
+    },
+    {
+      "id": "claim_a96d93a06f564c61828ec97c9452de11",
+      "statement": "HO-4 2021-10 expressly provides no Coverage A for the dwelling, so its roof references do not by themselves insure a tenant's dwelling roof; its P.68 provision separately states that ACV roof age and the insured-to-value threshold do not determine whether a peril is covered.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L611-L643",
+          "version": "repo-lines-v1:sha256:8f926cee8426e7f392a98ac1440232db7ac1c3d63d5bb27771f1d38bc2e4afc1:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1ZGU5ZGE2N2I2ODNkMjU5ZmVkODA2OWMyNmRlNTlmYzkyOTFkMzFlMjk0MzVkYWY1ZjU5OGJmMTk4ZGJmNjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5OWExMTkzZDEyMjAxODIwM2E4MzZjZjJjOWY1OTJhMTRkNjhlOTIxZjQwNTNkNDQyY2E5ZDkyMzQxMmVhODQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmN2RmYTg1NjBmM2I5Zjk1OTA2NzdkODIwODk1MjE4OTg5ZTU3NTg5MWQyMTFiNzVmMGUyZDUyN2ZjMzQzMjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2YmRiMTRjNDgwMDQ3NWM5ZDllODVmMjQ4MWMxMDI1MjhiNWRlNjhlNDdjMjIxNmJiOTExOTBiYmQ3ZTkxZTEifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-4/2021-10.md#L71-L85",
+          "version": "repo-lines-v1:sha256:f27962490147ba00f74ba756b2078dad8324e2bca04283a5a1a2547c1eebeb5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM0YjU5MTNkNmYwZmY4YjJiZWM3YTQ4MDk5ZTVmZGMyY2ZkZDFiYzk2N2JlOWE3MzdiZjM1NTI0ZjgyNjBmMGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzMTU5NGM1MDQ4Y2UxYmYxZTRlYTUxZTYxY2ZmZjdkOTg1MWJhNTZkYzUwZjlhNmQ5MGRmNmU1YmNkMzE4NTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMxNzRlYjFjNTQ2YjcwMmEyZjc4MTZhMTI5YTIwMWJmMDM5N2FiMzU0YWUwZjMxODljOWVkMmUwODRiZTQ0MjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBkNDYxNGFiODNhODdiYjhiMDFmMWM5N2JjMWEwMzE2YTBlNTQxMjdmZmNkN2M1Y2U5NWU3MWI4YTUwZDZkNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_883ec9b880e741c1b9879e4035eacf2e",
+      "statement": "HO-5 2022-06 covers the dwelling and roof for direct physical loss caused by a covered peril, excludes cosmetic wind or hail damage that does not impair water shedding, and uses replacement-cost dwelling settlement when its 80% threshold is met.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L107-L129",
+          "version": "repo-lines-v1:sha256:f587fdb04cfcb1feced6c8b9d80c1610c62929c0f2295bb51ed188e4f6da0372:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNDBiM2ZhMTZjZDdmMmExODk1NzBjNjgzMTU2MWIzY2I2ZGM1ZTQxYmUzYmYxMTljMDljZDE0NGQ2ODRiMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIyNTdiYjA4NGI5YjVhY2IxY2EzODEyNmZhOGM1NDMyNjFjOGMxMDJjZmE0NWRhNjE2NWYzYjRhNTZmMTU3MTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjNGFiZWRiNTQ5MjM0YzQzYTdkM2M3NTE1NzM4YjU5Mjc4NDA0NTgwYjlkZWVhYjMzYmNiMjhlM2FkMzUzNzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE2NDc4YzJjYTVlMmE4NGRlMGEyNzZhNzk2ZWVmM2UzMDk1NzExN2FmZmZiZjAwMjU2YWU3YmRjNGQ4ZmMyYWYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L177-L183",
+          "version": "repo-lines-v1:sha256:8d5a021a221b9d878908aea1ba09605ccad1d8d67c83d38391b6683f8c08c362:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTdlMjJiNTliZTZkMTdiZDAzYzdkM2JjMjVmMmYwYzhlZGY3NWI1ODViNjYxM2FiZDUwZGY4MjdlYzE1Nzk1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE2MWE2Nzc0ZGFmNDhlYjBmYzI5NDU1ZDk2ZGY2YzRjZTU5MDk3ZDU4OTc2MmJjNWMwYWU4Y2VlNDEzMGQ1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjI2MzhjZTA1ODMxZjcyYmFlMzBkOWJhMGJjMzViZjQ0MDIzODRiNDFhZDk3MTBhOTE4MGY4NGNmM2E4NjI0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWM4MmViNTdhMmIxYWI2NTdmOWM1NjdmOGY0MWI2Mzk5M2ExNzNhMGY0NTEwOTg3YTQyN2NhYWZlYTZlMmRkMiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-5/2022-06.md#L541-L549",
+          "version": "repo-lines-v1:sha256:367e4365a38d780b5fa85ecee633582e9ee220eb1e352f5cad6a735477b63b8d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWZmODIxZDdmZjhkY2Q5MDBlZTZkNjRjZmEwZGExNGNhZDIzMjY3NzExMmU4NGJjNzgxODg5YTA3MzYxNDEyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzI1ZmY1NDNlMjBmMmJhMGU3MzlkYmY1MzdmOTg5OTM4YzBlMDgwMjlmZGQ1Mjc3ZDg2N2JiNjRlNjdkZmY3ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjMzNjI4ZDYzNGZiMmJhZDE4NGVmYTZhMjg1YmRlMjI0NzBjNWViN2Y1NjMwZjU2OTk0MjYwZDQ2MjAxMTEyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjVmYmY1NWE4ZWMyNzVkZGMyOGQ0NzUyNjczODcxNGNjMTk4MzkxNmI2NzAyNzAwOWY5ODFjMjc5ZmUwNTUyNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eb1bd612a8b5446a8f6e57db165c10c6",
+      "statement": "The HO 23 74 source identifies its line as HO-3 and states that it changes the policy only as provided by the endorsement; the documented modifies relationship is therefore HO 23 74 to the applicable HO-3 roof-surfacing settlement provision, not an automatic schedule for every homeowners form.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2018-09.md#L1-L27",
+          "version": "repo-lines-v1:sha256:e69e9a3b9f2405b43c4c0dcb6d0ad8e918843e8d233bf751ebf96645eafba53a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkOTg5OWFmYjIyNDk1NDdhM2FkNDk0NGQwYTNkNjFkODVkYTNkOTA4YjE3NDE2ZWVlYjliNDJkMjkyMDU1NmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1ZjYzMWFjNDhlZGFmNmM3ODZkOThlOGYxNDVlNTgzY2Q5ZmE1ZWYwMzkxZWRkNDQ4ZjFkOTg5YzEwNTQ2MzkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-23-74/2025-05.md#L1-L27",
+          "version": "repo-lines-v1:sha256:a26f3f31a1fef821ad14086ede5cffbdbb8940d9983025b16a834e20bb157524:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NjYwN2VmNjg3NzQ0MDA5ZjNhNjhmZGQ1MWFkZDEyZGFhNGQ1ZTk1MzkwYWM3MWMyMWZiNDliOTVmMjU2MDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFhODdmOTczNmM2MTBmZDEzMjNkZmVkODY1OWFmMDFmNGZmZjNlMzE4YzJhMjQzY2YxNzczYTM4M2FlOWRkNTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3703f4d086b24975af204946eefce8d2",
+      "statement": "HO 04 90 2027-01 is labeled a filing memorandum and describes wording revisions concerning coverage order, repair versus replacement, valuation terminology, and claim conditions; it is explanatory filing context rather than the operative HO form or roof endorsement used to calculate settlement.",
+      "evidence": [
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L1-L6",
+          "version": "repo-lines-v1:sha256:57fcb23a2f2e20e6e75aa1176e3324bc575835760ac573159a3d9b1746972826:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWYzNzE5YzQzM2IyNjUyNDFhZWVhZjhjZTNlNGMyMzhhNDVmYWUwOGZmYTQ3YjE3YTZmZTQ0MDEwNzdhYmI3YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L13-L55",
+          "version": "repo-lines-v1:sha256:e017f90c0e136d2c04b38cb3679b943bbd3aa4510629313ea6c56513a728d1d9:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2UwMmMyNmNiMGQyZGQ2MjMyZDE0ODI5ZGZkNzgwZmJjNDY5ZDM4ZDJkY2NiMjcyMjRiMjcyMzUzMDBhZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwZjhlNTdjNWZkY2VkYTkyNzFmMjE0MjJmNmY5MTZlNzE0MzI0NmIxZGM1Y2ExYjM3NDUxNzliNWYzNDM3ZmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQyYWVmODNlMzQzNTlkMmU5MmIwZDNhYzE1NzZjODYyOTRhOWU0ODYzZDVlMjQ0MTEyMTYxMGYwNTc0ODQ4ODYifQ"
+        },
+        {
+          "resource": "repo://memoranda/HO-04-90-2027-01.md#L519-L521",
+          "version": "repo-lines-v1:sha256:7050e38ae978a972aa78ab4d315777ec7daabf27900ce0c5fef81f5fb8af32b3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzgyN2FiYzMzNGQzMmFhYTY0ODNkNzhlYThlOWUxMzVhYTkxZjkyN2YyMThhMTYxYmRmZThiYjQ2ZWU2ZjVhYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQxYWQ1NWE3ZWFjYzgzZTg0Yzg4MGE2ZGRlYTc4YjAyOGU2MjBlNjQ2OTlhZmRjZDQwNWE1ZTQzMWYxMWY2NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzI4ZDVlZDEwNTI1NzhhYWU4MzU1NzQ3YTExZmYwYTJhNjYxNTYxODI4ZjIxMDc1YzhlM2FjZmUxNjM3YmJkNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTQ1YzQyYmJlODIwZGFhN2QwYzAyMmUwYWI3ZDUxYmQ0NWJiYjQ0MjRkZTJhNGQ4YzhlMDAyMzY3NGZlMzgxYyJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

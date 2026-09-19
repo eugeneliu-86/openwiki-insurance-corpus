@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b7a95d179fc3f3664dabd6af1426bb725fff03803ad09922f9d1d62a78c2bc29",
+  "pageVersion": "sha256:8572045b6daea5134de45afdca7107db50d608cb307d589b9c43458abd64b761",
   "claims": [
     {
       "id": "claim_d806391a69674b2a8a91b5089b45fe46",
@@ -295,10 +295,110 @@
           "version": "repo-lines-v1:sha256:e5aa9dd4d4c2d50496551cc3323008c60f114b1c3074f2963a8b94f4b65770d4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDVkNTk0YjRlNmRkODdiNjc0YmMxNjZiNjAzODZiOTQxM2Y1NTEzNTUwYzIzNTU0MTM3MDM5ZTVlZjhlOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhNDk5NTc1M2QwYjhiYTA4ZTljOGQyNzI5OWFjYjZlMDA2NWM3OGQ1YTlhMGJkM2NhMTg5Mjg5YmE0MjI1ZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIyYTRkNzU3OTY1YzA0OTkyZGIzN2E5YzVjMzEyMTRjZjk2MWFiOTMyMTQ5OTg5ODMyOTc2ZmFjZDBlMDllYjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjZjg3ZjczZmI5OGFjMzQyNDhjMGIzYjM4ZWEyOGExY2IyNzA5MTFkNmJhOTc2ZjhmMGNiZDJjYjk3OTgxMmMifQ"
         }
       ]
+    },
+    {
+      "id": "claim_ade86b7c8a5f4be3a18596fc2a957eb4",
+      "statement": "For Colorado roof-related claim communications, Colorado DOI-2022-08 requires a clear distinction between the coverage determination and the amount offered or paid, and requires disclosure of the settlement method, depreciation or actual-cash-value treatment, distinction between roof surfacing and other property, deductible effect, and material exclusions; its example permits an actual-cash-value roof schedule only when roof age is at least 15 years.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L110-L178",
+          "version": "repo-lines-v1:sha256:d961cd910ac547c6364f9e084ee1909f51a2f24534c333dafcbe204bab762ef3:eyJzZWxlY3RlZExpbmVDb3VudCI6NjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlZWU0YmJmNDI2NjY2YmJiYTIyZDczOWE2YjUzZjAxMjNmZGZiZWM4N2UyNTEyNTYwNDZkZGJhMjFkMjk1Y2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmZWVhNTA3MjgwZGNjYzdkMzJlM2M4MTQyYzUxODY3NjYzYjVhMjFlYzYwYTg0ZGExNTRlOGIwNGQ2ZDA5MzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlZDdhYTE2Y2U0ZDhkNzFhZjc5NzY0M2EyMDdkZjEwZGRiNjc2ZTRkMGUxYTQ3MjQ2N2E3YTkzYjkyODhiNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY4ZjhjNmIzNmZiZWNiNjM5ODEzNjdhMDYxNWE5YTZjYjBmOTc0YzJhOWQwYzU5YjMwMmViNDFjYjhiNjVmN2YifQ"
+        },
+        {
+          "resource": "repo://bulletins/CO/doi-2022-08-roof-settlement.md#L16-L49",
+          "version": "repo-lines-v1:sha256:2f747e8ff2b720be230e7587b4b9bdb69dd2ee5709144785ce25fc7739c75cd7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0OTA1M2EwMzlhODg0YjI3MmM4Y2Q4ZDRjMjI0YTFiZmYzODQyYjBmNWRkNzI4YTZkOTdkZDg2ZjRmODU2ZjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYxOTE2NDQ4ZDQ2MzEyZjk4ZTU4NzIxMGJmZDgzOGZkMmE1ZDUwYTVjMzQ5ZjNmMDhlMjU3MmU4NzQ2OTUxZjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmNGQ1NzI4Mjg2MTBmZTQyYjZkOTU0YzhiODc1NDI3NTk1OTY4MTQwNTQ5MTEzMjhmOTQyNWQzMzU1ZWRiZDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU2YzBiZjQ4MDA5ZDExMDU4ZDBhYzE1YWI1N2Q4OWZiM2E0NGNmNGJkZDQ0OTljMWE5MzFlZTM5ZDllNzJkNzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4c6a3f7a92d84613a9b7cc735bc314be",
+      "statement": "The HO-3 (2024-03) and DP-3 (2026-01) examples exclude earthquake and related earth movement from the base property coverage, so an adjuster must verify a separately issued earthquake policy or endorsement and its covered property, limits, deductible, settlement, and loss-of-use terms before treating earthquake damage as covered.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1270-L1276",
+          "version": "repo-lines-v1:sha256:c986a01e3abf965c914e58194c7a49de4ae2f9b56066682223882591e87e4551:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMyMjgzNjYxNjA2MjgyMjdhOGY4NjE3YjdhODQ1YjhiNDM2NGQ3NWI2ODE0YjhmYzVlZDZlZTNjMjJkYzEzYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODc2ZWI2ZDliMzRhZWRjOWI2MDUyZGY3MWUxMmE1YzI3ZTZiODM3MTYwY2NlNTdmMzk0NmM3NzE2YTY3YjgxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkzZWI2NjZmZWJkYjA4OWFkNzBjZDFhNmI2MzY5MGM1NzY5OWY3ODZhNDk1ZTExMGVkMGI3OGE1YmM0ZTNiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkYzYzMmU1NTE2ZmUzNmFiOWY2N2RmZmFiNWVkYjU1ZGYyZTg0NzNmZTBhZjZjZjQzYmM4MzczOTc1Zjc1YiJ9"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1447-L1457",
+          "version": "repo-lines-v1:sha256:33aed012ca6e315281e28370a6fb746cf950a99697e20214e122acf8381dfc42:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhYTQ0Yjc0ZGI0ZWUxZGUwZTgzMzM1Nzc1NmNhNzYyYWMwYzhkMzcyYzA4NTg4NzU3MzNkNzcxYTQyODkxZDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYzVkNDdiZTQzNjkwMDI0NGIxYjAwZjNiYjRlOWFmYjAwNzFiMjIxZmQyOWZhY2YzOGRmMDQwODc4MjJmNTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE3ZjdkYWE4N2I1Y2YxODhlN2IxNWMxYTg0N2I2NWY2ZWUyYmEwNTkyN2NmNzhhNDAzZmU2MTdlYTc2YjMxMWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY1Y2E1YmQ3OWRhMDM2ZTUyNjQyMWUyZWQ2YTIyZDJhYjIxNTVjNDdmMjM1NTQyMTJhMWQyZjc0YmMzMDdkYTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L587-L593",
+          "version": "repo-lines-v1:sha256:c10f7ee413c07e24421aaa288af168a815e4ce5948b7dd1597d42171f3c20876:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUyNWFkOGZmMzQ4NTcyNGU0NTQzY2Q2NTUyNzc4NDA3OTYyNWM2NGMyMDMzYjliMzRjNDZkZWQwNTliN2FhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0MWZlYTUyYmJiODdkYTk4Mjk4YjRjNWE1ZWQyMDM4MDlkOWM3ZmQyMDM2ZmI3ZjQ5ZjQwMTIyNjQxZjVkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjMxMGRhMjBhZGJkMTJkN2JmNjNmNDFkMzliZDgwMjUwODc3MjIwYmU5MzFmMDFjMzY2NTRmYjc5OTE1MTc2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODNlYTJkMDg5ZDQ3Y2NlYTU0YzAyNTU0NzFjZWZjMjM2OTYyN2M4NWY0OGQ3ZTk5MjM5ZWVlMTYxZDI1NDcyMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8475bbc1f5f5428b89532390cb44c283",
+      "statement": "California CDI-2022-03 controls the offer and administration of earthquake coverage for eligible residential property, requiring a clear written or consented electronic offer that distinguishes earthquake coverage from the underlying policy and identifies material terms, limits, and deductible; the bulletin specifies a 15% seismic deductible of applicable covered loss and treats insured-to-value, replacement-cost settlement, and loss-of-use limits as material terms.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L108-L155",
+          "version": "repo-lines-v1:sha256:415d0006ed7c1dc73c7b501c616414c7e27292a0bd4e41c6ac243c9276259923:eyJzZWxlY3RlZExpbmVDb3VudCI6NDgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4NmY0ZjA0Njc5ZmY4ZjM2YmI3M2ZjNmE3MzZmYjUwNTM5ZDQ1NTFjNDgxNmM0MTMxYmQ0YzdhZDFmMzY4NWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3OTAxZmVjMjY1NWVhYzkxMGRjMzIwMWU3YjI1NmJkOGFjNDY2ODkxNDdjNzM5ZjE5MWE2OGUxZDk5Njg4MzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlZDdhYTE2Y2U0ZDhkNzFhZjc5NzY0M2EyMDdkZjEwZGRiNjc2ZTRkMGUxYTQ3MjQ2N2E3YTkzYjkyODhiNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM3NGI2MTU5NWY5Y2Q1ZmUzZjM5ODA3N2M3M2QxMmEwNWZjZTA0ODkyMTZiMWUxOWU4NWE2MDViNDc3YzJiNDgifQ"
+        },
+        {
+          "resource": "repo://bulletins/CA/cdi-2022-03-earthquake-offer.md#L16-L73",
+          "version": "repo-lines-v1:sha256:3cebbba4f21f09d95c36560dace273ba54187bea073a7a2acf992e19a34602a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3MjU5YzZiNDNlYWY0NjVjZDNlZThkYTQ1ODJmZWNjOGExMTJhYzkyMDRiZjAyY2ViYmEwMTYxOTM1MzRkYzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliZWIzMWZlYzdlMzY5ZDhkMGI2MzI3MjM2MzMyY2ZhNjY5YjkyOGNhNDQyYjExYTU2YmMyZWU1YTBmYTU3OGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2ZjRiMjRiZDA4MzBhMzc4NmIzOTM1YzczM2UxOWYwZGQ2M2VmMTA5NjUzMjNjNjgwMmIyMGRlNjJlYjMzMjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmNTA5Y2Q5ZTVhNzBkNmUyZTEzNGIwNTgzZjgxZTdkMDU1ZDNkMmQyOTk4MzFmMTEzZTczN2E5ZGM5NmMxM2IifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_823ee5b32ed04abebe8ae9654ce04098",
+      "statement": "DP-3 Dwelling Property 3 — Special Form (Edition 2026-01) insures direct physical loss to covered property caused by a covered peril subject to the applicable limit and policy period; its Coverage A provision states an 80% amount of insurance and its Coverage B limit is 15% of Coverage A.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L154-L159",
+          "version": "repo-lines-v1:sha256:2df0e3f054e9f60624daffdf13051da1f7be76c1499b840ed9008fe694cca755:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM0MGIzZmExNmNkN2YyYTE4OTU3MGM2ODMxNTYxYjNjYjZkYzVlNDFiZTNiZjExOWMwOWNkMTQ0ZDY4NGIwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFhMGZhN2QwNGFkNjVhMWRkYTUxYzM1OWY2MGUzNGNhYzE3NzMyNDk3Yzk1NDMzMGQyODNhOThhYWZmYWZhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjY2NTZmYTdhYWVhYzQzYThiNGY0ODcyZGQ3YmFjYzU4ZDI5NmE0YzQxZTg1ZWUzMmRmNmU3MmJkYTk2OWJiZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjY3NDAyZmJkYmMzODZmNTNhNzkxNmQyMjIzNWJiNDJkMTdkM2EyODQ0NjdiYzQwMzE0MzU2ZDExZGRlOGExYiJ9"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L16-L43",
+          "version": "repo-lines-v1:sha256:d0dd1e89c4bd7a1a3e0d3c1dd285347005d47b5ec772199932886b494af4a310:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1OWJhZDQ3NDgyMDMxZmI3NzkwN2NmM2NmNmJjNWQzMjY2NjUyZjMxN2IxNWUwNDc1YzZhMTcxYjA3MTVkOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczNzNjYmU0MjI4MThmZDEwMGI3Y2ViMmFjNmIzNTAwYmIzZTcwOTM5OWE2NDhjNjVhODk4NDZiMzNkN2VjYjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYxOGQ4MDBjZTkyNTg1N2RmZmFkY2Q3M2ViNDU0OGI1YTM4OGM0ZjM3MmY4MTA4NWZmYTQ0MTNkZWZjMGVlZjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4NDRkMTI4MzIxZTJjZGJmYWRlYzZlYzgxNjJjMDU2MTJmYjYzOTAzZmVjZmUyMTEzZmNhNGM1ODFhOWI2OGUifQ"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L291-L306",
+          "version": "repo-lines-v1:sha256:3b90c983fdb255348a296f087e7c67c3c379ae9ebbf0e581258b009c91d17d22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhNzMwZDJjNzQyMDgwNzMwOWUyZTk4NzZmODQzNzRkMjI5YmY3MGEwYWE3ZGY4YjRmYjlmNDQzNDk3ZTRlNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllYWZkN2MwODdjY2VmYTRiYTQ4MmZhNmJmNzc2NThmODBmZjA5N2VhZGZlOGRkZTc0M2ZmM2EzYTljNjAxNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRiYzMyMmE0ZjljYzRmMTU5YzA3MDI3YzE1ZWM3YmRmMzdlN2Q2MjEyMGFmODIwZGZiODcyOTZmNjQ1YTZmMDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiNTE4MzdkYTU3MzgyZTI4OTNkNThjNmIxYmM5Yzc5ZDc2YzU4NTc1YmNiZGIzZjM4NzEzMzA4NTgxMTM0ZDUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6bbdd1670fb44eac97b070ebe7451a37",
+      "statement": "Under DP-3 (2026-01), sudden and accidental specified-system water discharge or overflow, fire or lightning, windstorm or hail, and falling objects are listed covered perils, while earth movement, external or below-surface water, repeated seepage, and fungi are excluded; the form can cover resulting direct physical loss while excluding the failed system or excluded condition itself.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1225-L1304",
+          "version": "repo-lines-v1:sha256:b034a57939608b7cfdaff76e2fa4150edab71a42ddddb05ae38d2e06a3997ab7:eyJzZWxlY3RlZExpbmVDb3VudCI6ODAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjYTE2YTI2MGE1YmNiMzU4ODFkM2YxOWZmZjI2ZTU3ODI2MGI0NGRiZDlkY2ZmNDM4YzZmNjY2ZGJjZGM5ODAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5ZDdmM2UwYjZhMGJiZTg4ZDY4ZDM0ZmMxMWFhMzczZjc2MWJhYWE4OTRjZGM4MDIyNGVmOTE2MGZhNTY3YjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc1MmY0ZDRlZTljYTBhM2E3NWRmMTJkYjYxMTgwZDNjZTg5OTEwOWVlM2E1ZjQ2ZWI4NWZlYjhmN2NjMmJlZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzZTRmMjYxOWQ2NzhkN2EwZWRmYWI3YmVhZjZkODE3N2VkYzM3YTdkYWRhNTIxZmRiODM5Y2I0NjdmZDlmNDMifQ"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1334-L1386",
+          "version": "repo-lines-v1:sha256:5174c3095cb28ad412fd0ce3d4963abd0841287ae859096887bb25e6a97f7bae:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2OWM2MTdhOGJmYzI1NDQzNjU1N2IxZDQ0NDBkNjM1MjcxN2M4ZjZhMGZmMjAwZDdkZDUxZTA1ZTI4N2Y2ODIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc2MDdiNDgyYWU1MjY2ZWE3MGMwNGRmZjExMDY1MGExODI5ODU3NDFkNTEwZTRmNzhiMTI3MmI4YTY4OThmODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg5Y2JlZWNkMjEwYWMwN2NhMDk5N2I0NjY3ZDE1OGNmODE3NzhlYTI0Mjk4OWFjZjExODM5MmJiNGJmZGZlN2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEwYjI3M2RhNmIwYzQ3YjljZTkxZWYwYjM2ZTdkNGZjNzg5ZTA0YWEzMDZjOTQ5M2ViMmQ1M2ZjZTcyMDVhYjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e649e313a9ac4018855158abc8add534",
+      "statement": "DP-3 (2026-01) defines actual cash value as like-kind repair or replacement cost less depreciation and replacement cost without depreciation, settles roof surfacing on an actual-cash-value basis unless HO 23 74 is attached, applies the deductible shown in policy records without stacking deductibles unless required, and limits adjuster communications by prohibiting alteration of coverage, waiver of conditions, or binding beyond authority.",
+      "evidence": [
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L161-L166",
+          "version": "repo-lines-v1:sha256:15c08c3efbb661cb02a25b7c06d547b7a5192a72097100a8339a5255c4413e13:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg3ZWE5NWIwMzhhMGRmYjZhZjVkMzI1MzMwY2FkYTQyNjJiODBjYjRkM2U0YzZmOWJhNTY4MDBmNTIxNmRjOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM4YzY5NWU2MjUxYTZmZTQwNmY5N2I4ODExYjM1OWIzYjJlZWI5MWM0OTUxZGYxNjk1YjUzMDBiZmE2NjM5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzc2OTUxMDJlNjA1NDNlNmFjNGY3MTM1YTBlOTg1NjhjOWI2NWNiODJiMjc2ZGJlMzJlMGM5MDA0MjliZGRkMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTQ5MGEwYjg0NmY5YWVjOGFhZTE0NGI1NzU1NmY0ZGEwNmIzZGFjNGMwZTEzN2E4NWMzZjgyZjlhZTJhMDE2ZCJ9"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1796-L1815",
+          "version": "repo-lines-v1:sha256:1531f2e842b6639403562daabe963be921efe63f25c76ce0da61667f64e90ccf:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1Y2Y0OTIwMzY1Y2M3NjZlZWJjNmVmYWFmZTYyNTI4YmMxNzRiMzFkOTE1ZWYyNzAwZjk3MzZiZmU4Yzg4ODIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiNmI5NjM2NTExZGQxODlkNjg4ZmE5NzJlYzgwMDcwOGQ5NDJjOTI0MGYzNzQzZmMzOGQ4ODgxNDJmMTcxZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyNDQxNWVmNjc0NTNlOGY5MGEzODAzZmY2ZjA1Y2E0ZjkxMmRiYmRmZGM1MmFhYTFkMmE5MDdjMGIxMjQzYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhiZjZhZDgxMTBjNzcyZmRkZWIwNzIzNzk0NDA5YzhkZmU4MjViNGY4OTVmODA4Y2E0NmEyZWI2NDM5NjQ1N2UifQ"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L1817-L1823",
+          "version": "repo-lines-v1:sha256:31c693ac79513eba91fcf568f54187460ab89dd2ce9a574a7116810b326f0e11:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmRhYzhjNWEyYjM2NDJlNGQ3YjYwYjY0MmI3MTg2ODYzODA3NjFhMmEwYmM1ZWI0NDU3MGEyMDI4YjRhYjc5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU3YjlkZWNiMjYxNDExYTU4ZGIyODllZjU5ZDU0MTUyOThkYzM3MTZkOTg4Njk1ODg5NzNiNzJjYzEwMDVhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTUwNTg5ZWM1MTFmZWY3NzdhNGE1NDRhMDhiMzg2ZmJkZTc4MjA5Njk3M2U2NmY2ZjFiMmFjNDEzMjFhZGMxNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzg3MWRlYzllNGZlODAxNjcyNjc5M2RlYTE1ZjAyNTcwNWMyMTM3ZmI5NmY3ZDhlMTcxNTA5MDFhMjQzYzMwZSJ9"
+        },
+        {
+          "resource": "repo://forms/DP/MS/DP-3/2026-01.md#L62-L76",
+          "version": "repo-lines-v1:sha256:3429506530d2b3e869ec84ca9589661c71351ec9d6e950f17376e4081b4a0dc2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyZjBhMWU3OTUwZWQwMWNhMzA3YTExOTRiN2E1N2RjZDZhNzYzNzI5ZTY5NzBhNWRlMDUxNzEzMWZmZGFiNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4OWU1OWVmMmU1Yjk0NjU3ZTkyMTg0NTk4ZGE2MTA5MjYzM2U0ZjAwZDk0YmUxY2MzMmFkN2YwZTU4YjUyNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2MTM3MmVjYjY5MzU5Y2MwMTlkNWRmNWJhNDczYTQzN2M3MWNkOTQxNzU1MWJiODEyZDg4MzgzYjBkNGY4OGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1ZTAxOWI2NmJhYTliYTBmMTgwYzFhMWQ5M2I3OTQ5NzM0ZDhlZjgxYTNmYWI2OWMxYjFkNzY3OGFlYzg1MjEifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.2",
-    "at": "2026-09-18T17:38:15.786Z"
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

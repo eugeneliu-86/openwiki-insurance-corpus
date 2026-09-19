@@ -50,21 +50,31 @@ sources:
     resource: repo://manuals/rating/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
+  - id: openwiki-source-9a9291b2de270f91ca242ea5
+    resource: repo://memoranda/HO-3-2024-03.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
   - id: openwiki-source-d2ea423343a02d2233c77383
     resource: repo://training/attaching-endorsements.md
   - id: openwiki-source-8460fe3c58470ce6ec8d9b51
     resource: repo://training/choosing-the-governing-edition.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T17:38:15.786Z" }
+  - id: openwiki-source-a6e7a7f52df2ed58605a3898
+    resource: repo://training/guidance-versus-contract.md
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
-    at: 2026-09-18T17:38:15.786Z
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Coverage Wiki Quickstart
 
 This is a compact routing map, not a substitute for an issued policy, endorsement, state bulletin, claims procedure, underwriting rule, or rating procedure. The corpus cross-wires forms, endorsements, state amendatory forms, bulletins, guidelines, manuals, memoranda, and training, so a coverage question must be followed across those document relationships rather than answered from one isolated chunk ([corpus relationships](repo://README.md#L89-L95)).
+
+## Source roles
+
+Use each source for its proper job before composing an answer. Base forms, attached endorsements, and state amendatory forms supply contract wording; a state form implements the subject bulletin within the policy. Regulator bulletins constrain issuance, disclosure, rating, claims, or other carrier conduct. Manuals and appetite or authority guidelines constrain internal operations. Filing memoranda explain what an edition changed, and training teaches a review method; neither replaces the issued form or creates coverage ([document families](repo://README.md#L15-L27), [authority layers](repo://openwiki/policy-assembly/editions-and-state-attachments.md#L18-L25), [guidance boundary](repo://training/guidance-versus-contract.md#L15-L23)).
+
+When a proposition composes documents, name the acting document and its relationship—`supersedes`, `writes back`, `preserves`, `modifies`, `implements`, or `constrains`—and cite both sides. This prevents a memorandum, training shortcut, or bulletin from being mistaken for the contract ([relationship vocabulary](repo://openwiki/INSTRUCTIONS.md#L68-L103)).
 
 ## Required path
 
@@ -121,6 +131,8 @@ Use the policy-effective date and issued policy record to select the base form a
 
 Use [Editions, Endorsements, and State Attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) when the answer composes documents. Record line, state, effective date, declarations, form labels, selected limits and deductibles, and the coverage part or damaged interest before interpreting the wording.
 
+Use a filing memorandum to locate the meaningful edition delta, not to establish the result. For example, the HO-3 2024-03 memorandum explains revised deductible, multiple-cause, water-damage, settlement, and condition wording, while the filed HO-3 2024-03 provisions control the answer ([HO-3 memorandum](repo://memoranda/HO-3-2024-03.md#L13-L31), [HO-3 form](repo://forms/HO/MS/HO-3/2024-03.md#L13-L39)). Apply the same discipline to DP-3 and the other edition memoranda: compare the memorandum's explanation with the applicable frozen form, and preserve the older form when its effective interval governs.
+
 ## 4. Verify attachments
 
 Confirm that every endorsement is attached, complete, legible, matched to the insured, location, subject, and policy term, and consistent with the declarations. An endorsement changes the policy only when properly attached and only within its stated terms. An attached endorsement applies only when attached to the policy, and its provisions control over conflicting policy provisions for the subject the endorsement modifies while unmodified policy terms remain applicable ([attachment and conflict rule](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L30), [attachment workflow](repo://training/attaching-endorsements.md#L65-L111)).
@@ -151,7 +163,7 @@ Water is source-driven: distinguish plumbing, appliance, weather, drain, outside
 
 ## 6. Branch to claims only after the contract route
 
-The claims manual opens and controls the claim file, verifies policy and role, preserves evidence, develops cause and scope, separates investigation from coverage and valuation, and keeps payment and closure within delegated authority ([claims manual](repo://manuals/claims/manual.md#L13-L103), [authority and closure](repo://manuals/claims/manual.md#L141-L175)). Investigation, an estimate, mitigation, or partial payment is not acceptance of the whole claim. Internal claims guidance, appetite guidance, and the underwriting manual are operational material rather than contract authority and must not be used to create, expand, restrict, or waive coverage ([claims boundary](repo://manuals/claims/manual.md#L15-L19), [underwriting boundary](repo://manuals/underwriting/manual.md#L21-L37), [guidance versus contract](repo://training/guidance-versus-contract.md#L61-L83)).
+The claims manual opens and controls the claim file, verifies policy and role, preserves evidence, develops cause and scope, separates investigation from coverage and valuation, and keeps payment and closure within delegated authority ([claims manual](repo://manuals/claims/manual.md#L13-L103), [authority and closure](repo://manuals/claims/manual.md#L141-L175)). Investigation, an estimate, mitigation, or partial payment is not acceptance of the whole claim. Internal claims guidance, appetite guidance, and the underwriting manual are operational material rather than contract authority and must not be used to create, expand, restrict, or waive coverage. Filing memoranda and training may organize the review or explain an edition, but the issued form, attached endorsement, declarations, and applicable law still control ([claims boundary](repo://manuals/claims/manual.md#L15-L19), [underwriting boundary](repo://manuals/underwriting/manual.md#L21-L37), [guidance versus contract](repo://training/guidance-versus-contract.md#L61-L83), [document families](repo://README.md#L15-L27)).
 
 **Claims guidelines**
 
@@ -216,3 +228,4 @@ Before publishing a position, verify that:
 - unresolved causation, valuation, attachment, authority, regulatory, or evidence issues are escalated rather than guessed.
 
 The corpus requires stable, narrow evidence lines and preserves prior source editions and their operative text, so a defensible position must identify the exact source location rather than rely on a broad or bare citation ([citation and line conventions](repo://README.md#L35-L60)). Prefer a canonical `repo://` citation because its path preserves line, state, form, and edition context. When documents compose, name the acting document first and say whether it `supersedes`, `writes back`, `preserves`, `modifies`, `implements`, or `constrains` the other document ([document relationships](repo://README.md#L89-L95)).
+`implements`, or `constrains` the other document ([document relationships](repo://README.md#L89-L95)).
