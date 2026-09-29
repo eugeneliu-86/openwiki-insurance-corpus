@@ -4,8 +4,7 @@ A provision is a numbered paragraph, an unnumbered paragraph or a table row,
 with its document, section, line range and a hash of its text. Parsed from the
 source with no model, so it covers all of it and cannot go stale. On pdf-text
 documents a wrapped paragraph is rejoined and the page header and footer lines
-are dropped. Vendored into the corpus repo, which commits `.provisions-index.json`;
-`provisions_for` is shared by the tools and the evaluator.
+are dropped. Vendored into the corpus repo, which commits `.provisions-index.json`.
 """
 
 from __future__ import annotations
@@ -13,19 +12,12 @@ from __future__ import annotations
 import hashlib
 import json
 import re
-from typing import Any, Callable
-
-try:
-    from langchain_core.tools import ToolException
-except ImportError:  # the vendored copy runs in the corpus workflow on stdlib Python: parser and index only
-    class ToolException(Exception):  # type: ignore[no-redef]
-        pass
+from typing import Any
 
 from contracts.corpus_paths import SOURCE_PREFIXES
 
 SCHEMA_VERSION = 1
 FRONT_MATTER_LINES = 12
-WINDOW = 12   # provisions per expand_section call
 
 #: `**B.2**`, `**W.14**`, `**DEF.11**`, `**B.2.6**`, `**L.3.1**`, `**110.A**`, `**4.AB**`, `**210.A.2**`, `**510.1**`
 OPENER = re.compile(r"^\*\*([A-Z]{1,3}(?:\.\d+)+|[A-Z]+\.\d+(?:\.\d+)*|\d{1,3}\.[A-Z]{1,2}(?:\.\d+)?|\d{1,3}\.\d{1,2})\*\*")
@@ -219,58 +211,11 @@ def match_section(index: dict, document: str, section: str | None, line: int | N
     return None
 
 
-def section_of(index: dict, document: str, line: int) -> str | None:
-    s = match_section(index, normalize_document(document), None, line)
-    return s["id"] if s else None
-
-
 def text_of(corpus, p: dict) -> str:
     lines = corpus.lines(p["document"])[p["start"] - 1:p["end"]]
     if p.get("layout") == "pdf-text":
         lines = [l for l in lines if not (HEADER_RE.match(l) or FOOTER_RE.match(l))]
     return "\n".join(l.rstrip() for l in lines).strip()
-
-
-def provisions_for(index: dict, corpus, document: str, section: str | None = None, paragraph: str | None = None,
-                   offset: int = 0, limit: int = WINDOW) -> dict[str, Any]:
-    """One section's provisions, verbatim, in document order, windowed. Pure.
-
-    Raises ToolException for a document outside the source prefixes or a section
-    that cannot be resolved, naming the sections the document does have."""
-    doc = normalize_document(document)
-    if not is_source(doc):
-        raise ToolException(f"{document!r} is not a source document; expand_section reads under {', '.join(SOURCE_PREFIXES)}")
-    if doc not in index["sections"]:
-        raise ToolException(f"{doc} is not in the corpus at this commit")
-    if offset < 0:
-        raise ToolException(f"offset must be 0 or more, got {offset!r}")
-    by_doc = [p for p in index["provisions"] if p["document"] == doc]
-    if paragraph:
-        want = paragraph.strip().strip("*")
-        hits = [p for p in by_doc if p["paragraph"] == want or p["paragraph"].endswith("/" + want)]
-        if not hits:
-            raise ToolException(f"{doc} has no paragraph {paragraph!r}")
-        sec = match_section(index, doc, None, hits[0]["start"])
-        items = hits
-    else:
-        line = None
-        if section and re.fullmatch(r"L?\d+", section.strip()):
-            line = int(section.strip().lstrip("L")); section = None
-        sec = match_section(index, doc, section, line)
-        if sec is None:
-            have = ", ".join(s["id"] for s in index["sections"][doc][:40])
-            raise ToolException(f"{doc}: cannot resolve section {section!r}. Sections: {have}")
-        items = [p for p in by_doc if p["section"] == sec["id"]]
-    total = len(items)
-    window = items[offset:offset + limit]
-    out = [{"id": p["id"], "paragraph": p["paragraph"], "start": p["start"], "end": p["end"], "text": text_of(corpus, p)} for p in window]
-    truncated = total > offset + limit
-    note = (f"Provisions {offset + 1}-{offset + len(out)} of {total} in {doc} § {sec['id'] if sec else '?'}"
-            + (f" — {sec['title']}" if sec and sec.get("title") else "") + ". Verbatim source text. "
-            "To cite one, put its id in the citation's `resource` and leave `quote` empty: the pointer and quote are filled in after you answer. "
-            + (f"More: call again with offset={offset + limit}." if truncated else ""))
-    return {"document": doc, "section": ({"id": sec["id"], "title": sec["title"], "start": sec["start"], "end": sec["end"], "provisions": total} if sec else None),
-            "provisions": out, "count": total, "next_offset": (offset + limit) if truncated else None, "note": note}
 
 
 def by_id(index: dict, provision_id: str) -> dict | None:
@@ -279,11 +224,6 @@ def by_id(index: dict, provision_id: str) -> dict | None:
 
 def is_provision_id(resource: str) -> bool:
     return isinstance(resource, str) and "#" in resource and not resource.startswith(("repo://", "claim_")) and is_source(resource.split("#")[0])
-
-
-def section_lookup(index: dict) -> Callable[[str, int], str | None]:
-    """A (document, line) -> section id function for the traversal's compact claims."""
-    return lambda document, line: section_of(index, document, line)
 
 
 # --- the agent's cached copy -----------------------------------------------------
