@@ -1,35 +1,9 @@
-"""Corpus integrity manifest — enforces C7 of 00-contracts.md.
+"""The corpus manifest: what the corpus contains at a commit, according to GitHub.
 
-The problem this closes. `execute` gives the agent a shell on the sandbox. It
-can `chmod +w` the corpus and edit a form, and neither the read-only middleware
-(which only guards write_file / edit_file / delete) nor the SHA marker (which
-records which commit was fetched, not what the files contain) would notice. The
-agent would then cite text no filed form ever contained — the exact
-fabricated-grounding failure the whole design exists to prevent, arriving by a
-side door.
-
-Two design choices make this a real boundary rather than a speed bump.
-
-1. THE MANIFEST IS AUTHORITATIVE, NOT SELF-REFERENTIAL.
-
-   It is not computed from the files we downloaded. It is fetched from GitHub's
-   git tree API at the pinned SHA, so it is an independent statement of what the
-   corpus contains. That catches a tampered file, a truncated download, and a
-   corrupted extraction with one mechanism.
-
-2. THE MANIFEST LIVES IN THE APP PROCESS, NOT ON THE SANDBOX.
-
-   Middleware and tools run in the deployed LangGraph app. `execute` runs
-   commands on the sandbox, which is a separate machine reached through the
-   backend. So shell access cannot reach the manifest: there is no file to
-   rewrite and no path to it. Storing it on the sandbox filesystem would have
-   made it exactly as tamperable as the thing it verifies.
-
-Identifiers are git blob SHAs — sha1 of `blob <bytelen>\\0<content>` — so they
-are directly comparable to what the tree API returns, with no separate hashing
-scheme to keep in sync. Verified against this corpus: git reports
-78c39dfc765e0a4982801c7d084e71f7337cc68c for forms/HO/MS/HO-3/2018-09.md, and
-`git_blob_sha` below reproduces it exactly.
+Fetched from the git tree API, not computed from the downloaded files, so it
+independently catches a tampered file, a truncated download or a bad
+extraction. It lives in the app process, out of reach of the sandbox shell it
+guards. Entries are git blob SHAs, so they compare directly with the tree API.
 """
 
 from __future__ import annotations
@@ -39,23 +13,11 @@ from dataclasses import dataclass, field
 
 
 class CorpusIntegrityError(RuntimeError):
-    """A corpus file does not match the manifest for its pinned commit.
-
-    Never caught. A run that cannot trust its corpus must produce no answer: a
-    coverage answer citing mutated text is indistinguishable from a good one,
-    which is worse than no answer at all.
-    """
+    """A corpus file does not match the manifest. Never caught: the run must produce no answer."""
 
 
 class CorpusUnavailableError(CorpusIntegrityError):
-    """The pinned commit could not be FETCHED — nothing was verified either way.
-
-    Distinct from an integrity failure because the right response differs: a
-    mismatch is final, an unreachable tarball is transient (GitHub propagating
-    a seconds-old commit). The guard lets this one end the run so the caller
-    retries, instead of handing the model a corpus it cannot see and getting a
-    fluent "could not verify / missing_document" report back.
-    """
+    """The pinned commit could not be fetched. Transient (a seconds-old commit), so the caller retries."""
 
 
 def git_blob_sha(content: bytes) -> str:
@@ -73,13 +35,7 @@ class CorpusManifest:
     truncated: bool = False
 
     def verify(self, path: str, content: bytes) -> bytes:
-        """Return `content` if it matches the manifest, else raise.
-
-        Called by every read tool before content reaches the model. An unknown
-        path is a failure, not a pass: a file present in the sandbox but absent
-        from the tree at this commit was created locally, and nothing created
-        locally is corpus knowledge.
-        """
+        """`content` if it matches the manifest, else raise. An unknown path fails: it was created locally."""
         expected = self.blobs.get(path)
         if expected is None:
             if self.truncated:
@@ -105,20 +61,10 @@ class CorpusManifest:
 async def fetch_manifest(
     owner: str, repo: str, sha: str, token: str | None = None
 ) -> CorpusManifest:
-    """Build the manifest from GitHub's git tree at `sha`.
+    """The manifest from GitHub's git tree at `sha`.
 
-    One extra API call per populate, which is why this is affordable: the
-    populate step already runs once per thread per SHA.
-
-    `token` is optional because the corpus repo is public. Supplying one only
-    raises the rate limit from 60 requests/hour to 5000. This call runs in the
-    app process, so a token given here never reaches the sandbox.
-
-    The tree API sets `truncated: true` for very large trees rather than
-    paginating. This corpus has 77 tracked files, so truncation is not expected
-    — but it is recorded rather than ignored, because a silently partial
-    manifest would turn `verify` into a no-op for every path it omitted, which
-    is worse than having no manifest at all.
+    `token` only raises the rate limit (the repo is public) and never reaches the
+    sandbox. A truncated tree is recorded, so `verify` refuses what it cannot check.
     """
     url = f"https://api.github.com/repos/{owner}/{repo}/git/trees/{sha}?recursive=1"
     payload = await _get_json(url, token)   # raises on any non-200
@@ -137,12 +83,7 @@ async def fetch_manifest(
 
 
 async def _get_json(url: str, token: str | None) -> dict:
-    """GET `url` and return parsed JSON, raising on anything but success.
-
-    Runs in the app process, so the token — when one is supplied at all — never
-    reaches the sandbox. The corpus repo is public, so `token` is optional and
-    only raises the API rate limit from 60/hour to 5000/hour.
-    """
+    """GET `url` as JSON, raising on anything but success."""
     import httpx
 
     headers = {
@@ -152,9 +93,7 @@ async def _get_json(url: str, token: str | None) -> dict:
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    # A commit pushed seconds ago can 404 on the API for a few seconds while it
-    # propagates. The ingest run is dispatched right after the push, so this is
-    # the normal case, not a corner: retry briefly before calling it missing.
+    # A commit pushed seconds ago can 404 briefly while it propagates; ingest runs start right after a push.
     import asyncio
 
     async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:

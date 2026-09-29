@@ -1,20 +1,8 @@
-"""The app-process copy of the corpus. Phase 02 §2.
+"""The corpus at one commit, held in the app process for the authored tools.
 
-WHY A SECOND COPY
-
-Authored tools cannot reach the sandbox. `@tool` puts a `ToolRuntime` parameter
-into `args_schema` under every annotation form, so a tool declaring one fails
-every call with "Field required: runtime" — and `run_in_sandbox` needs one. So
-the app process fetches its own copy: one codeload call per commit, 1.2 MB,
-alongside the git-tree manifest it already fetches.
-
-Both copies are justified and neither is trusted for having been downloaded:
-
-    sandbox /workspace/corpus   the MODEL, via native ls/grep/glob/read_file
-    this local cache            authored TOOLS, hashing and indexing
-
-This copy is verified against the same git-tree manifest by the same blob-SHA
-formula as the sandbox copy.
+Tools cannot reach the sandbox (a tool with a runtime parameter breaks @tool's
+schema), so the app fetches its own copy: one tarball per commit, verified
+against the same git-tree manifest as the sandbox copy.
 """
 
 from __future__ import annotations
@@ -29,7 +17,7 @@ import tempfile
 
 from dataclasses import dataclass, field
 
-from contracts.corpus_manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha  # noqa: F401
+from contracts.corpus_manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha
 
 logger = logging.getLogger(__name__)
 
@@ -38,9 +26,7 @@ REPO = os.environ.get("CORPUS_REPO", "openwiki-insurance-corpus")
 
 CACHE_ROOT = pathlib.Path(tempfile.gettempdir()) / "coverage-agent-corpus"
 
-#: Text extensions worth preloading. Everything the tools read is text; the
-#: whole corpus is 1.2 MB, so holding it in memory costs nothing and removes an
-#: entire class of bug — see the note on BlockingError below.
+#: Everything the tools read is text, and the whole corpus fits in memory.
 TEXT_SUFFIXES = frozenset({".md", ".json", ".yml", ".yaml", ".txt"})
 
 
@@ -48,17 +34,8 @@ TEXT_SUFFIXES = frozenset({".md", ".json", ".yml", ".yaml", ".txt"})
 class LocalCorpus:
     """The corpus at one commit, fully in memory.
 
-    WHY PRELOADED RATHER THAN READ ON DEMAND
-
-    LangGraph's dev server runs `blockbuster`, which raises `BlockingError` on
-    synchronous I/O inside the event loop — and it catches `rglob` (a
-    ScandirIterator), not just reads. Sprinkling `asyncio.to_thread` over every
-    call site works but leaves the next filesystem access one refactor away
-    from reintroducing the error.
-
-    So all filesystem work happens in ONE thread hop per commit, and every
-    consumer downstream is pure CPU over this dict. There is no path from a tool
-    to a blocking call.
+    Preloaded in one thread hop so no tool ever does synchronous I/O on the event
+    loop, which LangGraph's dev server turns into BlockingError.
     """
 
     corpus_sha: str
@@ -93,10 +70,8 @@ def _lock(sha: str) -> asyncio.Lock:
 async def _download(sha: str) -> bytes:
     import httpx
 
-    # codeload first (no rate limit), then its `legacy.tar.gz` path (a different
-    # edge cache key — the plain path kept serving a 404 for a fresh commit
-    # after the tree API had it), then the API tarball endpoint (anonymous
-    # 60/hour, so last). Same order as the sandbox fetch in corpus_guard.
+    # codeload (no rate limit), its legacy path (a different cache key, for a fresh commit),
+    # then the rate-limited API tarball. Same order as the sandbox fetch in corpus_guard.
     urls = [
         f"https://codeload.github.com/{OWNER}/{REPO}/tar.gz/{sha}",
         f"https://codeload.github.com/{OWNER}/{REPO}/legacy.tar.gz/{sha}",
@@ -128,7 +103,6 @@ def _extract(payload: bytes, dest: pathlib.Path) -> None:
         for member in archive.getmembers():
             if not member.isfile():
                 continue
-            # GitHub tarballs carry a single top-level dir; strip it.
             parts = pathlib.PurePosixPath(member.name).parts[1:]
             if not parts:
                 continue
@@ -162,8 +136,8 @@ def _verify(root: pathlib.Path, blobs: dict[str, str]) -> int:
     return len(blobs)
 
 
-def _load(dest: pathlib.Path, sha: str, blobs: dict[str, str] | None) -> LocalCorpus:
-    """All blocking work, called once per commit inside a thread."""
+def load_corpus(dest: pathlib.Path, sha: str, blobs: dict[str, str] | None) -> LocalCorpus:
+    """Verify (when given the manifest) and read the extracted tree. Blocking: call in a thread."""
     if blobs:
         count = _verify(dest, blobs)
         (dest / ".verified").write_text(str(count))
@@ -178,19 +152,13 @@ def _load(dest: pathlib.Path, sha: str, blobs: dict[str, str] | None) -> LocalCo
             continue
         if path.suffix.lower() not in TEXT_SUFFIXES:
             continue
-        # Split on LF only: the anchor formula joins with LF, so splitlines()
-        # would disagree on any file containing a lone CR or a form feed.
+        # split on LF only, as the anchor hashes do; splitlines() would also split on CR and form feed
         files[rel] = path.read_text(encoding="utf-8").split("\n")
     return LocalCorpus(corpus_sha=sha, root=dest, files=files, verified_count=count)
 
 
 async def ensure_local_corpus(sha: str, blobs: dict[str, str] | None = None) -> LocalCorpus:
-    """Return the corpus at `sha`, verified and fully loaded.
-
-    `blobs` is the git-tree manifest the guard already fetched. When supplied,
-    the extracted copy is verified against it — an unverified copy is exactly
-    what the manifest exists to prevent.
-    """
+    """The corpus at `sha`, verified against `blobs` (the guard's manifest) when given."""
     cached = _CORPORA.get(sha)
     if cached is not None:
         return cached
@@ -209,7 +177,7 @@ async def ensure_local_corpus(sha: str, blobs: dict[str, str] | None = None) -> 
             payload = await _download(sha)
             await asyncio.to_thread(_extract, payload, dest)
 
-        corpus = await asyncio.to_thread(_load, dest, sha, blobs)
+        corpus = await asyncio.to_thread(load_corpus, dest, sha, blobs)
         logger.info(
             "app-process corpus loaded at %s: %d files verified, %d text files held",
             sha[:12], corpus.verified_count, len(corpus.files),

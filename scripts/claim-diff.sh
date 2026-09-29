@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-# Claims delta and .compile-state.json — enforces C4 of 00-contracts.md.
+# Claims delta and .compile-state.json (C4).
 #
-# The delta is SET ARITHMETIC over sidecar claim ids, captured before and after
-# the compile. It depends on nothing OpenWiki prints, so a change to its console
-# output cannot break it. Claim ids are stable across regeneration (97% carried
-# over two forced rebuilds of an unchanged tree), so `carried` is a real signal.
+# The delta is set arithmetic over sidecar claim ids captured before and after
+# the compile, so nothing depends on OpenWiki's console output.
 #
 #   claim-diff.sh snapshot <out-file>
 #   claim-diff.sh emit <before> <after>                 # prints the claims block

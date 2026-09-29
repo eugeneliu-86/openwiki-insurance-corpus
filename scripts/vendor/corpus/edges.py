@@ -1,31 +1,16 @@
-"""The edge layer — graph-expansion phase 02.
+"""The edge layer: the connections the corpus states, derived into `.graph-edges.json`. No model.
 
-The corpus already states how its parts connect; this module derives those
-statements into one artifact so the agent can follow them instead of searching
-for them. No model is involved anywhere here.
+    refers_to    provision -> section       from the text: "(see <Title>, <section> …)", "(see <section>, <title>)"
+    cites        claim -> provision         a claim's evidence pointer intersected with the provisions
+    supersedes   document -> document       newer edition -> older, within a form family
+    amends       amendatory -> base form    front matter: the line the state form amends
+    attaches_to  endorsement -> base form   front matter: the line the endorsement is written for
+    lists        index page -> page         the wiki's index links
 
-    refers_to    provision -> section        from the text: "(see <Title>, <section> …)" and
-                                             "(see <section>, <title>)" for a same-document reference
-    cites        claim -> provision          a claim's evidence pointer intersected with the provisions index
-    supersedes   document -> document        newer edition of the same form family
-    amends       amendatory -> base form     the state amendatory endorsement and the line it amends
-    attaches_to  endorsement -> base form    the endorsement and the line it is written for
-    lists        index page -> page          the wiki's navigation layer, from its markdown links
-
-Structure edges (section -> provisions, provision <-> neighbours) are not stored:
-they are the provisions index's order and the graph module derives them on read.
-The claims index's typed document relations (`relates`) are already committed and
-are read from there.
-
-Two callers share the builder, as with the provisions index: the refresh
-workflow commits `.graph-edges.json` per commit from the vendored copy; the agent
-reads it when it matches the tree and otherwise builds the same artifact in
-memory. Acceptance is by content — the artifact carries a fingerprint of the
-provisions index it was built over — never by SHA, because the workflow commits
-one commit behind the SHA the agent pins.
-
-Vendored copy: this file runs on stdlib Python in the corpus workflow; it
-imports nothing from langchain.
+Section and neighbour structure is derived on read from the provisions index;
+typed document relations come from the claims index. Vendored into the corpus
+repo (stdlib only). A committed artifact is accepted by the fingerprint of the
+provisions index it was built over, never by SHA.
 """
 
 from __future__ import annotations
@@ -35,7 +20,7 @@ import json
 import re
 from typing import Any
 
-from tools.provisions import FRONT_MATTER_LINES, _match_section, is_source
+from corpus.provisions import FRONT_MATTER_LINES, match_section, is_source
 
 SCHEMA_VERSION = 1
 
@@ -52,7 +37,7 @@ TITLE = re.compile(r'^title:\s*"?(.+?)"?\s*$')
 KEY = re.compile(r"^(type|line|state|edition|effective):\s*(.+?)\s*$")
 
 
-# --- front matter -----------------------------------------------------------------
+# --- front matter ----------------------------------------------------------------
 def front_matter(lines: list[str]) -> dict[str, str]:
     out: dict[str, str] = {}
     for l in lines[:FRONT_MATTER_LINES]:
@@ -72,7 +57,7 @@ def family(path: str) -> str | None:
     return "/".join(parts[:4]) if path.startswith("forms/") and len(parts) == 5 else None
 
 
-# --- the reference extractor -------------------------------------------------------
+# --- the reference extractor -----------------------------------------------------
 def split_reference(body: str, titles: dict[str, str] | None = None) -> tuple[str | None, str | None, str]:
     """"<Title>, <section …>" -> (title, section token, remainder). A body that starts
     with a section id is a same-document reference: (None, section, remainder).
@@ -116,14 +101,12 @@ def _provision_at(provisions: list[dict], line: int) -> dict | None:
 
 
 def extract_references(corpus, pindex: dict, titles: dict[str, str]) -> tuple[list[dict], list[dict]]:
-    """(edges, unresolved). One `refers_to` edge per rendered reference, from the
-    provision that carries it to the section it names."""
+    """(edges, unresolved): one `refers_to` edge per rendered reference, provision -> the section it names."""
     edges: list[dict] = []
     unresolved: list[dict] = []
-    from tools.provisions import text_of
+    from corpus.provisions import text_of
 
-    # over each provision's rejoined text, not line by line: on pdf-text documents a
-    # reference wraps across lines and a page header can cut through it
+    # per provision, not per line: on pdf-text documents a reference wraps across lines
     for p in pindex["provisions"]:
         doc = p["document"]
         body = " ".join(text_of(corpus, p).split())
@@ -145,7 +128,7 @@ def extract_references(corpus, pindex: dict, titles: dict[str, str]) -> tuple[li
             if section is None:
                 edges.append({"from": src_id, "to": dst_doc, "type": "refers_to", "via": "text", "label": text})
                 continue
-            sec = _match_section(pindex, dst_doc, section, None)
+            sec = match_section(pindex, dst_doc, section, None)
             if sec is None:
                 unresolved.append({"from": src_id, "text": text, "why": f"{dst_doc} has no section {section!r}"})
                 continue
@@ -153,7 +136,7 @@ def extract_references(corpus, pindex: dict, titles: dict[str, str]) -> tuple[li
     return edges, unresolved
 
 
-# --- claims -> provisions ------------------------------------------------------------
+# --- claims -> provisions --------------------------------------------------------
 def claim_edges(claims: list[dict], pindex: dict) -> list[dict]:
     """`cites` edges from each claim to every provision its pointers overlap, in
     pointer order then document order. A pointer inside the front matter cites the
@@ -177,7 +160,7 @@ def claim_edges(claims: list[dict], pindex: dict) -> list[dict]:
     return out
 
 
-# --- documents -----------------------------------------------------------------------
+# --- documents -------------------------------------------------------------------
 def document_edges(meta: dict[str, dict[str, str]]) -> list[dict]:
     """supersedes (within a form family, by edition), amends (state amendatory -> the
     base forms of its line), attaches_to (endorsement -> the base forms of its line)."""
@@ -207,7 +190,7 @@ def document_edges(meta: dict[str, dict[str, str]]) -> list[dict]:
     return out
 
 
-# --- the navigation layer ----------------------------------------------------------
+# --- the navigation layer --------------------------------------------------------
 def index_edges(corpus) -> tuple[list[dict], dict[str, str]]:
     """`lists` edges from every wiki index page to the pages and directories it links,
     and labels for the pages (their link text)."""
@@ -230,7 +213,7 @@ def index_edges(corpus) -> tuple[list[dict], dict[str, str]]:
     return out, labels
 
 
-# --- the artifact --------------------------------------------------------------------
+# --- the artifact ----------------------------------------------------------------
 def provisions_fingerprint(pindex: dict) -> str:
     h = hashlib.sha256()
     for p in pindex["provisions"]:
@@ -239,8 +222,7 @@ def provisions_fingerprint(pindex: dict) -> str:
 
 
 def build_edges(corpus, sha: str, pindex: dict, claims: list[dict]) -> dict[str, Any]:
-    """The whole artifact for a corpus at `sha`. Pure over the corpus reader, the
-    provisions index and the claims (ClaimsIndex.claims or the committed index's list)."""
+    """The whole artifact for a corpus at `sha`, from the corpus, the provisions index and the claims."""
     meta: dict[str, dict[str, str]] = {}
     titles: dict[str, str] = {}
     labels: dict[str, str] = {}
@@ -282,24 +264,22 @@ def dumps(artifact: dict[str, Any]) -> str:
 
 
 def matches_provisions(artifact: dict, pindex: dict) -> bool:
-    """Does the committed artifact describe this provisions index (which was itself
-    accepted by content against the tree)?"""
+    """Was the committed artifact built over this provisions index?"""
     return artifact.get("schema_version") == SCHEMA_VERSION and artifact.get("provisions_fingerprint") == provisions_fingerprint(pindex)
 
 
-# --- the agent's copy -------------------------------------------------------------
+# --- the agent's cached copy ---------------------------------------------------
 _EDGES: dict[str, dict] = {}
 EDGES_SOURCE: dict[str, str] = {}
 
 
 async def ensure_edges(sha: str, blobs: dict[str, str] | None = None) -> dict[str, Any]:
-    """The committed `.graph-edges.json` at `sha` when it matches the provisions
-    index; otherwise the same artifact built here."""
+    """The committed `.graph-edges.json` when it matches the provisions index, else built here."""
     art = _EDGES.get(sha)
     if art is None:
-        from tools.claims_index import ensure_index
-        from tools.corpus_local import ensure_local_corpus
-        from tools.provisions import ensure_provisions
+        from corpus.claims import ensure_index
+        from corpus.loader import ensure_local_corpus
+        from corpus.provisions import ensure_provisions
 
         corpus = await ensure_local_corpus(sha, blobs)
         pindex = await ensure_provisions(sha, blobs)

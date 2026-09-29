@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-"""Build .graph-edges.json from the working tree (graph-expansion ph. 02).
+"""Build .graph-edges.json from the working tree.
 
-The edges the corpus states — claim → provision, provision → referenced section,
-edition → edition, amendatory → base form, index → page — plus node labels.
-Deterministic, no model: a pure function of the tree, the claims index and the
-provisions index. Imports the vendored agent module so the committed artifact
-and the one the agent builds in memory are the same bytes.
+The edges the corpus states (claim → provision, provision → referenced section,
+edition → edition, amendatory → base form, index → page) plus node labels.
+Deterministic, and built with the agent's vendored module.
 """
 import json
 import pathlib
@@ -15,17 +13,17 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "vendor"))
 
-from tools.claims_index import _scan_sidecars  # noqa: E402
-from tools.corpus_local import _load  # noqa: E402
-from tools.edges import build_edges, dumps  # noqa: E402
+from corpus.claims import scan_sidecars  # noqa: E402
+from corpus.edges import build_edges, dumps  # noqa: E402
+from corpus.loader import load_corpus  # noqa: E402
 
 
 def main() -> int:
     root = pathlib.Path.cwd()
     sha = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()
-    corpus = _load(root, sha, None)
+    corpus = load_corpus(root, sha, None)
     pindex = json.loads((root / ".provisions-index.json").read_text())
-    art = build_edges(corpus, sha, pindex, _scan_sidecars(corpus))
+    art = build_edges(corpus, sha, pindex, scan_sidecars(corpus))
     (root / ".graph-edges.json").write_text(dumps(art))
     print(f"wrote .graph-edges.json: {art['counts']}; {len(art['unresolved'])} unresolved reference(s); {len(art['labels'])} labels "
           f"(vendored from poc {(HERE / 'vendor' / 'VENDORED_FROM').read_text().strip()[:12]})", file=sys.stderr)

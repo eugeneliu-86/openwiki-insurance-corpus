@@ -1,18 +1,12 @@
-# The refresh workflow — phase 04 of the poc specs, contracts C4, C5, C6, C9, C11.
-#
-# A source document changed; recompile the wiki. No agent anywhere in here:
-# compiling is procedural, and routing it through a model would add
-# nondeterminism, latency, and a failure mode where the compile silently does
-# not happen.
+# The refresh workflow (contracts C4, C5, C6, C9, C11): a source document changed,
+# so recompile the wiki. Procedural throughout; no agent.
 name: OpenWiki Refresh
 
 on:
   push:
     branches: [main]
-    # ONLY the source directories. This is the loop-breaker, and it is
-    # structural rather than a guard inside the job: this workflow commits to
-    # openwiki/**, so a trigger firing on any push would re-trigger itself on
-    # its own output, forever. A paths filter makes that unrepresentable.
+    # Source directories only: this workflow commits to openwiki/**, so any wider
+    # trigger would re-trigger itself on its own output.
     paths:
       - 'forms/**'
       - 'bulletins/**'
@@ -20,7 +14,7 @@ on:
       - 'manuals/**'
       - 'memoranda/**'
       - 'training/**'
-  workflow_dispatch:        # manual, and the ingest API's explicit dispatch (C6)
+  workflow_dispatch:        # manual, and this workflow's own resume after an interrupted run
     inputs:
       mode:
         description: "Compile mode: deep (terra/high), normal (terra/medium), fast (gpt-5.4-mini/low). Ignored if the head commit carries a Compile-Mode trailer."
@@ -35,10 +29,8 @@ on:
   schedule:
     - cron: '17 7 * * *'    # the reconciler — see the job comment
 
-# C6 layer 1. GitHub holds one pending run per group and a third dispatch
-# replaces the pending one; that is correct, not lossy, because `openwiki
-# --update` compiles whatever is at HEAD. Cancelling the IN-PROGRESS run would
-# be lossy (OpenWiki merges pages as it finishes them), hence false.
+# C6: one pending run per group is enough, since `openwiki --update` compiles
+# whatever is at HEAD. Never cancel the in-progress run: pages merge as they finish.
 concurrency:
   group: openwiki-refresh
   cancel-in-progress: false
@@ -54,18 +46,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
-          # The BRANCH, not github.sha. A run that waited in the concurrency
-          # queue would otherwise check out the commit frozen at event time and
-          # recompile a tree that is already compiled: observed live — the
-          # dispatch queued behind the push run compiled 2736ad8 a second time
-          # (107 model calls), then its push was rejected because main had
-          # moved. Checking out the branch resolves at job start, so the queued
-          # run sees the new head, OpenWiki's no-op check skips, and C6's
-          # "the run that lands sees every document" becomes true.
+          # The branch, not github.sha: a run that waited in the queue must compile the
+          # current head, not the commit frozen at event time.
           ref: main
-          # Full history. A shallow clone hides the commit OpenWiki last
-          # documented, and the update then runs against an empty change
-          # summary — it recompiles nothing and reports success.
+          # Full history: a shallow clone hides the commit OpenWiki last documented, and
+          # the update then compiles nothing and reports success.
           fetch-depth: 0
 
       - name: Set up Node.js
@@ -74,10 +59,8 @@ jobs:
           node-version: '22'
 
       - name: Install OpenWiki
-        # The parallel page runner (OPENWIKI_PAGE_CONCURRENCY) is on a branch
-        # of langchain-ai/openwiki, not yet on npm. Built from a pinned commit;
-        # the package has no `prepare` script, so a plain git install would
-        # ship no dist/. Corpus-expansion spec ph. 04 §2, option 2.
+        # The parallel page runner is on an unreleased openwiki branch, so build it from
+        # a pinned commit (the package has no `prepare` script to build dist/).
         run: |
           git clone --quiet --no-checkout https://github.com/langchain-ai/openwiki.git /tmp/openwiki
           git -C /tmp/openwiki checkout --quiet a3e1d9d450410bf3dae31171293efed9930fd386
@@ -92,34 +75,25 @@ jobs:
           prev=$(jq -r '.compiled_from // empty' .compile-state.json 2>/dev/null || true)
           echo "compiled_from=$prev" >> "$GITHUB_OUTPUT"
 
-      # C4: the delta is set arithmetic over sidecar claim ids captured BEFORE
-      # the run. Nothing in this workflow parses OpenWiki's stdout.
+      # C4: the delta is set arithmetic over claim ids captured before the run; nothing parses stdout.
       - name: Record claim ids before
         run: ./scripts/claim-diff.sh snapshot /tmp/claims-before.txt
 
-      # The compile mode rides on the COMMIT, not the dispatch. The push run fires
-      # the instant the ingest lands and is the one that compiles; the explicit
-      # dispatch queues behind it and no-ops (C6). A dispatch input therefore
-      # cannot carry the mode — a `Compile-Mode:` trailer on the head commit can,
-      # and it also means the choice is recorded in git history.
+      # The compile mode comes from a `Compile-Mode:` trailer on the ingest commit: the
+      # push-triggered run is the one that compiles, and the choice stays in git history.
       - name: Resolve compile mode
         id: mode
         run: |
-          # The trailer rides on the INGEST commit. A refresh commit can land on
-          # top of it before this run checks out (a queued run saw exactly
-          # that), so read every commit since the last compile, newest first.
+          # A refresh commit can land on top of the ingest commit, so read every commit
+          # since the last compile, newest first.
           prev='${{ steps.prev.outputs.compiled_from }}'
           range="HEAD"; if [ -n "$prev" ] && git cat-file -e "$prev^{commit}" 2>/dev/null; then range="$prev..HEAD"; fi
           mode=$(git log $range --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
           mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
           case "$mode" in
             deep)   effort='high';   workers=4 ;;
-            # Fast is terra at LOW effort, not gpt-5.4-mini. Mini planned 20 of
-            # 29 pages for a 23-line net-new endorsement and two of its workers
-            # exited without submitting (an interrupted run); terra planned the
-            # 3 pages the document actually touches. Planning quality decides
-            # the wall time here, not per-call latency. (Mini also takes no
-            # effort setting — an empty effort means "do not set the variable".)
+            # Fast is terra at low effort: mini planned far more pages than a small document
+            # touches, and planning decides the wall time. An empty effort means "leave it unset".
             fast)   effort='low';    workers=6 ;;
             *)      mode='normal'; effort='medium'; workers=6 ;;
           esac
@@ -134,13 +108,10 @@ jobs:
 
       - name: Run OpenWiki
         id: openwiki
-        # An interrupted run has merged some pages and skipped others. That
-        # output is progress and is committed; the next run treats it as the
-        # baseline. Only this step tolerates failure — a state file that
-        # disagrees with the tree must never be.
+        # An interrupted run's merged pages are progress and are committed. Only this step
+        # may fail; a state file that disagrees with the tree never may.
         continue-on-error: true
-        # OPENWIKI_REASONING_EFFORT must be ABSENT, not empty, when the mode
-        # has no effort: OpenWiki validates any set value against its list.
+        # OPENWIKI_REASONING_EFFORT must be absent, not empty: OpenWiki validates any set value.
         run: |
           if [ -n "${OW_EFFORT}" ]; then export OPENWIKI_REASONING_EFFORT="${OW_EFFORT}"; fi
           openwiki code --update --print
@@ -148,9 +119,7 @@ jobs:
           OW_EFFORT: ${{ steps.mode.outputs.effort }}
           OPENWIKI_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # The model key is routed through the LangSmith gateway, exactly as
-          # the local runs that compiled this wiki were. Without the base URL a
-          # gateway key hits api.openai.com and fails.
+          # The model key goes through the LangSmith gateway; without the base URL it hits api.openai.com.
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENWIKI_MODEL_ID: ${{ steps.mode.outputs.model }}
           OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}   # the branch caps at 8 and backs off on 429s
@@ -166,26 +135,23 @@ jobs:
         if: ${{ !cancelled() }}
         run: ./scripts/claim-diff.sh snapshot /tmp/claims-after.txt
 
-      # C11. Imports the vendored phase 02 index code; never a reimplementation.
+      # C11. Built with the agent's vendored modules, never a reimplementation.
       - name: Build the claims index
         if: ${{ !cancelled() }}
         run: python3 scripts/build-claims-index.py
 
-      # Graph-expansion ph. 01 (tier 1). A pure function of the tree: every numbered
-      # paragraph with its section, line range and text hash. No model, never stale.
+      # Every numbered paragraph with its section, line range and text hash. No model.
       - name: Build the provisions index
         if: ${{ !cancelled() }}
         run: python3 scripts/build-provisions-index.py
 
-      # Graph-expansion ph. 02. The edges the corpus states, derived from the tree and
-      # the two indexes above: claim → provision, provision → referenced section, edition
-      # → edition, amendatory → base form, index → page. No model, never stale.
+      # The edges the corpus states, from the tree and the two indexes above. No model.
       - name: Build the edge artifact
         if: ${{ !cancelled() }}
         run: python3 scripts/build-graph-edges.py
 
-      # C4. Asserts compiled_from == .last-update.json gitHead, validates the
-      # schema, and exits non-zero on either — so an invalid file is never pushed.
+      # C4: compiled_from must equal .last-update.json's gitHead and the schema must
+      # validate, or nothing is pushed.
       - name: Write and validate the compile state
         id: state
         if: ${{ !cancelled() }}
@@ -197,8 +163,7 @@ jobs:
           "${{ steps.prev.outputs.compiled_from }}"
           "${{ steps.mode.outputs.mode }}"
 
-      # Only when the state file was written and validated: a tree pushed under
-      # a state file that disagrees with it is the one thing C4 forbids.
+      # Only with a validated state file: a tree pushed under one that disagrees is what C4 forbids.
       - name: Commit the compiled output
         id: commit
         if: ${{ !cancelled() && steps.state.outcome == 'success' }}
@@ -214,13 +179,9 @@ jobs:
           git commit -m "docs: refresh OpenWiki ($(jq -r .status .compile-state.json))" \
                      -m "compiled_from $(jq -r .compiled_from .compile-state.json)" \
                      -m "$(jq -c .claims .compile-state.json 2>/dev/null || echo 'claims: n/a')"
-          # The push can lose a race with a commit that landed while OpenWiki
-          # ran. Which commit decides what to do:
-          #   a SOURCE change (forms/bulletins/guidelines) — this compile is
-          #     stale; stop, and let the run that push triggered recompile.
-          #     Not a failure: nothing was lost and nothing is wrong.
-          #   anything else (scripts, workflow, a vendor sync) — the compile is
-          #     still true of the sources; replay our commit on top and push.
+          # If a commit landed while OpenWiki ran:
+          #   a source change: this compile is stale; stop, and let that push's run recompile.
+          #   anything else: the compile still holds; replay our commit on top and push.
           for attempt in 1 2 3; do
             if git push; then echo "landed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
             git fetch --quiet origin main
@@ -235,10 +196,8 @@ jobs:
           echo "could not land the compiled output after 3 attempts" >&2
           exit 1
 
-      # An interrupted run has committed its progress; nothing else re-triggers
-      # it (the push trigger ignores openwiki/**), so dispatch the resume here.
-      # Bounded: three interrupted compiles in a row means something is wrong
-      # with the run, not the schedule.
+      # An interrupted run committed its progress; dispatch the resume here, since the
+      # push trigger ignores openwiki/**. Bounded at three in a row.
       - name: Resume an interrupted compile
         if: ${{ !cancelled() && steps.state.outcome == 'success' && steps.commit.outcome == 'success' && steps.commit.outputs.landed != 'superseded' }}
         env:
@@ -251,17 +210,14 @@ jobs:
           echo "re-dispatching to resume (interrupted streak $streak, mode ${{ steps.mode.outputs.mode }})"
           gh workflow run openwiki-update.yml --ref main -f mode='${{ steps.mode.outputs.mode }}'
 
-      # C9. Fires on every terminal status. `|| true` because the callback is an
-      # optimization — .compile-state.json in git is the mechanism.
+      # C9. Every terminal status. `|| true`: the callback is an optimisation; the state file is the mechanism.
       - name: Callback
         if: ${{ always() && !cancelled() }}
         run: ./scripts/callback.sh || true
         env:
           REFRESH_CALLBACK_URL: ${{ secrets.REFRESH_CALLBACK_URL }}
           REFRESH_CALLBACK_SECRET: ${{ secrets.REFRESH_CALLBACK_SECRET }}
-          # A compile whose commit did not land is a FAILED refresh, whatever
-          # OpenWiki's own status says. Observed: a rejected push followed by a
-          # callback reporting "complete" for output nobody can read.
+          # A compile whose commit did not land is a failed refresh, whatever OpenWiki reports.
           COMMIT_OUTCOME: ${{ steps.commit.outcome }}
           # true | unchanged | superseded | false. Superseded is reported as
           # such, not as failed: the run the newer push triggered recompiles.

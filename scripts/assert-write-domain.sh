@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# The refresh workflow may write openwiki/**, .compile-state.json and
-# .claims-index.json, .provisions-index.json, .graph-edges.json, and NOTHING else (C5). The scaffold this replaced staged
-# AGENTS.md, CLAUDE.md and its own workflow file. Run after `git add`.
+# The refresh workflow may write openwiki/**, .compile-state.json and the three
+# indexes (.claims-index.json, .provisions-index.json, .graph-edges.json), and
+# nothing else (C5). Run after `git add`.
 set -euo pipefail
 stray=$(git diff --cached --name-only | grep -vE '^(openwiki/|\.compile-state\.json$|\.claims-index\.json$|\.provisions-index\.json$|\.graph-edges\.json$)' || true)
 # The human-owned brief is inside openwiki/ but is never the workflow's to change.

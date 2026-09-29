@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""Static assertions over the refresh workflow. Phase 04 §11, stdlib only.
+"""Static assertions over the refresh workflow, run in CI on every push. Stdlib only.
 
-Run in CI on every push. Each check names the contract it enforces and the
-failure it prevents; a check whose reason cannot be stated in a sentence is not
-worth its false positives.
+Each check names the contract it enforces.
 """
 import pathlib
 import re

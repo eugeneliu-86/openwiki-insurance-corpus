@@ -1,31 +1,16 @@
-"""Normalising a document relation to one of six types. Contract C11.
+"""Maps a claim's wording to one of six document-relation types.
 
-The corpus brief defines six verbs and a direction rule. Measured effect of
-adding it, over one clean regeneration:
-
-                                   before    after
-    relation candidates              84       123
-    stated with a controlled verb     8        43   (9% -> 34%)
-    direction correct, verifiable    1/3     23/33
-    distinct directed edges          22        25
-
-The other 80 are GENUINE relations expressed in synonyms — "replaces",
-"overrides", "changes only", the noun "write-back", "does not restore". The
-information is there; the vocabulary constraint held about a third of the time.
-
-That is a tier-4 failure in the enforcement taxonomy, which is why the map
-lives here rather than being trusted from the claim text. The brief raises the
-signal; this produces the contract.
+The compile brief asks for six controlled verbs, but claims use them only about
+a third of the time; the rest say "replaces", "overrides", "does not restore".
+So the type is read from the wording here rather than trusted from the claim.
 """
 
 from __future__ import annotations
 
 import re
 
-#: Ordered most-specific first; first match wins. Order matters: "replaces"
-#: appears under both writes-back and supersedes, and an endorsement replacing
-#: an exclusion is a write-back while an edition replacing an edition is a
-#: supersession, so the exclusion-scoped pattern must be tried first.
+#: Most specific first; the first match wins. writes-back is tried before supersedes because
+#: an endorsement replacing an exclusion is a write-back, not a supersession.
 PATTERNS: tuple[tuple[str, str], ...] = (
     (
         "writes-back",
@@ -72,13 +57,7 @@ _COMPILED = tuple((name, re.compile(pattern, re.I)) for name, pattern in PATTERN
 
 
 def normalize(statement: str) -> str | None:
-    """Return one of TYPES, or None.
-
-    None rather than a guess, deliberately. `preserves` and `writes-back` are
-    opposites — HO 04 90 writes back Section I A.3 and expressly preserves A.1
-    and A.2 — so a wrong type inverts a coverage answer. A missing type only
-    withholds one.
-    """
+    """One of TYPES, or None rather than a guess: preserves and writes-back are opposites."""
     text = statement or ""
     for name, pattern in _COMPILED:
         if pattern.search(text):

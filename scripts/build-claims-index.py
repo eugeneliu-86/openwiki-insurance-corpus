@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-"""Build .claims-index.json (C11) from the sidecars in the working tree.
+"""Build .claims-index.json from the sidecars in the working tree.
 
-Runs in the workflow AFTER the compile and BEFORE the commit, so it reads the
-working tree — the new sidecars are not committed yet. It imports the vendored
-phase 02 modules rather than reimplementing interval arithmetic and the synonym
-map: a second implementation would disagree with the first on exactly the hard
-cases, and would inherit none of the tests that pin them.
+Runs after the compile and before the commit, using the agent's own vendored
+modules, so the committed index and the one the agent builds are the same.
 """
 import json
 import pathlib
@@ -15,17 +12,15 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "vendor"))
 
-from tools.claims_index import ClaimsIndex, _scan_sidecars, to_committed  # noqa: E402
-from tools.corpus_local import _load  # noqa: E402
+from corpus.claims import ClaimsIndex, scan_sidecars, to_committed  # noqa: E402
+from corpus.loader import load_corpus  # noqa: E402
 
 
 def main() -> int:
     root = pathlib.Path.cwd()
     sha = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()
-    # The production loader over the working tree: same LF-only split rule the
-    # tools use, so line numbers in the index agree with the anchors.
-    corpus = _load(root, sha, None)
-    index = ClaimsIndex(corpus_sha=sha, claims=_scan_sidecars(corpus))
+    corpus = load_corpus(root, sha, None)     # the agent's loader, so line numbers agree with the anchors
+    index = ClaimsIndex(corpus_sha=sha, claims=scan_sidecars(corpus))
     data = to_committed(index, corpus)
     (root / ".claims-index.json").write_text(json.dumps(data, indent=1, sort_keys=False) + "\n")
     print(

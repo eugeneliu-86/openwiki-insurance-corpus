@@ -1,22 +1,11 @@
-"""The provision layer — graph-expansion phase 01, tier 1.
+"""The provision layer: every paragraph of every source document as an addressable unit.
 
-Every numbered paragraph of every source document is an addressable unit:
-document path, section, paragraph id, line range, and a hash of its text. No
-model is involved, so the layer covers 100% of the source and nothing in it can
-be stale: a provision is the source at the pinned commit.
-
-Two callers share one parser. The refresh workflow commits the index per commit
-(`.provisions-index.json`, built by the vendored copy of this module); the agent
-reads that file when it exists and otherwise builds the same index in memory
-from the corpus it already holds — the two are identical bytes, and a test pins
-that. `provisions_for` is the pure core the tool and the evaluator both call, so
-an evaluator recomputing "what did expand_section return" cannot disagree with
-the tool.
-
-Layout awareness: on `pdf-text` documents (corpus-expansion ph. 05 E1) a
-paragraph is wrapped over several lines and a page header/footer may cut
-through it. The parser rejoins the paragraph and drops the header/footer lines,
-so a provision on those documents is one unit with a multi-line range.
+A provision is a numbered paragraph, an unnumbered paragraph or a table row,
+with its document, section, line range and a hash of its text. Parsed from the
+source with no model, so it covers all of it and cannot go stale. On pdf-text
+documents a wrapped paragraph is rejoined and the page header and footer lines
+are dropped. Vendored into the corpus repo, which commits `.provisions-index.json`;
+`provisions_for` is shared by the tools and the evaluator.
 """
 
 from __future__ import annotations
@@ -27,11 +16,8 @@ import re
 from typing import Any, Callable
 
 try:
-    from langchain.tools import tool
     from langchain_core.tools import ToolException
 except ImportError:  # the vendored copy runs in the corpus workflow on stdlib Python: parser and index only
-    tool = None
-
     class ToolException(Exception):  # type: ignore[no-redef]
         pass
 
@@ -41,8 +27,7 @@ SCHEMA_VERSION = 1
 FRONT_MATTER_LINES = 12
 WINDOW = 12   # provisions per expand_section call
 
-#: `**B.2**`, `**W.14**`, `**DEF.11**`, `**B.2.6**`, `**L.3.1**`, `**110.A**`, `**4.AB**`, `**210.A.2**`,
-#: and the manuals' `**510.1**` / `**8.2**` (graph-expansion ph. 02: 384 numbered paragraphs the ph. 01 pattern missed)
+#: `**B.2**`, `**W.14**`, `**DEF.11**`, `**B.2.6**`, `**L.3.1**`, `**110.A**`, `**4.AB**`, `**210.A.2**`, `**510.1**`
 OPENER = re.compile(r"^\*\*([A-Z]{1,3}(?:\.\d+)+|[A-Z]+\.\d+(?:\.\d+)*|\d{1,3}\.[A-Z]{1,2}(?:\.\d+)?|\d{1,3}\.\d{1,2})\*\*")
 HEADING = re.compile(r"^## (.+?)(?: — (.*))?$")
 SUBHEADING = re.compile(r"^###+ (.+?)\s*$")   # a sub-heading inside a section (the hand-written corpus's "### A. Coverage A")
@@ -64,11 +49,6 @@ def normalize_document(path: str) -> str:
 
 def is_source(path: str) -> bool:
     return path.startswith(SOURCE_PREFIXES) and path.endswith(".md")
-
-
-def _section_key(heading_id: str) -> str:
-    """'Rule 110' -> 'Rule 110'; kept as written, matched loosely by `_match_section`."""
-    return heading_id.strip()
 
 
 def _compact(section_id: str) -> str:
@@ -111,7 +91,7 @@ def parse_document(path: str, lines: list[str]) -> tuple[list[dict], list[dict]]
         m = HEADING.match(line)
         if m:
             close(last_nonblank); close_section(i - 1)
-            sec_id, sec_title, sec_start = _section_key(m.group(1)), (m.group(2) or "").strip(), i
+            sec_id, sec_title, sec_start = m.group(1).strip(), (m.group(2) or "").strip(), i
             sub = ""; unnumbered = 0; table_rows = 0; in_table_header = False
             last_nonblank = i
             continue
@@ -152,9 +132,8 @@ def parse_document(path: str, lines: list[str]) -> tuple[list[dict], list[dict]]
         # a continuation line (soft break, wrapped line, sub-item) extends the open unit
     close(last_nonblank); close_section(len(lines))
 
-    # ids unique within the document. A repeated paragraph id is prefixed with its
-    # sub-heading when there is one, else its section; a residual repeat gets an
-    # ordinal. The generated corpus never repeats; the hand-written one does.
+    # Make ids unique within the document: a repeated id is prefixed with its sub-heading,
+    # else its section; a residual repeat gets an ordinal.
     def dedupe(key) -> None:
         counts: dict[str, int] = {}
         for p in provisions:
@@ -194,8 +173,33 @@ def dumps(index: dict[str, Any]) -> str:
     return json.dumps(index, indent=1, sort_keys=False, ensure_ascii=False) + "\n"
 
 
-# --- lookups -----------------------------------------------------------------------
-def _match_section(index: dict, document: str, section: str | None, line: int | None) -> dict | None:
+def matches_tree(index: dict, corpus, sample: int = 64) -> bool:
+    """Does a committed index describe this tree? Judged by content, not SHA (the
+    workflow commits it one commit behind): every source document present, and a
+    fixed sample of provisions whose text still hashes as recorded."""
+    ps = index.get("provisions") or []
+    docs = {p for p in corpus.paths(suffix=".md") if is_source(p)}
+    if set(index.get("sections") or {}) != docs or not ps:
+        return False
+    step = max(1, len(ps) // sample)
+    for p in ps[::step] + [ps[-1]]:
+        try:
+            lines = corpus.lines(p["document"])
+        except FileNotFoundError:
+            return False
+        if p["end"] > len(lines):
+            return False
+        text = lines[p["start"] - 1:p["end"]]
+        if p.get("layout") == "pdf-text":
+            text = [l for l in text if not (HEADER_RE.match(l) or FOOTER_RE.match(l))]
+        if hashlib.sha256(("\n".join(text) + "\n").encode()).hexdigest() != p["content_hash"]:
+            return False
+    return True
+
+
+# --- lookups ------------------------------------------------------------------
+
+def match_section(index: dict, document: str, section: str | None, line: int | None) -> dict | None:
     secs = index["sections"].get(document) or []
     if line is not None:
         return next((s for s in secs if s["start"] <= line <= s["end"]), None)
@@ -216,7 +220,7 @@ def _match_section(index: dict, document: str, section: str | None, line: int | 
 
 
 def section_of(index: dict, document: str, line: int) -> str | None:
-    s = _match_section(index, normalize_document(document), None, line)
+    s = match_section(index, normalize_document(document), None, line)
     return s["id"] if s else None
 
 
@@ -246,13 +250,13 @@ def provisions_for(index: dict, corpus, document: str, section: str | None = Non
         hits = [p for p in by_doc if p["paragraph"] == want or p["paragraph"].endswith("/" + want)]
         if not hits:
             raise ToolException(f"{doc} has no paragraph {paragraph!r}")
-        sec = _match_section(index, doc, None, hits[0]["start"])
+        sec = match_section(index, doc, None, hits[0]["start"])
         items = hits
     else:
         line = None
         if section and re.fullmatch(r"L?\d+", section.strip()):
             line = int(section.strip().lstrip("L")); section = None
-        sec = _match_section(index, doc, section, line)
+        sec = match_section(index, doc, section, line)
         if sec is None:
             have = ", ".join(s["id"] for s in index["sections"][doc][:40])
             raise ToolException(f"{doc}: cannot resolve section {section!r}. Sections: {have}")
@@ -269,17 +273,30 @@ def provisions_for(index: dict, corpus, document: str, section: str | None = Non
             "provisions": out, "count": total, "next_offset": (offset + limit) if truncated else None, "note": note}
 
 
-# --- the agent's copy of the index -------------------------------------------------
+def by_id(index: dict, provision_id: str) -> dict | None:
+    return next((p for p in index["provisions"] if p["id"] == provision_id), None)
+
+
+def is_provision_id(resource: str) -> bool:
+    return isinstance(resource, str) and "#" in resource and not resource.startswith(("repo://", "claim_")) and is_source(resource.split("#")[0])
+
+
+def section_lookup(index: dict) -> Callable[[str, int], str | None]:
+    """A (document, line) -> section id function for the traversal's compact claims."""
+    return lambda document, line: section_of(index, document, line)
+
+
+# --- the agent's cached copy -----------------------------------------------------
+
 _INDEXES: dict[str, dict] = {}
 INDEX_SOURCE: dict[str, str] = {}
 
 
 async def ensure_provisions(sha: str, blobs: dict[str, str] | None = None) -> dict[str, Any]:
-    """The committed `.provisions-index.json` at `sha` when it exists and matches;
-    otherwise the same index built here from the local corpus."""
+    """The committed `.provisions-index.json` when it matches the tree, else built here."""
     idx = _INDEXES.get(sha)
     if idx is None:
-        from tools.corpus_local import ensure_local_corpus
+        from corpus.loader import ensure_local_corpus
 
         corpus = await ensure_local_corpus(sha, blobs)
         try:
@@ -292,76 +309,3 @@ async def ensure_provisions(sha: str, blobs: dict[str, str] | None = None) -> di
             INDEX_SOURCE[sha] = "built"
         _INDEXES[sha] = idx
     return idx
-
-
-def matches_tree(index: dict, corpus, sample: int = 64) -> bool:
-    """Does the committed index describe this tree? The workflow builds the index at
-    the source commit and commits it with the wiki, so its `corpus_sha` is always one
-    commit behind the SHA the agent pins; the SHA is not the test. The test is the
-    content: every source document accounted for, and a deterministic sample of
-    provisions (first, last and evenly spaced) whose text still hashes as recorded."""
-    ps = index.get("provisions") or []
-    docs = {p for p in corpus.paths(suffix=".md") if is_source(p)}
-    if set(index.get("sections") or {}) != docs or not ps:
-        return False
-    step = max(1, len(ps) // sample)
-    for p in ps[::step] + [ps[-1]]:
-        try:
-            lines = corpus.lines(p["document"])
-        except FileNotFoundError:
-            return False
-        if p["end"] > len(lines):
-            return False
-        text = lines[p["start"] - 1:p["end"]]
-        if p.get("layout") == "pdf-text":
-            text = [l for l in text if not (HEADER_RE.match(l) or FOOTER_RE.match(l))]
-        if hashlib.sha256(("\n".join(text) + "\n").encode()).hexdigest() != p["content_hash"]:
-            return False
-    return True
-
-
-def by_id(index: dict, provision_id: str) -> dict | None:
-    return next((p for p in index["provisions"] if p["id"] == provision_id), None)
-
-
-def is_provision_id(resource: str) -> bool:
-    return isinstance(resource, str) and "#" in resource and not resource.startswith(("repo://", "claim_")) and is_source(resource.split("#")[0])
-
-
-async def _expand_section(document: str, section: str | None = None, paragraph: str | None = None, offset: int = 0) -> dict:
-    """Read one section of a source document as its numbered provisions,
-    verbatim, each with an id you can cite — without reading the whole file.
-
-    Use it when a claim's window does not carry the fact you need: a claim tells
-    you the document and section it rests on; this returns everything that
-    section says, in order, twelve provisions at a time.
-
-    To cite a provision, put its id (e.g. forms/HO/MS/HO-04-90/2027-01.md#W.2)
-    in the citation's `resource` and leave `quote` empty; the line pointer and
-    verbatim quote are filled in from the index after you answer.
-
-    Args:
-        document: The source document, as a path (forms/HO/MS/HO-3/2024-03.md), a
-            repo:// pointer, or the /workspace/corpus/... path grep showed you.
-        section: A section id (W.2, I.E, B.3), a manual rule (Rule 110 or 110), a
-            heading fragment, or a line number inside the section. Omit when
-            passing `paragraph`.
-        paragraph: One paragraph id (W.14, 110.A, DEF.11) to fetch just that provision.
-        offset: Provisions to skip; pass the `next_offset` a previous call returned.
-    """
-    from tools.claims import _pinned
-    from tools.corpus_local import ensure_local_corpus
-
-    sha, blobs = _pinned()
-    index = await ensure_provisions(sha, blobs)
-    corpus = await ensure_local_corpus(sha, blobs)
-    return {"corpus_sha": sha, **provisions_for(index, corpus, document, section, paragraph, offset)}
-
-
-#: The agent's tool; absent when langchain is not installed (the vendored copy).
-expand_section = tool("expand_section", parse_docstring=True)(_expand_section) if tool is not None else None
-
-
-def section_lookup(index: dict) -> Callable[[str, int], str | None]:
-    """A (document, line) -> section id function for the traversal's compact claims."""
-    return lambda document, line: section_of(index, document, line)
