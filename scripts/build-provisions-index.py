@@ -11,8 +11,8 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "vendor"))
 
-from corpus.loader import load_corpus  # noqa: E402
-from corpus.provisions import build_provisions_index, dumps  # noqa: E402
+from corpus.snapshot.loader import load_corpus  # noqa: E402
+from corpus.indexes.provisions import build_provisions_index, dumps  # noqa: E402
 
 
 def main() -> int:

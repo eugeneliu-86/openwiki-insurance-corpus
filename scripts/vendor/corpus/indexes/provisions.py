@@ -296,7 +296,7 @@ async def ensure_provisions(sha: str, blobs: dict[str, str] | None = None) -> di
     """The committed `.provisions-index.json` when it matches the tree, else built here."""
     idx = _INDEXES.get(sha)
     if idx is None:
-        from corpus.loader import ensure_local_corpus
+        from corpus.snapshot.loader import ensure_local_corpus
 
         corpus = await ensure_local_corpus(sha, blobs)
         try:

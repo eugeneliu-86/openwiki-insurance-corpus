@@ -14,10 +14,13 @@ import os
 import pathlib
 import tarfile
 import tempfile
-
 from dataclasses import dataclass, field
 
-from contracts.corpus_manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha
+from contracts.corpus_manifest import (
+    CorpusIntegrityError,
+    CorpusUnavailableError,
+    git_blob_sha,
+)
 
 logger = logging.getLogger(__name__)
 

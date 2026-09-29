@@ -20,7 +20,7 @@ import json
 import re
 from typing import Any
 
-from corpus.provisions import FRONT_MATTER_LINES, match_section, is_source
+from corpus.indexes.provisions import FRONT_MATTER_LINES, is_source, match_section
 
 SCHEMA_VERSION = 1
 
@@ -104,7 +104,7 @@ def extract_references(corpus, pindex: dict, titles: dict[str, str]) -> tuple[li
     """(edges, unresolved): one `refers_to` edge per rendered reference, provision -> the section it names."""
     edges: list[dict] = []
     unresolved: list[dict] = []
-    from corpus.provisions import text_of
+    from corpus.indexes.provisions import text_of
 
     # per provision, not per line: on pdf-text documents a reference wraps across lines
     for p in pindex["provisions"]:
@@ -277,9 +277,9 @@ async def ensure_edges(sha: str, blobs: dict[str, str] | None = None) -> dict[st
     """The committed `.graph-edges.json` when it matches the provisions index, else built here."""
     art = _EDGES.get(sha)
     if art is None:
-        from corpus.claims import ensure_index
-        from corpus.loader import ensure_local_corpus
-        from corpus.provisions import ensure_provisions
+        from corpus.indexes.claims import ensure_index
+        from corpus.indexes.provisions import ensure_provisions
+        from corpus.snapshot.loader import ensure_local_corpus
 
         corpus = await ensure_local_corpus(sha, blobs)
         pindex = await ensure_provisions(sha, blobs)

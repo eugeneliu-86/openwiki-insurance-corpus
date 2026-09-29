@@ -258,7 +258,7 @@ async def ensure_index(sha: str, blobs: dict[str, str] | None = None) -> ClaimsI
     """The claims index at `sha`: the committed one when it fits, else a scan."""
     index = _INDEXES.get(sha)
     if index is None:
-        from corpus.loader import ensure_local_corpus
+        from corpus.snapshot.loader import ensure_local_corpus
 
         corpus = await ensure_local_corpus(sha, blobs)
         try:

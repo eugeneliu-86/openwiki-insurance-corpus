@@ -13,9 +13,9 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "vendor"))
 
-from corpus.claims import scan_sidecars  # noqa: E402
-from corpus.edges import build_edges, dumps  # noqa: E402
-from corpus.loader import load_corpus  # noqa: E402
+from corpus.indexes.claims import scan_sidecars  # noqa: E402
+from corpus.indexes.edges import build_edges, dumps  # noqa: E402
+from corpus.snapshot.loader import load_corpus  # noqa: E402
 
 
 def main() -> int:
