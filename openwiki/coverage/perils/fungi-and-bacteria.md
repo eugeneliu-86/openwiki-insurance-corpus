@@ -12,6 +12,8 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
+  - id: openwiki-source-65c1bab72aeee4cf69ba7892
+    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
@@ -20,10 +22,10 @@ sources:
     resource: repo://guidelines/claims/mold-claim-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.0", at: "2026-09-30T03:34:44.898Z" }
 verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-19T07:29:25.602Z
+  - by: openwiki/0.6.0
+    at: 2026-09-30T03:34:44.898Z
 ---
 # Fungi and Bacteria
 
@@ -35,25 +37,31 @@ The practical sequence is:
 
 ```mermaid
 flowchart TD
-    A["Start with the policy form"] --> B{"Base exclusion applies"}
-    B -->|"no"| C["Apply the other policy terms"]
-    B -->|"yes"| D{"Applicable endorsement attached"}
-    D -->|"no"| E["No write back under that endorsement"]
-    D -->|"yes"| F{"Covered cause caused direct loss first"}
-    F -->|"no"| E
-    F -->|"yes"| G{"Endorsement exclusion applies"}
-    G -->|"yes"| E
-    G -->|"no"| H["Pay only expressly covered costs"]
-    H --> I["Apply deductible and aggregate limit"]
+    A["Start with policy form and loss date"] --> B{"HO 04 81 edition route"}
+    B -->|"written under 2018-09"| C["Use $10,000 aggregate"]
+    B -->|"written or renewed on or after 2026-10-01"| D["Use 2026-09 and $25,000 aggregate"]
+    C --> E{"Base exclusion applies"}
+    D --> E
+    E -->|"no"| F["Apply other policy terms"]
+    E -->|"yes"| G{"Applicable endorsement attached"}
+    G -->|"no"| H["No write back under that endorsement"]
+    G -->|"yes"| I{"Covered cause caused direct loss first"}
+    I -->|"no"| H
+    I -->|"yes"| J{"Endorsement exclusion applies"}
+    J -->|"yes"| H
+    J -->|"no"| K["Pay only expressly covered costs"]
+    K --> L["Apply deductible and routed aggregate limit"]
 ```
 
 *This flow summarizes the HO 04 81 composition rules; it is not a policy, an endorsement, or a state-specific coverage determination.*
 
 ## HO 04 81 writes back narrowly to the HO-3 exclusion
 
-**HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage, edition 2018-09 (line HO-3),** is an endorsement. It says, “This ‘endorsement’ modifies the insurance provided by your ‘policy’,” that the policy’s “terms, limitations, exclusions, and conditions” continue unless changed, and, “This endorsement does not expand coverage beyond its express terms” (**W.0**). It therefore must be read with the **HO-3 Homeowners 3 — Special Form, edition 2024-03**, not used as a free-standing mold policy.
+**HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage** is an HO-3 endorsement, not a free-standing mold policy. Edition **2018-09** remains governing for policies written under that edition, including losses reported later. Edition **2026-09** applies to policies written or renewed on or after **2026-10-01** and supersedes 2018-09 for those policies (**2018-09 preamble; 2026-09 lines 1–7**). The 2026 edition states that its only change is the limit, raised from $10,000 to $25,000; all other provisions are unchanged (**2026-09 W.6**).
 
-The endorsement’s coverage trigger is sequential. It defines fungi to include “fungi, wet or dry rot, or bacteria” and their products or byproducts; requires a covered cause to cause direct physical loss to covered property; requires the fungi to result from that loss; and requires the covered cause to occur first (**W.1 W.1–W.6**). Its operative exception is: “We cover loss caused by fungi only when the requirements of this coverage are met. We do not cover loss caused by fungi that does not result from a covered cause of loss” (**W.1 W.6**).
+The 2018 endorsement says, “This ‘endorsement’ modifies the insurance provided by your ‘policy’,” preserves the policy’s “terms, limitations, exclusions, and conditions” unless changed, and says, “This endorsement does not expand coverage beyond its express terms” (**2018-09 W.0**). Read it with the **HO-3 Homeowners 3 — Special Form, edition 2024-03**. The 2026 edition likewise controls where it conflicts with the policy, while unchanged policy provisions remain operative (**2026-09 lines 5–7; 2018-09 W.0**).
+
+The coverage trigger is sequential. It defines fungi to include “fungi, wet or dry rot, or bacteria” and their products or byproducts; requires a covered cause to cause direct physical loss to covered property; requires the fungi to result from that loss; and requires the covered cause to occur first (**2018-09 W.1 W.1–W.6; 2026-09 W.1–W.2**). The operative boundary is: “We cover loss caused by fungi only when the requirements of this coverage are met. We do not cover loss caused by fungi that does not result from a covered cause of loss” (**2018-09 W.1 W.6**).
 
 The HO-3 base form then supplies the exclusion that the endorsement can modify only on its own terms:
 
@@ -83,7 +91,7 @@ Bodily injury, sickness, disease, health-related testing or treatment, diminishe
 
 ### HO 04 81 limit, deductible, and claim duties
 
-For HO 04 81 edition 2018-09, the most payable for “fungi, wet or dry rot, or bacteria” is **$10,000**, and it is the total for all covered loss involving those conditions regardless of the number of claims, insureds, or items of property; it is not additional insurance (**W.2 W.1–W.2**). The same aggregate applies to covered property at separate locations and to personal and real property that otherwise qualifies (**W.2 W.5–W.6**). It includes covered property damage and related covered access, removal, treatment, testing, cleaning, repair, replacement, restoration, and protective costs (**W.2 W.3–W.22**). Payments reduce the remaining amount and do not restore it; the endorsement does not cover loss after exhaustion (**W.1 W.51–W.52**). Apply the applicable policy deductible to covered loss; the deductible does not enlarge the aggregate (**W.2 W.24; W.3 W.1–W.2**).
+For HO 04 81 edition 2018-09, the most payable for “fungi, wet or dry rot, or bacteria” is **$10,000**. For edition 2026-09, the most payable is **$25,000**. In both editions the amount is the total aggregate for covered loss involving those conditions, regardless of the number of claims, persons insured, or items of property, and is not additional insurance (**2018-09 W.2 W.1–W.2; 2026-09 W.2 W.5–W.6**). The 2026 form expressly says the only change from 2018-09 is this increase (**2026-09 W.6**). The aggregate applies to covered property at separate locations and to personal and real property that otherwise qualifies (**2018-09 W.2 W.5–W.6**). It includes covered property damage and related covered access, removal, treatment, testing, cleaning, repair, replacement, restoration, and protective costs (**W.2 W.3–W.22**). Payments reduce the remaining amount and do not restore it; the endorsement does not cover loss after exhaustion (**W.1 W.51–W.52**). Apply the applicable policy deductible to covered loss; the deductible does not enlarge the aggregate (**W.2 W.24; W.3 W.1–W.2**).
 
 The endorsement requires prompt notice and says, “An insured must report the loss within thirty days.” Notice must identify the insured, affected property, location, reported condition, and known circumstances (**W.5 W.1–W.5**). The insured must protect property, make reasonable protective repairs, retain damaged property and evidence when reasonably possible, permit inspection and testing, cooperate, and provide records, photographs, invoices, estimates, reports, samples, and remediation information (**W.5 W.6–W.22; W.5 W.29–W.38**). Compliance preserves the investigation; it does not create coverage or increase the aggregate (**W.5 W.1**).
 
