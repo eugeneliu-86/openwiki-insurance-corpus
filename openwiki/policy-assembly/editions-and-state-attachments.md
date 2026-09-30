@@ -3,13 +3,12 @@ type: policy-assembly
 title: Editions, Endorsements, and State Attachments
 description: A policy-assembly workflow for routing by line, state, effective date, Declarations, and the complete issued package before interpreting coverage. It separates contract forms, regulatory bulletins, and internal guidance while resolving endorsement and state-form conflicts.
 tags: [policy assembly, insurance forms, endorsements, state attachments]
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-38049e374f54d1eb9a15f4ef
     resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
-  - id: openwiki-source-0de2907066d0f023c5c2e68b
-    resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-65c1bab72aeee4cf69ba7892
-    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
@@ -38,10 +37,7 @@ sources:
     resource: repo://training/choosing-the-governing-edition.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.6.0", at: "2026-09-30T04:20:28.270Z" }
-verified:
-  - by: openwiki/0.6.0
-    at: 2026-09-30T04:20:28.270Z
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 
 
@@ -131,36 +127,6 @@ A state form and a regulator bulletin are complementary but different. **HO 01 4
 The filing memorandum for HO-3 2018-09 describes revision reasons such as clarifying coverage conditions, exclusions, exceptions, valuation, deductibles, and insured responsibilities. It is interpretation, not a second policy form; the 2018 filed wording supplies the operative result ([HO-3 2018-09 memorandum](repo://memoranda/HO-3-2018-09.md#L13-L99), [HO-3 2018-09 form](repo://forms/HO/MS/HO-3/2018-09.md#L13-L39)). The HO-3 2024-03 memorandum likewise explains deductible wording and multi-cause handling, but the filed 2024-03 form remains the authority ([HO-3 2024-03 memorandum](repo://memoranda/HO-3-2024-03.md#L23-L31), [HO-3 2024-03 form](repo://forms/HO/MS/HO-3/2024-03.md#L15-L39)). The HO 04 90 2027-01 memorandum similarly explains changes made for clarity, organization, terminology, and deductible wording; it does not replace the 2027 endorsement’s coverage, limit, deductible, or exclusions ([HO 04 90 memorandum](repo://memoranda/HO-04-90-2027-01.md#L13-L31), [HO 04 90 2027-01](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L81)).
 
 Training supports the review method: read the complete endorsement, compare it with the request and policy package, and escalate missing or conflicting material. It does not establish a live policy’s coverage ([Attaching Endorsements Correctly](repo://training/attaching-endorsements.md#L15-L23), [Choosing the Governing Edition](repo://training/choosing-the-governing-edition.md#L35-L49)). The appetite guide and manual operate before binding. **Manual Rule 400 constrains endorsement attachment** by requiring supported, eligible, correctly matched, complete, and intent-consistent requests; **the manual preserves the boundary that carrier-issued terms determine coverage** ([manual Rules 100.B-100.E](repo://manuals/underwriting/manual.md#L21-L43), [manual Rule 400.A-400.G](repo://manuals/underwriting/manual.md#L5091-L5129), [HO 04 90 2027-01](repo://forms/HO/MS/HO-04-90/2027-01.md#L15-L39)). For Texas, Rule 510 adds internal authority and risk controls: Coverage A up to $800,000 may be within line-underwriter authority, amounts through $1,200,000 require senior referral, water-backup limits over $25,000 require referral, a 15-year roof inspection is required, and the Texas address must be verified. These are not hidden policy limits ([manual Rule 510](repo://manuals/underwriting/manual.md#L6227-L6263)).
-
-## HO 04 81 edition selection and composition
-
-**HO 04 81 edition 2026-09 supersedes HO 04 81 edition 2018-09 for policies written or renewed on or after 2026-10-01.** The 2026-09 endorsement states both the boundary and the replacement relationship, while the 2018-09 endorsement preserves its own live status for policies written under it and governs losses under those policies regardless of when reported ([HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7), [HO 04 81 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12)). Do not use the repository's newer edition to rewrite an older issued contract.
-
-The selection boundary does not establish attachment. HO 04 81 2026-09 is a multistate endorsement to HO-3 and controls only where it conflicts with the policy, while the attachment training requires the actual endorsement, complete pages and schedules, correct insured and term, and reconciliation of listed-but-missing or attached-but-unlisted forms ([HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L3-L7), [Attaching Endorsements Correctly](repo://training/attaching-endorsements.md#L65-L87), [Choosing the Governing Edition](repo://training/choosing-the-governing-edition.md#L109-L115)). Thus a schedule, system label, or repository presence is an index to verify, not proof that HO 04 81 forms part of the issued policy.
-
-When the package confirms attachment, read the acting document first and then the HO-3 wording it changes. **HO 04 81 2026-09 modifies the governing HO-3 policy only within its express fungi, wet or dry rot, or bacteria coverage and supersedes conflicting policy wording; it preserves the policy's unchanged terms.** The endorsement covers direct physical loss caused by fungi resulting from a covered cause that occurred first, and reasonable necessary removal, access tear-out/replacement, and post-remediation testing; it excludes fungi loss arising from constant or repeated seepage or leakage and flood ([HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L5-L21), [HO-3 2024-03](repo://forms/HO/MS/HO-3/2024-03.md#L15-L39)). The endorsement's conflict rule and unchanged-provisions rule are the control flow for composition, not an inference that every fungi-related loss is covered ([HO 04 81 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md#L17-L47), [HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21)).
-
-The material edition change is quantitative: **HO 04 81 2026-09 modifies the 2018-09 fungi aggregate limit from $10,000 to $25,000**, and the 2026-09 text says all other provisions are unchanged. Apply $25,000 only to an attached 2026-09 endorsement within its effective boundary; retain the $10,000 limit for an attached 2018-09 endorsement governing an earlier policy ([HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33), [HO 04 81 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L169)). This comparison is contract wording; training remains a review method and cannot substitute for the issued endorsement ([Choosing the Governing Edition](repo://training/choosing-the-governing-edition.md#L35-L47), [Attaching Endorsements Correctly](repo://training/attaching-endorsements.md#L101-L107)).
-
-<!-- openwiki: mermaid parse failed and this diagram was converted to a text fence so it does not break rendering. Fix the diagram source and restore the mermaid fence. Parser error: Heuristic: a semicolon inside a label breaks rendering; rephrase the label. -->
-```text
-flowchart TD
-    A["HO-3 policy date and issued package"] --> B{"Written or renewed on or after 2026-10-01"}
-    B -->|"yes"| C["Candidate HO 04 81 2026-09"]
-    B -->|"no"| D["Live HO 04 81 2018-09"]
-    C --> E{"Actual endorsement and complete package confirmed"}
-    D --> E
-    E -->|"no"| F["Do not infer attachment; obtain or escalate"]
-    E -->|"yes"| G["Read HO 04 81 first, then HO-3"]
-    G --> H["Apply express change and preserve unchanged terms"]
-```
-
-### Worked fungi assemblies
-
-These examples assume the listed forms are actually issued and attached. They demonstrate the selection method, not a substitute for the policy record.
-
-- **Policy written 2025-06-01:** HO 04 81 2018-09 remains the live endorsement edition; its $10,000 aggregate applies if the complete issued package confirms attachment. HO 04 81 2026-09 supersedes it only at the 2026-10-01 boundary ([HO 04 81 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12), [HO 04 81 2018-09 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L169), [HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7)).
-- **Policy renewed 2026-10-01 or later:** HO 04 81 2026-09 supersedes HO 04 81 2018-09 for that policy, but only if the 2026-09 form is actually attached. Its $25,000 aggregate applies, while the HO-3 and other unchanged policy provisions remain part of the assembled contract ([HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L3-L7), [HO 04 81 2026-09 limit and unchanged provisions](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33), [HO-3 2024-03](repo://forms/HO/MS/HO-3/2024-03.md#L15-L39)).
 
 ## Worked assemblies
 

@@ -4,8 +4,8 @@ title: Mold Claim Handling
 description: Internal guidance for investigating moisture and microbial-loss reports, preserving evidence, directing mitigation, consulting the controlling fungi and water provisions, applying limits, and escalating unresolved or material issues.
 tags: [claims, mold, fungi, moisture, water-loss, mitigation, evidence, escalation]
 verified:
-  - by: openwiki/0.6.0
-    at: 2026-09-30T04:20:28.270Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -13,8 +13,6 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-65c1bab72aeee4cf69ba7892
-    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
@@ -25,7 +23,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.6.0", at: "2026-09-30T04:20:28.270Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Mold Claim Handling
 
@@ -108,13 +106,13 @@ Do not treat emergency mitigation as proof that permanent repair or remediation 
 
 The base form’s grant, exclusions, definitions, conditions, and property coverage must be read with every attached endorsement. For example, HO-3 2024-03 covers direct physical loss from specified accidental discharge or overflow but excludes continuous or repeated seepage or leakage, several external-water pathways, and loss to the system or appliance from which water escaped; its fungi provisions separately exclude fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement ([HO-3 water provisions](repo://forms/HO/MS/HO-3/2024-03.md#L485-L545), [HO-3 fungi exclusions](repo://forms/HO/MS/HO-3/2024-03.md#L629-L649)). HO-4 2021-10 has no Coverage A for the dwelling and has its own edition-specific water and fungi wording, including the fungi exclusion in X.32 ([HO-4 Coverage A](repo://forms/HO/MS/HO-4/2021-10.md#L71-L89), [HO-4 water and fungi provisions](repo://forms/HO/MS/HO-4/2021-10.md#L565-L583), [HO-4 fungi exclusion](repo://forms/HO/MS/HO-4/2021-10.md#L707-L715)). Do not import one form’s resulting-loss language, limit, deductible, or endorsement into another edition.
 
-### HO 04 81: route the attached edition before applying the limit
+### HO 04 81 (2018-09): narrow limited fungi coverage
 
-Confirm the endorsement attached to the policy assembly, its edition, policy term, and any state attachment before stating a coverage position. The 2018-09 edition remains governing for policies written under it, including losses reported later; the 2026-09 edition replaces it for policies written or renewed on or after **2026-10-01** ([2018-09 applicability](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12), [2026-09 applicability](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7)). Do not select an edition from the report date, vendor invoice, or current form catalog.
+When **HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)** is actually attached, it modifies the policy only on its express terms. The endorsement requires a covered cause of loss to first cause direct physical loss to covered property, with the fungi-related loss resulting from that direct physical loss. It does not convert an excluded water source or another excluded cause into a covered cause ([HO 04 81 W.0 and W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L67)).
 
-Both editions require the fungi-related loss to result from a covered cause that first causes direct physical loss to covered property. The endorsement does not convert an excluded water source or another excluded cause into a covered cause ([2018-09 coverage trigger](repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L67), [2026-09 coverage trigger](repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21)). Where the applicable edition's requirements are met, qualifying costs can include removal, necessary access tear-out and replacement, remediation, and post-remediation testing; the exact attached wording controls what is payable ([2018-09 covered services](repo://forms/HO/MS/HO-04-81/2018-09.md#L69-L81), [2026-09 covered services](repo://forms/HO/MS/HO-04-81/2026-09.md#L14-L21)).
+If those requirements are met, the endorsement can address direct fungi-related physical loss and reasonable, necessary costs for removal; tear-out and replacement needed to access or repair covered property; remediation; and air or property testing after covered removal, repair, replacement, restoration, or remediation when there is reason to believe fungi remain. The endorsement excludes, among other things, fungi arising from constant or repeated seepage or leakage, constant or repeated discharge or overflow, flood, preexisting conditions, deterioration, neglect, inadequate maintenance, defective work, preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, health-related testing or treatment, and work unrelated to covered direct physical loss ([HO 04 81 coverage and boundaries](repo://forms/HO/MS/HO-04-81/2018-09.md#L45-L125)).
 
-Apply the controlling edition's limit separately from the handling guidance. Under **HO 04 81 (2018-09)**, the fungi, wet-or-dry-rot, or bacteria limit is a **$10,000 aggregate** for all covered loss during the policy term. Under **HO 04 81 (2026-09)**, the corresponding aggregate is **$25,000**. Neither is a separate amount per room, item, insured, location, or claim; covered damage and qualifying related expenses share the applicable aggregate, and payments reduce what remains ([2018-09 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L179), [2026-09 limit and edition change](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33)). If the policy assembly, edition date, or state attachment conflicts or is uncertain, stop short of a definitive limit statement and escalate for policy review.
+The HO 04 81 fungi, wet-or-dry-rot, or bacteria limit is a **$10,000 aggregate for all covered loss during the policy term**. It is not a separate amount per room, item, insured, location, or claim. Covered direct damage and qualifying related expenses share the aggregate, and payments reduce what remains; apply the policy deductible only after establishing the covered loss ([HO 04 81 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L161), [HO 04 81 aggregate application](repo://forms/HO/MS/HO-04-81/2018-09.md#L163-L179)).
 
 ### HO 04 27 (2016-05): do not treat the fungi amount as a grant
 
