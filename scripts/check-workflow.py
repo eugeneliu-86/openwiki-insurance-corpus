@@ -76,8 +76,9 @@ check(len(re.findall(r"^\s+OPENAI_API_KEY:", WF, re.M)) == 1,
       "OPENAI_API_KEY is assigned into exactly one step's env (the compile)")
 check("OPENAI_BASE_URL" in WF, "OPENAI_BASE_URL is set (a gateway key against api.openai.com fails)")
 
-print("the parallel runner is pinned and its concurrency comes from the resolved mode")
-check(re.search(r"checkout --quiet [0-9a-f]{40}", WF) is not None, "OpenWiki is built from a full-SHA-pinned commit")
+print("OpenWiki is pinned and its page concurrency comes from the resolved mode")
+check(re.search(r"npm install --global openwiki@\d+\.\d+\.\d+\s", WF) is not None,
+      "OpenWiki is installed at an exact version (a range or `latest` would change the compiler under the wiki)")
 check("OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}" in WF, "OPENWIKI_PAGE_CONCURRENCY is set from the resolved mode")
 
 print("compile mode rides on the commit, not the dispatch")
