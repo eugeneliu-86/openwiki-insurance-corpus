@@ -3,9 +3,6 @@ type: claims-guidance
 title: Water Loss Handling
 description: End-to-end operational workflow for water-loss claim intake, source tracing, mitigation, evidence, coverage consultation, valuation, payment, recovery, and closure. It keeps handling controls separate from the policy, endorsement, settlement terms, and applicable state requirements that govern coverage.
 tags: [claims, water-loss, mitigation, causation, evidence, coverage-consultation, settlement]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-6f2e8c6b93df2e40df6addd5
     resource: repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md
@@ -15,6 +12,8 @@ sources:
     resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
+  - id: openwiki-source-65c1bab72aeee4cf69ba7892
+    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-7176aead92778c93cb0441d2
@@ -27,7 +26,10 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-98a0b702206aa7ec38174d58
     resource: repo://training/water-losses-101.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.0", at: "2026-09-30T04:20:28.270Z" }
+verified:
+  - by: openwiki/0.6.0
+    at: 2026-09-30T04:20:28.270Z
 ---
 # Water Loss Handling
 
@@ -132,7 +134,9 @@ Before a coverage position, record the line, form edition, declarations, loss da
 
 Inspect concealed, organic, and absorbent materials when water exposure makes fungi, wet rot, dry rot, or bacteria possible, but treat growth, odor, staining, or a health complaint as evidence to investigate rather than proof of covered microbial damage ([Manual 3.T–3.U](repo://manuals/claims/manual.md#L825-L835); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L82-L101)). Separate the original water event, resulting physical damage, testing, removal, access, remediation, pre-existing condition, and preventive or routine work.
 
-HO-3 2024-03 excludes fungi, wet rot, dry rot, and bacteria except as provided by the attached HO 04 81 endorsement; the microbial remediation limit does not itself create coverage ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637)). When HO 04 81 is attached, its grant requires a covered cause to first cause direct physical loss and the fungi to result from that loss. It may cover reasonable necessary removal, access, repair-related tear-out, remediation, and post-removal testing, subject to its exclusions and aggregate limit; it does not cover pre-existing, repeated-seepage, preventive, routine, or otherwise excluded work ([HO 04 81 W.0–W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L91)). Refer microbial, contamination, health, habitability, or unsafe-occupancy issues rather than deciding them from a vendor label.
+For an HO-3 policy, first identify the policy and endorsement editions in force on the loss date. HO-3 2018-09 and HO-3 2024-03 exclude fungi, wet rot, dry rot, and bacteria except as provided by an attached limited-fungi endorsement; a microbial remediation limit does not itself create coverage ([HO-3 2018-09 P.19 and X.28–X.29](repo://forms/HO/MS/HO-3/2018-09.md#L505-L507); [HO-3 2024-03 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637)). The underlying water provision must also be covered: for example, HO-3 2024-03 covers accidental discharge from a plumbing or household-appliance system but excludes continuous or repeated seepage and the failed system itself ([HO-3 2024-03 P.29–P.30](repo://forms/HO/MS/HO-3/2024-03.md#L525-L527)).
+
+Then apply the attached HO 04 81 edition. For policies written or renewed on or after 2026-10-01, HO 04 81 2026-09 replaces 2018-09; the provisions are otherwise unchanged, but the aggregate fungi limit is $25,000 rather than $10,000 ([HO 04 81 2026-09 applicability and change](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7); [HO 04 81 2026-09 W.2–W.3](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33)). Under either applicable edition, the endorsement requires fungi to result from a covered cause that occurred first and may cover reasonable necessary removal, access tear-out and replacement, and post-remediation testing, subject to its exclusions and limit ([HO 04 81 2018-09 W.0–W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L91); [HO 04 81 2026-09 W.1](repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21)). Refer microbial, contamination, health, habitability, or unsafe-occupancy issues rather than deciding them from a vendor label.
 
 ## 5. Scope, valuation, settlement, and payment
 
@@ -194,5 +198,6 @@ Preserve claim notes, photographs, estimates, correspondence, recordings, and pa
 - [DP-3 2026-01](repo://forms/DP/MS/DP-3/2026-01.md)
 - [DP 04 95 Water Backup 2021-05](repo://forms/DP/MS/DP-04-95/2021-05.md)
 - [HO 04 81 Limited Fungi 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md)
+- [HO 04 81 Limited Fungi 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md)
 - [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md)
 - [Illinois water-backup disclosure bulletin](repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md)

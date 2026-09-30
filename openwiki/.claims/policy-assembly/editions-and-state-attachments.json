@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b6186e0ac4161ee1eac6614c9232f0ac842c2b893212af3461bac1023655aa0f",
+  "pageVersion": "sha256:1c9fe245469c267a9ba6297d91fdf304d7749ca7d1cd7ac8fad1abc78782ef63",
   "claims": [
     {
       "id": "claim_ba0afb72df08460f9367983397a38012",
@@ -407,10 +407,88 @@
           "version": "repo-lines-v1:sha256:3d3380802e35b230926436b419fc5403fb181f29708ec60b1885342028e9cb3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwMjAwZWE0N2VhNGFlZTc5NDJjMWY1OWIyZjM0Mjc2NjAyMDI3YjI5NDk2ZGIwOGRmYmUzNjUwZDc0Y2NhOTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzN2RhNTlkZDRkNzgzMDExNzZkMTczZTg5MmY2ODk1YWFjYTRlNWIwZDc2ZGQzYjI0OTIyMGU5Y2QzYWI1OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmMjU3OWQ5ZTIyMjA2ZWFkYTM2NmNkNzQ0YTQxYzVmOGY1ZTM1OGQ0YjJmNTdhYjA4MzQ0NTk1ODg2M2VmNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmOWE5MDAyZjlmMDZjMjBiMTM0NGFjMWY5NDM1MDU2NWUyZGZlMjdhNjVhYzk2NDFmOWEzYTEwYTY2ZDU5NzYifQ"
         }
       ]
+    },
+    {
+      "id": "claim_c5dd826a35804226b191a810b60ae1c5",
+      "statement": "HO 04 81 edition 2026-09 supersedes HO 04 81 edition 2018-09 for policies written or renewed on or after 2026-10-01, while the 2018-09 edition remains live for policies written under it and governs losses under those policies regardless of when reported.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12",
+          "version": "repo-lines-v1:sha256:74af0d1a34add151c48ab2f305a65ae0fc26adcd695ce86c487cd4636bad7574:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNlZDliMjg4MTc0ZWE2NmNmYTVhN2I2OWNlZTI4OTkyY2Y2NDA0Mjg2MzVmNzQzOWRjYjk1MzQzODY5ZDRhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTc1YmVjMjQ0ZDhlZjliYWY1N2FkYjFmZDhiNjYwM2NlZGNkZDg2NTNmMGM0MGJkNTFlYzk1YWQzNDMzNGJiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y5OGVhNzE4NmQwMWMyMTFkZTY5Njk2ZTk5MzZhZWUzMjgxZWZmOTA0ZGQ0M2I5YTc0MDhiYjQ5Mjg1MzRkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7",
+          "version": "repo-lines-v1:sha256:c3bb4f50de61f109a9760cede1bac479ad666d459498916319e80ac285dd300d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRmZDg0NTljYWZkYTk3MmE2Y2U2ZDg4ZmMwMDRhZmMxOGNhZmE0ZjA5ZGRmM2FiYjRkZGE1NDUwYmQyY2UzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b976d94db9cc421aaa04490b228196e6",
+      "statement": "The effective-date selection rule does not prove endorsement attachment; an HO 04 81 schedule, system label, or repository presence must be verified against the complete issued package, including pages, schedules, insured, and policy term.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L3-L7",
+          "version": "repo-lines-v1:sha256:d7b29634c7cccb9d6cd97b5442eda50497a708e49af40985ce1832337a287fbb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWMwMzg0YmY0ZjgwNDkyY2RlNTNlNTEzMTA4Zjg4MTQ5NTU1MzUxNGRlZGVkNThiYzc3OTVjMjhhYjIxOTkwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTA5YjNkNmI5YjU1M2NlNTY3NGZiYmJiOGQ5YzBiYjkyMGU0N2JmZGY0NzgzZjEwNzJkNGYwNzc1YTkxMzc4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L65-L87",
+          "version": "repo-lines-v1:sha256:20557c37b933bd0559a5720fea9a06dc18617f8efd324274f2495697ea62bd5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0N2RhZmY5ZDZlN2QyMzIyZDQ2NzAxYjUxMGY0YmNmNDA2MjJmYzJhZDNmYmI5NDBjYTE1YzA0ODczNDg3Y2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmNTk0NmNlMDdhMWU4YzQxNWY5MjRhMDk1NzFmMTMxNDQ4MmM4M2EyZWE4ZmU0MGQ1OGI4MDk0NzYyOWZjYzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4ZmVjMzg5M2I1MTEwMzFjYTI1MWViNGU0NjEyZTMxMjlkNGY4N2YzNzZmZjMxMGIzOGMwMjRjMDg5YWMwODgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE4NDdjOTEyZjBmMGNkNDJhM2Q1YmY5MzE4ZDFkNTVkNDU3OTVhZmZmNmM5N2M4ODMxZTE5MTk4MDcyOTYxNjkifQ"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L109-L115",
+          "version": "repo-lines-v1:sha256:829f2134335cb0266e89992b1233dc0807cf6266db2ddde49515d7019b833845:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODJjZGJkYjEwYmZlMmUyMjY0OThkZjQzMDBjZThiNWUzYjNlYmJkMGIwZTE0M2RkNDc1M2MzNGJkN2MyY2Q0YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGViNDM4MDk5NGEzZWMzOTA4YTQ0MTBkMDcwOWE1MzQyZDdhMjljMDRkOTliZmYyMWM2N2I3MGY5OTIzZmI5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2VjNzJlZTBhYTE2NzM0MDlmNWFjMWNhODkzMmIzMDQ2Y2I1ZWE4ZWJlODZjZWQ5NjViODdmMmY1NTg5NmU1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTkxZGFiYmE0ODI1NGM0NWJmYzc0ZGZlZGZlMzlhMWZkNDRhYWFhOWJiNmNjNmE1M2NiNTU0YmUyYTZlMjUwOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_499ea4134b6f4a4ca044578884fec5ed",
+      "statement": "When attached, HO 04 81 2026-09 modifies the governing HO-3 policy within its express fungi, wet or dry rot, or bacteria coverage, controls conflicting policy wording, and preserves policy provisions it does not change; its covered trigger is a covered cause occurring before the fungi loss, and its stated covered expenses include removal, access tear-out/replacement, and post-remediation testing, subject to stated seepage, leakage, and flood exclusions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L17-L47",
+          "version": "repo-lines-v1:sha256:a5a8dca816704377726bd6ffb16cb21a8999e757c9a025ed14b7b562b178f14f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiYzgwODFiNWM3YzgyYmFjZWZjZTQ5ZmVlZjMzMmQxYmYyMmY3OWJmOWNhM2NiNGI5NGQ0Y2RlZTkxM2FkM2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L5-L21",
+          "version": "repo-lines-v1:sha256:663cd3fe40d430f4d175762d6b4e288e5117d432ead0c62113e4e09b96184364:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2OWQ5ZDA5NjAxODQzZjgzNTc3ZWQ3ODhiMzljODQ3NDhlMjAyNzFhMzg5Nzg4ZGMxZmQwZGE2ZTlkOWQxYzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlMWQ0NDYxOGQ4NzFkOTljYmVhYjBhODM3MDlmMjNkNjA3ZGMwOGZmZDYyMGJlOTlkMWM2MDBmZjhiN2QwYTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFhYjc5OGNmYTJkMDQ3MDYyMTBjMjFmZmI2OTkwNWM2ZjlhYWJkZTIwOGUyM2MyZmE1YThmODkxNDE5NmQ0MDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L15-L39",
+          "version": "repo-lines-v1:sha256:efd3d511570d2d75104174b931ba91a310c18d739aa3e714bd8ae359d110c7f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3MGY3YTYxZWMzZDcwN2U1N2JmMzY2NjU5MzBmYjhlN2M3MjE1MmM2YWRkOGM3MmYzN2UzOGM4MDcxYWJmMTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhMmIwMzFiMzU5ZjM5YzFmMWVhMmQ2YjcyZTY3ZjU0N2Q5YzU0OGQwODE4NmQ0YTNjY2YzMWUxODgwODE1MDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiMDNiYTMxNWZkN2VmZTM0NWQxZWE5YjJkNGNmZDNkMzViNDliNjUzNGZhYzA4NmRmZjZlMWY4ZjQxYjY2Y2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2NzMzNGY1ZTRlODA4MzY4M2FlNmJlYWM0YTFjOGUwZjNmMmRkNzI0NTMzNmNhZTEzMzI3OTg4OTExM2I2N2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_640dad5f40c546ce8d5f5bf267703773",
+      "statement": "HO 04 81 2026-09 changes the 2018-09 aggregate fungi, wet or dry rot, or bacteria limit from $10,000 to $25,000 and states that all other provisions are unchanged; the $25,000 limit applies only to an attached 2026-09 endorsement within its effective boundary, while an attached 2018-09 endorsement retains the $10,000 limit.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L169",
+          "version": "repo-lines-v1:sha256:6dea96c1eab1238a91cf7ae379d8494eb1a2fc62cbe497c7427e052f3a97cf8b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhY2E3MjUyMTcxZTIzNzk4N2FkMWEwZTUyNjg0Y2E2MGIxYzQxNmJiNzY5OGMyOTdmNDgzYzE0NjQzNDIwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU5OWM5MTVmYTU1MGE4ZTE4ZTE4MTQ5ZmY0ZTU0ZTA2MTM3YTQyMjM3NDdlNjgyYjJkMGU3MWQ0ZGU0ZjZkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGFlMmVmMWY0ZmYwYmI3MjJjNTU5OGQxZjdlNmQxMjI2YTBjZjQ5NTUxNmE2YzFhNGQ5MWY5YWUzYWRmYmQ1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODNmNDc5OGRmNjVmMzM0NGJiYWQyYjYzMmY3YzRmNDE0MzgxYWQ1MWQ0NzZjNTJiOGUzMjIwZjhkMDY1NDg3NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33",
+          "version": "repo-lines-v1:sha256:a88bd1166851ee81fa0491249bac548d0cacf067cae378003435940a53eb1b16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NThlNTAzYThkNGNlZDQ1MGFhZjQ2N2ZmNTA3MDRkMmMyNjg4OWY5YWYyNzFhYzQ5NDA5NjBkZTZmYzQ3ZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMGE4ZjFiZGQzOGZmODIyNjZiMmQ1ODQ4YjhiZDEzMGRmOThmODI0ODI1NTUzYmYxYWY3YjZkZDU0M2VlNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b2c61e3f62c45c88f4b5abdb007ab47",
+      "statement": "Training documents define the method for selecting and attaching an endorsement but do not replace the issued HO 04 81 contract wording.",
+      "evidence": [
+        {
+          "resource": "repo://training/attaching-endorsements.md#L101-L107",
+          "version": "repo-lines-v1:sha256:688d87a8eddb1c9fd866f92e33876fde543f929addb2d58d37b226371e016d65:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTI2NTUxODExZTk2ZWQwZmYyZTcwNTdhODIwNTUwYTNmN2EzZDYxZWJmNmIwZjFmNjQ2ZTZlODJiODA2ZTU0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQwZjA3N2UwODYyNGFmMzBlYWVmNDZhMzllZmNjY2UxMzgyMzU4M2FlYjAyOTY3NjU2NTkwZjU2YmI2YjFjOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjA2NWU5MThiOThkZmRhOTE3YWFiNjEzM2QwNWVkYTU2YzE5YTJmN2VlNzRmOTllYTc2NGE2MjVkY2M4NTRjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTEyZDVmNTM2ZjE5OTBiODBjZmJjMzUzNjMwMThkYjU3ODg3Y2RjMzdmM2RjNGRiMjQwOWVhNzcwZjYxNzgwNCJ9"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L35-L47",
+          "version": "repo-lines-v1:sha256:b4c3f4421329e1d42caf32a015e981525a355487c2abf8bd92888349b2b2c49c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiZjM0ZDdjYjYzMTQ3OGUzY2Q3ZDc0MDVhOTg5YTJiNWMxZWVlNDY4YzNhOWQ4OWJhODZmYWEzNjgxMmUzNmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2YzgxOGM1ZTdhYzhjMmQzNGJkYmRmZGE4NWVlZTJkMTVlOWZiZDE2MWFjNGRkZDA2NGRmZTBlZTMzMjM2NzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkOWI5YjRlOWFmNzQzMGZkMmZiM2RkMTRjOWQ0M2JjNjBmNGQ1NTU2YjVhZTY2MzRkMTZiZjU3ZGEwZGM0MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIxZmM1MjMxMWQwOGFkYjE3NmUwMGQxZmQyMjk2YjFiNzQxNzJlYzg1OTA2ODAxMjUxNGNkYTFlNzNiZTJkZjAifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.0",
+    "at": "2026-09-30T04:20:28.270Z"
   }
 }

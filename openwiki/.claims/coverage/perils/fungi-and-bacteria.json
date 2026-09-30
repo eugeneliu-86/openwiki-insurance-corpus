@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d92397b4a4662a859b5c5d9be192f691b20ad5bd4863b741b47a3d310f687ef0",
+  "pageVersion": "sha256:0308e5ea9ef677ecd135b093da643072df0081adc3ec5ad6fd25b679023475f0",
   "claims": [
     {
       "id": "claim_324609de2d014e5682a87ba708c53b66",
@@ -289,10 +289,110 @@
           "version": "repo-lines-v1:sha256:5779bc7fb813c8879585ccb0204fd0a8defa97b058c31d9f9c982605b287e55d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjRmOTAwZDc0NDc0Y2EyODM0NGNjMzgwMDVjZDFkNGJlMWE4YWFlYjdlYzMxYWJmY2Y5ZDUyNjNjYTA3ZGZjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVkZTlkYTY3YjY4M2QyNTlmZWQ4MDY5YzI2ZGU1OWZjOTI5MWQzMWUyOTQzNWRhZjVmNTk4YmYxOThkYmY2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWI4ZDQxYWJjOGU2MTgyNmFiZjlmOWZjYTk5YjY1MjVkNjBlZGI0NGM5MzBjYjQ1NTI1NTQzZmZjNjExODdmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmIwYjNlMmE4Y2RlYzg4ZjFlMzk5OTYwOGRhYWZkMzk4MzM4NDU4NTM0MmUyZDBjZjA4ZGNjYTEyZTFiY2YxOCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_84340b5414c24d6ea1a411b632a79cc2",
+      "statement": "HO 04 81 edition 2018-09 modifies the policy only within its express terms, preserves unchanged policy terms and exclusions, and does not operate as stand-alone fungi coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L17-L47",
+          "version": "repo-lines-v1:sha256:a5a8dca816704377726bd6ffb16cb21a8999e757c9a025ed14b7b562b178f14f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiYzgwODFiNWM3YzgyYmFjZWZjZTQ5ZmVlZjMzMmQxYmYyMmY3OWJmOWNhM2NiNGI5NGQ0Y2RlZTkxM2FkM2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljZGVhZjkwYWRjZTAxM2VjMTlhMDQ1ZTRiZWE2ZGVkYTA5Zjc0YWQwNjgyNDhhZTlmZWRmMTFlMDQ5NTkyYmYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8f9092ab5cca42ee8e77b174ea5c9164",
+      "statement": "HO 04 81 edition 2018-09 covers fungi-related direct physical loss only when a covered cause first causes direct physical loss to covered property and the fungi results from that loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L61",
+          "version": "repo-lines-v1:sha256:92fc6c514ed412e1aa2f5dfcb28c0d6107f0ab94605bbc097ef711805e7779ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhMDUxNzliNzNkMGNhMjRlYWMzZGU2ZDcwN2E3Y2RjMGRiMzU0NTU3YTk0Y2UyMDEyY2U4ZGQ0MjczMzA0ODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3YTRkOWM4Zjk4YmNiYzZlOWJlNjFlMTA3MzFjNzMxOWFkMmUyZTg1ODJhNmQwZjFhYjJkNzI5ZDllOWExNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU4YzI5YTgzNzczYzdjNzUyYWNhOTZhM2UwNTNmNDdlOTQ1N2U5NGYyMGRlYzFhZTcwYjU4MWM3OWY1M2YxYmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_651af9e7bffc4f1db148541937a81e67",
+      "statement": "HO 04 81 edition 2018-09 covers reasonable and necessary fungi removal, access tear-out, repair tear-out, and post-work air or property testing when the stated covered-loss conditions are met; remediation is limited to reasonable and necessary work related to covered direct physical loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L69-L81",
+          "version": "repo-lines-v1:sha256:fdc8d4df62416ae547aa4ec54bb873b411eadc2d1f742093d32a36db18c539a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNDIzY2Q4MDI3YjM3NDM2OGY2Njk4YmI5ZmI4NzA1NDllNzNkOTk5OGQyNmY4NzA2ZTdmZDQ5NTIyYTgwYmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmZjM5YWVjNzRmMzA2ZmY2NWZiY2E2NGYwNDg1NDUyMjRjYWU3ZjU4ODIzNTFmYmM1NzBkZmRmMDM5ZjM3NDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmYjRmMGRkMTk1YzY4OTY5NjJjNWJhYzE0ODNkMWM0NDc0YWEzODFhOTVjMDNmMTM4NDIzZThhYzU4MzA4N2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhZDcyZDI0MWI1MTdmMDEzZDhmYjc1NTUyNThmMDE4ODQwMzI4NGNmZDFhOWQ4ZmE2MGZkNTcxOTg5OTg3YTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5954276c5c4941c8973d3a208776a746",
+      "statement": "HO 04 81 edition 2018-09 excludes fungi arising from constant or repeated seepage or leakage, repeated discharge or overflow, or flood, and excludes preexisting conditions, deterioration, neglect, inadequate maintenance, and defective work.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L63-L67",
+          "version": "repo-lines-v1:sha256:bb3f62b2254bb34be9196a13b3a89afe2c14791b44e98d7f393b6b9bbfc0794a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODgyMTJhNmE4OWU3MGRiOTcwOTg2MWFkNWM3Y2E2MjlmZDYxOWZhMzBkNGM0OGZkNGNmZWVlZTJmNGJhODZmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFjZGIxNDhjNzZhZmI5MjBkZDcyMDhkNzJjYjkzZjFiYzQ5ZDA5YmFkM2U4Y2Y3NjM5N2IwZDZjYjYwMzViNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmZiODZjN2Q0ODRkNjEzMWFhNjc3OGM0NDhiMDllMGVkMWU2MDcxYzVkMDQ2ZGZlNWYyM2EyZmU1YzY2NDlmZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzA1MDJlOGViZjg0Mjk4NzFmYWI2MDAxMDJkZDMyYmM0NGQ4MjVhOWYzZjM4ZTU3YWMwMmMyODI3ZjQxM2M2OCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L97-L107",
+          "version": "repo-lines-v1:sha256:197621b1bad085a721151d2045b3bc73142cbc08479aa46c4bc8bdcfd0758cce:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2MDgzZmUyZjUzN2MzYzQ5MTU1YjhjOWQyNDZjOWYzZjhiZWVjZDI1OTg0ZWUwZTVhZDEzMTZhNjQyZjZiYzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyYTA1N2I2Mjk0OTg5YzMyYTc0OGIzNTY2NDU2NzUxMTEyNTY1YTJmMmUxNzQ4Y2JkNjFkNWU1MjNmOTU0NzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ4NjYzMzk2MDMzMTI2MGEyYzg1Y2U5OTZlNjNkZmFlN2FhN2E4NWM5ZWE1OWJiNTZhYzgyYTI0MzEzMTBkNTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzYWIzZmQyNTZhMGQ2MGY0NjE1ZGY3NWVjY2NhM2FmN2M4NWMxZDU2MWZmMjEzOTVjMmE1ZjI1MzA0MjA0MjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a2dc6eae861242a4aafe6a8c84d1be31",
+      "statement": "HO 04 81 edition 2018-09 excludes preventive monitoring, routine cleaning, unnecessary testing or cleanup, replacement of undamaged property merely because fungi is present, betterment, and work on property that is not covered property.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L115-L117",
+          "version": "repo-lines-v1:sha256:54ce15510d5bff03c303503bf3d7c7670254f18e6e56b766a02bc618450e7df7:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM2MWZmZDI5ZDgzYWJiNTk3NmVlMmQxNTc3OTA2ZTc0OTA5NmFhNzZlNmVlM2EwYWU0NjU0ODgwNWFiZTEzOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk3NjcyMjVmMTY5YzhkYzEyZWFlMTMzOTgwNWIyNmEwNjZiOGJkZjkxNjZlNWIyMTMxNmEyODZjZWUyYTQ3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdmNDNmYTZjMmI4MTczZjNhMzZiYWE2OTZiODRiNmZlYmY0Y2VhNmRhZTM5OTcxM2EyZWE2MTM4YWQ4M2NiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzM5ZTIzNTVhNTdhNGYwYTA0YTM2NzU4ZjI0YWJlODNkYWJmNmY3ZjE5NzJjYTY2NTJkZmE1MjFlYjNiODkwNyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L129-L131",
+          "version": "repo-lines-v1:sha256:3ea07411a870c5ab397db2b28aa713af81b2e220fd4df097f60579f4aff7b1e5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEzYzEwOWNhM2UwZTM3Mjc0NDY0MTBlYWNlOWE1MGJkZGE3YTZkNjI2NjdkMDhjOTgxODg0ODhhY2Q2ZDAzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE4NGYzMjRhMzU3ODAzOWZkY2FiMGExNWYxZDQ3NTQzY2QwNjA1YmZmMzdiN2VjNDdlOTRjNGZjMDkwZjA2NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU0ZWE1OTg0YTRmYjY5ZTM0OTJjYWM2ODZjMTFkYmNjZWYwN2IzYjkwNzJjNmY2Y2U0ZjQ1ZDRkYjdlZTYwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBhYjRhZWYwZGM1YWI3MTNhZjFhYmYxYTdkMGNkNDM5YWVmYzBmOTdmZGJkMjRiZmQ5ZTk2ZWMyYTY1YTBkYyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L93-L95",
+          "version": "repo-lines-v1:sha256:06c5fdb19e5dbb87755882a01e0d38f9c5e047587f5c1e0e653a891f2d2625cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3ZjNhZGE2MjgxNGNjNGRjNDI0NjdlMjQ1ZjVkNTliZTUwNmUzMzZjNmYzYWViZTc4ZjkyY2E1MDE5MzEyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTc3YzllNDU5YmUxMzFlNGY1NTE0YjJmMTgxNzZkNDkzNzNiODNhYjIwNzUwNGNiZDViNjI4NzJmMDk0MjJkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzdjZmRmMDQyOWE0YTBjN2I2OGUyYjEyMzdjNzc3NTczNThlYTNmZjM3NjU1NGZjYWQ0OTEyYzk0ZWZlNDc2YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTkzYWUyOTZjNTgxMGEzZWVhN2M1MWYzOTA3ODMwNjllMjIwNGVhOTc1Yjg1ODI4M2Q2YjFjZjA2ZGU4OGFlZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d21286fca0454c4da7ff3c617466af87",
+      "statement": "HO 04 81 edition 2018-09 has one $10,000 aggregate limit for all covered fungi, wet or dry rot, or bacteria loss and related covered expenses; payments reduce the remaining limit and do not restore it.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L151-L153",
+          "version": "repo-lines-v1:sha256:371072604fc4acd80be6970cec8c5ea145502c671efcdcb8e6a8b43e604c1185:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJlNzQ0OTk0M2JjOTM4OWJjOTU4YTBmYmVkZTdhZjVhMDg5MTVhMzg5ZDZiYzBhNWIzNDBkZGVhNTZhNDMyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBjNGFmNjA5NjQyZTRkY2IxZDQ1MDE3MGYwNmIxMTZkZjg4NDE4ZWJiOWU2ODYwNGI1OTc3Y2NjNWM4MjMwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBmMDg3YWExOWQ0MTI1ZGU1NDY0NTA5Y2EyOTAwOGQ1MmYyMWIxMWIxNTVhNzNjY2NjZjRkMTc3MDRiODZiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTA4MGQyYmIzMDc5YWEwYWNhOWI2ZTljNWUwMjY5OTgyYTU1ZjU0NDRjZDJiNzk0M2ViY2ZiZjQ0MDhlZDZhNCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L187",
+          "version": "repo-lines-v1:sha256:3b20197278c8bb80dd86b0ade212b3828d9c01ec3b7849c754665522546e27f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZDFkNmNmNDQzOWMyZTQwYjk0MGU4YjhmNjliNzNkN2Y4ZDBiNWVkZGExMmY1YTc1ZDBkZjYyNGQ4MTQzMTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhZTJlZjFmNGZmMGJiNzIyYzU1OThkMWY3ZTZkMTIyNmEwY2Y0OTU1MTZhNmMxYTRkOTFmOWFlM2FkZmJkNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImViNzQ5MDM1NGQzOGNhYmUzOTc2YjNjOWUyM2QyOWUyMzkwZTg5ODMyYzZmNDA4MTI2ODNkYzBkMzE2ZmY5ZDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bdfda4124e384e7ba941fe9e51aba75a",
+      "statement": "HO 04 81 edition 2026-09 applies to policies written or renewed on or after 2026-10-01, replaces 2018-09 for those policies, and raises the aggregate fungi, wet or dry rot, or bacteria limit from $10,000 to $25,000; all other provisions are stated to be unchanged.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7",
+          "version": "repo-lines-v1:sha256:c3bb4f50de61f109a9760cede1bac479ad666d459498916319e80ac285dd300d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRmZDg0NTljYWZkYTk3MmE2Y2U2ZDg4ZmMwMDRhZmMxOGNhZmE0ZjA5ZGRmM2FiYjRkZGE1NDUwYmQyY2UzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33",
+          "version": "repo-lines-v1:sha256:a88bd1166851ee81fa0491249bac548d0cacf067cae378003435940a53eb1b16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NThlNTAzYThkNGNlZDQ1MGFhZjQ2N2ZmNTA3MDRkMmMyNjg4OWY5YWYyNzFhYzQ5NDA5NjBkZTZmYzQ3ZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMGE4ZjFiZGQzOGZmODIyNjZiMmQ1ODQ4YjhiZDEzMGRmOThmODI0ODI1NTUzYmYxYWY3YjZkZDU0M2VlNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_439e8ce1fd3c40f4b2e3443bfb7f336d",
+      "statement": "The HO-3 2024-03 base form excludes fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement, and its microbial remediation limit does not independently create coverage.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L635-L637",
+          "version": "repo-lines-v1:sha256:8e11bbcaffce0a23c98e8cefff0ed657561e7315e67167458af3650eb1071f59:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTMzM2QxMDMyM2UzZGY1MTIwNDEzY2IwOTUxNmI3YzY3NmE1ZmEwNjFmZWIwYzU4YTJjNTI3NWY2ZWYyYTE0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U4ZWU4ZmUwNDQxNDA2Yjg0OWZhNmY0ZDIwODI1Mzk2NzJjNmNjMDA0NDJlOTEwOWY4NWFmOTgwYzVjMzg0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjg0NzZjNjEyYTNhMmEzZjA3MGM1NjAzMDI4NzlhMjJiZTM1YTExOTIyZWI5MWEwMmUxZGQ1NTk0MzMyNmNkYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTdhYTY2MzFjYzAzMjllMzJiMTQ0MDdjZGFiYTIyMWEyMWIwZmMxYjk1MTE0NzNmZjcyMzIxZDc0YjRiYWQ0NCJ9"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.0",
+    "at": "2026-09-30T04:20:28.270Z"
   }
 }
