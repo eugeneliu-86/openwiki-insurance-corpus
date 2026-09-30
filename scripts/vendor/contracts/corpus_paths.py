@@ -116,8 +116,22 @@ def mark_superseded(content: str, form: str, edition: str, effective: str) -> st
     if is_superseded(content):
         return content
     lines = content.split("\n")
-    if not lines or not lines[0].startswith("# "):
-        raise CorpusPathError("cannot mark superseded: the document does not start with a title line")
+    title = _title_index(lines)
+    if title is None:
+        raise CorpusPathError("cannot mark superseded: no `# ` title line at the top of the document (after any front matter)")
     marker = supersession_marker(form, edition, effective).rstrip("\n")
-    return "\n".join([lines[0], "", marker, *lines[1:]])
+    return "\n".join([*lines[: title + 1], "", marker, *lines[title + 1:]])
+
+
+def _title_index(lines: list[str]) -> int | None:
+    """The line index of the document's `# ` title: the first line, or the first after a YAML front-matter block."""
+    i = 0
+    if lines and lines[0].strip() == "---":
+        close = next((j for j in range(1, len(lines)) if lines[j].strip() == "---"), None)
+        if close is None:
+            return None
+        i = close + 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    return i if i < len(lines) and lines[i].startswith("# ") else None
 
