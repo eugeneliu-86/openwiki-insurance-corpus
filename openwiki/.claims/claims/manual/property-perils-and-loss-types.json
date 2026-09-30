@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:8572045b6daea5134de45afdca7107db50d608cb307d589b9c43458abd64b761",
+  "pageVersion": "sha256:bfd3612362453b5c12676610741e96a075c91b21617de8499f5c6c98a5499ebc",
   "claims": [
     {
       "id": "claim_d806391a69674b2a8a91b5089b45fe46",
@@ -395,10 +395,40 @@
           "version": "repo-lines-v1:sha256:3429506530d2b3e869ec84ca9589661c71351ec9d6e950f17376e4081b4a0dc2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyZjBhMWU3OTUwZWQwMWNhMzA3YTExOTRiN2E1N2RjZDZhNzYzNzI5ZTY5NzBhNWRlMDUxNzEzMWZmZGFiNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4OWU1OWVmMmU1Yjk0NjU3ZTkyMTg0NTk4ZGE2MTA5MjYzM2U0ZjAwZDk0YmUxY2MzMmFkN2YwZTU4YjUyNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2MTM3MmVjYjY5MzU5Y2MwMTlkNWRmNWJhNDczYTQzN2M3MWNkOTQxNzU1MWJiODEyZDg4MzgzYjBkNGY4OGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1ZTAxOWI2NmJhYTliYTBmMTgwYzFhMWQ5M2I3OTQ5NzM0ZDhlZjgxYTNmYWI2OWMxYjFkNzY3OGFlYzg1MjEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_66735694ef1a4fbb9fdd7e9b68e9881b",
+      "statement": "HO 04 81 (2026-09) applies to policies written or renewed on or after 2026-10-01, replaces 2018-09 for those policies, and leaves policies written under 2018-09 governed by that earlier edition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L3-L7",
+          "version": "repo-lines-v1:sha256:d7b29634c7cccb9d6cd97b5442eda50497a708e49af40985ce1832337a287fbb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWMwMzg0YmY0ZjgwNDkyY2RlNTNlNTEzMTA4Zjg4MTQ5NTU1MzUxNGRlZGVkNThiYzc3OTVjMjhhYjIxOTkwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTA5YjNkNmI5YjU1M2NlNTY3NGZiYmJiOGQ5YzBiYjkyMGU0N2JmZGY0NzgzZjEwNzJkNGYwNzc1YTkxMzc4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec9706b7c89b41ec9be55a8c98ed67de",
+      "statement": "HO 04 81 (2026-09) preserves the covered-cause-before-fungi causation requirement, covers reasonable necessary removal, access tear-out, and post-remediation testing, and excludes fungi arising from constant or repeated seepage, leakage, or flood.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21",
+          "version": "repo-lines-v1:sha256:fb096a511326e0ef429ce32aff91649e91ff630989feecf946c4da29a66010f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlMWQ0NDYxOGQ4NzFkOTljYmVhYjBhODM3MDlmMjNkNjA3ZGMwOGZmZDYyMGJlOTlkMWM2MDBmZjhiN2QwYTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0Mzg3MGQyNTlhNzg3YmQ2MzAwZTNjZGI4NDMzZDdkNGFjODJlMTMyOGRkOGViZTBmMDg5ZDA1MTk1M2I0N2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b0239da37f714761b35f149d5e9e49db",
+      "statement": "HO 04 81 (2026-09) raises the aggregate limit for all covered fungi, wet- or dry-rot, or bacteria loss to $25,000, regardless of claims, insureds, or property items, and the form states this is the only change from the 2018-09 edition.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33",
+          "version": "repo-lines-v1:sha256:a88bd1166851ee81fa0491249bac548d0cacf067cae378003435940a53eb1b16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NThlNTAzYThkNGNlZDQ1MGFhZjQ2N2ZmNTA3MDRkMmMyNjg4OWY5YWYyNzFhYzQ5NDA5NjBkZTZmYzQ3ZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMGE4ZjFiZGQzOGZmODIyNjZiMmQ1ODQ4YjhiZDEzMGRmOThmODI0ODI1NTUzYmYxYWY3YjZkZDU0M2VlNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.0",
+    "at": "2026-09-30T05:22:55.487Z"
   }
 }
