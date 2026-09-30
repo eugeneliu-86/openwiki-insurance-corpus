@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:446230c6f8194143959a392fc52ba42217fc9a1b86fbef931823e81e6322f6dd",
+  "pageVersion": "sha256:4cdc7650d1b855306518b02a5ad254264d88c7fc6fd8cccbc8e1d7820cabc74d",
   "claims": [
     {
       "id": "claim_fc1a483cfe164597a7d0a6e2f241c67c",
@@ -313,64 +313,10 @@
           "version": "repo-lines-v1:sha256:3a778587053d63105e5c2a35bf2a0a3ba0d56279eed408ed234737aa9a74a5af:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2YjIwZGY2YjE3ZDZlNGQ5NzIyZjY1Yzc2ZTE4Yjc4YmNjYzBmMTYzYzQ4NDI0ZGFlZGY2NTZjN2ZjNWVkMzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhYTEwM2I3YmU2NjJiZDg4ODU2YTc0ZjE1ZWJkZGNhMTY5OWRiOTI1MDkzYWVmY2E4NGRkZTZjMjljYzNjNGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ5YTJmMjY5ZTI1N2E1MWMwMmRhZGE2MjVjOWUyNTgwZjUwMjI5NDIxODZkODAyYmExYmMwMzY1MzA0ZDA4ZjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhhNmU0MzA0MzlkZGU4YjcyOTUyYTkzY2QzNjUxOTc3NDU1YjUwMDFiMTgxZDQxMGMwMzkwNzQ5NzQ0NGQ3YjQifQ"
         }
       ]
-    },
-    {
-      "id": "claim_fe85c3a3781d4cc0aeffebba5d8ee1a8",
-      "statement": "Adjusters must identify the attached HO 04 81 endorsement edition and the policy's written or renewal date before applying fungi causation rules or limits: 2018-09 remains governing for policies written under it, while 2026-09 applies to policies written or renewed on or after 2026-10-01.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12",
-          "version": "repo-lines-v1:sha256:74af0d1a34add151c48ab2f305a65ae0fc26adcd695ce86c487cd4636bad7574:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNlZDliMjg4MTc0ZWE2NmNmYTVhN2I2OWNlZTI4OTkyY2Y2NDA0Mjg2MzVmNzQzOWRjYjk1MzQzODY5ZDRhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTc1YmVjMjQ0ZDhlZjliYWY1N2FkYjFmZDhiNjYwM2NlZGNkZDg2NTNmMGM0MGJkNTFlYzk1YWQzNDMzNGJiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y5OGVhNzE4NmQwMWMyMTFkZTY5Njk2ZTk5MzZhZWUzMjgxZWZmOTA0ZGQ0M2I5YTc0MDhiYjQ5Mjg1MzRkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7",
-          "version": "repo-lines-v1:sha256:c3bb4f50de61f109a9760cede1bac479ad666d459498916319e80ac285dd300d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRmZDg0NTljYWZkYTk3MmE2Y2U2ZDg4ZmMwMDRhZmMxOGNhZmE0ZjA5ZGRmM2FiYjRkZGE1NDUwYmQyY2UzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
-        },
-        {
-          "resource": "repo://guidelines/claims/mold-claim-handling.md#L109-L114",
-          "version": "repo-lines-v1:sha256:98cf937c1a167d66f5cebe35ff7f8a84d3cc624c0f56d93ef92e366128841a4c:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDRhNzVhMDY5ZWJkODMyMGNjNzBlNDgyMTU0YzI1Y2ViODYwNmU5NjE3MGRjYzJhYzJhNWI0NDY4NmQ0ZDdmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjE1ZGE2ZTU3ZTQzM2VlNDQyN2RlMzlhNDJhNTEwYWQwNzE3Nzk5MzdhNTQwY2NiODBkMDExOWI0MGVjZWQzNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDBhMjJhNDM5OWEyMGY4YzNmZTc4YWM3MzU5OWMxOGQwMTJhOGYxMGI5YzcwMDA4MDM2OWU5MDMxMzE5OTc2YyJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_1d715bf4432a4e98aa9931f8733b928a",
-      "statement": "HO 04 81 requires the fungi loss to result from a covered cause that first causes direct physical loss to covered property and does not convert an excluded cause into a covered cause; covered removal, access tear-out, remediation, and qualifying testing remain subject to the endorsement's conditions.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L81",
-          "version": "repo-lines-v1:sha256:f5425c69caf3dd8dc599a62a2a068a41abb255f58b88a354b796983c7c43c702:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmZjM5YWVjNzRmMzA2ZmY2NWZiY2E2NGYwNDg1NDUyMjRjYWU3ZjU4ODIzNTFmYmM1NzBkZmRmMDM5ZjM3NDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU3YTRkOWM4Zjk4YmNiYzZlOWJlNjFlMTA3MzFjNzMxOWFkMmUyZTg1ODJhNmQwZjFhYjJkNzI5ZDllOWExNzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhZDcyZDI0MWI1MTdmMDEzZDhmYjc1NTUyNThmMDE4ODQwMzI4NGNmZDFhOWQ4ZmE2MGZkNTcxOTg5OTg3YTcifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21",
-          "version": "repo-lines-v1:sha256:fb096a511326e0ef429ce32aff91649e91ff630989feecf946c4da29a66010f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlMWQ0NDYxOGQ4NzFkOTljYmVhYjBhODM3MDlmMjNkNjA3ZGMwOGZmZDYyMGJlOTlkMWM2MDBmZjhiN2QwYTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0Mzg3MGQyNTlhNzg3YmQ2MzAwZTNjZGI4NDMzZDdkNGFjODJlMTMyOGRkOGViZTBmMDg5ZDA1MTk1M2I0N2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkifQ"
-        },
-        {
-          "resource": "repo://guidelines/claims/mold-claim-handling.md#L115-L116",
-          "version": "repo-lines-v1:sha256:bff05b24ec890c124a68a49a3460fa9067478b76c566441b0ece69033c8941af:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM2YjRiZmIyYzM3MjM0YTgwNjEwYjY0M2UwODY4NjBkYzMyNjYzMDRmZGM2NDBlMGFiZjI1YWI4ZTQwODEyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGU4OTU2MTY3MjRkNjJkMWRiNWNhODIyNDFjMWY1MjI0OTA0MjMxNzc4NDg2NmU1NzZlNTQ0MThkNDQ5OWEyZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzFkN2U5MzNmNjk4MWRhZmVjZTEzYmQwNGZmNDhhODQ5NTNkMzAxZjFkODA3OGY2NzRlZDVmMjkyNzA1ZjAwZCJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_a3c0a84dc6c443c3a288dac606b8e0a9",
-      "statement": "The HO 04 81 aggregate differs by edition: 2018-09 provides a $10,000 total aggregate and 2026-09 provides a $25,000 total aggregate; each applies across covered fungi, wet-or-dry-rot, or bacteria loss regardless of claim count, insured, or property and is not additional insurance.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L179",
-          "version": "repo-lines-v1:sha256:53d16cf698523f9bf7eb86b988d4faf35c00c17ad02e76b3445766fb88acfd47:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjMWU0YjRjZTg0M2RlMjdmZTYzOGFlYWFkOTFmNmVjOTI5MmMzYjBhNTI0N2MzMGU2NDUwNzIwNjllZDMyZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhZTJlZjFmNGZmMGJiNzIyYzU1OThkMWY3ZTZkMTIyNmEwY2Y0OTU1MTZhNmMxYTRkOTFmOWFlM2FkZmJkNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZkMmM3NzA3MTJjMjQ5ZDM5MGRiMzQxYmFlZDhiNTc5ODMxMWMyNTNjYzRlNjgyMjZiMTlhZTFjMDlmNjY1NTYifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33",
-          "version": "repo-lines-v1:sha256:a88bd1166851ee81fa0491249bac548d0cacf067cae378003435940a53eb1b16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NThlNTAzYThkNGNlZDQ1MGFhZjQ2N2ZmNTA3MDRkMmMyNjg4OWY5YWYyNzFhYzQ5NDA5NjBkZTZmYzQ3ZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMGE4ZjFiZGQzOGZmODIyNjZiMmQ1ODQ4YjhiZDEzMGRmOThmODI0ODI1NTUzYmYxYWY3YjZkZDU0M2VlNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
-        },
-        {
-          "resource": "repo://guidelines/claims/mold-claim-handling.md#L117-L119",
-          "version": "repo-lines-v1:sha256:71d7e933f6981dafece13bd04ff48a84953d301f1d8078f674ed5f292705f00d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGRjZDJmNTE3NTVmOWJkNmQzNGYzNGFiZjEzNTU0NThlMGRjM2M3ZDVhYThjN2EwNzcwYWQzMWMwYjY4NjFhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTZiNWU1YTgwMWRiYmUzMDY3NjI0ZDc4NmVjNzIxZTNhZDY5OGFmYWZhOTRjODQ3YTEzNjFlZTA4ZjBhYzg5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzZGYzNmI1OWU3ZGUwZTU4Zjg4ZWFiMTg4MjZlZDA0MGJhYWU3NTJkODhjODAxZjA2OTVmZTcxYWI4NDcxYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDhiYjYwODgzYmE1NGI1YTdmNzE0ZTFkZDE2MTA0YzZiZTAzMWJmZjFhNGJkOWNlMDdiMWIxNDcyNjBhNTlkNCJ9"
-        }
-      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.6.0",
-    "at": "2026-09-30T04:42:17.569Z"
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }
