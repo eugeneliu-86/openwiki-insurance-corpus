@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b576db6a0813cc9f62c249ffcb0460584f1c02a20c7a0b26db74b15900c1e4a1",
+  "pageVersion": "sha256:d92397b4a4662a859b5c5d9be192f691b20ad5bd4863b741b47a3d310f687ef0",
   "claims": [
     {
       "id": "claim_324609de2d014e5682a87ba708c53b66",
@@ -289,66 +289,10 @@
           "version": "repo-lines-v1:sha256:5779bc7fb813c8879585ccb0204fd0a8defa97b058c31d9f9c982605b287e55d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjRmOTAwZDc0NDc0Y2EyODM0NGNjMzgwMDVjZDFkNGJlMWE4YWFlYjdlYzMxYWJmY2Y5ZDUyNjNjYTA3ZGZjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTVkZTlkYTY3YjY4M2QyNTlmZWQ4MDY5YzI2ZGU1OWZjOTI5MWQzMWUyOTQzNWRhZjVmNTk4YmYxOThkYmY2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWI4ZDQxYWJjOGU2MTgyNmFiZjlmOWZjYTk5YjY1MjVkNjBlZGI0NGM5MzBjYjQ1NTI1NTQzZmZjNjExODdmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmIwYjNlMmE4Y2RlYzg4ZjFlMzk5OTYwOGRhYWZkMzk4MzM4NDU4NTM0MmUyZDBjZjA4ZGNjYTEyZTFiY2YxOCJ9"
         }
       ]
-    },
-    {
-      "id": "claim_b11e71e89f464bd0a62d2a42fce96331",
-      "statement": "HO 04 81 edition 2018-09 remains governing for policies written under that edition, while edition 2026-09 supersedes it for policies written or renewed on or after 2026-10-01.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12",
-          "version": "repo-lines-v1:sha256:74af0d1a34add151c48ab2f305a65ae0fc26adcd695ce86c487cd4636bad7574:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNlZDliMjg4MTc0ZWE2NmNmYTVhN2I2OWNlZTI4OTkyY2Y2NDA0Mjg2MzVmNzQzOWRjYjk1MzQzODY5ZDRhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTc1YmVjMjQ0ZDhlZjliYWY1N2FkYjFmZDhiNjYwM2NlZGNkZDg2NTNmMGM0MGJkNTFlYzk1YWQzNDMzNGJiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y5OGVhNzE4NmQwMWMyMTFkZTY5Njk2ZTk5MzZhZWUzMjgxZWZmOTA0ZGQ0M2I5YTc0MDhiYjQ5Mjg1MzRkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7",
-          "version": "repo-lines-v1:sha256:c3bb4f50de61f109a9760cede1bac479ad666d459498916319e80ac285dd300d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRmZDg0NTljYWZkYTk3MmE2Y2U2ZDg4ZmMwMDRhZmMxOGNhZmE0ZjA5ZGRmM2FiYjRkZGE1NDUwYmQyY2UzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_7fbf8e0dc63748d4a73fec720c31896b",
-      "statement": "The available HO 04 81 edition 2026-09 source is a summary that states the high-level covered-cause-first trigger and changes the fungi limit from $10,000 to $25,000, but does not provide full operative text for other terms; those other terms must not be inferred from the summary.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33",
-          "version": "repo-lines-v1:sha256:a88bd1166851ee81fa0491249bac548d0cacf067cae378003435940a53eb1b16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NThlNTAzYThkNGNlZDQ1MGFhZjQ2N2ZmNTA3MDRkMmMyNjg4OWY5YWYyNzFhYzQ5NDA5NjBkZTZmYzQ3ZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMGE4ZjFiZGQzOGZmODIyNjZiMmQ1ODQ4YjhiZDEzMGRmOThmODI0ODI1NTUzYmYxYWY3YjZkZDU0M2VlNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L18",
-          "version": "repo-lines-v1:sha256:0cf3aa760f5006411cdb74e9f3f99307f84b191e484325023797f4888425eee9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzc3ZDYxZGE4N2VkZGMwYjIxZGQ3YmExYmI0ZjlkYWZmOTA1MjYzNGRkOWZlN2UxYjBiODIyNWE1ZGEyYTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZDA4NDE5N2NhZTdhOTU3OWI3NzFmNmEzNjBlOWE3YWVjOThhMDUyZWExMWNmZWI2ZjkwN2Y1YTcwNWNiOGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0Mzg3MGQyNTlhNzg3YmQ2MzAwZTNjZGI4NDMzZDdkNGFjODJlMTMyOGRkOGViZTBmMDg5ZDA1MTk1M2I0N2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNjODQ2MDg4YzZhZjg1YzVjMWFhNDllMDUzNTE5NWNjMWFiNDVhY2Q4MWU2YTcxOTBkMjM0ZjcyM2YyNmFkMGQifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_b72b41288cf945d0a83b0f43a866a58d",
-      "statement": "For HO 04 81 edition 2018-09, the fungi aggregate is $10,000, applies across covered loss regardless of claims, insureds, or property items, includes related covered expenses, and is reduced by payments without restoration after exhaustion.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L151-L153",
-          "version": "repo-lines-v1:sha256:371072604fc4acd80be6970cec8c5ea145502c671efcdcb8e6a8b43e604c1185:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJlNzQ0OTk0M2JjOTM4OWJjOTU4YTBmYmVkZTdhZjVhMDg5MTVhMzg5ZDZiYzBhNWIzNDBkZGVhNTZhNDMyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBjNGFmNjA5NjQyZTRkY2IxZDQ1MDE3MGYwNmIxMTZkZjg4NDE4ZWJiOWU2ODYwNGI1OTc3Y2NjNWM4MjMwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBmMDg3YWExOWQ0MTI1ZGU1NDY0NTA5Y2EyOTAwOGQ1MmYyMWIxMWIxNTVhNzNjY2NjZjRkMTc3MDRiODZiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTA4MGQyYmIzMDc5YWEwYWNhOWI2ZTljNWUwMjY5OTgyYTU1ZjU0NDRjZDJiNzk0M2ViY2ZiZjQ0MDhlZDZhNCJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L189",
-          "version": "repo-lines-v1:sha256:5695c960996d5a60a7114a7dbbb1b4d13627c1d01da4019ae1998ec6f655d85c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyZjEwN2I3MGVkNzdkYTlmNzA2YmM2MGExNzM2ODcxMzliN2VkN2RjZTYwNzBkYTBiMDdmOWYyNTEwNGRmZjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhZTJlZjFmNGZmMGJiNzIyYzU1OThkMWY3ZTZkMTIyNmEwY2Y0OTU1MTZhNmMxYTRkOTFmOWFlM2FkZmJkNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyMGFkMWYyM2ViMWQzNGU0NGQ2NzQ0NTdhZWZjZjgzMzA0ZWQwODBhNTYwYWQwYTVhY2RkNDM2MzBmNTc3MzIifQ"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L227-L237",
-          "version": "repo-lines-v1:sha256:e84c08d9a06d828f0371f7e369d0a31eedaf867b3cbaa86bbb6bf9687ceec314:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyOGFiNGRmYjJmYmYyNGNjNDJmYWEyMjFmZDA1N2VmMmIzOTk3OWViMzg4MGZiNmI1NmY2YWNhNDVmZDU3YTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3M2ZlMDNlZWIzYjlhYjhmYmM3YjI5OWYxYTlhODY0M2UzNDRmYzkyZDM1ZGRkNDg0YjRmZGE4OGY4ZjBiNTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU0ZjUzNzk1ZjNiZGU0YTk1ZWI0YTE4ZjUzZmM2OTNlOWU1NWFiZDRlZTEwMWY5ZGM1NTljY2Q2NGE3OGQxZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmZjBlYjk1YTJiNTY0OTc1MThiODU2ZDU3MmQ0ZGYzZGExYTJlMGJjNDkyYTU3ZDVhNzhmNWQyYmQyZDBiYzEifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_eb45c5269b0e40f1b5892b04d6cb9ad2",
-      "statement": "For policies written or renewed on or after 2026-10-01, the available HO 04 81 edition 2026-09 summary states a $25,000 total limit for fungi, wet or dry rot, or bacteria, regardless of the number of claims, insureds, or property items, and states that the limit is not additional insurance.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L28",
-          "version": "repo-lines-v1:sha256:17f6bf605e74f53fe6f0c858529e4b01aba21b84ef25f97102bafe31266ec072:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhY2E3MjUyMTcxZTIzNzk4N2FkMWEwZTUyNjg0Y2E2MGIxYzQxNmJiNzY5OGMyOTdmNDgzYzE0NjQzNDIwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ3ODZlYThmNDhkNWYzMDJlN2ZkZjM4YTE5NjI1MzUzNzU4YTVhNjlkOTZkYjQxZDE1NTI0YzgyZmU2N2FkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWYwYThmMWJkZDM4ZmY4MjI2NmIyZDU4NDhiOGJkMTMwZGY5OGY4MjQ4MjU1NTNiZjFhZjdiNmRkNTQzZWU2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjk3OThlOTY5NWZmNGU0ODRjMGZhMGYzNjlhNTI5MmY1ZjU0NjNiMjU0NjJkYTgzMzRjYTRhYThlYmY2NTI2MyJ9"
-        }
-      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.6.0",
-    "at": "2026-09-30T03:41:52.744Z"
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

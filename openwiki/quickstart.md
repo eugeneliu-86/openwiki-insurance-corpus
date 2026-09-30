@@ -14,10 +14,6 @@ sources:
     resource: repo://bulletins/TX/b-2019-02-prompt-payment.md
   - id: openwiki-source-38049e374f54d1eb9a15f4ef
     resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
-  - id: openwiki-source-0de2907066d0f023c5c2e68b
-    resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-65c1bab72aeee4cf69ba7892
-    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
@@ -64,10 +60,10 @@ sources:
     resource: repo://training/choosing-the-governing-edition.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.6.0", at: "2026-09-30T03:41:52.744Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
-  - by: openwiki/0.6.0
-    at: 2026-09-30T03:41:52.744Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Coverage Wiki Quickstart
@@ -133,7 +129,7 @@ For Texas, Bulletin B-2021-08 requires clear and consistent administration and d
 
 Use the policy-effective date and issued policy record to select the base form and endorsement editions. Confirm the wording itself, declarations, schedules, and complete attachment package; do not substitute the newest repository file, specimen, quote, or familiar form title for the wording issued with the policy ([governing edition](repo://training/choosing-the-governing-edition.md#L61-L83)). Frozen forms and regulator bulletins remain live by edition, while guidelines and manuals are living guidance revised in place; an older form edition continues to govern policies written under it ([source lifecycle](repo://README.md#L33-L41), [edition markers](repo://README.md#L53-L60)).
 
-Use [Editions, Endorsements, and State Attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) when the answer composes documents. Record line, state, effective date, declarations, form labels, selected limits and deductibles, and the coverage part or damaged interest before interpreting the wording. For fungi questions, select the HO 04 81 edition separately: 2018-09 remains governing for policies written under it, while the available 2026-09 summary applies only to policies written or renewed on or after 2026-10-01 and confirms a $25,000 total limit without supplying full operative wording; verify the complete issued endorsement before relying on detailed terms ([fungi coverage](repo://forms/HO/MS/HO-04-81/2018-09.md#L10-L33), [2026-09 summary](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7), [2026-09 limit](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33)).
+Use [Editions, Endorsements, and State Attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) when the answer composes documents. Record line, state, effective date, declarations, form labels, selected limits and deductibles, and the coverage part or damaged interest before interpreting the wording.
 
 Use a filing memorandum to locate the meaningful edition delta, not to establish the result. For example, the HO-3 2024-03 memorandum explains revised deductible, multiple-cause, water-damage, settlement, and condition wording, while the filed HO-3 2024-03 provisions control the answer ([HO-3 memorandum](repo://memoranda/HO-3-2024-03.md#L13-L31), [HO-3 form](repo://forms/HO/MS/HO-3/2024-03.md#L13-L39)). Apply the same discipline to DP-3 and the other edition memoranda: compare the memorandum's explanation with the applicable frozen form, and preserve the older form when its effective interval governs.
 
@@ -153,7 +149,7 @@ HO 23 74 2025-05 modifies HO-3 2024-03 roof settlement by changing covered roof 
 | Personal liability or medical payments | [Coverage E and F](/openwiki/coverage/parts/liability-e-f.md) | Liability subject, endorsement, and state overlay |
 | Plumbing discharge, seepage, outside water, freezing, or resulting damage | [Water damage](/openwiki/coverage/perils/water-damage.md) | Base form, cause evidence, and any write-back |
 | Sewer, drain, or sump backup | [Water backup and sump overflow](/openwiki/coverage/perils/water-backup.md) | Attached endorsement, limit, deductible, and claims route |
-| Fungi, wet rot, dry rot, or bacteria | [Fungi and bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) | Select the applicable HO 04 81 edition, test the base exclusion and narrow write-back, then route microbial evidence and claims handling |
+| Fungi, wet rot, dry rot, or bacteria | [Fungi and bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) | Causation, microbial evidence, and endorsement |
 | Wind, hail, or percentage deductibles | [Wind and hail deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md) | State bulletin, deductible, and declarations |
 | Roof cause, matching, repair scope, or settlement | [Roof settlement](/openwiki/coverage/settlement/roof-settlement.md) | Roof claim handling and underwriting evidence |
 | Earthquake or California earthquake offer | [Earthquake coverage](/openwiki/coverage/perils/earthquake.md) | California overlay and applicable deductible |
