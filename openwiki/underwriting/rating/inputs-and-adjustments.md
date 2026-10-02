@@ -18,7 +18,7 @@ sources:
     resource: repo://manuals/rating/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -187,9 +187,6 @@ The final review is a rating-control checkpoint, not a coverage opinion. Interna
 
 ## Related operational boundaries
 
-<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Editions, endorsements, and state attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) — select the governing issued edition, verify attachment, and apply state contract overlays before treating a rating result as part of the policy package.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/eligibility-and-product-lines.md] link "/openwiki/underwriting/manual/eligibility-and-product-lines.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual eligibility by product line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — apply acceptance, referral, delegated-authority, and product-line controls separately from rating inputs.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/property-and-water-risk.md] link "/openwiki/underwriting/manual/property-and-water-risk.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual property, roof, and water risk controls](/openwiki/underwriting/manual/property-and-water-risk.md) — handle underwriting evidence, condition holds, and referrals without converting those controls into coverage terms.

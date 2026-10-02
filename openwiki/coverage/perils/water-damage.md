@@ -1,8 +1,11 @@
 ---
 type: coverage
-title: Water Damage and Microbial Loss
-description: Coverage analysis for accidental water discharge, seepage, freezing, flood, groundwater, roof entry, backup, and microbial loss. Distinguishes covered water causes from excluded sources and applies the edition-specific HO 04 81 microbial write-back without treating a limit or endorsement as a blanket grant.
+title: Water Damage
+description: Cross-line coverage boundary for accidental plumbing and appliance discharge, repeated seepage, freezing, flood, groundwater, roof entry, water backup, and fungi-related exclusions and write-backs. Applies the Mississippi editions and endorsements in the source set without treating a limit or endorsement as a blanket water-damage grant.
 tags: [property-coverage, water-damage, plumbing-discharge, seepage, freezing, flood, fungi]
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-0ac4f0d1fc1220eee9804cfe
     resource: repo://forms/DP/MS/DP-04-95/2021-05.md
@@ -12,8 +15,6 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-65c1bab72aeee4cf69ba7892
-    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
@@ -22,10 +23,7 @@ sources:
     resource: repo://forms/HO/MS/HO-5/2022-06.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
-verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T02:37:33.014Z
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 
 # Water Damage
@@ -125,9 +123,9 @@ The attachment check is substantive, not clerical: HO 04 27 cannot be substitute
 
 The base fungi exclusion comes before any write-back. **DP-3 2026-01** excludes fungi, wet rot, dry rot, bacteria, and microbes in P.27, while preserving resulting direct physical loss caused by a covered peril; X.9 separately excludes the fungal condition regardless of the source of moisture ([DP-3 P.27](repo://forms/DP/MS/DP-3/2026-01.md#L1338-L1340), [X.9–X.10](repo://forms/DP/MS/DP-3/2026-01.md#L1472-L1477)). **HO-3 2024-03** excludes fungi, wet rot, dry rot, and bacteria except as provided by the limited fungi endorsement; HO-4 2021-10, HO-5 2022-06, and HO-6 2023-02 contain their own edition-specific fungi exclusions ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637), [HO-4 X.32](repo://forms/HO/MS/HO-4/2021-10.md#L707-L715), [HO-5 X.29–X.31](repo://forms/HO/MS/HO-5/2022-06.md#L769-L777), [HO-6 X.22](repo://forms/HO/MS/HO-6/2023-02.md#L712-L715)).
 
-**HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage** is the acting endorsement for an HO policy when attached. The 2018-09 edition writes back the base fungi exclusion only when a covered cause first causes direct physical loss to covered property and the fungi loss results from that loss. It does not write back constant or repeated seepage, constant or repeated discharge or overflow, flood, preexisting conditions, neglect, inadequate maintenance, or defective work ([HO 04 81 2018-09 W.0 and W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L67)).
+**HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)** is the acting endorsement for an HO policy when attached. It writes back the base fungi exclusion only when a covered cause first causes direct physical loss to covered property and the fungi loss results from that loss. It does not write back constant or repeated seepage, constant or repeated discharge or overflow, flood, preexisting conditions, neglect, inadequate maintenance, or defective work ([HO 04 81 W.0 and W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L67)).
 
-When those conditions are met, HO 04 81 can cover direct fungi damage, necessary removal, access tear-out, repair-related tear-out, necessary remediation, and limited post-remediation testing. It does not cover preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, or otherwise excluded water damage ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L65-L91), [W.1 W.33–W.40](repo://forms/HO/MS/HO-04-81/2018-09.md#L111-L137), [W.4](repo://forms/HO/MS/HO-04-81/2018-09.md#L346-L419)). For policies written or renewed on or after 2026-10-01, the 2026-09 edition replaces 2018-09 and raises the aggregate to **$25,000**; its W.6 says this is the only change and all other provisions remain unchanged ([HO 04 81 2026-09 W.1–W.6](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L33)). Policies governed by 2018-09 retain the **$10,000** aggregate, and covered payments reduce the remaining amount ([HO 04 81 2018-09 W.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L157-L179), [W.1 W.47–W.52](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L149)).
+When those conditions are met, HO 04 81 can cover direct fungi damage, necessary removal, access tear-out, repair-related tear-out, necessary remediation, and limited post-remediation testing. It does not cover preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, or otherwise excluded water damage ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L65-L91), [W.1 W.33–W.40](repo://forms/HO/MS/HO-04-81/2018-09.md#L111-L137), [W.4](repo://forms/HO/MS/HO-04-81/2018-09.md#L346-L419)). The aggregate is **$10,000 for all covered fungi, wet-or-dry-rot, or bacteria loss during the policy term**, and covered payments reduce the remaining amount ([HO 04 81 W.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L157-L179), [W.1 W.47–W.52](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L149)).
 
 HO 04 27 is not interchangeable with HO 04 81. HO 04 27's water section excludes fungi, wet rot, dry rot, and bacteria, even though it states a separate **$5,000** fungi-related limit; that number does not override the express exclusion ([HO 04 27 W.1 W.15](repo://forms/HO/MS/HO-04-27/2016-05.md#L69-L77), [HO 04 27 W.2](repo://forms/HO/MS/HO-04-27/2016-05.md#L109-L115)).
 
@@ -150,4 +148,3 @@ HO 04 27 is not interchangeable with HO 04 81. HO 04 27's water section excludes
 - [HO-6 2023-02](repo://forms/HO/MS/HO-6/2023-02.md)
 - [HO 04 27 Limited Water Damage Coverage (2016-05)](repo://forms/HO/MS/HO-04-27/2016-05.md)
 - [HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)](repo://forms/HO/MS/HO-04-81/2018-09.md)
-- [HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2026-09)](repo://forms/HO/MS/HO-04-81/2026-09.md)

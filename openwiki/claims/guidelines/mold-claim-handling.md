@@ -4,8 +4,8 @@ title: Mold Claim Handling
 description: Internal guidance for investigating moisture and microbial-loss reports, preserving evidence, directing mitigation, consulting the controlling fungi and water provisions, applying limits, and escalating unresolved or material issues.
 tags: [claims, mold, fungi, moisture, water-loss, mitigation, evidence, escalation]
 verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T02:37:33.014Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-f746f2b2238c7adabef58c79
     resource: repo://bulletins/NC/ncdoi-2018-03-fungi-disclosure.md
@@ -13,8 +13,6 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-65c1bab72aeee4cf69ba7892
-    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
@@ -25,7 +23,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Mold Claim Handling
 
@@ -108,16 +106,13 @@ Do not treat emergency mitigation as proof that permanent repair or remediation 
 
 The base form’s grant, exclusions, definitions, conditions, and property coverage must be read with every attached endorsement. For example, HO-3 2024-03 covers direct physical loss from specified accidental discharge or overflow but excludes continuous or repeated seepage or leakage, several external-water pathways, and loss to the system or appliance from which water escaped; its fungi provisions separately exclude fungi, wet rot, dry rot, and bacteria except as provided by a limited fungi endorsement ([HO-3 water provisions](repo://forms/HO/MS/HO-3/2024-03.md#L485-L545), [HO-3 fungi exclusions](repo://forms/HO/MS/HO-3/2024-03.md#L629-L649)). HO-4 2021-10 has no Coverage A for the dwelling and has its own edition-specific water and fungi wording, including the fungi exclusion in X.32 ([HO-4 Coverage A](repo://forms/HO/MS/HO-4/2021-10.md#L71-L89), [HO-4 water and fungi provisions](repo://forms/HO/MS/HO-4/2021-10.md#L565-L583), [HO-4 fungi exclusion](repo://forms/HO/MS/HO-4/2021-10.md#L707-L715)). Do not import one form’s resulting-loss language, limit, deductible, or endorsement into another edition.
 
-### HO 04 81 edition control and aggregate limit
+### HO 04 81 (2018-09): narrow limited fungi coverage
 
-Do not apply a remembered fungi limit. Verify the issued policy, effective dates, declarations, attached endorsement schedule, and governing HO 04 81 edition before reserving, communicating, or paying a fungi-related amount. The **2018-09** endorsement remains governing for policies written under it, including losses reported later; it is superseded by **2026-09** for policies written or renewed on or after **2026-10-01** ([2018-09 transition rule](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12), [2026-09 applicability](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7)). If the policy assembly or edition cannot be established, hold the limit application as unresolved and escalate rather than selecting the newer or larger amount by default.
+When **HO 04 81 Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (2018-09)** is actually attached, it modifies the policy only on its express terms. The endorsement requires a covered cause of loss to first cause direct physical loss to covered property, with the fungi-related loss resulting from that direct physical loss. It does not convert an excluded water source or another excluded cause into a covered cause ([HO 04 81 W.0 and W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L67)).
 
-For either edition, HO 04 81 is an endorsement, not a standalone coverage grant. The covered cause must first cause direct physical loss to covered property, and the fungi loss must result from that direct physical loss. The endorsement does not make an excluded water source or other excluded cause covered ([2018-09 coverage trigger](repo://forms/HO/MS/HO-04-81/2018-09.md#L17-L33), [2018-09 causation](repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L67), [2026-09 coverage](repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21)).
+If those requirements are met, the endorsement can address direct fungi-related physical loss and reasonable, necessary costs for removal; tear-out and replacement needed to access or repair covered property; remediation; and air or property testing after covered removal, repair, replacement, restoration, or remediation when there is reason to believe fungi remain. The endorsement excludes, among other things, fungi arising from constant or repeated seepage or leakage, constant or repeated discharge or overflow, flood, preexisting conditions, deterioration, neglect, inadequate maintenance, defective work, preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, health-related testing or treatment, and work unrelated to covered direct physical loss ([HO 04 81 coverage and boundaries](repo://forms/HO/MS/HO-04-81/2018-09.md#L45-L125)).
 
-- **2018-09:** The aggregate is **$10,000** for all covered fungi, wet-or-dry-rot, or bacteria loss during the policy term. It is not a separate amount per room, item, insured, location, or claim; direct damage and qualifying related expenses share the aggregate, and payments reduce the remaining amount ([2018-09 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L179)).
-- **2026-09:** The aggregate is **$25,000** for all covered fungi, wet-or-dry-rot, or bacteria loss, regardless of the number of claims, insureds, or items. The edition states that this is the only change from 2018-09 ([2026-09 limit and change](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33)).
-
-In both editions, qualifying removal, access tear-out, remediation, repair or replacement, and post-remediation testing remain subject to the endorsement terms and shared aggregate; excluded, preventive, maintenance, health-related, undamaged-property, upgrade, or unrelated work is not made payable by labeling it remediation. Apply the deductible and other loss-settlement provisions only after identifying the covered amount and the applicable edition ([2018-09 covered costs](repo://forms/HO/MS/HO-04-81/2018-09.md#L69-L81), [2018-09 limit order](repo://forms/HO/MS/HO-04-81/2018-09.md#L163-L179), [2026-09 covered costs](repo://forms/HO/MS/HO-04-81/2026-09.md#L14-L21)).
+The HO 04 81 fungi, wet-or-dry-rot, or bacteria limit is a **$10,000 aggregate for all covered loss during the policy term**. It is not a separate amount per room, item, insured, location, or claim. Covered direct damage and qualifying related expenses share the aggregate, and payments reduce what remains; apply the policy deductible only after establishing the covered loss ([HO 04 81 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L161), [HO 04 81 aggregate application](repo://forms/HO/MS/HO-04-81/2018-09.md#L163-L179)).
 
 ### HO 04 27 (2016-05): do not treat the fungi amount as a grant
 
@@ -149,8 +144,8 @@ Close only after documenting the coverage decision, payment basis, outstanding i
 
 ## Related pages
 
-- [Water Loss Handling](./water-loss-handling.md) — operational water-source, mitigation, evidence, scope, payment, and escalation workflow.
-- [Property Perils and Loss Types](../manual/property-perils-and-loss-types.md) — cross-peril investigation and mold routing aid.
-- [Fungi and Bacteria](../../coverage/perils/fungi-and-bacteria.md) — contract composition, limited write-back, aggregate, and disclosure analysis.
-- [Water Damage](../../coverage/perils/water-damage.md) — water grants, exclusions, source pathways, and endorsement boundaries.
-- [North Carolina State Overlay](../../state-overlays/north-carolina.md) — North Carolina contract, disclosure, and claim-administration layers.
+- [Water Loss Handling](/openwiki/claims/guidelines/water-loss-handling.md) — operational water-source, mitigation, evidence, scope, payment, and escalation workflow.
+- [Property Perils and Loss Types](/openwiki/claims/manual/property-perils-and-loss-types.md) — cross-peril investigation and mold routing aid.
+- [Fungi and Bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — contract composition, limited write-back, aggregate, and disclosure analysis.
+- [Water Damage](/openwiki/coverage/perils/water-damage.md) — water grants, exclusions, source pathways, and endorsement boundaries.
+- [North Carolina State Overlay](/openwiki/state-overlays/north-carolina.md) — North Carolina contract, disclosure, and claim-administration layers.

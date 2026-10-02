@@ -14,8 +14,6 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-65c1bab72aeee4cf69ba7892
-    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
@@ -30,10 +28,10 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T02:37:33.014Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # Property Perils and Loss Types
@@ -138,9 +136,7 @@ Identify possible fungi or mold early when the report includes moisture, intrusi
 
 Do not characterize remediation as covered before the policy analysis is complete. Review all applicable forms and endorsements because the controlling form may modify exclusions, additional coverage, duties, or conditions ([mold guidance](repo://guidelines/claims/mold-claim-handling.md#L21-L33)). The HO-3 example excludes loss caused by mold, wet rot, dry rot, decay, deterioration, or contamination while preserving only the resulting direct physical loss allowed by the policy; the exact attached fungi or mold provision controls the claim ([HO-3 P.19](repo://forms/HO/MS/HO-3/2024-03.md#L595-L597)).
 
-When HO 04 81 is attached, it is a narrow modification rather than blanket mold coverage, and the edition on the issued policy controls. Under **2018-09**, fungi-related direct physical loss is covered only when a covered cause first causes direct physical loss to covered property and the fungi result from that loss; fungi arising from constant or repeated seepage, leakage, discharge, overflow, or flood, as well as preexisting conditions, wear, neglect, inadequate maintenance, and defective work, remain excluded ([HO 04 81 2018-09 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L45-L63); [HO 04 81 2018-09 exclusions](repo://forms/HO/MS/HO-04-81/2018-09.md#L89-L103)). Reasonable and necessary removal, access or repair-related tear-out, qualifying post-remediation testing, and remediation are covered only when tied to covered direct physical loss; preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, and non-covered property remain outside the write-back ([HO 04 81 2018-09 covered work](repo://forms/HO/MS/HO-04-81/2018-09.md#L65-L81); [HO 04 81 2018-09 boundaries](repo://forms/HO/MS/HO-04-81/2018-09.md#L89-L127)). Its **$10,000** limit is an aggregate for all covered fungi, wet- or dry-rot, or bacteria loss during the policy term, regardless of claims, insured persons, or property items; covered expenses share that limit, payments reduce what remains, and the deductible applies only after covered loss is determined ([HO 04 81 2018-09 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L157-L185); [HO 04 81 2018-09 deductible](repo://forms/HO/MS/HO-04-81/2018-09.md#L239-L251)).
-
-For policies written or renewed on or after **2026-10-01**, HO 04 81 **2026-09** replaces 2018-09 and changes only the fungi aggregate: the maximum is **$25,000**, still applying to the total of all covered fungi, wet- or dry-rot, or bacteria loss regardless of claims, insureds, or property items and not as additional insurance. The 2026-09 text states that all other provisions are unchanged ([HO 04 81 2026-09 scope and replacement](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7); [HO 04 81 2026-09 coverage](repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L22); [HO 04 81 2026-09 aggregate](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33)). Do not apply the later $25,000 amount to policies written under 2018-09: the later endorsement supersedes only for policies within its stated effective cohort. Refer disputed causation, concealed moisture, substantial remediation, health or habitability concerns, and material authority issues.
+When HO 04 81 (2018-09) is attached, it is a narrow modification rather than blanket mold coverage. It covers fungi-related direct physical loss only when a covered cause first causes direct physical loss to covered property and the fungi result from that loss; it excludes fungi arising from constant or repeated seepage, leakage, discharge, overflow, or flood, as well as preexisting conditions, wear, neglect, inadequate maintenance, and defective work ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L45-L63); [HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L89-L103)). Reasonable and necessary removal, access or repair-related tear-out, qualifying post-remediation testing, and remediation are covered only when tied to covered direct physical loss; preventive monitoring, routine cleaning, undamaged-property replacement, upgrades, and non-covered property remain outside the write-back ([HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L65-L77); [HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L89-L127)). The endorsement’s $10,000 limit is an aggregate for all covered fungi, wet- or dry-rot, or bacteria loss during the policy term, regardless of claims, insured persons, or property items; covered expenses share that limit, payments reduce what remains, and the deductible applies only after covered loss is determined ([HO 04 81 W.2](repo://forms/HO/MS/HO-04-81/2018-09.md#L157-L185); [HO 04 81 W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L139-L149); [HO 04 81 W.3](repo://forms/HO/MS/HO-04-81/2018-09.md#L235-L251)). Refer disputed causation, concealed moisture, substantial remediation, health or habitability concerns, and material authority issues.
 
 ## Loss of use and additional living expense
 

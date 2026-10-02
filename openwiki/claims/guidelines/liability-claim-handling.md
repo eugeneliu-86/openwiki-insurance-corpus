@@ -16,7 +16,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -210,13 +210,8 @@ Before final disposition, perform four focused checks: (1) **coverage:** policy 
 
 ## Related guidance
 
-<!-- openwiki: broken internal link [/openwiki/claims/guidelines/water-loss-handling.md] link "/openwiki/claims/guidelines/water-loss-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water Loss Handling](/openwiki/claims/guidelines/water-loss-handling.md) — property-side water intake, mitigation, causation, and payment handling.
-<!-- openwiki: broken internal link [/openwiki/claims/manual/liability-specialty-and-recovery.md] link "/openwiki/claims/manual/liability-specialty-and-recovery.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Specialty and Recovery](/openwiki/claims/manual/liability-specialty-and-recovery.md) — specialty liability, contribution, and recovery coordination.
-<!-- openwiki: broken internal link [/openwiki/coverage/liability/incidental-business-and-personal-injury.md] link "/openwiki/coverage/liability/incidental-business-and-personal-injury.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Incidental Business and Personal Injury](/openwiki/coverage/liability/incidental-business-and-personal-injury.md) — coverage questions for business and personal-injury allegations.
-<!-- openwiki: broken internal link [/openwiki/coverage/parts/liability-e-f.md] link "/openwiki/coverage/parts/liability-e-f.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability E–F](/openwiki/coverage/parts/liability-e-f.md) — liability and medical-payments coverage reference.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/liability-losses-and-occupancy.md] link "/openwiki/underwriting/manual/liability-losses-and-occupancy.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Losses and Occupancy](/openwiki/underwriting/manual/liability-losses-and-occupancy.md) — underwriting context; do not substitute it for claim coverage analysis.
