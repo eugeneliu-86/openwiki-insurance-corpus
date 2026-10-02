@@ -165,7 +165,11 @@ jobs:
         if: ${{ !cancelled() && vars.AUTO_RESET == 'true' && steps.commit.outputs.landed == 'true' }}
         run: |
           [ "$(jq -r .status .compile-state.json)" = "complete" ] || { echo "compile not complete; not resetting"; exit 0; }
-          ingests=$(git log --format=%H --grep='^ingest: ' "${{ steps.prev.outputs.compiled_from }}..HEAD")
+          # Only ingests after the latest reset: a reset restores the old compile state, so the
+          # range from the previous compile still holds ingests an earlier reset already undid.
+          prev='${{ steps.prev.outputs.compiled_from }}'
+          base=$(git log -1 --format=%H --grep='^reset: ' "$prev..HEAD"); base=${base:-$prev}
+          ingests=$(git log --format=%H --grep='^ingest: ' "$base..HEAD")
           [ -n "$ingests" ] || { echo "no ingest in this compile"; exit 0; }
           git revert --no-commit HEAD $ingests || { git revert --abort; echo "the revert conflicts; not resetting"; exit 0; }
           git commit -q -m "reset: undo $(echo $ingests) [skip ci]"
