@@ -14,7 +14,7 @@ sources:
     resource: repo://guidelines/authority/referral-matrix.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
 ---
 
 # Manual Binding Authority, Referrals, and Unclearable Conditions
@@ -147,10 +147,15 @@ While a referral is pending, hold the action that requires authority, communicat
 
 ## Related control points
 
+<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - Use [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) for the broader referral lifecycle and the distinction between appetite, authority, and contract terms.
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/eligibility-and-product-lines.md] link "/openwiki/underwriting/manual/eligibility-and-product-lines.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - Use [Eligibility and Product Lines](/openwiki/underwriting/manual/eligibility-and-product-lines.md) for product and appetite eligibility before applying the Rule 300 authority ceiling.
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - Use [Inspection and Records](/openwiki/underwriting/manual/inspection-and-records.md) for evidence currency, inspection findings, and record retention.
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/renewal-and-adverse-action.md] link "/openwiki/underwriting/manual/renewal-and-adverse-action.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - Use [Renewal and Adverse Action](/openwiki/underwriting/manual/renewal-and-adverse-action.md) when a referral or unclearable condition affects continuation, restriction, cancellation, or nonrenewal.
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/water-loss-handling.md] link "/openwiki/claims/guidelines/water-loss-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - Use [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md) when the trigger is a claim or water-loss handling issue. Rule 900.A’s claims-authority trigger is not a substitute for the applicable form, endorsement, declarations, or claims authority process.
 
 When sources use different thresholds or different outcomes for similar facts, preserve the source positions in the file, identify the applicable business function, and obtain authorized direction. This page intentionally does not convert the $25,000, $100,000, $800,000, $1,200,000, or $1,500,000 positions into a single universal rule, and it does not convert roof inspection, roof-age, loss-count, or water-backup referral triggers into policy terms.

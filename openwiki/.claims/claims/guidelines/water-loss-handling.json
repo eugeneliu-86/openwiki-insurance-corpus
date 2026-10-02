@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:ad4687a358c6d3bd2266bf0d53f4aaaeb92aad3c35c8adfc420deb96f71bbb09",
+  "pageVersion": "sha256:a52dcd6a9659bdea4710d3e9c57d34b2f8050a343c25a11e4d38220c74832ef1",
   "claims": [
     {
       "id": "claim_0c72304d7f8f4189a8e1bec7e288ea1e",
@@ -253,7 +253,7 @@
       "statement": "Fungi, wet rot, dry rot, and bacteria require a separate causation and coverage analysis from the initiating water event: HO-3 2024-03 excludes the microbial conditions except as provided by an attached HO 04 81 endorsement, while HO 04 81 requires a covered cause to first cause direct physical loss and the fungi condition to result from that loss, subject to its exclusions and aggregate limit.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L91",
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L17-L95",
           "version": "repo-lines-v1:sha256:7a9b6fd19212256671a8c72fcbe1c4e030338a33743599e19aa39e2fa7ed6f84:eyJzZWxlY3RlZExpbmVDb3VudCI6NzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTUyM2NiZWZhY2Y4MGFlNjQ1MTYzNjk5MDMwMzkxMjMyM2QxZWNjMzU3ODhlOWQ4ODQ5MjFlYmRhOWRkZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3N2M5ZTQ1OWJlMTMxZTRmNTUxNGIyZjE4MTc2ZDQ5MzczYjgzYWIyMDc1MDRjYmQ1YjYyODcyZjA5NDIyZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5M2FlMjk2YzU4MTBhM2VlYTdjNTFmMzkwNzgzMDY5ZTIyMDRlYTk3NWI4NTgyODNkNmIxY2YwNmRlODhhZWUifQ"
         },
         {
@@ -287,10 +287,50 @@
           "version": "repo-lines-v1:sha256:a838f0d99318967035e827fe253acd17aa8a341e0da7faf871c53536c4aa7d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNDEyM2QxZDI5NzJhNmUzODM3OWM5NGNmMDI4NDIwODQ4YThjY2M0MWEwNmYwYzFmMTdlMDMwNDA5NTMwODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1N2E5ZWI2ZThkNWIxNDg3OTY1ODMzYTYzYjlhYjk5MGFiYzVjMzYwNzBlZTUyYjAzYjdmMTlmNjkyODAxZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZlNjVlYzYxZWJiNWMyM2Y2ODFjMGY2NTYxMDk3YTkxYTBhNTA1MGQ5YjNiZWY4ZGE5M2EwZjIwOTYyYTM4MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3MTY5ODI4NDI0ZTI0MmFhNGY5NzIzNGJkMzJiMTliNWE4MzlkZjMxNWQyYjQ4MDBhMGY3NDkyMmY1MjBkMWEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_1c63d27843064d40810bc904d2eb3f2d",
+      "statement": "Claims handlers must identify the attached HO 04 81 edition and its applicability before stating microbial conditions or limits: 2018-09 continues to govern policies written under it, while 2026-09 applies only to policies written or renewed on or after 2026-10-01.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12",
+          "version": "repo-lines-v1:sha256:74af0d1a34add151c48ab2f305a65ae0fc26adcd695ce86c487cd4636bad7574:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDNlZDliMjg4MTc0ZWE2NmNmYTVhN2I2OWNlZTI4OTkyY2Y2NDA0Mjg2MzVmNzQzOWRjYjk1MzQzODY5ZDRhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTc1YmVjMjQ0ZDhlZjliYWY1N2FkYjFmZDhiNjYwM2NlZGNkZDg2NTNmMGM0MGJkNTFlYzk1YWQzNDMzNGJiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2Y5OGVhNzE4NmQwMWMyMTFkZTY5Njk2ZTk5MzZhZWUzMjgxZWZmOTA0ZGQ0M2I5YTc0MDhiYjQ5Mjg1MzRkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7",
+          "version": "repo-lines-v1:sha256:c3bb4f50de61f109a9760cede1bac479ad666d459498916319e80ac285dd300d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRmZDg0NTljYWZkYTk3MmE2Y2U2ZDg4ZmMwMDRhZmMxOGNhZmE0ZjA5ZGRmM2FiYjRkZGE1NDUwYmQyY2UzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTcwOTBmMDNhYTZjMjNiNjA2MzAxOWUyMWQzYWMyMzc0MTExZWViNDIyYjc2ZGNiN2EzMGZmZTcyOTllZDFmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWNkZWFmOTBhZGNlMDEzZWMxOWEwNDVlNGJlYTZkZWRhMDlmNzRhZDA2ODI0OGFlOWZlZGYxMWUwNDk1OTJiZiJ9"
+        },
+        {
+          "resource": "repo://guidelines/claims/water-loss-handling.md#L103-L110",
+          "version": "repo-lines-v1:sha256:f05d977e7aae63b3c740d9aeb83519a7943a742c575e296285f98fae43bf4af8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTUxYTcwZWEwMTg0MWMwNDE4NmZjZDM5ZTdjYjljYjI1MGZiYjcwOWM4YjM3MzRhZGY1ODc4Zjc1ZjBjZjI3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzJhZmI3MjdiODRmYWNkZWJhNDJlMzFhNTNkNjE4ZWU5ZjQxODJiYWEyZWM4ZjRlMTE2ZDFmNmJlYjhmM2I4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDhjYzg4YTNjYjk0YWIyMmI1OTQ0MzY3ODY3M2U0Y2YwOWEyYTU1NDc2ZjdiZmUyMjUwZTBiNjI5ZjMwZDU1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_656f7cb838ec41e586c3e876fc867ab2",
+      "statement": "The HO 04 81 microbial aggregate is edition-specific: governing 2018-09 policies have a $10,000 aggregate, while 2026-09 policies have a $25,000 aggregate; the later limit must not be imported into earlier policies.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L169",
+          "version": "repo-lines-v1:sha256:6dea96c1eab1238a91cf7ae379d8494eb1a2fc62cbe497c7427e052f3a97cf8b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhY2E3MjUyMTcxZTIzNzk4N2FkMWEwZTUyNjg0Y2E2MGIxYzQxNmJiNzY5OGMyOTdmNDgzYzE0NjQzNDIwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU5OWM5MTVmYTU1MGE4ZTE4ZTE4MTQ5ZmY0ZTU0ZTA2MTM3YTQyMjM3NDdlNjgyYjJkMGU3MWQ0ZGU0ZjZkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGFlMmVmMWY0ZmYwYmI3MjJjNTU5OGQxZjdlNmQxMjI2YTBjZjQ5NTUxNmE2YzFhNGQ5MWY5YWUzYWRmYmQ1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODNmNDc5OGRmNjVmMzM0NGJiYWQyYjYzMmY3YzRmNDE0MzgxYWQ1MWQ0NzZjNTJiOGUzMjIwZjhkMDY1NDg3NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33",
+          "version": "repo-lines-v1:sha256:a88bd1166851ee81fa0491249bac548d0cacf067cae378003435940a53eb1b16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0NThlNTAzYThkNGNlZDQ1MGFhZjQ2N2ZmNTA3MDRkMmMyNjg4OWY5YWYyNzFhYzQ5NDA5NjBkZTZmYzQ3ZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMGE4ZjFiZGQzOGZmODIyNjZiMmQ1ODQ4YjhiZDEzMGRmOThmODI0ODI1NTUzYmYxYWY3YjZkZDU0M2VlNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://guidelines/claims/water-loss-handling.md#L109-L110",
+          "version": "repo-lines-v1:sha256:5f36f2c0478c48873ffb2c0741c04ad7a4f146c9d3b41b64836b4600dbb21113:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGJlZDk1NTc5YzAwZGU3ZTQxYjkyNzk1Yjk0ZjdhODUyYmUzODBmNjdmOTA1MmE0YzViM2I5OWQ4OTFkZTNkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzk3M2M1N2I2ODNlYWZhZjRlNDhmNzU2ZTBlZTRmYTQyODAxMDY1MzhhYjNiZTYyZTBkMGQxNzYzNzY5MzJkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDhjYzg4YTNjYjk0YWIyMmI1OTQ0MzY3ODY3M2U0Y2YwOWEyYTU1NDc2ZjdiZmUyMjUwZTBiNjI5ZjMwZDU1ZSJ9"
+        },
+        {
+          "resource": "repo://guidelines/claims/water-loss-handling.md#L131-L135",
+          "version": "repo-lines-v1:sha256:b4705752472d7bd6be8589797e0822c7ade4645b54c5261eada46d7799bbd092:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM5NTNkN2RjODAyMTMwNjM0NjRiOGJhMWY3Y2FhNDA5YzM2YjkyNjkzNTYwMzM4MTY1ZjUyNzA3NjA2YjhlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YjJmNmQ2ZTM0NTRkYjcxZjVkOTVkMmU4NGE1YTAzMzYxZmZhN2IwMWY1MjZiZTg2NDM2OThjYTVkMDA1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWIxNmUxNjk1NmUwOGU5YmZiMTZmZDE3ZWRkM2JkMmQ3YzVhMTlmM2EzOTEyNzljNjNkOTdjYmY0ODJhNzE5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmY3N2UwNWJiMjM4MjI3NDA0MTNiMzgzYjQwNGYzMWQ4NDQ3NDU3Nzg2ZmFkMjQ3ZDhhZDk4MDAxMzI5NmNiZCJ9"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.1",
+    "at": "2026-10-02T02:37:33.014Z"
   }
 }

@@ -4,8 +4,8 @@ title: Water Loss Handling
 description: End-to-end operational workflow for water-loss claim intake, source tracing, mitigation, evidence, coverage consultation, valuation, payment, recovery, and closure. It keeps handling controls separate from the policy, endorsement, settlement terms, and applicable state requirements that govern coverage.
 tags: [claims, water-loss, mitigation, causation, evidence, coverage-consultation, settlement]
 verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-19T07:29:25.602Z
+  - by: openwiki/0.6.1
+    at: 2026-10-02T02:37:33.014Z
 sources:
   - id: openwiki-source-6f2e8c6b93df2e40df6addd5
     resource: repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md
@@ -15,6 +15,8 @@ sources:
     resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
+  - id: openwiki-source-65c1bab72aeee4cf69ba7892
+    resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-7176aead92778c93cb0441d2
@@ -27,7 +29,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-98a0b702206aa7ec38174d58
     resource: repo://training/water-losses-101.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:37:33.014Z" }
 ---
 # Water Loss Handling
 
@@ -132,7 +134,9 @@ Before a coverage position, record the line, form edition, declarations, loss da
 
 Inspect concealed, organic, and absorbent materials when water exposure makes fungi, wet rot, dry rot, or bacteria possible, but treat growth, odor, staining, or a health complaint as evidence to investigate rather than proof of covered microbial damage ([Manual 3.T–3.U](repo://manuals/claims/manual.md#L825-L835); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L82-L101)). Separate the original water event, resulting physical damage, testing, removal, access, remediation, pre-existing condition, and preventive or routine work.
 
-HO-3 2024-03 excludes fungi, wet rot, dry rot, and bacteria except as provided by the attached HO 04 81 endorsement; the microbial remediation limit does not itself create coverage ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637)). When HO 04 81 is attached, its grant requires a covered cause to first cause direct physical loss and the fungi to result from that loss. It may cover reasonable necessary removal, access, repair-related tear-out, remediation, and post-removal testing, subject to its exclusions and aggregate limit; it does not cover pre-existing, repeated-seepage, preventive, routine, or otherwise excluded work ([HO 04 81 W.0–W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L91)). Refer microbial, contamination, health, habitability, or unsafe-occupancy issues rather than deciding them from a vendor label.
+Identify the policy’s attached HO 04 81 edition before stating a microbial limit or condition. The 2018-09 edition remains governing for policies written under it, including losses reported later; the 2026-09 edition applies only to policies written or renewed on or after 2026-10-01 and replaces the earlier edition for those policies ([HO 04 81 2018-09 applicability](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12); [HO 04 81 2026-09 applicability](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7)). Do not import the 2026-09 $25,000 limit into a policy governed by 2018-09, whose aggregate is $10,000 ([HO 04 81 2018-09 limit](repo://forms/HO/MS/HO-04-81/2018-09.md#L161-L169); [HO 04 81 2026-09 limit](repo://forms/HO/MS/HO-04-81/2026-09.md#L23-L33)).
+
+HO-3 2024-03 excludes fungi, wet rot, dry rot, and bacteria except as provided by the attached HO 04 81 endorsement; a microbial limit does not itself create coverage ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637)). Under either edition, the grant requires a covered cause to first cause direct physical loss and the fungi to result from that loss. The endorsement may cover reasonable necessary removal, access, repair-related tear-out, remediation, and post-removal testing, subject to the governing edition’s exclusions and aggregate limit; it does not cover pre-existing, repeated-seepage, preventive, routine, or otherwise excluded work ([HO 04 81 2018-09 coverage](repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L95); [HO 04 81 2026-09 coverage](repo://forms/HO/MS/HO-04-81/2026-09.md#L9-L21)). Refer microbial, contamination, health, habitability, or unsafe-occupancy issues rather than deciding them from a vendor label.
 
 ## 5. Scope, valuation, settlement, and payment
 
@@ -150,6 +154,7 @@ Apply valuation, limits, and deductibles only after the covered portion and supp
 - **HO 04 90 (2027-01):** $10,000 aggregate maximum for water backup or sump discharge or overflow; reasonable protection and water-removal expenses fall within the limit; the $1,000 deductible applies to each covered loss after covered damage is determined and is not allocated separately among property categories from the same backup ([HO 04 90 W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316); [HO 04 90 W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L435)).
 - **DP 04 95 (2021-05):** $5,000 aggregate limit for Water Backup and Sump Overflow, reduced by payment, and a $1,000 deductible applied to covered loss after applicable limitations and exclusions ([DP 04 95 W.2](repo://forms/DP/MS/DP-04-95/2021-05.md#L113-L127); [DP 04 95 W.3](repo://forms/DP/MS/DP-04-95/2021-05.md#L179-L199)).
 - **HO-3 2024-03:** its base Section I deductible must not be less than $1,000 unless modified by endorsement, but that minimum does not create backup coverage. Its dwelling replacement-cost treatment remains subject to the applicable settlement conditions ([HO-3 S.29–S.35](repo://forms/HO/MS/HO-3/2024-03.md#L765-L783)).
+- **HO 04 81 edition control:** if microbial payment is implicated, apply the aggregate in the attached edition after determining covered loss; use $10,000 for governing 2018-09 policies and $25,000 only for policies to which 2026-09 applies. Record the edition and policy-writing or renewal basis in the payment review ([HO 04 81 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12); [HO 04 81 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L7)).
 
 Use the settlement provision for the property and form at issue. Do not infer replacement-cost entitlement from an estimate; document repairability, replacement feasibility, pre-loss condition, depreciation where applicable, and any completion or documentation condition. The manual requires credible scope and pricing, separation of observed from unverified damage, and consideration of repairability, betterment, depreciation, salvage, and prior damage ([Manual 1.S–1.U](repo://manuals/claims/manual.md#L123-L139); [Manual 20.K–20.O](repo://manuals/claims/manual.md#L6691-L6719)).
 
