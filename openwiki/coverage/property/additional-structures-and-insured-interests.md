@@ -36,7 +36,7 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-2cf1b29512817bd0bdda6254
     resource: repo://training/condo-master-policy-gap.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T03:49:11.168Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -200,19 +200,11 @@ For a detached structure used for business, the manual says to refer rather than
 
 ## Related reading
 
-<!-- openwiki: broken internal link [/openwiki/coverage/forms/dp-3.md] link "/openwiki/coverage/forms/dp-3.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [DP-3 Dwelling Property Form Editions](/openwiki/coverage/forms/dp-3.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-3.md] link "/openwiki/coverage/forms/ho-3.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-3 Special Form Editions](/openwiki/coverage/forms/ho-3.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-4.md] link "/openwiki/coverage/forms/ho-4.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-4 Contents Broad Form Editions](/openwiki/coverage/forms/ho-4.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-5.md] link "/openwiki/coverage/forms/ho-5.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-5 Comprehensive Form Editions](/openwiki/coverage/forms/ho-5.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-6.md] link "/openwiki/coverage/forms/ho-6.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-6 Unit-Owners Form Editions](/openwiki/coverage/forms/ho-6.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/property/loss-assessment.md] link "/openwiki/coverage/property/loss-assessment.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Loss Assessment Coverage](/openwiki/coverage/property/loss-assessment.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/eligibility-and-product-lines.md] link "/openwiki/underwriting/manual/eligibility-and-product-lines.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/liability-losses-and-occupancy.md] link "/openwiki/underwriting/manual/liability-losses-and-occupancy.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Liability, Loss History, and Occupancy Controls](/openwiki/underwriting/manual/liability-losses-and-occupancy.md)

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:85268f91b122ec931aba812ac6679ecf68dfc2740d83537830ac016656179f14",
+  "pageVersion": "sha256:b6186e0ac4161ee1eac6614c9232f0ac842c2b893212af3461bac1023655aa0f",
   "claims": [
     {
       "id": "claim_ba0afb72df08460f9367983397a38012",
@@ -91,7 +91,7 @@
       "statement": "Texas HO 01 45 2022-01 gives its conflicting terms precedence, preserves nonconflicting terms, does not itself provide unexpressed coverage, and implements a separate windstorm and hail deductible tied to the Declarations and applicable limit.",
       "evidence": [
         {
-          "resource": "repo://README.md#L92-L95",
+          "resource": "repo://README.md#L89-L92",
           "version": "repo-lines-v1:sha256:a3a23300b99c1ba55993e0e1cd3defad07def450823a1dece11b7f112f988281:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE0ZGExZDA2OTA3ZTc0YTNmZGZjYTYxNjgwMmUxZDdjM2VmNGIxNTNlYTk0NDNiOTYwMzFjNDQ1OWIwNDg3OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA3OWU4NTg4NGQzNDYzMTQ3MTQ0NGZkYTlkMmFhMjFjZTA1YTM3NDJjM2JiZmUwZWNjOTkwN2E5MjgzODAxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjAwNDhmZGE0MzlhNWI0NzEwNmEyYjc3NjQ0ZTBjNjY2OGJhYWQzOGI3MjE1NThiMGRiYzczZjYyYTU0NjExMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         },
         {
@@ -407,108 +407,10 @@
           "version": "repo-lines-v1:sha256:3d3380802e35b230926436b419fc5403fb181f29708ec60b1885342028e9cb3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwMjAwZWE0N2VhNGFlZTc5NDJjMWY1OWIyZjM0Mjc2NjAyMDI3YjI5NDk2ZGIwOGRmYmUzNjUwZDc0Y2NhOTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzN2RhNTlkZDRkNzgzMDExNzZkMTczZTg5MmY2ODk1YWFjYTRlNWIwZDc2ZGQzYjI0OTIyMGU5Y2QzYWI1OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmMjU3OWQ5ZTIyMjA2ZWFkYTM2NmNkNzQ0YTQxYzVmOGY1ZTM1OGQ0YjJmNTdhYjA4MzQ0NTk1ODg2M2VmNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmOWE5MDAyZjlmMDZjMjBiMTM0NGFjMWY5NDM1MDU2NWUyZGZlMjdhNjVhYzk2NDFmOWEzYTEwYTY2ZDU5NzYifQ"
         }
       ]
-    },
-    {
-      "id": "claim_4d85526bb5a643e59a6a0ba7515dce36",
-      "statement": "HO 04 90 2026-01 supersedes HO 04 90 2010-10 for policies written on or after 2026-01-01, while the older edition remains applicable to policies written under it; the effective date selects a candidate but does not prove that the endorsement was attached.",
-      "evidence": [
-        {
-          "resource": "repo://README.md#L35-L37",
-          "version": "repo-lines-v1:sha256:4caff3c45906fdbdfc924e297f83468e6c6c26ec71ec885137d8d52b15fb595c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGRhNTZhZWQwNDgxMjRhMmMwNTI2YTM3ZDA5MWMxZGQ4N2YxYjVlOWUyNTVhYzYxNGM1MTVmZDBkN2U5MmYyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM2ZDRkZmE0ODhlZDRjZTk5ZWM3ZDBlN2QzNzBlNTRiMjZmMGYyOTkwMjgyNzQ1NjVlNzhiMmEyZWEwNjgzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzM5ZDY2ZjE0Y2ZjMGY0NjcxYTFkN2IxMjA5MjM3ODFjNmZjMjFiZWMzZjViNDY4MjNhYjc0NjQ3ZDliZDI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJmNTE5YzUxYjA4NTNhNGJiZmM2ZmZhODZmZDVmODM2MjE2Mzg2OGU4MTg5ODVlYjEwYzg2NzFmYTg1ZTUxOCJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md",
-          "version": "repo-file-v1:sha256:06bc060eaa8366133d9e2a31c0f958343efe36cc03bcd76bf4dfe2fb04b37c60"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md",
-          "version": "repo-file-v1:sha256:7f9a301e9d4c4f6684f2ec543b18761c7c833cab403d4f954deef362ce855d21"
-        }
-      ]
-    },
-    {
-      "id": "claim_d3e87592a2c943538295036dce99fd12",
-      "statement": "HO 04 90 2026-01 is effective only when attached, forms part of the policy, controls a conflicting policy provision within its scope, and preserves policy provisions it does not modify.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md",
-          "version": "repo-file-v1:sha256:7f9a301e9d4c4f6684f2ec543b18761c7c833cab403d4f954deef362ce855d21"
-        }
-      ]
-    },
-    {
-      "id": "claim_d4a3f0ba22924de0ba6520a610db7d61",
-      "statement": "When composed with HO-3 2024-03, HO 04 90 2026-01 writes back the base form's sewer, drain, and sump water exclusion for its stated Water Backup and Sump Discharge or Overflow grant, while preserving the base form's flood and surface-water exclusions.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md",
-          "version": "repo-file-v1:sha256:7f9a301e9d4c4f6684f2ec543b18761c7c833cab403d4f954deef362ce855d21"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L591-L601",
-          "version": "repo-lines-v1:sha256:815c744f649bb83a640a86a1b7dd4a27f4e11e2d7212d284d52fa21ab3d1165d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzM2UyNzRmOGU2NmE2YWM2MGRlYTY0MjkxMDk0YjRlZWI2MzZmMjY2ODE1ODEzM2MwYzIwMGNhNGNlNTNlZDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1YzE0ZWE0MDI1ODczZGE2MzZkZjI5ZWIwMWQyY2RjYmMxNGMyMTg5OTIzYmQzZjY4MTAwNDUyNDk1ZWU4Y2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlN2UyMTI3NDRjMjY5MTc0OTdmYmU5MzhkYWRjNGJhYjVmODY1MjI1MmYzMTNhMzJmZTg5ZGFhOWZiZGY1MmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2YjgxNDdhN2FmMGRmYTYwNTAxY2Q0ODQ4MzBmOWYyNDMwNDFjNGExYjU3MTcxZTQwNjhiZjFjMzA0MDNhNDkifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_8d8aac81b9114d80ba85d04947dc93dd",
-      "statement": "HO 04 90 2026-01 provides a default $10,000 policy-period sublimit unless a higher Declarations limit applies and a separate $1,000 deductible; the Section I deductible does not apply to loss covered under the endorsement.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md",
-          "version": "repo-file-v1:sha256:7f9a301e9d4c4f6684f2ec543b18761c7c833cab403d4f954deef362ce855d21"
-        }
-      ]
-    },
-    {
-      "id": "claim_f86fbfbea48441b1919eca817cd81aa2",
-      "statement": "HO 04 90 2026-01 adds a known-maintenance-failure condition and requires an operable backwater valve or equivalent device for finished below-grade areas, requirements not present in HO 04 90 2010-10.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md",
-          "version": "repo-file-v1:sha256:06bc060eaa8366133d9e2a31c0f958343efe36cc03bcd76bf4dfe2fb04b37c60"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md",
-          "version": "repo-file-v1:sha256:7f9a301e9d4c4f6684f2ec543b18761c7c833cab403d4f954deef362ce855d21"
-        }
-      ]
-    },
-    {
-      "id": "claim_91e190bfa24e41bf8eab6ae86396bd3f",
-      "statement": "A state amendatory form modifies the applicable HO-3 contract only within the matters it addresses and preserves compatible terms; for Texas, HO 01 45 2022-01 implements the contractual windstorm-and-hail deductible mechanism while Bulletin B-2021-08 constrains disclosure, records, administration, and notice.",
-      "evidence": [
-        {
-          "resource": "repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L19-L27",
-          "version": "repo-lines-v1:sha256:68956604bf30a74f980885b5b177793bfaf0d4e0e20568a95efe60aa6b4d32d6:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIzZTEzNmMzODAzZTRiNjJhODJlYzhhNWQxMDA4OWQzOTI0N2EyZWZlNjdjZTA5MTI3NTI5NTg2NmIzOTdlYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZkOTU0NzFkYzA3ODIwNzk4YTE2YTI1MDY1YjE5OTY1NTU0YTdkMzM1YTkyM2NlMTllNDYxOTA5NzNkMDRjOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk5YTFlYmM4YTg0MmY4MzQyZWZmMGQ1NWEzOTI0MTM3OGM4NmU1NTE4YTZkNTczNGIzOWViY2Y5MGRiNzNhNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzcwYzEyY2UxZDY1NDc3NDUwYTczNTFmMzE0NmRkNTU1MWY0YzJmMTEzMWJlZTExNjExMzQwZGEwYjg3MTcwNiJ9"
-        },
-        {
-          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L13-L23",
-          "version": "repo-lines-v1:sha256:24e416f9c7e4048ca26e9b5faa8d078df945550df70ee8432e3e76db92693ab3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0Y2E3NjA1NzBhNDViMDllYzU0MGMzZWE2NzhhNWI2ODM2M2NiNzM1YTA4Y2Y4MmRiZGQxZGJjNjVjMjliODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzMWIyOWM0OGVhZTgyZWViYWJiOWUzMjNkNDdjMDllNmMxZmNmOTQ1MTA3YWRlZjg5MDY3YmVkYmU5NjkyNzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjYjg0YmIyZTFkMTQ0MmM0YTFiNzNjZGM1NGMxOWNhOWYzMjc3MjM5ZDI3OTU3ODA0YmQwMGI2NGRiOGQyNDQifQ"
-        },
-        {
-          "resource": "repo://forms/HO/TX/HO-01-45/2022-01.md#L59-L91",
-          "version": "repo-lines-v1:sha256:631366be839048509b2ded86a3d7c86128f95c2ba5f5a96d96f453d3bce54578:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYWVhYTc5ZmE2OTFlNWJlYTA0YjYzNWQ3MDI5MTBhNzllYTY4NGQxOWNhNWQxMmI4ODQzMzVjYzRmZmI0ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2MTUwNDM3ODBlM2RlMDA4ZTgwOWZlZTVkOGQ2ZWQ3YTRhYzQ3ZmE4NDg5MDVhNTk0YzIyN2NmZGVjYzg0OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmMTRiMGZkZDIxZDcyMjZhZjBmNWI4MmFkMjAzMzY2ZTc4NzBkZGM3YWY1Y2M3MmQ0MDk5Mzc4NWUzMjg4ZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ1NTQzMzNiNTlmNjgwYzI3ZTgyNzRjZjhkOTgzMjY4YmFiZTgwMmMwZmY1MWU4YmRkNGQ4ZWExMGY1ZTY4YTkifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_28018475e92f4927943e58a6ccbe5d58",
-      "statement": "The underwriting manual constrains whether an endorsement may be bound or attached through authority, eligibility, documentation, and referral controls, but it does not alter issued coverage terms.",
-      "evidence": [
-        {
-          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
-          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
-        },
-        {
-          "resource": "repo://manuals/underwriting/manual.md#L5089-L5129",
-          "version": "repo-lines-v1:sha256:db1c1cba3ecfcd4f4b35ce90e6a370dc615bcfef976567b00c4aef91c6fc8ca2:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxMDY4Y2IyMTlkNjIwMGJjZDdmMzEzOGNkN2U0Y2Q3MDI2MGYzYjlmYTk0ZDk3N2YyZWM3ZWY2ZTY0ZDRkZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZDI1MWMzNDhlYmNmYmMxNGE5NzE3ODZlY2FlZmM1NzVjNTk5NmY5ODk0OTljOTdjOTgzNjk3MjdjNjNkMTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjNjU1NWVjM2Y2ZTFjOTM4MGVjNjMyNTM4MDVmYTNmY2ZmYWZjN2MyMzIxNDA3N2I5MDI2NTVlNDc1MGE5YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkNjQ0ZDM0OWM4ZjA2ODM3ZTg5NGIxNjc0MDFhYjU4ZTdiMWZmZWQ4YWUxM2NiODYxNTFlMWE4Njc5M2I1YzEifQ"
-        }
-      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.6.1",
-    "at": "2026-10-02T03:49:11.168Z"
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

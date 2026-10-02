@@ -15,7 +15,7 @@ sources:
     resource: repo://forms/HO/LA/HO-01-17/2020-09.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T03:49:11.168Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
 ---
 
 # Louisiana State Overlay
@@ -173,6 +173,4 @@ Before quoting, binding, renewing, changing, or adjusting a Louisiana policy:
 
 Common failures are using the 2020 72-hour period for a policy governed only by the 2012 position, applying a deductible not authorized by the contract, imposing an increased deductible before the 30-day notice period expires, treating a named storm as proof of causation, or using Rule 540 as if it were customer-facing coverage language.
 
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/wind-hail-deductibles.md] link "/openwiki/coverage/perils/wind-hail-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 For broader deductible calculation and wind-driven-rain principles, see [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md). For date-sensitive assembly and the distinction between forms, bulletins, and internal guidance, see [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md).

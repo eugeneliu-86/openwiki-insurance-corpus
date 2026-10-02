@@ -17,7 +17,7 @@ sources:
     resource: repo://forms/HO/NY/HO-01-31/2016-04.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T03:49:11.168Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
 ---
 # New York State Overlay
 
@@ -179,9 +179,6 @@ Operationally, retain the action classification, policy status, verified reason,
 
 ## Related pages
 
-<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Policy assembly: editions and state attachments](/openwiki/policy-assembly/editions-and-state-attachments.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/renewal-and-adverse-action.md] link "/openwiki/underwriting/manual/renewal-and-adverse-action.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Renewal and adverse action](/openwiki/underwriting/manual/renewal-and-adverse-action.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/state-exceptions.md] link "/openwiki/underwriting/manual/state-exceptions.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting state exceptions](/openwiki/underwriting/manual/state-exceptions.md)

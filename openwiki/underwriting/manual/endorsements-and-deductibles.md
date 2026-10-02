@@ -3,14 +3,9 @@ type: underwriting-guidance
 title: Manual Endorsement Attachment and Deductible Controls
 description: Rules 400 and 410 govern endorsement eligibility, evidence, authority, deductible selection, renewal review, and issuance reconciliation. This page also separates Texas windstorm-deductible restrictions and disclosure controls from the contractual deductible and coverage terms in the attached forms.
 tags: [underwriting, endorsements, deductibles, attachment-controls, referrals, delegated-authority]
-verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T03:49:11.168Z
 sources:
   - id: openwiki-source-38049e374f54d1eb9a15f4ef
     resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
-  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
-    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
@@ -27,7 +22,10 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-d2ea423343a02d2233c77383
     resource: repo://training/attaching-endorsements.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T03:49:11.168Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+verified:
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 # Manual Endorsement Attachment and Deductible Controls
 
@@ -40,7 +38,7 @@ A useful distinction is:
 - **Internal selection:** whether the risk is eligible for the requested endorsement or deductible, whether the request is within normal authority, and whether the file is complete enough to issue.
 - **Contractual term:** what the attached form actually covers, excludes, limits, or subtracts from a covered loss after issuance.
 
-The internal decision can be stricter than the contract’s available choices, but it cannot be presented as if it changed those choices. When an endorsement’s terms matter, the Manual **constrains** when the form may be attached; the endorsement still controls the resulting policy position. [Manual Rule 400.A, 400.C, and 400.G](repo://manuals/underwriting/manual.md#L5091-L5131) [Manual Rule 400.BD](repo://manuals/underwriting/manual.md#L5421-L5425) [Manual Rule 410.A, 410.E, and 410.P](repo://manuals/underwriting/manual.md#L5459-L5487) [HO 04 90 2026-01, edition and attachment context](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4)
+The internal decision can be stricter than the contract’s available choices, but it cannot be presented as if it changed those choices. When an endorsement’s terms matter, the Manual **constrains** when the form may be attached; the endorsement still controls the resulting policy position. [Manual Rule 400.A, 400.C, and 400.G](repo://manuals/underwriting/manual.md#L5091-L5131) [Manual Rule 400.BD](repo://manuals/underwriting/manual.md#L5421-L5425) [Manual Rule 410.A, 410.E, and 410.P](repo://manuals/underwriting/manual.md#L5459-L5487) [HO 04 90 2027-01, attachment terms](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39)
 
 ## Control flow
 
@@ -138,11 +136,11 @@ If a bound risk has an unresolved deductible discrepancy, correct it promptly an
 
 The Manual selection is a gate before issuance; the contractual deductible is applied under the governing policy after a covered loss is established. A deductible does not create coverage for excluded property or causes, and an internal floor does not authorize the carrier to subtract a different amount from a claim. Read the Declarations for the selected insured-specific value, then read the attached form for the covered cause, property, limit, deductible, trigger, and order of application. The forms below illustrate why the exact attached edition must be checked.
 
-### Water backup: HO 04 90 (2026-01)
+### Water backup: HO 04 90 (2027-01)
 
-HO 04 90 (2026-01) is effective only when attached, forms part of the policy, and preserves policy terms not modified by its wording. The HO-3 2024-03 base form excludes sewer, drain, and sump backup unless the water-backup endorsement is attached; the endorsement then provides its stated direct-physical-loss coverage. It supplies a **$10,000 limit** for the section and its own **$1,000 deductible**. The deductible applies to each covered water-backup loss, including covered damage to dwelling, other structures, and personal property arising from the same covered water backup. [HO-3 2024-03, X.7–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L593-L601) [HO 04 90 2026-01, edition and coverage](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L11) [HO 04 90 2026-01, W.2 sublimit](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L18) [HO 04 90 2026-01, W.3 deductible](repo://forms/HO/MS/HO-04-90/2026-01.md#L20-L23)
+HO 04 90 (2027-01) is effective only when attached, forms part of the policy, and preserves policy terms not modified by its wording. The HO-3 2024-03 base form excludes sewer, drain, and sump backup unless the water-backup endorsement is attached; the endorsement then provides its stated direct-physical-loss coverage. It supplies a **$10,000 limit** for the section and its own **$1,000 deductible**. The deductible applies to each covered water-backup loss, including covered damage to dwelling, other structures, and personal property arising from the same covered water backup. [HO-3 2024-03, X.7–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L593-L601) [HO 04 90 2027-01, W.0 attachment and W.1 coverage](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39) [HO 04 90 2027-01, W.2 limit](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L271) [HO 04 90 2027-01, W.3 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L435)
 
-Rules 400.M, 400.N, 400.O, and 400.BD **constrain** whether the water-related endorsement or sublimit may attach and whether an unusual deductible treatment needs authority; they do not change HO 04 90’s $1,000 contractual deductible or $10,000 limit. The endorsement’s water path, exclusions, limit, and deductible must be read from the attached form, not inferred from the Manual. [Rule 400.M–400.O and 400.BD](repo://manuals/underwriting/manual.md#L5163-L5179) [Rule 410.O, 410.P, and 410.BA](repo://manuals/underwriting/manual.md#L5543-L5559) [HO 04 90 2026-01, exclusions and maintenance conditions](repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L47)
+Rules 400.M, 400.N, 400.O, and 400.BD **constrain** whether the water-related endorsement or sublimit may attach and whether an unusual deductible treatment needs authority; they do not change HO 04 90’s $1,000 contractual deductible or $10,000 limit. The endorsement’s water path, exclusions, limit, and deductible must be read from the attached form, not inferred from the Manual. [Rule 400.M–400.O and 400.BD](repo://manuals/underwriting/manual.md#L5163-L5179) [Rule 410.O, 410.P, and 410.BA](repo://manuals/underwriting/manual.md#L5543-L5559) [HO 04 90 2027-01, coverage and exclusions](repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L81)
 
 ### Roof settlement: HO 23 74 (2025-05)
 
@@ -181,9 +179,9 @@ Before binding, renewal, or issuance, the file should show:
 Common failures are:
 
 - **Manual treated as contract:** a reviewer states that the $500 floor changes a policy deductible or that a Rule 400 referral removes coverage. Recheck the Declarations and attached form; the Manual **constrains** carrier action only. [Manual Rule 100.D](repo://manuals/underwriting/manual.md#L33-L37) [Rule 410.A and 410.BA](repo://manuals/underwriting/manual.md#L5459-L5469)
-- **Unattached or mismatched endorsement:** the request is approved but the form is not attached to the correct insured, location, property, or edition. Hold issuance and reconcile the final set. [Rule 400.D, 400.AB, and 400.BG–400.BI](repo://manuals/underwriting/manual.md#L5109-L5113) [HO 04 90 2026-01, attachment](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L17)
+- **Unattached or mismatched endorsement:** the request is approved but the form is not attached to the correct insured, location, property, or edition. Hold issuance and reconcile the final set. [Rule 400.D, 400.AB, and 400.BG–400.BI](repo://manuals/underwriting/manual.md#L5109-L5113) [HO 04 90 2027-01, attachment](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L17)
 - **Inferred or duplicated deductible:** the submission is unclear, rating differs from issuance, or two proposals are blended. Clarify and use only the authorized selection for the applicable coverage part. [Rule 410.C–410.F, 410.K, 410.U–410.W, and 410.AL](repo://manuals/underwriting/manual.md#L5471-L5493) [Rule 400.BD](repo://manuals/underwriting/manual.md#L5421-L5425)
 - **Deductible used as a cure:** an unacceptable roof, drainage, occupancy, or other property condition is accepted only because a larger deductible is selected. Apply the condition review and referral controls; a deductible does not cure the risk. [Rule 400.M–400.P](repo://manuals/underwriting/manual.md#L5163-L5185) [Rule 410.Q, 410.AI, and 410.BA](repo://manuals/underwriting/manual.md#L5555-L5559)
 - **Pending referral treated as approval:** the underwriter binds before documented authority or changes the approved terms. Hold action, continue permitted fact gathering, and bind only the recorded approved terms. [Rule 400.BD, 400.BI](repo://manuals/underwriting/manual.md#L5421-L5455) [Rule 410.P, 410.BC–410.BI](repo://manuals/underwriting/manual.md#L5549-L5823)
 
-These controls should be read with [Policy Assembly: Editions, Endorsements, and State Overlays](../../policy-assembly/editions-and-state-attachments.md), [Water Backup and Sump Discharge](../../coverage/perils/water-backup.md), [Windstorm, Hail, and Percentage Deductibles](../../coverage/perils/wind-hail-deductibles.md), [Roof Surfacing Settlement and Roof Claims](../../coverage/settlement/roof-settlement.md), and [Manual Binding Authority, Referrals, and Unclearable Conditions](authority-referrals-and-clearance.md).
+These controls should be read with [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md), [Water Backup and Sump Discharge](/openwiki/coverage/perils/water-backup.md), [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md), [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md), and [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md).
