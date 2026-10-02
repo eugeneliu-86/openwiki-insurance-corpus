@@ -48,11 +48,17 @@ jobs:
           node-version: '22'
 
       - name: Install OpenWiki
-        # Pinned: 0.6.0 is the first release with parallel page workers (OPENWIKI_PAGE_CONCURRENCY).
-        # It needs Node >= 22.22 and brings its own mermaid and jsdom.
+        # Pinned to a commit of the unreleased trace-thread branch (langchain-ai/openwiki
+        # eugeneliu/trace-thread-per-update): a run's planner and page workers share one
+        # LangSmith thread. Built here, since the package has no `prepare` script; mermaid
+        # and jsdom are its peer dependencies. Back to `openwiki@<version>` once released.
         run: |
-          npm install --global openwiki@0.6.0
-          npm ls --global --depth=0 openwiki   # logs the version (the CLI has no --version)
+          git clone --quiet --no-checkout https://github.com/langchain-ai/openwiki.git /tmp/openwiki
+          git -C /tmp/openwiki checkout --quiet 1d09d9526254dea6be83cbae090dc8db9f70ea30
+          corepack enable
+          (cd /tmp/openwiki && pnpm install --frozen-lockfile && pnpm run build)
+          npm install --global /tmp/openwiki mermaid@11.16.0 jsdom@29.1.1
+          command -v openwiki
 
       - name: Record the previous compile
         id: prev

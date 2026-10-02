@@ -77,8 +77,9 @@ check(len(re.findall(r"^\s+OPENAI_API_KEY:", WF, re.M)) == 1,
 check("OPENAI_BASE_URL" in WF, "OPENAI_BASE_URL is set (a gateway key against api.openai.com fails)")
 
 print("OpenWiki is pinned and every compile runs one way")
-check(re.search(r"npm install --global openwiki@\d+\.\d+\.\d+\s", WF) is not None,
-      "OpenWiki is installed at an exact version (a range or `latest` would change the compiler under the wiki)")
+check(re.search(r"npm install --global openwiki@\d+\.\d+\.\d+\s", WF) is not None
+      or re.search(r"git -C /tmp/openwiki checkout --quiet [0-9a-f]{40}\n", WF) is not None,
+      "OpenWiki is pinned to an exact version or commit (a range, `latest` or a branch would change the compiler under the wiki)")
 check("OPENWIKI_MODEL_ID: gpt-5.6-luna" in WF and "OPENWIKI_REASONING_EFFORT: low" in WF,
       "the compile is gpt-5.6-luna at low effort")
 check(re.search(r"OPENWIKI_PAGE_CONCURRENCY: [1-8]\b", WF) is not None, "page concurrency is fixed, 1-8")
