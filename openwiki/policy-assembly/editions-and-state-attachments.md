@@ -37,7 +37,7 @@ sources:
     resource: repo://training/choosing-the-governing-edition.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 
 
@@ -152,7 +152,4 @@ These examples assume the listed forms are actually issued and attached. They de
 - **Authority inversion:** an adjuster or underwriter uses a bulletin, memorandum, training page, appetite guide, or manual as though it changes the contract. Return to the applicable issued form and endorsement; use the other document for its regulatory, interpretive, or internal function ([Guidance Versus Contract Language](repo://training/guidance-versus-contract.md#L73-L83), [manual Rule 100.D](repo://manuals/underwriting/manual.md#L33-L37)).
 - **Regulatory-contract mismatch:** a Texas separate deductible appears in declarations or communications without a supporting policy provision, trigger, calculation basis, and record. B-2021-08 requires consistency and prohibits applying a deductible not permitted by the policy ([B-2021-08](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L19-L27), [B-2021-08](repo://bulletins/TX/b-2021-08-windstorm-deductibles.md#L63-L89)).
 
-<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-3.md] link "/openwiki/coverage/forms/ho-3.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/state-overlays/texas.md] link "/openwiki/state-overlays/texas.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/endorsements-and-deductibles.md] link "/openwiki/underwriting/manual/endorsements-and-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 For line-specific editions, continue to [HO-3 forms](/openwiki/coverage/forms/ho-3.md). For state requirements, see [Texas state overlays](/openwiki/state-overlays/texas.md). For internal attachment and referral decisions, see [endorsements and deductibles](/openwiki/underwriting/manual/endorsements-and-deductibles.md) and keep those decisions separate from the contract analysis.

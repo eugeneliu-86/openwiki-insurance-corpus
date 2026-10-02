@@ -14,7 +14,7 @@ sources:
     resource: repo://guidelines/appetite/nc-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -227,13 +227,8 @@ For claims, audit the receipt date, acknowledgment, relevant information request
 
 ## Related pages
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/north-carolina.md] link "/openwiki/state-overlays/north-carolina.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [North Carolina State Overlay](/openwiki/state-overlays/north-carolina.md) — contract, bulletin, disclosure, claims, and Rule 550 layer map.
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/fungi-and-bacteria.md] link "/openwiki/coverage/perils/fungi-and-bacteria.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Fungi, Wet Rot, Dry Rot, and Bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — contract composition and the North Carolina disclosure boundary.
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) — general referral lifecycle and delegated-authority controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/liability-losses-and-occupancy.md] link "/openwiki/underwriting/manual/liability-losses-and-occupancy.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Liability, Loss History, and Occupancy Controls](/openwiki/underwriting/manual/liability-losses-and-occupancy.md) — broader occupancy, loss, rental, vacancy, and liability screening.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/property-and-water-risk.md] link "/openwiki/underwriting/manual/property-and-water-risk.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Property, Roof, and Water Risk Controls](/openwiki/underwriting/manual/property-and-water-risk.md) — broader property, roof, drainage, plumbing, and evidence controls.

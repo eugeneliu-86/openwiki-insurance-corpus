@@ -4,10 +4,9 @@ title: Water Loss Handling
 description: End-to-end operational workflow for water-loss claim intake, source tracing, mitigation, evidence, coverage consultation, valuation, payment, recovery, and closure. It keeps handling controls separate from the policy, endorsement, settlement terms, and applicable state requirements that govern coverage.
 tags: [claims, water-loss, mitigation, causation, evidence, coverage-consultation, settlement]
 verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T02:44:58.116Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
-  - resource: repo://forms/HO/MS/HO-04-81/2026-09.md
   - id: openwiki-source-6f2e8c6b93df2e40df6addd5
     resource: repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md
   - id: openwiki-source-0ac4f0d1fc1220eee9804cfe
@@ -28,7 +27,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-98a0b702206aa7ec38174d58
     resource: repo://training/water-losses-101.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Water Loss Handling
 
@@ -133,7 +132,7 @@ Before a coverage position, record the line, form edition, declarations, loss da
 
 Inspect concealed, organic, and absorbent materials when water exposure makes fungi, wet rot, dry rot, or bacteria possible, but treat growth, odor, staining, or a health complaint as evidence to investigate rather than proof of covered microbial damage ([Manual 3.T–3.U](repo://manuals/claims/manual.md#L825-L835); [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md#L82-L101)). Separate the original water event, resulting physical damage, testing, removal, access, remediation, pre-existing condition, and preventive or routine work.
 
-HO-3 2024-03 excludes fungi, wet rot, dry rot, and bacteria except as provided by the attached HO 04 81 endorsement; the microbial remediation limit does not itself create coverage ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637)). When HO 04 81 is attached, its grant requires a covered cause to first cause direct physical loss and the fungi to result from that loss. It may cover reasonable and necessary removal, access, repair-related tear-out, remediation, and post-removal testing, subject to the applicable edition's exclusions and aggregate limit; it does not cover pre-existing, repeated-seepage, preventive, routine, or otherwise excluded work. For the 2018-09 edition, the legally significant limitations state: “We do not cover loss caused by fungi arising from constant or repeated seepage or leakage of water or steam” and “We do not cover loss caused by fungi arising from flood” ([HO 04 81 2018-09 W.1 W.7–W.10](repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L75)). That edition remains applicable to policies written under it, even if the loss is reported later ([HO 04 81 2018-09 applicability](repo://forms/HO/MS/HO-04-81/2018-09.md#L8-L12)). For policies written or renewed on or after 2026-10-01, use HO 04 81 2026-09: it preserves the covered-cause sequencing and the constant-or-repeated seepage or leakage and flood limitations, but raises the aggregate fungi limit from $10,000 to $25,000 ([HO 04 81 2026-09 W.1–W.6](repo://forms/HO/MS/HO-04-81/2026-09.md#L1-L33)). Refer microbial, contamination, health, habitability, or unsafe-occupancy issues rather than deciding them from a vendor label.
+HO-3 2024-03 excludes fungi, wet rot, dry rot, and bacteria except as provided by the attached HO 04 81 endorsement; the microbial remediation limit does not itself create coverage ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637)). When HO 04 81 is attached, its grant requires a covered cause to first cause direct physical loss and the fungi to result from that loss. It may cover reasonable necessary removal, access, repair-related tear-out, remediation, and post-removal testing, subject to its exclusions and aggregate limit; it does not cover pre-existing, repeated-seepage, preventive, routine, or otherwise excluded work ([HO 04 81 W.0–W.1](repo://forms/HO/MS/HO-04-81/2018-09.md#L13-L91)). Refer microbial, contamination, health, habitability, or unsafe-occupancy issues rather than deciding them from a vendor label.
 
 ## 5. Scope, valuation, settlement, and payment
 
@@ -195,6 +194,5 @@ Preserve claim notes, photographs, estimates, correspondence, recordings, and pa
 - [DP-3 2026-01](repo://forms/DP/MS/DP-3/2026-01.md)
 - [DP 04 95 Water Backup 2021-05](repo://forms/DP/MS/DP-04-95/2021-05.md)
 - [HO 04 81 Limited Fungi 2018-09](repo://forms/HO/MS/HO-04-81/2018-09.md)
-- [HO 04 81 Limited Fungi 2026-09](repo://forms/HO/MS/HO-04-81/2026-09.md)
 - [Mold Claim Handling](repo://guidelines/claims/mold-claim-handling.md)
 - [Illinois water-backup disclosure bulletin](repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md)

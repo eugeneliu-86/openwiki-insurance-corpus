@@ -17,7 +17,7 @@ sources:
     resource: repo://guidelines/appetite/la-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Louisiana Homeowners Appetite Guidance
 
@@ -34,8 +34,6 @@ generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
 3. **Contract:** the declarations and attached policy or HO 01 17 endorsement determine coverage, deductible mechanics, named-storm-period operation, claim duties, and payment obligations.
 4. **Bulletin controls:** LDI-2012-05 or LDI-2020-07 governs the applicable notice, filing, disclosure, record, and administration requirements for the relevant policy period.
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/louisiana.md] link "/openwiki/state-overlays/louisiana.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/wind-hail-deductibles.md] link "/openwiki/coverage/perils/wind-hail-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 **Internal carrier direction:** Do not turn a guide threshold into a Louisiana-law statement or a policy exclusion. A Louisiana roof-age decline, storm referral, water-backup referral, or prior-loss referral is an internal acceptance decision. It does not by itself establish that a later claim is excluded or that a deductible applies. Resolve coverage questions under the contract and the applicable bulletin regime. The related [Louisiana State Overlay](/openwiki/state-overlays/louisiana.md) and [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md) pages provide the date-sensitive contract and bulletin analysis.
 
 ### Reconcile the guide with general manual rules
@@ -146,7 +144,6 @@ flowchart TD
 
 **Internal carrier direction:** Re-review every Louisiana renewal for changes in eligibility, exposure, valuation, occupancy, loss potential, unresolved conditions, repair completion, roof and water condition, inspection currency, and conflicting information. Rule 700 requires the review and referral of material changes, and its current-term rule refers a renewal with **2 paid property claims**; these are internal renewal controls, not automatic nonrenewal grounds ([Manual Rule 700.A-700.F](repo://manuals/underwriting/manual.md#L9131-L9165), [700.M-700.S](repo://manuals/underwriting/manual.md#L9203-L9243)).
 
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/renewal-and-adverse-action.md] link "/openwiki/underwriting/manual/renewal-and-adverse-action.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 **Internal carrier direction:** Do not issue cancellation or nonrenewal communications from this page's appetite thresholds alone. Classify the action, obtain authority, and calculate the external notice content, delivery, and timing from the applicable Louisiana law, bulletin, policy form, and effective-date position. Use [Renewal and Adverse Action](/openwiki/underwriting/manual/renewal-and-adverse-action.md) for that internal workflow and legal-notice separation.
 
 ## Focused control checks
@@ -161,8 +158,4 @@ flowchart TD
 - **Exceptions:** verify any state-exception credit, route any eligibility exception before binding or issuing, and retain supporting facts, authority, rating basis, conditions, and final disposition under Rule 540.BC-BE.
 - **Referral status:** pending referral is not approval. Bind only after the recorded authority matches the requested terms and all conditions are satisfied.
 
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/property-and-water-risk.md] link "/openwiki/underwriting/manual/property-and-water-risk.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/state-exceptions.md] link "/openwiki/underwriting/manual/state-exceptions.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/wind-hail-deductibles.md] link "/openwiki/coverage/perils/wind-hail-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 **Internal carrier direction:** Record the facts, source, rule or threshold, authority used, referral reason, approval conditions, final disposition, and any later reassessment. For related interpretation, use [Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md), [Property and Water Risk Controls](/openwiki/underwriting/manual/property-and-water-risk.md), [Manual State Exception Controls](/openwiki/underwriting/manual/state-exceptions.md), and [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md).

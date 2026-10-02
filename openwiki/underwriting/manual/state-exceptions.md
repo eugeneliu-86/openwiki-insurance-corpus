@@ -9,7 +9,7 @@ verified:
 sources:
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
 ---
 # Manual State Exception Controls
 
@@ -19,22 +19,13 @@ Rules **500–570** are internal carrier direction for eight state-exception cha
 
 The controls below answer **whether and how the carrier may accept, refer, or decline a risk**. They do not answer whether a later loss is covered, what a state form changes, or what a regulator requires for disclosure, notice, filing, or claims. Keep the state overlays, regulator bulletins, and amendatory forms as separate authorities and use the related pages for those questions:
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/florida.md] link "/openwiki/state-overlays/florida.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Florida State Overlay](/openwiki/state-overlays/florida.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/texas.md] link "/openwiki/state-overlays/texas.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/texas-appetite.md] link "/openwiki/underwriting/guidelines/texas-appetite.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Texas State Overlay](/openwiki/state-overlays/texas.md) and [Texas Homeowners Appetite Guidance](/openwiki/underwriting/guidelines/texas-appetite.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/california.md] link "/openwiki/state-overlays/california.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [California State Overlay](/openwiki/state-overlays/california.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/new-york.md] link "/openwiki/state-overlays/new-york.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [New York State Overlay](/openwiki/state-overlays/new-york.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/louisiana.md] link "/openwiki/state-overlays/louisiana.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Louisiana State Overlay](/openwiki/state-overlays/louisiana.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/north-carolina.md] link "/openwiki/state-overlays/north-carolina.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [North Carolina State Overlay](/openwiki/state-overlays/north-carolina.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/colorado.md] link "/openwiki/state-overlays/colorado.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Colorado State Overlay](/openwiki/state-overlays/colorado.md)
-<!-- openwiki: broken internal link [/openwiki/state-overlays/illinois.md] link "/openwiki/state-overlays/illinois.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Illinois State Overlay](/openwiki/state-overlays/illinois.md)
 
 Where a state chapter points to the state-exception pages of the rating manual, that reference is an internal support condition for applying a credit; it is not a regulator bulletin or policy endorsement. For example, Rule 500.AR and Rule 510.16–510.18 require supported credit handling and referral of disputed credits ([500.AR](repo://manuals/underwriting/manual.md#L6171-L6177), [510.16–510.18](repo://manuals/underwriting/manual.md#L6319-L6335)).
@@ -187,11 +178,7 @@ Refer cancellation, nonrenewal, or coverage-refusal information that raises elig
 
 ## Related internal controls
 
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/authority-referrals-and-clearance.md] link "/openwiki/underwriting/manual/authority-referrals-and-clearance.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — general authority, hold, referral, and no-clearance controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/eligibility-and-product-lines.md] link "/openwiki/underwriting/manual/eligibility-and-product-lines.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Eligibility and Product Lines](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product eligibility before state-specific authority review.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Inspection and Records](/openwiki/underwriting/manual/inspection-and-records.md) — inspection evidence and file retention.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/endorsements-and-deductibles.md] link "/openwiki/underwriting/manual/endorsements-and-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Endorsements and Deductibles](/openwiki/underwriting/manual/endorsements-and-deductibles.md) — internal deductible handling without collapsing contract terms.
