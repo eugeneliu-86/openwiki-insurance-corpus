@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:8572045b6daea5134de45afdca7107db50d608cb307d589b9c43458abd64b761",
+  "pageVersion": "sha256:7517c358c564e825279dfef1e088c21c46d28be46f83660ecd81aa3d0315f6cd",
   "claims": [
     {
       "id": "claim_d806391a69674b2a8a91b5089b45fe46",
@@ -49,11 +49,11 @@
       "statement": "Under the HO-3 2024-03 example, accidental discharge or overflow from specified interior systems can cover resulting direct physical loss, while continuous or repeated seepage, loss to the failed system itself, flood or surface water, below-surface water, sump or drainage failure, and defective maintenance or workmanship are separately limited or excluded.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L575-L605",
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L485-L515",
           "version": "repo-lines-v1:sha256:cc04b80e78514c5d63cababfce4b42dbf233fad764a8edba7b12941cc356e4e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5YjNiNmRjYTM3ZTFiNGUyMTI2MzQ2NDI5N2U1NDZkNWU4OGFlOTQ0MTI5NzBjYzVlMjJmNWMyNGVmODFiZDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZlMWJjYTgxYmY1ZDA0NGU4NzRjYjUxODQ4ZGRiMjE1ZGU3YWIxNmVlYWMyOWI4NmMxZTRjYjFmNjkwM2MzNjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViNjRiOTVlZjY0ZWEwYzc4OWM3YjZiMjQ2YWQ5MTAzNWUwNTczMzk5MWJiYmMwY2JkMmYxYjJlMmU4YjdhZjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0MWNmYWFmNWI5ZGI2ZWVmOGRlNDNiOWFiZWI2ZjJiNDljOWVhMDIzOTE3Y2NjMGRmN2Y1OTBmNTQ1MmM3NTIifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L615-L623",
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L525-L533",
           "version": "repo-lines-v1:sha256:5c50a2f9208e37845e38fe770af1434a0bd37511fcc6501a4f25c4b46939542a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDg3NDJmZjUyYzQ3OTEzNjNmN2RjNjUzMjI4NDQwYzcyYzRiZWE2ZjVhZTE0MzgwY2I4MDA3Y2VlZjVlY2VjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjY2MTc5M2E2ZjE0NzA4ZmUxNDM3MjYwNTUyYTY0NzIxNzM0YTAxYzRmYTNmMDFiMjM0OWFkYTFmMjFlNjAxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTViZjg1NDk4NGM1NWY4YjU1M2RhOWEwYzJiYmFmOTRkZDQyZjJhN2NlOWI2ZGQxZDUwM2NiNDRjMjQ0ZmM2ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjE1YzRkYmJmNzg4YzAyNjQ5NDUzNzRlYzMwNGQ4NzgwODBhNzc3MTI5ODAyYTYxMDMzZjllNGIxNTA5ZjQwMSJ9"
         }
       ]
@@ -63,7 +63,7 @@
       "statement": "The HO-3 2024-03 example excludes sewer, drain, or sump backup unless a water-backup endorsement is attached, so backup claims require consultation of the attached endorsement rather than assumption from the base form.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L681-L685",
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L591-L595",
           "version": "repo-lines-v1:sha256:a1928cf98fb40c68bbd6f8a38895517cfe09e1767e6a61dae080ea719e29b97a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMzZTI3NGY4ZTY2YTZhYzYwZGVhNjQyOTEwOTRiNGVlYjYzNmYyNjY4MTU4MTMzYzBjMjAwY2E0Y2U1M2VkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NGQ2ODhkZDFlNDNhMGEwYTgzOWUyMmVhZGI5ZGViMWNkNGE2ZmExYzY1ZjZkMDk0ZWZmMDg2M2FmNGJkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU3ZTIxMjc0NGMyNjkxNzQ5N2ZiZTkzOGRhZGM0YmFiNWY4NjUyMjUyZjMxM2EzMmZlODlkYWE5ZmJkZjUyYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjg2ZjllZWU5OTAyMTRkOGUxZTEwOTAyNWVjZDQzMjI3OGE2MDQyMGI0ZTA1NTg3OGQxZDQwNGU2Zjc5Yzk5NyJ9"
         }
       ]
@@ -73,7 +73,7 @@
       "statement": "The HO 04 27 2016-05 form is an edition-specific limited water-damage endorsement whose coverage and exclusions must be read as issued, including provisions addressing repeated leakage, maintenance, defective work, seepage, and external or drainage-related causes.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-27/2016-05.md#L207-L319",
+          "resource": "repo://forms/HO/MS/HO-04-27/2016-05.md#L201-L313",
           "version": "repo-lines-v1:sha256:96f06bc43f55076f986b6847b10b37603d73f740d807d42c63259bcf448b4bfb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEzLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI4YjAzNWQxZDkzYmY0MjQ4NGFiOTExOWUwZTUxNDZjOTM1ODkwNTdjMTE4ODNiYzhlYzY0M2RkN2UwZjBhMDg2IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI5Y2VjMzBhMDhmYTYyNjcxODVhYjVjYjIxNjU2NGNjYjYxZmY5M2Y3MGFlZGQ1Yzc5NWQ0NjU0Y2M4NDA2N2Y0IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlNWIwNTQ1ZjZkZDNmODFiNDJjOTJlOTIwNmNlM2Y0NGFkMWZkZTY0ZDA0OGNiYmU2NzA2ZGQxYTM1YTJlZGM2IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJhN2M2YjUxYzNjYWMzMzEyMTM3ZDRiYmVmYTM0YWMwZTI3MGI1N2NiM2U1MWIxODk4ZGQxODk5OGM0ZTI3MmJhIn0"
         },
         {
@@ -119,7 +119,7 @@
       "statement": "The HO-3 2024-03 example lists windstorm, hail, falling objects, fire, smoke, and other specified perils, but limits interior rain or snow damage unless wind or hail first creates an opening and excludes cosmetic-only roof-surfacing damage while covering wind or hail damage that impairs water shedding.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L625-L639",
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L535-L549",
           "version": "repo-lines-v1:sha256:4a7e370e3c051d6a3ce543ba6d71753dbf7bfc3749f511e4f765c5212065942f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1YzhmYzZjMTRiZTMzMjcwZjczYWUyYzRkMWVmMDg1ZTMwNDhjNjcxZTgwZTAxYTA2YjEyZDIxZWQ3NzQzNGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRhZDE1MDYxMWU0NzFmNWU5NzhhYzNlMmIyNTg1NDViZmZhM2EzNWIwNWU5YWYwZjlmZTIzOWE4OWIwMjk1YWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE0NmRlNTY1YmU1MTViYWJmMTdkYjA2MGRlNGFmZjQ0MjVmODVjNGNhZDEwOGIxNmFhYmU3ZWY2YzMwMDY4ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA0YjhjYmVkM2UyNTkzYjhmZWM3MTg2MTFjZDU3NjBhYjZlZmE0NmFkNDYyOWVjMzhkZWZjYTg1NzA0Yjc2NmQifQ"
         }
       ]
@@ -189,7 +189,7 @@
       "statement": "Theft handling requires identification of missing property, ownership, location, access, forced-entry facts, timing, and recovery efforts, while vandalism handling requires evidence of intentional damage and separation from accident, neglect, or deterioration; policy-specific vacancy, location, and special-limit terms must then be consulted.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L609-L613",
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L519-L523",
           "version": "repo-lines-v1:sha256:4874ecf0d0e81eadc8c9d51c46add3e6b8bcb1dbf8a3c10b9f7a9b9888f85fac:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg3ZWY3NmM5Yjc5YzlkMmNlYTIyNzNkOGM4ZGRkMDI3ZDViNDIzZGYwODE2YzFmZjFjODExM2MyOTBkYTE1OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc3NmM1N2U5ODM2YmE2MjA4MzFhNmIwOGQ2YWU0Mzg2YjJjNDkzNmI4YTJjYjY1OWUwMDljZTZmMWE2ZDljZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzQxY2ZhYWY1YjlkYjZlZWY4ZGU0M2I5YWJlYjZmMmI0OWM5ZWEwMjM5MTdjY2MwZGY3ZjU5MGY1NDUyYzc1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjVmMDFlMmI0MjVmNzFmYzg0ZTMwZTJkZjI4ZmM4NWVjY2Y5ZGJlMDk1MWY0MDJhYzE4MzJiZDhhOTdkZjkyOCJ9"
         },
         {
@@ -395,10 +395,40 @@
           "version": "repo-lines-v1:sha256:3429506530d2b3e869ec84ca9589661c71351ec9d6e950f17376e4081b4a0dc2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyZjBhMWU3OTUwZWQwMWNhMzA3YTExOTRiN2E1N2RjZDZhNzYzNzI5ZTY5NzBhNWRlMDUxNzEzMWZmZGFiNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4OWU1OWVmMmU1Yjk0NjU3ZTkyMTg0NTk4ZGE2MTA5MjYzM2U0ZjAwZDk0YmUxY2MzMmFkN2YwZTU4YjUyNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2MTM3MmVjYjY5MzU5Y2MwMTlkNWRmNWJhNDczYTQzN2M3MWNkOTQxNzU1MWJiODEyZDg4MzgzYjBkNGY4OGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1ZTAxOWI2NmJhYTliYTBmMTgwYzFhMWQ5M2I3OTQ5NzM0ZDhlZjgxYTNmYWI2OWMxYjFkNzY3OGFlYzg1MjEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_1ebd165b666f4c0dbe5bfbeba5fafb68",
+      "statement": "HO 04 90 Water Backup and Sump Discharge or Overflow (Edition 2026-01) covers direct physical loss to Coverage A, B, and C property caused by water or waterborne material backing up through sewers or drains, or overflowing or discharging from a sump, sump pump, or related equipment, including when mechanical breakdown causes the event.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L11",
+          "version": "repo-lines-v1:sha256:93998629383f9a6d462b37ae8d6c30a82fd7f568de81c40bfec19982d2c0079d:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2I1ZDZkMTYxYzFkZmQzOGZmYzhlZjc3NmU1MWRjYjYyYmZiY2JjY2RhZjMyMjM1ZWY4Y2I0NjMyYjc0MDBmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzMzZDUwMWY1MTA4OGMwOTA0NmRkODYwMDI0ZTYxZWNlNGE0MmRmOGE4ZDQ4MmI4ZTRjYzVkN2MwOTVlMzZjNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTc5MmNkYWQxMzk2Yjk2ZmZhOTY5YjMxZDdlNWY5NWYwMmE4OTViYzRjNzlkMDc2MGMyYTQ2ODkxY2JjYTYzNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTA1YTY3MGVhN2JhNDRjYTUyY2FiOGE2ZjJlMTU0ZjBlNjVlMWU0MzViYmRmY2JkOWI1MzhmMTk1NmU5ZjcxNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_45d926307b1946f0baa6d7003876136a",
+      "statement": "The HO 04 90 (2026-01) endorsement has a $10,000 per-policy-period maximum unless a higher Declarations limit applies, with the sublimit part of rather than in addition to the Coverage A, B, and C limits; a separate $1,000 deductible applies to each endorsement loss and the Section I deductible does not apply.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L23",
+          "version": "repo-lines-v1:sha256:b740bb1391c0ac47acfe16bef0c86a5c4c35ed9d90045c88c9912ec5c7a0a307:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiZDQ2ZWMxOGExMDBkOWQ2M2M2ZmMzYTJjNDExNWI0ZGM1NjhiOTUyNjQwMGZiMDJmNjRiOTVmZmYxZmFkMzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0ZDJlMTg2YmMxNTFiMzUyOTJjYzg1ZDFhNGI0OTM1NThjMTc0MjFkOTNkODk3MmU1MzBlNGIwMGEzMDM3NWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNlZDA1OWQ0ZTk3NjJlMTlkMDY2Nzc5N2M3ODFjOGQwNWNiYjczY2Y5ZDY2YzhiM2M5Mzk0ZjlkODlmOThhZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2YmVmMzE4ZmRkODlkMjA1ODgyNjFjODIxY2E2YjAzZDFkYmE5MGExM2MxNTk5YTRlYjVmMWZkNjZiOTI3ZDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_86227e8c1c354841a4ed21090c907135",
+      "statement": "HO 04 90 (2026-01) leaves flood, surface water, waves, tidal water, storm surge, body-of-water overflow, and below-surface water excluded; excludes losses caused by a known, unremedied maintenance failure; requires an operable backwater valve or equivalent device for coverage when the residence premises has finished area below grade; and settles Coverage A and B under the attached policy while settling Coverage C at actual cash value unless the Declarations state otherwise.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L56",
+          "version": "repo-lines-v1:sha256:0992b227da18f2790d693f94a507a9472629f955c1581c97ffa6083ad28efb66:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwYzVlNmYxMTk4MDk2MzI0ODI3OTVhMWM3MGM3NjdiMDJlZjBhMjc3YWJkZTZlZjU4YTk2NzRjOTliNDAzMjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjQ1OTUyZmNlMDhhMzlhYjBmNTI4ZDQ4ZWI4MTlmMjE2NDMxYjExM2Q4MGE5ZjBkNjQ0ZmVmMmEwNDE1ODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmOTQyODJjNzM0YzBjMTU4NGRiN2MyMGE2NmQ3ZDMyMTQzMzU3NDM2Y2Y1NDkwNGFiYWM3ZGY2ZDUwNzI5ZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.1",
+    "at": "2026-10-02T03:49:11.168Z"
   }
 }

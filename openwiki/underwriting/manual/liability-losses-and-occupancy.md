@@ -14,7 +14,7 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T03:49:11.168Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -157,8 +157,13 @@ These grants, exclusions, definitions, vacancy provisions, and notice duties app
 
 ## Related pages
 
+<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Referral authority](/openwiki/underwriting/guidelines/referral-authority.md)
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/eligibility-and-product-lines.md] link "/openwiki/underwriting/manual/eligibility-and-product-lines.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Eligibility by Product Line](/openwiki/underwriting/manual/eligibility-and-product-lines.md)
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/liability-claim-handling.md] link "/openwiki/claims/guidelines/liability-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability claim handling](/openwiki/claims/guidelines/liability-claim-handling.md)
+<!-- openwiki: broken internal link [/openwiki/coverage/liability/incidental-business-and-personal-injury.md] link "/openwiki/coverage/liability/incidental-business-and-personal-injury.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Incidental Business and Personal Injury](/openwiki/coverage/liability/incidental-business-and-personal-injury.md)
+<!-- openwiki: broken internal link [/openwiki/coverage/parts/liability-e-f.md] link "/openwiki/coverage/parts/liability-e-f.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability E and F](/openwiki/coverage/parts/liability-e-f.md)
