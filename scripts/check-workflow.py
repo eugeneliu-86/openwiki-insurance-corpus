@@ -89,8 +89,7 @@ check("Resume an interrupted compile" in WF and "actions: write" in WF, "an inte
 print("the automatic reset runs only after a complete compile has landed")
 check("vars.AUTO_RESET == 'true'" in WF and "steps.commit.outputs.landed == 'true'" in WF, "the reset is opt-in and follows a landed compile commit")
 check(WF.find("Commit the compiled output") < WF.find("Reset the ingests") < WF.find("Resume an interrupted compile"), "the reset runs after the commit, before the resume")
-reset_sh = (ROOT / "scripts" / "reset-ingests.sh").read_text()
-check("[skip ci]" in reset_sh, "the reset commit carries [skip ci], so it starts no refresh")
+check("[skip ci]" in WF[WF.find("Reset the ingests"):], "the reset commit carries [skip ci], so it starts no refresh")
 
 print(".openwikiignore excludes the machinery")
 ignore = (ROOT / ".openwikiignore").read_text().splitlines()

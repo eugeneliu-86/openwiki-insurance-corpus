@@ -152,15 +152,18 @@ jobs:
           echo "could not land the compiled output after 3 attempts" >&2
           exit 1
 
-      # The demo loop: right after a complete compile lands, undo the ingests it covered,
-      # so the corpus is back where it was before them. One [skip ci] commit; the wiki is
-      # already compiled against the restored tree. Off unless vars.AUTO_RESET is 'true'.
+      # The demo loop: right after a complete compile lands, revert it and the ingests it
+      # covered, so the corpus is back where it was. [skip ci]: nothing to recompile.
+      # On only when vars.AUTO_RESET is 'true'; a conflict skips (reset from the UI instead).
       - name: Reset the ingests
         if: ${{ !cancelled() && vars.AUTO_RESET == 'true' && steps.commit.outputs.landed == 'true' }}
         run: |
-          status=$(jq -r .status .compile-state.json)
-          [ "$status" = "complete" ] || { echo "compile $status; not resetting"; exit 0; }
-          ./scripts/reset-ingests.sh "${{ steps.prev.outputs.compiled_from }}"
+          [ "$(jq -r .status .compile-state.json)" = "complete" ] || { echo "compile not complete; not resetting"; exit 0; }
+          ingests=$(git log --format=%H --grep='^ingest: ' "${{ steps.prev.outputs.compiled_from }}..HEAD")
+          [ -n "$ingests" ] || { echo "no ingest in this compile"; exit 0; }
+          git revert --no-commit HEAD $ingests || { git revert --abort; echo "the revert conflicts; not resetting"; exit 0; }
+          git commit -q -m "reset: undo $(echo $ingests) [skip ci]"
+          git push -q || echo "could not push the reset; reset from the UI"
 
       # An interrupted run committed its progress; dispatch the resume here, since the
       # push trigger ignores openwiki/**. Bounded at three in a row.
