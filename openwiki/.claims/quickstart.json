@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:ab066c701617cbeecd54672f4054bc92931b73bceb0cdf1c7dea3d4ff63fcf45",
+  "pageVersion": "sha256:5732be80e9b64705494c849d74167a3800944c8159fc5adeb484752be2c6bc96",
   "claims": [
     {
       "id": "claim_ef21d7707c124cdfad69ba12280ddb25",
@@ -505,10 +505,28 @@
           "version": "repo-lines-v1:sha256:9eb2cca6621e87f8ba05f6e754244db27f5f74c2f643436f241c49727f51497f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzUzYjRiMjU4NzNiZGRkZTkwZjliZmU0YTFlNTk3ODZhNWRkNzA0MTBlMzU0ZGE1NGE2YjA5YmMzYmFjMjNiZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA3OWU4NTg4NGQzNDYzMTQ3MTQ0NGZkYTlkMmFhMjFjZTA1YTM3NDJjM2JiZmUwZWNjOTkwN2E5MjgzODAxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjgzMGI5Mjg2MDNkNDg5MWM2NDE3NmQwN2E4YTYxNWIwYTY2ODc5NTJiNjBlYzdhYTUwNDNlNTk5NzFiMzY1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_4ae595347a74488fb72e21e2602631e4",
+      "statement": "HO 04 90 2026-01 replaces HO 04 90 2010-10 for policies written on or after 2026-01-01; when attached to HO-3 it writes back the Section I A.3 water-backup and sump-discharge exclusion for direct physical loss to Coverage A, B, and C property, subject to a $10,000 policy-period sublimit unless the Declarations show more, a separate $1,000 deductible per loss, the known-maintenance and finished-below-grade backflow conditions, preserved flood and below-surface-water exclusions, and Coverage C actual-cash-value settlement unless the Declarations say otherwise.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L23",
+          "version": "repo-lines-v1:sha256:160f4e0b30066951d7505d2a73f7fa1d9f37d61fb2444b59116fdf197f645c9e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlN2I5N2E0N2JiYTFlYzY4MGU3ZGQxOWZmOGFmYjNlMzg0ZDFhYzViODFlYTI5ZjE2ODU1ZjU3NWZlZDdjODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0ZDJlMTg2YmMxNTFiMzUyOTJjYzg1ZDFhNGI0OTM1NThjMTc0MjFkOTNkODk3MmU1MzBlNGIwMGEzMDM3NWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2YmVmMzE4ZmRkODlkMjA1ODgyNjFjODIxY2E2YjAzZDFkYmE5MGExM2MxNTk5YTRlYjVmMWZkNjZiOTI3ZDAifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L56",
+          "version": "repo-lines-v1:sha256:0992b227da18f2790d693f94a507a9472629f955c1581c97ffa6083ad28efb66:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwYzVlNmYxMTk4MDk2MzI0ODI3OTVhMWM3MGM3NjdiMDJlZjBhMjc3YWJkZTZlZjU4YTk2NzRjOTliNDAzMjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjQ1OTUyZmNlMDhhMzlhYjBmNTI4ZDQ4ZWI4MTlmMjE2NDMxYjExM2Q4MGE5ZjBkNjQ0ZmVmMmEwNDE1ODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmOTQyODJjNzM0YzBjMTU4NGRiN2MyMGE2NmQ3ZDMyMTQzMzU3NDM2Y2Y1NDkwNGFiYWM3ZGY2ZDUwNzI5ZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L580-L600",
+          "version": "repo-lines-v1:sha256:c308a183f8a3e127415f8a824fd74a8cf40752234fe339f2b229b850e9d157f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmOWVmZThhYjM1YjIxYWU0MzY0MWVjNjI0Y2E1OWU2OWMyMDYyNDZjMWVmNWU3ZTg5OTViZDk5YzU5ZTU5M2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyM2I0NzYwMWUzOGY2NjUwMTZhOGY3MWM2ZDkxNjZjMjk0ZTg5ZjdiNzg4MGQ0OGJlMjQ0YzM5NjU4YzhkNzIifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.0",
+    "at": "2026-10-02T02:25:31.220Z"
   }
 }

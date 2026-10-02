@@ -14,6 +14,10 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
+  - id: openwiki-source-cd26c30cc942869b52618f95
+    resource: repo://forms/HO/MS/HO-04-90/2010-10.md
+  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
+    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
@@ -28,17 +32,17 @@ sources:
     resource: repo://guidelines/claims/water-loss-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-19T07:29:25.602Z
+  - by: openwiki/0.6.0
+    at: 2026-10-02T02:25:31.220Z
+generated: { by: "openwiki/0.6.0", at: "2026-10-02T02:25:31.220Z" }
 ---
 
 # Property Perils and Loss Types
 
 This page is a **claims-handling index**, not a coverage grant. The claims manual supplies the investigation, evidence, mitigation, valuation, authority, payment, and escalation process. The policy form and any applicable endorsement supply coverage, exclusions, limits, deductibles, conditions, and settlement terms. Internal guidance makes the same boundary explicit: it cannot create, expand, restrict, or waive coverage ([water-loss guidance](repo://guidelines/claims/water-loss-handling.md#L13-L17); [roof guidance](repo://guidelines/claims/roof-claim-handling.md#L14-L21); [manual, Chapter 1](repo://manuals/claims/manual.md#L13-L19)).
 
-Always verify the policy and endorsement edition before relying on a provision. The examples below use HO-3 (2024-03), DP-3 (2026-01), HO 04 27 (2016-05), HO 04 81 (2018-09), HO 04 90 (2027-01), and HO 23 74 (2025-05), with California CDI-2022-03 and Colorado DOI-2022-08 as state-rule examples; they are not substitutes for the form, endorsement, or law applicable to the loss.
+Always verify the policy and endorsement edition before relying on a provision. The examples below use HO-3 (2024-03), DP-3 (2026-01), HO 04 27 (2016-05), HO 04 81 (2018-09), HO 04 90 (2010-10, 2026-01, and 2027-01), and HO 23 74 (2025-05), with California CDI-2022-03 and Colorado DOI-2022-08 as state-rule examples; they are not substitutes for the form, endorsement, or law applicable to the loss.
 
 ## Common property-loss lifecycle
 
@@ -77,7 +81,11 @@ Start with the source, path, duration, and affected property. Distinguish an acc
 
 The HO-3 example separately excludes flood, surface water, below-surface water, and sewer, drain, or sump backup unless a water-backup endorsement is attached ([HO-3 X.7-X.8](repo://forms/HO/MS/HO-3/2024-03.md#L681-L685)). The 2016-05 HO 04 27 form must therefore be checked when attached rather than assumed from the base form; it describes limited water-damage coverage and retains exclusions for repeated leakage, maintenance, defective work, seepage, and specified external or drainage causes ([HO 04 27](repo://forms/HO/MS/HO-04-27/2016-05.md#L41-L85); [HO 04 27 exclusions](repo://forms/HO/MS/HO-04-27/2016-05.md#L207-L319)).
 
-For sewer, drain, sump, or related backup, consult the attached edition of HO 04 90. In the 2027-01 example, the endorsement covers direct physical loss to insured property caused by water backing up through a sewer or drain, or by accidental water discharging or overflowing from a sump, sump pump, or related equipment; it also includes reasonable protection and water-removal expenses when necessary to prevent further covered damage ([HO 04 90 W.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L62-L117); [HO 04 90 W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316)). The endorsement’s $10,000 limit is the maximum for loss caused by water backup or sump discharge or overflow, regardless of the number of insured persons, claims, or covered-property items; covered protection and removal expenses are included within that limit, not paid as an additional amount ([HO 04 90 W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316)). The endorsement also requires the loss to occur during the policy period, keeps other policy exclusions and covered-property requirements in force, and provides a $1,000 deductible for each covered water-backup loss ([HO 04 90 W.1 and W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L247-L252); [HO 04 90 W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L412)). Do not infer separate limits from the number of properties or claims, or apply this endorsement without confirming that it is attached.
+For sewer, drain, sump, or related backup, first verify the declarations, attachment, policy effective date, and edition of HO 04 90. The 2026-01 edition replaces 2010-10 for policies written on or after 2026-01-01; it covers direct physical loss to Coverage A, B, and C property from water backing up through a sewer or drain, or accidental water discharged or overflowing from a sump, sump pump, or related equipment, whether or not mechanical breakdown caused that equipment event ([HO 04 90 2026-01 W.1](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L11)). It does not preserve every 2010-10 boundary: 2026-01 expressly excludes flood, surface water, waves, tidal water, storm surge, body-of-water overflow, and below-ground water that pressures, seeps, or leaks through a building or foundation ([HO 04 90 2026-01 W.4](repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L33)). It also excludes a loss caused by the insured’s known, unreasonable failure to maintain the serving sewer, drain, sump, or pump ([HO 04 90 2026-01 W.5](repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L40)).
+
+The 2026-01 edition adds a material below-grade control: where the residence has finished area below grade, coverage applies only if an operable backwater valve or equivalent prevention device served the sewer at the time of loss ([HO 04 90 2026-01 W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47)). Investigate the finished-area fact, device installation, operation, maintenance, and loss-time condition; do not convert this contract condition into a generic maintenance denial without matching the evidence to the exact wording. The 2010-10 edition instead states that a backwater valve is not required where below-grade areas are protected and requires serviceable drainage and sump equipment, so edition verification is outcome-determinative ([HO 04 90 2010-10 W.4-W.6](repo://forms/HO/MS/HO-04-90/2010-10.md#L429-L447)).
+
+For the 2026-01 edition, apply a $10,000 endorsement sublimit unless the declarations show a higher amount; it is part of, not additional to, the Coverage A, B, and C limits, and a separate $1,000 deductible applies to each loss while the Section I deductible does not ([HO 04 90 2026-01 W.2-W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L23)). Coverage A and B settle under the attached policy; Coverage C settles at actual cash value unless the declarations say otherwise ([HO 04 90 2026-01 W.7](repo://forms/HO/MS/HO-04-90/2026-01.md#L49-L56)). Do not import the 2010-10 $5,000/$500 terms or the 2027-01 wording into a 2026-01 claim. Under 2010-10, the $5,000 limit includes applicable property and related covered expenses, the deductible is $500, and the form excludes repair or replacement of failed equipment while preserving resulting direct physical loss ([HO 04 90 2010-10 W.2-W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L125); [HO 04 90 2010-10 deductible](repo://forms/HO/MS/HO-04-90/2010-10.md#L157-L167)).
 
 ### Evidence and scope checklist
 
@@ -173,7 +181,7 @@ For settlement and authority, DP-3 (2026-01) defines actual cash value as like-k
 | Claim question | First operational action | Contract consultation | Escalate when |
 |---|---|---|---|
 | Sudden water versus seepage or deterioration | Establish source, timeline, path, failed part, and prior condition | Issued water grant, exclusions, definitions, and endorsements | Source or duration is disputed or evidence conflicts |
-| Sewer, drain, or sump backup | Preserve failed equipment and determine backup mechanism | Attached water-backup endorsement, including its limit and exclusions | Coverage, device condition, or shared limit is uncertain |
+| Sewer, drain, or sump backup | Verify attachment, effective date, edition, failed equipment, backup mechanism, and any below-grade device | Attached HO 04 90 edition, including grant, preserved flood and below-ground-water exclusions, maintenance condition, device requirement, limit, deductible, and settlement basis | Edition, device condition, maintenance facts, or shared limit is uncertain |
 | Roof leak or weather damage | Inspect roof and interior path, obtain weather and repair history | Issued peril, water-damage, roof, matching, and settlement terms | Cause, cosmetic impairment, matching, code, or roof age is disputed |
 | Earthquake or earth movement | Document ground motion, structural distress, resulting damage, and prior cracking | Base-policy exclusion, issued earthquake policy or endorsement, state offer records, seismic deductible, and limits | Engineering, aftershock, concurrent cause, safety, or coverage records are unresolved |
 | Fire or smoke | Secure safety, origin and cause, reports, and damaged evidence | Fire, smoke, intentional-loss, property, limit, and deductible terms | Suspicious origin, structural hazard, or specialist findings conflict |
