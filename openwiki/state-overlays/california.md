@@ -18,7 +18,7 @@ sources:
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -151,7 +151,11 @@ A practical handoff checklist is:
 
 ## Related pages
 
+<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-3.md] link "/openwiki/coverage/forms/ho-3.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-3 form editions](/openwiki/coverage/forms/ho-3.md)
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/earthquake.md] link "/openwiki/coverage/perils/earthquake.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Earthquake coverage and California offer requirements](/openwiki/coverage/perils/earthquake.md)
+<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Edition and state-attachment control](/openwiki/policy-assembly/editions-and-state-attachments.md)
+<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/california-appetite.md] link "/openwiki/underwriting/guidelines/california-appetite.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [California appetite and internal underwriting controls](/openwiki/underwriting/guidelines/california-appetite.md)

@@ -3,14 +3,13 @@ type: underwriting-guidance
 title: Property and Water Risk
 description: Rules 200, 210, and 220 define pre-bind and renewal controls for property condition, roof age and condition, plumbing, water exposure, inspections, maintenance, referrals, and binding holds. This page separates risk selection from the policy forms and endorsements that govern coverage and settlement.
 tags: [underwriting, property-risk, roof-risk, water-risk, inspections, referrals]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-38049e374f54d1eb9a15f4ef
     resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
   - id: openwiki-source-d7e85cf3e721d2c3c6ee885c
     resource: repo://forms/DP/MS/DP-3/2026-01.md
+  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
+    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-5802aac0ff04777c19a4717f
@@ -23,7 +22,10 @@ sources:
     resource: repo://guidelines/appetite/tx-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+verified:
+  - by: openwiki/0.6.1
+    at: 2026-10-02T17:06:49.327Z
 ---
 # Property and Water Risk
 
@@ -31,7 +33,7 @@ generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 
 This page groups **Rule 200 — Construction and Protection Class**, **Rule 210 — Roof Condition, Age and Material**, and **Rule 220 — Water Exposure and Plumbing** of the Personal Lines Underwriting Manual. They are internal controls for evaluating, documenting, referring, conditioning, declining, or holding a property risk before binding or renewal. They do not grant, remove, limit, or settle coverage. The Manual expressly requires carrier-issued coverage terms to control and requires Manual direction to be applied before binding ([Manual Rule 100.C–100.E](repo://manuals/underwriting/manual.md#L27-L43)).
 
-Use the applicable base form, declarations, state form, and attached endorsement for a coverage or settlement question. For example, the Manual’s roof-age and condition rules constrain whether the carrier may bind a risk; an attached [HO 23 74 roof settlement endorsement](repo://forms/HO/MS/HO-23-74/2025-05.md) controls the settlement method for covered roof surfacing. Similarly, Rule 220 controls underwriting review of water exposure; it does not turn an underwriting referral threshold into a water-backup limit or create coverage where the base form excludes backup. The [HO 04 90 2027-01 endorsement](repo://forms/HO/MS/HO-04-90/2027-01.md) modifies the HO-3 contract only when attached and only as its wording provides ([HO 04 90 W.0](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L39)).
+Use the applicable base form, declarations, state form, and attached endorsement for a coverage or settlement question. For example, the Manual’s roof-age and condition rules constrain whether the carrier may bind a risk; an attached [HO 23 74 roof settlement endorsement](repo://forms/HO/MS/HO-23-74/2025-05.md) controls the settlement method for covered roof surfacing. Similarly, Rule 220 controls underwriting review of water exposure; it does not turn an underwriting referral threshold into a water-backup limit or create coverage where the base form excludes backup. The [HO 04 90 2026-01 endorsement](repo://forms/HO/MS/HO-04-90/2026-01.md) modifies the HO-3 contract only when attached and only as its wording provides ([HO 04 90 W.0](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L39)).
 
 ### Contract checkpoints for water, flood, and valuation
 
@@ -75,7 +77,7 @@ Rules 200, 210, and 220 supply the property facts and condition tests; Rules 310
 
 For prior fungi, mold, bacteria, rot, or moisture claims, Rule 240.S requires review and referral when the moisture source is unresolved or remediation is incomplete; the fungi-and-bacteria aggregate is not an eligibility decision ([Manual Rule 240.S](repo://manuals/underwriting/manual.md#L3431-L3439)). Rule 310.AC separately suspends processing for suspected mold, fungi, or rot, while Rule 320.15 requires decline when active growth, rot, or moisture damage remains unresolved. The underwriting file should therefore identify the source, affected area, remediation status, and evidence of completion rather than rely on a cosmetic repair description.
 
-Those selection controls remain separate from contract treatment. In HO 04 90 (2027-01), W.18 excludes loss caused by mold, fungus, wet rot, dry rot, bacteria, virus, or other microorganisms even when the condition results from water backup or sump discharge; W.19 addresses odor, staining, contamination, testing, monitoring, assessment, and remediation only as its wording allows ([HO 04 90 W.18–W.19](repo://forms/HO/MS/HO-04-90/2027-01.md#L600-L608)). Do not use that form limitation as a new underwriting rule, and do not treat a Rule 220 referral or Rule 320 decline as a coverage determination.
+Those selection controls remain separate from contract treatment. In HO 04 90 (2026-01), W.18 excludes loss caused by mold, fungus, wet rot, dry rot, bacteria, virus, or other microorganisms even when the condition results from water backup or sump discharge; W.19 addresses odor, staining, contamination, testing, monitoring, assessment, and remediation only as its wording allows ([HO 04 90 W.18–W.19](repo://forms/HO/MS/HO-04-90/2026-01.md#L600-L608)). Do not use that form limitation as a new underwriting rule, and do not treat a Rule 220 referral or Rule 320 decline as a coverage determination.
 
 ## Rule 200 — Construction and protection class
 
@@ -139,6 +141,7 @@ Where the roof cannot be evaluated from available information, refer rather than
 
 A stated intent to repair is not evidence that the roof is acceptable. Correct material defects before binding when correction is required, obtain evidence of completion, and reassess if condition changes after initial review (**Rule 210.BK–210.BL**) ([Rule 210.BK–210.BL](repo://manuals/underwriting/manual.md#L2585-L2595)). Document all roof age, material, condition, inspection, referral, correction, acceptance, and declination decisions (**Rule 210.BM**) ([Rule 210.BM](repo://manuals/underwriting/manual.md#L2597-L2601)).
 
+<!-- openwiki: broken internal link [/openwiki/coverage/settlement/roof-settlement.md] link "/openwiki/coverage/settlement/roof-settlement.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 For claims, do not use Rule 210’s age thresholds as contract exclusions or use a roof settlement schedule as a coverage determination. The [roof settlement page](/openwiki/coverage/settlement/roof-settlement.md) explains that coverage and cause come before scope and valuation, and that HO 23 74 modifies settlement rather than the underlying covered peril ([HO 23 74 2025-05 W.0](repo://forms/HO/MS/HO-23-74/2025-05.md#L16-L23) [HO 23 74 2025-05 W.1.1–W.1.6](repo://forms/HO/MS/HO-23-74/2025-05.md#L90-L114)).
 
 ## Rule 220 — Water exposure and plumbing
@@ -164,9 +167,12 @@ Evaluate prior water claims by cause, location, severity, and corrective action.
 
 ### Water backup, sump, and drainage controls
 
-Rule 220.V requires the water-backup and sump-overflow sublimit to be applied when the risk is otherwise eligible, while Rule 220.W requires referral for a requested water-backup limit **above $25,000** and prohibits issuing that requested limit without authorized approval ([Rule 220.V–220.W](repo://manuals/underwriting/manual.md#L2731-L2741)). This is an underwriting authority threshold, not a contract limit. For example, HO 04 90 (2027-01) covers the described water-backup and sump-discharge events only when attached and states a **$10,000** limit of liability in W.2 ([HO 04 90 W.0–W.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L16-L36) [HO 04 90 W.1–W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L256-L276)). Rule 220.W **constrains** the underwriting approval path; the attached form **controls** the available contractual coverage and limit. The [water-backup page](/openwiki/coverage/perils/water-backup.md) compares form-specific editions and limits.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-backup.md] link "/openwiki/coverage/perils/water-backup.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
+Rule 220.V requires the water-backup and sump-overflow sublimit to be applied when the risk is otherwise eligible, while Rule 220.W requires referral for a requested water-backup limit **above $25,000** and prohibits issuing that requested limit without authorized approval ([Rule 220.V–220.W](repo://manuals/underwriting/manual.md#L2731-L2741)). This is an underwriting authority threshold, not a contract limit. For example, HO 04 90 (2026-01) covers the described water-backup and sump-discharge events only when attached and states a **$10,000** limit of liability in W.2 ([HO 04 90 W.0–W.1](repo://forms/HO/MS/HO-04-90/2026-01.md#L16-L36) [HO 04 90 W.1–W.2](repo://forms/HO/MS/HO-04-90/2026-01.md#L256-L276)). Rule 220.W **constrains** the underwriting approval path; the attached form **controls** the available contractual coverage and limit. The [water-backup page](/openwiki/coverage/perils/water-backup.md) compares form-specific editions and limits.
 
-Rule 220.X requires use of the backup endorsement deductible available for and approved by underwriting and prohibits altering it without authorized approval ([Rule 220.X](repo://manuals/underwriting/manual.md#L2743-L2747)). It does not set the contract deductible. HO 04 90 (2027-01) states a **$1,000** deductible for each covered water-backup loss under its W.3 provisions ([HO 04 90 W.1–W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L412)). Verify the actual attached edition and declarations before communicating a deductible.
+Rule 220.X requires use of the backup endorsement deductible available for and approved by underwriting and prohibits altering it without authorized approval ([Rule 220.X](repo://manuals/underwriting/manual.md#L2743-L2747)). It does not set the contract deductible. HO 04 90 (2026-01) states a **$1,000** deductible for each covered water-backup loss under its W.3 provisions ([HO 04 90 W.1–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L391-L412)). Verify the actual attached edition and declarations before communicating a deductible.
+
+For HO 04 90 (2026-01), the contract condition is narrower than an underwriting maintenance concern: W.5 removes endorsement coverage when the event resulted from the insured’s known failure to maintain the serving sewer line, drain, sump, or sump pump and a reasonable person would have remedied it. W.6 also requires an installed and operable backwater valve or equivalent device when the premises has a finished area below grade. These are contract provisions applied to the loss facts; Rule 220 maintenance referrals help evaluate eligibility and evidence but do not decide whether W.5 or W.6 is satisfied ([HO 04 90 W.5–W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L47)).
 
 Review check valves, backwater valves, private sewer lines, septic systems, sewer laterals, drainage fixtures, and repeated overflow or slow-drain symptoms. Refer absent, damaged, blocked, disconnected, improperly maintained, collapsed, root-intruded, or otherwise unresolved systems (**Rule 220.Y–220.AD**) ([Rule 220.Y–220.AD](repo://manuals/underwriting/manual.md#L2749-L2783)). Finished lower-level living areas with prior water entry, foundation openings, window wells, exterior doors, and utility penetrations require cause and correction review (**Rule 220.AF–220.AH**) ([Rule 220.AF–220.AH](repo://manuals/underwriting/manual.md#L2791-L2807)).
 
@@ -182,6 +188,8 @@ Evaluate prior mitigation, foundation waterproofing, sump work, plumbing replace
 
 If the file lacks enough information to evaluate material water exposure, do not bind until the information is obtained or authorized direction is recorded (**Rule 220.BH**). Record the condition, evidence, referral activity, and final action in a clear underwriting note (**Rule 220.BI**) ([Rule 220.BH–220.BI](repo://manuals/underwriting/manual.md#L2959-L2969)).
 
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-damage.md] link "/openwiki/coverage/perils/water-damage.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/water-loss-handling.md] link "/openwiki/claims/guidelines/water-loss-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 The Manual’s water controls do not become contract exclusions. The [water-damage page](/openwiki/coverage/perils/water-damage.md) and the [water-loss claim handling page](/openwiki/claims/guidelines/water-loss-handling.md) apply the policy and endorsement actually in force to the source, path, resulting damage, exclusions, limits, deductibles, and settlement. For example, HO 04 27 (2016-05) provides limited specified water-damage coverage but excludes constant or repeated seepage, sewer or drain backup, below-ground water, flood, and surface water in its cited provisions ([HO 04 27 W.1](repo://forms/HO/MS/HO-04-27/2016-05.md#L41-L77)). That form boundary is not a reason to rewrite Rule 220 as a contract exclusion, and a Rule 220 referral is not a coverage denial.
 
 ## Evidence, holds, referrals, and failure checks
@@ -207,12 +215,21 @@ Rule 200 requires a clear record for construction and protection-class decisions
 
 ## Related reading
 
-- [Texas homeowners appetite](/openwiki/underwriting/guidelines/texas-appetite.md) — state appetite positions, including roof age and inspection controls.
+- [Texas homeowners appetite](../guidelines/texas-appetite.md) — state appetite positions, including roof age and inspection controls.
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Inspection and records](/openwiki/underwriting/manual/inspection-and-records.md) — evidence currency, inspection findings, and retention controls.
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/authority-referrals-and-clearance.md] link "/openwiki/underwriting/manual/authority-referrals-and-clearance.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Authority referrals and clearance](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — referral lifecycle, authority, holds, and disposition.
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/water-loss-handling.md] link "/openwiki/claims/guidelines/water-loss-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water Loss Claim Handling Guidance](/openwiki/claims/guidelines/water-loss-handling.md) — claims investigation and mitigation after a water report.
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/mold-claim-handling.md] link "/openwiki/claims/guidelines/mold-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Fungi and Mold Claim Handling Guidance](/openwiki/claims/guidelines/mold-claim-handling.md) — claim investigation when microbial conditions are alleged.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-backup.md] link "/openwiki/coverage/perils/water-backup.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water Backup and Sump Discharge](/openwiki/coverage/perils/water-backup.md) — form-specific backup grants, exclusions, limits, and deductibles.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/fungi-and-bacteria.md] link "/openwiki/coverage/perils/fungi-and-bacteria.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Fungi, Mold, Wet Rot, Dry Rot, and Bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — coverage-specific microbial limitations and aggregates.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-damage.md] link "/openwiki/coverage/perils/water-damage.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water Damage, Plumbing Discharge, and Seepage](/openwiki/coverage/perils/water-damage.md) — controlling coverage boundary for plumbing and external water.
+<!-- openwiki: broken internal link [/openwiki/coverage/settlement/roof-settlement.md] link "/openwiki/coverage/settlement/roof-settlement.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md) — coverage, scope, and settlement ordering for roof claims.
+oof claims.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:013a23eab4037f5cf2932c7bef05b27a98fd2bd7f8de39a23cadd4a52bf06672",
+  "pageVersion": "sha256:a3b028fa807ed3b95f06ceaabf49b11a2c7ce399ad7efe15da7aca9a7e7f4ff7",
   "claims": [
     {
       "id": "claim_8dbdc848ada341ac8dd7ad51923ed0ac",
@@ -445,10 +445,82 @@
           "version": "repo-lines-v1:sha256:5db58ec7e0fe2dda854d355d3646a7064fd8e25c0c7ed870b6a88cae33b4a1d8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1ZTMwNTQyYjZkNmQxZjRmNDI1ZGFjNTYxZmRkMWRmMTQ5MGMzMzEzMzU1MmEyODU1NDk1OTVjYjZhNDU3NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlOWM3MGRjNTg2MmQyZjcwYmE4NzM1ZWExYjJkNmY5ZGFlMDQyY2ZmMjQ0Y2MzNGVjYjc0Yzg5NGUxNWM1YjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE0M2QyZWIzOGY0ZGUwM2UxYzdmYjlmMjM4NjM4YzRiNjdmNWMxYTAwZWNkZTI2ZTU1ZGVmMzc0YjcwYjc1NjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE2YmIwZGM2YTYwNGMyZjdjNGNlYjdmN2UxZGQxZGQ4ZTNiNmVhMjk5Y2ZiZjhiYjgxMDIyZTU3NmYyMjllZWMifQ"
         }
       ]
+    },
+    {
+      "id": "claim_a58ac74549ca484786ec4115bd5a2847",
+      "statement": "The underwriting manual and binding-authority guidance are internal carrier controls for eligibility, authority, referral, documentation, and attachment decisions; they do not grant coverage or alter policy terms.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/binding-authority.md#L13-L25",
+          "version": "repo-lines-v1:sha256:9b1b8ec26a8bc4f85e55433f422615a53734539343f6d787aa774705cacc049d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDc4ZDdhZTNmOTExMjQ4ZjEyZTNhYTBkOWM2NDI0Yjg1YzRhY2RhM2ZjOWQxNDEzNTcxODdiODZiMzFiNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhNTQ4MjE5ZTZiMTAxZGVkNzVkYmQ5YjJhNmU3YWYyMmQzNDlkZTY3MDE5NzI1MzkzZTk4YjM3ZTQ3ZTcxZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhM2NmNTE5MjM1NGY3MTYxNWFjNTEwMzRiM2U5N2MyMGVkYTk5NjQzZmNhZjViYmU2ZDQxYWQ1OWJkMTIxNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkwMDIzZmVkMTRlZjEyOTAwZjM0MjljMjU1MDQwZDIzNmUyODkwYmJhMmFhMGNlMmNmZTYzODJiNmRjOTc2MjgifQ"
+        },
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L21-L43",
+          "version": "repo-lines-v1:sha256:9018a70de2c0ab9c44552cbb7019b684a9c5c4824599f98e825faff3b5d59997:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZmQyMWZkYTcwYmI1YzQ4YjE4OGI1ZWVjZDJlYzdhYjFmMjRlNjhmOThlNzM2MTE5ODk4YThhMmZjYjAzOTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YjFhZWQ4YjE2MGFkYzlmNGZjZjhjYjc1NzcxOTI5ODBhYmUwMTQ2MzMxMWMxMDg2YzI2Nzk3YThiYmU5ZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_adbb54581b604499976f029444413f24",
+      "statement": "HO 04 90 2026-01 attaches to HO-3 and replaces the 2010-10 edition for policies written on or after 2026-01-01, while later edition routing must not be applied retroactively to an earlier policy.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L1-L7",
+          "version": "repo-lines-v1:sha256:4d22f38ec63640b3f2645f82490369b73c0ff9f4115d1e9395f6770b85d61212:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWM0NjQxODZmZTY5MmIxMTFhMDA2MWEyZTFhYTFkNzQ5NDJmN2Q0YWM3ZTdiNDQyNzEyMTFkNWVkZjI1NzBiNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ce413601ec4e419890b6a44a69686e68",
+      "statement": "When attached, HO 04 90 2026-01 provides a $10,000 maximum for all endorsement loss in one policy period unless a higher endorsement limit is shown in the Declarations, and that sublimit is part of rather than additional to the Coverage A, B, and C limits.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L18",
+          "version": "repo-lines-v1:sha256:a077e81cba1b7099fbec9ac638f9bd8908f63e4299f445ca5fb9ea0bdde79102:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGJkNDZlYzE4YTEwMGQ5ZDYzYzZmYzNhMmM0MTE1YjRkYzU2OGI5NTI2NDAwZmIwMmY2NGI5NWZmZjFmYWQzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDBlYjlmYzkxOTg4YmNiODJmNDE4MGFkMWVmNmZiMDM1YTk1NzFmYTE5ZDZjNzZmZWI3NjU5NDQ5OTVmYzVlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2VkMDU5ZDRlOTc2MmUxOWQwNjY3Nzk3Yzc4MWM4ZDA1Y2JiNzNjZjlkNjZjOGIzYzkzOTRmOWQ4OWY5OGFkZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzJjMzVlNGUxODBiMDA1MmEwMWZiNmFlZWViZDhhNjQwNGQzYzMwMmE3ODg4MTZjZThiNzU1MWU2OWNiOWRjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_60b8662d362d4b2babfb0ee533b75019",
+      "statement": "When attached, HO 04 90 2026-01 applies a separate $1,000 deductible to each endorsement loss, and the Section I deductible shown in the Declarations does not apply to loss covered under the endorsement.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L20-L23",
+          "version": "repo-lines-v1:sha256:ab796533f5d176a89961854db553600c6230a9d9e62d3d22449adf57c669ef4a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDVkYmUwZDEwOWNhYmY0YTU4ZGU3MGIxOTY3YzU4NTRjMzk3YTU0Y2MzMWRjNjdlNzE2Njk0M2M1NTUzYmQ4NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRkMmUxODZiYzE1MWIzNTI5MmNjODVkMWE0YjQ5MzU1OGMxNzQyMWQ5M2Q4OTcyZTUzMGU0YjAwYTMwMzc1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmI5MzE1MzNlOWM3OGUyMmU5NjhiNDIxNmQ3ZTRhZmM5NmM0NWI1Nzg3NmEyOTExNTU2YTcwZTY3OWIyNmU5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZiZWYzMThmZGQ4OWQyMDU4ODI2MWM4MjFjYTZiMDNkMWRiYTkwYTEzYzE1OTlhNGViNWYxZmQ2NmI5MjdkMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e249765afa94a28bdbf5374a5e93c15",
+      "statement": "HO 04 90 2026-01 adds a backflow-prevention requirement for finished below-grade areas, requiring an installed and operable backwater valve or equivalent device at the time of loss.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L42-L47",
+          "version": "repo-lines-v1:sha256:aa77a1112520bcab7d9e081aa035c4ac9cd4aa7d09b7fc2664774230269ff067:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTMwNGJlM2MwNDU5ZjA0MzQ2MWZjZGM3MTgzOThiNDQ3ZDFkNmIxYTlhNmJiODI3NTZlZjc1YTIzOGYyOTM2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3MGEwYTEwZWQxMTU4YzI4YTQ3YzI3MjYyZmM0NWE1NzBkZDgyYTIyYjlhZWEyZDBmYThjM2FiMzA2YTE4MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDlmNTQyMmQ5MDRjNjNjZjc3ZGViZWEzM2IwZjVmYmM5Mjc5Y2RlZjBjZjMxYTY5MjQyZjFiZGFhM2M0NzFkYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTU5NzZkNGM1NTM0YzIxMDg3ZDExYmExMDYzZGVjMDRkODdiN2IxOTFiNTIzMzUwOGRiYmY3MmZiYzFlY2NiNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_00c3caf05803422a8bac2ad43db67928",
+      "statement": "Underwriting operations must verify the complete issued package and match the endorsement to the insured, policy term, location, and property before interpreting or issuing its terms.",
+      "evidence": [
+        {
+          "resource": "repo://manuals/underwriting/manual.md#L5089-L5131",
+          "version": "repo-lines-v1:sha256:5208868a410075c6ac7fd8fb4514a9fb1033fc5d5840ed2e2124340fd03b6075:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxMDY4Y2IyMTlkNjIwMGJjZDdmMzEzOGNkN2U0Y2Q3MDI2MGYzYjlmYTk0ZDk3N2YyZWM3ZWY2ZTY0ZDRkZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1NTY5ZGNjOTVjYzE4ODBmNWI3NzQ0YzA4MDFiMWIxODhmMGIxYWJhMTQwYjFlZjZhZTk3NmJlNmQzZjNhOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjNjU1NWVjM2Y2ZTFjOTM4MGVjNjMyNTM4MDVmYTNmY2ZmYWZjN2MyMzIxNDA3N2I5MDI2NTVlNDc1MGE5YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2OWYwN2JhYTQ0MWIwNDIzM2Y2MGQ0MzcwMzVjZTMzMGVhNWExYTVkZDFmMzQxYzBjZDlkNjBlZjI3YjAyYzIifQ"
+        },
+        {
+          "resource": "repo://training/attaching-endorsements.md#L65-L111",
+          "version": "repo-lines-v1:sha256:0377bffb45fa319580402d8df8226b9c69e465f1a162d83f5de63b2495fde6b3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0N2RhZmY5ZDZlN2QyMzIyZDQ2NzAxYjUxMGY0YmNmNDA2MjJmYzJhZDNmYmI5NDBjYTE1YzA0ODczNDg3Y2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkMjU1ZDU3NzA3NGJhMDBjYmFlNTc3NWRjYjUzNDJjMmFiNWM5NjAxMTRhZjUxY2MxN2Q4YjlhZTg5OTc5YzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4ZmVjMzg5M2I1MTEwMzFjYTI1MWViNGU0NjEyZTMxMjlkNGY4N2YzNzZmZjMxMGIzOGMwMjRjMDg5YWMwODgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYxOGVlYmM1OGNlMmMzMDc2NmRlNzk3Njc4YTY5NjVmOTQ3NGEwNmMyMmIyNWQ0YTljNWIwYjFlNjVmOWU5MDIifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.1",
+    "at": "2026-10-02T17:06:49.327Z"
   }
 }

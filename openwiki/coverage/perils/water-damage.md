@@ -3,9 +3,6 @@ type: coverage
 title: Water Damage
 description: Cross-line coverage boundary for accidental plumbing and appliance discharge, repeated seepage, freezing, flood, groundwater, roof entry, water backup, and fungi-related exclusions and write-backs. Applies the Mississippi editions and endorsements in the source set without treating a limit or endorsement as a blanket water-damage grant.
 tags: [property-coverage, water-damage, plumbing-discharge, seepage, freezing, flood, fungi]
-verified:
-  - by: openwiki/0.5.2
-    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-0ac4f0d1fc1220eee9804cfe
     resource: repo://forms/DP/MS/DP-04-95/2021-05.md
@@ -15,6 +12,10 @@ sources:
     resource: repo://forms/HO/MS/HO-04-27/2016-05.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
+  - id: openwiki-source-cd26c30cc942869b52618f95
+    resource: repo://forms/HO/MS/HO-04-90/2010-10.md
+  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
+    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-7176aead92778c93cb0441d2
     resource: repo://forms/HO/MS/HO-3/2024-03.md
   - id: openwiki-source-ea6397bf6ad5bac1c652ab3a
@@ -23,7 +24,10 @@ sources:
     resource: repo://forms/HO/MS/HO-5/2022-06.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+verified:
+  - by: openwiki/0.6.1
+    at: 2026-10-02T17:06:49.327Z
 ---
 
 # Water Damage
@@ -103,21 +107,21 @@ Rain, snow, sleet, sand, or dust entering through a roof or wall is not an all-p
 
 ### Sewer, drain, and sump backup
 
-Absent an acting endorsement, the base form exclusions apply: DP-3 2026-01 excludes sewer, drain, sump, and related-system backup; HO-3, HO-4, HO-5, and HO-6 exclude the same pathways in their current editions ([DP-3 X.6](repo://forms/DP/MS/DP-3/2026-01.md#L1459-L1463), [HO-3 X.8–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L595-L601), [HO-4 X.14](repo://forms/HO/MS/HO-4/2021-10.md#L673-L675), [HO-5 P.40](repo://forms/HO/MS/HO-5/2022-06.md#L649-L653), [HO-6 X.3](repo://forms/HO/MS/HO-6/2023-02.md#L672-L679)).
+Absent an acting endorsement, the HO-3 2024-03 base form excludes water or waterborne material that backs up through sewers or drains and sump discharge or overflow, while directing the reader to the applicable water-backup endorsement. The exclusion also preserves the flood and surface-water boundary ([HO-3 X.8–X.11](repo://forms/HO/MS/HO-3/2024-03.md#L593-L601)).
 
-**DP 04 95 Water Backup — Dwelling Property (2021-05)** is the acting endorsement for a DP policy when attached. It writes back the DP base sewer/drain/sump boundary only for direct physical loss caused by water or waterborne material backing up through a sewer or drain or overflowing or discharging from a sump, sump pump, or related equipment. It preserves the direct-cause requirement and excludes openings, flood, surface water, below-ground water, maintenance failure, repeated seepage, fungi, and repair of the failed equipment ([DP 04 95 W.1](repo://forms/DP/MS/DP-04-95/2021-05.md#L41-L81)). Its Water Backup limit is **$5,000** and its endorsement deductible is **$1,000**, subject to the attached policy and the endorsement's one-loss application ([DP 04 95 W.2](repo://forms/DP/MS/DP-04-95/2021-05.md#L115-L121), [W.3](repo://forms/DP/MS/DP-04-95/2021-05.md#L183-L187)).
+**HO 04 90 (2010-10)** is the legacy HO-3 water-backup endorsement. When attached and controlling for the policy, it covers direct physical loss to covered property caused by accidental sewer/drain backup or sump, sump-pump, or related-equipment discharge or overflow. It does not cover precipitation, flood, surface or subsurface water, repeated seepage, or repair/clearing/replacement of the failed system; resulting direct physical loss remains distinct from source repair ([HO 04 90 W.1–W.20](repo://forms/HO/MS/HO-04-90/2010-10.md#L35-L75), [W.21–W.35](repo://forms/HO/MS/HO-04-90/2010-10.md#L77-L105)). Its aggregate limit is **$5,000** and its separate endorsement deductible is **$500** ([HO 04 90 limit](repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L125), [deductible](repo://forms/HO/MS/HO-04-90/2010-10.md#L157-L167)).
 
-Do not apply DP 04 95 to an HO policy. Do not treat an HO-3 or other HO base-form reference to a water-backup limit as coverage unless the applicable water-backup endorsement is actually attached; a limit cannot create coverage that the base exclusion removes ([HO-3 2024-03 X.8–X.9](repo://forms/HO/MS/HO-3/2024-03.md#L595-L601)).
+**HO 04 90 (2026-01)** is a distinct, newer edition for HO-3, replacing 2010-10 for policies written on or after 2026-01-01. When attached, it covers direct physical loss to Coverage A, B, and C property from sewer/drain backup or sump, pump, or related-equipment overflow/discharge, including mechanical breakdown of that equipment. It carries a **$10,000** policy-period sublimit unless the Declarations show more, within—not in addition to—the applicable property limits, and a separate **$1,000** deductible per endorsement loss ([HO 04 90 2026 W.1–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L23)).
+
+The 2026-01 write-back expressly preserves HO-3's flood, surface-water, and below-ground-water exclusions, including water pressure or seepage through a building or foundation. It also excludes a known, unremedied maintenance failure and requires an operable backwater valve or equivalent device where the residence has finished below-grade space; that valve condition did not appear in 2010-10 ([HO 04 90 2026 W.4–W.6](repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L47)). Coverage is therefore not inferred from the endorsement title or limit: verify the controlling endorsement edition, attachment, declarations, and HO-3 base provisions.
+
+**DP 04 95 Water Backup — Dwelling Property (2021-05)** is the separate DP endorsement and must not be applied to HO-3. It writes back the DP base sewer/drain/sump boundary for direct physical loss, subject to its own exclusions, **$5,000** limit, and **$1,000** deductible ([DP 04 95](repo://forms/DP/MS/DP-04-95/2021-05.md#L41-L81), [limits](repo://forms/DP/MS/DP-04-95/2021-05.md#L113-L121)).
 
 ### Attachment and endorsement interaction control
 
-Before stating an outcome, record the base form and edition, coverage part and covered property, declarations, loss date, and **every endorsement attached and effective for that loss**. The three endorsement paths in this source set are different modifications:
+Before stating an outcome, record the base form and edition, coverage part and covered property, declarations, loss date, and **every endorsement attached and effective for that loss**. HO 04 90 (2010-10) and HO 04 90 (2026-01) are not interchangeable: do not apply the newer $10,000/$1,000 terms to a loss governed by the legacy $5,000/$500 edition. Likewise, do not substitute HO 04 90 for a plumbing-discharge endorsement, or treat accidental discharge, seepage, flood, or surface water as backup merely because water reached a sewer or drain.
 
-- **DP-3 2026-01 + DP 04 95 (2021-05):** DP-3 X.6 excludes backup and sump overflow **“unless a water backup endorsement is attached.”** DP 04 95 W.1 then says, **“We cover direct physical loss to covered property caused by water or waterborne material that backs up through a sewer or drain,”** and separately covers sump overflow or discharge. That write-back remains subject to the endorsement's exclusions and the base policy; W.17 says, **“We do not cover the cost to repair, replace, or improve”** the failed sewer, drain, sump, pump, or related equipment, while resulting direct physical loss may be covered ([DP-3 X.6–X.7](repo://forms/DP/MS/DP-3/2026-01.md#L1459-L1466), [DP 04 95 W.1 and W.17](repo://forms/DP/MS/DP-04-95/2021-05.md#L41-L81)).
-- **HO-4 2021-10 + HO 04 27 (2016-05):** HO-4 X.14 points to a water-backup endorsement for sewer, drain, and sump backup, but HO 04 27 is a limited Water Damage endorsement, not a backup write-back: its W.11 says, **“We do not cover loss caused by water that backs up through sewers, drains, sump systems, or related equipment.”** Its W.1–W.8 instead cover specified accidental discharge and, unusually, state, **“We also cover the cost to repair the portion of the system”** or appliance from which water escaped. Apply that source-repair exception only to the HO 04 27 grant and only after the base form's exclusions and covered-property terms are satisfied ([HO-4 X.11–X.17](repo://forms/HO/MS/HO-4/2021-10.md#L667-L679), [HO 04 27 W.1–W.11](repo://forms/HO/MS/HO-04-27/2016-05.md#L41-L65)).
-- **HO-3 2024-03 + HO 04 81 (2018-09):** HO-3 X.29 excludes fungi **“except as provided by a limited fungi endorsement.”** HO 04 81 W.3–W.5 supplies that narrow exception only where a covered cause first causes direct physical loss to covered property and the fungi results from that loss. The endorsement's W.7–W.9 then keeps out fungi arising from repeated seepage, repeated discharge or overflow, and flood ([HO-3 X.28–X.29](repo://forms/HO/MS/HO-3/2024-03.md#L633-L637), [HO 04 81 W.3–W.9](repo://forms/HO/MS/HO-04-81/2018-09.md#L49-L63)).
-
-The attachment check is substantive, not clerical: HO 04 27 cannot be substituted for a water-backup endorsement, DP 04 95 cannot be transferred to an HO line, and HO 04 81 does not make an excluded water event covered merely because fungi is later present. Read the cited base provision and the attached endorsement together; neither a limit nor an endorsement title is a blanket water-damage grant.
+The attachment check is substantive, not clerical. Read the controlling HO-3 exclusion and the attached HO 04 90 edition together; the endorsement changes the base boundary only to the extent its text says so. A limit cannot create coverage that the base exclusion or endorsement exclusions remove.
 
 ## Fungi, wet rot, dry rot, and bacteria
 
