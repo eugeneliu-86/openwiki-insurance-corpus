@@ -15,17 +15,6 @@ on:
       - 'memoranda/**'
       - 'training/**'
   workflow_dispatch:        # manual, and this workflow's own resume after an interrupted run
-    inputs:
-      mode:
-        description: "Compile mode: deep (terra/high), normal (terra/medium), fast (gpt-5.4-mini/low). Ignored if the head commit carries a Compile-Mode trailer."
-        type: choice
-        options: [deep, normal, fast]
-        default: normal
-      model:
-        description: "Model id for the compile (default: the OPENWIKI_MODEL_ID repo variable, else gpt-5.6-terra)"
-        type: string
-        required: false
-        default: ''
   schedule:
     - cron: '17 7 * * *'    # the reconciler — see the job comment
 
@@ -75,50 +64,20 @@ jobs:
       - name: Record claim ids before
         run: ./scripts/claim-diff.sh snapshot /tmp/claims-before.txt
 
-      # The compile mode comes from a `Compile-Mode:` trailer on the ingest commit: the
-      # push-triggered run is the one that compiles, and the choice stays in git history.
-      - name: Resolve compile mode
-        id: mode
-        run: |
-          # A refresh commit can land on top of the ingest commit, so read every commit
-          # since the last compile, newest first.
-          prev='${{ steps.prev.outputs.compiled_from }}'
-          range="HEAD"; if [ -n "$prev" ] && git cat-file -e "$prev^{commit}" 2>/dev/null; then range="$prev..HEAD"; fi
-          mode=$(git log $range --format=%B | sed -n 's/^Compile-Mode:[[:space:]]*//p' | head -1 | tr 'A-Z' 'a-z')
-          mode=${mode:-${{ github.event.inputs.mode || vars.OPENWIKI_COMPILE_MODE || 'normal' }}}
-          case "$mode" in
-            deep)   effort='high';   workers=4 ;;
-            # Fast is terra at low effort: mini planned far more pages than a small document
-            # touches, and planning decides the wall time. An empty effort means "leave it unset".
-            fast)   effort='low';    workers=6 ;;
-            *)      mode='normal'; effort='medium'; workers=6 ;;
-          esac
-          # the model is orthogonal to the mode: dispatch input, then repo variable, then Terra
-          model='${{ github.event.inputs.model || vars.OPENWIKI_MODEL_ID }}'
-          model=${model:-gpt-5.6-terra}
-          echo "mode=$mode"     >> "$GITHUB_OUTPUT"
-          echo "workers=$workers" >> "$GITHUB_OUTPUT"
-          echo "model=$model"   >> "$GITHUB_OUTPUT"
-          echo "effort=$effort" >> "$GITHUB_OUTPUT"
-          echo "compile mode: $mode → $model @ ${effort:-model default}"
-
       - name: Run OpenWiki
         id: openwiki
         # An interrupted run's merged pages are progress and are committed. Only this step
         # may fail; a state file that disagrees with the tree never may.
         continue-on-error: true
-        # OPENWIKI_REASONING_EFFORT must be absent, not empty: OpenWiki validates any set value.
-        run: |
-          if [ -n "${OW_EFFORT}" ]; then export OPENWIKI_REASONING_EFFORT="${OW_EFFORT}"; fi
-          openwiki code --update --print
+        run: openwiki code --update --print
         env:
-          OW_EFFORT: ${{ steps.mode.outputs.effort }}
           OPENWIKI_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # The model key goes through the LangSmith gateway; without the base URL it hits api.openai.com.
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
-          OPENWIKI_MODEL_ID: ${{ steps.mode.outputs.model }}
-          OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}   # 1-8; OpenWiki backs off on 429s
+          OPENWIKI_MODEL_ID: gpt-5.6-luna
+          OPENWIKI_REASONING_EFFORT: low
+          OPENWIKI_PAGE_CONCURRENCY: 6   # 1-8; OpenWiki backs off on 429s
           LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
           # The workspace the traces land in (the poc's deployment workspace); unset, the key's default.
           LANGSMITH_WORKSPACE_ID: ${{ vars.LANGSMITH_WORKSPACE_ID }}
@@ -159,7 +118,6 @@ jobs:
           "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           "${{ github.run_attempt }}"
           "${{ steps.prev.outputs.compiled_from }}"
-          "${{ steps.mode.outputs.mode }}"
 
       # Only with a validated state file: a tree pushed under one that disagrees is what C4 forbids.
       - name: Commit the compiled output
@@ -194,6 +152,16 @@ jobs:
           echo "could not land the compiled output after 3 attempts" >&2
           exit 1
 
+      # The demo loop: right after a complete compile lands, undo the ingests it covered,
+      # so the corpus is back where it was before them. One [skip ci] commit; the wiki is
+      # already compiled against the restored tree. Off unless vars.AUTO_RESET is 'true'.
+      - name: Reset the ingests
+        if: ${{ !cancelled() && vars.AUTO_RESET == 'true' && steps.commit.outputs.landed == 'true' }}
+        run: |
+          status=$(jq -r .status .compile-state.json)
+          [ "$status" = "complete" ] || { echo "compile $status; not resetting"; exit 0; }
+          ./scripts/reset-ingests.sh "${{ steps.prev.outputs.compiled_from }}"
+
       # An interrupted run committed its progress; dispatch the resume here, since the
       # push trigger ignores openwiki/**. Bounded at three in a row.
       - name: Resume an interrupted compile
@@ -205,8 +173,8 @@ jobs:
           [ "$status" = "interrupted" ] || { echo "compile $status; nothing to resume"; exit 0; }
           streak=$(git log -3 --format=%s -- .compile-state.json | grep -c '(interrupted)' || true)
           if [ "$streak" -ge 3 ]; then echo "three interrupted compiles in a row; not re-dispatching" >&2; exit 0; fi
-          echo "re-dispatching to resume (interrupted streak $streak, mode ${{ steps.mode.outputs.mode }})"
-          gh workflow run openwiki-update.yml --ref main -f mode='${{ steps.mode.outputs.mode }}'
+          echo "re-dispatching to resume (interrupted streak $streak)"
+          gh workflow run openwiki-update.yml --ref main
 
       # C9. Every terminal status. `|| true`: the callback is an optimisation; the state file is the mechanism.
       - name: Callback

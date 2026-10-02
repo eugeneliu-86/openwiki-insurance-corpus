@@ -76,18 +76,21 @@ check(len(re.findall(r"^\s+OPENAI_API_KEY:", WF, re.M)) == 1,
       "OPENAI_API_KEY is assigned into exactly one step's env (the compile)")
 check("OPENAI_BASE_URL" in WF, "OPENAI_BASE_URL is set (a gateway key against api.openai.com fails)")
 
-print("OpenWiki is pinned and its page concurrency comes from the resolved mode")
+print("OpenWiki is pinned and every compile runs one way")
 check(re.search(r"npm install --global openwiki@\d+\.\d+\.\d+\s", WF) is not None,
       "OpenWiki is installed at an exact version (a range or `latest` would change the compiler under the wiki)")
-check("OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}" in WF, "OPENWIKI_PAGE_CONCURRENCY is set from the resolved mode")
-
-print("compile mode rides on the commit, not the dispatch")
-check("Compile-Mode:" in WF and "git log $range --format=%B" in WF and "$prev..HEAD" in WF, "the workflow reads the Compile-Mode trailer from the commits since the last compile (a refresh commit can sit on top of the ingest)")
-check("steps.mode.outputs.model" in WF and "steps.mode.outputs.effort" in WF, "model and effort come from the resolved mode")
-check("fast)" in WF and "deep)" in WF and "gpt-5.6-terra" in WF, "fast, normal and deep are all resolved")
-check("model='gpt-5.4-mini'" not in WF, "gpt-5.4-mini is not a compile model (it over-plans; see the fast case comment)")
+check("OPENWIKI_MODEL_ID: gpt-5.6-luna" in WF and "OPENWIKI_REASONING_EFFORT: low" in WF,
+      "the compile is gpt-5.6-luna at low effort")
+check(re.search(r"OPENWIKI_PAGE_CONCURRENCY: [1-8]\b", WF) is not None, "page concurrency is fixed, 1-8")
+check("Compile-Mode" not in WF and "inputs.mode" not in WF, "no compile modes: no trailer, no dispatch input")
 check("steps.state.outcome == 'success'" in WF, "the commit step runs only when the state file was written and validated")
 check("Resume an interrupted compile" in WF and "actions: write" in WF, "an interrupted compile re-dispatches itself, bounded")
+
+print("the automatic reset runs only after a complete compile has landed")
+check("vars.AUTO_RESET == 'true'" in WF and "steps.commit.outputs.landed == 'true'" in WF, "the reset is opt-in and follows a landed compile commit")
+check(WF.find("Commit the compiled output") < WF.find("Reset the ingests") < WF.find("Resume an interrupted compile"), "the reset runs after the commit, before the resume")
+reset_sh = (ROOT / "scripts" / "reset-ingests.sh").read_text()
+check("[skip ci]" in reset_sh, "the reset commit carries [skip ci], so it starts no refresh")
 
 print(".openwikiignore excludes the machinery")
 ignore = (ROOT / ".openwikiignore").read_text().splitlines()

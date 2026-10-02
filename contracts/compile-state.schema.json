@@ -42,8 +42,8 @@
       }
     },
     "compile_mode": {
-      "description": "Which mode compiled this: deep (terra/high), normal (terra/medium), fast (gpt-5.4-mini/low). Read from the head commit's Compile-Mode trailer, else the dispatch input, else the repo default. Optional: state files written before the mode existed lack it.",
-      "enum": ["deep", "normal", "fast"]
+      "description": "Written by compiles before every compile ran one way (gpt-5.6-luna, low effort); no longer set. Allowed so older state files still validate.",
+      "type": "string"
     },
     "changed_sources": {
       "description": "Source paths whose bytes differed between this compiled_from and the previous one. Drives the UI's 'what triggered this' line.",
