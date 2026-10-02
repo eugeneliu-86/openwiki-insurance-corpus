@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:8572045b6daea5134de45afdca7107db50d608cb307d589b9c43458abd64b761",
+  "pageVersion": "sha256:2d1764d052fbe38256c15729f1237a7daf26ba5ecaaffd4628c3e87f2f2593bc",
   "claims": [
     {
       "id": "claim_d806391a69674b2a8a91b5089b45fe46",
@@ -395,10 +395,52 @@
           "version": "repo-lines-v1:sha256:3429506530d2b3e869ec84ca9589661c71351ec9d6e950f17376e4081b4a0dc2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyZjBhMWU3OTUwZWQwMWNhMzA3YTExOTRiN2E1N2RjZDZhNzYzNzI5ZTY5NzBhNWRlMDUxNzEzMWZmZGFiNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4OWU1OWVmMmU1Yjk0NjU3ZTkyMTg0NTk4ZGE2MTA5MjYzM2U0ZjAwZDk0YmUxY2MzMmFkN2YwZTU4YjUyNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2MTM3MmVjYjY5MzU5Y2MwMTlkNWRmNWJhNDczYTQzN2M3MWNkOTQxNzU1MWJiODEyZDg4MzgzYjBkNGY4OGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1ZTAxOWI2NmJhYTliYTBmMTgwYzFhMWQ5M2I3OTQ5NzM0ZDhlZjgxYTNmYWI2OWMxYjFkNzY3OGFlYzg1MjEifQ"
         }
       ]
+    },
+    {
+      "id": "claim_54491f84a30f4877be0bd7c7cfcc48af",
+      "statement": "For HO-3 losses, the base form excludes sewer, drain, and sump backup and sump discharge, so the adjuster must verify the attached HO 04 90 edition to determine whether and how that exclusion is modified.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L11",
+          "version": "repo-lines-v1:sha256:64dac4e57ba73ff32e9975bfa2b7cdbf076ab51141b7f9c9c46bf7b2000c56d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlN2I5N2E0N2JiYTFlYzY4MGU3ZGQxOWZmOGFmYjNlMzg0ZDFhYzViODFlYTI5ZjE2ODU1ZjU3NWZlZDdjODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzM2Q1MDFmNTEwODhjMDkwNDZkZDg2MDAyNGU2MWVjZTRhNDJkZjhhOGQ0ODJiOGU0Y2M1ZDdjMDk1ZTM2YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkwNWE2NzBlYTdiYTQ0Y2E1MmNhYjhhNmYyZTE1NGYwZTY1ZTFlNDM1YmJkZmNiZDliNTM4ZjE5NTZlOWY3MTUifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L593-L599",
+          "version": "repo-lines-v1:sha256:e57a05df2f2c80bb55df1a08272627116d7c3dfbe29a0d8fbe332389aebfa413:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0MWZlYTUyYmJiODdkYTk4Mjk4YjRjNWE1ZWQyMDM4MDlkOWM3ZmQyMDM2ZmI3ZjQ5ZjQwMTIyNjQxZjVkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjZDAyNWM2YTdiYzg2MGFkZTdmZDVlYjhkNDMyZGM3NDQ3ZmIyODc3NjZlMTdiOWJmMGZiNGMwZmQwYmViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWIxOTc5MDgyNDUxMjUzYTQyOTA5MjgwY2M1MWRjNjNlM2ZhNTNjOWU1ZGZkY2UxMzU1M2NhMjc5MWIzZWNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2JjNWUxYjc0MDU0ZGZmY2U4ZWE1NTliMTcxN2M0NjdkYzk0NTkxNDBkMjkwNzcxMDViYTA0ZDEyZTczMTQzZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cdb0c490a3344e4181a089abedb44011",
+      "statement": "HO 04 90 Edition 2026-01 covers direct physical loss from sewer or drain backup and accidental sump, sump-pump, or related-equipment discharge or overflow, including equipment events caused by mechanical breakdown; it provides a default $10,000 sublimit, a separate $1,000 deductible, and retains flood, surface-water, and below-surface-water exclusions.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L33",
+          "version": "repo-lines-v1:sha256:4eacdd8064cb38e31b295b179529ae26bb09f9a85f2126ef345f4eada4d53fc9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiNWQ2ZDE2MWMxZGZkMzhmZmM4ZWY3NzZlNTFkY2I2MmJmYmNiY2NkYWYzMjIzNWVmOGNiNDYzMmI3NDAwZmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2MWM4MDMwNDA5OTc0MWJiZWZlNTEyMTA2OTQzZDE0NDc4NGNiZmI4MmZhMzUwZjM5NGFkZDg4YTFhOGQ5NGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3OTJjZGFkMTM5NmI5NmZmYTk2OWIzMWQ3ZTVmOTVmMDJhODk1YmM0Yzc5ZDA3NjBjMmE0Njg5MWNiY2E2MzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZiYzAxODhlMTY2MThmY2Q0ODFjZWEzMzFmZGUyM2U3MWJlMTU1MDhiNTYwZjNiZjBlMDdmY2IwM2M4NGI5YzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_55da907be1af4eaebc0069b1bf600729",
+      "statement": "HO 04 90 Edition 2026-01 adds an operable backwater valve or equivalent backflow-prevention requirement for residences with finished below-grade areas, and the claim investigation must document the device condition and separately allocate resulting covered damage from excluded water, maintenance, equipment, or obstruction costs.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L77-L93",
+          "version": "repo-lines-v1:sha256:9440f234f3275d28f40e82eeffd2f9657a2a3d83b562f5164b07b5d63438a943:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3NTA3ZGFhZTJlZjc2NTQxYTQzM2ZlYTkzNjdkZDE5OTM5ZTg5NGJhNWQ0NTg0ZTMwNmY4OWFlZTlmNWU4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjNmQzYzFkYzc4YWNjNzUwNDQxOWI0ZDgxMGQ0NDAyYWIxM2NmNTM2ZGRjOTllMjg2NWRiZGUxNDBmODU4MTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFmZGMyYzZjOTA1Zjg1MjNiZWZlMGUxZDFmMjQ5YzVjOWRlZmIyOWFlZTAyODg0M2RiZGY3ZjdlNjAzM2I1NjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiYjMxODI0M2MzYWMxMDdlZWI2OWVlMjVhYmM0MjY3MWZlMTA3MDZlMGY3NTA5NTZmNDBlYzdkZmNmM2FiOGMifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ea7c75ef5255a3812c7bbcf4c7cdac40622742749f1f098df444b5b3a9fa9a13:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NmNhOThlMjJkODNmYjBhNmE1Y2Y0MWM3YTFiNjk5NmQ1NmNhMWYyY2RiOTE3MTA5NWVlMTRjYmZhMWRjODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNzBhMGExMGVkMTE1OGMyOGE0N2MyNzI2MmZjNDVhNTcwZGQ4MmEyMmI5YWVhMmQwZmE4YzNhYjMwNmExODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyZjBlOWY1NDc1OWI2OTIzN2M4YmVjZWE1MzIxZDM4MGY4ZGNkMDkxYjE3ZGIyM2RjYzc5ZmNlZWZkY2Y2OTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1OTc2ZDRjNTUzNGMyMTA4N2QxMWJhMTA2M2RlYzA0ZDg3YjdiMTkxYjUyMzM1MDhkYmJmNzJmYmMxZWNjYjQifQ"
+        },
+        {
+          "resource": "repo://manuals/claims/manual.md#L63-L103",
+          "version": "repo-lines-v1:sha256:53730a395fce24ff47e7da8c75ccbdd49a0cc8219153f8063966952e52db754d:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkZTk5MTcyNmM5ODliMGViZmE0MjliYjdlNjMwYzU0MDRhOGZhMmE3YmFjMTU4YzA0OTAxMDIyZmE2ZDc3Y2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkYzAxYjI0NGFiNTFiYTc0ZmIxMjNlZDM2Njg5M2Y1YWE5OWIzZDYzYmI0NzQ5ZWYwNjczOTQ3ZWUyODZiYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJmZjg2ZjIzZjdmZmEwNDc3NDViNDA5M2Y2ZTk3Mzk0ZjE4ODRkZTVlMjc0N2VmMDhmYTIzODNmNDg5MmRhYWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzMDU5NjA3YmVlY2Q4MDc0MDZlMjgxNWVjYzE4OGFkMDljYjc0MGI5YTI3MDE1MzExYmNkMDYzZWM4YTJlNDUifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.0",
+    "at": "2026-10-02T02:21:20.961Z"
   }
 }
