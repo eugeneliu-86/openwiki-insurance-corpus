@@ -20,7 +20,7 @@ sources:
     resource: repo://manuals/underwriting/manual.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -192,13 +192,8 @@ A risk outside stated eligibility or underwriting authority must be referred bef
 
 ## Related reading
 
-<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Policy assembly: editions, endorsements, and state overlays](/openwiki/policy-assembly/editions-and-state-attachments.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/texas-appetite.md] link "/openwiki/underwriting/guidelines/texas-appetite.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Texas homeowners appetite](/openwiki/underwriting/guidelines/texas-appetite.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/authority-referrals-and-clearance.md] link "/openwiki/underwriting/manual/authority-referrals-and-clearance.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Authority referrals and clearance](/openwiki/underwriting/manual/authority-referrals-and-clearance.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/liability-losses-and-occupancy.md] link "/openwiki/underwriting/manual/liability-losses-and-occupancy.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability, losses, and occupancy](/openwiki/underwriting/manual/liability-losses-and-occupancy.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/property-and-water-risk.md] link "/openwiki/underwriting/manual/property-and-water-risk.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Property and water risk](/openwiki/underwriting/manual/property-and-water-risk.md)

@@ -14,7 +14,7 @@ sources:
     resource: repo://guidelines/appetite/ca-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -193,15 +193,9 @@ Record adverse information even when the risk is accepted, distinguish reported 
 
 ## Related pages
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/california.md] link "/openwiki/state-overlays/california.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [California State Overlay](/openwiki/state-overlays/california.md) — earthquake offer, California form, and state-transaction handoffs.
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/earthquake.md] link "/openwiki/coverage/perils/earthquake.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Earthquake coverage and offer requirements](/openwiki/coverage/perils/earthquake.md) — contract and offer analysis, separate from appetite.
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/binding-authority.md] link "/openwiki/underwriting/guidelines/binding-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Binding Authority and Exceptions](/openwiki/underwriting/guidelines/binding-authority.md) — delegated ceilings, evidence gates, and referral holds.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Inspection and Records](/openwiki/underwriting/manual/inspection-and-records.md) — Manual Rules 600 and 610 inspection lifecycle and file controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting referral and authority guidance](/openwiki/underwriting/guidelines/referral-authority.md) — general referral lifecycle and authority controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/eligibility-and-product-lines.md] link "/openwiki/underwriting/manual/eligibility-and-product-lines.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual eligibility by product line](/openwiki/underwriting/manual/eligibility-and-product-lines.md) — product-line entry criteria.

@@ -1,7 +1,7 @@
 ---
 type: coverage
-title: Water Backup and Sump Discharge
-description: Edition-specific guide to HO 04 90 water-backup coverage, including the 2026-01 edition alongside 2010-10 and 2027-01, Coverage A/B/C scope, sublimit, separate deductible, maintenance condition, and preserved flood and groundwater exclusions.
+title: Water Backup and Sump Overflow
+description: Edition-specific comparison of water-backup and sump-overflow coverage across HO-3, HO-4, HO-5, HO-6, and DP-3 forms. Covers base exclusions, endorsement write-backs, limits, deductibles, attachment conditions, Illinois disclosure, claims duties, and the HO 04 90 (2027-01) filing memorandum.
 tags: [water backup, sump discharge, policy endorsements, HO-3, HO-4, HO-5, HO-6, DP-3]
 sources:
   - id: openwiki-source-6f2e8c6b93df2e40df6addd5
@@ -12,8 +12,6 @@ sources:
     resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
-  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
-    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-57869e6df01fc9fc3871c8c7
@@ -32,14 +30,14 @@ sources:
     resource: repo://memoranda/HO-04-90-2027-01.md
   - id: openwiki-source-98a0b702206aa7ec38174d58
     resource: repo://training/water-losses-101.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T17:06:49.327Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 
-# Water Backup and Sump Discharge
+# Water Backup and Sump Overflow
 
 ## Short answer
 
@@ -99,19 +97,7 @@ The 2010 edition has a **$5,000** limit for all covered loss, shared by all insu
 
 The write-back does not cover precipitation, including precipitation entering through an opening, or precipitation merely contacting a sewer, drain, sump, or related equipment. It does not pay solely to repair, replace, clear, or correct the sewer, drain, sump, pump, or related equipment; it pays resulting direct physical loss to covered property when the covered water event caused it. Flood, surface water, subsurface water, repeated or continuous seepage, pollutants, mold, and neglect to protect property remain excluded. Source: repo://forms/HO/MS/HO-04-90/2010-10.md#L77-L105, repo://forms/HO/MS/HO-04-90/2010-10.md#L217-L301
 
-### HO 04 90 (2026-01) — Coverage A, B, and C edition
-
-HO 04 90 (2026-01) attaches to HO-3 and **modifies Section I — Exclusions A.3**. It covers direct physical loss to property described in **Coverage A, Coverage B, and Coverage C** caused by water or waterborne material backing up through sewers or drains, or overflowing or discharging from a sump, sump pump, or related equipment, **“whether or not the backup, overflow, or discharge results from mechanical breakdown of that equipment.”** The endorsement covers the resulting property loss, not a broader class of property than the underlying policy. Source: repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L11
-
-The 2026-01 endorsement has a **$10,000 sublimit for all loss in one policy period**, unless a higher endorsement limit appears in the Declarations. The sublimit is part of, and not in addition to, the Coverage A, B, and C limits. A **separate $1,000 deductible applies to each loss**; the Section I deductible does not apply to loss covered by this endorsement. Source: repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L23
-
-The 2026-01 edition preserves flood and related water boundaries. It excludes flood, surface water, waves, tidal water, storm surge, and overflow of a body of water, **“whether or not driven by wind,”** and leaves Section I Exclusions A.1 and A.2 in full force. It separately excludes water below the ground surface, including water exerting pressure on or seeping or leaking through a building, foundation, or swimming pool. Thus sewer or drain backflow is not the same cause as flood, surface water, storm surge, or below-surface groundwater. Source: repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L33
-
-The edition adds a **maintenance condition**: no coverage applies when the event resulted from the insured's known failure to maintain the sewer line, drain, sump, or sump pump and a reasonable person would have remedied the condition. For finished areas below grade, coverage applies only if a backwater valve or equivalent device was installed and operable on the serving sewer line at the time of loss. Source: repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L47
-
-Coverage A and B losses use the settlement basis in the attaching policy. Coverage C losses settle at actual cash value unless the Declarations provide otherwise for this endorsement. All other policy provisions apply. Source: repo://forms/HO/MS/HO-04-90/2026-01.md#L49-L56
-
-### HO 04 90 (2027-01) — later edition
+### HO 04 90 (2027-01) — newer HO-3 endorsement edition in the repository
 
 **HO 04 90 (2027-01) writes back** two named causes: Water Backup through a sewer or drain, and Sump Discharge or Overflow from a sump, sump pump, or related equipment. The sump system definition includes the pit, basin, discharge line, valve, alarm, and related equipment. The endorsement covers direct physical loss and reasonable, necessary protective measures after either covered event. The 2027 wording expressly says the event may occur suddenly or gradually, but it still requires direct physical loss during the policy period. Source: repo://forms/HO/MS/HO-04-90/2027-01.md#L41-L69
 

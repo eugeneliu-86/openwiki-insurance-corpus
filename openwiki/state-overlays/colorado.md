@@ -18,7 +18,7 @@ sources:
     resource: repo://forms/HO/MS/HO-23-74/2025-05.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -183,15 +183,9 @@ The most common failures are using DOI-2013-01's 3% cap for a later policy, appl
 
 ## Related pages
 
-<!-- openwiki: broken internal link [/openwiki/claims/guidelines/roof-claim-handling.md] link "/openwiki/claims/guidelines/roof-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Roof claim handling guidance](/openwiki/claims/guidelines/roof-claim-handling.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/wind-hail-deductibles.md] link "/openwiki/coverage/perils/wind-hail-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Windstorm, Hail, and Percentage Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md)
-<!-- openwiki: broken internal link [/openwiki/coverage/settlement/roof-settlement.md] link "/openwiki/coverage/settlement/roof-settlement.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md)
-<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Policy Assembly: Editions, Endorsements, and State Overlays](/openwiki/policy-assembly/editions-and-state-attachments.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/state-exceptions.md] link "/openwiki/underwriting/manual/state-exceptions.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting manual state exceptions](/openwiki/underwriting/manual/state-exceptions.md)
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/north-carolina-appetite.md] link "/openwiki/underwriting/guidelines/north-carolina-appetite.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [North Carolina appetite guidance (state-specific contrast only)](/openwiki/underwriting/guidelines/north-carolina-appetite.md)

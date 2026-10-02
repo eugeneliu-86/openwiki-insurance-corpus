@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:8bf4d15620054346b4f2727312d0411f33ec30fed045475308ff805a98b3707e",
+  "pageVersion": "sha256:47d3dddc5044236b20afe5c4bd4e1262c73d5de63b0d7c66d928f2c79f33a243",
   "claims": [
     {
       "id": "claim_de419dbd33c74222a34f226586882a93",
@@ -351,38 +351,10 @@
           "version": "repo-lines-v1:sha256:38523748c16f344685ae6d96d3e0a3a88a6db8086ce6ad27ae45fcad34c86f8f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2MyZjAyNWFjODhkYjYzYWYwZTViZDZhN2RmNDI5MmUzY2ZhYzQ0MjRmY2FlYmVlOGFiNjAwOTQ3NGEzNGU4MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JhZWQ1YWVhNTlmMWZhZDRhMWY5NGJmOTgyNmJmYTRiYTkzZDg0NWVjZDhkNGY1Mjc0OGYwZTI2ODI2NWIwMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWQ1YzBlNGU5YzkwZWM3YjQzNzM1NTI0ZjkwYTIzOTcxNjZlM2YyOGVkZDZhNDIxNGU1ZDBkNjNlZTVjNjAyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZiZGIxNGM0ODAwNDc1YzlkOWU4NWYyNDgxYzEwMjUyOGI1ZGU2OGU0N2MyMjE2YmI5MTE5MGJiZDdlOTFlMSJ9"
         }
       ]
-    },
-    {
-      "id": "claim_a85f8f146a934c54bf5a2990019937c3",
-      "statement": "For HO 04 90 (2026-01), W.5 makes endorsement coverage unavailable when the backup, overflow, or discharge resulted from the insured’s known failure to maintain the serving sewer line, drain, sump, or sump pump and a reasonable person would have remedied it; W.6 additionally requires an installed and operable backwater valve or equivalent device when the residence premises has a finished area below grade.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L47",
-          "version": "repo-lines-v1:sha256:ea7c75ef5255a3812c7bbcf4c7cdac40622742749f1f098df444b5b3a9fa9a13:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NmNhOThlMjJkODNmYjBhNmE1Y2Y0MWM3YTFiNjk5NmQ1NmNhMWYyY2RiOTE3MTA5NWVlMTRjYmZhMWRjODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNzBhMGExMGVkMTE1OGMyOGE0N2MyNzI2MmZjNDVhNTcwZGQ4MmEyMmI5YWVhMmQwZmE4YzNhYjMwNmExODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyZjBlOWY1NDc1OWI2OTIzN2M4YmVjZWE1MzIxZDM4MGY4ZGNkMDkxYjE3ZGIyM2RjYzc5ZmNlZWZkY2Y2OTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1OTc2ZDRjNTUzNGMyMTA4N2QxMWJhMTA2M2RlYzA0ZDg3YjdiMTkxYjUyMzM1MDhkYmJmNzJmYmMxZWNjYjQifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_036381f3956541dc9d8edaa1bf49bb4e",
-      "statement": "Rule 220 maintenance and water-exposure controls are underwriting eligibility and evidence requirements, not contract exclusions; coverage questions must be decided under the attached form, declarations, and applicable policy terms.",
-      "evidence": [
-        {
-          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L47",
-          "version": "repo-lines-v1:sha256:72db4a14178ab2e44663c98ed5278d763bf8970bda81707b5081405c04e5a3a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwYzVlNmYxMTk4MDk2MzI0ODI3OTVhMWM3MGM3NjdiMDJlZjBhMjc3YWJkZTZlZjU4YTk2NzRjOTliNDAzMjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNzBhMGExMGVkMTE1OGMyOGE0N2MyNzI2MmZjNDVhNTcwZGQ4MmEyMmI5YWVhMmQwZmE4YzNhYjMwNmExODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmOTQyODJjNzM0YzBjMTU4NGRiN2MyMGE2NmQ3ZDMyMTQzMzU3NDM2Y2Y1NDkwNGFiYWM3ZGY2ZDUwNzI5ZjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1OTc2ZDRjNTUzNGMyMTA4N2QxMWJhMTA2M2RlYzA0ZDg3YjdiMTkxYjUyMzM1MDhkYmJmNzJmYmMxZWNjYjQifQ"
-        },
-        {
-          "resource": "repo://manuals/underwriting/manual.md#L2605-L2621",
-          "version": "repo-lines-v1:sha256:699547f443f2df13317f2a07254063c8157c6c5e0560693abd1730fed10a989a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyNTMyNTAyMjA3ZjEyMWRhMWViZTRlMDU0YWZjMDhjMzNmMTNlY2ZlODIyNTVkN2FiMzZmY2JjZGY0MTI5MWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1Y2ZkZGZkYzQ5MmYwYWU1Y2Q1NjM3ZGQ5N2I2YWQ4YThjM2VjZWUyYjRiZGFlMjBlZTRkMGI0ZGRmYmE2N2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1MTkzNjI2MTJmMjJiMjAwZjczOTExNWM3NmE1MmVjZWM0YjI3OWQzMzhmOTg2ZTFkZGEzYTYwYmJlN2RhNmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkZTIwODkyYjczNTJhODQzMzA4Yjc2M2Q5NGQ2OWU1YzkxM2IyNTc2MmUwMTk4NjgyZmM0ZjJjZDY2MjgzNTYifQ"
-        },
-        {
-          "resource": "repo://manuals/underwriting/manual.md#L27-L43",
-          "version": "repo-lines-v1:sha256:ca4e2f6baa649d35dcc06f2bd8209b62f365bc6ede77117e003657a5176cf685:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1NDJlMGI4MDk2YmVmMDdmODlmM2ZhMzMwZDE0ODI5NDFjYzJhZjI0NDU0ZWY3NWUyNTllZDU1OTU3NzM5YTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmNDlmZDY3Mzg4YzFjM2NmZmVkMDFjZDU4Zjc4Yzc3NDA4ZTIyMGQ1ZmMxZjgyMjQ2NWQ3ODc0MTVhNTEzNmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhYzdjNTBjOTcwMzg2NWQ4NjgxODMxNjBkMmIyZDA5OTNlZmFhODZlYzYwNWY0MzM4YjFmYzAyZWIyMDE4NTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1Njk3Y2ZiYWI1NDU4OGQwMjliYWM3Mjg4ZDMxYTU2MjJhZjM5YjJmMWY3YjE0ODExMGUyNjU4MjY1YTRmZTYifQ"
-        }
-      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.6.1",
-    "at": "2026-10-02T17:06:49.327Z"
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T07:29:25.602Z"
   }
 }

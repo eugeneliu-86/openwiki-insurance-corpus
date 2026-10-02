@@ -8,8 +8,6 @@ sources:
     resource: repo://bulletins/TX/b-2021-08-windstorm-deductibles.md
   - id: openwiki-source-cd26c30cc942869b52618f95
     resource: repo://forms/HO/MS/HO-04-90/2010-10.md
-  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
-    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-a7812317f4b735061e88f5bb
@@ -32,10 +30,10 @@ sources:
     resource: repo://memoranda/HO-3-2018-09.md
   - id: openwiki-source-9a9291b2de270f91ca242ea5
     resource: repo://memoranda/HO-3-2024-03.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T17:06:49.327Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
-  - by: openwiki/0.6.1
-    at: 2026-10-02T17:06:49.327Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 ---
 
 # HO-3 Form Editions
@@ -101,11 +99,7 @@ The 2018 form contains general dwelling replacement-cost and actual-cash-value p
 
 HO 23 74 **modifies** the roof settlement provision only when attached and does not itself broaden a covered peril. The 2018-09 endorsement applies ACV when roof surfacing is 15 years old at loss; the 2025-05 endorsement applies ACV when Roof Age is 12 years or greater. The 2025-05 text also states a 20% payable percentage for an applicable composition-shingle category but later states that the amount payable will not be less than 30% of applicable replacement cost. That apparent internal conflict must be escalated to the carrier or legal authority rather than resolved by assumption. These endorsement editions do not change the base form for a policy to which they are not attached. [HO 23 74 2018-09](repo://forms/HO/MS/HO-23-74/2018-09.md#L13-L27) · [2018 threshold](repo://forms/HO/MS/HO-23-74/2018-09.md#L45-L53) · [HO 23 74 2025-05](repo://forms/HO/MS/HO-23-74/2025-05.md#L13-L23) · [2025 threshold](repo://forms/HO/MS/HO-23-74/2025-05.md#L88-L109) · [2025 20% provision](repo://forms/HO/MS/HO-23-74/2025-05.md#L568-L586) · [2025 30% floor](repo://forms/HO/MS/HO-23-74/2025-05.md#L716-L735)
 
-Water-backup coverage is endorsement-dependent and edition-specific. HO 04 90 **writes back** the base-form backup boundary only within its attached coverage; it does not replace the entire HO-3 water analysis. For policies written on or after 2026-01-01, the 2026-01 edition covers direct physical loss to property described in Coverages A, B, and C caused by water or waterborne material backing up through sewers or drains, or overflowing or discharging from a sump, sump pump, or related equipment, including mechanical breakdown. Its sublimit is $10,000 for all loss in one policy period unless the Declarations show a higher endorsement limit; that sublimit is part of, not in addition to, the Coverage A, B, and C limits. A separate $1,000 deductible applies to each loss, and the Section I deductible does not apply to loss covered there. [HO 04 90 2026-01 acting document](repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L23) · [2026 exclusions and preserved base provisions](repo://forms/HO/MS/HO-04-90/2026-01.md#L25-L40)
-
-The 2026-01 endorsement preserves Section I — Exclusions A.1 (flood, surface water, waves, tidal water, storm surge, and body-of-water overflow) and A.2 (below-ground water and pressure, seepage, or leakage through structures) in full. It also adds a known-maintenance condition and, for a residence with finished below-grade area, requires an installed and operable backwater valve or equivalent device; that backflow-prevention requirement is new in 2026-01. The 2024 HO-3 base form excludes sewer, drain, and sump backup and separately excludes below-ground water, so the acting endorsement and the acted-on base provisions must be read together. [2026 maintenance and backflow provisions](repo://forms/HO/MS/HO-04-90/2026-01.md#L31-L47) · [2024 base exclusions](repo://forms/HO/MS/HO-3/2024-03.md#L485-L491) · [2024 Section I exclusions](repo://forms/HO/MS/HO-3/2024-03.md#L593-L601)
-
-The 2010-10 edition covers specified backup or sump discharge/overflow with a $5,000 limit and a $500 deductible, while the 2027-01 edition covers its stated Water Backup and Sump Discharge or Overflow events with a $10,000 limit and a $1,000 deductible. The 2027 edition supersedes 2010-10 for policies effective on or after 2027-01-01; therefore 2026-01 governs its effective-date scope and must not be backdated or replaced by 2027-01. [HO 04 90 2010-10](repo://forms/HO/MS/HO-04-90/2010-10.md#L8-L31) · [2010 limit and deductible](repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L115) · [HO 04 90 2027-01](repo://forms/HO/MS/HO-04-90/2027-01.md#L13-L36) · [2027 limit](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L260) · [2027 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L412) · [2027 memorandum](repo://memoranda/HO-04-90-2027-01.md#L143-L153) · [edition authority](repo://openwiki/policy-assembly/editions-and-state-attachments.md#L57-L66)
+Water-backup coverage is also endorsement-dependent. HO 04 90 **writes back** the base-form backup boundary only within its attached coverage: the 2010-10 edition covers specified backup or sump discharge/overflow with a $5,000 limit and a $500 deductible, while the 2027-01 edition covers its stated Water Backup and Sump Discharge or Overflow events with a $10,000 limit and a $1,000 deductible. The 2011 base form excludes sewer, drain, sump, and related-equipment backup; the 2024 base form excludes sewer, drain, and sump water unless a water-backup endorsement is attached. Unmodified flood, surface-water, and other policy exclusions remain applicable. [HO 04 90 2010-10 acting document](repo://forms/HO/MS/HO-04-90/2010-10.md#L13-L47) · [2010 limit and deductible](repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L115) · [2010 deductible](repo://forms/HO/MS/HO-04-90/2010-10.md#L157-L167) · [HO 04 90 2027-01 acting document](repo://forms/HO/MS/HO-04-90/2027-01.md#L16-L60) · [2027 coverage](repo://forms/HO/MS/HO-04-90/2027-01.md#L64-L83) · [2027 limit](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L276) · [2027 deductible](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L412) · [2011 exclusion](repo://forms/HO/MS/HO-3/2011-05.md#L493-L499) · [2024 exclusions](repo://forms/HO/MS/HO-3/2024-03.md#L591-L601)
 
 HO 23 77 is a deductible endorsement, not a roof valuation schedule. Its 2014-02 edition applies a percentage deductible to covered windstorm or hail loss and controls conflicting policy text only within that scope. When attached, the 2022-07 edition applies the percentage deductible to covered windstorm or hail loss, preserves the remaining policy provisions, and covers wind-driven rain only when wind or hail first creates the opening. The base form and the endorsement must still establish covered direct physical loss; the deductible does not create coverage. [HO 23 77 2014-02](repo://forms/HO/MS/HO-23-77/2014-02.md#L13-L29) · [HO 23 77 2022-07 preamble](repo://forms/HO/MS/HO-23-77/2022-07.md#L13-L77) · [wind-driven opening](repo://forms/HO/MS/HO-23-77/2022-07.md#L83-L95)
 
