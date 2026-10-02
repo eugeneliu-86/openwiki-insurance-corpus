@@ -40,7 +40,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -71,7 +71,6 @@ flowchart TD
 
 *Caption: Contract analysis starts with the issued line and edition, then applies the attached endorsement; the separate handling path starts at notice and does not amend the contract.*
 
-<!-- openwiki: broken internal link [/openwiki/claims/guidelines/liability-claim-handling.md] link "/openwiki/claims/guidelines/liability-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 Use [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) after an occurrence, offense, claim, or suit is reported. It is the internal entrypoint for intake, policy retrieval, investigation, defense coordination, escalation, settlement authority, recovery, and closure; it is not a coverage grant, exclusion, defense commitment, authority delegation, or policy amendment ([Liability Claim Handling Guidance, H.0](repo://guidelines/claims/liability-claim-handling.md#L13-L37)).
 
 ## Base-form differences by line and edition
@@ -159,7 +158,6 @@ The underwriting manual is stricter operationally: it directs referral of busine
 
 ## Claim-handling boundary
 
-<!-- openwiki: broken internal link [/openwiki/claims/guidelines/liability-claim-handling.md] link "/openwiki/claims/guidelines/liability-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 When notice arrives, use [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) for internal workflow, not as contract language. The guidance requires opening a file for an occurrence, offense, claim, or suit; identifying each named insured, additional insured, and claimant; obtaining the complaint or demand and service information; reviewing the policy in force before assigning counsel; and comparing allegations with the grant, exclusions, endorsements, and conditions ([Liability guideline H.6.1–H.6.8](repo://guidelines/claims/liability-claim-handling.md#L541-L559)).
 
 The claims manual supplies investigation and file controls: distinguish facts from allegations, preserve photographs, recordings, messages, and physical evidence, evaluate liability before stating a position, inspect property when useful, and refer serious injury or complex liability matters. Its internal screen treating notice within 30 days as timely and escalating later notice does not replace a policy's prompt-notice condition ([Claims Manual 8.A–8.Q](repo://manuals/claims/manual.md#L2527-L2627), [Claims Manual 8.E](repo://manuals/claims/manual.md#L2551-L2555), [HO-3 E.21–E.23](repo://forms/HO/MS/HO-3/2024-03.md#L975-L981)).
@@ -179,15 +177,9 @@ For defense and resolution, the handling guidance distinguishes the potentially 
 
 ## Related references
 
-<!-- openwiki: broken internal link [/openwiki/claims/guidelines/liability-claim-handling.md] link "/openwiki/claims/guidelines/liability-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) — intake, coverage-review workflow, investigation, defense, authority, recovery, and closure.
-<!-- openwiki: broken internal link [/openwiki/claims/manual/liability-specialty-and-recovery.md] link "/openwiki/claims/manual/liability-specialty-and-recovery.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Specialty and Recovery Manual](/openwiki/claims/manual/liability-specialty-and-recovery.md) — specialty liability investigation, authority, recovery, and closure controls.
-<!-- openwiki: broken internal link [/openwiki/coverage/parts/liability-e-f.md] link "/openwiki/coverage/parts/liability-e-f.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability E–F](/openwiki/coverage/parts/liability-e-f.md) — related liability and medical-payments reference.
-<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Editions and State Attachments](/openwiki/policy-assembly/editions-and-state-attachments.md) — policy assembly and attachment context.
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Referral Authority](/openwiki/underwriting/guidelines/referral-authority.md) — underwriting referral controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/liability-losses-and-occupancy.md] link "/openwiki/underwriting/manual/liability-losses-and-occupancy.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Losses and Occupancy](/openwiki/underwriting/manual/liability-losses-and-occupancy.md) — underwriting context; do not substitute it for claim coverage analysis.

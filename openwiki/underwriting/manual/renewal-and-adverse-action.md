@@ -17,7 +17,7 @@ sources:
     resource: repo://forms/HO/NY/HO-01-31/2016-04.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
 ---
 # Manual Renewal, Cancellation, and Nonrenewal Procedures
 
@@ -25,9 +25,6 @@ generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
 
 This page groups **Personal Lines Underwriting Manual Rule 700 — Renewal Underwriting** and **Rule 800 — Cancellation and Nonrenewal Procedures**. They are internal carrier procedures for risk review, referral, authority, notice preparation, and file control. They are not policy conditions, coverage terms, or regulator mandates. The issued policy, declarations, endorsements, and applicable state requirements control coverage and legal notice obligations; the manual controls the carrier's internal work sequence and approval discipline ([Manual Rules 100.A–100.D](repo://manuals/underwriting/manual.md#L13-L37), [Referral Matrix H.0.1–H.0.6](repo://guidelines/authority/referral-matrix.md#L13-L25)).
 
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/authority-referrals-and-clearance.md] link "/openwiki/underwriting/manual/authority-referrals-and-clearance.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 Use this page with [Manual Inspections and Documentation Standards](/openwiki/underwriting/manual/inspection-and-records.md) for evidence quality and records, [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) for delegated authority and no-clearance conditions, and [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) for the referral package. A referral is a request for direction, not an automatic decline, approval, cancellation, or nonrenewal; silence or informal discussion is not approval ([Referral Matrix H.0.5–H.0.11 and H.0.16–H.0.19](repo://guidelines/authority/referral-matrix.md#L23-L35)).
 
 ## Control flow
@@ -129,13 +126,8 @@ Failure checks:
 
 ## Related pages
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/florida.md] link "/openwiki/state-overlays/florida.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Florida State Overlay](/openwiki/state-overlays/florida.md) — Florida form editions, OIR roof rules, and contract/regulatory/internal boundaries.
-<!-- openwiki: broken internal link [/openwiki/state-overlays/new-york.md] link "/openwiki/state-overlays/new-york.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [New York State Overlay](/openwiki/state-overlays/new-york.md) — New York HO 01 31 and DFS notice positions.
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) — referral lifecycle and approval controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/authority-referrals-and-clearance.md] link "/openwiki/underwriting/manual/authority-referrals-and-clearance.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Binding Authority, Referrals, and Unclearable Conditions](/openwiki/underwriting/manual/authority-referrals-and-clearance.md) — delegated authority, mandatory referral, and no-clearance conditions.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Inspections and Documentation Standards](/openwiki/underwriting/manual/inspection-and-records.md) — evidence currency, inspection review, and audit-ready records.

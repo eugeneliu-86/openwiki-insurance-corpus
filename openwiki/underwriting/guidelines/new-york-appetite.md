@@ -16,7 +16,7 @@ sources:
     resource: repo://guidelines/appetite/ny-homeowners.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -182,15 +182,9 @@ Check for these failures before finalizing:
 
 ## Related pages
 
-<!-- openwiki: broken internal link [/openwiki/state-overlays/new-york.md] link "/openwiki/state-overlays/new-york.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [New York State Overlay](/openwiki/state-overlays/new-york.md) — contract, DFS notice, data-call, and internal-layer separation.
-<!-- openwiki: broken internal link [/openwiki/coverage/perils/wind-hail-deductibles.md] link "/openwiki/coverage/perils/wind-hail-deductibles.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Wind and Hail Deductibles](/openwiki/coverage/perils/wind-hail-deductibles.md) — broader deductible concepts and contract handling.
-<!-- openwiki: broken internal link [/openwiki/underwriting/guidelines/referral-authority.md] link "/openwiki/underwriting/guidelines/referral-authority.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting Referral and Authority Guidance](/openwiki/underwriting/guidelines/referral-authority.md) — referral package and approval lifecycle.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/inspection-and-records.md] link "/openwiki/underwriting/manual/inspection-and-records.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Inspection and Records](/openwiki/underwriting/manual/inspection-and-records.md) — inspection evidence, exception, closure, and audit-ready record controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/property-and-water-risk.md] link "/openwiki/underwriting/manual/property-and-water-risk.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Property, Roof, and Water Risk Controls](/openwiki/underwriting/manual/property-and-water-risk.md) — general property, roof, and water evidence controls.
-<!-- openwiki: broken internal link [/openwiki/underwriting/manual/renewal-and-adverse-action.md] link "/openwiki/underwriting/manual/renewal-and-adverse-action.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Manual Renewal, Cancellation, and Nonrenewal Procedures](/openwiki/underwriting/manual/renewal-and-adverse-action.md) — internal renewal and adverse-action workflow.
