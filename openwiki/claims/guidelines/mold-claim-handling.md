@@ -23,7 +23,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-a6e7a7f52df2ed58605a3898
     resource: repo://training/guidance-versus-contract.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
 ---
 # Mold Claim Handling
 
@@ -144,8 +144,13 @@ Close only after documenting the coverage decision, payment basis, outstanding i
 
 ## Related pages
 
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/water-loss-handling.md] link "/openwiki/claims/guidelines/water-loss-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water Loss Handling](/openwiki/claims/guidelines/water-loss-handling.md) — operational water-source, mitigation, evidence, scope, payment, and escalation workflow.
+<!-- openwiki: broken internal link [/openwiki/claims/manual/property-perils-and-loss-types.md] link "/openwiki/claims/manual/property-perils-and-loss-types.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Property Perils and Loss Types](/openwiki/claims/manual/property-perils-and-loss-types.md) — cross-peril investigation and mold routing aid.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/fungi-and-bacteria.md] link "/openwiki/coverage/perils/fungi-and-bacteria.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Fungi and Bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — contract composition, limited write-back, aggregate, and disclosure analysis.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-damage.md] link "/openwiki/coverage/perils/water-damage.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water Damage](/openwiki/coverage/perils/water-damage.md) — water grants, exclusions, source pathways, and endorsement boundaries.
+<!-- openwiki: broken internal link [/openwiki/state-overlays/north-carolina.md] link "/openwiki/state-overlays/north-carolina.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [North Carolina State Overlay](/openwiki/state-overlays/north-carolina.md) — North Carolina contract, disclosure, and claim-administration layers.

@@ -20,7 +20,7 @@ sources:
     resource: repo://guidelines/claims/mold-claim-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -119,6 +119,7 @@ The **HO-3 2024-03** form’s P.19 says, “We do not cover loss caused by smog,
 
 ## Claims handling is an operational layer, not a coverage grant
 
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/mold-claim-handling.md] link "/openwiki/claims/guidelines/mold-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 The [Mold Claim Handling Guidance](/openwiki/claims/guidelines/mold-claim-handling.md) is internal operational material, not part of a policy contract. The Property Claims Handling Manual likewise directs internal handling and authority; it does not alter coverage or create obligations. Policy language, attached endorsements, applicable state forms, and applicable law remain the sources of contractual coverage.
 
 The handling workflow should:
@@ -141,7 +142,11 @@ For an alleged fungi loss, the bulletin requires fact review and reasonable inve
 
 ## Related coverage context
 
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-damage.md] link "/openwiki/coverage/perils/water-damage.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water damage and related perils](/openwiki/coverage/perils/water-damage.md) — use for the initiating water cause and water exclusions.
+<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-3.md] link "/openwiki/coverage/forms/ho-3.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-3 form](/openwiki/coverage/forms/ho-3.md) — use for the base-form provisions and edition context.
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/water-loss-handling.md] link "/openwiki/claims/guidelines/water-loss-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water loss claim handling](/openwiki/claims/guidelines/water-loss-handling.md) — use for operational water-loss investigation and mitigation.
+<!-- openwiki: broken internal link [/openwiki/state-overlays/north-carolina.md] link "/openwiki/state-overlays/north-carolina.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [North Carolina state overlay](/openwiki/state-overlays/north-carolina.md) — use for state-specific implementation context.

@@ -15,7 +15,7 @@ sources:
     resource: repo://forms/HO/NC/HO-01-32/2018-05.md
   - id: openwiki-source-2b86de67275893a8b33d953b
     resource: repo://manuals/underwriting/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-18T05:47:51.376Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
 ---
 
 # North Carolina State Overlay
@@ -167,7 +167,11 @@ Common failures are using an unattached or wrong-edition form, treating the $5,0
 
 ## Related pages
 
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/fungi-and-bacteria.md] link "/openwiki/coverage/perils/fungi-and-bacteria.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Fungi, wet rot, dry rot, and bacteria](/openwiki/coverage/perils/fungi-and-bacteria.md) — contract exclusion, limited write-back coverage, and the separate North Carolina disclosure boundary.
+<!-- openwiki: broken internal link [/openwiki/coverage/perils/water-damage.md] link "/openwiki/coverage/perils/water-damage.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Water damage and related perils](/openwiki/coverage/perils/water-damage.md) — water cause, source, and exclusion analysis.
+<!-- openwiki: broken internal link [/openwiki/policy-assembly/editions-and-state-attachments.md] link "/openwiki/policy-assembly/editions-and-state-attachments.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Policy assembly: editions, endorsements, and state overlays](/openwiki/policy-assembly/editions-and-state-attachments.md) — date-sensitive composition and authority layers.
+<!-- openwiki: broken internal link [/openwiki/underwriting/manual/state-exceptions.md] link "/openwiki/underwriting/manual/state-exceptions.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Underwriting state exceptions](/openwiki/underwriting/manual/state-exceptions.md) — internal referral and documentation controls.

@@ -20,7 +20,7 @@ sources:
     resource: repo://guidelines/claims/roof-claim-handling.md
   - id: openwiki-source-77e27410bda4d59c2b779d5e
     resource: repo://manuals/claims/manual.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T20:50:57.023Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -38,6 +38,8 @@ Keep four decisions separate:
 3. **Regulatory administration:** what a state bulletin requires for underwriting, notices, disclosures, or claims handling. A bulletin does not silently amend the policy.
 4. **Internal roof-age or authority action:** what the carrier requires for investigation, referral, or underwriting. An internal age rule is not a claim exclusion.
 
+<!-- openwiki: broken internal link [/openwiki/coverage/settlement/roof-settlement.md] link "/openwiki/coverage/settlement/roof-settlement.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/state-overlays/florida.md] link "/openwiki/state-overlays/florida.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 Use [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md) for the contract comparison and edition analysis. This page supplies the handling controls that lead to that contract analysis; it does not replace it. For Florida form assembly and bulletin boundaries, use [Florida State Overlay](/openwiki/state-overlays/florida.md).
 
 ## Roof claim lifecycle
@@ -213,6 +215,7 @@ Do not import the bulletin’s **15-year schedule trigger** or **25% minimum whe
 
 - Internal roof handling thresholds, investigation steps, referral triggers, communication, authority, and closure: `guidelines/claims/roof-claim-handling.md`, H.0–H.7.
 - General claim authority, reservation, record, and closure controls: `manuals/claims/manual.md`, 1.A–1.AV and 2.X–2.AB.
+<!-- openwiki: broken internal link [/openwiki/coverage/settlement/roof-settlement.md] link "/openwiki/coverage/settlement/roof-settlement.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - Contract settlement and edition comparison: [Roof Surfacing Settlement and Roof Claims](/openwiki/coverage/settlement/roof-settlement.md).
 - Base HO-3 coverage and roof peril provisions: `forms/HO/MS/HO-3/2024-03.md`, AGR.3, A.19–A.24, P.37–P.55, and X provisions.
 - Roof settlement endorsements: `forms/HO/MS/HO-23-74/2018-09.md` and `forms/HO/MS/HO-23-74/2025-05.md`.
