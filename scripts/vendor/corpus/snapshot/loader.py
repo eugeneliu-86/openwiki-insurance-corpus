@@ -24,7 +24,7 @@ from contracts.corpus_manifest import (
 
 logger = logging.getLogger(__name__)
 
-OWNER = os.environ.get("CORPUS_OWNER", "eugeneliu-86")
+OWNER = os.environ.get("CORPUS_OWNER", "langchain-samples")
 REPO = os.environ.get("CORPUS_REPO", "openwiki-insurance-corpus")
 
 CACHE_ROOT = pathlib.Path(tempfile.gettempdir()) / "coverage-agent-corpus"
