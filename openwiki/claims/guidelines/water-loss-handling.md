@@ -4,8 +4,8 @@ title: Water Loss Handling
 description: End-to-end operational workflow for water-loss claim intake, source tracing, mitigation, evidence, coverage consultation, valuation, payment, recovery, and closure. It keeps handling controls separate from the policy, endorsement, settlement terms, and applicable state requirements that govern coverage.
 tags: [claims, water-loss, mitigation, causation, evidence, coverage-consultation, settlement]
 verified:
-  - by: openwiki/0.6.0
-    at: 2026-10-02T02:21:20.961Z
+  - by: openwiki/0.5.2
+    at: 2026-09-19T07:29:25.602Z
 sources:
   - id: openwiki-source-6f2e8c6b93df2e40df6addd5
     resource: repo://bulletins/IL/idoi-2017-10-water-backup-disclosure.md
@@ -15,10 +15,6 @@ sources:
     resource: repo://forms/DP/MS/DP-3/2026-01.md
   - id: openwiki-source-0de2907066d0f023c5c2e68b
     resource: repo://forms/HO/MS/HO-04-81/2018-09.md
-  - id: openwiki-source-cd26c30cc942869b52618f95
-    resource: repo://forms/HO/MS/HO-04-90/2010-10.md
-  - id: openwiki-source-36bcf8e9754ce8cd9b63db52
-    resource: repo://forms/HO/MS/HO-04-90/2026-01.md
   - id: openwiki-source-6a71dbfe57881e21b8a0e5ea
     resource: repo://forms/HO/MS/HO-04-90/2027-01.md
   - id: openwiki-source-7176aead92778c93cb0441d2
@@ -31,7 +27,7 @@ sources:
     resource: repo://manuals/claims/manual.md
   - id: openwiki-source-98a0b702206aa7ec38174d58
     resource: repo://training/water-losses-101.md
-generated: { by: "openwiki/0.6.0", at: "2026-10-02T02:21:20.961Z" }
+generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
 ---
 # Water Loss Handling
 
@@ -79,11 +75,9 @@ flowchart TD
 
 Open a distinct claim file when a report may involve covered property, mitigation, or a coverage question. Record the reporter, reported source, loss location, affected property, discovery date, policy and party information, and facts that remain unverified. Make prompt contact, explain the handler’s role and requested information, and document the method, recipient, and next action ([Water guidance H.6.1–H.6.3 and H.6.49–H.6.50](repo://guidelines/claims/water-loss-handling.md#L481-L485); [Manual 1.B–1.E](repo://manuals/claims/manual.md#L21-L49); [Manual 1.C–1.D](repo://manuals/claims/manual.md#L27-L37)).
 
-Use the notice rule in the contract actually in force; do not turn one endorsement’s deadline into a universal rule. Before applying any HO 04 90 position, verify the policy effective/loss date, declarations, form number and edition, and the endorsement actually attached. The repository contains materially different HO 04 90 editions: 2010-10 is superseded for policies written on or after 2027-01-01 but remains in force for policies written under it; 2026-01 replaces 2010-10 for policies written on or after 2026-01-01; and 2027-01 is effective 2027-01-01 ([HO 04 90 2010-10 preamble](repo://forms/HO/MS/HO-04-90/2010-10.md#L8-L10); [HO 04 90 2026-01](repo://forms/HO/MS/HO-04-90/2026-01.md#L2-L5); [HO 04 90 2027-01 frontmatter](repo://forms/HO/MS/HO-04-90/2027-01.md#L2-L6)). Do not select 2010-10 or 2027-01 by default, and do not infer attachment from a form catalogue or a generic water-damage description.
+Use the notice rule in the contract actually in force; do not turn one endorsement’s deadline into a universal rule. Examples in this source set are:
 
-- **HO 04 90 (2010-10):** requires prompt notice and reasonable protection/preservation duties; it does not establish the 2027-01 edition’s wording or figures ([HO 04 90 2010-10 W.30–W.34](repo://forms/HO/MS/HO-04-90/2010-10.md#L95-L105)).
-- **HO 04 90 (2026-01):** requires prompt notice and has a $10,000 policy-period sublimit unless a higher declarations limit applies, plus a separate $1,000 deductible ([HO 04 90 2026-01 W.1–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L23)).
-- **HO 04 90 (2027-01):** requires prompt notice, but delay bars recovery only when it materially prejudices investigation or adjustment ([HO 04 90 2027-01 W.19](repo://forms/HO/MS/HO-04-90/2027-01.md#L351-L360)).
+- **HO 04 90 (2027-01):** notice within 30 days after discovery under its W.5 condition ([HO 04 90 W.5.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L791-L795)).
 - **DP 04 95 (2021-05):** reporting within 30 days after the loss under its W.5 condition ([DP 04 95 W.5](repo://forms/DP/MS/DP-04-95/2021-05.md#L347-L359)).
 - **HO-3 2024-03:** prompt notice stating known facts, damaged property, and location; the cited base condition does not state a 30-day period ([HO-3 P.51](repo://forms/HO/MS/HO-3/2024-03.md#L567-L575)).
 
@@ -130,7 +124,7 @@ Before a coverage position, record the line, form edition, declarations, loss da
 |---|---|
 | Accidental plumbing or appliance discharge | Under HO-3 2024-03, accidental discharge or overflow may cause direct physical loss, but continuous or repeated seepage is excluded and the system or appliance from which water escaped is not covered. Separate the source component from resulting property damage ([HO-3 P.29–P.33](repo://forms/HO/MS/HO-3/2024-03.md#L523-L533)). |
 | Sewer or drain backup or sump overflow under HO-3 | HO-3 2024-03 excludes sewer, drain, and sump pathways unless the applicable water-backup endorsement is attached. Verify attachment; do not rely on the base form’s reference to a limit ([HO-3 X.7–X.11](repo://forms/HO/MS/HO-3/2024-03.md#L593-L601)). |
-| HO 04 90 attached | First verify the actual attached edition. Do not apply an edition’s grant, conditions, limit, deductible, settlement basis, or exclusions to another edition. 2010-10 provides the older defined backup/sump grant and $5,000 limit with a $500 deductible ([HO 04 90 2010-10 W.1–W.20](repo://forms/HO/MS/HO-04-90/2010-10.md#L35-L75); [W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L127); [W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L157-L167)). 2026-01 covers sewer/drain backup and sump discharge or overflow, uses a $10,000 policy-period sublimit unless declarations show higher, and has a separate $1,000 deductible ([HO 04 90 2026-01 W.1–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L23)). 2027-01 covers the defined water events and reasonable protective/water-removal expenses within its $10,000 limit, subject to its own exclusions and conditions ([HO 04 90 2027-01 W.1–W.14](repo://forms/HO/MS/HO-04-90/2027-01.md#L62-L117); [W.2 exclusions and expenses](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L321)). |
+| HO 04 90 (2027-01) attached | The endorsement covers direct physical loss from defined Water Backup or Sump Discharge or Overflow, including resulting damage and reasonable protective measures. It expressly permits sudden or gradual events, but retains exclusions for flood, surface water, repeated leakage, maintenance, defective equipment, and other stated causes ([HO 04 90 W.1](repo://forms/HO/MS/HO-04-90/2027-01.md#L62-L117); [HO 04 90 W.2 exclusions](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L321)). |
 | DP-3 2026-01 with DP 04 95 attached | DP-3 excludes sewer or drain backup and sump overflow unless DP 04 95 is attached and separately limits loss subject to a backup-and-sump-overflow limit. DP 04 95 supplies the grant and retains its own exclusions and duties ([DP-3 X.6–X.7](repo://forms/DP/MS/DP-3/2026-01.md#L1459-L1466); [DP 04 95 W.1](repo://forms/DP/MS/DP-04-95/2021-05.md#L41-L81)). |
 | Flood, surface water, groundwater, opening, or external runoff | Trace the actual entry path. Do not relabel external water as backup merely because it reached a drain or sump; apply the exact form and endorsement exclusions. DP-3, for example, separately excludes below-ground water and flood or surface water ([DP-3 X.4–X.5](repo://forms/DP/MS/DP-3/2026-01.md#L1451-L1457)). |
 
@@ -153,7 +147,7 @@ Build the scope in distinct categories:
 
 Apply valuation, limits, and deductibles only after the covered portion and supported scope are established. Current examples are not interchangeable:
 
-- **HO 04 90 (edition verified):** apply only the attached edition’s limit and deductible. 2010-10 states a $5,000 limit and $500 deductible ([HO 04 90 2010-10 W.2–W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L107-L127); [W.3](repo://forms/HO/MS/HO-04-90/2010-10.md#L157-L167)); 2026-01 states a $10,000 policy-period sublimit unless a higher declarations limit applies and a separate $1,000 deductible ([HO 04 90 2026-01 W.2–W.3](repo://forms/HO/MS/HO-04-90/2026-01.md#L13-L23)); 2027-01 states a $10,000 limit, includes reasonable protection and water-removal expenses within that limit, and applies a $1,000 deductible after covered loss is determined ([HO 04 90 2027-01 W.2–W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316); [W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L435)).
+- **HO 04 90 (2027-01):** $10,000 aggregate maximum for water backup or sump discharge or overflow; reasonable protection and water-removal expenses fall within the limit; the $1,000 deductible applies to each covered loss after covered damage is determined and is not allocated separately among property categories from the same backup ([HO 04 90 W.2](repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L316); [HO 04 90 W.3](repo://forms/HO/MS/HO-04-90/2027-01.md#L391-L435)).
 - **DP 04 95 (2021-05):** $5,000 aggregate limit for Water Backup and Sump Overflow, reduced by payment, and a $1,000 deductible applied to covered loss after applicable limitations and exclusions ([DP 04 95 W.2](repo://forms/DP/MS/DP-04-95/2021-05.md#L113-L127); [DP 04 95 W.3](repo://forms/DP/MS/DP-04-95/2021-05.md#L179-L199)).
 - **HO-3 2024-03:** its base Section I deductible must not be less than $1,000 unless modified by endorsement, but that minimum does not create backup coverage. Its dwelling replacement-cost treatment remains subject to the applicable settlement conditions ([HO-3 S.29–S.35](repo://forms/HO/MS/HO-3/2024-03.md#L765-L783)).
 
@@ -196,8 +190,6 @@ Preserve claim notes, photographs, estimates, correspondence, recordings, and pa
 - [Property Claims Handling Manual](repo://manuals/claims/manual.md)
 - [Water Losses 101](repo://training/water-losses-101.md)
 - [HO-3 2024-03](repo://forms/HO/MS/HO-3/2024-03.md)
-- [HO 04 90 Water Backup and Sump Discharge or Overflow 2010-10](repo://forms/HO/MS/HO-04-90/2010-10.md)
-- [HO 04 90 Water Backup and Sump Discharge or Overflow 2026-01](repo://forms/HO/MS/HO-04-90/2026-01.md)
 - [HO 04 90 Water Backup and Sump Discharge or Overflow 2027-01](repo://forms/HO/MS/HO-04-90/2027-01.md)
 - [DP-3 2026-01](repo://forms/DP/MS/DP-3/2026-01.md)
 - [DP 04 95 Water Backup 2021-05](repo://forms/DP/MS/DP-04-95/2021-05.md)
