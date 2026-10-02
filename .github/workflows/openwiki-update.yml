@@ -120,6 +120,8 @@ jobs:
           OPENWIKI_MODEL_ID: ${{ steps.mode.outputs.model }}
           OPENWIKI_PAGE_CONCURRENCY: ${{ steps.mode.outputs.workers }}   # 1-8; OpenWiki backs off on 429s
           LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
+          # The workspace the traces land in (the poc's deployment workspace); unset, the key's default.
+          LANGSMITH_WORKSPACE_ID: ${{ vars.LANGSMITH_WORKSPACE_ID }}
           LANGCHAIN_PROJECT: openwiki
           LANGCHAIN_TRACING_V2: 'true'
 
