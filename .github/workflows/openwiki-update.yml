@@ -54,7 +54,7 @@ jobs:
         # and jsdom are its peer dependencies. Back to `openwiki@<version>` once released.
         run: |
           git clone --quiet --no-checkout https://github.com/langchain-ai/openwiki.git /tmp/openwiki
-          git -C /tmp/openwiki checkout --quiet 1d09d9526254dea6be83cbae090dc8db9f70ea30
+          git -C /tmp/openwiki checkout --quiet eb55c06c6947a3c089330cc0f237b9ea9752c4cb
           corepack enable
           (cd /tmp/openwiki && pnpm install --frozen-lockfile && pnpm run build)
           npm install --global /tmp/openwiki mermaid@11.16.0 jsdom@29.1.1
