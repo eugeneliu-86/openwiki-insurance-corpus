@@ -1,30 +1,26 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b6186e0ac4161ee1eac6614c9232f0ac842c2b893212af3461bac1023655aa0f",
+  "pageVersion": "sha256:3eb3782ec5574cbe002a3c974e76ccdcc88755ee479a973d5c1f1104d7972dad",
   "claims": [
     {
       "id": "claim_ba0afb72df08460f9367983397a38012",
-      "statement": "The policy-effective date selects the governing base-form and endorsement edition; a later edition supersedes the earlier edition only for policies effective on or after its effective boundary, while the earlier frozen edition remains applicable to policies written under it.",
+      "statement": "The policy-effective date routes a candidate base-form and endorsement edition, but the complete issued package must confirm attachment; HO 04 90 2026-01 states that it replaces 2010-10 for policies written on or after 2026-01-01, and HO 04 90 2027-01 supersedes 2010-10 for policies effective on or after 2027-01-01, while an earlier frozen edition remains applicable to policies written under it.",
       "evidence": [
-        {
-          "resource": "repo://README.md#L35-L37",
-          "version": "repo-lines-v1:sha256:4caff3c45906fdbdfc924e297f83468e6c6c26ec71ec885137d8d52b15fb595c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGRhNTZhZWQwNDgxMjRhMmMwNTI2YTM3ZDA5MWMxZGQ4N2YxYjVlOWUyNTVhYzYxNGM1MTVmZDBkN2U5MmYyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM2ZDRkZmE0ODhlZDRjZTk5ZWM3ZDBlN2QzNzBlNTRiMjZmMGYyOTkwMjgyNzQ1NjVlNzhiMmEyZWEwNjgzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzM5ZDY2ZjE0Y2ZjMGY0NjcxYTFkN2IxMjA5MjM3ODFjNmZjMjFiZWMzZjViNDY4MjNhYjc0NjQ3ZDliZDI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJmNTE5YzUxYjA4NTNhNGJiZmM2ZmZhODZmZDVmODM2MjE2Mzg2OGU4MTg5ODVlYjEwYzg2NzFmYTg1ZTUxOCJ9"
-        },
         {
           "resource": "repo://forms/HO/MS/HO-04-90/2010-10.md#L1-L9",
           "version": "repo-lines-v1:sha256:d9b48a05fbb1b884a08b06d93b8b1bbac5ac9ce918f611b9a29e6261b067d9a3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDg1M2QyZGYwYTIwMzdmZDQ4MzZjNjdmNGZiZWU1N2RlN2JlYTBlZjU0Y2IxMjdhZjcyNWRlNjAyYWNlNjAxYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
         },
         {
           "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L1-L7",
           "version": "repo-lines-v1:sha256:4d22f38ec63640b3f2645f82490369b73c0ff9f4115d1e9395f6770b85d61212:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWM0NjQxODZmZTY5MmIxMTFhMDA2MWEyZTFhYTFkNzQ5NDJmN2Q0YWM3ZTdiNDQyNzEyMTFkNWVkZjI1NzBiNSJ9"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2018-09.md#L1-L9",
-          "version": "repo-lines-v1:sha256:8ac41345651bfa93eb0de52fb7542552f3276a26db2a6d51c7ba236815f46444:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY1MTA1MjI4ODJlZjMwODAxNDg5MWQ3ODdmMWVmYmRmNGJjY2M4NzIzMWRjOGQwYjM4MjRjZmEyNGNmZmYxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzY2Y1MTkyMzU0ZjcxNjE1YWM1MTAzNGIzZTk3YzIwZWRhOTk2NDNmY2FmNWJiZTZkNDFhZDU5YmQxMjE2NyJ9"
-        },
-        {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L1-L7",
-          "version": "repo-lines-v1:sha256:f14de996efff641063183bcf8bd811569d4b81e956d43751448927cec34f2cca:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUyZDcxMTEwM2Q1MGE0Mzc4MzBjNmZiY2QwNGZiNGJhYjQ5YTBmODJmNmQyNmQxYzc5MWM2ZTg0ODhkZDA5MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzUwMTIzZGYxZjhiNmYwNTk0OWVjMjJkZGY5Mzg1NTZmOTFjMDcxMjg4NzhiOTk4MzcxNTczYjEyZmYyNjRkOSJ9"
+          "resource": "repo://training/choosing-the-governing-edition.md#L69-L79",
+          "version": "repo-lines-v1:sha256:8c8aa0787112bf6cc25a9c8aee920938072a49c14ea7e755cbd0f1e28d8f5aeb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhMTZkYjc5MzhlZDMxMmZkYzJiNzYyZTU4ODY5Y2M0YzUzMmQ1MGNjYmRkNTljZmIyZWU2ZDZlMDM1MzZhZDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxY2I5NzYwNTIxNWE2YmQ5YjM5NjIzYjFlNzYyYzk5OGY0NGU0YTI5ZjA2MWNmOWI1YmQxNmEzZTc2ZTdjODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5OTM2Yzc5YTA1OGYwNzNiMDJlNWRiZGE3OWI2OGQzMGIxZDdlNjE0MDkwMmYwNjcyMzIzOGRiNWFlMzhmZTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFjMTI1ZDhlNDg2Mzg4YzI5YTQyNTlmMTNkNDJkOTFlZTYwOWE1ZjA0Nzg4MDI2Y2U5NDk1NWQ0NDQ4OTdkYzYifQ"
         }
       ]
     },
@@ -44,15 +40,19 @@
     },
     {
       "id": "claim_71e62a006cdd4d6aa8933b8688d03b98",
-      "statement": "HO 04 90 2027-01 writes back HO-3 2024-03 X.8-X.9 only for direct physical loss caused by its Water Backup or Sump Discharge or Overflow coverage; the base form’s flood and surface-water exclusions remain applicable.",
+      "statement": "HO 04 90 2027-01, when attached, writes back the applicable HO-3 water-exclusion relationship only for its stated Water Backup or Sump Discharge or Overflow coverage and preserves unmodified policy terms; the HO-3 flood, surface-water, and below-surface-water exclusions remain applicable unless the endorsement expressly changes them.",
       "evidence": [
         {
-          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L256-L282",
-          "version": "repo-lines-v1:sha256:51e8a1cf4e1cfc0aec580432c3335332ad338ad91c0d115ea476ed3b1ede2367:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlMDBlYTBiZWM5YzYzYjkzODhmZWU4YjhlNmZmMmI3MTE5ZjRjNDI5NGUzNjdhNzMzYjg5OTYzZDU2YmI0NzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NDBkOTQ0YzkxMDBjZWJjYzY5YTIyN2NiYWRhZGI1ZTRiZGVlMmQzMDA1NGU5ZGE0NWZmMzhiYzk3N2I2OTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYyODc2NGM1M2QzMzFlY2IwMjM2NzY1NTAwY2MwODg4YTI1NmVmZTYwNWYxMjlmNDNkZDE0ZjFlYTk5Y2MyZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFjZWY2ZjIzYWFhOGNiYWIzMGU4YmYxMzQ3NjEzYjQ1ZDliOWQzNTQ3YmU5YTdhYTFlOThkYWU5Yzk2NTVmNDIifQ"
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L16-L36",
+          "version": "repo-lines-v1:sha256:e9c46d92b57b8b32be59cff3b3fe5e6b1958c9ca870b6b7d5be9f196a86e8bd1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI5MTY3OGViZDg4YTUzN2FlNDZhNTdmZTQzMjRlM2I5Y2JiOGRiNmI4YzE5NjVjYzRiYmRhNjQwMTBhZDkxOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0Y2E0ZDgwYTkyYmE4ODdmZTAwZmVhYjVjYmVjZWVjZDBlMGQxOTAxOGM4OWQzMDU3YjQyOTlmMGI5OWYzZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZlMmJkMWZkMmJlYTI2ZmQ3ZmJjODA3YmE0MTZkNzA2YmZlYjhmMTQxMzcyZTQyZmViNzY3MTY1ZWNhN2Q3MjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM0OGM2NTg5ODQ1NDczYjc5YmVhMmQ1MmRiMWI5MjlhNGFmOTZmOGIzNWY2YmU2ZGE1NTYxNDQxZTk4ZmNjZjUifQ"
         },
         {
-          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L593-L597",
-          "version": "repo-lines-v1:sha256:60b2d3fc09250330956f277d55a36ff72a3c47994acd0ef594962a19dd061703:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0MWZlYTUyYmJiODdkYTk4Mjk4YjRjNWE1ZWQyMDM4MDlkOWM3ZmQyMDM2ZmI3ZjQ5ZjQwMTIyNjQxZjVkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzEyYjMyYWQ3MTliMDQ1N2ZiNjNiMjk4YTViODFkNGY1MDM1MDFhMzY5NWZkZGRmNzBiZWFkOTU1YjBkMTBlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWIxOTc5MDgyNDUxMjUzYTQyOTA5MjgwY2M1MWRjNjNlM2ZhNTNjOWU1ZGZkY2UxMzU1M2NhMjc5MWIzZWNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTgzN2ZjYzlhNjQyM2UwY2I2ZGE5NzFkYTZkYTFkMTcyYmFhYzcyMTA3ZDY2ODBhNDhkZjE3YTA5YzU3MjA3MyJ9"
+          "resource": "repo://forms/HO/MS/HO-04-90/2027-01.md#L254-L282",
+          "version": "repo-lines-v1:sha256:853caa0a89b6d56c9416215f483335de6eeafb211ebc5139f65a5a28c46ee43e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYWNhNzI1MjE3MWUyMzc5ODdhZDFhMGU1MjY4NGNhNjBiMWM0MTZiYjc2OThjMjk3ZjQ4M2MxNDY0MzQyMDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NDBkOTQ0YzkxMDBjZWJjYzY5YTIyN2NiYWRhZGI1ZTRiZGVlMmQzMDA1NGU5ZGE0NWZmMzhiYzk3N2I2OTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZkNDQ4YzRhOTRhYzI2ZmZmZTVmNGIyMzJmZjcwYjRkMzg0MjczOTUwZDIxMGUwNmRkNDdjOTBkZDBmYzAwNmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFjZWY2ZjIzYWFhOGNiYWIzMGU4YmYxMzQ3NjEzYjQ1ZDliOWQzNTQ3YmU5YTdhYTFlOThkYWU5Yzk2NTVmNDIifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L485-L491",
+          "version": "repo-lines-v1:sha256:ebb3c449911e3c24c02ef191a80afdb64b79d38cfb3c0eca59ef400518dda6e0:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzliM2I2ZGNhMzdlMWI0ZTIxMjYzNDY0Mjk3ZTU0NmQ1ZTg4YWU5NDQxMjk3MGNjNWUyMmY1YzI0ZWY4MWJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTM1ODBhNDc1ZWRmNzZmNDdiYzgzZDY1NWFiYThjYzI2NWZhNTg1OTk3MjU3ZDcwZWUxNzUxZTE4ZGUyNTY3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWI2NGI5NWVmNjRlYTBjNzg5YzdiNmIyNDZhZDkxMDM1ZTA1NzMzOTkxYmJiYzBjYmQyZjFiMmUyZThiN2FmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjQzMjZkZDM1ZjAzNjA0MzVjN2U2NDM0YWQ5YjhlMzBmYjg2ZGY3MmViYjU0Yzg0N2U4YTM4YmZkN2I1Njk2MSJ9"
         }
       ]
     },
@@ -407,10 +407,46 @@
           "version": "repo-lines-v1:sha256:3d3380802e35b230926436b419fc5403fb181f29708ec60b1885342028e9cb3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwMjAwZWE0N2VhNGFlZTc5NDJjMWY1OWIyZjM0Mjc2NjAyMDI3YjI5NDk2ZGIwOGRmYmUzNjUwZDc0Y2NhOTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzN2RhNTlkZDRkNzgzMDExNzZkMTczZTg5MmY2ODk1YWFjYTRlNWIwZDc2ZGQzYjI0OTIyMGU5Y2QzYWI1OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmMjU3OWQ5ZTIyMjA2ZWFkYTM2NmNkNzQ0YTQxYzVmOGY1ZTM1OGQ0YjJmNTdhYjA4MzQ0NTk1ODg2M2VmNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVmOWE5MDAyZjlmMDZjMjBiMTM0NGFjMWY5NDM1MDU2NWUyZGZlMjdhNjVhYzk2NDFmOWEzYTEwYTY2ZDU5NzYifQ"
         }
       ]
+    },
+    {
+      "id": "claim_1b58682a0e9944aea7c0e940a07003e7",
+      "statement": "HO 04 90 2026-01 is distinct from both 2010-10 and 2027-01: it routes to policies written on or after 2026-01-01, provides a $10,000 per-policy-period sublimit unless a higher Declarations limit applies, uses a separate $1,000 deductible, covers sewer or drain backup and sump discharge or overflow even when mechanical breakdown caused the event, and imposes a finished-below-grade backflow-prevention requirement.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ea7c75ef5255a3812c7bbcf4c7cdac40622742749f1f098df444b5b3a9fa9a13:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NmNhOThlMjJkODNmYjBhNmE1Y2Y0MWM3YTFiNjk5NmQ1NmNhMWYyY2RiOTE3MTA5NWVlMTRjYmZhMWRjODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNzBhMGExMGVkMTE1OGMyOGE0N2MyNzI2MmZjNDVhNTcwZGQ4MmEyMmI5YWVhMmQwZmE4YzNhYjMwNmExODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyZjBlOWY1NDc1OWI2OTIzN2M4YmVjZWE1MzIxZDM4MGY4ZGNkMDkxYjE3ZGIyM2RjYzc5ZmNlZWZkY2Y2OTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1OTc2ZDRjNTUzNGMyMTA4N2QxMWJhMTA2M2RlYzA0ZDg3YjdiMTkxYjUyMzM1MDhkYmJmNzJmYmMxZWNjYjQifQ"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L6-L23",
+          "version": "repo-lines-v1:sha256:44fbc09b562906a7d7d0f563bbf57baf9643320b85ba1c2bf8203ba183da7f26:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiNWQ2ZDE2MWMxZGZkMzhmZmM4ZWY3NzZlNTFkY2I2MmJmYmNiY2NkYWYzMjIzNWVmOGNiNDYzMmI3NDAwZmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0ZDJlMTg2YmMxNTFiMzUyOTJjYzg1ZDFhNGI0OTM1NThjMTc0MjFkOTNkODk3MmU1MzBlNGIwMGEzMDM3NWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3OTJjZGFkMTM5NmI5NmZmYTk2OWIzMWQ3ZTVmOTVmMDJhODk1YmM0Yzc5ZDA3NjBjMmE0Njg5MWNiY2E2MzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2YmVmMzE4ZmRkODlkMjA1ODgyNjFjODIxY2E2YjAzZDFkYmE5MGExM2MxNTk5YTRlYjVmMWZkNjZiOTI3ZDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d794897b2d8e45129b58d3fbca5988b0",
+      "statement": "The HO 04 90 2026-01 source refers to modifying HO-3 Section I Exclusions A.3, while HO-3 2024-03 labels its comparable sewer, drain, and sump exclusion X.8; that cross-reference mismatch requires confirmation against the issued base, endorsement, state form, and referenced pages rather than an inferred write-back.",
+      "evidence": [
+        {
+          "resource": "repo://forms/HO/MS/HO-04-90/2026-01.md#L1-L4",
+          "version": "repo-lines-v1:sha256:8cba05ab8e0cbad994634ac3d64f39694b3fe0d0ce4f8a69af0c5fcfb3d501cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU3Yjk3YTQ3YmJhMWVjNjgwZTdkZDE5ZmY4YWZiM2UzODRkMWFjNWI4MWVhMjlmMTY4NTVmNTc1ZmVkN2M4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4Zjg2NDZiYzNiZjJhODEyYzI2NTVmNWFiNGNlNGYyZGNiOGQ0MTZkMGEwMTM3ZTJhZmRmYzc0NTIwMDNmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMGE1YTJjMDQwOWFkZDZjYTk3ZjlmZDQ3NzQ4MzM4MTlmZGVmNTZiODNmZWUxODUxN2ZhMzk4NmIzY2I0OCJ9"
+        },
+        {
+          "resource": "repo://forms/HO/MS/HO-3/2024-03.md#L467-L491",
+          "version": "repo-lines-v1:sha256:0cdf515b5b81c11a9469674e00df729563d26b542bbb3efa0c1891207f45e693:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjYTE2YTI2MGE1YmNiMzU4ODFkM2YxOWZmZjI2ZTU3ODI2MGI0NGRiZDlkY2ZmNDM4YzZmNjY2ZGJjZGM5ODAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzNTgwYTQ3NWVkZjc2ZjQ3YmM4M2Q2NTVhYmE4Y2MyNjVmYTU4NTk5NzI1N2Q3MGVlMTc1MWUxOGRlMjU2NzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0ZWNhM2YyZWMyZTM3Njg4NmEyOWEzYWM0MjVlZmM4NzNlYzFmMjA0ZDdkM2I5YmRmMGY5Yzc0MmRmMmExMTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI0MzI2ZGQzNWYwMzYwNDM1YzdlNjQzNGFkOWI4ZTMwZmI4NmRmNzJlYmI1NGM4NDdlOGEzOGJmZDdiNTY5NjEifQ"
+        },
+        {
+          "resource": "repo://training/choosing-the-governing-edition.md#L109-L119",
+          "version": "repo-lines-v1:sha256:589b4321f208bbe863ddf1e8f89b38dc836ed7e479b533af310f58e360161e2a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyY2RiZGIxMGJmZTJlMjI2NDk4ZGY0MzAwY2U4YjVlM2IzZWJiZDBiMGUxNDNkZDQ3NTNjMzRiZDdjMmNkNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0NzRhNmI5NmM4ZjdjYTRkNDUyMWNhM2UxMWE5M2JhZjZmZDk0MzExYjczNGY2YWRiOTA1YjdkMTdjNjU2MmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNlYzcyZWUwYWExNjczNDA5ZjVhYzFjYTg5MzJiMzA0NmNiNWVhOGViZTg2Y2VkOTY1Yjg3ZjJmNTU4OTZlNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1OThmN2NhNmIxMjFhOGYwZDI4N2ZlZGRhMDA5ZTVkMzg2OWIxYmQ5ODM4MWU5ZjAyNDEwMWEyM2Y4NjlkZGUifQ"
+        }
+      ]
     }
   ],
   "verification": {
-    "by": "openwiki/0.5.2",
-    "at": "2026-09-19T07:29:25.602Z"
+    "by": "openwiki/0.6.0",
+    "at": "2026-10-02T00:57:04.211Z"
   }
 }
