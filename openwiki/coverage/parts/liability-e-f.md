@@ -44,7 +44,7 @@ sources:
     resource: repo://forms/HO/MS/HO-6/2014-04.md
   - id: openwiki-source-9a3362ddf208da1fe1570617
     resource: repo://forms/HO/MS/HO-6/2023-02.md
-generated: { by: "openwiki/0.5.2", at: "2026-09-19T07:29:25.602Z" }
+generated: { by: "openwiki/0.6.1", at: "2026-10-02T02:44:58.116Z" }
 verified:
   - by: openwiki/0.5.2
     at: 2026-09-19T07:29:25.602Z
@@ -174,6 +174,7 @@ The endorsement line metadata matters: HO 04 48 and HO 04 90 are HO-3 forms, HO 
 
 The forms impose contract duties. Across the reviewed editions, those duties include prompt notice of an occurrence or accident, forwarding demands and legal papers, cooperation, records or examinations, consent before voluntary payments or assumed obligations, and protection of evidence and recovery rights. The precise failure standard, legal-action condition, other-insurance provision, fraud language, and whether an examination or authorization is required depend on the edition. ([HO-3 E/F duties](repo://forms/HO/MS/HO-3/2024-03.md#L975-L1009); [HO-4 E/F duties](repo://forms/HO/MS/HO-4/2021-10.md#L1113-L1115); [HO-5 E/F duties](repo://forms/HO/MS/HO-5/2022-06.md#L1183-L1223); [HO-6 E/F duties](repo://forms/HO/MS/HO-6/2023-02.md#L1024-L1030))
 
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/liability-claim-handling.md] link "/openwiki/claims/guidelines/liability-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 The linked [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) is internal workflow, not contract language. It directs policy retrieval, allegation and fact separation, coverage review, defense escalation, evidence preservation, authority, settlement, recovery, and closure; it expressly says the policy, declarations, endorsements, facts, and law determine coverage. ([Liability Claim Handling Guidance](repo://guidelines/claims/liability-claim-handling.md#L26-L44); [coverage-review sequence](repo://guidelines/claims/liability-claim-handling.md#L106-L135); [defense boundary](repo://guidelines/claims/liability-claim-handling.md#L163-L169))
 
 For a reported matter, use this order:
@@ -188,7 +189,12 @@ For a reported matter, use this order:
 
 ## Related references
 
+<!-- openwiki: broken internal link [/openwiki/claims/guidelines/liability-claim-handling.md] link "/openwiki/claims/guidelines/liability-claim-handling.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Claim Handling Guidance](/openwiki/claims/guidelines/liability-claim-handling.md) — intake, coverage review, investigation, defense, authority, recovery, and closure.
+<!-- openwiki: broken internal link [/openwiki/claims/manual/liability-specialty-and-recovery.md] link "/openwiki/claims/manual/liability-specialty-and-recovery.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Liability Specialty and Recovery Manual](/openwiki/claims/manual/liability-specialty-and-recovery.md) — specialty liability investigation, recovery, and closure controls.
+<!-- openwiki: broken internal link [/openwiki/coverage/liability/incidental-business-and-personal-injury.md] link "/openwiki/coverage/liability/incidental-business-and-personal-injury.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [Incidental Business and Personal Injury](/openwiki/coverage/liability/incidental-business-and-personal-injury.md) — business, farming, incidental occupancy, and personal-injury endorsement analysis.
+<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-3.md] link "/openwiki/coverage/forms/ho-3.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
+<!-- openwiki: broken internal link [/openwiki/coverage/forms/ho-4.md] link "/openwiki/coverage/forms/ho-4.md" is root-absolute, which no real consumer resolves against the repository root (not a coding agent reading the page, not GitHub's Markdown renderer, not a local viewer); use a path relative to this file instead. Fix the href or restore the target, then delete this comment. -->
 - [HO-3 Form Editions](/openwiki/coverage/forms/ho-3.md) and [HO-4 Contents Broad Form Editions](/openwiki/coverage/forms/ho-4.md) — edition and policy-assembly context.
